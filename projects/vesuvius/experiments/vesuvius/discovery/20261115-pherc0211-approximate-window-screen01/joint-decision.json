@@ -1,0 +1,45 @@
+{
+  "utc": "2026-11-15T14:37:06.224484+00:00",
+  "decision_by": "lead/root after independent researcher and lead native reviews",
+  "researcher_review_sha256": "6ae02472af34036c4df873692f412420683a45fa082c943d485481982c3cdaf4",
+  "lead_review_sha256": "ca219938cf835c77f9dacbc14a4869c36f2fb781ff8862751e85c905b583108b",
+  "independent_original_reviews_preserved": true,
+  "shared_observation": "Known coarse ring/axis preserved; unknown lower band contains connected broad components with descending parts. CT projection alone does not establish ink or physical sheet.",
+  "researcher_original_local_xywh": [
+    64,
+    384,
+    384,
+    256
+  ],
+  "lead_original_local_xywh": [
+    64,
+    400,
+    896,
+    240
+  ],
+  "agreed_next_original_CT_check_ROI": {
+    "candidate_local_xywh": [
+      64,
+      384,
+      384,
+      256
+    ],
+    "parent_xywh": [
+      4416,
+      2048,
+      384,
+      256
+    ],
+    "count": 1,
+    "selection_reason": "Lead adopts the smaller researcher lower-left ROI within the independently selected same lower reaction group, to bound the next physical-sheet/CT investigation."
+  },
+  "status": "provisional followup candidate, not confirmed ink/reading/discovery",
+  "known_phi_uses_published_input": true,
+  "unknown_approximate_full_render_validated": false,
+  "unknown_physical_sheet_established": false,
+  "novelty_established": false,
+  "new_letters": 0,
+  "historical_R236_R237_R238_statuses_changed": false,
+  "additional_CT_or_research_started": false,
+  "next_research": "Root will separately issue R240; no additional acquisition/render/model/threshold/depth/window search in R239."
+}

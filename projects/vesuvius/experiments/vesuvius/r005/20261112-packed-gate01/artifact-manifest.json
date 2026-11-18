@@ -1,0 +1,71 @@
+{
+  "created_utc": "2026-11-12T00:01:28.292553+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/audit-outcome.json",
+      "bytes": 2896,
+      "sha256": "f72fd8d56de7ae74a4cd344c7a2f57351011d1d2899589a5b60ba2f78e9d8253"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/check01/packed_raster_gate.py",
+      "bytes": 1735,
+      "sha256": "1ad04e8784123c09b28b96f7b4a2ccf7c1c218f5959454eb2c6777f740828365"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/check01/replay_gate.py",
+      "bytes": 2518,
+      "sha256": "2255b518485b96294d41c9038bdac9cc18c4bd1d555d17452cab0d536fb012d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/check01/result.json",
+      "bytes": 1872,
+      "sha256": "5451b455f9436fbe433b69b8ddc1872c4e6e392a6fb3088d647374fae2ac4627"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/check01-execution/state.json",
+      "bytes": 849,
+      "sha256": "4a1c6a47cac7c9c39c1aa5a2f7dc6d6a03e5edcc3eb255f7a5cea679ae5a34f4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/check01-execution/stdout.log",
+      "bytes": 1872,
+      "sha256": "5451b455f9436fbe433b69b8ddc1872c4e6e392a6fb3088d647374fae2ac4627"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/freeze.py",
+      "bytes": 2324,
+      "sha256": "568a9a029a5f465b4000f209e0b5bb76487c86902913c988125bc95159af945b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/record.json",
+      "bytes": 1283,
+      "sha256": "9d47f64e5382e525af184fc9b0024437f143611e6eb8f74f0d637b5a1423359c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/replay_gate.py",
+      "bytes": 2518,
+      "sha256": "2255b518485b96294d41c9038bdac9cc18c4bd1d555d17452cab0d536fb012d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/runtime-status.json",
+      "bytes": 777,
+      "sha256": "96fe824dcd7ac9bb691fa59f180664d151d5fd82a0db8ab359f9b7852fe84654"
+    },
+    {
+      "path": "experiments/vesuvius/r005/packed_raster_gate.py",
+      "bytes": 1735,
+      "sha256": "1ad04e8784123c09b28b96f7b4a2ccf7c1c218f5959454eb2c6777f740828365"
+    },
+    {
+      "path": "research/79-r005-audit-packed-gate.md",
+      "bytes": 2564,
+      "sha256": "6a425b57922fc08eb6d7b768e4f75261dd3d6c355655c836cef2a9368eee66f4"
+    }
+  ],
+  "external_files": []
+}

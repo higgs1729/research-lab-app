@@ -1,0 +1,85 @@
+{
+  "model": "Hecate 9.6 um",
+  "target": "PHerc0846A fixed seed (2601,2784,3851)",
+  "input_raw_sha256": "d1a2fa2c4814397d29bb54ef6385d197b4353cbc9db6dc3b9a855093401c54b7",
+  "global_xywh": [
+    896,
+    896,
+    384,
+    384
+  ],
+  "inner_global_xywh": [
+    928,
+    928,
+    320,
+    320
+  ],
+  "files": {
+    "hecate.py": {
+      "local": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/hecate.py",
+      "bytes": 22462,
+      "sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59"
+    },
+    "input.npy": {
+      "local": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-pilot01/input.npy",
+      "bytes": 4866176,
+      "sha256": "9f5986f0513fafc9e170c5afee600e623bffdc840b4a522eeb91825fbb7ab74d"
+    },
+    "expected.json": {
+      "local": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-pilot01/input-contract.json",
+      "bytes": 102151,
+      "sha256": "ea175657f4ed0bb8630aef1073e49b12269eee4f3acdbd2bca0363436f291fc6"
+    },
+    "cpu001.npy": {
+      "local": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-pilot01/patches/forward/001.npy",
+      "bytes": 16512,
+      "sha256": "cb53eef9fbe6561fbc4d16964c7fc8bd701ed85b9a8dd87d029cc749120dd5bf"
+    },
+    "cpu002.npy": {
+      "local": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-pilot01/patches/forward/002.npy",
+      "bytes": 16512,
+      "sha256": "bdaca40344e8b55a2df07872e1adf33f94faf4a33e1ecf004d61eb8f75d9237b"
+    },
+    "cpu003.npy": {
+      "local": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-pilot01/patches/forward/003.npy",
+      "bytes": 16512,
+      "sha256": "ddd261e85e71e9f6494be0a8bd1066aee22c328423e7ecdb8db1c7f03693d8f2"
+    }
+  },
+  "checkpoint": {
+    "local": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/assets/hecate_9.6um.pth",
+    "bytes": 522576086,
+    "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "url": "https://huggingface.co/scrollprize/hecate/resolve/9cb86e500e944b11a06a7020403cde5dffb5bcb2/hecate_9.6um.pth"
+  },
+  "cpu_raw_probability_sha256": [
+    "943182467fc467e30f300345c72b6cedfc31b04a507c9532a1d481bb19152833",
+    "a6117f3812551e6b792f8d73b9b5532ebd4e6020bf06a964ac4e2c890c6a059b",
+    "b00389bd6c0cb03f5027ee4de4f7359481048f18f4de6e5d32d50b1c79ae27c9"
+  ],
+  "cpu_bitwise_confirmation": {
+    "local": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-completion01/lead-verified.json",
+    "bytes": 1282,
+    "sha256": "ec88b20239a7621b88c0019f77788385937c8d8cd4d14a011d5c99abcc9a3905"
+  },
+  "local_ct_reference": {
+    "local": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-pilot01/ct-centre.png",
+    "bytes": 95195,
+    "sha256": "74ede5a363a331ceddbc0d8e8c0e92b26ef38abbd62d0355499ffa578329247f"
+  },
+  "image": "docker.io/runpod/pytorch@sha256:e745934b44a4071b1d20a181cdff9e92dc4af3d304cbaafbd0d23f8dacbe5300",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "max_hourly_compute_usd": {
+    "NVIDIA GeForce RTX 4090": 0.9
+  },
+  "cloud": "SECURE",
+  "container_disk_gb": 20,
+  "stage_seconds": {
+    "provision": 240,
+    "transfer": 180,
+    "model": 600,
+    "collection": 120,
+    "deletion": 60
+  },
+  "total_seconds": 1200
+}

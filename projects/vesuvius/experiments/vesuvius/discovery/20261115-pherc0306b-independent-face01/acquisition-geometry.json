@@ -1,0 +1,26 @@
+{
+  "receipts": [
+    {
+      "path": "originals/submission/code/surface/inputs/carrier.npz",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/code/surface/inputs/carrier.npz",
+      "bytes": 6991690,
+      "sha256": "dd22701e391e8aff6a632c6b569be8a3de1059eb84ec10c44bfb4daeb2120d1f",
+      "git_blob_sha1": "d3459dd9d88a735e18f2b026ee513ffe50e0ee43",
+      "status": 200,
+      "elapsed_seconds": 0.6654078999999911,
+      "utc": "2026-11-15T08:20:42.495956+00:00"
+    },
+    {
+      "path": "originals/submission/code/surface/inputs/x_z99_w074.npy",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/code/surface/inputs/x_z99_w074.npy",
+      "bytes": 762568,
+      "sha256": "fadf182717574128359ca2f1fdf6198268d6f098b7b1576a7ce2c874d650dddc",
+      "git_blob_sha1": "14a66fc7ba4163c86cd3be1f2f2a666193ca652c",
+      "status": 200,
+      "elapsed_seconds": 0.2922367999854032,
+      "utc": "2026-11-15T08:20:42.788291+00:00"
+    }
+  ],
+  "total_body_bytes": 7754258,
+  "elapsed_seconds": 0.9578508000122383
+}

@@ -1,0 +1,620 @@
+{
+  "generated_utc": "2026-11-14T13:38:24.390902+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/acquire.py",
+      "bytes": 1157,
+      "sha256": "0ec1e26dad81b38de07113e41ddddece5bbe38a59ca5749b8564c7d834e417f6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/acquisition-process.json",
+      "bytes": 675,
+      "sha256": "cea4f9cdba22f5516f48beb99614011ff90a29c6d8c919582f9f1267c164513a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/acquisition.json",
+      "bytes": 820,
+      "sha256": "d891240ab660460c3da2b7b5672f09758a20bab17a8765e177b51f03b0d5e009"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/execution.json",
+      "bytes": 2971,
+      "sha256": "b505ae7370319a1f740294417024151622c1baff056e6f10dc7622eccea579b9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/implementation-contract.md",
+      "bytes": 1244,
+      "sha256": "58efb4c5546f2d935108a68d68c5c47fc7a2e5a79123febb52b119d6989ed32b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/lead-check-process.json",
+      "bytes": 681,
+      "sha256": "aed7485ba45fd665d96620a787c256467bc4df98f68778aee1deae78f621a5d1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/lead-check.py",
+      "bytes": 3539,
+      "sha256": "f20b6e67851bfe83f01b076be92cec9fdf18991a066adfd9020120b2c22f4f41"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/lead-final-plan-check.json",
+      "bytes": 803,
+      "sha256": "97ce3cf9259b8788668980ce3b9d7b55fa65212f07b6bbd71bf775ed48b79bbd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/lead-numeric-check.json",
+      "bytes": 2784,
+      "sha256": "7f9a1172a9f337ecf073a65b2ffd0b28ff34c60e045fbe80fea69d611f027937"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/lead-visual-review.json",
+      "bytes": 1469,
+      "sha256": "b7cac65cedc9dfce5b2f86a6daecc40bf3d37e7b86ec581dbaa16c065dd07e96"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/native-pixel-check.json",
+      "bytes": 150,
+      "sha256": "ef354c832f7c8441393f0b5473ff60c3885b975f863d54a2d125a12e9aa2813a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/originals/0343-reader-v2-reverse.png",
+      "bytes": 2084949,
+      "sha256": "88bfef9b090c2fc8af4f6aed6c7fa9c1346f28b7bbc333b930eef06663475c45"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/preflight-process.json",
+      "bytes": 694,
+      "sha256": "94d2ac27d094d29b95ec0752196386bf37c3f3060fcaa0b88ad3fac9c0cb1a7c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/preflight.json",
+      "bytes": 1777,
+      "sha256": "d7703b20aefcb029bcc571d1cfb35f71f34d5ff6011fcd1f83efd9432dc194f6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/ranks/PHerc0125-forward.json",
+      "bytes": 4607,
+      "sha256": "ba5cf98c9ef70c36665e1d5672d14389280740a53bc98f32b19ed93faee50a32"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/ranks/PHerc0125-reverse.json",
+      "bytes": 4413,
+      "sha256": "31f97c0d350988c8ae60c1e1320b01cc393f4192b0330f8ef7f75c252347f3aa"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/ranks/PHerc0175B-forward.json",
+      "bytes": 4333,
+      "sha256": "c9c150ddf50485fee891d4fc5146a9852b263b1b33f8f5716216d7ae6b42f5e0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/ranks/PHerc0175B-reverse.json",
+      "bytes": 4418,
+      "sha256": "e0dd0fb9d9e873bb302f8bb7349259e46ab5a3fc3d955499480d2455c3c81f93"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/ranks/PHerc0343-reverse.json",
+      "bytes": 13870,
+      "sha256": "cd85cd77f3d1ef9057c4ecfa86ebb1e5a6f946ead85b69122792f5fcc2d98583"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/README.md",
+      "bytes": 4859,
+      "sha256": "69062067c24df20755168b8cfb2c6a1413a3cc6519e2482fc58b2090b13405f9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/record.json",
+      "bytes": 3544,
+      "sha256": "6c69d5078211ca83d4815a5880bf2c8c4319a5cf997068803b2bff718bea58df"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/resources.json",
+      "bytes": 650,
+      "sha256": "b4961c05fa6ee3f7e858c7e384ac536f2b10ac636da313fc2064336cd7504bb7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/01/overview.png",
+      "bytes": 532480,
+      "sha256": "cfe365fd0387077caf2082599cb0aff68d4b94f878795493d10aadd3a57773c3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/01/x1270-y0952.png",
+      "bytes": 690788,
+      "sha256": "acaf0ce7e1bb3f2833b6993a51749e6d49ca99af872fe4ba4d4bade60244c570"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/01/x1270-y1512.png",
+      "bytes": 601141,
+      "sha256": "1825a36c9df5f318ab4e027bff5f1824a3f0d1d210b128b3cbcba9b86438261d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/01/x1270-y2072.png",
+      "bytes": 2467,
+      "sha256": "155cf3e7d5be401278fe3f807d86131481b5caa718a0dac913a74a47ae7de249"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/01/x2294-y0952.png",
+      "bytes": 652727,
+      "sha256": "9f1043d51f33cbc8003c8d63fdbe781055a6f5c3fc95af0c843606a8084e11d2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/01/x2294-y1512.png",
+      "bytes": 292216,
+      "sha256": "e6d71d47ee9a026f79c1799fea2d1176a11d31e6c2a52f7b7f1a548d62245969"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/01/x2294-y2072.png",
+      "bytes": 1373,
+      "sha256": "8930afdf7c346909cc8be1e807f55e3f65605adffbea0b52ba0587dc7cc63823"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/01/x3318-y0952.png",
+      "bytes": 210219,
+      "sha256": "9bef55ebfba5d51305f007264cbcda157c99d7ec3cd9acd3a5360fbf43422c1b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/01/x3318-y1512.png",
+      "bytes": 3296,
+      "sha256": "bea4b006c8507167a0d67ed48f93dc09038738bf9d10afd17f6147695d52311f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/01/x3318-y2072.png",
+      "bytes": 1137,
+      "sha256": "19b179ab9aff64b96e5b10bb2bd8ff41caa76ed2e2a873df0186acc149dbba88"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/02/overview.png",
+      "bytes": 527080,
+      "sha256": "5f58e936f96b442d16c79ed3f82c88785fa96c342e5f317edfc1996f8f906159"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/02/x0568-y0000.png",
+      "bytes": 545509,
+      "sha256": "ed40ec37a1cafeab997f237e674ca92b30c6fc0e404f0613d854f1373a82cc00"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/02/x0568-y0560.png",
+      "bytes": 147894,
+      "sha256": "c09167d69cdb00b16519e2f29e323151ef257a2425fc787cb87ea4bd9cd50d0c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/02/x1592-y0000.png",
+      "bytes": 222092,
+      "sha256": "392c037b2bf42321fdd80256006eadd334486ae78ebe3626de78bf5f08bf12ec"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/02/x1592-y0560.png",
+      "bytes": 62275,
+      "sha256": "43463b701713658d6ef12e7aad72f81b7b98fbb56acbde585f4e614aded70d4a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/03/overview.png",
+      "bytes": 423120,
+      "sha256": "5c43eca4def863d36400e3063eda8c8a165a0c27c8b9ba3285ddca09be98914b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/03/x0448-y0000.png",
+      "bytes": 543685,
+      "sha256": "c98bb27f83cebf9ca2145828de45d815e6903c8fde5691823afbed85f897472e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/03/x0448-y0560.png",
+      "bytes": 577519,
+      "sha256": "d7af70d2dd13ccd54834ebe3164fb22131ce00e09912fa3d245e2e030fa9cbfb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/03/x0448-y1120.png",
+      "bytes": 250559,
+      "sha256": "18b69675469a37f446da7daac1257fc96bcff0c1d3fbee3809b58fe07a22c7f3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/03/x1472-y0000.png",
+      "bytes": 288563,
+      "sha256": "306838e30ff853406651791dea5dcc96e461064ba42d68996c0bb0264e8052a6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/03/x1472-y0560.png",
+      "bytes": 300564,
+      "sha256": "87da17bac30ddef1658cade73bab1c31b9c2f29bef5ef4402ff393d11ceaf67d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/03/x1472-y1120.png",
+      "bytes": 122913,
+      "sha256": "3377570a00c284c639dfc8f90b59b34025a5f08eae16fb20f770be341a9a1690"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/04/overview.png",
+      "bytes": 501351,
+      "sha256": "a53a0913f8c57d60d27d769ca3c40ae25a23356b61c61aa1bef7e02eb8d5731e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/04/x0735-y0664.png",
+      "bytes": 631531,
+      "sha256": "33b83f3006c1b6727ebcae1c086ec891ab60fa5d9ec3d774e6988d8121b2edee"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/04/x0735-y1224.png",
+      "bytes": 355478,
+      "sha256": "27a68e40e33de5ec3200c0acebb1fe3500412cc3034a4b6fffb767cae0f65583"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/04/x1759-y0664.png",
+      "bytes": 654688,
+      "sha256": "a775782252c9215d11ecf946231f39698a61d62e632c076c8e47bc24084be6ed"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/04/x1759-y1224.png",
+      "bytes": 313986,
+      "sha256": "8f4ffb698202f0f77021bfa23825b99acf5ce85e01d95e3d63df3d374228bc33"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/04/x2783-y0664.png",
+      "bytes": 250096,
+      "sha256": "c039c8d67b1cda19170db3d4714299091168c696b0478de19099549ff961bb9a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/04/x2783-y1224.png",
+      "bytes": 109077,
+      "sha256": "d798d0f7d483ffb87e58dfb7587f7d6242ee4f8e03c769773a214abad92f08b4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/05/overview.png",
+      "bytes": 511179,
+      "sha256": "64781baf4961b1ae06ce844666f090c8f86993538ffa2065845af41fc53f9b13"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/05/x0670-y0000.png",
+      "bytes": 547025,
+      "sha256": "f48cf95642940d006eb41421bf9caa2fe8d890d4c66a05738da4e465b9b73a6e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/05/x0670-y0560.png",
+      "bytes": 99934,
+      "sha256": "168c3bb68b11ec8f02f2f27d008edf3be9954ff033a1332b47c9b7d62d11d8d2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/05/x1694-y0000.png",
+      "bytes": 159766,
+      "sha256": "6eb4ca4c338d09f5fb4e70750a246a99ba9224c88def9d4ec4f6566b7f069905"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/05/x1694-y0560.png",
+      "bytes": 31362,
+      "sha256": "686b28a038f373e06c1a0bb66c63bb9d9e23197b847ce8f99187a9fc44806a4c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/06/overview.png",
+      "bytes": 265003,
+      "sha256": "74a664b9c8e26ceb5462611a8ff1c91ba8d8076c31d4247c2bc8c8c100fdc8df"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/06/x0170-y0105.png",
+      "bytes": 642903,
+      "sha256": "baa9e264c064ab604f738eadd38930305c95692544f6f5a1a7153ae7dc7de5a1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/06/x0170-y0665.png",
+      "bytes": 624865,
+      "sha256": "4e2b485ae60144c6a5e01daf3610641d98cd0fa35f2d4fdffba1ef28e24626e4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/06/x0170-y1225.png",
+      "bytes": 589052,
+      "sha256": "6d183f6c58b59e8ed90108633e5aee27bc86a00d57f7e6ef7157d64f85f3b783"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/06/x0170-y1785.png",
+      "bytes": 326536,
+      "sha256": "7260abb94aaa4ff73b2823bc13f09258f1a471b9e10c94272cdef9db7c213fe3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/06/x1194-y0105.png",
+      "bytes": 157556,
+      "sha256": "fd43ea6029b9d1e7a44866f1d95b467c206ca8d3adf23545bd26bb4d12eb13fc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/06/x1194-y0665.png",
+      "bytes": 153366,
+      "sha256": "dafdef7c57e7eb84ffb097d69d68b5c1359709a9e7c9adfc20e17da06af4c6cc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/06/x1194-y1225.png",
+      "bytes": 147151,
+      "sha256": "c92f562a3a80e9f79ef37f49a18830849b2057580eeb736730dad3d0cd1ac2db"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/06/x1194-y1785.png",
+      "bytes": 97128,
+      "sha256": "a601b8cff40596cd3feca40c3eb447deb534a0a042d9e2ba3d901a893323e5fa"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/07/overview.png",
+      "bytes": 651359,
+      "sha256": "1207092e849c18c4543114b131d55fc449d2723a61faef0b2f07ba95b4f6aabf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/07/x0626-y0905.png",
+      "bytes": 676313,
+      "sha256": "b513b8846be98fa0bcf28ba0876090af15ce24d7a70a6eeb827039a7e658784a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/07/x0626-y1465.png",
+      "bytes": 542745,
+      "sha256": "4cd9efeab8344e59a80e1a3b4a0a1bcce688725adbef186e5a2a567c1bb0aacc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/07/x1650-y0905.png",
+      "bytes": 670544,
+      "sha256": "78382e6240dfa9fe18c044d145604a8bce0e4aa3385a4e0e9af55f0f30652b8d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/07/x1650-y1465.png",
+      "bytes": 565575,
+      "sha256": "24dcdc1ff9aeadcfa3c62b2c2cf76812fbbc3fc18309d2deb729517a9fa4ede9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/07/x2674-y0905.png",
+      "bytes": 147097,
+      "sha256": "54e5d504ce8f0fd851a398734d0dcf2d395361b4613e5506d76fa84e5f4195ce"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/07/x2674-y1465.png",
+      "bytes": 81908,
+      "sha256": "0a5073163b4dd11f24e85c44b090278a6c2f79dad71a15ebb3702bafbdad929a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/08/overview.png",
+      "bytes": 588282,
+      "sha256": "0ef25873b6ab86faf80858650800496c851f0f5e01c7c9023715a63d36ee26e8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/08/x0170-y0000.png",
+      "bytes": 591189,
+      "sha256": "9d8e9017b5683251c9b2fe10f2e1c98425428186a15d82b505fc2dc33db8b22e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/08/x0170-y0560.png",
+      "bytes": 629441,
+      "sha256": "9f5b62cebc738780b31857c7f8e3905a68e86aadc7f13dd7642c772a6d5b8818"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/08/x0170-y1120.png",
+      "bytes": 249331,
+      "sha256": "6c5f32fee84ddb0a9467661fa1edc2bb51dc500110c59adb4fef9f87cc2189f8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/08/x1194-y0000.png",
+      "bytes": 521679,
+      "sha256": "a71ac7aa7edd4f7c020944bdf3db6c294bb11e694e6a4f8dd622f58e7564bc3d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/08/x1194-y0560.png",
+      "bytes": 550200,
+      "sha256": "68a5cec6a232a9854ad200364389e8f1468c617e9750d23ecf19b9b56fc44adc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/08/x1194-y1120.png",
+      "bytes": 225040,
+      "sha256": "f3366aa86e934abcb1898be8cf2d6bdf55e04f8672f8f1496f0307465fc1f531"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/09/overview.png",
+      "bytes": 391037,
+      "sha256": "2a85bed4502fdd2d5441f232081be5088d3fd3128d57b7c3b348b66cca2fbc8d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/09/x0825-y0000.png",
+      "bytes": 557758,
+      "sha256": "f941f370d10b33b98dea964b9120e7df19795d4c5d00a27df1fdd62b07550490"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/09/x0825-y0560.png",
+      "bytes": 540755,
+      "sha256": "27d55d485aa0af1f3d32621d999e09c4bfa8ab26d9dd4aa86982cf4542719355"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/09/x1849-y0000.png",
+      "bytes": 67867,
+      "sha256": "a6bd53c75e64febe6d774eab2052e4813824666a4680c2585af3e967d86e6bb7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/09/x1849-y0560.png",
+      "bytes": 65014,
+      "sha256": "323976025896ed6ba6c999be7ab2d1f68a91846c575b3579195f0edab1890a08"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/overview.png",
+      "bytes": 397760,
+      "sha256": "72ea3a99bbded63d453e57da1bb7a7aafadfc7e1ac0388ce00c2e70efafe62bb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x0632-y0433.png",
+      "bytes": 596802,
+      "sha256": "6f495f06b4af8262839a383ac6dd4b098ee0db080b2fe995ee0f8bd0a600658b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x0632-y0993.png",
+      "bytes": 689028,
+      "sha256": "20b5e615f03c68323a16d3befcbbea9b0852a74c1aeaef22d3dd1af63b3fff30"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x0632-y1553.png",
+      "bytes": 97729,
+      "sha256": "0f54405bfacdac782ccb0e2ef698c5ca2585b70873d2dd285de62e1d5c5f3691"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x1656-y0433.png",
+      "bytes": 603025,
+      "sha256": "92a48c0d65874590c6e0955e1cb7b8a506b30cdb4d3b96c0505561e58b742b90"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x1656-y0993.png",
+      "bytes": 673657,
+      "sha256": "f165c27fefce8718add28061c1e2af9f38baa8c46f6a14a73ef05af8538f2228"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x1656-y1553.png",
+      "bytes": 110764,
+      "sha256": "8511c873414beac161f67a2576b90f859905422cc5da77cf2bf3645aed5a1998"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x2680-y0433.png",
+      "bytes": 650754,
+      "sha256": "5f505d28326f968a019066860c05617fc4364f6335b50554014968cb17119eb5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x2680-y0993.png",
+      "bytes": 589543,
+      "sha256": "054f80dcd7f427b35f6a8d3f3d3424a7fbef4a47053f24c4a837b72f2b281807"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x2680-y1553.png",
+      "bytes": 56047,
+      "sha256": "6757ce10e9cc61e88ad172cf4646a487a4001dc13200c7ff7c39fe8d85d151d8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x3704-y0433.png",
+      "bytes": 650363,
+      "sha256": "05d4121943b3547721ecfa881782b7e6cc52be876a0e0e88ec6128bd181f9600"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x3704-y0993.png",
+      "bytes": 254437,
+      "sha256": "403763785729ee20fa8ac4776618fad30aaa4692d33fa56881a2aba0d881b7f5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x3704-y1553.png",
+      "bytes": 1328,
+      "sha256": "a9352ae8e191e11064dcd66ac142081fa4a116ed7988e14f2e1d165746e384d3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x4728-y0433.png",
+      "bytes": 104568,
+      "sha256": "4c195dc0febc53275a57383124012a8d17bed3b1be1c2ebd2de12f62b4f7d089"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x4728-y0993.png",
+      "bytes": 36809,
+      "sha256": "dde9102aff0fe89501708c96e3b694c735b46f41c81ae5d4adf8f7771b6d35aa"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/10/x4728-y1553.png",
+      "bytes": 952,
+      "sha256": "457a1f1ea3f095ece7592d23f43aa5e34e30fb83da86972ea25ac6be56867e5e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/11/overview.png",
+      "bytes": 567763,
+      "sha256": "d8b8b05ef40e85059eb7d72a5780843c1c8f6aa619824b2b586f8729699d36ca"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/11/x0277-y0000.png",
+      "bytes": 593414,
+      "sha256": "c8246612f296abd0a7fb039886efe18f9ee44f0077427063dee4f9002fa489c0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/11/x0277-y0560.png",
+      "bytes": 354147,
+      "sha256": "90dab437001b6f3e3d3182128be6f0053547766ebf131fc66edf6b587b5731a9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/11/x1301-y0000.png",
+      "bytes": 463404,
+      "sha256": "cd7372568e4bc745fca9255bbdc27ae91b809d28a989c47d09a94eefc6bb51fc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/11/x1301-y0560.png",
+      "bytes": 277352,
+      "sha256": "4ede3129256270ca033c219a7d64b6758e72c1cc915c83bdedc2e4ade0f6f0c5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/12/overview.png",
+      "bytes": 325750,
+      "sha256": "18a733f3e1f26cdf96af2e9ea37635b6a45df4f04f0aef1cfdb835bb750f2597"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/12/x0206-y0015.png",
+      "bytes": 598532,
+      "sha256": "13cf739c004b53d775263e179062d9167c5763d71bb0df3e2205a206c358ad67"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/12/x0206-y0575.png",
+      "bytes": 636215,
+      "sha256": "6307173b09eaeb1ac6ff2aea12cac706800c3100e7f07412c93c9bd9fd495996"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/12/x0206-y1135.png",
+      "bytes": 597724,
+      "sha256": "27dc0ddcb33af1b017ad53493c62a69aa775afff98ca5b1f4aa7ea2c70382ef4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/12/x0206-y1695.png",
+      "bytes": 202766,
+      "sha256": "26592751cf157c5925eb74dd0410a4120ce66c1480d3cd469caed04def6e48b3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/12/x1230-y0015.png",
+      "bytes": 226278,
+      "sha256": "5338738d5c80d19b063c0c075a0db3c863729e083361879dd204084ea1b9f7a5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/12/x1230-y0575.png",
+      "bytes": 255590,
+      "sha256": "e98c6acfc4a7e54b82eb69cb682b28c92d6c59165fdae7d2da6ceab83f05443f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/12/x1230-y1135.png",
+      "bytes": 250018,
+      "sha256": "db84c80f451c9fdfed99e8a0b1e55f2bcdac49b5c9b51a4463a32a3af03d1f73"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review/12/x1230-y1695.png",
+      "bytes": 96316,
+      "sha256": "a1ebe9da1d179c93ffdcff6640b789d1e156b5e9e940d6f28b9f0108f889d3fc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review-index.json",
+      "bytes": 42408,
+      "sha256": "357c0c7e3cb008f8267b824e83853d8e388167579a15ed9dfd2eebf9bf232568"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/review-key.json",
+      "bytes": 1617,
+      "sha256": "93bef70c8f60d42b8278560f2bd9598600a1406397bc6ae892c63a970b87a9ea"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/run-process.json",
+      "bytes": 674,
+      "sha256": "2630ffb7768a2ce37c3cef1e73fce2e068b181b34fe85a7b63fd655e565846b8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/run.log",
+      "bytes": 254,
+      "sha256": "7f283f22f270b268e7f6283bbabbe4ae977c2c193471d71a432fc7f732bc4bb8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/run.py",
+      "bytes": 11640,
+      "sha256": "e90e2ae998fbe8c5856f5fda89400677d917409aaeee07d6da66a6b7df5eb15a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/supervise.py",
+      "bytes": 1327,
+      "sha256": "6aa8f42b2f74ae6395a52cf2b94a44e140ae9b34ef22e90abda4d65a4ad07d64"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/supervisor-result.json",
+      "bytes": 619,
+      "sha256": "d8911ddb453519b38dff4514a0113b6e875e9cbb18469fe1b3593d321b95ab43"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-line-priority-trial01/visual-review.json",
+      "bytes": 2460,
+      "sha256": "0b9aa0724dffa00dd49c60d0a6dd5d32165abb13a03d01676f1dc6fd4843703b"
+    },
+    {
+      "path": "research/211-fixed-line-priority-trial.md",
+      "bytes": 7109,
+      "sha256": "530a738703bf00dc3268f65192f03e4f9a3fbabec15504d4505f511e6caf0c4a"
+    }
+  ]
+}

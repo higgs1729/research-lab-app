@@ -1,0 +1,580 @@
+{
+  "tiles": [
+    {
+      "tile_yx": [
+        1,
+        1
+      ],
+      "ink": 22471,
+      "supervision": 39533,
+      "supervised_ink": 22276,
+      "supervised_nonink": 17257,
+      "supervision_yx_minmax_inclusive": [
+        [
+          798,
+          623
+        ],
+        [
+          1023,
+          832
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          847,
+          630
+        ],
+        [
+          1023,
+          823
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        1,
+        2
+      ],
+      "ink": 41103,
+      "supervision": 125320,
+      "supervised_ink": 40592,
+      "supervised_nonink": 84728,
+      "supervision_yx_minmax_inclusive": [
+        [
+          680,
+          1134
+        ],
+        [
+          1023,
+          1535
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          778,
+          1148
+        ],
+        [
+          1023,
+          1460
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        1,
+        3
+      ],
+      "ink": 26757,
+      "supervision": 39594,
+      "supervised_ink": 25919,
+      "supervised_nonink": 13675,
+      "supervision_yx_minmax_inclusive": [
+        [
+          767,
+          1536
+        ],
+        [
+          1023,
+          1720
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          832,
+          1542
+        ],
+        [
+          1023,
+          1720
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        2,
+        1
+      ],
+      "ink": 16906,
+      "supervision": 51060,
+      "supervised_ink": 16906,
+      "supervised_nonink": 34154,
+      "supervision_yx_minmax_inclusive": [
+        [
+          1024,
+          564
+        ],
+        [
+          1321,
+          814
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          1024,
+          593
+        ],
+        [
+          1264,
+          770
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        2,
+        2
+      ],
+      "ink": 1518,
+      "supervision": 80431,
+      "supervised_ink": 1401,
+      "supervised_nonink": 79030,
+      "supervision_yx_minmax_inclusive": [
+        [
+          1024,
+          1130
+        ],
+        [
+          1257,
+          1535
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          1024,
+          1147
+        ],
+        [
+          1050,
+          1212
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        2,
+        3
+      ],
+      "ink": 30777,
+      "supervision": 97287,
+      "supervised_ink": 30759,
+      "supervised_nonink": 66528,
+      "supervision_yx_minmax_inclusive": [
+        [
+          1024,
+          1536
+        ],
+        [
+          1535,
+          2047
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          1024,
+          1554
+        ],
+        [
+          1535,
+          2047
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        2,
+        4
+      ],
+      "ink": 16553,
+      "supervision": 61122,
+      "supervised_ink": 15657,
+      "supervised_nonink": 45465,
+      "supervision_yx_minmax_inclusive": [
+        [
+          1235,
+          2048
+        ],
+        [
+          1535,
+          2261
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          1364,
+          2048
+        ],
+        [
+          1535,
+          2261
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        3,
+        2
+      ],
+      "ink": 3441,
+      "supervision": 5985,
+      "supervised_ink": 1899,
+      "supervised_nonink": 4086,
+      "supervision_yx_minmax_inclusive": [
+        [
+          1810,
+          1502
+        ],
+        [
+          2047,
+          1535
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          1904,
+          1508
+        ],
+        [
+          1993,
+          1535
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        3,
+        3
+      ],
+      "ink": 26121,
+      "supervision": 105089,
+      "supervised_ink": 24480,
+      "supervised_nonink": 80609,
+      "supervision_yx_minmax_inclusive": [
+        [
+          1536,
+          1536
+        ],
+        [
+          2047,
+          2047
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          1536,
+          1536
+        ],
+        [
+          2047,
+          2047
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        3,
+        4
+      ],
+      "ink": 8784,
+      "supervision": 36422,
+      "supervised_ink": 7196,
+      "supervised_nonink": 29226,
+      "supervision_yx_minmax_inclusive": [
+        [
+          1536,
+          2048
+        ],
+        [
+          1714,
+          2264
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          1536,
+          2048
+        ],
+        [
+          1635,
+          2263
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        3,
+        5
+      ],
+      "ink": 32050,
+      "supervision": 63117,
+      "supervised_ink": 31603,
+      "supervised_nonink": 31514,
+      "supervision_yx_minmax_inclusive": [
+        [
+          1725,
+          2688
+        ],
+        [
+          2047,
+          2909
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          1823,
+          2698
+        ],
+        [
+          2047,
+          2908
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        4,
+        1
+      ],
+      "ink": 29557,
+      "supervision": 63869,
+      "supervised_ink": 29549,
+      "supervised_nonink": 34320,
+      "supervision_yx_minmax_inclusive": [
+        [
+          2312,
+          589
+        ],
+        [
+          2559,
+          899
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          2360,
+          594
+        ],
+        [
+          2559,
+          897
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        4,
+        2
+      ],
+      "ink": 0,
+      "supervision": 3105,
+      "supervised_ink": 0,
+      "supervised_nonink": 3105,
+      "supervision_yx_minmax_inclusive": [
+        [
+          2048,
+          1508
+        ],
+        [
+          2179,
+          1535
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": null
+    },
+    {
+      "tile_yx": [
+        4,
+        3
+      ],
+      "ink": 5698,
+      "supervision": 26194,
+      "supervised_ink": 5698,
+      "supervised_nonink": 20496,
+      "supervision_yx_minmax_inclusive": [
+        [
+          2048,
+          1536
+        ],
+        [
+          2185,
+          1750
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          2048,
+          1584
+        ],
+        [
+          2129,
+          1678
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        4,
+        4
+      ],
+      "ink": 32528,
+      "supervision": 59754,
+      "supervised_ink": 30884,
+      "supervised_nonink": 28870,
+      "supervision_yx_minmax_inclusive": [
+        [
+          2287,
+          2264
+        ],
+        [
+          2559,
+          2559
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          2328,
+          2284
+        ],
+        [
+          2559,
+          2559
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        4,
+        5
+      ],
+      "ink": 35655,
+      "supervision": 100059,
+      "supervised_ink": 34516,
+      "supervised_nonink": 65543,
+      "supervision_yx_minmax_inclusive": [
+        [
+          2048,
+          2560
+        ],
+        [
+          2559,
+          2903
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          2048,
+          2560
+        ],
+        [
+          2555,
+          2814
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        5,
+        1
+      ],
+      "ink": 2714,
+      "supervision": 54730,
+      "supervised_ink": 2714,
+      "supervised_nonink": 52016,
+      "supervision_yx_minmax_inclusive": [
+        [
+          2560,
+          571
+        ],
+        [
+          2769,
+          866
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          2560,
+          587
+        ],
+        [
+          2597,
+          854
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        5,
+        3
+      ],
+      "ink": 21500,
+      "supervision": 0,
+      "supervised_ink": 0,
+      "supervised_nonink": 0,
+      "supervision_yx_minmax_inclusive": null,
+      "supervised_ink_yx_minmax_inclusive": null
+    },
+    {
+      "tile_yx": [
+        5,
+        4
+      ],
+      "ink": 37536,
+      "supervision": 47976,
+      "supervised_ink": 11986,
+      "supervised_nonink": 35990,
+      "supervision_yx_minmax_inclusive": [
+        [
+          2560,
+          2240
+        ],
+        [
+          2764,
+          2559
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": [
+        [
+          2560,
+          2240
+        ],
+        [
+          2754,
+          2344
+        ]
+      ]
+    },
+    {
+      "tile_yx": [
+        5,
+        5
+      ],
+      "ink": 2779,
+      "supervision": 10474,
+      "supervised_ink": 0,
+      "supervised_nonink": 10474,
+      "supervision_yx_minmax_inclusive": [
+        [
+          2560,
+          2560
+        ],
+        [
+          2649,
+          2815
+        ]
+      ],
+      "supervised_ink_yx_minmax_inclusive": null
+    },
+    {
+      "tile_yx": [
+        6,
+        4
+      ],
+      "ink": 1716,
+      "supervision": 0,
+      "supervised_ink": 0,
+      "supervised_nonink": 0,
+      "supervision_yx_minmax_inclusive": null,
+      "supervised_ink_yx_minmax_inclusive": null
+    }
+  ]
+}

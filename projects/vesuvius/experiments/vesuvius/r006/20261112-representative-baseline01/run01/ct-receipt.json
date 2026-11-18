@@ -1,0 +1,177 @@
+{
+  "coverage_sha256": "c4f02000384233c9dce88c186d057f03584a90930acfb1e3b2274076b193522d",
+  "original_receipt_sha256": "0af57f8bbb5ce9bdef33a41333dc3e63dbad87625add4e9a58a1157ee09e62b9",
+  "copied": {
+    ".zgroup": {
+      "source": "/mnt/d/kensyoukin-work/r005-ct-render01/ct01.zarr/.zgroup",
+      "bytes": 24,
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959"
+    },
+    ".zattrs": {
+      "source": "/mnt/d/kensyoukin-work/r005-ct-render01/ct01.zarr/.zattrs",
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9"
+    },
+    "metadata.json": {
+      "source": "/mnt/d/kensyoukin-work/r005-ct-render01/ct01.zarr/metadata.json",
+      "bytes": 8446,
+      "sha256": "7db0a497ed78165a17b681debacd40e6fadd99326aed8423b9e337007cad4b92"
+    },
+    "0/.zarray": {
+      "source": "/mnt/d/kensyoukin-work/r005-ct-render01/ct01.zarr/0/.zarray",
+      "bytes": 239,
+      "sha256": "acad9dbc41bf7c9b5b983cdfd802308691e427ebb1a1a675561df717d50332a0"
+    },
+    "0/19/23/25": {
+      "source": "/mnt/d/kensyoukin-work/r005-ct-render01/ct01.zarr/0/19/23/25",
+      "bytes": 2097152,
+      "sha256": "54fbe5ad1205a91d08505f814b361cdff8efb75827e200d180467c39ccc7221f"
+    },
+    "0/19/23/26": {
+      "source": "/mnt/d/kensyoukin-work/r005-ct-render01/ct01.zarr/0/19/23/26",
+      "bytes": 2097152,
+      "sha256": "3e0eddb2d697300a71b67a9cbdf0fc3e47bb2e9f901a54048c03fc7566a61661"
+    }
+  },
+  "downloaded": {
+    "0/19/22/26": {
+      "key": "0/19/22/26",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/volumes/20250804134230-9.362um-1.2m-113keV-masked.zarr/0/19/22/26",
+      "attempt": 1,
+      "partial": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/body-0-19-22-26-1.partial",
+      "started_utc": "2026-11-12T08:00:53.041867+00:00",
+      "expected_bytes": 2097152,
+      "status": 200,
+      "content_length": "2097152",
+      "etag": "\"6461415a005b4398069e5d9a3f0c2d07\"",
+      "last_modified": "Tue, 24 Mar 2026 14:37:47 GMT",
+      "event": "end",
+      "completed_utc": "2026-11-12T08:00:55.420194+00:00",
+      "response_body_bytes": 2097152,
+      "cumulative_response_body_bytes": 2097152,
+      "sha256": "e5b4d2aa09aab641ec13710850bf7adbca41878a5aa6741047bc4db740976802"
+    },
+    "0/19/24/25": {
+      "key": "0/19/24/25",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/volumes/20250804134230-9.362um-1.2m-113keV-masked.zarr/0/19/24/25",
+      "attempt": 1,
+      "partial": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/body-0-19-24-25-1.partial",
+      "started_utc": "2026-11-12T08:00:55.452078+00:00",
+      "expected_bytes": 2097152,
+      "status": 200,
+      "content_length": "2097152",
+      "etag": "\"f5a3b9a8fd34c082f07ab1959fb8904e\"",
+      "last_modified": "Tue, 24 Mar 2026 14:37:48 GMT",
+      "event": "end",
+      "completed_utc": "2026-11-12T08:00:58.735008+00:00",
+      "response_body_bytes": 2097152,
+      "cumulative_response_body_bytes": 4194304,
+      "sha256": "a08f9ad3294db067bde15395946796fffd977616bc4f67eb89da6bcd16f0c874"
+    },
+    "0/19/24/26": {
+      "key": "0/19/24/26",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/volumes/20250804134230-9.362um-1.2m-113keV-masked.zarr/0/19/24/26",
+      "attempt": 1,
+      "partial": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/body-0-19-24-26-1.partial",
+      "started_utc": "2026-11-12T08:00:58.738155+00:00",
+      "expected_bytes": 2097152,
+      "status": 200,
+      "content_length": "2097152",
+      "etag": "\"8dd2a7390242d1e5d55c07f221258fc4\"",
+      "last_modified": "Tue, 24 Mar 2026 14:37:48 GMT",
+      "event": "end",
+      "completed_utc": "2026-11-12T08:01:01.522543+00:00",
+      "response_body_bytes": 2097152,
+      "cumulative_response_body_bytes": 6291456,
+      "sha256": "089b51af7571a0dcc1f8322a7632a28335d93f52544ce51f2948bde45b8db592"
+    },
+    "0/20/22/26": {
+      "key": "0/20/22/26",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/volumes/20250804134230-9.362um-1.2m-113keV-masked.zarr/0/20/22/26",
+      "attempt": 1,
+      "partial": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/body-0-20-22-26-1.partial",
+      "started_utc": "2026-11-12T08:01:01.629189+00:00",
+      "expected_bytes": 2097152,
+      "status": 200,
+      "content_length": "2097152",
+      "etag": "\"b8d2b7369f12e6a51f193c9cc7fe016f\"",
+      "last_modified": "Tue, 24 Mar 2026 14:37:51 GMT",
+      "event": "end",
+      "completed_utc": "2026-11-12T08:01:04.943791+00:00",
+      "response_body_bytes": 2097152,
+      "cumulative_response_body_bytes": 8388608,
+      "sha256": "8b5a0991a023e7135f8e289bc8abeaa1711959a4616d852f1db1f1f67d7fbdd8"
+    },
+    "0/20/23/25": {
+      "key": "0/20/23/25",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/volumes/20250804134230-9.362um-1.2m-113keV-masked.zarr/0/20/23/25",
+      "attempt": 1,
+      "partial": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/body-0-20-23-25-1.partial",
+      "started_utc": "2026-11-12T08:01:05.000920+00:00",
+      "expected_bytes": 2097152,
+      "status": 200,
+      "content_length": "2097152",
+      "etag": "\"d8610e7ce88bbcabca2aa9e3c7092dad\"",
+      "last_modified": "Tue, 24 Mar 2026 14:37:51 GMT",
+      "event": "end",
+      "completed_utc": "2026-11-12T08:01:07.645381+00:00",
+      "response_body_bytes": 2097152,
+      "cumulative_response_body_bytes": 10485760,
+      "sha256": "c9b5243153091a3be8603a192e74058e61c35781acca792be5644b2e0aa2e44b"
+    },
+    "0/20/23/26": {
+      "key": "0/20/23/26",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/volumes/20250804134230-9.362um-1.2m-113keV-masked.zarr/0/20/23/26",
+      "attempt": 1,
+      "partial": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/body-0-20-23-26-1.partial",
+      "started_utc": "2026-11-12T08:01:07.649672+00:00",
+      "expected_bytes": 2097152,
+      "status": 200,
+      "content_length": "2097152",
+      "etag": "\"4ed43d3740e3c590f2380f514a2e5e3f\"",
+      "last_modified": "Tue, 24 Mar 2026 14:37:51 GMT",
+      "event": "end",
+      "completed_utc": "2026-11-12T08:01:10.779621+00:00",
+      "response_body_bytes": 2097152,
+      "cumulative_response_body_bytes": 12582912,
+      "sha256": "d8e0bae175090b54a3f61f9795fbc8d94aa3ef3581b6e781c88c03fd16d9977d"
+    },
+    "0/20/24/25": {
+      "key": "0/20/24/25",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/volumes/20250804134230-9.362um-1.2m-113keV-masked.zarr/0/20/24/25",
+      "attempt": 1,
+      "partial": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/body-0-20-24-25-1.partial",
+      "started_utc": "2026-11-12T08:01:10.884245+00:00",
+      "expected_bytes": 2097152,
+      "status": 200,
+      "content_length": "2097152",
+      "etag": "\"15f2ff55261829917e236076b1c55a55\"",
+      "last_modified": "Tue, 24 Mar 2026 14:37:51 GMT",
+      "event": "end",
+      "completed_utc": "2026-11-12T08:01:13.915823+00:00",
+      "response_body_bytes": 2097152,
+      "cumulative_response_body_bytes": 14680064,
+      "sha256": "b7c33231cdbf172534191660d25c769611f12ac0c48e9a523ea0f4fac7a11d91"
+    },
+    "0/20/24/26": {
+      "key": "0/20/24/26",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/volumes/20250804134230-9.362um-1.2m-113keV-masked.zarr/0/20/24/26",
+      "attempt": 1,
+      "partial": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/body-0-20-24-26-1.partial",
+      "started_utc": "2026-11-12T08:01:13.918042+00:00",
+      "expected_bytes": 2097152,
+      "status": 200,
+      "content_length": "2097152",
+      "etag": "\"8a8390ca58db66cc324903195e5694d1\"",
+      "last_modified": "Tue, 24 Mar 2026 14:37:51 GMT",
+      "event": "end",
+      "completed_utc": "2026-11-12T08:01:17.090437+00:00",
+      "response_body_bytes": 2097152,
+      "cumulative_response_body_bytes": 16777216,
+      "sha256": "f61541f6db5a443da617264bb75e52b6e288d8385a7bfa8946616bdaaeb3fd15"
+    }
+  },
+  "successful_body_bytes": 16777216,
+  "all_response_body_bytes": 16777216,
+  "zarr": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/ct.zarr"
+}

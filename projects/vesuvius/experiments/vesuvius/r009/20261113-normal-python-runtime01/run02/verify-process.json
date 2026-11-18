@@ -1,0 +1,27 @@
+{
+  "command": [
+    "/usr/bin/python3",
+    "-B",
+    "-S",
+    "-v",
+    "/mnt/c/dev/kensyoukin/deliverables/vesuvius/november-workflow-improvements-20261113/zarr-output-recovery/verify_python.py",
+    "--upstream-test",
+    "/home/tomoy/r009-normal-python-run02-678qsuuz/source/tests/test_zarr_writer.py",
+    "--work",
+    "/home/tomoy/r009-normal-python-run02-678qsuuz/fixtures",
+    "--report",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/result.json"
+  ],
+  "timing_pid": 2305,
+  "process_group": 2305,
+  "started_utc": "2026-11-13T14:13:50.734546+00:00",
+  "completed_utc": "2026-11-13T14:13:52.914338+00:00",
+  "elapsed_seconds": 2.1797983250000925,
+  "exit_code": 0,
+  "termination_reason": null,
+  "reaped": true,
+  "disk_samples": [],
+  "max_child_rss_bytes": 122052608,
+  "user_cpu_seconds": 0.34,
+  "sys_cpu_seconds": 0.1
+}

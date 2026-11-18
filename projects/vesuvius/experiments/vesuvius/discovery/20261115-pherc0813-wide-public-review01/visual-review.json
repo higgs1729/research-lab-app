@@ -1,0 +1,56 @@
+{
+  "reviewer": "R221 worker, gpt-6.1-sol / high",
+  "date_jst": "2026-11-15",
+  "independent": "Reviewed before seeing the lead's visual assessment.",
+  "display_index": "review01/pixels.json",
+  "overview_used_for_positioning": "review01/overview.png",
+  "native_views_inspected": 50,
+  "native_views_both_directions_all_zero_verified_by_index": 15,
+  "native_rows_inspected": [
+    {"core_y": 0, "core_x": [0, 960, 1920, 2880, 3840, 4800, 8640, 9600, 10560, 11520]},
+    {"core_y": 432, "core_x": [0, 960, 1920, 2880, 3840, 4800, 5760, 6720, 7680, 8640, 9600, 10560, 11520]},
+    {"core_y": 864, "core_x": [0, 960, 1920, 2880, 3840, 4800, 5760, 6720, 7680, 8640, 9600, 10560, 11520]},
+    {"core_y": 1296, "core_x": [0, 2880, 3840, 4800, 5760, 6720, 7680, 8640, 9600, 10560]},
+    {"core_y": 1728, "core_x": [4800, 5760, 6720, 7680]}
+  ],
+  "viewing_conditions": "Original gray levels, no mask applied, 1:1 unrotated TIFF pixels with 32px tile context. Rectangles below are approximate, zero-based, half open in the prediction canvas.",
+  "observations": [
+    {
+      "xyxy": [9148, 988, 9385, 1220],
+      "tile": "review01/native/x08640-y0864.png",
+      "visible_order": "forward",
+      "appearance": "A bright top ridge, separated side slopes around a dark center and a lower-right bright island suggest an open loop. The left slope swells and dissolves before the base, the right slope bleeds into the island, and the thickened bottom runs outward. The opposite order has diffuse responses at different positions. Neighboring brighter islands lack consistent height, axis or stroke form.",
+      "decision": "Shape worth documenting. Could not follow a distinct continuous path even within forward."
+    },
+    {
+      "xyxy": [3950, 1030, 4290, 1260],
+      "tile": "review01/native/x03840-y0864.png",
+      "visible_order": "forward",
+      "appearance": "Hook or elbow with a compact bright cap, a taper down-left, and a much wider lower band joined to nearby lobes. The dark concavity permits a stroke reading at first glance, but the track broadens into the band and lacks a separate lower ending. Reverse emphasizes a higher oblique band and lacks the same hook.",
+      "decision": "Insufficient separation of arms from the neighboring diffuse bands apparent within forward."
+    },
+    {
+      "xyxy": [4350, 610, 4560, 810],
+      "tile": "review01/native/x03840-y0432.png",
+      "visible_order": "forward",
+      "appearance": "A cap extending toward image-right joins a bright descending left bend. The cap thins and fades while the stem flares to a lobe. A larger bright band runs above in parallel. Reverse shows dispersed low response at the bend and a separate lower spot.",
+      "decision": "No coherent narrow bend with identifiable endpoints within the strongest order."
+    },
+    {
+      "xyxy": [6230, 1538, 6510, 1750],
+      "tile": "review01/native/x05760-y1296.png",
+      "visible_order": "both, different outlines",
+      "appearance": "Forward has a large rising hook with a spreading lower bulb, next to a larger weight-bearing band. The inner opening is broad and its lower side blends into the margin. Reverse carries a detached crescent near the lower edge and a neighboring response farther right, without the rising forward arm.",
+      "decision": "Islands merge differently with layer order and remain thick within the stronger image."
+    },
+    {
+      "xyxy": [8160, 508, 8670, 650],
+      "tile": "review01/native/x07680-y0432.png",
+      "visible_order": "both",
+      "appearance": "A border-aligned series of narrow pale streaks, starting from the upper flat prediction cutoff and tapering toward the paper response. Approximately periodic, with similar geometry across both orders. The band includes the region outside the author's scored mask.",
+      "decision": "Edge-associated periodic structure with no independently delimited letters."
+    }
+  ],
+  "ct_followup_rois": [],
+  "basis": "A single direction could qualify if its shape were resolved. None of the weak examples left a clearly bounded track or coherent neighboring forms even in its stronger direction. No score threshold or requirement for a line was used. Layer-order sensitivity is visible; other checkpoints and CT evidence have not been tested."
+}

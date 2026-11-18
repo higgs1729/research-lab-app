@@ -1,0 +1,554 @@
+{
+  "original_vertices": 1034,
+  "split_vertices": 1037,
+  "original_faces": 1688,
+  "split_faces": 1688,
+  "face_order_and_original_corner_ids_exact": true,
+  "xyz_triangle_corners_exact": true,
+  "all_referenced_original_vertices_retained": true,
+  "duplicate_original_vertices": [
+    {
+      "original_local_vertex": 253,
+      "global_vertex": 121019,
+      "source_yx": [
+        126,
+        990
+      ],
+      "fixed": false,
+      "coarse": false,
+      "split_vertices": [
+        253,
+        260
+      ],
+      "split_components": [
+        0,
+        1
+      ],
+      "incident_global_faces": [
+        [
+          230495
+        ],
+        [
+          234444
+        ]
+      ]
+    },
+    {
+      "original_local_vertex": 511,
+      "global_vertex": 146894,
+      "source_yx": [
+        138,
+        990
+      ],
+      "fixed": false,
+      "coarse": false,
+      "split_vertices": [
+        512,
+        570
+      ],
+      "split_components": [
+        1,
+        3
+      ],
+      "incident_global_faces": [
+        [
+          280308,
+          280309
+        ],
+        [
+          284410,
+          284411
+        ]
+      ]
+    },
+    {
+      "original_local_vertex": 746,
+      "global_vertex": 159107,
+      "source_yx": [
+        144,
+        984
+      ],
+      "fixed": false,
+      "coarse": false,
+      "split_vertices": [
+        748,
+        791
+      ],
+      "split_components": [
+        3,
+        2
+      ],
+      "incident_global_faces": [
+        [
+          304020,
+          304021
+        ],
+        [
+          307786,
+          307787
+        ]
+      ]
+    }
+  ],
+  "boundary_vertices": 378,
+  "boundary_loops": [
+    100,
+    109,
+    145,
+    24
+  ],
+  "components": [
+    {
+      "component": 0,
+      "vertices": 224,
+      "faces": 346,
+      "fixed_copies": 34,
+      "coarse_copies": 5,
+      "boundary_loops": [
+        100
+      ]
+    },
+    {
+      "component": 1,
+      "vertices": 323,
+      "faces": 535,
+      "fixed_copies": 34,
+      "coarse_copies": 5,
+      "boundary_loops": [
+        109
+      ]
+    },
+    {
+      "component": 2,
+      "vertices": 441,
+      "faces": 735,
+      "fixed_copies": 54,
+      "coarse_copies": 7,
+      "boundary_loops": [
+        145
+      ]
+    },
+    {
+      "component": 3,
+      "vertices": 49,
+      "faces": 72,
+      "fixed_copies": 0,
+      "coarse_copies": 0,
+      "boundary_loops": [
+        24
+      ]
+    }
+  ],
+  "poses": [
+    {
+      "pose": "source_grid_uv",
+      "positive_faces": 1688,
+      "negative_faces": 0,
+      "zero_faces": 0,
+      "minimum_signed_area": 199.99999403953558,
+      "triangle_interior_overlap_pairs": 0,
+      "nonincident_boundary_intersections": 12,
+      "nonincident_boundary_crosses": 0,
+      "nonincident_boundary_touches": 12,
+      "nonincident_boundary_overlaps": 0,
+      "touch_global_endpoints": [
+        [
+          [
+            119026,
+            121019
+          ],
+          [
+            121019,
+            123188
+          ]
+        ],
+        [
+          [
+            119026,
+            121019
+          ],
+          [
+            123189,
+            121019
+          ]
+        ],
+        [
+          [
+            121018,
+            121019
+          ],
+          [
+            121019,
+            123188
+          ]
+        ],
+        [
+          [
+            121018,
+            121019
+          ],
+          [
+            123189,
+            121019
+          ]
+        ],
+        [
+          [
+            144752,
+            146894
+          ],
+          [
+            149036,
+            146894
+          ]
+        ],
+        [
+          [
+            144752,
+            146894
+          ],
+          [
+            146894,
+            149038
+          ]
+        ],
+        [
+          [
+            146894,
+            146895
+          ],
+          [
+            149036,
+            146894
+          ]
+        ],
+        [
+          [
+            146894,
+            146895
+          ],
+          [
+            146894,
+            149038
+          ]
+        ],
+        [
+          [
+            157111,
+            159107
+          ],
+          [
+            159107,
+            161112
+          ]
+        ],
+        [
+          [
+            157111,
+            159107
+          ],
+          [
+            161110,
+            159107
+          ]
+        ],
+        [
+          [
+            159107,
+            159108
+          ],
+          [
+            159107,
+            161112
+          ]
+        ],
+        [
+          [
+            159107,
+            159108
+          ],
+          [
+            161110,
+            159107
+          ]
+        ]
+      ]
+    },
+    {
+      "pose": "C_uv",
+      "positive_faces": 1669,
+      "negative_faces": 19,
+      "zero_faces": 0,
+      "minimum_signed_area": -302.5595126806384,
+      "triangle_interior_overlap_pairs": 2410,
+      "nonincident_boundary_intersections": 32,
+      "nonincident_boundary_crosses": 20,
+      "nonincident_boundary_touches": 12,
+      "nonincident_boundary_overlaps": 0,
+      "touch_global_endpoints": [
+        [
+          [
+            119026,
+            121019
+          ],
+          [
+            121019,
+            123188
+          ]
+        ],
+        [
+          [
+            119026,
+            121019
+          ],
+          [
+            123189,
+            121019
+          ]
+        ],
+        [
+          [
+            121018,
+            121019
+          ],
+          [
+            121019,
+            123188
+          ]
+        ],
+        [
+          [
+            121018,
+            121019
+          ],
+          [
+            123189,
+            121019
+          ]
+        ],
+        [
+          [
+            144752,
+            146894
+          ],
+          [
+            146894,
+            149038
+          ]
+        ],
+        [
+          [
+            144752,
+            146894
+          ],
+          [
+            149036,
+            146894
+          ]
+        ],
+        [
+          [
+            146894,
+            146895
+          ],
+          [
+            146894,
+            149038
+          ]
+        ],
+        [
+          [
+            146894,
+            146895
+          ],
+          [
+            149036,
+            146894
+          ]
+        ],
+        [
+          [
+            157111,
+            159107
+          ],
+          [
+            161110,
+            159107
+          ]
+        ],
+        [
+          [
+            157111,
+            159107
+          ],
+          [
+            159107,
+            161112
+          ]
+        ],
+        [
+          [
+            159107,
+            159108
+          ],
+          [
+            161110,
+            159107
+          ]
+        ],
+        [
+          [
+            159107,
+            159108
+          ],
+          [
+            159107,
+            161112
+          ]
+        ]
+      ]
+    },
+    {
+      "pose": "G_uv",
+      "positive_faces": 1688,
+      "negative_faces": 0,
+      "zero_faces": 0,
+      "minimum_signed_area": 60.77930302543811,
+      "triangle_interior_overlap_pairs": 1696,
+      "nonincident_boundary_intersections": 27,
+      "nonincident_boundary_crosses": 15,
+      "nonincident_boundary_touches": 12,
+      "nonincident_boundary_overlaps": 0,
+      "touch_global_endpoints": [
+        [
+          [
+            119026,
+            121019
+          ],
+          [
+            123189,
+            121019
+          ]
+        ],
+        [
+          [
+            119026,
+            121019
+          ],
+          [
+            121019,
+            123188
+          ]
+        ],
+        [
+          [
+            121018,
+            121019
+          ],
+          [
+            123189,
+            121019
+          ]
+        ],
+        [
+          [
+            121018,
+            121019
+          ],
+          [
+            121019,
+            123188
+          ]
+        ],
+        [
+          [
+            144752,
+            146894
+          ],
+          [
+            146894,
+            149038
+          ]
+        ],
+        [
+          [
+            144752,
+            146894
+          ],
+          [
+            149036,
+            146894
+          ]
+        ],
+        [
+          [
+            146894,
+            146895
+          ],
+          [
+            146894,
+            149038
+          ]
+        ],
+        [
+          [
+            146894,
+            146895
+          ],
+          [
+            149036,
+            146894
+          ]
+        ],
+        [
+          [
+            157111,
+            159107
+          ],
+          [
+            159107,
+            161112
+          ]
+        ],
+        [
+          [
+            157111,
+            159107
+          ],
+          [
+            161110,
+            159107
+          ]
+        ],
+        [
+          [
+            159107,
+            159108
+          ],
+          [
+            159107,
+            161112
+          ]
+        ],
+        [
+          [
+            159107,
+            159108
+          ],
+          [
+            161110,
+            159107
+          ]
+        ]
+      ]
+    }
+  ],
+  "native_checks": {
+    "after_edge_manifold": true,
+    "after_vertex_manifold": true,
+    "before_edge_manifold": true,
+    "before_vertex_manifold": false
+  },
+  "elapsed_seconds": 0.2206055999849923,
+  "limits": "Topological split duplicates original point identities; it leaves coincident coordinates and does not itself create separation or a globally injective UV map. No solver or global candidate modification."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "PHerc0211-crop1711-manual-20261026-1237-legacyuv20-v6",
+  "volume_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr",
+  "voxel_um": 9.362,
+  "baseline_source_id": "PHerc0211-spiral-stitch-rev01-crop-20261022-1711",
+  "crop_saved": "20261026123704802",
+  "source_geometry_sha256": {
+    "meta.json": "ef7098a94e2e941dc9c41bf3f0bd29a8039c1ffd6ea412080bea7dfb5013d422",
+    "x.tif": "20bbe7cd21dd35ee6e80a6faff5744d288ed6479ae8306634a9feec6481255ce",
+    "y.tif": "2b280faa1f477d9cfeeba0906f3fc7380b300af10dce39b650c3b213c4e332bd",
+    "z.tif": "1829a599172c56324d8df7fca23ae324955c8d989799bef2656d29649cb23681"
+  },
+  "manual_snapshot_sha256": {
+    "meta.json": "ef7098a94e2e941dc9c41bf3f0bd29a8039c1ffd6ea412080bea7dfb5013d422",
+    "x.tif": "20bbe7cd21dd35ee6e80a6faff5744d288ed6479ae8306634a9feec6481255ce",
+    "y.tif": "2b280faa1f477d9cfeeba0906f3fc7380b300af10dce39b650c3b213c4e332bd",
+    "z.tif": "1829a599172c56324d8df7fca23ae324955c8d989799bef2656d29649cb23681"
+  },
+  "method": "Priyank's VC3D Manual edit of the crop 1711 revision-5 editable (PHerc0211-crop1711-reflat-20261026-1141, combined project, saved 26 Oct 2026 12:37:04 PDT), processed as saved; flatten50 UV20 native31 with boundary-keeping rasterization",
+  "registration_ancestors": [],
+  "revision_number": 6
+}

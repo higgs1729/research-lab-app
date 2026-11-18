@@ -1,0 +1,1023 @@
+{
+ "schema": "inkatlas-surface/1",
+ "id": "kbh-POS_PHerc0343_erwin",
+ "scroll": "PHerc0343",
+ "role": "reference",
+ "source": "ketchupbyheinz",
+ "credit": "traced by ketchupbyheinz (vesuvius-scroll-survey, MIT; meshes CC BY-NC 4.0)",
+ "scan": "20250521140437",
+ "voxel_um": 8.64,
+ "mesh": {
+  "base": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/POS_PHerc0343_erwin",
+  "files": [
+   "meta.json",
+   "x.tif",
+   "y.tif",
+   "z.tif"
+  ]
+ },
+ "ct": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr/0",
+ "canvas_um": 9.6,
+ "render": {
+  "schema": "inkatlas-render/1",
+  "ct": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr/0",
+  "voxel_um": 8.64,
+  "canvas_um": 9.6,
+  "render_scale": 0.9,
+  "canvas_hw": [
+   2304,
+   6048
+  ],
+  "box": [
+   0,
+   2304,
+   0,
+   6048
+  ],
+  "layers": 65,
+  "layer_step_vox": 1.111,
+  "rendered_px": 8653554,
+  "chunks": 1089,
+  "chunks_missing": 0,
+  "sha256": "72ebe4f44220e01182d51bf564a6d56a79d169432a0b68a42ae6dd933d88441f",
+  "seconds": 392.1,
+  "renderer": "trilinear samples of the CT's level 0 along each canvas pixel's mesh normal"
+ },
+ "windows": {
+  "centre_only": [
+   "hecate-9.6"
+  ],
+  "sweep": [
+   -4,
+   0,
+   4
+  ],
+  "stability": "centre windows only"
+ },
+ "ensemble": {
+  "ensemble": {
+   "members": [
+    "ink_9um-s42",
+    "ink_9um-s43",
+    "reader-v2",
+    "reader-v3",
+    "dense-native",
+    "d9v2",
+    "hecate-9.6"
+   ],
+   "stats": {
+    "ink_9um-s42": {
+     "mean": 0.094,
+     "sd": 0.138
+    },
+    "ink_9um-s43": {
+     "mean": 0.091,
+     "sd": 0.138
+    },
+    "reader-v2": {
+     "mean": 0.1,
+     "sd": 0.097
+    },
+    "reader-v3": {
+     "mean": 0.083,
+     "sd": 0.103
+    },
+    "dense-native": {
+     "mean": 0.203,
+     "sd": 0.124
+    },
+    "d9v2": {
+     "mean": 0.249,
+     "sd": 0.08
+    },
+    "hecate-9.6": {
+     "mean": 0.033,
+     "sd": 0.085
+    }
+   },
+   "recipe": "ink-sdk ensemble (Erwin Nieuwlaar's PHerc0343 recipe): mean of per-model z-scores, reading side as stored, blind side with the reading side's statistics"
+  },
+  "ensemble_reverse_reading": {
+   "members": [
+    "ink_9um-s42",
+    "ink_9um-s43",
+    "reader-v2",
+    "reader-v3",
+    "dense-native",
+    "d9v2",
+    "hecate-9.6"
+   ],
+   "stats": {
+    "ink_9um-s42": {
+     "mean": 0.137,
+     "sd": 0.208
+    },
+    "ink_9um-s43": {
+     "mean": 0.126,
+     "sd": 0.202
+    },
+    "reader-v2": {
+     "mean": 0.163,
+     "sd": 0.217
+    },
+    "reader-v3": {
+     "mean": 0.178,
+     "sd": 0.258
+    },
+    "dense-native": {
+     "mean": 0.258,
+     "sd": 0.214
+    },
+    "d9v2": {
+     "mean": 0.283,
+     "sd": 0.144
+    },
+    "hecate-9.6": {
+     "mean": 0.054,
+     "sd": 0.144
+    }
+   }
+  }
+ },
+ "ensemble_png_z_range": [
+  -2.0,
+  4.0
+ ],
+ "models": {
+  "ink_9um-s42": {
+   "title": "ink_9um seed 42, step 75,000",
+   "by": "Vesuvius Challenge",
+   "license": "MIT",
+   "alive": true,
+   "exposure": {
+    "scroll": "PHerc0343",
+    "status": "unknown",
+    "why": "nothing published says whether its training saw this scroll",
+    "source": null
+   },
+   "liveness": {
+    "c+0_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.272,
+       "p99": 0.594,
+       "spread_p99_p50": 0.322,
+       "std": 0.07,
+       "fraction_near_half": 0.031,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.275,
+       "p99": 0.739,
+       "spread_p99_p50": 0.464,
+       "std": 0.106,
+       "fraction_near_half": 0.049,
+       "valid_pixels": 8651096
+      }
+     }
+    },
+    "c-4_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.271,
+       "p99": 0.565,
+       "spread_p99_p50": 0.294,
+       "std": 0.063,
+       "fraction_near_half": 0.026,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.275,
+       "p99": 0.717,
+       "spread_p99_p50": 0.441,
+       "std": 0.099,
+       "fraction_near_half": 0.047,
+       "valid_pixels": 8651096
+      }
+     }
+    },
+    "c+4_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.273,
+       "p99": 0.62,
+       "spread_p99_p50": 0.347,
+       "std": 0.074,
+       "fraction_near_half": 0.032,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.274,
+       "p99": 0.72,
+       "spread_p99_p50": 0.445,
+       "std": 0.097,
+       "fraction_near_half": 0.044,
+       "valid_pixels": 8651096
+      }
+     }
+    }
+   },
+   "error": null
+  },
+  "ink_9um-s43": {
+   "title": "ink_9um seed 43, step 75,000",
+   "by": "Vesuvius Challenge",
+   "license": "MIT",
+   "alive": true,
+   "exposure": {
+    "scroll": "PHerc0343",
+    "status": "unknown",
+    "why": "nothing published says whether its training saw this scroll",
+    "source": null
+   },
+   "liveness": {
+    "c+0_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.271,
+       "p99": 0.593,
+       "spread_p99_p50": 0.322,
+       "std": 0.07,
+       "fraction_near_half": 0.031,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.271,
+       "p99": 0.725,
+       "spread_p99_p50": 0.453,
+       "std": 0.102,
+       "fraction_near_half": 0.044,
+       "valid_pixels": 8651096
+      }
+     }
+    },
+    "c-4_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.27,
+       "p99": 0.581,
+       "spread_p99_p50": 0.312,
+       "std": 0.067,
+       "fraction_near_half": 0.03,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.274,
+       "p99": 0.736,
+       "spread_p99_p50": 0.462,
+       "std": 0.106,
+       "fraction_near_half": 0.049,
+       "valid_pixels": 8651096
+      }
+     }
+    },
+    "c+4_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.274,
+       "p99": 0.628,
+       "spread_p99_p50": 0.354,
+       "std": 0.081,
+       "fraction_near_half": 0.044,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.27,
+       "p99": 0.693,
+       "spread_p99_p50": 0.422,
+       "std": 0.093,
+       "fraction_near_half": 0.042,
+       "valid_pixels": 8651096
+      }
+     }
+    }
+   },
+   "error": null
+  },
+  "reader-v2": {
+   "title": "Reader v2",
+   "by": "Domenico Russo",
+   "license": "MIT",
+   "alive": true,
+   "exposure": {
+    "scroll": "PHerc0343",
+    "status": "unknown",
+    "why": "nothing published says whether its training saw this scroll",
+    "source": null
+   },
+   "liveness": {
+    "c+0_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.286,
+       "p99": 0.499,
+       "spread_p99_p50": 0.212,
+       "std": 0.049,
+       "fraction_near_half": 0.018,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.289,
+       "p99": 0.748,
+       "spread_p99_p50": 0.459,
+       "std": 0.11,
+       "fraction_near_half": 0.048,
+       "valid_pixels": 8651096
+      }
+     }
+    },
+    "c-4_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.284,
+       "p99": 0.481,
+       "spread_p99_p50": 0.197,
+       "std": 0.045,
+       "fraction_near_half": 0.012,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.288,
+       "p99": 0.738,
+       "spread_p99_p50": 0.45,
+       "std": 0.102,
+       "fraction_near_half": 0.047,
+       "valid_pixels": 8651096
+      }
+     }
+    },
+    "c+4_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.288,
+       "p99": 0.554,
+       "spread_p99_p50": 0.266,
+       "std": 0.059,
+       "fraction_near_half": 0.027,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.288,
+       "p99": 0.72,
+       "spread_p99_p50": 0.432,
+       "std": 0.093,
+       "fraction_near_half": 0.042,
+       "valid_pixels": 8651096
+      }
+     }
+    }
+   },
+   "error": null
+  },
+  "reader-v3": {
+   "title": "Reader V3",
+   "by": "Domenico Russo",
+   "license": "MIT",
+   "alive": true,
+   "exposure": {
+    "scroll": "PHerc0343",
+    "status": "unknown",
+    "why": "nothing published says whether its training saw this scroll",
+    "source": null
+   },
+   "liveness": {
+    "c+0_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.277,
+       "p99": 0.526,
+       "spread_p99_p50": 0.249,
+       "std": 0.052,
+       "fraction_near_half": 0.017,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.284,
+       "p99": 0.802,
+       "spread_p99_p50": 0.518,
+       "std": 0.135,
+       "fraction_near_half": 0.047,
+       "valid_pixels": 8651096
+      }
+     }
+    },
+    "c-4_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.274,
+       "p99": 0.482,
+       "spread_p99_p50": 0.208,
+       "std": 0.046,
+       "fraction_near_half": 0.01,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.284,
+       "p99": 0.793,
+       "spread_p99_p50": 0.508,
+       "std": 0.127,
+       "fraction_near_half": 0.051,
+       "valid_pixels": 8651096
+      }
+     }
+    },
+    "c+4_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.279,
+       "p99": 0.561,
+       "spread_p99_p50": 0.282,
+       "std": 0.062,
+       "fraction_near_half": 0.028,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.28,
+       "p99": 0.792,
+       "spread_p99_p50": 0.512,
+       "std": 0.118,
+       "fraction_near_half": 0.044,
+       "valid_pixels": 8651096
+      }
+     }
+    }
+   },
+   "error": null
+  },
+  "dense-native": {
+   "title": "dense_native, step 16,000",
+   "by": "Erwin Nieuwlaar",
+   "license": "MIT",
+   "alive": true,
+   "exposure": {
+    "scroll": "PHerc0343",
+    "status": "unknown",
+    "why": "nothing published says whether its training saw this scroll",
+    "source": null
+   },
+   "liveness": {
+    "c+0_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.34,
+       "p99": 0.565,
+       "spread_p99_p50": 0.226,
+       "std": 0.062,
+       "fraction_near_half": 0.063,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.349,
+       "p99": 0.753,
+       "spread_p99_p50": 0.403,
+       "std": 0.108,
+       "fraction_near_half": 0.098,
+       "valid_pixels": 8651096
+      }
+     }
+    },
+    "c-4_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.334,
+       "p99": 0.566,
+       "spread_p99_p50": 0.233,
+       "std": 0.061,
+       "fraction_near_half": 0.05,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.345,
+       "p99": 0.741,
+       "spread_p99_p50": 0.396,
+       "std": 0.102,
+       "fraction_near_half": 0.096,
+       "valid_pixels": 8651096
+      }
+     }
+    },
+    "c+4_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.341,
+       "p99": 0.571,
+       "spread_p99_p50": 0.23,
+       "std": 0.066,
+       "fraction_near_half": 0.074,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.348,
+       "p99": 0.738,
+       "spread_p99_p50": 0.39,
+       "std": 0.099,
+       "fraction_near_half": 0.089,
+       "valid_pixels": 8651096
+      }
+     }
+    }
+   },
+   "error": null
+  },
+  "d9v2": {
+   "title": "d9v2",
+   "by": "TAUIL-Abd-Elilah",
+   "license": "MIT",
+   "alive": true,
+   "exposure": {
+    "scroll": "PHerc0343",
+    "status": "unknown",
+    "why": "nothing published says whether its training saw this scroll",
+    "source": null
+   },
+   "liveness": {
+    "c+0_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.365,
+       "p99": 0.548,
+       "spread_p99_p50": 0.184,
+       "std": 0.04,
+       "fraction_near_half": 0.043,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.367,
+       "p99": 0.709,
+       "spread_p99_p50": 0.342,
+       "std": 0.073,
+       "fraction_near_half": 0.072,
+       "valid_pixels": 8651096
+      }
+     }
+    },
+    "c-4_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.363,
+       "p99": 0.512,
+       "spread_p99_p50": 0.149,
+       "std": 0.034,
+       "fraction_near_half": 0.03,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.366,
+       "p99": 0.692,
+       "spread_p99_p50": 0.326,
+       "std": 0.067,
+       "fraction_near_half": 0.068,
+       "valid_pixels": 8651096
+      }
+     }
+    },
+    "c+4_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.366,
+       "p99": 0.564,
+       "spread_p99_p50": 0.199,
+       "std": 0.043,
+       "fraction_near_half": 0.048,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.367,
+       "p99": 0.676,
+       "spread_p99_p50": 0.309,
+       "std": 0.064,
+       "fraction_near_half": 0.067,
+       "valid_pixels": 8651096
+      }
+     }
+    }
+   },
+   "error": null
+  },
+  "hecate-9.6": {
+   "title": "Hecate 9.6 um",
+   "by": "Vesuvius Challenge",
+   "license": "MIT",
+   "alive": true,
+   "exposure": {
+    "scroll": "PHerc0343",
+    "status": "unknown",
+    "why": "nothing published says whether its training saw this scroll",
+    "source": null
+   },
+   "liveness": {
+    "c+0_s1": {
+     "forward": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.008,
+       "p99": 0.474,
+       "spread_p99_p50": 0.467,
+       "std": 0.085,
+       "fraction_near_half": 0.004,
+       "valid_pixels": 8651096
+      }
+     },
+     "reverse": {
+      "verdict": "ALIVE",
+      "metrics": {
+       "p50": 0.008,
+       "p99": 0.855,
+       "spread_p99_p50": 0.847,
+       "std": 0.144,
+       "fraction_near_half": 0.007,
+       "valid_pixels": 8651096
+      }
+     }
+    }
+   },
+   "error": null
+  }
+ },
+ "face_check": {
+  "mask": "sheet (crossness >= 0.31)",
+  "pixels_used": 6177477,
+  "alive": [
+   "ink_9um-s42",
+   "ink_9um-s43",
+   "reader-v2",
+   "reader-v3",
+   "dense-native",
+   "d9v2",
+   "hecate-9.6"
+  ],
+  "pairs": {
+   "d9v2/dense-native": {
+    "best_face": "reverse",
+    "agree_best_face": 0.545,
+    "agree_other_face": 0.201,
+    "face_asymmetry": 2.714,
+    "face_consistency": 0.462,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 19,
+    "strong_tiles_other_face": 1,
+    "ink_on_dark": 0.112
+   },
+   "d9v2/hecate-9.6": {
+    "best_face": "reverse",
+    "agree_best_face": 0.306,
+    "agree_other_face": 0.106,
+    "face_asymmetry": 2.88,
+    "face_consistency": 0.513,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 20,
+    "strong_tiles_other_face": 0,
+    "ink_on_dark": 0.067
+   },
+   "d9v2/ink_9um-s42": {
+    "best_face": "reverse",
+    "agree_best_face": 0.359,
+    "agree_other_face": 0.107,
+    "face_asymmetry": 3.366,
+    "face_consistency": 0.564,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 23,
+    "strong_tiles_other_face": 1,
+    "ink_on_dark": 0.12
+   },
+   "d9v2/ink_9um-s43": {
+    "best_face": "reverse",
+    "agree_best_face": 0.282,
+    "agree_other_face": 0.057,
+    "face_asymmetry": 4.984,
+    "face_consistency": 0.667,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 27,
+    "strong_tiles_other_face": 1,
+    "ink_on_dark": 0.114
+   },
+   "d9v2/reader-v2": {
+    "best_face": "reverse",
+    "agree_best_face": 0.549,
+    "agree_other_face": 0.28,
+    "face_asymmetry": 1.964,
+    "face_consistency": 0.256,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 14,
+    "strong_tiles_other_face": 4,
+    "ink_on_dark": 0.104
+   },
+   "d9v2/reader-v3": {
+    "best_face": "reverse",
+    "agree_best_face": 0.479,
+    "agree_other_face": 0.172,
+    "face_asymmetry": 2.784,
+    "face_consistency": 0.436,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 21,
+    "strong_tiles_other_face": 4,
+    "ink_on_dark": 0.105
+   },
+   "dense-native/hecate-9.6": {
+    "best_face": "reverse",
+    "agree_best_face": 0.299,
+    "agree_other_face": 0.092,
+    "face_asymmetry": 3.253,
+    "face_consistency": 0.462,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 18,
+    "strong_tiles_other_face": 0,
+    "ink_on_dark": 0.068
+   },
+   "dense-native/ink_9um-s42": {
+    "best_face": "reverse",
+    "agree_best_face": 0.358,
+    "agree_other_face": 0.103,
+    "face_asymmetry": 3.481,
+    "face_consistency": 0.513,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 20,
+    "strong_tiles_other_face": 0,
+    "ink_on_dark": 0.12
+   },
+   "dense-native/ink_9um-s43": {
+    "best_face": "reverse",
+    "agree_best_face": 0.284,
+    "agree_other_face": 0.08,
+    "face_asymmetry": 3.573,
+    "face_consistency": 0.59,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 24,
+    "strong_tiles_other_face": 1,
+    "ink_on_dark": 0.117
+   },
+   "dense-native/reader-v2": {
+    "best_face": "reverse",
+    "agree_best_face": 0.609,
+    "agree_other_face": 0.205,
+    "face_asymmetry": 2.965,
+    "face_consistency": 0.59,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 25,
+    "strong_tiles_other_face": 2,
+    "ink_on_dark": 0.102
+   },
+   "dense-native/reader-v3": {
+    "best_face": "reverse",
+    "agree_best_face": 0.504,
+    "agree_other_face": 0.147,
+    "face_asymmetry": 3.429,
+    "face_consistency": 0.513,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 22,
+    "strong_tiles_other_face": 2,
+    "ink_on_dark": 0.102
+   },
+   "hecate-9.6/ink_9um-s42": {
+    "best_face": "reverse",
+    "agree_best_face": 0.2,
+    "agree_other_face": 0.074,
+    "face_asymmetry": 2.709,
+    "face_consistency": 0.333,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 15,
+    "strong_tiles_other_face": 2,
+    "ink_on_dark": 0.067
+   },
+   "hecate-9.6/ink_9um-s43": {
+    "best_face": "reverse",
+    "agree_best_face": 0.23,
+    "agree_other_face": 0.052,
+    "face_asymmetry": 4.438,
+    "face_consistency": 0.41,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 16,
+    "strong_tiles_other_face": 0,
+    "ink_on_dark": 0.074
+   },
+   "hecate-9.6/reader-v2": {
+    "best_face": "reverse",
+    "agree_best_face": 0.321,
+    "agree_other_face": 0.122,
+    "face_asymmetry": 2.628,
+    "face_consistency": 0.462,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 18,
+    "strong_tiles_other_face": 0,
+    "ink_on_dark": 0.06
+   },
+   "hecate-9.6/reader-v3": {
+    "best_face": "reverse",
+    "agree_best_face": 0.291,
+    "agree_other_face": 0.102,
+    "face_asymmetry": 2.842,
+    "face_consistency": 0.436,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 17,
+    "strong_tiles_other_face": 0,
+    "ink_on_dark": 0.056
+   },
+   "ink_9um-s42/ink_9um-s43": {
+    "best_face": "reverse",
+    "agree_best_face": 0.298,
+    "agree_other_face": 0.105,
+    "face_asymmetry": 2.845,
+    "face_consistency": 0.308,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 16,
+    "strong_tiles_other_face": 4,
+    "ink_on_dark": 0.109
+   },
+   "ink_9um-s42/reader-v2": {
+    "best_face": "reverse",
+    "agree_best_face": 0.32,
+    "agree_other_face": 0.095,
+    "face_asymmetry": 3.364,
+    "face_consistency": 0.615,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 24,
+    "strong_tiles_other_face": 0,
+    "ink_on_dark": 0.108
+   },
+   "ink_9um-s42/reader-v3": {
+    "best_face": "reverse",
+    "agree_best_face": 0.282,
+    "agree_other_face": 0.072,
+    "face_asymmetry": 3.899,
+    "face_consistency": 0.513,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 21,
+    "strong_tiles_other_face": 1,
+    "ink_on_dark": 0.104
+   },
+   "ink_9um-s43/reader-v2": {
+    "best_face": "reverse",
+    "agree_best_face": 0.253,
+    "agree_other_face": 0.074,
+    "face_asymmetry": 3.405,
+    "face_consistency": 0.487,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 20,
+    "strong_tiles_other_face": 1,
+    "ink_on_dark": 0.103
+   },
+   "ink_9um-s43/reader-v3": {
+    "best_face": "reverse",
+    "agree_best_face": 0.248,
+    "agree_other_face": 0.037,
+    "face_asymmetry": 6.664,
+    "face_consistency": 0.564,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 22,
+    "strong_tiles_other_face": 0,
+    "ink_on_dark": 0.099
+   },
+   "reader-v2/reader-v3": {
+    "best_face": "reverse",
+    "agree_best_face": 0.55,
+    "agree_other_face": 0.375,
+    "face_asymmetry": 1.466,
+    "face_consistency": 0.179,
+    "consistent_face": "reverse",
+    "tiles": 39,
+    "strong_tiles": 10,
+    "strong_tiles_other_face": 3,
+    "ink_on_dark": 0.1
+   }
+  },
+  "sheet_fraction": 0.714
+ },
+ "files": [
+  "ensemble-rev/forward.png",
+  "ensemble-rev/reverse.png",
+  "ensemble/forward.png",
+  "ensemble/reverse.png",
+  "maps/d9v2/c+0_s1_forward.png",
+  "maps/d9v2/c+0_s1_reverse.png",
+  "maps/d9v2/c+4_s1_forward.png",
+  "maps/d9v2/c+4_s1_reverse.png",
+  "maps/d9v2/c-4_s1_forward.png",
+  "maps/d9v2/c-4_s1_reverse.png",
+  "maps/dense-native/c+0_s1_forward.png",
+  "maps/dense-native/c+0_s1_reverse.png",
+  "maps/dense-native/c+4_s1_forward.png",
+  "maps/dense-native/c+4_s1_reverse.png",
+  "maps/dense-native/c-4_s1_forward.png",
+  "maps/dense-native/c-4_s1_reverse.png",
+  "maps/hecate-9.6/c+0_s1_forward.png",
+  "maps/hecate-9.6/c+0_s1_reverse.png",
+  "maps/ink_9um-s42/c+0_s1_forward.png",
+  "maps/ink_9um-s42/c+0_s1_reverse.png",
+  "maps/ink_9um-s42/c+4_s1_forward.png",
+  "maps/ink_9um-s42/c+4_s1_reverse.png",
+  "maps/ink_9um-s42/c-4_s1_forward.png",
+  "maps/ink_9um-s42/c-4_s1_reverse.png",
+  "maps/ink_9um-s43/c+0_s1_forward.png",
+  "maps/ink_9um-s43/c+0_s1_reverse.png",
+  "maps/ink_9um-s43/c+4_s1_forward.png",
+  "maps/ink_9um-s43/c+4_s1_reverse.png",
+  "maps/ink_9um-s43/c-4_s1_forward.png",
+  "maps/ink_9um-s43/c-4_s1_reverse.png",
+  "maps/reader-v2/c+0_s1_forward.png",
+  "maps/reader-v2/c+0_s1_reverse.png",
+  "maps/reader-v2/c+4_s1_forward.png",
+  "maps/reader-v2/c+4_s1_reverse.png",
+  "maps/reader-v2/c-4_s1_forward.png",
+  "maps/reader-v2/c-4_s1_reverse.png",
+  "maps/reader-v3/c+0_s1_forward.png",
+  "maps/reader-v3/c+0_s1_reverse.png",
+  "maps/reader-v3/c+4_s1_forward.png",
+  "maps/reader-v3/c+4_s1_reverse.png",
+  "maps/reader-v3/c-4_s1_forward.png",
+  "maps/reader-v3/c-4_s1_reverse.png",
+  "ct_mid.png",
+  "preview.jpg"
+ ]
+}

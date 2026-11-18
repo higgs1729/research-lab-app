@@ -1,0 +1,18 @@
+{
+  "fixed_http_file_responses": 16,
+  "fixed_http_file_bytes": 286087,
+  "measured_http_acquisition_seconds": 4.098991700011538,
+  "github_connector_read_calls": 6,
+  "web_tool_calls": 3,
+  "connector_and_web_transfer_sizes_and_duration": "not independently metered",
+  "new_png_bytes": 0,
+  "new_ct_voxel_bytes": 0,
+  "new_model_checkpoint_bytes": 0,
+  "gpu_jobs": 0,
+  "builds": 0,
+  "model_forwards": 0,
+  "line_detector_runs": 0,
+  "external_publications": 0,
+  "cost_jpy": 0,
+  "acquisition_peak_rss_bytes": 36237312
+}

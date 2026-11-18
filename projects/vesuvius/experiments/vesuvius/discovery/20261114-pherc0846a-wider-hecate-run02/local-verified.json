@@ -1,0 +1,90 @@
+{
+  "404_then_409_then_ready": {
+    "probes": [
+      [
+        0,
+        404
+      ],
+      [
+        4,
+        409
+      ],
+      [
+        9,
+        409
+      ],
+      [
+        14,
+        409
+      ],
+      [
+        19,
+        409
+      ],
+      [
+        24,
+        409
+      ],
+      [
+        29,
+        409
+      ],
+      [
+        34,
+        200
+      ]
+    ],
+    "elapsed_seconds": 34,
+    "detail_gets": 9,
+    "outcome": "ready",
+    "absolute_delete_epoch_unchanged": true
+  },
+  "persistent_404": {
+    "probes": [
+      [
+        0,
+        404
+      ],
+      [
+        4,
+        404
+      ],
+      [
+        8,
+        404
+      ]
+    ],
+    "elapsed_seconds": 8,
+    "detail_gets": 6,
+    "outcome": "after three probes",
+    "absolute_delete_epoch_unchanged": true
+  },
+  "initial_240_second_deadline": {
+    "probes": [
+      [
+        0,
+        404
+      ],
+      [
+        4,
+        409
+      ],
+      [
+        104,
+        503
+      ],
+      [
+        204,
+        409
+      ]
+    ],
+    "elapsed_seconds": 204,
+    "detail_gets": 5,
+    "outcome": "would exceed the startup deadline",
+    "absolute_delete_epoch_unchanged": true
+  },
+  "inherited_archive_bytes": 35512320,
+  "inherited_archive_sha256": "aed0b122344c9642f6d7f432a6cbad90433eea0046fed1d258d7c0f7ae5b09da",
+  "network_calls": 0,
+  "model_calls": 0
+}

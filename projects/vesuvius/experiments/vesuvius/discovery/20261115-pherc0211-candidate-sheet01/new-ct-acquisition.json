@@ -1,0 +1,13 @@
+{
+  "started_utc": "2026-11-15T14:53:16.976749+00:00",
+  "plan_sha256": "7cb7186301853468d18cacfc375ad78c0aa20b9b05cbc7b273b5ea70e4fcf352",
+  "key": "0/65/26/29",
+  "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/65/26/29",
+  "bytes_received": 2097152,
+  "status": "complete_verified",
+  "file": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-candidate-sheet01\\ct.zarr\\0\\65\\26\\29",
+  "sha256": "5c1869eed5e035a3dc52e65c4094fbb523545a4bd8c593040b6f0df4454f7b41",
+  "md5": "8920e9ce559f98d57c85b7e23f54aaf0",
+  "etag": "\"8920e9ce559f98d57c85b7e23f54aaf0\"",
+  "elapsed_seconds": 3.7144141999888234
+}

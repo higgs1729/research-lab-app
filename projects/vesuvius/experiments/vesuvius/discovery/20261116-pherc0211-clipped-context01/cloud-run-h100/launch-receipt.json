@@ -1,0 +1,48 @@
+{
+  "name": "r242-studio-3883a61468d540c4",
+  "create_epoch": 1794760849,
+  "delete_epoch": 1794762649,
+  "precreate_list_had_no_match": true,
+  "list_hourly_usd": 4.39,
+  "requested_data_centers": [
+    "AP-IN-1",
+    "AP-JP-1",
+    "EUR-NO-2",
+    "US-CA-2",
+    "US-MO-1",
+    "US-NE-1"
+  ],
+  "input_archive_sha256": "0124d2ffd6afd5029cd38c3e52fa0c046c381fcba6518acbce110b1a4e79ee83",
+  "result_reservation": {
+    "allocated_bytes": 67108864,
+    "file_bytes": 67108864,
+    "windows_attributes": 32,
+    "links": 1,
+    "device": 10726679257801674650,
+    "file_id": 4785074606546729
+  },
+  "free_before_reservation_bytes": 14467207168,
+  "free_after_reservation_bytes": 14400098304,
+  "precreate_foreign_pods_untouched": [],
+  "pod_id": "3spuikvh641nms",
+  "effective_hourly_usd": 4.39,
+  "data_center": "AP-IN-1",
+  "ready_epoch": 1794760925.8952863,
+  "transfer_end_epoch": 1794761405.8952863,
+  "model_end_epoch": 1794762229,
+  "upload_verified_epoch": 1794761204.7535093,
+  "worker_launcher_pid": 1398,
+  "worker_launch_confirmed_epoch": 1794761205.407552,
+  "outer_forecast": {
+    "completed": 8,
+    "unknown_completed": 3,
+    "estimated_remaining_s": 13.039456568658352,
+    "deadline_remaining_s": 894.7575631411746,
+    "forecast_epoch": 1794761321.7394865,
+    "actual_model_deadline_remaining_at_forecast_s": 907.2605135440826,
+    "exceeds_actual_deadline": false
+  },
+  "worker_result_seen_epoch": 1794761339.868849,
+  "collection_start_epoch": 1794761339.8688512,
+  "collection_end_epoch": 1794761699.8688512
+}

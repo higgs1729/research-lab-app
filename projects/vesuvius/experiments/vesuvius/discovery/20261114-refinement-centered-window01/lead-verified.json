@@ -1,0 +1,67 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "fixture_file_hashes_checked": 207,
+  "tifxyz": [
+    {
+      "tag": "A-r0",
+      "legacy_xyz_bit_identical_values": 75,
+      "centered_offset": 5.99993896484375,
+      "independent_rational_residual": 1.0357562443275015e-06,
+      "centered_moved_vertices": 16,
+      "centered_unchanged_vertices": 9
+    },
+    {
+      "tag": "B-r0",
+      "legacy_xyz_bit_identical_values": 75,
+      "centered_offset": 5.99993896484375,
+      "independent_rational_residual": 1.0357562443275015e-06,
+      "centered_moved_vertices": 16,
+      "centered_unchanged_vertices": 9
+    },
+    {
+      "tag": "C-r3",
+      "legacy_xyz_bit_identical_values": 75,
+      "centered_offset": 5.99993896484375,
+      "independent_rational_residual": 1.0357562443275015e-06,
+      "centered_moved_vertices": 16,
+      "centered_unchanged_vertices": 9
+    },
+    {
+      "tag": "A-r3",
+      "legacy_xyz_bit_identical_values": 75,
+      "centered_offset": 6.034847259521484,
+      "independent_rational_residual": 6.930935319005016e-07,
+      "centered_moved_vertices": 16,
+      "centered_unchanged_vertices": 9
+    },
+    {
+      "tag": "B-r3",
+      "legacy_xyz_bit_identical_values": 75,
+      "centered_offset": 6.034847259521484,
+      "independent_rational_residual": 6.930935319005016e-07,
+      "centered_moved_vertices": 16,
+      "centered_unchanged_vertices": 9
+    }
+  ],
+  "centered_reflection_gap_voxel": 0.0,
+  "obj": [
+    {
+      "mode": "default",
+      "center_offset": 9.034799999999997,
+      "all_25_xy_unchanged": true,
+      "non_vertex_lines_unchanged": true,
+      "shared_interior_16_vertex_max_tif_difference": 2.818603515919449e-05
+    },
+    {
+      "mode": "centered",
+      "center_offset": 6.034799999999997,
+      "all_25_xy_unchanged": true,
+      "non_vertex_lines_unchanged": true,
+      "shared_interior_16_vertex_max_tif_difference": 4.725952148731949e-05
+    }
+  ],
+  "scope": "Stored outputs only. Legacy five outputs retain all375 XYZ values bit-for-bit; centered reflection agrees and r0/flat stay unchanged on these fixtures. OBJ agrees on shared valid interior within its text precision. This does not identify real paper or prove readability improvement.",
+  "new_product_calls": 0,
+  "new_network_bytes": 0
+}

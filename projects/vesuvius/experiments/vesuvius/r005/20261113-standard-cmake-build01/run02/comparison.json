@@ -1,0 +1,56 @@
+{
+  "files": {
+    "x.tif": {
+      "shape_yx": [
+        172,
+        683
+      ],
+      "dtype": "float32",
+      "native_sha256": "c16a2b45b1fed2b85bc2898d002247ad1e5299673616cbcf0762204db94c51d1",
+      "R150_sha256": "c16a2b45b1fed2b85bc2898d002247ad1e5299673616cbcf0762204db94c51d1",
+      "byte_identical": true,
+      "equal_float32_bits": 117476,
+      "pixels": 117476,
+      "different_float32_bits": 0
+    },
+    "y.tif": {
+      "shape_yx": [
+        172,
+        683
+      ],
+      "dtype": "float32",
+      "native_sha256": "cb18e6559b1582ea762e74446c7ac17c896e3ca1501ecef17877f52db224dbdb",
+      "R150_sha256": "cb18e6559b1582ea762e74446c7ac17c896e3ca1501ecef17877f52db224dbdb",
+      "byte_identical": true,
+      "equal_float32_bits": 117476,
+      "pixels": 117476,
+      "different_float32_bits": 0
+    },
+    "z.tif": {
+      "shape_yx": [
+        172,
+        683
+      ],
+      "dtype": "float32",
+      "native_sha256": "219fa428ade0d4a3d09a6be1c5471c4121fa0ca3e42c9a4b68204343ddc8aea2",
+      "R150_sha256": "219fa428ade0d4a3d09a6be1c5471c4121fa0ca3e42c9a4b68204343ddc8aea2",
+      "byte_identical": true,
+      "equal_float32_bits": 117476,
+      "pixels": 117476,
+      "different_float32_bits": 0
+    }
+  },
+  "native_scale": [
+    0.05000000074505806,
+    0.05000000074505806
+  ],
+  "R150_scale": [
+    0.05000000074505806,
+    0.05000000074505806
+  ],
+  "scale_equal": true,
+  "meta_difference_keys": [
+    "uuid"
+  ],
+  "success": true
+}

@@ -1,0 +1,149 @@
+{
+  "recent_disk_events": [
+    {
+      "TimeCreated": "2026-11-12T17:20:27.6846733+09:00",
+      "Id": 51,
+      "ProviderName": "disk",
+      "Message": "ページング操作中にデバイス \\Device\\Harddisk1\\DR1 上でエラーが検出されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:20:27.6846733+09:00",
+      "Id": 51,
+      "ProviderName": "disk",
+      "Message": "ページング操作中にデバイス \\Device\\Harddisk1\\DR1 上でエラーが検出されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:20:27.6846733+09:00",
+      "Id": 51,
+      "ProviderName": "disk",
+      "Message": "ページング操作中にデバイス \\Device\\Harddisk1\\DR1 上でエラーが検出されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:20:27.6846733+09:00",
+      "Id": 51,
+      "ProviderName": "disk",
+      "Message": "ページング操作中にデバイス \\Device\\Harddisk1\\DR1 上でエラーが検出されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:20:27.6846733+09:00",
+      "Id": 51,
+      "ProviderName": "disk",
+      "Message": "ページング操作中にデバイス \\Device\\Harddisk1\\DR1 上でエラーが検出されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:20:27.6846733+09:00",
+      "Id": 51,
+      "ProviderName": "disk",
+      "Message": "ページング操作中にデバイス \\Device\\Harddisk1\\DR1 上でエラーが検出されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:20:27.6846733+09:00",
+      "Id": 51,
+      "ProviderName": "disk",
+      "Message": "ページング操作中にデバイス \\Device\\Harddisk1\\DR1 上でエラーが検出されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:20:27.6846733+09:00",
+      "Id": 51,
+      "ProviderName": "disk",
+      "Message": "ページング操作中にデバイス \\Device\\Harddisk1\\DR1 上でエラーが検出されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:20:27.6846733+09:00",
+      "Id": 51,
+      "ProviderName": "disk",
+      "Message": "ページング操作中にデバイス \\Device\\Harddisk1\\DR1 上でエラーが検出されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:19:55.8179167+09:00",
+      "Id": 153,
+      "ProviderName": "disk",
+      "Message": "ディスク 1 (PDO 名: \\Device\\0000006b) の論理ブロック アドレス 0xd3fce10 で IO 操作が再試行されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:19:55.8179167+09:00",
+      "Id": 153,
+      "ProviderName": "disk",
+      "Message": "ディスク 1 (PDO 名: \\Device\\0000006b) の論理ブロック アドレス 0x105b で IO 操作が再試行されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:19:55.8179167+09:00",
+      "Id": 153,
+      "ProviderName": "disk",
+      "Message": "ディスク 1 (PDO 名: \\Device\\0000006b) の論理ブロック アドレス 0x10000 で IO 操作が再試行されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:19:55.8179167+09:00",
+      "Id": 153,
+      "ProviderName": "disk",
+      "Message": "ディスク 1 (PDO 名: \\Device\\0000006b) の論理ブロック アドレス 0x44de4800 で IO 操作が再試行されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:19:55.8179167+09:00",
+      "Id": 153,
+      "ProviderName": "disk",
+      "Message": "ディスク 1 (PDO 名: \\Device\\0000006b) の論理ブロック アドレス 0x44de6000 で IO 操作が再試行されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:19:55.8179167+09:00",
+      "Id": 153,
+      "ProviderName": "disk",
+      "Message": "ディスク 1 (PDO 名: \\Device\\0000006b) の論理ブロック アドレス 0x44de5400 で IO 操作が再試行されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:19:55.8179167+09:00",
+      "Id": 153,
+      "ProviderName": "disk",
+      "Message": "ディスク 1 (PDO 名: \\Device\\0000006b) の論理ブロック アドレス 0x44de3c00 で IO 操作が再試行されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:19:55.8179167+09:00",
+      "Id": 129,
+      "ProviderName": "UASPStor",
+      "Message": "デバイス \\Device\\RaidPort2 にリセットが発行されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:19:40.7904858+09:00",
+      "Id": 153,
+      "ProviderName": "disk",
+      "Message": "ディスク 1 (PDO 名: \\Device\\0000006b) の論理ブロック アドレス 0x32cb50 で IO 操作が再試行されました。"
+    },
+    {
+      "TimeCreated": "2026-11-12T17:19:40.7904858+09:00",
+      "Id": 153,
+      "ProviderName": "disk",
+      "Message": "ディスク 1 (PDO 名: \\Device\\0000006b) の論理ブロック アドレス 0x1128e200 で IO 操作が再試行されました。"
+    }
+  ],
+  "relinks_started": 0,
+  "d_original_object_present": false,
+  "present_disks": [
+    {
+      "Number": 0,
+      "FriendlyName": "KINGSTON SNV2S1000G",
+      "BusType": "NVMe",
+      "OperationalStatus": "Online",
+      "HealthStatus": "Healthy",
+      "Size": 1000204886016
+    }
+  ],
+  "renders_started": 0,
+  "wsl_mount": [
+    "TARGET SOURCE   FSTYPE",
+    "/      /dev/sdd ext4"
+  ],
+  "captured_local": "2026-11-12T17:22:02.3517736+09:00",
+  "volumes": [
+    {
+      "DriveLetter": "C",
+      "FileSystemLabel": "Windows",
+      "HealthStatus": "Healthy"
+    },
+    {
+      "DriveLetter": null,
+      "FileSystemLabel": "Windows RE tools",
+      "HealthStatus": "Healthy"
+    }
+  ],
+  "d_root_present": false
+}

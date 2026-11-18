@@ -1,0 +1,648 @@
+{
+  "plan_sha256": "24329bd07841e9be666bacb2701d7f4f2df6d9944f1feb78089625fa9fb1f5d9",
+  "ct_acquisition_sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369",
+  "readback_source_sha256": "f0c40d7dde45dea07c79441f6098b37f9066d41b76d8fc2c1394220c33ed2776",
+  "images_ready_utc": "2026-11-15T08:11:49.370327+00:00",
+  "contexts": {
+    "upper": {
+      "raw": {
+        "file": "sections/upper-context-d0.png",
+        "sha256": "fc9f269fb2ff6164447cf21197effa38c07cdad96f53eb79496956b3e4051cdf",
+        "shape": [
+          200,
+          368
+        ],
+        "samples": 73600,
+        "dn_min": 14,
+        "dn_max": 249
+      },
+      "marked": {
+        "file": "sections/upper-locator.png",
+        "sha256": "85028c72737db737ff4758b640ff070b44928472efc4a072417fd0dbb003a416"
+      }
+    },
+    "known": {
+      "raw": {
+        "file": "sections/known-context-d0.png",
+        "sha256": "ceb3e659231b173f1696e533286cf7accd889a04efbe3701ad62703f2838a2c7",
+        "shape": [
+          215,
+          205
+        ],
+        "samples": 44075,
+        "dn_min": 3,
+        "dn_max": 255
+      },
+      "marked": {
+        "file": "sections/known-locator.png",
+        "sha256": "5160bcbbe88c92647507e084448fc0dd1510328988737c70a5ff01a9cba04600"
+      }
+    }
+  },
+  "curtains": {
+    "upper-bend": {
+      "raw": {
+        "file": "sections/upper-bend-normal.png",
+        "sha256": "26c8dc2de7d94f7270f33f8e532c9c2a0cea66b6b8eec2c6a0643f00a95f4e46",
+        "shape": [
+          65,
+          489
+        ],
+        "samples": 31785,
+        "dn_min": 11,
+        "dn_max": 233
+      },
+      "geometry": {
+        "file": "sections/upper-bend-geometry.npz",
+        "sha256": "aec977eeef752302085f9f02f9e2011e425439da6bd7c6ed72820649c7c8f942"
+      },
+      "marked": {
+        "file": "sections/upper-bend-normal-marked.png",
+        "sha256": "744a951f81ffae53755693e40ee38e01dfa6aceb9947c1829e108f0dbd34846e"
+      }
+    },
+    "upper-across": {
+      "raw": {
+        "file": "sections/upper-across-normal.png",
+        "sha256": "346c5db023096af6d218b65c97e936bd0123d009e49101eeafcca64c74c8369b",
+        "shape": [
+          65,
+          701
+        ],
+        "samples": 45565,
+        "dn_min": 2,
+        "dn_max": 234
+      },
+      "geometry": {
+        "file": "sections/upper-across-geometry.npz",
+        "sha256": "5db3e0e3a693301208c9c09a9f5a604f4e1b2adb3caa2e7d847bf7f956ce542e"
+      },
+      "marked": {
+        "file": "sections/upper-across-normal-marked.png",
+        "sha256": "ff00ea1a96fcfc8b22ed35a673764862e71319c6d5f3f57e01545ac39db21e59"
+      }
+    },
+    "upper-adjacent": {
+      "raw": {
+        "file": "sections/upper-adjacent-normal.png",
+        "sha256": "b19d6cc1a567748576e46498f9b0249f145327507320eeabffe86421d19c64f8",
+        "shape": [
+          65,
+          425
+        ],
+        "samples": 27625,
+        "dn_min": 8,
+        "dn_max": 237
+      },
+      "geometry": {
+        "file": "sections/upper-adjacent-geometry.npz",
+        "sha256": "0c4f5d8423919072f8fd24d151930b2de4fcf37c7d0f2ef791b0751219810316"
+      },
+      "marked": {
+        "file": "sections/upper-adjacent-normal-marked.png",
+        "sha256": "b9467e07ef492a520823503bee782ccefca7a43919b1556e733b953eca308160"
+      }
+    },
+    "known-across": {
+      "raw": {
+        "file": "sections/known-across-normal.png",
+        "sha256": "88d4b6160b0c5ce8df8a87f847e7fa42ee570ebefe9bdebce8d8a3e46f91e35e",
+        "shape": [
+          65,
+          301
+        ],
+        "samples": 19565,
+        "dn_min": 2,
+        "dn_max": 255
+      },
+      "geometry": {
+        "file": "sections/known-across-geometry.npz",
+        "sha256": "2221586b5532c36d2ba4fcd2247a66723446a147e823338bf6e6672b712135d4"
+      },
+      "marked": {
+        "file": "sections/known-across-normal-marked.png",
+        "sha256": "f2818f4334e8953142a0e359c6acfdfce96e21753956248cd534db0bd53ac1fc"
+      }
+    },
+    "known-down": {
+      "raw": {
+        "file": "sections/known-down-normal.png",
+        "sha256": "321598d76e65ae8d20bde1ccb9ca481d0d819bd8b3649892f4743dcf9c1f9bf8",
+        "shape": [
+          65,
+          361
+        ],
+        "samples": 23465,
+        "dn_min": 17,
+        "dn_max": 230
+      },
+      "geometry": {
+        "file": "sections/known-down-geometry.npz",
+        "sha256": "d94672a85c6ad014ae75da3af3f685df4ff124e44ccecbc73a024fb30c118b03"
+      },
+      "marked": {
+        "file": "sections/known-down-normal-marked.png",
+        "sha256": "7f2caf2802783d4b80349ad1167460d7cb306db9aad3af90ff9f57df393a3d48"
+      }
+    }
+  },
+  "sites": {
+    "U1": {
+      "raw": {
+        "Z": {
+          "file": "sections/U1-axis-Z.png",
+          "sha256": "04c08252fdf6284d01f08802fdf8de4dd64a191061f7b2d1dbe9da651fd28441",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 14,
+          "dn_max": 255
+        },
+        "Y": {
+          "file": "sections/U1-axis-Y.png",
+          "sha256": "0814ca33a1547abf4e1d4f30a5f62eb1eae394ce54d1b3b4e60694594efeefa6",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 12,
+          "dn_max": 246
+        },
+        "X": {
+          "file": "sections/U1-axis-X.png",
+          "sha256": "7891d32ad229fb8f47f3d98ff6a81a7d6a2c25c67ecdb577d7ba829a340c7610",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 19,
+          "dn_max": 183
+        }
+      },
+      "marked": {
+        "file": "sections/U1-orthogonal-marked.png",
+        "sha256": "0fda4315d92313be483e472d22ca1f4ccd2a219312caa6bae861d137964b584d"
+      }
+    },
+    "U2": {
+      "raw": {
+        "Z": {
+          "file": "sections/U2-axis-Z.png",
+          "sha256": "66568d5679e14d026718c5bbfc0b2288a33331f840eb0165bc2a023539a3e604",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 14,
+          "dn_max": 192
+        },
+        "Y": {
+          "file": "sections/U2-axis-Y.png",
+          "sha256": "48aba758d7bfe82c2f8957e9f4991e100d58da753ac626243812282681410c91",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 17,
+          "dn_max": 183
+        },
+        "X": {
+          "file": "sections/U2-axis-X.png",
+          "sha256": "85b96b8bb922587f38fbb3a1596899bd7d02a4460311b09da5236e0105f52078",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 13,
+          "dn_max": 177
+        }
+      },
+      "marked": {
+        "file": "sections/U2-orthogonal-marked.png",
+        "sha256": "b2b69a3ccccb376225ce6aadb5446d7875098aa9566bbfdc748ce68bc24c4969"
+      }
+    },
+    "U3": {
+      "raw": {
+        "Z": {
+          "file": "sections/U3-axis-Z.png",
+          "sha256": "abd1753936afb6ae1de44fa6de1d889af147f17cc0de228639c8975f96f5b24a",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 10,
+          "dn_max": 193
+        },
+        "Y": {
+          "file": "sections/U3-axis-Y.png",
+          "sha256": "a37492cfae08dc69d7153fb5fee4d659d25558f2c3d47d5abf225b91a69ac6c1",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 7,
+          "dn_max": 213
+        },
+        "X": {
+          "file": "sections/U3-axis-X.png",
+          "sha256": "e9ff8c8214998b23054b4f7a422dce24873159f18f3886dedb610f31ae675504",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 9,
+          "dn_max": 215
+        }
+      },
+      "marked": {
+        "file": "sections/U3-orthogonal-marked.png",
+        "sha256": "9308fe41f6124f7fafe9d2b7a6a610a12de2db3c502ab1bf5b742d57746992b9"
+      }
+    },
+    "U4": {
+      "raw": {
+        "Z": {
+          "file": "sections/U4-axis-Z.png",
+          "sha256": "bf10819268bf2d46c91aebeca1a5e62e3cae721f33f563b7214eb01bf150eb45",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 2,
+          "dn_max": 176
+        },
+        "Y": {
+          "file": "sections/U4-axis-Y.png",
+          "sha256": "82e2b11578b1cf0ebd6dd88ff96f77ca30cd406e89372c3ae30e0cdc891a2d37",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 0,
+          "dn_max": 215
+        },
+        "X": {
+          "file": "sections/U4-axis-X.png",
+          "sha256": "048c5f232ab8e501142d25b00640caea562e54de72cf4f9323af32cfcc864535",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 14,
+          "dn_max": 232
+        }
+      },
+      "marked": {
+        "file": "sections/U4-orthogonal-marked.png",
+        "sha256": "3fb4d5dc709835bb4f42570f07a2e38f7e7b9e1f0543ce7420bc931085fd459f"
+      }
+    },
+    "U5": {
+      "raw": {
+        "Z": {
+          "file": "sections/U5-axis-Z.png",
+          "sha256": "9ac5e38d6c317d36c4863eb5a142b57eda2c97c54de0ff47b14630307b324e19",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 12,
+          "dn_max": 181
+        },
+        "Y": {
+          "file": "sections/U5-axis-Y.png",
+          "sha256": "e19eaa8539c3274d06272a58f6c7fecc569c2082115f0236317d907c5ff9ebbf",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 18,
+          "dn_max": 230
+        },
+        "X": {
+          "file": "sections/U5-axis-X.png",
+          "sha256": "a2372174a164284dd729ec485100f809871db59dc453a9ee6203ddcdbef9ed2b",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 18,
+          "dn_max": 200
+        }
+      },
+      "marked": {
+        "file": "sections/U5-orthogonal-marked.png",
+        "sha256": "a46833bbc7d4c2a4098b9b473cf937fbc3fe75cf764e9e5b81236f4ee7e8228b"
+      }
+    },
+    "U6": {
+      "raw": {
+        "Z": {
+          "file": "sections/U6-axis-Z.png",
+          "sha256": "db1d007117c850412396d359706f87e21d7ef62387607750ea16d7af7d32beab",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 20,
+          "dn_max": 184
+        },
+        "Y": {
+          "file": "sections/U6-axis-Y.png",
+          "sha256": "2233191f19c0fe765b23fd90ce38b211e1d7e53a0eeb8d86571871cfabdfebac",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 18,
+          "dn_max": 235
+        },
+        "X": {
+          "file": "sections/U6-axis-X.png",
+          "sha256": "46f57546556946e97dee0d25e239d9c2ba685dc647f49263024d468b4d43582a",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 20,
+          "dn_max": 191
+        }
+      },
+      "marked": {
+        "file": "sections/U6-orthogonal-marked.png",
+        "sha256": "758b83af20cb622f23472f5b4471411358a61da777823b02388a9dd3b552d31f"
+      }
+    },
+    "U7": {
+      "raw": {
+        "Z": {
+          "file": "sections/U7-axis-Z.png",
+          "sha256": "a77bb02eb0b4ef9b42f81ef1b49679b6d7f0ba143177f2919422cb3484844e2c",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 16,
+          "dn_max": 242
+        },
+        "Y": {
+          "file": "sections/U7-axis-Y.png",
+          "sha256": "c7300e3ff0177c06e88990a1635628cce49e3e6a48ccc94df73ca69f09640727",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 12,
+          "dn_max": 210
+        },
+        "X": {
+          "file": "sections/U7-axis-X.png",
+          "sha256": "432da7f82e984a450195ffc1ed85fdace3d331360c3ba463c950daaafde51b08",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 24,
+          "dn_max": 178
+        }
+      },
+      "marked": {
+        "file": "sections/U7-orthogonal-marked.png",
+        "sha256": "d44550c28f861e95236ecb2d2058201ee34c2f4f8c08fb488d0c4c4d1b830093"
+      }
+    },
+    "U8": {
+      "raw": {
+        "Z": {
+          "file": "sections/U8-axis-Z.png",
+          "sha256": "41d1b1223d3ec87cce98d9cc2f1e1b4b11cd006980e8bfd5bb1ac850c363c858",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 15,
+          "dn_max": 180
+        },
+        "Y": {
+          "file": "sections/U8-axis-Y.png",
+          "sha256": "85eca7d638b326c90bec2f43de9f926b4f80726b3deb1e88e6f9c2ba13822bcd",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 5,
+          "dn_max": 219
+        },
+        "X": {
+          "file": "sections/U8-axis-X.png",
+          "sha256": "40aff155a560595463bc0b2fe8b12b4528660f71b7c319c7ce2742dd21edc43e",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 11,
+          "dn_max": 221
+        }
+      },
+      "marked": {
+        "file": "sections/U8-orthogonal-marked.png",
+        "sha256": "2a16bf1cf87a74c9c1a0349732b119dd89bbb92e5feaa3fee31f2ddac7a3cc58"
+      }
+    },
+    "K1": {
+      "raw": {
+        "Z": {
+          "file": "sections/K1-axis-Z.png",
+          "sha256": "e90704ce764f0ff294a3eb08a18de04832f02e228776778ddba3a0532a4a4289",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 23,
+          "dn_max": 202
+        },
+        "Y": {
+          "file": "sections/K1-axis-Y.png",
+          "sha256": "a194d8546e5c0b51b266f1cfaf061db5123e5803d5f041d738853b2a7f956368",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 24,
+          "dn_max": 200
+        },
+        "X": {
+          "file": "sections/K1-axis-X.png",
+          "sha256": "4c341a50b164ffe9415ec4977936fb377e88b20617ba276d794269ccff6df4aa",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 25,
+          "dn_max": 193
+        }
+      },
+      "marked": {
+        "file": "sections/K1-orthogonal-marked.png",
+        "sha256": "54aeb9801f4cbe7365ccd4136642bf8da07cdc271257cf5fc293f4b9e4d5683e"
+      }
+    },
+    "K2": {
+      "raw": {
+        "Z": {
+          "file": "sections/K2-axis-Z.png",
+          "sha256": "02d968dcf1178bd2a324da992d223c3eba96b83bb9c0975c59728f26f66020d3",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 0,
+          "dn_max": 255
+        },
+        "Y": {
+          "file": "sections/K2-axis-Y.png",
+          "sha256": "ff00de11d8647ce1ff55b64f4c55148ce3a831a283cc2067a92d2aaa1308a1dc",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 19,
+          "dn_max": 212
+        },
+        "X": {
+          "file": "sections/K2-axis-X.png",
+          "sha256": "358f993e47fa1e45e12f59b622993e669fddd5fdb86f84052fe95d5c74456b30",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 7,
+          "dn_max": 255
+        }
+      },
+      "marked": {
+        "file": "sections/K2-orthogonal-marked.png",
+        "sha256": "9a0dd353a402c262d4e8710eb8010f8f10d590f03107cdd0bbb70b55db2c84b2"
+      }
+    },
+    "K3": {
+      "raw": {
+        "Z": {
+          "file": "sections/K3-axis-Z.png",
+          "sha256": "df2766ff0b961c29bfe1596ed48fb59156361be00ff5ba92583f7be214279e86",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 22,
+          "dn_max": 207
+        },
+        "Y": {
+          "file": "sections/K3-axis-Y.png",
+          "sha256": "9833a70b83260ec041ec5abc91c7bfaacc015821a6b5c63969a468e623c11625",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 21,
+          "dn_max": 219
+        },
+        "X": {
+          "file": "sections/K3-axis-X.png",
+          "sha256": "363b76377f897de1e3fa32a5fba2ce9fa9b37b5335018dfda839711c0328579a",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 21,
+          "dn_max": 188
+        }
+      },
+      "marked": {
+        "file": "sections/K3-orthogonal-marked.png",
+        "sha256": "afcfd3941b186b5dcddb6e7e7ce15ffce1b78b8177cff33b2f033e97534b698f"
+      }
+    },
+    "K4": {
+      "raw": {
+        "Z": {
+          "file": "sections/K4-axis-Z.png",
+          "sha256": "52f90f458c020c585e22f39b797707a2195a9382767088428f3bf7d116e515b1",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 7,
+          "dn_max": 226
+        },
+        "Y": {
+          "file": "sections/K4-axis-Y.png",
+          "sha256": "b0f6af1f5ace8a493613d7acd76962763b4922c7783bfb9cf76dd73229c61c6f",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 13,
+          "dn_max": 242
+        },
+        "X": {
+          "file": "sections/K4-axis-X.png",
+          "sha256": "e0838c4183f61fd33e48f211d8f69f38966dbfacd8f35f824f3f8ba4a7ab5572",
+          "shape": [
+            65,
+            65
+          ],
+          "samples": 4225,
+          "dn_min": 12,
+          "dn_max": 226
+        }
+      },
+      "marked": {
+        "file": "sections/K4-orthogonal-marked.png",
+        "sha256": "6b7a8765513c77e25e35b683f58ce5f54ffc534bd8cb856c4b18ef02451926e4"
+      }
+    }
+  },
+  "elapsed_seconds": 2.3506287000200246,
+  "disk": {
+    "c_free_bytes": 13948309504,
+    "work_bytes": 154744660
+  }
+}

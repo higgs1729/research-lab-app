@@ -1,0 +1,35 @@
+{
+  "input_tar_gz_bytes": 10870603,
+  "input_tar_gz_sha256": "9b58383e8b8475af35fb0289f1efdd8ff6bcd4b14d40cacbeda32122eaafb682",
+  "input_limit_bytes": 25165824,
+  "result_limit_bytes": 25165824,
+  "maximum_uncompressed_array_bytes": 18650240,
+  "upload_exec_chunks": 74,
+  "resource": "One owned Secure RTX4090, no ports/no network volume, pre-create absolute UTC deadline",
+  "upper_lifetime_seconds": 1500,
+  "operational_limit_usd": 0.45,
+  "effective_schedule": "Startup up to 240s. Upload/checkpoint up to 480s and complete by create+720s. Model process up to 480s and complete by create+1200s, collection up to 240s and complete by create+1440s, final 60s reserved for deletion.",
+  "expected_usd_8_to_12_min_at_0_89": [
+    0.119,
+    0.179
+  ],
+  "maximum_estimated_usd_at_25min": {
+    "rate_0_89": 0.371990741,
+    "rate_0_90": 0.376157407
+  },
+  "runtime_files": {
+    "fixed-assets.json": "c7efe26482b43b8111eac75047c83dc2107745a4243408d6bc1fd7ac278f426a",
+    "pod_boot.py": "a4bbadea5e23c47a410dbf6c3cf5b74bc7ef462acba6e9b863bcca0ee981805d",
+    "pod_work.py": "ff69269d1756887f77f13c8149e652ce1de00c551c0fe9a6eccf3d1d259ba40c",
+    "run_once.py": "58f36844ecb11338f766f7ff69dfe16155a0e8b111907829ded5ac764b50fd5e"
+  },
+  "fixed_pair_worker_sha256": "a0da4dc3b44b6f2010d1ff793acb4fbe19aaa56891bf0b42951ec2ac5fc51846",
+  "local_controller_sha256": "2535f75bae34b73c8fc0d4543cf6b3a38ced63bdde89c232f25de5703de19da5",
+  "borrowed_lifecycle_sha256": {
+    "diagnostic": "a117cf0eaf5d56c7c15ea6bfbbce05a4d6a787aa482ce5c3b4d6ee67b0474783",
+    "readiness": "226ca1c6aa2166c1db5224517f30dc0a76a01e4f7c7e4037e6d9dcbaa1f5acd6"
+  },
+  "archive_validated_offline": true,
+  "pods_created": 0,
+  "network_calls": 0
+}

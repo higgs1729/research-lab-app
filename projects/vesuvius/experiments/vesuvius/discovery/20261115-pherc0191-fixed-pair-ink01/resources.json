@@ -1,0 +1,32 @@
+{
+  "pod_id": "xfgdrhe6khrxxe",
+  "pod_name": "r217-hecate-f383a08f63639d59",
+  "lifetime_to_cleanup_receipt_seconds": "1284.5588024",
+  "cost_usd": null,
+  "provider_billing_rows": 0,
+  "account_balance_decrease_usd_not_dedicated_invoice": "0.2841550759",
+  "estimated_lifetime_usd": "0.3185626536198765432098765433",
+  "effective_compute_usd_per_hour": "0.89",
+  "runtime_limit_seconds": 2700,
+  "operational_budget_usd": 0.75,
+  "dedicated_pods_created": 1,
+  "other_pods_modified": 0,
+  "gpu_patches": 6796,
+  "gpu_seconds": 365.6775491919834,
+  "cpu_reference_patches": 12,
+  "new_ct_bytes": 534773760,
+  "new_m7_bytes": 6624110,
+  "download_seconds_m7_plus_ct": 142.95763609999267,
+  "input_upload_bytes": 91157638,
+  "output_download_bytes": 27720893,
+  "cloud_checkpoint_bytes": 522576086,
+  "timing": {
+    "startup_to_verified_marker_seconds": 152.67626905441284,
+    "ready_to_model_including_input_and_checkpoint_transfer_seconds": 695.5454149246216,
+    "checkpoint_transfer_with_sha_seconds": 18.303487524040975,
+    "model_reported_elapsed_seconds": 365.6775491919834,
+    "model_end_to_cleanup_including_collection_seconds": 72.78049325942993,
+    "timing_limit": "Upload and collection are included in timestamp brackets, without exact separate stage timings."
+  },
+  "current_c_free_bytes": 21860691968
+}

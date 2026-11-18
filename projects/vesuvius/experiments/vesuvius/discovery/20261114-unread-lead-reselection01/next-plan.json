@@ -1,0 +1,100 @@
+{
+  "decision": "survey_three_no_ct_target",
+  "candidate": "PHerc0813/z12496_w020",
+  "phase": "Review existing public predictions and validate the coordinates for a single surface",
+  "ct": {
+    "official_scan": "20250720160015",
+    "volume": "20250821151723",
+    "voxel_um": 9.362,
+    "energy_kev": 113,
+    "root": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0813/volumes/20250821151723-9.362um-1.2m-113keV-masked.zarr",
+    "license": "CC BY-NC 4.0",
+    "same_surface_ct_registration": "pending exact w020 meta/XYZ and render provenance check"
+  },
+  "mesh": {
+    "revision": "620769e2e1e70d1e61b588092229cb76d3af4804",
+    "path": "meshes/PHerc0813/z12496_w020",
+    "url": "https://github.com/pscamillo/vesuvius-eligible-meshes/tree/620769e2e1e70d1e61b588092229cb76d3af4804/meshes/PHerc0813/z12496_w020",
+    "source_index": "originals/pscamillo-mesh-index.csv",
+    "area_cm2": 1.73,
+    "author_visual_weave_verdict": "aprova",
+    "w020_tifxyz_shape_and_offset": "pending",
+    "new_xyz_bytes": 0
+  },
+  "predictions": {
+    "revision": "dd968475bca14ccfbfd7b06cc6ba87723bb25642",
+    "author_card": "originals/pscamillo-hf-readme.md",
+    "tree": "originals/pscamillo-hf-PHerc0813-tree.json",
+    "checkpoint": "ink_9um/hybrid_3d2d-seed43/step-060000",
+    "reported_render": {
+      "scale": 1,
+      "zarr_level": 0,
+      "slices": 31,
+      "slice_step": 1,
+      "flip_normals": false
+    },
+    "reported_inference_layers": [
+      7,
+      24
+    ],
+    "reported_dtype": "single channel uint8",
+    "reported_alignment": "same grid as the mesh",
+    "tiff_wh": "unverified before body acquisition",
+    "prior_screen": "The author reports that none survived their own text screening.",
+    "total_bytes": 2436126,
+    "files": [
+      {
+        "path": "PHerc0813/z12496_w020.tif",
+        "bytes": 1135632,
+        "lfs_sha256": "a87ad251b1e17ed416349c5a0c982bf591f8b737b4e91cf74a25ed4097ec5feb",
+        "official_layer_order": "reverse"
+      },
+      {
+        "path": "PHerc0813/z12496_w020_reverse.tif",
+        "bytes": 1300494,
+        "lfs_sha256": "cbd3f4b32c4e8f0f45d4c1367e87ee5df4103c68b19e07f59da18d8a32b48d56",
+        "official_layer_order": "forward"
+      }
+    ]
+  },
+  "stage_1": {
+    "preview_count": 2,
+    "xyz_count": 3,
+    "xyz_bytes_max": 2097152,
+    "metadata_bytes_max": 524288,
+    "new_total_bytes_max": 5242880,
+    "network_seconds_max": 120,
+    "local_seconds_max": 120,
+    "cpu": 1,
+    "working_memory_gib_max": 4,
+    "cloud_cost_jpy": 0,
+    "ct_bytes": 0,
+    "model_calls": 0,
+    "decision": "Inspect fixed 0–255 predictions at native scale with mesh validity after checking exact dimensions and pixel convention. Advance only with an independently reviewed and mappable stroke/line lead."
+  },
+  "future_ct_stage_only_if_candidate_supported": {
+    "max_native_roi_count": 1,
+    "roi_wh": [
+      512,
+      512
+    ],
+    "roi_origin_xy": null,
+    "exact_zarr_keys_before_payload": true,
+    "trial_chunk_count_cap": 64,
+    "trial_ct_bytes_cap": 134217728,
+    "analog_r171": {
+      "ct_keys": 44,
+      "ct_bytes": 92274688,
+      "geometry_seconds": 92.953,
+      "render_seconds": 3.011
+    },
+    "network_seconds_cap": 300,
+    "geometry_seconds_cap": 180,
+    "render_seconds_cap": 180,
+    "cpu": 1,
+    "working_memory_gib_max": 4,
+    "cloud_cost_jpy": 0
+  },
+  "current_ct_bytes": 0,
+  "current_inference_calls": 0
+}

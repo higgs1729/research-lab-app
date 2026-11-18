@@ -1,0 +1,625 @@
+{
+  "query_window_utc": "2026-11-12 17:43–17:49",
+  "retrieval": "GitHub connector searches; GitHub REST raw issue/PR; HF .zattrs/.zarray metadata only",
+  "villa_main": "0080fa393724575d4f19059d91402757f9351b28",
+  "reporter_repo": "23f2451f1c5cb2012a240ab25323e15b9be82594",
+  "github_queries": [
+    {
+      "query": "repo:ScrollPrize/villa is:issue is:open",
+      "results": [
+        {
+          "number": 2105,
+          "title": "spiral-fitting README: the PHerc0826 spiral-scroll.json example says CW, but its catalog properties give ACW",
+          "url": "https://github.com/ScrollPrize/villa/issues/2105"
+        },
+        {
+          "number": 2500,
+          "title": "flatboi --keep < 100 flattens disconnected pieces on top of each other (initial UVs are in decimated-grid units)",
+          "url": "https://github.com/ScrollPrize/villa/issues/2500"
+        },
+        {
+          "number": 2482,
+          "title": "tifxyz mask.tif: loader keeps values 1..254, format doc says < 255 invalidates",
+          "url": "https://github.com/ScrollPrize/villa/issues/2482"
+        },
+        {
+          "number": 2478,
+          "title": "Would a small download estimate before `vc_render_tifxyz` be welcome?",
+          "url": "https://github.com/ScrollPrize/villa/issues/2478"
+        },
+        {
+          "number": 2437,
+          "title": "flatboi --inpaint gives NaN at iteration 1; closed PR #1972 fixes it",
+          "url": "https://github.com/ScrollPrize/villa/issues/2437"
+        },
+        {
+          "number": 1296,
+          "title": "[automation] Progress Prize rollover needs attention",
+          "url": "https://github.com/ScrollPrize/villa/issues/1296"
+        },
+        {
+          "number": 2370,
+          "title": "ink/ bucket: HF65 canvases do not line up with the tifxyz beside them (Paris4 by up to 286 px, 1667 w018 by one stored cell)",
+          "url": "https://github.com/ScrollPrize/villa/issues/2370"
+        },
+        {
+          "number": 2458,
+          "title": "lasagna: only_flowsnap.json and only_flowsnap_speculative.json fail to load (tifxyz-flow-gate-channels is in \"base\", not \"args\")",
+          "url": "https://github.com/ScrollPrize/villa/issues/2458"
+        },
+        {
+          "number": 1835,
+          "title": "Four published volume transforms do not fit their own published landmarks",
+          "url": "https://github.com/ScrollPrize/villa/issues/1835"
+        },
+        {
+          "number": 1843,
+          "title": "PHerc1667 1.129 um: the published transform is not the fit its own landmarks give, and correcting it moves the meshes onto denser papyrus",
+          "url": "https://github.com/ScrollPrize/villa/issues/1843"
+        },
+        {
+          "number": 2246,
+          "title": "Linear surface interpolation keeps the normal constant per grid cell, so layers rendered off the surface step at cell edges",
+          "url": "https://github.com/ScrollPrize/villa/issues/2246"
+        },
+        {
+          "number": 2444,
+          "title": "sheet tracer: the held-out PHerc0139 and PHerc1667 bands of sheet_tracer_7pt_gap60 aren't recorded, and #2440 removed prepare_scroll.py",
+          "url": "https://github.com/ScrollPrize/villa/issues/2444"
+        },
+        {
+          "number": 2442,
+          "title": "PHerc. Paris 4 gen-19: hecate ink map is offset 19 px from the mesh grid",
+          "url": "https://github.com/ScrollPrize/villa/issues/2442"
+        },
+        {
+          "number": 2264,
+          "title": "Fiber evaluation: 98% of the PHerc0139 reference line was drawn by the beam tracer, so a click-only score is a useful check",
+          "url": "https://github.com/ScrollPrize/villa/issues/2264"
+        },
+        {
+          "number": 2425,
+          "title": "repository is 1GB",
+          "url": "https://github.com/ScrollPrize/villa/issues/2425"
+        },
+        {
+          "number": 2167,
+          "title": "PHerc0139: w036 lies inside w034 across part of the sector missing from w035",
+          "url": "https://github.com/ScrollPrize/villa/issues/2167"
+        },
+        {
+          "number": 2391,
+          "title": "lasagna Offset configs: offset.json keeps the surface on its start winding, and offset_snap.json does not parse",
+          "url": "https://github.com/ScrollPrize/villa/issues/2391"
+        },
+        {
+          "number": 2299,
+          "title": "vesuvius: locked wandb 0.28 can't find an existing W&B Forge login (\"No API key configured\")",
+          "url": "https://github.com/ScrollPrize/villa/issues/2299"
+        },
+        {
+          "number": 2279,
+          "title": "tifxyz meta.json has no isometry numbers, so segment grids can't be compared or checked for stretch",
+          "url": "https://github.com/ScrollPrize/villa/issues/2279"
+        },
+        {
+          "number": 2294,
+          "title": "render_ink.py: the full-scroll render holds about 12 bytes per output pixel in RAM, and its vc_render_tifxyz cache and remote chunk cache can't be limited",
+          "url": "https://github.com/ScrollPrize/villa/issues/2294"
+        },
+        {
+          "number": 2243,
+          "title": "Surfaces regridded by vc_transform_geom sit a fraction of a cell off, so labels moved between scan resolutions land about 7.4 px off",
+          "url": "https://github.com/ScrollPrize/villa/issues/2243"
+        },
+        {
+          "number": 2371,
+          "title": "download_required_zarr_chunks: at volume_scale > 0 it reads the tifxyz at the wrong place and crashes or plans chunks other than the ones training reads",
+          "url": "https://github.com/ScrollPrize/villa/issues/2371"
+        },
+        {
+          "number": 2369,
+          "title": "ink/man5/MAN5_outer_3: label zarrs are 59 px smaller than the segment grid and look offset by about 30 px",
+          "url": "https://github.com/ScrollPrize/villa/issues/2369"
+        },
+        {
+          "number": 2346,
+          "title": "Rendering parameters for the 65-slice PHercParis4 HF volumes",
+          "url": "https://github.com/ScrollPrize/villa/issues/2346"
+        },
+        {
+          "number": 2049,
+          "title": "VC3D releases are deleted on promotion, so published results cannot be reproduced",
+          "url": "https://github.com/ScrollPrize/villa/issues/2049"
+        },
+        {
+          "number": 2320,
+          "title": "vc_object_ingest refuses the published fiber annotations: their version 4 branches have no target_uuid",
+          "url": "https://github.com/ScrollPrize/villa/issues/2320"
+        },
+        {
+          "number": 2312,
+          "title": "PHercParis4: request a 1B transform or segment-specific bridge to the 2.4 µm scan",
+          "url": "https://github.com/ScrollPrize/villa/issues/2312"
+        },
+        {
+          "number": 2310,
+          "title": "PHercParis4: request for targeted CT ROI and manual continuity records near L2 [5970,3998,10244]",
+          "url": "https://github.com/ScrollPrize/villa/issues/2310"
+        },
+        {
+          "number": 2239,
+          "title": "One umbilicus JSON, two different scroll centers: VC3D holds the end points, spiral-fitting extrapolates past them",
+          "url": "https://github.com/ScrollPrize/villa/issues/2239"
+        },
+        {
+          "number": 1845,
+          "title": "Rendering a segment from its coarser published mesh costs 0.04 AUC of ink reading, and nothing says which mesh to pick",
+          "url": "https://github.com/ScrollPrize/villa/issues/1845"
+        },
+        {
+          "number": 1547,
+          "title": "[data QA] PHerc0139 w045/w046 duplicate substantially the same traced surface",
+          "url": "https://github.com/ScrollPrize/villa/issues/1547"
+        },
+        {
+          "number": 2153,
+          "title": "Linux AppImage: CLI tools fail on headless servers (unbundled GL/X11 libs; direct binary invocation crashes)",
+          "url": "https://github.com/ScrollPrize/villa/issues/2153"
+        },
+        {
+          "number": 2144,
+          "title": "surfaces/kaggle labels: 6 hand-checked holes are pockets between merged sheets (cut, not fill); 8 more are fillable",
+          "url": "https://github.com/ScrollPrize/villa/issues/2144"
+        },
+        {
+          "number": 2125,
+          "title": "Proposal: Bacterial Apatite Triage - Low-cost XRF screening to guide synchrotron time (Stromatolite Model)",
+          "url": "https://github.com/ScrollPrize/villa/issues/2125"
+        },
+        {
+          "number": 2107,
+          "title": "ink/ label bucket: in 18 of 33 surface volumes, pyramid level 2 holds only the first 17 of 65 depth slices while declaring z-scale 1",
+          "url": "https://github.com/ScrollPrize/villa/issues/2107"
+        },
+        {
+          "number": 2104,
+          "title": "vc_grow_seg_from_seed with x/y/z limits stops growing in every direction once a cell skipped at a limit lies inside used_area",
+          "url": "https://github.com/ScrollPrize/villa/issues/2104"
+        },
+        {
+          "number": 2092,
+          "title": "PHerc1299 m7-L2 surface prediction: level 5 is missing its last z chunk although level 4 has surface there",
+          "url": "https://github.com/ScrollPrize/villa/issues/2092"
+        },
+        {
+          "number": 1965,
+          "title": "PHerc0343P 8.64 µm level 0: 555 of 8,543 chunk objects are 8× / 64× the declared 128³ size",
+          "url": "https://github.com/ScrollPrize/villa/issues/1965"
+        },
+        {
+          "number": 2080,
+          "title": "vc_grow_seg_from_seed without normal_grid_path ignores the volume: same surface on the m7 prediction as on an all-zero volume, and no warning",
+          "url": "https://github.com/ScrollPrize/villa/issues/2080"
+        },
+        {
+          "number": 2029,
+          "title": "spiral-fitting: the umbilicus loss and the model's transform use two different centres",
+          "url": "https://github.com/ScrollPrize/villa/issues/2029"
+        },
+        {
+          "number": 1855,
+          "title": "spiral-fitting: find_inconsistent_windings reports false contradictions on real PHercParis4 data",
+          "url": "https://github.com/ScrollPrize/villa/issues/1855"
+        },
+        {
+          "number": 1914,
+          "title": "GrowPatch: the reference ray occlusion residual is zero on every path",
+          "url": "https://github.com/ScrollPrize/villa/issues/1914"
+        },
+        {
+          "number": 1964,
+          "title": "PHerc1447 segment 20251105093211-z_dbg_gen_00320 is a broken debug mesh published among real segments",
+          "url": "https://github.com/ScrollPrize/villa/issues/1964"
+        },
+        {
+          "number": 1963,
+          "title": "PHerc0814 surface volume: all six pyramid levels have headers but zero chunks (reads return all zeros)",
+          "url": "https://github.com/ScrollPrize/villa/issues/1963"
+        },
+        {
+          "number": 1466,
+          "title": "Open Data projects: patches grown into the project vanish from it on restart — the reopen selects another volume's catalog folder (data intact on disk, entry persisted)",
+          "url": "https://github.com/ScrollPrize/villa/issues/1466"
+        },
+        {
+          "number": 1757,
+          "title": "Scroll 5 volume `20241024131838.zarr`: levels 1–5 are stored uncompressed (`compressor: null`, 389 GB) while level 0 is `blosc/zstd` — the same L0-compressed / L1+-null signature appears in 8 community pyramids",
+          "url": "https://github.com/ScrollPrize/villa/issues/1757"
+        },
+        {
+          "number": 1691,
+          "title": "Checkpoint/config availability for public ps256_mean / ckpt_160000 ink prediction",
+          "url": "https://github.com/ScrollPrize/villa/issues/1691"
+        },
+        {
+          "number": 1231,
+          "title": "Tutorial 5 trains with no validation set — published segments ship no `_validation_mask`",
+          "url": "https://github.com/ScrollPrize/villa/issues/1231"
+        },
+        {
+          "number": 1654,
+          "title": "`instance-labels-harmonized` mixes uint8 and uint16 volumes, which silently splits the set into two intensity scales.",
+          "url": "https://github.com/ScrollPrize/villa/issues/1654"
+        },
+        {
+          "number": 1633,
+          "title": "spiral: /openmp:llvm miscompiles omp atomic capture on MSVC 14.44",
+          "url": "https://github.com/ScrollPrize/villa/issues/1633"
+        },
+        {
+          "number": 1569,
+          "title": "PHercParis4: authoritative frames for historical PointCollections and the published umbilicus",
+          "url": "https://github.com/ScrollPrize/villa/issues/1569"
+        },
+        {
+          "number": 1551,
+          "title": "Conflicting scroll_source metadata for ink/1667/w013_20240304141531_2um",
+          "url": "https://github.com/ScrollPrize/villa/issues/1551"
+        },
+        {
+          "number": 1150,
+          "title": "Would nearest-surface ownership help with overlapping TIFXYZ normal bands?",
+          "url": "https://github.com/ScrollPrize/villa/issues/1150"
+        },
+        {
+          "number": 1481,
+          "title": "ink_detection: robust flat inference includes zero padding in normalization statistics",
+          "url": "https://github.com/ScrollPrize/villa/issues/1481"
+        },
+        {
+          "number": 1300,
+          "title": "Following the README on Python 3.14 installs vesuvius 0.1.10 — is the PyPI release meant to lag main?",
+          "url": "https://github.com/ScrollPrize/villa/issues/1300"
+        }
+      ]
+    },
+    {
+      "query": "repo:ScrollPrize/villa is:open",
+      "results": [
+        {
+          "number": 2511,
+          "title": "VC3D: immediate control-point placement on a hosted fibre store over a slow connection",
+          "url": "https://github.com/ScrollPrize/villa/pull/2511"
+        },
+        {
+          "number": 2421,
+          "title": "spiral-fitting: build the native kernels with OpenMP on MSVC too (#1633)",
+          "url": "https://github.com/ScrollPrize/villa/pull/2421"
+        },
+        {
+          "number": 2321,
+          "title": "Read VC3D's pre-store version 4 fiber files in ingest, so the published fiber annotations import as they are",
+          "url": "https://github.com/ScrollPrize/villa/pull/2321"
+        },
+        {
+          "number": 2219,
+          "title": "VC3D: add ink-label painting, editing history and session recovery",
+          "url": "https://github.com/ScrollPrize/villa/pull/2219"
+        },
+        {
+          "number": 2455,
+          "title": "vc_reader: fix test_native_thinning's 2D connectivity expectation",
+          "url": "https://github.com/ScrollPrize/villa/pull/2455"
+        },
+        {
+          "number": 2454,
+          "title": "spiral-fitting README: PHerc0826 manifest example matches its catalog entry",
+          "url": "https://github.com/ScrollPrize/villa/pull/2454"
+        },
+        {
+          "number": 2459,
+          "title": "lasagna: treat a missing OME-Zarr array as a missing chunk",
+          "url": "https://github.com/ScrollPrize/villa/pull/2459"
+        },
+        {
+          "number": 2512,
+          "title": "ink_detection: scan-type transfer and self-training for cross-scroll 9 um ink detection",
+          "url": "https://github.com/ScrollPrize/villa/pull/2512"
+        },
+        {
+          "number": 2030,
+          "title": "spiral-fitting: one umbilicus centre for the transform, the loss and the shell table",
+          "url": "https://github.com/ScrollPrize/villa/pull/2030"
+        },
+        {
+          "number": 2411,
+          "title": "vc_render_tifxyz: size the default chunk cache to the machine, so Render segment finishes with less than 16 GB of memory",
+          "url": "https://github.com/ScrollPrize/villa/pull/2411"
+        },
+        {
+          "number": 2501,
+          "title": "Refuse a pyramid level whose depth contradicts its Z scale (fixes #2107)",
+          "url": "https://github.com/ScrollPrize/villa/pull/2501"
+        },
+        {
+          "number": 2508,
+          "title": "sheet tracer: trace long seed rows in overlapping pieces (--piece-points)",
+          "url": "https://github.com/ScrollPrize/villa/pull/2508"
+        },
+        {
+          "number": 2509,
+          "title": "spiral-fitting: name/core patch draw weights, a patch hold-out list and a core track filter",
+          "url": "https://github.com/ScrollPrize/villa/pull/2509"
+        },
+        {
+          "number": 2490,
+          "title": "macOS: spiral-fitting builds with a plain `uv sync` and runs next to torch",
+          "url": "https://github.com/ScrollPrize/villa/pull/2490"
+        },
+        {
+          "number": 2496,
+          "title": "sheet_strip: bind the CT normalization record to a --ct override",
+          "url": "https://github.com/ScrollPrize/villa/pull/2496"
+        },
+        {
+          "number": 2481,
+          "title": "spiral-fitting: remap a TrackGraph crossing cache when the native crossing module is missing",
+          "url": "https://github.com/ScrollPrize/villa/pull/2481"
+        },
+        {
+          "number": 2505,
+          "title": "volume-registration: interactive dense correlation registration pipeline",
+          "url": "https://github.com/ScrollPrize/villa/pull/2505"
+        },
+        {
+          "number": 2345,
+          "title": "VC3D: Ctrl+C copies the coordinates under the mouse, Ctrl+Shift+C the focus point",
+          "url": "https://github.com/ScrollPrize/villa/pull/2345"
+        },
+        {
+          "number": 2502,
+          "title": "ink_detection: add keep_last_checkpoints to limit disk use during training",
+          "url": "https://github.com/ScrollPrize/villa/pull/2502"
+        },
+        {
+          "number": 2493,
+          "title": "vesuvius.predict: keep surface normals and other vector/tensor heads under test-time augmentation",
+          "url": "https://github.com/ScrollPrize/villa/pull/2493"
+        },
+        {
+          "number": 2495,
+          "title": "Fix getting-started notebooks: vc-reader is not on PyPI, so cell 1 fails",
+          "url": "https://github.com/ScrollPrize/villa/pull/2495"
+        },
+        {
+          "number": 2494,
+          "title": "vc_gen_umbilicus: optional --zfit, one robust fit along z through every slice's estimate",
+          "url": "https://github.com/ScrollPrize/villa/pull/2494"
+        },
+        {
+          "number": 2418,
+          "title": "lasagna: make offset_snap.json parse and zero pred_dt in its snap stage",
+          "url": "https://github.com/ScrollPrize/villa/pull/2418"
+        },
+        {
+          "number": 2409,
+          "title": "VC3D AppImage: Render segment and other tools started from the GUI run on hosts with an older glibc",
+          "url": "https://github.com/ScrollPrize/villa/pull/2409"
+        },
+        {
+          "number": 2457,
+          "title": "flatboi: start PaStiX threads only for the CPUs the process may use, so SLIM flatten in a 4-CPU Slurm job on a 192-core node is ~3x faster",
+          "url": "https://github.com/ScrollPrize/villa/pull/2457"
+        },
+        {
+          "number": 2406,
+          "title": "spiral-fitting: track extraction no longer fails when the last ribbon is thinner than downsample_factor",
+          "url": "https://github.com/ScrollPrize/villa/pull/2406"
+        },
+        {
+          "number": 2489,
+          "title": "flatboi: stop the macOS release crashing in OpenBLAS during SLIM flattening",
+          "url": "https://github.com/ScrollPrize/villa/pull/2489"
+        },
+        {
+          "number": 2488,
+          "title": "volume-cartographer: build on macOS with Homebrew's LLVM 23 and OpenCV 5.1",
+          "url": "https://github.com/ScrollPrize/villa/pull/2488"
+        },
+        {
+          "number": 2434,
+          "title": "fiber_spline_generator: join fiber splines that meet at a shared end point",
+          "url": "https://github.com/ScrollPrize/villa/pull/2434"
+        },
+        {
+          "number": 2435,
+          "title": "vc_reader: SheetCompression compresses sheets instead of spreading them",
+          "url": "https://github.com/ScrollPrize/villa/pull/2435"
+        },
+        {
+          "number": 2473,
+          "title": "vc_reader transforms: masked Gamma without clipping wrote NaN below the masked minimum",
+          "url": "https://github.com/ScrollPrize/villa/pull/2473"
+        },
+        {
+          "number": 2486,
+          "title": "GrowPatch: add_missing_losses drops about half of the straight losses, and which half depends on the visiting order",
+          "url": "https://github.com/ScrollPrize/villa/pull/2486"
+        },
+        {
+          "number": 2429,
+          "title": "Fix DDP all-gather in the dice losses collapsing the class axis",
+          "url": "https://github.com/ScrollPrize/villa/pull/2429"
+        },
+        {
+          "number": 2436,
+          "title": "scrollprize.org: ink tutorial segment is about 92 GB, not 25",
+          "url": "https://github.com/ScrollPrize/villa/pull/2436"
+        },
+        {
+          "number": 2484,
+          "title": "vc_obj2tifxyz: the metric UV mode writes the tifxyz scale inverted and keeps it through decimation",
+          "url": "https://github.com/ScrollPrize/villa/pull/2484"
+        },
+        {
+          "number": 2483,
+          "title": "vc_reader bicubic surfaces: second order one sided derivatives in border and hole edge cells",
+          "url": "https://github.com/ScrollPrize/villa/pull/2483"
+        },
+        {
+          "number": 2476,
+          "title": " InpaintSurface: seed holes with the harmonic fill and take the grid step as the spacing target",
+          "url": "https://github.com/ScrollPrize/villa/pull/2476"
+        },
+        {
+          "number": 2469,
+          "title": "vc_reader zarr: read a local unsharded v3 array in place, by piece, like a v2 array",
+          "url": "https://github.com/ScrollPrize/villa/pull/2469"
+        },
+        {
+          "number": 2448,
+          "title": "spiral-fitting: evaluator for relative winding annotations against hand-traced w-meshes",
+          "url": "https://github.com/ScrollPrize/villa/pull/2448"
+        },
+        {
+          "number": 2422,
+          "title": "volume-cartographer: fix the three hangs behind the Windows test suite (#1686)",
+          "url": "https://github.com/ScrollPrize/villa/pull/2422"
+        },
+        {
+          "number": 2419,
+          "title": "vc_render_tifxyz: exit after a successful render on Windows (it hangs at shutdown)",
+          "url": "https://github.com/ScrollPrize/villa/pull/2419"
+        },
+        {
+          "number": 2477,
+          "title": "Tutorial 5: how far --layer-start / --layer-end can shift the depth window",
+          "url": "https://github.com/ScrollPrize/villa/pull/2477"
+        },
+        {
+          "number": 2298,
+          "title": "Tutorial 5 on a small GPU or WSL2: download only the chunks flat training reads (completes #1821)",
+          "url": "https://github.com/ScrollPrize/villa/pull/2298"
+        },
+        {
+          "number": 2466,
+          "title": "VC3D: after Rotate/Flip Apply, the segment stays selected and Rotate opens again",
+          "url": "https://github.com/ScrollPrize/villa/pull/2466"
+        },
+        {
+          "number": 2474,
+          "title": "vc_reader: a render_surface patch renders its border cells differently from a larger patch (bicubic window has no halo)",
+          "url": "https://github.com/ScrollPrize/villa/pull/2474"
+        }
+      ]
+    },
+    {
+      "query": "repo:ScrollPrize/villa \"tifxyz_label_transfer\" \"drift\"",
+      "results": [
+        {
+          "number": 2440,
+          "title": "open data parsing and zarr / tifxyz reading and interpolation to vc_reader",
+          "url": "https://github.com/ScrollPrize/villa/pull/2440"
+        }
+      ]
+    },
+    {
+      "query": "repo:ScrollPrize/villa \"canvas\" \"drift\"",
+      "results": [
+        {
+          "number": 1773,
+          "title": "ink_detection: robust flat normalization must exclude the reader's zero padding",
+          "url": "https://github.com/ScrollPrize/villa/pull/1773"
+        }
+      ]
+    },
+    {
+      "query": "repo:ScrollPrize/villa \"2370\"",
+      "results": [
+        {
+          "number": 2447,
+          "title": "ink_detection: warn once per segment when the label canvas shape differs from the tifxyz grid",
+          "url": "https://github.com/ScrollPrize/villa/pull/2447"
+        }
+      ]
+    },
+    {
+      "query": "repo:ScrollPrize/villa \"w01\" \"alignment\"",
+      "results": []
+    },
+    {
+      "query": "repo:ScrollPrize/villa \"label-canvas-offset\"",
+      "results": [
+        {
+          "number": 1954,
+          "title": "lasagna: warn when OME metadata carries no physical scale, add --require-scale",
+          "url": "https://github.com/ScrollPrize/villa/pull/1954"
+        }
+      ]
+    },
+    {
+      "query": "repo:stantheman0128/villa \"tifxyz_label_transfer\" \"drift\"",
+      "results": []
+    },
+    {
+      "query": "repo:stantheman0128/vesuvius-hf65-alignment \"drift\"",
+      "results": []
+    },
+    {
+      "query": "stantheman0128/villa branch matches drift",
+      "results": []
+    },
+    {
+      "query": "stantheman0128/villa branch matches 2370",
+      "results": []
+    },
+    {
+      "query": "stantheman0128/villa branch matches label",
+      "results": [
+        {
+          "branch": "cursor/label-zarr-multipage-54fa"
+        },
+        {
+          "branch": "cursor/remap-labels-utf8-54fa"
+        }
+      ]
+    }
+  ],
+  "limits": "Search result bounds and metadata-only check; no claim about unpublished branches or unchanged data chunks",
+  "local_preflight": {
+    "windows_pip_list_found": [
+      "numpy==2.5.2",
+      "scipy==1.18.1",
+      "pillow==12.3.0",
+      "tifffile==2026.10.15"
+    ],
+    "wsl_distribution": "Ubuntu",
+    "wsl_system_python_find_spec": {
+      "vc_reader": false,
+      "vesuvius": false,
+      "numpy": false,
+      "scipy": false,
+      "zarr": false,
+      "pybind11": false
+    },
+    "note": "Alternate prebuilt environments were not comprehensively enumerated."
+  },
+  "connector_expected_blobs": {
+    "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_transfer.py": "ef0d98e116e7b0b0daef0607d78184073fbfbe31",
+    "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_estimate_canvas_offset.py": "a57aa22427cdf31883f35ec26b11bb160a766fef",
+    "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_README.md": "fc606445811d40c7443c8fe52afbc13f6e01e733",
+    "villa-vesuvius_src_vesuvius_ink_detection_data_dataset.py": "7ffcfba3c7064b407297cbf017d8588ed31b7501",
+    "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_core.py": "2895fb1ad14a202f705bd4ed4b399817382a8576",
+    "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_native.py": "3be800a5c3dc1b631f881abbd15bdd3616283ac7",
+    "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_planar.py": "2933df6fa9ce277f744c5daf12fc3cd60a73a18d",
+    "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_estimate_canvas_offset_evidence.py": "47ba33c00883f1b4c3c29936aea233d279a537c8",
+    "villa-vc_reader_src_vc_reader_resident.py": "cce9e01c266a4b09c38834d983928de3e93735b6",
+    "villa-vesuvius_tests_tifxyz_label_transfer_test_native_rasterizer.py": "65bb1ae4a4965f8209c94c2ce83464477f4a5cbc",
+    "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_docs_theory.md": "4d024c612e4bc0952d7a80ea2e454c6e666153cd",
+    "reporter-correct_apply_fit.py": "6d661ea6a3518ae19fe5523363310a4e5af3a0ef",
+    "reporter-README.md": "0b5f259ee6851283ee6b9fa8cc1b37ea3b8863d8",
+    "reporter-correct_shifts_shifts.json": "732dec59d1c381e319931a43fd0d895389031d09",
+    "reporter-labelshift-w01_RESULTS.md": "7ee5f3645b0cd74ac1bea7420c76697cbfe5b438"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "approved": true,
+  "utc": "2026-11-14T16:37:33.077924+00:00",
+  "plan_sha256": "b63004869b418d9075a437366157503c309a28bb64350a8e708bb604135dde1e",
+  "authority": "Runpod use delegated by user; lead-execution-amendment.json limits one additional create following rejected first request.",
+  "evidence": "lead-ada-check.json",
+  "conditions": "Fresh admission <=60s, absent prior dedicated name, maxUSD.29/h, USD.20 operational budget, 1500sec absolute deletion; no other resource modifications."
+}

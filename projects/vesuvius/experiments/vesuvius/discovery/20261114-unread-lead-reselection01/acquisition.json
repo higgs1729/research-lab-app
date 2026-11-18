@@ -1,0 +1,454 @@
+{
+  "date_jst": "2026-11-14",
+  "basis": "Complete new source bodies and their original bytes. Web index checks are not repeated origin downloads in these totals.",
+  "survey_revision": "1f12c1ceb14c1f24acc48249eaad60bcdf541721",
+  "raw_document_count": 24,
+  "raw_document_bytes": 487508,
+  "raw_document_max_count": 24,
+  "raw_document_max_bytes": 8388608,
+  "raw_preview_count": 3,
+  "raw_preview_bytes": 1016367,
+  "raw_preview_max_count": 3,
+  "raw_preview_max_bytes": 25165824,
+  "raw_xyz_count": 0,
+  "raw_xyz_bytes": 0,
+  "raw_xyz_max_count": 3,
+  "raw_xyz_max_bytes": 16777216,
+  "ct_voxel_bytes": 0,
+  "new_prediction_tiff_bytes": 0,
+  "new_inference_calls": 0,
+  "new_builds": 0,
+  "cloud_cost_jpy": 0,
+  "documents": [
+    {
+      "path": "results/cards/PHerc0846B_3962_4983_7051.json",
+      "name": "PHerc0846B_3962_4983_7051.json",
+      "blob": "c2fbafc103769cd4efd932657b20048d8899ea44",
+      "github_url": "https://github.com/ketchupbyheinz/vesuvius-scroll-survey/blob/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0846B_3962_4983_7051.json",
+      "bytes": 380,
+      "retrieval": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:43:39 UTC",
+      "sha256": "1640ba964785aa02b37abd8e413c2d97e2b4536ff5dcb1e6ce4042c57be0390a"
+    },
+    {
+      "path": "results/meshes/PHerc0846B_3962_4983_7051/meta.json",
+      "name": "PHerc0846B_3962_4983_7051-meta.json",
+      "blob": "2d61da486af7b8566e46b576e66390842c4c6dde",
+      "github_url": "https://github.com/ketchupbyheinz/vesuvius-scroll-survey/blob/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/PHerc0846B_3962_4983_7051/meta.json",
+      "bytes": 1204,
+      "retrieval": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:43:39 UTC",
+      "sha256": "bb4c4b9bf7f94b73a01812f6e999e6ec76c8a01f035fabafb964cd2e50bc8740"
+    },
+    {
+      "path": "results/cards/PHerc0813_4654_5413_8615.json",
+      "name": "PHerc0813_4654_5413_8615.json",
+      "blob": "a62fcd6a1d212c8b0cc8c7ed863ead6f1270a006",
+      "github_url": "https://github.com/ketchupbyheinz/vesuvius-scroll-survey/blob/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0813_4654_5413_8615.json",
+      "bytes": 378,
+      "retrieval": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:43:39 UTC",
+      "sha256": "bb6c05b1f8bf2b79a1d1726038132495ab513c4c8f51e4ae972206db3c167a1c"
+    },
+    {
+      "path": "results/meshes/PHerc0813_4654_5413_8615/meta.json",
+      "name": "PHerc0813_4654_5413_8615-meta.json",
+      "blob": "97c0dc8b921eea616ac22b7f1ac9ed3183e6d45a",
+      "github_url": "https://github.com/ketchupbyheinz/vesuvius-scroll-survey/blob/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/PHerc0813_4654_5413_8615/meta.json",
+      "bytes": 1195,
+      "retrieval": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:43:39 UTC",
+      "sha256": "6009ef32888cc76c093ce990e41b47527bc64ca17f585bb33c0e47aafec17e66"
+    },
+    {
+      "path": "results/cards/PHerc1545_3051_3484_14673.json",
+      "name": "PHerc1545_3051_3484_14673.json",
+      "blob": "a12b6990800dce8760f92389cfb6801257683418",
+      "github_url": "https://github.com/ketchupbyheinz/vesuvius-scroll-survey/blob/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc1545_3051_3484_14673.json",
+      "bytes": 378,
+      "retrieval": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:43:39 UTC",
+      "sha256": "d803829cc065dabea1eacfd05d81038f2c440a8dff9eae6de6fa1e8061e06455"
+    },
+    {
+      "path": "results/meshes/PHerc1545_3051_3484_14673/meta.json",
+      "name": "PHerc1545_3051_3484_14673-meta.json",
+      "blob": "22ce3799ae97f772ad5d36bf282bab61bae59f5c",
+      "github_url": "https://github.com/ketchupbyheinz/vesuvius-scroll-survey/blob/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/PHerc1545_3051_3484_14673/meta.json",
+      "bytes": 1188,
+      "retrieval": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:43:39 UTC",
+      "sha256": "758b3a6b5b9443ae6cce405097522846005383895f2ddaffbf2b12ff5d6dee4e"
+    },
+    {
+      "path": "results/leads/model_pairs_PHerc0846B_3962_4983_7051.json",
+      "name": "model_pairs_PHerc0846B_3962_4983_7051.json",
+      "blob": "7d04476b2c563b32cdd9385aad6a1e0ff357aebf",
+      "github_url": "https://github.com/ketchupbyheinz/vesuvius-scroll-survey/blob/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/leads/model_pairs_PHerc0846B_3962_4983_7051.json",
+      "bytes": 332,
+      "retrieval": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:43:39 UTC",
+      "sha256": "97211145517749e61718b35333745f0f042bcbf9faf5af0b4311ebd522b46894"
+    },
+    {
+      "path": "results/survey.csv",
+      "name": "survey.csv",
+      "blob": "f1f28da8e9bc9ad58bcbd53baf030d26d5ed6201",
+      "github_url": "https://github.com/ketchupbyheinz/vesuvius-scroll-survey/blob/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/survey.csv",
+      "bytes": 42455,
+      "retrieval": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:43:39 UTC",
+      "sha256": "a813ba648df851ebb89a722858702caae1ab3bc87bcedd8d4ee86b50543bdc37"
+    },
+    {
+      "github_url": "https://github.com/ketchupbyheinz/vesuvius-scroll-survey/blob/1f12c1ceb14c1f24acc48249eaad60bcdf541721/vesuvius_survey/survey.py",
+      "recorded_utc": "2026-11-14 05:47:13 UTC",
+      "blob": "53ec5d79ef3b63fffb24221cfd8f90df30c6bf15",
+      "path": "vesuvius_survey/survey.py",
+      "bytes": 4255,
+      "retrieval": "GitHub fetch_file UTF-8",
+      "name": "survey-entry.py",
+      "sha256": "0a2abd537da687b0d40b5c181dc7fe3b8a7365545f2722be45707b12bcaa92ea"
+    },
+    {
+      "bytes": 1695,
+      "path": "analysis/README.md",
+      "blob": "094587c935139e1b649757777a074a18eb29af6a",
+      "retrieval": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:47:41 UTC",
+      "name": "survey-analysis.md",
+      "github_url": "https://github.com/ketchupbyheinz/vesuvius-scroll-survey/blob/1f12c1ceb14c1f24acc48249eaad60bcdf541721/analysis/README.md",
+      "sha256": "68a80e69d4f543a8a098d796a0fca2773661f07177cae5b0486afaecd7b70571"
+    },
+    {
+      "path": "originals/pscamillo-mesh-repo-readme.md",
+      "github_url": "https://github.com/pscamillo/vesuvius-eligible-meshes/blob/main/README.md",
+      "blob": "d91ce2d87f5f5ec54f7a45dfffa02cb9a2fceeb4",
+      "bytes": 6774,
+      "source": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:50:42 UTC",
+      "acquisition_window_utc": "2026-11-14 05:48–05:50 UTC",
+      "sha256": "41c501cc4947411df0563958c38c8cea59172337231dcf2729cefb08916ce93f"
+    },
+    {
+      "path": "originals/pscamillo-PHerc0813-z12496_w100-meta.json",
+      "github_url": "https://github.com/pscamillo/vesuvius-eligible-meshes/blob/620769e2e1e70d1e61b588092229cb76d3af4804/meshes/PHerc0813/z12496_w100/meta.json",
+      "blob": "31c13d32c5e195f4da2bb69fd3fd02ed2cc5ca95",
+      "bytes": 4219,
+      "source": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:50:42 UTC",
+      "acquisition_window_utc": "2026-11-14 05:48–05:50 UTC",
+      "sha256": "203f60c2e333a21f0504f88c41fc82a5e8304068454c9ad7c337d0b0164a689b"
+    },
+    {
+      "path": "originals/pscamillo-mesh-method.md",
+      "github_url": "https://github.com/pscamillo/vesuvius-eligible-meshes/blob/620769e2e1e70d1e61b588092229cb76d3af4804/docs/METHOD.md",
+      "blob": "2064ba1f8664c48a1e5d4f28471a6594998bbb94",
+      "bytes": 3380,
+      "source": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:50:42 UTC",
+      "acquisition_window_utc": "2026-11-14 05:48–05:50 UTC",
+      "sha256": "ee7266547f74f4efde57f1e2696b9f005045403b04738ee49627b74710e808f8"
+    },
+    {
+      "path": "originals/pscamillo-mesh-index.csv",
+      "github_url": "https://github.com/pscamillo/vesuvius-eligible-meshes/blob/620769e2e1e70d1e61b588092229cb76d3af4804/data/index.csv",
+      "blob": "ccc4f4c88f96e608f75cc7cf2f1a184489c13014",
+      "bytes": 29838,
+      "source": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 05:50:42 UTC",
+      "acquisition_window_utc": "2026-11-14 05:48–05:50 UTC",
+      "sha256": "242d7e1a61033da45f0c3fa3e4367a4ab1905c8f301c680fd1a127d04abb188f"
+    },
+    {
+      "path": "originals/official-prizes.html",
+      "url": "https://scrollprize.org/prizes",
+      "utc": "2026-11-14T05:45:00.455919+00:00",
+      "category": "official",
+      "maximum_bytes": 524288,
+      "status": 200,
+      "final_url": "https://scrollprize.org/prizes",
+      "headers": {
+        "Content-Length": null,
+        "Content-Type": "text/html; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": "Fri, 13 Nov 2026 09:07:30 GMT",
+        "Date": "Sat, 14 Nov 2026 05:45:01 GMT"
+      },
+      "bytes": 55054,
+      "sha256": "2de92acf96ae2e39b774c1f14e35a4f8b5d6fa29e979b4aa5c58b0ab9963aedd"
+    },
+    {
+      "path": "originals/official-winners.html",
+      "url": "https://scrollprize.org/winners",
+      "utc": "2026-11-14T05:45:00.662925+00:00",
+      "category": "official",
+      "maximum_bytes": 524288,
+      "status": 200,
+      "final_url": "https://scrollprize.org/winners",
+      "headers": {
+        "Content-Length": null,
+        "Content-Type": "text/html; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": "Sat, 14 Nov 2026 05:45:01 GMT",
+        "Date": "Sat, 14 Nov 2026 05:45:01 GMT"
+      },
+      "bytes": 180088,
+      "sha256": "dcd810efd1912ebb268d4892adc4dfca7efe16d8d7d1c972ae2e6dae6d1ab5bb"
+    },
+    {
+      "path": "originals/official-PHerc0846B.html",
+      "url": "https://scrollprize.org/data_browser/PHerc0846B",
+      "utc": "2026-11-14T05:45:01.059096+00:00",
+      "category": "official",
+      "maximum_bytes": 524288,
+      "status": 200,
+      "final_url": "https://scrollprize.org/data_browser/PHerc0846B",
+      "headers": {
+        "Content-Length": null,
+        "Content-Type": "text/html; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": "Sat, 14 Nov 2026 05:45:01 GMT",
+        "Date": "Sat, 14 Nov 2026 05:45:01 GMT"
+      },
+      "bytes": 22850,
+      "sha256": "2b20636f606f0a23752be699253054271dbb24f4c2f81fc59a9a16ab124f7bc6"
+    },
+    {
+      "path": "originals/official-PHerc0813.html",
+      "url": "https://scrollprize.org/data_browser/PHerc0813",
+      "utc": "2026-11-14T05:45:01.425413+00:00",
+      "category": "official",
+      "maximum_bytes": 524288,
+      "status": 200,
+      "final_url": "https://scrollprize.org/data_browser/PHerc0813",
+      "headers": {
+        "Content-Length": null,
+        "Content-Type": "text/html; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": "Sat, 14 Nov 2026 05:45:02 GMT",
+        "Date": "Sat, 14 Nov 2026 05:45:02 GMT"
+      },
+      "bytes": 23287,
+      "sha256": "708f4a740174218e7d58bb1372d9243618c8f0218f392a5442b250a57b1bcd13"
+    },
+    {
+      "path": "originals/official-PHerc1545.html",
+      "url": "https://scrollprize.org/data_browser/PHerc1545",
+      "utc": "2026-11-14T05:45:01.720653+00:00",
+      "category": "official",
+      "maximum_bytes": 524288,
+      "status": 200,
+      "final_url": "https://scrollprize.org/data_browser/PHerc1545",
+      "headers": {
+        "Content-Length": null,
+        "Content-Type": "text/html; charset=utf-8",
+        "ETag": null,
+        "Last-Modified": "Sat, 14 Nov 2026 05:45:02 GMT",
+        "Date": "Sat, 14 Nov 2026 05:45:02 GMT"
+      },
+      "bytes": 23292,
+      "sha256": "206e484f3f3f11ded852723528d84733f5614866255db7f63c0fe7ae44663191"
+    },
+    {
+      "path": "originals/pscamillo-hf-repo.json",
+      "url": "https://huggingface.co/api/datasets/pscamillo/vesuvius-eligible-meshes-ink9",
+      "utc": "2026-11-14T05:48:46.644336+00:00",
+      "category": "hf-metadata",
+      "maximum_bytes": 524288,
+      "status": 200,
+      "final_url": "https://huggingface.co/api/datasets/pscamillo/vesuvius-eligible-meshes-ink9",
+      "headers": {
+        "Content-Length": "31808",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"7c40-1YG7cvVPspt3DN5nwNvQPtm/z0g\"",
+        "Last-Modified": null,
+        "Date": "Sat, 14 Nov 2026 05:48:47 GMT"
+      },
+      "bytes": 31808,
+      "sha256": "787bc866a1e11f95fedebbbf6ff64b033da8acb7108453cad6aa51a1de19db67"
+    },
+    {
+      "path": "originals/pscamillo-hf-readme.md",
+      "url": "https://huggingface.co/datasets/pscamillo/vesuvius-eligible-meshes-ink9/raw/dd968475bca14ccfbfd7b06cc6ba87723bb25642/README.md",
+      "utc": "2026-11-14T05:49:11.495168+00:00",
+      "category": "hf-metadata",
+      "maximum_bytes": 16384,
+      "status": 200,
+      "final_url": "https://huggingface.co/datasets/pscamillo/vesuvius-eligible-meshes-ink9/raw/dd968475bca14ccfbfd7b06cc6ba87723bb25642/README.md",
+      "headers": {
+        "Content-Length": "1940",
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "\"ceee118c3840c842e073066a2bfbb130526f21b2\"",
+        "Last-Modified": null,
+        "Date": "Sat, 14 Nov 2026 05:49:12 GMT"
+      },
+      "bytes": 1940,
+      "sha256": "c389495f820975ddacef405ec81704501662609f1424c57b4cdab09eb0f43cfb"
+    },
+    {
+      "path": "originals/pscamillo-hf-PHerc0813-tree.json",
+      "url": "https://huggingface.co/api/datasets/pscamillo/vesuvius-eligible-meshes-ink9/tree/dd968475bca14ccfbfd7b06cc6ba87723bb25642/PHerc0813",
+      "utc": "2026-11-14T05:49:11.479507+00:00",
+      "category": "hf-metadata",
+      "maximum_bytes": 262144,
+      "status": 200,
+      "final_url": "https://huggingface.co/api/datasets/pscamillo/vesuvius-eligible-meshes-ink9/tree/dd968475bca14ccfbfd7b06cc6ba87723bb25642/PHerc0813",
+      "headers": {
+        "Content-Length": "46421",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"b555-gXvuaGhGaPwdpJqMONqt2gqthIg\"",
+        "Last-Modified": null,
+        "Date": "Sat, 14 Nov 2026 05:49:12 GMT"
+      },
+      "bytes": 46421,
+      "sha256": "ec5efc8b3a988b50f9b2d87b8eae8f68de003494b28df45d0697939cb8a0ea21"
+    },
+    {
+      "path": "originals/pscamillo-gh-head.json",
+      "url": "https://api.github.com/repos/pscamillo/vesuvius-eligible-meshes/git/ref/heads/main",
+      "utc": "2026-11-14T05:48:46.630141+00:00",
+      "category": "gh-metadata",
+      "maximum_bytes": 65536,
+      "status": 200,
+      "final_url": "https://api.github.com/repos/pscamillo/vesuvius-eligible-meshes/git/ref/heads/main",
+      "headers": {
+        "Content-Length": "366",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "W/\"e5bdbfcd23d1f2559c516c496ae5105e2b5645cd9ab1fe8c9ca0be315e639780\"",
+        "Last-Modified": "Tue, 20 Oct 2026 19:33:46 GMT",
+        "Date": "Sat, 14 Nov 2026 05:48:47 GMT"
+      },
+      "bytes": 366,
+      "sha256": "e5bdbfcd23d1f2559c516c496ae5105e2b5645cd9ab1fe8c9ca0be315e639780"
+    },
+    {
+      "path": "originals/pscamillo-gh-mesh-directory.json",
+      "url": "https://api.github.com/repos/pscamillo/vesuvius-eligible-meshes/contents/meshes/PHerc0813/z12496_w100?ref=620769e2e1e70d1e61b588092229cb76d3af4804",
+      "utc": "2026-11-14T05:49:11.495667+00:00",
+      "category": "gh-metadata",
+      "maximum_bytes": 16384,
+      "status": 200,
+      "final_url": "https://api.github.com/repos/pscamillo/vesuvius-eligible-meshes/contents/meshes/PHerc0813/z12496_w100?ref=620769e2e1e70d1e61b588092229cb76d3af4804",
+      "headers": {
+        "Content-Length": "4731",
+        "Content-Type": "application/json; charset=utf-8",
+        "ETag": "\"6a6637e15eb76115d8985e001ddf386cfa01de07\"",
+        "Last-Modified": "Tue, 20 Oct 2026 19:33:46 GMT",
+        "Date": "Sat, 14 Nov 2026 05:49:12 GMT"
+      },
+      "bytes": 4731,
+      "sha256": "6c53f05d8f046d7d919c5802fd0be214ceed99550cb97f14e68b2ca6d4eab9f2"
+    }
+  ],
+  "previews": [
+    {
+      "path": "originals/PHerc0846B_3962_4983_7051.jpg",
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0846B_3962_4983_7051.jpg",
+      "utc": "2026-11-14T05:45:00.456625+00:00",
+      "category": "preview",
+      "maximum_bytes": 336110,
+      "revision": "1f12c1ceb14c1f24acc48249eaad60bcdf541721",
+      "fixed_tree": {
+        "path": "results/cards/PHerc0846B_3962_4983_7051.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "9fb6e05b248492ae69de21f806c0017f5ee2533a",
+        "size": 336110,
+        "url": "https://api.github.com/repos/ketchupbyheinz/vesuvius-scroll-survey/git/blobs/9fb6e05b248492ae69de21f806c0017f5ee2533a"
+      },
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0846B_3962_4983_7051.jpg",
+      "headers": {
+        "Content-Length": "336110",
+        "Content-Type": "image/jpeg",
+        "ETag": "\"98d47bdbaae2fa128847a6e75a6b4a2509c4de2d4566ab7fe044a78997d9ac10\"",
+        "Last-Modified": null,
+        "Date": "Sat, 14 Nov 2026 05:45:01 GMT"
+      },
+      "bytes": 336110,
+      "sha256": "78014787e62d997ee41fdaf4fbcb3f2238fb00cf6a7d67bcd6c64c4f2a4b6f51",
+      "verified_git_blob": "9fb6e05b248492ae69de21f806c0017f5ee2533a",
+      "decoded_wh": [
+        1773,
+        786
+      ],
+      "decoded_mode": "RGB"
+    },
+    {
+      "path": "originals/PHerc0813_4654_5413_8615.jpg",
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0813_4654_5413_8615.jpg",
+      "utc": "2026-11-14T05:45:00.782117+00:00",
+      "category": "preview",
+      "maximum_bytes": 325072,
+      "revision": "1f12c1ceb14c1f24acc48249eaad60bcdf541721",
+      "fixed_tree": {
+        "path": "results/cards/PHerc0813_4654_5413_8615.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "7163f2b880600cb9c66b3ed38a0787de76e5d4d7",
+        "size": 325072,
+        "url": "https://api.github.com/repos/ketchupbyheinz/vesuvius-scroll-survey/git/blobs/7163f2b880600cb9c66b3ed38a0787de76e5d4d7"
+      },
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0813_4654_5413_8615.jpg",
+      "headers": {
+        "Content-Length": "325072",
+        "Content-Type": "image/jpeg",
+        "ETag": "\"5eebeb151cd659c37ac586531f6f7e6354717acc5042e7d301724c9edb18cc8a\"",
+        "Last-Modified": null,
+        "Date": "Sat, 14 Nov 2026 05:45:01 GMT"
+      },
+      "bytes": 325072,
+      "sha256": "211a376f571b00084cdbbd0a23c88a1f8abf27afae5c72ffe886b1e52f1d4661",
+      "verified_git_blob": "7163f2b880600cb9c66b3ed38a0787de76e5d4d7",
+      "decoded_wh": [
+        1773,
+        786
+      ],
+      "decoded_mode": "RGB"
+    },
+    {
+      "path": "originals/PHerc1545_3051_3484_14673.jpg",
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc1545_3051_3484_14673.jpg",
+      "utc": "2026-11-14T05:45:01.164845+00:00",
+      "category": "preview",
+      "maximum_bytes": 355185,
+      "revision": "1f12c1ceb14c1f24acc48249eaad60bcdf541721",
+      "fixed_tree": {
+        "path": "results/cards/PHerc1545_3051_3484_14673.jpg",
+        "mode": "100644",
+        "type": "blob",
+        "sha": "2ce2feef38f07bb56965582ba3c404eb1338a608",
+        "size": 355185,
+        "url": "https://api.github.com/repos/ketchupbyheinz/vesuvius-scroll-survey/git/blobs/2ce2feef38f07bb56965582ba3c404eb1338a608"
+      },
+      "status": 200,
+      "final_url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc1545_3051_3484_14673.jpg",
+      "headers": {
+        "Content-Length": "355185",
+        "Content-Type": "image/jpeg",
+        "ETag": "\"ca9d24868ba71d17372ac7792223d77615894a7c1b0523f4bbe8cc5eee2d2638\"",
+        "Last-Modified": null,
+        "Date": "Sat, 14 Nov 2026 05:45:01 GMT"
+      },
+      "bytes": 355185,
+      "sha256": "0248d15a4c36bdf3a776d4392c8dae7c49cf664ee1f420aa7e6aa6c5cf51f541",
+      "verified_git_blob": "2ce2feef38f07bb56965582ba3c404eb1338a608",
+      "decoded_wh": [
+        1773,
+        786
+      ],
+      "decoded_mode": "RGB"
+    }
+  ],
+  "reused": [
+    "experiments/vesuvius/discovery/20261114-atlas-known-control01/survey-readme.md",
+    "experiments/vesuvius/discovery/20261114-pherc0846a-lead-audit01/fixed-tree.json",
+    "experiments/vesuvius/discovery/20261114-pherc0846a-lead-audit01/report_card.py",
+    "experiments/vesuvius/discovery/20261114-pherc1545-selection01/parent-mesh-meta.json",
+    "experiments/vesuvius/discovery/20261113-next-target01/ink-atlas-index.json",
+    "experiments/vesuvius/discovery/20261113-next-target01/official-model.md",
+    "experiments/vesuvius/discovery/20261114-pherc0846a-dense-native01/README.md"
+  ]
+}

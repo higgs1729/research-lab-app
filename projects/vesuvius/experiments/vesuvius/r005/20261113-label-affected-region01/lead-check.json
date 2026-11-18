@@ -1,0 +1,19 @@
+{
+  "samples": 368,
+  "checks": {
+    "before": {
+      "mixed_cells": 269,
+      "cross_rejections": 399,
+      "minimum_mixed_distance": 56.714267006344144,
+      "all_candidates_have_same_component_corners": true
+    },
+    "after": {
+      "mixed_cells": 0,
+      "cross_rejections": 0,
+      "minimum_mixed_distance": null,
+      "all_candidates_have_same_component_corners": true
+    }
+  },
+  "network_bytes": 0,
+  "scope": "Independent saved face-to-UV mapping and mixed-cell separation; not an independent closest-surface search or label registration."
+}

@@ -1,0 +1,144 @@
+{
+  "candidate": "K",
+  "method": "Same34-C-anchor affine gradient as J; move only the internal collision vertices and one edge neighbor ring, keeping all other I UVs exact.",
+  "vertices": 224,
+  "C_pins": 34,
+  "local_held_vertices": 182,
+  "moving": 42,
+  "faces": 346,
+  "gradient": [
+    [
+      19.737172240104158,
+      -0.7171492790447928
+    ],
+    [
+      6.305715453250126,
+      20.97951969941888
+    ]
+  ],
+  "gradient_determinant": 418.5985331132487,
+  "affine_fixed_rms_error": 2.9330088883296073,
+  "affine_fixed_max_error": 10.173319081393162,
+  "normal_equation_relative_residual": 3.8954543238763137e-16,
+  "all_fixed_coarse_outside_exact": true,
+  "all_packed_fixed_coarse_outside_exact": true,
+  "measurements": {
+    "candidate": {
+      "negative": 13,
+      "zero": 0,
+      "minimum_area": -436.2052018742929,
+      "full_SD": 1.2001961367186953,
+      "subject_SD": 51.254325148839,
+      "pairs": 169,
+      "internal_pairs": 149,
+      "external_pairs": 20,
+      "boundary_simple": false
+    },
+    "packed": {
+      "negative": 13,
+      "zero": 0,
+      "minimum_area": -436.2142935991287,
+      "full_SD": 1.2105447272310907,
+      "subject_SD": 50.97027898820654,
+      "pairs": 169,
+      "internal_pairs": 149,
+      "external_pairs": 20,
+      "boundary_simple": false
+    }
+  },
+  "packing_translations": [
+    {
+      "component": 1,
+      "vertices": 195936,
+      "shift": [
+        -9075.5100040077,
+        107.94813392166351
+      ]
+    },
+    {
+      "component": 0,
+      "vertices": 30027,
+      "shift": [
+        39496.1702018038,
+        277.51085805665906
+      ]
+    },
+    {
+      "component": 2,
+      "vertices": 19470,
+      "shift": [
+        50557.30385491612,
+        -1380.2710348003886
+      ]
+    },
+    {
+      "component": 6,
+      "vertices": 2131,
+      "shift": [
+        21159.10197041004,
+        -3615.09326171875
+      ]
+    },
+    {
+      "component": 7,
+      "vertices": 1243,
+      "shift": [
+        16758.546453022624,
+        -3942.817601500688
+      ]
+    },
+    {
+      "component": 5,
+      "vertices": 991,
+      "shift": [
+        45773.385093677614,
+        -2798.063473964491
+      ]
+    },
+    {
+      "component": 3,
+      "vertices": 49,
+      "shift": [
+        55690.00867855062,
+        -2414.024658203125
+      ]
+    },
+    {
+      "component": 4,
+      "vertices": 49,
+      "shift": [
+        46879.175181860825,
+        -2718.3642578125
+      ]
+    },
+    {
+      "component": 8,
+      "vertices": 49,
+      "shift": [
+        26874.642954702278,
+        -4302.119140625
+      ]
+    }
+  ],
+  "raster_gate": {
+    "candidate": {
+      "id": "K",
+      "coordinate_stage": "packed_float32",
+      "faces": 478224,
+      "negative_faces": 13,
+      "zero_faces": 0,
+      "mean_SD": 1.2105447272310907
+    },
+    "control": {
+      "id": "I",
+      "coordinate_stage": "packed_float32",
+      "faces": 478224,
+      "negative_faces": 0,
+      "zero_faces": 0,
+      "mean_SD": 1.1763771177297075
+    },
+    "rule": "candidate has no negative/zero faces and mean_SD < control mean_SD",
+    "passed": false
+  },
+  "elapsed_seconds": 4.320933400013018
+}

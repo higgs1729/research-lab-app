@@ -1,0 +1,67 @@
+{
+  "reviewer": "root",
+  "utc": "2026-11-14T11:01:07.189424+00:00",
+  "fixed_atlas_revision": "ac5ffd7098120368216948c4e06c494bf8e67178",
+  "source_sha256": {
+    "ct-mid": "bff953349da221cfdbc9777ed8293fb447897b9580ce0d4558e1ab759aa4a2ce",
+    "hecate-9.6-forward": "10c153b09c790817ed4b2a72482af857662117c4e7f600d6dbc097b71cdf6083",
+    "hecate-9.6-reverse": "8e6f4c383297bd4ba771c2a9fc22b1b144e895bc698230e7f1a6521219eed09b",
+    "reader-v3-forward": "a4e53c2afc0236c827a25ce062f3b7797742497c90619bc71d4d8c8aea3332b2",
+    "reader-v3-reverse": "5101478b4279c590531f152a483cf5372ea821d6899edd459611755926245d08",
+    "dense-native-forward": "967616a8cd241b9389692546c47fe57cd44b580f87846d1990f17983ed7d9206",
+    "dense-native-reverse": "dfcafdaa5d041477c06ffe39a42a53120cc7435dd4d0367b6bdcb5f85644903f",
+    "ink_9um-s42-forward": "395588c30a1252e8c4daa93c4dc1eae87ce99fc782aa5644e86d27d77eed27d1",
+    "ink_9um-s42-reverse": "e381f438984de4abb0c2c2cd34971337d8d9e5cc97fec9e773d620cc3a28c98f",
+    "reader-v2-forward": "fd2157d1a191bd3b611676c71d4ccdf774bf6825ce3152a9ba18f9b8a3bf0db3",
+    "reader-v2-reverse": "7e49603a2e57bea1a7fe1761416f316cf568ae422284d537d6f94a8d460abbd3",
+    "d9v2-forward": "6896a2193d1d830ba82b288a02a04014262e5b03cff3bc14a659b344b6003cc7",
+    "d9v2-reverse": "4fc8364ca4ce1e3c75f7c47db35782b54929b1cdae7aac7f5cc5685a7906fc38",
+    "ink_9um-s43-forward": "4c0171745997323e3a30c26f06c1ad8618ecff50ed199fcddc286c1a489604d5",
+    "ink_9um-s43-reverse": "5bcb0db3f58a7e9fa3ffd4c53c82f0356785adf4a308bec79c7d3765bad2dac2"
+  },
+  "source_pngs_verified": 15,
+  "native_figures_verified": 64,
+  "native_panels_verified": 288,
+  "grayscale_values_verified": 73156608,
+  "ct_nonzero_bbox": [
+    45,
+    45,
+    1953,
+    1953
+  ],
+  "ct_nonzero_pixels": 3640421,
+  "zero_values_inside_bbox": 43,
+  "selection_correction": {
+    "evidence": "face_check.mask explicitly states ct > 0 (sheet mask under 5 %)",
+    "withdrawn_inference": "Using sheet_fraction=1.0 as superior sheet coverage over the other two candidates.",
+    "pending": "The exact metric code and effects on previous choices require a separate study.",
+    "historical_selection_preserved": "selection.json records the actual pre-download choice; it is not rewritten after inspection."
+  },
+  "visual_review": {
+    "overview": "review01/overview.png at 1:8",
+    "native_figures": [
+      "x1512-y0000-g1.png",
+      "x1008-y0504-g1.png",
+      "x0000-y1008-g2.png",
+      "x1008-y1008-g3.png",
+      "x1512-y0504-g4.png",
+      "x0504-y1512-g1.png"
+    ],
+    "coverage": "Six distinct spatial tiles; portions of all seven models in both orders. Numerical verification is broader than visual inspection.",
+    "observations": [
+      "CT has curved layered contours and wide dark channels. A single central slice does not establish a segmentation error.",
+      "Selected Hecate blobs are isolated or irregular; Reader maps are diffuse; no distinctive stroke sequence is selected.",
+      "Seed42 and seed43 show broad responses near borders and dark CT bands; d9v2 contains texture resembling the underlying CT contours.",
+      "Agreement of some bright areas is not evidence of ink or legible text."
+    ],
+    "decision": "No follow-up ROI selected. This does not establish absent ink or a negative result for the scroll."
+  },
+  "limitations": [
+    "Physical sheet identity and exact XYZ mapping were not verified.",
+    "Training exposure and complete prior reading history are unknown.",
+    "Published predictions are prior work, not our discovery."
+  ],
+  "new_network_bytes": 0,
+  "model_forward_calls": 0,
+  "cloud_cost_usd": 0
+}

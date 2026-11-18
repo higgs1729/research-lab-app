@@ -1,0 +1,22 @@
+{
+  "checked_date_jst": "2026-11-15",
+  "mechanism": "Parent web open of current official pages, rendered page content. This is a source-location/interpretation note, not an archived raw-HTML quote.",
+  "sources": [
+    {
+      "url": "https://scrollprize.org/prizes",
+      "observations": [
+        "PHerc0800 / 20250521135224 remains in the20-volume First Letters eligible list.",
+        "Discovery requires a qualifying technically and papyrologically reviewed result; an ink-model response alone does not establish an award.",
+        "Progress Prizes November deadline remains2026-11-30 23:59 Pacific."
+      ]
+    },
+    {
+      "url": "https://scrollprize.org/data_browser/PHerc0800",
+      "observations": [
+        "Status Scanned,6 segments,8.64um,1 scan/1 volume.",
+        "Official volume20250521135224 and surface/lasagna prediction links are present."
+      ]
+    }
+  ],
+  "limitations": "Official availability and eligibility do not certify individual mesh quality, untouched spatial area, or unknown prior nonpublic findings. No model or CT acquisition in this parent check."
+}

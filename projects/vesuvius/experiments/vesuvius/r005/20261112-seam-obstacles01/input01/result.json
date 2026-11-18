@@ -1,0 +1,31 @@
+{
+  "edge_components": [
+    {
+      "component": 0,
+      "faces": 336,
+      "vertices": 201,
+      "previous_overlap_faces": 153,
+      "boundary_degrees": [
+        2
+      ],
+      "euler": 1
+    },
+    {
+      "component": 1,
+      "faces": 20,
+      "vertices": 18,
+      "previous_overlap_faces": 2,
+      "boundary_degrees": [
+        2
+      ],
+      "euler": 1
+    }
+  ],
+  "retained_components": [
+    0,
+    1
+  ],
+  "selection_rule": "Retain all edge-connected obstacle pieces containing any previous external overlap face; omitted padding faces remain unchanged in the full mesh.",
+  "one_simple_obstacle_patch": false,
+  "elapsed_seconds": 0.5937765000271611
+}

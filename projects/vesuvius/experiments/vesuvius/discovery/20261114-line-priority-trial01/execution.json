@@ -1,0 +1,160 @@
+{
+  "seconds": 22.225458300003083,
+  "angles": [
+    -90,
+    -85,
+    -80,
+    -75,
+    -70,
+    -65,
+    -60,
+    -55,
+    -50,
+    -45,
+    -40,
+    -35,
+    -30,
+    -25,
+    -20,
+    -15,
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50,
+    55,
+    60,
+    65,
+    70,
+    75,
+    80,
+    85
+  ],
+  "source_import_read_only": true,
+  "maps": [
+    {
+      "key": "PHerc0343-reverse",
+      "candidates": 5,
+      "seconds": 2.3662556000053883,
+      "endpoint": {
+        "geometry": {
+          "1": {
+            "rank": 1,
+            "detection_index": 1,
+            "box_ids": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "other_row_count": 0,
+            "axis_difference": 1.9022725211186753
+          },
+          "2": {
+            "rank": 3,
+            "detection_index": 2,
+            "box_ids": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ],
+            "other_row_count": 0,
+            "axis_difference": 12.968396204253168
+          }
+        },
+        "zmean": {
+          "1": {
+            "rank": 1,
+            "detection_index": 1,
+            "box_ids": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "other_row_count": 0,
+            "axis_difference": 1.9022725211186753
+          },
+          "2": {
+            "rank": 2,
+            "detection_index": 2,
+            "box_ids": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ],
+            "other_row_count": 0,
+            "axis_difference": 12.968396204253168
+          }
+        }
+      }
+    },
+    {
+      "key": "PHerc0125-forward",
+      "candidates": 2,
+      "seconds": 1.127089800007525,
+      "endpoint": {
+        "geometry": {},
+        "zmean": {}
+      }
+    },
+    {
+      "key": "PHerc0125-reverse",
+      "candidates": 2,
+      "seconds": 1.1259989000100177,
+      "endpoint": {
+        "geometry": {},
+        "zmean": {}
+      }
+    },
+    {
+      "key": "PHerc0175B-forward",
+      "candidates": 2,
+      "seconds": 1.254808999990928,
+      "endpoint": {
+        "geometry": {},
+        "zmean": {}
+      }
+    },
+    {
+      "key": "PHerc0175B-reverse",
+      "candidates": 2,
+      "seconds": 1.4770035999972606,
+      "endpoint": {
+        "geometry": {},
+        "zmean": {}
+      }
+    }
+  ],
+  "review_count": 12
+}

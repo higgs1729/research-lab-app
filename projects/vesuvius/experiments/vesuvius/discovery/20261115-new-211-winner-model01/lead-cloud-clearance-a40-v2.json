@@ -1,0 +1,7 @@
+{
+  "approved": true,
+  "cloud_plan_sha256": "b8138239b71915bdeb7befb1a094b34a41dfc03226e3efe5e36353a622c3fc18",
+  "recorded_by": "worker pursuant to prior parent authorization",
+  "scope": "Only borrowed readonly source path corrected before API call; input/lifecycle/GPU/rate/deadline unchanged",
+  "prior_clearance": "lead-cloud-clearance-a40.json"
+}

@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-11-14T14:58:53.199302+00:00",
+  "reviewer": "root",
+  "review_order": "Parent viewed R185 and R216 full384 raw PNGs, then CT9site gallery, main256 side-by-side and all3 lower-row individual CTpairs before receiving worker detailed judgment. Labels were visible; not a blinded reading.",
+  "ink_observation": "Large right curved enclosure and its dark internal area remain traceable at the same coordinates; the left curved/vertical fragment is also retained. Some local brightness and blur changes occur. No new distinct break, merger with the neighboring shape, or scattered spurious stroke field is apparent within the fixed main256. Partial known shapes only, no transcription or new letter.",
+  "ct_observation": "All9 pairs reviewed. Original and corrected marks mostly overlap within the same local structure. Lower-left point1440,1312 shifts slightly toward the dark side of an existing broad edge; the data do not resolve all individual laminae even before correction. No clear newly crossed bright lamina, fold, or large relocation that introduces new attribution uncertainty is visible. The original ambiguity is retained as a limit.",
+  "numeric_evidence": [
+    "lead-snap-check.json",
+    "lead-known-check.json"
+  ],
+  "decision": "Known reapplication no-harm control passes for this fixed small ROI; allow the preplanned conditional PHerc0191 m7 download and same9site CT-only comparison.",
+  "does_not_establish": [
+    "Improvement of known text",
+    "Correct physical paper everywhere",
+    "Recovery from an incorrect fit",
+    "Safety of all m7 snap settings or inputs"
+  ],
+  "conditional_authorization": {
+    "scroll": "PHerc0191",
+    "keys": 121,
+    "expected_encoded_bytes": 71124890,
+    "new_CT_keys": 0,
+    "unknown_ink_forward": 0,
+    "GPU": 0
+  }
+}

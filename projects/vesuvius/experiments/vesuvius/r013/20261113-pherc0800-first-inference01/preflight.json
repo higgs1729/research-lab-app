@@ -1,0 +1,264 @@
+{
+  "grid_yx": [
+    49,
+    49
+  ],
+  "mesh_scale": [
+    0.05,
+    0.05
+  ],
+  "canvas_yx": [
+    980,
+    980
+  ],
+  "raster_mapping": "g=(p+0.5)*0.05 for equal canvas and scale, same volume ID; exporter pixel phase not independently measured",
+  "finite_nodes": 2401,
+  "valid_nodes": 1337,
+  "missing_nodes": 1064,
+  "valid_quads": 1244,
+  "quad_bounds_yx": [
+    [
+      1,
+      1
+    ],
+    [
+      46,
+      46
+    ]
+  ],
+  "ct_voxel_bbox_xyz": [
+    [
+      3089.978515625,
+      5907.083984375,
+      11617.8837890625
+    ],
+    [
+      3703.01904296875,
+      6614.24560546875,
+      12497.9765625
+    ]
+  ],
+  "centre_geometry_supported_pixels": 16384,
+  "fixed_crop_geometry_supported_pixels": 261408,
+  "centre_supported_nonzero_in_model_layers": 16384,
+  "centre_layers": [
+    {
+      "layer": 0,
+      "min": 33,
+      "max": 191,
+      "zero_pixels": 0,
+      "mean": 100.930419921875
+    },
+    {
+      "layer": 1,
+      "min": 48,
+      "max": 172,
+      "zero_pixels": 0,
+      "mean": 102.41717529296875
+    },
+    {
+      "layer": 2,
+      "min": 41,
+      "max": 156,
+      "zero_pixels": 0,
+      "mean": 103.05682373046875
+    },
+    {
+      "layer": 3,
+      "min": 31,
+      "max": 186,
+      "zero_pixels": 0,
+      "mean": 102.51568603515625
+    },
+    {
+      "layer": 4,
+      "min": 34,
+      "max": 209,
+      "zero_pixels": 0,
+      "mean": 100.66558837890625
+    },
+    {
+      "layer": 5,
+      "min": 35,
+      "max": 227,
+      "zero_pixels": 0,
+      "mean": 98.3665771484375
+    },
+    {
+      "layer": 6,
+      "min": 42,
+      "max": 187,
+      "zero_pixels": 0,
+      "mean": 96.94281005859375
+    },
+    {
+      "layer": 7,
+      "min": 42,
+      "max": 154,
+      "zero_pixels": 0,
+      "mean": 96.75750732421875
+    },
+    {
+      "layer": 8,
+      "min": 38,
+      "max": 160,
+      "zero_pixels": 0,
+      "mean": 97.38311767578125
+    },
+    {
+      "layer": 9,
+      "min": 34,
+      "max": 156,
+      "zero_pixels": 0,
+      "mean": 98.89666748046875
+    },
+    {
+      "layer": 10,
+      "min": 21,
+      "max": 157,
+      "zero_pixels": 0,
+      "mean": 101.76470947265625
+    },
+    {
+      "layer": 11,
+      "min": 11,
+      "max": 168,
+      "zero_pixels": 0,
+      "mean": 105.6490478515625
+    },
+    {
+      "layer": 12,
+      "min": 32,
+      "max": 176,
+      "zero_pixels": 0,
+      "mean": 109.39068603515625
+    },
+    {
+      "layer": 13,
+      "min": 35,
+      "max": 179,
+      "zero_pixels": 0,
+      "mean": 112.00079345703125
+    },
+    {
+      "layer": 14,
+      "min": 36,
+      "max": 189,
+      "zero_pixels": 0,
+      "mean": 113.02984619140625
+    },
+    {
+      "layer": 15,
+      "min": 35,
+      "max": 237,
+      "zero_pixels": 0,
+      "mean": 112.187744140625
+    },
+    {
+      "layer": 16,
+      "min": 20,
+      "max": 255,
+      "zero_pixels": 0,
+      "mean": 108.94952392578125
+    },
+    {
+      "layer": 17,
+      "min": 29,
+      "max": 255,
+      "zero_pixels": 0,
+      "mean": 103.10498046875
+    },
+    {
+      "layer": 18,
+      "min": 33,
+      "max": 255,
+      "zero_pixels": 0,
+      "mean": 95.763671875
+    },
+    {
+      "layer": 19,
+      "min": 30,
+      "max": 255,
+      "zero_pixels": 0,
+      "mean": 89.37896728515625
+    },
+    {
+      "layer": 20,
+      "min": 26,
+      "max": 254,
+      "zero_pixels": 0,
+      "mean": 85.96575927734375
+    },
+    {
+      "layer": 21,
+      "min": 31,
+      "max": 212,
+      "zero_pixels": 0,
+      "mean": 85.67242431640625
+    },
+    {
+      "layer": 22,
+      "min": 29,
+      "max": 220,
+      "zero_pixels": 0,
+      "mean": 87.25640869140625
+    },
+    {
+      "layer": 23,
+      "min": 32,
+      "max": 248,
+      "zero_pixels": 0,
+      "mean": 89.21661376953125
+    },
+    {
+      "layer": 24,
+      "min": 33,
+      "max": 255,
+      "zero_pixels": 0,
+      "mean": 90.7020263671875
+    },
+    {
+      "layer": 25,
+      "min": 35,
+      "max": 255,
+      "zero_pixels": 0,
+      "mean": 92.0390625
+    },
+    {
+      "layer": 26,
+      "min": 35,
+      "max": 255,
+      "zero_pixels": 0,
+      "mean": 93.97283935546875
+    },
+    {
+      "layer": 27,
+      "min": 37,
+      "max": 255,
+      "zero_pixels": 0,
+      "mean": 96.36029052734375
+    },
+    {
+      "layer": 28,
+      "min": 44,
+      "max": 255,
+      "zero_pixels": 0,
+      "mean": 99.23004150390625
+    },
+    {
+      "layer": 29,
+      "min": 45,
+      "max": 255,
+      "zero_pixels": 0,
+      "mean": 102.49609375
+    },
+    {
+      "layer": 30,
+      "min": 41,
+      "max": 254,
+      "zero_pixels": 0,
+      "mean": 105.63360595703125
+    }
+  ],
+  "passed": true
+}

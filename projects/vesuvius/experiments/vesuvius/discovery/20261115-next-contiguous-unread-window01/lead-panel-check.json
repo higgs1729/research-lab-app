@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-15T06:06:55.188853+00:00",
+  "panels": 6,
+  "exact_source_pixels": 2764800,
+  "full_main_coverage_each_CT_forward_reverse": true,
+  "resize_threshold_remap": false,
+  "new_forward_network": 0
+}

@@ -1,0 +1,161 @@
+{
+  "created_utc": "2026-11-11T17:25:15.408623+00:00",
+  "scope": "New topology and zero-target diagnostics only; previous immutable C/B data referenced. Mutable root runner excluded, execution snapshots included.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology-close/decision-record.json",
+      "bytes": 1016,
+      "sha256": "fde24c896b26a0d68aa8ca85aa7869336eb76c39e0b640cd61da566c2f5c8b68"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology-close/experiment-record.json",
+      "bytes": 1080,
+      "sha256": "ddb44989f2954f475ea599f379e0a810f3709f37dc1a8e1df627c022187b729f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology-close/freeze.py",
+      "bytes": 3502,
+      "sha256": "36fe796457f1c8da04a86f30ce38277cf49bba8c0f49d45bf9f7fddadb22dc2a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology-close/resources.json",
+      "bytes": 3499,
+      "sha256": "0fc22ce600b9207a4f2500662d00e63ebd383a8dbbdb1e1eebf63314e350a9f1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology-close/runtime-status.json",
+      "bytes": 1078,
+      "sha256": "214a9b85ffc4d237057f426409a824e24f306b94b931abddcb6a38ca85a148a2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology-close/verification-record.json",
+      "bytes": 1079,
+      "sha256": "22e08fc48e9f4ed63f5b0194bf6fc03901a63ab000d92c1bde77466a13da556d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology-verification01/check01/arrays.npz",
+      "bytes": 2311635,
+      "sha256": "12b92ef7be66729722501ff499caf4abbd5b9c2d3707331e9b5807777d093926"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology-verification01/check01/result.json",
+      "bytes": 5032,
+      "sha256": "8f7e70404904a84b6fc4e2e8b64f9a3ab3330d8da61a7b0ca616038728cdccc2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology-verification01/check01-execution/state.json",
+      "bytes": 873,
+      "sha256": "8727158a93eed0c72e9d3b590d92342ae0f69beae7b4ce0c9293f983c9cf0c4e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology-verification01/check01-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology-verification01/verify_topology.py",
+      "bytes": 15176,
+      "sha256": "1091b697b949870e76b7ad1017b6c9314ee091e1fd6c28e9495a17728fd2852b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/analysis01/arrays.npz",
+      "bytes": 790372,
+      "sha256": "7cafb715abe32276c1470ef83b59208db8889c7740f7ee90a88b32c3601b2a08"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/analysis01/diagnose_topology.py",
+      "bytes": 8272,
+      "sha256": "4b6bb8b8788325ae289b9c4b0563ac16f50f9c14aebf5248939bc6073efb6c0f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/analysis01/result.json",
+      "bytes": 210449,
+      "sha256": "40c0b942cdee4f6b967a8e60190e554a0556027036f97799906132aa5c050405"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/analysis01-execution/state.json",
+      "bytes": 851,
+      "sha256": "e2252851cfe63a4cb5ca00cc9951b53d446066c1032526ca909cf9ca1f4819b2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/analysis01-execution/stdout.log",
+      "bytes": 6917,
+      "sha256": "b1e78931eda47cdb532bf7d3ad227e14666f92169ea013b24f3036d5f9f2eda0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/decision-record.json",
+      "bytes": 1237,
+      "sha256": "cb5e7a74685d01bf40d60aff1e6f5c51c46f7123bd8bcf648fe5a6dd37dd97d3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/diagnose_topology.py",
+      "bytes": 8272,
+      "sha256": "4b6bb8b8788325ae289b9c4b0563ac16f50f9c14aebf5248939bc6073efb6c0f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/harmonic-decision-record.json",
+      "bytes": 939,
+      "sha256": "cc5352020891d6e07211f5a969f6a35eeb7de6f406ba159396ef3f872d4b7fe5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/harmonic01/arrays.npz",
+      "bytes": 5660050,
+      "sha256": "49df6bee07e3ec7b9a799b57963fdd2e8ca15fc8e867bf11bffa7ba346b5f4a0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/harmonic01/harmonic_diagnostic.py",
+      "bytes": 4058,
+      "sha256": "6a34649de11ca69035156d18a7af2520734b4c1d3b34035961fb8ed9e538d3e1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/harmonic01/result.json",
+      "bytes": 393426,
+      "sha256": "40fe35fc1968eee63228eefb2af7c1fa5a912277d04941aa5d60f2ad0677325e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/harmonic01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/harmonic01-execution/state.json",
+      "bytes": 854,
+      "sha256": "189d721bcdfd9f9e59e8da558da4ad933960cd43945ce00d4e930ed2291c4f47"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/harmonic01-execution/stdout.log",
+      "bytes": 37840,
+      "sha256": "0bd445ddf6c4080ee8a8963f1df876feb2799d1ab1d780b041b4b6503a0f2a0f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/harmonic_diagnostic.py",
+      "bytes": 4058,
+      "sha256": "6a34649de11ca69035156d18a7af2520734b4c1d3b34035961fb8ed9e538d3e1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-topology01/upstream-check.json",
+      "bytes": 1002,
+      "sha256": "be3c0e226ad8a6dbb768a6d90862d8320ac57f4fbeacb59352d7377a5ab39178"
+    },
+    {
+      "path": "research/53-r005-topology-diagnosis.md",
+      "bytes": 8128,
+      "sha256": "9b7e9a4c8ae9cab84019543d61b1fe1a84396ee9e4b40e741c3db53d70b79a73"
+    },
+    {
+      "path": "research/54-r005-topology-verification.md",
+      "bytes": 6360,
+      "sha256": "7b9556c4fc84f00eb32fbbab180f4925e079997e7b2d655c4983844d62c5512a"
+    }
+  ]
+}

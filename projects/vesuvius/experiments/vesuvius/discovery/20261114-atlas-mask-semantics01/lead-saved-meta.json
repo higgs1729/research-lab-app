@@ -1,0 +1,98 @@
+{
+  "selection": "Previously saved discovery JSON files with meta in the filename, <= 1 MiB and schema inkatlas-surface/1. Not an exhaustive corpus census.",
+  "rows": [
+    {
+      "path": "20261113-next-target01\\atlas1218-3144-meta.json",
+      "sha256": "409c8a46c10e15fa9e2fb8f2bb192caab557687c8bf1e89ce465db2e342b9444",
+      "id": "kbh-PHerc1218_3144_3279_16272",
+      "scroll": "PHerc1218",
+      "mask": "sheet (crossness >= 0.31)",
+      "sheet_fraction": 0.831,
+      "pixels_used": 2880845
+    },
+    {
+      "path": "20261113-next-target01\\atlas1218-4203-meta.json",
+      "sha256": "9dd4ba3f0a0ca8f3c0cc6141123d8b1a82cdda80b4e0cdc05f9ea0a26e8710d9",
+      "id": "kbh-PHerc1218_4203_4343_16272",
+      "scroll": "PHerc1218",
+      "mask": "sheet (crossness >= 0.31)",
+      "sheet_fraction": 0.765,
+      "pixels_used": 2777021
+    },
+    {
+      "path": "20261114-atlas-known-control01\\surface-meta.json",
+      "sha256": "1234a11a1106e7dd4a9092145ba543a0359ca43a83b2249d280e5175aad19fb7",
+      "id": "kbh-POS_PHerc0343_erwin",
+      "scroll": "PHerc0343",
+      "mask": "sheet (crossness >= 0.31)",
+      "sheet_fraction": 0.714,
+      "pixels_used": 6177477
+    },
+    {
+      "path": "20261114-pherc0846b-native-atlas01\\surface-meta.json",
+      "sha256": "932d52dedeefeedabace519aeaee00f6626aa0729457c625834ed5dd6141faa6",
+      "id": "kbh-PHerc0846B_2768_2813_9748",
+      "scroll": "PHerc0846B",
+      "mask": "sheet (crossness >= 0.31)",
+      "sheet_fraction": 0.217,
+      "pixels_used": 929456
+    },
+    {
+      "path": "20261114-unreviewed-atlas-face01\\candidates\\PHerc0125-meta.json",
+      "sha256": "86b0dc0b6bfeae7f8cfac128d5f5daa84bd3455648da143befbb6f434ce032f4",
+      "id": "kbh-PHerc0125_5409_5288_14587",
+      "scroll": "PHerc0125",
+      "mask": "sheet (crossness >= 0.31)",
+      "sheet_fraction": 0.863,
+      "pixels_used": 3686967
+    },
+    {
+      "path": "20261114-unreviewed-atlas-face01\\candidates\\PHerc0191-meta.json",
+      "sha256": "b8d1466a53780b3133137dba04328c6184f93898938eafbcdba6556bb30a11cf",
+      "id": "kbh-PHerc0191_2707_2976_13281",
+      "scroll": "PHerc0191",
+      "mask": "sheet (crossness >= 0.31)",
+      "sheet_fraction": 0.159,
+      "pixels_used": 679230
+    },
+    {
+      "path": "20261114-unreviewed-atlas-face01\\candidates\\PHerc0257-meta.json",
+      "sha256": "03ac23f1eaec5d87533a0275d22c10ac7dd7386f3b53540efb0d5534acbf0e74",
+      "id": "kbh-PHerc0257_3904_6108_9436",
+      "scroll": "PHerc0257",
+      "mask": "sheet (crossness >= 0.31)",
+      "sheet_fraction": 0.163,
+      "pixels_used": 694880
+    },
+    {
+      "path": "20261114-next-atlas-surface01\\candidates\\PHerc0175B-meta.json",
+      "sha256": "fee64b31013ccc21436971bf1ab6d3223101e2dddc84c15d8a5ff3b8791fff2d",
+      "id": "kbh-PHerc0175B_3024_3577_11121",
+      "scroll": "PHerc0175B",
+      "mask": "ct > 0 (sheet mask under 5 %)",
+      "sheet_fraction": 1.0,
+      "pixels_used": 3640421
+    },
+    {
+      "path": "20261114-next-atlas-surface01\\candidates\\PHerc0268-meta.json",
+      "sha256": "9839501cdabb9426206dc6b996df045aa9d786ddc0b9c91c2aefc18c232a0bb2",
+      "id": "kbh-PHerc0268_2704_5907_7421",
+      "scroll": "PHerc0268",
+      "mask": "sheet (crossness >= 0.31)",
+      "sheet_fraction": 0.069,
+      "pixels_used": 251458
+    },
+    {
+      "path": "20261114-next-atlas-surface01\\candidates\\PHerc0483A-meta.json",
+      "sha256": "e45147938b455bd6d1ea61687221a55dac6335fdd7528ed076af66a2f6d10d0d",
+      "id": "kbh-PHerc0483A_3155_3610_11128",
+      "scroll": "PHerc0483A",
+      "mask": "sheet (crossness >= 0.31)",
+      "sheet_fraction": 0.172,
+      "pixels_used": 627484
+    }
+  ],
+  "unique_ids": 10,
+  "network_bytes": 0,
+  "model_calls": 0
+}

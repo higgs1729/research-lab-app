@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-ct-render01\\..\\20261113-label-affected-region01\\assess.py"
+  ],
+  "started_utc": "2026-11-13T10:08:49.802272+00:00",
+  "completed_utc": "2026-11-13T10:08:52.950404+00:00",
+  "elapsed_seconds": 3.148062899999786,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 830922752,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 2.53125,
+  "sys_cpu_seconds": 0.484375,
+  "exit_code": 0
+}

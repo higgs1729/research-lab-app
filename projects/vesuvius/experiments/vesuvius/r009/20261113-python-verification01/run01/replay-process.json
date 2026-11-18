@@ -1,0 +1,31 @@
+{
+  "command": [
+    "unshare",
+    "-Urn",
+    "/usr/bin/python3",
+    "-B",
+    "-S",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-python-verification01/run01/verify.py",
+    "--writer",
+    "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/source/vc_reader/src/vc_reader/reader/writer.py",
+    "--extension",
+    "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/build04/_reader.cpython-312-x86_64-linux-gnu.so",
+    "--upstream-test",
+    "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/source/vc_reader/tests/test_zarr_writer.py",
+    "--work",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-python-verification01/run01/fixtures",
+    "--report",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-python-verification01/run01/checks.json"
+  ],
+  "cwd": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-python-verification01/run01",
+  "started_utc": "2026-11-12T19:16:40.837959+00:00",
+  "completed_utc": "2026-11-12T19:16:44.602357+00:00",
+  "timeout_seconds": 30,
+  "elapsed_seconds": 3.764424125999999,
+  "exit_code": 0,
+  "max_child_rss_bytes": 122699776,
+  "user_cpu_seconds": 0.49,
+  "sys_cpu_seconds": 0.36,
+  "timing_pid": 382,
+  "reaped": true
+}

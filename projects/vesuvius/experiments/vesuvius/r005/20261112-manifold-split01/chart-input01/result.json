@@ -1,0 +1,100 @@
+{
+  "selected_component": 0,
+  "selected_face": 188235,
+  "obstacle_face": 159157,
+  "vertices": 227,
+  "faces": 347,
+  "moving": 189,
+  "fixed": 38,
+  "coarse_vertices": 5,
+  "shared_with_outside_vertices": [
+    93281,
+    95166,
+    97052,
+    98955,
+    101108,
+    103048,
+    104988,
+    106906,
+    106907,
+    106908,
+    106909,
+    106910,
+    106911,
+    106912,
+    106913,
+    106914,
+    106915,
+    106916,
+    106917,
+    106918,
+    106919,
+    106920,
+    106921,
+    106922,
+    106923,
+    106924,
+    106925,
+    106926,
+    106927,
+    106928,
+    108845,
+    108853,
+    108861,
+    121019
+  ],
+  "additional_pins_beyond_C": [
+    121019
+  ],
+  "initial_minimum_signed_area": 199.99999403953558,
+  "initial_interior_overlap_pairs": 0,
+  "existing_G_overlap_pairs_by_split_components": [
+    {
+      "component_a": 0,
+      "component_b": 0,
+      "pairs": 61
+    },
+    {
+      "component_a": 1,
+      "component_b": 0,
+      "pairs": 2
+    },
+    {
+      "component_a": 1,
+      "component_b": 1,
+      "pairs": 46
+    },
+    {
+      "component_a": 1,
+      "component_b": 2,
+      "pairs": 829
+    },
+    {
+      "component_a": 1,
+      "component_b": 3,
+      "pairs": 218
+    },
+    {
+      "component_a": 2,
+      "component_b": 1,
+      "pairs": 52
+    },
+    {
+      "component_a": 2,
+      "component_b": 3,
+      "pairs": 276
+    },
+    {
+      "component_a": 3,
+      "component_b": 1,
+      "pairs": 1
+    },
+    {
+      "component_a": 3,
+      "component_b": 2,
+      "pairs": 211
+    }
+  ],
+  "all_coarse_in_trial_pinned": true,
+  "elapsed_seconds": 1.3410523000056855
+}

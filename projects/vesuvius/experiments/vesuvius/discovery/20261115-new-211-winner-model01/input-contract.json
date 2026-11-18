@@ -1,0 +1,92 @@
+{
+  "file": "input16.npy",
+  "sha256": "5ff8a0909d37436207f95bf1fed5512babea086da7961d05fdd7e2bcf04a9a7c",
+  "shape": [
+    16,
+    576,
+    832
+  ],
+  "dtype": "uint8",
+  "bbox_xywh": [
+    1264,
+    1008,
+    832,
+    576
+  ],
+  "source_depth_indices": [
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+  ],
+  "offsets_voxel": [
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0,
+    -1,
+    -2,
+    -3,
+    -4,
+    -5,
+    -6,
+    -7
+  ],
+  "pitch_um": 8.64,
+  "interpolation": "unchanged R222 native scale1/step1 linear CT render",
+  "depth_basis": "supplied31planes23..8 relative center15 means+8..-7; transfer same signed normal used for R222 reverse, no shift/orientation sweep",
+  "new_ct_bytes": 0,
+  "new_surface_generation": false,
+  "source_input": {
+    "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-reader-v3-known-control01\\input.npy",
+    "sha256": "fb84f9cd40d201374817c4f793691a6ce1dd78f72f33b7726f9c3715d347bed9",
+    "shape": [
+      17,
+      960,
+      1152
+    ],
+    "support_xywh": [
+      1152,
+      768,
+      1152,
+      960
+    ],
+    "offsets_voxel": [
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "plan_sha256": "d1a9774b2ad3816ade4234c4449577e86f2bf49cd6d809915a1a1c1ebebc0312"
+}

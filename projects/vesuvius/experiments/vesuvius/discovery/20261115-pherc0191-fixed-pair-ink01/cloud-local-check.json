@@ -1,0 +1,48 @@
+{
+  "input_bytes": 91157638,
+  "input_sha256": "9675e0c3bc38ec07d96b4e5cdefa49e3f9b4b21c615adf1a14f040d1f8ce3682",
+  "create_fields": [
+    "cloud",
+    "cmd",
+    "dataCenterIds",
+    "disk",
+    "entrypoint",
+    "env",
+    "globalNetworking",
+    "gpu",
+    "image",
+    "mounts",
+    "name",
+    "ports",
+    "startJupyter",
+    "startSsh"
+  ],
+  "tested_deadlines": [
+    {
+      "startup_seconds": 0,
+      "transfer_seconds_remaining": 1440,
+      "transfer_deadline": 1440,
+      "model_deadline": 2337,
+      "collect_deadline": 900,
+      "delete_deadline": 2700
+    },
+    {
+      "startup_seconds": 240,
+      "transfer_seconds_remaining": 1200,
+      "transfer_deadline": 1440,
+      "model_deadline": 2337,
+      "collect_deadline": 2637,
+      "delete_deadline": 2700
+    },
+    {
+      "startup_seconds": 240,
+      "transfer_seconds_remaining": 1200,
+      "transfer_deadline": 1440,
+      "model_deadline": 2337,
+      "collect_deadline": 2640,
+      "delete_deadline": 2700
+    }
+  ],
+  "model_forwards": 0,
+  "network_calls": 0
+}

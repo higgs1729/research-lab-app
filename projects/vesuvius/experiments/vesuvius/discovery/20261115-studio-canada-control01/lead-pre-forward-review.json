@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-11-15T10:42:07.618569+00:00",
+  "manifest_sha256": "2083e74d40915d17892824518e4fc45036b2e9c3de7093f11c95f6b9ab9cee42",
+  "manifest_files": 43,
+  "archive_sha256": "aaafea799a639dc461a992fe249716e1f4439c9d29c498673621982b4db2f7d3",
+  "archive_members": [
+    "transfer.json",
+    "dependency.json",
+    "job-result.json",
+    "worker.log",
+    "model.log",
+    "gpu/start.json",
+    "gpu/model.json",
+    "gpu/result.json"
+  ],
+  "gpu_forwards": 0,
+  "strict_checkpoint_load_verified": true,
+  "independent_raw_and_cpu_normalized_matches": 96,
+  "reciprocal_prediction_matches_agent": 96,
+  "first_patch": {
+    "index": 0,
+    "different_values": 137435,
+    "max_abs": 5.960464477539063e-08
+  },
+  "max_normalization_delta": 5.960464477539063e-08,
+  "actual_gpu_normalized_tensor_observed": false,
+  "conclusion": "FP32 scalar-division kernel explains the assertion as a source-backed inference; actual GPU row not retained. Scientific image evaluation has not occurred.",
+  "additional_model_forwards": 0,
+  "additional_paid_cost_usd": 0
+}

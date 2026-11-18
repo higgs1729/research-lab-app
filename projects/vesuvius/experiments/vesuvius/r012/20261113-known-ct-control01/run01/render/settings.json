@@ -1,0 +1,96 @@
+{
+  "command": [
+    "unshare",
+    "-Urn",
+    "/mnt/d/kensyoukin-work/r005-ct-render01/build02/vc_render_tifxyz",
+    "--volume",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr",
+    "--segmentation",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r011/20261113-w035-geometry01/run01/input",
+    "--tif-output",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/render/tiff",
+    "--zarr-output",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/render/control.zarr",
+    "--zarr-compressor",
+    "none",
+    "--pyramid",
+    "false",
+    "--scale",
+    "1",
+    "--group-idx",
+    "0",
+    "--num-slices",
+    "28",
+    "--slice-step",
+    "1",
+    "--surface-interpolation",
+    "bicubic",
+    "--voxel-size",
+    "9.362",
+    "--voxel-unit",
+    "micrometer",
+    "--cache-gb",
+    "1",
+    "--flip-normals",
+    "--crop-x",
+    "2176",
+    "--crop-y",
+    "1408",
+    "--crop-width",
+    "64",
+    "--crop-height",
+    "64"
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OPENCV_FOR_THREADS_NUM": "1",
+    "TMPDIR": "/mnt/c/dev/kensyoukin/.work/r012-known-ct-control01/run01/render",
+    "CUDA_VISIBLE_DEVICES": "",
+    "VC_TRIAL_GEOMETRY": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/render/geometry.bin",
+    "VC_TRIAL_FLOAT": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/render/ct-layers.f32"
+  },
+  "cpu_affinity": [
+    0
+  ],
+  "address_space_limit_bytes": 4294967296,
+  "core_dump_limit_bytes": 0,
+  "binary_sha256": "7b4232a2356deca215ceaa8d072a7673023db8a5c2bfd90959dcb6c233ee9927",
+  "linked_library_hashes": {
+    "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+    "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+  },
+  "sources": {
+    "cli": {
+      "path": "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/apps/src/vc_render_tifxyz.cpp",
+      "sha256": "2d315d553b698943c15fad0021da3b75a5c1d5ebd03c005c1b66f3c16fe52798"
+    },
+    "surface": {
+      "path": "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/core/src/QuadSurface.cpp",
+      "sha256": "fe0be9b172db8d6557b771319421f9a801f3ebb9600ca975729ea43b756de758"
+    },
+    "grid": {
+      "path": "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/grid/grid.cpp",
+      "sha256": "9e835c1e37acd4adde0467d731d6050f91189b35a8e28e4ab81cb3d4303cc347"
+    },
+    "normals": {
+      "path": "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/grid/points.hpp",
+      "sha256": "6ebfa580cf3e78ab16ca051f958802de9c62ffa133cbe6d8fc9c6ec2f2b547ab"
+    },
+    "level_map": {
+      "path": "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/grid/level_map.hpp",
+      "sha256": "14cf56f8adc5227b06c75fe1155ec630d9e2f780744a70c5501f5c233ee1e3b9"
+    }
+  },
+  "observed_source_sha256": "413bd6a43dd792337fc74ff3d065744547a731a0f8d3371f00aa307ceeaefe77",
+  "roi_sha256": "906690be19f98ca4e9c33d114b2dcbdb74bf0d36a829a65ca0976d40f7318dca",
+  "ct_metadata_hashes": {
+    ".zgroup": "e1e1914ae531ecb50e1ead685ef01895a5452faf5f25f35cd78f1f5de1367470",
+    ".zattrs": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+    "0/.zarray": "562679cffc09a94b7342a38c37e49f433a4dfa6e3c93b7599dbeaec791186a35",
+    "metadata.json": "95917633ca11a1ddff2e6b7d66360c508f8158bbe05be277c8d51477befb5bae"
+  }
+}

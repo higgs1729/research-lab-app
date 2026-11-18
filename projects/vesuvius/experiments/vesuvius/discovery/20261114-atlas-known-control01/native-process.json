@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-ct-render01\\..\\..\\discovery\\20261114-atlas-known-control01\\native_view.py"
+  ],
+  "started_utc": "2026-11-13T15:12:06.874962+00:00",
+  "completed_utc": "2026-11-13T15:12:08.033257+00:00",
+  "elapsed_seconds": 1.1582838000031188,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 62918656,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 1.046875,
+  "sys_cpu_seconds": 0.09375,
+  "exit_code": 0
+}

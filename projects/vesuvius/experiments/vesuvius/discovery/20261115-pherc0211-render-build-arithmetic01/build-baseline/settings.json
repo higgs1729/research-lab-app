@@ -1,0 +1,110 @@
+{
+  "proposal_sha256": "d5f031b6704c22f2d9cd17712d75ec367e2dfe888a81b9ce9ada04b9b1d030f8",
+  "authorization_sha256": "85f6108a654b43fa5a5b361091b8c83bdc7daaead6e5a9a195b776a877105282",
+  "commands": {
+    "geometry": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-ffp-contract=off",
+      "-I/usr/include/opencv4",
+      "-c",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/geometry.cpp",
+      "-o",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/build-baseline/geometry.o"
+    ],
+    "quad": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-ffp-contract=off",
+      "-I/usr/include/opencv4",
+      "-c",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/quad.cpp",
+      "-o",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/build-baseline/quad.o"
+    ],
+    "slicing": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-ffp-contract=off",
+      "-I/usr/include/opencv4",
+      "-c",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/slicing.cpp",
+      "-o",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/build-baseline/slicing.o"
+    ],
+    "renderer": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-ffp-contract=off",
+      "-I/usr/include/opencv4",
+      "-c",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/renderer.cpp",
+      "-o",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/build-baseline/renderer.o"
+    ],
+    "link": [
+      "g++",
+      "-std=c++17",
+      "-O2",
+      "-ffp-contract=off",
+      "-I/usr/include/opencv4",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/build-baseline/geometry.o",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/build-baseline/quad.o",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/build-baseline/slicing.o",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/build-baseline/renderer.o",
+      "-o",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/build-baseline/native-control",
+      "-lopencv_core"
+    ]
+  },
+  "limits": {
+    "cpu_affinity": [
+      0
+    ],
+    "address_space_limit_bytes": 4294967296,
+    "env": {
+      "OMP_NUM_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OPENCV_FOR_THREADS_NUM": "1",
+      "TMPDIR": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01",
+      "CUDA_VISIBLE_DEVICES": ""
+    }
+  },
+  "actual_RLIMIT_AS": [
+    4294967296,
+    4294967296
+  ],
+  "affinity": [
+    0
+  ],
+  "temp_env": {
+    "TMPDIR": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/tmp",
+    "TMP": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/tmp",
+    "TEMP": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-render-build-arithmetic01/tmp"
+  },
+  "sources": {
+    "R237_manifest_sha256": "255ab4762bac83ed16a6ce029ef0b8ae7c6a4e616ef5162c0e50769f7118a491",
+    "R237_native_cpp_sha256": "ef1f85705897f2b4318d9453bb8ac6d136d41f7baf02613b890e8828d890d3ab",
+    "retained_functions": 11,
+    "changes": [
+      "Split unchanged numerical functions into renderer/QuadSurface/Geometry/Slicing corresponding translation units.",
+      "Sampling output loop moved to Slicing TU; c.w/c.h replaced by matrix dimensions, numerical expression unchanged.",
+      "File paths point to parent grid/CT list; add exactly one preselected new_holdout control.",
+      "Raw input and local sampleInt adapter unchanged; full author binary not compiled."
+    ],
+    "source_files": {
+      "geometry.cpp": "3fccca09459b9d0ab838d3fea1d34e8f857b0f97424bcf002b5be3abc37a2936",
+      "quad.cpp": "a6497626cd2ba97da51bee56e336f2b7ec325ea10d65646b3d5e2d88467021a2",
+      "renderer.cpp": "93b59f337a9c4cf101d426f8864d2cc0dec23a3c77fe2642603f63072ae05d5c",
+      "slicing.cpp": "c41a001839761b39537f06b17710a143f0e7da140623a447fc753b0531b08749"
+    },
+    "header_sha256": "86b0afb14c1afb3e4c1f9960aa7fbaaa32b71ba4f3228efd11f6e14cd06b693c"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ct_percentile_10_DN": 40,
+  "dark_ct_pixels": 24943,
+  "dark_ct_share": 0.09514999389648438,
+  "score_threshold_rule": "uint8 >= 97th percentile including ties",
+  "dark_rule": "CT d=0 strictly below 10th percentile",
+  "scope": "Single-model output and original CT central layer, no sheet or crack ground truth; descriptive only.",
+  "directions": {
+    "forward": {
+      "score_percentile_97_DN": 182,
+      "top_pixels": 7877,
+      "dark_top_pixels": 706,
+      "dark_share_in_top": 0.08962803097626
+    },
+    "reverse": {
+      "score_percentile_97_DN": 195,
+      "top_pixels": 8129,
+      "dark_top_pixels": 1056,
+      "dark_share_in_top": 0.12990527740189445
+    }
+  }
+}

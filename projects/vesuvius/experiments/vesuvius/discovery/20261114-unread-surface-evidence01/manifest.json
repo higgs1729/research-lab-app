@@ -1,0 +1,115 @@
+{
+  "generated_utc": "2026-11-14T13:07:06.680720+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/acquire.py",
+      "bytes": 2353,
+      "sha256": "3560cd517161cc3868e55a83149caf245e1af5a3be2d481a4d6d495a7e30322e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/acquisition-plan.json",
+      "bytes": 3686,
+      "sha256": "8102f3f93b54365e8ccdf6e6c382eb593a2afc27b9e6b15142dbc65d283f3ceb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/acquisition-process.json",
+      "bytes": 682,
+      "sha256": "e8277427b3271fdeeca1879f004ffe3a83a9c1b104bbe66206af947c6bad3b42"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/acquisition.json",
+      "bytes": 6052,
+      "sha256": "65730a26410b8c948bb30e5125ec27628f4cb66e6d120ab5ba268ff375c980e7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/lead-candidate-review.json",
+      "bytes": 2418,
+      "sha256": "f9383cf94817e6bf1bd3b4576215760a1400d69247d2b8250e5afe51cc2f22fa"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/lead-official-check.json",
+      "bytes": 854,
+      "sha256": "568f5f05cef4b0e4bae5e8e1cf8261fb23b18168efe9211b2d01d658fdee9431"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/originals/p191_a-card.json",
+      "bytes": 377,
+      "sha256": "072a71af443b5b77cb68bee8aa4386542cea8b6f40fc11f57fd374ed6148369e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/originals/p191_a-mesh-meta.json",
+      "bytes": 1172,
+      "sha256": "eb62e832b560c8efce9c9a17c3171be0264425965652354987395875f6feabb0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/originals/p191_a.jpg",
+      "bytes": 298002,
+      "sha256": "08521e40215abc7456b6789413ca7493f6f6361bbd0ad44e15718bc9e8072067"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/originals/PHerc0257_3549_4692_13210-card.json",
+      "bytes": 380,
+      "sha256": "434fd2c7c2c02fcc4638f8bbe3acc572732f7e11c28fb839e54ef3c3c3a73570"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/originals/PHerc0257_3549_4692_13210-mesh-meta.json",
+      "bytes": 1196,
+      "sha256": "b7ce573db75209d428b78d6f408289437a3a544f4e7fb4e70ae41b53169ca690"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/originals/PHerc0257_3549_4692_13210.jpg",
+      "bytes": 331912,
+      "sha256": "8a0c8a6922e2943209900cec205405140d2be9e33812fcc3f21abe0e95b6f8fd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/originals/PHerc0268_9054_2867_6674-card.json",
+      "bytes": 378,
+      "sha256": "80898e7daea95d9565a25becdfca8fc9a2b4b8eb53271d5a7fba1fd6ceb3ce21"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/originals/PHerc0268_9054_2867_6674-mesh-meta.json",
+      "bytes": 1195,
+      "sha256": "2ceafe1278b34769df79411c593baef19d2af338ea5a53622d18e994ec18969a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/originals/PHerc0268_9054_2867_6674.jpg",
+      "bytes": 315410,
+      "sha256": "d568dea2cfd31817aad8be388bf875bb9b39068b743aab5835c6d5cb8cd79e5e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/README.md",
+      "bytes": 4862,
+      "sha256": "9f746ce48feab33bdfac5e8654aadbd302588a4a57183778dc76f29854f780a5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/record.json",
+      "bytes": 2473,
+      "sha256": "04a9f7b48d8f87fed4fa9015af1b6b0c850355e50c7b622e0488c66f0730b7c6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/resources.json",
+      "bytes": 789,
+      "sha256": "793c25a43dc970102e577950725e03a44bf128895914e3d3fd83c6134129de6c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/selection.json",
+      "bytes": 1537,
+      "sha256": "dd58ae33445a29842f2b7fd9d4580d50885225e1674c9b92d512a9440255b8bb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/source-check.json",
+      "bytes": 11253,
+      "sha256": "714276610cc494faf249b6430895f4d0ea06b46f7636ff0a5413fc05b36c6fac"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-surface-evidence01/visual-review.json",
+      "bytes": 1740,
+      "sha256": "db4b6e81fa19436627c53d0d61381ac852329c5809ead1fb8b9c0c32683cd13a"
+    },
+    {
+      "path": "research/209-unread-surface-evidence-selection.md",
+      "bytes": 6880,
+      "sha256": "2b831fdb055126857cd443fdef6fe02c09c25fa4e6b341d30c95d0451b884808"
+    }
+  ]
+}

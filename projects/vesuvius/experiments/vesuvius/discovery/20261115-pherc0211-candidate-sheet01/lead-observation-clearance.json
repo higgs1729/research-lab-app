@@ -1,0 +1,22 @@
+{
+  "approved": true,
+  "utc": "2026-11-15T14:52:23.634566+00:00",
+  "observation_plan_sha256": "7cb7186301853468d18cacfc375ad78c0aa20b9b05cbc7b273b5ea70e4fcf352",
+  "geometry_plan_sha256": "68564f55f9bd7b728cb812e0f6cfbfa0f36995427c41957d5578740570338372",
+  "parent_independent_geometry_check": "lead-plan-geometry-check.json",
+  "parent_provenance_visual": "lead-provenance-visual-review.json",
+  "fixed_planes": 12,
+  "fixed_native_figures": 24,
+  "new_CT_keys": [
+    "0/65/26/29"
+  ],
+  "new_CT_bytes": 2097152,
+  "total_new_save_cap_bytes": 67108864,
+  "C_free_floor_bytes": 2147483648,
+  "CPU_cores": 1,
+  "hard_process_commit_bytes": 4294967296,
+  "GPU_forwards": 0,
+  "cost_USD": 0,
+  "scope": "One finite original-CT observation; no additional positions/keys/depths/models or image registration sweep. Candidate physical-sheet/ink/reading/novelty remain unconfirmed. Save independent reviewer interpretation before root reads it.",
+  "source_reference_hashes_verified": 15
+}

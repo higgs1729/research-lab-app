@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-real-ct-refinement-probes01\\lead_verify.py"
+  ],
+  "started_utc": "2026-11-13T18:42:02.452250+00:00",
+  "completed_utc": "2026-11-13T18:42:03.197388+00:00",
+  "elapsed_seconds": 0.7451333999633789,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 55373824,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 0.6875,
+  "sys_cpu_seconds": 0.125,
+  "exit_code": 0
+}

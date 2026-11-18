@@ -1,0 +1,99 @@
+{
+  "shape": [
+    5560,
+    2540
+  ],
+  "pitch_um": 9.362,
+  "orientation": {
+    "normal_sign": -1,
+    "agreement": 1.0,
+    "samples": 16359,
+    "median_reference_distance_vox": 0.00011255990947252891,
+    "overlap_distance_limit_vox": 3,
+    "overlap_normal_agreement_min": 0.98,
+    "method": "Near-coincident native triangles of the saved parent normalized tifxyz; transfer its established shared training-side convention",
+    "reference_surface": "/home/ubuntu/first-letters-will-20261007/runs/PHerc0211-3305-3380-8428-g80-material-c2-will-r002/surfaces/PHerc0211-3305-3380-8428-g80-material-c2-will-r002-component01-part00",
+    "reference_orientation": {
+      "normal_sign": -1,
+      "method": "Global radial continuation of the common training-side convention; outside anchor overlap",
+      "agreement": 1.0,
+      "samples": 11661,
+      "median_reference_distance_vox": null,
+      "directly_registered_to_training": false,
+      "physical_face_verified": false,
+      "shared_models": [
+        "expanded9",
+        "youssef",
+        "studio"
+      ],
+      "training_reference": {
+        "reference": "/home/ubuntu/PHerc0175A-will-labels-20261006/training-reference.npz",
+        "inward_sign": 1,
+        "radial_agreement": 0.961212467687413,
+        "samples": 724176,
+        "limitation": "Radial transfer across scrolls is a physical-side convention, not direct training-geometry registration or recto certification."
+      },
+      "selection": "One global sign before plane selection, never selected using ink predictions; no local flips."
+    },
+    "physical_face_verified": false,
+    "directly_registered_to_training": false,
+    "shared_models": [
+      "expanded9",
+      "youssef",
+      "studio"
+    ],
+    "selection": "One geometry-derived global sign; never chosen from ink predictions; no local flips"
+  },
+  "hann_indices": [
+    23,
+    22,
+    21,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8
+  ],
+  "youssef_indices": [
+    26,
+    25,
+    24,
+    23,
+    22,
+    21,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7,
+    6,
+    5,
+    4,
+    3
+  ],
+  "geometry_contract": "vc3d_legacy_flatboi50_uv20_alignz_v1",
+  "ct_retention": "Retain native31 and derived model stacks for iterative labeling/training",
+  "source_geometry_sha256": {
+    "meta.json": "ebf64c5d9fd3b333818ffac5db3d996397e2ea2b1db89e6a2fe6dc7fb6d96355",
+    "x.tif": "132b8ce8888c63d318b870a928ad82ef5d6d030d3c2b0535f2286ed245921b12",
+    "y.tif": "3cbff0f3a27294f4a15c954ff37e7c4e7b96dd3080c4925ce5466ff50de013e6",
+    "z.tif": "8118f7a9e6d8dbee0043f59b1e2a4b500839a1aa1d1a504ab1b03b682a9d880b"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "audit-9153a12921b2",
+  "created": "2026-11-11T23:56:59.454284+00:00",
+  "payload": {
+    "benefit": "局所修復の歪み差を同条件で判定でき、僅差の候補を配置段階の違いでふるい落とすリスクを下げる。保存済みI/Hでは配置後1.17638対9.79452で、既報の通過と一致する。",
+    "change": "次のR005候補で描画許可判定を再利用する際、候補と現行対照の両方を描画に渡す配置後float32で評価し、対照ID・座標段階・両方の歪み値を判定結果に残す。保存済みI/Hは判定例として参照する。",
+    "cost": "次の判定を準備するときの小修正と保存値の照合で数分の見込み。候補Iの再求解・再描画や新規有料計算は不要。",
+    "evidence": [
+      {
+        "path": "experiments/vesuvius/r005/20261112-seam-relax-verification01/check02/result.json",
+        "sha256": "272798695d98dc08701f7e3a58256e54902cc7d1228bb0ed2cab010aab07be8a"
+      },
+      {
+        "path": "experiments/vesuvius/r005/20261112-seam-relax01/analysis01/analyze_trial.py",
+        "sha256": "8a19c0c0e5f2db0a786299dfa7ddfc7121c1b8b2e1d4e31487dea3c04f1dfd0a"
+      },
+      {
+        "path": "research/78-r005-seam-relax-verification.md",
+        "sha256": "c5e90d99af24a7ca1a24635ef76b38c8ad27e6aa12c990df3e4befb901a52b2a"
+      }
+    ],
+    "problem": "R005候補Iの描画許可判定は、候補Iの配置後float32と対照Hの配置前UVの全体平均歪みを比較している。独立検証ではHの配置前9.70659、配置後9.79452、Iの配置後1.17638。今回は同じ段階で比較しても通過するが、次の候補で差が小さい場合は配置段階の差で描画を見送るおそれがある。"
+  },
+  "decision": "accept",
+  "reason": "主コードでI配置後とH配置前を比較していることを確認。次の判定は候補・対照とも配置後float32へ統一し、ID・座標段階・両SDを保存する。凍結済み成果は維持し、新しい判定実装と保存I/H値の照合で修正を確認する。再求解・再描画・有料計算は不要。",
+  "delivered_to": "{\"hostId\": \"local\", \"threadId\": \"01a1c9bf-639d-70a2-a8bc-664019939aaa\"}",
+  "delivered_at": "2026-11-11T23:57:24.978645+00:00",
+  "outcome": "packed_raster_gate.pyを追加し、候補・対照とも配置後float32で同じ面を評価、ID/座標段階/両SD/符号数/判定を保存する。保存I/Hの478224面で1.1763771177対9.7945192757となり既報の通過と独立検証78に一致。CPU1で1.61秒、最大RSS260898816 bytes。再求解・再描画・新規有料計算0、旧凍結75ファイル保持。次のR005分析は本関数を利用する。根拠research/79-r005-audit-packed-gate.mdとexperiments/vesuvius/r005/20261112-packed-gate01/check01/result.json。"
+}

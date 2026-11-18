@@ -1,0 +1,70 @@
+{
+  "checked_utc": "2026-11-15T06:29:30.981053+00:00",
+  "purpose": "Independent fixed-scope mathematical check, not input/render/model execution clearance",
+  "native_main_xywh": [
+    1344,
+    1088,
+    672,
+    448
+  ],
+  "native_canvas_wh": [
+    6720,
+    2560
+  ],
+  "patch_size": 384,
+  "inference_stride": 192,
+  "global_x_starts": [
+    1152,
+    1344,
+    1536,
+    1728,
+    1920
+  ],
+  "global_y_starts": [
+    768,
+    960,
+    1152,
+    1344
+  ],
+  "patch_count": 20,
+  "support_union_xywh": [
+    1152,
+    768,
+    1152,
+    960
+  ],
+  "proposed_known_boxes_raw_xyxy": [
+    [
+      1654.8,
+      1132.1,
+      1970.7,
+      1461.1
+    ],
+    [
+      1378.8,
+      1186.6,
+      1622.9,
+      1485.0
+    ]
+  ],
+  "r175_main_pixel_centres_in_native_xyxy": [
+    1564.5,
+    1208.9444444444443,
+    1847.8333333333333,
+    1492.2777777777778
+  ],
+  "all_proposed_boxes_and_prior_main_inside": true,
+  "source_sha256": {
+    "reader-author-config.json": "2d71d6d54cc975e4ab25c0c8a789bde5ab18879eaf9f2095e849526b29e10661",
+    "reader-card.md": "5378ce1e3cf28d65a178a09a93d60359180f1c4739176ad5a7a32b14d466bfde",
+    "reader-author-readme.md": "f6170cde0a76941810c1fe40c403301a7a36f8f4c4c4b1d96c74168decb76d55"
+  },
+  "model_family": "same vesuvius_unet_3d_stem_2d family as earlier seed/dense; different from Hecate",
+  "differences_from_prior": "Native 8.64um, 17-layer +/-8 voxel support vs prior nominal 9.6um and +/-8.888 voxel; different checkpoint/patch384; train patch_overlap .25 is distinct from author inference .5",
+  "limits": [
+    "Winner box source correspondence and observed geometry checked separately after experiment files are ready",
+    "Native model outputs are ink scores, not calibrated probabilities",
+    "Known-control reproduction is not evidence of held-out generalization",
+    "No cloud or GPU launch authorized by this file"
+  ]
+}

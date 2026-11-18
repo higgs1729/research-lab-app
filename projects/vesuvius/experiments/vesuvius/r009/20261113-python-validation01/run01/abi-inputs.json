@@ -1,0 +1,30 @@
+{
+  "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+  "executable": "/usr/bin/python3",
+  "soabi": "cpython-312-x86_64-linux-gnu",
+  "ext_suffix": ".cpython-312-x86_64-linux-gnu.so",
+  "ubuntu_packages": [
+    "libpython3.12-minimal:amd64\t3.12.3-1ubuntu0.17",
+    "libpython3.12-stdlib:amd64\t3.12.3-1ubuntu0.17",
+    "python3.12\t3.12.3-1ubuntu0.17",
+    "python3.12-minimal\t3.12.3-1ubuntu0.17"
+  ],
+  "python_debug": 0,
+  "native": {
+    "path": "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so",
+    "sha256": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf",
+    "elf": "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so: ELF 64-bit LSB shared object, x86-64, version 1 (GNU/Linux), dynamically linked, BuildID[sha1]=0c348bb759654f659f27b7c8ef47db3b75978507, with debug_info, not stripped",
+    "compiler": "String dump of section '.comment':\n  [     0]  GCC: (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0"
+  },
+  "pyramid": {
+    "path": "/mnt/c/dev/kensyoukin/.work/r009-resume-pyramid-fix01/run01/pyramid.o",
+    "sha256": "c30be25b8038ff7085bcec02fb2007403aae27e67ba6ee94fa11666eb22704cf",
+    "elf": "/mnt/c/dev/kensyoukin/.work/r009-resume-pyramid-fix01/run01/pyramid.o: ELF 64-bit LSB relocatable, x86-64, version 1 (GNU/Linux), with debug_info, not stripped",
+    "compiler": "String dump of section '.comment':\n  [     1]  GCC: (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0"
+  },
+  "selected_compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "glibc": [
+    "glibc",
+    "2.39"
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "display": "Source uint8 0..255 at 1:1 without threshold or remapping.",
+  "sources": {
+    "mesh4-ct": {
+      "path": "pair/mesh4-ct-centre.png",
+      "sha256": "6e1bb458e1fdcc30a3b6016a4ec9861b68179fd3043f89fe66711ccb55e42ae8"
+    },
+    "mesh4-forward": {
+      "path": "results/mesh4-forward.png",
+      "sha256": "42bfb67b717b96bc6b43820a9c8c38ff58be32f640bcb8276b5738999e36b601"
+    },
+    "mesh4-reverse": {
+      "path": "results/mesh4-reverse.png",
+      "sha256": "b5738e399de96b630f2f7c0654fc42c66d51ccd35ba6dbd721646b4c49c263c3"
+    },
+    "mesh5-ct": {
+      "path": "pair/mesh5-ct-centre.png",
+      "sha256": "c773c9fdd6734ac5ee41164c56e0007d022be7e8e7fd789001b238c301f602e8"
+    },
+    "mesh5-forward": {
+      "path": "results/mesh5-forward.png",
+      "sha256": "470c75c6af5c7c72b193f34fb9072e136619047177a487ec14db5d6b3156a4d7"
+    },
+    "mesh5-reverse": {
+      "path": "results/mesh5-reverse.png",
+      "sha256": "f964c9f8213a777dda669ecac0a1c82f98413daaaa59c37fd8d7510c3da1d7f1"
+    }
+  },
+  "panels": [
+    {
+      "path": "review/mesh4-ct-x0736-y1600.png",
+      "sha256": "debf9d99ebdd6633cd33c0f4368fa7b3f2a5cd808c6647f5c9ea6fa5de2b6246",
+      "raw_sha256": "a04e2d36db09ee9577ae38298baf2625db14dd90e4d8c88b0d45b88e99e5327b",
+      "global_xywh": [
+        736,
+        1600,
+        480,
+        576
+      ],
+      "window": "mesh4",
+      "kind": "ct"
+    },
+    {
+      "path": "review/mesh4-forward-x0736-y1600.png",
+      "sha256": "42996f550196551bba0cb88901d957d3afc3fe6972eb4cd9758ba1aa4cd5320c",
+      "raw_sha256": "77ca6c538625d9756fa84b3388ed35e42c93db7e2d13518f34cbe61510da4db8",
+      "global_xywh": [
+        736,
+        1600,
+        480,
+        576
+      ],
+      "window": "mesh4",
+      "kind": "forward"
+    },
+    {
+      "path": "review/mesh4-reverse-x0736-y1600.png",
+      "sha256": "b2f197453b517ded66cd8632d6590c552961f22d6e96be7d4d516f1f0b3ab1fc",
+      "raw_sha256": "79a8da3a7d80947e42baf87a62f784ce62f8349814b44108eeee9c63666ad9c6",
+      "global_xywh": [
+        736,
+        1600,
+        480,
+        576
+      ],
+      "window": "mesh4",
+      "kind": "reverse"
+    },
+    {
+      "path": "review/mesh4-ct-x1216-y1600.png",
+      "sha256": "a26b62ffcbe383ff6a2b8284acdb79f3e4ba4fb867fe9dcf366a9b6b21264976",
+      "raw_sha256": "46c44df49f3f7ad2cd39e30fb60ce91d81025c8c5eaaf0fce8a9cb7154bb3d85",
+      "global_xywh": [
+        1216,
+        1600,
+        480,
+        576
+      ],
+      "window": "mesh4",
+      "kind": "ct"
+    },
+    {
+      "path": "review/mesh4-forward-x1216-y1600.png",
+      "sha256": "2610604b5eb79f8e009dc009689062ed56317401385e26693b21c00a39054f30",
+      "raw_sha256": "472899eefc2508b4cd9382fb99071d233bde0b989dbcde57831074b75c1887c9",
+      "global_xywh": [
+        1216,
+        1600,
+        480,
+        576
+      ],
+      "window": "mesh4",
+      "kind": "forward"
+    },
+    {
+      "path": "review/mesh4-reverse-x1216-y1600.png",
+      "sha256": "91486061b405f9b9fc03b43272df43d724130712afe3b69aaa727a6b744d3066",
+      "raw_sha256": "d410a2aee517bdff413fa0994217c94500c936168f0eb89addd3717f37e7b421",
+      "global_xywh": [
+        1216,
+        1600,
+        480,
+        576
+      ],
+      "window": "mesh4",
+      "kind": "reverse"
+    },
+    {
+      "path": "review/mesh5-ct-x0512-y0096.png",
+      "sha256": "662360cf31329f29c7616bc56329824d98037ae014fff6c4938d603a71fb90bb",
+      "raw_sha256": "dcb75237db30aaeb0b0fa1d5a1df54a3c17f9de3c82d5acc981e9bb46f9d2ed3",
+      "global_xywh": [
+        512,
+        96,
+        448,
+        512
+      ],
+      "window": "mesh5",
+      "kind": "ct"
+    },
+    {
+      "path": "review/mesh5-forward-x0512-y0096.png",
+      "sha256": "b8583c0e3cb3a40174093df27599eeecb02488ddb724783a70bd1f65f4947c90",
+      "raw_sha256": "c3eab533b1f3c7fc999d23b99b4995c5636d48b6d9af6514f9870e251314960d",
+      "global_xywh": [
+        512,
+        96,
+        448,
+        512
+      ],
+      "window": "mesh5",
+      "kind": "forward"
+    },
+    {
+      "path": "review/mesh5-reverse-x0512-y0096.png",
+      "sha256": "3ce84b10ed8a23121e0e7676440c292023abe942921124d105bf0b21cd1354d8",
+      "raw_sha256": "7b70f403747a101dbcf0476002381831074b57740ada9be8bd92aa6ef0674616",
+      "global_xywh": [
+        512,
+        96,
+        448,
+        512
+      ],
+      "window": "mesh5",
+      "kind": "reverse"
+    },
+    {
+      "path": "review/mesh5-ct-x0960-y0096.png",
+      "sha256": "d095863ebe189e519d5f18b6f5b6f92e4d3db8c539d6dfaa00b3884df6b4d18d",
+      "raw_sha256": "d6593ec607b36fb126e8c9b6dbd8783f9dfd1e7014893fa9cd07f154356fd38f",
+      "global_xywh": [
+        960,
+        96,
+        448,
+        512
+      ],
+      "window": "mesh5",
+      "kind": "ct"
+    },
+    {
+      "path": "review/mesh5-forward-x0960-y0096.png",
+      "sha256": "18e76de6d166cc63116b8a16b2d42f177263043fd69f1786d5327bb1360a26ba",
+      "raw_sha256": "c2f8aff38f4755744c5101673dbd3245d03dd2d0cf36d5e9c860e6fb54dc3ca4",
+      "global_xywh": [
+        960,
+        96,
+        448,
+        512
+      ],
+      "window": "mesh5",
+      "kind": "forward"
+    },
+    {
+      "path": "review/mesh5-reverse-x0960-y0096.png",
+      "sha256": "20ab6cbf8424beeb8d62f4c0cbb15da0ba5e9364bf3ef1a2b593cc41543da2d7",
+      "raw_sha256": "245017398a24eea217a1e0373a9ae8a0d6135033898a2382cc74d1be2271b600",
+      "global_xywh": [
+        960,
+        96,
+        448,
+        512
+      ],
+      "window": "mesh5",
+      "kind": "reverse"
+    }
+  ],
+  "summary_on_main_geometric_support": {
+    "mesh4": {
+      "main_global_xywh": [
+        736,
+        1600,
+        960,
+        576
+      ],
+      "main_supported_pixels": 412428,
+      "forward_nonzero": 402149,
+      "reverse_nonzero": 356465,
+      "nonidentical_dn": 387146,
+      "mae_dn": 39.44564142104804,
+      "max_dn": 252.0,
+      "correlation": 0.28975794318783804
+    },
+    "mesh5": {
+      "main_global_xywh": [
+        512,
+        96,
+        896,
+        512
+      ],
+      "main_supported_pixels": 326968,
+      "forward_nonzero": 289575,
+      "reverse_nonzero": 234472,
+      "nonidentical_dn": 281014,
+      "mae_dn": 13.71808250348658,
+      "max_dn": 253.0,
+      "correlation": 0.22316040481593735
+    }
+  }
+}

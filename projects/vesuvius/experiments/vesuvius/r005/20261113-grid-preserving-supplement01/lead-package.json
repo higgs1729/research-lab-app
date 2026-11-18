@@ -1,0 +1,11 @@
+{
+  "package_files": 22,
+  "internal_links": 18,
+  "zip_bytes": 66215,
+  "zip_sha256": "df7e8ed44897d9d1b02b6528c2681758eb4404d2a6e2af97bb8f39346cd0d926",
+  "manifest_exact": true,
+  "zip_bytes_exact": true,
+  "source_metric_subsets_equal": true,
+  "figure_identity_equal": true,
+  "all_assertions_passed": true
+}

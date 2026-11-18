@@ -1,0 +1,31 @@
+{
+  "modes": {
+    "original": {
+      "full_voxels": 4866048,
+      "equal": 4861738,
+      "mae_dn": 0.0008857290351430977,
+      "max_abs_dn": 1,
+      "central_layer_mae_dn": 0.0009087456597222222,
+      "model_17_layer_mae_dn": 0.0009163251889297386
+    },
+    "corner": {
+      "full_voxels": 4866048,
+      "equal": 90818,
+      "mae_dn": 33.19158462884049,
+      "max_abs_dn": 231,
+      "central_layer_mae_dn": 30.991923014322918,
+      "model_17_layer_mae_dn": 32.74436003242443
+    },
+    "centered": {
+      "full_voxels": 4866048,
+      "equal": 80775,
+      "mae_dn": 32.9916061247238,
+      "max_abs_dn": 217,
+      "central_layer_mae_dn": 30.98450385199653,
+      "model_17_layer_mae_dn": 32.63602422577104
+    }
+  },
+  "reuse_original_r175_predictions": false,
+  "inference_calls_authorized": 6,
+  "original_gate": "all logical values within 1 DN of R175"
+}

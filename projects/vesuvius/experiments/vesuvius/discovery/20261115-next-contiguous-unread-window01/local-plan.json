@@ -1,0 +1,83 @@
+{
+  "entry_sha256": "b4e2d765d6ffb914e0f95928aee5e2c9117edcfbb7b083ae42b20c590f1d73be",
+  "limits_seconds": [
+    120,
+    600,
+    780
+  ],
+  "job": "r220-hecate-pherc0800",
+  "gpu": {
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\dev\\ai-compute\\local-image-gen\\ComfyUI_windows_portable\\python_embeded\\python.exe",
+    "numpy": "2.5.2",
+    "torch": "2.13.0+cu130",
+    "cuda_build": "13.0",
+    "psutil": "7.2.2",
+    "cuda_available": true,
+    "device_count": 1,
+    "device": "NVIDIA GeForce RTX 4060 Ti",
+    "capability": [
+      8,
+      9
+    ],
+    "vram_bytes": 8585216000,
+    "free_total_bytes": [
+      7418675200,
+      8585216000
+    ],
+    "utc": "2026-11-15T05:59:12.058856+00:00",
+    "model_forward_calls": 0,
+    "new_download_bytes": 0
+  },
+  "checkpoint": {
+    "local": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/assets/hecate_9.6um.pth",
+    "bytes": 522576086,
+    "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "url": "https://huggingface.co/scrollprize/hecate/resolve/9cb86e500e944b11a06a7020403cde5dffb5bcb2/hecate_9.6um.pth"
+  },
+  "checkpoint_read_in_place": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\assets\\hecate_9.6um.pth",
+  "input_plan_sha256": "cf7ff888a58c86f6a4954692ecadb16305b54f13b11b1e71302131aa7d751c0c",
+  "local_worker_files": {
+    "cpu-mesh4-forward.npy": "80071ab4772bfe5381ac5b83cd8816680afc8a3431015f1bc3fcefa88c43c3d2",
+    "cpu-mesh4-reverse.npy": "6b1745a790bda907bf1b34af33e84d1973ca1575b51bed7c53ad5623144e7d49",
+    "cpu-reference.json": "b59cf0816941b2900fe76ee53cc22fcc89be3fe458cfbebf93dec1974f47c1f7",
+    "fixed-assets.json": "06c2bfc24a3fa255a5402f5b2c0b8b2cdc421a05bce93befc370570e217095fb",
+    "hecate.py": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+    "local_worker.py": "1d6c61849705a09f5c5521b6637a88c61c500eb2b53558ad2b742d5d3c4b44bf",
+    "mesh4.npy": "bf0320799f54b04e114eebae0b2195d12a5dbb3847df5531da5d8478dc72f1ba",
+    "patch-contract.json": "f54e97988b32d2eba05ec83a2e8512c69eb40a9cdb2aa448593d0dcef44836c4"
+  },
+  "borrowed": {
+    "preflight.py": "501df121ce94ec2ee4e6dc32335bb18d25a56d54d79a4b0e8ed62b46a2be81c4",
+    "run_gpu.py": "7af2c6ca2e00dfe29c13eeb1c4c24471c55be936a2da2bc4226010f5d642c044",
+    "gpu.py": "201bdde2653c84466eb842cb2dbd756212b9ae30ca287adb804f97f51b4508cd"
+  },
+  "cuda_python_sha256": "ef8f51028ac5329641985112f8efb1c2d4c47c86b8011ddf7e6fae21e2b4e5a1",
+  "mem_job_gib": 4,
+  "vram_allocator_gib": 4,
+  "ram_headroom_gib": 4,
+  "vram_headroom_gib": 1,
+  "parallel_cuda_devices": 1,
+  "local_model_passes": 1,
+  "existing_cpu_forward_references": 6,
+  "new_downloads": 0,
+  "input_and_cpu_data_same": true,
+  "recorded_lane_status": {
+    "requested_utc": "2026-11-15T05:59:12.090133+00:00",
+    "observed_utc": "2026-11-15T05:59:18.840030+00:00",
+    "vram_total_gib": 8.0,
+    "vram_used_gib": 1.22,
+    "available_physical_bytes": 12550127616,
+    "c_free_bytes": 16206233600,
+    "lane_available_ram_gib": 11.7,
+    "margins": {
+      "vram_gb": 1.0,
+      "mem_gb": 4.0
+    },
+    "jobs": [],
+    "tickets": [],
+    "reservation": null,
+    "comfy_running": false,
+    "gpu_stuck": null
+  }
+}

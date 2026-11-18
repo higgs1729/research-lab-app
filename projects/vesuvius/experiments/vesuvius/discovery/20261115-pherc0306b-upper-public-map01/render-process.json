@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0306b-upper-public-map01\\render.py"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-15T07:54:05.765682+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "completed_utc": "2026-11-15T07:54:08.635482+00:00",
+  "elapsed_seconds": 2.869741399976192,
+  "max_rss_bytes": 274370560,
+  "user_cpu_seconds": 2.09375,
+  "sys_cpu_seconds": 0.3125
+}

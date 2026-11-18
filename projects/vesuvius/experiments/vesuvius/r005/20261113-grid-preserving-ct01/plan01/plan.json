@@ -1,0 +1,183 @@
+{
+  "before": {
+    "crop_xywh": [
+      7428,
+      2378,
+      64,
+      64
+    ],
+    "raster_header": [
+      371.4250055346638,
+      118.9250017721206,
+      0.05000000074505806,
+      0.05000000074505806,
+      64,
+      64
+    ],
+    "tifxyz_directory": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/output"
+  },
+  "source_faces": [
+    53045,
+    63364
+  ],
+  "targets": [
+    {
+      "id": "component0",
+      "component": 0,
+      "original_face": 53045,
+      "old_anchor_yx": [
+        120,
+        373
+      ],
+      "translated_anchor_yx": [
+        120,
+        371
+      ],
+      "shift_grid_xy": [
+        -2,
+        0
+      ],
+      "crop_xywh": [
+        7388,
+        2378,
+        64,
+        64
+      ],
+      "tifxyz_directory": "experiments/vesuvius/r005/20261113-grid-preserving-native01/run02/first-preserve-product/output",
+      "raster_header": [
+        369.4250055048615,
+        118.9250017721206,
+        0.05000000074505806,
+        0.05000000074505806,
+        64,
+        64
+      ],
+      "translated_origin_residual_xy": [
+        -2.9802322387695312e-08,
+        0.0
+      ],
+      "same_support_pixels": 1408,
+      "old_pure_pixels": 1408,
+      "old_mixed_pixels": 1280,
+      "old_mixed_target_full_pixels": 0
+    },
+    {
+      "id": "component2",
+      "component": 2,
+      "original_face": 63364,
+      "old_anchor_yx": [
+        121,
+        373
+      ],
+      "translated_anchor_yx": [
+        121,
+        432
+      ],
+      "shift_grid_xy": [
+        59,
+        0
+      ],
+      "crop_xywh": [
+        8608,
+        2378,
+        64,
+        64
+      ],
+      "tifxyz_directory": "experiments/vesuvius/r005/20261113-grid-preserving-native01/run02/first-preserve-product/output",
+      "raster_header": [
+        430.4250064138323,
+        118.9250017721206,
+        0.05000000074505806,
+        0.05000000074505806,
+        64,
+        64
+      ],
+      "translated_origin_residual_xy": [
+        8.791685104370117e-07,
+        0.0
+      ],
+      "same_support_pixels": 1408,
+      "old_pure_pixels": 1408,
+      "old_mixed_pixels": 1280,
+      "old_mixed_target_full_pixels": 0
+    }
+  ],
+  "offsets_vox": [
+    -2,
+    -1,
+    0,
+    1,
+    2
+  ],
+  "rule": "Fixed before ROI. For each preselected endpoint, translate by the recorded integer grid shift; choose the nearest integral canvas pixel origin using the renderer grid map. Preserve size and pixel row/column pairing. Classify by real four-corner owner labels, before native CT rendering.",
+  "input_files": [
+    {
+      "file": "experiments/vesuvius/r005/20261112-ct-render01/freeze01/frozen-selection.json",
+      "sha256": "5fb94376422caf38cf6a67a896ba61290806d6cf0df2fddb2a7b9f66f40c147f"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261112-ct-render01/freeze01/crops.json",
+      "sha256": "a0ab2993f2ef3e9e5ced124d89f64791eb7e48e5503cf876c1e7414c9e5ffd78"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261112-ct-render01/geom01/before/geometry.bin",
+      "sha256": "128d1a6b3217769bdb9c5844755d0e9aefb3f8137f2ca86753eaeea73a6c68bc"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261112-grid-control01/input01/first/arrays.npz",
+      "sha256": "f388510058a72d0789645a4871520d2d3e0847bb9ea2890beca0ee343bb3c808"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261112-ct-render01/ct01/fetch-result.json",
+      "sha256": "0af57f8bbb5ce9bdef33a41333dc3e63dbad87625add4e9a58a1157ee09e62b9"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-grid-preserving-native01/run02/first-preserve/raster_trace.json",
+      "sha256": "ffcae9b9651c1d8dc7d2d953c7a06f29ef1175d1ba03ea6b5182b97f746a2855"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-grid-preserving-native01/run02/first-preserve/output.obj_uv_diagnostics.json",
+      "sha256": "d0e5f0adfef188fd60b604d3f9f65ab25bd991d7c2425a79e7317205e63960dc"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/raster_trace.json",
+      "sha256": "ed7d250473d1641377b0fcbd0f0ba1db39649f087f5c267d13a9b5b67068842d"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/output.obj_uv_diagnostics.json",
+      "sha256": "4eb5db4d31b813bafa5a1d132081ef510a66d5f107cb1fbeb0ffc0c1e97c0e96"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/output/x.tif",
+      "sha256": "767953dd89c9e3595bacd726be79025c022f3d571d89b970025002c9aab71f61"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/output/y.tif",
+      "sha256": "80cd0dfd2aafd15482095cceff57d316f9626185f398a5267665d608417509fc"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/output/z.tif",
+      "sha256": "21235c7fb55c22ef05c1558f83a11848c5a6365be603dfc6876529e404d65391"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/output/meta.json",
+      "sha256": "d6b067efb91185e193782cca148f3fa495370f18b7b8ac4bd6864c6685f18d8d"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-grid-preserving-native01/run02/first-preserve-product/output/x.tif",
+      "sha256": "c16a2b45b1fed2b85bc2898d002247ad1e5299673616cbcf0762204db94c51d1"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-grid-preserving-native01/run02/first-preserve-product/output/y.tif",
+      "sha256": "cb18e6559b1582ea762e74446c7ac17c896e3ca1501ecef17877f52db224dbdb"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-grid-preserving-native01/run02/first-preserve-product/output/z.tif",
+      "sha256": "219fa428ade0d4a3d09a6be1c5471c4121fa0ca3e42c9a4b68204343ddc8aea2"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-grid-preserving-native01/run02/first-preserve-product/output/meta.json",
+      "sha256": "aeac65bf8aee8f82c97b91b89391286004913b0e92e19fcf13887560ea665c69"
+    }
+  ]
+}

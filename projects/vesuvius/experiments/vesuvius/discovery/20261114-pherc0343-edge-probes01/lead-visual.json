@@ -1,0 +1,19 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "viewed": [
+    "probe-1/normal-annotated.png",
+    "probe-1/orthogonal-annotated.png",
+    "probe-2/normal-annotated.png",
+    "probe-2/orthogonal-annotated.png",
+    "probe-3/normal-annotated.png",
+    "probe-3/orthogonal-annotated.png"
+  ],
+  "assessment": {
+    "probe-1": "At the anchor, the projected mesh largely follows a dark corridor between brighter bands in Y/Z. In the normal sections d=0 stays between several brighter bands rather than marking one unambiguous dense lamella.",
+    "probe-2": "The projected mesh follows or crosses a thin bright boundary locally, but the normal sections show bending and multiple neighboring bands. This is not enough to identify one physical sheet consistently through the crop.",
+    "probe-3": "The projected mesh tracks a narrow dark diagonal corridor or its edge; brighter structures flank it on both sides of the normal. The public prediction is broad and saturated at this anchor."
+  },
+  "decision": "Cannot uniquely assign the public response to one physical papyrus sheet at these three points or select a common correction. Stop this fixed diagnostic without depth/ROI searches.",
+  "scope": "Geometry sampling and raw voxel correspondence are checked separately. A dark band is not by itself proof of an air gap, ink absence, or incorrect segmentation. No new letters or identity of the sheet across the separated probes are established."
+}

@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "bundle_bytes": 27720893,
+  "bundle_sha256": "c1add5d27670f77d31663003d279294a9527bbfb0fe8688257f744885a6f6980",
+  "denominator_exact_for_all_grid_including_skipped": true,
+  "per_group": {
+    "raw-forward": {
+      "forward_calls": 1699,
+      "raw_grid_patches": 1953,
+      "saved_probability_arrays": 26,
+      "denominator_and_numerator_to_png_exact": 2097152
+    },
+    "raw-reverse": {
+      "forward_calls": 1699,
+      "raw_grid_patches": 1953,
+      "saved_probability_arrays": 26,
+      "denominator_and_numerator_to_png_exact": 2097152
+    },
+    "snap-forward": {
+      "forward_calls": 1699,
+      "raw_grid_patches": 1953,
+      "saved_probability_arrays": 26,
+      "denominator_and_numerator_to_png_exact": 2097152
+    },
+    "snap-reverse": {
+      "forward_calls": 1699,
+      "raw_grid_patches": 1953,
+      "saved_probability_arrays": 26,
+      "denominator_and_numerator_to_png_exact": 2097152
+    }
+  }
+}

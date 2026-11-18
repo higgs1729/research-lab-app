@@ -1,0 +1,14 @@
+{
+  "archive_sha256": "aaafea799a639dc461a992fe249716e1f4439c9d29c498673621982b4db2f7d3",
+  "uncompressed_bytes": 30967,
+  "files": {
+    "transfer.json": "4dd075c4ae7e4715fa58925e0950c5bfd702fa4ae84894900c56caba3cbc0bf1",
+    "dependency.json": "d829556f26efd4a73cc2bac44115eb2b1a29a8984a44f2a50e9427c0a6ff9917",
+    "job-result.json": "361d5babd1d9401a61d6a70424fd6567d5325d4193244632046b3173915c56f5",
+    "worker.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "model.log": "831e3b80d180fcba0f4a1662743b19c4ba9dddb88a14f3e46b04476dd63903a2",
+    "gpu/start.json": "fd75455d23ffa7bee4073cc04c13e232dec681c77b4fbc944ed06cae216d6e3a",
+    "gpu/model.json": "2b032295441f1826e156d67fa2750c5f110f47b01c6fc81102b72b14c0bbff24",
+    "gpu/result.json": "2783b34d5e95044122824c91779545fa471b93598d8436fcb0ace96a10324a82"
+  }
+}

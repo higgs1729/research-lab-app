@@ -1,0 +1,31 @@
+{
+  "baseline-false": {
+    "path": "experiments/vesuvius/r009/20261116-standalone-metadata01/run07/baseline-false.zarr",
+    "files": {
+      ".zattrs": {
+        "bytes": 3500,
+        "sha256": "9b7293686586d0ccebc0084f44157adca43c76cd0938b63151a6b0209375fab2"
+      },
+      ".zgroup": {
+        "bytes": 19,
+        "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+      },
+      "0/.zarray": {
+        "bytes": 230,
+        "sha256": "89e5a7d9713d0706ac706a645287f415579562973323ae1df824030e43e0c7ad"
+      },
+      "0/0/0/0": {
+        "bytes": 114688,
+        "sha256": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+      }
+    },
+    "ome_paths": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "source_sha256": "e14b73d16ad6d0f7208924d85cda146af9a1c7d115364089f4b891f5a51859ba",
+  "opencv": "5.0.0",
+  "opencv_threads": 1,
+  "numpy": "2.5.2",
+  "rows": [
+    {
+      "id": "kbh-PHerc0175B_3024_3577_11121",
+      "image": "20261114-next-atlas-surface01\\originals\\ct-mid.png",
+      "meta": "20261114-next-atlas-surface01\\candidates\\PHerc0175B-meta.json",
+      "image_sha256": "bff953349da221cfdbc9777ed8293fb447897b9580ce0d4558e1ab759aa4a2ce",
+      "shape_hw": [
+        2016,
+        2016
+      ],
+      "denominators": {
+        "canvas": 4064256,
+        "ct_gt_0": 3640421,
+        "rendered_px": 3640464
+      },
+      "published": {
+        "pixels_used": 3640421,
+        "mask": "ct > 0 (sheet mask under 5 %)",
+        "sheet_fraction": 1.0
+      },
+      "published_pixels_used_div_denominator": {
+        "canvas": 0.8957164607741245,
+        "ct_gt_0": 1.0,
+        "rendered_px": 0.9999881883188516
+      },
+      "denominator_matches_at_3dp": [
+        "ct_gt_0",
+        "rendered_px"
+      ],
+      "pr2318": {
+        "sheet_pixels": 93040,
+        "sheet_fraction_canvas": 0.022892258755353993,
+        "sheet_fraction_positive_ct": 0.025557483598737617,
+        "used_pixels": 3640421,
+        "branch": "ct > 0",
+        "sheet_contains_ct_zero": 1,
+        "used_minus_published_pixels": 0,
+        "seconds": 1.0151696000029915
+      }
+    },
+    {
+      "id": "kbh-PHerc0268_2704_5907_7421",
+      "image": "20261114-atlas-mask-semantics01\\originals\\PHerc0268-ct-mid.png",
+      "meta": "20261114-next-atlas-surface01\\candidates\\PHerc0268-meta.json",
+      "image_sha256": "f8cc55e9c5a71b37f64c9d62c7e733f7bc1cf0ebed7557b6e4d69bd9bdc887ea",
+      "shape_hw": [
+        2016,
+        2016
+      ],
+      "denominators": {
+        "canvas": 4064256,
+        "ct_gt_0": 3640464,
+        "rendered_px": 3640464
+      },
+      "published": {
+        "pixels_used": 251458,
+        "mask": "sheet (crossness >= 0.31)",
+        "sheet_fraction": 0.069
+      },
+      "published_pixels_used_div_denominator": {
+        "canvas": 0.061870610512723606,
+        "ct_gt_0": 0.06907306321391998,
+        "rendered_px": 0.06907306321391998
+      },
+      "denominator_matches_at_3dp": [
+        "ct_gt_0",
+        "rendered_px"
+      ],
+      "pr2318": {
+        "sheet_pixels": 251458,
+        "sheet_fraction_canvas": 0.061870610512723606,
+        "sheet_fraction_positive_ct": 0.06907306321391998,
+        "used_pixels": 251458,
+        "branch": "sheet",
+        "sheet_contains_ct_zero": 0,
+        "used_minus_published_pixels": 0,
+        "seconds": 1.0320766000004369
+      }
+    },
+    {
+      "id": "kbh-PHerc0483A_3155_3610_11128",
+      "image": "20261114-atlas-mask-semantics01\\originals\\PHerc0483A-ct-mid.png",
+      "meta": "20261114-next-atlas-surface01\\candidates\\PHerc0483A-meta.json",
+      "image_sha256": "a54891dd5bb0377b8904fa99dc83a9df57092ccca89f4c86b132b5fb8af5033b",
+      "shape_hw": [
+        2016,
+        2016
+      ],
+      "denominators": {
+        "canvas": 4064256,
+        "ct_gt_0": 3640464,
+        "rendered_px": 3640464
+      },
+      "published": {
+        "pixels_used": 627484,
+        "mask": "sheet (crossness >= 0.31)",
+        "sheet_fraction": 0.172
+      },
+      "published_pixels_used_div_denominator": {
+        "canvas": 0.15439086514235323,
+        "ct_gt_0": 0.17236374264379486,
+        "rendered_px": 0.17236374264379486
+      },
+      "denominator_matches_at_3dp": [
+        "ct_gt_0",
+        "rendered_px"
+      ],
+      "pr2318": {
+        "sheet_pixels": 627484,
+        "sheet_fraction_canvas": 0.15439086514235323,
+        "sheet_fraction_positive_ct": 0.17236374264379486,
+        "used_pixels": 627484,
+        "branch": "sheet",
+        "sheet_contains_ct_zero": 0,
+        "used_minus_published_pixels": 0,
+        "seconds": 1.1165420999968774
+      }
+    },
+    {
+      "id": "kbh-PHerc0125_5409_5288_14587",
+      "image": "20261114-unreviewed-atlas-face01\\originals\\ct-mid.png",
+      "meta": "20261114-unreviewed-atlas-face01\\candidates\\PHerc0125-meta.json",
+      "image_sha256": "f78edf5ff339297215a9dd655607213d8e654c8384c9fe5a5dd54881c0d6d9cd",
+      "shape_hw": [
+        2184,
+        2184
+      ],
+      "denominators": {
+        "canvas": 4769856,
+        "ct_gt_0": 4272481,
+        "rendered_px": 4272489
+      },
+      "published": {
+        "pixels_used": 3686967,
+        "mask": "sheet (crossness >= 0.31)",
+        "sheet_fraction": 0.863
+      },
+      "published_pixels_used_div_denominator": {
+        "canvas": 0.7729723916193696,
+        "ct_gt_0": 0.8629569095801713,
+        "rendered_px": 0.8629552937409553
+      },
+      "denominator_matches_at_3dp": [
+        "ct_gt_0",
+        "rendered_px"
+      ],
+      "pr2318": {
+        "sheet_pixels": 3686967,
+        "sheet_fraction_canvas": 0.7729723916193696,
+        "sheet_fraction_positive_ct": 0.8629569095801713,
+        "used_pixels": 3686967,
+        "branch": "sheet",
+        "sheet_contains_ct_zero": 7,
+        "used_minus_published_pixels": 0,
+        "seconds": 1.2776937000016915
+      }
+    },
+    {
+      "id": "kbh-PHerc1218_3144_3279_16272",
+      "image": "20261113-pherc1218-map-screen01\\originals\\3144-ct.png",
+      "meta": "20261113-next-target01\\atlas1218-3144-meta.json",
+      "image_sha256": "ec7b0807512c8588d3363f492647404371971c5a6256ea8956eff1d7342bc1a2",
+      "shape_hw": [
+        2016,
+        2016
+      ],
+      "denominators": {
+        "canvas": 4064256,
+        "ct_gt_0": 3467573,
+        "rendered_px": 3640464
+      },
+      "published": {
+        "pixels_used": 2880845,
+        "mask": "sheet (crossness >= 0.31)",
+        "sheet_fraction": 0.831
+      },
+      "published_pixels_used_div_denominator": {
+        "canvas": 0.7088246901769967,
+        "ct_gt_0": 0.8307957756044357,
+        "rendered_px": 0.7913400599484022
+      },
+      "denominator_matches_at_3dp": [
+        "ct_gt_0"
+      ],
+      "pr2318": {
+        "sheet_pixels": 2880845,
+        "sheet_fraction_canvas": 0.7088246901769967,
+        "sheet_fraction_positive_ct": 0.8307957756044357,
+        "used_pixels": 2880845,
+        "branch": "sheet",
+        "sheet_contains_ct_zero": 864,
+        "used_minus_published_pixels": 0,
+        "seconds": 0.9838732999996864
+      }
+    },
+    {
+      "id": "kbh-PHerc1218_4203_4343_16272",
+      "image": "20261113-pherc1218-map-screen01\\originals\\4203-ct.png",
+      "meta": "20261113-next-target01\\atlas1218-4203-meta.json",
+      "image_sha256": "e3514c87d440e77474c42fd48a76fc61570af78eeb303131e35ea592262cea6c",
+      "shape_hw": [
+        2016,
+        2016
+      ],
+      "denominators": {
+        "canvas": 4064256,
+        "ct_gt_0": 3628351,
+        "rendered_px": 3640464
+      },
+      "published": {
+        "pixels_used": 2777021,
+        "mask": "sheet (crossness >= 0.31)",
+        "sheet_fraction": 0.765
+      },
+      "published_pixels_used_div_denominator": {
+        "canvas": 0.6832790552563618,
+        "ct_gt_0": 0.7653672425848547,
+        "rendered_px": 0.7628206184706126
+      },
+      "denominator_matches_at_3dp": [
+        "ct_gt_0"
+      ],
+      "pr2318": {
+        "sheet_pixels": 2777021,
+        "sheet_fraction_canvas": 0.6832790552563618,
+        "sheet_fraction_positive_ct": 0.7653672425848547,
+        "used_pixels": 2777021,
+        "branch": "sheet",
+        "sheet_contains_ct_zero": 98,
+        "used_minus_published_pixels": 0,
+        "seconds": 1.2014990999959991
+      }
+    },
+    {
+      "id": "kbh-PHerc0846B_2768_2813_9748",
+      "image": "20261114-pherc0846b-native-atlas01\\originals\\ct-mid.png",
+      "meta": "20261114-pherc0846b-native-atlas01\\surface-meta.json",
+      "image_sha256": "cc52e9e84ecaee3f7ff5ced9f600fb87f5c89bb29f891c1286507f2a2ba1a6de",
+      "shape_hw": [
+        2184,
+        2184
+      ],
+      "denominators": {
+        "canvas": 4769856,
+        "ct_gt_0": 4272489,
+        "rendered_px": 4272489
+      },
+      "published": {
+        "pixels_used": 929456,
+        "mask": "sheet (crossness >= 0.31)",
+        "sheet_fraction": 0.217
+      },
+      "published_pixels_used_div_denominator": {
+        "canvas": 0.19486038991533497,
+        "ct_gt_0": 0.21754438689017105,
+        "rendered_px": 0.21754438689017105
+      },
+      "denominator_matches_at_3dp": [],
+      "pr2318": {
+        "sheet_pixels": 929456,
+        "sheet_fraction_canvas": 0.19486038991533497,
+        "sheet_fraction_positive_ct": 0.21754438689017105,
+        "used_pixels": 929456,
+        "branch": "sheet",
+        "sheet_contains_ct_zero": 0,
+        "used_minus_published_pixels": 0,
+        "seconds": 1.5548068999996758
+      }
+    },
+    {
+      "id": "kbh-POS_PHerc0343_erwin",
+      "image": "20261114-atlas-known-control01\\originals\\ct.png",
+      "meta": "20261114-atlas-known-control01\\surface-meta.json",
+      "image_sha256": "1050da1a19ab63f73a9bc662132ea5088d041c70a04b382ccd87fd9252ef6547",
+      "shape_hw": [
+        2304,
+        6048
+      ],
+      "denominators": {
+        "canvas": 13934592,
+        "ct_gt_0": 8653514,
+        "rendered_px": 8653554
+      },
+      "published": {
+        "pixels_used": 6177477,
+        "mask": "sheet (crossness >= 0.31)",
+        "sheet_fraction": 0.714
+      },
+      "published_pixels_used_div_denominator": {
+        "canvas": 0.4433195460620591,
+        "ct_gt_0": 0.7138691865524225,
+        "rendered_px": 0.7138658867790043
+      },
+      "denominator_matches_at_3dp": [
+        "ct_gt_0",
+        "rendered_px"
+      ],
+      "pr2318": {
+        "sheet_pixels": 6177477,
+        "sheet_fraction_canvas": 0.4433195460620591,
+        "sheet_fraction_positive_ct": 0.7138691865524225,
+        "used_pixels": 6177477,
+        "branch": "sheet",
+        "sheet_contains_ct_zero": 17,
+        "used_minus_published_pixels": 0,
+        "seconds": 3.9272579999960726
+      }
+    }
+  ],
+  "inference_calls": 0
+}

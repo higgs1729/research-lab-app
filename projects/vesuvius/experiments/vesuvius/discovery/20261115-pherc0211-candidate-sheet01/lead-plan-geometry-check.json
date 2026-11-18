@@ -1,0 +1,44 @@
+{
+  "utc": "2026-11-15T14:48:48.247976+00:00",
+  "geometry_plan_sha256": "68564f55f9bd7b728cb812e0f6cfbfa0f36995427c41957d5578740570338372",
+  "anchors_checked": [
+    {
+      "id": "candidate-q25",
+      "float64_nominal_position_error_vox": 0.00041160990079856845,
+      "float64_unit_normal_error": 1.884109856126067e-09
+    },
+    {
+      "id": "candidate-q50",
+      "float64_nominal_position_error_vox": 0.00017140592412443468,
+      "float64_unit_normal_error": 1.2862376300359778e-08
+    },
+    {
+      "id": "candidate-q75",
+      "float64_nominal_position_error_vox": 0.000359256710391503,
+      "float64_unit_normal_error": 4.067259399630237e-09
+    },
+    {
+      "id": "known_phi-q25",
+      "float64_nominal_position_error_vox": 0.000725971121840353,
+      "float64_unit_normal_error": 3.070339489401647e-08
+    },
+    {
+      "id": "known_phi-q50",
+      "float64_nominal_position_error_vox": 0.0004800677918691035,
+      "float64_unit_normal_error": 4.515091824249574e-09
+    },
+    {
+      "id": "known_phi-q75",
+      "float64_nominal_position_error_vox": 0.0007480102117307947,
+      "float64_unit_normal_error": 1.8471054285801365e-08
+    }
+  ],
+  "planes_checked": 12,
+  "samples_checked": 150540,
+  "all8corner_keys_exact": true,
+  "reused_CT_files_verified": 24,
+  "new_CT_bytes": 2097152,
+  "geometry_finite_basis_orthonormal": true,
+  "scope": "Finite geometry and chunk support only; no physical paper/ink/novelty conclusion; approximate renderer remains approximate.",
+  "model_forwards": 0
+}

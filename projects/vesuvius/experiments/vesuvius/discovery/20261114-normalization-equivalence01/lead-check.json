@@ -1,0 +1,23 @@
+{
+  "date_jst": "2026-11-14",
+  "checks": [
+    {
+      "order": "forward",
+      "values": 278528,
+      "max_abs": 2.384185791015625e-07,
+      "numpy_divisor": 35.582401275634766,
+      "torch_divisor": 35.5823974609375
+    },
+    {
+      "order": "reverse",
+      "values": 278528,
+      "max_abs": 2.384185791015625e-07,
+      "numpy_divisor": 35.582401275634766,
+      "torch_divisor": 35.5823974609375
+    }
+  ],
+  "source_review": "Both fixed functions use per-patch 1/99 clipping, median/MAD and matching fallback order without an explicit mask. The saved worst representative difference is reproduced by the scalar multiplication precision of 1.4826 times MAD.",
+  "scope": "Representative arrays and source review; parent did not rerun all 98 patches or model inference.",
+  "new_network_bytes": 0,
+  "new_model_calls": 0
+}

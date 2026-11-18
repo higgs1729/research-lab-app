@@ -1,0 +1,11 @@
+{
+  "approved": true,
+  "plan_sha256": "17ba2cb3c28d4df481a3dfc684caa62c4c08290e9bee06bcbe59df001fb4deae",
+  "recorded_by": "root lead",
+  "checked_utc": "2026-11-15T09:07:47.991192+00:00",
+  "fixed_assets_verified": 18,
+  "borrowed_hashes_verified": 186,
+  "source_review": "Read studio_worker and local_gpu wrappers; pinned official network,clip200/255,central96,probability Hann,96 fixed cores. CPU three references completed.",
+  "resource_condition": "Runtime admission/8GiB physical requirement and existing floors remain mandatory; authorization is not a resource override. If blocked switch to reviewed cloud plan, no retry loop.",
+  "cloud_pods_authorized_by_this_record": 0
+}

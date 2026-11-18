@@ -1,0 +1,66 @@
+{
+  "new_paid_compute_cost": 0,
+  "currency": "USD",
+  "new_real_input_download_bytes": 0,
+  "llm_and_local_electricity_cost": null,
+  "successful_builds": [
+    {
+      "path": "experiments/vesuvius/r005/20261111-affine01/build-state.json",
+      "seconds": 51.229194009
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-diagnostic01/build-state.json",
+      "seconds": 47.30009054600001
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-raster-trace02/build-state.json",
+      "seconds": 27.270191565999994
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-weighted01/build-state.json",
+      "seconds": 57.107660229000004
+    }
+  ],
+  "successful_native_runs": [
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/affine_disabled_keep1p5_01/state.json",
+      "seconds": 7.416155325000005,
+      "started_utc": "2026-11-11T12:50:37.245918+00:00",
+      "completed_utc": "2026-11-11T12:50:44.673143+00:00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/affine_keep1p5_01/state.json",
+      "seconds": 6.761870993000002,
+      "started_utc": "2026-11-11T12:50:45.139483+00:00",
+      "completed_utc": "2026-11-11T12:50:51.915145+00:00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/diag_keep1p5_01/state.json",
+      "seconds": 5.943147068000002,
+      "started_utc": "2026-11-11T12:43:59.865486+00:00",
+      "completed_utc": "2026-11-11T12:44:05.816695+00:00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/trace_baseline_keep1p5_01/state.json",
+      "seconds": 7.150332788,
+      "started_utc": "2026-11-11T13:11:36.605656+00:00",
+      "completed_utc": "2026-11-11T13:11:43.769518+00:00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/trace_weighted_keep1p5_01/state.json",
+      "seconds": 6.351737204999992,
+      "started_utc": "2026-11-11T13:11:49.696882+00:00",
+      "completed_utc": "2026-11-11T13:11:56.059207+00:00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/weighted_keep1p5_01/state.json",
+      "seconds": 7.026399737999995,
+      "started_utc": "2026-11-11T12:54:10.416816+00:00",
+      "completed_utc": "2026-11-11T12:54:17.455783+00:00"
+    }
+  ],
+  "total_build_wall_seconds": 182.90713635,
+  "total_native_run_wall_seconds": 40.649643117,
+  "all_native_runs_sequential": true,
+  "note": "Summed subprocess durations exclude source review, analysis, independent verification and orchestration. Failed precompile insertion attempt is saved separately."
+}

@@ -1,0 +1,33 @@
+{
+  "receipts": [
+    {
+      "path": "originals/docker/context.tsv",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/docker/context.tsv",
+      "bytes": 23550,
+      "sha256": "6e56c61594cfce44ab24d9566da2f6d88ad14e3a6edbafea1b1f465cfdd97770",
+      "status": 200,
+      "elapsed_seconds": 0.29423859997768886,
+      "utc": "2026-11-15T08:26:33.351663+00:00"
+    },
+    {
+      "path": "originals/official-representations-prefix.xml",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/?list-type=2&delimiter=%2F&max-keys=1000&prefix=PHerc0306B%2Frepresentations%2F",
+      "bytes": 399,
+      "sha256": "cf98a7b3747a763b5780ede352251e0e750470d2ad5d45579a0ba02f2cbbcdab",
+      "status": 200,
+      "elapsed_seconds": 0.5557144000194967,
+      "utc": "2026-11-15T08:26:33.908335+00:00"
+    },
+    {
+      "path": "originals/official-representations-child-0.xml",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/?list-type=2&delimiter=%2F&max-keys=1000&prefix=PHerc0306B%2Frepresentations%2Fpredictions%2F",
+      "bytes": 420,
+      "sha256": "c2cc97094630f3adb36ee8c9f0bf642b1e8b054d9c60852028ca9157f830b8a1",
+      "status": 200,
+      "elapsed_seconds": 0.5699708000174724,
+      "utc": "2026-11-15T08:26:34.479031+00:00"
+    }
+  ],
+  "total_body_bytes": 24369,
+  "elapsed_seconds": 1.4217199000122491
+}

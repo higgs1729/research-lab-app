@@ -1,0 +1,18 @@
+{
+  "patched_paths": [
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp"
+  ],
+  "libbacktrace_commit": "0b9b49cf4a2c9229fc052d6716e1528b2f23e91a",
+  "source_commit": "2d3fb38d33a18b257230c0bd23986436c3d4722e",
+  "patch_sha256": "cca4821117c279939113e773c96c56c19d9d9b42c36bc8f1db1c531af63b9146",
+  "baseline_and_fixed_libraries_unchanged": true,
+  "render_inputs_unchanged": true,
+  "new_CT_bytes": 0,
+  "GPU_runs": 0,
+  "JPY_paid": 0,
+  "WSL_work_bytes": 1718362112,
+  "Windows_receipts_bytes": 23506944,
+  "C_free_bytes": 58751303680,
+  "build_run": "run03",
+  "build_reused": true
+}

@@ -1,0 +1,21 @@
+{
+  "binary": "/home/tomoy/refinement-centered-window01/bin/vc_objrefine",
+  "sha256": "593a240d669c0ff088f89b4722b29df946a57581f77fcc29e2430b9f869a7505",
+  "shared": {
+    "libvc_core.so": {
+      "resolved": "/home/tomoy/bundle-fixed-main-run01-pywin6ml/build/core/libvc_core.so",
+      "sha256": "4b414187f3bab2d2eebe988e8cc757d40492a20aa8211c7379a54438cb417b14"
+    },
+    "libvc_reader_native.so": {
+      "resolved": "/home/tomoy/bundle-fixed-main-run01-pywin6ml/build/reader/libvc_reader_native.so",
+      "sha256": "e7125f4e0cb01f3ecd8564ef0217d47d2bf2f3fed7c342b5cbdb73276fa86da2"
+    }
+  },
+  "frozen_input_identity_preserved": true,
+  "elapsed_seconds": 12.677650987999982,
+  "max_rss_bytes": 1411158016,
+  "disk": {
+    "work_bytes": 6684672,
+    "host_c_free_bytes": 33322086400
+  }
+}

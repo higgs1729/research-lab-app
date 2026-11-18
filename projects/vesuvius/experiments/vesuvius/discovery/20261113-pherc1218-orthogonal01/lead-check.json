@@ -1,0 +1,13 @@
+{
+  "all_assertions_passed": true,
+  "raw_planes": 9,
+  "raw_pixels_exact": 1032192,
+  "mesh_projection_points": 3970,
+  "normal_projection_points": 63,
+  "all_global_axes_and_in_plane_classifications_match": true,
+  "visual_assessment": "Layered structures are visible in X and Z. Local P traces run near layered bands, but the lead cannot uniquely identify one continuous physical lamina across all fixed planes or a constant signed correction. No claim of absent ink, wrong sheet, or readable text.",
+  "product_runs": 0,
+  "download_bytes": 0,
+  "seconds": 1.2562586389994976,
+  "max_rss_bytes": 118063104
+}

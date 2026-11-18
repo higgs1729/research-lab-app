@@ -1,0 +1,66 @@
+{
+  "source": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/ct.zarr",
+  "local": "/mnt/c/dev/kensyoukin/.work/r006-zarr-whole-process01/run01/ct.zarr",
+  "manifest": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r006/20261112-representative-baseline01/run01/fixture.json",
+  "manifest_sha256": "30d26776ef0f30aa0dc37c5d833f829b9c6c3503adc7017254b317de0289ebfc",
+  "files": {
+    ".zgroup": {
+      "bytes": 24,
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959"
+    },
+    ".zattrs": {
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9"
+    },
+    "metadata.json": {
+      "bytes": 8446,
+      "sha256": "7db0a497ed78165a17b681debacd40e6fadd99326aed8423b9e337007cad4b92"
+    },
+    "0/.zarray": {
+      "bytes": 239,
+      "sha256": "acad9dbc41bf7c9b5b983cdfd802308691e427ebb1a1a675561df717d50332a0"
+    },
+    "0/19/23/25": {
+      "bytes": 2097152,
+      "sha256": "54fbe5ad1205a91d08505f814b361cdff8efb75827e200d180467c39ccc7221f"
+    },
+    "0/19/23/26": {
+      "bytes": 2097152,
+      "sha256": "3e0eddb2d697300a71b67a9cbdf0fc3e47bb2e9f901a54048c03fc7566a61661"
+    },
+    "0/19/22/26": {
+      "bytes": 2097152,
+      "sha256": "e5b4d2aa09aab641ec13710850bf7adbca41878a5aa6741047bc4db740976802"
+    },
+    "0/19/24/25": {
+      "bytes": 2097152,
+      "sha256": "a08f9ad3294db067bde15395946796fffd977616bc4f67eb89da6bcd16f0c874"
+    },
+    "0/19/24/26": {
+      "bytes": 2097152,
+      "sha256": "089b51af7571a0dcc1f8322a7632a28335d93f52544ce51f2948bde45b8db592"
+    },
+    "0/20/22/26": {
+      "bytes": 2097152,
+      "sha256": "8b5a0991a023e7135f8e289bc8abeaa1711959a4616d852f1db1f1f67d7fbdd8"
+    },
+    "0/20/23/25": {
+      "bytes": 2097152,
+      "sha256": "c9b5243153091a3be8603a192e74058e61c35781acca792be5644b2e0aa2e44b"
+    },
+    "0/20/23/26": {
+      "bytes": 2097152,
+      "sha256": "d8e0bae175090b54a3f61f9795fbc8d94aa3ef3581b6e781c88c03fd16d9977d"
+    },
+    "0/20/24/25": {
+      "bytes": 2097152,
+      "sha256": "b7c33231cdbf172534191660d25c769611f12ac0c48e9a523ea0f4fac7a11d91"
+    },
+    "0/20/24/26": {
+      "bytes": 2097152,
+      "sha256": "f61541f6db5a443da617264bb75e52b6e288d8385a7bfa8946616bdaaeb3fd15"
+    }
+  },
+  "chunk_bytes": 20971520,
+  "new_download_bytes": 0
+}

@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-14T16:42:54.900211+00:00",
+  "pod_id": "4grhbmsglcz5tj",
+  "name": "r219-hecate-1bbaf595bd401713",
+  "same_name_pods": 0,
+  "total_pods": 0,
+  "other_pod_hashes": [],
+  "details_http_status": 404,
+  "account": {
+    "http_status": 200,
+    "client_balance_usd": 17.2133792655,
+    "auto_pay_enabled": false
+  },
+  "billing_http_status": 200,
+  "billing_records": [],
+  "billing_query": {
+    "podId": "4grhbmsglcz5tj",
+    "bucketSize": "hour",
+    "startTime": "2026-11-14T16:00:00+00:00",
+    "endTime": "2026-11-14T18:00:00+00:00"
+  },
+  "billing_totals": {
+    "cpuAmount": 0,
+    "diskAmount": 0,
+    "gpuAmount": 0,
+    "totalAmount": 0
+  }
+}

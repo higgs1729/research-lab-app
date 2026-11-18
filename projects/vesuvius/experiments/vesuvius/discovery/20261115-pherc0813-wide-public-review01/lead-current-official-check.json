@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-15T06:11:56.880486+00:00",
+  "reviewer": "lead",
+  "method": "Opened current official pages with web tool and read full relevant sections; paraphrase only, not a raw HTML archive.",
+  "observations": [
+    {
+      "url": "https://scrollprize.org/prizes",
+      "section": "First Letters Prizes",
+      "observation": "PHerc0813 reconstruction20250821151723 is listed. A static programmatically generated image with10 legible letters in one4cm2 area is required, plus mesh, methodology and validation; technical and papyrological review applies. Absence of clear rows is not an immediate disqualification.",
+      "inference": "Target remains eligible based on current published list; eligibility does not establish valid ink in chosen mesh."
+    },
+    {
+      "url": "https://scrollprize.org/winners",
+      "observation": "Page text search for813 found no match; current listed First Letters winners include306B and343.",
+      "limit": "No guarantee about undisclosed discoveries or submissions under review."
+    },
+    {
+      "url": "https://scrollprize.org/data_browser/PHerc0813",
+      "observation": "Reconstruction20250821151723, scan20250720160015,9.362um,113keV; official segments0; CC BY-NC4.0.",
+      "inference": "Chosen atlas mesh is a third-party product, not an official segment listing."
+    }
+  ],
+  "no_paid_compute_or_external_submission": true
+}

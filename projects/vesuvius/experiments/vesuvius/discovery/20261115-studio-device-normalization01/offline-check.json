@@ -1,0 +1,36 @@
+{
+  "plan_sha256": "0f931d1f82d99c25a566aeb4cb930997b5812b3c2d438ce1b253500a0258b43f",
+  "archive_sha256": "ac4a5def1634f79ee3bd0fdc435f1d4825b4bc682dec2f8cd7efc5c5f102f2f3",
+  "archive_members": 18,
+  "original_members_byte_identical": [
+    "cpu/model.json",
+    "cpu/p000.npy",
+    "cpu/p047.npy",
+    "cpu/p095.npy",
+    "input-contract.json",
+    "input16.npy",
+    "patch-contract.json",
+    "plan.json",
+    "r208_runtime.py",
+    "safetensors-header.json",
+    "sources/studio-multiscroll-cpt-20261023/hf/inference.py",
+    "sources/studio-multiscroll-cpt-20261023/hf/model.py",
+    "sources/wheelhouse/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+  ],
+  "input_raw_cpu_and_cuda_prediction_rows": 96,
+  "max_predicted_CPU_GPU_input_delta": 5.960464477539063e-08,
+  "unchanged_worker_functions": [
+    "cpu",
+    "patch",
+    "forward",
+    "model_info",
+    "source_paths"
+  ],
+  "cpu_output_atol": 0.0001,
+  "pre_weight_probe_seconds_max": 45,
+  "placement": [
+    "CA-MTL-1"
+  ],
+  "network_requests": 0,
+  "model_forward_calls": 0
+}

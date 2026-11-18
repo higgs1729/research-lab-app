@@ -1,0 +1,7 @@
+{
+  "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-dense-native01\\dense_native_016000.pth",
+  "bytes": 272884231,
+  "sha256": "d91963a4b01ffa831743b6d481079fd9d3fd29382573caa9a472a8d8c886a544",
+  "source_sha256": "d3d95dc41dcb24ed76b84b5e12ca5dae25d7fb34edf1dfbb93e0186f91e6fc6d",
+  "author_recipe": "Fixed model card and weights/VERIFY.md, adding shipped config and step to the bare tensors"
+}

@@ -1,0 +1,53 @@
+{
+  "candidate": {
+    "id": "I",
+    "coordinate_stage": "packed_float32",
+    "faces": 478224,
+    "negative_faces": 0,
+    "zero_faces": 0,
+    "mean_SD": 1.1763771177297075
+  },
+  "control": {
+    "id": "H",
+    "coordinate_stage": "packed_float32",
+    "faces": 478224,
+    "negative_faces": 0,
+    "zero_faces": 0,
+    "mean_SD": 9.79451927570053
+  },
+  "rule": "candidate has no negative/zero faces and mean_SD < control mean_SD",
+  "passed": true,
+  "audit_id": "audit-9153a12921b2",
+  "matched_independent_packed_values": true,
+  "previous_frozen_files_checked": 75,
+  "sources": [
+    {
+      "path": "experiments\\vesuvius\\r005\\20261112-seam-relax01\\analysis01\\arrays.npz",
+      "sha256": "6b0be8b8704a2a42e7a7c076320b1c2d3cf97cbac6824d4f3fe4d315d3943afb"
+    },
+    {
+      "path": "experiments\\vesuvius\\r005\\20261112-corner-uv01\\input01\\baseline\\mesh.bin",
+      "sha256": "446ba493b54ef6bde5f4304b9161d98f15883c327d6d54eb1d82871d32d1ba77"
+    },
+    {
+      "path": "experiments\\vesuvius\\r005\\20261112-seam-relax-verification01\\check02\\result.json",
+      "sha256": "272798695d98dc08701f7e3a58256e54902cc7d1228bb0ed2cab010aab07be8a"
+    },
+    {
+      "path": "experiments\\vesuvius\\r005\\20261112-seam-relax-close\\artifact-manifest.json",
+      "sha256": "bf00befa39f81a4226f27ae6006982f627ea321be20df98c4310f9012698cf86"
+    },
+    {
+      "path": "experiments\\vesuvius\\r005\\mesh_quality.py",
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    },
+    {
+      "path": "experiments\\vesuvius\\r005\\packed_raster_gate.py",
+      "sha256": "1ad04e8784123c09b28b96f7b4a2ccf7c1c218f5959454eb2c6777f740828365"
+    }
+  ],
+  "new_solver_runs": 0,
+  "new_native_raster_runs": 0,
+  "new_paid_compute_cost_usd": 0,
+  "elapsed_seconds": 1.3867300999700092
+}

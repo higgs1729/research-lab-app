@@ -1,0 +1,94 @@
+{
+  "functions": [
+    {
+      "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\lead-renderer-oci\\QuadSurface.cpp",
+      "source_sha256": "54ad7866688462a48b8f49782d931899d74fcf0f986248477e882f044181f7bb",
+      "signature": "void warpBilinearReplicateVec3f(",
+      "start_line": 200,
+      "end_line": 238,
+      "fragment_sha256": "ce584cf0b2906beb2365273306a2c5b220104813fd86ebcc627c602dbfb4799a"
+    },
+    {
+      "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\lead-renderer-oci\\QuadSurface.cpp",
+      "source_sha256": "54ad7866688462a48b8f49782d931899d74fcf0f986248477e882f044181f7bb",
+      "signature": "void warpNearestConstU8(",
+      "start_line": 240,
+      "end_line": 264,
+      "fragment_sha256": "8730909e195bb686d8ebd33fcb03c16d2b08d037fc5b340593f0d07dfa14172c"
+    },
+    {
+      "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\lead-renderer-oci\\QuadSurface.cpp",
+      "source_sha256": "54ad7866688462a48b8f49782d931899d74fcf0f986248477e882f044181f7bb",
+      "signature": "void warpNearestConstVec3f(",
+      "start_line": 266,
+      "end_line": 290,
+      "fragment_sha256": "c54f6b0f18f9ed79f4551f731707c24724b3c75f0a7237ab1e94c2ebc3c4b6fc"
+    },
+    {
+      "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\lead-renderer-oci\\QuadSurface.cpp",
+      "source_sha256": "54ad7866688462a48b8f49782d931899d74fcf0f986248477e882f044181f7bb",
+      "signature": "void warpBilinearConstVec3f(",
+      "start_line": 292,
+      "end_line": 340,
+      "fragment_sha256": "b5e1aa3a4367a9c1f3035ba6d24084c83f2fbcf15b82b5e1ebe7955a80ae6add"
+    },
+    {
+      "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\lead-renderer-oci\\QuadSurface.cpp",
+      "source_sha256": "54ad7866688462a48b8f49782d931899d74fcf0f986248477e882f044181f7bb",
+      "signature": "static cv::Vec3f internal_loc(",
+      "start_line": 345,
+      "end_line": 348,
+      "fragment_sha256": "0d0b6a105b9cf38f2bf90f1dc3848a9c8e0e19a577d2f5f62085d55c37504f50"
+    },
+    {
+      "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\lead-renderer-oci\\Geometry.cpp",
+      "source_sha256": "5919bea504e3e22329b3f9c41c1de4020a0c5781435fc83be84692abdaaa50bc",
+      "signature": "cv::Vec3f grid_normal_int(",
+      "start_line": 28,
+      "end_line": 59,
+      "fragment_sha256": "1030818e2c19d8ce9f31e603b264762c2a0adb5d1c67763d3fffd52df74972d5"
+    },
+    {
+      "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\lead-renderer-oci\\vc_render_tifxyz.cpp",
+      "source_sha256": "171f7c09d07995befc4be54a8527d9aca3e1667fbaad89607244aa609d4bcccd",
+      "signature": "static void normalizeNormals(",
+      "start_line": 216,
+      "end_line": 227,
+      "fragment_sha256": "92289f367041c9ec14f9a0d2ed1bbf1b90e275b69e2037be2af437caeecc7c2c"
+    },
+    {
+      "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\lead-renderer-oci\\vc_render_tifxyz.cpp",
+      "source_sha256": "171f7c09d07995befc4be54a8527d9aca3e1667fbaad89607244aa609d4bcccd",
+      "signature": "static void computeCanvasOrigin(",
+      "start_line": 256,
+      "end_line": 260,
+      "fragment_sha256": "f163ecd1bedfe6b5abb0c14ec5e9aabfe1960d48ce2e96adcf4f3e60ff28608a"
+    },
+    {
+      "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\lead-renderer-oci\\QuadSurface.cpp",
+      "source_sha256": "54ad7866688462a48b8f49782d931899d74fcf0f986248477e882f044181f7bb",
+      "signature": "cv::Mat_<uint8_t> QuadSurface::validMask()",
+      "start_line": 646,
+      "end_line": 692,
+      "fragment_sha256": "9fc0b8e84838694dbcddf60fee3bfab9a687bca54b59a78332a9843506ad17c4"
+    },
+    {
+      "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\lead-renderer-oci\\QuadSurface.cpp",
+      "source_sha256": "54ad7866688462a48b8f49782d931899d74fcf0f986248477e882f044181f7bb",
+      "signature": "void QuadSurface::gen(",
+      "start_line": 730,
+      "end_line": 918,
+      "fragment_sha256": "bf567b2fe5a21de57101ad3af6b323e5d54b96cd349a7c42edcbc41c41fbf629"
+    },
+    {
+      "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\lead-renderer-oci\\Slicing.cpp",
+      "source_sha256": "31aa0fe39d171eed0ebb3316a598658c7ae6f846aa222aa9137256c84732a83d",
+      "signature": "VC_FORCE_INLINE float sampleTrilinear(",
+      "start_line": 200,
+      "end_line": 225,
+      "fragment_sha256": "fd850c2f04cc8c9b8cbf5280aca6f9810e6ab6b7366b6b1803ec9e9aa4994978"
+    }
+  ],
+  "changes": "functions.inc and quad.inc exact extracted function text (newlines normalized). trilinear.inc removes only VC_FORCE_INLINE macro. Minimal class fields/constructor and file-backed sampleInt are harness adapters. No upstream install/build mutation. Render only selected ROIs after full-band gen (or old tile control).",
+  "pinned_revision": "1e3f4c021f4e53bea3867772ed05f51a7e586a9c"
+}

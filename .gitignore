@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+/runtime/
+verification-output/
+# --demo で作る合成データ(手元で作り直せる)
+projects/demo/
+# 実研究記録の DB は提出物に含める
+*.sqlite3-*
+*.db

@@ -1,0 +1,1061 @@
+{
+  "timing_runs": {
+    "off-0": {
+      "passes": [
+        {
+          "sampling_ms": 294.204338,
+          "tiff_ms": 547.902601,
+          "pass_ms": 842.403614,
+          "setup_ms": 156.816195,
+          "write_ms": 64.623092,
+          "finish_ms": 326.463314,
+          "array_memory_hits": 1069,
+          "array_disk_hits": 12
+        },
+        {
+          "sampling_ms": 220.176648,
+          "tiff_ms": 737.941993,
+          "pass_ms": 958.175104,
+          "setup_ms": 186.009727,
+          "write_ms": 92.350251,
+          "finish_ms": 459.582015,
+          "array_memory_hits": 1081,
+          "array_disk_hits": 0
+        },
+        {
+          "sampling_ms": 244.262469,
+          "tiff_ms": 641.671161,
+          "pass_ms": 886.037283,
+          "setup_ms": 192.158998,
+          "write_ms": 71.124185,
+          "finish_ms": 378.387978,
+          "array_memory_hits": 1081,
+          "array_disk_hits": 0
+        }
+      ],
+      "generated": [],
+      "log_sha256": "a02ec5645fb1222238e53945a19002202de098071f80aad4c0d67e677a20f48c",
+      "addresses": [
+        "436",
+        "0x2e4be650",
+        "0x7ffce4653b70"
+      ],
+      "process": {
+        "command": [
+          "unshare",
+          "-Urn",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/vc_render_tifxyz",
+          "--volume",
+          "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/ct.zarr",
+          "--segmentation",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output",
+          "--tif-output",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/off-0",
+          "--scale",
+          "1",
+          "--group-idx",
+          "0",
+          "--num-slices",
+          "101",
+          "--slice-step",
+          "1",
+          "--voxel-size",
+          "9.362",
+          "--voxel-unit",
+          "micrometer",
+          "--cache-gb",
+          "1",
+          "--crop-x",
+          "7356",
+          "--crop-y",
+          "2272",
+          "--crop-width",
+          "128",
+          "--crop-height",
+          "128",
+          "--accum",
+          "0.5",
+          "--accum-type",
+          "mean"
+        ],
+        "cwd": "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02",
+        "started_utc": "2026-11-12T13:17:38.935055+00:00",
+        "completed_utc": "2026-11-12T13:17:41.979538+00:00",
+        "timeout_seconds": 120,
+        "elapsed_seconds": 3.044483030000002,
+        "exit_code": 0,
+        "max_child_rss_bytes": 101064704,
+        "user_cpu_seconds": 0.76,
+        "sys_cpu_seconds": 0.23,
+        "timing_pid": 435,
+        "reaped": true
+      }
+    },
+    "on-0": {
+      "passes": [
+        {
+          "sampling_ms": 270.110477,
+          "tiff_ms": 679.96228,
+          "pass_ms": 950.470497,
+          "setup_ms": 193.874755,
+          "write_ms": 85.165906,
+          "finish_ms": 400.921619,
+          "array_memory_hits": 1069,
+          "array_disk_hits": 12
+        },
+        {
+          "sampling_ms": 163.888919,
+          "tiff_ms": 682.881308,
+          "pass_ms": 846.812654,
+          "setup_ms": 197.790491,
+          "write_ms": 81.414926,
+          "finish_ms": 403.675891,
+          "array_memory_hits": 1081,
+          "array_disk_hits": 0
+        },
+        {
+          "sampling_ms": 165.583362,
+          "tiff_ms": 699.653163,
+          "pass_ms": 865.30091,
+          "setup_ms": 226.012736,
+          "write_ms": 88.433342,
+          "finish_ms": 385.207085,
+          "array_memory_hits": 1081,
+          "array_disk_hits": 0
+        }
+      ],
+      "generated": [],
+      "log_sha256": "fa67f0242e76387af3766b1fc469ba0ba7032f28ca95d2400226839787fa3001",
+      "addresses": [
+        "443",
+        "0x309ee650",
+        "0x7ffcd29bdf50"
+      ],
+      "process": {
+        "command": [
+          "unshare",
+          "-Urn",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/vc_render_tifxyz",
+          "--volume",
+          "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/ct.zarr",
+          "--segmentation",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output",
+          "--tif-output",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/on-0",
+          "--scale",
+          "1",
+          "--group-idx",
+          "0",
+          "--num-slices",
+          "101",
+          "--slice-step",
+          "1",
+          "--voxel-size",
+          "9.362",
+          "--voxel-unit",
+          "micrometer",
+          "--cache-gb",
+          "1",
+          "--crop-x",
+          "7356",
+          "--crop-y",
+          "2272",
+          "--crop-width",
+          "128",
+          "--crop-height",
+          "128",
+          "--accum",
+          "0.5",
+          "--accum-type",
+          "mean"
+        ],
+        "cwd": "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02",
+        "started_utc": "2026-11-12T13:17:43.017000+00:00",
+        "completed_utc": "2026-11-12T13:17:46.111447+00:00",
+        "timeout_seconds": 120,
+        "elapsed_seconds": 3.094509842000001,
+        "exit_code": 0,
+        "max_child_rss_bytes": 101220352,
+        "user_cpu_seconds": 0.62,
+        "sys_cpu_seconds": 0.26,
+        "timing_pid": 442,
+        "reaped": true
+      }
+    },
+    "off-1": {
+      "passes": [
+        {
+          "sampling_ms": 341.940342,
+          "tiff_ms": 598.401472,
+          "pass_ms": 940.869532,
+          "setup_ms": 280.885492,
+          "write_ms": 52.647429,
+          "finish_ms": 264.868551,
+          "array_memory_hits": 1069,
+          "array_disk_hits": 12
+        },
+        {
+          "sampling_ms": 243.774608,
+          "tiff_ms": 658.033356,
+          "pass_ms": 901.864003,
+          "setup_ms": 158.324861,
+          "write_ms": 81.005737,
+          "finish_ms": 418.702758,
+          "array_memory_hits": 1081,
+          "array_disk_hits": 0
+        },
+        {
+          "sampling_ms": 250.492085,
+          "tiff_ms": 644.895681,
+          "pass_ms": 895.450153,
+          "setup_ms": 219.359446,
+          "write_ms": 59.192075,
+          "finish_ms": 366.34416,
+          "array_memory_hits": 1081,
+          "array_disk_hits": 0
+        }
+      ],
+      "generated": [],
+      "log_sha256": "ae55da07a779b32eec3b2fbd165fb7ca730326023e3aa955eb2fe9eb07778067",
+      "addresses": [
+        "450",
+        "0x104c650",
+        "0x7ffe7b1047d0"
+      ],
+      "process": {
+        "command": [
+          "unshare",
+          "-Urn",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/vc_render_tifxyz",
+          "--volume",
+          "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/ct.zarr",
+          "--segmentation",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output",
+          "--tif-output",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/off-1",
+          "--scale",
+          "1",
+          "--group-idx",
+          "0",
+          "--num-slices",
+          "101",
+          "--slice-step",
+          "1",
+          "--voxel-size",
+          "9.362",
+          "--voxel-unit",
+          "micrometer",
+          "--cache-gb",
+          "1",
+          "--crop-x",
+          "7356",
+          "--crop-y",
+          "2272",
+          "--crop-width",
+          "128",
+          "--crop-height",
+          "128",
+          "--accum",
+          "0.5",
+          "--accum-type",
+          "mean"
+        ],
+        "cwd": "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02",
+        "started_utc": "2026-11-12T13:17:47.237794+00:00",
+        "completed_utc": "2026-11-12T13:17:50.331267+00:00",
+        "timeout_seconds": 120,
+        "elapsed_seconds": 3.0934745639999974,
+        "exit_code": 0,
+        "max_child_rss_bytes": 99008512,
+        "user_cpu_seconds": 0.9,
+        "sys_cpu_seconds": 0.15,
+        "timing_pid": 449,
+        "reaped": true
+      }
+    },
+    "on-1": {
+      "passes": [
+        {
+          "sampling_ms": 274.491697,
+          "tiff_ms": 682.840866,
+          "pass_ms": 957.73231,
+          "setup_ms": 198.27426,
+          "write_ms": 84.978421,
+          "finish_ms": 399.588185,
+          "array_memory_hits": 1069,
+          "array_disk_hits": 12
+        },
+        {
+          "sampling_ms": 178.6413,
+          "tiff_ms": 688.442585,
+          "pass_ms": 867.12078,
+          "setup_ms": 183.989071,
+          "write_ms": 85.994728,
+          "finish_ms": 418.458786,
+          "array_memory_hits": 1081,
+          "array_disk_hits": 0
+        },
+        {
+          "sampling_ms": 167.590766,
+          "tiff_ms": 655.607286,
+          "pass_ms": 823.23331,
+          "setup_ms": 218.193795,
+          "write_ms": 73.059141,
+          "finish_ms": 364.35435,
+          "array_memory_hits": 1081,
+          "array_disk_hits": 0
+        }
+      ],
+      "generated": [],
+      "log_sha256": "ba0a2aef60feb183f5aa05a5653ba5f30f141a876b80781589df2288c08975e4",
+      "addresses": [
+        "457",
+        "0x32b06650",
+        "0x7ffc61a54390"
+      ],
+      "process": {
+        "command": [
+          "unshare",
+          "-Urn",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/vc_render_tifxyz",
+          "--volume",
+          "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/ct.zarr",
+          "--segmentation",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output",
+          "--tif-output",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/on-1",
+          "--scale",
+          "1",
+          "--group-idx",
+          "0",
+          "--num-slices",
+          "101",
+          "--slice-step",
+          "1",
+          "--voxel-size",
+          "9.362",
+          "--voxel-unit",
+          "micrometer",
+          "--cache-gb",
+          "1",
+          "--crop-x",
+          "7356",
+          "--crop-y",
+          "2272",
+          "--crop-width",
+          "128",
+          "--crop-height",
+          "128",
+          "--accum",
+          "0.5",
+          "--accum-type",
+          "mean"
+        ],
+        "cwd": "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02",
+        "started_utc": "2026-11-12T13:17:51.541754+00:00",
+        "completed_utc": "2026-11-12T13:17:54.582082+00:00",
+        "timeout_seconds": 120,
+        "elapsed_seconds": 3.040329071000002,
+        "exit_code": 0,
+        "max_child_rss_bytes": 100913152,
+        "user_cpu_seconds": 0.68,
+        "sys_cpu_seconds": 0.2,
+        "timing_pid": 456,
+        "reaped": true
+      }
+    },
+    "off-2": {
+      "passes": [
+        {
+          "sampling_ms": 359.419996,
+          "tiff_ms": 669.055409,
+          "pass_ms": 1028.87325,
+          "setup_ms": 222.9737,
+          "write_ms": 74.111698,
+          "finish_ms": 371.970011,
+          "array_memory_hits": 1069,
+          "array_disk_hits": 12
+        },
+        {
+          "sampling_ms": 211.255692,
+          "tiff_ms": 481.17006,
+          "pass_ms": 692.520798,
+          "setup_ms": 144.290441,
+          "write_ms": 56.657754,
+          "finish_ms": 280.221865,
+          "array_memory_hits": 1081,
+          "array_disk_hits": 0
+        },
+        {
+          "sampling_ms": 228.258388,
+          "tiff_ms": 596.623205,
+          "pass_ms": 824.922565,
+          "setup_ms": 130.542951,
+          "write_ms": 60.803323,
+          "finish_ms": 405.276931,
+          "array_memory_hits": 1081,
+          "array_disk_hits": 0
+        }
+      ],
+      "generated": [],
+      "log_sha256": "690a3fc3b9332635e245962fe78eb725e38770b84854dfd8e172f51935ec72ba",
+      "addresses": [
+        "464",
+        "0x3c007650",
+        "0x7ffcd3a49f10"
+      ],
+      "process": {
+        "command": [
+          "unshare",
+          "-Urn",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/vc_render_tifxyz",
+          "--volume",
+          "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/ct.zarr",
+          "--segmentation",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output",
+          "--tif-output",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/off-2",
+          "--scale",
+          "1",
+          "--group-idx",
+          "0",
+          "--num-slices",
+          "101",
+          "--slice-step",
+          "1",
+          "--voxel-size",
+          "9.362",
+          "--voxel-unit",
+          "micrometer",
+          "--cache-gb",
+          "1",
+          "--crop-x",
+          "7356",
+          "--crop-y",
+          "2272",
+          "--crop-width",
+          "128",
+          "--crop-height",
+          "128",
+          "--accum",
+          "0.5",
+          "--accum-type",
+          "mean"
+        ],
+        "cwd": "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02",
+        "started_utc": "2026-11-12T13:17:55.692299+00:00",
+        "completed_utc": "2026-11-12T13:17:58.731059+00:00",
+        "timeout_seconds": 120,
+        "elapsed_seconds": 3.0387611450000023,
+        "exit_code": 0,
+        "max_child_rss_bytes": 101191680,
+        "user_cpu_seconds": 0.83,
+        "sys_cpu_seconds": 0.21,
+        "timing_pid": 463,
+        "reaped": true
+      }
+    },
+    "on-2": {
+      "passes": [
+        {
+          "sampling_ms": 303.708136,
+          "tiff_ms": 689.964212,
+          "pass_ms": 994.142623,
+          "setup_ms": 211.792801,
+          "write_ms": 75.592657,
+          "finish_ms": 402.578754,
+          "array_memory_hits": 1069,
+          "array_disk_hits": 12
+        },
+        {
+          "sampling_ms": 163.23157,
+          "tiff_ms": 746.639528,
+          "pass_ms": 909.945804,
+          "setup_ms": 201.941582,
+          "write_ms": 105.760176,
+          "finish_ms": 438.93777,
+          "array_memory_hits": 1081,
+          "array_disk_hits": 0
+        },
+        {
+          "sampling_ms": 140.417778,
+          "tiff_ms": 532.975653,
+          "pass_ms": 673.452743,
+          "setup_ms": 187.510944,
+          "write_ms": 65.292775,
+          "finish_ms": 280.171934,
+          "array_memory_hits": 1081,
+          "array_disk_hits": 0
+        }
+      ],
+      "generated": [],
+      "log_sha256": "85f1cc9b983e2cb7723a64769cad89907cc3c9b61949fb08d005b1aee6ffd4c1",
+      "addresses": [
+        "471",
+        "0x321d650",
+        "0x7ffcb2d01570"
+      ],
+      "process": {
+        "command": [
+          "unshare",
+          "-Urn",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/vc_render_tifxyz",
+          "--volume",
+          "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/ct.zarr",
+          "--segmentation",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output",
+          "--tif-output",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/on-2",
+          "--scale",
+          "1",
+          "--group-idx",
+          "0",
+          "--num-slices",
+          "101",
+          "--slice-step",
+          "1",
+          "--voxel-size",
+          "9.362",
+          "--voxel-unit",
+          "micrometer",
+          "--cache-gb",
+          "1",
+          "--crop-x",
+          "7356",
+          "--crop-y",
+          "2272",
+          "--crop-width",
+          "128",
+          "--crop-height",
+          "128",
+          "--accum",
+          "0.5",
+          "--accum-type",
+          "mean"
+        ],
+        "cwd": "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02",
+        "started_utc": "2026-11-12T13:18:00.012480+00:00",
+        "completed_utc": "2026-11-12T13:18:03.000067+00:00",
+        "timeout_seconds": 120,
+        "elapsed_seconds": 2.987583906999994,
+        "exit_code": 0,
+        "max_child_rss_bytes": 101408768,
+        "user_cpu_seconds": 0.62,
+        "sys_cpu_seconds": 0.21,
+        "timing_pid": 470,
+        "reaped": true
+      }
+    }
+  },
+  "observation_runs": {
+    "observe-off": {
+      "passes": [
+        {
+          "sampling_ms": 858.27678,
+          "tiff_ms": 738.889606,
+          "pass_ms": 1597.697003,
+          "setup_ms": 242.91947,
+          "write_ms": 100.044048,
+          "finish_ms": 395.926088,
+          "array_memory_hits": 1069,
+          "array_disk_hits": 12
+        }
+      ],
+      "generated": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "log_sha256": "14e5a2865f8e0139208bbd00c2313826a05c21a6a05a9e9c91714c4b103ce959",
+      "addresses": [
+        "422",
+        "0x1a2eb850",
+        "0x7ffcdeb03a50"
+      ],
+      "process": {
+        "command": [
+          "unshare",
+          "-Urn",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/vc_render_tifxyz",
+          "--volume",
+          "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/ct.zarr",
+          "--segmentation",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output",
+          "--tif-output",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/observe-off",
+          "--scale",
+          "1",
+          "--group-idx",
+          "0",
+          "--num-slices",
+          "101",
+          "--slice-step",
+          "1",
+          "--voxel-size",
+          "9.362",
+          "--voxel-unit",
+          "micrometer",
+          "--cache-gb",
+          "1",
+          "--crop-x",
+          "7356",
+          "--crop-y",
+          "2272",
+          "--crop-width",
+          "128",
+          "--crop-height",
+          "128",
+          "--accum",
+          "0.5",
+          "--accum-type",
+          "mean"
+        ],
+        "cwd": "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02",
+        "started_utc": "2026-11-12T13:17:33.735654+00:00",
+        "completed_utc": "2026-11-12T13:17:35.834638+00:00",
+        "timeout_seconds": 120,
+        "elapsed_seconds": 2.098986734999997,
+        "exit_code": 0,
+        "max_child_rss_bytes": 99106816,
+        "user_cpu_seconds": 0.4,
+        "sys_cpu_seconds": 0.17,
+        "timing_pid": 421,
+        "reaped": true
+      }
+    },
+    "observe-on": {
+      "passes": [
+        {
+          "sampling_ms": 664.13654,
+          "tiff_ms": 637.984887,
+          "pass_ms": 1302.529641,
+          "setup_ms": 219.905893,
+          "write_ms": 85.543027,
+          "finish_ms": 332.535967,
+          "array_memory_hits": 1070,
+          "array_disk_hits": 11
+        }
+      ],
+      "generated": [
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "log_sha256": "e53b3f5265de5d5efd860367bfc8326002c69c57fbd16ec0d35036f800015f20",
+      "addresses": [
+        "429",
+        "0x3e872850",
+        "0x7fff8d66fdb0"
+      ],
+      "process": {
+        "command": [
+          "unshare",
+          "-Urn",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/vc_render_tifxyz",
+          "--volume",
+          "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/ct.zarr",
+          "--segmentation",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output",
+          "--tif-output",
+          "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/observe-on",
+          "--scale",
+          "1",
+          "--group-idx",
+          "0",
+          "--num-slices",
+          "101",
+          "--slice-step",
+          "1",
+          "--voxel-size",
+          "9.362",
+          "--voxel-unit",
+          "micrometer",
+          "--cache-gb",
+          "1",
+          "--crop-x",
+          "7356",
+          "--crop-y",
+          "2272",
+          "--crop-width",
+          "128",
+          "--crop-height",
+          "128",
+          "--accum",
+          "0.5",
+          "--accum-type",
+          "mean"
+        ],
+        "cwd": "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02",
+        "started_utc": "2026-11-12T13:17:36.376381+00:00",
+        "completed_utc": "2026-11-12T13:17:38.162508+00:00",
+        "timeout_seconds": 120,
+        "elapsed_seconds": 1.7861216849999977,
+        "exit_code": 0,
+        "max_child_rss_bytes": 99311616,
+        "user_cpu_seconds": 0.27,
+        "sys_cpu_seconds": 0.15,
+        "timing_pid": 428,
+        "reaped": true
+      }
+    }
+  },
+  "per_pass_summary": [
+    {
+      "sampling_ms": {
+        "off": {
+          "min": 294.204338,
+          "median": 341.940342,
+          "max": 359.419996
+        },
+        "on": {
+          "min": 270.110477,
+          "median": 274.491697,
+          "max": 303.708136
+        }
+      },
+      "tiff_ms": {
+        "off": {
+          "min": 547.902601,
+          "median": 598.401472,
+          "max": 669.055409
+        },
+        "on": {
+          "min": 679.96228,
+          "median": 682.840866,
+          "max": 689.964212
+        }
+      },
+      "pass_ms": {
+        "off": {
+          "min": 842.403614,
+          "median": 940.869532,
+          "max": 1028.87325
+        },
+        "on": {
+          "min": 950.470497,
+          "median": 957.73231,
+          "max": 994.142623
+        }
+      },
+      "median_shortening_pct": 19.72526687126025,
+      "pair_shortening_pct": [
+        8.189498891753257,
+        19.72526687126025,
+        15.500489850319845
+      ]
+    },
+    {
+      "sampling_ms": {
+        "off": {
+          "min": 211.255692,
+          "median": 220.176648,
+          "max": 243.774608
+        },
+        "on": {
+          "min": 163.23157,
+          "median": 163.888919,
+          "max": 178.6413
+        }
+      },
+      "tiff_ms": {
+        "off": {
+          "min": 481.17006,
+          "median": 658.033356,
+          "max": 737.941993
+        },
+        "on": {
+          "min": 682.881308,
+          "median": 688.442585,
+          "max": 746.639528
+        }
+      },
+      "pass_ms": {
+        "off": {
+          "min": 692.520798,
+          "median": 901.864003,
+          "max": 958.175104
+        },
+        "on": {
+          "min": 846.812654,
+          "median": 867.12078,
+          "max": 909.945804
+        }
+      },
+      "median_shortening_pct": 25.564804220291343,
+      "pair_shortening_pct": [
+        25.564804220291343,
+        26.718659721934614,
+        22.73269967088035
+      ]
+    },
+    {
+      "sampling_ms": {
+        "off": {
+          "min": 228.258388,
+          "median": 244.262469,
+          "max": 250.492085
+        },
+        "on": {
+          "min": 140.417778,
+          "median": 165.583362,
+          "max": 167.590766
+        }
+      },
+      "tiff_ms": {
+        "off": {
+          "min": 596.623205,
+          "median": 641.671161,
+          "max": 644.895681
+        },
+        "on": {
+          "min": 532.975653,
+          "median": 655.607286,
+          "max": 699.653163
+        }
+      },
+      "pass_ms": {
+        "off": {
+          "min": 824.922565,
+          "median": 886.037283,
+          "max": 895.450153
+        },
+        "on": {
+          "min": 673.452743,
+          "median": 823.23331,
+          "max": 865.30091
+        }
+      },
+      "median_shortening_pct": 32.210886642597565,
+      "pair_shortening_pct": [
+        32.210886642597565,
+        33.095384630616174,
+        38.482971324585016
+      ]
+    }
+  ],
+  "process_summary": {
+    "elapsed_seconds": {
+      "off": {
+        "min": 3.0387611450000023,
+        "median": 3.044483030000002,
+        "max": 3.0934745639999974
+      },
+      "on": {
+        "min": 2.987583906999994,
+        "median": 3.040329071000002,
+        "max": 3.094509842000001
+      }
+    },
+    "max_child_rss_bytes": {
+      "off": {
+        "min": 99008512,
+        "median": 101064704,
+        "max": 101191680
+      },
+      "on": {
+        "min": 100913152,
+        "median": 101220352,
+        "max": 101408768
+      }
+    }
+  },
+  "timed_tiffs": 1818,
+  "observed_tiffs": 202,
+  "control_tiffs": 101
+}

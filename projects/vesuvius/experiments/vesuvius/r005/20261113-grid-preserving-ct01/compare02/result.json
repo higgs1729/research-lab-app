@@ -1,0 +1,349 @@
+{
+  "plan_sha256": "233a8a7c7e8adbc5a828950be3f7f98e2ea309f008c3f48f2f4c9113e98062f2",
+  "coverage_sha256": "bf9312ecfc7687d20855992c6ace890ad777d9bd3207ce8e81fcefb79b272d73",
+  "controls": {
+    "before_file_sha256": {
+      "experiments/vesuvius/r005/20261112-ct-render01/render01/before/ct-layers.f32": "1ddb16c4072657031728d335bc493168a1ab7f8cff04a0e4fab52f73bb7a13ed",
+      "experiments/vesuvius/r005/20261112-ct-render01/render01/before/geometry.bin": "128d1a6b3217769bdb9c5844755d0e9aefb3f8137f2ca86753eaeea73a6c68bc",
+      "experiments/vesuvius/r005/20261112-ct-render01/render01/before/tiff/00.tif": "5668a18ffafb7fcf2b592899d245d37632d7ac261b1663945e83e03f14ce165e",
+      "experiments/vesuvius/r005/20261112-ct-render01/render01/before/tiff/01.tif": "ce3b4658a3a49c79900d1af7f7a4dc592c4ff9cd53291323d02c2b8b99afee71",
+      "experiments/vesuvius/r005/20261112-ct-render01/render01/before/tiff/02.tif": "9ddd243ff1dca1768ba448c3ea079859e8099074e3997e46ce4e481a3cc813de",
+      "experiments/vesuvius/r005/20261112-ct-render01/render01/before/tiff/03.tif": "2e78c106baa605db2b82f286a7a7178e4cb0674f66f67713f6962489573d9907",
+      "experiments/vesuvius/r005/20261112-ct-render01/render01/before/tiff/04.tif": "c744c62522768f2077e51281cf6b53885c4314228ca392532ab55397ce8473cd"
+    },
+    "before_mixed_pixels": 1280,
+    "before_mixed_yx_bounds_inclusive": [
+      [
+        22,
+        0
+      ],
+      [
+        41,
+        63
+      ]
+    ],
+    "before_mixed_nonzero_uint8_by_offset": [
+      1280,
+      1280,
+      1280,
+      1280,
+      1280
+    ],
+    "before_mixed_uint8_range_by_offset": [
+      [
+        12,
+        255
+      ],
+      [
+        9,
+        255
+      ],
+      [
+        17,
+        255
+      ],
+      [
+        18,
+        255
+      ],
+      [
+        12,
+        255
+      ]
+    ],
+    "before_independent_trilinear_max_abs": 3.8122874684631824e-05
+  },
+  "pairs": {
+    "component0": {
+      "component": 0,
+      "source_face": 53045,
+      "pure_original_pixels": 1408,
+      "matched_support_pixels": 1408,
+      "original_mixed_valid_pixels": 1280,
+      "corresponding_old_mixed_still_valid_pixels": 0,
+      "target_valid_pixels": 1408,
+      "target_mixed_pixels": 0,
+      "target_independent_trilinear_max_abs": 3.3094402169808745e-05,
+      "base_xyz": {
+        "vectors": 1408,
+        "identical_bits": 1408,
+        "max_abs_by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max_l2": 0.0
+      },
+      "normal_xyz": {
+        "vectors": 1408,
+        "identical_bits": 1408,
+        "max_abs_by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max_l2": 0.0
+      },
+      "layers": [
+        {
+          "offset_vox": -2,
+          "sample_xyz": {
+            "vectors": 1408,
+            "identical_bits": 1408,
+            "max_abs_by_axis": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_l2": 0.0
+          },
+          "ct_corner_cell_changed": 0,
+          "float_equal_bits": 1408,
+          "float_max_abs": 0.0,
+          "float_mean_abs": 0.0,
+          "uint8_equal": 1408,
+          "uint8_different": 0,
+          "uint8_max_abs": 0
+        },
+        {
+          "offset_vox": -1,
+          "sample_xyz": {
+            "vectors": 1408,
+            "identical_bits": 1408,
+            "max_abs_by_axis": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_l2": 0.0
+          },
+          "ct_corner_cell_changed": 0,
+          "float_equal_bits": 1408,
+          "float_max_abs": 0.0,
+          "float_mean_abs": 0.0,
+          "uint8_equal": 1408,
+          "uint8_different": 0,
+          "uint8_max_abs": 0
+        },
+        {
+          "offset_vox": 0,
+          "sample_xyz": {
+            "vectors": 1408,
+            "identical_bits": 1408,
+            "max_abs_by_axis": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_l2": 0.0
+          },
+          "ct_corner_cell_changed": 0,
+          "float_equal_bits": 1408,
+          "float_max_abs": 0.0,
+          "float_mean_abs": 0.0,
+          "uint8_equal": 1408,
+          "uint8_different": 0,
+          "uint8_max_abs": 0
+        },
+        {
+          "offset_vox": 1,
+          "sample_xyz": {
+            "vectors": 1408,
+            "identical_bits": 1408,
+            "max_abs_by_axis": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_l2": 0.0
+          },
+          "ct_corner_cell_changed": 0,
+          "float_equal_bits": 1408,
+          "float_max_abs": 0.0,
+          "float_mean_abs": 0.0,
+          "uint8_equal": 1408,
+          "uint8_different": 0,
+          "uint8_max_abs": 0
+        },
+        {
+          "offset_vox": 2,
+          "sample_xyz": {
+            "vectors": 1408,
+            "identical_bits": 1408,
+            "max_abs_by_axis": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_l2": 0.0
+          },
+          "ct_corner_cell_changed": 0,
+          "float_equal_bits": 1408,
+          "float_max_abs": 0.0,
+          "float_mean_abs": 0.0,
+          "uint8_equal": 1408,
+          "uint8_different": 0,
+          "uint8_max_abs": 0
+        }
+      ],
+      "grid_pixel_translation_residual_xy": {
+        "nonzero": 0,
+        "min_by_axis": [
+          0.0,
+          0.0
+        ],
+        "max_by_axis": [
+          0.0,
+          0.0
+        ]
+      },
+      "signed_normal_dot_min": 0.999999772865301
+    },
+    "component2": {
+      "component": 2,
+      "source_face": 63364,
+      "pure_original_pixels": 1408,
+      "matched_support_pixels": 1408,
+      "original_mixed_valid_pixels": 1280,
+      "corresponding_old_mixed_still_valid_pixels": 0,
+      "target_valid_pixels": 1408,
+      "target_mixed_pixels": 0,
+      "target_independent_trilinear_max_abs": 3.8122874684631824e-05,
+      "base_xyz": {
+        "vectors": 1408,
+        "identical_bits": 1408,
+        "max_abs_by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max_l2": 0.0
+      },
+      "normal_xyz": {
+        "vectors": 1408,
+        "identical_bits": 1408,
+        "max_abs_by_axis": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "max_l2": 0.0
+      },
+      "layers": [
+        {
+          "offset_vox": -2,
+          "sample_xyz": {
+            "vectors": 1408,
+            "identical_bits": 1408,
+            "max_abs_by_axis": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_l2": 0.0
+          },
+          "ct_corner_cell_changed": 0,
+          "float_equal_bits": 1408,
+          "float_max_abs": 0.0,
+          "float_mean_abs": 0.0,
+          "uint8_equal": 1408,
+          "uint8_different": 0,
+          "uint8_max_abs": 0
+        },
+        {
+          "offset_vox": -1,
+          "sample_xyz": {
+            "vectors": 1408,
+            "identical_bits": 1408,
+            "max_abs_by_axis": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_l2": 0.0
+          },
+          "ct_corner_cell_changed": 0,
+          "float_equal_bits": 1408,
+          "float_max_abs": 0.0,
+          "float_mean_abs": 0.0,
+          "uint8_equal": 1408,
+          "uint8_different": 0,
+          "uint8_max_abs": 0
+        },
+        {
+          "offset_vox": 0,
+          "sample_xyz": {
+            "vectors": 1408,
+            "identical_bits": 1408,
+            "max_abs_by_axis": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_l2": 0.0
+          },
+          "ct_corner_cell_changed": 0,
+          "float_equal_bits": 1408,
+          "float_max_abs": 0.0,
+          "float_mean_abs": 0.0,
+          "uint8_equal": 1408,
+          "uint8_different": 0,
+          "uint8_max_abs": 0
+        },
+        {
+          "offset_vox": 1,
+          "sample_xyz": {
+            "vectors": 1408,
+            "identical_bits": 1408,
+            "max_abs_by_axis": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_l2": 0.0
+          },
+          "ct_corner_cell_changed": 0,
+          "float_equal_bits": 1408,
+          "float_max_abs": 0.0,
+          "float_mean_abs": 0.0,
+          "uint8_equal": 1408,
+          "uint8_different": 0,
+          "uint8_max_abs": 0
+        },
+        {
+          "offset_vox": 2,
+          "sample_xyz": {
+            "vectors": 1408,
+            "identical_bits": 1408,
+            "max_abs_by_axis": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "max_l2": 0.0
+          },
+          "ct_corner_cell_changed": 0,
+          "float_equal_bits": 1408,
+          "float_max_abs": 0.0,
+          "float_mean_abs": 0.0,
+          "uint8_equal": 1408,
+          "uint8_different": 0,
+          "uint8_max_abs": 0
+        }
+      ],
+      "grid_pixel_translation_residual_xy": {
+        "nonzero": 0,
+        "min_by_axis": [
+          0.0,
+          0.0
+        ],
+        "max_by_axis": [
+          0.0,
+          0.0
+        ]
+      },
+      "signed_normal_dot_min": 0.9999997731153787
+    }
+  },
+  "uint8_mismatches": []
+}

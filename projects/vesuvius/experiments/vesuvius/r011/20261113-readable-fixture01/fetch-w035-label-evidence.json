@@ -1,0 +1,72 @@
+[
+  {
+    "file": "w035-inklabels-L0.bin",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/ink-labels/9.362um-volume-20250728140407/20260918/inklabels.zarr/0/c/0/0",
+    "retrieved_utc": "2026-11-13T04:22:56.431360+00:00",
+    "status": 200,
+    "bytes": 12888,
+    "etag": "\"e0754d8707c90eb3917669a2ee47285c\"",
+    "last_modified": "Mon, 21 Sep 2026 10:06:38 GMT",
+    "sha256": "b0db4f2af6f306a99eaa39661950a472c54006b9ea47e10f38f960aa21385f49"
+  },
+  {
+    "file": "w035-supervision-L0.bin",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/ink-labels/9.362um-volume-20250728140407/20260918/supervision.zarr/0/c/0/0",
+    "retrieved_utc": "2026-11-13T04:22:56.432653+00:00",
+    "status": 200,
+    "bytes": 10630,
+    "etag": "\"bf9bdeccdddb5a4fe4978df5d8edcb72\"",
+    "last_modified": "Mon, 21 Sep 2026 10:06:38 GMT",
+    "sha256": "8d21bb35550e5793a86519ccdcee1afc6b26c80dba3d2197536cec8996d53ed1"
+  },
+  {
+    "file": "pherc0139-transforms.xml",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/?list-type=2&prefix=PHerc0139%2Ftransforms%2F&delimiter=%2F&max-keys=150",
+    "retrieved_utc": "2026-11-13T04:22:56.433320+00:00",
+    "status": 200,
+    "bytes": 1266,
+    "etag": null,
+    "last_modified": null,
+    "sha256": "0bc1a84406922f517b488a4472ed25c42e4bb2f3addff35c414264db67b7c33e"
+  },
+  {
+    "file": "w035-9um-alt-20251107132835-meta.json",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/mesh/20260317000000-on-20251107132835-9.362um.tifxyz/meta.json",
+    "retrieved_utc": "2026-11-13T04:22:56.433769+00:00",
+    "status": 200,
+    "bytes": 322,
+    "etag": "\"49a18fb0646ef0afa2afcfedd46f3211\"",
+    "last_modified": "Mon, 09 Nov 2026 17:00:43 GMT",
+    "sha256": "96c18e15612d4b6117bcff5f9467daa93773e5145e6c050f49aa37f5673cf7d6"
+  },
+  {
+    "file": "w035-9um-alt-20251107135911-meta.json",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/mesh/20260317000000-on-20251107135911-9.362um.tifxyz/meta.json",
+    "retrieved_utc": "2026-11-13T04:22:56.434332+00:00",
+    "status": 200,
+    "bytes": 322,
+    "etag": "\"49a18fb0646ef0afa2afcfedd46f3211\"",
+    "last_modified": "Mon, 09 Nov 2026 17:00:35 GMT",
+    "sha256": "96c18e15612d4b6117bcff5f9467daa93773e5145e6c050f49aa37f5673cf7d6"
+  },
+  {
+    "file": "w035-normalized-meta.json",
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/mesh/intermediate/tifxyz_normalized/meta.json",
+    "retrieved_utc": "2026-11-13T04:22:56.435294+00:00",
+    "status": 200,
+    "bytes": 291,
+    "etag": "\"a0b71dbaefa3f5d4cee3d83f2f7eda25\"",
+    "last_modified": "Wed, 24 Jun 2026 23:20:22 GMT",
+    "sha256": "e156af1554970b25472d0548adbc3a2e34af18e0004c68a8147ad5f4d542610e"
+  },
+  {
+    "file": "w035-flat-model.json",
+    "url": "https://huggingface.co/api/models/scrollprize/ink_9um",
+    "retrieved_utc": "2026-11-13T04:22:57.207130+00:00",
+    "status": 200,
+    "bytes": 1320,
+    "etag": "W/\"528-Y56wJHIgpe72BHJScMRedozlFGo\"",
+    "last_modified": null,
+    "sha256": "4300dd147a01745572f1f0f101d9d97519e92bf100a2b3efb0d9ef7c5d29365b"
+  }
+]

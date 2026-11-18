@@ -1,0 +1,50 @@
+{
+  "utc": "2026-11-15T13:51:38.218174+00:00",
+  "compiler_version": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "RLIMIT_AS": [
+    4294967296,
+    4294967296
+  ],
+  "affinity": [
+    0
+  ],
+  "probes": [
+    {
+      "command": [
+        "g++",
+        "-Q",
+        "-O3",
+        "-march=native",
+        "--help=optimizers"
+      ],
+      "selected_lines": [
+        "  -fassociative-math          \t\t[disabled]",
+        "  -ffast-math                 \t\t",
+        "  -ffinite-math-only          \t\t[disabled]",
+        "  -ffp-contract=[off|on|fast] \t\tfast",
+        "  -freciprocal-math           \t\t[disabled]",
+        "  -funsafe-math-optimizations \t\t[disabled]"
+      ]
+    },
+    {
+      "command": [
+        "g++",
+        "-Q",
+        "-O3",
+        "-march=native",
+        "--help=target"
+      ],
+      "selected_lines": [
+        "  -march=                     \t\talderlake",
+        "  -mavx2                      \t\t[enabled]",
+        "  -mavx512f                   \t\t[disabled]",
+        "  -mfma                       \t\t[enabled]",
+        "  -mtune=                     \t\talderlake",
+        "  Known valid arguments for -march= option:",
+        "  Known valid arguments for -mtune= option:"
+      ]
+    }
+  ],
+  "translation_units_compiled": 0,
+  "limitation": "Current local compiler native target only; not original OCI build CPU."
+}

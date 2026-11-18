@@ -1,0 +1,139 @@
+{
+  "atlas_revision": "33b4fc81f13a32332b179bf8c34f42ec3cfe7589",
+  "prediction_tree": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-next-contiguous-unread-window01\\z14304_w100-tree.json",
+  "prediction_tree_sha256": "6c3120f81ff4e38d1250f516a45fc367c1d464bb76d3c18daa438241b9a19933",
+  "atlas_public_card": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-atlas-renders/blob/33b4fc81f13a32332b179bf8c34f42ec3cfe7589/README.md",
+  "producer_mesh_commit": "0c966f8f11f92cffb09dbc6320a706161405ad0b",
+  "preflight": [
+    {
+      "path": "originals\\atlas-card.md",
+      "bytes": 5082,
+      "sha256": "b481c5ba36621523c750cadcf4077bbeb39528e2c6a94b83c5f696b6037b14b7"
+    },
+    {
+      "path": "originals\\atlas-segment-tree.json",
+      "bytes": 451,
+      "sha256": "34daea7886e8230b50a5efe0702972a63b6eed147db2c400029a75a79fb884fd"
+    },
+    {
+      "path": "originals\\infer.json",
+      "bytes": 2794,
+      "sha256": "8dce4354e15956eb1f9ec3f5788061e2d5b7a809723816ee7619285d390c3a2e"
+    },
+    {
+      "path": "originals\\mesh-commit.json",
+      "bytes": 5156,
+      "sha256": "113f32c25e68bf58e201dd231379e2cf8988b005a0e16e33da7df40656ab811c"
+    },
+    {
+      "path": "originals\\mesh-tree.json",
+      "bytes": 5113,
+      "sha256": "7e808daaf13425e4e365e48d0806037681d2998ef5677ca2a95ab733f77c86d6"
+    },
+    {
+      "path": "originals\\official-PHerc0813.html",
+      "bytes": 22926,
+      "sha256": "391afeeec5780c1ec0a10fdfd71ac9aae54057d30146e49c36d1430e7496bdcc"
+    },
+    {
+      "path": "originals\\official-prizes.html",
+      "bytes": 54693,
+      "sha256": "9021d7d6793a4753cacd6a93849a913706fa5c53d0a94fe8a16d536581c408d7"
+    },
+    {
+      "path": "originals\\official-winners.html",
+      "bytes": 179727,
+      "sha256": "47ea591bb8733abe815ce7457925da1ab4cac740f6f1b2dbd12b5751332d5a0c"
+    },
+    {
+      "path": "originals\\render-mesh-tree.json",
+      "bytes": 5113,
+      "sha256": "1f025f7df1b64c8e9aa7c192f9a1339468bd8380b804c40dc29a7d6f5180d63b"
+    }
+  ],
+  "mesh": [
+    {
+      "url": "https://raw.githubusercontent.com/pscamillo/vesuvius-eligible-meshes/0c966f8f11f92cffb09dbc6320a706161405ad0b/meshes/PHerc0813/z14304_w100/meta.json",
+      "path": "originals/mesh/meta.json",
+      "bytes": 4223,
+      "git_blob_sha1": "3d67de773083577261406631e55d863f89865811"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pscamillo/vesuvius-eligible-meshes/0c966f8f11f92cffb09dbc6320a706161405ad0b/meshes/PHerc0813/z14304_w100/x.tif",
+      "path": "originals/mesh/x.tif",
+      "bytes": 229796,
+      "git_blob_sha1": "ddb21a9a1cad7dd001d19cddefde3af89d82248b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pscamillo/vesuvius-eligible-meshes/0c966f8f11f92cffb09dbc6320a706161405ad0b/meshes/PHerc0813/z14304_w100/y.tif",
+      "path": "originals/mesh/y.tif",
+      "bytes": 229796,
+      "git_blob_sha1": "3a731b93048d7ae26a442646d9ba6c3d85bddb30"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pscamillo/vesuvius-eligible-meshes/0c966f8f11f92cffb09dbc6320a706161405ad0b/meshes/PHerc0813/z14304_w100/z.tif",
+      "path": "originals/mesh/z.tif",
+      "bytes": 229796,
+      "git_blob_sha1": "8ed2558c3d1e572137e32a1ea545f2f3b59274fa"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-atlas-renders/resolve/33b4fc81f13a32332b179bf8c34f42ec3cfe7589/PHerc0813/z14304_w100/ink-detection/PHerc0813-z14304_w100-20250821151723-ink9um-s43_060k.tif",
+      "path": "originals/PHerc0813-z14304_w100-20250821151723-ink9um-s43_060k.tif",
+      "bytes": 7559153,
+      "role": "forward",
+      "lfs_sha256": "9e210432e62c8dddc78fd15af4d12fd17986419f143acb737b66ac697b69c4f8"
+    },
+    {
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-atlas-renders/resolve/33b4fc81f13a32332b179bf8c34f42ec3cfe7589/PHerc0813/z14304_w100/ink-detection/PHerc0813-z14304_w100-20250821151723-ink9um-s43_060k_reverse.tif",
+      "path": "originals/PHerc0813-z14304_w100-20250821151723-ink9um-s43_060k_reverse.tif",
+      "bytes": 7510193,
+      "role": "reverse",
+      "lfs_sha256": "8731033368bc11a17f57c5fac0a1f7a16f8f0f77df612216c1f8b5ab14f6556a"
+    },
+    {
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-atlas-renders/resolve/33b4fc81f13a32332b179bf8c34f42ec3cfe7589/PHerc0813/z14304_w100/ink-detection/valid_mask.tif",
+      "path": "originals/valid_mask.tif",
+      "bytes": 36601,
+      "role": "author_mask",
+      "git_blob_sha1": "b9faf19d9c9854c581f7ff8f04d620be99d7a5e5"
+    }
+  ],
+  "source_surface_wh": [
+    12340,
+    1860
+  ],
+  "prediction_wh": [
+    12352,
+    1920
+  ],
+  "predicted_format": "single-channel uint8 TIFF per pinned card; decoder to verify",
+  "surface_tar": {
+    "type": "file",
+    "oid": "a8d6174db739a662cf81a3dfea39861c58ae7a1a",
+    "size": 380538880,
+    "lfs": {
+      "oid": "5b8995b08149e06b9005a1d097a4d9f8dc55b0552083bd65d673eef5e5e113ac",
+      "size": 380538880,
+      "pointerSize": 134
+    },
+    "xetHash": "0c38d4bc98505e0c65c2dd8ed07038814a6c12a6ecc70bb62065635de866bc97",
+    "path": "PHerc0813/z14304_w100/surface-volumes.tar"
+  },
+  "reserved_payload_bytes": 16080613,
+  "payload_limit_bytes": 67108864,
+  "free_c_bytes": 16103452672,
+  "duration_limit_seconds": 600,
+  "new_surface_tar_or_ct": false,
+  "display": {
+    "gray": "unchanged 0..255; all canvas pixels including outside the producer mask",
+    "tile_core_wh": [
+      960,
+      432
+    ],
+    "tile_halo_pixels": 32,
+    "overview_only": "pixel-area reduction by eight",
+    "rotation": "none"
+  }
+}

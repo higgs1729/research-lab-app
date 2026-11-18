@@ -1,0 +1,37 @@
+{
+  "reviewer": "research agent / Astra xhigh",
+  "review_order": "Saved before reading any root interpretation of R239 GPU native images",
+  "native_images_viewed": [
+    "review/public-known-phi-raw8-native.png",
+    "review/known_phi-probability-raw-native.png",
+    "review/candidate-native-quadrant-00.png",
+    "review/candidate-native-quadrant-01.png",
+    "review/candidate-native-quadrant-10.png",
+    "review/candidate-native-quadrant-11.png",
+    "review/candidate-probability-raw-native.png",
+    "review/candidate-ct-native.png"
+  ],
+  "display": "Fixed native raw0..1, one predeclared nonzero median..p99.5 view, CT max input indices6:10; no new threshold, scale, depth, or input was selected",
+  "prior_knowledge": "Known phi label and numeric checks were known; no root GPU-image interpretation was available",
+  "known_phi_observation_ja": "公開320x300原寸と今回公開入力からのFP32像は、中央上寄りの暗い内側を囲む太い明部、中央下端までの縦方向の明部、右側へ連続するぼけた明部、および左上の黒い境界が同じ位置・同様の形に見える。粗い環状部と縦軸は今回も追える。確実な単独読字を主張しない。",
+  "known_phi_scope_ja": "この対照は公開原入力で既知の粗い形を維持する推論実装の対照である。近似入力による全体phi再現でも、未知領域全体のrender正確性の証明でもない。",
+  "unknown_observations_ja": [
+    "全体原寸では、上端付近と下側に幅の太い明反応があり、中央の大部分は暗い。下側の反応は単一の一様な帯ではなく、横方向の太い接続から下向きの太い部分が数箇所に伸びる。",
+    "左下quadrantでは、局所xおよそ80-380、yおよそ450-640に、太い横接続と下向きの二つの太い部分、その間の暗い開口を追える。原寸rawにも同じ構造があり、固定median..p99.5表示だけで生じた構造ではない。下向き部分は窓下端で切れている。",
+    "右下は横方向に明暗が連なるが輪郭がぼけ、文字ごとの境界や接続は定めにくい。上段も画像上端で切れた幅の太い反応で、完全な文字としては扱えない。",
+    "CT原寸には横方向の繊維束、縦方向の割れ/境界、点状の強反射が多い。今回のCT max4面表示だけから、左下のモデル反応に対応するインク字画や同一紙層を確認できない。モデルのぼけた太い接続が紙の構造による誤反応である可能性を残す。"
+  ],
+  "followup_candidate": {
+    "selected_for_original_CT_verification_only": true,
+    "count": 1,
+    "candidate_local_xywh": [64,384,384,256],
+    "parent_xywh": [4416,2048,384,256],
+    "reason_ja": "左下の横接続・下向き二部分・暗い開口というまとまりを、原CTで紙層と物理的な接続を確認するための一つの有限ROIとして限定できる。明るさの大きさだけを根拠にしていない。",
+    "limitations_ja": "下端で切れた粗いモデル反応であり、インク・文字・行の存在を確認したものではない。原CTと紙層追跡で裏付けがなければ棄却する。今回ここで追加CT取得/描画/GPU/救済探索を実施しない。",
+    "requires_root_independent_judgement": true
+  },
+  "new_letters_claimed": 0,
+  "new_discoveries_claimed": 0,
+  "public_improvements_claimed": 0,
+  "old_R236_R237_R238_status_changed": false
+}

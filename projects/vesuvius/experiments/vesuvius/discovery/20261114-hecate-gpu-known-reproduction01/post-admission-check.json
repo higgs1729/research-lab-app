@@ -1,0 +1,27 @@
+{
+  "checked_utc": "2026-11-14T07:47:12.107463+00:00",
+  "launcher_pid": 12852,
+  "launcher_pid_exists": false,
+  "own_ticket_count": 0,
+  "absent_outputs_verified": [
+    "admitted.json",
+    "execution-start.json",
+    "execution-result.json",
+    "load.json",
+    "patches",
+    "hecate-reverse.png",
+    "comparison-256.png"
+  ],
+  "model_forward_calls": 0,
+  "holder": {
+    "name": "cw06-stage",
+    "pid": 47316,
+    "phase": "run",
+    "since": "2026-11-14 15:58:23"
+  },
+  "other_ticket_names": [
+    "vk-map-s4",
+    "cw789-pick",
+    "vk_13599605_voice_voice-irodori"
+  ]
+}

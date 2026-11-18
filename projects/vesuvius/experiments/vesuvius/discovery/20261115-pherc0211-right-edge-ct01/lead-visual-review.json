@@ -1,0 +1,24 @@
+{
+  "date_utc": "2026-11-15",
+  "reviewer": "root lead",
+  "before_reading_agent_visual_verdict": true,
+  "coverage": "All 14 frozen sections in both displays: eight XY planes as native raw/window PNGs, and six tangent-normal planes as native window PNGs plus integer-zoom raw/window contact sheets. No additional plane or CT box was introduced.",
+  "source_index": "sections-result.json",
+  "same_plane_contact_sheets": ["lead-candidate-sd-contact.png", "lead-known_phi-sd-contact.png"],
+  "observations": [
+    "At the known-phi control, the saved anchors lie on a comparatively continuous lamina-like band with an adjacent dark gap. The four XY sections and two local tangent-normal sections provide a readable geometric reference at the fixed contrast.",
+    "The candidate anchors enter a crowded region of bent, fragmented or closely apposed lamina-like structures. Short portions near the saved boundary can be followed locally, but a unique continuation from that band into the positive tangent direction is not established across the four anchor levels.",
+    "The candidate tangent-normal views contain cross-connections and competing band boundaries beyond the anchor. I cannot select one continuous paper sheet for a new surface extension from these observations.",
+    "This uncertainty is also visible in the raw 0-to-255 displays. It is not resolved by the fixed contrast window or by treating the straight orange tangent as a traced sheet."
+  ],
+  "decision": "Do not extend this right-edge candidate. Close its local CT continuation diagnostic under the predeclared stopping condition, retaining the unresolved published response and all original observations.",
+  "adopted_surface_extension": false,
+  "new_letters_confirmed": 0,
+  "limitations": [
+    "No claim that the physical paper terminates at the saved boundary.",
+    "No claim that the existing response is false ink or that the scroll lacks further writing.",
+    "This is qualitative interpretation of the fixed local observations, not proof of segmentation truth.",
+    "The old mesh, known text and published probability map remain unmodified."
+  ],
+  "numeric_verification": "lead-numeric-check.json: 26 chunks/52MiB, all14 arrays and raw displays checked independently, maximum interpolation difference8.526512829121202e-14 DN; grayscale data outside annotation lines and anchor positions also checked."
+}

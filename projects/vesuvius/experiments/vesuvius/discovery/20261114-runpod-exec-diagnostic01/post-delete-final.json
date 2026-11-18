@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-14T12:01:00.797220+00:00",
+  "name": "r201-hecate-5d434966c490062d",
+  "pod_id": "cdennye0tecc74",
+  "create_epoch": 1794657175,
+  "delete_epoch": 1794658375,
+  "matches_in_list": 0,
+  "details_http_status": 404,
+  "total_pods_in_list": 0,
+  "billing_http_status": 200,
+  "billing_records": [],
+  "billing_query": {
+    "bucketSize": "hour",
+    "endTime": "2026-11-14T12:00:00Z",
+    "podId": "cdennye0tecc74",
+    "startTime": "2026-11-14T11:00:00Z"
+  },
+  "billing_totals": {
+    "cpuAmount": 0,
+    "diskAmount": 0,
+    "gpuAmount": 0,
+    "totalAmount": 0
+  },
+  "balance": {
+    "http_status": 200,
+    "client_balance_usd": 18.4730300208,
+    "auto_pay_enabled": false
+  }
+}

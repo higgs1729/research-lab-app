@@ -1,0 +1,52 @@
+{
+  "scope": "Direct saved-file equality and frozen input/product identity; no new native execution.",
+  "input_and_product_identity": true,
+  "fixed_reference_geometry": {
+    "grid_shape_yx": [
+      291,
+      262
+    ],
+    "used_vertices": 63499,
+    "valid_quads": 62913,
+    "triangles": 125826,
+    "renderable_components": 1
+  },
+  "xyz": {
+    "x.tif": {
+      "sha256": "484d5067f9f23abbae296a5ea6820089736c05ce222c586c94403dbd1e492734",
+      "shape_yx": [
+        286,
+        259
+      ],
+      "pixels": 74074,
+      "all_bits_equal": true
+    },
+    "y.tif": {
+      "sha256": "482768674a7c04d4c88b9c65e7d473e2c377c0314da767fb3ef7734fffc18492",
+      "shape_yx": [
+        286,
+        259
+      ],
+      "pixels": 74074,
+      "all_bits_equal": true
+    },
+    "z.tif": {
+      "sha256": "c84bbbf37c95fdafd185531c48c4f0faee6816488c107b5de1e97cb003ec4726",
+      "shape_yx": [
+        286,
+        259
+      ],
+      "pixels": 74074,
+      "all_bits_equal": true
+    }
+  },
+  "scale": [
+    0.05000000074505806,
+    0.05000000074505806
+  ],
+  "metadata_different_top_level_keys": [
+    "uuid"
+  ],
+  "energy_sha256": "8c4e42264512728ac8c9a31e3938415b926409225b84a0e5fa4463c02e2abfcb",
+  "all_assertions_passed": true
+}

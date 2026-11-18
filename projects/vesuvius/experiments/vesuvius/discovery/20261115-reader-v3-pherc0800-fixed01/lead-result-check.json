@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-11-15T07:17:30.368456+00:00",
+  "conditions": {
+    "forward": {
+      "forward_count": 48,
+      "skipped_count": 1,
+      "checked_pixels": 2359296,
+      "main_weighted_pixels": 1138489,
+      "zero_weight_pixels": 36864,
+      "max_reconstruction_errors": {
+        "weight": 4.1626383229242947e-07,
+        "score": 1.7723915235468013e-07,
+        "weighted_score": 2.2596028004251423e-07
+      },
+      "uint8_export_exact": true
+    },
+    "reverse": {
+      "forward_count": 48,
+      "skipped_count": 1,
+      "checked_pixels": 2359296,
+      "main_weighted_pixels": 1138489,
+      "zero_weight_pixels": 36864,
+      "max_reconstruction_errors": {
+        "weight": 4.1626383229242947e-07,
+        "score": 1.868723839559827e-07,
+        "weighted_score": 2.3260578063677428e-07
+      },
+      "uint8_export_exact": true
+    }
+  },
+  "cpu_parity_count": 6,
+  "max_cpu_delta": 2.562999725341797e-06,
+  "new_model_calls": 0,
+  "active_log_raw_sha256_means_output": "Input raw SHA remains in pinned CPU positions; normalized input SHA remains in GPU rows. Runtime asserted the full input row before forward. Parent separately checked every original input patch in lead-input-check.json.",
+  "limits": "Checks implementation and byte provenance, not ink identity or letter recognition."
+}

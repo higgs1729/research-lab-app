@@ -1,0 +1,14 @@
+{
+  "date_jst": "2026-11-14",
+  "survey_revision": "1f12c1ceb14c1f24acc48249eaad60bcdf541721",
+  "atlas_revision": "ac5ffd7098120368216948c4e06c494bf8e67178",
+  "candidates": ["p191_a", "PHerc0257_3549_4692_13210", "PHerc0268_9054_2867_6674"],
+  "candidate_basis": "既存で原寸未取得の三巻から、先行surveyで同じ面を描画・採点した具体的な別面を各一つ採用。0191と0268は各巻の唯一の先行sheet gate通過面、0257は先行が隣6点まで調べた元lead。",
+  "alternate_atlas_faces": ["PHerc0191_2707_2976_13281", "PHerc0257_3904_6108_9436", "PHerc0268_2704_5907_7421"],
+  "alternate_atlas_face_assessment": "三面は先行surveyのquick-look sheet gate未通過・同調査のインク推論欄なし。その後atlasが同面の中心予測を公開した。異なる候補seedのCTや予測の代用には使えない。",
+  "first_priority_for_evidence": "PHerc0257_3549_4692_13210",
+  "priority_basis": "作者が明示した追試対象。近傍では側が内3・外3で一定せず、chainも読める字画の直接証拠ではないため、CTと重なる形をカードで確認する。",
+  "selected_for_native_acquisition": null,
+  "selected_for_ct_followup": null,
+  "pre_native_acquisition_decision": "三枚で単独または反復する独立字画・行の位置を決められず、候補と同じ固定面の複数モデル・両順の配布原寸も調べた固定リリース内に確認できなかったため、選定なし。原寸予測本文の取得0。"
+}

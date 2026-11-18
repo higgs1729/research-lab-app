@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-14",
+  "main_global_xywh": [608, 608, 960, 960],
+  "panels": ["CT centre", "Hecate forward", "Hecate reverse"],
+  "original_scale_files_reviewed": [
+    "review/x0608-y0608.png",
+    "review/x0928-y0608.png",
+    "review/x1248-y0608.png",
+    "review/x0608-y0928.png",
+    "review/x0928-y0928.png",
+    "review/x1248-y0928.png",
+    "review/x0608-y1248.png",
+    "review/x0928-y1248.png",
+    "review/x1248-y1248.png"
+  ],
+  "observations": [
+    {"global_xywh": [1248, 608, 320, 320], "direction": "reverse", "description": "幅のある弧がCTの暗い割れを囲う。"},
+    {"global_xywh": [608, 928, 320, 320], "direction": "reverse", "description": "下側の広い明部は暗い溝と輪郭が交わる辺りにある。"},
+    {"global_xywh": [608, 1248, 320, 320], "direction": "reverse", "description": "ループ状の反応は広い空隙と曲がった境界に沿う。"},
+    {"global_xywh": [928, 608, 320, 320], "direction": "forward", "description": "強い丸みを帯びた反応は周囲から孤立する。"},
+    {"global_xywh": [1248, 1248, 320, 320], "direction": "forward", "description": "広くぼけた複数の反応がCTの暗部の近傍に並ぶ。"}
+  ],
+  "lead_review": {
+    "reviewer": "root",
+    "original_1024_square": ["ct-centre.png", "lead-hecate-forward.png", "lead-hecate-reverse.png"],
+    "evidence": "lead-visual-decision.json",
+    "observation": "広い塊と割れ縁の反応が主で、主比較960²から追加ROIを選ばなかった。"
+  },
+  "followup_roi_selected": null,
+  "decision": "この描画範囲・推論条件で独立した字画または連続する行として追試ROIを選べなかった。インクの有無は未判定。"
+}

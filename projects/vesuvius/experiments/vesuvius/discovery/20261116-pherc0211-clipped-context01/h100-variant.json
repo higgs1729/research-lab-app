@@ -1,0 +1,17 @@
+{
+  "amendment_sha256": "a639db39eaaaf6c10351b04393d195f06bcaa0f9b9219844b758b5353dd787bb",
+  "source_Ada_archive_sha256": "525efd946cd5e57de6195075f41fe640bcd724f6c9d6ed6898ad4c9552412054",
+  "H100_archive_sha256": "0124d2ffd6afd5029cd38c3e52fa0c046c381fcba6518acbce110b1a4e79ee83",
+  "only_archive_member_changed": "fixed-assets.json",
+  "only_manifest_fields_changed": [
+    "gpu",
+    "max_hourly_compute_usd"
+  ],
+  "other24_members_byte_unchanged": true,
+  "archived_plan_A40_operations": "Historical original proposal; final cloud-plan-h100.json and fixed-assets GPU/rate govern operations. Scientific plan unchanged.",
+  "diagnostic_post_error_path_preserved": true,
+  "ownership_vs_configuration": "Name/ID/time ownership preserved for finally cleanup even if configuration differs. Region membership is checked separately by expected_configuration before work.",
+  "code_diff_sha256": "169a6542af02d965db7aa7084b8e12e901515d08c4b958b10112f41bfe0d911a",
+  "model_forwards": 0,
+  "pods_created": 0
+}

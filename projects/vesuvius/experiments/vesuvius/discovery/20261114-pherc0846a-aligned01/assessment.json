@@ -1,0 +1,10 @@
+{
+  "date_jst": "2026-11-14",
+  "images": ["comparison-seed42.png", "comparison-dense.png", "ct-centre.png"],
+  "seed42": "The broad bright and dark responses change position and extent under the fixed aligned grid. Neither depth order yields an independently traceable stroke sequence or line.",
+  "dense_native": "The overall old and aligned responses look more alike. Broad, faint bands and local blobs persist in both orders without an independently traceable stroke sequence or line.",
+  "stroke_or_line_candidate": null,
+  "physical_sheet_and_ink": "undetermined",
+  "public_card_registration": "undetermined",
+  "fixed_input_settings_search": "closed"
+}

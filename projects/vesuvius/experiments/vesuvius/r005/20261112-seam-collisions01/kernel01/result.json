@@ -1,0 +1,578 @@
+{
+  "rows": [
+    {
+      "vertex": 108864,
+      "other_endpoint": 108863,
+      "opposite_edge": [
+        113041,
+        110822
+      ],
+      "incident_faces": [
+        207301,
+        207302,
+        207303
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "normals": [
+        [
+          0.9069745895149548,
+          0.4211853439688745
+        ],
+        [
+          -0.003012813470076771,
+          0.9999954614671981
+        ],
+        [
+          -0.8125749704858175,
+          0.5828566867935658
+        ],
+        [
+          -0.5545423999060213,
+          -0.8321554702737166
+        ]
+      ],
+      "base_heights": [
+        20.73002515415996,
+        20.950870308685726,
+        16.891681505318942,
+        -1.202499555178587
+      ],
+      "minimum_height": 0.01,
+      "opposite_side_sign": -1,
+      "displacement": [
+        -0.8743790419332135,
+        -0.8743790419332138
+      ],
+      "linf_displacement": 0.8743790419332136,
+      "minimum_post_height": 0.010000000000000009,
+      "prepack": {
+        "negative": 0,
+        "zero": 0,
+        "minimum_area": 0.36532380015319177,
+        "mean_SD": 1.1658303515973882,
+        "pairs": 91,
+        "internal_pairs": 78,
+        "external_pairs": 13
+      },
+      "packed": {
+        "negative": 0,
+        "zero": 0,
+        "minimum_area": 0.3517625331878662,
+        "mean_SD": 1.1763770969780123,
+        "pairs": 91,
+        "internal_pairs": 78,
+        "external_pairs": 13
+      },
+      "translations": [
+        {
+          "component": 1,
+          "vertices": 195936,
+          "shift": [
+            -9075.5100040077,
+            107.94813392166351
+          ]
+        },
+        {
+          "component": 0,
+          "vertices": 30027,
+          "shift": [
+            39496.1702018038,
+            277.51085805665906
+          ]
+        },
+        {
+          "component": 2,
+          "vertices": 19470,
+          "shift": [
+            50557.30385491612,
+            -1380.2710348003886
+          ]
+        },
+        {
+          "component": 6,
+          "vertices": 2131,
+          "shift": [
+            21159.10197041004,
+            -3615.09326171875
+          ]
+        },
+        {
+          "component": 7,
+          "vertices": 1243,
+          "shift": [
+            16758.546453022624,
+            -3942.817601500688
+          ]
+        },
+        {
+          "component": 5,
+          "vertices": 991,
+          "shift": [
+            45773.385093677614,
+            -2798.063473964491
+          ]
+        },
+        {
+          "component": 3,
+          "vertices": 49,
+          "shift": [
+            55690.00867855062,
+            -2414.024658203125
+          ]
+        },
+        {
+          "component": 4,
+          "vertices": 49,
+          "shift": [
+            46879.175181860825,
+            -2718.3642578125
+          ]
+        },
+        {
+          "component": 8,
+          "vertices": 49,
+          "shift": [
+            26874.642954702278,
+            -4302.119140625
+          ]
+        }
+      ]
+    },
+    {
+      "vertex": 108863,
+      "other_endpoint": 108864,
+      "opposite_edge": [
+        113041,
+        110822
+      ],
+      "incident_faces": [
+        207299,
+        207300,
+        207301,
+        210922,
+        210923
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "normals": [
+        [
+          0.8157274377860554,
+          0.5784364677672018
+        ],
+        [
+          -0.0030125018455291006,
+          0.9999954624060204
+        ],
+        [
+          -0.8481881128481571,
+          0.5296951247869681
+        ],
+        [
+          0.8525359835034552,
+          0.522668534380822
+        ],
+        [
+          0.15298532455448777,
+          -0.9882284606663371
+        ],
+        [
+          0.5545423999060213,
+          0.8321554702737166
+        ]
+      ],
+      "base_heights": [
+        20.429025252555483,
+        25.046245696341536,
+        23.100023292882444,
+        21.14210116626147,
+        21.529361186234187,
+        -9.161699433136153
+      ],
+      "minimum_height": 0.01,
+      "opposite_side_sign": 1,
+      "displacement": [
+        6.614057488923206,
+        6.614057488923204
+      ],
+      "linf_displacement": 6.614057488923204,
+      "minimum_post_height": 0.009999999999999787,
+      "prepack": {
+        "negative": 0,
+        "zero": 0,
+        "minimum_area": 0.36532380015319177,
+        "mean_SD": 1.1658328148561155,
+        "pairs": 97,
+        "internal_pairs": 84,
+        "external_pairs": 13
+      },
+      "packed": {
+        "negative": 0,
+        "zero": 0,
+        "minimum_area": 0.3517625331878662,
+        "mean_SD": 1.176379560183987,
+        "pairs": 97,
+        "internal_pairs": 84,
+        "external_pairs": 13
+      },
+      "translations": [
+        {
+          "component": 1,
+          "vertices": 195936,
+          "shift": [
+            -9075.5100040077,
+            107.94813392166351
+          ]
+        },
+        {
+          "component": 0,
+          "vertices": 30027,
+          "shift": [
+            39496.1702018038,
+            277.51085805665906
+          ]
+        },
+        {
+          "component": 2,
+          "vertices": 19470,
+          "shift": [
+            50557.30385491612,
+            -1380.2710348003886
+          ]
+        },
+        {
+          "component": 6,
+          "vertices": 2131,
+          "shift": [
+            21159.10197041004,
+            -3615.09326171875
+          ]
+        },
+        {
+          "component": 7,
+          "vertices": 1243,
+          "shift": [
+            16758.546453022624,
+            -3942.817601500688
+          ]
+        },
+        {
+          "component": 5,
+          "vertices": 991,
+          "shift": [
+            45773.385093677614,
+            -2798.063473964491
+          ]
+        },
+        {
+          "component": 3,
+          "vertices": 49,
+          "shift": [
+            55690.00867855062,
+            -2414.024658203125
+          ]
+        },
+        {
+          "component": 4,
+          "vertices": 49,
+          "shift": [
+            46879.175181860825,
+            -2718.3642578125
+          ]
+        },
+        {
+          "component": 8,
+          "vertices": 49,
+          "shift": [
+            26874.642954702278,
+            -4302.119140625
+          ]
+        }
+      ]
+    },
+    {
+      "vertex": 113041,
+      "other_endpoint": 110822,
+      "opposite_edge": [
+        108864,
+        108863
+      ],
+      "incident_faces": [
+        214836,
+        214837,
+        218748
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "normals": [
+        [
+          -0.9503296915908279,
+          -0.31124504378524925
+        ],
+        [
+          -0.45044214971795016,
+          -0.8928056170060042
+        ],
+        [
+          -0.55834859285027,
+          -0.8296064421532197
+        ],
+        [
+          -0.16052611654850443,
+          -0.9870315931650091
+        ]
+      ],
+      "base_heights": [
+        50.160247928499885,
+        9.876346992467042,
+        10.068634597221429,
+        -17.82779733486856
+      ],
+      "minimum_height": 0.01,
+      "opposite_side_sign": 1,
+      "displacement": [
+        -15.544139683678084,
+        -15.544139683678084
+      ],
+      "linf_displacement": 15.544139683678084,
+      "minimum_post_height": 0.010000000000001563,
+      "prepack": {
+        "negative": 0,
+        "zero": 0,
+        "minimum_area": 0.36532380015319177,
+        "mean_SD": 1.16583214649053,
+        "pairs": 110,
+        "internal_pairs": 97,
+        "external_pairs": 13
+      },
+      "packed": {
+        "negative": 0,
+        "zero": 0,
+        "minimum_area": 0.3517625331878662,
+        "mean_SD": 1.1763788919554166,
+        "pairs": 110,
+        "internal_pairs": 97,
+        "external_pairs": 13
+      },
+      "translations": [
+        {
+          "component": 1,
+          "vertices": 195936,
+          "shift": [
+            -9075.5100040077,
+            107.94813392166351
+          ]
+        },
+        {
+          "component": 0,
+          "vertices": 30027,
+          "shift": [
+            39496.1702018038,
+            277.51085805665906
+          ]
+        },
+        {
+          "component": 2,
+          "vertices": 19470,
+          "shift": [
+            50557.30385491612,
+            -1380.2710348003886
+          ]
+        },
+        {
+          "component": 6,
+          "vertices": 2131,
+          "shift": [
+            21159.10197041004,
+            -3615.09326171875
+          ]
+        },
+        {
+          "component": 7,
+          "vertices": 1243,
+          "shift": [
+            16758.546453022624,
+            -3942.817601500688
+          ]
+        },
+        {
+          "component": 5,
+          "vertices": 991,
+          "shift": [
+            45773.385093677614,
+            -2798.063473964491
+          ]
+        },
+        {
+          "component": 3,
+          "vertices": 49,
+          "shift": [
+            55690.00867855062,
+            -2414.024658203125
+          ]
+        },
+        {
+          "component": 4,
+          "vertices": 49,
+          "shift": [
+            46879.175181860825,
+            -2718.3642578125
+          ]
+        },
+        {
+          "component": 8,
+          "vertices": 49,
+          "shift": [
+            26874.642954702278,
+            -4302.119140625
+          ]
+        }
+      ]
+    },
+    {
+      "vertex": 110822,
+      "other_endpoint": 113041,
+      "opposite_edge": [
+        108864,
+        108863
+      ],
+      "incident_faces": [
+        210924,
+        210925,
+        214836
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "normals": [
+        [
+          0.09251374275531517,
+          -0.9957114076886953
+        ],
+        [
+          -0.12994657224206252,
+          -0.991520997439055
+        ],
+        [
+          -0.30190274687289004,
+          -0.9533387285905276
+        ],
+        [
+          0.16052611654850443,
+          0.9870315931650091
+        ]
+      ],
+      "base_heights": [
+        15.9106195421639,
+        24.999668834216273,
+        22.51013649106503,
+        -15.743743312053883
+      ],
+      "minimum_height": 0.01,
+      "opposite_side_sign": -1,
+      "displacement": [
+        13.728061934233166,
+        13.728061934233171
+      ],
+      "linf_displacement": 13.728061934233171,
+      "minimum_post_height": 0.009999999999999787,
+      "prepack": {
+        "negative": 0,
+        "zero": 0,
+        "minimum_area": 0.36532380015319177,
+        "mean_SD": 1.1659291439961685,
+        "pairs": 85,
+        "internal_pairs": 72,
+        "external_pairs": 13
+      },
+      "packed": {
+        "negative": 0,
+        "zero": 0,
+        "minimum_area": 0.3517625331878662,
+        "mean_SD": 1.176475870576076,
+        "pairs": 85,
+        "internal_pairs": 72,
+        "external_pairs": 13
+      },
+      "translations": [
+        {
+          "component": 1,
+          "vertices": 195936,
+          "shift": [
+            -9075.5100040077,
+            107.94813392166351
+          ]
+        },
+        {
+          "component": 0,
+          "vertices": 30027,
+          "shift": [
+            39496.1702018038,
+            277.51085805665906
+          ]
+        },
+        {
+          "component": 2,
+          "vertices": 19470,
+          "shift": [
+            50557.30385491612,
+            -1380.2710348003886
+          ]
+        },
+        {
+          "component": 6,
+          "vertices": 2131,
+          "shift": [
+            21159.10197041004,
+            -3615.09326171875
+          ]
+        },
+        {
+          "component": 7,
+          "vertices": 1243,
+          "shift": [
+            16758.546453022624,
+            -3942.817601500688
+          ]
+        },
+        {
+          "component": 5,
+          "vertices": 991,
+          "shift": [
+            45773.385093677614,
+            -2798.063473964491
+          ]
+        },
+        {
+          "component": 3,
+          "vertices": 49,
+          "shift": [
+            55690.00867855062,
+            -2414.024658203125
+          ]
+        },
+        {
+          "component": 4,
+          "vertices": 49,
+          "shift": [
+            46879.175181860825,
+            -2718.3642578125
+          ]
+        },
+        {
+          "component": 8,
+          "vertices": 49,
+          "shift": [
+            26874.642954702278,
+            -4302.119140625
+          ]
+        }
+      ]
+    }
+  ],
+  "rule": "Move only one endpoint, all other UVs held at I; positive incident heights and same strict side of opposite edge as the unchanged endpoint. Feasibility of this sufficient separation, not all possible one-vertex repairs.",
+  "elapsed_seconds": 7.9109052999992855
+}

@@ -1,0 +1,47 @@
+{
+  "cases": {
+    "halo_included": {
+      "normal_valid": 2450,
+      "direct_hit": 2385,
+      "median_rejected": 227,
+      "applied": 2450,
+      "applied_without_own_run": 65
+    },
+    "core_only": {
+      "normal_valid": 756,
+      "direct_hit": 746,
+      "median_rejected": 24,
+      "applied": 756,
+      "applied_without_own_run": 10
+    }
+  },
+  "source_sha256": "253e48b31072be8c95b890715b80e90e4efbb34b5b0687a63b7d4a0a7a87857d",
+  "core_uv": [
+    72,
+    54,
+    99,
+    82
+  ],
+  "halo_uv": [
+    61,
+    43,
+    110,
+    93
+  ],
+  "outside_core_vertices_unchanged": 42252,
+  "moved_vertices": 756,
+  "max_move_voxel": 4.938828468322754,
+  "elapsed_seconds": 1.0540787000063574,
+  "mesh_sha256": {
+    "x.tif": "72a470dfd8d19ad12c50e3c86d34333e170e38a3f76f4e3267339c268fd7bedf",
+    "y.tif": "84a1b911a462ab5f78db750efcb1337dfc5ba74daa46ec5a031195aa52d92cdb",
+    "z.tif": "28d5e498a0dd3d92cb3957799a1c1c9aa8decf764d532d5ce449e759c8a29b57",
+    "meta.json": "6007caf4556739e647e7ce9a6c35462c09e0efad4a545763676c7cda0d74fb9a"
+  },
+  "ct_bytes": 0,
+  "model_calls": 0,
+  "disk": {
+    "c_free_bytes": 23334445056,
+    "work_bytes": 27952618
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "schema": "r224-next-experiment-v1",
+  "title": "PHerc0306B upper public-response strip, with adjacent known-line control",
+  "question": "Does the fixed upper response have trackable stroke-like arrangement in a separate public Reader V3 map, when sensitivity and coordinate correspondence are judged beside the same-surface known line?",
+  "status": "proposal; no following experiment executed in R224",
+  "github_pin": "feabff6c54f95bd8e52a90e0a7a76881ee67d4cc",
+  "hf_pin": "f435998b55269762942a979052044309b29650ac",
+  "volume": "20250521133212",
+  "mesh": "PHerc0306B_20250521133212_w074own_touchup_V5Rc",
+  "array_shape_hw": [
+    4900,
+    7780
+  ],
+  "npy_dtype": "<f2",
+  "npy_order": "C",
+  "npy_header_bytes": 128,
+  "regions": {
+    "known_control": [
+      2432,
+      1728,
+      4416,
+      1152
+    ],
+    "upper_test": [
+      2432,
+      2880,
+      4416,
+      1152
+    ]
+  },
+  "upper_lead_public_image_xyxy": [
+    2600,
+    420,
+    3880,
+    1444
+  ],
+  "upper_lead_raw_linear_support": [
+    3074,
+    2917,
+    4355,
+    3942
+  ],
+  "input_assets": [
+    {
+      "path": "results/member_maps/fwd_trace_v3B.npy",
+      "url": "https://huggingface.co/datasets/Prodigle/pherc0306b-first-letters/resolve/f435998b55269762942a979052044309b29650ac/results/member_maps/fwd_trace_v3B.npy",
+      "bytes": 76244128,
+      "sha256": "17eca601c21f3c5c7f263b144c77890d9e25c3cbcc6aa261505e580baf07a9e3",
+      "retrieval": "full file once, verify whole SHA256 before use",
+      "kind": "public precomputed probability map"
+    },
+    {
+      "path": "results/member_maps/fwd_reader_v3.npy",
+      "url": "https://huggingface.co/datasets/Prodigle/pherc0306b-first-letters/resolve/f435998b55269762942a979052044309b29650ac/results/member_maps/fwd_reader_v3.npy",
+      "bytes": 76244128,
+      "sha256": "0a9643a7ad2f70baf71e0f53f17a5230145f63b75e41b302c10d968a428ea1f6",
+      "retrieval": "full file once, verify whole SHA256 before use",
+      "kind": "public precomputed probability map"
+    },
+    {
+      "path": "results/ct_surface_layer20.png",
+      "url": "https://huggingface.co/datasets/Prodigle/pherc0306b-first-letters/resolve/f435998b55269762942a979052044309b29650ac/results/ct_surface_layer20.png",
+      "bytes": 18935792,
+      "sha256": "e28222dd5d67b3ca10ad863f7426342e744618d9a3b5549aac7a03a47bc1ea63",
+      "retrieval": "full file once, verify whole SHA256 before use",
+      "kind": "public derived CT surface image"
+    }
+  ],
+  "new_body_bytes": 171424048,
+  "reuse": [
+    "R224 x/y/z.tif and meta; original claim and TRACE PNGs; exact source coordinate code; R224 public reading metadata"
+  ],
+  "mesh_lookup_convention": "Use author carrier/exclusion rule render pixel=grid/scale. Do not transplant R222 renderer half-pixel centre conventions into these published maps. Physical CT correspondence remains unverified.",
+  "display": {
+    "orientation": "raw native integer crop, then flipud once for reading; do not claim pixel identity with remapped public PNG",
+    "raw": "probabilities 0..1 mapped linearly to 0..255; preserve NaN as visibly invalid, finite zero is data not a mask",
+    "auxiliary": "one median to p99.9 per model over the union of the two frozen bands, limited to finite model values AND four-corner valid geometry AND CT>0; use the same resulting limits for known and upper bands; no per-tile stretch or depth sweep",
+    "mask_caveat": "CT>0 and finite mesh are display-support proxies, not physical-paper or absence-of-ink labels",
+    "reference": "source claim PNG only a frozen location/appearance reference; do not reconstruct annotations as strokes",
+    "native_views": "4416-wide overview may be reduced for location, plus complete native strips in overlapping horizontal tiles <=1152 px; keep a shared 128 px halo for continuity"
+  },
+  "known_reference": "author letter_dimensions.json line1 shapes, including adjacent upright/cross strokes and right enclosed dark cavity; fixed reported line2 pi is auxiliary only",
+  "decision": {
+    "retain": "the separate Reader V3 map supplies additional spatially coherent stroke/arrangement evidence for the preselected upper group or an adjacent continuation in the frozen upper band, calibrated against its known-line control; record concrete matching and conflicting shapes. Do not require pixelwise agreement, and do not retain solely because the already-seen TRACE pattern reappears.",
+    "known_control_failure": "if Reader V3 cannot show the already known coarse shapes and placements, its upper silence is not a negative control; report comparator failure with no new CT investment justified by this comparison, and do not rescue by threshold/depth/model changes",
+    "no_candidate": "if both separate native maps leave only broad isolated or untraceable responses after known control is established, close this fixed published-map test without inferring absent ink",
+    "after_retention": "next research may obtain local original CT / independent surface geometry for that exact candidate and audit prior reading; new-letter or prize claim requires additional evidence",
+    "stop": "input SHA/shape or coordinate failure; insufficient memory/free C; global network deadline; no silent fallback to zeros, no parameter sweep or second target"
+  },
+  "resources": {
+    "network_bytes": 171424048,
+    "network_seconds_estimate": [
+      30,
+      180
+    ],
+    "network_deadline_seconds": 300,
+    "cpu_count": 1,
+    "commit_gib": 4,
+    "cpu_seconds_estimate": [
+      15,
+      90
+    ],
+    "compute_deadline_seconds": 300,
+    "native_review_minutes_estimate": [
+      15,
+      30
+    ],
+    "C_work_gib_budget": 1,
+    "C_free_gib_min": 10,
+    "D_access": "read-only",
+    "new_raw_ct_volume_bytes": 0,
+    "new_ct_surface_image_bytes": 18935792,
+    "new_model_weights_bytes": 0,
+    "model_forward_calls": 0,
+    "gpu_seconds": 0,
+    "cloud_cost_usd": 0
+  },
+  "limitations": [
+    "Target is already visible in public context and not established as previously unseen or unread.",
+    "TRACE and claim product share TRACE and A-hn teacher lineage; their similarity is not independent corroboration.",
+    "Reader V3 has a separate model family here, but common CT/errors can be correlated and disagreement is weak evidence.",
+    "Author claims 0306B not in public-model training; initialization/full training-coordinate audit not done here.",
+    "Mesh numeric continuity and displayed CT do not prove the upper site and known line belong to one physical lamina.",
+    "PHerc0306B already received its First Letters prize. This experiment targets added reading/candidates, not a new eligible-scroll award."
+  ]
+}

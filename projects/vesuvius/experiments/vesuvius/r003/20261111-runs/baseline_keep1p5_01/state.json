@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "command": [
+    "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-baseline",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01",
+    "--output=/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-runs/baseline_keep1p5_01/output",
+    "--keep=1.5"
+  ],
+  "binary_sha256": "fae4e8af0277727de2a6b874492bab96dd969a9e5ea1175a38bd93b56ce63000",
+  "input_manifest": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01/manifest.json",
+  "keep_percent": 1.5,
+  "default_iterations": 50,
+  "default_energy": "symmetric_dirichlet",
+  "affinity": [
+    0
+  ],
+  "threads": 1,
+  "wandb_disabled": true,
+  "started_utc": "2026-11-11T11:39:28.935264+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 8.347847580000007,
+  "completed_utc": "2026-11-11T11:39:37.288746+00:00",
+  "outputs": [
+    {
+      "file": "output/meta.json",
+      "bytes": 993,
+      "sha256": "4116660986db418bd7453bd680d88294981ce86cce3aa85fd2955046726137b0"
+    },
+    {
+      "file": "output/x.tif",
+      "bytes": 252602,
+      "sha256": "734d886ea05b9db3a15f480090b151eeab54cd59848698722ff658102032c3ed"
+    },
+    {
+      "file": "output/y.tif",
+      "bytes": 252602,
+      "sha256": "fb2c6e104735e775eee5f50a1572d9474ff226cb8b3d6720da820b8463a37d35"
+    },
+    {
+      "file": "output/z.tif",
+      "bytes": 252602,
+      "sha256": "498746a9e43dc46a66bbc9bbfcda43100ce0b7a179edf7bb3b65b3215a58585f"
+    }
+  ]
+}

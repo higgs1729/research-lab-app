@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "C:\\dev\\kensyoukin\\tools\\research\\run_windows.py",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0800-two-window-hecate01\\cpu-process.json",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0800-two-window-hecate01\\inputs.py",
+    "cpu"
+  ],
+  "initial_available_ram": 14864211968,
+  "initial_free_disk": 21781762048,
+  "patch_contract_sha256": "c908465ab382fe0fc90df3448293af2ee911d0f5f515b3a9b726d34e75920c0b",
+  "wall_seconds": 480,
+  "exit_code": 0,
+  "elapsed_seconds": 60.40339500000118
+}

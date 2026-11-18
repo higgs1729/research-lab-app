@@ -1,0 +1,26 @@
+{
+  "assessment_jst_date": "2026-11-14",
+  "qualifying_roi_xywh_by_surface": {
+    "3144": [],
+    "4203": []
+  },
+  "readable_transcription": null,
+  "candidate_selection": "No ROI selected from these six fixed public images.",
+  "ink_presence": "undetermined",
+  "mesh_training_overlap": "unverified",
+  "r164_sources_sha256": {
+    "ink-atlas.md": "cffc46291a866f6e2f103e9198186d0e2d88ad06307c630fc38c915880c11637",
+    "ink-atlas-index.json": "c8ac3e7814fb4a11bd38e1bc1d05fa32a36188ba04c74362c15296f47747c9c8",
+    "1218-atlas-info.json": "bb6fc54808526dc5f01f1d8a242313616833ff9fb58b816d09e8a9d2c5b1e1e5",
+    "atlas1218-3144-meta.json": "409c8a46c10e15fa9e2fb8f2bb192caab557687c8bf1e89ce465db2e342b9444",
+    "atlas1218-4203-meta.json": "9dd4ba3f0a0ca8f3c0cc6141123d8b1a82cdda80b4e0cdc05f9ea0a26e8710d9"
+  },
+  "missing_ct_chunks_from_atlas_metadata": {
+    "3144": 4,
+    "4203": 0
+  },
+  "missing_chunk_locations_and_effect": "undetermined",
+  "native_tiles_inspected": 8,
+  "native_tile_panels_pixel_exact": 24,
+  "lead_scope": "Independent comparison figure and all six original images at original detail."
+}

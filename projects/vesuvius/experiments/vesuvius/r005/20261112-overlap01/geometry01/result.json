@@ -1,0 +1,210 @@
+{
+  "method": "Shapely STRtree per fine component, all fixed triangle bbox pairs with interior-interior DE9IM; all fixed edges with proper crosses. Exact Fraction certificate for selected positive witness only.",
+  "versions": {
+    "shapely": "2.1.2",
+    "geos": "3.13.1"
+  },
+  "fixed_vertices": 183893,
+  "fixed_faces": 348981,
+  "fixed_edges": 532703,
+  "component_counts": [
+    {
+      "component": 0,
+      "fixed_faces": 44013,
+      "face_bbox_candidate_pairs": 304605,
+      "interior_overlap_face_pairs": 0,
+      "fixed_edges": 67075,
+      "proper_crossing_edge_pairs": 0
+    },
+    {
+      "component": 1,
+      "fixed_faces": 275613,
+      "face_bbox_candidate_pairs": 1797728,
+      "interior_overlap_face_pairs": 0,
+      "fixed_edges": 420461,
+      "proper_crossing_edge_pairs": 0
+    },
+    {
+      "component": 2,
+      "fixed_faces": 26608,
+      "face_bbox_candidate_pairs": 173126,
+      "interior_overlap_face_pairs": 0,
+      "fixed_edges": 40786,
+      "proper_crossing_edge_pairs": 0
+    },
+    {
+      "component": 3,
+      "fixed_faces": 72,
+      "face_bbox_candidate_pairs": 343,
+      "interior_overlap_face_pairs": 0,
+      "fixed_edges": 120,
+      "proper_crossing_edge_pairs": 0
+    },
+    {
+      "component": 4,
+      "fixed_faces": 72,
+      "face_bbox_candidate_pairs": 341,
+      "interior_overlap_face_pairs": 0,
+      "fixed_edges": 120,
+      "proper_crossing_edge_pairs": 0
+    },
+    {
+      "component": 5,
+      "fixed_faces": 261,
+      "face_bbox_candidate_pairs": 1361,
+      "interior_overlap_face_pairs": 0,
+      "fixed_edges": 429,
+      "proper_crossing_edge_pairs": 0
+    },
+    {
+      "component": 6,
+      "fixed_faces": 1662,
+      "face_bbox_candidate_pairs": 9639,
+      "interior_overlap_face_pairs": 0,
+      "fixed_edges": 2620,
+      "proper_crossing_edge_pairs": 0
+    },
+    {
+      "component": 7,
+      "fixed_faces": 608,
+      "face_bbox_candidate_pairs": 3307,
+      "interior_overlap_face_pairs": 0,
+      "fixed_edges": 972,
+      "proper_crossing_edge_pairs": 0
+    },
+    {
+      "component": 8,
+      "fixed_faces": 72,
+      "face_bbox_candidate_pairs": 475,
+      "interior_overlap_face_pairs": 0,
+      "fixed_edges": 120,
+      "proper_crossing_edge_pairs": 0
+    }
+  ],
+  "interior_overlap_face_pairs": 0,
+  "proper_crossing_edge_pairs": 0,
+  "triangle_certificate": null,
+  "edge_certificate": null,
+  "case_159157_188235": {
+    "C": {
+      "packed_uv": [
+        [
+          [
+            10562.1484375,
+            2423.947021484375
+          ],
+          [
+            10579.19921875,
+            2397.616943359375
+          ],
+          [
+            10580.279296875,
+            2419.878173828125
+          ]
+        ],
+        [
+          [
+            10528.7265625,
+            2422.3681640625
+          ],
+          [
+            10538.259765625,
+            2402.370849609375
+          ],
+          [
+            10541.515625,
+            2425.10595703125
+          ]
+        ]
+      ],
+      "intersection_area_float": 0.0,
+      "x_bounds": [
+        [
+          10562.1484375,
+          10580.279296875
+        ],
+        [
+          10528.7265625,
+          10541.515625
+        ]
+      ]
+    },
+    "D": {
+      "packed_uv": [
+        [
+          [
+            10562.1484375,
+            2423.947021484375
+          ],
+          [
+            10579.19921875,
+            2397.616943359375
+          ],
+          [
+            10580.279296875,
+            2419.878173828125
+          ]
+        ],
+        [
+          [
+            10556.0517578125,
+            2423.5048828125
+          ],
+          [
+            10585.3564453125,
+            2407.932861328125
+          ],
+          [
+            10582.9423828125,
+            2431.46826171875
+          ]
+        ]
+      ],
+      "intersection_area_float": 108.49450375242385,
+      "x_bounds": [
+        [
+          10562.1484375,
+          10580.279296875
+        ],
+        [
+          10556.0517578125,
+          10585.3564453125
+        ]
+      ],
+      "certificate": {
+        "point_rational": [
+          "5814447253627479/549755813888",
+          "663719745862231/274877906944"
+        ],
+        "barycentric_rational": [
+          [
+            "12908589332324193/65625474637758464",
+            "125468775744286701/459378322464309248",
+            "60887355348438299/114844580616077312"
+          ],
+          [
+            "437480356070032377/1468411539970064384",
+            "452257504019413187/734205769985032192",
+            "126416175861205633/1468411539970064384"
+          ]
+        ]
+      }
+    }
+  },
+  "elapsed_seconds": 58.578977399971336,
+  "limitations": "Finite-precision screening; absence is not an exact global injectivity certificate. Collinear fixed-edge overlaps and isolated fixed-point coincidences are not enumerated. Fine components compared separately before packing.",
+  "sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\holdout_seed_keep1p5_01\\output.obj_uv_diagnostics.json",
+      "sha256": "b47eaf70e6d7f4423b0e5c6efb56ce36b24ebd688510d49aefad5311a899e853"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-reconcile01\\second\\arrays.npz",
+      "sha256": "9247c744e4c6197aea2fcdc8d4bfe5682c2a3892e4d683373883ec7810595de7"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-raster01\\pack01\\arrays.npz",
+      "sha256": "0e665061e472d6b59d58f80f6bc3cfb646558413f50e7f3bcf8a535e7a98cd68"
+    }
+  ]
+}

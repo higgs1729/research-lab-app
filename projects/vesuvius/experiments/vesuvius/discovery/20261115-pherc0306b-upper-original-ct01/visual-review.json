@@ -1,0 +1,40 @@
+{
+  "reviewer": "r226_upper_original_ct / gpt-6.1-sol / high",
+  "observations_fixed_utc": "2026-11-15T08:12:54Z",
+  "independence": "Sent saved image paths before reviewing original CT images. This visual decision was fixed without reading the parent visual observations.",
+  "coverage": {
+    "locators": ["upper-locator.png", "known-locator.png"],
+    "continuous_sections": ["upper-bend", "upper-across", "upper-adjacent", "known-across", "known-down"],
+    "orthogonal_groups": ["U1", "U2", "U3", "U4", "U5", "U6", "U7", "U8", "K1", "K2", "K3", "K4"],
+    "small_readback": "Anchor numbers below are original CT pixels from the frozen normal sections, indexed by section column and d+32. No rerender or automated ridge classifier."
+  },
+  "known_control": {
+    "observations_ja": [
+      "K1・K3の左右の縁とK4の下縁にはd=0近くに明帯がある。K3の固定Y・X面とK4の固定Y面では、丸めたmesh点が斜めの明部またはその境界にかかる。K1の固定Z面も斜走する複数の帯に囲まれる。",
+      "既知輪の内側K2ではd=0が暗い。固定ZとXには近くに飽和状の白い領域があり、固定Yには中央付近に縦長の暗い領域がある。輪の横断でもK2右側で強い白色領域が複数の帯を隠し、縦断では輪内の暗部近くで面候補が分かれる。既知輪の全経路でも物理的な単一紙層を一意に追えなかった。"
+    ],
+    "role_ja": "公開予測の既知の字画配置とCT構造を比較できる対照。濃淡とインク確率の対応や、単一の物理紙層を確定できる対照ではない。"
+  },
+  "candidate": {
+    "left_bend_ja": "U1・U2・U4の近くにd=0近傍の斜走する細い明帯があり、固定Z面および他軸の局所面でも同様の帯が見える。左曲線の連続断面ではd=0付近に明帯を数区間追える。U1とU2の間では帯が反り、明帯が枝分かれ・隣接する。U2では主にd=-4側、U4ではd=0付近が明るく、曲線の全区間を同じ一条に割り当てられない。輪に見える暗い内側U3でもすぐ近くに帯があるため、確率の低い部分をCT上の空間に一対一で割り当てられない。",
+    "adjacent_ja": "横断のU5では複数の斜走帯と小空隙が交差状に見え、同点の固定Y・X面の中央にも暗い小領域がある。U6は隣接群の強い応答でも原軸面の暗部境界にかかり、U8は別の狭い明部に重なる。U7はd=0が暗く横の点状高密度部が明るい。隣接群の曲線断面で、U8の明部からU6・U7を貫く単一の帯は追えない。U5周囲から右群にかけて近傍の複数の層状構造が接近・分離するため、一枚帰属をとくに限定する区間。",
+    "switch_ja": "U5付近の斜走帯の接近やU6・U7の暗部境界は、meshが異なる紙層を辿っている可能性を残す具体箇所。二つの紙層を交差の前後まで個別に追って帰属を替えた証拠は得られなかった。局所的な離れや層の屈曲、薄い帯の合流でも説明が残る。",
+    "disposition_ja": "左曲線の紙層近傍支持は局所的。候補の曲線全体と右隣を同一の物理紙層とみなす積極的根拠は保留。既知対照でも内側が暗く面の割当は一意でない。今回の切り出しで、R225の上方一群を消す決定的反証は得られず、公開既出の未確定位置として保持。転写や確定新文字には進めない。"
+  },
+  "fixed_panel_anchor_dn": [
+    {"site": "U1", "section": "upper-bend", "column": 92, "d0": 81, "nearby": {"-8": 123}},
+    {"site": "U2", "section": "upper-bend", "column": 209, "d0": 88, "nearby": {"-4": 154}},
+    {"site": "U3", "section": "upper-across", "column": 140, "d0": 76, "nearby": {"-12": 129, "4": 39}},
+    {"site": "U4", "section": "upper-bend", "column": 397, "d0": 144, "nearby": {"4": 42}},
+    {"site": "U5", "section": "upper-across", "column": 380, "d0": 70, "nearby": {"-4": 106, "4": 143}},
+    {"site": "U6", "section": "upper-adjacent", "column": 158, "d0": 63, "nearby": {"-4": 138}},
+    {"site": "U7", "section": "upper-adjacent", "column": 370, "d0": 41, "nearby": {"4": 231}},
+    {"site": "U8", "section": "upper-adjacent", "column": 50, "d0": 126, "nearby": {"8": 41}},
+    {"site": "K1", "section": "known-across", "column": 60, "d0": 107, "nearby": {"-4": 122}},
+    {"site": "K2", "section": "known-across", "column": 145, "d0": 43, "nearby": {"-4": 132}},
+    {"site": "K3", "section": "known-across", "column": 245, "d0": 124, "nearby": {"4": 48}},
+    {"site": "K4", "section": "known-down", "column": 275, "d0": 111, "nearby": {"4": 97}}
+  ],
+  "confirmed_new_letters": 0,
+  "record_summary_ja": "PHerc0306Bの上方既出候補と同面既知輪を、公式元CTの固定断面で比較。左曲線にはmesh近傍の紙層状明帯を局所的に追えた。上方の暗い内側・右隣と既知輪の内側には近接帯や暗部の境界があり、曲線全体の一枚帰属も層切替も確定しなかった。R225の一群は公開既出の未確定位置として保持。確定新文字0。"
+}

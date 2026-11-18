@@ -1,0 +1,49 @@
+{
+  "reviewer": "root",
+  "method": "Read original full XYZ independently using PIL; calculate inverse nominal product lattice and require all4 cell vertices finite/nonnegative; scipy4-connected counts. No child script imports.",
+  "plan_sha256": "91955f65fc6e6486e8c9a386e08924ff2ce507a83754ef56075f6add68bdb6db",
+  "results": [
+    {
+      "face": "w052",
+      "canvas": [
+        4974,
+        1092
+      ],
+      "inner_pixels": 1904640,
+      "estimated_supported_pixels": 1546580,
+      "components": 1,
+      "largest_4_connected": 1546580,
+      "largest_fraction": 0.8120064684139785,
+      "geometry_input_pass": true
+    },
+    {
+      "face": "w053",
+      "canvas": [
+        5071,
+        1092
+      ],
+      "inner_pixels": 1904640,
+      "estimated_supported_pixels": 1545642,
+      "components": 1,
+      "largest_4_connected": 1545642,
+      "largest_fraction": 0.8115139868951613,
+      "geometry_input_pass": true
+    },
+    {
+      "face": "w054",
+      "canvas": [
+        5169,
+        1092
+      ],
+      "inner_pixels": 1904640,
+      "estimated_supported_pixels": 1545794,
+      "components": 1,
+      "largest_4_connected": 1545794,
+      "largest_fraction": 0.8115937920026882,
+      "geometry_input_pass": true
+    }
+  ],
+  "limit": "Nominal geometry estimate only; actual float producer support still to be checked locally. No CT or physical-sheet claim.",
+  "ct_values_read": 0,
+  "paid_cost": 0
+}

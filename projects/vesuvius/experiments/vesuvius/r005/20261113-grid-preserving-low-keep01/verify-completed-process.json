@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-ct-render01\\..\\20261113-grid-preserving-low-keep01\\verify.py"
+  ],
+  "started_utc": "2026-11-13T12:07:05.261471+00:00",
+  "completed_utc": "2026-11-13T12:07:06.849831+00:00",
+  "elapsed_seconds": 1.588332499959506,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 226570240,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 1.125,
+  "sys_cpu_seconds": 0.515625,
+  "exit_code": 0
+}

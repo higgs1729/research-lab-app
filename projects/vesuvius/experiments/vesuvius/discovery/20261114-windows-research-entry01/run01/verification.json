@@ -1,0 +1,121 @@
+{
+  "elapsed_seconds": 10.28673439999693,
+  "runs": {
+    "old-sibling": {
+      "argv": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "-B",
+        "experiments\\vesuvius\\r005\\20261112-ct-render01\\run_windows.py",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\run01\\old-sibling.json",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\fixture with space\\probe.py"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "returncode": 1
+    },
+    "new-sibling": {
+      "argv": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "-B",
+        "tools\\research\\run_windows.py",
+        "experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\run01\\new-sibling.json",
+        "experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\fixture with space\\probe.py",
+        "literal arg"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "returncode": 0
+    },
+    "duplicate-log": {
+      "argv": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "-B",
+        "tools\\research\\run_windows.py",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\run01\\new-sibling.json",
+        "experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\fixture with space\\probe.py",
+        "raise"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "returncode": 1
+    },
+    "target-raise": {
+      "argv": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "-B",
+        "tools\\research\\run_windows.py",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\run01\\target-raise.json",
+        "experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\fixture with space\\probe.py",
+        "raise"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "returncode": 1
+    },
+    "target-exit": {
+      "argv": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "-B",
+        "tools\\research\\run_windows.py",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\run01\\target-exit.json",
+        "experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\fixture with space\\probe.py",
+        "exit"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "returncode": 7
+    },
+    "r173-seed42-reverse": {
+      "argv": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "-B",
+        "tools\\research\\run_windows.py",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\run01\\r173-seed42-reverse.json",
+        "tools\\research\\infer_r173.py",
+        "--entry",
+        "experiments\\vesuvius\\discovery\\20261114-pherc0343-ct-readable01\\infer.py",
+        "--output-dir",
+        "experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\run01\\inference\\original",
+        "--r133",
+        "experiments\\vesuvius\\r012\\20261113-known-ink-inference01",
+        "--tag",
+        "seed42-reverse",
+        "--check"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "returncode": 0
+    },
+    "r173-dense-reverse": {
+      "argv": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "-B",
+        "tools\\research\\run_windows.py",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\run01\\r173-dense-reverse.json",
+        "tools\\research\\infer_r173.py",
+        "--entry",
+        "experiments\\vesuvius\\discovery\\20261114-pherc0343-ct-readable01\\infer.py",
+        "--output-dir",
+        "experiments\\vesuvius\\discovery\\20261114-windows-research-entry01\\run01\\inference\\original",
+        "--r133",
+        "experiments\\vesuvius\\r012\\20261113-known-ink-inference01",
+        "--tag",
+        "dense-reverse",
+        "--check"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "returncode": 0
+    }
+  },
+  "duplicate_log_sha256": "173b11620874e8ebaca25c272a4a9443a1c9239bc1970b48a3e2035d0ba6a8cd",
+  "saved_files_sha256_before_after": {
+    "experiments/vesuvius/r005/20261112-ct-render01/run_windows.py": "4f92fe5fd0786ab8ea6811fb522f51095c183df447e100733adec03163807929",
+    "experiments/vesuvius/r005/20261112-ct-render01/native_data.py": "082c4e487b90381d7e3c6b2390c1dca2e01a6bc73931388a6babca6cb6224a48",
+    "experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/infer.py": "c19f336b8f14a503cc59e7b4be1192cd82755947f6f450f4be2c96749977defe",
+    "experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/common.py": "53b28d197863a2224715981fe5fbce5006245fc0612e060b17db2d01bf4df6d9",
+    "experiments/vesuvius/r012/20261113-known-ink-inference01/run_local.py": "9da17ffb8be92a94e3ea4a515e794e497e8d02efd54ce5b516161247b031f4ec",
+    "experiments/vesuvius/r012/20261113-known-ink-inference01/official-source/ink-detection/koine_machines/inference/infer.py": "b565fca5f6ef5aaed0add25a1f19212a31a73efb7c5a8a79a837d9ba0a24ce2f",
+    "experiments/vesuvius/discovery/20261114-known-text-refinement-pilot01/model.py": "6818ef5cdfb77523d6625f37cd4cacb7e04092a2c1e63f504ac28cbb91b2150c",
+    "experiments/vesuvius/discovery/20261114-known-text-refinement-pilot01/model-run-failed-import/original-seed42-reverse.log": "5d40520467aef00932390f2d9bbdb1842b22ff1679900bb0a71b4d4444a6cee7",
+    "experiments/vesuvius/discovery/20261114-known-text-refinement-pilot01/inference/original/input-contract.json": "3997b01003c50462374be06afc175633bef49f5e6bd208f986ccd57a0e71c23a",
+    "experiments/vesuvius/discovery/20261114-pherc0846a-seed-ct01/analyze-analysis.log": "f2518acd9a681e465d6b78ba5626953998be1adcf8d0f1040889de693cd876e7",
+    "experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/support01.log": "d453278091d4aa25ea4748f2c03973136a7d5051bd4247f6c0f0ad586d5be0d6",
+    "experiments/vesuvius/discovery/20261114-pherc1545-ink-pilot01/failed-import-support.log": "81fba150e9cc6cee6520959b676b968f4e004cd5eff3a6ed4c55202c25d979a0"
+  },
+  "inference_forwards": 0,
+  "cost_jpy": 0
+}

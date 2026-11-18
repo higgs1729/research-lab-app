@@ -1,0 +1,235 @@
+{
+  "stage": "refine",
+  "keys": [
+    "0/78/29/36",
+    "0/78/29/37",
+    "0/78/30/35",
+    "0/78/30/36",
+    "0/78/30/37",
+    "0/78/31/34",
+    "0/78/31/35",
+    "0/78/31/36",
+    "0/78/32/34",
+    "0/78/32/35",
+    "0/79/28/37",
+    "0/79/29/35",
+    "0/79/29/36",
+    "0/79/29/37",
+    "0/79/30/34",
+    "0/79/30/35",
+    "0/79/30/36",
+    "0/79/31/34",
+    "0/79/31/35",
+    "0/79/32/34",
+    "0/80/28/35",
+    "0/80/28/36",
+    "0/80/28/37",
+    "0/80/29/34",
+    "0/80/29/35",
+    "0/80/29/36",
+    "0/80/29/37",
+    "0/80/30/33",
+    "0/80/30/34",
+    "0/80/30/35",
+    "0/80/31/34",
+    "0/81/27/36",
+    "0/81/27/37",
+    "0/81/28/35",
+    "0/81/28/36",
+    "0/81/28/37",
+    "0/81/29/33",
+    "0/81/29/34",
+    "0/81/29/35",
+    "0/81/29/36",
+    "0/81/30/33",
+    "0/81/30/34",
+    "0/82/29/33",
+    "0/82/29/34",
+    "0/82/29/35"
+  ],
+  "cached": {
+    "0/78/29/36": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/78/29/36",
+      "sha256": "732353680db430e3d3d5ff9c36a729414e07cf800205134ca2749aedd45702ad"
+    },
+    "0/78/29/37": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/78/29/37",
+      "sha256": "c9155ffdfe4101a3185b085783e2c6b408c3f4523a93100860621403ce8fa468"
+    },
+    "0/78/30/35": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/78/30/35",
+      "sha256": "14bf340a2f44d124c2b5918ccad66f3205de8c7bdf836bc8e78587a9afd81680"
+    },
+    "0/78/30/36": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/78/30/36",
+      "sha256": "f7639d64e57dc94c9507ac894dd940f1b56105e9fbee3581c6a69f7da28636fd"
+    },
+    "0/78/30/37": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/78/30/37",
+      "sha256": "8535a11ee4628439da09642c9a9597a4994fbb835fafeba17a65003c72576bac"
+    },
+    "0/78/31/34": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/78/31/34",
+      "sha256": "76080c0dfb6e16c762b46cac3ea0a29279b7ec9b8318dba1a6395cabe55870ad"
+    },
+    "0/78/31/35": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/78/31/35",
+      "sha256": "c2b9eb606f87e741a2cd3ab8be12aec48a83d4978ed4e5861df34b2d11e8b616"
+    },
+    "0/78/31/36": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/78/31/36",
+      "sha256": "e03bd8844f938e80143a5178c0334f87fce713f8ef3c33b671629e182892a4b9"
+    },
+    "0/78/32/34": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/78/32/34",
+      "sha256": "871b7a83c2328e4d13742ebecce4df88e526c37ea8014216699e83d828648279"
+    },
+    "0/78/32/35": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-known-text-refinement-pilot01/download/0/78/32/35",
+      "sha256": "1048c28f826a81a4ee002ac7ccab90d8225acc3ea43c8ac305fa4fa7e8322090"
+    },
+    "0/79/28/37": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/79/28/37",
+      "sha256": "0c428b088a974f00a5417d38f4160b316327f8042b2e6ebbf73b78f8cfa16cc7"
+    },
+    "0/79/29/35": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/79/29/35",
+      "sha256": "f85dcd313eae20e16f8e2dae8efb85e670d9dd56d5d9c089e0e3d2cac8ef20a8"
+    },
+    "0/79/29/36": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/79/29/36",
+      "sha256": "42057e01dbdabbb8f44afe89b262f108a923be0c96ae54a1d962cc4abba6ce27"
+    },
+    "0/79/29/37": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/79/29/37",
+      "sha256": "9d1ef9e664f4fdc5334c1f8ceab62f60b70c7de8af4ff5b215804d06fda286d9"
+    },
+    "0/79/30/34": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/79/30/34",
+      "sha256": "7136197d1a843ed4136d55ccdbaf7ef3cfe5ad5be826560053d1ac8689ae8d66"
+    },
+    "0/79/30/35": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/79/30/35",
+      "sha256": "60385f1589bf692fabff3e26389233e0b8ba84af471d928b536cb4ccc8a3d65f"
+    },
+    "0/79/30/36": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/79/30/36",
+      "sha256": "2610ded8d19d2dede0ac81df3470e972c15760585d53d236d2baf4b4c522d252"
+    },
+    "0/79/31/34": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/79/31/34",
+      "sha256": "54643443489502845623677ab2e6fed37f9f1b965846686689ebaf39d09869a0"
+    },
+    "0/79/31/35": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/79/31/35",
+      "sha256": "74a15eba59de7be4bbff05d7dcc24245d342c13b7c6fca8ed780981530155d99"
+    },
+    "0/79/32/34": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/79/32/34",
+      "sha256": "fb360ea8cd3d953d2f7968ecef5724778249e9eeac352467494e3821e525c2d3"
+    },
+    "0/80/28/35": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/80/28/35",
+      "sha256": "43817ffb3cf51c65f3701a4675a8b84b28b25dd603cccbb2e20b8f782d70629e"
+    },
+    "0/80/28/36": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/80/28/36",
+      "sha256": "ccd52ea855fd7a7d18f018ccdccf7e35ca70e1ec0644f15cc2e7684e1e275f4a"
+    },
+    "0/80/28/37": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/80/28/37",
+      "sha256": "5643b1d5fbc8fc295b6255f6a08185a61a7215e4c0199f7d7d7a8c238132f350"
+    },
+    "0/80/29/34": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/80/29/34",
+      "sha256": "4bc610bbb1c9bf2e8659e89c32b110e9b5eee0d0e752326bfb7de9b4a52bbb78"
+    },
+    "0/80/29/35": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/80/29/35",
+      "sha256": "b804ff1757c796c1a8c205f823c6b5f48b8857d136ffeadd7e495fb06d30f199"
+    },
+    "0/80/29/36": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/80/29/36",
+      "sha256": "db5c261f7f449b5afb03bea2ec00b78cb4e7eb5fb309bace1f045fed7db67600"
+    },
+    "0/80/29/37": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/80/29/37",
+      "sha256": "60908e45a135518d403950f9b4e8e02c1cacc4046de2f3e94f88a38e728c30a2"
+    },
+    "0/80/30/33": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-edge-probes01/ct.zarr/0/80/30/33",
+      "sha256": "5bebfe289c050880011d556f7345807fcb9eb8dfda3ba51fa660338634120456"
+    },
+    "0/80/30/34": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/80/30/34",
+      "sha256": "89cb9069f7ad6dee83087582f7a249904f0918b01eaee3eaca6acea869ce55ee"
+    },
+    "0/80/30/35": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/80/30/35",
+      "sha256": "9ebb15c08578001cc92ce89c137739000ab9c081c2ee3e395a80878f2ed6529c"
+    },
+    "0/80/31/34": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/80/31/34",
+      "sha256": "4d9595fc611594a043a4c5f8eede3feba37bf7583bcf4d777bc2995f03ccfc9a"
+    },
+    "0/81/27/36": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/81/27/36",
+      "sha256": "2b4e46fd3f2939b79a993ad18c18c0178628a776e8600a5299bfdbe9a496749a"
+    },
+    "0/81/27/37": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/81/27/37",
+      "sha256": "1aadd9a170d9266ba3ac158563bf9cea0428ad53b6a29a211e5500cdbc6554f6"
+    },
+    "0/81/28/35": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/81/28/35",
+      "sha256": "54e1d6cb8cbe5f4c1dd558c9266593e7c8b976033e28c9d5d4c883d31aff9e4b"
+    },
+    "0/81/28/36": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/81/28/36",
+      "sha256": "06ebda868e2d0806395a5ea2101ce8fa4936a5eb3696d62701d0164f2f2325a5"
+    },
+    "0/81/28/37": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/81/28/37",
+      "sha256": "e9130bc78e0551c625cd1b21db5e6fdec87c615b77cedd98f0cbed6bc292980c"
+    },
+    "0/81/29/33": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/81/29/33",
+      "sha256": "f7d8e344923396283f6430346220f4b78c86d69054810a384e95c112389822ef"
+    },
+    "0/81/29/34": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/81/29/34",
+      "sha256": "050f4eaba588f58007362c695eaf4015f7f8c873974b0f6033d585896902b32f"
+    },
+    "0/81/29/35": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/81/29/35",
+      "sha256": "7294ffd0b2052d43e15cb8ffa46e6e75473a7e972e56be031286f0ce909db407"
+    },
+    "0/81/29/36": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/81/29/36",
+      "sha256": "0e5ad2db4a17feb04c8e26703c92c8b0f2fe8499cdc34bad161acddf55c2668e"
+    },
+    "0/81/30/33": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/81/30/33",
+      "sha256": "9f72038fc5268576e5d56cdfc05973ad79be061349ba6426c586b9a2da3f54f8"
+    },
+    "0/81/30/34": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/81/30/34",
+      "sha256": "8b0d30af8362717a0dd0aadc05107b8fd88f73316ce0e1f206f33701642b170b"
+    },
+    "0/82/29/33": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/82/29/33",
+      "sha256": "4c51bee07cd55b4546aadee8d30e3a7cd5dade81dd9baea49f276933515ad12d"
+    },
+    "0/82/29/34": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/82/29/34",
+      "sha256": "19d228dfceefc539f83abbf75d16bf4120e4d3a06deeb7bb65766bb1e9b254ee"
+    },
+    "0/82/29/35": {
+      "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/82/29/35",
+      "sha256": "0513f65b374ae5f87c195ebd523a802b71d97b723620e76d781a1b02f92cc838"
+    }
+  },
+  "missing": [],
+  "missing_bytes": 0,
+  "cumulative_required_new_bytes": 2097152
+}

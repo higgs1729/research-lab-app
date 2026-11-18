@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-15T17:46:55.003780+00:00",
+  "method": "GET only; no form fields sent",
+  "sources": [
+    {
+      "url": "https://scrollprize.org/prizes",
+      "final_url": "https://scrollprize.org/prizes",
+      "status": 200,
+      "path": "C:\\dev\\kensyoukin\\runtime\\progress-rules-20261116.html",
+      "bytes": 55054,
+      "sha256": "d4b690f6911981f8634b3a5efc7a680d585b600440d90f1aceaa108ab4583034"
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeB6MC_--4UCCEGc3zalX57-uE4puRcE_vJoYJCrEt4uYaaaw/viewform",
+      "final_url": "https://docs.google.com/forms/d/e/1FAIpQLSeB6MC_--4UCCEGc3zalX57-uE4puRcE_vJoYJCrEt4uYaaaw/viewform",
+      "status": 200,
+      "path": "C:\\dev\\kensyoukin\\runtime\\progress-form-20261116.html",
+      "bytes": 106525,
+      "sha256": "23e088558d9ecb95d9c421a9c8537e6cd69145db3e2f86b695c90bc13a003bf1"
+    }
+  ]
+}

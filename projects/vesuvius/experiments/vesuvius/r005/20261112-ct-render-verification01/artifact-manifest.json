@@ -1,0 +1,165 @@
+{
+  "verification_id": "20261112-ct-render-verification01",
+  "status": "complete within scope",
+  "verified_trial_manifest": {
+    "path": "experiments/vesuvius/r005/20261112-ct-render01/artifact-manifest.json",
+    "bytes": 97453,
+    "sha256": "4bbf67f453cdc96b3e70da51aeeb0f4f2a79315a232991532c3eac1000b8d1b6"
+  },
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "high",
+  "verification_run_count_completed": 1,
+  "checker_attempts": [
+    {
+      "state": {
+        "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check01-execution/state.json",
+        "bytes": 869,
+        "sha256": "00f40fd7ec177d7975d6ff20b912f930cfa051a01ff8100c552f7d2d7fb617f4"
+      },
+      "exit_code": 1,
+      "elapsed_seconds": 7.028158800036181,
+      "peak_rss_bytes": 158982144,
+      "note": "Equidistant adjacent triangles had different IDs. The verifier now checks both minima and the recorded triangle normal."
+    },
+    {
+      "state": {
+        "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check02-execution/state.json",
+        "bytes": 869,
+        "sha256": "f37205dc0965e07542a8ff187c719634270e3fe03ae4786130fe2cd7bd071c92"
+      },
+      "exit_code": 1,
+      "elapsed_seconds": 2.438299300032668,
+      "peak_rss_bytes": 160653312,
+      "note": "The installed tifffile could not decode native LZW TIFF. The verifier now decodes native TIFF through installed Pillow."
+    },
+    {
+      "state": {
+        "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check03-execution/state.json",
+        "bytes": 869,
+        "sha256": "eddafe6e629aae7e491c984e3322f5ffeddbabb4c4f5a6e19a90c2b08b9b9497"
+      },
+      "exit_code": 1,
+      "elapsed_seconds": 1.7219862000201829,
+      "peak_rss_bytes": 71241728,
+      "note": "The source diff comparison retained a generated header newline. The verifier now compares diff lines without terminators."
+    },
+    {
+      "state": {
+        "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check04-execution/state.json",
+        "bytes": 872,
+        "sha256": "9306e92f228017e8019e57b14371f9784ef2c333260391300bc30bce78a64ad1"
+      },
+      "exit_code": 0,
+      "elapsed_seconds": 16.368118299986236,
+      "peak_rss_bytes": 164249600,
+      "note": "Complete independent check."
+    }
+  ],
+  "elapsed_seconds_total": 27.556562600075267,
+  "peak_rss_bytes": 164249600,
+  "cpu_cores": 1,
+  "numerical_threads": 1,
+  "rss_limit_bytes": 4294967296,
+  "timeout_seconds": 300,
+  "download_bytes": 0,
+  "cost_usd": 0,
+  "verification_outputs": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check01-execution/state.json",
+      "bytes": 869,
+      "sha256": "00f40fd7ec177d7975d6ff20b912f930cfa051a01ff8100c552f7d2d7fb617f4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check01-execution/stdout.log",
+      "bytes": 829,
+      "sha256": "e1af06675704442e1828f536286e171c5d2a92b9ae3a33b8d87d58bebeece060"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check01-execution/verify_saved.py",
+      "bytes": 35769,
+      "sha256": "b5b6de0ec8e2337379be5a90066c291dc65e0d8681ef216b360a9b40ee02b07a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check02-execution/state.json",
+      "bytes": 869,
+      "sha256": "f37205dc0965e07542a8ff187c719634270e3fe03ae4786130fe2cd7bd071c92"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check02-execution/stdout.log",
+      "bytes": 2508,
+      "sha256": "d4f42615fd177d5563112ebe4dfab3bbc9d75d67f9b8ccc95cd543b0449b37e7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check02-execution/verify_saved.py",
+      "bytes": 36517,
+      "sha256": "c16aa3dc72c356ce1a66bf47b21f761cc8e9eddc0b2512c86da1b6d961365c15"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check03-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check03-execution/state.json",
+      "bytes": 869,
+      "sha256": "eddafe6e629aae7e491c984e3322f5ffeddbabb4c4f5a6e19a90c2b08b9b9497"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check03-execution/stdout.log",
+      "bytes": 661,
+      "sha256": "22992a24e892d4baec84ac574dd8a6ed0da43060292c6eea77df5250dc7d93c3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check03-execution/verify_saved.py",
+      "bytes": 37030,
+      "sha256": "9c14f4b8798f887a4e4f9daba55a01392b0901eafbe8b0e681e35d4bd3b0cec1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check04/result.json",
+      "bytes": 40618,
+      "sha256": "0994a6621e62c64ae65fceaca5bcb44fcab7e299b881aa4a832ce409abced232"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check04-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check04-execution/state.json",
+      "bytes": 872,
+      "sha256": "9306e92f228017e8019e57b14371f9784ef2c333260391300bc30bce78a64ad1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/check04-execution/stdout.log",
+      "bytes": 294,
+      "sha256": "c70b730a0a3293f6638bd351369318055f76ab0e99eddd64db9c2feeac7b5fc8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-verification01/verify_saved.py",
+      "bytes": 37079,
+      "sha256": "97aa124e43f0f19759ae495afad9ab056eeca9768d72f8b1cf83dd3c5d7db6b8"
+    },
+    {
+      "path": "research/104-r005-ct-render-verification.md",
+      "bytes": 10179,
+      "sha256": "af7b618fa3e7b18139f19b552eadb6307ee849af08d1b193df5d3cd6fe589395"
+    }
+  ],
+  "scope_limits": [
+    "This result covers one preselected edge in the first saved input.",
+    "Component 2 correspondence to the same physical papyrus layer and preservation of fibers or improved readability are unresolved.",
+    "Independent public distances cover the saved triangulation and five local patches.",
+    "Transfer and execution controls were checked from saved records, local data, and source.",
+    "No new download, native rebuild, SLIM execution, rendering, GPU, or paid compute."
+  ]
+}

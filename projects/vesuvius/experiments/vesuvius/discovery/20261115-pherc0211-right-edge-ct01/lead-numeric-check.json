@@ -1,0 +1,139 @@
+{
+  "utc": "2026-11-15T12:25:24.747736+00:00",
+  "passed": true,
+  "method": "Independent XYZ integer lookup from flattened raw chunk byte offsets; eight-corner float64 interpolation without worker imports or cube assembly",
+  "CT_chunks_verified": 26,
+  "CT_bytes_verified": 54525952,
+  "planes": 14,
+  "display_images": 28,
+  "max_sample_error_DN": 8.526512829121202e-14,
+  "checks": [
+    {
+      "name": "candidate-r40-xy",
+      "array_values": 65536,
+      "max_array_error_DN": 0.0,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 65500,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "candidate-r42-xy",
+      "array_values": 65536,
+      "max_array_error_DN": 0.0,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 65502,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "candidate-r44-xy",
+      "array_values": 65536,
+      "max_array_error_DN": 0.0,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 65502,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "candidate-r46-xy",
+      "array_values": 65536,
+      "max_array_error_DN": 0.0,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 65502,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "known_phi-r40-xy",
+      "array_values": 98304,
+      "max_array_error_DN": 0.0,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 98260,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "known_phi-r42-xy",
+      "array_values": 98304,
+      "max_array_error_DN": 0.0,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 98260,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "known_phi-r44-xy",
+      "array_values": 98304,
+      "max_array_error_DN": 0.0,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 98260,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "known_phi-r46-xy",
+      "array_values": 98304,
+      "max_array_error_DN": 0.0,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 98260,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "candidate-r40-sd",
+      "array_values": 13065,
+      "max_array_error_DN": 8.526512829121202e-14,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 13021,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "candidate-r42-sd",
+      "array_values": 13065,
+      "max_array_error_DN": 8.526512829121202e-14,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 13021,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "candidate-r44-sd",
+      "array_values": 13065,
+      "max_array_error_DN": 8.526512829121202e-14,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 13021,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "candidate-r46-sd",
+      "array_values": 13065,
+      "max_array_error_DN": 8.526512829121202e-14,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 13021,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "known_phi-r42-sd",
+      "array_values": 13065,
+      "max_array_error_DN": 8.526512829121202e-14,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 13021,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    },
+    {
+      "name": "known_phi-r46-sd",
+      "array_values": 13065,
+      "max_array_error_DN": 8.526512829121202e-14,
+      "raw_png_exact": true,
+      "fixed_window_data_pixels_exact": 13021,
+      "overlay_anchor_exact": true,
+      "overlay_colours_checked": true
+    }
+  ],
+  "limits": "Numerical and displayed-data fidelity only. Overlay line coverage is excluded from grayscale comparisons; anchor positions and overlay colours are checked. Physical sheet identity is a separate visual judgement."
+}

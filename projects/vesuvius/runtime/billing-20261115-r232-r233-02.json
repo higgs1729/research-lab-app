@@ -1,0 +1,92 @@
+{
+  "utc": "2026-11-15T12:46:33.049407+00:00",
+  "resource_mutations": 0,
+  "rows": [
+    {
+      "research": 232,
+      "pod_id": "dwuiaamlk3334s",
+      "query": {
+        "podId": "dwuiaamlk3334s",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T10:00:00+00:00",
+        "endTime": "2026-11-15T13:46:32.282468+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0.00023148150648921728,
+          "endTime": "2026-11-15T11:00:00Z",
+          "gpuAmount": 0.014407635666429996,
+          "podId": "dwuiaamlk3334s",
+          "startTime": "2026-11-15T10:00:00Z",
+          "totalAmount": 0.014639117172919214
+        },
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "endTime": "2026-11-15T12:00:00Z",
+          "gpuAmount": 0.03354412317276001,
+          "podId": "dwuiaamlk3334s",
+          "startTime": "2026-11-15T11:00:00Z",
+          "totalAmount": 0.03354412317276001
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T14:00:00Z",
+          "podId": "dwuiaamlk3334s",
+          "startTime": "2026-11-15T10:00:00Z"
+        },
+        "recordCount": 2,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0.00023148150648921728,
+          "gpuAmount": 0.047951758839190006,
+          "totalAmount": 0.048183240345679224
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "research": 233,
+      "pod_id": "tbj4mepark90np",
+      "query": {
+        "podId": "tbj4mepark90np",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T11:00:00+00:00",
+        "endTime": "2026-11-15T13:46:32.694476+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0.00046296301297843456,
+          "endTime": "2026-11-15T12:00:00Z",
+          "gpuAmount": 0.09161913301795721,
+          "podId": "tbj4mepark90np",
+          "startTime": "2026-11-15T11:00:00Z",
+          "totalAmount": 0.09208209603093565
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T14:00:00Z",
+          "podId": "tbj4mepark90np",
+          "startTime": "2026-11-15T11:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0.00046296301297843456,
+          "gpuAmount": 0.09161913301795721,
+          "totalAmount": 0.09208209603093565
+        },
+        "uniquePodCount": 1
+      }
+    }
+  ],
+  "note": "Observed per-Pod charge records; not final invoice. Empty means pending, not zero. Do not infer charges from account balance."
+}

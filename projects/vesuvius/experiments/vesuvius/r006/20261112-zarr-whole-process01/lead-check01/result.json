@@ -1,0 +1,62 @@
+{
+  "utc": "2026-11-12T13:51:11.936101+00:00",
+  "reviewer": "lead/root, different from trial implementer",
+  "pairs": [
+    {
+      "pair": 1,
+      "off": 5.600469968000027,
+      "on": 1.6703588800000375,
+      "saved_percent": 70.17466588439656
+    },
+    {
+      "pair": 2,
+      "off": 1.5373734890000037,
+      "on": 1.4435051419999922,
+      "saved_percent": 6.105760745300016
+    },
+    {
+      "pair": 3,
+      "off": 1.5393640969999751,
+      "on": 1.3860766180000041,
+      "saved_percent": 9.95784423572752
+    },
+    {
+      "pair": 4,
+      "off": 1.5390084509999724,
+      "on": 1.6547183089999749,
+      "saved_percent": -7.5184680061256115
+    },
+    {
+      "pair": 5,
+      "off": 1.315400651999994,
+      "on": 1.4893096199999718,
+      "saved_percent": -13.220988429309276
+    }
+  ],
+  "off_median": 1.5390084509999724,
+  "on_median": 1.4893096199999718,
+  "median_saved_percent": 3.2292760294921563,
+  "regressing_pairs": [
+    4,
+    5
+  ],
+  "order_verified": [
+    "off",
+    "on",
+    "on",
+    "off",
+    "off",
+    "on",
+    "on",
+    "off",
+    "off",
+    "on"
+  ],
+  "actual_output_files_rehashed": 140,
+  "all_output_files_equal": true,
+  "independent_decode_repeated": false,
+  "decode_scope": "Worker decoder result inspected; existing libblosc/libtiff. Lead independently rehashed all output files and confirmed they match worker manifest and each other. No repeat render/build.",
+  "first_off_wall_seconds": 5.600469968000027,
+  "interpretation": "Fixed small ROI whole-process threshold failed. First off took 5.600s and is retained, cause not established. No arbitrary exclusion or causal generalization. R006 deferred; sampler improvement verified in 114 remains a bounded fact.",
+  "elapsed_seconds": 2.129567300027702
+}

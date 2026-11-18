@@ -1,0 +1,34 @@
+{
+  "baseline": {
+    "status": "error",
+    "type": "ArrayNotFoundError",
+    "message": "No array found in store file://C:/dev/kensyoukin/experiments/vesuvius/r009/20261116-standalone-metadata01/run03/baseline-false.zarr at path 1"
+  },
+  "fixed": {
+    "status": "ok",
+    "value": {
+      "location_opened": true,
+      "node_count": 1,
+      "arrays": [
+        [
+          {
+            "shape": [
+              28,
+              64,
+              64
+            ],
+            "dtype": "uint8",
+            "min": 4,
+            "max": 227,
+            "sum": 7519266,
+            "sha256_c_order": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+          }
+        ]
+      ]
+    }
+  },
+  "direct_L0_same": true,
+  "native_L0_same": true,
+  "fixtures_unchanged": true,
+  "ome_SHA256": "196b85a76b8cf8d3321cd40937d8abf9f092bd7d44f58b96b7881823cb9ec399"
+}

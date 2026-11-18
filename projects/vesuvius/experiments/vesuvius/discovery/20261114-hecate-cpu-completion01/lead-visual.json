@@ -1,0 +1,16 @@
+{
+  "reviewer": "root",
+  "model_forward_calls": 0,
+  "network_bytes": 0,
+  "display_source_values_checked": 327680,
+  "baseline_tiff_decoder": "Pillow, independent of the producer tifffile path",
+  "visual_artifact": "comparison-256.png",
+  "observations": [
+    "Upper central bright region is elongated vertically in local Hecate relative to the compact published region.",
+    "Local lower-right bright region spreads leftward; a lighter connection to the upper region weakens their dark separation.",
+    "A left-border bright band occurs in both predictions, but this cutout does not establish a complete arc or glyph."
+  ],
+  "decision": "CPU execution and exact saved-probability aggregation succeeded. Published partial-stroke reproduction remains insufficient; inspect source/input/runtime provenance before using this result to justify an unknown-region experiment.",
+  "paid_plan": "The R194 acceleration plan will not be executed for this completed CPU experiment; its approval question no longer needs an answer.",
+  "limits": "No new letter, transcription, recognition-accuracy gain, or unknown-region generalization established."
+}

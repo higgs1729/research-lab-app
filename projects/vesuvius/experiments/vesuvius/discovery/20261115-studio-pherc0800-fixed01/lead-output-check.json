@@ -1,0 +1,51 @@
+{
+  "utc": "2026-11-15T11:39:29.400847+00:00",
+  "passed": true,
+  "method": "Independent scalar FP32 LUT, independently enumerated source grid, float64 sine-squared assembly; no worker imports",
+  "input_rows_verified": 651,
+  "GPU_u8_bits_verified": 256,
+  "max_normalization_delta": 5.960464477539063e-08,
+  "known_CPU_references": [
+    {
+      "index": 0,
+      "max_abs": 1.9371509552001953e-07,
+      "mean_abs": 3.615665870408217e-08
+    },
+    {
+      "index": 47,
+      "max_abs": 9.238719940185547e-07,
+      "mean_abs": 2.332542660749621e-07
+    },
+    {
+      "index": 95,
+      "max_abs": 6.258487701416016e-07,
+      "mean_abs": 1.3581949234422711e-07
+    }
+  ],
+  "cases": {
+    "forward": {
+      "patches": 324,
+      "pixels": 1138489,
+      "nonzero_pixels": 961223,
+      "errors": {
+        "probability": 1.578367280208326e-07,
+        "weight": 5.9349112513373825e-08,
+        "numerator": 8.106538840202404e-08
+      },
+      "output_sha256": "2853ea4093b5e1f586f46976e1089b11076fbfd4f95d610796f949e9658dfc53"
+    },
+    "reverse": {
+      "patches": 324,
+      "pixels": 1138489,
+      "nonzero_pixels": 961223,
+      "errors": {
+        "probability": 1.0251328358412692e-07,
+        "weight": 5.9349112513373825e-08,
+        "numerator": 3.931535930146168e-08
+      },
+      "output_sha256": "064acb627d9353dcaf92556708262603131928ddd258b5897d4ab87816d67b1a"
+    }
+  },
+  "model_forwards_added": 0,
+  "visual_judgement_included": false
+}

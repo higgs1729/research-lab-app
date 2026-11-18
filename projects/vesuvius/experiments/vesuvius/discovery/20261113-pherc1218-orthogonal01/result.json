@@ -1,0 +1,612 @@
+{
+  "input_plan_sha256": "d4150a098a52bffcbbba5295dae60c737e15c60e1e4b0f02f313c0a5b6e5175f",
+  "ct_chunks": {
+    "0/85/39/28": {
+      "sha256": "8f9369b2badd830358ba82ad71fd6cf3203b7fde46a8062dcdfea5bc27b33511",
+      "etag": "15b019249374e2c567f0d3706bc947b1",
+      "bytes": 2097152
+    },
+    "0/85/39/29": {
+      "sha256": "c012d8a649d2bab3f28ea2f000dbfaf0ec90d8c2e6d3be6d2eb08218a318078f",
+      "etag": "c05daef22e89b2e300cf5d7a03458d94",
+      "bytes": 2097152
+    },
+    "0/85/39/30": {
+      "sha256": "0c2af7fb23eeafe00b1de19492fe73f83d1039c92a68a6f0a9aa552c0a37314a",
+      "etag": "28a49973b1378033763428df70a6727c",
+      "bytes": 2097152
+    },
+    "0/85/40/28": {
+      "sha256": "fd5f5e6a9cea7ae973451c4f01cb79dec165d336db8611f0783ee1512e872552",
+      "etag": "c7fd42136c8f551f63f40f480e68dda7",
+      "bytes": 2097152
+    },
+    "0/85/40/29": {
+      "sha256": "c3b60c05cad95d27adba2175792efdbe1a632ea57c4b6d229d906dc07ee08e83",
+      "etag": "26ca36290802b248026b5caf204b8589",
+      "bytes": 2097152
+    },
+    "0/85/40/30": {
+      "sha256": "a0219bbccd58f2357aece03dfec41656c7e20a362aa27ad9c037fbbadb3d700d",
+      "etag": "04292a9ac91e3caa83c61276edfcceb3",
+      "bytes": 2097152
+    },
+    "0/86/39/28": {
+      "sha256": "218fcc68f3b4830ba7dd75e2de2fa8c20b811a9b4948572e264126c446395b30",
+      "etag": "82596827ea26c76c88282ae98e95ae65",
+      "bytes": 2097152
+    },
+    "0/86/39/29": {
+      "sha256": "d89707a5744ec815a3a4f5c9c7d01b257fc3939c53f9c5d6508303432cbbe9eb",
+      "etag": "a916af83d9462dcf6cfa1adf91058edb",
+      "bytes": 2097152
+    },
+    "0/86/39/30": {
+      "sha256": "dbf71d70634c99732d9da000ea5721b6f92d745a49369f1b32f4066ba1fdebc6",
+      "etag": "73a7bb90e3e777ea02fc8852b831fec8",
+      "bytes": 2097152
+    },
+    "0/86/40/28": {
+      "sha256": "73177f896108678e3eb10107549d5660fba4eb224fe31038403d9fbb8450a6b9",
+      "etag": "29bdcedaffaa9ea09f1764f9356351ec",
+      "bytes": 2097152
+    },
+    "0/86/40/29": {
+      "sha256": "4824851d784e81af2e5ec085b039efd4de882afd1bc54af25445d6989cae6ee2",
+      "etag": "4853d3dcf6f214bacbe184dad2571d52",
+      "bytes": 2097152
+    },
+    "0/86/40/30": {
+      "sha256": "ea820cec56b3e55498b522efbc3438404085d1fb14151c6b79328545e5f29461",
+      "etag": "b061973ac121ef90fa8908f68c790811",
+      "bytes": 2097152
+    },
+    "0/87/39/28": {
+      "sha256": "01b21b46822ccbde1ade141d7b7b8dc5612eabb7c745d116f33ea4e9de34476f",
+      "etag": "0e45f6d3e8049435e2e609f78abd8e56",
+      "bytes": 2097152
+    },
+    "0/87/39/29": {
+      "sha256": "d98277f29073bfcea73453c61e7a42211bd5a87438598803f4bb9a232be1ed02",
+      "etag": "129b45f80d8b6642280395589efdbc8f",
+      "bytes": 2097152
+    },
+    "0/87/39/30": {
+      "sha256": "22c5558571582550bc52ccd9776fef4a8d7589afce77ea183e1c559efead3fed",
+      "etag": "d485031a57a8372d9a8c237e43d6793b",
+      "bytes": 2097152
+    },
+    "0/87/40/28": {
+      "sha256": "8bd2fca5dc147baeac3955da4170d02f0b54214a225d65ef70efde9f5e6be7d6",
+      "etag": "bd0b5a8c22182fa0c7aa5e894a75295b",
+      "bytes": 2097152
+    },
+    "0/87/40/29": {
+      "sha256": "7e1d6ce1b298eb724ccb6bc6f1d0e250551438adcff3bb1def7a722bbc935658",
+      "etag": "38c9a1bf9c8175d0f241aeaa9d95c80c",
+      "bytes": 2097152
+    },
+    "0/87/40/30": {
+      "sha256": "3cd232bf9b0ff4a05d397f8c6ca53c2eeb00039a7062c8dc8890fd4ca6f5876e",
+      "etag": "e741c786d3f1660b7927d3b902c63b03",
+      "bytes": 2097152
+    }
+  },
+  "ct_shape_zyx": [
+    384,
+    256,
+    384
+  ],
+  "ct_bytes": 37748736,
+  "volume_sha256_zyx": "0f48f7d90b4077c6e8f85969b59ede9c09d59cd6f54720cdc6a330bfc14439a0",
+  "mesh_files_sha256": {
+    "x.tif": "60da2ce36cc0e6bd8dbf46bcfdc49b1f428e0e3804397fcc7b04b8622578a6d6",
+    "y.tif": "4bb1767e07f1813af7136a847fe091ed105286bbdb77ce3e5a0add5d77893f2e",
+    "z.tif": "56c7296f1c2cb01565d32c57ef5eb733244330d1d05fc610a5046baed43d4ae9",
+    "meta.json": "a18a7fac12a6829c1412c6700391dc09ae49858e23f7b524632a1f0c0739e6a8"
+  },
+  "geometry_tiles_sha256": {
+    "9162-2012": "ff886293bb0abc0bae9f8246033a5a726f484ac42efb2c1f68e96e7117fb4035",
+    "9226-2012": "f1c6f2d04b47bd9fa65e6f76c7f657f469d2fdc89757f5b69f21560036d32945",
+    "9290-2012": "dd93c0d49966eacdd8825cd5b07c2067a3cc155efb3631fc188853a6665b07db",
+    "9354-2012": "9b9bac1ca4f199a69bac3f038c7b73fb0254241b604192a1bf8eea23a02d3fad",
+    "9162-2076": "9f5b17626b258204d7ffb1385832f710f19c1399c9f23901d0c9a010ff00d824",
+    "9226-2076": "a7a86b13c0489ea0fdbb9aded7ebfc09300a090ac9e83baaaa497b507a0270a5",
+    "9290-2076": "6fe0e3392f4693f4c435316a9d0c86b956558b98cf432a4988dc2b90914ac83b",
+    "9354-2076": "34a5bc465f42748def33a98ab1ac48e9af8592106132c49c398cf51b61051dac",
+    "9162-2140": "3813828cbbc643e6102199c012199abf7512382731923dc59a87213e585a0b3a",
+    "9226-2140": "6edfc4118cd8c5d32734296b6a868102d73070a95adda09b56c10cc032d87fd8",
+    "9290-2140": "0fe19d3ef169cbbf54fecba9be246061674f252777903154a413dc4ba15c722b",
+    "9354-2140": "39a30c7ae50b25c77124938be2b3fbc821688021c2913de2607f9d914df2c7dd",
+    "9162-2204": "f3116bff6d266038b561dcadc0419f5a7c362297686bca460da008814b5282dd",
+    "9226-2204": "f1d99a1a00c20bd97df9ed80b530707b2a0460d110fa505525b0625df22e3649",
+    "9290-2204": "97c0f29567eacfde8678e1cba295c87ba2669dca582d3404c9be9104adc26a0c",
+    "9354-2204": "9222c11975ae84f41678f0ad384a30f46e4b8eab11a87752434c749e38325e49"
+  },
+  "slices": {
+    "X3787": {
+      "shape_yx": [
+        384,
+        256
+      ],
+      "sha256": "f87ea924cd251a9f5c9056ebd5b1c087ecb2445f769afb2a1bfba40d14824b77",
+      "raw_u8_sha256": "ce457d46fcfd4c3d5937337e961f411c9f26da128473298a9094e9f650d9be63",
+      "minmax": [
+        5,
+        255
+      ],
+      "representative_points": [
+        {
+          "pixel_col_row": [
+            0,
+            0
+          ],
+          "global_xyz": [
+            3787,
+            4992,
+            10880
+          ],
+          "u8": 144
+        },
+        {
+          "pixel_col_row": [
+            128,
+            192
+          ],
+          "global_xyz": [
+            3787,
+            5120,
+            11072
+          ],
+          "u8": 126
+        },
+        {
+          "pixel_col_row": [
+            255,
+            383
+          ],
+          "global_xyz": [
+            3787,
+            5247,
+            11263
+          ],
+          "u8": 95
+        }
+      ],
+      "mesh_points_in_slab": 276,
+      "normal_samples_in_slab": []
+    },
+    "X3803": {
+      "shape_yx": [
+        384,
+        256
+      ],
+      "sha256": "8f76522c8c56c9009a97619a59f9f38604b0a8cf5c655d402910440e3dfd83de",
+      "raw_u8_sha256": "d9fd3dee73a1c034e1392b5bc4a90240297fbce0efd01e71c44bc27adcb04d2c",
+      "minmax": [
+        8,
+        255
+      ],
+      "representative_points": [
+        {
+          "pixel_col_row": [
+            0,
+            0
+          ],
+          "global_xyz": [
+            3803,
+            4992,
+            10880
+          ],
+          "u8": 107
+        },
+        {
+          "pixel_col_row": [
+            128,
+            192
+          ],
+          "global_xyz": [
+            3803,
+            5120,
+            11072
+          ],
+          "u8": 140
+        },
+        {
+          "pixel_col_row": [
+            255,
+            383
+          ],
+          "global_xyz": [
+            3803,
+            5247,
+            11263
+          ],
+          "u8": 147
+        }
+      ],
+      "mesh_points_in_slab": 279,
+      "normal_samples_in_slab": [
+        0
+      ]
+    },
+    "X3819": {
+      "shape_yx": [
+        384,
+        256
+      ],
+      "sha256": "c10ddebb083d36824a5806f3568557e65fd46a2d8aced3c120f7e9f57836f9e6",
+      "raw_u8_sha256": "a05fc9e10e1129e59672fcc1252d3a280f70cd0feec2f308487d8742db805537",
+      "minmax": [
+        3,
+        255
+      ],
+      "representative_points": [
+        {
+          "pixel_col_row": [
+            0,
+            0
+          ],
+          "global_xyz": [
+            3819,
+            4992,
+            10880
+          ],
+          "u8": 137
+        },
+        {
+          "pixel_col_row": [
+            128,
+            192
+          ],
+          "global_xyz": [
+            3819,
+            5120,
+            11072
+          ],
+          "u8": 96
+        },
+        {
+          "pixel_col_row": [
+            255,
+            383
+          ],
+          "global_xyz": [
+            3819,
+            5247,
+            11263
+          ],
+          "u8": 149
+        }
+      ],
+      "mesh_points_in_slab": 285,
+      "normal_samples_in_slab": []
+    },
+    "Y5117": {
+      "shape_yx": [
+        384,
+        384
+      ],
+      "sha256": "1af6af3ec3e6d92147ff0efa9c462e21d85d2109ee72b42ba9b0d2749295ad67",
+      "raw_u8_sha256": "f113459742529ca8ba123cd04205c2b5eb5dc9697135516a874a2ccc28e6a9f5",
+      "minmax": [
+        8,
+        242
+      ],
+      "representative_points": [
+        {
+          "pixel_col_row": [
+            0,
+            0
+          ],
+          "global_xyz": [
+            3584,
+            5117,
+            10880
+          ],
+          "u8": 120
+        },
+        {
+          "pixel_col_row": [
+            192,
+            192
+          ],
+          "global_xyz": [
+            3776,
+            5117,
+            11072
+          ],
+          "u8": 143
+        },
+        {
+          "pixel_col_row": [
+            383,
+            383
+          ],
+          "global_xyz": [
+            3967,
+            5117,
+            11263
+          ],
+          "u8": 92
+        }
+      ],
+      "mesh_points_in_slab": 868,
+      "normal_samples_in_slab": []
+    },
+    "Y5133": {
+      "shape_yx": [
+        384,
+        384
+      ],
+      "sha256": "cf9219abe46535b68b300fc937b5f35c5067fd456c8bf0dd75b5699e295675b3",
+      "raw_u8_sha256": "06945ad750e449b4a16329515d7b1e2b374792ebcd8e6973c51b509c536586cc",
+      "minmax": [
+        6,
+        255
+      ],
+      "representative_points": [
+        {
+          "pixel_col_row": [
+            0,
+            0
+          ],
+          "global_xyz": [
+            3584,
+            5133,
+            10880
+          ],
+          "u8": 120
+        },
+        {
+          "pixel_col_row": [
+            192,
+            192
+          ],
+          "global_xyz": [
+            3776,
+            5133,
+            11072
+          ],
+          "u8": 96
+        },
+        {
+          "pixel_col_row": [
+            383,
+            383
+          ],
+          "global_xyz": [
+            3967,
+            5133,
+            11263
+          ],
+          "u8": 96
+        }
+      ],
+      "mesh_points_in_slab": 708,
+      "normal_samples_in_slab": [
+        0
+      ]
+    },
+    "Y5149": {
+      "shape_yx": [
+        384,
+        384
+      ],
+      "sha256": "de75497dff31e267c6bd6d8acad16e67fde8f217e86392fe36819a62c96a4c91",
+      "raw_u8_sha256": "0ecde17c4ef366de0ca5c255fd4d4e1c91512a9d6e06394c33a94fe468e972b1",
+      "minmax": [
+        2,
+        255
+      ],
+      "representative_points": [
+        {
+          "pixel_col_row": [
+            0,
+            0
+          ],
+          "global_xyz": [
+            3584,
+            5149,
+            10880
+          ],
+          "u8": 156
+        },
+        {
+          "pixel_col_row": [
+            192,
+            192
+          ],
+          "global_xyz": [
+            3776,
+            5149,
+            11072
+          ],
+          "u8": 45
+        },
+        {
+          "pixel_col_row": [
+            383,
+            383
+          ],
+          "global_xyz": [
+            3967,
+            5149,
+            11263
+          ],
+          "u8": 101
+        }
+      ],
+      "mesh_points_in_slab": 741,
+      "normal_samples_in_slab": []
+    },
+    "Z11010": {
+      "shape_yx": [
+        256,
+        384
+      ],
+      "sha256": "8ef88ed720df255dd2c17b54a00318e3eaebaa07ca3e1e9715fc1979f2b93806",
+      "raw_u8_sha256": "f5c5090011a1b4e6e7923a771c73d11d4f144db73c454f5a4c356fdd2ed4b7ff",
+      "minmax": [
+        16,
+        255
+      ],
+      "representative_points": [
+        {
+          "pixel_col_row": [
+            0,
+            0
+          ],
+          "global_xyz": [
+            3584,
+            4992,
+            11010
+          ],
+          "u8": 79
+        },
+        {
+          "pixel_col_row": [
+            192,
+            128
+          ],
+          "global_xyz": [
+            3776,
+            5120,
+            11010
+          ],
+          "u8": 85
+        },
+        {
+          "pixel_col_row": [
+            383,
+            255
+          ],
+          "global_xyz": [
+            3967,
+            5247,
+            11010
+          ],
+          "u8": 125
+        }
+      ],
+      "mesh_points_in_slab": 271,
+      "normal_samples_in_slab": []
+    },
+    "Z11026": {
+      "shape_yx": [
+        256,
+        384
+      ],
+      "sha256": "6b0478d87c8c70afc0b274eb72c48688ed4c77a22fe8653b39cbf0378e86e963",
+      "raw_u8_sha256": "179954698fbb03c0e9615bbe138fbfde09278abb16eb9ba1d22acdd8d403d223",
+      "minmax": [
+        10,
+        255
+      ],
+      "representative_points": [
+        {
+          "pixel_col_row": [
+            0,
+            0
+          ],
+          "global_xyz": [
+            3584,
+            4992,
+            11026
+          ],
+          "u8": 91
+        },
+        {
+          "pixel_col_row": [
+            192,
+            128
+          ],
+          "global_xyz": [
+            3776,
+            5120,
+            11026
+          ],
+          "u8": 98
+        },
+        {
+          "pixel_col_row": [
+            383,
+            255
+          ],
+          "global_xyz": [
+            3967,
+            5247,
+            11026
+          ],
+          "u8": 87
+        }
+      ],
+      "mesh_points_in_slab": 273,
+      "normal_samples_in_slab": [
+        -16,
+        -8,
+        0,
+        8
+      ]
+    },
+    "Z11042": {
+      "shape_yx": [
+        256,
+        384
+      ],
+      "sha256": "91fef9bc95eb1c4016286679deddb9352fb9e8d5ef33096963afcc7b2ef4e8a4",
+      "raw_u8_sha256": "fe9af444815d73ca7062663d1e003de02bddbeab90532091d48a0682b0b7b0a2",
+      "minmax": [
+        4,
+        255
+      ],
+      "representative_points": [
+        {
+          "pixel_col_row": [
+            0,
+            0
+          ],
+          "global_xyz": [
+            3584,
+            4992,
+            11042
+          ],
+          "u8": 138
+        },
+        {
+          "pixel_col_row": [
+            192,
+            128
+          ],
+          "global_xyz": [
+            3776,
+            5120,
+            11042
+          ],
+          "u8": 71
+        },
+        {
+          "pixel_col_row": [
+            383,
+            255
+          ],
+          "global_xyz": [
+            3967,
+            5247,
+            11042
+          ],
+          "u8": 69
+        }
+      ],
+      "mesh_points_in_slab": 269,
+      "normal_samples_in_slab": []
+    }
+  },
+  "working_array_bytes": 41926656,
+  "figure_sha256": {
+    "raw-sections.png": "a99a15ee672bbc3a9a544edb188f4fd6c5dc65573d5488245c31a4137161c52a",
+    "mesh-projections.png": "dfa53451679f69714e97df992cb631439f00c6f46fce0fdbd1bbe3749cf736a7"
+  },
+  "files_bytes_before_result": 4554996,
+  "new_download_bytes": 0
+}

@@ -1,0 +1,77 @@
+{
+  "completed_utc": "2026-11-11T12:17:24.130603+00:00",
+  "status": "complete",
+  "files": [
+    {
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/surfaces/kaggle/images/sample_00379.tif",
+      "path": "D:\\kensyoukin-work\\r004-input01\\image.tif",
+      "bytes": 30376525,
+      "sha256": "aa0677ebc9618c77c2becf079344683393ef55b27baec9f3eb15a866907d6ffd",
+      "reused_from_input01": true,
+      "decoded_path": "D:\\kensyoukin-work\\r004-input01\\image.npy",
+      "decoded_sha256": "bd605f4ed495ece9583417983b86f942b0ad02eae4fd9cee8c55bd1f33d796b2",
+      "decoder": "Pillow TIFF pages, mode L",
+      "tiff": {
+        "shape": [
+          320,
+          320,
+          320
+        ],
+        "axes": "QYX",
+        "dtype": "uint8",
+        "compression": "5",
+        "page_count": 320,
+        "image_description": "{\"shape\": [320, 320, 320]}",
+        "value_counts": null,
+        "min_max": [
+          0,
+          255
+        ]
+      }
+    },
+    {
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/surfaces/kaggle/labels/sample_00379.tif",
+      "path": "D:\\kensyoukin-work\\r004-input01\\label.tif",
+      "bytes": 32821210,
+      "sha256": "0a325aef4811b0499f9c0bb87babd0fc309e155b101ecf913c217751f4b93047",
+      "reused_from_input01": false,
+      "decoded_path": "D:\\kensyoukin-work\\r004-input01\\label.npy",
+      "decoded_sha256": "b84d849d7645bebe7974a92ba9d35aeb39cfedb1724a4b32042ebe5592ab0511",
+      "decoder": "Pillow TIFF pages, mode L",
+      "tiff": {
+        "shape": [
+          320,
+          320,
+          320
+        ],
+        "axes": "QYX",
+        "dtype": "uint8",
+        "compression": "1",
+        "page_count": 320,
+        "image_description": "{\"shape\": [320, 320, 320]}",
+        "value_counts": {
+          "0": 23334439,
+          "1": 2078214,
+          "2": 7355347
+        },
+        "min_max": [
+          0,
+          2
+        ]
+      }
+    }
+  ],
+  "axis_interpretation": "TIFF pages are Q, rows Y, columns X. Q is interpreted as Z following the published center_zyx convention; TIFF tag itself does not name Z.",
+  "candidate_zyx": [
+    49,
+    274,
+    36
+  ],
+  "candidate_label_value": 1,
+  "fixed_image_window": [
+    0.0,
+    163.0
+  ],
+  "labels_edited": false,
+  "additional_download_bytes": 32821210
+}

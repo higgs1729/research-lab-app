@@ -1,0 +1,252 @@
+{
+  "created_utc": "2026-11-11T22:50:48.539160+00:00",
+  "scope": "Reports73/74, obstacle selection and topology gates, three-chart inputs, one existing-SCAF run, all stages with strict pin restoration and source corner UV mapping, full same-component pair screening before and after packing, independent verification and resource/runtime records. Existing solver code and shared libraries referenced by prior frozen evidence and per-run hashes.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles-close/decision-record.json",
+      "bytes": 1049,
+      "sha256": "f9e247725e9ea7f6b37682c1b4bc9910b4c68b8d78c8e1d29977bfe1356a8382"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles-close/experiment-record.json",
+      "bytes": 1574,
+      "sha256": "e09abfe5bc90d7c94b9a88532d8362e8bf9c16b9e317089f4f731e746276bb09"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles-close/freeze.py",
+      "bytes": 5342,
+      "sha256": "6807044c9b6d02aafb85d87a44cb693378a628ee26ec26d6f024292137dddcd3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles-close/resources.json",
+      "bytes": 11716,
+      "sha256": "a3d971ea808bf52a5a838ae07d8242ff4e93f4044cb12b9dacf6a51e22462a52"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles-close/runtime-status.json",
+      "bytes": 1063,
+      "sha256": "198d61bbf2a758b4a0ae9d76239f72e11cb65dd78cd829779e0f39bddc6a42a0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles-close/verification-record.json",
+      "bytes": 713,
+      "sha256": "24e1bb00194838ab57a3c57604cb9ed39827f4dcc692ee8f19c3b3322fea542f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles-verification01/check01/pairs.npz",
+      "bytes": 8908,
+      "sha256": "00703709b1eb0d78728c94b4ca25c87f3f04d0ae9a5a157441ef26dac596b0fb"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles-verification01/check01/result.json",
+      "bytes": 8277,
+      "sha256": "acd500e9dc35942a2518ec19e5dd44c3f63900f68f99945de50c9fac27fd0b89"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles-verification01/check01-execution/state.json",
+      "bytes": 881,
+      "sha256": "21cb72ea30b7e55ac6e80335cf4865fd9b11d954e3ae4902ca5311d3ec8d7fce"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles-verification01/check01-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles-verification01/verify_trial.py",
+      "bytes": 19965,
+      "sha256": "3178340074d46408d890574e82016376edbd1448a379bfd0125956f0d33ae2e6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/analysis01/analyze_trial.py",
+      "bytes": 5947,
+      "sha256": "368dd3b87cc7fde49078ead27c99fe8e420e6dab016a7fc2d1861f3ae53c1cf1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/analysis01/arrays.npz",
+      "bytes": 37327864,
+      "sha256": "8c06b1110e3021fad4c018d1bc92d9f0367a525829cb8539dade60a1b5cd0376"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/analysis01/result.json",
+      "bytes": 15982,
+      "sha256": "9e7ccd82800f204c9e1d639c31c63d8b65ed0284edffed2f150e703b97b7ba8c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/analysis01-execution/state.json",
+      "bytes": 859,
+      "sha256": "06981c86fa4f5b0c497f4f489d0d19124d2cade88804f960ed3b6b9f81aa96d0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/analysis01-execution/stdout.log",
+      "bytes": 3820,
+      "sha256": "ccedb7bf94a6b32acecf54898bdb7d1bf227e85900e273c74e01eb63ac1cfe59"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/analyze_trial.py",
+      "bytes": 5947,
+      "sha256": "368dd3b87cc7fde49078ead27c99fe8e420e6dab016a7fc2d1861f3ae53c1cf1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/decision-record.json",
+      "bytes": 1768,
+      "sha256": "535d2bd131e19f3621789b35ddb75ea152ca8324fa4c418cefa263a40757ff7b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/input01/prepare_trial.py",
+      "bytes": 4690,
+      "sha256": "7c44073a6acbb5f6295a2ae8952936e1f6e1c9e1ff7477bd3faa33ae3312722c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/input01/result.json",
+      "bytes": 708,
+      "sha256": "576075af5dc7420226a80f1e6bc33a6f1fae1b2e42146a00ff5197cfed6f510f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/input01-execution/state.json",
+      "bytes": 857,
+      "sha256": "76f74d30bfb7436a5ac22b603edda44c6490424f6632e6c834da08c0cadbea9f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/input01-execution/stdout.log",
+      "bytes": 708,
+      "sha256": "576075af5dc7420226a80f1e6bc33a6f1fae1b2e42146a00ff5197cfed6f510f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/input02/arrays.npz",
+      "bytes": 17559,
+      "sha256": "3f1bff6ffa7d3348e51b609da5eb0fa53cff88a4bed2e3ada6aab3070ae1198b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/input02/input.json",
+      "bytes": 66555,
+      "sha256": "3909bf04e214df56c48ea098e87cddf147dd5a28d00d6d5045234386aa9affad"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/input02/prepare_three_charts.py",
+      "bytes": 4203,
+      "sha256": "8e4de1ff6e2e6520f43a74d33024d2e94d45d755f8eb6e0349a76a2896a4a8bc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/input02/result.json",
+      "bytes": 457,
+      "sha256": "b340b9c29943c191ef7d7ef7ef10207c5d7add97d09c7e7caf95363ee291d52e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/input02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/input02-execution/state.json",
+      "bytes": 863,
+      "sha256": "047d6a4d486987bfe11635e9e9586c2d13c1ed01c1b3d843dabb0cd564eecb18"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/input02-execution/stdout.log",
+      "bytes": 457,
+      "sha256": "b340b9c29943c191ef7d7ef7ef10207c5d7add97d09c7e7caf95363ee291d52e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/obstacles01/arrays.npz",
+      "bytes": 4390,
+      "sha256": "9fb949b330ad427885490de8e30b48157db49198bc682c628143437726577f12"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/obstacles01/prepare_obstacles.py",
+      "bytes": 4852,
+      "sha256": "a065c34e5d1fbf7245a258e1331d98459091265d26e64100ff76d671232b327b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/obstacles01/result.json",
+      "bytes": 1049,
+      "sha256": "c41750775cfd3d3cb43ec965114606bbbddc0904a93bf68d7a050072309d027f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/obstacles01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/obstacles01-execution/state.json",
+      "bytes": 865,
+      "sha256": "7ed59a7738816e9129420c330db121657ed290380fe068f505e0a8d7eb880cbe"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/obstacles01-execution/stdout.log",
+      "bytes": 1049,
+      "sha256": "c41750775cfd3d3cb43ec965114606bbbddc0904a93bf68d7a050072309d027f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/prepare_obstacles.py",
+      "bytes": 4852,
+      "sha256": "a065c34e5d1fbf7245a258e1331d98459091265d26e64100ff76d671232b327b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/prepare_three_charts.py",
+      "bytes": 4203,
+      "sha256": "8e4de1ff6e2e6520f43a74d33024d2e94d45d755f8eb6e0349a76a2896a4a8bc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/prepare_trial.py",
+      "bytes": 4690,
+      "sha256": "7c44073a6acbb5f6295a2ae8952936e1f6e1c9e1ff7477bd3faa33ae3312722c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/soft01/native_job.py",
+      "bytes": 5181,
+      "sha256": "6ebbc8ee151f67777381282ee9b92fae7f62695ffbd79d0139f47703be8edb55"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/soft01/result.json",
+      "bytes": 193651,
+      "sha256": "6e4cf98142507edcc0cb9a466b37f6281e43ff7603e4d5384e26ae5821a7b452"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/soft01/scaf_trial.cpp",
+      "bytes": 3819,
+      "sha256": "9c591797e535af24044a34eed9d573afaaa10817ac24a57debc3ce95629ecb0a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/soft01/state.json",
+      "bytes": 5035,
+      "sha256": "4e45ddf6056a09cfd9b9fac36c6cfc9fded100d599a842087edc2ad8302a3f3e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/soft01/stdout.log",
+      "bytes": 160,
+      "sha256": "4063a0b3ccd4ddd0fea43e58033f0702c14b67f0d9062c1c4176fce3c2d91d0a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-obstacles01/two-obstacles-record.json",
+      "bytes": 1375,
+      "sha256": "d001933ae3ec3b9d94186952cdc59942a606ca775c4dca054c38bc0e22d5eec3"
+    },
+    {
+      "path": "research/73-r005-seam-obstacles-trial.md",
+      "bytes": 7750,
+      "sha256": "02ab1e3f7aa05d5e8fde248645f47c4455ba148a21a046a7bd1db9d2110297af"
+    },
+    {
+      "path": "research/74-r005-seam-obstacles-verification.md",
+      "bytes": 6596,
+      "sha256": "4e1ceee3bbc17407526c262c76dddb578bd79e91bd526d4ea95089a892b0c664"
+    }
+  ],
+  "external_files": []
+}

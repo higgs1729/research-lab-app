@@ -1,0 +1,115 @@
+{
+  "responses": [
+    {
+      "file": "originals/343-mesh-readme.md",
+      "url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/mesh/README.md",
+      "http_status": 200,
+      "bytes": 2110,
+      "sha256": "292071f29162673d6180afd670b3f72810126f018f229f8cb97b2dd95d85e900",
+      "git_blob": "f8f8d45af8023a0f9d82db73fe2ef5d036faf4a0",
+      "etag": "\"be6b15d42302d09e84492b9e19268ba7c0a65a29ad809ab93cf38059c34c244d\""
+    },
+    {
+      "file": "originals/343-snap_meshes.py",
+      "url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/e8370f1f88a211166056df62ea6fcfffe4a1063e/mesh/snap_meshes.py",
+      "http_status": 200,
+      "bytes": 10740,
+      "sha256": "253e48b31072be8c95b890715b80e90e4efbb34b5b0687a63b7d4a0a7a87857d",
+      "git_blob": "7dd5ae337f0bf9bb3abd7f43b8437ac1df801f16",
+      "etag": "\"4bb36a0e2fe2a59f6b57db259c8ac82254287ede073bae9fcc6e83c4e3907c20\""
+    },
+    {
+      "file": "originals/306b-lane_box.sh",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/discovery/x_vast_plan/lane_box.sh",
+      "http_status": 200,
+      "bytes": 18442,
+      "sha256": "c961a76c82c2f103f974ff0ee3f7390e00a0619b53c2a95ac32e7c1b46da116b",
+      "git_blob": "977e090747839a7b823cc4b5722489da8b95a599",
+      "etag": "\"4760b5faa3833977627e0eb64ea74ce8e1660f3b1fa7e58171f14733d68bd755\""
+    },
+    {
+      "file": "originals/306b-touchup.py",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/code/surface/touchup.py",
+      "http_status": 200,
+      "bytes": 5178,
+      "sha256": "33a5923e724b92b7b72f83057e61223811b16733c99803075330f27d48cd809f",
+      "git_blob": "e6c1485c6deec9aef611e894fc5c9b1a17db5f4c",
+      "etag": "\"25fb30fe533633e19e4fb55531813cf68b6a239a560cc098e39c2b43f375d578\""
+    },
+    {
+      "file": "originals/PHerc0191-root-list.xml",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/?list-type=2&prefix=PHerc0191%2Frepresentations%2Fpredictions%2Fsurfaces%2F&delimiter=%2F&max-keys=10",
+      "http_status": 200,
+      "bytes": 656,
+      "sha256": "078d08acdad04a56ce94a3b73cf289ce4a21bda885ea14a42e6d8d37ed85bae1",
+      "git_blob": null,
+      "etag": null
+    },
+    {
+      "file": "originals/PHerc0191-zattrs.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0191/representations/predictions/surfaces/20250821151635-surface-20260413222639-surface-m7-L0-th0.2.zarr/.zattrs",
+      "http_status": 200,
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+      "git_blob": null,
+      "etag": "\"c792decadf526e26820c786d48dcddf0\""
+    },
+    {
+      "file": "originals/PHerc0191-zgroup.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0191/representations/predictions/surfaces/20250821151635-surface-20260413222639-surface-m7-L0-th0.2.zarr/.zgroup",
+      "http_status": 200,
+      "bytes": 24,
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+      "git_blob": null,
+      "etag": "\"e20297935e73dd0154104d4ea53040ab\""
+    },
+    {
+      "file": "originals/PHerc0191-L0-zarray.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0191/representations/predictions/surfaces/20250821151635-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/.zarray",
+      "http_status": 200,
+      "bytes": 402,
+      "sha256": "6d394701e687075c024bf7feb786f9fbeba73ee2b07434b715f315fbcbae385a",
+      "git_blob": null,
+      "etag": "\"906243109609d26ad180952894cd57ea\""
+    },
+    {
+      "file": "originals/PHerc0343-root-list.xml",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/?list-type=2&prefix=PHerc0343%2Frepresentations%2Fpredictions%2Fsurfaces%2F&delimiter=%2F&max-keys=10",
+      "http_status": 200,
+      "bytes": 656,
+      "sha256": "d72cee8a8721e6aa343797a91bdeb547594fdbf82361950156bf39416c288510",
+      "git_blob": null,
+      "etag": null
+    },
+    {
+      "file": "originals/PHerc0343-zattrs.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/representations/predictions/surfaces/20250521140437-surface-20260413222639-surface-m7-L0-th0.2.zarr/.zattrs",
+      "http_status": 200,
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+      "git_blob": null,
+      "etag": "\"c792decadf526e26820c786d48dcddf0\""
+    },
+    {
+      "file": "originals/PHerc0343-zgroup.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/representations/predictions/surfaces/20250521140437-surface-20260413222639-surface-m7-L0-th0.2.zarr/.zgroup",
+      "http_status": 200,
+      "bytes": 24,
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+      "git_blob": null,
+      "etag": "\"e20297935e73dd0154104d4ea53040ab\""
+    },
+    {
+      "file": "originals/PHerc0343-L0-zarray.json",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/representations/predictions/surfaces/20250521140437-surface-20260413222639-surface-m7-L0-th0.2.zarr/0/.zarray",
+      "http_status": 200,
+      "bytes": 402,
+      "sha256": "e2ec7c9d42f499c4c37291f1e521b1fa0a08882f5854006da47136aee485e8fa",
+      "git_blob": null,
+      "etag": "\"db904a3965eb01b676928da4d5826035\""
+    }
+  ],
+  "bytes_saved": 44670,
+  "wall_seconds": 5.30328589999408,
+  "voxel_body_bytes": 0
+}

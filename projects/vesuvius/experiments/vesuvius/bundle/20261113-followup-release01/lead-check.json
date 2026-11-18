@@ -1,0 +1,15 @@
+{
+  "package_files": 32,
+  "exact_copies_checked": 23,
+  "source_references_checked": 39,
+  "internal_links": 32,
+  "R005_R160_result_extracts_match": true,
+  "fixed_changed_sources_match": true,
+  "all_zip_bytes_match": true,
+  "zip_bytes": 82500,
+  "zip_sha256": "dda8b9f2c5ebc6e2d086db70b4cfe013a3e74545bcff1f3960dca4d3266e91b8",
+  "public_readme_sha256": "56db0daabe0800900c7fa2807588d06d131dabc2952855443e865e8e8f6cde65",
+  "all_assertions_passed": true,
+  "new_builds": 0,
+  "new_native_runs": 0
+}

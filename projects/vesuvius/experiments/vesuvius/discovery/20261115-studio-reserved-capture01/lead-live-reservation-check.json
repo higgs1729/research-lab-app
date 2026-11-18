@@ -1,0 +1,13 @@
+{
+  "reviewer": "lead",
+  "stage": "after Pod creation, before result collection",
+  "readonly": true,
+  "parent_opened_reservation_rb": true,
+  "windows_handle_allocation_and_identity_equal_launch_receipt": true,
+  "allocated_bytes": 12582912,
+  "file_id": 1407374885790336,
+  "pod_id": "1rznb9oa1abxn1",
+  "create_epoch": 1794736729,
+  "delete_epoch": 1794738529,
+  "scope": "Confirmed actual owned reservation using capture.reservation_info with a read-only file handle. No scientific output verdict."
+}

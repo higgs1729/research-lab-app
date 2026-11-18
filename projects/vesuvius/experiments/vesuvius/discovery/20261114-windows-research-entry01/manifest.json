@@ -1,0 +1,190 @@
+{
+  "generated_utc": "2026-11-14T06:08:21.115779+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/fixture with space/probe.py",
+      "bytes": 719,
+      "sha256": "9e17517bf139248e5f5c80f053b4727256122f4bd90e93abcabe21bd020fec35"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/fixture with space/sibling_probe.py",
+      "bytes": 50,
+      "sha256": "ad51605366d74ffdec52f80e96dedda90041c68e1ef659d2156ddad04c1d43a4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/lead/caller/README.txt",
+      "bytes": 100,
+      "sha256": "e50fb81a5c58fb848909652fde71d16d6203ed7f74019cafe7b3b94369c23285"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/lead/execute.py",
+      "bytes": 1691,
+      "sha256": "f5bbb2a1ba8703f2e92e9f16b1bb92a58c28bc4749e388506c66432fd5dc78e0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/lead/lead-process.json",
+      "bytes": 815,
+      "sha256": "7fa77de78bc91edfc50ffb51eea3e0852edf4a0eaa353c4ccbd0e110e8204595"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/lead/program/lead_sibling_data.py",
+      "bytes": 34,
+      "sha256": "8786511580f9be9f09c593bc8a683778286c07d2e2bfe6d733c91b5e309a2924"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/lead/program/read_sibling.py",
+      "bytes": 587,
+      "sha256": "cb9701e0f543446c0203c85054b4b97b7a75ed5123b6795c851e657463a5365f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/lead/target-result.json",
+      "bytes": 754,
+      "sha256": "6485e8e3ffc0857467e4315367c8ac6231f07b661890f49e5b6d8141f586d407"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/lead/verified.json",
+      "bytes": 660,
+      "sha256": "f6127c8915908e708bd629edbbcd4a3937053f3fc4b0ca77871d1183b5396732"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/README.md",
+      "bytes": 5536,
+      "sha256": "2785b692b5a9570229572b7d49fb41d30485c6e50b07566c317c99d8fdaf6f50"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/record.json",
+      "bytes": 1484,
+      "sha256": "dc4095c9af581eaf45ebb527fca7c21b2a8dfe9eb1410986b5a1441955633275"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/duplicate-log.stderr.txt",
+      "bytes": 889,
+      "sha256": "13ba5ef33ec1a549a258563dd52fad22469289bf449dc0e27fc585e7b9100825"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/duplicate-log.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/inference/original/input-contract.json",
+      "bytes": 2295,
+      "sha256": "3997b01003c50462374be06afc175633bef49f5e6bd208f986ccd57a0e71c23a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/new-sibling.json",
+      "bytes": 718,
+      "sha256": "173b11620874e8ebaca25c272a4a9443a1c9239bc1970b48a3e2035d0ba6a8cd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/new-sibling.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/new-sibling.stdout.txt",
+      "bytes": 321,
+      "sha256": "36aa00b46936d230d89c66625a00ab6d322c94ecfea9294fac0b2c83f0362344"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/old-sibling.json",
+      "bytes": 667,
+      "sha256": "2fa0b7c35628a373ddd676a38a8766029fa4d33426204205a7f05d0f1dd57229"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/old-sibling.stderr.txt",
+      "bytes": 761,
+      "sha256": "7d832d1f654c886c4d15c212ca83bdf8b9d224db917860615f53774946c614c2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/old-sibling.stdout.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/r173-dense-reverse.json",
+      "bytes": 992,
+      "sha256": "d07622a9e487089d4a63679d12c2a14a99f9ec72a152595659f25208865ed3fb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/r173-dense-reverse.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/r173-dense-reverse.stdout.txt",
+      "bytes": 1654,
+      "sha256": "436f9769cef2748ccc050d0224543d9d0708efb8e2529c16b782cae019a5ce51"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/r173-seed42-reverse.json",
+      "bytes": 995,
+      "sha256": "1549f7f911711bbad2da4666f148dbaeaf4d6d674f809b3165c66ececce51cac"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/r173-seed42-reverse.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/r173-seed42-reverse.stdout.txt",
+      "bytes": 1614,
+      "sha256": "b3251a65880371ceaa62cf3e595fda35070fd103defdf0bde0512d434ef72751"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/target-exit.json",
+      "bytes": 784,
+      "sha256": "be255f88ad9181ef48bd832594455d344314859fe497b44d78cd29f0d0112c86"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/target-exit.stderr.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/target-exit.stdout.txt",
+      "bytes": 314,
+      "sha256": "a22910fb40ad4750e5f645e7b15aba48208791cc7de8ed7b307785e7a1887e43"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/target-raise.json",
+      "bytes": 810,
+      "sha256": "94ccdb9bcb7154df01bfc8c0da3dbf1f4c72a2e88a812060961fab2999c636e1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/target-raise.stderr.txt",
+      "bytes": 878,
+      "sha256": "169807c1f9c09d24a8b95755f50d2c28d820bc93e1ea89d92b376a9c406b0127"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/target-raise.stdout.txt",
+      "bytes": 315,
+      "sha256": "51f9bebe68b940f3817ccc0e451c77388da3b8f1de6ec1dc780ccda36d9ed6ff"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/run01/verification.json",
+      "bytes": 6467,
+      "sha256": "11495085d36b4c44df4b1b2cb4d2594530006d33071cf50ec7d2b32b462da5bb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-windows-research-entry01/verify.py",
+      "bytes": 5489,
+      "sha256": "0cab5c2c16e20daa2c91e7f9c4cdcb9ad5e530d569041954a392a080f47f86a5"
+    },
+    {
+      "path": "research/187-windows-research-entry.md",
+      "bytes": 5072,
+      "sha256": "065113dc99aa23fa9f05b718e414d31ae19dfb2fdf74bc8853e10ee47489ae41"
+    },
+    {
+      "path": "tools/research/infer_r173.py",
+      "bytes": 3834,
+      "sha256": "5bba60e58a667bb406eef81791353d7a6a1085d41d3c8c64da6f347de247857b"
+    },
+    {
+      "path": "tools/research/run_windows.py",
+      "bytes": 3671,
+      "sha256": "70ad792c9d7d0775eeb1839283f739abe6604a1d6f7bf1203e086d802b1a5f9d"
+    }
+  ]
+}

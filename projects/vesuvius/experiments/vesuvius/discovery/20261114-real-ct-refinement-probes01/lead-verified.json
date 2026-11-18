@@ -1,0 +1,257 @@
+{
+  "reviewer": "root",
+  "date_jst": "2026-11-14",
+  "raw_ct_samples_checked": 16188,
+  "raw_ct_key_count": 8,
+  "keys": [
+    "80/29/35",
+    "80/29/36",
+    "80/30/33",
+    "80/31/33",
+    "81/33/31",
+    "81/33/32",
+    "82/33/31",
+    "82/34/31"
+  ],
+  "rows": [
+    {
+      "mesh_col_row": [
+        88,
+        69
+      ],
+      "normal_max_error": 4.827991684219768e-08,
+      "basis_max_error": 5.858277052350758e-08,
+      "conditions": [
+        {
+          "window": "centered",
+          "sample_count": 931,
+          "raw_ct_max_dn_error": 2.3336848244071007e-05,
+          "independent_offset": 4.979388028758369,
+          "native_offset": 4.979386806488037,
+          "offset_error": 1.2222703320574624e-06,
+          "pre_native_double_coordinate_offset": 4.979561084254318,
+          "pre_native_prediction_difference": 0.00017427776628053948,
+          "independent_total_opacity": 0.9595189346115198,
+          "obj_xyz_max_residual": 0.026757812500363798,
+          "obj_within_six_significant_digits": true
+        },
+        {
+          "window": "corner",
+          "sample_count": 931,
+          "raw_ct_max_dn_error": 2.8133392333984375e-05,
+          "independent_offset": 3.991626126931752,
+          "native_offset": 3.991629123687744,
+          "offset_error": 2.996755992246136e-06,
+          "pre_native_double_coordinate_offset": 3.992403533946489,
+          "pre_native_prediction_difference": 0.0007744102587450286,
+          "independent_total_opacity": 0.831625130231417,
+          "obj_xyz_max_residual": 0.0484374999996362,
+          "obj_within_six_significant_digits": true
+        },
+        {
+          "window": "r0",
+          "sample_count": 19,
+          "raw_ct_max_dn_error": 1.1358410120010376e-05,
+          "independent_offset": 5.76056825073718,
+          "native_offset": 5.760568618774414,
+          "offset_error": 3.6803723446610093e-07,
+          "pre_native_double_coordinate_offset": 5.7607060238644365,
+          "pre_native_prediction_difference": 0.0001374050900224688,
+          "independent_total_opacity": 0.9736954865899794,
+          "obj_xyz_max_residual": 0.019140624999636202,
+          "obj_within_six_significant_digits": true
+        },
+        {
+          "window": "section_x",
+          "sample_count": 1083,
+          "raw_ct_max_dn_error": 2.8133392333984375e-05
+        },
+        {
+          "window": "section_y",
+          "sample_count": 1083,
+          "raw_ct_max_dn_error": 3.1635165214538574e-05
+        }
+      ]
+    },
+    {
+      "mesh_col_row": [
+        299,
+        41
+      ],
+      "normal_max_error": 2.137007126812307e-08,
+      "basis_max_error": 1.4312344198685878e-08,
+      "conditions": [
+        {
+          "window": "centered",
+          "sample_count": 931,
+          "raw_ct_max_dn_error": 2.9239803552627563e-05,
+          "independent_offset": 6.796149341560527,
+          "native_offset": 6.796148300170898,
+          "offset_error": 1.0413896287531088e-06,
+          "pre_native_double_coordinate_offset": 6.7959634839165775,
+          "pre_native_prediction_difference": 0.00018481625432098525,
+          "independent_total_opacity": 0.9491314969162316,
+          "obj_xyz_max_residual": 0.006054687499272404,
+          "obj_within_six_significant_digits": true
+        },
+        {
+          "window": "corner",
+          "sample_count": 931,
+          "raw_ct_max_dn_error": 2.2931024432182312e-05,
+          "independent_offset": 5.713969711807086,
+          "native_offset": 5.713969707489014,
+          "offset_error": 4.318072122089234e-09,
+          "pre_native_double_coordinate_offset": 5.71407340703748,
+          "pre_native_prediction_difference": 0.00010369954846645157,
+          "independent_total_opacity": 0.8874976245395789,
+          "obj_xyz_max_residual": 0.012109375000363798,
+          "obj_within_six_significant_digits": true
+        },
+        {
+          "window": "r0",
+          "sample_count": 19,
+          "raw_ct_max_dn_error": 8.420785889029503e-06,
+          "independent_offset": 6.680625268690499,
+          "native_offset": 6.680624485015869,
+          "offset_error": 7.836746300782238e-07,
+          "pre_native_double_coordinate_offset": 6.680503491954005,
+          "pre_native_prediction_difference": 0.00012099306186375003,
+          "independent_total_opacity": 0.9470480134625937,
+          "obj_xyz_max_residual": 0.006640625000727596,
+          "obj_within_six_significant_digits": true
+        },
+        {
+          "window": "section_x",
+          "sample_count": 1083,
+          "raw_ct_max_dn_error": 2.002716064453125e-05
+        },
+        {
+          "window": "section_y",
+          "sample_count": 1083,
+          "raw_ct_max_dn_error": 2.4460256099700928e-05
+        }
+      ]
+    },
+    {
+      "mesh_col_row": [
+        306,
+        39
+      ],
+      "normal_max_error": 3.766825573681132e-08,
+      "basis_max_error": 3.334628995155242e-08,
+      "conditions": [
+        {
+          "window": "centered",
+          "sample_count": 931,
+          "raw_ct_max_dn_error": 3.1573581509292126e-05,
+          "independent_offset": 0.44559086856004043,
+          "native_offset": 0.4455941617488861,
+          "offset_error": 3.2931888456766423e-06,
+          "pre_native_double_coordinate_offset": 0.44288397170035754,
+          "pre_native_prediction_difference": 0.0027101900485285713,
+          "independent_total_opacity": 0.22414629376293338,
+          "obj_xyz_max_residual": 0.028125000000727596,
+          "obj_within_six_significant_digits": true
+        },
+        {
+          "window": "corner",
+          "sample_count": 931,
+          "raw_ct_max_dn_error": 2.257898449897766e-05,
+          "independent_offset": 7.774298512383148,
+          "native_offset": 7.774298667907715,
+          "offset_error": 1.555245665585403e-07,
+          "pre_native_double_coordinate_offset": 7.774271290192944,
+          "pre_native_prediction_difference": 2.7377714770793204e-05,
+          "independent_total_opacity": 0.7635627754194036,
+          "obj_xyz_max_residual": 0.029882812499636202,
+          "obj_within_six_significant_digits": true
+        },
+        {
+          "window": "r0",
+          "sample_count": 19,
+          "raw_ct_max_dn_error": 6.362795829772949e-06,
+          "independent_offset": -0.21218705747312244,
+          "native_offset": -0.2121870517730713,
+          "offset_error": 5.700051153301189e-09,
+          "pre_native_double_coordinate_offset": -0.21205689980848624,
+          "pre_native_prediction_difference": 0.00013015196458504574,
+          "independent_total_opacity": 0.9567928937566028,
+          "obj_xyz_max_residual": 0.022070312499636202,
+          "obj_within_six_significant_digits": true
+        },
+        {
+          "window": "section_x",
+          "sample_count": 1083,
+          "raw_ct_max_dn_error": 2.282671630382538e-05
+        },
+        {
+          "window": "section_y",
+          "sample_count": 1083,
+          "raw_ct_max_dn_error": 2.403557300567627e-05
+        }
+      ]
+    },
+    {
+      "mesh_col_row": [
+        324,
+        39
+      ],
+      "normal_max_error": 5.1686901869629764e-08,
+      "basis_max_error": 2.928892994802368e-08,
+      "conditions": [
+        {
+          "window": "centered",
+          "sample_count": 931,
+          "raw_ct_max_dn_error": 2.3938482627272606e-05,
+          "independent_offset": 3.5839492590256268,
+          "native_offset": 3.583949327468872,
+          "offset_error": 6.844324529353685e-08,
+          "pre_native_double_coordinate_offset": 3.583920079989783,
+          "pre_native_prediction_difference": 2.9247479089278272e-05,
+          "independent_total_opacity": 0.990613392057846,
+          "obj_xyz_max_residual": 0.0031249999992724042,
+          "obj_within_six_significant_digits": true
+        },
+        {
+          "window": "corner",
+          "sample_count": 931,
+          "raw_ct_max_dn_error": 2.891896292567253e-05,
+          "independent_offset": 6.801705708377062,
+          "native_offset": 6.801705837249756,
+          "offset_error": 1.2887269384975752e-07,
+          "pre_native_double_coordinate_offset": 6.80170327335001,
+          "pre_native_prediction_difference": 2.563899745844367e-06,
+          "independent_total_opacity": 0.9345699815935373,
+          "obj_xyz_max_residual": 0.043164062499272404,
+          "obj_within_six_significant_digits": true
+        },
+        {
+          "window": "r0",
+          "sample_count": 19,
+          "raw_ct_max_dn_error": 9.24430787563324e-06,
+          "independent_offset": 3.1742268592904788,
+          "native_offset": 3.1742279529571533,
+          "offset_error": 1.0936666745564594e-06,
+          "pre_native_double_coordinate_offset": 3.1740628873668055,
+          "pre_native_prediction_difference": 0.00016506559034779045,
+          "independent_total_opacity": 0.999939524757527,
+          "obj_xyz_max_residual": 0.0068359375,
+          "obj_within_six_significant_digits": true
+        },
+        {
+          "window": "section_x",
+          "sample_count": 1083,
+          "raw_ct_max_dn_error": 2.8997543267905712e-05
+        },
+        {
+          "window": "section_y",
+          "sample_count": 1083,
+          "raw_ct_max_dn_error": 2.5618821382522583e-05
+        }
+      ]
+    }
+  ],
+  "scope": "All saved plane and cross-section samples checked against raw CT at saved native coordinates. Independent opacity integration and pre-native float64 predictions compared. Product OBJ checked within writer precision. No physical-sheet or reading claim.",
+  "new_network_bytes": 0,
+  "new_product_calls": 0
+}

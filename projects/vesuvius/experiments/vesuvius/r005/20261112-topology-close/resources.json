@@ -1,0 +1,86 @@
+{
+  "new_paid_compute_cost": 0,
+  "currency": "USD",
+  "llm_and_local_electricity_cost": null,
+  "new_input_download_bytes": 0,
+  "new_libraries_installed": 0,
+  "native_runs": 0,
+  "native_builds": 0,
+  "primary_jobs": [
+    {
+      "name": "analysis01",
+      "started_utc": "2026-11-11T17:12:10.212860+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-topology01\\diagnose_topology.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-topology01\\analysis01"
+      ],
+      "script_sha256": "4b6bb8b8788325ae289b9c4b0563ac16f50f9c14aebf5248939bc6073efb6c0f",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 9.243401199986693,
+      "peak_rss_bytes": 358043648,
+      "stopped": null,
+      "completed_utc": "2026-11-11T17:12:19.457677+00:00"
+    },
+    {
+      "name": "harmonic01",
+      "started_utc": "2026-11-11T17:17:22.057726+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-topology01\\harmonic_diagnostic.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-topology01\\harmonic01"
+      ],
+      "script_sha256": "6a34649de11ca69035156d18a7af2520734b4c1d3b34035961fb8ed9e538d3e1",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 18.110212600033265,
+      "peak_rss_bytes": 375164928,
+      "stopped": null,
+      "completed_utc": "2026-11-11T17:17:40.169466+00:00"
+    }
+  ],
+  "verification_jobs": [
+    {
+      "state_path": "experiments/vesuvius/r005/20261112-topology-verification01/check01-execution/state.json",
+      "started_utc": "2026-11-11T17:22:09.064834+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-topology-verification01\\verify_topology.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-topology-verification01\\check01"
+      ],
+      "script_sha256": "1091b697b949870e76b7ad1017b6c9314ee091e1fd6c28e9495a17728fd2852b",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 19.746133100008592,
+      "peak_rss_bytes": 273555456,
+      "stopped": null,
+      "completed_utc": "2026-11-11T17:22:28.812366+00:00"
+    }
+  ],
+  "note": "Primary numerical jobs use one CPU/thread, sampled RSS4GiB and 300s limits. Verification began after primary jobs completed. Shared-host elapsed times are not dedicated-machine benchmarks."
+}

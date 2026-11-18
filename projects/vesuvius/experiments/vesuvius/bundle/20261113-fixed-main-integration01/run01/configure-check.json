@@ -1,0 +1,26 @@
+{
+  "reader_symlink": "/home/tomoy/bundle-fixed-main-run01-pywin6ml/build/reader/include/vc_reader/native",
+  "reader_symlink_target": "/home/tomoy/bundle-fixed-main-run01-pywin6ml/villa/vc_reader/src/cpp",
+  "libbacktrace_commands": [
+    "COMMAND = cd /home/tomoy/bundle-fixed-main-run01-pywin6ml/build && /usr/bin/cmake -E make_directory /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/CMakeFiles && /usr/bin/cmake -E touch /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/CMakeFiles/libbacktrace_build-complete && /usr/bin/cmake -E touch /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build-stamp/libbacktrace_build-done",
+    "COMMAND = cd /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build-build && make -j1 && /usr/bin/cmake -E touch /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build-stamp/libbacktrace_build-build",
+    "COMMAND = cd /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build-build && /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build/configure --prefix=/home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace-install --enable-static --disable-shared --with-pic && /usr/bin/cmake -E touch /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build-stamp/libbacktrace_build-configure",
+    "COMMAND = cd /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src && /usr/bin/cmake -P /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/tmp/libbacktrace_build-gitclone.cmake && /usr/bin/cmake -E touch /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build-stamp/libbacktrace_build-download",
+    "COMMAND = cd /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build-build && make install && /usr/bin/cmake -E touch /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build-stamp/libbacktrace_build-install",
+    "COMMAND = cd /home/tomoy/bundle-fixed-main-run01-pywin6ml/build && /usr/bin/cmake -Dcfgdir= -P /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/tmp/libbacktrace_build-mkdirs.cmake && /usr/bin/cmake -E touch /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build-stamp/libbacktrace_build-mkdir",
+    "COMMAND = cd /home/tomoy/bundle-fixed-main-run01-pywin6ml/build && /usr/bin/cmake -E echo_append && /usr/bin/cmake -E touch /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build-stamp/libbacktrace_build-patch_disconnected",
+    "COMMAND = cd /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build && /usr/bin/cmake -Dcan_fetch=NO -P /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/tmp/libbacktrace_build-gitupdate.cmake && /usr/bin/cmake -E touch /home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/src/libbacktrace_build-stamp/libbacktrace_build-update_disconnected"
+  ],
+  "libbacktrace_gitclone_script": "/home/tomoy/bundle-fixed-main-run01-pywin6ml/build/_deps/libbacktrace/tmp/libbacktrace_build-gitclone.cmake",
+  "local_url": "file:///mnt/d/kensyoukin-work/r003-build/_deps/libbacktrace/src/libbacktrace_build",
+  "local_master_sha": "0b9b49cf4a2c9229fc052d6716e1528b2f23e91a",
+  "compile_commands_count": 927,
+  "targets": {
+    "flatboi": "flatboi:\n  input: phony\n    bin/flatboi\n  outputs:\n",
+    "vc_core": "vc_core:\n  input: phony\n    core/libvc_core.so\n  outputs:\n",
+    "vc_obj2tifxyz": "vc_obj2tifxyz:\n  input: phony\n    bin/vc_obj2tifxyz\n  outputs:\n",
+    "vc_render_tifxyz": "vc_render_tifxyz:\n  input: phony\n    bin/vc_render_tifxyz\n  outputs:\n"
+  },
+  "CMakeCache_sha256": "294dcaac11001d9fbe439dc538671c161e4906347018024de339ecabb3ecb86d",
+  "compile_commands_sha256": "79ceb791ac797fce9913678138ac5adc6cc976b445c80163a9cef70841e5f45b"
+}

@@ -1,0 +1,116 @@
+{
+  "winner": {
+    "repo": "Nieuwlaar/pherc343-first-letters",
+    "commit": "e8370f1f88a211166056df62ea6fcfffe4a1063e",
+    "tree": "cdb10549dd41b69112636fe9ff385db63bf7527a",
+    "inventory_entries": 47,
+    "head_tree_response_bytes": 12152,
+    "metadata_commit_response_bytes": null,
+    "files": [
+      {
+        "path": "ink/scripts/make_submission_image.py",
+        "file": "make_submission_image.py",
+        "bytes": 166287,
+        "blob": "0b0a01c4e4217420c2445eb818399ca902200852",
+        "method": "GitHub fetch_file"
+      },
+      {
+        "path": "inputs/concat_w047-w048_R5B2_z9500-11000_letter_boxes.json",
+        "file": "concat_w047-w048_R5B2_z9500-11000_letter_boxes.json",
+        "bytes": 2461,
+        "blob": "95d1972e9838ddd55e4f6b416189f1d452452846",
+        "method": "GitHub fetch_file"
+      },
+      {
+        "path": "inputs/concat_w047-w048_R5B2_z9500-11000_rows.json",
+        "file": "concat_w047-w048_R5B2_z9500-11000_rows.json",
+        "bytes": 323,
+        "blob": "5eef08a72c64520fe4889f8d04248ac8627fb7c6",
+        "method": "GitHub fetch_file"
+      },
+      {
+        "path": "mesh/README.md",
+        "file": "README.md",
+        "bytes": 2110,
+        "blob": "f8f8d45af8023a0f9d82db73fe2ef5d036faf4a0",
+        "method": "GitHub fetch_file"
+      },
+      {
+        "path": "outputs/SHA256SUMS",
+        "file": "SHA256SUMS",
+        "bytes": 1689,
+        "blob": "df35cfe5013cb59ea2b69c41c20516782013c4dd",
+        "method": "GitHub fetch_file"
+      },
+      {
+        "path": "outputs/concat_w047-w048_R5B2_z9500-11000.json",
+        "file": "concat_w047-w048_R5B2_z9500-11000.json",
+        "bytes": 24111,
+        "blob": "e48ad7dca5c2a56ea9519594fc5f4f20660dbeac",
+        "method": "GitHub fetch_file"
+      },
+      {
+        "path": "outputs/concat_w047-w048_R5B2_z9500-11000.png",
+        "file": "winner-original.png",
+        "bytes": 8801558,
+        "blob": "cea73ae44d3b0c139ff5a852e1b6420f5216444e",
+        "method": "fixed raw curl"
+      },
+      {
+        "path": "outputs/concat_w047-w048_R5B2_z9500-11000.tifxyz/x.tif",
+        "file": "winner-x.tif",
+        "bytes": 172304,
+        "blob": "153bebd7411cfdcbda185c204e3da446267e57f3",
+        "method": "fixed raw curl"
+      },
+      {
+        "path": "outputs/concat_w047-w048_R5B2_z9500-11000.tifxyz/y.tif",
+        "file": "winner-y.tif",
+        "bytes": 172304,
+        "blob": "2109f714df38ab7432190a8733f8416e6ce293b4",
+        "method": "fixed raw curl"
+      },
+      {
+        "path": "outputs/concat_w047-w048_R5B2_z9500-11000.tifxyz/z.tif",
+        "file": "winner-z.tif",
+        "bytes": 172304,
+        "blob": "1bff0872a45c822208dd69731eb907d9006a0338",
+        "method": "fixed raw curl"
+      }
+    ]
+  },
+  "other": {
+    "official_images": [
+      {
+        "file": "official-annotated.png",
+        "url": "https://substack-post-media.s3.amazonaws.com/public/images/9dfcc91f-b555-4acc-bf6f-919630c73d04_2000x1654.png",
+        "bytes": 3086665,
+        "method": "bounded HTTP raw images from R168 award HTML"
+      },
+      {
+        "file": "official-other-submissions.png",
+        "url": "https://substack-post-media.s3.amazonaws.com/public/images/5db8e2e8-efe6-43e8-90da-49564f3ced0c_1500x1490.png",
+        "bytes": 1960877,
+        "method": "bounded HTTP raw images from R168 award HTML"
+      }
+    ],
+    "scrollfiesta": {
+      "repo": "Hob3rMallow/scrollfiesta_public",
+      "commit": "3c46077968c0151dd185656c16d5063cdbb3f5aa",
+      "tree": "f8685542757c4c41b5bca003e65a3501e4eaedb9",
+      "entries": 6185,
+      "truncated": false,
+      "tree_response_bytes": 1598270,
+      "commit_response_bytes": 17852,
+      "named_path_search": "pherc0?343|first.letter|music",
+      "named_path_matches": []
+    }
+  },
+  "new_asset_bodies": 12,
+  "new_asset_bytes": 14562993,
+  "limits": {
+    "per_body_mib": 16,
+    "total_mib": 64
+  },
+  "notes": "External data-browser and award pages were browsed; the award HTML itself was already saved in R168 and was not downloaded as a new local body."
+}

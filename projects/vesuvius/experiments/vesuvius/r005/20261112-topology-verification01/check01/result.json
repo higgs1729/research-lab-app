@@ -1,0 +1,193 @@
+{
+  "provenance": {
+    "prior_frozen_files": 57,
+    "prior_manifest_sha256": "db70ac298279da68877c943d284773fc25ecfa25717239b74ac740285219470b",
+    "jobs": {
+      "analysis01": {
+        "arrays.npz": "7cafb715abe32276c1470ef83b59208db8889c7740f7ee90a88b32c3601b2a08",
+        "result.json": "40c0b942cdee4f6b967a8e60190e554a0556027036f97799906132aa5c050405",
+        "diagnose_topology.py": "4b6bb8b8788325ae289b9c4b0563ac16f50f9c14aebf5248939bc6073efb6c0f"
+      },
+      "harmonic01": {
+        "arrays.npz": "49df6bee07e3ec7b9a799b57963fdd2e8ca15fc8e867bf11bffa7ba346b5f4a0",
+        "result.json": "40fe35fc1968eee63228eefb2af7c1fa5a912277d04941aa5d60f2ad0677325e",
+        "harmonic_diagnostic.py": "6a34649de11ca69035156d18a7af2520734b4c1d3b34035961fb8ed9e538d3e1"
+      }
+    },
+    "input_hashes": {
+      "meta.json": "876bf0f7c351641a5e541a004e159af8e4550601b96d08d152e92ab9c7486e44",
+      "x.tif": "f2d515066d64b832d1fbe7ee0f06c2423c53448d5da3c0da51132fa6ca166f03",
+      "y.tif": "6ee10487af838fee82d553dd1c933b8cf061a881057f1013aa7edbedec50b9e3",
+      "z.tif": "3deeee25a377eddf8643746ebd3c1eb4a20c114f17b8e7e923fb0b63f796ece1"
+    }
+  },
+  "topology": {
+    "coarse": {
+      "original_components": 22,
+      "eligible_components": 26,
+      "full_support_components": 105,
+      "mixed_faces": 9,
+      "full": 5520,
+      "partial": 348,
+      "zero": 2,
+      "support_histogram": {
+        "64": 5520,
+        "28": 121,
+        "48": 35,
+        "32": 19,
+        "4": 77,
+        "40": 14,
+        "20": 15,
+        "60": 32,
+        "8": 18,
+        "44": 17,
+        "0": 2
+      }
+    },
+    "total_unknown_regions": 346,
+    "all_unknown_region_classes": {
+      "single": {
+        "regions": 328,
+        "vertices": 50932,
+        "regions_with_inversions": 3,
+        "inverted_faces": 31,
+        "persistent_faces": 14
+      },
+      "multiple": {
+        "regions": 18,
+        "vertices": 15119,
+        "regions_with_inversions": 5,
+        "inverted_faces": 62,
+        "persistent_faces": 37
+      }
+    },
+    "boundary_owner_minus_one": 0,
+    "fixed_non_anchor_interpolation_max_abs_difference": 0.0,
+    "boundaries_with_anchor": 345
+  },
+  "harmonic": {
+    "active_edges": 195511,
+    "relative_normal_residual": 9.764097760779878e-16,
+    "raw_signs": {
+      "all": {
+        "negative": 28191,
+        "near_zero": 134,
+        "positive": 449899
+      },
+      "C_93": {
+        "negative": 55,
+        "near_zero": 0,
+        "positive": 38
+      },
+      "persistent_51": {
+        "negative": 30,
+        "near_zero": 0,
+        "positive": 21
+      }
+    },
+    "relative_to_max_C_or_harmonic_edge_squared": {
+      "1e-14": {
+        "all": {
+          "negative": 27769,
+          "near_zero": 868,
+          "positive": 449587
+        },
+        "C_93": {
+          "negative": 55,
+          "near_zero": 0,
+          "positive": 38
+        },
+        "persistent_51": {
+          "negative": 30,
+          "near_zero": 0,
+          "positive": 21
+        }
+      },
+      "1e-12": {
+        "all": {
+          "negative": 27624,
+          "near_zero": 1263,
+          "positive": 449337
+        },
+        "C_93": {
+          "negative": 53,
+          "near_zero": 2,
+          "positive": 38
+        },
+        "persistent_51": {
+          "negative": 28,
+          "near_zero": 2,
+          "positive": 21
+        }
+      },
+      "1e-10": {
+        "all": {
+          "negative": 27348,
+          "near_zero": 1894,
+          "positive": 448982
+        },
+        "C_93": {
+          "negative": 53,
+          "near_zero": 2,
+          "positive": 38
+        },
+        "persistent_51": {
+          "negative": 28,
+          "near_zero": 2,
+          "positive": 21
+        }
+      },
+      "1e-08": {
+        "all": {
+          "negative": 26797,
+          "near_zero": 3158,
+          "positive": 448269
+        },
+        "C_93": {
+          "negative": 53,
+          "near_zero": 2,
+          "positive": 38
+        },
+        "persistent_51": {
+          "negative": 28,
+          "near_zero": 2,
+          "positive": 21
+        }
+      },
+      "1e-06": {
+        "all": {
+          "negative": 25880,
+          "near_zero": 4985,
+          "positive": 447359
+        },
+        "C_93": {
+          "negative": 53,
+          "near_zero": 2,
+          "positive": 38
+        },
+        "persistent_51": {
+          "negative": 28,
+          "near_zero": 2,
+          "positive": 21
+        }
+      }
+    },
+    "one_ulp_coordinate_perturbation_bound": {
+      "all": {
+        "negative": 27860,
+        "near_zero": 793,
+        "positive": 449571
+      },
+      "C_93": {
+        "negative": 53,
+        "near_zero": 2,
+        "positive": 38
+      },
+      "persistent_51": {
+        "negative": 28,
+        "near_zero": 2,
+        "positive": 21
+      }
+    }
+  }
+}

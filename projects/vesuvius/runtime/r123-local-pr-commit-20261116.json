@@ -1,0 +1,16 @@
+{
+  "repository": "C:/dev/kensyoukin/.work/r123-pr-20261116",
+  "branch": "fix/pyramid-disabled-ome",
+  "parent": "2d3fb38d33a18b257230c0bd23986436c3d4722e",
+  "commit": "a70e0ff5b0507ed601875d1fe26f09bfd4186d00",
+  "author": "higgs1729 <274176906+higgs1729@users.noreply.github.com>",
+  "committer": "higgs1729 <274176906+higgs1729@users.noreply.github.com>",
+  "changed_files": ["volume-cartographer/apps/src/vc_render_tifxyz.cpp"],
+  "insertions": 4,
+  "deletions": 4,
+  "diff_check": "pass",
+  "working_tree": "clean",
+  "tested_source": "experiments/vesuvius/r009/20261116-standalone-metadata01/run03/renderer.fixed.cpp",
+  "external_fork_push_pr": false,
+  "human_review": "not yet performed"
+}

@@ -1,0 +1,27 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r009\\20261116-reader-impact01\\probe.py",
+    "ome",
+    "experiments/vesuvius/r009/20261116-standalone-metadata01/run07/reader-inputs.json",
+    "experiments/vesuvius/r009/20261116-standalone-metadata01/run07/ome.json"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-16T07:26:00.056408+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "completed_utc": "2026-11-16T07:26:41.244772+00:00",
+  "elapsed_seconds": 41.18736449998687,
+  "max_rss_bytes": 137494528,
+  "user_cpu_seconds": 5.09375,
+  "sys_cpu_seconds": 0.796875
+}

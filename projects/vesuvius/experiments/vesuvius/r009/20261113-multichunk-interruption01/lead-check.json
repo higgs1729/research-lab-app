@@ -1,0 +1,111 @@
+{
+  "scope": "Saved stop evidence, current files/stat, raw uncompressed Zarr decoding; no new product execution or CT resampling.",
+  "stopped_files": 8,
+  "final_files": 15,
+  "preserved_files_sha_mtime_inode": 8,
+  "new_second_l0_chunk": true,
+  "normal_resume_files_exact": true,
+  "levels": {
+    "0": {
+      "shape_zyx": [
+        28,
+        129,
+        1
+      ],
+      "chunks_zyx": [
+        28,
+        128,
+        1
+      ],
+      "logical_values": 3612,
+      "padding_zero_values": 3556,
+      "logical_sha256": "63133929530bce0d371bdd0691e681b5be72a4066b8255b2328f4746fc49c117"
+    },
+    "1": {
+      "shape_zyx": [
+        28,
+        65,
+        1
+      ],
+      "chunks_zyx": [
+        28,
+        65,
+        1
+      ],
+      "logical_values": 1820,
+      "padding_zero_values": 0,
+      "logical_sha256": "fb79a73daa34421c9ab0eefec1a44ca0161b587bdd8eb413f3167026d564232a"
+    },
+    "2": {
+      "shape_zyx": [
+        28,
+        33,
+        1
+      ],
+      "chunks_zyx": [
+        28,
+        33,
+        1
+      ],
+      "logical_values": 924,
+      "padding_zero_values": 0,
+      "logical_sha256": "64f68fa57b25be382f525f327f70b39850bec6b94116425675b9235d8019f03d"
+    },
+    "3": {
+      "shape_zyx": [
+        28,
+        17,
+        1
+      ],
+      "chunks_zyx": [
+        28,
+        17,
+        1
+      ],
+      "logical_values": 476,
+      "padding_zero_values": 0,
+      "logical_sha256": "1bd5fc01a249bb9014ee94b18dcf7f9a5abdad7345292067be7c54ca00a37673"
+    },
+    "4": {
+      "shape_zyx": [
+        28,
+        9,
+        1
+      ],
+      "chunks_zyx": [
+        28,
+        9,
+        1
+      ],
+      "logical_values": 252,
+      "padding_zero_values": 0,
+      "logical_sha256": "ba74b5694b364d750663ff7329ff87cae5dd2f49bcd9d294fab0768a04569d1a"
+    },
+    "5": {
+      "shape_zyx": [
+        28,
+        5,
+        1
+      ],
+      "chunks_zyx": [
+        28,
+        5,
+        1
+      ],
+      "logical_values": 140,
+      "padding_zero_values": 0,
+      "logical_sha256": "0b44b2e9179d78d90ac38b0eab3b087998c7a3326d9cb40e4c5ad20ea3ed42d0"
+    }
+  },
+  "l0_first_nonzero_values": 3584,
+  "l0_second_nonzero_values": 28,
+  "ome_exact": true,
+  "binary_identity": true,
+  "termination_signal": "not established",
+  "cpu_affinity": [
+    0
+  ],
+  "elapsed_seconds": 0.5961823850000001,
+  "max_rss_bytes": 24903680,
+  "all_assertions_passed": true
+}

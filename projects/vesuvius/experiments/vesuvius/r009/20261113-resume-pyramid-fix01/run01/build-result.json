@@ -1,0 +1,26 @@
+{
+  "binary": "/mnt/c/dev/kensyoukin/.work/r009-resume-pyramid-fix01/run01/renderer",
+  "binary_sha256": "0ba24259046c7e9033fdb861c1f220c15fa16b5a7b683ac5ea0946151e40a1bc",
+  "object_sha256": {
+    "renderer.o": "89c682f909447560563ba97ae4f19684a3804975f80af529d436c89bfb889778",
+    "pyramid.o": "c30be25b8038ff7085bcec02fb2007403aae27e67ba6ee94fa11666eb22704cf"
+  },
+  "dependencies": {
+    "renderer.o": {
+      "header": "/mnt/c/dev/kensyoukin/.work/r009-resume-pyramid-fix01/run01/source/vc_reader/include/vc_reader/zarr_write.hpp",
+      "dependency_sha256": "eb1d8bece7517fbc1d5b8184743d00a1502466191b7a2afeabd4fc9623d9a47e"
+    },
+    "pyramid.o": {
+      "header": "/mnt/c/dev/kensyoukin/.work/r009-resume-pyramid-fix01/run01/source/vc_reader/include/vc_reader/zarr_write.hpp",
+      "dependency_sha256": "0f4f3901cffbb0c101fbcb20a8751f4723b8bf3dbe3ab8cb302024a84315f06a"
+    }
+  },
+  "linked_pyramid_symbols": [
+    "000000000064f358 T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::CreateOptions const&, vcr::zarr::PyramidOptions const&)",
+    "000000000064f707 T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::CreateOptions const&, vcr::zarr::PyramidOptions const&, bool)",
+    "00000000006502d2 T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::PyramidOptions const&, bool)"
+  ],
+  "elapsed_seconds": 220.718188565,
+  "max_child_rss_bytes": 1583583232,
+  "work_bytes": 24837546
+}

@@ -1,0 +1,15 @@
+{
+  "date_jst": "2026-11-14",
+  "normal_sections": "The d=0 neighbourhood contains multiple light and dark bands. Some bands appear to merge or diverge across the displayed sections. No single physical lamina or crack boundary could be assigned consistently.",
+  "orthogonal_sections": {
+    "X2599": "Mesh points locally follow part of a bright curving stripe. Multiple adjacent dark bands are visible.",
+    "Y2784": "The projection passes near the edge of a broad dark area and through heterogeneous texture.",
+    "Z3844": "Mesh points run locally along a bright diagonal stripe beside several dark bands. The neighbouring dark structures cannot be assigned to a single physical crack."
+  },
+  "physical_sheet_match": "undetermined",
+  "physical_crack_match": "undetermined",
+  "signed_distance": null,
+  "constant_depth_correction": null,
+  "card_native_registration": "unavailable in the fixed public evidence",
+  "ink_letters_or_recto_verso": "undetermined"
+}

@@ -1,0 +1,28 @@
+{
+  "utc": "2026-11-15T16:21:21.940356+00:00",
+  "create_request_count_this_attempt": 1,
+  "total_R242_create_POSTs": 2,
+  "create_HTTP_status": 400,
+  "owned_name": "r242-studio-d04a5eb19cdf24ac",
+  "owned_ID_returned": null,
+  "all_pods_count": 0,
+  "all_pods_selected": [],
+  "exact_name_matches": 0,
+  "dedicated_name_absent": true,
+  "all_inventory_empty": true,
+  "GET404_applicable": false,
+  "GET404_reason": "No Pod ID returned or discovered. Current inventory/name absence is not known-resource deletion success.",
+  "original_cleanup_limitation": "The unchanged known-ID success branch times out with no ID even when inventory is empty. Preserve original cleanup.json.",
+  "resource_mutations": 0,
+  "automatic_retries": 0,
+  "model_forwards": 0,
+  "result_figures": 0,
+  "startup_trace_sha256": "7cf4d7f833cc966e603499e4892ba9cad032eaed125b575446ce44dbd45e728c",
+  "API_reported_problem": {
+    "status": 400,
+    "title": "Bad Request",
+    "detail": "There are no longer any instances available with the requested specifications. Please refresh and try again."
+  },
+  "cause_scope": "The service reports no instances with requested specifications. This does not isolate GPU stock, region, CUDA, image or other specific constraint, and cannot establish the lost first response reason.",
+  "cost_attribution": "No created ID/worker, no account-balance attribution. No per-ID billing query possible."
+}

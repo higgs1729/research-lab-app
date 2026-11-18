@@ -1,0 +1,66 @@
+{
+  "references": {
+    "mesh4-forward": [
+      {
+        "grid_index": 13,
+        "output_sha256": "25d3b6e3d017b0fd2a7208b574e5a7d38350162d6ca266506aceaf11b2046a07",
+        "input_raw_sha256": "34d98a26aba3b96368aca1b93a20d3675c282f013a00cb8eb3052f2d15df8b20"
+      },
+      {
+        "grid_index": 14,
+        "output_sha256": "bdf5c39c9723ab0a087aaa819f8f95270ee9f16516cc7da85de48050ee8a7e98",
+        "input_raw_sha256": "bf83fce12979493a38cab23cf5580c3edabc2f63dec2055ca76c1bb4eb4bf2d5"
+      },
+      {
+        "grid_index": 15,
+        "output_sha256": "59b4fbc99d241fe087576675cd8697e4ae6bf0c14bb8a04b6323980913a9faa7",
+        "input_raw_sha256": "5cb14741ef198d1e3ff75e3108985a21f222951891ac4696c7bddf58a0ddcfbb"
+      }
+    ],
+    "mesh4-reverse": [
+      {
+        "grid_index": 13,
+        "output_sha256": "7f758781932318c86aa7f22697ef0f814d900837990306ac0786253d4040b98b",
+        "input_raw_sha256": "9dc2c8f4bd355ae9b8274d401085a49dd90e87bec86dd4c072af1e172e572357"
+      },
+      {
+        "grid_index": 14,
+        "output_sha256": "67def7b68b8fe761b805c7040523a21d251cb64966c25b8ec84957240e8bb7d9",
+        "input_raw_sha256": "3caea7725695af1a04fae19dacc799c3e6b8dfd9a52293f7b9131b20c74a6ccb"
+      },
+      {
+        "grid_index": 15,
+        "output_sha256": "8acedc6dac78d2cc0db7e206dc18723672bd05601381f040a71294d3114013fa",
+        "input_raw_sha256": "d9a47d46c6fd155bdfb3a788acd62ab1022e24a5872b8d73d8dde5be823e60c3"
+      }
+    ]
+  },
+  "model_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+  "source_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "strict_model_loads": 1,
+  "calls": 6,
+  "load_seconds": 1.1234377000073437,
+  "elapsed_seconds": 29.537337100002333,
+  "environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "versions": {
+      "torch": "2.14.0",
+      "numpy": "2.5.2",
+      "zarr": "3.1.5",
+      "numcodecs": "0.16.5",
+      "psutil": "7.2.2"
+    },
+    "torch_build": "2.14.0+cpu",
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "zarr_async_concurrency": 1,
+    "affinity": [
+      0
+    ],
+    "physical_memory_available": 12199321600,
+    "workspace_free_bytes": 16188452864,
+    "dependencies": "C:\\dev\\kensyoukin\\.work\\r012-known-ink-inference01\\deps",
+    "network": "Python socket audit hook, loopback only, and HF offline"
+  }
+}

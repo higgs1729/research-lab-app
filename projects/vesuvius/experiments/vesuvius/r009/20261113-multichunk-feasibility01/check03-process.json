@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-ct-render01\\..\\..\\r009\\20261113-multichunk-feasibility01\\check_saved.py",
+    "candidate03.json"
+  ],
+  "started_utc": "2026-11-13T12:19:15.318656+00:00",
+  "completed_utc": "2026-11-13T12:19:15.516317+00:00",
+  "elapsed_seconds": 0.19766780000645667,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 50147328,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 0.125,
+  "sys_cpu_seconds": 0.125,
+  "exit_code": 0
+}

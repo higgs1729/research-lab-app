@@ -1,0 +1,30 @@
+{
+  "acquisition_response_count": 3,
+  "new_http_body_bytes": 171424048,
+  "new_public_derived_CT_PNG_bytes": 18935792,
+  "network_elapsed_seconds": 12.750759100017603,
+  "network_limit_seconds": 300,
+  "render_elapsed_seconds": 2.869741399976192,
+  "render_limit_seconds": 300,
+  "render_cpu_affinity": [
+    0
+  ],
+  "render_commit_limit_bytes": 4294967296,
+  "render_peak_working_set_bytes": 274370560,
+  "disk_before_result_files": {
+    "C_work_bytes": 199704475,
+    "C_free_bytes": 14100602880
+  },
+  "C_work_limit_bytes": 1073741824,
+  "C_min_free_bytes": 10737418240,
+  "D_write_bytes": 0,
+  "new_raw_CT_voxel_bytes": 0,
+  "new_model_weights_bytes": 0,
+  "model_forward_calls": 0,
+  "GPU_seconds": 0,
+  "paid_compute_instances_started": 0,
+  "cloud_cost_usd": 0,
+  "cost_basis": "Three public Hugging Face HTTPS asset bodies (acquisition.json) and local CPU rendering (render-process.json). No cloud compute API, instance, billable storage, or paid instruction used.",
+  "posts_or_submissions": 0,
+  "redelegations": 0
+}

@@ -1,0 +1,85 @@
+{
+  "purpose": "Reproduce the existing closing/Euler locator, not a new repair or independent CUT judgement.",
+  "source_commit": "b67f708eb9eb42270ff1664af411ab3dcfb9e3fd",
+  "source_files": {
+    "upstream-topology.py": "43cfb098579c9c0143bc17916d65a66745bd00a9af6db3a681d28355ba39ba12",
+    "upstream-label_topology_audit.py": "cc8a15220099ac8f3ac9c15f7c7b9d04b026bc1c25553050ed00a3bfa2ceb3a3"
+  },
+  "surface_components_26": 10,
+  "component_id": 1,
+  "component_voxels": 317632,
+  "component_bbox_zyx": [
+    [
+      3,
+      317
+    ],
+    [
+      3,
+      317
+    ],
+    [
+      3,
+      99
+    ]
+  ],
+  "original_topology": {
+    "euler": -16,
+    "b1": 17,
+    "b2": 0
+  },
+  "holes": [
+    {
+      "center_zyx": [
+        46,
+        271,
+        33
+      ],
+      "voxels": 1617,
+      "fixes": 15,
+      "center_zyx_global": [
+        49,
+        274,
+        36
+      ],
+      "distance_from_e04_centre": 0.0
+    },
+    {
+      "center_zyx": [
+        122,
+        30,
+        57
+      ],
+      "voxels": 833,
+      "fixes": 2,
+      "center_zyx_global": [
+        125,
+        33,
+        60
+      ],
+      "distance_from_e04_centre": 253.83656159032725
+    }
+  ],
+  "nearby_hole_components": [
+    {
+      "component_id": 1,
+      "voxels": 1617,
+      "centroid_zyx": [
+        49.166357452071736,
+        274.2368583797155,
+        36.33766233766234
+      ],
+      "min_zyx": [
+        42,
+        227,
+        9
+      ],
+      "max_zyx": [
+        55,
+        316,
+        56
+      ]
+    }
+  ],
+  "elapsed_seconds": 1.9814969000290148,
+  "labels_edited": false
+}

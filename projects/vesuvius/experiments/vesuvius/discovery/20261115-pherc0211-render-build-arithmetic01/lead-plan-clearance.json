@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-15T13:51:29.111880+00:00",
+  "approved": true,
+  "proposal_sha256": "d5f031b6704c22f2d9cd17712d75ec367e2dfe888a81b9ce9ada04b9b1d030f8",
+  "fixed_source_files_verified": 9,
+  "CT_reused_files_verified": 6,
+  "new_control_nonoverlap_checked": true,
+  "manual_source_review": "Read VCCompilerFlags, GCCToolchain, VCToolchain and core source property. Default Release selects O3/native/LTO, not ReleaseUnsafe global fast-math. Slicing alone has O3/fast-math. Plan separates source TUs and preserves baseline-first check. LTO1 and omitted debug metadata explicitly differ from full author build.",
+  "authorized_execution": "One split baseline configuration and one source-aligned configuration; only3 fixed public band controls. Baseline old2 controls must match R237 input/base/normal before aligned build. All selected values compared. No numerical rescue flag sweep.",
+  "limits": {
+    "cpu_count": 1,
+    "RLIMIT_AS_bytes": 4294967296,
+    "build_total_per_configuration_seconds": 120,
+    "run_seconds": 120,
+    "C_new_estimate_bytes": 16777216,
+    "C_new_limit_bytes": 67108864,
+    "C_free_min_bytes": 2147483648,
+    "GPU": 0,
+    "paid_cost_USD": 0,
+    "compiler_temp": "C experiment/tmp"
+  },
+  "model_forwards": 0,
+  "new_CT_downloads": 0,
+  "external_publication": false,
+  "original_image_or_CPU_reproduction_claim_permitted": false
+}

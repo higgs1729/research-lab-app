@@ -1,0 +1,49 @@
+{
+  "article_url": "https://scrollprize.substack.com/p/first-letters-emerge-from-pherc-211",
+  "html_path": "experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\sources\\award.html",
+  "html_sha256": "45346fbb05600bda2df15ce1b9d35d00fa27ec558c5e73e54ae2eb4513a2f3ce",
+  "rows": [
+    {
+      "source_html_img_url": "https://substackcdn.com/image/fetch/$s_!eOOB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf016da2-a48d-4e9c-b87c-0210a9353ded_1582x1786.png",
+      "url": "https://substack-post-media.s3.amazonaws.com/public/images/af016da2-a48d-4e9c-b87c-0210a9353ded_1582x1786.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 2380092,
+      "sha256": "8e559503e6383cdd41041220d816e1003dbc7af9e877c6f37d920e443858da42",
+      "file": "00-af016da2-a48d-4e9c-b87c-0210a9353ded_1582x1786.png",
+      "retrieved_utc": "2026-11-15T11:51:26.446690+00:00"
+    },
+    {
+      "source_html_img_url": "https://substackcdn.com/image/fetch/$s_!hrze!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdf0636eb-eceb-4f71-a0ae-425402c647dc_1863x407.png",
+      "url": "https://substack-post-media.s3.amazonaws.com/public/images/df0636eb-eceb-4f71-a0ae-425402c647dc_1863x407.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 781080,
+      "sha256": "055b9614e307bc315f9edc47cbeb3a08c433c7a0a1c6fbc380b8c108a85e39f3",
+      "file": "01-df0636eb-eceb-4f71-a0ae-425402c647dc_1863x407.png",
+      "retrieved_utc": "2026-11-15T11:51:28.110312+00:00"
+    },
+    {
+      "source_html_img_url": "https://substackcdn.com/image/fetch/$s_!3FTB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf9bb591-10e1-42ed-8171-cae701387254_2048x523.png",
+      "url": "https://substack-post-media.s3.amazonaws.com/public/images/af9bb591-10e1-42ed-8171-cae701387254_2048x523.png",
+      "http_status": 200,
+      "content_type": "image/png",
+      "bytes": 1996024,
+      "sha256": "16e0a845de48c9b39c07b7bbfb6ab7ddb718ee3a3b1ddb57a4f9e28ed931b385",
+      "file": "02-af9bb591-10e1-42ed-8171-cae701387254_2048x523.png",
+      "retrieved_utc": "2026-11-15T11:51:31.047548+00:00"
+    },
+    {
+      "source_html_img_url": "https://substackcdn.com/image/fetch/$s_!ZBbU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52772f01-489f-4cd3-94e8-74d048efca70_2048x905.jpeg",
+      "url": "https://substack-post-media.s3.amazonaws.com/public/images/52772f01-489f-4cd3-94e8-74d048efca70_2048x905.jpeg",
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 283619,
+      "sha256": "6a45e7d80a79328ec1228250223cc14fecf6b4150988acdd13a0d0891570a4c4",
+      "file": "03-52772f01-489f-4cd3-94e8-74d048efca70_2048x905.jpeg",
+      "retrieved_utc": "2026-11-15T11:51:32.193544+00:00"
+    }
+  ],
+  "download_bytes": 5440815,
+  "note": "Original image URLs decoded from the article img source. These are published figures, not original CT or calibrated model outputs."
+}

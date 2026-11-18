@@ -1,0 +1,33 @@
+{
+  "name": "r194-hecate-0000000000000000",
+  "image": "docker.io/runpod/pytorch@sha256:e745934b44a4071b1d20a181cdff9e92dc4af3d304cbaafbd0d23f8dacbe5300",
+  "cloud": "SECURE",
+  "gpu": {
+    "id": "NVIDIA GeForce RTX 4090",
+    "count": 1,
+    "minCudaVersion": "13.0",
+    "minRamPerGpu": 8,
+    "minVcpuCountPerGpu": 1
+  },
+  "dataCenterIds": [
+    "EU-RO-1"
+  ],
+  "disk": 20,
+  "ports": [],
+  "mounts": {},
+  "startSsh": false,
+  "startJupyter": false,
+  "globalNetworking": false,
+  "entrypoint": [
+    "/usr/local/bin/python",
+    "-I",
+    "-c"
+  ],
+  "cmd": [
+    "\"\"\"PID 1 on the dedicated Pod. Use only the provider-injected Pod credential.\"\"\"\nimport os\nfrom pathlib import Path\nimport re\nimport time\nimport urllib.error\nimport urllib.request\n\n\nclass NoRedirect(urllib.request.HTTPRedirectHandler):\n    def redirect_request(self, *args):\n        return None\n\n\ndef main():\n    pod = os.environ.get(\"RUNPOD_POD_ID\", \"\")\n    key = os.environ.get(\"RUNPOD_API_KEY\", \"\")\n    deadline = float(os.environ[\"R194_DELETE_EPOCH\"])\n    assert re.fullmatch(r\"[a-zA-Z0-9_-]+\", pod) and key\n    assert 0 < deadline <= time.time() + 1205\n    url = f\"https://api.runpod.io/v2/pods/{pod}\"\n    api = urllib.request.build_opener(urllib.request.ProxyHandler({}), NoRedirect())\n\n    def call(method):\n        request = urllib.request.Request(url, method=method, headers={\"Authorization\": f\"Bearer {key}\"})\n        try:\n            with api.open(request, timeout=8) as response:\n                return response.status\n        except urllib.error.HTTPError as error:\n            return error.code\n        except OSError:\n            return 0\n\n    os.umask(0o077)\n    root = Path(\"/tmp/r194\")\n    root.mkdir(exist_ok=True)\n    # GET verifies read access only. The actual DELETE permission is learned on teardown.\n    status = call(\"GET\")\n    marker = root / \"watchdog-armed.tmp\"\n    marker.write_text(f\"{pod}\\n{deadline:.0f}\\n{status}\\n\", encoding=\"ascii\")\n    marker.replace(root / \"watchdog-armed\")\n    print(\"R194 self-GET status\", status, flush=True)\n    remaining = min(1200, max(0, deadline - time.time()))\n    time.sleep(remaining)\n    while True:\n        status = call(\"DELETE\")\n        print(\"R194 self-DELETE status\", status, flush=True)\n        if status in (204, 404):\n            # Keep PID 1 alive while the provider reconciles deletion.\n            time.sleep(60)\n        else:\n            time.sleep(15)\n\n\nif __name__ == \"__main__\":\n    main()\n"
+  ],
+  "env": {
+    "R194_DELETE_EPOCH": "1794649200",
+    "R194_EXPECTED_GPU": "NVIDIA GeForce RTX 4090"
+  }
+}

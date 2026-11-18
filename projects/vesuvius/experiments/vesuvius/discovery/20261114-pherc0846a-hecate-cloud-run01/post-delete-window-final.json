@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-14T11:42:37.497486+00:00",
+  "name": "r201-hecate-3c44b0a6d15cf04c",
+  "pod_id": "pqgmm8obc1rojl",
+  "create_epoch": 1794656042,
+  "delete_epoch": 1794657242,
+  "matches_in_list": 0,
+  "details_http_status": 404,
+  "total_pods_in_list": 0,
+  "billing_http_status": 200,
+  "billing_records": [],
+  "billing_query": {
+    "bucketSize": "hour",
+    "endTime": "2026-11-14T12:00:00Z",
+    "podId": "pqgmm8obc1rojl",
+    "startTime": "2026-11-14T11:00:00Z"
+  },
+  "billing_totals": {
+    "cpuAmount": 0,
+    "diskAmount": 0,
+    "gpuAmount": 0,
+    "totalAmount": 0
+  },
+  "balance": {
+    "http_status": 200,
+    "client_balance_usd": 18.5034915884,
+    "auto_pay_enabled": false
+  }
+}

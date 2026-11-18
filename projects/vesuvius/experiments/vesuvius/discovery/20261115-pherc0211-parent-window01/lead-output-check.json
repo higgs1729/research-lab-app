@@ -1,0 +1,39 @@
+{
+  "utc": "2026-11-15T13:20:09.507923+00:00",
+  "passed": true,
+  "model_status": "paired_phi_stop",
+  "model_forwards_checked": 5,
+  "model_loads": 1,
+  "normalization_domain_values_checked": 256,
+  "max_CPU_CUDA_normalization_delta": 5.960464477539063e-08,
+  "known_CPU_references": [
+    {
+      "index": 0,
+      "max_abs": 1.9371509552001953e-07,
+      "mean_abs": 3.615665870408217e-08
+    },
+    {
+      "index": 47,
+      "max_abs": 9.238719940185547e-07,
+      "mean_abs": 2.332542660749621e-07
+    },
+    {
+      "index": 95,
+      "max_abs": 6.258487701416016e-07,
+      "mean_abs": 1.3581949234422711e-07
+    }
+  ],
+  "paired_phi_gate": {
+    "max_abs": 0.0028054118156433105,
+    "mean_abs": 0.0006942504648274431,
+    "all_finite": true,
+    "threshold_max_abs": 0.005,
+    "threshold_mean_abs": 0.0005,
+    "passed": false,
+    "source": "Fixed public-vs-approximate phi input, central96 raw probability; not an exact-render claim"
+  },
+  "cases": {},
+  "method": "Independent scalar FP32 LUTs, direct raw patch slicing and float64 sine-squared Hann reconstruction; no worker imports. Pair failure is reported as failure, not a changed threshold.",
+  "model_forwards_added": 0,
+  "visual_judgement_included": false
+}

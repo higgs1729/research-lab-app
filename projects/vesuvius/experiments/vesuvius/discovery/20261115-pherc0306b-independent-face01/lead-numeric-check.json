@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-11-15T08:29:23.500668+00:00",
+  "plan_sha256": "bea3aa2012cefcc18465f5ae6ec7079eed5a997eac53612374e10ee36b8465cb",
+  "all_saved_proxy_triangles_reconstructed": 88144,
+  "all_recorded_hit_residuals_checked": 5810,
+  "max_recorded_residual_voxel": 2.680681789501457e-12,
+  "independent_linear_solve_ray_sets": 322,
+  "selected_ray_count": 23,
+  "max_depth_difference_voxel": 7.105427357601002e-15,
+  "rays_match_frozen_R226": true,
+  "scope": "All proxy input/pruning and recorded barycentric hits; independent all-root solve on23 fixed/critical rays across both diagonals/seven fields. Numerical consistency, not original surface or physical-layer truth."
+}

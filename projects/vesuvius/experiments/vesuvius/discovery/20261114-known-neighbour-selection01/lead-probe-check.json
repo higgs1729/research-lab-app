@@ -1,0 +1,28 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "probes": [
+    {
+      "label": "within_winner_crop_unboxed",
+      "anchor_delta_voxel": 9.094947017729282e-13,
+      "keys": 8,
+      "valid_context_cells": 20
+    },
+    {
+      "label": "beyond_crop_band",
+      "anchor_delta_voxel": 9.094947017729282e-13,
+      "keys": 8,
+      "valid_context_cells": 16
+    },
+    {
+      "label": "beyond_crop_lobe",
+      "anchor_delta_voxel": 4.547473508864641e-13,
+      "keys": 4,
+      "valid_context_cells": 20
+    }
+  ],
+  "union_keys": 18,
+  "reuse_keys": 2,
+  "additional_upper_bytes": 33554432,
+  "scope": "Independent mathematical bound and mapped anchors only. Actual observer support must precede CT acquisition. Connected mesh cells are not proof of physical sheet continuity or unread text."
+}

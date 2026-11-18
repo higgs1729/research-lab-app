@@ -1,0 +1,16 @@
+{
+  "reviewer": "root lead",
+  "images_viewed": [
+    "../20261116-pherc0211-clipped-context01/review/fixed-clipped-response-raw8-native.png",
+    "../20261115-pherc0211-adjacent-context01/lead-article-images/02-af9bb591-10e1-42ed-8171-cae701387254_2048x523.png",
+    "../20261116-claude-line-registration01/union-left_official-fig02-right.png"
+  ],
+  "observations": [
+    "The official original contains yellow responses at the location indicated by the stored comparison. The two thick downward elements and horizontal connecting region have recognizable counterparts, with differing curvature and intensity.",
+    "The comparison additionally aligns the lower band and a weaker intervening response, supporting a local response correspondence rather than an isolated generic bar match.",
+    "The candidate green box and enlarged official image are display aids; the original script mixes scale and intercept estimates and uses cubic enlargement, so the box is not an exact pixelwise registration."
+  ],
+  "interpretation": "Visual evidence supports treating the observed candidate response as already publicly depicted, pending the bounded numerical correspondence check. It does not identify a letter, verify ink or a single physical sheet, or identify the model and mesh of the official overlay.",
+  "new_letters": 0,
+  "external_publication": false
+}

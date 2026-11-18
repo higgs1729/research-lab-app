@@ -1,0 +1,42 @@
+{
+  "status": "not_selected_not_ready",
+  "decision": "No immediate discovery experiment selected from the three reviewed candidates.",
+  "scroll": "PHerc1218",
+  "source_ct_volume": "20250521120456",
+  "face": "demo_out/powered/s1_z224_tile_y1792_x1344/B_r1",
+  "producer_revision": "34011216020f5bdb3070f5693f0e2721616e1c28",
+  "existing_source_record": "originals/jinho-render-ab.json",
+  "needed_assets": [
+    "Original native probability maps for seed42 step20000 and step75000, seed43 step20000 and step75000, each forward and reverse, corresponding to the documented 28x1041x1041 native 8.64um render. Actual prediction dimensions, padding and crop mapping remain unverified.",
+    "The corresponding unresized CT middle slice, the exact layer index, and source/render identity binding the maps to this face.",
+    "Immutable revision or file hashes, dtype/range/dimensions, file sizes and a known canvas-to-surface mapping; native filenames are not verified."
+  ],
+  "availability": "Not found in the captured diagnostic repository full tree and three releases, or the linked unmerge full tree and release list. This is a bounded availability finding, not an exhaustive internet claim.",
+  "new_information": "Thin boundaries at native pixels and all four reverse maps are not observable in the published ~480-pixel-wide forward-only composite.",
+  "observation_if_available": {
+    "selection": "Entire 1041x1041 canvas, all eight pre-existing maps, one pass; no response-dependent new windows or threshold sweep.",
+    "display": "Original fixed 0..1 or 0..255 linear scale, paired with native CT. Known dtype and calibration required. Use existing R221/R192 native panel tooling adapted only for dimensions and paths.",
+    "success": "A specific shape has endpoints, distinguishable internal structure or coherent neighbouring responses at original pixels: freeze half-open canvas coordinates and show originals for independent review before deciding any CT follow-up.",
+    "no_candidate": "Close the review of these eight fixed maps; do not declare the scroll or ink absent.",
+    "technical_failure": "Unknown source identity, missing native maps, or failed coordinate binding: no scientific negative, no substituted re-render or new inference."
+  },
+  "resource_estimate": {
+    "new_ct_voxels": 0,
+    "new_model_forward": 0,
+    "gpu": false,
+    "paid_compute_usd": 0,
+    "cpu_threads": 1,
+    "commit_gib": 4,
+    "wall_seconds": 300,
+    "new_body_cap_mib": 64,
+    "single_body_cap_mib": 16,
+    "uncompressed_pixels_uint8_all9_bytes": 9753129,
+    "uncompressed_eight_float32_plus_uint8_ct_bytes": 35761473,
+    "actual_download_bytes": null,
+    "note": "Estimates exclude container headers and depend on unverified native dtype. Resolve metadata before downloading; the lead chooses whether this becomes a next experiment."
+  },
+  "other_reopening_evidence": {
+    "PHerc0358": "A concrete coherent mesh/trace with source coordinates and evidence differing from the existing z8000-11000 flat-model survey, or a newly published spatially identified response. SQM rank or another model alone is insufficient.",
+    "PHerc1203": "An identified grown continuous surface at an actual high-resolution candidate coordinate, with original render/response and its relation to prior failed top pockets. A repeated ranking of the old 240 sites alone is insufficient. The 2.403um scan's prize eligibility remains separate."
+  }
+}

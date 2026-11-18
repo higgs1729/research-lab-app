@@ -1,0 +1,17 @@
+{
+  "method": "Independent parent sliced finite differences, direct codec chunk reads, run splitting/nearest center, sliding-window median and explicit two separable Gaussian normalized convolutions. No upstream functions imported.",
+  "raw_profile_samples": 149048,
+  "raw_offsets_exact": true,
+  "rejection_exact": true,
+  "offset_float_max_errors": {
+    "filled": 0.0,
+    "final": 0.0
+  },
+  "applied_mask_exact": true,
+  "local_xyz_max_error_voxel": 0.0,
+  "unchanged_outside_core_vertices": 9828,
+  "core_paste_exact": true,
+  "original_mask_and_scale_unchanged": true,
+  "new_network_CT_models_GPU": 0,
+  "R216_local_w052_core_components_exact": 1728
+}

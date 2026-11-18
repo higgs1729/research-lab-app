@@ -1,0 +1,159 @@
+{
+  "retrieved_utc": "2026-11-12T04:15:18.913650+00:00",
+  "main_commit": "f0e441016900cb946bc3861025eca3a7cc2aae19",
+  "flatboi_blob": "2dcf5981008e6b68b8c29ef7e083fc769f40e163",
+  "queries": [
+    {
+      "query": "repo:ScrollPrize/villa flatboi pack",
+      "total_count": 0,
+      "incomplete_results": false,
+      "response_file": "search-1.json",
+      "sha256": "c9938edecb99d754b2d039ac9eec320a94c769b6a6417921e2dcbef9e2fe01a0",
+      "items": []
+    },
+    {
+      "query": "repo:ScrollPrize/villa flatboi \"component\"",
+      "total_count": 9,
+      "incomplete_results": false,
+      "response_file": "search-2.json",
+      "sha256": "3b59b488fc4517f403471f1aa1fc387ed46c30d5d4793d4d6e8b9fb65d84a251",
+      "items": [
+        {
+          "number": 2500,
+          "title": "flatboi --keep < 100 flattens disconnected pieces on top of each other (initial UVs are in decimated-grid units)",
+          "url": "https://github.com/ScrollPrize/villa/issues/2500",
+          "state": "open"
+        },
+        {
+          "number": 2364,
+          "title": "build_from_src_debian.sh: install libssl-dev",
+          "url": "https://github.com/ScrollPrize/villa/pull/2364",
+          "state": "open"
+        },
+        {
+          "number": 1660,
+          "title": "render_ink.py: a mesh/volume frame mismatch renders a black strip and exits 0, and the published container has no working --flatten-keep",
+          "url": "https://github.com/ScrollPrize/villa/issues/1660",
+          "state": "closed"
+        },
+        {
+          "number": 1588,
+          "title": "container images are 3+ months stale: :edge AND :main both ship the 2026-05-13 build (1e3f4c02) — original crash here is already fixed on main",
+          "url": "https://github.com/ScrollPrize/villa/issues/1588",
+          "state": "closed"
+        },
+        {
+          "number": 1619,
+          "title": "ci(vc3d): restore smoke-tested runtime image publishing",
+          "url": "https://github.com/ScrollPrize/villa/pull/1619",
+          "state": "closed"
+        },
+        {
+          "number": 2462,
+          "title": "Vc obj store hub rework",
+          "url": "https://github.com/ScrollPrize/villa/pull/2462",
+          "state": "closed"
+        },
+        {
+          "number": 1885,
+          "title": "Fix the reference ray occlusion residual and give it an analytic Jacobian; keep explicit seeds with a zero coordinate",
+          "url": "https://github.com/ScrollPrize/villa/pull/1885",
+          "state": "closed"
+        },
+        {
+          "number": 1285,
+          "title": "QuadSurface: recompute bbox from points when saving metadata",
+          "url": "https://github.com/ScrollPrize/villa/pull/1285",
+          "state": "closed"
+        },
+        {
+          "number": 1123,
+          "title": "Windows linux mac build execs",
+          "url": "https://github.com/ScrollPrize/villa/pull/1123",
+          "state": "closed"
+        }
+      ]
+    },
+    {
+      "query": "repo:ScrollPrize/villa \"packing\"",
+      "total_count": 12,
+      "incomplete_results": false,
+      "response_file": "search-3.json",
+      "sha256": "cad744d2744e6031699095ea04f875737307b11dca20d0ad53c62fef8f19890f",
+      "items": [
+        {
+          "number": 2333,
+          "title": "Exclude neighboring packed volumes from patch normalization",
+          "url": "https://github.com/ScrollPrize/villa/pull/2333",
+          "state": "open"
+        },
+        {
+          "number": 1907,
+          "title": "PHerc0841 renders its letters as blobs under every lever we tried; on the eligible 1.2 m scan type, fine-tuning ink_9um transfers ink detection across scrolls but not letter shape",
+          "url": "https://github.com/ScrollPrize/villa/issues/1907",
+          "state": "closed"
+        },
+        {
+          "number": 1510,
+          "title": "if a packed sparse store doesnt exist, build it when fit_spiral is la…",
+          "url": "https://github.com/ScrollPrize/villa/pull/1510",
+          "state": "closed"
+        },
+        {
+          "number": 1281,
+          "title": "Sparse cuda try2",
+          "url": "https://github.com/ScrollPrize/villa/pull/1281",
+          "state": "closed"
+        },
+        {
+          "number": 1888,
+          "title": "spiral-fitting: extract_surface_tracks runs on NVIDIA GPUs with Brook",
+          "url": "https://github.com/ScrollPrize/villa/pull/1888",
+          "state": "closed"
+        },
+        {
+          "number": 1883,
+          "title": "spiral-fitting: accept the published dataset's packed Lasagna pools, and add fit_spiral.py --check",
+          "url": "https://github.com/ScrollPrize/villa/pull/1883",
+          "state": "closed"
+        },
+        {
+          "number": 1573,
+          "title": "spiral: fit a 4,000-slice window on a 16 GB host",
+          "url": "https://github.com/ScrollPrize/villa/pull/1573",
+          "state": "closed"
+        },
+        {
+          "number": 1602,
+          "title": "VC3D: Fiber Map shows every fiber, placed by inferred winding",
+          "url": "https://github.com/ScrollPrize/villa/pull/1602",
+          "state": "closed"
+        },
+        {
+          "number": 1453,
+          "title": "Vc3d renderorder",
+          "url": "https://github.com/ScrollPrize/villa/pull/1453",
+          "state": "closed"
+        },
+        {
+          "number": 768,
+          "title": "Build system: packaging, install targets, utils cleanup",
+          "url": "https://github.com/ScrollPrize/villa/pull/768",
+          "state": "closed"
+        },
+        {
+          "number": 193,
+          "title": "Methods for generating surface, fiber, or ink labels",
+          "url": "https://github.com/ScrollPrize/villa/issues/193",
+          "state": "closed"
+        },
+        {
+          "number": 191,
+          "title": "Surface and Fiber Predictions in Compressed or Highly Curved areas",
+          "url": "https://github.com/ScrollPrize/villa/issues/191",
+          "state": "closed"
+        }
+      ]
+    }
+  ]
+}

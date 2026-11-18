@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-15T11:05:01.612322+00:00",
+  "passed": true,
+  "native_studio_pixels_exact": 602112,
+  "native_grid_panels_exact": 6,
+  "atlas_grid_panels": 9,
+  "independent_matrix_bilinear_max_DN": 0,
+  "visually_reviewed": [
+    "review/comparison-native.png",
+    "review/comparison-atlas-256.png"
+  ],
+  "lead_judgement": "Known right ring with dark interior and broad left response reproduced. Two fine left terminals and detached lower-right component are not faithfully separated. Right ring is more prominent than Reader V3 here but also thickened and connected; no general readability advantage established.",
+  "discovery_claim": false,
+  "new_letters": 0,
+  "scope": "Single known-text execution control; no held-out/generalization claim."
+}

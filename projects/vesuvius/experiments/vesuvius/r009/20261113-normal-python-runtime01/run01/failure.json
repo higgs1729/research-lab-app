@@ -1,0 +1,7 @@
+{
+  "phase": "preflight",
+  "work": "/home/tomoy/r009-normal-python-run01-shw1sh0a",
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-normal-python-runtime01/run.py\", line 219, in main\n    site, include, stage = prepare(work, records, env)\n                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-normal-python-runtime01/run.py\", line 98, in prepare\n    assert packages == saved_abi['ubuntu_packages']\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "utc": "2026-11-13T14:00:27.480393+00:00"
+}

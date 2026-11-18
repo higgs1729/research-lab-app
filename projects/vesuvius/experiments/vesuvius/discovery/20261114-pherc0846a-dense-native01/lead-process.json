@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-dense-native01\\lead_check.py"
+  ],
+  "started_utc": "2026-11-13T16:09:47.225448+00:00",
+  "completed_utc": "2026-11-13T16:09:47.794053+00:00",
+  "elapsed_seconds": 0.5686042999732308,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 53092352,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 0.421875,
+  "sys_cpu_seconds": 0.203125,
+  "exit_code": 0
+}

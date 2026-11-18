@@ -1,0 +1,26 @@
+{
+  "previous_crop_xywh": [
+    1035,
+    1035,
+    128,
+    128
+  ],
+  "local_xyxy": [
+    192,
+    192,
+    320,
+    320
+  ],
+  "previous_chunk_sha256": "4e6828fd2f60f89ad473620d17cd8b7e4320bee3e14be841bf39277d19b32393",
+  "samples": 540672,
+  "exact": 540672,
+  "abs_le_1": 540672,
+  "difference_abs_DN": {
+    "min": 0.0,
+    "median": 0.0,
+    "p95": 0.0,
+    "p99": 0.0,
+    "max": 0.0,
+    "mean": 0.0
+  }
+}

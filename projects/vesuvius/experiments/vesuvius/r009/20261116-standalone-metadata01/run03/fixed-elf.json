@@ -1,0 +1,366 @@
+{
+  "path": "/home/tomoy/r246-standalone-run02/build/bin/vc_render_tifxyz",
+  "sha256": "b9d909432e28ab84e0cb38c137dad3a8b141378ce09a1b46cb70f5ab8ea1fd4c",
+  "ldd": "\tlinux-vdso.so.1 (0x00007ffd33f11000)\n\tlibvc_core.so => /home/tomoy/r246-standalone-run02/build/bin/../core/libvc_core.so (0x00007783f8400000)\n\tlibboost_program_options.so.1.83.0 => /lib/x86_64-linux-gnu/libboost_program_options.so.1.83.0 (0x00007783fbc5c000)\n\tlibvc_reader_native.so => /home/tomoy/r246-standalone-run02/build/bin/../reader/libvc_reader_native.so (0x00007783f7000000)\n\tlibopencv_core.so.406 => /lib/x86_64-linux-gnu/libopencv_core.so.406 (0x00007783f6c00000)\n\tlibgomp.so.1 => /lib/x86_64-linux-gnu/libgomp.so.1 (0x00007783f83aa000)\n\tlibstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007783f6800000)\n\tlibm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007783f82c1000)\n\tlibgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007783f8293000)\n\tlibc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007783f6400000)\n\t/lib64/ld-linux-x86-64.so.2 (0x00007783fbcb1000)\n\tlibopencv_calib3d.so.406 => /lib/x86_64-linux-gnu/libopencv_calib3d.so.406 (0x00007783f662b000)\n\tlibsqlite3.so.0 => /lib/x86_64-linux-gnu/libsqlite3.so.0 (0x00007783f6a98000)\n\tlibcrypto.so.3 => /lib/x86_64-linux-gnu/libcrypto.so.3 (0x00007783f5e00000)\n\tlibcurl.so.4 => /lib/x86_64-linux-gnu/libcurl.so.4 (0x00007783f633f000)\n\tlibz.so.1 => /lib/x86_64-linux-gnu/libz.so.1 (0x00007783fbc3c000)\n\tlibblosc.so.1 => /lib/x86_64-linux-gnu/libblosc.so.1 (0x00007783f8283000)\n\tlibzstd.so.1 => /lib/x86_64-linux-gnu/libzstd.so.1 (0x00007783f5d46000)\n\tliblz4.so.1 => /lib/x86_64-linux-gnu/liblz4.so.1 (0x00007783f8261000)\n\tlibopencv_imgproc.so.406 => /lib/x86_64-linux-gnu/libopencv_imgproc.so.406 (0x00007783f5600000)\n\tlibtiff.so.6 => /lib/x86_64-linux-gnu/libtiff.so.6 (0x00007783f5cb9000)\n\tlibpng16.so.16 => /lib/x86_64-linux-gnu/libpng16.so.16 (0x00007783f6fc8000)\n\tlibjpeg.so.8 => /lib/x86_64-linux-gnu/libjpeg.so.8 (0x00007783f5c36000)\n\tlibblosc2.so.2 => /home/tomoy/r246-standalone-run02/blosc2-packages/usr/lib/x86_64-linux-gnu/libblosc2.so.2 (0x00007783f5bc5000)\n\tlibGLX.so.0 => /lib/x86_64-linux-gnu/libGLX.so.0 (0x00007783f6f95000)\n\tliblapack.so.3 => /lib/x86_64-linux-gnu/liblapack.so.3 (0x00007783f4e00000)\n\tlibblas.so.3 => /lib/x86_64-linux-gnu/libblas.so.3 (0x00007783f5593000)\n\tlibtbb.so.12 => /lib/x86_64-linux-gnu/libtbb.so.12 (0x00007783f5b71000)\n\tlibopencv_features2d.so.406 => /lib/x86_64-linux-gnu/libopencv_features2d.so.406 (0x00007783f54db000)\n\tlibopencv_flann.so.406 => /lib/x86_64-linux-gnu/libopencv_flann.so.406 (0x00007783f4d97000)\n\tlibnghttp2.so.14 => /lib/x86_64-linux-gnu/libnghttp2.so.14 (0x00007783f6314000)\n\tlibidn2.so.0 => /lib/x86_64-linux-gnu/libidn2.so.0 (0x00007783f54b9000)\n\tlibrtmp.so.1 => /lib/x86_64-linux-gnu/librtmp.so.1 (0x00007783f6f77000)\n\tlibssh.so.4 => /lib/x86_64-linux-gnu/libssh.so.4 (0x00007783f4d25000)\n\tlibpsl.so.5 => /lib/x86_64-linux-gnu/libpsl.so.5 (0x00007783f6a84000)\n\tlibssl.so.3 => /lib/x86_64-linux-gnu/libssl.so.3 (0x00007783f4c7b000)\n\tlibgssapi_krb5.so.2 => /lib/x86_64-linux-gnu/libgssapi_krb5.so.2 (0x00007783f4c27000)\n\tlibldap.so.2 => /lib/x86_64-linux-gnu/libldap.so.2 (0x00007783f4bca000)\n\tliblber.so.2 => /lib/x86_64-linux-gnu/liblber.so.2 (0x00007783f661b000)\n\tlibbrotlidec.so.1 => /lib/x86_64-linux-gnu/libbrotlidec.so.1 (0x00007783f5b63000)\n\tlibsnappy.so.1 => /lib/x86_64-linux-gnu/libsnappy.so.1 (0x00007783f54ae000)\n\tlibwebp.so.7 => /lib/x86_64-linux-gnu/libwebp.so.7 (0x00007783f4b4f000)\n\tliblzma.so.5 => /lib/x86_64-linux-gnu/liblzma.so.5 (0x00007783f4b1d000)\n\tlibLerc.so.4 => /lib/x86_64-linux-gnu/libLerc.so.4 (0x00007783f4a96000)\n\tlibjbig.so.0 => /lib/x86_64-linux-gnu/libjbig.so.0 (0x00007783f549e000)\n\tlibdeflate.so.0 => /lib/x86_64-linux-gnu/libdeflate.so.0 (0x00007783f548b000)\n\tlibGLdispatch.so.0 => /lib/x86_64-linux-gnu/libGLdispatch.so.0 (0x00007783f49de000)\n\tlibX11.so.6 => /lib/x86_64-linux-gnu/libX11.so.6 (0x00007783f48a0000)\n\tlibopenblas.so.0 => /lib/x86_64-linux-gnu/libopenblas.so.0 (0x00007783f24c0000)\n\tlibgfortran.so.5 => /lib/x86_64-linux-gnu/libgfortran.so.5 (0x00007783f2000000)\n\tlibunistring.so.5 => /lib/x86_64-linux-gnu/libunistring.so.5 (0x00007783f1e53000)\n\tlibgnutls.so.30 => /lib/x86_64-linux-gnu/libgnutls.so.30 (0x00007783f1c58000)\n\tlibhogweed.so.6 => /lib/x86_64-linux-gnu/libhogweed.so.6 (0x00007783f2478000)\n\tlibnettle.so.8 => /lib/x86_64-linux-gnu/libnettle.so.8 (0x00007783f2423000)\n\tlibgmp.so.10 => /lib/x86_64-linux-gnu/libgmp.so.10 (0x00007783f239f000)\n\tlibkrb5.so.3 => /lib/x86_64-linux-gnu/libkrb5.so.3 (0x00007783f1b8f000)\n\tlibk5crypto.so.3 => /lib/x86_64-linux-gnu/libk5crypto.so.3 (0x00007783f2373000)\n\tlibcom_err.so.2 => /lib/x86_64-linux-gnu/libcom_err.so.2 (0x00007783f6a7e000)\n\tlibkrb5support.so.0 => /lib/x86_64-linux-gnu/libkrb5support.so.0 (0x00007783f547e000)\n\tlibsasl2.so.2 => /lib/x86_64-linux-gnu/libsasl2.so.2 (0x00007783f2359000)\n\tlibbrotlicommon.so.1 => /lib/x86_64-linux-gnu/libbrotlicommon.so.1 (0x00007783f2336000)\n\tlibsharpyuv.so.0 => /lib/x86_64-linux-gnu/libsharpyuv.so.0 (0x00007783f6613000)\n\tlibxcb.so.1 => /lib/x86_64-linux-gnu/libxcb.so.1 (0x00007783f1b66000)\n\tlibp11-kit.so.0 => /lib/x86_64-linux-gnu/libp11-kit.so.0 (0x00007783f19c2000)\n\tlibtasn1.so.6 => /lib/x86_64-linux-gnu/libtasn1.so.6 (0x00007783f2320000)\n\tlibkeyutils.so.1 => /lib/x86_64-linux-gnu/libkeyutils.so.1 (0x00007783f5b5c000)\n\tlibresolv.so.2 => /lib/x86_64-linux-gnu/libresolv.so.2 (0x00007783f19b0000)\n\tlibXau.so.6 => /lib/x86_64-linux-gnu/libXau.so.6 (0x00007783f19aa000)\n\tlibXdmcp.so.6 => /lib/x86_64-linux-gnu/libXdmcp.so.6 (0x00007783f19a2000)\n\tlibffi.so.8 => /lib/x86_64-linux-gnu/libffi.so.8 (0x00007783f1996000)\n\tlibbsd.so.0 => /lib/x86_64-linux-gnu/libbsd.so.0 (0x00007783f1980000)\n\tlibmd.so.0 => /lib/x86_64-linux-gnu/libmd.so.0 (0x00007783f1971000)\n",
+  "libraries": {
+    "libvc_core.so": {
+      "path": "/home/tomoy/r246-standalone-run02/build/core/libvc_core.so",
+      "bytes": 121889312,
+      "sha256": "e4e48787bb447d84668b93810b573cbce7a3f0728594a6bfa283868a1c879b13"
+    },
+    "libboost_program_options.so.1.83.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.83.0",
+      "bytes": 264376,
+      "sha256": "15f34bcb75dfb0fa30af13cf2b82fb7a9a8e0fbbadf7cabcd397dd65bde552f3"
+    },
+    "libvc_reader_native.so": {
+      "path": "/home/tomoy/r246-standalone-run02/build/reader/libvc_reader_native.so",
+      "bytes": 56334776,
+      "sha256": "d05f6d5d3938301acc60da069092bea5ed3af81e4be08fb29ca60bc2d98acb3c"
+    },
+    "libopencv_core.so.406": {
+      "path": "/usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0",
+      "bytes": 3598712,
+      "sha256": "b0997f6ad1379bfd4e645cca851254d638885d86e8c1f69a675dd723563af7d0"
+    },
+    "libgomp.so.1": {
+      "path": "/usr/lib/x86_64-linux-gnu/libgomp.so.1.0.0",
+      "bytes": 352304,
+      "sha256": "135f3c8f006d2fe5e68e51281c7974cb991a03de3bfb3593d68d174dfcf854d1"
+    },
+    "libstdc++.so.6": {
+      "path": "/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33",
+      "bytes": 2592224,
+      "sha256": "1fd75fe70354a416d75aef22bcae68c47bd25d20e2d0568c30b1a9838cf62f11"
+    },
+    "libm.so.6": {
+      "path": "/usr/lib/x86_64-linux-gnu/libm.so.6",
+      "bytes": 952616,
+      "sha256": "fce00b6f25f459cf4ae0b7fae4257909a1a8a86f9149e7c029a5d617baf1ccd0"
+    },
+    "libgcc_s.so.1": {
+      "path": "/usr/lib/x86_64-linux-gnu/libgcc_s.so.1",
+      "bytes": 183024,
+      "sha256": "d93224d2b0dab4247598be683adca02f5cf00586f99c187579cd7e92058fb7cb"
+    },
+    "libc.so.6": {
+      "path": "/usr/lib/x86_64-linux-gnu/libc.so.6",
+      "bytes": 2129424,
+      "sha256": "3a15d66867d83762c7f2f1e37359cb8f6c5743edb369c65285cb0b1c4f7498bf"
+    },
+    "/lib64/ld-linux-x86-64.so.2": {
+      "path": "/usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2",
+      "bytes": 236616,
+      "sha256": "c20a2dc8917c755f02b94049356320fe1f62ac7d9f8994731f807d9df39302da"
+    },
+    "libopencv_calib3d.so.406": {
+      "path": "/usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.6.0",
+      "bytes": 1919192,
+      "sha256": "7fac11925515e24b2ed78e4dfb9ef86e1356c46ee02f330cb03e51a04af9608b"
+    },
+    "libsqlite3.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libsqlite3.so.0.8.6",
+      "bytes": 1468440,
+      "sha256": "c9126b7ce030c80b10fa44c282463e125e1072b49a962f225a82104ec2bad838"
+    },
+    "libcrypto.so.3": {
+      "path": "/usr/lib/x86_64-linux-gnu/libcrypto.so.3",
+      "bytes": 5309400,
+      "sha256": "6866ed711dab8927e1bf82bf1cd30e828bdfc34f3cc1e83b1c9eb01ce6c37d9a"
+    },
+    "libcurl.so.4": {
+      "path": "/usr/lib/x86_64-linux-gnu/libcurl.so.4.8.0",
+      "bytes": 786336,
+      "sha256": "3e51df20a6b52879ee83a207115a9bc6891092741ce2f5ec791606e6caf859fa"
+    },
+    "libz.so.1": {
+      "path": "/usr/lib/x86_64-linux-gnu/libz.so.1.3",
+      "bytes": 113000,
+      "sha256": "f61677c7bdb7c2aa2a243ea781bfd16afcb361cede7b4ef76127a9d8eb9a5242"
+    },
+    "libblosc.so.1": {
+      "path": "/usr/lib/x86_64-linux-gnu/libblosc.so.1.21.5",
+      "bytes": 59392,
+      "sha256": "34331c189bd5fe8154f9803c0f74ef953762f00a8f28903400b999ce4b022123"
+    },
+    "libzstd.so.1": {
+      "path": "/usr/lib/x86_64-linux-gnu/libzstd.so.1.5.5",
+      "bytes": 755864,
+      "sha256": "0a2128bc10841fb29e76d08d945864dfb0b6a66da5df6df5d8299197439e54bb"
+    },
+    "liblz4.so.1": {
+      "path": "/usr/lib/x86_64-linux-gnu/liblz4.so.1.9.4",
+      "bytes": 137440,
+      "sha256": "40bffd0a098387368b16b992abd5f7cf43c0fa2f05cabe5a6d483719554adfda"
+    },
+    "libopencv_imgproc.so.406": {
+      "path": "/usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0",
+      "bytes": 4950744,
+      "sha256": "1d3e02665dc45b40be7f8a3051150ed26602783f08af1e96a56e53bc2cef6530"
+    },
+    "libtiff.so.6": {
+      "path": "/usr/lib/x86_64-linux-gnu/libtiff.so.6.0.1",
+      "bytes": 575656,
+      "sha256": "aad9b47982a23560b6f6657adcd70a1141d0971bd4f2eb5b3753745f3e8feee4"
+    },
+    "libpng16.so.16": {
+      "path": "/usr/lib/x86_64-linux-gnu/libpng16.so.16.43.0",
+      "bytes": 223304,
+      "sha256": "89c0c6569a8c00480d451401ad4c0a74942e62dc57f229a970592fdc5adb29e8"
+    },
+    "libjpeg.so.8": {
+      "path": "/usr/lib/x86_64-linux-gnu/libjpeg.so.8.2.2",
+      "bytes": 534592,
+      "sha256": "ac09f2cd6f8a3b8e3cb123999ce275f9bcbe31c6cf9e20212c8f297772591d15"
+    },
+    "libblosc2.so.2": {
+      "path": "/home/tomoy/r246-standalone-run02/blosc2-packages/usr/lib/x86_64-linux-gnu/libblosc2.so.2.13.1",
+      "bytes": 407632,
+      "sha256": "af60544986f18b780cd7f56b5a4fadd3a32dea1139568e60a008a3ea4c1d47aa"
+    },
+    "libGLX.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libGLX.so.0.0.0",
+      "bytes": 137792,
+      "sha256": "16fc8a37eea9210dc83c57eeff5aedc10ab4c6673f2f97e8bb6ee103df657b40"
+    },
+    "liblapack.so.3": {
+      "path": "/usr/lib/x86_64-linux-gnu/openblas-pthread/liblapack.so.3",
+      "bytes": 6802256,
+      "sha256": "1e82245607c58d13405580c71b9b0134b5a952686ac861f979fc7a886ebd4229"
+    },
+    "libblas.so.3": {
+      "path": "/usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3",
+      "bytes": 444968,
+      "sha256": "8ba4a98f44d763c2e648755ef452025919e28633339f23ff605044de3483a25d"
+    },
+    "libtbb.so.12": {
+      "path": "/usr/lib/x86_64-linux-gnu/libtbb.so.12.11",
+      "bytes": 252632,
+      "sha256": "1e2a936d4519f2a4f2e62411a9f680f967a4742525ecf5c2dcac57f1b82501e7"
+    },
+    "libopencv_features2d.so.406": {
+      "path": "/usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.6.0",
+      "bytes": 752024,
+      "sha256": "05e849a695d0e1446c1ce9847d08b92af101a607a8bb17d5617351bb59dc166d"
+    },
+    "libopencv_flann.so.406": {
+      "path": "/usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.6.0",
+      "bytes": 424664,
+      "sha256": "8862d5f551b4e23b68d54accc04c836cd0da8b0a682f8bc4f6906695f3fe3b6d"
+    },
+    "libnghttp2.so.14": {
+      "path": "/usr/lib/x86_64-linux-gnu/libnghttp2.so.14.26.0",
+      "bytes": 170352,
+      "sha256": "46764ab5b6ca7e353a322054f0bee45d9158a27f3e6a82a2fa4447f2ba9ba268"
+    },
+    "libidn2.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libidn2.so.0.4.0",
+      "bytes": 133192,
+      "sha256": "6b78fa7efd369ef3fa8d4354dbedd02cd78be426e558acd986d54a2909155c3c"
+    },
+    "librtmp.so.1": {
+      "path": "/usr/lib/x86_64-linux-gnu/librtmp.so.1",
+      "bytes": 121848,
+      "sha256": "15a2a75e8c437b9c99971b5ee10278ab110beef1a56d1d9e5d6759ea140e98ac"
+    },
+    "libssh.so.4": {
+      "path": "/usr/lib/x86_64-linux-gnu/libssh.so.4.9.6",
+      "bytes": 462360,
+      "sha256": "b82bd54edb908605b8142be1a6d242df65501af0e9bb7581cc36ebf4d8a5ecfd"
+    },
+    "libpsl.so.5": {
+      "path": "/usr/lib/x86_64-linux-gnu/libpsl.so.5.3.4",
+      "bytes": 75768,
+      "sha256": "ae6c5a9aecc249fc66e03c16ec6c4385d09d7e12e0ea7694bb831ab4fee8133c"
+    },
+    "libssl.so.3": {
+      "path": "/usr/lib/x86_64-linux-gnu/libssl.so.3",
+      "bytes": 696512,
+      "sha256": "a40e7b67489bbd257e432c700ff8f6a1ad796425b5eccecdc2930127fdd86624"
+    },
+    "libgssapi_krb5.so.2": {
+      "path": "/usr/lib/x86_64-linux-gnu/libgssapi_krb5.so.2.2",
+      "bytes": 338696,
+      "sha256": "8d0b00978cde2a5a9ec76bee1e16a80efd502bc4db8647174a00a61c9d90f989"
+    },
+    "libldap.so.2": {
+      "path": "/usr/lib/x86_64-linux-gnu/libldap.so.2.0.200",
+      "bytes": 368320,
+      "sha256": "ffed34850626306b7053b958892b76aeab50701571585a0520a79c7ac79d840e"
+    },
+    "liblber.so.2": {
+      "path": "/usr/lib/x86_64-linux-gnu/liblber.so.2.0.200",
+      "bytes": 59888,
+      "sha256": "fda95e45455cb804d83251efd71affb0839cc515eda0458cfd98b0c3d06bce99"
+    },
+    "libbrotlidec.so.1": {
+      "path": "/usr/lib/x86_64-linux-gnu/libbrotlidec.so.1.1.0",
+      "bytes": 51512,
+      "sha256": "d5060475e7259904af3600d01e809710305b296441815bcaa540119a66530a70"
+    },
+    "libsnappy.so.1": {
+      "path": "/usr/lib/x86_64-linux-gnu/libsnappy.so.1.1.10",
+      "bytes": 43272,
+      "sha256": "955acc8eec21bea1fe890ebf75e73d1c94438264d55e042c10ad1a7a57c2e065"
+    },
+    "libwebp.so.7": {
+      "path": "/usr/lib/x86_64-linux-gnu/libwebp.so.7.1.8",
+      "bytes": 494136,
+      "sha256": "9664db51ec65209078abbb8bc7b699888a43ecc2f3c74ce8dd4e497175aa5bf0"
+    },
+    "liblzma.so.5": {
+      "path": "/usr/lib/x86_64-linux-gnu/liblzma.so.5.4.5",
+      "bytes": 202904,
+      "sha256": "26b37d25f7ca2a2d348de8ecabacda12e921cd933b21fa069a179760db77219d"
+    },
+    "libLerc.so.4": {
+      "path": "/usr/lib/x86_64-linux-gnu/libLerc.so.4",
+      "bytes": 546992,
+      "sha256": "a0ee52df526738293bdd232ddaefbb0d1d9c2da775a82fc6730e7cd394da560c"
+    },
+    "libjbig.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libjbig.so.0",
+      "bytes": 66400,
+      "sha256": "6fea8a26ef5e0d2a36d296d7d0ec0c1f0894bf796b5824317bea88c090833a62"
+    },
+    "libdeflate.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libdeflate.so.0",
+      "bytes": 75808,
+      "sha256": "608c8d7e4345a9ff4b57aa853ce0c355cf2e1d5ec11b8bee86fb4760bba8a15f"
+    },
+    "libGLdispatch.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libGLdispatch.so.0.0.0",
+      "bytes": 719304,
+      "sha256": "ca01a91104c8887b3d8e59499b58cbb8f604cc285666b50d9ec888eb0c915182"
+    },
+    "libX11.so.6": {
+      "path": "/usr/lib/x86_64-linux-gnu/libX11.so.6.4.0",
+      "bytes": 1302184,
+      "sha256": "edd2ddf6e00a81c40b8645f7dbb6d6603c6a0a78d583bdbe7491d8a84de6e3b6"
+    },
+    "libopenblas.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.26.so",
+      "bytes": 37555760,
+      "sha256": "bfc7492adbf84a8f567720a9e1fae2afc18f3d817da233e7f4d453683485308e"
+    },
+    "libgfortran.so.5": {
+      "path": "/usr/lib/x86_64-linux-gnu/libgfortran.so.5.0.0",
+      "bytes": 3263912,
+      "sha256": "342618ccfebe840446e4ef2b7893f4161b2084845e570f42d68a70bfde58a58d"
+    },
+    "libunistring.so.5": {
+      "path": "/usr/lib/x86_64-linux-gnu/libunistring.so.5.0.0",
+      "bytes": 1755312,
+      "sha256": "e08e4cf4c4d57cbdccea128d1b9de58cfa24be54c091e5c70b02ba44076c6585"
+    },
+    "libgnutls.so.30": {
+      "path": "/usr/lib/x86_64-linux-gnu/libgnutls.so.30.37.1",
+      "bytes": 2065824,
+      "sha256": "ddbae2995750875c07bc218d12a062d73f8250678f54dedda7e9be5068781c98"
+    },
+    "libhogweed.so.6": {
+      "path": "/usr/lib/x86_64-linux-gnu/libhogweed.so.6.8",
+      "bytes": 288920,
+      "sha256": "c3c606139d4f7776efa4dbd4a6b62e30c916b07a0cafd8c3ef173d6f093607e3"
+    },
+    "libnettle.so.8": {
+      "path": "/usr/lib/x86_64-linux-gnu/libnettle.so.8.8",
+      "bytes": 342280,
+      "sha256": "a245ed916229583d6fe0b07657b3ed945bc148c28cc08b5266295f620d2b91cc"
+    },
+    "libgmp.so.10": {
+      "path": "/usr/lib/x86_64-linux-gnu/libgmp.so.10.5.0",
+      "bytes": 534896,
+      "sha256": "9961d507fe570fd8abf58f58a79b4944bf4e64ff44c3b2dea6db4a7f39533c67"
+    },
+    "libkrb5.so.3": {
+      "path": "/usr/lib/x86_64-linux-gnu/libkrb5.so.3.3",
+      "bytes": 823488,
+      "sha256": "8cd11f2aa69efdac7c040a2794f8bf1a737405abff53908b737c721d1c4ba65d"
+    },
+    "libk5crypto.so.3": {
+      "path": "/usr/lib/x86_64-linux-gnu/libk5crypto.so.3.1",
+      "bytes": 178648,
+      "sha256": "dd8b93b95adf53a638772061dbe81dc0252d2d8857ae1df774aed78c6a79e0c0"
+    },
+    "libcom_err.so.2": {
+      "path": "/usr/lib/x86_64-linux-gnu/libcom_err.so.2.1",
+      "bytes": 18504,
+      "sha256": "022943b3b11c860b049bce41342f1c2594941b7b401d95dfdf235521099fee08"
+    },
+    "libkrb5support.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libkrb5support.so.0.1",
+      "bytes": 47904,
+      "sha256": "8253bcdf7f39fcf8f25e797757808e671d777efc00b0cd1fbbcd9da61b0e98f7"
+    },
+    "libsasl2.so.2": {
+      "path": "/usr/lib/x86_64-linux-gnu/libsasl2.so.2.0.25",
+      "bytes": 101200,
+      "sha256": "a0f410ad093236856eee59c4ff2838dc04d932ea0993400f23ed77d67d85af34"
+    },
+    "libbrotlicommon.so.1": {
+      "path": "/usr/lib/x86_64-linux-gnu/libbrotlicommon.so.1.1.0",
+      "bytes": 141640,
+      "sha256": "f8cd338ec62f719333abd5cba29a6e0bdb4597dfdffed000ffb868b47e02f2e9"
+    },
+    "libsharpyuv.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libsharpyuv.so.0.0.1",
+      "bytes": 22672,
+      "sha256": "b2e62799e5dbd783a0671d53be99f7c6489567a5332a1e8f471e6bb250f294dc"
+    },
+    "libxcb.so.1": {
+      "path": "/usr/lib/x86_64-linux-gnu/libxcb.so.1.1.0",
+      "bytes": 162392,
+      "sha256": "7958a0136b121bdc4c708968569ad152a9ed208ab026e2537b1005dde64ca440"
+    },
+    "libp11-kit.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libp11-kit.so.0.3.1",
+      "bytes": 1714008,
+      "sha256": "a59efd4792d3343dedea1d26a28f5597abfe3369082deb504c4802a31b014897"
+    },
+    "libtasn1.so.6": {
+      "path": "/usr/lib/x86_64-linux-gnu/libtasn1.so.6.6.3",
+      "bytes": 88216,
+      "sha256": "59994414d0cdec4f678ef91eaaafc44b26b00bca507e4cc7978caaf79f584173"
+    },
+    "libkeyutils.so.1": {
+      "path": "/usr/lib/x86_64-linux-gnu/libkeyutils.so.1.10",
+      "bytes": 22600,
+      "sha256": "f48214417757f18793ed6e180cc14ee1d6f04252a518fc7270e8ca1d0b4260fe"
+    },
+    "libresolv.so.2": {
+      "path": "/usr/lib/x86_64-linux-gnu/libresolv.so.2",
+      "bytes": 64008,
+      "sha256": "1d730ea434da5a5595bc6a961d7a9ace83e03703205df9644044b3dca79c362f"
+    },
+    "libXau.so.6": {
+      "path": "/usr/lib/x86_64-linux-gnu/libXau.so.6.0.0",
+      "bytes": 18696,
+      "sha256": "8040da3f8516c1acfe39f04ff022480cdb273705ba5e7a4ca70bbdb1527cd67a"
+    },
+    "libXdmcp.so.6": {
+      "path": "/usr/lib/x86_64-linux-gnu/libXdmcp.so.6.0.0",
+      "bytes": 26776,
+      "sha256": "667d97d6da16016400ab10de9f83ef4ab209ceb6adf68ff9650225ec13e723b0"
+    },
+    "libffi.so.8": {
+      "path": "/usr/lib/x86_64-linux-gnu/libffi.so.8.1.4",
+      "bytes": 47672,
+      "sha256": "00f593fe192f2851b8ce23b25cec2488d769beb5a8f63e8c9e563071e1075153"
+    },
+    "libbsd.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libbsd.so.0.12.1",
+      "bytes": 80888,
+      "sha256": "0fd5a235d714063f17285ad16e6286ca79458e2cbba1388e8b6fc921b912cbdb"
+    },
+    "libmd.so.0": {
+      "path": "/usr/lib/x86_64-linux-gnu/libmd.so.0.1.0",
+      "bytes": 55536,
+      "sha256": "4a108e1c28f9150e45d25d2ea3ec886864c18f344272ce0c755d464abc775410"
+    }
+  },
+  "elf_notes": "\nDisplaying notes found in: .note.gnu.property\n  Owner                Data size \tDescription\n  GNU                  0x00000020\tNT_GNU_PROPERTY_TYPE_0\n      Properties: x86 feature: IBT, SHSTK\n\tx86 ISA needed: x86-64-baseline\n\nDisplaying notes found in: .note.gnu.build-id\n  Owner                Data size \tDescription\n  GNU                  0x00000014\tNT_GNU_BUILD_ID (unique build ID bitstring)\n    Build ID: 87c39f129fdfaf3bee9c754c0b7da20abe812965\n\nDisplaying notes found in: .note.ABI-tag\n  Owner                Data size \tDescription\n  GNU                  0x00000010\tNT_GNU_ABI_TAG (ABI version tag)\n    OS: Linux, ABI: 3.2.0\n",
+  "elf_dynamic": "\nDynamic section at offset 0x1aec80 contains 34 entries:\n  Tag        Type                         Name/Value\n 0x0000000000000001 (NEEDED)             Shared library: [libvc_core.so]\n 0x0000000000000001 (NEEDED)             Shared library: [libboost_program_options.so.1.83.0]\n 0x0000000000000001 (NEEDED)             Shared library: [libvc_reader_native.so]\n 0x0000000000000001 (NEEDED)             Shared library: [libopencv_core.so.406]\n 0x0000000000000001 (NEEDED)             Shared library: [libgomp.so.1]\n 0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libm.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]\n 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [ld-linux-x86-64.so.2]\n 0x000000000000001d (RUNPATH)            Library runpath: [$ORIGIN/../core:$ORIGIN/../reader:/home/tomoy/r246-standalone-run02/blosc2-packages/usr/lib/x86_64-linux-gnu:]\n 0x000000000000000c (INIT)               0x4ce000\n 0x000000000000000d (FINI)               0x562514\n 0x0000000000000019 (INIT_ARRAY)         0x5ad618\n 0x000000000000001b (INIT_ARRAYSZ)       16 (bytes)\n 0x000000000000001a (FINI_ARRAY)         0x5ad628\n 0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)\n 0x000000006ffffef5 (GNU_HASH)           0x4003e8\n 0x0000000000000005 (STRTAB)             0x42bcc0\n 0x0000000000000006 (SYMTAB)             0x40a7e0\n 0x000000000000000a (STRSZ)              639536 (bytes)\n 0x000000000000000b (SYMENT)             24 (bytes)\n 0x0000000000000015 (DEBUG)              0x0\n 0x0000000000000003 (PLTGOT)             0x5aefe8\n 0x0000000000000002 (PLTRELSZ)           6240 (bytes)\n 0x0000000000000014 (PLTREL)             RELA\n 0x0000000000000017 (JMPREL)             0x4cbf20\n 0x0000000000000007 (RELA)               0x4cadc8\n 0x0000000000000008 (RELASZ)             4440 (bytes)\n 0x0000000000000009 (RELAENT)            24 (bytes)\n 0x000000006ffffffe (VERNEED)            0x4cab58\n 0x000000006fffffff (VERNEEDNUM)         6\n 0x000000006ffffff0 (VERSYM)             0x4c7ef0\n 0x0000000000000000 (NULL)               0x0\n",
+  "object_sha256": "533ceafacdd9d5632c15166efc88dc89a74f906ffc1af1f496530dc97e39b8b9",
+  "source_sha256": "7e0bb08c2d0e583868540e16f3097a768256452f363746d370dc09841d7dcf42"
+}

@@ -1,0 +1,106 @@
+{
+  "utc": "2026-11-14T06:53:02.329472+00:00",
+  "assets": {
+    "source": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-alternative-ink-model-selection01\\originals\\hecate.py",
+      "bytes": 22462,
+      "sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59"
+    },
+    "checkpoint": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\assets\\hecate_9.6um.pth",
+      "bytes": 522576086,
+      "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d"
+    },
+    "input": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\input.npy",
+      "bytes": 3379328,
+      "sha256": "5f1caf23443ed3f4933803ab668e566de9c0deb06ab4878977a00b0ae9e49566"
+    },
+    "atlas_reference": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\assets\\atlas-hecate-reverse.png",
+      "bytes": 2114372,
+      "sha256": "67795f34e27c0b7b974e8d84780df8ecdf14cff5dd7893bc3891f7dc7d678427"
+    }
+  },
+  "cpu_refs": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\patches\\001.npy",
+      "file_sha256": "b7f561f9d43b13bba2ef223082331e2dafa2920aef6c3962f8e71e9548f26db7",
+      "index": 1,
+      "raw_probability_sha256": "29d892766a403a2d5b69d8b80f3c872a6446b5c8d79b4ed456b9aa958b0368e7"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\patches\\002.npy",
+      "file_sha256": "2233ceea0e78375ca77d8ca18cd724229f023dafcdb1a09a1118ce10bea7b573",
+      "index": 2,
+      "raw_probability_sha256": "f9a20177a3eca31e4295e7ef9f7b998c210cced6501d6309d0a17ab7ea364e4f"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\patches\\003.npy",
+      "file_sha256": "c92944a05ea24b195530ae27e955f56c75b88b5d596fe4996b5e431844d8bf37",
+      "index": 3,
+      "raw_probability_sha256": "e9d387beca5496f9491d3e498e999d13706bb4c19d024215128db70284ed0330"
+    }
+  ],
+  "cuda": {
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\dev\\ai-compute\\local-image-gen\\ComfyUI_windows_portable\\python_embeded\\python.exe",
+    "numpy": "2.5.2",
+    "torch": "2.13.0+cu130",
+    "cuda_build": "13.0",
+    "psutil": "7.2.2",
+    "cuda_available": true,
+    "device_count": 1,
+    "device": "NVIDIA GeForce RTX 4060 Ti",
+    "capability": [
+      8,
+      9
+    ],
+    "vram_bytes": 8585216000,
+    "free_total_bytes": [
+      7418675200,
+      8585216000
+    ],
+    "utc": "2026-11-14T06:53:09.515787+00:00",
+    "model_forward_calls": 0,
+    "new_download_bytes": 0
+  },
+  "status": {
+    "requested_utc": "2026-11-14T06:53:09.552400+00:00",
+    "observed_utc": "2026-11-14T06:53:37.581092+00:00",
+    "name": "NVIDIA GeForce RTX 4060 Ti",
+    "driver": "610.88",
+    "vram_total_mib": 8188,
+    "vram_used_mib": 2311,
+    "vram_free_mib": 5639,
+    "available_physical_bytes": 10571177984,
+    "c_free_bytes": 30831300608,
+    "lane_available_ram_gib": 9.7,
+    "margins": {
+      "vram_gb": 1.0,
+      "mem_gb": 4.0
+    },
+    "jobs": [
+      {
+        "name": "cw06-stage",
+        "kind": "lock",
+        "phase": "run",
+        "since": "2026-11-14 15:45:37"
+      }
+    ],
+    "tickets": [
+      {
+        "name": "vk-map-s4",
+        "kind": "exclusive",
+        "since": "2026-11-14 15:50:35"
+      }
+    ],
+    "reservation": null,
+    "comfy_running": false,
+    "gpu_stuck": null
+  },
+  "gpu_tool": "C:\\agents\\tools\\gpu.py",
+  "gpu_tool_sha256": "201bdde2653c84466eb842cb2dbd756212b9ae30ca287adb804f97f51b4508cd",
+  "work_bytes_cap": 33554432,
+  "new_download_bytes": 0
+}

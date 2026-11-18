@@ -1,0 +1,59 @@
+{
+  "stages_seconds": {
+    "provision": 240,
+    "transfer": 500,
+    "model": 250,
+    "collection": 450,
+    "deletion": 60
+  },
+  "total_seconds": 1500,
+  "operating_cap_usd": 0.5,
+  "hourly_price_limit_usd": 0.9,
+  "20gb_25min_cost_at_0_89_usd": "0.3719907407407407407407407407",
+  "20gb_25min_cost_at_0_90_usd": "0.3761574074074074074074074074",
+  "input_bundle_bytes": 35512320,
+  "input_bundle_sha256": "aed0b122344c9642f6d7f432a6cbad90433eea0046fed1d258d7c0f7ae5b09da",
+  "upload_exec_calls": 242,
+  "result_tar_estimate_bytes": 37652480,
+  "result_tar_limit_bytes": 41943040,
+  "estimate_result_exec_calls": 145,
+  "assets": {
+    "run_once.py": {
+      "local": "experiments/vesuvius/discovery/20261114-pherc0846a-wider-hecate01/cloud-assets/run_once.py",
+      "bytes": 18069,
+      "sha256": "abc0d0415f588b9f9f72d3c5ce577f295cc09f22e20d269d89cf2ae499b800bb"
+    },
+    "pod_boot.py": {
+      "local": "experiments/vesuvius/discovery/20261114-pherc0846a-wider-hecate01/cloud-assets/pod_boot.py",
+      "bytes": 1871,
+      "sha256": "a4bbadea5e23c47a410dbf6c3cf5b74bc7ef462acba6e9b863bcca0ee981805d"
+    },
+    "pod_work.py": {
+      "local": "experiments/vesuvius/discovery/20261114-pherc0846a-wider-hecate01/cloud-assets/pod_work.py",
+      "bytes": 2994,
+      "sha256": "cb0a008a0475ad462c35d4097c00f030be7f50b0408f319c8ab80442b384462a"
+    },
+    "run_pilot.py": {
+      "local": "experiments/vesuvius/discovery/20261114-pherc0846a-wider-hecate01/cloud-assets/run_pilot.py",
+      "bytes": 16538,
+      "sha256": "e45c8c14e70d12bfed19e329ed0b3ee257bd627358c59e308acc91d2c6539db3"
+    },
+    "verify_result.py": {
+      "local": "experiments/vesuvius/discovery/20261114-pherc0846a-wider-hecate01/cloud-assets/verify_result.py",
+      "bytes": 5669,
+      "sha256": "ddf5bc4210db54a91926b583b1a981cc508515af62b4aeae9b6236af39ee2220"
+    },
+    "fixed-assets.json": {
+      "local": "experiments/vesuvius/discovery/20261114-pherc0846a-wider-hecate01/cloud-assets/fixed-assets.json",
+      "bytes": 2741,
+      "sha256": "f07222676f6589c3beb55aec21c135ca83073e38610c80b24f291a82b33dc5ee"
+    }
+  },
+  "startup_diagnostic": {
+    "local": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/diagnostic.py",
+    "bytes": 14340,
+    "sha256": "a117cf0eaf5d56c7c15ea6bfbbce05a4d6a787aa482ce5c3b4d6ee67b0474783"
+  },
+  "local_model_calls_in_this_check": 0,
+  "real_pods_created_in_this_check": 0
+}

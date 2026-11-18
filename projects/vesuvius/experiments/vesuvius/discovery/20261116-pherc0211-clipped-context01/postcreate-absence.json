@@ -1,0 +1,21 @@
+{
+  "utc": "2026-11-15T16:08:07.227666+00:00",
+  "create_request_count": 1,
+  "create_HTTP_status": 400,
+  "owned_name": "r242-studio-44d40eb0d37f49af",
+  "owned_ID_returned": null,
+  "all_pods_count": 0,
+  "all_pods_selected": [],
+  "exact_name_matches": 0,
+  "dedicated_name_absent": true,
+  "all_inventory_empty": true,
+  "GET404_applicable": false,
+  "GET404_reason": "No Pod ID was returned or discovered; do not invent an ID or claim GET404. Full inventory and exact name are the available absence evidence.",
+  "original_cleanup_false_reason": "The inherited cleanup loop only returns success in its known-pod-ID branch. HTTP400 with noID and empty matches reaches its timeout without marking absent. Original cleanup.json is retained.",
+  "resource_mutations": 0,
+  "recreation_attempts": 0,
+  "model_forwards": 0,
+  "result_figures": 0,
+  "startup_trace_sha256": "1f8d3aa5aded48f604893f88d98cf3f5c10f422641afce97562da3e47fc6f78b",
+  "cost_attribution": "No created ID or worker; no account-balance difference attributed. Dedicated invoice query is inapplicable without an ID."
+}

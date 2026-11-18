@@ -1,0 +1,299 @@
+{
+  "new_paid_compute_cost_usd": 0,
+  "llm_and_local_electricity_cost": null,
+  "main_model": "gpt-6-astra/xhigh",
+  "verification_model": "gpt-6.1-sol/high",
+  "new_input_download_bytes": 0,
+  "new_dependency_installs": 0,
+  "new_native_builds": 0,
+  "existing_SLIM_runs": 1,
+  "existing_native_raster_runs": 1,
+  "all_numerical_jobs_sequential": true,
+  "numerical_jobs": [
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-relax01/analysis01-execution/state.json",
+      "started_utc": "2026-11-12T03:10:15.018998+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax01\\analyze.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax01\\analysis01"
+      ],
+      "script_sha256": "d8651750196f9cffdc67f19b697ab46bd9ec90d27ca53683f47593faf16674a1",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 22.09566769999219,
+      "peak_rss_bytes": 914698240,
+      "stopped": null,
+      "completed_utc": "2026-11-12T03:10:37.116048+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-relax01/detail01-execution/state.json",
+      "started_utc": "2026-11-12T03:13:02.595922+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax01\\detail.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax01\\detail01"
+      ],
+      "script_sha256": "12de237a4803250c22b07e28f52a613bd5ba50bacd5bc64febac499618fcfc06",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 1.4172816000063904,
+      "peak_rss_bytes": 305709056,
+      "stopped": null,
+      "completed_utc": "2026-11-12T03:13:04.013873+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-relax01/input01-execution/state.json",
+      "started_utc": "2026-11-12T03:09:51.982597+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax01\\prepare_trial.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax01\\input01"
+      ],
+      "script_sha256": "4e5a144f4e96b46d354540c42a8755362a2188bc313230149f64068e7b007185",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.5125177999725565,
+      "peak_rss_bytes": 66146304,
+      "stopped": null,
+      "completed_utc": "2026-11-12T03:09:52.495851+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-relax01/raster-adapt01-execution/state.json",
+      "started_utc": "2026-11-12T03:11:37.892632+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax01\\adapt_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax01\\raster-adapt01"
+      ],
+      "script_sha256": "f672c6ec741f0943c5833747bf76f6618fa1e642ebba848c66a106f5490c10d7",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.21046029997523874,
+      "peak_rss_bytes": 21336064,
+      "stopped": null,
+      "completed_utc": "2026-11-12T03:11:38.103775+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-relax01/raster-analysis01-execution/state.json",
+      "started_utc": "2026-11-12T03:12:35.350799+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax01\\evaluate_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax01\\raster-analysis01"
+      ],
+      "script_sha256": "ec04853ece3ae3cbb7a20672c5e6f684c5b6249e5e70f0a97f0cadb507d55a3a",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 16.52543490001699,
+      "peak_rss_bytes": 698703872,
+      "stopped": null,
+      "completed_utc": "2026-11-12T03:12:51.888482+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-relax01/raster-input01-execution/state.json",
+      "started_utc": "2026-11-12T03:11:39.569756+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax01\\prepare_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax01\\raster-input01"
+      ],
+      "script_sha256": "06c819f01bc7c4421b0268f5f6a2df9f89c43f82e2d8abbf238086390baf4e94",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.7130859000026248,
+      "peak_rss_bytes": 83636224,
+      "stopped": null,
+      "completed_utc": "2026-11-12T03:11:40.297720+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-relax01/raster01/state.json",
+      "mode": "candidate",
+      "started_utc": "2026-11-12T03:11:47.214559+00:00",
+      "commands": [
+        [
+          "/mnt/d/kensyoukin-work/r003-build/bin/r005-corner-obj01",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-sample-relax01/raster-input01/mesh.bin",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-sample-relax01/raster01"
+        ]
+      ],
+      "status": "complete",
+      "source_sha256": "19212966593c157043357c455dac74fbe20be83bd2b0f07058cacce8a25bfb37",
+      "header_sha256": {
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/writeOBJ.h": "733d29c86e0693fb80dd3e7f531417fe3898b2944578ed79d6a1c4ef831efa5b",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/writeOBJ.cpp": "51a01371679a4eb54d5ef09fdfed0d2bbf60715876a04071e3f396d2a3d29dbc"
+      },
+      "protected_hashes": {
+        "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp": "3eeb1bc7225c5588007e2dc9b54aa04523745d0a4e8e4f1321681ee5d77cd36c",
+        "/mnt/d/kensyoukin-work/r005-build05/SurfaceMeshing-trace.o": "53844681c5ff559b3c7ed93cda6ff5fdacb4aca5f8bd4db91f9c5ba98cfc69f5",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_inpaint.so": "89be74bca1597bc52578021732d9bbf964de5792c37fcb1868702c89610b77c4",
+        "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+      },
+      "affinity": [
+        0
+      ],
+      "time_limit_per_command_seconds": 300,
+      "address_space_limit_bytes": 4294967296,
+      "input_sha256": "842d2fd175990ace7ed6b0b20143c29ab6e0b4dbfb5d2f989d98dfec7a28833f",
+      "exit_code": 0,
+      "elapsed_seconds": 6.602859474000001,
+      "max_child_rss_bytes": 148934656,
+      "protected_files_unchanged": true,
+      "completed_utc": "2026-11-12T03:11:53.922966+00:00",
+      "binary": "/mnt/d/kensyoukin-work/r003-build/bin/r005-corner-obj01",
+      "binary_sha256": "be1839d686e95e4b32d4cb81035fcb82f46f845fa03c844b8cd6f6be81a7a738"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-relax01/slim01/state.json",
+      "mode": "run",
+      "started_utc": "2026-11-12T03:10:07.377503+00:00",
+      "commands": [
+        [
+          "/mnt/d/kensyoukin-work/r003-build/bin/r005-slim-component01",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-sample-relax01/input01/input.json",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-sample-relax01/slim01/result.json"
+        ]
+      ],
+      "status": "complete",
+      "source_sha256": "f95b2fc13a37ed5c399f44322962be5da54e35fdba8f96b3f41e1c5bd5404824",
+      "header_sha256": {
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim.h": "b29c4133a65461cf0ad2b24d2fb8f83a958b461eea6170e171a71c2cfae62f8a",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim.cpp": "39d154a0b399ef950755954192b00f445ee3b22c6be69893fb5725ae4187b82a",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim_assembly.h": "e18fecd7dc4ac9c2df392917dd6456cd85722ee9704554701c15744e938c12b3",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/flip_avoiding_line_search.cpp": "dc11208d4bef3e12dbb23e7ca693f2991baf653e4fc4ed7fb87560be9515ef2e"
+      },
+      "protected_hashes": {
+        "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp": "3eeb1bc7225c5588007e2dc9b54aa04523745d0a4e8e4f1321681ee5d77cd36c",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-baseline": "fae4e8af0277727de2a6b874492bab96dd969a9e5ea1175a38bd93b56ce63000",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_inpaint.so": "89be74bca1597bc52578021732d9bbf964de5792c37fcb1868702c89610b77c4",
+        "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+      },
+      "affinity": [
+        0
+      ],
+      "time_limit_per_command_seconds": 300,
+      "address_space_limit_bytes": 4294967296,
+      "input_sha256": "ad691304982550ad5325856ceccdbd0025bfce45cb1ab94f89439c39aca3ce9d",
+      "exit_code": 0,
+      "elapsed_seconds": 3.0919788550000007,
+      "max_child_rss_bytes": 128110592,
+      "protected_files_unchanged": true,
+      "completed_utc": "2026-11-12T03:10:10.650931+00:00",
+      "binary": "/mnt/d/kensyoukin-work/r003-build/bin/r005-slim-component01",
+      "binary_sha256": "6b86e53f782a1afdc08661ac5977df017c8339eb1d05159b598010c060d97694",
+      "result_sha256": "c473f0360cc82c5f1b720d6edebbd4753feb0577af7ae40c22c1cbcece2bd630"
+    },
+    {
+      "role": "verification",
+      "path": "experiments/vesuvius/r005/20261112-sample-relax-verification01/check01-execution/state.json",
+      "started_utc": "2026-11-12T03:18:04.942519+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax-verification01\\verify_saved.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-relax-verification01\\check01"
+      ],
+      "script_sha256": "9eb296293d989a1fa875c6f99455e28d2fdd195afaba371d4a93d3d8887a6a42",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 41.71105759998318,
+      "peak_rss_bytes": 635224064,
+      "stopped": null,
+      "completed_utc": "2026-11-12T03:18:46.655516+00:00"
+    }
+  ],
+  "failed_jobs_preserved": [],
+  "previous_manifests": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-close/artifact-manifest.json",
+      "sha256": "08ffb039ebc8fd4fc3ad5745bc6ff457c94128c6cbbfef851145b81511f2e719",
+      "files_checked": 77
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-close/artifact-manifest.json",
+      "sha256": "f5a5e6f448457aa968345a22846f8fad932393957874fd3eb0b6fe513e90ac00",
+      "files_checked": 76
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-relax-close/artifact-manifest.json",
+      "sha256": "bf00befa39f81a4226f27ae6006982f627ea321be20df98c4310f9012698cf86",
+      "files_checked": 75
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/artifact-manifest.json",
+      "sha256": "1dd6bebf093aee8cfba121ce1dcbe7ddb26d780ce025e8a6b22f9a04f3dfe152",
+      "files_checked": 13
+    }
+  ],
+  "main_and_verification_artifact_bytes": 210796525,
+  "note": "All8 primary jobs succeeded. Sample2 faces and boundary union104 pinned/restored; only120 interior may change. P preserves O2 samples but face195875 has all3 vertices pinned and cannot improve under these exact constraints. No extra solve/density/parameter exploration; I baseline maintained."
+}

@@ -1,0 +1,177 @@
+{
+  "status": "active point uses the saved O3 grid object, with inlined Hermite arithmetic",
+  "all_map_sections": {
+    "point": [
+      {
+        "map_line": 2630,
+        "symbol": "_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_",
+        "address": "0x0000000000000000",
+        "size_bytes": 9819,
+        "object": "/mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/projection/mask.cpp.o"
+      },
+      {
+        "map_line": 3169,
+        "symbol": "_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_",
+        "address": "0x0000000000000000",
+        "size_bytes": 9819,
+        "object": "/mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/projection/transfer.cpp.o"
+      },
+      {
+        "map_line": 4249,
+        "symbol": "_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_",
+        "address": "0x0000000000000000",
+        "size_bytes": 9819,
+        "object": "/mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/sampling/resident.cpp.o"
+      },
+      {
+        "map_line": 293714,
+        "symbol": "_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_",
+        "address": "0x0000000000917be0",
+        "size_bytes": 4049,
+        "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid-grid.cpp.o"
+      }
+    ],
+    "hermite": [
+      {
+        "map_line": 3165,
+        "symbol": "_ZN3vcr4grid6detail7hermiteEf",
+        "address": "0x0000000000000000",
+        "size_bytes": 392,
+        "object": "/mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/projection/transfer.cpp.o"
+      },
+      {
+        "map_line": 4245,
+        "symbol": "_ZN3vcr4grid6detail7hermiteEf",
+        "address": "0x0000000000000000",
+        "size_bytes": 392,
+        "object": "/mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/sampling/resident.cpp.o"
+      },
+      {
+        "map_line": 295621,
+        "symbol": "_ZN3vcr4grid6detail7hermiteEf",
+        "address": "0x00000000009aa555",
+        "size_bytes": 392,
+        "object": "/mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/projection/mask.cpp.o"
+      }
+    ],
+    "surface_callback": [
+      {
+        "map_line": 293721,
+        "symbol": "_ZNSt17_Function_handlerIFviiiiPfS0_EZN3vcr4grid12_GLOBAL__N_110sampleHostERKNS3_7SurfaceERKNS3_6RasterERKNS3_7RequestEEUliiiiS0_S0_E_E9_M_invokeERKSt9_Any_dataOiSJ_SJ_SJ_OS0_SK_",
+        "address": "0x0000000000918e80",
+        "size_bytes": 2317,
+        "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid-grid.cpp.o"
+      }
+    ]
+  },
+  "selected_sections": {
+    "point": {
+      "map_line": 293714,
+      "symbol": "_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_",
+      "address": "0x0000000000917be0",
+      "size_bytes": 4049,
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid-grid.cpp.o"
+    },
+    "hermite": {
+      "map_line": 295621,
+      "symbol": "_ZN3vcr4grid6detail7hermiteEf",
+      "address": "0x00000000009aa555",
+      "size_bytes": 392,
+      "object": "/mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/projection/mask.cpp.o"
+    },
+    "surface_callback": {
+      "map_line": 293721,
+      "symbol": "_ZNSt17_Function_handlerIFviiiiPfS0_EZN3vcr4grid12_GLOBAL__N_110sampleHostERKNS3_7SurfaceERKNS3_6RasterERKNS3_7RequestEEUliiiiS0_S0_E_E9_M_invokeERKSt9_Any_dataOiSJ_SJ_SJ_OS0_SK_",
+      "address": "0x0000000000918e80",
+      "size_bytes": 2317,
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid-grid.cpp.o"
+    }
+  },
+  "point_dynamic_export": [
+    "0000000000917be0",
+    "W",
+    "_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_"
+  ],
+  "o3_callback_to_o3_point_plt": [
+    {
+      "instruction": "919145:\te8 c6 79 fa ff       \tcall   8c0b10 <_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_@plt>",
+      "source": [
+        "void vcr::grid::Surface::Impl::resampleRows<false>(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:227 (discriminator 4)",
+        "vcr::grid::Surface::Impl::resampleRect(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:214 (discriminator 4)",
+        "operator()",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:687 (discriminator 4)",
+        "__invoke_impl<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:61 (discriminator 4)",
+        "__invoke_r<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:111 (discriminator 4)",
+        "_M_invoke",
+        "/usr/include/c++/13/bits/std_function.h:290 (discriminator 4)"
+      ]
+    },
+    {
+      "instruction": "9193b7:\te8 54 77 fa ff       \tcall   8c0b10 <_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_@plt>",
+      "source": [
+        "void vcr::grid::Surface::Impl::resampleRows<true>(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:227 (discriminator 4)",
+        "vcr::grid::Surface::Impl::resampleRect(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:212 (discriminator 4)",
+        "operator()",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:687 (discriminator 4)",
+        "__invoke_impl<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:61 (discriminator 4)",
+        "__invoke_r<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:111 (discriminator 4)",
+        "_M_invoke",
+        "/usr/include/c++/13/bits/std_function.h:290 (discriminator 4)"
+      ]
+    },
+    {
+      "instruction": "9195de:\te8 2d 75 fa ff       \tcall   8c0b10 <_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_@plt>",
+      "source": [
+        "void vcr::grid::Surface::Impl::resampleRows<true>(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:227 (discriminator 4)",
+        "vcr::grid::Surface::Impl::resampleRect(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:212 (discriminator 4)",
+        "operator()",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:687 (discriminator 4)",
+        "__invoke_impl<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:61 (discriminator 4)",
+        "__invoke_r<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:111 (discriminator 4)",
+        "_M_invoke",
+        "/usr/include/c++/13/bits/std_function.h:290 (discriminator 4)"
+      ]
+    },
+    {
+      "instruction": "919724:\te8 e7 73 fa ff       \tcall   8c0b10 <_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_@plt>",
+      "source": [
+        "void vcr::grid::Surface::Impl::resampleRows<false>(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:227 (discriminator 4)",
+        "vcr::grid::Surface::Impl::resampleRect(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:214 (discriminator 4)",
+        "operator()",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:687 (discriminator 4)",
+        "__invoke_impl<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:61 (discriminator 4)",
+        "__invoke_r<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:111 (discriminator 4)",
+        "_M_invoke",
+        "/usr/include/c++/13/bits/std_function.h:290 (discriminator 4)"
+      ]
+    }
+  ],
+  "point_calls": [
+    "91802b:\te8 10 5a f9 ff       \tcall   8ada40 <sqrtf@plt>"
+  ],
+  "point_inlined_hermite_example": {
+    "instruction": "91812d:\tc5 fa 59 e8          \tvmulss %xmm0,%xmm0,%xmm5",
+    "source": [
+      "vcr::grid::detail::hermite(float)",
+      "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/grid/points.hpp:59",
+      "vcr::grid::point(vcr::grid::PointMap const&, vcr::grid::GridView const&, float, float, float*, float*, float*, float*)",
+      "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/grid/points.hpp:95"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "reviewer": "root",
+  "date": "2026-11-14",
+  "method": "Parent read the two pinned original Markdown documents through GitHub fetch, independently of the child's summary. No inference or mesh-generation rerun.",
+  "sources": [
+    {
+      "url": "https://github.com/rodriguescarson/eligible-scroll-atlas/blob/0c0566ccd07652ef4bc9fa1926491983d520942f/README.md",
+      "finding": "Author reports screening every pscamillo mesh (340), including Hecate9.6 in both directions. Simply adding Hecate to these existing surfaces does not define new inference coverage. The repository also publishes 340 surface volumes, so any justified alternate-model study could borrow renders rather than regenerate CT.",
+      "limits": "Author's stated coverage, not independently rerun. Hecate population used bf16, while our prior208 used fp32; precision alone is not a compelling discovery rationale. Author reports five held-back passing maps, not five confirmed text discoveries."
+    },
+    {
+      "url": "https://github.com/gmDevi/vc-windows-tools/blob/420608850f5f126524e7a06ef3a8c85ba31d7f6c/report/REPORT.md",
+      "finding": "PHerc0358 was fitted at z8000-9500 and z9500-11000 and sampled in both layer directions on every third winding w021-w099, with rows20-60. This is flat9um-model screening, not evidence of all-model or all-winding coverage. Author interprets first-band w072/w075 as crushed multilayer speckle and second-band best maps as diffuse, without letter forms.",
+      "limits": "Band fit bounds must not be mistaken for the full height of actual rendered rows. The published row20-60 crop is a subset. Winding indices are fit-specific; indices from a new fit cannot identify the same physical sheet without registration. Reported negative visual checks do not establish no ink."
+    }
+  ],
+  "decision_guidance": "Avoid repeating pscamillo340 plus Hecate. A different physically supported winding/band, or a justified different model on an established paper surface, can define a useful new study. Do not require every candidate to be unseen by every previous model. Compare paper support and feasibility before paying for new geometry."
+}

@@ -1,0 +1,11 @@
+{
+  "cases": [
+    "first-preserve",
+    "second-preserve",
+    "first-default",
+    "first-legacy-pack",
+    "first-preserve-product"
+  ],
+  "protected_input_hashes_equal": true,
+  "download_bytes": 0
+}

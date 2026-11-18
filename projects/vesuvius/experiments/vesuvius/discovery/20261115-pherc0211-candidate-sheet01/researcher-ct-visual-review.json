@@ -1,0 +1,262 @@
+{
+  "schema": "r240-independent-native-CT-visual-review-v1",
+  "saved_utc": "2026-11-15T15:00:45.919394+00:00",
+  "reviewer": "r240 researcher / Astra xhigh",
+  "independence": {
+    "parent_section_visual_review_read": false,
+    "parent_interpretation_received": false,
+    "parent_numeric_verification_received": true,
+    "parent_report_of_having_saved_review_received": true
+  },
+  "viewing": {
+    "tool": "view_image",
+    "all_24_images_actually_viewed": true,
+    "native_size_wh": [
+      193,
+      65
+    ],
+    "no_enlargement_crop_resampling_or_display_reselection": true,
+    "views": [
+      {
+        "path": "sections/candidate-q25-un-raw.png",
+        "sha256": "38c7b840248ee9a1187ca46118cd2f71a9e7eea59e456d690bc8151107ff9d77",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/candidate-q25-un-window.png",
+        "sha256": "37348d1183a143fbef0433d20a625a2596ee76f902c6fdd6b303b1ab5e61d2f9",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/candidate-q25-vn-raw.png",
+        "sha256": "9dea416d6260ca3ba9769f2232f4781567beae24d7e08f78174ebb94b629e38a",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/candidate-q25-vn-window.png",
+        "sha256": "00f2d697a39dd0e0cfb46706dadffe9b40644b955596afa6ae63f97515fdee28",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/candidate-q50-un-raw.png",
+        "sha256": "ae923e2468401bd824b0470a83de98c766aed446f4fdef1f8d94c0a84a5d3e51",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/candidate-q50-un-window.png",
+        "sha256": "33d02251c34e6a2ef6caf8e17ccae4ce814fa271577ddce6b858c4b1c5812f08",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/candidate-q50-vn-raw.png",
+        "sha256": "a298ebfef2233ed97e4f04be0c63d1cfce49b3e820889ece4a13cb2d4e74b26d",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/candidate-q50-vn-window.png",
+        "sha256": "7a4937eeecfac7cb2d11432a7409137a1c06ad6686078b47204a3c97b169056b",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/candidate-q75-un-raw.png",
+        "sha256": "b39c62072740d0cc1ae9970a2ffca535c192de290b0593645163def9438e0ec4",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/candidate-q75-un-window.png",
+        "sha256": "f41f562ac14c1603d7350c6855142422d2120fad043c0ae546f49240c20149be",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/candidate-q75-vn-raw.png",
+        "sha256": "522273eea38b92bb706ba6ce582fea83428a53edccc290af74cba31008ee7424",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/candidate-q75-vn-window.png",
+        "sha256": "bf4116bd3a492f80e0a59fad9f52bc3437433b3bf10a33fc1983d3c5bb24dd19",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/known_phi-q25-un-raw.png",
+        "sha256": "e67d1eee07d35e4c045ee987d95629b9e63fded56eeab2dd30f17974c13017be",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/known_phi-q25-un-window.png",
+        "sha256": "208d806a09be1fa36f2b357c22f329c01b418f67b3604c1e3be842e7e4ce07ad",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/known_phi-q25-vn-raw.png",
+        "sha256": "4df44ce794c0dcae8773ef5043b0c79d48ece67a050bf6acbf4f0247061b2156",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/known_phi-q25-vn-window.png",
+        "sha256": "667aba3a8d6dc854c9922cb92ab6d76e8f65d8da7941287305cd574e36b84402",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/known_phi-q50-un-raw.png",
+        "sha256": "5ec09eaf3c8ce1f7643b3402577edf005df4ae457e76bc8a917990112649e60b",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/known_phi-q50-un-window.png",
+        "sha256": "111f79e62f0d1e3ff86504f26db8c9dcc1142d76cfb1c24092e591b38b7952e4",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/known_phi-q50-vn-raw.png",
+        "sha256": "b8ff1978b2474fdc82650e4d2ccee6df59dbc0f2f132399f92e61ccd92e706c5",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/known_phi-q50-vn-window.png",
+        "sha256": "d88cd7d350361508ad030e5189e54e4693423fd73b773516803140904f10f29f",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/known_phi-q75-un-raw.png",
+        "sha256": "aecbcf2a111ddfaa3f4990da6e6d5ebbdce728ef88b64feec9cdccd81b653ae0",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/known_phi-q75-un-window.png",
+        "sha256": "a151f9b686b28ad79589dec05e38ad27f1b67553efbd220676540e24e025e6ad",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/known_phi-q75-vn-raw.png",
+        "sha256": "ea8351334217df32dc2626e18e02a32d5ff233ef10882b54aae5e114bddcff32",
+        "size_wh": [
+          193,
+          65
+        ]
+      },
+      {
+        "path": "sections/known_phi-q75-vn-window.png",
+        "sha256": "06dfb29c64cb863b161a7d5ca51b3e6539fdbe6f34c95b89cf64614412bd31ea",
+        "size_wh": [
+          193,
+          65
+        ]
+      }
+    ]
+  },
+  "interpretation_rules": [
+    "The cyan/orange marks show geometry, not a traced paper layer.",
+    "Only the central neighbourhood of each straight tangent plane can be related directly to the local surface; this is not a curved-sheet section across its full width.",
+    "The six prescribed anchors were uniform relative-ROI positions, not selected ink-response strokes.",
+    "Layer-like CT bands are not proof of ink, readable letters, physical face, or novel text."
+  ],
+  "candidate": [
+    {
+      "anchor": "candidate-q25",
+      "observations": "Both directions contain several curved, closely spaced bright/dark bands. Around the centre there is a locally traceable band/boundary, with nearby bands and uneven texture. The u-n bands curve across the view; v-n also contains multiple nearby boundaries. A unique sheet assignment across the whole view is not secure.",
+      "local_support": "layer-like material near the geometric origin; no claim of a single isolated sheet"
+    },
+    {
+      "anchor": "candidate-q50",
+      "observations": "Both directions again show layered material around the origin. In u-n the central neighbourhood is crowded and textured, with changing separation of bands to the sides. In v-n a central band is easier to follow locally, but neighbouring layers remain close. These views do not establish whether the lower probability connections coincide with fibres, cracks, or layer contact.",
+      "local_support": "local layered structure; ambiguity remains in continuous sheet identity"
+    },
+    {
+      "anchor": "candidate-q75",
+      "observations": "A curved brighter band/boundary around the origin is easier to distinguish from a darker interval in both directions than in the crowded candidate q25/q50 views. The band bends away from the straight geometry axis toward the sides. This supports local material correspondence but does not connect the three anchors into one verified physical sheet.",
+      "local_support": "clearer local band/boundary, not whole-ROI surface validation"
+    }
+  ],
+  "known_phi": [
+    {
+      "anchor": "known_phi-q25",
+      "observations": "Both directions show a relatively broad textured bright band near/below the origin with a dark separation nearby. Several neighbouring layers are still visible. The local band curves rather than following the straight axis over the full width."
+    },
+    {
+      "anchor": "known_phi-q50",
+      "observations": "Both directions show a locally traceable bright band/boundary near the origin and a dark interval next to it. Curvature and nearby layers remain visible, so even this known reference is not a flat, isolated sheet over the entire image."
+    },
+    {
+      "anchor": "known_phi-q75",
+      "observations": "Both directions show a central band/boundary among several layers; v-n is visibly wavy toward the left. The reference does not justify treating straight tangent-axis agreement over the full width as a required paper test."
+    }
+  ],
+  "comparison": "The candidate is not shown to be empty space or an obvious wholesale miss of all layered material. Its q25/q50 central surroundings appear more crowded/ambiguous than the clearest known-reference views; q75 has a more distinct local band. Neither class allows a confident continuous physical-sheet assignment across the whole ROI from these twelve straight planes alone.",
+  "decision": "HOLD as an unconfirmed exploratory candidate; do not promote to reading or novelty. The fixed finite CT observation supplies local structural context but does not resolve the source of the connected probability response.",
+  "limits": [
+    "No direct ink confirmation.",
+    "No connection of the three candidate anchors into one independently verified sheet.",
+    "No secure fibre/crack/contact attribution for the probability connections.",
+    "No recto/verso assignment.",
+    "Published-figure registration and prior full-parent inference coverage remain unresolved at this exact ROI.",
+    "No new letters; no additional depths, planes, ROI, model or threshold proposed within R240."
+  ],
+  "new_letters": 0
+}

@@ -1,0 +1,36 @@
+{
+  "utc": "2026-11-15T16:21:21.942004+00:00",
+  "absence_receipt": "postcreate-diagnostic-absence.json",
+  "authorization": "lead-cloud-a6000-diag-clearance.json",
+  "original_failure_files_retained": true,
+  "cloud_mutations": 0,
+  "new_POSTs": 0,
+  "deadline_helper": {
+    "pid": 47432,
+    "command_line": [
+      "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-X",
+      "utf8",
+      "-B",
+      "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-pherc0211-clipped-context01\\deadline_a6000_diag.py"
+    ],
+    "created_epoch": 1794759586.585767,
+    "ready_epoch": 1794759588.2613866,
+    "owned_command_and_start_verified": true,
+    "terminated": true
+  },
+  "reservation": {
+    "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-pherc0211-clipped-context01\\cloud-run-create-diagnostic\\results.reserved",
+    "verified_attributes_and_identity": {
+      "allocated_bytes": 67108864,
+      "file_bytes": 67108864,
+      "windows_attributes": 32,
+      "links": 1,
+      "device": 10726679257801674650,
+      "file_id": 2533274792841592
+    },
+    "released_bytes": 67108864,
+    "absent_after_release": true,
+    "scientific_result_deleted": false
+  }
+}

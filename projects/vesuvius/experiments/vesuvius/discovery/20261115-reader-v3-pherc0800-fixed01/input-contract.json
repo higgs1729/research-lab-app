@@ -1,0 +1,129 @@
+{
+  "plan_sha256": "2d4b968361272548a353c646788c5081abe71de4fd0c9465e854915cdc58efdc",
+  "assets": {
+    "native31": {
+      "file": "native31.npy",
+      "shape": [
+        31,
+        1536,
+        1536
+      ],
+      "bytes": 73138304,
+      "dtype": "uint8",
+      "sha256": "bd6e0d9469710378cf349d13698d0fa917941213377c5314d349f9e318384691",
+      "raw_sha256": "fe26a2d961023e98eab723f32d4e513e335f59e9538d0954b42f96a262692617"
+    },
+    "input": {
+      "file": "input.npy",
+      "shape": [
+        17,
+        1536,
+        1536
+      ],
+      "bytes": 40108160,
+      "dtype": "uint8",
+      "sha256": "749caaacac970908eaba8c3173aec0e90196bb5949c90e71fb575c8266cda59e",
+      "raw_sha256": "305d8b7a714f4d257c432a872aa93cce0e062a4f6ff73ec02edf15030cb5d3a0"
+    },
+    "native-geometry-proxy": {
+      "file": "native-geometry-proxy.npy",
+      "shape": [
+        1536,
+        1536
+      ],
+      "bytes": 2359424,
+      "dtype": "bool",
+      "sha256": "0dca98d4180fbb03886604ca966c46434554f92b87cbdd011de47eb506bb75fe",
+      "raw_sha256": "ffca9b190c387f76cd9753e97ab4de32161f0d784fd084e05783fc0669f75a3b"
+    },
+    "native-object-present": {
+      "file": "native-object-present.npy",
+      "shape": [
+        1536,
+        1536
+      ],
+      "bytes": 2359424,
+      "dtype": "bool",
+      "sha256": "88718c6a06f4b4648f6f5f4f9519a06a296aa6540d445b9334c6d3b36cddc863",
+      "raw_sha256": "4d0b69881b8c8c6ec1c86ae0f079ad6bbd677a50fae9344218d19a92dae76336"
+    },
+    "native-nonzero17": {
+      "file": "native-nonzero17.npy",
+      "shape": [
+        1536,
+        1536
+      ],
+      "bytes": 2359424,
+      "dtype": "bool",
+      "sha256": "8f7675c38b20de04e4c2ba19f4acc53774e7b6d600a1c5acee5c12e997d4324d",
+      "raw_sha256": "5f0000f3edd9a1df2c920f89693f94716860d5104d7e6f110fee4f4bad5a60c4"
+    }
+  },
+  "input_npy_sha256": "749caaacac970908eaba8c3173aec0e90196bb5949c90e71fb575c8266cda59e",
+  "full_context": {
+    "pixels": 2359296,
+    "geometry_proxy": 1736576,
+    "present_objects": 1933312,
+    "unlisted_zero_fill": 425984,
+    "nonzero17": 1727516,
+    "nonzero31": 1727516,
+    "all_zero17_in_present": 205796,
+    "all_zero31_in_present": 205796,
+    "geom_proxy_inside_unlisted": 0,
+    "nonzero17_outside_geom_proxy": 0,
+    "all_zero17_inside_geom_proxy_present": 9060
+  },
+  "main": {
+    "pixels": 1138489,
+    "geometry_proxy": 965983,
+    "present_objects": 1067923,
+    "unlisted_zero_fill": 70566,
+    "nonzero17": 961223,
+    "nonzero31": 961223,
+    "all_zero17_in_present": 106700,
+    "all_zero31_in_present": 106700,
+    "geom_proxy_inside_unlisted": 0,
+    "nonzero17_outside_geom_proxy": 0,
+    "all_zero17_inside_geom_proxy_present": 4760
+  },
+  "layers_forward": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "layers_reverse": [
+    23,
+    22,
+    21,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7
+  ],
+  "geometry_used_for_input_mask": false,
+  "native_interpolation": null
+}

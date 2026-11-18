@@ -1,0 +1,1207 @@
+{
+  "cases": {
+    "baseline-false": {
+      "path": "experiments/vesuvius/r009/20261116-standalone-metadata01/run03/baseline-false.zarr",
+      "files": {
+        ".zattrs": {
+          "bytes": 3500,
+          "sha256": "9b7293686586d0ccebc0084f44157adca43c76cd0938b63151a6b0209375fab2"
+        },
+        ".zgroup": {
+          "bytes": 19,
+          "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+        },
+        "0/.zarray": {
+          "bytes": 230,
+          "sha256": "89e5a7d9713d0706ac706a645287f415579562973323ae1df824030e43e0c7ad"
+        },
+        "0/0/0/0": {
+          "bytes": 114688,
+          "sha256": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+        }
+      },
+      "ome_paths": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "zgroup": {
+        "zarr_format": 2
+      },
+      "attrs": {
+        "canvas_size": [
+          64,
+          64
+        ],
+        "chunk_size": [
+          28,
+          128,
+          128
+        ],
+        "multiscales": [
+          {
+            "axes": [
+              {
+                "name": "z",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "y",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "x",
+                "type": "space",
+                "unit": "micrometer"
+              }
+            ],
+            "datasets": [
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      9.362,
+                      9.362
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "0"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      18.724,
+                      18.724
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      4.681,
+                      4.681
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "1"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      37.448,
+                      37.448
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      14.043,
+                      14.043
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "2"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      74.896,
+                      74.896
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      32.767,
+                      32.767
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "3"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      149.792,
+                      149.792
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      70.215,
+                      70.215
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "4"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      299.584,
+                      299.584
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      145.111,
+                      145.111
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "5"
+              }
+            ],
+            "metadata": {
+              "downsampling_method": "mean"
+            },
+            "name": "render",
+            "version": "0.4"
+          }
+        ],
+        "note_axes_order": "ZYX (slice, row, col)",
+        "num_slices": 28,
+        "slice_step": 1.0,
+        "source_group": 0,
+        "source_zarr": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr"
+      },
+      "arrays": {
+        "0": {
+          "chunks": [
+            28,
+            64,
+            64
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            64,
+            64
+          ],
+          "zarr_format": 2
+        }
+      },
+      "chunks": [
+        "0/0/0/0"
+      ]
+    },
+    "fixed-false": {
+      "path": "experiments/vesuvius/r009/20261116-standalone-metadata01/run03/fixed-false.zarr",
+      "files": {
+        ".zattrs": {
+          "bytes": 1256,
+          "sha256": "ee1fe46ee0498fc0cd41700429a58f529b2066162659ac9f0410fd836bdf85e9"
+        },
+        ".zgroup": {
+          "bytes": 19,
+          "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+        },
+        "0/.zarray": {
+          "bytes": 230,
+          "sha256": "89e5a7d9713d0706ac706a645287f415579562973323ae1df824030e43e0c7ad"
+        },
+        "0/0/0/0": {
+          "bytes": 114688,
+          "sha256": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+        }
+      },
+      "ome_paths": [
+        "0"
+      ],
+      "zgroup": {
+        "zarr_format": 2
+      },
+      "attrs": {
+        "canvas_size": [
+          64,
+          64
+        ],
+        "chunk_size": [
+          28,
+          128,
+          128
+        ],
+        "multiscales": [
+          {
+            "axes": [
+              {
+                "name": "z",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "y",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "x",
+                "type": "space",
+                "unit": "micrometer"
+              }
+            ],
+            "datasets": [
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      9.362,
+                      9.362
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "0"
+              }
+            ],
+            "metadata": {
+              "downsampling_method": "mean"
+            },
+            "name": "render",
+            "version": "0.4"
+          }
+        ],
+        "note_axes_order": "ZYX (slice, row, col)",
+        "num_slices": 28,
+        "slice_step": 1.0,
+        "source_group": 0,
+        "source_zarr": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr"
+      },
+      "arrays": {
+        "0": {
+          "chunks": [
+            28,
+            64,
+            64
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            64,
+            64
+          ],
+          "zarr_format": 2
+        }
+      },
+      "chunks": [
+        "0/0/0/0"
+      ]
+    },
+    "fixed-pre-false": {
+      "path": "experiments/vesuvius/r009/20261116-standalone-metadata01/run03/fixed-pre-false.zarr",
+      "files": {
+        ".zattrs": {
+          "bytes": 1256,
+          "sha256": "ee1fe46ee0498fc0cd41700429a58f529b2066162659ac9f0410fd836bdf85e9"
+        },
+        ".zgroup": {
+          "bytes": 19,
+          "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+        },
+        "0/.zarray": {
+          "bytes": 230,
+          "sha256": "89e5a7d9713d0706ac706a645287f415579562973323ae1df824030e43e0c7ad"
+        }
+      },
+      "ome_paths": [
+        "0"
+      ],
+      "zgroup": {
+        "zarr_format": 2
+      },
+      "attrs": {
+        "canvas_size": [
+          64,
+          64
+        ],
+        "chunk_size": [
+          28,
+          128,
+          128
+        ],
+        "multiscales": [
+          {
+            "axes": [
+              {
+                "name": "z",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "y",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "x",
+                "type": "space",
+                "unit": "micrometer"
+              }
+            ],
+            "datasets": [
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      9.362,
+                      9.362
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "0"
+              }
+            ],
+            "metadata": {
+              "downsampling_method": "mean"
+            },
+            "name": "render",
+            "version": "0.4"
+          }
+        ],
+        "note_axes_order": "ZYX (slice, row, col)",
+        "num_slices": 28,
+        "slice_step": 1.0,
+        "source_group": 0,
+        "source_zarr": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr"
+      },
+      "arrays": {
+        "0": {
+          "chunks": [
+            28,
+            64,
+            64
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            64,
+            64
+          ],
+          "zarr_format": 2
+        }
+      },
+      "chunks": []
+    },
+    "baseline-default": {
+      "path": "experiments/vesuvius/r009/20261116-standalone-metadata01/run03/baseline-default.zarr",
+      "files": {
+        ".zattrs": {
+          "bytes": 3500,
+          "sha256": "9b7293686586d0ccebc0084f44157adca43c76cd0938b63151a6b0209375fab2"
+        },
+        ".zgroup": {
+          "bytes": 19,
+          "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+        },
+        "0/.zarray": {
+          "bytes": 230,
+          "sha256": "89e5a7d9713d0706ac706a645287f415579562973323ae1df824030e43e0c7ad"
+        },
+        "0/0/0/0": {
+          "bytes": 114688,
+          "sha256": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+        },
+        "1/.zarray": {
+          "bytes": 230,
+          "sha256": "484c9e4bf53ba81d474419ff65a168fb1e38badd580adbb74358cdb2732397a0"
+        },
+        "1/0/0/0": {
+          "bytes": 28672,
+          "sha256": "633bca3ca715964251b13a00afd36158c60618f6fbcd6586223d4f80ea34eb75"
+        },
+        "2/.zarray": {
+          "bytes": 230,
+          "sha256": "9df7506ee61d21fc1f90f5b5e1e986553a8b6cafecdf37700daf149625cb48ae"
+        },
+        "2/0/0/0": {
+          "bytes": 7168,
+          "sha256": "b75666b6e69c7c83627a87a35dce52b82588f8bee2ae28b9717765c400de9cea"
+        },
+        "3/.zarray": {
+          "bytes": 226,
+          "sha256": "9d44a961be0433211d5b772252accac0c4afb85369f85f33a9c8b42173722aaf"
+        },
+        "3/0/0/0": {
+          "bytes": 1792,
+          "sha256": "ce82c6b1a9e4a5693ae762e85c0bbc3c8ba4ad2c468c00c2c8bd3405dc710a34"
+        },
+        "4/.zarray": {
+          "bytes": 226,
+          "sha256": "a5ccb069a352c210b18ea9a9fad98361eb6db43f0644770839b90260fa5b1a64"
+        },
+        "4/0/0/0": {
+          "bytes": 448,
+          "sha256": "5534018884b48517474b8be0565b8328c278e4f70480d97eae27296501e23028"
+        },
+        "5/.zarray": {
+          "bytes": 226,
+          "sha256": "493f346ad31c009828ebee0ab815cb65e8999b2915b7940b5f4c13c4bdfc4b09"
+        },
+        "5/0/0/0": {
+          "bytes": 112,
+          "sha256": "d5fdbeb2526b403dbce5aa1da88a9b79f9f871fe41f9d93ef57efb5ac49bdf41"
+        }
+      },
+      "ome_paths": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "zgroup": {
+        "zarr_format": 2
+      },
+      "attrs": {
+        "canvas_size": [
+          64,
+          64
+        ],
+        "chunk_size": [
+          28,
+          128,
+          128
+        ],
+        "multiscales": [
+          {
+            "axes": [
+              {
+                "name": "z",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "y",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "x",
+                "type": "space",
+                "unit": "micrometer"
+              }
+            ],
+            "datasets": [
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      9.362,
+                      9.362
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "0"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      18.724,
+                      18.724
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      4.681,
+                      4.681
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "1"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      37.448,
+                      37.448
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      14.043,
+                      14.043
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "2"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      74.896,
+                      74.896
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      32.767,
+                      32.767
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "3"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      149.792,
+                      149.792
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      70.215,
+                      70.215
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "4"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      299.584,
+                      299.584
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      145.111,
+                      145.111
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "5"
+              }
+            ],
+            "metadata": {
+              "downsampling_method": "mean"
+            },
+            "name": "render",
+            "version": "0.4"
+          }
+        ],
+        "note_axes_order": "ZYX (slice, row, col)",
+        "num_slices": 28,
+        "slice_step": 1.0,
+        "source_group": 0,
+        "source_zarr": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr"
+      },
+      "arrays": {
+        "0": {
+          "chunks": [
+            28,
+            64,
+            64
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            64,
+            64
+          ],
+          "zarr_format": 2
+        },
+        "1": {
+          "chunks": [
+            28,
+            32,
+            32
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            32,
+            32
+          ],
+          "zarr_format": 2
+        },
+        "2": {
+          "chunks": [
+            28,
+            16,
+            16
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            16,
+            16
+          ],
+          "zarr_format": 2
+        },
+        "3": {
+          "chunks": [
+            28,
+            8,
+            8
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            8,
+            8
+          ],
+          "zarr_format": 2
+        },
+        "4": {
+          "chunks": [
+            28,
+            4,
+            4
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            4,
+            4
+          ],
+          "zarr_format": 2
+        },
+        "5": {
+          "chunks": [
+            28,
+            2,
+            2
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            2,
+            2
+          ],
+          "zarr_format": 2
+        }
+      },
+      "chunks": [
+        "0/0/0/0",
+        "1/0/0/0",
+        "2/0/0/0",
+        "3/0/0/0",
+        "4/0/0/0",
+        "5/0/0/0"
+      ]
+    },
+    "fixed-default": {
+      "path": "experiments/vesuvius/r009/20261116-standalone-metadata01/run03/fixed-default.zarr",
+      "files": {
+        ".zattrs": {
+          "bytes": 3500,
+          "sha256": "9b7293686586d0ccebc0084f44157adca43c76cd0938b63151a6b0209375fab2"
+        },
+        ".zgroup": {
+          "bytes": 19,
+          "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+        },
+        "0/.zarray": {
+          "bytes": 230,
+          "sha256": "89e5a7d9713d0706ac706a645287f415579562973323ae1df824030e43e0c7ad"
+        },
+        "0/0/0/0": {
+          "bytes": 114688,
+          "sha256": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+        },
+        "1/.zarray": {
+          "bytes": 230,
+          "sha256": "484c9e4bf53ba81d474419ff65a168fb1e38badd580adbb74358cdb2732397a0"
+        },
+        "1/0/0/0": {
+          "bytes": 28672,
+          "sha256": "633bca3ca715964251b13a00afd36158c60618f6fbcd6586223d4f80ea34eb75"
+        },
+        "2/.zarray": {
+          "bytes": 230,
+          "sha256": "9df7506ee61d21fc1f90f5b5e1e986553a8b6cafecdf37700daf149625cb48ae"
+        },
+        "2/0/0/0": {
+          "bytes": 7168,
+          "sha256": "b75666b6e69c7c83627a87a35dce52b82588f8bee2ae28b9717765c400de9cea"
+        },
+        "3/.zarray": {
+          "bytes": 226,
+          "sha256": "9d44a961be0433211d5b772252accac0c4afb85369f85f33a9c8b42173722aaf"
+        },
+        "3/0/0/0": {
+          "bytes": 1792,
+          "sha256": "ce82c6b1a9e4a5693ae762e85c0bbc3c8ba4ad2c468c00c2c8bd3405dc710a34"
+        },
+        "4/.zarray": {
+          "bytes": 226,
+          "sha256": "a5ccb069a352c210b18ea9a9fad98361eb6db43f0644770839b90260fa5b1a64"
+        },
+        "4/0/0/0": {
+          "bytes": 448,
+          "sha256": "5534018884b48517474b8be0565b8328c278e4f70480d97eae27296501e23028"
+        },
+        "5/.zarray": {
+          "bytes": 226,
+          "sha256": "493f346ad31c009828ebee0ab815cb65e8999b2915b7940b5f4c13c4bdfc4b09"
+        },
+        "5/0/0/0": {
+          "bytes": 112,
+          "sha256": "d5fdbeb2526b403dbce5aa1da88a9b79f9f871fe41f9d93ef57efb5ac49bdf41"
+        }
+      },
+      "ome_paths": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "zgroup": {
+        "zarr_format": 2
+      },
+      "attrs": {
+        "canvas_size": [
+          64,
+          64
+        ],
+        "chunk_size": [
+          28,
+          128,
+          128
+        ],
+        "multiscales": [
+          {
+            "axes": [
+              {
+                "name": "z",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "y",
+                "type": "space",
+                "unit": "micrometer"
+              },
+              {
+                "name": "x",
+                "type": "space",
+                "unit": "micrometer"
+              }
+            ],
+            "datasets": [
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      9.362,
+                      9.362
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      0.0,
+                      0.0
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "0"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      18.724,
+                      18.724
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      4.681,
+                      4.681
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "1"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      37.448,
+                      37.448
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      14.043,
+                      14.043
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "2"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      74.896,
+                      74.896
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      32.767,
+                      32.767
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "3"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      149.792,
+                      149.792
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      70.215,
+                      70.215
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "4"
+              },
+              {
+                "coordinateTransformations": [
+                  {
+                    "scale": [
+                      9.362,
+                      299.584,
+                      299.584
+                    ],
+                    "type": "scale"
+                  },
+                  {
+                    "translation": [
+                      0.0,
+                      145.111,
+                      145.111
+                    ],
+                    "type": "translation"
+                  }
+                ],
+                "path": "5"
+              }
+            ],
+            "metadata": {
+              "downsampling_method": "mean"
+            },
+            "name": "render",
+            "version": "0.4"
+          }
+        ],
+        "note_axes_order": "ZYX (slice, row, col)",
+        "num_slices": 28,
+        "slice_step": 1.0,
+        "source_group": 0,
+        "source_zarr": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr"
+      },
+      "arrays": {
+        "0": {
+          "chunks": [
+            28,
+            64,
+            64
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            64,
+            64
+          ],
+          "zarr_format": 2
+        },
+        "1": {
+          "chunks": [
+            28,
+            32,
+            32
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            32,
+            32
+          ],
+          "zarr_format": 2
+        },
+        "2": {
+          "chunks": [
+            28,
+            16,
+            16
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            16,
+            16
+          ],
+          "zarr_format": 2
+        },
+        "3": {
+          "chunks": [
+            28,
+            8,
+            8
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            8,
+            8
+          ],
+          "zarr_format": 2
+        },
+        "4": {
+          "chunks": [
+            28,
+            4,
+            4
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            4,
+            4
+          ],
+          "zarr_format": 2
+        },
+        "5": {
+          "chunks": [
+            28,
+            2,
+            2
+          ],
+          "compressor": null,
+          "dimension_separator": "/",
+          "dtype": "|u1",
+          "fill_value": 0,
+          "filters": null,
+          "order": "C",
+          "shape": [
+            28,
+            2,
+            2
+          ],
+          "zarr_format": 2
+        }
+      },
+      "chunks": [
+        "0/0/0/0",
+        "1/0/0/0",
+        "2/0/0/0",
+        "3/0/0/0",
+        "4/0/0/0",
+        "5/0/0/0"
+      ]
+    }
+  },
+  "false_changed_files": [
+    ".zattrs"
+  ],
+  "false_semantic_change": "removed multiscales datasets 1 through 5",
+  "L0": {
+    "shape": [
+      28,
+      64,
+      64
+    ],
+    "dtype": "uint8",
+    "sha256_c_order": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630",
+    "pixel_count": 114688,
+    "min": 4,
+    "max": 227,
+    "sum": 7519266
+  },
+  "matches_R129_L0_sha256": true,
+  "both_default_all_files_equal": true
+}

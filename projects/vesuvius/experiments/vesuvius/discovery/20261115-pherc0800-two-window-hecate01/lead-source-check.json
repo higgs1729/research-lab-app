@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-14T16:26:27.978342+00:00",
+  "complete_objects": 90,
+  "received_bytes": 45711360,
+  "all_object_lengths_etag_md5_sha256_equal": true,
+  "all_prior_90_middle_ranges_exact": true,
+  "new_original3D_CT_bytes": 0,
+  "network_or_model_calls": 0
+}

@@ -1,0 +1,317 @@
+{
+  "local_baseline": {
+    "negative_faces": 0,
+    "zero_faces": 0,
+    "minimum_signed_area": 113.63134036425099,
+    "interior_overlap_pairs": 63,
+    "obstacle_overlap_pairs": 2,
+    "max_target_error": 0.0,
+    "quality": {
+      "faces": 347,
+      "area3_fraction": 1.0,
+      "area_weighted_normalized_symmetric_dirichlet": 1.077887121022818,
+      "area_weighted_inverse_L2_rms": 0.9821433268484948,
+      "max_symmetric_singular_stretch": 6.983004402144391,
+      "uv_area_over_3d_area": 1.109721558385765,
+      "area_ratio_percentiles_1_50_99": [
+        0.7825384094203464,
+        1.008564915708932,
+        2.235530933099449
+      ],
+      "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+        1.0033806445895133,
+        1.2137701942401045,
+        1.8107706228343
+      ]
+    }
+  },
+  "stages": [
+    {
+      "penalty": 1.0,
+      "raw": {
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "minimum_signed_area": 133.6132332875356,
+        "interior_overlap_pairs": 0,
+        "obstacle_overlap_pairs": 0,
+        "max_target_error": 62.184503061208254,
+        "quality": {
+          "faces": 347,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0309636558387205,
+          "area_weighted_inverse_L2_rms": 1.0041364708521505,
+          "max_symmetric_singular_stretch": 4.562749369389582,
+          "uv_area_over_3d_area": 1.0237822052136987,
+          "area_ratio_percentiles_1_50_99": [
+            0.7545439292767644,
+            0.9864541745942802,
+            1.666217932443118
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.004415764485218,
+            1.085700391653292,
+            1.2887649850481766
+          ]
+        }
+      },
+      "snapped": {
+        "negative_faces": 2,
+        "zero_faces": 0,
+        "minimum_signed_area": -41.0100929046051,
+        "interior_overlap_pairs": 13,
+        "obstacle_overlap_pairs": 1,
+        "max_target_error": 0.0,
+        "quality": {
+          "faces": 345,
+          "area3_fraction": 0.9941208424321912,
+          "area_weighted_normalized_symmetric_dirichlet": 1.1046548091718493,
+          "area_weighted_inverse_L2_rms": 1.0222311998395612,
+          "max_symmetric_singular_stretch": 10.087219906339312,
+          "uv_area_over_3d_area": 1.0378234460030327,
+          "area_ratio_percentiles_1_50_99": [
+            0.7249886391764162,
+            0.9862139051060318,
+            1.709083832670694
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0085110881890673,
+            1.2096166011474976,
+            2.2248329563230893
+          ]
+        }
+      },
+      "snapped_float32": {
+        "negative_faces": 2,
+        "zero_faces": 0,
+        "minimum_signed_area": -41.008888959884644,
+        "interior_overlap_pairs": 13,
+        "obstacle_overlap_pairs": 1,
+        "max_target_error": 7.644769970498328e-05,
+        "quality": {
+          "faces": 345,
+          "area3_fraction": 0.9941208424321912,
+          "area_weighted_normalized_symmetric_dirichlet": 1.1046560460560104,
+          "area_weighted_inverse_L2_rms": 1.0222324753392613,
+          "max_symmetric_singular_stretch": 10.08720201228442,
+          "uv_area_over_3d_area": 1.0378233809308948,
+          "area_ratio_percentiles_1_50_99": [
+            0.7249908172437814,
+            0.9862616333072524,
+            1.7091173900025827
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0085168213302225,
+            1.2096248484748562,
+            2.22492580801678
+          ]
+        }
+      }
+    },
+    {
+      "penalty": 100.0,
+      "raw": {
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "minimum_signed_area": 126.61229617460506,
+        "interior_overlap_pairs": 0,
+        "obstacle_overlap_pairs": 0,
+        "max_target_error": 1.317699808814019,
+        "quality": {
+          "faces": 347,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0863400672005727,
+          "area_weighted_inverse_L2_rms": 1.005515222654913,
+          "max_symmetric_singular_stretch": 7.310937536455897,
+          "uv_area_over_3d_area": 1.0673095738140395,
+          "area_ratio_percentiles_1_50_99": [
+            0.7687893738454022,
+            0.9852069758874793,
+            2.2214606788049664
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0091978240198358,
+            1.2272865589830686,
+            1.846933569419546
+          ]
+        }
+      },
+      "snapped": {
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "minimum_signed_area": 116.16648026083655,
+        "interior_overlap_pairs": 1,
+        "obstacle_overlap_pairs": 1,
+        "max_target_error": 0.0,
+        "quality": {
+          "faces": 347,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0886925600942168,
+          "area_weighted_inverse_L2_rms": 1.0068113958097729,
+          "max_symmetric_singular_stretch": 7.400330028604701,
+          "uv_area_over_3d_area": 1.0674910929041237,
+          "area_ratio_percentiles_1_50_99": [
+            0.7738917632831991,
+            0.9852746976028325,
+            2.2214606788049664
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0092344653177006,
+            1.230987151943753,
+            1.8914799221352814
+          ]
+        }
+      },
+      "snapped_float32": {
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "minimum_signed_area": 116.17164087295532,
+        "interior_overlap_pairs": 1,
+        "obstacle_overlap_pairs": 1,
+        "max_target_error": 7.644769970498328e-05,
+        "quality": {
+          "faces": 347,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0886924514426604,
+          "area_weighted_inverse_L2_rms": 1.0068116335708508,
+          "max_symmetric_singular_stretch": 7.40033205415379,
+          "uv_area_over_3d_area": 1.0674902442397471,
+          "area_ratio_percentiles_1_50_99": [
+            0.773858333398702,
+            0.9852489773855522,
+            2.221392288095562
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0092240278505638,
+            1.2309787783235007,
+            1.8914619172080966
+          ]
+        }
+      }
+    },
+    {
+      "penalty": 10000.0,
+      "raw": {
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "minimum_signed_area": 125.74994576381204,
+        "interior_overlap_pairs": 0,
+        "obstacle_overlap_pairs": 0,
+        "max_target_error": 0.013958155456443473,
+        "quality": {
+          "faces": 347,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0894562789061195,
+          "area_weighted_inverse_L2_rms": 1.00679334859493,
+          "max_symmetric_singular_stretch": 7.3481285215046395,
+          "uv_area_over_3d_area": 1.068106771551019,
+          "area_ratio_percentiles_1_50_99": [
+            0.7565102746801624,
+            0.9859325369700894,
+            2.239732662791824
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0093753810447397,
+            1.2469093427601599,
+            1.8628155829644366
+          ]
+        }
+      },
+      "snapped": {
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "minimum_signed_area": 125.64072252312076,
+        "interior_overlap_pairs": 0,
+        "obstacle_overlap_pairs": 0,
+        "max_target_error": 0.0,
+        "quality": {
+          "faces": 347,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0894795940792519,
+          "area_weighted_inverse_L2_rms": 1.0068059240612235,
+          "max_symmetric_singular_stretch": 7.349026940815067,
+          "uv_area_over_3d_area": 1.0681085571809688,
+          "area_ratio_percentiles_1_50_99": [
+            0.7565102746801624,
+            0.9859325369700894,
+            2.239732662791824
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0093781090530007,
+            1.2469301279162428,
+            1.8628155829644366
+          ]
+        }
+      },
+      "snapped_float32": {
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "minimum_signed_area": 125.64244103431702,
+        "interior_overlap_pairs": 0,
+        "obstacle_overlap_pairs": 0,
+        "max_target_error": 7.644769970498328e-05,
+        "quality": {
+          "faces": 347,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0894796260497335,
+          "area_weighted_inverse_L2_rms": 1.006806075188717,
+          "max_symmetric_singular_stretch": 7.3489947698160325,
+          "uv_area_over_3d_area": 1.0681081709219389,
+          "area_ratio_percentiles_1_50_99": [
+            0.7564802155035181,
+            0.9858321890497954,
+            2.2397010362887784
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0093819049206605,
+            1.246890433384075,
+            1.8628315192083713
+          ]
+        }
+      }
+    }
+  ],
+  "global": {
+    "G_global": {
+      "subject_faces": 346,
+      "component_faces": 375552,
+      "bbox_candidates": 3193,
+      "interior_overlap_pairs": 686,
+      "inside_subject_pairs": 61,
+      "pairs_with_outside": 625,
+      "full_mesh_negative": 0,
+      "full_mesh_zero": 0,
+      "known_pair_present": true
+    },
+    "candidate_global": {
+      "subject_faces": 346,
+      "component_faces": 375552,
+      "bbox_candidates": 3152,
+      "interior_overlap_pairs": 634,
+      "inside_subject_pairs": 0,
+      "pairs_with_outside": 634,
+      "full_mesh_negative": 0,
+      "full_mesh_zero": 0,
+      "known_pair_present": false
+    },
+    "candidate_float32_global": {
+      "subject_faces": 346,
+      "component_faces": 375552,
+      "bbox_candidates": 3152,
+      "interior_overlap_pairs": 634,
+      "inside_subject_pairs": 0,
+      "pairs_with_outside": 634,
+      "full_mesh_negative": 0,
+      "full_mesh_zero": 0,
+      "known_pair_present": false
+    }
+  },
+  "changed_vertices": 189,
+  "affected_faces": 346,
+  "all_C_fixed_preserved_relative_to_G": true,
+  "all_coarse_preserved_relative_to_C": true,
+  "additional_boundary_pin_121019_exact": true,
+  "disappeared_pairs": 294,
+  "appeared_pairs": 242,
+  "elapsed_seconds": 2.276833500014618,
+  "limits": "Candidate is a saved research diagnostic only. Float32 is at prepack origin. Only subject346 versus same fine component375552 is screened; unchanged external/external overlaps remain. Strict pin restoration is assessed, no hard-fixed followup or native raster yet."
+}

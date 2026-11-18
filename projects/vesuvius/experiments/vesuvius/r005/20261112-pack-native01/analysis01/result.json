@@ -1,0 +1,557 @@
+{
+  "second_full": {
+    "before": {
+      "grid_yx": [
+        252,
+        2637
+      ],
+      "source_vertices": 249944,
+      "source_faces": 478224,
+      "input_quads": 239112,
+      "source_components": 9,
+      "components_with_eligible_faces": 9,
+      "components_with_samples": 9,
+      "invalid_uv_vertices": 0,
+      "filtered_triangles": 0,
+      "output_points": 254263,
+      "rejected_events": 757,
+      "cross_component_rejected": 399,
+      "cross_component_grid_edges": 284,
+      "no_owned_sample_quads": 13424,
+      "gt20": 485,
+      "gt40": 205,
+      "max_finite_distance": 118.26599578640855,
+      "quads_without_component_samples": 0
+    },
+    "after": {
+      "grid_yx": [
+        252,
+        3027
+      ],
+      "source_vertices": 249944,
+      "source_faces": 478224,
+      "input_quads": 239112,
+      "source_components": 9,
+      "components_with_eligible_faces": 9,
+      "components_with_samples": 9,
+      "invalid_uv_vertices": 0,
+      "filtered_triangles": 0,
+      "output_points": 254668,
+      "rejected_events": 356,
+      "cross_component_rejected": 0,
+      "cross_component_grid_edges": 0,
+      "no_owned_sample_quads": 13100,
+      "gt20": 202,
+      "gt40": 82,
+      "max_finite_distance": 71.72693767663469,
+      "quads_without_component_samples": 0
+    },
+    "changes": {
+      "recovered_to20": 288,
+      "new_gt20": 5,
+      "both_gt20": 197
+    },
+    "native_xyz_and_faces_equal_source": true,
+    "prepack_uv_bit_equal_unpacked": true,
+    "packed_uv_bit_equal_python": true,
+    "trace_fields_equal_python_raster": true,
+    "tiff_xyz_bit_equal_python_raster": true,
+    "tiff_file_bytes_equal": {
+      "x": true,
+      "y": true,
+      "z": true
+    },
+    "placement": [
+      {
+        "component": 1,
+        "total_vertices": 195935,
+        "uv_valid_vertices": 195935,
+        "eligible_face_vertices": 195935,
+        "shift": [
+          -9092.2373046875,
+          156.00379943847656
+        ],
+        "packed_x": [
+          0.0,
+          43677.609375
+        ]
+      },
+      {
+        "component": 0,
+        "total_vertices": 30027,
+        "uv_valid_vertices": 30027,
+        "eligible_face_vertices": 30027,
+        "shift": [
+          39407.62695252895,
+          256.37762451171875
+        ],
+        "packed_x": [
+          43717.609375,
+          50532.75
+        ]
+      },
+      {
+        "component": 2,
+        "total_vertices": 19470,
+        "uv_valid_vertices": 19470,
+        "eligible_face_vertices": 19470,
+        "shift": [
+          50519.778322935104,
+          -1362.3626708984375
+        ],
+        "packed_x": [
+          50572.75,
+          55266.05078125
+        ]
+      },
+      {
+        "component": 6,
+        "total_vertices": 2131,
+        "uv_valid_vertices": 2131,
+        "eligible_face_vertices": 2131,
+        "shift": [
+          21094.841310620308,
+          -3320.05322265625
+        ],
+        "packed_x": [
+          55306.05078125,
+          57060.8671875
+        ]
+      },
+      {
+        "component": 7,
+        "total_vertices": 1243,
+        "uv_valid_vertices": 1243,
+        "eligible_face_vertices": 1243,
+        "shift": [
+          16445.27881002426,
+          -3931.06103515625
+        ],
+        "packed_x": [
+          57100.8671875,
+          58572.65625
+        ]
+      },
+      {
+        "component": 5,
+        "total_vertices": 991,
+        "uv_valid_vertices": 991,
+        "eligible_face_vertices": 991,
+        "shift": [
+          45466.567871928215,
+          -2850.783935546875
+        ],
+        "packed_x": [
+          58612.65625,
+          60042.78515625
+        ]
+      },
+      {
+        "component": 3,
+        "total_vertices": 49,
+        "uv_valid_vertices": 49,
+        "eligible_face_vertices": 49,
+        "shift": [
+          55526.03710961342,
+          -2257.466552734375
+        ],
+        "packed_x": [
+          60082.78515625,
+          60193.31640625
+        ]
+      },
+      {
+        "component": 4,
+        "total_vertices": 49,
+        "uv_valid_vertices": 49,
+        "eligible_face_vertices": 49,
+        "shift": [
+          46560.27685511112,
+          -2717.996337890625
+        ],
+        "packed_x": [
+          60233.31640625,
+          60366.60546875
+        ]
+      },
+      {
+        "component": 8,
+        "total_vertices": 49,
+        "uv_valid_vertices": 49,
+        "eligible_face_vertices": 49,
+        "shift": [
+          26555.989745140076,
+          -4302.06201171875
+        ],
+        "packed_x": [
+          60406.60546875,
+          60519.88671875
+        ]
+      }
+    ],
+    "quality": {
+      "before": {
+        "input_faces": 478224,
+        "area3_total": 101749890.19763327,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 478224,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.001459419732357,
+          "area_weighted_inverse_L2_rms": 1.0002263946692005,
+          "max_symmetric_singular_stretch": 1.9170737111118366,
+          "uv_area_over_3d_area": 1.001655562065588,
+          "area_ratio_percentiles_1_50_99": [
+            0.908145707629537,
+            1.0018840643481035,
+            1.106689835975971
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0006943445954426,
+            1.0050989431112556,
+            1.0118567702413623
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      },
+      "after": {
+        "input_faces": 478224,
+        "area3_total": 101749890.19763327,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 478224,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0014594222483364,
+          "area_weighted_inverse_L2_rms": 1.0002264082057557,
+          "max_symmetric_singular_stretch": 1.9170737111118366,
+          "uv_area_over_3d_area": 1.0016555385950034,
+          "area_ratio_percentiles_1_50_99": [
+            0.9081437224369456,
+            1.0018823697667982,
+            1.1066993414639146
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0006943445954426,
+            1.0050989585253478,
+            1.0118599886058368
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    }
+  },
+  "first_full": {
+    "before": {
+      "grid_yx": [
+        172,
+        553
+      ],
+      "source_vertices": 41349,
+      "source_faces": 78624,
+      "input_quads": 39312,
+      "source_components": 5,
+      "components_with_eligible_faces": 5,
+      "components_with_samples": 5,
+      "invalid_uv_vertices": 0,
+      "filtered_triangles": 0,
+      "output_points": 40944,
+      "rejected_events": 190,
+      "cross_component_rejected": 189,
+      "cross_component_grid_edges": 106,
+      "no_owned_sample_quads": 2855,
+      "gt20": 167,
+      "gt40": 87,
+      "max_finite_distance": 110.97262982555775,
+      "quads_without_component_samples": 0
+    },
+    "after": {
+      "grid_yx": [
+        172,
+        680
+      ],
+      "source_vertices": 41349,
+      "source_faces": 78624,
+      "input_quads": 39312,
+      "source_components": 5,
+      "components_with_eligible_faces": 5,
+      "components_with_samples": 5,
+      "invalid_uv_vertices": 0,
+      "filtered_triangles": 0,
+      "output_points": 41149,
+      "rejected_events": 1,
+      "cross_component_rejected": 0,
+      "cross_component_grid_edges": 0,
+      "no_owned_sample_quads": 2624,
+      "gt20": 0,
+      "gt40": 0,
+      "max_finite_distance": 15.97609455314062,
+      "quads_without_component_samples": 0
+    },
+    "changes": {
+      "recovered_to20": 167,
+      "new_gt20": 0,
+      "both_gt20": 0
+    },
+    "default_trace_xyz_bit_equal_pristine": true,
+    "default_tiff_file_bytes_equal": {
+      "x": true,
+      "y": true,
+      "z": true
+    },
+    "pack_trace_xyz_bit_equal_product": true,
+    "pack_tiff_file_bytes_equal": {
+      "x": true,
+      "y": true,
+      "z": true
+    },
+    "packed_uv_bit_equal_python": true,
+    "placement": [
+      {
+        "component": 0,
+        "total_vertices": 35435,
+        "uv_valid_vertices": 35435,
+        "eligible_face_vertices": 35435,
+        "shift": [
+          -41.83191680908203,
+          188.60693359375
+        ],
+        "packed_x": [
+          0.0,
+          8532.4267578125
+        ]
+      },
+      {
+        "component": 2,
+        "total_vertices": 4933,
+        "uv_valid_vertices": 4933,
+        "eligible_face_vertices": 4933,
+        "shift": [
+          1159.5782388448715,
+          -1575.76318359375
+        ],
+        "packed_x": [
+          8572.4267578125,
+          12200.5498046875
+        ]
+      },
+      {
+        "component": 3,
+        "total_vertices": 601,
+        "uv_valid_vertices": 601,
+        "eligible_face_vertices": 601,
+        "shift": [
+          8767.0633456707,
+          -1742.959228515625
+        ],
+        "packed_x": [
+          12240.5498046875,
+          12857.49609375
+        ]
+      },
+      {
+        "component": 1,
+        "total_vertices": 289,
+        "uv_valid_vertices": 289,
+        "eligible_face_vertices": 289,
+        "shift": [
+          8837.878286480904,
+          -1314.8555908203125
+        ],
+        "packed_x": [
+          12897.49609375,
+          13410.13671875
+        ]
+      },
+      {
+        "component": 4,
+        "total_vertices": 91,
+        "uv_valid_vertices": 91,
+        "eligible_face_vertices": 91,
+        "shift": [
+          13457.89872789383,
+          -2028.7572021484375
+        ],
+        "packed_x": [
+          13450.13671875,
+          13585.853515625
+        ]
+      }
+    ],
+    "quality": {
+      "before": {
+        "input_faces": 78624,
+        "area3_total": 16450777.913587105,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 78624,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0019354611106488,
+          "area_weighted_inverse_L2_rms": 1.0009191325497517,
+          "max_symmetric_singular_stretch": 2.2989900948601627,
+          "uv_area_over_3d_area": 1.0009542651245695,
+          "area_ratio_percentiles_1_50_99": [
+            0.8998095490633314,
+            1.001210593380776,
+            1.1238289682023181
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0009451978191397,
+            1.0068607581570608,
+            1.0140794848609604
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      },
+      "after": {
+        "input_faces": 78624,
+        "area3_total": 16450777.913587105,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 78624,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.001935461120889,
+          "area_weighted_inverse_L2_rms": 1.000919141447762,
+          "max_symmetric_singular_stretch": 2.2989900948601627,
+          "uv_area_over_3d_area": 1.0009542472663913,
+          "area_ratio_percentiles_1_50_99": [
+            0.8998095490633314,
+            1.0012110986610825,
+            1.1238290945665304
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0009452562188315,
+            1.0068607618086973,
+            1.0140794848609604
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    }
+  },
+  "first_low_keep": {
+    "raster": {
+      "grid_yx": [
+        155,
+        617
+      ],
+      "source_vertices": 41349,
+      "source_faces": 78624,
+      "input_quads": 39312,
+      "source_components": 5,
+      "components_with_eligible_faces": 5,
+      "components_with_samples": 4,
+      "invalid_uv_vertices": 103,
+      "filtered_triangles": 225,
+      "output_points": 23003,
+      "rejected_events": 11522,
+      "cross_component_rejected": 0,
+      "cross_component_grid_edges": 0,
+      "no_owned_sample_quads": 22776,
+      "gt20": 18424,
+      "gt40": 11941,
+      "max_finite_distance": 474.1361868855417,
+      "quads_without_component_samples": 72
+    },
+    "placement": [
+      {
+        "component": 0,
+        "total_vertices": 35435,
+        "uv_valid_vertices": 35420,
+        "eligible_face_vertices": 35420,
+        "shift": [
+          2952.233642578125,
+          1472.8760986328125
+        ],
+        "packed_x": [
+          0.0,
+          5642.4462890625
+        ]
+      },
+      {
+        "component": 2,
+        "total_vertices": 4933,
+        "uv_valid_vertices": 4933,
+        "eligible_face_vertices": 4933,
+        "shift": [
+          4366.254271864891,
+          -519.4777221679688
+        ],
+        "packed_x": [
+          5682.4462890625,
+          9307.9150390625
+        ]
+      },
+      {
+        "component": 3,
+        "total_vertices": 601,
+        "uv_valid_vertices": 601,
+        "eligible_face_vertices": 601,
+        "shift": [
+          9056.95242190361,
+          -70.72241973876953
+        ],
+        "packed_x": [
+          9347.9150390625,
+          9668.4169921875
+        ]
+      },
+      {
+        "component": 1,
+        "total_vertices": 289,
+        "uv_valid_vertices": 201,
+        "eligible_face_vertices": 201,
+        "shift": [
+          11529.00863468647,
+          588.0479736328125
+        ],
+        "packed_x": [
+          9708.4169921875,
+          12114.6376953125
+        ]
+      },
+      {
+        "component": 4,
+        "total_vertices": 91,
+        "uv_valid_vertices": 91,
+        "eligible_face_vertices": 91,
+        "shift": [
+          13336.326505184174,
+          -476.42608642578125
+        ],
+        "packed_x": [
+          12154.6376953125,
+          12317.546875
+        ]
+      }
+    ],
+    "stride": 8
+  },
+  "reference_sha256": {
+    "experiments\\vesuvius\\r005\\20261112-full-resolution-runs\\second_keep100_iter5_01\\output.obj_uv_diagnostics.json": "1aee0999d36aa782bdbf2c9e0b32ce085b42f79d16d9a879fbe65c458ccdad41",
+    "experiments\\vesuvius\\r005\\20261112-full-resolution-runs\\second_keep100_iter5_01\\raster_trace.json": "2d74dd6b593d02f5a948baa92cfb841ab4070cc52d9390a9623ce9d695664fe8",
+    "experiments\\vesuvius\\r005\\20261112-full-resolution-runs\\second_keep100_iter5_01\\output_energies_flatboi.txt": "1905f98f0e22883b3850427774449c0b080079e06e6201deca8259ffb17b67dd",
+    "experiments\\vesuvius\\r005\\20261112-full-resolution-pack01\\input01\\arrays.npz": "d5fee5f9b4ee6794472bf1e1e91ad6b30a06658bbff8245bc0e0aa87facd0220",
+    "experiments\\vesuvius\\r005\\20261112-full-resolution-pack01\\raster01\\raster_trace.json": "620fb253a13ed1c69d27865576c657052918298fcecfee40b74bd94da65676ce",
+    "experiments\\vesuvius\\r005\\20261112-full-resolution-pack01\\analysis01\\arrays.npz": "1a1971e09d17580e16a718ecbe623e877b182c9e893a141fa04fe0352fc0a0a4",
+    "experiments\\vesuvius\\r005\\20261112-full-resolution01\\analysis01\\arrays.npz": "81cf495ff4a2bebd151106192e2914eaec4bc0490faccc9e5987a2815c9130db",
+    "experiments\\vesuvius\\r005\\20261112-full-resolution-runs\\second_keep100_iter5_01\\output\\x.tif": "53aed638b84cb01b55f9568b20aa1092ef32f784ea80193eeef53c2c94c240e8",
+    "experiments\\vesuvius\\r005\\20261112-full-resolution-runs\\second_keep100_iter5_01\\output\\y.tif": "fc7bcdb1f23d1bf3039605efd9a45b05e962164b68b45b086614df09789f85b5",
+    "experiments\\vesuvius\\r005\\20261112-full-resolution-runs\\second_keep100_iter5_01\\output\\z.tif": "f934d9696a3eb30edbef13233f967aa37315fc746e903525c566477537509186",
+    "experiments\\vesuvius\\r005\\20261112-full-resolution-pack01\\raster01\\output\\x.tif": "e8154b3c3d2f6f1c049f98958b34f486f2d95adcda7acc24f6cf07e9f2a9ed2a",
+    "experiments\\vesuvius\\r005\\20261112-full-resolution-pack01\\raster01\\output\\y.tif": "56827fd3cc2c6bfe829294500a6d90f6dc875cb2c28c42697a779012bb9d7f18",
+    "experiments\\vesuvius\\r005\\20261112-full-resolution-pack01\\raster01\\output\\z.tif": "f229d648f577635333eab6a4753952768b7b87eb89d8f2c84052395b9cd676f3",
+    "experiments\\vesuvius\\r005\\mesh_quality.py": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+  }
+}

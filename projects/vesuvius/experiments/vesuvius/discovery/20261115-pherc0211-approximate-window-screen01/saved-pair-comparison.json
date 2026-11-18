@@ -1,0 +1,103 @@
+{
+  "utc": "2026-11-15T14:04:26.454723+00:00",
+  "contract_sha256": "d9c2d69b818d37fd37f4105dab86530e376aa571351187c7cf08c3d6d6f09325",
+  "pixels": 9216,
+  "raw_probability": {
+    "all_finite": true,
+    "exact_equal": false,
+    "differing_pixels": 9216,
+    "max_abs": 0.0028054118156433105,
+    "mean_abs": 0.0006942504648274431,
+    "signed_min": -0.0003743171691894531,
+    "signed_max": 0.0028054118156433105,
+    "signed_mean": 0.000589780415692884,
+    "abs_quantiles": {
+      "0": 5.960464477539063e-08,
+      "25": 0.00013859570026397705,
+      "50": 0.0005071684718132019,
+      "75": 0.0011669844388961792,
+      "90": 0.001650199294090271,
+      "95": 0.0018641427159309387,
+      "99": 0.0024259418249130255,
+      "100": 0.0028054118156433105
+    },
+    "public_range": [
+      0.19949506223201752,
+      0.9127879738807678
+    ],
+    "render_range": [
+      0.19998128712177277,
+      0.9127238988876343
+    ]
+  },
+  "raw8_display": {
+    "differing_pixels": 1689,
+    "max_abs_DN": 1,
+    "mean_abs_DN": 0.18326822916666666,
+    "signed_delta_counts": {
+      "-1": 134,
+      "0": 7527,
+      "1": 1555
+    },
+    "raw_probability_difference_times255_max": 0.7153800129890442,
+    "raw_probability_difference_times255_mean": 0.177033868530998
+  },
+  "old_R236_gate_unchanged": {
+    "max_abs": 0.0028054118156433105,
+    "mean_abs": 0.0006942504648274431,
+    "all_finite": true,
+    "threshold_max_abs": 0.005,
+    "threshold_mean_abs": 0.0005,
+    "passed": false,
+    "source": "Fixed public-vs-approximate phi input, central96 raw probability; not an exact-render claim"
+  },
+  "images": [
+    {
+      "path": "review/public-raw8-native.png",
+      "sha256": "14963c7543806d88e485fa29b97ebc43abdb97f43426968cd117445c5df64dfb",
+      "shape": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "review/render-raw8-native.png",
+      "sha256": "21cf6ea331340e533d2929f8b846a5a62242bee12e5e125a11e6d754c4b8a250",
+      "shape": [
+        96,
+        96
+      ]
+    },
+    {
+      "path": "review/pair-raw8-native.png",
+      "sha256": "becd8091ee730736bbe37595923e682c963378dfd2568228829b36bf1e9f9bca",
+      "shape": [
+        120,
+        204,
+        3
+      ],
+      "display_scale": 1
+    },
+    {
+      "path": "review/pair-raw8-nearest4x.png",
+      "sha256": "42d5f31525ba6c562b850100407adbdeab923605eede216089c90dabcefb1c7b",
+      "shape": [
+        408,
+        780,
+        3
+      ],
+      "display_scale": 4
+    }
+  ],
+  "difference_arrays": {
+    "probability-render-minus-public-f64.npy": "70cdb558d5421a256c40663bca498079b2278ff11414414fae02e7965a0963ae",
+    "display-render-minus-public-i16.npy": "32e27a7162e73e62d1ca2b1b067e106030b3d74fd255e2b8307b084559c1979e"
+  },
+  "model_forwards": 0,
+  "GPU_forwards": 0,
+  "new_CT_bytes": 0,
+  "paid_cost_USD": 0,
+  "C_new_bytes_snapshot": 123708,
+  "C_free_bytes": 7151329280,
+  "visual_judgement_included": false
+}

@@ -1,0 +1,587 @@
+{
+  "created_utc": "2026-11-11T20:54:30.771870+00:00",
+  "scope": "Matched pin-control/release inputs and SCAF runs, native comparisons, reports65/66 and independent verification. No new external binaries. Reused code, binary, input and libraries are referenced by previous manifests and per-run hashes. Mutable root runners excluded; per-run snapshots retained.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-close/decision-record.json",
+      "bytes": 1102,
+      "sha256": "c4df1589465bab03c6b8cc3d22a86c99ff051e348a71734cb6588831e34e6d36"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-close/experiment-record.json",
+      "bytes": 1600,
+      "sha256": "5604ab6f4f403be369471feb0b351de3e9a778b009905691e89cb11df4ecad4f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-close/freeze.py",
+      "bytes": 4464,
+      "sha256": "1c4b28be7ff5b68fdd7b2f808baf3b7e49532e4775e5e431ed0ff18a9f626084"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-close/resources.json",
+      "bytes": 29785,
+      "sha256": "e2c1e4405601d8222508c87178fc7bbc8485048c0f23f1e0276e95d29f106c8a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-close/runtime-status.json",
+      "bytes": 1046,
+      "sha256": "c0f1c74d499fcb9ad432041983089f09fbd64eacf226040093b3d8ee263d4a80"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-close/verification-record.json",
+      "bytes": 731,
+      "sha256": "1b8624e804d8ccdb763fd001534c400d3db73f1f5b873fa520961c0b9fe1ed63"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/check01/pairs.npz",
+      "bytes": 148039,
+      "sha256": "a2d18a0b378fea48095751e6178da8351764ac7ec87b4996a998679ca31f057a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/check01/result.json",
+      "bytes": 5222,
+      "sha256": "8ae6d4edc9efa581e6e5db6c55d7cc890a167af2a23b8c20473cdbe1c5ce0d6c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/check01-execution/state.json",
+      "bytes": 879,
+      "sha256": "850288249406db2650a4ad9574fbb85ea15f0b6a2fe6956f9c8546aa10b52f09"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/check01-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/check02/arrays.npz",
+      "bytes": 7234306,
+      "sha256": "1e0f86a9fb4ca97463a22b754bd9561884110851dce94bfc040ca6a311231665"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/check02/result.json",
+      "bytes": 15818,
+      "sha256": "ae56e5511089c42821c804fd45a7040cadedd49fd9c3bf153831abcd9e3ddd1a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/check02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/check02-execution/state.json",
+      "bytes": 877,
+      "sha256": "7cc6a7a5915bdf9a227dd4cf33c64d56d25440caa330df38096fc49940172948"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/check02-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/verify_geometry.py",
+      "bytes": 15052,
+      "sha256": "410de9b60f90e2790b4a53dd63959cd77b8123d9ca40438d52a798d57662d051"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/verify_raster.py",
+      "bytes": 9786,
+      "sha256": "e9a439c513cec31e87fc777ee552c3661ff4a87ce615fbe2acbe1f34be97296e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/analysis01/analyze_pair.py",
+      "bytes": 5539,
+      "sha256": "b45551569888367cf358fe57e32a9a2a911cd39f58d9bb4f6628b42837f0c167"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/analysis01/arrays.npz",
+      "bytes": 15944908,
+      "sha256": "8d9d7225c298dc1343c02ddaaa4761cdaf8a3bc2cdb641ffaae1e251b4cf6abb"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/analysis01/result.json",
+      "bytes": 13581,
+      "sha256": "3e5b426da6b4a8bf2fb434cca21b0437647edf21c70ccdb811be9ff39768f6a1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/analysis01-execution/state.json",
+      "bytes": 852,
+      "sha256": "2acb023291d53830e6d12a569a9917e2f6667c6fc09c772f9ba7ab38bbb81f87"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/analysis01-execution/stdout.log",
+      "bytes": 13581,
+      "sha256": "3e5b426da6b4a8bf2fb434cca21b0437647edf21c70ccdb811be9ff39768f6a1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/analyze_pair.py",
+      "bytes": 5539,
+      "sha256": "b45551569888367cf358fe57e32a9a2a911cd39f58d9bb4f6628b42837f0c167"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/check_raster_scope.py",
+      "bytes": 4326,
+      "sha256": "0e25cd67819f27ad0e289fabb9dac3953174061082d43f608f64543ddc067d0a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/control01/native_job.py",
+      "bytes": 5412,
+      "sha256": "7bcb4c40b66ef6115d5b8ed30eb8e0bd138c651837d4594d747a321103060c7a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/control01/result.json",
+      "bytes": 76347,
+      "sha256": "f977ab89776fca3733095eb2c711924ccd67fee134084275cf8359951d5ebd07"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/control01/scaf_trial.cpp",
+      "bytes": 4576,
+      "sha256": "75ae9c622fdebbdebf5cfadf051487d22012f3d0c967a6a87f0dfad86ebe5e20"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/control01/state.json",
+      "bytes": 5473,
+      "sha256": "aae3a3584bab2a4e4f06a66fbab6f8892322fdaf91212bc79edba3cb2f9688d9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/control01/stdout.log",
+      "bytes": 37,
+      "sha256": "350ee3bff26f9cda8ef7de68486cd04eb4891273f1b021b49aa3c5822b11fb67"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/decision-record.json",
+      "bytes": 1581,
+      "sha256": "25910eb11f6ca26b483a95ae4dff355a00282401ce1297c7ece85abd94991244"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/evaluate_raster.py",
+      "bytes": 6552,
+      "sha256": "7ee64471016107bb70720425f309cd3f7562d5f21b6f275a306e5b64407fe9e9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/input01/arrays.npz",
+      "bytes": 22768,
+      "sha256": "b33d3bf22725e7bb1eb7c6d59d2785446f7662bfb1abe58c4bf38c69166ae62e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/input01/control.json",
+      "bytes": 80451,
+      "sha256": "2a1b9fcb0ef8fe6dae077d8259852f4f8ee04e7a4940a3b55c89b554a7bfb6e2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/input01/prepare_pair.py",
+      "bytes": 6211,
+      "sha256": "568d8260ffce4a2219af8e3c06c54482ec515d3126f0354a9fd7275d099610e5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/input01/release.json",
+      "bytes": 80355,
+      "sha256": "677511d9f453c4322d76e748fba4dda29e11b9d6913fcc30c64e9ef6f449ccc4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/input01/result.json",
+      "bytes": 2691,
+      "sha256": "f946cc24c711f864dff449f831779040e8e39f8969628aefaf91d3dea02c0ec5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/input01-execution/state.json",
+      "bytes": 850,
+      "sha256": "250fc03b3868b116f8f35c2d5b10bdeda70f7a65bc85d8bf5264099293c69dcd"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/input01-execution/stdout.log",
+      "bytes": 2691,
+      "sha256": "f946cc24c711f864dff449f831779040e8e39f8969628aefaf91d3dea02c0ec5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01/control/arrays.npz",
+      "bytes": 16196482,
+      "sha256": "9a331696585e7ebcf183dba94cd2c22492a500702c0c1959b5cd0798b3a4ec1c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01/control/override.json",
+      "bytes": 12858959,
+      "sha256": "95438a41ad33f875987e9143976c9e6343b47369f6ad42f765f6482958b6655f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01/control/result.json",
+      "bytes": 2634,
+      "sha256": "cec89a4231ebc0bb57a25d1d5bec9a0830aa24b52819ad3f4ee44ed5f81d58bc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01/evaluation.patch",
+      "bytes": 1775,
+      "sha256": "9fe394f06af14dc6d56958feff9aa7d37e721234c4e7396055f0856d4316bcaa"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01/prepare_raster_pair.py",
+      "bytes": 4404,
+      "sha256": "115ddfb18cb0b5e41e199a5204a1272f0696a3c7acdc2bc6efc6638b18a8b843"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01/release/arrays.npz",
+      "bytes": 16196570,
+      "sha256": "db2f4bb0acd9ecfc5039a9de31763b9eca676e87c9838af537ad5474463f5346"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01/release/override.json",
+      "bytes": 12859000,
+      "sha256": "6870c57bdc854f4104a251d2f460c787a09102cca637e9fb2e02e0568e9488fb"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01/release/result.json",
+      "bytes": 2637,
+      "sha256": "1d62d6944617c2f779b6c2190bd6a0a274b10b337408d849016357f34f3bf197"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01/result.json",
+      "bytes": 8142,
+      "sha256": "925ecaa2a2d6bf08853e4f6c31abf3d6856681058e5a3e91710fe17ef0876322"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01-execution/state.json",
+      "bytes": 855,
+      "sha256": "c8c248e4e35b38f0e125ea79cf0dbc5af90fc0a0020aef67b231a5aea8ecfa05"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01-execution/stdout.log",
+      "bytes": 8142,
+      "sha256": "925ecaa2a2d6bf08853e4f6c31abf3d6856681058e5a3e91710fe17ef0876322"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/prepare_pair.py",
+      "bytes": 6211,
+      "sha256": "568d8260ffce4a2219af8e3c06c54482ec515d3126f0354a9fd7275d099610e5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/prepare_raster_pair.py",
+      "bytes": 4404,
+      "sha256": "115ddfb18cb0b5e41e199a5204a1272f0696a3c7acdc2bc6efc6638b18a8b843"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster-decision-record.json",
+      "bytes": 1140,
+      "sha256": "6e4d35307a8bd00293826c0e269250791a4794a48d4c9b19682b88bf499cc6e0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster-scope01/arrays.npz",
+      "bytes": 700,
+      "sha256": "ed72bcc0c4829abcacb8aa66b4084bb0042621792cca324b3bb397bc576dbab4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster-scope01/check_raster_scope.py",
+      "bytes": 4326,
+      "sha256": "0e25cd67819f27ad0e289fabb9dac3953174061082d43f608f64543ddc067d0a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster-scope01/result.json",
+      "bytes": 8506,
+      "sha256": "38e8be7b342b4f343160f0e39b7b929340c6af2f397cc7db09234373baa432fc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster-scope01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster-scope01-execution/state.json",
+      "bytes": 862,
+      "sha256": "98e07eab3110e08c5f37a4f85c5bcb49aa77c7946f3ff5e0c1bbf20fdf1ff435"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster-scope01-execution/stdout.log",
+      "bytes": 8506,
+      "sha256": "38e8be7b342b4f343160f0e39b7b929340c6af2f397cc7db09234373baa432fc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster01/arrays.npz",
+      "bytes": 39145943,
+      "sha256": "80f1cb7e4f6e84a1828f550e8a3cddc052d726534d63907c16f46fcada62fa2c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster01/evaluate_holdout.py",
+      "bytes": 6552,
+      "sha256": "7ee64471016107bb70720425f309cd3f7562d5f21b6f275a306e5b64407fe9e9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster01/mesh_quality.py",
+      "bytes": 2558,
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster01/result.json",
+      "bytes": 13280,
+      "sha256": "80a39e7d68266fa95c5aaad7829c6570324b89d9791e2cd01cf1eff524cdf4ec"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster01-execution/state.json",
+      "bytes": 853,
+      "sha256": "7f16ce5e87ca5bb7a881ef3f648a2fe7bdd22f409cd24b8a96e37330a7c9a1da"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster01-execution/stdout.log",
+      "bytes": 1989,
+      "sha256": "feec45d2e97dcddf2c150f45a7593a4f2fee3e64d2f95300c34f94e9355750ef"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/release01/native_job.py",
+      "bytes": 5412,
+      "sha256": "7bcb4c40b66ef6115d5b8ed30eb8e0bd138c651837d4594d747a321103060c7a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/release01/result.json",
+      "bytes": 76310,
+      "sha256": "4f58cade211f47ed933aacab4544bcc9b90aa77b1308c6b4d5c2a392b2bd054d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/release01/scaf_trial.cpp",
+      "bytes": 4576,
+      "sha256": "75ae9c622fdebbdebf5cfadf051487d22012f3d0c967a6a87f0dfad86ebe5e20"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/release01/state.json",
+      "bytes": 5472,
+      "sha256": "93737326aa987c233ef49a9ed28dc66084f24415a350bd1a893d56916923772f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/release01/stdout.log",
+      "bytes": 37,
+      "sha256": "350ee3bff26f9cda8ef7de68486cd04eb4891273f1b021b49aa3c5822b11fb67"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output/meta.json",
+      "bytes": 993,
+      "sha256": "a130004d5f3262387324bd5440a99ad04eb2301938af24fec9ae14479be230f3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output/x.tif",
+      "bytes": 2982382,
+      "sha256": "fb59899027a06a94d23fac0ab9d4250f8374bc055cdba13c0f265453a754bf02"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output/y.tif",
+      "bytes": 2982382,
+      "sha256": "fac415aa5a3134746079f86c71bfe7a1a89f89ed94be6a382a0bd18f26dca9cc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output/z.tif",
+      "bytes": 2982382,
+      "sha256": "0839b50f0ac469199e9d4208eecc6bf25d0d8c7aa9fca4430779309cbc713be5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output.obj_components.json",
+      "bytes": 3533,
+      "sha256": "063a11f3c02950a3d77cf723b07bf1bee000f9ebc978df8ea9f5ac2dd8acca00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output.obj_uv_diagnostics.json",
+      "bytes": 22157533,
+      "sha256": "b710235f77fe5cd452ddb14beec1088a99a96f732a2b77701683dff2aee38f00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output_component_108248_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "f6a212c258c217d5fbfd51f5143b300c07b82eacd66366344b77d9d166922936"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output_component_158916_energies_flatboi.txt",
+      "bytes": 664,
+      "sha256": "2baa4fa8835d14b8178455ce62d9851f38911fe652e155bfe22c9a60c4252445"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output_component_249232_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "c4de21769e23e812d080bb86320e34d79d9bc04c9458c2c8f9203c5593020ac6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "f37188cf8c1c6d5aa65c689042513cb2ed72dc902498e1b602f96ac8434aa190"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output_heat_kappa.png",
+      "bytes": 55968,
+      "sha256": "189ba6b0e97ba211eb8c96bcc1caa88bfc734c7032e8cc5e2e7f9402f21e2cbc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output_heat_L2.png",
+      "bytes": 59840,
+      "sha256": "1e12ea356a2508504e82a3fcb1840ca01d3c2fd94b2715704a96e725a28b1be5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output_heat_Linf.png",
+      "bytes": 56189,
+      "sha256": "d5590d436c5b17925e27a7e2f5119d704146b8f342bc5e81e3714107315bc983"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output_heat_logarea.png",
+      "bytes": 72198,
+      "sha256": "bb0744014098a2783a0fa34de4d1a4975af4fad1baeab27179495a2c5de4dd4c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output_heat_ranges.txt",
+      "bytes": 246,
+      "sha256": "79abd70bf473f3c664d7b48668631a0b9109db0fd487d686870f0697a2d51fcc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/raster_trace.json",
+      "bytes": 3184089,
+      "sha256": "03ba9c712328442292c0c0aaf44f4c4be9b2f146f9d1e503dbbc5a1a9e8083c4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/runner.py",
+      "bytes": 4857,
+      "sha256": "08cb789e6ea28cbf720085c753b393b50592508965550f9580dfafa3921a98e5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/state.json",
+      "bytes": 4112,
+      "sha256": "9c2eaf78a071e9585fd1a2f2a8f0f82a24ffa0fe7b3456666bfa58808c3097be"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/stdout.log",
+      "bytes": 10661,
+      "sha256": "1259ec99b09b13be7b3e7650dd1d6f7a477b9d4b0f76795c5dd45b61d6a01bf3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/uv_override.json",
+      "bytes": 12858959,
+      "sha256": "95438a41ad33f875987e9143976c9e6343b47369f6ad42f765f6482958b6655f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output/meta.json",
+      "bytes": 993,
+      "sha256": "6e65e87c84bf1b3ce9b5ed399903c7d24dbbcf6795478e3aac0c49d378845e78"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output/x.tif",
+      "bytes": 2982382,
+      "sha256": "a4e8640dc58f82a9a610970a7c812afbf81d86a91fb2257fdfdf6a91258d4ece"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output/y.tif",
+      "bytes": 2982382,
+      "sha256": "32f6e43a08927733bd53b9bd5dc56ae4affce7d8a1cb32e62684ec6e5322cf00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output/z.tif",
+      "bytes": 2982382,
+      "sha256": "2284b748bec0a2bbe75508ab83c8fe92de3340b6ee216720cc70f9f6c1315365"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output.obj_components.json",
+      "bytes": 3533,
+      "sha256": "063a11f3c02950a3d77cf723b07bf1bee000f9ebc978df8ea9f5ac2dd8acca00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output.obj_uv_diagnostics.json",
+      "bytes": 22157574,
+      "sha256": "118a76780610f64ffb589d4dc42dc09d1beeb0fa51a27075fd080dc260a3aa18"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output_component_108248_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "f6a212c258c217d5fbfd51f5143b300c07b82eacd66366344b77d9d166922936"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output_component_158916_energies_flatboi.txt",
+      "bytes": 664,
+      "sha256": "2baa4fa8835d14b8178455ce62d9851f38911fe652e155bfe22c9a60c4252445"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output_component_249232_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "c4de21769e23e812d080bb86320e34d79d9bc04c9458c2c8f9203c5593020ac6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "f37188cf8c1c6d5aa65c689042513cb2ed72dc902498e1b602f96ac8434aa190"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output_heat_kappa.png",
+      "bytes": 55968,
+      "sha256": "189ba6b0e97ba211eb8c96bcc1caa88bfc734c7032e8cc5e2e7f9402f21e2cbc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output_heat_L2.png",
+      "bytes": 59840,
+      "sha256": "1e12ea356a2508504e82a3fcb1840ca01d3c2fd94b2715704a96e725a28b1be5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output_heat_Linf.png",
+      "bytes": 56189,
+      "sha256": "d5590d436c5b17925e27a7e2f5119d704146b8f342bc5e81e3714107315bc983"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output_heat_logarea.png",
+      "bytes": 72198,
+      "sha256": "bb0744014098a2783a0fa34de4d1a4975af4fad1baeab27179495a2c5de4dd4c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output_heat_ranges.txt",
+      "bytes": 246,
+      "sha256": "79abd70bf473f3c664d7b48668631a0b9109db0fd487d686870f0697a2d51fcc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/raster_trace.json",
+      "bytes": 3184097,
+      "sha256": "2f3b6673160a9113cc27bb38060720a2ce4bacba0317d0b120a334fbe58e1d30"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/runner.py",
+      "bytes": 4857,
+      "sha256": "08cb789e6ea28cbf720085c753b393b50592508965550f9580dfafa3921a98e5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/state.json",
+      "bytes": 4106,
+      "sha256": "8930aa25b57ce2e16f1674448793bd5ff49674b64e64f8110193943e7fe6794d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/stdout.log",
+      "bytes": 10662,
+      "sha256": "39bc70b2b9d5bf94c22f204ba7076b4764972249a9143933f21bfbbf7779817a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/uv_override.json",
+      "bytes": 12859000,
+      "sha256": "6870c57bdc854f4104a251d2f460c787a09102cca637e9fb2e02e0568e9488fb"
+    },
+    {
+      "path": "research/65-r005-two-pin-release.md",
+      "bytes": 10053,
+      "sha256": "46fb9b24e96a1fccf13fbe3e006c28905dc481f92b5c6c98317016203c517828"
+    },
+    {
+      "path": "research/66-r005-pin-release-verification.md",
+      "bytes": 8208,
+      "sha256": "7568c5f99bdcd78f36930f469ee08f7dc409cd4fb75d99634ca7b7c4768ff43b"
+    }
+  ],
+  "external_files": []
+}

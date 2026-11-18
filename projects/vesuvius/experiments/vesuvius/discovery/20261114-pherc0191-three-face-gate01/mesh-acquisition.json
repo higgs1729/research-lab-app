@@ -1,0 +1,74 @@
+{
+  "fit_revision": "63c641ba1dc794073208c24f7f88fa59c4f77621",
+  "responses": [
+    {
+      "file": "mesh/w052/x.tif",
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w052/x.tif",
+      "bytes": 57254,
+      "sha256": "d4035e68506895711e7fdc296ed306e3966868e5449c852dcf56538acf6b33c3",
+      "git_blob": "4cdd1dfde36befdabad53442a6da388e354baf2a"
+    },
+    {
+      "file": "mesh/w052/y.tif",
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w052/y.tif",
+      "bytes": 57254,
+      "sha256": "da7b896cdcffd0083b545ebfb9c4aa824839330e6e16b99a36e9ae4bc1db98a1",
+      "git_blob": "7a51919da8c122e69a1af208331058d44f3005dc"
+    },
+    {
+      "file": "mesh/w052/z.tif",
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w052/z.tif",
+      "bytes": 57254,
+      "sha256": "7b6d7dcbf449f92d3d61770ca0bf63f4ecc7293f9bbf355d87105daa60ac05f1",
+      "git_blob": "7e396e641e8acb6b53cb7b751161a00ca471f8a1"
+    },
+    {
+      "file": "mesh/w053/x.tif",
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w053/x.tif",
+      "bytes": 58374,
+      "sha256": "89bd67ca135278f15b60a37469c12d687636ec454ea74a1dd80202f323cb545e",
+      "git_blob": "da3d79398370ae4b22ebd97c3d846011123dc184"
+    },
+    {
+      "file": "mesh/w053/y.tif",
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w053/y.tif",
+      "bytes": 58374,
+      "sha256": "201e37b6bc727af72a21a1b848d199ff52408def3aa00e704b75c1cf2e48b173",
+      "git_blob": "d97c5ddca9b021d02375037f5cc68844044522b6"
+    },
+    {
+      "file": "mesh/w053/z.tif",
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w053/z.tif",
+      "bytes": 58374,
+      "sha256": "f985bf8cef93427e8f713c63621aa1887e71432a860c76abf9de38d5854201b2",
+      "git_blob": "6733034d7d391ddfbada1d846b8c40ed98c0d3ec"
+    },
+    {
+      "file": "mesh/w054/x.tif",
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w054/x.tif",
+      "bytes": 59494,
+      "sha256": "19028134baee12db96f3343982f7e250dfa48a349be1265dcac711d17ca2243b",
+      "git_blob": "7197ff45b10e8431cb3a8b2c6beef96853311b35"
+    },
+    {
+      "file": "mesh/w054/y.tif",
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w054/y.tif",
+      "bytes": 59494,
+      "sha256": "077491e00eda7d449e13ce31e97d81f7bbf23f4ee8693b3d36b14f5017cc88cb",
+      "git_blob": "cc637788bb2190a0047cecf47e30f6c8cf2772bb"
+    },
+    {
+      "file": "mesh/w054/z.tif",
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w054/z.tif",
+      "bytes": 59494,
+      "sha256": "ce91dd6895028cb679d428d7d9f4c0ff068baa179f2e656bd51d223c755e9e70",
+      "git_blob": "67ecdb7538b05998a28243e7f9d56171a5d5f065"
+    }
+  ],
+  "seconds": 3.4623579000035534,
+  "ct_voxel_bytes": 0,
+  "disk": {
+    "c_free_bytes": 23489826816,
+    "work_bytes": 533987
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "date_utc": "2026-11-15",
+  "reviewer": "root lead, independent of executing agent",
+  "reviewed_images": [
+    "review/studio-forward-raw.png",
+    "review/studio-reverse-raw.png",
+    "review/native-quadrant-00.png",
+    "review/native-quadrant-01.png",
+    "review/native-quadrant-10.png",
+    "review/native-quadrant-11.png"
+  ],
+  "numeric_verification": "lead-output-check.json: all 651 input rows and 256 GPU normalization values checked; known CPU maximum absolute difference 9.238719940185547e-7; independently assembled outputs maximum difference 1.578367280208326e-7",
+  "display_verification": "lead-display-check.json: 9 native images, 10246401 pixels and all 36 contact panels checked; maximum display difference 0 DN",
+  "observations": [
+    "Forward Studio output contains strong isolated rounded or filled responses, including near the lower crop boundary; these do not form a coherent sequence of strokes or text line.",
+    "Weak angular and hook-shaped responses in the upper half are diffuse and insufficient to select a follow-up glyph candidate.",
+    "Reverse input produces weaker diffuse responses and isolated blobs, without a selected coherent glyph or line.",
+    "Reader and Hecate same-XY comparisons do not establish independent confirmation: their depth input and normalization differ, and shared responses may reflect common image structure."
+  ],
+  "selected_roi_count": 0,
+  "confirmed_new_letters": 0,
+  "decision": "Close model-comparison work on this fixed PHerc0800 window under the predeclared ROI-zero rule. Select a new evidence-backed intervention rather than additional same-window model or depth sweeps.",
+  "limits": [
+    "This is not evidence that the entire scroll or even this window contains no ink.",
+    "A high model response is not a calibrated probability of ancient ink.",
+    "PHerc0800 native slice orientation relative to model-facing surface normal remains unverified; both orders of the same fixed 16 slices were tested, without selecting an orientation post hoc.",
+    "No overall model accuracy ranking, new discovery, or external validation is claimed."
+  ]
+}

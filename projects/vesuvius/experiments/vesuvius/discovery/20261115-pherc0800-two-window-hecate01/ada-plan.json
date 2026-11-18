@@ -1,0 +1,49 @@
+{
+  "controller_sha256": "83804ee0196d65276aaee6edd5ac818ef18caa35ad27c2efcc7081ea81f18933",
+  "run01_plan_sha256": "cb4868edfb86070898ddf3d21519ddf663159db556da074598e3e2cf7297b609",
+  "run01_input_bundle_sha256": "9b58383e8b8475af35fb0289f1efdd8ff6bcd4b14d40cacbeda32122eaafb682",
+  "gpu": "NVIDIA RTX 4000 Ada Generation",
+  "gpu_memory_gb": 20,
+  "max_compute_hourly_usd": 0.29,
+  "operational_budget_usd": 0.2,
+  "absolute_lifetime_sec": 1500,
+  "expected_cost_usd_at_8_to_15_min_and_0_28_hourly": [
+    0.04,
+    0.08
+  ],
+  "maximum_estimated_usd_at_25_min": {
+    "rate_0_28": 0.1178240741,
+    "rate_0_29": 0.1219907407
+  },
+  "input_archive_bytes": 10870609,
+  "input_archive_sha256": "1cc5619e449455a2f1db2faaecf2e18dccabc9a143656ecc97b0c6e9fd002e22",
+  "upload_exec_chunks": 74,
+  "archive_member_hashes": {
+    "hecate.py": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+    "patch-contract.json": "c908465ab382fe0fc90df3448293af2ee911d0f5f515b3a9b726d34e75920c0b",
+    "cpu-reference.json": "2690bb0185b04f297b58dc3dbeef5b1fd5cde8cbc8c5576cde52de21ab4d2f79",
+    "pair_worker.py": "a0da4dc3b44b6f2010d1ff793acb4fbe19aaa56891bf0b42951ec2ac5fc51846",
+    "r208_runtime.py": "e45c8c14e70d12bfed19e329ed0b3ee257bd627358c59e308acc91d2c6539db3",
+    "mesh4.npy": "d727bb86bfdd241d212cd6fce61bcc2c2bb88a64e4cca1d13145a13ce1eda14d",
+    "cpu-mesh4-forward.npy": "d6970d550222f977be070d8244b469dc412849c53cf06f858bd9b4275bba22d9",
+    "cpu-mesh4-reverse.npy": "58df5f3e1ac5f6db722e8c7720c25d35a98e1e199c9e229aea3b58903b2db73a",
+    "mesh5.npy": "08c5c45ee037b02ebf465bd530b0fa32d833bcf410cc85cd6f18c933d24150bf",
+    "cpu-mesh5-forward.npy": "6c174cdd6744bd5b22db39478e31e7796aa5958c93030345fbc0c0b22e185c21",
+    "cpu-mesh5-reverse.npy": "18ff4867b0c06282ccacc40bcb964afc755e2f4c2513108e804f3dee13fc0767",
+    "fixed-assets.json": "e4dfba23dcd136ecddb095d37a9eef2bd47d87ce15411f4ee9596c94d4eac30d",
+    "pod_work.py": "ff69269d1756887f77f13c8149e652ce1de00c551c0fe9a6eccf3d1d259ba40c"
+  },
+  "runtime_files": {
+    "fixed-assets.json": "e4dfba23dcd136ecddb095d37a9eef2bd47d87ce15411f4ee9596c94d4eac30d",
+    "pod_boot.py": "a4bbadea5e23c47a410dbf6c3cf5b74bc7ef462acba6e9b863bcca0ee981805d",
+    "run_once.py": "d3bd86132ff13935bb465c27c6cd7bbbde6ea2bcb3b2c85221d2c8505e27f882"
+  },
+  "previous_create": {
+    "http_status": 400,
+    "owned_pods_observed": 0,
+    "name": "r219-hecate-7a311283ffd8bcc8"
+  },
+  "additional_create_attempt_limit": 1,
+  "same_worker_model_inputs": true,
+  "network_calls": 0
+}

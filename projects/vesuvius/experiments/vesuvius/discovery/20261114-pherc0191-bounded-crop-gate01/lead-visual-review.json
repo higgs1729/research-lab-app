@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-14T14:27:07.269252+00:00",
+  "reviewer": "root",
+  "views": [
+    "sections/z11760-x256-marked.png",
+    "sections/z11760-x1024-marked.png",
+    "sections/z11760-x1792-marked.png",
+    "sections/z11952-x256-marked.png",
+    "sections/z11952-x1024-marked.png",
+    "sections/z11952-x1792-marked.png",
+    "sections/z12240-x256-marked.png",
+    "sections/z12240-x1024-marked.png",
+    "sections/z12240-x1792-marked.png"
+  ],
+  "view_scope": "All9 sites, each2 oriented raw-DN planes at5x nearest-neighbor with separately marked mesh intersections. Rank-blind or outcome-blind evaluation is not claimed.",
+  "central_column_observations": {
+    "z11760": "Granular/curved structures. w052 and w053 lie in poorly resolved broad material; w054 sits close to a small bright irregular feature/boundary. Cannot assign each point to a distinct traceable lamina across both views.",
+    "z11952": "w052 lies within the broad continuous dark band in both views. w053 and w054 are close to the band border/nearby weak structure; clear individual lamina attribution is not established.",
+    "z12240": "w052 approaches a narrow bright oblique structure. w053 lies inside a broad dark interval in both views. w054 lies at the dark interval border; an identifiable layer through the point is uncertain."
+  },
+  "other_sites": "Viewed all6 flanking sites. z11760-x256 has narrow vertical dark gaps; z11760-x1792 crosses curved bright/dark bands. At z11952-x1792 w052 is near a bright localized inclusion. Other flank views remain irregular/curved and do not resolve the required central-column failures.",
+  "per_face": {
+    "w052": "Fails mandatory central3: z11952 not supported as a traceable papyrus lamina.",
+    "w053": "Fails mandatory central3: z12240 lies within a dark interval; earlier center not clear.",
+    "w054": "Mandatory central3 not established; uncertain boundary assignments at multiple centers."
+  },
+  "retained_faces": [],
+  "decision": "Do not launch conditional wide Hecate inference on these fixed uncorrected crops. This is a physical-correspondence/eligibility failure, not an ink-negative result. No surface correction or new angle/ROI rescue in this study.",
+  "limitations": "Finite sampled cross-sections and CT contrast constrain judgement; these observations do not establish the status of the entire scroll or all of this fit."
+}

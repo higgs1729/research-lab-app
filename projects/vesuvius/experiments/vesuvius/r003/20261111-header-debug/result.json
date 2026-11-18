@@ -1,0 +1,30 @@
+{
+  "copied": {
+    "command": [
+      "wsl.exe",
+      "--exec",
+      "g++",
+      "-std=c++20",
+      "-fsyntax-only",
+      "-I",
+      "/mnt/d/kensyoukin-work/r003-build/reader/include",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-header-debug/probe.cpp"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 3.1369890000205487
+  },
+  "forwarded": {
+    "command": [
+      "wsl.exe",
+      "--exec",
+      "g++",
+      "-std=c++20",
+      "-fsyntax-only",
+      "-I",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-header-debug/forward/include",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-header-debug/probe.cpp"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.792264099989552
+  }
+}

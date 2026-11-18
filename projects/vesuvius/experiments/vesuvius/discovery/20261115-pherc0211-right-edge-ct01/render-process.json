@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\render_sections.py",
+    "--verify-existing"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-15T12:24:20.146086+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "completed_utc": "2026-11-15T12:24:39.631660+00:00",
+  "elapsed_seconds": 19.485222099989187,
+  "max_rss_bytes": 51191808,
+  "user_cpu_seconds": 1.453125,
+  "sys_cpu_seconds": 0.46875
+}

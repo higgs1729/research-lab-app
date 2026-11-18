@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-refinement-window-control01\\lead_verify.py"
+  ],
+  "started_utc": "2026-11-13T18:20:54.953699+00:00",
+  "completed_utc": "2026-11-13T18:20:55.106420+00:00",
+  "elapsed_seconds": 0.15272770001320168,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 37597184,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 0.109375,
+  "sys_cpu_seconds": 0.109375,
+  "exit_code": 0
+}

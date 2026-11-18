@@ -1,0 +1,17 @@
+{
+  "reviewer": "lead/root",
+  "viewed_before_researcher_CT_interpretation": true,
+  "actually_viewed": "All12 fixed sections, both raw and window images: known_phi and candidate, q25/q50/q75, u-n and v-n;24 native193x65 images. No new contrast, enlargement or position selected.",
+  "known_control": "The origins are near bright or grey layered bands with dark gaps visible beside portions of them. The q25 and q50 bands curve and locally approach other bands; q75 also has several nearby layers. This is a useful local paper-like-band reference, not a proof of one fine physical lamina over an entire surface.",
+  "candidate_observations": [
+    "At q25 the origin is near a layered band. Parts of its boundary can be followed locally in both directions, but waviness and nearby contacts make longer association less clear.",
+    "At q50 the u-normal section has a dense junction or merging region near/right of the origin. The v-normal section shows a locally extended band near the origin with a darker gap below parts of it, but crowded structure above and toward the right leaves fine layer choice uncertain.",
+    "At q75 the origins are near a comparatively distinct curved band with a dark interval alongside a substantial portion in both sections. The u-normal section also contains a bright spot farther right. These are paper structures, not directly identified ink."
+  ],
+  "interpretation": "The selected rendering positions are near local paper-like layered material rather than obvious empty space. There is some local support, particularly at q75, but these12 planes do not show that the same single physical lamina is followed across all three anchors and the full ROI. q50 contact/crowding is a material limitation. The straight tangent sections are not expected to follow the full curved sheet.",
+  "decision_before_joint_review": "Retain the R239 response as an unconfirmed candidate with partial local CT support, without promoting it to verified ink, a readable letter, or a verified same-sheet row. End this fixed local CT observation; do not add sections/depths/keys to rescue it. Choose the next task after comparing independent reviews, with provenance or a different evidence type rather than another local CT sweep.",
+  "entire_ROI_single_physical_sheet_established": false,
+  "ink_or_letter_established": false,
+  "novelty_established": false,
+  "new_letters": 0
+}

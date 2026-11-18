@@ -1,0 +1,17 @@
+{
+  "utc": "2026-11-13T11:58:59.573316+00:00",
+  "package": "deliverables/vesuvius/grid-preserving-supplement-20261113",
+  "zip": "deliverables/vesuvius/grid-preserving-supplement-20261113.zip",
+  "zip_bytes": 66215,
+  "zip_sha256": "df7e8ed44897d9d1b02b6528c2681758eb4404d2a6e2af97bb8f39346cd0d926",
+  "manifest_sha256": "db906eed02b827a424c493d74e51fd894fb389077923b4a1ea02bdaa8faad252",
+  "files_including_manifest": 22,
+  "zip_crc_and_all_bytes_match": true,
+  "package_relative_links_checked": 18,
+  "result_summary_fields_match_frozen_evidence": true,
+  "no_private_paths_found_in_package_text": true,
+  "new_native_runs": 0,
+  "new_builds": 0,
+  "new_network_bytes": 0,
+  "cost_jpy": 0
+}

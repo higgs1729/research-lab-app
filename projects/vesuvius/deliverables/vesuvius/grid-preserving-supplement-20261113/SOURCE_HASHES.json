@@ -1,0 +1,70 @@
+{
+  "upstream_commit": "14d4e725df8b569e6fc8ceb3c04d130f705c1565",
+  "upstream_file_blobs": {
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6",
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "4c6f3a3c6915985bbe56e30e4993ef9d715ead26",
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": "8a066104309f320d52f563c578ee81c171c38d51",
+    "volume-cartographer/libs/flatboi/flatboi.cpp": "2dcf5981008e6b68b8c29ef7e083fc769f40e163"
+  },
+  "upstream_file_sha256": {
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp": "2d315d553b698943c15fad0021da3b75a5c1d5ebd03c005c1b66f3c16fe52798",
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "a32b0045134b4a56737991ec6b7a682efed66fc89b1ae74164e0ed80bef1453c",
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": "761265e6ef324127193e09577acbbdb90c0055df9a974d7c3631f6c5246f2462",
+    "volume-cartographer/libs/flatboi/flatboi.cpp": "7dffb8e27f4a3debbb7f530baaa673d0356af03e2e39a6f22355314ee1624ff6"
+  },
+  "after_legacy_pack_sha256": {
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "a32b0045134b4a56737991ec6b7a682efed66fc89b1ae74164e0ed80bef1453c",
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": "761265e6ef324127193e09577acbbdb90c0055df9a974d7c3631f6c5246f2462",
+    "volume-cartographer/libs/flatboi/flatboi.cpp": "20cc44404ccce6a04024c73cf65cb7ab5fc3ee9fc3169ff799b1a61899bd06a2"
+  },
+  "after_preserve_grid_product_sha256": {
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "8e8b41004bd62159348f3a854dfcb2cdb86fdca30d19af1863719f81aacb2776",
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": "dcc75e14768d321a4eaa7110950396a8a7574bb1fc8e6ad9414ead3113793978",
+    "volume-cartographer/libs/flatboi/flatboi.cpp": "00b682f7956108c75c048e32d96a28cd0bd4f536ad66de47483cf029931bb0ae"
+  },
+  "after_optional_flatboi_observation_sha256": {
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "8e8b41004bd62159348f3a854dfcb2cdb86fdca30d19af1863719f81aacb2776",
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": "f4402031f861a814e6eb393e81552debefdb94d2cc90853fbc73dae74c006e2a",
+    "volume-cartographer/libs/flatboi/flatboi.cpp": "48d8f3bbbd4aa45b3300b9ea61904f5d8546bb56aad462cbfd91670f352cbdb7"
+  },
+  "after_optional_renderer_observation_sha256": {
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp": "413bd6a43dd792337fc74ff3d065744547a731a0f8d3371f00aa307ceeaefe77"
+  },
+  "recorded_build01_source_sha256": {
+    "product": {
+      "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "8e8b41004bd62159348f3a854dfcb2cdb86fdca30d19af1863719f81aacb2776",
+      "volume-cartographer/core/src/SurfaceMeshing.cpp": "05895559beff8425bf8c683cc7a3322131238ff18e3321042fcd7707216ca37e",
+      "volume-cartographer/libs/flatboi/flatboi.cpp": "00b682f7956108c75c048e32d96a28cd0bd4f536ad66de47483cf029931bb0ae"
+    },
+    "trace": {
+      "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "8e8b41004bd62159348f3a854dfcb2cdb86fdca30d19af1863719f81aacb2776",
+      "volume-cartographer/core/src/SurfaceMeshing.cpp": "0b9fba5d13cc34420cf15d82965a1739c5d9a797a9bd33b2bc2e11c6764b99b6",
+      "volume-cartographer/libs/flatboi/flatboi.cpp": "48d8f3bbbd4aa45b3300b9ea61904f5d8546bb56aad462cbfd91670f352cbdb7"
+    }
+  },
+  "comment_encoding_preprocessor_check": {
+    "product": {
+      "preprocessed_sha256_before": "9f881eeb412b4563d318e2972bb63d86b17bc86c3eff4e6e7157894c9f0545ba",
+      "preprocessed_sha256_after": "9f881eeb412b4563d318e2972bb63d86b17bc86c3eff4e6e7157894c9f0545ba"
+    },
+    "trace": {
+      "preprocessed_sha256_before": "a4fc1e197130500fd5c61f4ac8d76213f5f314104cf34bf01fbb98c0cca18c67",
+      "preprocessed_sha256_after": "a4fc1e197130500fd5c61f4ac8d76213f5f314104cf34bf01fbb98c0cca18c67"
+    }
+  },
+  "recorded_binary_sha256": {
+    "product_flatboi": "4a7095c75418d8866dc376cf6d68856b478c242eb198635b92d8956bfc29aa5c",
+    "observed_flatboi": "43e77083187f03a7a34262d3fb98126cad786696b7f667cff3960619795b7846",
+    "observed_ct_renderer": "7b4232a2356deca215ceaa8d072a7673023db8a5c2bfd90959dcb6c233ee9927"
+  },
+  "product_patches_order": [
+    "patches/01-pack-components.patch",
+    "patches/02-preserve-grid.patch"
+  ],
+  "product_and_observation_patch_sha256": {
+    "patches/01-pack-components.patch": "579beabe7377499bf91a654ac0931b786a11314a3a3298bf6d934ca9643926d8",
+    "patches/02-preserve-grid.patch": "798bbeb57c9c991e7a09a7138bac886848ca7be776210d7733f57a25d54a3c8c",
+    "diagnostics/flatboi-observation.patch": "64c816862c48c3360f79bab91d5add5a7d6ddfc16770eff24f4c2db7ee1e8103",
+    "diagnostics/renderer-observation.patch": "9a93bb438251f7383388e677e05c1098531a6b7b01da726af8f4ef8a270d6083"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-11-15T07:18:56.160413+00:00",
+  "pids_absent": [
+    47312,
+    49912
+  ],
+  "status": {
+    "requested_utc": "2026-11-15T07:18:47.671772+00:00",
+    "observed_utc": "2026-11-15T07:18:56.159809+00:00",
+    "vram_total_gib": 8.0,
+    "vram_used_gib": 1.38,
+    "available_physical_bytes": 12875108352,
+    "c_free_bytes": 14353186816,
+    "lane_available_ram_gib": 12.0,
+    "margins": {
+      "vram_gb": 1.0,
+      "mem_gb": 4.0
+    },
+    "jobs": [],
+    "tickets": [],
+    "reservation": null,
+    "comfy_running": false,
+    "gpu_stuck": null
+  },
+  "resource_mutations": 0
+}

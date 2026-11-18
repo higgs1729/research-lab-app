@@ -1,0 +1,21 @@
+{
+  "status": "proposal only; parent chooses and must freeze actual coordinates/support before next study",
+  "one_question": "Can a short 3D CT bridge distinguish continuation of the band near U2 toward U3/U5 from the separated L1 branch?",
+  "target": "Same existing candidate; U2/U3/U5 and their connecting region, no new candidate search",
+  "intervention": "A bounded local 3D CT tracing view across the gap in L1 support, with two predeclared seed hypotheses: V5Rc d0 and the L1 proxy branch observed at U5 about+17.135vx. Follow a connected band through adjacent tangential sections and require it to agree in orthogonal views; do not recenter at each brightest normal voxel.",
+  "data": "Only R226 existing73 raw CT chunks. Use native voxel-aligned planes and a short fixed adjacent-slice stack; exact plane count/ROI and cache-key subset need design review before execution. No new lane generation/m7 inference/weights/rawCT.",
+  "why_new": "R226 showed only individual orthogonal planes and normal curtains; R227 identifies a concrete alternative branch and a missing correspondence at U3. The trial asks local 3D continuity instead of comparing distant nominal lane names.",
+  "decision": "If a continuous lamina cannot be followed without choosing ambiguous crossings, stop this geometry route and leave candidate unresolved. If one link is clear in multiple views, retain only that local link; no automatic global correction or ink claim.",
+  "expected_resources": {
+    "new_download_bytes": 0,
+    "local_cpu_cores": 1,
+    "commit_bytes": 4294967296,
+    "compute_seconds_limit": 300,
+    "visual_minutes_estimate": [
+      10,
+      20
+    ],
+    "cost_usd": 0
+  },
+  "alternative_not_chosen": "Author z6900 band is in the right Z range but no original w074 result or compatible saved crossings were located. Rebuilding it would be a separate GPU/segmentation study, outsideR227; do not invent coordinates or contact author."
+}

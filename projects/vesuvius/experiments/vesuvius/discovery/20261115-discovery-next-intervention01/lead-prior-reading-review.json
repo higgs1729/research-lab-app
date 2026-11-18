@@ -1,0 +1,12 @@
+{
+  "checked_utc": "2026-11-15T07:42:41.233178+00:00",
+  "image_sha256": "0fed7652601dd5a557e860722e69bb912d49f6a7a5311ea6641b114cc69682ef",
+  "image_header_visually_read": true,
+  "header_declared_main_image_offset_xy": [
+    1713,
+    1062
+  ],
+  "header_identifies_human_tracing_not_model_output": true,
+  "readme_correction_checked": "RELEASE_NOTES.md corrects the source image header: tracing did participate in checks/selection, despite the older never-chose-a-model wording.",
+  "interpretation": "The mapped white-stroke extent is useful for describing this one published tracing. Its absence in the upper selected rectangle is not proof of novelty or lack of prior human examination; the tracing is not a pixelwise ink ground truth."
+}

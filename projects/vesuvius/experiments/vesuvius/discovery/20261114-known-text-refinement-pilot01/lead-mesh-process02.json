@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-known-text-refinement-pilot01\\lead_mesh_check.py"
+  ],
+  "started_utc": "2026-11-13T18:53:19.093093+00:00",
+  "completed_utc": "2026-11-13T18:53:19.244102+00:00",
+  "elapsed_seconds": 0.1510170999681577,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 42090496,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 0.109375,
+  "sys_cpu_seconds": 0.125,
+  "exit_code": 0
+}

@@ -1,0 +1,10 @@
+{
+  "observer": "r227_independent_face",
+  "date": "2026-11-15",
+  "images_sent_to_parent_before_judgement": true,
+  "upper": "The main z84/z84o curves are absent. L1 gives disconnected pieces: a left part above d0, then a long right part around d+16..+24 that follows a different band region from d0. It does not bridge U3. This is not proof that L1 is the intended sheet or that V5Rc hops sheets.",
+  "known": "z84/z84o and R1 are near d0 over much of the known ring section; the right edge spreads. CT has neighboring bands and dark cavity, so proximity does not certify a sheet.",
+  "judgement": "Published lane evidence is usable at the known control but provides no main-pair support on the selected upper rays. Candidate remains unresolved; unavailable support is not a false-ink finding.",
+  "confirmed_new_letters": 0,
+  "mask_or_mesh_correction": false
+}

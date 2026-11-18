@@ -1,0 +1,25 @@
+{
+  "exit_code": 1,
+  "output_previously_absent": true,
+  "output_manifest": {
+    ".zgroup": {
+      "bytes": 19,
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+    },
+    "0/.zarray": {
+      "bytes": 330,
+      "sha256": "3aa6350bec7cf3a0dfb80c66d42e3f408dd2e2a800c2c588d0c853329cb9e863"
+    },
+    "0/0/0/0": {
+      "bytes": 1654580,
+      "sha256": "43d386e277729257daea4500d27d3f4d1ed9592c106ef6b9c2f02c660e464d65"
+    }
+  },
+  "L0_matches_normal": true,
+  "levels_with_metadata": [
+    0
+  ],
+  "log": "\n  tile 1/1 (100%)  0.1 tiles/s  0m06s  eta 0m00s\n\nError: no Zarr array to write at /mnt/c/dev/kensyoukin/.work/r009-resume-reproduction01/fresh01/new.zarr/1\nAccumulation: 2 samples/slice at step 0.5000 (mean)\nzarr dataset size for group 0 [19390 5784 5784 ]\nSource dtype: uint8\nchunk shape [128 128 128 ]\nVoxel size (command line): 9.362 micrometer\nSurface interpolation: bicubic\nRendering: /mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output -> /mnt/c/dev/kensyoukin/.work/r009-resume-reproduction01/fresh01/new.zarr (zarr)\nds_level=0 ds_scale=1 sA=1 Pg=1 render_scale=1\nrendering 128x128 at scale 1 crop [128×128 from (7356,2272)]\n[pyramid] building from L0...\n",
+  "new_ct_bytes": 0,
+  "additional_cloud_cost_jpy": 0
+}

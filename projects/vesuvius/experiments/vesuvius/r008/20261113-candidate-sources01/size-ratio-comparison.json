@@ -1,0 +1,825 @@
+{
+  "kind": "arithmetic over published coefficients, no image or CT comparison",
+  "source": "reporter-correct_shifts_shifts.json",
+  "coordinates": "p=(row,col) in level-0 label/HF65 pixels; q=(row,col) in full-resolution TIFXYZ pixels",
+  "equations": {
+    "full": "q = p + a + G p",
+    "existing": "q ≈ D p + o, D = diag(H/h,W/w)",
+    "midpoint": "c = (h/2,w/2), o = a + (I+G-D)c",
+    "corners": "max ||(I+G-D)(p-c)||₂ for p in {0,h} x {0,w}"
+  },
+  "ignores": [
+    "raster half-pixel conventions",
+    "rounding and label boundaries",
+    "imperfect registration fit",
+    "mesh transfer mapping differences"
+  ],
+  "rows": [
+    {
+      "key": "c013",
+      "segment": "w013_20240304141531_2um",
+      "canvas_hw": [
+        42567,
+        80157
+      ],
+      "tifxyz_full_hw": [
+        42567,
+        80157
+      ],
+      "source_translation_yx": [
+        -19.6756,
+        -19.6744
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -19.6756,
+        -19.6744
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "c018",
+      "segment": "w018_20240304144031_2um",
+      "canvas_hw": [
+        42632,
+        98362
+      ],
+      "tifxyz_full_hw": [
+        42632,
+        98362
+      ],
+      "source_translation_yx": [
+        -19.64,
+        -19.64
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -19.64,
+        -19.64
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "c023",
+      "segment": "w023_20240304161941_2um",
+      "canvas_hw": [
+        41977,
+        102619
+      ],
+      "tifxyz_full_hw": [
+        41977,
+        102619
+      ],
+      "source_translation_yx": [
+        -19.6449,
+        -19.6183
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -19.6449,
+        -19.6183
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "c028",
+      "segment": "w028_20251208130119156_2um",
+      "canvas_hw": [
+        37852,
+        30583
+      ],
+      "tifxyz_full_hw": [
+        37852,
+        30583
+      ],
+      "source_translation_yx": [
+        -19.6489,
+        -19.6137
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -19.6489,
+        -19.6137
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "c029v",
+      "segment": "w029_20251212185248662_2um",
+      "canvas_hw": [
+        38310,
+        31630
+      ],
+      "tifxyz_full_hw": [
+        38310,
+        31630
+      ],
+      "source_translation_yx": [
+        -19.7097,
+        -19.6583
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -19.7097,
+        -19.6583
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "c031",
+      "segment": "w031_2025122323_2um",
+      "canvas_hw": [
+        39031,
+        31696
+      ],
+      "tifxyz_full_hw": [
+        39031,
+        31696
+      ],
+      "source_translation_yx": [
+        -19.6903,
+        -19.7011
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -19.6903,
+        -19.7011
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "b0009",
+      "segment": "auto_grown_20250919055754487_inp_hr_2um",
+      "canvas_hw": [
+        25984,
+        21248
+      ],
+      "tifxyz_full_hw": [
+        25984,
+        21248
+      ],
+      "source_translation_yx": [
+        -19.5378,
+        -19.5641
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -19.5378,
+        -19.5641
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "t016",
+      "segment": "w016_2025010815",
+      "canvas_hw": [
+        28940,
+        27228
+      ],
+      "tifxyz_full_hw": [
+        28940,
+        27228
+      ],
+      "source_translation_yx": [
+        -19.6006,
+        -19.6272
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -19.6006,
+        -19.6272
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "t017",
+      "segment": "w017_2025010815",
+      "canvas_hw": [
+        28784,
+        27460
+      ],
+      "tifxyz_full_hw": [
+        28784,
+        27460
+      ],
+      "source_translation_yx": [
+        -19.6242,
+        -19.5979
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -19.6242,
+        -19.5979
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "t028",
+      "segment": "w028_20260115221",
+      "canvas_hw": [
+        23680,
+        31744
+      ],
+      "tifxyz_full_hw": [
+        23680,
+        31744
+      ],
+      "source_translation_yx": [
+        -19.6949,
+        -19.643
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -19.6949,
+        -19.643
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "t029",
+      "segment": "w029_202601261946",
+      "canvas_hw": [
+        23339,
+        31896
+      ],
+      "tifxyz_full_hw": [
+        23339,
+        31896
+      ],
+      "source_translation_yx": [
+        -19.6171,
+        -19.6265
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -19.6171,
+        -19.6265
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "t030",
+      "segment": "w030_202601301912",
+      "canvas_hw": [
+        23105,
+        32363
+      ],
+      "tifxyz_full_hw": [
+        23105,
+        32363
+      ],
+      "source_translation_yx": [
+        -19.6099,
+        -19.6138
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -19.6099,
+        -19.6138
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "t035",
+      "segment": "w035_2026031718",
+      "canvas_hw": [
+        22640,
+        20000
+      ],
+      "tifxyz_full_hw": [
+        22640,
+        20000
+      ],
+      "source_translation_yx": [
+        30.837,
+        -49.1208
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        30.837,
+        -49.1208
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "t039",
+      "segment": "w039_2026030210",
+      "canvas_hw": [
+        33040,
+        30080
+      ],
+      "tifxyz_full_hw": [
+        33040,
+        30080
+      ],
+      "source_translation_yx": [
+        30.7287,
+        -49.2584
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        30.7287,
+        -49.2584
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "t040",
+      "segment": "w040_2025083102",
+      "canvas_hw": [
+        24880,
+        31040
+      ],
+      "tifxyz_full_hw": [
+        24880,
+        31040
+      ],
+      "source_translation_yx": [
+        30.659,
+        -49.2966
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        30.659,
+        -49.2966
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "t041",
+      "segment": "w041_2026010816",
+      "canvas_hw": [
+        24080,
+        31360
+      ],
+      "tifxyz_full_hw": [
+        24080,
+        31360
+      ],
+      "source_translation_yx": [
+        30.5899,
+        -49.3177
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        30.5899,
+        -49.3177
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "t043",
+      "segment": "w043_2026011217",
+      "canvas_hw": [
+        23760,
+        31680
+      ],
+      "tifxyz_full_hw": [
+        23760,
+        31680
+      ],
+      "source_translation_yx": [
+        30.7266,
+        -49.1685
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        30.7266,
+        -49.1685
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "t044",
+      "segment": "w044_2026011522",
+      "canvas_hw": [
+        23520,
+        31760
+      ],
+      "tifxyz_full_hw": [
+        23520,
+        31760
+      ],
+      "source_translation_yx": [
+        30.6867,
+        -49.2978
+      ],
+      "source_drift_yx": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        30.6867,
+        -49.2978
+      ],
+      "predicted_max_corner_delta_full_px": 0
+    },
+    {
+      "key": "w00",
+      "segment": "w00_20231016151002",
+      "canvas_hw": [
+        32249,
+        51380
+      ],
+      "tifxyz_full_hw": [
+        32281,
+        51345
+      ],
+      "source_translation_yx": [
+        -20.7,
+        11.09
+      ],
+      "source_drift_yx": [
+        [
+          0.000993,
+          0
+        ],
+        [
+          0,
+          -0.000663
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -20.688371500000095,
+        11.557530000001764
+      ],
+      "predicted_max_corner_delta_full_px": 0.46767459083629576
+    },
+    {
+      "key": "w01",
+      "segment": "w01_20230702185753_r15",
+      "canvas_hw": [
+        65419,
+        56889
+      ],
+      "tifxyz_full_hw": [
+        65698,
+        56669
+      ],
+      "source_translation_yx": [
+        11.51,
+        11.82
+      ],
+      "source_drift_yx": [
+        [
+          0.004263,
+          0
+        ],
+        [
+          0,
+          -0.003876
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        11.450598499999508,
+        11.569118000001573
+      ],
+      "predicted_max_corner_delta_full_px": 0.25781837817641845
+    },
+    {
+      "key": "p4w02",
+      "segment": "w02_20231031143852",
+      "canvas_hw": [
+        34244,
+        44028
+      ],
+      "tifxyz_full_hw": [
+        34277,
+        44005
+      ],
+      "source_translation_yx": [
+        -20.6917,
+        11.8889
+      ],
+      "source_drift_yx": [
+        [
+          0.0009637,
+          0
+        ],
+        [
+          0,
+          -0.0005224
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -20.691228600000386,
+        11.88878639999809
+      ],
+      "predicted_max_corner_delta_full_px": 0.00048489475153835177
+    },
+    {
+      "key": "p4w03",
+      "segment": "w03_20231106155351",
+      "canvas_hw": [
+        34215,
+        50917
+      ],
+      "tifxyz_full_hw": [
+        34250,
+        50888
+      ],
+      "source_translation_yx": [
+        -20.8265,
+        11.7504
+      ],
+      "source_drift_yx": [
+        [
+          0.0010229,
+          0
+        ],
+        [
+          0,
+          -0.0005696
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -20.827238249999734,
+        11.749238400001826
+      ],
+      "predicted_max_corner_delta_full_px": 0.0013763457479387042
+    },
+    {
+      "key": "w05",
+      "segment": "w05_4424",
+      "canvas_hw": [
+        51400,
+        76155
+      ],
+      "tifxyz_full_hw": [
+        51440,
+        76120
+      ],
+      "source_translation_yx": [
+        -42.39,
+        22.93
+      ],
+      "source_drift_yx": [
+        [
+          0.000789,
+          0
+        ],
+        [
+          0,
+          -0.000454
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -42.112700000001766,
+        23.14281500000105
+      ],
+      "predicted_max_corner_delta_full_px": 0.3495504458936782
+    },
+    {
+      "key": "p4w06",
+      "segment": "w06_1321",
+      "canvas_hw": [
+        50978,
+        40538
+      ],
+      "tifxyz_full_hw": [
+        51032,
+        40512
+      ],
+      "source_translation_yx": [
+        -21.2128,
+        11.9266
+      ],
+      "source_drift_yx": [
+        [
+          0.0010593,
+          0
+        ],
+        [
+          0,
+          -0.0006414
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -21.212302299999372,
+        11.926063399999617
+      ],
+      "predicted_max_corner_delta_full_px": 0.0007318776202612352
+    },
+    {
+      "key": "p4w07",
+      "segment": "w07_1619",
+      "canvas_hw": [
+        52637,
+        108467
+      ],
+      "tifxyz_full_hw": [
+        52680,
+        108420
+      ],
+      "source_translation_yx": [
+        -42.2128,
+        23.2259
+      ],
+      "source_drift_yx": [
+        [
+          0.0008169,
+          0
+        ],
+        [
+          0,
+          -0.0004333
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -42.213217350001976,
+        23.226524450002927
+      ],
+      "predicted_max_corner_delta_full_px": 0.0007510784448404457
+    },
+    {
+      "key": "p4w09",
+      "segment": "w09_20230929220926",
+      "canvas_hw": [
+        31986,
+        75710
+      ],
+      "tifxyz_full_hw": [
+        32009,
+        75668
+      ],
+      "source_translation_yx": [
+        -20.6509,
+        11.9885
+      ],
+      "source_drift_yx": [
+        [
+          0.0007191,
+          0
+        ],
+        [
+          0,
+          -0.0005547
+        ]
+      ],
+      "existing_offset_yx_full_px": [
+        -20.65033370000007,
+        11.99033149999916
+      ],
+      "predicted_max_corner_delta_full_px": 0.0019170518868425498
+    }
+  ]
+}

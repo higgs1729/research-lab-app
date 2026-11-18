@@ -1,0 +1,15 @@
+{
+  "reviewer": "root",
+  "native_panel_values_checked": 196608,
+  "all_rgb_channels_match": true,
+  "comparison_metrics_match_independent_aggregation": true,
+  "mae_reduction_fraction": 0.6879931148140133,
+  "visual_observations": [
+    "上中央の明部は縦長からまとまった形へ変化し公開像へ近づいた。",
+    "右下との灰色の連結が弱まり、二つの明部の間の暗い分離が戻った。",
+    "左縁の明部は公開像ほど上まで広がらず、画素や形状の残差がある。"
+  ],
+  "scope": "既知文字の部分領域における再現比較。完全な字形の転写、新文字、未知面での性能は未確認。",
+  "model_forward_calls": 0,
+  "new_download_bytes": 0
+}

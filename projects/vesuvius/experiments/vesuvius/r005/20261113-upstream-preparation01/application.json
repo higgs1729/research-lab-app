@@ -1,0 +1,36 @@
+{
+  "utc": "2026-11-13T10:34:32.757562+00:00",
+  "upstream_main": "14d4e725df8b569e6fc8ceb3c04d130f705c1565",
+  "tested_source_commit": "7ad02f4f6e306b744ef6d2742dfe31fd55713ee5",
+  "upstream_tree_evidence": "experiments/vesuvius/r009/20261113-upstream-preparation01/upstream-tree.json",
+  "source_url": "https://raw.githubusercontent.com/ScrollPrize/villa/14d4e725df8b569e6fc8ceb3c04d130f705c1565/volume-cartographer/libs/flatboi/flatboi.cpp",
+  "source_body_bytes": 45766,
+  "matching_base_blobs": {
+    "volume-cartographer/libs/flatboi/flatboi.cpp": "2dcf5981008e6b68b8c29ef7e083fc769f40e163",
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": "8a066104309f320d52f563c578ee81c171c38d51",
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "4c6f3a3c6915985bbe56e30e4993ef9d715ead26",
+    "volume-cartographer/libs/flatboi/CMakeLists.txt": "2665d8c787efd8166f7549fa24ec91d33682af53",
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6"
+  },
+  "applicable_agents": [
+    "AGENTS.md"
+  ],
+  "upstream_agents_blob": "264c227ce69e18ab8b401199ba7911bf56f57236",
+  "worktree": ".work/r005-upstream-20261113",
+  "patch_sha256": "579beabe7377499bf91a654ac0931b786a11314a3a3298bf6d934ca9643926d8",
+  "preimage_sha256": "7dffb8e27f4a3debbb7f530baaa673d0356af03e2e39a6f22355314ee1624ff6",
+  "postimage_sha256": "20cc44404ccce6a04024c73cf65cb7ab5fc3ee9fc3169ff799b1a61899bd06a2",
+  "postimage_blob": "cb15e37d1fbdb238c0e6101bcec5ccb85297a388",
+  "postimage_matches_compiled_product_source": true,
+  "diagnostic_source_sha256": "c17175d57281f24796a35466f78764e99dc1fe75cec48b53caa7610a0aa71b2d",
+  "product_binary_sha256_from_frozen_record": "91d404f7a07a8b58af6641f07c134ce5472e2dc5fc226d795b1b3b2029ea932b",
+  "ct_observation_binary_sha256_from_frozen_record": "7b4232a2356deca215ceaa8d072a7673023db8a5c2bfd90959dcb6c233ee9927",
+  "git_checks_exit_zero": [
+    "apply --check --index --whitespace=error",
+    "diff --check",
+    "apply --reverse --check --whitespace=error"
+  ],
+  "diff_stat": "volume-cartographer/libs/flatboi/flatboi.cpp | 88 ++++++++++++++++++++++++++--\n 1 file changed, 82 insertions(+), 6 deletions(-)",
+  "new_builds": 0,
+  "new_runtime_tests": 0
+}

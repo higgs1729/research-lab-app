@@ -1,0 +1,38 @@
+{
+  "fixed_main": "14d4e725df8b569e6fc8ceb3c04d130f705c1565",
+  "available_comparison_base": "7ad02f4f6e306b744ef6d2742dfe31fd55713ee5",
+  "D_git_missing_paths_monorepo": 2693,
+  "fixed_main_monorepo_tree_files": 6462,
+  "git_inventory": "git-inventory.log",
+  "sizes_source": "experiments/vesuvius/r009/20261113-upstream-preparation01/upstream-tree.json",
+  "scope_counts": {
+    "volume-cartographer": {
+      "tree_files": 1114,
+      "tree_body_bytes": 26624701,
+      "missing_paths": 80,
+      "missing_body_bytes": 3206734,
+      "C_git_index_matches": []
+    },
+    "vc_reader": {
+      "tree_files": 772,
+      "tree_body_bytes": 14001902,
+      "missing_paths": 5,
+      "missing_body_bytes": 143964,
+      "C_git_index_matches": [
+        "vc_reader/README.md"
+      ]
+    },
+    "vc_object_store": {
+      "tree_files": 383,
+      "tree_body_bytes": 4611486,
+      "missing_paths": 290,
+      "missing_body_bytes": 3719089,
+      "C_git_index_matches": []
+    }
+  },
+  "D_git_missing_in_build_subtrees": 375,
+  "D_git_missing_blob_ids_in_build_subtrees": 375,
+  "missing_uncompressed_payload_bytes": 7069787,
+  "C_git_missing_after_index_matches": 374,
+  "remaining_uncompressed_payload_bytes_after_index_matches": 6965009
+}

@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-15T15:49:31.822651+00:00",
+  "passed": true,
+  "input_file_sha256": "dd2a67a641784a256f6eca5b79f473d74fdbde4acf42a0bc7effeb40d7dde73c",
+  "overlap_values_compared": 4718592,
+  "overlap_mismatches": 0,
+  "common_patch_raw_CPU_direct_CUDA_reciprocal_hashes_checked": 51,
+  "CT_bodies_SHA_verified": 108,
+  "new_CT_body_GET": 0,
+  "GPU_or_model_calls": 0,
+  "frozen_renderer_unchanged": true,
+  "physical_sheet_or_ink_proved": false,
+  "old_pair_gate_remains_failed": true
+}

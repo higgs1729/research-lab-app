@@ -1,0 +1,128 @@
+{
+  "new_paid_compute_cost": 0,
+  "currency": "USD",
+  "llm_and_local_electricity_cost": null,
+  "new_input_download_bytes": 0,
+  "new_libraries_installed": 0,
+  "native_runs": 0,
+  "native_builds": 0,
+  "numerical_jobs": [
+    {
+      "name": "analysis01",
+      "started_utc": "2026-11-11T16:12:00.744827+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-inversion-diagnosis01\\diagnose.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-inversion-diagnosis01\\analysis01"
+      ],
+      "script_sha256": "67f749d7a1ed41e3b6a13895445e233bfff28f2a30e64a84e41bab3fb31676c5",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 28.717271900037304,
+      "peak_rss_bytes": 580370432,
+      "stopped": null,
+      "completed_utc": "2026-11-11T16:12:29.463602+00:00"
+    },
+    {
+      "name": "release01",
+      "started_utc": "2026-11-11T16:14:05.936526+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-inversion-diagnosis01\\release_boundary_anchors.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-inversion-diagnosis01\\release01"
+      ],
+      "script_sha256": "a83be73d9b37321bad3a57ac77212cfd105fb7208689ba98fdc8968be7308bee",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 9.62294239999028,
+      "peak_rss_bytes": 555589632,
+      "stopped": null,
+      "completed_utc": "2026-11-11T16:14:15.560674+00:00"
+    },
+    {
+      "name": "interiors01",
+      "started_utc": "2026-11-11T16:16:30.698007+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-inversion-diagnosis01\\release_interiors.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-inversion-diagnosis01\\interiors01"
+      ],
+      "script_sha256": "3683496f51a4bd9b3ca57770e5af54bef2d38726272f390436b8a52592b486f2",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 211.3577264000196,
+      "peak_rss_bytes": 830480384,
+      "stopped": null,
+      "completed_utc": "2026-11-11T16:20:02.094547+00:00"
+    }
+  ],
+  "plot_jobs": [
+    {
+      "name": "plot01",
+      "tool": "Installed Windows .NET Charting",
+      "affinity": [
+        0
+      ],
+      "source": "analysis01/largest-cluster-geometry.json",
+      "peak_rss_bytes": 105234432,
+      "memory_monitor": "WorkingSet64 sampled per drawn face, not a hard limit",
+      "elapsed_seconds": 12.217283,
+      "time_limit_seconds": 300,
+      "status": "failed",
+      "memory_limit_bytes": 4294967296
+    },
+    {
+      "name": "plot02",
+      "tool": "Installed Windows .NET Charting",
+      "affinity": [
+        0
+      ],
+      "source": "analysis01/largest-cluster-geometry.json",
+      "peak_rss_bytes": 126615552,
+      "memory_monitor": "WorkingSet64 sampled per drawn face, not a hard limit",
+      "elapsed_seconds": 131.3954588,
+      "time_limit_seconds": 300,
+      "status": "complete",
+      "memory_limit_bytes": 4294967296
+    },
+    {
+      "name": "plot03",
+      "tool": "Installed Windows .NET Charting",
+      "affinity": [
+        0
+      ],
+      "source": "analysis01/largest-cluster-geometry.json",
+      "peak_rss_bytes": 130224128,
+      "memory_monitor": "WorkingSet64 sampled per drawn face, not a hard limit",
+      "elapsed_seconds": 98.7689121,
+      "time_limit_seconds": 300,
+      "status": "complete",
+      "memory_limit_bytes": 4294967296
+    }
+  ],
+  "note": "Numerical jobs use one CPU/thread, sampled RSS4GiB and 300s limits. Plotting uses installed Windows .NET Charting, one CPU, with elapsed/RSS checks per face. plot01 failed on an API call, plot02 had an incorrect crop-count label, plot03 is the reviewed figure. Host load was high; elapsed times are not dedicated-machine benchmarks."
+}

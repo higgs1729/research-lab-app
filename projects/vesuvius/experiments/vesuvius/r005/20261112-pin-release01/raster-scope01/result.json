@@ -1,0 +1,297 @@
+{
+  "coverage": {
+    "all": {
+      "quad_count": 239112,
+      "gt20": {
+        "candidate_F": 281,
+        "control": 281,
+        "release": 277,
+        "prior_D": 312
+      },
+      "gt40": {
+        "candidate_F": 65,
+        "control": 65,
+        "release": 65,
+        "prior_D": 78
+      },
+      "release_vs_control": {
+        "recovered_to20": 5,
+        "new_gt20": 1
+      }
+    },
+    "affected_quads": {
+      "quad_count": 470,
+      "gt20": {
+        "candidate_F": 18,
+        "control": 18,
+        "release": 14,
+        "prior_D": 30
+      },
+      "gt40": {
+        "candidate_F": 0,
+        "control": 0,
+        "release": 0,
+        "prior_D": 11
+      },
+      "release_vs_control": {
+        "recovered_to20": 5,
+        "new_gt20": 1
+      }
+    },
+    "prior_bad11": {
+      "quad_count": 11,
+      "gt20": {
+        "candidate_F": 11,
+        "control": 11,
+        "release": 11,
+        "prior_D": 0
+      },
+      "gt40": {
+        "candidate_F": 0,
+        "control": 0,
+        "release": 0,
+        "prior_D": 0
+      },
+      "release_vs_control": {
+        "recovered_to20": 0,
+        "new_gt20": 0
+      }
+    },
+    "other_quads": {
+      "quad_count": 238642,
+      "gt20": {
+        "candidate_F": 263,
+        "control": 263,
+        "release": 263,
+        "prior_D": 282
+      },
+      "gt40": {
+        "candidate_F": 65,
+        "control": 65,
+        "release": 65,
+        "prior_D": 67
+      },
+      "release_vs_control": {
+        "recovered_to20": 0,
+        "new_gt20": 0
+      }
+    }
+  },
+  "same_grid_all_three": {
+    "grid_shape_yx": [
+      245,
+      3043
+    ],
+    "uv_min_xy": [
+      0.0,
+      0.0
+    ],
+    "uv_max_xy": [
+      60838.79296875,
+      4871.38720703125
+    ],
+    "face_count": 478224
+  },
+  "coarse_uv_equal": true,
+  "rejections": {
+    "candidate_F": {
+      "total": 564,
+      "involving_common_affected_faces": 0
+    },
+    "control": {
+      "total": 564,
+      "involving_common_affected_faces": 0
+    },
+    "release": {
+      "total": 564,
+      "involving_common_affected_faces": 0
+    }
+  },
+  "rejection_sets_equal_to_F": {
+    "control": true,
+    "release": true
+  },
+  "pixel_changes_vs_F": {
+    "control": {
+      "versus": "candidate_F",
+      "added_valid": 0,
+      "lost_valid": 0,
+      "different_owner": 4,
+      "changed_packed_vertices": 477
+    },
+    "release": {
+      "versus": "candidate_F",
+      "added_valid": 2,
+      "lost_valid": 0,
+      "different_owner": 17,
+      "changed_packed_vertices": 484
+    }
+  },
+  "prior_bad11_distances": [
+    {
+      "quad_id": 90667,
+      "cell_yx": [
+        112,
+        1369
+      ],
+      "candidate_F_distance": 24.346625872223512,
+      "control_distance": 24.30617222194778,
+      "release_distance": 23.8024751197254,
+      "prior_D_distance": 1.6728693999560373
+    },
+    {
+      "quad_id": 90668,
+      "cell_yx": [
+        112,
+        1370
+      ],
+      "candidate_F_distance": 37.56288463409286,
+      "control_distance": 37.56288463409286,
+      "release_distance": 36.37895880317189,
+      "prior_D_distance": 1.9537164450639035
+    },
+    {
+      "quad_id": 90669,
+      "cell_yx": [
+        112,
+        1371
+      ],
+      "candidate_F_distance": 35.39880593445314,
+      "control_distance": 35.39880593445314,
+      "release_distance": 35.39880593445314,
+      "prior_D_distance": 3.025557455532494
+    },
+    {
+      "quad_id": 90670,
+      "cell_yx": [
+        112,
+        1372
+      ],
+      "candidate_F_distance": 30.786847302875604,
+      "control_distance": 30.780954000942653,
+      "release_distance": 30.815892335661317,
+      "prior_D_distance": 4.8504373601772635
+    },
+    {
+      "quad_id": 90671,
+      "cell_yx": [
+        112,
+        1373
+      ],
+      "candidate_F_distance": 23.660361189345917,
+      "control_distance": 23.5266700940637,
+      "release_distance": 23.67537994773176,
+      "prior_D_distance": 7.261288305137806
+    },
+    {
+      "quad_id": 90672,
+      "cell_yx": [
+        112,
+        1374
+      ],
+      "candidate_F_distance": 24.570839835377132,
+      "control_distance": 24.57478700181517,
+      "release_distance": 24.918350780794924,
+      "prior_D_distance": 9.974314910870035
+    },
+    {
+      "quad_id": 92528,
+      "cell_yx": [
+        113,
+        1370
+      ],
+      "candidate_F_distance": 34.469089695410005,
+      "control_distance": 34.49224508600407,
+      "release_distance": 29.81563848306363,
+      "prior_D_distance": 5.578533906267613
+    },
+    {
+      "quad_id": 92529,
+      "cell_yx": [
+        113,
+        1371
+      ],
+      "candidate_F_distance": 37.927456517858985,
+      "control_distance": 37.927456517858985,
+      "release_distance": 37.927456517858985,
+      "prior_D_distance": 5.875239421589754
+    },
+    {
+      "quad_id": 92530,
+      "cell_yx": [
+        113,
+        1372
+      ],
+      "candidate_F_distance": 34.611270899327366,
+      "control_distance": 34.611270899327366,
+      "release_distance": 34.611270899327366,
+      "prior_D_distance": 7.153354143186386
+    },
+    {
+      "quad_id": 92531,
+      "cell_yx": [
+        113,
+        1373
+      ],
+      "candidate_F_distance": 31.0435773829544,
+      "control_distance": 31.0435773829544,
+      "release_distance": 31.0435773829544,
+      "prior_D_distance": 8.122040831675294
+    },
+    {
+      "quad_id": 92532,
+      "cell_yx": [
+        113,
+        1374
+      ],
+      "candidate_F_distance": 23.659987717025565,
+      "control_distance": 23.801791347786335,
+      "release_distance": 21.534450408900113,
+      "prior_D_distance": 9.626240481984444
+    }
+  ],
+  "elapsed_seconds": 1.5391513000358827,
+  "limits": "Distances are same-component nearest output points at source quad centres. The two non-coarse fixed points were deliberately released; all coarse points remain fixed. No readability metric. Candidate initial F and matched control distinguish pin release from extra50 iterations/expanded geometry.",
+  "sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\raster01\\arrays.npz",
+      "sha256": "80f1cb7e4f6e84a1828f550e8a3cddc052d726534d63907c16f46fcada62fa2c"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\analysis01\\arrays.npz",
+      "sha256": "8d9d7225c298dc1343c02ddaaa4761cdaf8a3bc2cdb641ffaae1e251b4cf6abb"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-local-kernel01\\raster-scope01\\arrays.npz",
+      "sha256": "263da5a851dd2fda0e13251661137038a857f44162d4f20a087e0c591f30db60"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-local-kernel01\\raster01\\arrays.npz",
+      "sha256": "fb45ed460c6eb448ecd5c4aaacc4a52a9d14ca366d138ad7f419cb5db00e6a7f"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\hard_scaf_second_keep1p5_01\\raster_trace.json",
+      "sha256": "c796bed98269b5842805ba5e03acc596f4b25de92c421050d1027c7699397bcd"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\hard_scaf_second_keep1p5_01\\output.obj_uv_diagnostics.json",
+      "sha256": "680e17b3ed56508b56440fb5f1207d0423aea6c757bf9ec35bed5d9131283a3a"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\pin_control_second_keep1p5_01\\raster_trace.json",
+      "sha256": "03ba9c712328442292c0c0aaf44f4c4be9b2f146f9d1e503dbbc5a1a9e8083c4"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\pin_control_second_keep1p5_01\\output.obj_uv_diagnostics.json",
+      "sha256": "b710235f77fe5cd452ddb14beec1088a99a96f732a2b77701683dff2aee38f00"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\pin_release_second_keep1p5_01\\raster_trace.json",
+      "sha256": "2f3b6673160a9113cc27bb38060720a2ce4bacba0317d0b120a334fbe58e1d30"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\pin_release_second_keep1p5_01\\output.obj_uv_diagnostics.json",
+      "sha256": "118a76780610f64ffb589d4dc42dc09d1beeb0fa51a27075fd080dc260a3aa18"
+    }
+  ]
+}

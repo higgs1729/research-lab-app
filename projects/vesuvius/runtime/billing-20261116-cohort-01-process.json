@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\runtime\\billing-20261116-cohort-read01.py"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-15T17:07:54.429758+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "completed_utc": "2026-11-15T17:08:02.742839+00:00",
+  "elapsed_seconds": 8.312894200003939,
+  "max_rss_bytes": 36671488,
+  "user_cpu_seconds": 0.328125,
+  "sys_cpu_seconds": 0.90625
+}

@@ -1,0 +1,162 @@
+{
+  "fixed_dn_display": [
+    0,
+    255
+  ],
+  "native_xywh": [
+    640,
+    640,
+    1024,
+    1024
+  ],
+  "native_pngs": [
+    "ct-centre.png",
+    "seed42-forward/probability.png",
+    "seed42-reverse/probability.png",
+    "dense-forward/probability.png",
+    "dense-reverse/probability.png"
+  ],
+  "windows": {
+    "interior": {
+      "xywh": [
+        704,
+        704,
+        896,
+        896
+      ],
+      "individual_pngs": [
+        "interior/ct-centre.png",
+        "interior/seed42-forward.png",
+        "interior/seed42-reverse.png",
+        "interior/dense-forward.png",
+        "interior/dense-reverse.png"
+      ],
+      "sheet_pngs": [
+        "interior-seed42.png",
+        "interior-dense.png"
+      ]
+    },
+    "selected-tile": {
+      "xywh": [
+        768,
+        768,
+        768,
+        768
+      ],
+      "individual_pngs": [
+        "selected-tile/ct-centre.png",
+        "selected-tile/seed42-forward.png",
+        "selected-tile/seed42-reverse.png",
+        "selected-tile/dense-forward.png",
+        "selected-tile/dense-reverse.png"
+      ],
+      "sheet_pngs": [
+        "selected-tile-seed42.png",
+        "selected-tile-dense.png"
+      ]
+    }
+  },
+  "predictions": {
+    "seed42-forward": {
+      "patches": 225,
+      "output_pixels": 1048576,
+      "gate": {
+        "passed": true,
+        "all_finite": true,
+        "positive_weight_pixels": 1048576,
+        "uint8_range": [
+          54,
+          211
+        ],
+        "float_range": [
+          0.21546483039855957,
+          0.8299993276596069
+        ],
+        "distinct_uint8": 158,
+        "weight_range": [
+          0.0010000000474974513,
+          1.0030001401901245
+        ]
+      },
+      "max_abs_weight_error_against_float64_hann": 3.032979682959791e-07,
+      "execution_sha256": "5d3b627b0a909e6c463906456b807c8e5a0572d78eb10d0bc279901b0aa46f57",
+      "probability_png_sha256": "d674e89bc21d5cc95d678d3826f701f390720d805c4ae691c73c7d9c222e1a28"
+    },
+    "seed42-reverse": {
+      "patches": 225,
+      "output_pixels": 1048576,
+      "gate": {
+        "passed": true,
+        "all_finite": true,
+        "positive_weight_pixels": 1048576,
+        "uint8_range": [
+          55,
+          204
+        ],
+        "float_range": [
+          0.21683397889137268,
+          0.8011188507080078
+        ],
+        "distinct_uint8": 149,
+        "weight_range": [
+          0.0010000000474974513,
+          1.0030001401901245
+        ]
+      },
+      "max_abs_weight_error_against_float64_hann": 3.032979682959791e-07,
+      "execution_sha256": "7290e25bc8393706e74e575c207d6116db54562b9e1eb47eb4466eca39ac1503",
+      "probability_png_sha256": "428c3eb2ead5250f1842d0475313f4cc17a3d9456fe699b8a02290548d7514fb"
+    },
+    "dense-forward": {
+      "patches": 225,
+      "output_pixels": 1048576,
+      "gate": {
+        "passed": true,
+        "all_finite": true,
+        "positive_weight_pixels": 1048576,
+        "uint8_range": [
+          56,
+          159
+        ],
+        "float_range": [
+          0.22204886376857758,
+          0.6239215135574341
+        ],
+        "distinct_uint8": 103,
+        "weight_range": [
+          0.0010000000474974513,
+          1.0030001401901245
+        ]
+      },
+      "max_abs_weight_error_against_float64_hann": 3.032979682959791e-07,
+      "execution_sha256": "19e494210a7a38d88d2c474a12f6ca93d35391113d5b2488016bd7496ca2aa8c",
+      "probability_png_sha256": "a307f76dff71805453189dd6622aded533a5b2620bce5a67c525b11be8b86d16"
+    },
+    "dense-reverse": {
+      "patches": 225,
+      "output_pixels": 1048576,
+      "gate": {
+        "passed": true,
+        "all_finite": true,
+        "positive_weight_pixels": 1048576,
+        "uint8_range": [
+          58,
+          199
+        ],
+        "float_range": [
+          0.230690598487854,
+          0.7805132865905762
+        ],
+        "distinct_uint8": 142,
+        "weight_range": [
+          0.0010000000474974513,
+          1.0030001401901245
+        ]
+      },
+      "max_abs_weight_error_against_float64_hann": 3.032979682959791e-07,
+      "execution_sha256": "d401200aa2173d934be013ef9eba798c674e4e1300ff0497d7fa61fe02ed74e0",
+      "probability_png_sha256": "1a50e6a4cf3bd0fe2ef69f9f6c0668dcb88b25f832b89f8e39b3e3093d388da1"
+    }
+  },
+  "ct_centre_layer": 16
+}

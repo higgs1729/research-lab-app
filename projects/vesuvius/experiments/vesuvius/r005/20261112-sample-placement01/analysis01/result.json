@@ -1,0 +1,332 @@
+{
+  "candidate": "O",
+  "selection": "Minimum Linf eligible one-vertex movement per preselected quad, from diagnosis01; incident faces disjoint.",
+  "selected": [
+    {
+      "key": "trial0",
+      "quad": 94120,
+      "face": 188240,
+      "moving_vertex": 98964,
+      "pixel_xy": [
+        527,
+        121
+      ],
+      "incident_faces": [
+        188239,
+        188240,
+        188241,
+        192054,
+        192055,
+        192056
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        -4.621393481707249,
+        -2.075444344831746
+      ],
+      "linf_displacement": 4.621393481707249,
+      "minimum_constraint": -2.6645352591003757e-14,
+      "post_float32_minimum_area": 37.921496510505676,
+      "native": {
+        "offered": true,
+        "area2": 33466,
+        "weights_integer": [
+          30140,
+          1610,
+          1716
+        ],
+        "barycentric": [
+          0.9006155729293823,
+          0.048108529299497604,
+          0.05127592012286186
+        ],
+        "point_xyz": [
+          2867.10693359375,
+          3836.5087890625,
+          3485.8427734375
+        ],
+        "grid_vertices_xy": [
+          [
+            526.9615776670557,
+            121.0868527266952
+          ],
+          [
+            527.0855547360658,
+            120.14000339394148
+          ],
+          [
+            527.6063170208205,
+            120.29665193586473
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            134902,
+            30998
+          ],
+          [
+            134934,
+            30756
+          ],
+          [
+            135067,
+            30796
+          ]
+        ]
+      },
+      "own_point_distance": 13.681787614488869,
+      "pixel_previous_owner": 188239,
+      "eligible": true
+    },
+    {
+      "key": "trial12",
+      "quad": 97936,
+      "face": 195873,
+      "moving_vertex": 103054,
+      "pixel_xy": [
+        528,
+        123
+      ],
+      "incident_faces": [
+        195873,
+        195874,
+        195875,
+        199688,
+        199689,
+        199690
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        5.287523468059675,
+        -5.287523468059676
+      ],
+      "linf_displacement": 5.287523468059675,
+      "minimum_constraint": -3.552713678800501e-14,
+      "post_float32_minimum_area": 8.520846843719482,
+      "native": {
+        "offered": true,
+        "area2": 34608,
+        "weights_integer": [
+          1761,
+          9048,
+          23799
+        ],
+        "barycentric": [
+          0.0508841872215271,
+          0.2614424526691437,
+          0.6876733899116516
+        ],
+        "point_xyz": [
+          2886.0517578125,
+          3840.2421875,
+          3441.5751953125
+        ],
+        "grid_vertices_xy": [
+          [
+            527.4838536537164,
+            123.30862064143889
+          ],
+          [
+            527.7322960826739,
+            122.4554547184958
+          ],
+          [
+            528.1392865790106,
+            123.18467141263844
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            135036,
+            31567
+          ],
+          [
+            135099,
+            31349
+          ],
+          [
+            135204,
+            31535
+          ]
+        ]
+      },
+      "own_point_distance": 11.14560012341299,
+      "pixel_previous_owner": 195874,
+      "eligible": true
+    }
+  ],
+  "only2_vertices_may_change": [
+    98964,
+    103054
+  ],
+  "affected_faces": [
+    188239,
+    188240,
+    188241,
+    192054,
+    192055,
+    192056,
+    195873,
+    195874,
+    195875,
+    199688,
+    199689,
+    199690
+  ],
+  "C_fixed_coarse_external_boundary_prepack_and_packed_exact": true,
+  "packed_change_from_N": [
+    [
+      -4.62109375,
+      -2.075439453125
+    ],
+    [
+      5.287109375,
+      -5.287353515625
+    ]
+  ],
+  "measurements": {
+    "candidate": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_area": 0.36532380015319177,
+      "full_SD_positive_only": 1.1665392315308987,
+      "subject_SD_positive_only": 3.0051026375045913,
+      "pairs": 0,
+      "internal_pairs": 0,
+      "external_pairs": 0,
+      "boundary_simple": true
+    },
+    "packed": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_area": 0.3517625331878662,
+      "full_SD_positive_only": 1.1770858884739255,
+      "subject_SD_positive_only": 3.004990828563005,
+      "pairs": 0,
+      "internal_pairs": 0,
+      "external_pairs": 0,
+      "boundary_simple": true
+    }
+  },
+  "raster_gates": {
+    "I": {
+      "candidate": {
+        "id": "O",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1770858884739255
+      },
+      "control": {
+        "id": "I",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1763771177297075
+      },
+      "rule": "candidate has no negative/zero faces and mean_SD < control mean_SD",
+      "passed": false
+    },
+    "N": {
+      "candidate": {
+        "id": "O",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1770858884739255
+      },
+      "control": {
+        "id": "N",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1764030449873752
+      },
+      "rule": "candidate has no negative/zero faces and mean_SD < control mean_SD",
+      "passed": false
+    }
+  },
+  "packing_translations": [
+    {
+      "component": 1,
+      "vertices": 195936,
+      "shift": [
+        -9075.5100040077,
+        107.94813392166351
+      ]
+    },
+    {
+      "component": 0,
+      "vertices": 30027,
+      "shift": [
+        39496.1702018038,
+        277.51085805665906
+      ]
+    },
+    {
+      "component": 2,
+      "vertices": 19470,
+      "shift": [
+        50557.30385491612,
+        -1380.2710348003886
+      ]
+    },
+    {
+      "component": 6,
+      "vertices": 2131,
+      "shift": [
+        21159.10197041004,
+        -3615.09326171875
+      ]
+    },
+    {
+      "component": 7,
+      "vertices": 1243,
+      "shift": [
+        16758.546453022624,
+        -3942.817601500688
+      ]
+    },
+    {
+      "component": 5,
+      "vertices": 991,
+      "shift": [
+        45773.385093677614,
+        -2798.063473964491
+      ]
+    },
+    {
+      "component": 3,
+      "vertices": 49,
+      "shift": [
+        55690.00867855062,
+        -2414.024658203125
+      ]
+    },
+    {
+      "component": 4,
+      "vertices": 49,
+      "shift": [
+        46879.175181860825,
+        -2718.3642578125
+      ]
+    },
+    {
+      "component": 8,
+      "vertices": 49,
+      "shift": [
+        26874.642954702278,
+        -4302.119140625
+      ]
+    }
+  ],
+  "elapsed_seconds": 5.067574399989098
+}

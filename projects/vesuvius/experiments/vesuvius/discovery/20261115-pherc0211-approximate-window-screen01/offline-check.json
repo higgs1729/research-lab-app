@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "patch_identities": 228,
+  "input_bytes_from_actual_archive": true,
+  "known_CPU_references": 3,
+  "paired_observation_trials": [
+    {
+      "case": "identical",
+      "old_threshold_passed": true,
+      "continued_in_R239": true
+    },
+    {
+      "case": "max_failure",
+      "old_threshold_passed": false,
+      "continued_in_R239": true
+    },
+    {
+      "case": "mean_failure",
+      "old_threshold_passed": false,
+      "continued_in_R239": true
+    },
+    {
+      "case": "nonfinite_failure",
+      "old_threshold_passed": false,
+      "continued_in_R239": false
+    },
+    {
+      "case": "saved_R236_failure",
+      "old_threshold_passed": false,
+      "continued_in_R239": true
+    }
+  ],
+  "missing_or_nonfinite_pair_guards_blocked": 2,
+  "former_foreign_pod_rejected": true,
+  "controller_assembled_and_bundle_verified": true,
+  "source_science_fields_unchanged": [
+    "cases",
+    "contract",
+    "selection",
+    "checkpoint",
+    "source_files",
+    "input",
+    "main_xywh",
+    "approximate_render_limit"
+  ],
+  "archive_sha256": "089b3e2f44196cb556ae8a96ce36f3f744d0df1b1dafe5f66ce04c2d68b6fc37",
+  "cloud_plan_sha256": "4016e04378aa91630b29e4ee33d164a1dd3904ccbafb498bd6bff5601e1c94fc",
+  "model_forwards": 0,
+  "GPU_calls": 0,
+  "network_calls": 0,
+  "new_CT_bytes": 0,
+  "C_new_bytes": 34312277,
+  "future_reserve_unpack_figures_bytes": 142606336,
+  "C_peak_bound_bytes": 176918613,
+  "C_free_bytes": 6984572928
+}

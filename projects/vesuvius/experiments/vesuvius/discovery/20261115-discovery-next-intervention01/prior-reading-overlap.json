@@ -1,0 +1,35 @@
+{
+  "source": "experiments\\vesuvius\\discovery\\20261115-discovery-next-intervention01\\originals\\submission\\supporting\\reading\\papyrologist_tracing_2026-10-23.png",
+  "sha256": "0fed7652601dd5a557e860722e69bb912d49f6a7a5311ea6641b114cc69682ef",
+  "pack_size_wh": [
+    5278,
+    2437
+  ],
+  "threshold": "all RGB channels >127; per source caption, white strokes only, grey headers excluded",
+  "white_pixels": 1365001,
+  "pack_white_bbox_xyxy": [
+    458,
+    557,
+    4605,
+    2437
+  ],
+  "main_image_offset_xy": [
+    1713,
+    1062
+  ],
+  "main_white_bbox_xyxy": [
+    2171,
+    1619,
+    6318,
+    3499
+  ],
+  "upper_selection_xyxy": [
+    2600,
+    420,
+    3880,
+    1444
+  ],
+  "overlap_with_upper_selection_white_pixels": 0,
+  "interpretation": "This published tracing has no white stroke in the selected upper rectangle. It does not establish that no other submission or reading covers it.",
+  "offset_source": "The original tracing PNG header explicitly says main image px = these px + (1713,1062); the same frame is recorded in originals/submission/method/checks/letter_grids/evidence_grid_line2_equal_windows.json."
+}

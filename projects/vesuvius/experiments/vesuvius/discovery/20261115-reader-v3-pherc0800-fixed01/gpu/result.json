@@ -1,0 +1,130 @@
+{
+  "directions": {
+    "forward": {
+      "forwards": 48,
+      "grid": 49,
+      "assets": {
+        "score": {
+          "file": "gpu/forward/score.npy",
+          "shape": [
+            1536,
+            1536
+          ],
+          "bytes": 9437312,
+          "dtype": "float32",
+          "sha256": "bf7d9084b22674f1ca5c5a7d188eef2ceb72c65ea0705f1d415c932504cd6e2a",
+          "raw_sha256": "39049434639dd53de69f5a4aee8dbdc4dc0a160c272a8319661de01394e726f4"
+        },
+        "weight": {
+          "file": "gpu/forward/weight.npy",
+          "shape": [
+            1536,
+            1536
+          ],
+          "bytes": 9437312,
+          "dtype": "float32",
+          "sha256": "c10f0d28141dd567b5994753d862290d85636bdea71a857d93d6f1aeed161b29",
+          "raw_sha256": "c7bb5a768bb7282f7a344a5189f4ae240bc3b02bdad814f5dbdaa995c936970f"
+        },
+        "weighted_score": {
+          "file": "gpu/forward/weighted_score.npy",
+          "shape": [
+            1536,
+            1536
+          ],
+          "bytes": 9437312,
+          "dtype": "float32",
+          "sha256": "88a2372021801dd65a36c0f53689b839a71678f9005d491d6b79d50c3851bcfe",
+          "raw_sha256": "edd0e877597bba25750cf48f75456a0b41b57523662bd2dedb39685ce30acc59"
+        },
+        "score-u8": {
+          "file": "gpu/forward/score-u8.npy",
+          "shape": [
+            1536,
+            1536
+          ],
+          "bytes": 2359424,
+          "dtype": "uint8",
+          "sha256": "478787953526b7ffd651f831f5a803ebbf13284225a8bf8f529f985326d77aa9",
+          "raw_sha256": "d5e4f534cff4a5e47bd0dcd310403247f2a6bf75fdecc342b32e86c13ac4e30a"
+        }
+      },
+      "main_weighted_pixels": 1138489
+    },
+    "reverse": {
+      "forwards": 48,
+      "grid": 49,
+      "assets": {
+        "score": {
+          "file": "gpu/reverse/score.npy",
+          "shape": [
+            1536,
+            1536
+          ],
+          "bytes": 9437312,
+          "dtype": "float32",
+          "sha256": "a629dba8d187ae4ecd3851bb0d233a47c849e7f8c1fedd69252d91c34e303005",
+          "raw_sha256": "e4d36a8f2754e36447476ce77013b439326b14b0ad721aadb8a743e990c9bbae"
+        },
+        "weight": {
+          "file": "gpu/reverse/weight.npy",
+          "shape": [
+            1536,
+            1536
+          ],
+          "bytes": 9437312,
+          "dtype": "float32",
+          "sha256": "c10f0d28141dd567b5994753d862290d85636bdea71a857d93d6f1aeed161b29",
+          "raw_sha256": "c7bb5a768bb7282f7a344a5189f4ae240bc3b02bdad814f5dbdaa995c936970f"
+        },
+        "weighted_score": {
+          "file": "gpu/reverse/weighted_score.npy",
+          "shape": [
+            1536,
+            1536
+          ],
+          "bytes": 9437312,
+          "dtype": "float32",
+          "sha256": "e35499408c4ac7356d7e32bf1a9c2693666af7b93e860202734f9028aea4fb6f",
+          "raw_sha256": "d81c464ee98e717efb9b31434621f0c0d4c9179c91e730f4e2850a7ab5e517a3"
+        },
+        "score-u8": {
+          "file": "gpu/reverse/score-u8.npy",
+          "shape": [
+            1536,
+            1536
+          ],
+          "bytes": 2359424,
+          "dtype": "uint8",
+          "sha256": "d58208149ae7f47f882c5f79a87a0f9fe3fecc4fee2bdc1b8db57b4aa78bb810",
+          "raw_sha256": "32c51f79c3ba2f415879943038d5d81dd4f576250faed05c2e1969fc7e0af5d8"
+        }
+      },
+      "main_weighted_pixels": 1138489
+    }
+  },
+  "forwards": 96,
+  "cpu_checks": 6,
+  "cpu_max_abs": 2.562999725341797e-06,
+  "started_to_finished_seconds": 144.06765620000078,
+  "forward_patch_seconds_sum": 77.85362319997512,
+  "max_RSS_bytes": 1275097088,
+  "max_reserved_bytes": 664797184,
+  "final_resources": {
+    "device_free_bytes": 6732906496,
+    "device_total_bytes": 8585216000,
+    "allocated_bytes": 140088832,
+    "reserved_bytes": 664797184,
+    "peak_allocated_bytes": 492541440,
+    "peak_reserved_bytes": 664797184,
+    "physical_available_bytes": 11353694208,
+    "process_peak_rss_bytes": 1275097088
+  },
+  "strict_loads": 1,
+  "precision": "IEEE float32, TF32 disabled",
+  "autocast": false,
+  "compile": false,
+  "tta": false,
+  "batch": 1,
+  "skips": "official raw-any false; no forward, numerator, or denominator contribution"
+}

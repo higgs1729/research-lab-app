@@ -1,0 +1,38 @@
+{
+  "coordinate_plan_sha256": "ee55f93122b56c1b86442645c303211bc439417b406ff7a582df917fdab0ddb7",
+  "observer_sha256": "e232dfda821fdc444cba19831f6c92d6f0092ed5c764430bcad737185cef265e",
+  "faces": {
+    "w052": {
+      "expected_xyz": [
+        4878.994063745413,
+        4866.401711221715,
+        11951.864539115952
+      ],
+      "position_delta_voxel": 0.00045100071404334,
+      "uv_origin_delta": 0.0,
+      "continuous_anchor_to_rounded_product_voxel": 0.19054702285524916
+    },
+    "w053": {
+      "expected_xyz": [
+        4890.658620942422,
+        4877.094075335114,
+        11951.936254457258
+      ],
+      "position_delta_voxel": 0.0008837912572057571,
+      "uv_origin_delta": 0.0,
+      "continuous_anchor_to_rounded_product_voxel": 0.303608737305876
+    },
+    "w054": {
+      "expected_xyz": [
+        4901.310557813968,
+        4887.513197756413,
+        11952.412128769996
+      ],
+      "position_delta_voxel": 0.0006933121271664282,
+      "uv_origin_delta": 0.0,
+      "continuous_anchor_to_rounded_product_voxel": 0.5293030198538202
+    }
+  },
+  "ct_voxel_values_read": 0,
+  "first_comparison": "Stopped at over-tight origin tolerance because the arithmetic replaced the float32 stored center with exact mesh_count/2. Using actual stored center here; no producer rerun."
+}

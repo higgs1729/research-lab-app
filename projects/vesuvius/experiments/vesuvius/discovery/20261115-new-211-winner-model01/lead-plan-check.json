@@ -1,0 +1,35 @@
+{
+  "completed_utc": "2026-11-15T08:59:17.307381+00:00",
+  "passed": true,
+  "source_commit": "235e3be8a06749344862c89a1e52c81d90b15e0e",
+  "git_blob_checked_files": [
+    "studio-multiscroll-cpt-20261023/hf/model.py",
+    "studio-multiscroll-cpt-20261023/hf/inference.py"
+  ],
+  "input_values_exact": 7667712,
+  "selected_global_cores_exact": 96,
+  "positive_main_weights": 301056,
+  "signed_depths": [
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0,
+    -1,
+    -2,
+    -3,
+    -4,
+    -5,
+    -6,
+    -7
+  ],
+  "input_storage_note": "R222 input.npy remains ascending -8..+8; its layer_order field describes the prior worker selection. R229 takes storage indices16..1, not first16 of the stored array.",
+  "source_contract_review": "Read official inference.py/model.py/softloss README. Final recipe blends sigmoid probabilities with pixel-centred Hann; historical logits-blend experiment is distinct. No robust-MAD and no empty-patch skip.",
+  "checkpoint_expected_bytes": 893443724,
+  "paid_compute_usd": 0,
+  "decision": "Approve frozen one-condition known-letter control after strict checksum/load and resource preflight. No novel-text or heldout-generalization claim."
+}

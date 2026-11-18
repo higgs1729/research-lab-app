@@ -1,0 +1,23 @@
+{
+  "research": 242,
+  "utc": "2026-11-15T17:01:00.493576+00:00",
+  "status": "resolved_fixed_context_observation",
+  "independent_reviews": {
+    "researcher-visual-review.json": "e344ccb1177a96f1a49eeab7d939778b8213b48dec23fd5c8017e762c0386ff6",
+    "lead-visual-review.json": "6a80da0c1024edae32f2293b650e698520e4da73825ef21c1f134b38a3c32626"
+  },
+  "agreed_observation": "旧下端より先で下降部の終端と下方反応との暗い間隔が得られた。固定文脈観測は有益で、形のある未確認候補として保持する。",
+  "not_established": [
+    "完全閉合",
+    "独立した文字/文字列",
+    "インク",
+    "候補全域の同一細層",
+    "既出範囲との正確な対応",
+    "新規性"
+  ],
+  "new_letters": 0,
+  "historical_R236_pairgate_passed": false,
+  "known_phi_scope": "Published input inference control; not validation of entire unknown approximate render.",
+  "further_depth_model_threshold_or_extension": false,
+  "next_research_selected_by_researcher": false
+}

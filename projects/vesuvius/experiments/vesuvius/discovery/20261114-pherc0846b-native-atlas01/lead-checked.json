@@ -1,0 +1,14 @@
+{
+  "reviewer": "root",
+  "source_pngs_hash_matched_fixed_tree": 7,
+  "native_panels_bit_identical": 112,
+  "native_pixel_values_checked": 33388992,
+  "common_canvas_wh": [
+    2184,
+    2184
+  ],
+  "origin": "top left, zero-based, half-open rectangles",
+  "model_forward_calls": 0,
+  "new_network_bytes": 0,
+  "physical_scope": "Source mesh and CT identified by atlas metadata; no XYZ read or exact pixel-to-XYZ verification, no selected follow-up ROI."
+}

@@ -1,0 +1,154 @@
+{
+  "research": 240,
+  "utc": "2026-11-15T15:05:04.830217+00:00",
+  "CPU_cores": 1,
+  "hard_process_commit_bytes": 4294967296,
+  "C_free_floor_bytes": 2147483648,
+  "C_free_at_report_bytes": 5904973824,
+  "new_save_cap_bytes": 67108864,
+  "new_save_bytes_snapshot_before_final_report": 4563380,
+  "final_inventory": "manifest.json",
+  "new_CT_keys": [
+    "0/65/26/29"
+  ],
+  "new_CT_bytes": 2097152,
+  "reused_CT_keys": 24,
+  "reused_CT_bytes_not_copied": 50331648,
+  "public_JPEG_download_bytes": 544889,
+  "GPU_forwards": 0,
+  "CPU_model_forwards": 0,
+  "cloud_resources_created": 0,
+  "cost_USD": 0,
+  "cost_status": "No paid compute or cloud resource used in R240. R239 billing is a separate predecessor followup; not reclassified here.",
+  "first_observation_seconds": 9.373525999981211,
+  "resume_observation_seconds": 6.913994900009129,
+  "researcher_completed_process_seconds_sum": 20.644402299949434,
+  "sum_scope": "Saved completed researcher process receipts only; excludes human/model reasoning time, direct read-only tools, parent verification, and this finalization/freeze. Failed initial observation and report finalization are included.",
+  "researcher_max_observed_RSS_bytes": 79892480,
+  "receipts": [
+    {
+      "path": "first-plane-range-diagnostic-process.json",
+      "sha256": "95a956ed73acde8327a3c53db700e899f3ecb909bae2c3fc9aa6ef83d37217ea",
+      "elapsed_seconds": 1.2729361999954563,
+      "exit_code": 0,
+      "max_rss_bytes": 41345024,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296
+    },
+    {
+      "path": "fixed-planes-range-diagnostic-process.json",
+      "sha256": "06d4494d12d19aa6b72e01817a45b71eed7c69c9c6dace3d4ea43d14b4d0ab10",
+      "elapsed_seconds": 0.38263919999008067,
+      "exit_code": 0,
+      "max_rss_bytes": 53997568,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296
+    },
+    {
+      "path": "geometry-plan-process.json",
+      "sha256": "ada11170a226b2a59fdeb2a842be9032a62724aacffd4ef9ce39ef731f4a470d",
+      "elapsed_seconds": 1.3979949000058696,
+      "exit_code": 0,
+      "max_rss_bytes": 79892480,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296
+    },
+    {
+      "path": "observation-plan-process.json",
+      "sha256": "f4dc2a28a41556a4012f4cdd0ec5a6790b8caa5d3a1bc95c8f7c1ad4d0e4c719",
+      "elapsed_seconds": 0.09588149999035522,
+      "exit_code": 0,
+      "max_rss_bytes": 26595328,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296
+    },
+    {
+      "path": "observation-process.json",
+      "sha256": "656b93b4789fb3966880695bc7cf9c52f6ccaf8eb19316e0594503560441c76d",
+      "elapsed_seconds": 9.373525999981211,
+      "exit_code": 1,
+      "max_rss_bytes": 56393728,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296
+    },
+    {
+      "path": "observation-resume-process.json",
+      "sha256": "0a444ab8bc48a9ae4e574b4651ae910b905cef1182c3d85bfd1ddf669d34d0e9",
+      "elapsed_seconds": 6.913994900009129,
+      "exit_code": 0,
+      "max_rss_bytes": 63766528,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296
+    },
+    {
+      "path": "prepare-resume-process.json",
+      "sha256": "594e4623428218c7d73d82e0e07aebae3c95c0a92a9e99a8d314a5e45f9cfb73",
+      "elapsed_seconds": 0.10815839999122545,
+      "exit_code": 0,
+      "max_rss_bytes": 27250688,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296
+    },
+    {
+      "path": "provenance-image-process.json",
+      "sha256": "6bd3a9ba4d4ccb2553f1f92981f382869b1ce423bbdbd675f0152e3dd5102563",
+      "elapsed_seconds": 0.352494899998419,
+      "exit_code": 0,
+      "max_rss_bytes": 35913728,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296
+    },
+    {
+      "path": "provenance-inspection-process.json",
+      "sha256": "f7c3673a3057fb98089b59ed56458fc4d3a607c70a9198f85fe15b0eef79c4d0",
+      "elapsed_seconds": 0.6191933999944013,
+      "exit_code": 0,
+      "max_rss_bytes": 36241408,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296
+    },
+    {
+      "path": "report-process.json",
+      "sha256": "ee7cdc98938f8a7113f013ec622a2833da8d9367c02d4558fabb3bb62b243677",
+      "elapsed_seconds": 0.08672120000119321,
+      "exit_code": 1,
+      "max_rss_bytes": 26894336,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296
+    },
+    {
+      "path": "researcher-ct-review-process.json",
+      "sha256": "dd98e4add249492b7aa65f9efed6158e2a25505ffb4fcbd0923d96eaed8fc83a",
+      "elapsed_seconds": 0.040861699992092326,
+      "exit_code": 0,
+      "max_rss_bytes": 26189824,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296
+    }
+  ],
+  "D_writes": 0,
+  "D_git_commands": 0,
+  "new_surface_or_model_input": false
+}

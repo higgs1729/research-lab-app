@@ -1,0 +1,39 @@
+{
+  "root": "/mnt/c/dev/kensyoukin/.work/r009-resume-pyramid-fix01/run01/pyramid-disabled.zarr",
+  "manifest": {
+    ".zattrs": {
+      "bytes": 3549,
+      "sha256": "11493ea9ea42976137da9442b3a351e251b57de8aa04d6699e6545017b98b00c",
+      "mtime_ns": 1794507824224345500
+    },
+    "0/.zarray": {
+      "bytes": 330,
+      "sha256": "3aa6350bec7cf3a0dfb80c66d42e3f408dd2e2a800c2c588d0c853329cb9e863",
+      "mtime_ns": 1794506800000000000
+    },
+    "0/0/0/0": {
+      "bytes": 1654580,
+      "sha256": "43d386e277729257daea4500d27d3f4d1ed9592c106ef6b9c2f02c660e464d65",
+      "mtime_ns": 1794506806000000000
+    }
+  },
+  "datasets": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "arrays": [
+    "0"
+  ],
+  "metadata_exists": {
+    "0": true,
+    "1": false,
+    "2": false,
+    "3": false,
+    "4": false,
+    "5": false
+  }
+}

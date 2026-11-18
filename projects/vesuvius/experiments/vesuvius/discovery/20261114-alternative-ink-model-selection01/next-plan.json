@@ -1,0 +1,202 @@
+{
+  "model": "Hecate 9.6 µm",
+  "checkpoint": {
+    "model": "Hecate 9.6 µm",
+    "repository": "scrollprize/hecate",
+    "revision": "9cb86e500e944b11a06a7020403cde5dffb5bcb2",
+    "path": "hecate_9.6um.pth",
+    "bytes": 522576086,
+    "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "license": "MIT",
+    "api": "originals/hecate-repo.json"
+  },
+  "scope": "One CPU fp32 2D reverse run on known PHerc0343, including a first-three-patch checkpoint within the same run.",
+  "input": {
+    "source": "experiments/vesuvius/discovery/20261114-pherc0343-patch-phase01/input.zarr/0",
+    "contract": "experiments/vesuvius/discovery/20261114-pherc0343-patch-phase01/input-contract.json",
+    "dtype": "uint8",
+    "source_shape_zyx": [
+      33,
+      384,
+      384
+    ],
+    "source_atlas_xywh": [
+      1344,
+      1024,
+      384,
+      384
+    ],
+    "crop_local_xywh": [
+      32,
+      32,
+      320,
+      320
+    ],
+    "crop_atlas_xywh": [
+      1376,
+      1056,
+      320,
+      320
+    ],
+    "analysis_atlas_xywh": [
+      1408,
+      1088,
+      256,
+      256
+    ],
+    "source_scale_zyx_um": [
+      9.59903949737549,
+      9.600000254313159,
+      9.600000254313159
+    ],
+    "cli_nominal_spacing_um": 9.6,
+    "resampling": false,
+    "source_layers_half_open": [
+      9,
+      25
+    ],
+    "input_depth_order": [
+      24,
+      23,
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9
+    ],
+    "baseline_depth_order": [
+      24,
+      23,
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9,
+      8
+    ],
+    "local_analysis_xywh": [
+      32,
+      32,
+      256,
+      256
+    ],
+    "raw_crop_payload_bytes": 3379200
+  },
+  "runtime": {
+    "source": "originals/hecate.py",
+    "requirements": "originals/hecate-requirements.txt",
+    "device": "cpu",
+    "batch_size": 1,
+    "precision": "fp32",
+    "normalization": "uint8 / 255, no clipping",
+    "patch_zyx": [
+      16,
+      64,
+      64
+    ],
+    "stride_xy": 32,
+    "full_canvas_xywh": [
+      0,
+      0,
+      6048,
+      2304
+    ],
+    "local_patch_count": 81,
+    "atlas_support_start_xy_range_inclusive": [
+      [
+        1376,
+        1056
+      ],
+      [
+        1632,
+        1312
+      ]
+    ],
+    "no_lost_full_canvas_patches_for_analysis": true,
+    "blend": "normalized Hann clamped to floor 0.001",
+    "output": "2D uint8, round(255 × score), zero for empty columns",
+    "entry": "tools/research/run_windows.py",
+    "threads": 1,
+    "cpu_affinity_count": 1,
+    "windows_process_commit_cap_bytes": 4294967296,
+    "elapsed_inference_seconds_cap": 900,
+    "first_patches_timed_in_same_run": 3,
+    "early_stop": "Save load and per-patch times for the first three patches. Use max(seconds for patches 2 and 3) × 78 and stop if this exceeds remaining wall time. Enforce independent 900s hard wall time and retain stop receipt.",
+    "static_conv_macs_per_patch": 213091614720,
+    "nominal_conv_flops_81_patches": 34520841584640,
+    "measured_cpu_runtime": null
+  },
+  "reference": {
+    "repository": "SharpMeow/first-letters-ink-atlas",
+    "revision": "ac5ffd7098120368216948c4e06c494bf8e67178",
+    "path": "surfaces/PHerc0343/kbh-POS_PHerc0343_erwin/maps/hecate-9.6/c+0_s1_reverse.png",
+    "bytes": 2114372,
+    "sha256": "67795f34e27c0b7b974e8d84780df8ecdf14cff5dd7893bc3891f7dc7d678427",
+    "intended_use": "Local shape comparison and same-model reproducibility reference. Atlas 65-layer window implementation and source normals need not match the standalone run.",
+    "known_boxes_atlas_xyxy_continuous": [
+      {
+        "id": 9,
+        "xyxy": [
+          1489.32,
+          1018.89,
+          1773.63,
+          1314.99
+        ],
+        "intersection_with_analysis": [
+          1489.32,
+          1088,
+          1664,
+          1314.99
+        ]
+      },
+      {
+        "id": 10,
+        "xyxy": [
+          1240.92,
+          1067.94,
+          1460.61,
+          1336.5
+        ],
+        "intersection_with_analysis": [
+          1408,
+          1088,
+          1460.61,
+          1336.5
+        ]
+      }
+    ]
+  },
+  "budget": {
+    "weight_bytes_cap": 536870912,
+    "reference_bytes_cap": 3145728,
+    "download_seconds_cap": 180,
+    "working_bytes_cap": 805306368,
+    "ct_new_bytes": 0,
+    "cloud_cost_jpy": 0
+  },
+  "stop_conditions": [
+    "Fixed source/weights/CT input verification fails.",
+    "Strict CPU load, dtype, shape, patch-support or output contract fails.",
+    "First-three-patch time projection exceeds remaining budget or hard resource cap reached.",
+    "Same-coordinate known stroke geometry is absent or ambiguous, or output is non-finite/invalid. Record the fixed local result."
+  ],
+  "current_test_run": false
+}

@@ -1,0 +1,20 @@
+{
+  "before": {
+    "four_corners_same_as_original_component": 368,
+    "own_face_zero_samples": 184
+  },
+  "after": {
+    "four_corners_same_as_original_component": 368,
+    "own_face_zero_samples": 191
+  },
+  "zero_to_positive": 33,
+  "positive_to_zero": 40,
+  "normal_render_grid_scale_xy": [
+    0.05000000074505806,
+    0.05000000074505806
+  ],
+  "centered_128px_diagonal_radius_grid_cells": 4.525483467028862,
+  "128px_max_diagonal_if_candidate_is_at_any_point_in_patch_grid_cells": 9.050966934057724,
+  "distance_mixed_cell_cells_min_in_scale1_pixel_equivalents": 1134.2853232247196,
+  "distance_cross_reject_cells_min_in_scale1_pixel_equivalents": 1121.386004309886
+}

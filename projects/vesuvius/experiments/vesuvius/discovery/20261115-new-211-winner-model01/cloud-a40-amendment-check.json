@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "changed_fixed_fields": [
+    "gpu",
+    "max_hourly_compute_usd"
+  ],
+  "identical_scientific_files": 15,
+  "identical_lifecycle_files": 3,
+  "new_gpu": "NVIDIA A40",
+  "rate_cap": 0.6,
+  "cloud_plan_sha256": "9e96baf585742f1bb73026ad7d75c78a7835b4e3afa9c5c7748d886df5a0c09a",
+  "resource_mutations": 0
+}

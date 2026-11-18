@@ -1,0 +1,16 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "viewed_originals": [
+    "ct-centre.png",
+    "seed42-forward/probability.png",
+    "seed42-reverse/probability.png",
+    "dense-forward/probability.png",
+    "dense-reverse/probability.png"
+  ],
+  "display": "original 1024x1024, native fixed 0..255, no threshold or contrast search",
+  "assessment": "The CT has strong intersecting elongated papyrus texture and dark gaps. The four probability maps show diffuse clouds and separated broad bright blobs. In both reverse maps a strong blob is near ROI-local x200,y780 and another near the right edge around y470. I cannot isolate independent letter strokes, an enclosure with neighboring strokes, or a consistent line of letters, including the preselected 768-square and 896-square interior.",
+  "candidate_roi": null,
+  "transcription": null,
+  "scope": "No readable candidate in this fixed ROI and middle 17-layer window. This does not prove absent ink, wrong physical sheet, or whole-scroll negativity. No comparison to the exact original survey probabilities was possible."
+}

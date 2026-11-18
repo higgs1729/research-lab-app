@@ -1,0 +1,33 @@
+{
+  "evaluation_atlas_xywh": [
+    1408,
+    1088,
+    256,
+    256
+  ],
+  "display_range": [
+    0,
+    255
+  ],
+  "panels_verified_pixels": 196608,
+  "r196_vs_atlas": {
+    "mae_dn": 36.238922119140625,
+    "mean_delta_dn": 10.750640869140625,
+    "pearson": 0.6882555558804403,
+    "equal_pixels": 4573
+  },
+  "r198_vs_atlas": {
+    "mae_dn": 11.306793212890625,
+    "mean_delta_dn": -2.341796875,
+    "pearson": 0.9491392779925143,
+    "equal_pixels": 12784
+  },
+  "r198_vs_r196": {
+    "mae_dn": 37.210052490234375,
+    "mean_delta_dn": -13.092437744140625,
+    "pearson": 0.6363317548323792,
+    "equal_pixels": 4648
+  },
+  "mae_reduction_fraction": 0.6879931148140133,
+  "pearson_delta": 0.260883722112074
+}

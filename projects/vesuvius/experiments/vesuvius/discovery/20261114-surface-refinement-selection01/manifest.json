@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "path": "research/181-existing-ct-surface-refinement.md",
+      "bytes": 5781,
+      "sha256": "9cb9c7548d40054a862b4efbf7f4ea78fc50d0b08ca598f4fd52c378b0386a3d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-surface-refinement-selection01/lab-record.json",
+      "bytes": 1436,
+      "sha256": "21696f6358cc43d9d7bca770fdcc50df59a98ca948f0aefba25bcbb1fa65114a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-surface-refinement-selection01/lead-code-review.json",
+      "bytes": 1924,
+      "sha256": "a779481574d83b09564c6862404acbc2a627a9a449e1aff4b8f19f57c5784e15"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-surface-refinement-selection01/lead-proposed-control.json",
+      "bytes": 1929,
+      "sha256": "45d5fa1abe34809d79eceabe73cb6be797ebc630e19660a6429b11d3ffe06ae1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-surface-refinement-selection01/README.md",
+      "bytes": 11015,
+      "sha256": "bb44d87dd956d85b9a24a66dfbbdbe3b83073b30797f24c4c7795c0468c738e7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-surface-refinement-selection01/source-evidence.json",
+      "bytes": 54688,
+      "sha256": "2b2b282ace250b202a61cd04c2bc5f88e8e0083f8ffa9af2aa89d9cb3702891a"
+    }
+  ]
+}

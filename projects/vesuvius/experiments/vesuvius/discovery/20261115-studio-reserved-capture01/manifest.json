@@ -1,0 +1,154 @@
+{
+  "created_utc": "2026-11-15T10:07:47.150004+00:00",
+  "files": [
+    {
+      "path": "accounting.py",
+      "bytes": 2273,
+      "sha256": "16b13c463fd1405f139b42f96087a4ef69da0d5deab01170384d16b5482a7795"
+    },
+    {
+      "path": "capture.py",
+      "bytes": 4540,
+      "sha256": "4767517f9f14cfaff136e8bc277a8125dae783987383831b41f0f774f8de56ed"
+    },
+    {
+      "path": "cloud-admission.json",
+      "bytes": 360,
+      "sha256": "9bce8720c40b29172c393b3fd1bfac1f7df921fdfa172b9270caca044bff4cc1"
+    },
+    {
+      "path": "cloud-plan.json",
+      "bytes": 4635,
+      "sha256": "47e6fc32520f5dbc045c34c3863df099429b1e5400b7b40c7eeeaecc005a3895"
+    },
+    {
+      "path": "cloud-run/cleanup.json",
+      "bytes": 95,
+      "sha256": "778fb89c62483fbf2485adab77a143a498fe7234c41a046f396488149fc8024a"
+    },
+    {
+      "path": "cloud-run/launch-receipt.json",
+      "bytes": 615,
+      "sha256": "2f3fe728dab18bf81c43e6b9472b0a9c95a15f5200f3626a1ae771b3aa8cddd2"
+    },
+    {
+      "path": "cloud-run/startup.jsonl",
+      "bytes": 35508,
+      "sha256": "86c0a93c398ca0a0aeed2b5a724ef39accded33209270940b1f806fe69127f4f"
+    },
+    {
+      "path": "collector.diff",
+      "bytes": 7893,
+      "sha256": "c6ca8509af76814cbcd75918a1a552ab746b0891674bb05d24f172db19bda75a"
+    },
+    {
+      "path": "control.py",
+      "bytes": 7063,
+      "sha256": "a0fa46c4a99ef815a48591128e2467f86395dcff687334a32096cfb054951257"
+    },
+    {
+      "path": "controller-stderr.txt",
+      "bytes": 1016,
+      "sha256": "c3af2ec6a8baf9ed130447d59526eaf5fb9cea1718ec20be50ea48d34bdeb4bb"
+    },
+    {
+      "path": "controller-stdout.txt",
+      "bytes": 402,
+      "sha256": "d29151f3023ab9087eceeb5e8ecff3f05f10509d9cc4eddef93fef6bfad0d9e0"
+    },
+    {
+      "path": "deadline-ready.json",
+      "bytes": 62,
+      "sha256": "ef7529fead188e63b75c48f349ee047326d2af138d4c39edda9ae0b9ad8820ba"
+    },
+    {
+      "path": "deadline.py",
+      "bytes": 1094,
+      "sha256": "c8d324a0a9a6e577ed1babeef441bd90867e40e9492acbf01b9a4a008d2e601d"
+    },
+    {
+      "path": "lead-cloud-clearance.json",
+      "bytes": 1136,
+      "sha256": "eadbe93ba5e4c1b0aca6d1138aa2fb04a0df7edd14ea53641736f3e4dda1e9b6"
+    },
+    {
+      "path": "lead-cloud-resource-check.json",
+      "bytes": 938,
+      "sha256": "291f8b10a882fc539b252c2e9278ae955484bdb7b6ef90f92b21d0a49dce6d6b"
+    },
+    {
+      "path": "lead-live-reservation-check.json",
+      "bytes": 507,
+      "sha256": "7b0db8208074ec06fb9519af04c294a9fc8d71434a2ec6625dded9d3797a9f3b"
+    },
+    {
+      "path": "lead_cloud_resource_check.py",
+      "bytes": 3342,
+      "sha256": "3cd4b40d7e6d435b37fbbef00f66a4dec7f53099a16451819bbc983a69b60248"
+    },
+    {
+      "path": "lead_output_check.py",
+      "bytes": 5841,
+      "sha256": "ae4dca57976f3fbbb5164505000ab2b34cf8379f4c55506ba883b1d893362c87"
+    },
+    {
+      "path": "offline-collection-test.json",
+      "bytes": 1573,
+      "sha256": "caeee094da014ff94dd7bd66989c1a78cb8b2bdc7193572e093174b2edb02716"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2264,
+      "sha256": "2e362077471f962dac34982e3c20f2a711537e8b4f8b11463d4a1f1c66ca21de"
+    },
+    {
+      "path": "record.json",
+      "bytes": 4063,
+      "sha256": "f75e1e5eb6c378d0102753234762e88b1c9c5155565972951c37e75ddf546edc"
+    },
+    {
+      "path": "reservation-release.json",
+      "bytes": 545,
+      "sha256": "d535186cc08cda2c7d3e37004ed75058f69335bcb7610ffcec2c627cdb649e13"
+    },
+    {
+      "path": "resource-check.json",
+      "bytes": 893,
+      "sha256": "c163327e30a360b35fb0c967818c45045efa3b4fd0d0b2b8c8a7a449c080df53"
+    },
+    {
+      "path": "resources.json",
+      "bytes": 2430,
+      "sha256": "8c5d5eb4fd0a662b1ca695acc06f6e3fecc7bb5b02a5d08485b7b0abe6a9434d"
+    },
+    {
+      "path": "results.py",
+      "bytes": 5690,
+      "sha256": "12de63e671a8de5ebf536f8643b6cb72e1b861ec5e689615049829184137f1a9"
+    },
+    {
+      "path": "run_once.py",
+      "bytes": 18284,
+      "sha256": "10b2dbe525ec8d9851994ce8383b1a76fbba2e3cabc036f0adcd2c5b0b2dc916"
+    },
+    {
+      "path": "startup-probe/startup.jsonl",
+      "bytes": 1543,
+      "sha256": "adcf6f8f7351b00a49217b60e9510bf83368fb5a1df06e3369887001bc566c6a"
+    },
+    {
+      "path": "test_capture.py",
+      "bytes": 4984,
+      "sha256": "13f764da977b058d75ba71fb7aa74f20406d88ded7a28e7506e57d1d29d0fc7d"
+    }
+  ],
+  "research_ticket": {
+    "path": "research/230-studio-reserved-result-capture.md",
+    "bytes": 10241,
+    "sha256": "9df8879983a037b07afa2138e38e7b715869fce77ac42a3e9b28546331f84238"
+  },
+  "borrowed_archive": {
+    "path": "experiments/vesuvius/discovery/20261115-new-211-winner-model01/cloud-input-a40.tar.gz",
+    "sha256": "499e33cc48383a9d88cdeeab70aa5618f0fc29f7563c51d90af52a929eb2115a"
+  }
+}

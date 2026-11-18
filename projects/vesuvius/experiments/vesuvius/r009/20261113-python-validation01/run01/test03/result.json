@@ -1,0 +1,36 @@
+{
+  "checks_passed": true,
+  "process": {
+    "command": [
+      "unshare",
+      "-Urn",
+      "/usr/bin/python3",
+      "-B",
+      "-S",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-python-validation01/verify.py",
+      "--writer",
+      "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/source/vc_reader/src/vc_reader/reader/writer.py",
+      "--extension",
+      "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/build04/_reader.cpython-312-x86_64-linux-gnu.so",
+      "--upstream-test",
+      "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/source/vc_reader/tests/test_zarr_writer.py",
+      "--work",
+      "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/test03-fixtures",
+      "--report",
+      "/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-python-validation01/run01/test03/checks.json"
+    ],
+    "cwd": "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01",
+    "started_utc": "2026-11-12T19:13:57.957664+00:00",
+    "completed_utc": "2026-11-12T19:14:00.294139+00:00",
+    "timeout_seconds": 117.50175832500003,
+    "elapsed_seconds": 2.336474684999999,
+    "exit_code": 0,
+    "max_child_rss_bytes": 122896384,
+    "user_cpu_seconds": 0.32,
+    "sys_cpu_seconds": 0.11,
+    "timing_pid": 480,
+    "reaped": true
+  },
+  "C_work_bytes": 356436451,
+  "cumulative_test_seconds": 4.834716359999973
+}

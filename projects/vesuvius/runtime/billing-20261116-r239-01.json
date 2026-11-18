@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-15T15:28:17.511756+00:00",
+  "resource_mutations": 0,
+  "research": 239,
+  "pod_id": "uh56ny6t7mpdqx",
+  "query": {
+    "podId": "uh56ny6t7mpdqx",
+    "bucketSize": "hour",
+    "startTime": "2026-11-15T14:00:00+00:00",
+    "endTime": "2026-11-15T16:28:17.079282+00:00"
+  },
+  "http_status": 200,
+  "records": [
+    {
+      "cpuAmount": 0,
+      "diskAmount": 0.00023148150648921728,
+      "endTime": "2026-11-15T15:00:00Z",
+      "gpuAmount": 0.027370428666472435,
+      "podId": "uh56ny6t7mpdqx",
+      "startTime": "2026-11-15T14:00:00Z",
+      "totalAmount": 0.027601910172961652
+    }
+  ],
+  "metadata": {
+    "query": {
+      "bucketSize": "hour",
+      "endTime": "2026-11-15T17:00:00Z",
+      "podId": "uh56ny6t7mpdqx",
+      "startTime": "2026-11-15T14:00:00Z"
+    },
+    "recordCount": 1,
+    "totals": {
+      "cpuAmount": 0,
+      "diskAmount": 0.00023148150648921728,
+      "gpuAmount": 0.027370428666472435,
+      "totalAmount": 0.027601910172961652
+    },
+    "uniquePodCount": 1
+  },
+  "note": "Observed dedicated-Pod records, not final invoice. Empty means pending. No account-balance attribution."
+}

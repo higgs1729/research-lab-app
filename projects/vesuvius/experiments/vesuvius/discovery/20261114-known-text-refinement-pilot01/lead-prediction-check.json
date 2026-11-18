@@ -1,0 +1,128 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "roi_global_xywh": [
+    1408,
+    1088,
+    256,
+    256
+  ],
+  "same_absolute_grid": {
+    "origin_xy": [
+      1344,
+      1024
+    ],
+    "patch": 128,
+    "stride": 64,
+    "patches": 25
+  },
+  "results": [
+    {
+      "model": "seed42",
+      "mode": "original",
+      "compared_pixels": 65536,
+      "versus_current_original": {
+        "mean_absolute_dn": 0.0,
+        "pearson": 1.0,
+        "max_difference_dn": 0.0
+      },
+      "versus_published": {
+        "mean_absolute_dn": 7.4472808837890625,
+        "pearson": 0.9479886158799388,
+        "max_difference_dn": 42.0
+      },
+      "versus_R175_original": {
+        "mean_absolute_dn": 0.1418304443359375,
+        "pearson": 0.9999366444323367,
+        "max_difference_dn": 1.0
+      }
+    },
+    {
+      "model": "seed42",
+      "mode": "corner",
+      "compared_pixels": 65536,
+      "versus_current_original": {
+        "mean_absolute_dn": 20.517684936523438,
+        "pearson": 0.5724913746046678,
+        "max_difference_dn": 98.0
+      },
+      "versus_published": {
+        "mean_absolute_dn": 18.479949951171875,
+        "pearson": 0.5604928011416017,
+        "max_difference_dn": 120.0
+      },
+      "versus_R175_original": null
+    },
+    {
+      "model": "seed42",
+      "mode": "centered",
+      "compared_pixels": 65536,
+      "versus_current_original": {
+        "mean_absolute_dn": 31.395767211914062,
+        "pearson": 0.05633789430654249,
+        "max_difference_dn": 130.0
+      },
+      "versus_published": {
+        "mean_absolute_dn": 29.506683349609375,
+        "pearson": 0.05162230039263779,
+        "max_difference_dn": 121.0
+      },
+      "versus_R175_original": null
+    },
+    {
+      "model": "dense",
+      "mode": "original",
+      "compared_pixels": 65536,
+      "versus_current_original": {
+        "mean_absolute_dn": 0.0,
+        "pearson": 1.0,
+        "max_difference_dn": 0.0
+      },
+      "versus_published": {
+        "mean_absolute_dn": 4.071868896484375,
+        "pearson": 0.9897137950300636,
+        "max_difference_dn": 24.0
+      },
+      "versus_R175_original": {
+        "mean_absolute_dn": 0.0745391845703125,
+        "pearson": 0.9999740451160453,
+        "max_difference_dn": 1.0
+      }
+    },
+    {
+      "model": "dense",
+      "mode": "corner",
+      "compared_pixels": 65536,
+      "versus_current_original": {
+        "mean_absolute_dn": 21.387725830078125,
+        "pearson": 0.7671680776155584,
+        "max_difference_dn": 69.0
+      },
+      "versus_published": {
+        "mean_absolute_dn": 20.86590576171875,
+        "pearson": 0.7702164714441005,
+        "max_difference_dn": 65.0
+      },
+      "versus_R175_original": null
+    },
+    {
+      "model": "dense",
+      "mode": "centered",
+      "compared_pixels": 65536,
+      "versus_current_original": {
+        "mean_absolute_dn": 22.609909057617188,
+        "pearson": 0.7797638338693066,
+        "max_difference_dn": 92.0
+      },
+      "versus_published": {
+        "mean_absolute_dn": 22.860183715820312,
+        "pearson": 0.7593953759249054,
+        "max_difference_dn": 90.0
+      },
+      "versus_R175_original": null
+    }
+  ],
+  "scope": "Six saved predictions with same fixed implementations/checkpoints/layers/grid. Pixel similarity measures change and reproduction, not reading accuracy or correct physical paper.",
+  "new_model_calls": 0,
+  "new_network_bytes": 0
+}

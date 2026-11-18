@@ -1,0 +1,77 @@
+{
+  ".zattrs": {
+    "bytes": 3549,
+    "sha256": "11493ea9ea42976137da9442b3a351e251b57de8aa04d6699e6545017b98b00c",
+    "mtime_ns": 1794507810086698400
+  },
+  ".zgroup": {
+    "bytes": 19,
+    "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85",
+    "mtime_ns": 1794507809671188200
+  },
+  "0/.zarray": {
+    "bytes": 270,
+    "sha256": "159885567a1f4c99b8b958ed5ad91439ab24da8d0a465a20288c6dd294fe1763",
+    "mtime_ns": 1794507808026221600
+  },
+  "0/0.0.0": {
+    "bytes": 1471852,
+    "sha256": "f34e0b83d971b55f51217be79f8b5bfd60951ea1761ccc1ee52ff03d7249cc89",
+    "mtime_ns": 1794507808145200200
+  },
+  "1/.zarray": {
+    "bytes": 232,
+    "sha256": "afeaa75b42c18877888f8df375f680d6c30ace7a3c4ffc6baac33c7b28052d4c",
+    "mtime_ns": 1794507808178425100
+  },
+  "1/.zattrs": {
+    "bytes": 42,
+    "sha256": "9cd709bd3a1075e9bb8799e08df9ff383fafa5145eff5a401abfb63f4aba8b3d",
+    "mtime_ns": 1794507808249681000
+  },
+  "1/0/0/0": {
+    "bytes": 413696,
+    "sha256": "3e373193b92e22bd31a82ea817831467e19022d4ae37b910ebe8641b770a55ac",
+    "mtime_ns": 1794507809905528400
+  },
+  "2/.zarray": {
+    "bytes": 266,
+    "sha256": "20e61f55bba90ded901fbedada8b025f806c18dfb00a447c09829b22d14d9034",
+    "mtime_ns": 1794507809657722000
+  },
+  "2/0.0.0": {
+    "bytes": 93592,
+    "sha256": "50adfff40103b6f16446842a7a99324ed0756eefe26a08e4e7236120e998987d",
+    "mtime_ns": 1794507809957355600
+  },
+  "3/.zarray": {
+    "bytes": 326,
+    "sha256": "48cdf1bf711ddc564a69364d568010c8a1fc150f4b1899ca9feebf4972c16b3d",
+    "mtime_ns": 1794506801000000000
+  },
+  "3/0/0/0": {
+    "bytes": 25872,
+    "sha256": "555e5ae85cc9d7d2e2b4551866794c11abe1e6c3ed947be9a11ad9ae88ff4025",
+    "mtime_ns": 1794507810000691700
+  },
+  "4/.zarray": {
+    "bytes": 262,
+    "sha256": "4ea75ca86be986f499f446be57ae525f7c063c36986fe6166d672536577b3efe",
+    "mtime_ns": 1794507809715999400
+  },
+  "4/0.0.0": {
+    "bytes": 5573,
+    "sha256": "591e97846e7ad47dcd10cfe510bee932cb6ca37d339d473c4f8167940f19003c",
+    "mtime_ns": 1794507810038329200
+  },
+  "5/.zarray": {
+    "bytes": 262,
+    "sha256": "664e4fe765ca74a5850386d478b382c6d2ed13fd143a5f6180827f70ebd286c9",
+    "mtime_ns": 1794507809752982100
+  },
+  "5/0.0.0": {
+    "bytes": 1373,
+    "sha256": "51d03821e4afc52d62970b66c6c3e308247d5da1cf517c155c3c44dd740696dc",
+    "mtime_ns": 1794507810075320600
+  }
+}

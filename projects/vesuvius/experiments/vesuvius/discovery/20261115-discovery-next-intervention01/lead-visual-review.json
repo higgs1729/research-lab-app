@@ -1,0 +1,33 @@
+{
+  "reviewer": "root",
+  "checked_utc": "2026-11-15T07:28:17.331509+00:00",
+  "agent_verdict_read_before_record": false,
+  "viewed_sha256": {
+    "claim-overview-20percent.png": "357f1c510b93f45c10dbd827a87ec6dea45e6f6387cb2e6c316447d77074829f",
+    "trace-overview-20percent.png": "0e59a3611a37083c9a43568a08422a50adb2ece00fdd53df07951edb247abf43",
+    "claim-known-centre-native.png": "21fbbe0a89a856417ce5bdf77d39b92d2a0668f5885c9458ed475ee1a23822c5",
+    "claim-above-centre-native.png": "0382653e76aec4639885f656b2de4a5ebd157ca6a38358ef05cb1b12bbe82194",
+    "claim-below-centre-native.png": "e5308fa11526738114311aad1cfda0275be81bc270584bc1e07545177c3c631d",
+    "claim-known-left-native.png": "46756eedf2c7b44bca19e6b05f47c14d6425d372ad538bf41894bab266affc87",
+    "claim-known-right-native.png": "e7f527c9b08135956b1a395ad7b495fdbafea52219be800b253956cb8ccac1e2",
+    "trace-known-centre-native.png": "e4e1ea2b36ba8ee287f21113d13c2730520acbc59d5242432e7d86772d550fdf",
+    "trace-above-centre-native.png": "bb33ee36c1ac7d3b9add0b575fa224951a287d88b0cc7d3a94e187c3180d2393",
+    "trace-below-centre-native.png": "c85d717e10b5d3d1d9b581f3f79a9ee15444bb2f91518a4e3d70eca9682d731f",
+    "trace-known-left-native.png": "962a8eee1353b43f033de4baf270312d504882fcaf52b07a9c9b46fe292e4bab",
+    "trace-known-right-native.png": "706a617d1807104f9739a100a1e30cff004ad2d73ca972625b4760e8a81066cd"
+  },
+  "observations": [
+    "At the two 20-percent overviews, the published central main row has a sustained horizontal succession of dark forms; the lower row is weaker. These views locate context, not native stroke detail.",
+    "The native known-centre crop resolves a ring-like enclosed pale centre and neighbouring diagonal/vertical/low horizontal forms. The known-left crop retains separated upper clusters and broad lower horizontal/vertical marks. The known-right crop is broad and partly merged. These are already published positive-reference locations, not new letters.",
+    "The fixed above-centre crops contain sparse diffuse spots, without a continuous new line I can identify. The below-centre crops have weak bars, crossings and dots, but no defensible new letter sequence from these 1024-square crops alone. The rest of the large image has not been exhaustively inspected at native resolution in this review.",
+    "TRACE alone preserves the same main coarse known forms; the claim product darkens/selects their cores and suppresses some weak background. Similarity does not establish model independence, absence of exposure, or a true unknown character.",
+    "Blue dashed claim-box borders are present in the author source image and some crops. They are annotation, not ink; the view is a published coloured display, not a raw probability array."
+  ],
+  "novel_letters_selected": 0,
+  "selection_implication": "A coherent known positive line with adjacent continuation is a stronger reference context than isolated broad responses on an otherwise uncalibrated unread small crop. It merits designing one controlled continuation test if source/exposure/geometry can be fixed; these five crop positions do not themselves demonstrate unread text.",
+  "limits": [
+    "No new transcription, ink ground truth, or lamina verification.",
+    "No model execution and no proof the models are independent.",
+    "Above/below crops are not a complete survey of the published area."
+  ]
+}

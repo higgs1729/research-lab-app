@@ -1,0 +1,15 @@
+{
+  "geometry_tiles": 16,
+  "finite_unit_normals": 65536,
+  "ct_chunks": 18,
+  "ct_bytes": 37748736,
+  "all_ct_hashes_etag_keys_match": true,
+  "all_native_saved_array_pixels_match": 3211264,
+  "independently_interpolated_section_values": 49980,
+  "max_native_float64_difference": 0.4999966621398926,
+  "float32_quantization_differences": 0,
+  "new_product_runs": 0,
+  "visual_assessment": "The four target sections do not let the lead unambiguously trace one same papyrus sheet near d=0 in three sections. The w035 control has a visible bright continuous band; it does not calibrate a universal \u00b12-voxel acceptance threshold. Target sheet correspondence is unresolved, not proof of absent ink or incorrect segmentation.",
+  "seconds": 1.6663488689996484,
+  "max_rss_bytes": 88883200
+}

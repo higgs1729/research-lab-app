@@ -1,0 +1,9 @@
+{
+  "date_jst": "2026-11-14",
+  "images": ["comparison-local.png", "comparison-published.png"],
+  "inspection": "Original detail, before reading the worker's visual assessment",
+  "observation": "Local dense-native reverse contains a curved outline and enclosed dark centre at the same location as the published dense-native and ensemble maps. It is broad and blurred. The local seed42 reverse separates into broad bright parts with a weaker closure. Both forward predictions show weaker correspondence to that known shape.",
+  "conclusion": "Partial reproduction of a known stroke shape from raw CT, not a resolved transcription or complete reproduction of a sequence of separate letters.",
+  "transcription": null,
+  "limits": "One selected 512-square known-positive crop. The public atlas and local pipeline differ in normal calculation, patch grid phase, normalization implementation and runtime. No claim of new discovery, generalization accuracy, or absence of ink elsewhere."
+}

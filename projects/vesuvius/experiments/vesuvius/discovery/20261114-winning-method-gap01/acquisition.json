@@ -1,0 +1,142 @@
+{
+  "receipts": [
+    {
+      "url": "https://api.github.com/repos/SirProdigle/pherc0306b-first-letters/git/trees/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc?recursive=1",
+      "output": "originals/306b-tree.json",
+      "bytes": 149223,
+      "sha256": "d0b37dbc05fbdb05d4fb86ac057ad1031dd54d73d5619b2058f71a79177ab49d",
+      "http_status": 200,
+      "etag": "W/\"d0b37dbc05fbdb05d4fb86ac057ad1031dd54d73d5619b2058f71a79177ab49d\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:12:01.975724+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/README.md",
+      "output": "originals/306b-readme.md",
+      "bytes": 9269,
+      "sha256": "390af649890247fdba69aca7ec21e5eda922e2772ba5e505dbf1ff9007b38cdd",
+      "http_status": 200,
+      "etag": "\"c7d8e43285b68919054e39558557715855e9856f0cd51c6eaea8cf3b40b07335\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:12:02.229730+00:00",
+      "git_blob_sha1": "9502f4d854068607e073579103dcfcfa575d4350"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/docs/METHOD.md",
+      "output": "originals/306b-method.md",
+      "bytes": 13290,
+      "sha256": "565ba85f44519939b7d3d6114360e24c9d88119cf1d3f1467af3d1031e09055a",
+      "http_status": 200,
+      "etag": "\"2250fe299b15928ef4c070cc730b7d1d1ae1d65cd08549bef174f9df8c0576d4\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:12:02.447552+00:00",
+      "git_blob_sha1": "1d886ea9939ad71fb279669afda2f9f2efede17e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/discovery/README.md",
+      "output": "originals/306b-discovery.md",
+      "bytes": 5927,
+      "sha256": "ceebf7bacc269c87da45124566f150299fedd3f23391f23f7bba61609abcfa60",
+      "http_status": 200,
+      "etag": "\"eb457c5a8fe2933f302bfeacde5a6ec37fc587f04555dc7e462f6253428d7587\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:12:02.666597+00:00",
+      "git_blob_sha1": "06cbe1c64b95c79799f469092942d5c4792b51f5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/discovery/MANIFEST.tsv",
+      "output": "originals/306b-discovery-manifest.tsv",
+      "bytes": 13757,
+      "sha256": "db7de426832a1be791bb51140baef3da1d72d2c09a368769ec420770924fd01c",
+      "http_status": 200,
+      "etag": "\"db78e1b844bc4830162a792606f9f0cea033ea0cedea91362dfed8b3daabf212\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:12:02.915772+00:00",
+      "git_blob_sha1": "d48b59ef13fabe7b7a87db71056b9464061ae38b"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/discovery/fl/scripts/line_find.py",
+      "output": "originals/306b-line_find.py",
+      "bytes": 33267,
+      "sha256": "91b0410894220ac1ddde99cb38fa93c5b1385ea01fc3d130eaa6255a051bbb7a",
+      "http_status": 200,
+      "etag": "\"35b43c48118bdb8ef6fbf27f280b3a8fe4d5cefe8d61dc624fdd75b81e514b7e\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:12:03.182978+00:00",
+      "git_blob_sha1": "65707279a87756191fcea31a6d2298d88e967179"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/discovery/fl/scripts/screen.py",
+      "output": "originals/306b-screen.py",
+      "bytes": 7549,
+      "sha256": "b3256bcd96af82a9a5caf471c2fd731e082fb78217b0e829966c870b6fa1b4c9",
+      "http_status": 200,
+      "etag": "\"3c1c7e874e96e36c1acc953bfb4432d8fc3395f07cb2b2285208515416d1a7c4\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:12:03.406192+00:00",
+      "git_blob_sha1": "877b57c784146bae95930f39f10b38d412b06d7d"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/discovery/fl/remote/spiral/window_score.py",
+      "output": "originals/306b-window_score.py",
+      "bytes": 6634,
+      "sha256": "4afea5659fdb4d4633b06c68ab4064513392052fae033dc11c380318d36ae1cb",
+      "http_status": 200,
+      "etag": "\"2c3ec2e02651b96ba2820091c581b24ea9937a7b4e626ce702f2011598f73f13\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:12:03.670158+00:00",
+      "git_blob_sha1": "38fc291db7dc2e5cb00394c629d1284a00b0687c"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/discovery/fl/scripts/glyph_win.py",
+      "output": "originals/306b-glyph_win.py",
+      "bytes": 3995,
+      "sha256": "56f891f06e9e1944e0ec73f9fe8852922fbe2b3112286211ee0d4f37b234e73c",
+      "http_status": 200,
+      "etag": "\"66751bfe578b5252a12bb7c2682a886920b47e672aeb88cd852a3f5c151f4486\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:12:03.904591+00:00",
+      "git_blob_sha1": "954d0591e761c60d2a1e9ee7f8ed10b02822ea81"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/code/surface/DECISION_touchup.json",
+      "output": "originals/306b-surface-decision.json",
+      "bytes": 7173,
+      "sha256": "de2955374a53be82014422d098f63f9a5088ec01954b4e0f96d5272ee3ed3112",
+      "http_status": 200,
+      "etag": "\"b0f25e6dd8f1d48b96a1ae9635374be569f7d8155a53fcd31d6912596b3fda43\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:12:04.145681+00:00",
+      "git_blob_sha1": "4458e4ad25321deae9a4cfcb358a7df05f194d71"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/method/checks/known_text/known_text_product_rule.json",
+      "output": "originals/306b-known-text-product-rule.json",
+      "bytes": 4565,
+      "sha256": "da5ce42977861c02d8e81e5e684f6e1d4447b13f00deea7702d220983fb0e0d8",
+      "http_status": 200,
+      "etag": "\"e0b5af12f4773373e4af101837d2788017d80b4b1526495cedada0f4996984e1\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:12:04.426956+00:00",
+      "git_blob_sha1": "0becc73afbdea6381733dde91c15b0de8b38b8d5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/docs/MODELS_AND_DATA.md",
+      "output": "originals/306b-models.md",
+      "bytes": 4283,
+      "sha256": "0d1110ed13095509fdd0b8de06533b1ec5483d7270c79c55966f0377d61be282",
+      "http_status": 200,
+      "etag": "\"d822e83819dfe63ba2e99587dd85bbcd85bb9cbe8228b1324651704d0eff0ecf\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:12:04.671735+00:00",
+      "git_blob_sha1": "5b8a7b9bb26d5148112a16e08c521d95e9ab1eb9"
+    }
+  ],
+  "bytes": 258932,
+  "elapsed_seconds": 3.044488300001831,
+  "cumulative_bytes": 258932,
+  "cumulative_seconds": 3.0444895999971777,
+  "new_ct_voxel_bytes": 0,
+  "new_model_calls": 0,
+  "cost_jpy": 0
+}

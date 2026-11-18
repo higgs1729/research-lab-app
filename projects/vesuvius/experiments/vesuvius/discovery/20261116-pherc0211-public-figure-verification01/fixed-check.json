@@ -1,0 +1,208 @@
+{
+  "method": "fixed reported coordinates only; float64 direct centered dot-product; cv2 INTER_AREA for reported-scale resampling; no matchTemplate or search",
+  "inputs": {
+    "union": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-pherc0211-clipped-context01\\review\\context-union-raw8-native.png",
+      "bytes": 262401,
+      "sha256": "99507af59094e417363b34245b1ea8fbe301182d820e36aa03099a1de9d6c99d"
+    },
+    "v9": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-adjacent-context01\\sources\\v9-probability-f32.tif",
+      "bytes": 38709184,
+      "sha256": "527c6fbbc5ac2d5a81d7cfb7ccc2925f2dc4b4d74627a0e7b08200d6874f071c"
+    },
+    "v6": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\sources\\v6-probability-f32.tif",
+      "bytes": 11940462,
+      "sha256": "1b4b432867fb1f0f5cba844371b76813b2c5b7ad0df7b3a5bb14ee9c717abb65"
+    },
+    "figure": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-adjacent-context01\\lead-article-images\\02-af9bb591-10e1-42ed-8171-cae701387254_2048x523.png",
+      "bytes": 1996024,
+      "sha256": "16e0a845de48c9b39c07b7bbfb6ab7ddb718ee3a3b1ddb57a4f9e28ed931b385"
+    },
+    "claude_registration": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-claude-line-registration01\\registration.json",
+      "bytes": 5115,
+      "sha256": "095ce8f2888385b847369f50f6fafa90cbe5b2a2d7e2eea4cfe7b0e0c0886487"
+    },
+    "claude_figure_registration": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-claude-line-registration01\\registration-official-fig02.json",
+      "bytes": 2263,
+      "sha256": "4e4a04cad5b5976792b57cc97d63e16c4df204fd791dd0c9a006b49dd21c9d8e"
+    }
+  },
+  "dimensions": {
+    "union_wh": [
+      1024,
+      1152
+    ],
+    "v9_wh": [
+      6020,
+      1740
+    ],
+    "figure_wh": [
+      2048,
+      523
+    ]
+  },
+  "input_hashes_match_claude": {
+    "union": true,
+    "v9": true,
+    "v6": true
+  },
+  "bottom_vs_v9_fixed": {
+    "xy": [
+      4336,
+      249
+    ],
+    "ncc": 0.924878811751454
+  },
+  "quarters_fixed": [
+    {
+      "union_x": 0,
+      "v9_xy": [
+        4338,
+        240
+      ],
+      "ncc": 0.9612829961135355,
+      "parent_minus_v9_xy": [
+        14,
+        2370
+      ]
+    },
+    {
+      "union_x": 256,
+      "v9_xy": [
+        4595,
+        247
+      ],
+      "ncc": 0.9338185654721193,
+      "parent_minus_v9_xy": [
+        13,
+        2363
+      ]
+    },
+    {
+      "union_x": 512,
+      "v9_xy": [
+        4851,
+        254
+      ],
+      "ncc": 0.904346680141111,
+      "parent_minus_v9_xy": [
+        13,
+        2356
+      ]
+    },
+    {
+      "union_x": 768,
+      "v9_xy": [
+        5102,
+        256
+      ],
+      "ncc": 0.9774892404921979,
+      "parent_minus_v9_xy": [
+        18,
+        2354
+      ]
+    }
+  ],
+  "official_fixed": [
+    {
+      "name": "candidate_band",
+      "source_rows": [
+        416,
+        706
+      ],
+      "scale": 0.163,
+      "figure_xy": [
+        1004,
+        34
+      ],
+      "template_wh": [
+        167,
+        47
+      ],
+      "ncc": 0.6595468066079516,
+      "roi_intersection_n": 2294,
+      "roi_intersection_ncc": 0.7017980552258735,
+      "outside_roi_ncc": 0.5889884449843032
+    },
+    {
+      "name": "bottom_band",
+      "source_rows": [
+        946,
+        1152
+      ],
+      "scale": 0.17,
+      "figure_xy": [
+        1002,
+        122
+      ],
+      "template_wh": [
+        174,
+        35
+      ],
+      "ncc": 0.7104431999993951
+    },
+    {
+      "name": "candidate_band_inherited_bottom_no_refit",
+      "source_rows": [
+        416,
+        706
+      ],
+      "scale": 0.17,
+      "figure_xy": [
+        1002,
+        32
+      ],
+      "template_wh": [
+        174,
+        49
+      ],
+      "ncc": 0.6284956229621591,
+      "roi_intersection_n": 2470,
+      "roi_intersection_ncc": 0.6694980438741014,
+      "outside_roi_ncc": 0.5551981268533984
+    }
+  ],
+  "full_small_roi_fixed": [
+    {
+      "source_xywh": [
+        64,
+        384,
+        384,
+        256
+      ],
+      "name": "candidate_reported",
+      "scale": 0.163,
+      "figure_xywh": [
+        1014,
+        29,
+        63,
+        42
+      ],
+      "ncc": 0.7293684212651627,
+      "mapping": "nearest integer top-left; no subpixel fit"
+    },
+    {
+      "source_xywh": [
+        64,
+        384,
+        384,
+        256
+      ],
+      "name": "bottom_inherited",
+      "scale": 0.17,
+      "figure_xywh": [
+        1013,
+        26,
+        65,
+        44
+      ],
+      "ncc": 0.6936055317675065,
+      "mapping": "nearest integer top-left; no subpixel fit"
+    }
+  ]
+}

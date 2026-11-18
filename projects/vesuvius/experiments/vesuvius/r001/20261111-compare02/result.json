@@ -1,0 +1,74 @@
+{
+  "exploratory": true,
+  "roi_selected_before_prediction": true,
+  "samples": 16384,
+  "valid": 8100,
+  "geometry_distance_l2_voxels": {
+    "0": 0.0,
+    "25": 1.0910247564315796,
+    "50": 2.007518768310547,
+    "75": 2.5474517345428467,
+    "95": 4.435527324676514,
+    "100": 5.668155193328857
+  },
+  "normal_angle_degrees": {
+    "0": 0.048456642776727676,
+    "25": 3.499600410461426,
+    "50": 5.907553672790527,
+    "75": 10.055242538452148,
+    "95": 14.813600540161133,
+    "100": 22.795761108398438
+  },
+  "roundtrip_source_pixels": {
+    "0": 0.00022539940117184944,
+    "25": 0.3203127694898072,
+    "50": 0.6237452993042812,
+    "75": 1.130630441822285,
+    "95": 2.5905961540031344,
+    "100": 5.096374339974373
+  },
+  "validity_rule": "supervised, interior, distance <2 L2 voxels, abs-normal angle <20 degrees, roundtrip <8 source pixels",
+  "measurements": [
+    {
+      "shift_yx": [
+        0,
+        0
+      ],
+      "roc_auc": 0.6011154484362189,
+      "n_positive": 4652,
+      "n_negative": 3448,
+      "mean_positive": 126.47205503009458,
+      "mean_negative": 99.14559164733178
+    },
+    {
+      "shift_yx": [
+        19,
+        19
+      ],
+      "roc_auc": 0.8980028860176398,
+      "n_positive": 4652,
+      "n_negative": 3448,
+      "mean_positive": 165.91573516766982,
+      "mean_negative": 43.69286542923434
+    },
+    {
+      "shift_yx": [
+        20,
+        20
+      ],
+      "roc_auc": 0.9095354541518953,
+      "n_positive": 4652,
+      "n_negative": 3448,
+      "mean_positive": 166.41616509028376,
+      "mean_negative": 41.5284222737819
+    }
+  ],
+  "network_bytes": 4869785,
+  "elapsed_seconds": 3.9130682999966666,
+  "paid_compute_usd": 0,
+  "limitations": [
+    "One preselected ROI; not held out at segment level; geometry algorithm requires independent validation.",
+    "Labels may derive from model outputs; does not measure generalization or new text.",
+    "Index-pixel convention 20*g+shift from issue; nearest sampling; no half-pixel convention comparison."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "control": {
+    "elf": "/mnt/d/kensyoukin-work/r005-ct-render01/build02/vc_render_tifxyz",
+    "reader": "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so",
+    "ldd": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r006/20261112-representative-baseline01/run01/ldd-control.log",
+    "selected_bindings": [
+      "436:\tbinding file /mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so [0] to /mnt/d/kensyoukin-work/r003-build/core/libvc_core.so [0]: normal symbol `_ZN3vcr11MemoryCache3getERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'",
+      "436:\tbinding file /mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so [0] to /mnt/d/kensyoukin-work/r003-build/core/libvc_core.so [0]: normal symbol `_ZN3vcr5Array16read_layer_chunkEmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'",
+      "436:\tbinding file /mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so [0] to /mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so [0]: normal symbol `_ZN3vcr5Array5chunkERKSt6vectorIlSaIlEE'",
+      "436:\tbinding file /mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so [0] to /mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so [0]: normal symbol `_ZN3vcr4grid6sampleERKNS0_7SurfaceERKNS0_6RasterERKNS0_7RequestE'",
+      "436:\tbinding file /mnt/d/kensyoukin-work/r003-build/core/libvc_core.so [0] to /mnt/d/kensyoukin-work/r003-build/core/libvc_core.so [0]: normal symbol `_ZN3vcr5Array16read_layer_chunkEmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'",
+      "436:\tbinding file /mnt/d/kensyoukin-work/r003-build/core/libvc_core.so [0] to /mnt/d/kensyoukin-work/r003-build/core/libvc_core.so [0]: normal symbol `_ZN3vcr11MemoryCache3getERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'",
+      "436:\tbinding file /mnt/d/kensyoukin-work/r005-ct-render01/build02/vc_render_tifxyz [0] to /mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so [0]: normal symbol `_ZN3vcr4grid6sampleERKNS0_7SurfaceERKNS0_6RasterERKNS0_7RequestE'"
+    ],
+    "reused": true
+  },
+  "timing": {
+    "elf": "/mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/vc_render_tifxyz",
+    "reader": "/mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so",
+    "selected_bindings": [
+      "388:\tbinding file /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0] to /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0]: normal symbol `_ZN3vcr11MemoryCache3getERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'",
+      "388:\tbinding file /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0] to /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0]: normal symbol `_ZN3vcr11MemoryCache3putERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt10shared_ptrIKSt6vectorIhSaIhEEE'",
+      "388:\tbinding file /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0] to /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0]: normal symbol `_ZN3vcr5Array16read_layer_chunkEmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'",
+      "388:\tbinding file /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0] to /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0]: normal symbol `_ZN3vcr5Array5chunkERKSt6vectorIlSaIlEE'",
+      "388:\tbinding file /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0] to /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0]: normal symbol `_ZN3vcr4grid6sampleERKNS0_7SurfaceERKNS0_6RasterERKNS0_7RequestE'",
+      "388:\tbinding file /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0] to /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0]: normal symbol `_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_'",
+      "388:\tbinding file /mnt/d/kensyoukin-work/r003-build/core/libvc_core.so [0] to /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0]: normal symbol `_ZN3vcr11MemoryCache3putERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt10shared_ptrIKSt6vectorIhSaIhEEE'",
+      "388:\tbinding file /mnt/d/kensyoukin-work/r003-build/core/libvc_core.so [0] to /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0]: normal symbol `_ZN3vcr5Array16read_layer_chunkEmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'",
+      "388:\tbinding file /mnt/d/kensyoukin-work/r003-build/core/libvc_core.so [0] to /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0]: normal symbol `_ZN3vcr11MemoryCache3getERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE'",
+      "388:\tbinding file /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/vc_render_tifxyz [0] to /mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/libvc_reader_native.so [0]: normal symbol `_ZN3vcr4grid6sampleERKNS0_7SurfaceERKNS0_6RasterERKNS0_7RequestE'"
+    ]
+  }
+}

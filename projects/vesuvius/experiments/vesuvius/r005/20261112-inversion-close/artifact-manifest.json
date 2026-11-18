@@ -1,0 +1,291 @@
+{
+  "created_utc": "2026-11-11T16:41:27.180805+00:00",
+  "scope": "New orientation diagnosis only. Previous immutable C/B data and sources are referenced by paths/hashes; mutable root runner excluded and execution snapshots retained.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-close/decision-record.json",
+      "bytes": 1480,
+      "sha256": "f542d30a156bf6bc09741e2cd89805ab54c6478fe658d6b5ee5ce23a70ad1190"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-close/experiment-record.json",
+      "bytes": 940,
+      "sha256": "b78918d561b362f625cca9ba0bcda2441d7688c12995776fe515d486d8bce572"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-close/freeze.py",
+      "bytes": 3381,
+      "sha256": "95e98dc506f306ec500b038b7c73f187b7fd1efc1aa1b29c211a7408d7ebcd63"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-close/resources.json",
+      "bytes": 4947,
+      "sha256": "0d84c91d21b4831d6d2c6d12f91338b221883c9cb4cf7f2fa5a36e0440261a42"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-close/runtime-status.json",
+      "bytes": 1042,
+      "sha256": "c63f4fec838249921918929c21ecc0744b456ec0b6e9b95ac4e7fd815b882bc6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-close/verification-record.json",
+      "bytes": 1029,
+      "sha256": "91435b0af689cd18eba5b7e37a25901dfb6ceeb1e4960cf7a59c90026036bf8b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/ablation-decision.json",
+      "bytes": 1197,
+      "sha256": "32489eeedaf52bda0f9fee94b86e5955205d6dba457005ea0efbe78fdfa54cd1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/analysis01/arrays.npz",
+      "bytes": 9288555,
+      "sha256": "01d1e04b0f332b561d3d84e80ea4168a00e4803cd7f78913fc5e7c92513c742b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/analysis01/diagnose.py",
+      "bytes": 6695,
+      "sha256": "67f749d7a1ed41e3b6a13895445e233bfff28f2a30e64a84e41bab3fb31676c5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/analysis01/largest-cluster-geometry.json",
+      "bytes": 23088,
+      "sha256": "960b050c20bb115b95dddfdfb15a1fb2b1e5a37999b7a782bcb6fb2deff1e8f4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/analysis01/result.json",
+      "bytes": 69714,
+      "sha256": "ba857f0376abd4d5b54cf4f5f67e1779a4e16f6d5bdb0b0c1da9f93645ff2c99"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/analysis01-execution/state.json",
+      "bytes": 865,
+      "sha256": "a152b0e696fbcafa062b4a96a44389641fa6be3fcae1a7dceb126173cf590280"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/analysis01-execution/stdout.log",
+      "bytes": 4964,
+      "sha256": "09cee0a7e1e0b003a72df9394297d3767e18a43a48b516658a2ed52030f19066"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/decision-record.json",
+      "bytes": 1214,
+      "sha256": "6a8ed80d46458affdee7efd590551b4c8d35ecfe7129aadb52fa5562109ae066"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/diagnose.py",
+      "bytes": 6695,
+      "sha256": "67f749d7a1ed41e3b6a13895445e233bfff28f2a30e64a84e41bab3fb31676c5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/interior-decision.json",
+      "bytes": 1168,
+      "sha256": "dbad3af93f8872b9e0ef22cd8395d2f59c1af88a530b0868609196af3d62a8c0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/interior-only.patch",
+      "bytes": 3559,
+      "sha256": "5db86e15a991afaeaaea7caca003c11a32412ad77b5955e37e2401b03caef4e8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/interiors01/arrays.npz",
+      "bytes": 8837495,
+      "sha256": "b1ddbfe98f693c851f509850ebf3551f8d871d1bacfa846db189505521582999"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/interiors01/mesh_quality.py",
+      "bytes": 2558,
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/interiors01/release_interiors.py",
+      "bytes": 5278,
+      "sha256": "3683496f51a4bd9b3ca57770e5af54bef2d38726272f390436b8a52592b486f2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/interiors01/result.json",
+      "bytes": 2262939,
+      "sha256": "53a0393406b5e7690dd85f5dad56f17609c679d05db960a29d5561d053a40d81"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/interiors01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/interiors01-execution/state.json",
+      "bytes": 874,
+      "sha256": "b0be69f5d4d4b6d1dae72766a3bec7602fc38a528a466df0fc343a25b0199aca"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/interiors01-execution/stdout.log",
+      "bytes": 1731,
+      "sha256": "87551d7d4613b397380d251d751d36480aed5a06d5ce6209edad752ab4452586"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/plot-cluster.ps1",
+      "bytes": 5379,
+      "sha256": "899a6e92e9a7fa2b1edabcb6bf42500009145c0cbb13196e4dd828ac6e877cac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/plot01/failure.txt",
+      "bytes": 268,
+      "sha256": "758d79c673248b2b0481d4c9ea85d4c02154875490e43eb017b12f65e55da26c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/plot01/plot-cluster.ps1",
+      "bytes": 5073,
+      "sha256": "a6fed26e5276e2a463416431291b75a1b2dfe7bfefc57a9d72afd4331e3d5ed7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/plot01/state.json",
+      "bytes": 433,
+      "sha256": "f85a23d97ae646ce8d3ac12e4b759f172d578d7a1f4e26166cea6bf47de4f898"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/plot02/largest-cluster.png",
+      "bytes": 87410,
+      "sha256": "8e59f1ac2c33c4684197425df7afed894ebe32ee24540ce69d15165212f6ba6f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/plot02/plot-cluster.ps1",
+      "bytes": 5277,
+      "sha256": "ffd4c1aa93da7841c2a97c075ddcdfdba0cc29f0b2ecf5bd4896323d492ef260"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/plot02/state.json",
+      "bytes": 437,
+      "sha256": "e08cab948d3dad695d18feca70ac622019d13a5a3ba60fcb4f09616a6a3cf775"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/plot02/superseded.txt",
+      "bytes": 213,
+      "sha256": "3f01a894604e549e455fc3b8595b770e4f883576207ea4a7d9b8e802c2db8002"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/plot03/largest-cluster.png",
+      "bytes": 87691,
+      "sha256": "c0b3b820e52d85ab31b6ef65a503a67418caae213283cf56f5d3d968c4467013"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/plot03/plot-cluster.ps1",
+      "bytes": 5379,
+      "sha256": "899a6e92e9a7fa2b1edabcb6bf42500009145c0cbb13196e4dd828ac6e877cac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/plot03/state.json",
+      "bytes": 436,
+      "sha256": "a4f2fa79105208cf1227520799ff91a9bd175c52e0d79cfec21049d4d68d0253"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/prepare_interior_ablation.py",
+      "bytes": 1641,
+      "sha256": "f95b26e24c1da853a1478301db4bd1147511400f036a43e431d1e58b1fbf189c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/release01/arrays.npz",
+      "bytes": 5647982,
+      "sha256": "27aa4974ee4e65e49240cc02fc0bf061cc2a92a8eafd69cc543ed3df40643e72"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/release01/mesh_quality.py",
+      "bytes": 2558,
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/release01/release_boundary_anchors.py",
+      "bytes": 5151,
+      "sha256": "a83be73d9b37321bad3a57ac77212cfd105fb7208689ba98fdc8968be7308bee"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/release01/result.json",
+      "bytes": 19231,
+      "sha256": "ad256a9ba3e09bbfb82c32def203f4d7761f9848d536dbe3068d5a39bb0164ec"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/release01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/release01-execution/state.json",
+      "bytes": 878,
+      "sha256": "5a0dca655cd014c6f51512d2db4c3a57e9c5160af494097b1fe21ec18f36f628"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/release01-execution/stdout.log",
+      "bytes": 1724,
+      "sha256": "a3eed28f87e8efeceecde3841ac7e92a94b0d85408d6b74a983bd6303be9ea46"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/release_boundary_anchors.py",
+      "bytes": 5151,
+      "sha256": "a83be73d9b37321bad3a57ac77212cfd105fb7208689ba98fdc8968be7308bee"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-diagnosis01/release_interiors.py",
+      "bytes": 5278,
+      "sha256": "3683496f51a4bd9b3ca57770e5af54bef2d38726272f390436b8a52592b486f2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-verification01/check01-execution/state.json",
+      "bytes": 873,
+      "sha256": "563f54ef7f981a24c4c156ee9720b6fcafa4813fd1bb6b006a4a5f029fb808bd"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-verification01/check01-execution/stdout.log",
+      "bytes": 1131,
+      "sha256": "642ea1fcbec630a8e7637b4121d0f125a990a947150239d2f36d164200361d55"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-verification01/check02/face_arrays.npz",
+      "bytes": 15965393,
+      "sha256": "3da36277dc0057dece1d63317afc0e42d79762ed999d571bf43db0cdb794ca0e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-verification01/check02/result.json",
+      "bytes": 5283,
+      "sha256": "883c5b87e43ad2584f7652653823d7c5daae785427de618337688eca83e5270f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-verification01/check02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-verification01/check02-execution/state.json",
+      "bytes": 874,
+      "sha256": "b2724c24b9625d5c2e2eb9c6fd5ea0689e503c4a79f99fc2192ff3d6c6d8eaf4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-verification01/check02-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-inversion-verification01/verify_inversion.py",
+      "bytes": 17252,
+      "sha256": "8df57e38ed6e128dbe762718eaa82366569c5842742b12ed8750819186c37107"
+    },
+    {
+      "path": "research/51-r005-inversion-diagnosis.md",
+      "bytes": 8164,
+      "sha256": "23d6124fe05160c76583274d9bd0f43ebd4bfce68893ed1997367f4ebd8af5d8"
+    },
+    {
+      "path": "research/52-r005-inversion-verification.md",
+      "bytes": 7621,
+      "sha256": "e6b17d8218efd4d117ab414745b9f89c7feca781f455c454e1078da9c3e89f13"
+    }
+  ]
+}

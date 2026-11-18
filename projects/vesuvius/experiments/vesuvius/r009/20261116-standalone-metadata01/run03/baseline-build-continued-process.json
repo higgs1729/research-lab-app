@@ -1,0 +1,84 @@
+{
+  "command": [
+    "cmake",
+    "--build",
+    "/home/tomoy/r246-standalone-run02/build",
+    "--target",
+    "vc_render_tifxyz",
+    "--parallel",
+    "1"
+  ],
+  "timing_pid": 4907,
+  "process_group": 4907,
+  "started_utc": "2026-11-16T03:04:45.683870+00:00",
+  "completed_utc": "2026-11-16T03:06:50.717801+00:00",
+  "elapsed_seconds": 125.03360321399987,
+  "exit_code": 0,
+  "termination_reason": null,
+  "reaped": true,
+  "disk_samples": [
+    {
+      "utc": "2026-11-16T03:04:55.772515+00:00",
+      "work_bytes": 1438756864,
+      "C_free_bytes": 4999675904
+    },
+    {
+      "utc": "2026-11-16T03:05:05.819071+00:00",
+      "work_bytes": 1438756864,
+      "C_free_bytes": 4999659520
+    },
+    {
+      "utc": "2026-11-16T03:05:15.848207+00:00",
+      "work_bytes": 1438756864,
+      "C_free_bytes": 5004001280
+    },
+    {
+      "utc": "2026-11-16T03:05:25.967939+00:00",
+      "work_bytes": 1438756864,
+      "C_free_bytes": 5003849728
+    },
+    {
+      "utc": "2026-11-16T03:05:35.998891+00:00",
+      "work_bytes": 1486499840,
+      "C_free_bytes": 5006823424
+    },
+    {
+      "utc": "2026-11-16T03:05:46.032125+00:00",
+      "work_bytes": 1491369984,
+      "C_free_bytes": 5006942208
+    },
+    {
+      "utc": "2026-11-16T03:05:56.062676+00:00",
+      "work_bytes": 1493463040,
+      "C_free_bytes": 5003841536
+    },
+    {
+      "utc": "2026-11-16T03:06:06.103624+00:00",
+      "work_bytes": 1615495168,
+      "C_free_bytes": 5002919936
+    },
+    {
+      "utc": "2026-11-16T03:06:16.158122+00:00",
+      "work_bytes": 1615495168,
+      "C_free_bytes": 5003051008
+    },
+    {
+      "utc": "2026-11-16T03:06:26.222600+00:00",
+      "work_bytes": 1615495168,
+      "C_free_bytes": 5003046912
+    },
+    {
+      "utc": "2026-11-16T03:06:36.269135+00:00",
+      "work_bytes": 1615495168,
+      "C_free_bytes": 4968947712
+    },
+    {
+      "utc": "2026-11-16T03:06:46.306961+00:00",
+      "work_bytes": 1615495168,
+      "C_free_bytes": 4984786944
+    }
+  ],
+  "max_child_rss_bytes": 1889284096,
+  "user_cpu_seconds": 105.71,
+  "sys_cpu_seconds": 16.87
+}

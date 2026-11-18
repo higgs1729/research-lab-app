@@ -1,0 +1,175 @@
+{
+  "baseline-observe": {
+    "complete": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        7356,
+        2272,
+        128,
+        128
+      ],
+      "selected_pixels": 16384
+    },
+    "omitted": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        0,
+        0,
+        13600,
+        3440
+      ],
+      "selected_pixels": 46784000
+    },
+    "zero": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        0,
+        0,
+        13600,
+        3440
+      ],
+      "selected_pixels": 46784000
+    },
+    "default-origin": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "selected_pixels": 16384
+    },
+    "negative-origin": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        0,
+        0,
+        112,
+        120
+      ],
+      "selected_pixels": 13440
+    },
+    "auto": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        19,
+        19,
+        13561,
+        3401
+      ],
+      "selected_pixels": 46120961
+    },
+    "missing-height": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        0,
+        0,
+        13600,
+        3440
+      ],
+      "selected_pixels": 46784000
+    }
+  },
+  "guard-observe": {
+    "complete": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        7356,
+        2272,
+        128,
+        128
+      ],
+      "selected_pixels": 16384
+    },
+    "omitted": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        0,
+        0,
+        13600,
+        3440
+      ],
+      "selected_pixels": 46784000
+    },
+    "zero": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        0,
+        0,
+        13600,
+        3440
+      ],
+      "selected_pixels": 46784000
+    },
+    "default-origin": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "selected_pixels": 16384
+    },
+    "negative-origin": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        0,
+        0,
+        112,
+        120
+      ],
+      "selected_pixels": 13440
+    },
+    "auto": {
+      "canvas": [
+        13600,
+        3440
+      ],
+      "crop": [
+        19,
+        19,
+        13561,
+        3401
+      ],
+      "selected_pixels": 46120961
+    }
+  }
+}

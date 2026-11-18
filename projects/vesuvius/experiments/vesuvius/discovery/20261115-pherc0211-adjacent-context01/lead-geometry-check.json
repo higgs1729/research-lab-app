@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-15T12:03:33.804308+00:00",
+  "passed": true,
+  "method": "Direct float64 grid-node reads and exhaustive Euclidean distance over all valid v6 parent nodes; no KD-tree or worker imports",
+  "v6_valid_nodes": 66919,
+  "edge_nodes": 7,
+  "coverage_queries": 35,
+  "max_distance_difference_vox": 0.0,
+  "known_control_grid_xyz_checked": true,
+  "limits": "Nearest mesh nodes diagnose coverage only. Tangent extrapolation is not a traced physical surface. Grid-node canvas coordinates do not equal integer image pixel centres."
+}

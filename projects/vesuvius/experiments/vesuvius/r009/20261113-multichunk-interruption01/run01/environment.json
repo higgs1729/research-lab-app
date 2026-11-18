@@ -1,0 +1,26 @@
+{
+  "cpu_affinity": [
+    0
+  ],
+  "address_space_limit_bytes": 4294967296,
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OPENCV_FOR_THREADS_NUM": "1",
+    "TMPDIR": "/mnt/c/dev/kensyoukin/.work/r009-multichunk-interruption01/run01",
+    "CUDA_VISIBLE_DEVICES": "",
+    "AGENTS_AGENT_MODE": "1"
+  },
+  "core_limit": 0,
+  "network_namespace": "unshare -Urn",
+  "C_work_limit_bytes": 134217728,
+  "timeout_seconds_each": 60,
+  "timeout_seconds_total": 180,
+  "debugger_extra_env": {
+    "DEBUGINFOD_URLS": "",
+    "PYTHONDONTWRITEBYTECODE": "1"
+  }
+}

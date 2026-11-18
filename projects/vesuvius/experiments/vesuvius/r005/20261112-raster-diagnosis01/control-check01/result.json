@@ -1,0 +1,12 @@
+{
+  "trace_exactly_equal": true,
+  "all_xyz_float32_exactly_equal": true,
+  "grid_shape_yx": [
+    245,
+    3043
+  ],
+  "points_bytes": 8946420,
+  "source_trace_sha256": "2f3b6673160a9113cc27bb38060720a2ce4bacba0317d0b120a334fbe58e1d30",
+  "new_trace_sha256": "2f3b6673160a9113cc27bb38060720a2ce4bacba0317d0b120a334fbe58e1d30",
+  "new_points_sha256": "61d1749d4083f6a99fadc2a7c1e514ce24a2020d5302794b4b7c1a1e71f2280f"
+}

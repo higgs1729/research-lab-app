@@ -1,0 +1,24 @@
+{
+  "user_authorization": "2026-11-16 JST: この文で送信する (reply to prepared draft and public GitHub Issue proposal)",
+  "connector_preflight_login": "higgs1729",
+  "connector_preflight_issue_list": [],
+  "connector_create_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "GitHub API error 403: {\"message\":\"Resource not accessible by integration\",\"documentation_url\":\"https://docs.github.com/rest/issues/issues#create-an-issue\",\"status\":\"403\"}"
+      }
+    ],
+    "structuredContent": {
+      "error": "GitHub API error 403: {\"message\":\"Resource not accessible by integration\",\"documentation_url\":\"https://docs.github.com/rest/issues/issues#create-an-issue\",\"status\":\"403\"}",
+      "error_code": "FORBIDDEN",
+      "error_data": {
+        "message": "Resource not accessible by integration",
+        "documentation_url": "https://docs.github.com/rest/issues/issues#create-an-issue",
+        "status": "403"
+      }
+    },
+    "isError": true
+  },
+  "fallback": "GitHub CLI already authenticated as higgs1729; same approved title/body."
+}

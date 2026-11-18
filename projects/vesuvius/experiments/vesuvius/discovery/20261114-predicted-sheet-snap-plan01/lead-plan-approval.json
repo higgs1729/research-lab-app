@@ -1,0 +1,40 @@
+{
+  "checked_utc": "2026-11-14T14:46:09.830388+00:00",
+  "plan_sha256": "5140217513b89de778f6f92008ef084bba19b89630e97ba8ede5f9644eea1e4e",
+  "decision": "approve one sequential CPU experiment R216, known control first, parent independent review before conditional unknown acquisition",
+  "basis": [
+    "Independent primary source reading and metadata contract verified",
+    "Independent finite-difference normals and nearest support calculation match all 28 local regions, 62 known and 121 conditional unknown keys",
+    "All listed183 objects HEAD200 with lengths, total known27,235,944B/unknown71,124,890B",
+    "11cell dependency bound retained; preserve original UV and full grid outside fixed core",
+    "No new uncalibrated correlation cutoff for physical no-harm; baseline reproducibility checks are separate",
+    "Known geometry already snapped+flattened; reuse is a no-harm test, not proof of correct recovery from a displaced fit"
+  ],
+  "resources": {
+    "planned_new_m7_encoded_total_bytes_if_both_stages": 98360834,
+    "max_new_m7_encoded_bytes": 134217728,
+    "max_new_known_CT_keys_bytes": [
+      16,
+      33554432
+    ],
+    "max_new_unknown_CT_bytes": 0,
+    "max_transfer_seconds_each_scroll": 300,
+    "max_computation_seconds_total": 600,
+    "max_local_wall_seconds_total": 1500,
+    "model_allowance": "CPU dense known 0 to 2 calls, <=50 total patches; budget 120 seconds for each inference and local model stages only; unknown0",
+    "estimated_work": "62 streams and 27,235,944 B for known, 121 and 71,124,890 B conditional unknown, sequential one decoded chunk 6.75 MiB at a time, <=0.83 GiB decoded if all a scroll's distinct chunks were simultaneously held. Use current HEAD sizes; transfer/runtime estimates are planning values. R185 similar CPU dense/model helper total six forward runs ~75sec, control total<=240s budget. New codec/snap timings not yet observed on actual objects.",
+    "cpu_threads": 1,
+    "cpu_process_commit_or_as_gib": 4,
+    "c_disk_reserve_gib": 10,
+    "c_workspace_max_gib": 2,
+    "d_writes": 0,
+    "gpu": 0,
+    "paid_resources": 0,
+    "estimated_usd": 0
+  },
+  "limits": [
+    "No unknown ink model, no GPU or paid Pod, no new model weights",
+    "Keep original ambiguity distinct from new damage; no universal m7 failure conclusion if this transfer fails",
+    "R216 must present known results to parent before unknown m7 body reads"
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "utc": "2026-11-14T14:27:03.840402+00:00",
+  "reviewer": "root",
+  "method": "Independent scalar oriented coordinate generation, raw byte addressing of29 cached L0 blocks, and8-corner trilinear sum with nearest rounding. No child imports; no new CT/network/model calls.",
+  "sections": [
+    {
+      "section": "z11760-x256",
+      "plane": "xy",
+      "values": 2937,
+      "exact_values": 2937,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z11760-x256",
+      "plane": "radial-z",
+      "values": 2937,
+      "exact_values": 2937,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z11760-x1024",
+      "plane": "xy",
+      "values": 3729,
+      "exact_values": 3729,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z11760-x1024",
+      "plane": "radial-z",
+      "values": 3729,
+      "exact_values": 3729,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z11760-x1792",
+      "plane": "xy",
+      "values": 2937,
+      "exact_values": 2937,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z11760-x1792",
+      "plane": "radial-z",
+      "values": 2937,
+      "exact_values": 2937,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z11952-x256",
+      "plane": "xy",
+      "values": 3036,
+      "exact_values": 3036,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z11952-x256",
+      "plane": "radial-z",
+      "values": 3036,
+      "exact_values": 3036,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z11952-x1024",
+      "plane": "xy",
+      "values": 2607,
+      "exact_values": 2607,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z11952-x1024",
+      "plane": "radial-z",
+      "values": 2607,
+      "exact_values": 2607,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z11952-x1792",
+      "plane": "xy",
+      "values": 4884,
+      "exact_values": 4884,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z11952-x1792",
+      "plane": "radial-z",
+      "values": 4884,
+      "exact_values": 4884,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z12240-x256",
+      "plane": "xy",
+      "values": 2805,
+      "exact_values": 2805,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z12240-x256",
+      "plane": "radial-z",
+      "values": 2805,
+      "exact_values": 2805,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z12240-x1024",
+      "plane": "xy",
+      "values": 2739,
+      "exact_values": 2739,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z12240-x1024",
+      "plane": "radial-z",
+      "values": 2739,
+      "exact_values": 2739,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z12240-x1792",
+      "plane": "xy",
+      "values": 2904,
+      "exact_values": 2904,
+      "max_dn_difference": 0
+    },
+    {
+      "section": "z12240-x1792",
+      "plane": "radial-z",
+      "values": 2904,
+      "exact_values": 2904,
+      "max_dn_difference": 0
+    }
+  ],
+  "total_values": 57156,
+  "total_exact": 57156,
+  "max_dn_difference": 0,
+  "cost": 0
+}

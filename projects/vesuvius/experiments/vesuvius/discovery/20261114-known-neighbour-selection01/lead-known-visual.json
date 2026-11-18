@@ -1,0 +1,17 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "viewed": [
+    "winner-original.png (overview resized by viewer)",
+    "official-annotated.png",
+    "official-other-submissions.png",
+    "atlas-coverage.png",
+    "atlas-east-crop.png",
+    "edge-1.png (768x768 original)",
+    "edge-3.png (768x768 original)",
+    "edge-4.png (768x768 original)"
+  ],
+  "assessment": "The original winning display and official annotations show established lines. The other-submissions image contains several rows, but I cannot register it to the raw winner mesh by visual inspection alone. In the preselected atlas east crop, reverse ensemble and dense show an elongated broad bright band across the winner crop boundary; seed42 has branches and several bright lobes, but I cannot establish distinct new glyphs or a sequence. The right-side brighter lobe is not sufficient to identify a letter.",
+  "candidate_transcription": null,
+  "scope": "The winner crop boundary is a publication-frame limit, not a proven unread-text boundary. Public atlas predictions already cover this edge. A next test must identify what it adds beyond these existing outputs and keep prior publication overlap unresolved until mapped."
+}

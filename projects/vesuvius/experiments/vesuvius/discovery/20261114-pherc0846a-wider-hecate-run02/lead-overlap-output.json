@@ -1,0 +1,47 @@
+{
+  "reviewer": "root",
+  "same_nominal_coordinates": true,
+  "bit_identical_ct_inputs": false,
+  "known_input_changes": {
+    "values_compared": 4866048,
+    "changed": 967,
+    "max_abs_dn": 1
+  },
+  "directions": {
+    "forward": {
+      "shared_patches": 121,
+      "probability_values": 495616,
+      "probability_mae": 0.00013232642434489014,
+      "probability_max_difference": 0.01894056797027588,
+      "probability_values_identical": 34,
+      "shared_png_xywh": [
+        928,
+        928,
+        320,
+        320
+      ],
+      "png_values": 102400,
+      "png_mae_dn": 0.01734375,
+      "png_max_difference_dn": 2,
+      "png_values_changed": 1773
+    },
+    "reverse": {
+      "shared_patches": 121,
+      "probability_values": 495616,
+      "probability_mae": 0.0005218306022656382,
+      "probability_max_difference": 0.03139901161193848,
+      "probability_values_identical": 29,
+      "shared_png_xywh": [
+        928,
+        928,
+        320,
+        320
+      ],
+      "png_values": 102400,
+      "png_mae_dn": 0.1165234375,
+      "png_max_difference_dn": 3,
+      "png_values_changed": 11519
+    }
+  },
+  "model_calls": 0
+}

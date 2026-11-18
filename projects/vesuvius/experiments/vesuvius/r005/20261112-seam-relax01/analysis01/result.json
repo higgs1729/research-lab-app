@@ -1,0 +1,273 @@
+{
+  "raw_max_pin_error": 5.651835573881703e-05,
+  "all_pins_restored_exact": true,
+  "only_designated_12_vertices_changed": true,
+  "all_fixed_coarse_external_corners_preserved": true,
+  "measurements": {
+    "H": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_signed_area": 0.06524639681096783,
+      "full_quality": {
+        "faces": 478224,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 9.706592207455477,
+        "area_weighted_inverse_L2_rms": 4.291940547995248,
+        "max_symmetric_singular_stretch": 2350.646159866873,
+        "uv_area_over_3d_area": 0.9733534065916937,
+        "area_ratio_percentiles_1_50_99": [
+          0.6975841862451885,
+          0.9798753170510746,
+          1.3809179458670475
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.0065824871602844,
+          1.0918348686294836,
+          1.3062107143969182
+        ]
+      },
+      "local35_quality": {
+        "faces": 35,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 117319.10956745394,
+        "area_weighted_inverse_L2_rms": 484.3930230834685,
+        "max_symmetric_singular_stretch": 2350.646159866873,
+        "uv_area_over_3d_area": 0.6497170250402426,
+        "area_ratio_percentiles_1_50_99": [
+          0.00032380258700838525,
+          0.4346908338902428,
+          2.5673954301941393
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          2.817502862570708,
+          847788.1519167029,
+          1202973.8989689716
+        ]
+      },
+      "subject346_quality": {
+        "faces": 346,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 11794.839582073257,
+        "area_weighted_inverse_L2_rms": 153.58601931783218,
+        "max_symmetric_singular_stretch": 2350.646159866873,
+        "uv_area_over_3d_area": 0.7118912340148487,
+        "area_ratio_percentiles_1_50_99": [
+          0.0011999818345221447,
+          0.7607297969475156,
+          1.362046578295867
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.247936713144008,
+          6.988680762087348,
+          535631.7802308982
+        ]
+      },
+      "overlap_pairs": 59,
+      "inside_subject_pairs": 46,
+      "outside_pairs": 13
+    },
+    "I": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_signed_area": 0.36532380015319177,
+      "full_quality": {
+        "faces": 478224,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 1.165830372370352,
+        "area_weighted_inverse_L2_rms": 1.1572315069222723,
+        "max_symmetric_singular_stretch": 517.2883420248229,
+        "uv_area_over_3d_area": 0.973370476412332,
+        "area_ratio_percentiles_1_50_99": [
+          0.6975965636690677,
+          0.9798755420311291,
+          1.3810817179944186
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.0065824871602844,
+          1.0918348686294836,
+          1.306253929518015
+        ]
+      },
+      "local35_quality": {
+        "faces": 35,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 4.222661350681442,
+        "area_weighted_inverse_L2_rms": 2.491110844042153,
+        "max_symmetric_singular_stretch": 6.915050846277854,
+        "uv_area_over_3d_area": 0.8841860474017376,
+        "area_ratio_percentiles_1_50_99": [
+          0.19879154573537075,
+          0.5149106462071851,
+          3.652147765457152
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          3.2820794636551662,
+          8.606446072000965,
+          12.072612211477301
+        ]
+      },
+      "subject346_quality": {
+        "faces": 346,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 2.026332375310458,
+        "area_weighted_inverse_L2_rms": 1.7252156508780485,
+        "max_symmetric_singular_stretch": 6.915050846277854,
+        "uv_area_over_3d_area": 0.7354607013388162,
+        "area_ratio_percentiles_1_50_99": [
+          0.22155376770291474,
+          0.7620384515586015,
+          2.0712682554180772
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.2488067101546485,
+          5.525921767585373,
+          9.141125155397647
+        ]
+      },
+      "overlap_pairs": 93,
+      "inside_subject_pairs": 80,
+      "outside_pairs": 13
+    },
+    "I_packed": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_signed_area": 0.3517625331878662,
+      "full_quality": {
+        "faces": 478224,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 1.1763771177297075,
+        "area_weighted_inverse_L2_rms": 1.1663096541290205,
+        "max_symmetric_singular_stretch": 537.2258835436866,
+        "uv_area_over_3d_area": 0.9733705138377966,
+        "area_ratio_percentiles_1_50_99": [
+          0.6975988553583334,
+          0.9798759700832556,
+          1.3810817179944186
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.0065822803974314,
+          1.091823885839743,
+          1.3062611592810058
+        ]
+      },
+      "local35_quality": {
+        "faces": 35,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 4.222700451869554,
+        "area_weighted_inverse_L2_rms": 2.4911276677493914,
+        "max_symmetric_singular_stretch": 6.915044432101086,
+        "uv_area_over_3d_area": 0.8841882860837846,
+        "area_ratio_percentiles_1_50_99": [
+          0.19879035557819374,
+          0.5148828616384729,
+          3.6521776676728166
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          3.282409825135852,
+          8.606183030249936,
+          12.073325116785524
+        ]
+      },
+      "subject346_quality": {
+        "faces": 346,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 2.0263426488337077,
+        "area_weighted_inverse_L2_rms": 1.7252220263571345,
+        "max_symmetric_singular_stretch": 6.915044432101086,
+        "uv_area_over_3d_area": 0.7354596380746651,
+        "area_ratio_percentiles_1_50_99": [
+          0.22155136496197095,
+          0.7620510458717544,
+          2.0712545885210454
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.248810437733351,
+          5.526189795550918,
+          9.142262191354055
+        ]
+      },
+      "overlap_pairs": 93,
+      "inside_subject_pairs": 80,
+      "outside_pairs": 13
+    }
+  },
+  "overlap_pairs_disappeared_vs_H": 6,
+  "overlap_pairs_new_vs_H": 40,
+  "prepack_packed_pair_ids_equal": true,
+  "packing_translations": [
+    {
+      "component": 1,
+      "vertices": 195936,
+      "shift": [
+        -9075.5100040077,
+        107.94813392166351
+      ]
+    },
+    {
+      "component": 0,
+      "vertices": 30027,
+      "shift": [
+        39496.1702018038,
+        277.51085805665906
+      ]
+    },
+    {
+      "component": 2,
+      "vertices": 19470,
+      "shift": [
+        50557.30385491612,
+        -1380.2710348003886
+      ]
+    },
+    {
+      "component": 6,
+      "vertices": 2131,
+      "shift": [
+        21159.10197041004,
+        -3615.09326171875
+      ]
+    },
+    {
+      "component": 7,
+      "vertices": 1243,
+      "shift": [
+        16758.546453022624,
+        -3942.817601500688
+      ]
+    },
+    {
+      "component": 5,
+      "vertices": 991,
+      "shift": [
+        45773.385093677614,
+        -2798.063473964491
+      ]
+    },
+    {
+      "component": 3,
+      "vertices": 49,
+      "shift": [
+        55690.00867855062,
+        -2414.024658203125
+      ]
+    },
+    {
+      "component": 4,
+      "vertices": 49,
+      "shift": [
+        46879.175181860825,
+        -2718.3642578125
+      ]
+    },
+    {
+      "component": 8,
+      "vertices": 49,
+      "shift": [
+        26874.642954702278,
+        -4302.119140625
+      ]
+    }
+  ],
+  "raster_gate_passed": true,
+  "elapsed_seconds": 4.380164300033357
+}

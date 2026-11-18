@@ -1,0 +1,416 @@
+{
+  "retrieved_jst": "2026-11-16",
+  "article": {
+    "url": "https://scrollprize.substack.com/p/first-letters-emerge-from-pherc-211",
+    "http_status": 200,
+    "raw": {
+      "path": "20261116-pherc0211-parent-probability-source01/sources/award-current.html",
+      "bytes": 201495,
+      "sha256": "26c78cdfc3183db6e49b2afc518686abed0f32744a28233731b0d5209d01ff0c"
+    },
+    "raw_kept": false,
+    "sanitized": {
+      "path": "20261116-pherc0211-parent-probability-source01/sources/award-current-public.html",
+      "bytes": 200035,
+      "sha256": "163d884872b9a30c0a269f625727bb3ae45eb475c506152a0f698c60c897e062"
+    },
+    "previous": {
+      "path": "20261115-new-211-winner-model01/sources/award.html",
+      "bytes": 201494,
+      "sha256": "45346fbb05600bda2df15ce1b9d35d00fa27ec558c5e73e54ae2eb4513a2f3ce"
+    },
+    "visible_anchor_urls_without_query": [
+      "/",
+      "https://substack.com/@federica775182",
+      "https://substack.com/@paulhenderson352328",
+      "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf016da2-a48d-4e9c-b87c-0210a9353ded_1582x1786.png",
+      "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faf9bb591-10e1-42ed-8171-cae701387254_2048x523.png",
+      "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52772f01-489f-4cd3-94e8-74d048efca70_2048x905.jpeg",
+      "https://github.com/priyankaranke/vesuvius-studio-multiscroll-cpt",
+      "https://github.com/priyankaranke/vesuvius-studio-multiscroll-cpt/releases/tag/studio-softloss-20261023",
+      "https://huggingface.co/datasets/paranke/vesuvius-814-841-9b-studio-training-data",
+      "https://huggingface.co/datasets/paranke/vesuvius-expanded9-training-data",
+      "https://huggingface.co/datasets/domenicor046/reader-v2-labels",
+      "https://drive.google.com/drive/folders/1bvKolL_TIE3k5Ixi1qlOiAmofQ6r2ocH",
+      "https://github.com/priyankaranke/vc3d-manual",
+      "https://scrollprize.substack.com/p/50k-first-letters-prize-awarded-for",
+      "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the",
+      "https://scrollprize.org/prizes",
+      "https://substack.com/profile/96357415-jan-millerjan-miller-klein",
+      "https://scrollprize.substack.com/p/first-letters-emerge-from-pherc-211/comment/387753980",
+      "https://substack.com/privacy",
+      "https://substack.com/tos",
+      "https://substack.com/ccpa",
+      "https://substack.com/signup",
+      "https://substack.com/app/app-store-redirect",
+      "https://substack.com",
+      "https://substack.com/get-started",
+      "https://substack.com/podcasts",
+      "https://substack.com/startups",
+      "https://enable-javascript.com/"
+    ]
+  },
+  "readme_connector_text_matches_previous_ignoring_final_newlines": true,
+  "readme_public_access": {
+    "http_status": 200,
+    "current": {
+      "path": "20261116-pherc0211-parent-probability-source01/sources/drive-README-raw.md",
+      "bytes": 5897,
+      "sha256": "aef0e81bbb0dccffe00bf5afab024b0758ac18d02994fc62e03f391285bd4317"
+    },
+    "previous": {
+      "path": "20261115-pherc0211-adjacent-context01/sources/drive-README.md",
+      "bytes": 5897,
+      "sha256": "aef0e81bbb0dccffe00bf5afab024b0758ac18d02994fc62e03f391285bd4317"
+    }
+  },
+  "drive_contents": [
+    22,
+    5,
+    5,
+    7,
+    5,
+    8,
+    5,
+    4,
+    5
+  ],
+  "github_tree_entries": {
+    "235e3be8a06749344862c89a1e52c81d90b15e0e": 115,
+    "25138d4b5ce5ba59fcf93299a9bc447050beca25": 106,
+    "2ac947c38589be6cfcc1b3b462e2431371a77043": 114
+  },
+  "github_release_assets": 3,
+  "line2_zip": {
+    "path": "20261115-pherc0211-adjacent-context01/sources/v6-line2-mesh.zip",
+    "bytes": 4953331,
+    "sha256": "9e9105d9bb812e6d2af454b30cb724e6339f0f0403e06eb28a302b484d31db36",
+    "http_status": 200,
+    "current": {
+      "path": "20261116-pherc0211-parent-probability-source01/sources/v6-line2-current.zip",
+      "bytes": 4953331,
+      "sha256": "9e9105d9bb812e6d2af454b30cb724e6339f0f0403e06eb28a302b484d31db36"
+    },
+    "current_duplicate_kept": false,
+    "contents": [
+      {
+        "path": "mesh/CONTENTS.txt",
+        "bytes": 1826,
+        "compressed_bytes": 894
+      },
+      {
+        "path": "mesh/REPRODUCE.md",
+        "bytes": 4804,
+        "compressed_bytes": 1964
+      },
+      {
+        "path": "mesh/case.json",
+        "bytes": 2078,
+        "compressed_bytes": 934
+      },
+      {
+        "path": "mesh/inference/inference.py",
+        "bytes": 5752,
+        "compressed_bytes": 2311
+      },
+      {
+        "path": "mesh/inference/model.py",
+        "bytes": 4161,
+        "compressed_bytes": 1465
+      },
+      {
+        "path": "mesh/inference-record.json",
+        "bytes": 1592,
+        "compressed_bytes": 898
+      },
+      {
+        "path": "mesh/label-32-row-1.png",
+        "bytes": 696,
+        "compressed_bytes": 701
+      },
+      {
+        "path": "mesh/label-32-row-2.png",
+        "bytes": 775,
+        "compressed_bytes": 780
+      },
+      {
+        "path": "mesh/label-32-row-3.png",
+        "bytes": 809,
+        "compressed_bytes": 814
+      },
+      {
+        "path": "mesh/label-52-1-cm.png",
+        "bytes": 790,
+        "compressed_bytes": 795
+      },
+      {
+        "path": "mesh/labels.json",
+        "bytes": 502,
+        "compressed_bytes": 133
+      },
+      {
+        "path": "mesh/make_submission_images.py",
+        "bytes": 7857,
+        "compressed_bytes": 3213
+      },
+      {
+        "path": "mesh/make_submission_images_original.py",
+        "bytes": 7759,
+        "compressed_bytes": 3217
+      },
+      {
+        "path": "mesh/manual-save-snapshot.sha256",
+        "bytes": 292,
+        "compressed_bytes": 194
+      },
+      {
+        "path": "mesh/mask.png",
+        "bytes": 13812,
+        "compressed_bytes": 11003
+      },
+      {
+        "path": "mesh/normalized-tifxyz/Open in VC3D.volpkg.json",
+        "bytes": 410,
+        "compressed_bytes": 260
+      },
+      {
+        "path": "mesh/normalized-tifxyz/meta.json",
+        "bytes": 904,
+        "compressed_bytes": 425
+      },
+      {
+        "path": "mesh/normalized-tifxyz/x.tif",
+        "bytes": 37844,
+        "compressed_bytes": 26055
+      },
+      {
+        "path": "mesh/normalized-tifxyz/y.tif",
+        "bytes": 37844,
+        "compressed_bytes": 25744
+      },
+      {
+        "path": "mesh/normalized-tifxyz/z.tif",
+        "bytes": 37844,
+        "compressed_bytes": 22752
+      },
+      {
+        "path": "mesh/orientation.json",
+        "bytes": 2738,
+        "compressed_bytes": 570
+      },
+      {
+        "path": "mesh/parent/case.json",
+        "bytes": 1372,
+        "compressed_bytes": 654
+      },
+      {
+        "path": "mesh/parent/flat-mesh.npz",
+        "bytes": 2425359,
+        "compressed_bytes": 1581726
+      },
+      {
+        "path": "mesh/parent/mesh.npz",
+        "bytes": 1073378,
+        "compressed_bytes": 968437
+      },
+      {
+        "path": "mesh/parent/normalized-tifxyz/meta.json",
+        "bytes": 290,
+        "compressed_bytes": 167
+      },
+      {
+        "path": "mesh/parent/normalized-tifxyz/x.tif",
+        "bytes": 285240,
+        "compressed_bytes": 273662
+      },
+      {
+        "path": "mesh/parent/normalized-tifxyz/y.tif",
+        "bytes": 278388,
+        "compressed_bytes": 266757
+      },
+      {
+        "path": "mesh/parent/normalized-tifxyz/z.tif",
+        "bytes": 241292,
+        "compressed_bytes": 234888
+      },
+      {
+        "path": "mesh/parent/orientation.json",
+        "bytes": 2738,
+        "compressed_bytes": 570
+      },
+      {
+        "path": "mesh/parent/results.json",
+        "bytes": 7437,
+        "compressed_bytes": 2486
+      },
+      {
+        "path": "mesh/parent/surface_energies_flatboi.txt",
+        "bytes": 663,
+        "compressed_bytes": 193
+      },
+      {
+        "path": "mesh/raw-ct.png",
+        "bytes": 1498591,
+        "compressed_bytes": 1498334
+      },
+      {
+        "path": "mesh/reproduce_submission.py",
+        "bytes": 6070,
+        "compressed_bytes": 2268
+      },
+      {
+        "path": "mesh/reproduce_submission.sh",
+        "bytes": 1581,
+        "compressed_bytes": 635
+      },
+      {
+        "path": "mesh/reproduction.json",
+        "bytes": 6604,
+        "compressed_bytes": 2980
+      },
+      {
+        "path": "mesh/requirements-inference-exact.txt",
+        "bytes": 472,
+        "compressed_bytes": 228
+      },
+      {
+        "path": "mesh/results.json",
+        "bytes": 7559,
+        "compressed_bytes": 2771
+      },
+      {
+        "path": "mesh/split.json",
+        "bytes": 146149,
+        "compressed_bytes": 5201
+      },
+      {
+        "path": "mesh/turbo.json",
+        "bytes": 3984,
+        "compressed_bytes": 1250
+      }
+    ],
+    "text_names_with_parent_probability_digest": [
+      "mesh/parent/results.json",
+      "mesh/results.json"
+    ]
+  },
+  "line2_historical_models": {
+    "studio": {
+      "checkpoint_sha256": "ffffbf4fcb2f1eb91940a6899366cd0d22b2ea03987270d07dc2a205dbd91145",
+      "seconds": 32.00035510095768,
+      "shape": [
+        4600,
+        6060
+      ],
+      "range": [
+        0.0,
+        0.9934149980545044
+      ],
+      "supported_mean": 0.11051373183727264,
+      "coverage_file": "studio-mask.png",
+      "coverage_pixels": 25962000,
+      "display_window": [
+        1.6071661082150967e-06,
+        0.9626601803302764
+      ],
+      "stats": {
+        "tiles": 6663,
+        "group": 1,
+        "stride": 64,
+        "input_side": 128,
+        "batch_size": 32,
+        "wall_seconds": 26.591822338989004,
+        "coordinate_seconds": 0.01853379502426833,
+        "host_contiguity_and_h2d_seconds": 0.004121771897189319,
+        "gpu_execution_and_finalize_seconds": 26.530181883019395,
+        "first_real_batch_seconds": 12.802703583962284,
+        "first_batch_note": "Included in wall time; excluded from steady CUDA stage samples; may include compilation",
+        "final_d2h_seconds": 0.026963067008182406,
+        "sampled_batches": 13,
+        "sampled_batch_cuda_ms": {
+          "resident_tile_pack": 0.057031384167762905,
+          "model_forward": 65.95739393967848,
+          "fused_probability_blend": 0.006328615467422283
+        },
+        "input_bytes": 446016000,
+        "output_bytes": 111504000,
+        "finite": true,
+        "oom_retries": 0,
+        "blending": "normalized_pixel_centered_hann96",
+        "numerical_mode": "independent_original_tile_context",
+        "pipeline": "Vectorized exact tile selection; GPU-resident CT and coordinates; independent tile evaluations; fused extraction and probability blend; one final transfer",
+        "runtime_implementation": "gh200_hybrid_fp8_bf16_fused_residual_affine_lut_matrix_hann"
+      },
+      "probability_sha256": "0bf20b28456e449568b55ffdf4f51f87ace093cbc66f4e7a23b9a0547070f3e1",
+      "normal_sign": -1,
+      "geometry_sha256": "7ca0b190874dd574f08c9caf257e85d6b28250d4f1295bb03596975bbf5c36bd"
+    }
+  },
+  "old_parent": {
+    "id": "PHerc0211-crop1711-manual-20261026-1237-legacyuv20-v6",
+    "shape_yx": [
+      4600,
+      6060
+    ],
+    "geometry_sha256": "7ca0b190874dd574f08c9caf257e85d6b28250d4f1295bb03596975bbf5c36bd",
+    "checkpoint_sha256": "ffffbf4fcb2f1eb91940a6899366cd0d22b2ea03987270d07dc2a205dbd91145",
+    "probability_sha256_unqualified": "0bf20b28456e449568b55ffdf4f51f87ace093cbc66f4e7a23b9a0547070f3e1",
+    "runtime_implementation": "gh200_hybrid_fp8_bf16_fused_residual_affine_lut_matrix_hann",
+    "tiles": 6663,
+    "output_bytes": 111504000,
+    "recipe": "pherc1545-willx-20261020 requested_models.predict",
+    "public_stock_model_lfs": {
+      "type": "file",
+      "oid": "d0401ecb44adaf5d4388d35d0b98501f911fa522",
+      "size": 893443900,
+      "lfs": {
+        "oid": "ffffbf4fcb2f1eb91940a6899366cd0d22b2ea03987270d07dc2a205dbd91145",
+        "size": 893443900,
+        "pointerSize": 134
+      },
+      "xetHash": "693bca5778f956dff8baf61c8942ae71cd8585a0a2c14b62b2cf3ac393700f7a",
+      "path": "model.safetensors"
+    }
+  },
+  "coords": {
+    "parent_xywh": [
+      4416,
+      2048,
+      384,
+      256
+    ],
+    "parent_yx_half_open": [
+      [
+        2048,
+        2304
+      ],
+      [
+        4416,
+        4800
+      ]
+    ],
+    "line2_parent_rows_half_open": [
+      2980,
+      3580
+    ],
+    "line2_overlap_rows": 0,
+    "line2_parent_offset_xy": [
+      0,
+      2980
+    ]
+  },
+  "line2_reproduction_fields": {
+    "shape": [
+      16,
+      600,
+      6060
+    ],
+    "probability_sha256": "1b4b432867fb1f0f5cba844371b76813b2c5b7ad0df7b3a5bb14ee9c717abb65",
+    "inference_npy_sha256": "8f532efef3b51baf7be899ed972fc03083696800160f4b7ad844bdd8a6ffa3a9",
+    "checkpoint_sha256": "96b326286e38de99047f7cab36170c53749a18d5f43e5fde0c7c20f2980b0e90"
+  },
+  "line2_inference_fields": {
+    "checkpoint_sha256": "96b326286e38de99047f7cab36170c53749a18d5f43e5fde0c7c20f2980b0e90"
+  },
+  "c_free_bytes": 9724116992
+}

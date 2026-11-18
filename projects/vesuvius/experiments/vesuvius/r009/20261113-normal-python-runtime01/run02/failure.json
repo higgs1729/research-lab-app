@@ -1,0 +1,7 @@
+{
+  "phase": "verify-check",
+  "work": "/home/tomoy/r009-normal-python-run02-678qsuuz",
+  "error": "AssertionError()",
+  "traceback": "Traceback (most recent call last):\n  File \"/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-normal-python-runtime01/run.py\", line 250, in main\n    verify_check(work,stage,records,links)\n  File \"/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-normal-python-runtime01/run.py\", line 182, in verify_check\n    assert f'code object from {str(path)!r}' in log and f\"import {name!r} #\" in log\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n",
+  "utc": "2026-11-13T14:13:52.938628+00:00"
+}

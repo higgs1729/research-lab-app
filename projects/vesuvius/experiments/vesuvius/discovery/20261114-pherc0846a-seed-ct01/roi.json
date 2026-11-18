@@ -1,0 +1,55 @@
+{
+  "seed_xyz": [
+    2601.0,
+    2784.0,
+    3851.0
+  ],
+  "nearest_grid_yx": [
+    55,
+    55
+  ],
+  "mesh_vertex_xyz": [
+    2599.2646484375,
+    2784.303466796875,
+    3844.219482421875
+  ],
+  "nearest_distance_voxel": 7.00563742778192,
+  "nearest_distance_um": 65.58677759889434,
+  "same_distance_vertices": 1,
+  "anchor_canvas_xy": [
+    1099,
+    1099
+  ],
+  "ideal_canvas_xy": [
+    1099.4999836087227,
+    1099.4999836087227
+  ],
+  "canvas_projection_residual_xy": [
+    -0.49998360872268677,
+    -0.49998360872268677
+  ],
+  "crop_xywh": [
+    1035,
+    1035,
+    128,
+    128
+  ],
+  "grid_yx": [
+    112,
+    112
+  ],
+  "canvas_xy": [
+    2240,
+    2240
+  ],
+  "mesh_scale_xy": [
+    0.05000000074505806,
+    0.05000000074505806
+  ],
+  "mesh_center_xy": [
+    1120.0,
+    1120.0
+  ],
+  "valid_vertices": 11664,
+  "mesh_meta_sha256": "802f37d6228809e4c6e9b369511398b91616bd37b226bc9e6d6e8eca55eb1b34"
+}

@@ -1,0 +1,13 @@
+{
+  "checked_input_patches": 3,
+  "patch_boundary_seconds": [
+    5.243209499996738,
+    14.317949200005387,
+    38.39418899999873
+  ],
+  "projected_remaining_seconds": 9176.211170999697,
+  "remaining_seconds": 5938.8238528,
+  "time_passed": false,
+  "remaining_patches_both_directions": 239,
+  "next_patch": 4
+}

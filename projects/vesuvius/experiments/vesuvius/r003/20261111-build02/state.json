@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "pid": 275,
+  "command": [
+    "cmake",
+    "--build",
+    "/mnt/d/kensyoukin-work/r003-build",
+    "--target",
+    "flatboi",
+    "check_slim_assembly",
+    "--parallel",
+    "1"
+  ],
+  "source_unchanged": true,
+  "started_utc": "2026-11-11T11:13:30.478796+00:00",
+  "timeout_seconds": 1800,
+  "address_space_limit_bytes": 4294967296,
+  "environment_workaround": "../20261111-header-debug/forwarders-manifest.json",
+  "child_pid": 384,
+  "exit_code": 0,
+  "elapsed_seconds": 1201.085660776,
+  "completed_utc": "2026-11-11T11:33:31.566701+00:00",
+  "binary": "/mnt/d/kensyoukin-work/r003-build/bin/flatboi",
+  "binary_sha256": "fae4e8af0277727de2a6b874492bab96dd969a9e5ea1175a38bd93b56ce63000"
+}

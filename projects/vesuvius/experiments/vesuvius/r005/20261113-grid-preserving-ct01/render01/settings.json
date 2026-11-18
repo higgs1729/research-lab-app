@@ -1,0 +1,37 @@
+{
+  "cpu_affinity": [
+    0
+  ],
+  "address_space_limit_bytes": 4294967296,
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OPENCV_FOR_THREADS_NUM": "1",
+    "TMPDIR": "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-ct01/render01",
+    "CUDA_VISIBLE_DEVICES": ""
+  },
+  "mode": "render",
+  "core_bytes": 0,
+  "network_namespace": "unshare -Urn",
+  "binary_sha256": "7b4232a2356deca215ceaa8d072a7673023db8a5c2bfd90959dcb6c233ee9927",
+  "dependency_sha256": {
+    "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+    "/usr/lib/gcc/x86_64-linux-gnu/13/libgomp.so": "135f3c8f006d2fe5e68e51281c7974cb991a03de3bfb3593d68d174dfcf854d1",
+    "/usr/lib/x86_64-linux-gnu/libsqlite3.so": "c9126b7ce030c80b10fa44c282463e125e1072b49a962f225a82104ec2bad838",
+    "/usr/lib/x86_64-linux-gnu/libcrypto.so": "6866ed711dab8927e1bf82bf1cd30e828bdfc34f3cc1e83b1c9eb01ce6c37d9a",
+    "/usr/lib/x86_64-linux-gnu/libtiff.so": "aad9b47982a23560b6f6657adcd70a1141d0971bd4f2eb5b3753745f3e8feee4",
+    "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf",
+    "/usr/lib/x86_64-linux-gnu/libcurl.so": "3e51df20a6b52879ee83a207115a9bc6891092741ce2f5ec791606e6caf859fa",
+    "/usr/lib/x86_64-linux-gnu/libz.so": "f61677c7bdb7c2aa2a243ea781bfd16afcb361cede7b4ef76127a9d8eb9a5242",
+    "/usr/lib/x86_64-linux-gnu/libblosc.so": "34331c189bd5fe8154f9803c0f74ef953762f00a8f28903400b999ce4b022123",
+    "/usr/lib/x86_64-linux-gnu/liblz4.so": "40bffd0a098387368b16b992abd5f7cf43c0fa2f05cabe5a6d483719554adfda",
+    "/usr/lib/x86_64-linux-gnu/libzstd.so": "0a2128bc10841fb29e76d08d945864dfb0b6a66da5df6df5d8299197439e54bb"
+  },
+  "config_directory": "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-ct01/render01/config",
+  "plan_sha256": "233a8a7c7e8adbc5a828950be3f7f98e2ea309f008c3f48f2f4c9113e98062f2",
+  "local_zarr": "/mnt/d/kensyoukin-work/r005-ct-render01/ct01.zarr",
+  "coverage_sha256": "bf9312ecfc7687d20855992c6ace890ad777d9bd3207ce8e81fcefb79b272d73"
+}

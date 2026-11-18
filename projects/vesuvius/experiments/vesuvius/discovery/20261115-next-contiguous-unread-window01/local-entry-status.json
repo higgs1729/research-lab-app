@@ -1,0 +1,18 @@
+{
+  "requested_utc": "2026-11-15T06:02:35.025301+00:00",
+  "observed_utc": "2026-11-15T06:02:41.891405+00:00",
+  "vram_total_gib": 8.0,
+  "vram_used_gib": 1.24,
+  "available_physical_bytes": 12295630848,
+  "c_free_bytes": 16174616576,
+  "lane_available_ram_gib": 11.4,
+  "margins": {
+    "vram_gb": 1.0,
+    "mem_gb": 4.0
+  },
+  "jobs": [],
+  "tickets": [],
+  "reservation": null,
+  "comfy_running": false,
+  "gpu_stuck": null
+}

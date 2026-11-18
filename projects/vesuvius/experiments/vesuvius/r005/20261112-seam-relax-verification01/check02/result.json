@@ -1,0 +1,161 @@
+{
+  "provenance": {
+    "manifest_sha256": "787fc449a84306696bd140c7cc66148f28514b907b171d32e518b9fee7f7ee46",
+    "workspace_files": 101,
+    "external_files": 0,
+    "jobs": [
+      {
+        "name": "input01",
+        "start": "2026-11-11T23:38:50.780938+00:00",
+        "end": "2026-11-11T23:38:51.189739+00:00",
+        "seconds": 0.40824069996597245,
+        "max_rss_bytes": 65036288
+      },
+      {
+        "name": "slim01",
+        "start": "2026-11-11T23:39:02.529477+00:00",
+        "end": "2026-11-11T23:39:03.573758+00:00",
+        "seconds": 0.988807757,
+        "max_rss_bytes": 128155648
+      },
+      {
+        "name": "analysis01",
+        "start": "2026-11-11T23:40:03.741272+00:00",
+        "end": "2026-11-11T23:40:10.858429+00:00",
+        "seconds": 7.1164521999889985,
+        "max_rss_bytes": 856236032
+      },
+      {
+        "name": "raster-input01",
+        "start": "2026-11-11T23:40:49.275535+00:00",
+        "end": "2026-11-11T23:40:49.996952+00:00",
+        "seconds": 0.7104944000020623,
+        "max_rss_bytes": 83558400
+      },
+      {
+        "name": "raster01",
+        "start": "2026-11-11T23:40:55.357048+00:00",
+        "end": "2026-11-11T23:40:59.625364+00:00",
+        "seconds": 4.182135192,
+        "max_rss_bytes": 149065728
+      },
+      {
+        "name": "raster-analysis01",
+        "start": "2026-11-11T23:41:00.903072+00:00",
+        "end": "2026-11-11T23:41:06.436090+00:00",
+        "seconds": 5.524841199978255,
+        "max_rss_bytes": 596955136
+      }
+    ],
+    "recorded_external_cost_usd": 0
+  },
+  "input": {
+    "vertices": 27,
+    "faces": 35,
+    "pins": 15,
+    "moving": [
+      104989,
+      104990,
+      104991,
+      106929,
+      106930,
+      106931,
+      108868,
+      108870,
+      108871,
+      110822,
+      110823,
+      110824
+    ]
+  },
+  "raw_max_pin_error": 5.651835573881703e-05,
+  "raw_minimum_local_area": 42.45832445736441,
+  "snapped_minimum_local_area": 42.45832445736441,
+  "stages": {
+    "H": {
+      "negative_faces": [],
+      "zero": 0,
+      "pairs": 59,
+      "inside": 46,
+      "outside": 13,
+      "minimum_area": 0.06524639681096783,
+      "quality": {
+        "full": {
+          "mean_SD": 9.7065922074556,
+          "minimum_UV_area": 0.06524639681096783
+        },
+        "local35": {
+          "mean_SD": 117319.10956745567,
+          "minimum_UV_area": 0.06524639681096783
+        },
+        "subject346": {
+          "mean_SD": 11794.839582073426,
+          "minimum_UV_area": 0.06524639681096783
+        }
+      }
+    },
+    "I": {
+      "negative_faces": [],
+      "zero": 0,
+      "pairs": 93,
+      "inside": 80,
+      "outside": 13,
+      "minimum_area": 0.36532380015319177,
+      "quality": {
+        "full": {
+          "mean_SD": 1.1658303723703538,
+          "minimum_UV_area": 0.36532380015319177
+        },
+        "local35": {
+          "mean_SD": 4.222661350681444,
+          "minimum_UV_area": 42.45832445736441
+        },
+        "subject346": {
+          "mean_SD": 2.0263323753104574,
+          "minimum_UV_area": 42.45832445736441
+        }
+      }
+    },
+    "I_packed": {
+      "negative_faces": [],
+      "zero": 0,
+      "pairs": 93,
+      "inside": 80,
+      "outside": 13,
+      "minimum_area": 0.3517625331878662,
+      "quality": {
+        "full": {
+          "mean_SD": 1.1763771177297158,
+          "minimum_UV_area": 0.3517625331878662
+        },
+        "local35": {
+          "mean_SD": 4.222700451869554,
+          "minimum_UV_area": 42.45772385597229
+        },
+        "subject346": {
+          "mean_SD": 2.026342648833709,
+          "minimum_UV_area": 42.45772385597229
+        }
+      }
+    },
+    "H_packed": {
+      "quality": {
+        "full": {
+          "mean_SD": 9.794519275700468,
+          "minimum_UV_area": 0.06495940685272217
+        },
+        "local35": {
+          "mean_SD": 118381.9965015853,
+          "minimum_UV_area": 0.06495940685272217
+        },
+        "subject346": {
+          "mean_SD": 11901.683889683689,
+          "minimum_UV_area": 0.06495940685272217
+        }
+      }
+    }
+  },
+  "disappeared_pairs": 6,
+  "new_pairs": 40,
+  "same_prepack_packed_pair_ids": true
+}

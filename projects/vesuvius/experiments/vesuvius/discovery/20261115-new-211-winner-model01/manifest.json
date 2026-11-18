@@ -1,0 +1,678 @@
+{
+  "created_utc": "2026-11-15T09:37:43.890574+00:00",
+  "files": [
+    {
+      "path": "acquire_sources.py",
+      "bytes": 2347,
+      "sha256": "5abd6fc628b11f19d36c550ec11a53538dbd0387112a660fb8a3f9dbb10d9abb"
+    },
+    {
+      "path": "acquire_weight.py",
+      "bytes": 1883,
+      "sha256": "cfacc4265d9d7dde19825f09c750b8cabcd4453e4ca2b7d1c18d851f8c36cc20"
+    },
+    {
+      "path": "acquisition-sources.jsonl",
+      "bytes": 44875,
+      "sha256": "66334648bdf76a5e3a24b9cb3a337879d8424aa8e4b906b97b144cd6b2e3bf9d"
+    },
+    {
+      "path": "cache-release.json",
+      "bytes": 755,
+      "sha256": "22ff6f84403aa6b89113267583bf51f9e688131c9c9e0c7d81a581ed2cce1596"
+    },
+    {
+      "path": "cloud-a40-admission-attempt01.json",
+      "bytes": 232,
+      "sha256": "69de25f949d81bc599a22b199f5bb840d95b309dd3fa01f34c0170756d7f13df"
+    },
+    {
+      "path": "cloud-a40-amendment-check.json",
+      "bytes": 339,
+      "sha256": "97e3d17f92b4d8aac94ce13364d98473772a6f427125974284f56005b4c7401c"
+    },
+    {
+      "path": "cloud-a40-controller-final.diff",
+      "bytes": 8322,
+      "sha256": "caeab68bd165caa44b157dc0c675f7d661bbfecb9fc26b6aa4d778176d5546f7"
+    },
+    {
+      "path": "cloud-a40-controller.diff",
+      "bytes": 8820,
+      "sha256": "68f877e0c3a8dd62d9003cf47c254682e0e438f6d58f32ba17fe65f9280c8102"
+    },
+    {
+      "path": "cloud-a40-freeze-attempt01.json",
+      "bytes": 220,
+      "sha256": "e53c0a97da0e5a7255b68d04c4f091c01cee46dbd92efdd8be153456f3311957"
+    },
+    {
+      "path": "cloud-a40-source-path-fix.diff",
+      "bytes": 4816,
+      "sha256": "4ac12ea2d0fa35b6815602303e604da98bca7df3d0d5a577795f754a50fb4344"
+    },
+    {
+      "path": "cloud-admission-a40.json",
+      "bytes": 393,
+      "sha256": "f70adfdee40af7cc73614400a2dd501131d5903cd30f979719808d0844e96544"
+    },
+    {
+      "path": "cloud-admission.json",
+      "bytes": 364,
+      "sha256": "57722a2e718d0366934f567bd42261874fe355ad985766c3a9a9314269aa0313"
+    },
+    {
+      "path": "cloud-assets/__pycache__/run_once.cpython-314.pyc",
+      "bytes": 29476,
+      "sha256": "f9669cddf4d34bac0ae9e26423304f3db6c25e0572d32a90a082333e46b5a8af"
+    },
+    {
+      "path": "cloud-assets/fixed-assets.json",
+      "bytes": 5883,
+      "sha256": "385cad402b6c8c94590b3b8772054e0bff91732fb7d88eada2fe20f44607bad7"
+    },
+    {
+      "path": "cloud-assets/pod_boot.py",
+      "bytes": 1871,
+      "sha256": "c3ce00fa7527778caac505fb62947293af726abbd1bfe061d65dd89cf4b246f1"
+    },
+    {
+      "path": "cloud-assets/pod_work.py",
+      "bytes": 3513,
+      "sha256": "caf2430c023f826fa7312bf1b62e47167f321665c645e85cf395d928fd115648"
+    },
+    {
+      "path": "cloud-assets/run_once.py",
+      "bytes": 18046,
+      "sha256": "0857b3f8d4615194f9f84e12d12e75671c35c72995a55d478bdb5b30d5d1b7fc"
+    },
+    {
+      "path": "cloud-assets-a40/fixed-assets.json",
+      "bytes": 5870,
+      "sha256": "04628d2a7b199dc41c278fc7f4ddf2ef8dd19d5421d09993217bac443a9a69a1"
+    },
+    {
+      "path": "cloud-assets-a40/pod_boot.py",
+      "bytes": 1871,
+      "sha256": "c3ce00fa7527778caac505fb62947293af726abbd1bfe061d65dd89cf4b246f1"
+    },
+    {
+      "path": "cloud-assets-a40/pod_work.py",
+      "bytes": 3513,
+      "sha256": "caf2430c023f826fa7312bf1b62e47167f321665c645e85cf395d928fd115648"
+    },
+    {
+      "path": "cloud-assets-a40/run_once.py",
+      "bytes": 18046,
+      "sha256": "0857b3f8d4615194f9f84e12d12e75671c35c72995a55d478bdb5b30d5d1b7fc"
+    },
+    {
+      "path": "cloud-catalog-after-a5000-none.json",
+      "bytes": 37261,
+      "sha256": "bf8afd60e3727ccae8db3a55ddda4f44fe9f1aec1b876bf887ac81197af5d1be"
+    },
+    {
+      "path": "cloud-catalog-readonly.json",
+      "bytes": 37551,
+      "sha256": "07a9b0c9533778c408b7881f82eb19e12e61ddee875cce33958c8d140f8814c2"
+    },
+    {
+      "path": "cloud-collection-failure.json",
+      "bytes": 1044,
+      "sha256": "3ecaae60c0cb0fa9a72085bc6493d0657f275992a234ccd11fb604c623d203d9"
+    },
+    {
+      "path": "cloud-controller-stderr.txt",
+      "bytes": 1663,
+      "sha256": "366e581c4d57e93ac19fbca5d715aa5336f5432da4282841185b7959c097d8f8"
+    },
+    {
+      "path": "cloud-controller-stdout.txt",
+      "bytes": 433,
+      "sha256": "6f5b94d2dd2e173805c7b9e58c740a9350f7f22d5ea13bec91b6d2ccec76bbb7"
+    },
+    {
+      "path": "cloud-deadline-process-a40.json",
+      "bytes": 146,
+      "sha256": "666bf6df82fd9d86bf20a570fedf8f4755ca116a92a28960c10282acf686b5f4"
+    },
+    {
+      "path": "cloud-fallback-plan.json",
+      "bytes": 6366,
+      "sha256": "3594c5852df73399b0606b71e88d0c8b8e49c08deb74f8b87bfd92c20db0b301"
+    },
+    {
+      "path": "cloud-input-a40.tar.gz",
+      "bytes": 6980298,
+      "sha256": "499e33cc48383a9d88cdeeab70aa5618f0fc29f7563c51d90af52a929eb2115a"
+    },
+    {
+      "path": "cloud-input-evidence.tar.gz",
+      "bytes": 6451276,
+      "sha256": "42c4be13012542ec7ce15beebcac38f86aa477d82fa3a520b3ef3df33d8acd79"
+    },
+    {
+      "path": "cloud-input.tar.gz",
+      "bytes": 6980305,
+      "sha256": "639ccd9009b57e0272a3143a1b699b138c3e5031902478f685617a37db7274c7"
+    },
+    {
+      "path": "cloud-lifecycle.diff",
+      "bytes": 7994,
+      "sha256": "eee06c8e1051a053c873918eede59aa0bc564b9835bc586660a40412b2a24ff4"
+    },
+    {
+      "path": "cloud-local-check-a40-v2.json",
+      "bytes": 787,
+      "sha256": "2032ea9002f148c9baa66f65150fc6d6c4f56df6f5c18642faa434af95ca550c"
+    },
+    {
+      "path": "cloud-local-check-a40.json",
+      "bytes": 787,
+      "sha256": "2032ea9002f148c9baa66f65150fc6d6c4f56df6f5c18642faa434af95ca550c"
+    },
+    {
+      "path": "cloud-local-check.json",
+      "bytes": 793,
+      "sha256": "a3b4d9aad139e91b82d792c7a289a53d0796fb546a96f5c67790050e2c983189"
+    },
+    {
+      "path": "cloud-plan-a40-v2.json",
+      "bytes": 1266,
+      "sha256": "b8138239b71915bdeb7befb1a094b34a41dfc03226e3efe5e36353a622c3fc18"
+    },
+    {
+      "path": "cloud-plan-a40.json",
+      "bytes": 1268,
+      "sha256": "9e96baf585742f1bb73026ad7d75c78a7835b4e3afa9c5c7748d886df5a0c09a"
+    },
+    {
+      "path": "cloud-plan.json",
+      "bytes": 1268,
+      "sha256": "36f693b27478b1c68a66ce8bc72fbc3ae64f5ab1f9c2af314210313ffa77a129"
+    },
+    {
+      "path": "cloud-run-a40/cleanup.json",
+      "bytes": 95,
+      "sha256": "492a10fce79c74813311c9d3744063202c4a23ac5a931d68e5f5826e43fa4a50"
+    },
+    {
+      "path": "cloud-run-a40/launch-receipt.json",
+      "bytes": 367,
+      "sha256": "11c37c41377889294349d465d98097005fabbafc8a5be2ad7f1c1035639e097f"
+    },
+    {
+      "path": "cloud-run-a40/startup.jsonl",
+      "bytes": 20657,
+      "sha256": "62b1d65e492708f9083786d2af8e1d7c213a640cf9486964e5c9c2371eeff7c5"
+    },
+    {
+      "path": "cloud-safetensors-wheel.json",
+      "bytes": 528,
+      "sha256": "b7350eabcb33957877f50c1db536f4b00423149a2ea816fbf0db8ad8305f9f90"
+    },
+    {
+      "path": "cloud-startup-evidence/startup.jsonl",
+      "bytes": 1904,
+      "sha256": "ec5fba3d30c85f3f5b0196484b68581def34821a6f07c46c3e438e6bfbf06d51"
+    },
+    {
+      "path": "cloud_control.py",
+      "bytes": 10072,
+      "sha256": "02a3a026b13e32a95cfc88897054f9586fd69ecd7c91386c77c155efea805a43"
+    },
+    {
+      "path": "cloud_control_a40.py",
+      "bytes": 10311,
+      "sha256": "f1b377f51361df3ea517342023f2623270e2c2b0fd9e8719952d8aecae5aa44f"
+    },
+    {
+      "path": "cloud_control_a40_v2.py",
+      "bytes": 10336,
+      "sha256": "fbc29cde0f4ca3912df03ad1bae4f7c7e06156e8d0c7e8b6fefebf7a2714fd11"
+    },
+    {
+      "path": "cloud_deadline.py",
+      "bytes": 1168,
+      "sha256": "ba5b78fe7d0bc53c345659e064da6630ad956a362e0e5e79cf7f75301af13ab3"
+    },
+    {
+      "path": "cloud_deadline_a40.py",
+      "bytes": 1202,
+      "sha256": "3c8ffaabdda63da6b78d241ccb2cb5b8e8d62c68420e84c86338ebb01604b9b0"
+    },
+    {
+      "path": "cloud_deadline_a40_v2.py",
+      "bytes": 1205,
+      "sha256": "2036affa3a9d28c6ddbe4b1eee27378c952d782593c3c237adfb163241c284cd"
+    },
+    {
+      "path": "cloud_readonly.py",
+      "bytes": 1522,
+      "sha256": "69e0779a66eaf040cb1ab388e77da16f607f0b1a5b04a1bb910c2f524f2aebcd"
+    },
+    {
+      "path": "cloud_worker.py",
+      "bytes": 2268,
+      "sha256": "370cae90bbdb4282f00669b23130bd0e6408e766bea2133070538474f5d1e1ea"
+    },
+    {
+      "path": "cpu/model.json",
+      "bytes": 28771,
+      "sha256": "fc9ccf8f83f1a283e03b0a83388f5d0b603adf113212f309199757bb2210d5a7"
+    },
+    {
+      "path": "cpu/p000.npy",
+      "bytes": 36992,
+      "sha256": "f0658d5e981b8ea7afa27e0cfdc78b42de1e5110cc7c48ce55cbe9e46afa3387"
+    },
+    {
+      "path": "cpu/p047.npy",
+      "bytes": 36992,
+      "sha256": "639f30c7723d492c91c611e99f8083f712bc0144172faa2eb80230d2e15d8e8b"
+    },
+    {
+      "path": "cpu/p095.npy",
+      "bytes": 36992,
+      "sha256": "71d4371bfea7ad0b9ac74466c7a4f043a7934ab7a907252096aedd4c45ad56e0"
+    },
+    {
+      "path": "cpu-launch-attempt-01.json",
+      "bytes": 168,
+      "sha256": "9cdf40169dbf8f72e7cba7ba67a4e64e137046b51554941534b129587a3f93aa"
+    },
+    {
+      "path": "cpu-launch-attempt-02.json",
+      "bytes": 207,
+      "sha256": "f2743efde8aba1607c9e216fdbdba9da4631f14402455f047ac04e2a9d9facda"
+    },
+    {
+      "path": "cpu-process.json",
+      "bytes": 751,
+      "sha256": "53541015798c48ced3c17fd4135e1f558db794f90c913a0da77e0aa713e1d953"
+    },
+    {
+      "path": "cpu-supervisor-result.json",
+      "bytes": 125,
+      "sha256": "e28241fbecbb34d6ef784989ce1c6869a589a398d50234eb7cae19ce955d11e1"
+    },
+    {
+      "path": "cpu-supervisor-start.json",
+      "bytes": 348,
+      "sha256": "a6ce3374550c4b67ea7c476d22d2b587a0153cce27fa3ad5608085f047a5f3d8"
+    },
+    {
+      "path": "cpu.log",
+      "bytes": 148,
+      "sha256": "6b7dd6ff5b4750350ea0affa5fed0123f0c887c01300204d019ee199bbb360fe"
+    },
+    {
+      "path": "cpu_stage.py",
+      "bytes": 1733,
+      "sha256": "f9dd765c9af1fafd4e33f228b42f6e393a34f9c3a491fd4e3457955c2234f0fd"
+    },
+    {
+      "path": "cuda-entry-smoke.json",
+      "bytes": 639,
+      "sha256": "438778488777990a17c6f54b7082e67972d4ddcb6af874f660ef3ef25bc4b007"
+    },
+    {
+      "path": "finalize-inclusion.py",
+      "bytes": 5203,
+      "sha256": "1b3944cd81c8ebda307ff530edcd06ee965bdc8591b15c702100a9ae33fa205b"
+    },
+    {
+      "path": "finalize.py",
+      "bytes": 7556,
+      "sha256": "80d15697d157d98fea58bec69989c65e6180018451caa5a02014f3692053c2a9"
+    },
+    {
+      "path": "input-contract.json",
+      "bytes": 1543,
+      "sha256": "c0e919e923635b0dd1a3a96d725b30b7953fc029da9aa171b5ebe69fb0bfc8cc"
+    },
+    {
+      "path": "input16.npy",
+      "bytes": 7667840,
+      "sha256": "5ff8a0909d37436207f95bf1fed5512babea086da7961d05fdd7e2bcf04a9a7c"
+    },
+    {
+      "path": "lead-cloud-clearance-a40-v2.json",
+      "bytes": 359,
+      "sha256": "6bf2efd0e01e7aaed25001b590f3bdbb3e513e4504f664e61431d7cdce1ad3b9"
+    },
+    {
+      "path": "lead-cloud-clearance-a40.json",
+      "bytes": 425,
+      "sha256": "d4f01492c5f114dfd2801e07917aab0e09a1292b220cd52377a0e0bd70e40d86"
+    },
+    {
+      "path": "lead-cloud-clearance.json",
+      "bytes": 1041,
+      "sha256": "7ee5f726d2d05f200e580fb9b9be60039ecdd140d4c3f1c8d4b8f1e24398af38"
+    },
+    {
+      "path": "lead-cloud-resource-check-a40.json",
+      "bytes": 938,
+      "sha256": "6d5fdb955d15f7c3a99d75d822288bc19203fcd0e69cd8d7af016ba9d9698f0b"
+    },
+    {
+      "path": "lead-failure-review.json",
+      "bytes": 979,
+      "sha256": "8b3134867a0b770e4acbc1b8a35d76652e4faa2ea17187f61c3456b3c996da11"
+    },
+    {
+      "path": "lead-local-clearance.json",
+      "bytes": 697,
+      "sha256": "f599c5505b95402554d1ac37008fe89a7d6487c673f134316f0eef974fc5e315"
+    },
+    {
+      "path": "lead-plan-check.json",
+      "bytes": 1227,
+      "sha256": "7e083a4301e7e2f310693de10f37f5533d39f6ed045a091f83e684ef963542c6"
+    },
+    {
+      "path": "lead-plan-clearance.json",
+      "bytes": 385,
+      "sha256": "50acfd938139d2b873388163daeb4df963a17fef992b07ef5b2e22cb59eb9f7a"
+    },
+    {
+      "path": "lead-plan-process.json",
+      "bytes": 683,
+      "sha256": "7e90af6d81adf6c45955ad357daf2ea1c7d6c569dbe1d18802a9aec2da9f5db0"
+    },
+    {
+      "path": "lead-release-api.json",
+      "bytes": 4177,
+      "sha256": "03f8fc79cdca11c215d33893193fa1531b71cd46e5cb5e42fa653ee80611dc85"
+    },
+    {
+      "path": "lead-repository-readme.md",
+      "bytes": 13755,
+      "sha256": "d10e49dc9dac09862539433e23080ce2d422d935b0a307e8f849019b32abd3d8"
+    },
+    {
+      "path": "lead_cloud_resource_check.py",
+      "bytes": 3278,
+      "sha256": "2ecf76722bbb1965b3a5ae76c488123f45e72ba51d22c1f4ca59882b462b867d"
+    },
+    {
+      "path": "lead_output_check.py",
+      "bytes": 5654,
+      "sha256": "8b4dedfde5b0ef4ab92ad8f62644d6b6ad10850ff663da7e8ad41583e75c596b"
+    },
+    {
+      "path": "lead_plan_check.py",
+      "bytes": 3218,
+      "sha256": "3e7ca59526c262982bdf699ba5f5639a41e3b018619c648d0392fba4c95c8a25"
+    },
+    {
+      "path": "local-entry-status.json",
+      "bytes": 444,
+      "sha256": "8974ee8a91b5c87b9d089951d49c7704d1e0105edec92d5dd3759b4a3f5a16c0"
+    },
+    {
+      "path": "local-exclusive.log",
+      "bytes": 232,
+      "sha256": "21a9a2a9ed80e6f850e9378202ec02793ae0bc65e5269c44a85d05c6153ebcf2"
+    },
+    {
+      "path": "local-plan.json",
+      "bytes": 46734,
+      "sha256": "17ba2cb3c28d4df481a3dfc684caa62c4c08290e9bee06bcbe59df001fb4deae"
+    },
+    {
+      "path": "local-release-check.json",
+      "bytes": 769,
+      "sha256": "6f08836c756e667768acde489989fc7939cedf55a63f4750a5682c41985d42f5"
+    },
+    {
+      "path": "local-release-status.json",
+      "bytes": 575,
+      "sha256": "b11e50b5f3bb784ea9e7a26948777ea26fedfaf67607c20f3b2aa5291256d04e"
+    },
+    {
+      "path": "local-supervisor-result.json",
+      "bytes": 989,
+      "sha256": "98b59e93045d4946ed0b7ac57714ef2a4dfad37d8ff5bfa0ce71cc19190c90d9"
+    },
+    {
+      "path": "local-supervisor-start.json",
+      "bytes": 838,
+      "sha256": "531a535e15c69c7d2b4b8bfd95bd4cd881875ae177be5ff651dfa51223d792be"
+    },
+    {
+      "path": "local_gpu.py",
+      "bytes": 5028,
+      "sha256": "8f136b1179bd7214e503772cc82d5e0a58a961015ff4d7a99d706fc08190da38"
+    },
+    {
+      "path": "patch-contract.json",
+      "bytes": 35637,
+      "sha256": "b2ee0bb542d9c2dea29a38589ed68d02b60e564bf74f0e91fedf1b96f5b5a002"
+    },
+    {
+      "path": "plan.json",
+      "bytes": 10719,
+      "sha256": "d1a9774b2ad3816ade4234c4449577e86f2bf49cd6d809915a1a1c1ebebc0312"
+    },
+    {
+      "path": "plan_control.py",
+      "bytes": 6788,
+      "sha256": "410b94cc4b8784dce990f445d7781f0356d8110087e444e62e395103f9859256"
+    },
+    {
+      "path": "prepare_cloud_fallback.py",
+      "bytes": 4632,
+      "sha256": "856a492dfa48c27213b7094a4b9c9bf51f9d28c6ccd0b84bc4b7d36d100da131"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5910,
+      "sha256": "888331721d33c4ad2dd2c3ee96a7131ff3c1f992c6073c5232742d78c8eb9f77"
+    },
+    {
+      "path": "record.json",
+      "bytes": 4688,
+      "sha256": "cf1cf782206a5fff3d801c7b2c18858728c1c902bebef2adeccefe528936dca3"
+    },
+    {
+      "path": "resources.json",
+      "bytes": 2606,
+      "sha256": "c328943142808cb9478683e94c9eb8a52797d08f9b427068d9f72fcda1746b86"
+    },
+    {
+      "path": "safetensors-header.json",
+      "bytes": 36528,
+      "sha256": "7ae1687c24d8f63249b84af3381ef2a60c0b2e47f89f23468c62846bca361120"
+    },
+    {
+      "path": "source-study.md",
+      "bytes": 5474,
+      "sha256": "0e146f616bde051d7cb3612e4d2371d8f1afef3969b0f9d0a1246f2a1948a4f2"
+    },
+    {
+      "path": "sources/award.html",
+      "bytes": 201494,
+      "sha256": "45346fbb05600bda2df15ce1b9d35d00fa27ec558c5e73e54ae2eb4513a2f3ce"
+    },
+    {
+      "path": "sources/donor-studio-resunet-scratch-20260926/sparse_data.py",
+      "bytes": 9311,
+      "sha256": "61fdb22395bc91d74375b2cf40815b302297098cf5413fbdcf3bf647a277ea0b"
+    },
+    {
+      "path": "sources/expanded-data-hf-api.json",
+      "bytes": 68089,
+      "sha256": "baf04d821936c03712a744df6c165be8b6244f8fd2a03d5557387b32185afb12"
+    },
+    {
+      "path": "sources/expanded-data-README.md",
+      "bytes": 4580,
+      "sha256": "42c93af133ee05aeb99a928b66a8daac71a14485dc2add06a62cdb12e4b70a3f"
+    },
+    {
+      "path": "sources/infer_release.py",
+      "bytes": 2652,
+      "sha256": "488ee42e738d456ac14d2fb0dd941bee389c1b0d92fca785bb4636c166030a63"
+    },
+    {
+      "path": "sources/LICENSE",
+      "bytes": 1071,
+      "sha256": "a43cfd7223ed3bdcb49d85938a54f1f32e15da28da0c5402c1966bf8f9c3b187"
+    },
+    {
+      "path": "sources/main-commit.json",
+      "bytes": 12006,
+      "sha256": "0bbd002ee83e9ca0189501fe33e7198414fa118bb140e3cf0b760a68d08bd6f3"
+    },
+    {
+      "path": "sources/pypi-safetensors-0.8.0.json",
+      "bytes": 18780,
+      "sha256": "b8d395b433d0319498c9192ed323b86a84d82b5f40b4adf1b97b3bf8963fafad"
+    },
+    {
+      "path": "sources/reader-labels-hf-api.json",
+      "bytes": 1434,
+      "sha256": "3db99c87e24ae3943d653a6f9cc8156588c32c617ec6e9e57f945dd3923379e0"
+    },
+    {
+      "path": "sources/reader-labels-manifest.csv",
+      "bytes": 27557,
+      "sha256": "18e1604ea5aacc1fe1b4694176375e919b06540763a19e701fc5c31dffaaf9f3"
+    },
+    {
+      "path": "sources/reader-labels-README.md",
+      "bytes": 2421,
+      "sha256": "a4c344c5e65a648ffa4c08b9c62f0761e6f5a2ef5bee7331a4e0e54cfad441fe"
+    },
+    {
+      "path": "sources/README.md",
+      "bytes": 13754,
+      "sha256": "5d8faf5272faa282707cd76a27d2d1c70f6ef2883f3b342474121baf6f29872c"
+    },
+    {
+      "path": "sources/release.json",
+      "bytes": 4176,
+      "sha256": "29980edd2c17ca582309557f619766e2f0b7475378ca73f37fb96b031bbfb55c"
+    },
+    {
+      "path": "sources/requirements-inference.txt",
+      "bytes": 156,
+      "sha256": "9fdbc0c137e58066378e71a76b5e1ce18b1a233ffc7d458c10acef15846e5cc8"
+    },
+    {
+      "path": "sources/studio-data-hf-api.json",
+      "bytes": 215722,
+      "sha256": "172c6c5d0a5e215591a94fd7ed60ea7b7acf2fff9d925f116234510de8283ae0"
+    },
+    {
+      "path": "sources/studio-data-README.md",
+      "bytes": 4853,
+      "sha256": "2ea124b7e0a8e53a392492994bf5536d19c1d46d49b21a568ecd3cd6ab5dde00"
+    },
+    {
+      "path": "sources/studio-multiscroll-cpt-20261023/config.json",
+      "bytes": 3145,
+      "sha256": "5f19ba584aa64675ced4df94554bcbdc02f57c8d199224c151fa917cad18e7fe"
+    },
+    {
+      "path": "sources/studio-multiscroll-cpt-20261023/hf/inference.py",
+      "bytes": 5752,
+      "sha256": "09752cf7aa0b682c6ca9a46e41bf1f9f279e30d74d35eaab8fc0311504223ec0"
+    },
+    {
+      "path": "sources/studio-multiscroll-cpt-20261023/hf/model.py",
+      "bytes": 4161,
+      "sha256": "efbb390b6208c480fa8e8681137690b7df897c3e406956b9e804fa66645316d7"
+    },
+    {
+      "path": "sources/studio-multiscroll-cpt-20261023/hf/README.md",
+      "bytes": 8120,
+      "sha256": "9833939354670139a0062faef0421535eb827f0948e55668f965c78947ef9c92"
+    },
+    {
+      "path": "sources/studio-multiscroll-cpt-20261023/mixture.json",
+      "bytes": 8036,
+      "sha256": "1a03d65842209f287c49d47ef8451e1423e879f93afd8299058d774f5f04d68f"
+    },
+    {
+      "path": "sources/studio-multiscroll-cpt-20261023/multiscroll_data.py",
+      "bytes": 6632,
+      "sha256": "19673f4ff227cf620c9721a7e9a07f8dc7b0d04f5fe3e0f4c0605f5e1ee40e13"
+    },
+    {
+      "path": "sources/studio-multiscroll-cpt-20261023/prepare_reader.py",
+      "bytes": 8072,
+      "sha256": "cb6ab4475eadbb661df22778b777641f4f2960a87f3116191f54edd072324b02"
+    },
+    {
+      "path": "sources/studio-multiscroll-cpt-20261023/README.md",
+      "bytes": 8680,
+      "sha256": "6656b4fd94baa8e299eb3615508195ad0dec7973e9b30f504d760f53c0668e60"
+    },
+    {
+      "path": "sources/studio-multiscroll-cpt-20261023/reference/orientation-reader.json",
+      "bytes": 12159,
+      "sha256": "1d4267ff771ab462949cee8a0310be69a86ff8de955553bcaa8578fd278460b3"
+    },
+    {
+      "path": "sources/studio-softloss-20261023/README.md",
+      "bytes": 7397,
+      "sha256": "deb0367a0f37bc22f75616be04b8a4a60c6a618ffb5e21a9d8c74f5f9869ca87"
+    },
+    {
+      "path": "sources/tree.json",
+      "bytes": 32514,
+      "sha256": "6bc91ec89735a8a24c9d53dfcee1201641e0b68fc7f5b04747a2eba7f37c2beb"
+    },
+    {
+      "path": "sources/wheelhouse/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 516040,
+      "sha256": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774"
+    },
+    {
+      "path": "studio_worker.py",
+      "bytes": 8440,
+      "sha256": "6de0b723d23b286661389af4803d5501d253fdfb629c5d2dd32c35ca27979451"
+    },
+    {
+      "path": "weight-acquisition-result.json",
+      "bytes": 445,
+      "sha256": "3fb8b550dfc64f1ea9569866bbb317899e6dd72e92983873187d308607aeba9f"
+    },
+    {
+      "path": "weight-acquisition-start.json",
+      "bytes": 773,
+      "sha256": "2627d128bf79ecdb94357cfd8a3f60edbbb3e4affcfefe8d30f55a95f4a06fa1"
+    }
+  ],
+  "file_count": 129,
+  "bytes": 29983433,
+  "absent_assets": [
+    {
+      "path": "studio-softloss-20261023-ema.safetensors",
+      "reason": "Parent-approved public cache release after CPU control",
+      "evidence": "cache-release.json"
+    },
+    {
+      "path": "cloud-run-a40/results.tar",
+      "reason": "Never persisted: C-floor failure; remote removed by mandatory cleanup",
+      "evidence": "cloud-collection-failure.json"
+    },
+    {
+      "path": "gpu/result.json",
+      "reason": "No recovered scientific output; do not treat prepared verification code as executed"
+    }
+  ],
+  "research_ticket": {
+    "path": "research/229-new-pherc0211-winner-model.md",
+    "sha256": "cb57c2c25980a38f6bb27d0c241eb2d1d0cf0b156b600b719eef7065454993be"
+  },
+  "scope": "Current files only; manifest excludes its own hash. No lab/recall registration.",
+  "updated_utc": "2026-11-15T09:42:48.875393+00:00",
+  "parent_failure_review": {
+    "path": "lead-failure-review.json",
+    "sha256": "8b3134867a0b770e4acbc1b8a35d76652e4faa2ea17187f61c3456b3c996da11"
+  }
+}

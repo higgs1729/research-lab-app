@@ -1,0 +1,9 @@
+{
+  "path": "/home/tomoy/real-ct-refinement-probes01/bin/observe",
+  "sha256": "df2162ca2f4a80daf6e1a6b28ea4546e36b1dbb9f665118bb64fd44a4d3dc839",
+  "build_wall_seconds": 5.3772384540000004,
+  "workspace_disk": {
+    "work_bytes": 6504448,
+    "host_c_free_bytes": 33222090752
+  }
+}

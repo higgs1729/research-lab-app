@@ -1,0 +1,15 @@
+{
+  "kind": "decision",
+  "summary": "CT取得前に座標ゲートの失敗を分解。主成分の非共線3領域ではidentityが公開連続面と0.005–0.464 voxel/絶対法線内積0.998–1.000で一致し、元入力の共通座標系を支持。一方選定した成分2は公開面との同一表面対応が未確認。候補変更なしで凍結済10chunk/20MiBだけのCT診断へ進め、成分2の紙面上の位置を断面で評価する。",
+  "evidence": [
+    "experiments/vesuvius/r005/20261112-ct-render01/preregister.json",
+    "research/102-r005-ct-render-feasibility.md"
+  ],
+  "conditions": "元の半格子10voxゲート失敗を成功に書換えない。公開処理済みメッシュが元の全成分を保持するとの根拠はないため、公開面との近接をCT座標の唯一の可否条件にしない。成分2を正しいpapyrus面と断言しない。z_crop_startや座標transform/候補/取得集合を変更しない。主成分の3点群は面53045/47056/40904、約384voxel離れた非共線配置。数値根拠は実験担当の凍結出力を後続報告/独立検証で参照する。",
+  "resources": {
+    "cost": 0,
+    "currency": "USD",
+    "ct_download_bytes_planned": 20971520,
+    "ct_download_cap_bytes": 67108864
+  }
+}

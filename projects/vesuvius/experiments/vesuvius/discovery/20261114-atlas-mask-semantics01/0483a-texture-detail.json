@@ -1,0 +1,15 @@
+{
+  "atlas_id": "kbh-PHerc0483A_3155_3610_11128",
+  "xywh": [
+    704,
+    1024,
+    512,
+    512
+  ],
+  "selection": "Maximum PR mask count on the 512-square diagnostic windows at 64 spacing, with at least 128 px outer margin; row-major tie.",
+  "windows_considered": 400,
+  "sheet_pixels": 183956,
+  "largest_8_connected_sheet_pixels_in_roi": 183888,
+  "ct_positive_pixels": 262144,
+  "model_calls": 0
+}

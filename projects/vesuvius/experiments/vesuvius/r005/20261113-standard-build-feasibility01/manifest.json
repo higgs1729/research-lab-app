@@ -1,0 +1,106 @@
+{
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-build-feasibility01/dependencies.log",
+      "sha256": "f2073ea91d447220212d8f1bcb91e15fde1a82348d92735c7237bf19d4d07194",
+      "bytes": 1741
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-build-feasibility01/git-inventory.log",
+      "sha256": "7f4dc0344402c9ef6102787fc2755ad87cae89b09fc13ecc50773fe9f2553dc4",
+      "bytes": 48077
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-build-feasibility01/offline-source.log",
+      "sha256": "9ec148ea356bb27de014a86c717390fbf9c3226ae2b0af8ec78608319dfbf69c",
+      "bytes": 424
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-build-feasibility01/README.md",
+      "sha256": "40ce7dc16034e35ecba27df45570d0d625657852a7e547926872b0ae11996ae8",
+      "bytes": 11073
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-build-feasibility01/record.json",
+      "sha256": "2f61aca860c4e5079a998e1db320585ddbc48cfcd2e1db169f4f4edc2b206f1f",
+      "bytes": 2062
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-build-feasibility01/source-availability.json",
+      "sha256": "ee16a5a0c00ee6edaf6eff09f0563f1c9e46e87252377dd4bfc1a969d829134d",
+      "bytes": 1237
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-build-feasibility01/targets.log",
+      "sha256": "05f3ae9e48144e0f7700f4c10a40c044a9700b44bfe685d4556b6c0ce77f4d96",
+      "bytes": 678
+    },
+    {
+      "path": "research/158-r005-standard-build-feasibility.md",
+      "sha256": "cd652305cd33432cf5c4db19d4b213c851a27dc40cb799f32591d4a9671754d6",
+      "bytes": 6853
+    }
+  ],
+  "source_references": [
+    {
+      "path": "C:/dev/kensyoukin/experiments/vesuvius/r009/20261113-upstream-preparation01/upstream-tree.json",
+      "sha256": "cd2cc654cd3a98ec2c6ef55592bc55c65f6389566b0061979493a669aa8981b6"
+    },
+    {
+      "path": "C:/dev/kensyoukin/experiments/vesuvius/r003/20261111-build02/state.json",
+      "sha256": "7ce617ed5b4d56a735c535bc412f2d0a6719c68c04b31f432391fe7da6d96d80"
+    },
+    {
+      "path": "C:/dev/kensyoukin/experiments/vesuvius/r005/20261113-grid-preserving-native01/source-sha256.json",
+      "sha256": "206c44b5cea6f47d7a2cd787bd77e6cfaa209b03fa5bf12ffcfe0040c8adbff6"
+    },
+    {
+      "path": "C:/dev/kensyoukin/experiments/vesuvius/r005/20261113-grid-preserving-native01/grid-preserving-prototype.patch",
+      "sha256": "798bbeb57c9c991e7a09a7138bac886848ca7be776210d7733f57a25d54a3c8c"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-build/CMakeCache.txt",
+      "sha256": "abf299eea98d3e50448047e195c677abcdca167899f284af0e229b5a52d4b09d"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-build/compile_commands.json",
+      "sha256": "f0a73c918273d913ad23451b29ed3ee685062cde0278d568350ba1f8fa11ae7b"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-build/build.ninja",
+      "sha256": "69d995d3c61969f8aca07ce25f1ce328e8fbbaf39774f610c202c4bbbd11838a"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/volume-cartographer/CMakeLists.txt",
+      "sha256": "23efb9488aad8b01a4abe176f88052a1b4b66e88e4db016a19ecca0c344c4119"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/CMakeLists.txt",
+      "sha256": "cfa25436c1e657ede2c8c3ac47ab2d7c8f15ae53bde1703a47c135135d074083"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/volume-cartographer/cmake/FetchLibigl.cmake",
+      "sha256": "4ca2934d48e56526c83d02595addef3cc2fa51218e2ba7b10a48cc5883af37d2"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/volume-cartographer/cmake/ObjectStore.cmake",
+      "sha256": "8f9d060f24bb173d8f8aeb5040b942e66a23c5629cca5821af70723c28ae7957"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/volume-cartographer/core/CMakeLists.txt",
+      "sha256": "7d8bf82d574896dc527f516e6629d060de2e871622d9b22d53721147d8858fb2"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/volume-cartographer/apps/CMakeLists.txt",
+      "sha256": "fb9b7b27b16571e9bdabc7d5c63c75f7b446c60230072f95116abfc4bb53adb3"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/cmake/NativeTargets.cmake",
+      "sha256": "82619b706134051a6a49364f91c185d37f2bc266f03d9a23b28de893519eefad"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/cmake/NativeReader.cmake",
+      "sha256": "cfed58ee01f03f8045c5b2cc0647d5c658a429fd83d1b503c9ebe9112e61f2d5"
+    }
+  ]
+}

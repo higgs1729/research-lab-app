@@ -1,0 +1,137 @@
+{
+  "reader_map": "/mnt/c/dev/kensyoukin/.work/r006-representative-baseline01/run02/reader.map",
+  "symbols": {
+    "vcr::ThreadPool::parallel_for(": {
+      "line": 292936,
+      "address": "0x00000000008e01d0",
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o",
+      "map_excerpt": [
+        " .text._ZN3vcr10ThreadPool12parallel_forEmRKSt8functionIFvmEE",
+        "                0x00000000008e01d0      0x6ec /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o",
+        "                0x00000000008e01d0                vcr::ThreadPool::parallel_for(unsigned long, std::function<void (unsigned long)> const&)"
+      ],
+      "optimization": "-O3"
+    },
+    "vcr::Array::read_layer_chunk(": {
+      "line": 293271,
+      "address": "0x00000000008f3060",
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o",
+      "map_excerpt": [
+        " .text._ZN3vcr5Array16read_layer_chunkEmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "                0x00000000008f3060      0x83f /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o",
+        "                0x00000000008f3060                vcr::Array::read_layer_chunk(unsigned long, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)"
+      ],
+      "optimization": "-O3"
+    },
+    "vcr::MemoryCache::get(": {
+      "line": 293388,
+      "address": "0x00000000008f8310",
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o",
+      "map_excerpt": [
+        " .text._ZN3vcr11MemoryCache3getERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+        "                0x00000000008f8310      0x6f3 /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o",
+        "                0x00000000008f8310                vcr::MemoryCache::get(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)"
+      ],
+      "optimization": "-O3"
+    },
+    "vcr::MemoryCache::put(": {
+      "line": 293444,
+      "address": "0x00000000008fe950",
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o",
+      "map_excerpt": [
+        " .text._ZN3vcr11MemoryCache3putERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEESt10shared_ptrIKSt6vectorIhSaIhEEE",
+        "                0x00000000008fe950      0x779 /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o",
+        "                0x00000000008fe950                vcr::MemoryCache::put(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::shared_ptr<std::vector<unsigned char, std::allocator<unsigned char> > const>)"
+      ],
+      "optimization": "-O3"
+    },
+    "vcr::Array::chunk(": {
+      "line": 293517,
+      "address": "0x000000000090ff40",
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o",
+      "map_excerpt": [
+        " .text._ZN3vcr5Array5chunkERKSt6vectorIlSaIlEE",
+        "                0x000000000090ff40      0xa1d /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o",
+        "                0x000000000090ff40                vcr::Array::chunk(std::vector<long, std::allocator<long> > const&)"
+      ],
+      "optimization": "-O3"
+    },
+    "vcr::display::toUint8(": {
+      "line": 293527,
+      "address": "0x0000000000910f50",
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/display-display.cpp.o",
+      "map_excerpt": [
+        " .text._ZN3vcr7display7toUint8EPKfmPhS3_NS0_10ConversionE",
+        "                0x0000000000910f50      0x5cd /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/display-display.cpp.o",
+        "                0x0000000000910f50                vcr::display::toUint8(float const*, unsigned long, unsigned char*, unsigned char*, vcr::display::Conversion)"
+      ],
+      "optimization": "-O3"
+    },
+    "vcr::grid::sample(vcr::grid::Surface": {
+      "line": 293918,
+      "address": "0x0000000000938ce0",
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid-grid.cpp.o",
+      "map_excerpt": [
+        " .text._ZN3vcr4grid6sampleERKNS0_7SurfaceERKNS0_6RasterERKNS0_7RequestE",
+        "                0x0000000000938ce0      0xbb6 /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid-grid.cpp.o",
+        "                0x0000000000938ce0                vcr::grid::sample(vcr::grid::Surface const&, vcr::grid::Raster const&, vcr::grid::Request const&)"
+      ],
+      "optimization": "-O3"
+    },
+    "vcr::sources::TiffWriter::writeTile(": {
+      "line": 294212,
+      "address": "0x0000000000966000",
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/sources-image_write.cpp.o",
+      "map_excerpt": [
+        " .text._ZN3vcr7sources10TiffWriter9writeTileEllPKvll",
+        "                0x0000000000966000      0x4d4 /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/sources-image_write.cpp.o",
+        "                0x0000000000966000                vcr::sources::TiffWriter::writeTile(long, long, void const*, long, long)"
+      ],
+      "optimization": "-O3"
+    },
+    "vcr::zarr::openPyramidLevel(": {
+      "line": 295517,
+      "address": "0x00000000009a7940",
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/zarr-open.cpp.o",
+      "map_excerpt": [
+        " .text._ZN3vcr4zarr16openPyramidLevelERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEEiRKNS0_11OpenOptionsEi",
+        "                0x00000000009a7940      0x2ef /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/zarr-open.cpp.o",
+        "                0x00000000009a7940                vcr::zarr::openPyramidLevel(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int, vcr::zarr::OpenOptions const&, int)"
+      ],
+      "optimization": "-O3"
+    },
+    "vcr::platform::open_file(": {
+      "line": 299658,
+      "address": "0x00000000009cce3d",
+      "object": "/mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/native_reader.cpp.o",
+      "map_excerpt": [
+        " .text._ZN3vcr8platform9open_fileERKNSt10filesystem7__cxx114pathEii",
+        "                0x00000000009cce3d       0x4a /mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/native_reader.cpp.o",
+        "                0x00000000009cce3d                vcr::platform::open_file(std::filesystem::__cxx11::path const&, int, int)"
+      ],
+      "optimization": "-O0"
+    },
+    "vcr::platform::pread(": {
+      "line": 299661,
+      "address": "0x00000000009cce87",
+      "object": "/mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/native_reader.cpp.o",
+      "map_excerpt": [
+        " .text._ZN3vcr8platform5preadEiPvml",
+        "                0x00000000009cce87       0x33 /mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/native_reader.cpp.o",
+        "                0x00000000009cce87                vcr::platform::pread(int, void*, unsigned long, long)"
+      ],
+      "optimization": "-O0"
+    },
+    "vcr::platform::map_read(": {
+      "line": 299670,
+      "address": "0x00000000009cd04d",
+      "object": "/mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/native_reader.cpp.o",
+      "map_excerpt": [
+        " .text._ZN3vcr8platform8map_readEim",
+        "                0x00000000009cd04d       0x52 /mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/native_reader.cpp.o",
+        "                0x00000000009cd04d                vcr::platform::map_read(int, unsigned long)"
+      ],
+      "optimization": "-O0"
+    }
+  }
+}

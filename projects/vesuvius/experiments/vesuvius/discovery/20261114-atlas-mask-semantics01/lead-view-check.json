@@ -1,0 +1,13 @@
+{
+  "reviewer": "root",
+  "visual_figure": "0483a-texture-detail.png",
+  "ct_values_independently_compared": 262144,
+  "displayed_mask_white_pixels": 183956,
+  "observations": [
+    "Upper half contains granular bright features and changing curved texture directions.",
+    "An arc-like boundary divides the lower region, and a dark area lies to the lower right.",
+    "A broad connected binary texture mask does not by itself establish one physical paper sheet."
+  ],
+  "decision": "If this surface is followed, verify its mesh-to-CT mapping and a few fixed orthogonal sections before additional ink model screening.",
+  "limits": "The central image cannot independently establish which physical sheet is correct, a segmentation failure, or absent ink."
+}

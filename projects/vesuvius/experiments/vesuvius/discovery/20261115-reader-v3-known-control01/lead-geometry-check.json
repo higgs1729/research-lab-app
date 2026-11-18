@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-11-15T06:41:59.183196+00:00",
+  "plan_sha256": "344d38dde6dabf1825512c323d8cefebd3f7214cf08470fd1b710b66f283867c",
+  "geometry_tiles": 270,
+  "geometry_valid_pixels": 1105920,
+  "mesh_independent_bilinear_points": 9,
+  "max_xyz_delta_voxels": 0.0008928896818596118,
+  "all_native_depth_samples_checked_for_CT_key_support": 18800640,
+  "exact_trilinear_keys": 135,
+  "planned_conservative_keys": 135,
+  "conservative_extra_keys": [],
+  "reused_keys": 52,
+  "new_ct_bytes": 174063616,
+  "known_boxes_9_10_source_confirmed": true,
+  "new_GPU_or_model_calls": 0,
+  "limits": "Geometric support and coordinates; not a physical sheet assignment or native ink claim."
+}

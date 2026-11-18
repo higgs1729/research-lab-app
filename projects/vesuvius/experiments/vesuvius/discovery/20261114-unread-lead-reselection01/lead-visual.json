@@ -1,0 +1,19 @@
+{
+  "reviewer": "root",
+  "date_jst": "2026-11-14",
+  "images": [
+    "originals/PHerc0846B_3962_4983_7051.jpg",
+    "originals/PHerc0813_4654_5413_8615.jpg",
+    "originals/PHerc1545_3051_3484_14673.jpg"
+  ],
+  "assessment": [
+    "No legible letter or line was selected in any of the three published cards. Yellow highlights are not treated as literal intersection maps or ink labels.",
+    "PHerc0846B has several isolated rounded highlights and a large joined response near the central sheet-boundary area. Multiple highlights contact dark cracks or edges. No repeated glyph structure or baseline is clear.",
+    "PHerc0813 contains an isolated vertical highlight and curved or short horizontal fragments. These do not establish independent letters or a line, and the lower-left responses overlap gaps and edges.",
+    "PHerc1545 has large merged highlights toward the left and scattered marks along the diagonal texture toward the lower right. No unambiguous glyph or line is visible."
+  ],
+  "scope": "These are processed, reduced JPEG cards, not native continuous model outputs. Their inability to expose a reading target does not establish absence of ink, nor does it identify a native ROI.",
+  "decision": "No native CT investment justified by a selected glyph in these views. Check whether original continuous predictions or a documented pixel-to-native correspondence can provide a specific next target. Do not recover native XY from visual estimates of the JPEG.",
+  "new_ct_bytes": 0,
+  "new_model_calls": 0
+}

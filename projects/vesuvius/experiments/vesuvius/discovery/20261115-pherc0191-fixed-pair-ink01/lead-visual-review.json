@@ -1,0 +1,22 @@
+{
+  "reviewed_utc": "2026-11-14T15:57:45.774933+00:00",
+  "independent_of_child_visual_verdict": true,
+  "labels_visible": true,
+  "viewed": "Both full CT centres, all4 full2048x1024 ink maps, all16 native ink pair panels covering entire main, and CT native panels x1024-y0064/x1520-y0064/x1024-y0544.",
+  "native_panel_pixels_verified_exact": 11427840,
+  "panel_count_verified": 24,
+  "observations": [
+    "All4 maps show scattered diffuse islands and irregular fragments; no selected coherent succession of strokes or text-line structure.",
+    "Upper-right raw-forward broad diagonal response breaks into separated islands after snap; strongest sites change rather than forming a stable character sequence.",
+    "Central and right reverse responses remain irregular bright masses with internal thin dark cracks, with broad gaps between sites.",
+    "Lower-left reverse has a bright edge/fan near the supported boundary, while lower-middle is mainly weak fragmented response; neither yields a follow-up text ROI.",
+    "CT comparison shows wrinkled/fragmented sheet texture in these sites. Texture coincidence alone is not a proof of false ink."
+  ],
+  "selected_followup_ROIs": [],
+  "decision": "Close this fixed w052 crop and central16-depth comparison with no selected text candidate. Snap did not provide evidence of text-recovery benefit here.",
+  "limits": [
+    "Not proof of no ink in the window or whole0191",
+    "Paper membership remains uncertain; raw/snap and orders are correlated",
+    "No transcription, new-letter claim, fourth submission item, or external submission"
+  ]
+}

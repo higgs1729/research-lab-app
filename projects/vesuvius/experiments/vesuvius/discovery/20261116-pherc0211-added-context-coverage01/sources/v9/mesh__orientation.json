@@ -1,0 +1,73 @@
+{
+  "normal_sign": -1,
+  "agreement": 1.0,
+  "samples": 18551,
+  "median_reference_distance_vox": 0.5758705243772774,
+  "method": "Near-coincident native triangles of the frozen original stitched crop 1711 original; transfer its established inward depth convention.",
+  "reference_segment": "original",
+  "reference_orientation": {
+    "normal_sign": -1,
+    "agreement": 1.0,
+    "samples": 55892,
+    "median_reference_distance_vox": 0.15147329779371638,
+    "method": "Near-coincident native triangles of the frozen original stitched crop 1711 original; transfer its established inward depth convention.",
+    "reference_segment": "original",
+    "reference_orientation": {
+      "normal_sign": -1,
+      "agreement": 1.0,
+      "samples": 59852,
+      "median_reference_distance_vox": 0.0,
+      "method": "Near-coincident native triangles of the frozen original stitched crop 1711 original; transfer its established inward depth convention.",
+      "reference_segment": "original",
+      "reference_orientation": {
+        "normal_sign": -1,
+        "agreement": 1.0,
+        "samples": 59852,
+        "median_reference_distance_vox": 0.0,
+        "method": "Near-coincident native triangles of the frozen original stitched crop 1711 original; transfer its established inward depth convention.",
+        "reference_segment": "original",
+        "reference_orientation": {
+          "normal_sign": -1,
+          "agreement": 1.0,
+          "samples": 59852,
+          "median_reference_distance_vox": 0.0,
+          "method": "Near-coincident native triangles of the frozen original stitched crop 1711 original; transfer its established inward depth convention.",
+          "reference_segment": "original",
+          "reference_orientation": {
+            "normal_sign": -1,
+            "agreement": 0.9994423480863245,
+            "samples": 53797,
+            "method": "Near-coincident triangles of the m35000 combined-flatten window (w028/w029 certified normal_sign +1), polygon-pipeline rule",
+            "reference": "export-milestone-35000 window"
+          },
+          "overlap_distance_limit_vox": 3,
+          "overlap_normal_agreement_min": 0.98,
+          "physical_face_verified": false,
+          "directly_registered_to_training": false,
+          "selection": "One geometry-derived global sign before model prediction; no local flips."
+        },
+        "overlap_distance_limit_vox": 3,
+        "overlap_normal_agreement_min": 0.98,
+        "physical_face_verified": false,
+        "directly_registered_to_training": false,
+        "selection": "One geometry-derived global sign before model prediction; no local flips."
+      },
+      "overlap_distance_limit_vox": 3,
+      "overlap_normal_agreement_min": 0.98,
+      "physical_face_verified": false,
+      "directly_registered_to_training": false,
+      "selection": "One geometry-derived global sign before model prediction; no local flips."
+    },
+    "overlap_distance_limit_vox": 3,
+    "overlap_normal_agreement_min": 0.98,
+    "physical_face_verified": false,
+    "directly_registered_to_training": false,
+    "selection": "One geometry-derived global sign before model prediction; no local flips.",
+    "note": "inherited from the parts (crop 1711 rev 6, registered to the frozen stitched crop 1711 original); same grid"
+  },
+  "overlap_distance_limit_vox": 3,
+  "overlap_normal_agreement_min": 0.98,
+  "physical_face_verified": false,
+  "directly_registered_to_training": false,
+  "selection": "One geometry-derived global sign before model prediction; no local flips."
+}

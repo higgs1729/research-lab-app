@@ -1,0 +1,32 @@
+{
+  "kind": "experiment",
+  "summary": "事前登録: 第一面の保存before/after出力を既存のvc_render_tifxyzで小領域CT描画し、成分混在の有無が実画像と座標にどう現れるかを判定する。まず元CT座標の対応と隔離ビルドを確認。",
+  "question": "第一入力の成分間跨ぎ辺一例を、同じ元面の対応を保って実CTから可視化できるか。文字判読や全紙面の安全性は判定しない。",
+  "evidence": [
+    "research/102-r005-ct-render-feasibility.md",
+    "experiments/vesuvius/r005/20261112-ct-render-feasibility01/input-manifest.json",
+    "research/100-r005-pack-native-verification.md"
+  ],
+  "conditions": "CTを見る前に既知106本からgeometryとDL量に基づきROI選定を凍結。同じ元面をoff/onで追う。CT level0 ZYX、scale1、translation0を仮置きし公開9.362um XYZとの局所3D対応と断面を確認。z_crop_start822を無条件適用しない。既存ソース/build無変更、CLI一TUの隔離コンパイル/リンクを優先。既存linear曲面補間と三線形CT、中心と可能なら±2voxel。補間点と必要隣接voxelの全チャンクを事前列挙、ローカルZarrのみで描画、未取得領域をfill0で隠さない。",
+  "resources": {
+    "cost": 0,
+    "currency": "USD",
+    "basis": "手元CPUのみ。有料計算/GPUなし。LLM電力は個別見積外。",
+    "ct_download_cap_bytes": 67108864,
+    "public_mesh_and_metadata_cap_bytes": 2097152,
+    "max_cpu_cores": 1,
+    "max_numeric_threads": 1,
+    "max_child_rss_bytes": 4294967296,
+    "build_timeout_seconds": 300,
+    "render_timeout_seconds": 120,
+    "fetch_timeout_seconds": 300
+  },
+  "stop_conditions": [
+    "単位/原点対応を立証できない",
+    "必要チャンクが32個を超える",
+    "既存ビルド変更または新規大型依存が必要",
+    "有効サンプルが事前取得集合外",
+    "欠損や資源上限超過",
+    "見た目の良い結果を得るためだけの候補選び直しはしない"
+  ]
+}

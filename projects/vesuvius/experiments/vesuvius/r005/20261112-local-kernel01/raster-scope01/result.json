@@ -1,0 +1,233 @@
+{
+  "packed_changed_vertices": 482,
+  "fixed_packed_equal": true,
+  "coarse_packed_equal": true,
+  "native_uv_matches_override": true,
+  "identical_grid": {
+    "grid_shape_yx": [
+      245,
+      3043
+    ],
+    "uv_min_xy": [
+      0.0,
+      0.0
+    ],
+    "uv_max_xy": [
+      60838.79296875,
+      4871.38720703125
+    ],
+    "face_count": 478224
+  },
+  "grid_intervals_uv_xy": [
+    19.999603211291912,
+    19.96470166816086
+  ],
+  "rejections": [
+    {
+      "tag": "local_slim_second_keep1p5_01",
+      "rejected_events": 638,
+      "involving_affected_faces": 74,
+      "other_events": 564
+    },
+    {
+      "tag": "hard_scaf_second_keep1p5_01",
+      "rejected_events": 564,
+      "involving_affected_faces": 0,
+      "other_events": 564
+    }
+  ],
+  "removed_event_count": 74,
+  "added_event_count": 0,
+  "all_removed_involve_affected_faces": true,
+  "new_valid_output_pixels": 18,
+  "lost_valid_output_pixels": 4,
+  "different_owner_pixels": 161,
+  "coverage_groups": {
+    "affected_quads": {
+      "quad_count": 467,
+      "D_gt20": 27,
+      "F_gt20": 18,
+      "D_gt40": 10,
+      "F_gt40": 0,
+      "recovered_to20": 20,
+      "new_gt20": 11
+    },
+    "other_quads": {
+      "quad_count": 238645,
+      "D_gt20": 285,
+      "F_gt20": 263,
+      "D_gt40": 68,
+      "F_gt40": 65,
+      "recovered_to20": 22,
+      "new_gt20": 0
+    },
+    "all": {
+      "quad_count": 239112,
+      "D_gt20": 312,
+      "F_gt20": 281,
+      "D_gt40": 78,
+      "F_gt40": 65,
+      "recovered_to20": 42,
+      "new_gt20": 11
+    }
+  },
+  "new_gt20_examples": [
+    {
+      "quad_id": 90667,
+      "cell_yx": [
+        112,
+        1369
+      ],
+      "fine_component": 1,
+      "affected": true,
+      "D_distance": 1.6728693999560373,
+      "F_distance": 24.346625872223512
+    },
+    {
+      "quad_id": 90668,
+      "cell_yx": [
+        112,
+        1370
+      ],
+      "fine_component": 1,
+      "affected": true,
+      "D_distance": 1.9537164450639035,
+      "F_distance": 37.56288463409286
+    },
+    {
+      "quad_id": 90669,
+      "cell_yx": [
+        112,
+        1371
+      ],
+      "fine_component": 1,
+      "affected": true,
+      "D_distance": 3.025557455532494,
+      "F_distance": 35.39880593445314
+    },
+    {
+      "quad_id": 90670,
+      "cell_yx": [
+        112,
+        1372
+      ],
+      "fine_component": 1,
+      "affected": true,
+      "D_distance": 4.8504373601772635,
+      "F_distance": 30.786847302875604
+    },
+    {
+      "quad_id": 90671,
+      "cell_yx": [
+        112,
+        1373
+      ],
+      "fine_component": 1,
+      "affected": true,
+      "D_distance": 7.261288305137806,
+      "F_distance": 23.660361189345917
+    },
+    {
+      "quad_id": 90672,
+      "cell_yx": [
+        112,
+        1374
+      ],
+      "fine_component": 1,
+      "affected": true,
+      "D_distance": 9.974314910870035,
+      "F_distance": 24.570839835377132
+    },
+    {
+      "quad_id": 92528,
+      "cell_yx": [
+        113,
+        1370
+      ],
+      "fine_component": 1,
+      "affected": true,
+      "D_distance": 5.578533906267613,
+      "F_distance": 34.469089695410005
+    },
+    {
+      "quad_id": 92529,
+      "cell_yx": [
+        113,
+        1371
+      ],
+      "fine_component": 1,
+      "affected": true,
+      "D_distance": 5.875239421589754,
+      "F_distance": 37.927456517858985
+    },
+    {
+      "quad_id": 92530,
+      "cell_yx": [
+        113,
+        1372
+      ],
+      "fine_component": 1,
+      "affected": true,
+      "D_distance": 7.153354143186386,
+      "F_distance": 34.611270899327366
+    },
+    {
+      "quad_id": 92531,
+      "cell_yx": [
+        113,
+        1373
+      ],
+      "fine_component": 1,
+      "affected": true,
+      "D_distance": 8.122040831675294,
+      "F_distance": 31.0435773829544
+    },
+    {
+      "quad_id": 92532,
+      "cell_yx": [
+        113,
+        1374
+      ],
+      "fine_component": 1,
+      "affected": true,
+      "D_distance": 9.626240481984444,
+      "F_distance": 23.659987717025565
+    }
+  ],
+  "elapsed_seconds": 1.1311599999899045,
+  "limits": "Distance is nearest 3D output point of the same connected component, measured at source quad centres, not a direct readability/ink score. Identical bounds/shape/unchanged UV outside482 isolate this D/F numerical comparison, not generalization.",
+  "sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-raster01\\pack01\\arrays.npz",
+      "sha256": "0e665061e472d6b59d58f80f6bc3cfb646558413f50e7f3bcf8a535e7a98cd68"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-local-kernel01\\pack01\\arrays.npz",
+      "sha256": "58db91e8789f97fab583425bcc183a32640a6fbb6a8f307d2a2dfb52ae0756f3"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-local-kernel01\\global02\\arrays.npz",
+      "sha256": "b0133f7360b5d3a68f4a5d3918ae564d26698ef1d9cf50475e970a5f2396f3c9"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-local-kernel01\\raster01\\arrays.npz",
+      "sha256": "fb45ed460c6eb448ecd5c4aaacc4a52a9d14ca366d138ad7f419cb5db00e6a7f"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\local_slim_second_keep1p5_01\\raster_trace.json",
+      "sha256": "e620ca29e6e77761bf9742d05fd3d052753335a0e8fd5969fbd4a9735e1005ec"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\local_slim_second_keep1p5_01\\output.obj_uv_diagnostics.json",
+      "sha256": "9264d8efdbd5ebd94c685b2926a5d70c6cbd131f47431366c4bc9433192952b5"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\hard_scaf_second_keep1p5_01\\raster_trace.json",
+      "sha256": "c796bed98269b5842805ba5e03acc596f4b25de92c421050d1027c7699397bcd"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\hard_scaf_second_keep1p5_01\\output.obj_uv_diagnostics.json",
+      "sha256": "680e17b3ed56508b56440fb5f1207d0423aea6c757bf9ec35bed5d9131283a3a"
+    }
+  ]
+}

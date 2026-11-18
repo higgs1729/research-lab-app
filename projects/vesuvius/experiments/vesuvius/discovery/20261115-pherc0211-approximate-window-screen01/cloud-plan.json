@@ -1,0 +1,161 @@
+{
+  "research": 239,
+  "science_plan_sha256": "f609d253d655bba5792d3892ce8d0cd178d496ff6da0d1af677a433ee7aa43fa",
+  "archive_path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\cloud-input-r239.tar.gz",
+  "archive_sha256": "089b3e2f44196cb556ae8a96ce36f3f744d0df1b1dafe5f66ce04c2d68b6fc37",
+  "archive_bytes": 21535991,
+  "archive_member_sha256": {
+    "cloud_worker.py": "cfe9f4d2d7feda88efb9206c924abdf17b521f76db00a9766a10aeeefc0a72e7",
+    "control/rendered16.npy": "a6b9a6b720a595812b139190d21b130eb22f78881365f1d3f0274ff61a96e6ad",
+    "fixed-assets.json": "7aff538be6cdab5947201a133d97addd2b5c0bc7f6bc68fb1faa505f7d93fe41",
+    "gpu_loop.py": "20e96a8099f9757a440c022d61260ca0a5266fb1a9f5c73826637923777bb027",
+    "input-contract.json": "82ce216adb3fe93d3746c0649907e2fe45c3ce98541acf57ec5b0b28c8dcc09e",
+    "input16.npy": "27af8b21cee6e1abfd11e221075dc81cd1f1d0ac37aeb7d0045cd54fba23480c",
+    "known/cpu/p000.npy": "f0658d5e981b8ea7afa27e0cfdc78b42de1e5110cc7c48ce55cbe9e46afa3387",
+    "known/cpu/p047.npy": "639f30c7723d492c91c611e99f8083f712bc0144172faa2eb80230d2e15d8e8b",
+    "known/cpu/p095.npy": "71d4371bfea7ad0b9ac74466c7a4f043a7934ab7a907252096aedd4c45ad56e0",
+    "known/input-contract.json": "c0e919e923635b0dd1a3a96d725b30b7953fc029da9aa171b5ebe69fb0bfc8cc",
+    "known/input16.npy": "5ff8a0909d37436207f95bf1fed5512babea086da7961d05fdd7e2bcf04a9a7c",
+    "known/patch-contract.json": "b2ee0bb542d9c2dea29a38589ed68d02b60e564bf74f0e91fedf1b96f5b5a002",
+    "known/plan.json": "d1a9774b2ad3816ade4234c4449577e86f2bf49cd6d809915a1a1c1ebebc0312",
+    "normalization_probe.py": "7564b486b64e49e78a9bc5faa39df10c7ac0bac98c90dd44706ca49049a25798",
+    "patch-contract.json": "040f3c8b55b8f6300ff878786ab89e0be7e2821683e502a57886ffb1a7c80f92",
+    "plan.json": "f609d253d655bba5792d3892ce8d0cd178d496ff6da0d1af677a433ee7aa43fa",
+    "pod_work.py": "5557007a740165333070c68d3daf37a530fc071add5ea8e6f6ff471c9f401691",
+    "prepared-controls/known-phi16.npy": "1e7d3e2ce80031e91abc1510b0cc1a98acff2f02fa2a709970fb5202698d2881",
+    "prepared-controls/pair-public16.npy": "9d307b34e28c3102da734bd3fb4ee0c42e8361b610d88978eeb456e7cb690601",
+    "r208_runtime.py": "e45c8c14e70d12bfed19e329ed0b3ee257bd627358c59e308acc91d2c6539db3",
+    "safetensors-header.json": "7ae1687c24d8f63249b84af3381ef2a60c0b2e47f89f23468c62846bca361120",
+    "sources/studio-multiscroll-cpt-20261023/hf/inference.py": "09752cf7aa0b682c6ca9a46e41bf1f9f279e30d74d35eaab8fc0311504223ec0",
+    "sources/studio-multiscroll-cpt-20261023/hf/model.py": "efbb390b6208c480fa8e8681137690b7df897c3e406956b9e804fa66645316d7",
+    "sources/wheelhouse/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774",
+    "studio_worker.py": "8a12faf4fa5103269651d5b96f6088e07e00890af5a70e4ba8c20f02decbd534"
+  },
+  "controller_assignments": {
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\control_coexist.py": "30468ea932cb3912ddd586c98108f980720e88ebce208b57f0d38b4a1a566187",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\run_once_coexist.py": "e5854f269eb690113a4ce7877beec148765387662d3f58f6196ed4c6453a52fd",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\capture.py": "664a24f6a8c0c09607cc2c68a29ac964bdc65fc738f7745d7af7c755b944d56b",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\deadline_coexist.py": "9d96628b78142308e9ef9b809bc4c3b435a029fec8e591b5073b631970486765",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\pod_work.py": "5557007a740165333070c68d3daf37a530fc071add5ea8e6f6ff471c9f401691",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\studio_worker.py": "8a12faf4fa5103269651d5b96f6088e07e00890af5a70e4ba8c20f02decbd534",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\cloud_worker.py": "cfe9f4d2d7feda88efb9206c924abdf17b521f76db00a9766a10aeeefc0a72e7",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\normalization_probe.py": "7564b486b64e49e78a9bc5faa39df10c7ac0bac98c90dd44706ca49049a25798",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\gpu_loop.py": "20e96a8099f9757a440c022d61260ca0a5266fb1a9f5c73826637923777bb027",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\results.py": "e581794f68eefb57cabfb4699a38980730be9d3a89ac985794b4c337fe63732f",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\offline_check.py": "2ef46aee058348c09eeed9620a40f042e0a07db51f628a72d9a05e3f6279086b",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\build_cloud_plan.py": "e4022ae4bf00ba1a9d1be91239fcc181ce10b91d2934b8d911daa6b677a2d0e0",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\cloud-assets-a40\\fixed-assets.json": "04628d2a7b199dc41c278fc7f4ddf2ef8dd19d5421d09993217bac443a9a69a1",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\cloud-assets-a40\\pod_boot.py": "c3ce00fa7527778caac505fb62947293af726abbd1bfe061d65dd89cf4b246f1",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-runpod-exec-diagnostic01\\diagnostic.py": "a117cf0eaf5d56c7c15ea6bfbbce05a4d6a787aa482ce5c3b4d6ee67b0474783",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-wider-hecate-run02\\run.py": "226ca1c6aa2166c1db5224517f30dc0a76a01e4f7c7e4037e6d9dcbaa1f5acd6",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-hecate-cloud-run01\\inspect_runpod.py": "49cf3e74c12d2212afaeae3149fc9c843f223590e949907ed8315e31f15107ad"
+  },
+  "cases": {
+    "known_reference_forwards": 3,
+    "paired_phi_forwards": 2,
+    "known_phi_forwards": 36,
+    "candidate_forwards": 187,
+    "total_gpu_forwards": 228,
+    "new_cpu_forwards": 0
+  },
+  "data_collection": {
+    "result_arrays_npy_bytes": 18202880,
+    "logs_metadata_budget_bytes": 5242880,
+    "physical_result_reservation_bytes": 67108864,
+    "new_local_write_cap_bytes": 201326592,
+    "expected_C_peak_bytes": 182452224,
+    "expected_C_peak_basis": "Existing R23912.5MB + <=32MiB archive + <=1MiB scripts/metadata +64MiBphysical reservation +48MiBunpack +24MiBfigures; reused R236 inputs are not duplicated locally",
+    "C_free_at_freeze": 6985371648,
+    "admission_free_bytes_after_reservation": 2147483648,
+    "input_upload_144KiB_requests": 147,
+    "output_collection_256KiB_requests_max": 256,
+    "collection_seconds": 360
+  },
+  "dollars": {
+    "currency": "USD",
+    "rate_ceiling": 0.6,
+    "estimate_8_to_16_min": [
+      0.08,
+      0.16
+    ],
+    "operation_ceiling": 0.35,
+    "maximum30min_compute_plus20GB_disk_estimate": 0.30139,
+    "live_hourly": 0.59,
+    "live_read_sha256": "f8ef871a5b67391544894a57f6345704dfb1524874e57ca9f7d060250b509af9"
+  },
+  "lifecycle": {
+    "gpu": "NVIDIA A40",
+    "cloud": "SECURE",
+    "resource_count": 1,
+    "data_center_ids": [
+      "CA-MTL-1"
+    ],
+    "automatic_retries": 0,
+    "total_seconds": 1800,
+    "stage_max_seconds": {
+      "provision": 600,
+      "transfer": 480,
+      "model": 900,
+      "collection": 360,
+      "deletion": 60
+    },
+    "absolute_from_precreate_seconds": {
+      "provision": 600,
+      "transfer": 1080,
+      "model": 1380,
+      "collection": 1740,
+      "deletion": 1800
+    },
+    "input_weight_fetches_on_pod": 1
+  },
+  "pods_created_at_freeze": 0,
+  "coexistence": {
+    "current_pods": [],
+    "live_read_sha256": "f8ef871a5b67391544894a57f6345704dfb1524874e57ca9f7d060250b509af9",
+    "policy": "At admission and immediately precreate require zero current pods; if changed, stop without create and recheck ownership with lead. No old allowlist.",
+    "foreign_pod_actions": [],
+    "research_pod_limit": 1,
+    "billing_scope": "Only owned R239id per-Pod billing; account balance not attributed as experiment cost."
+  },
+  "created_utc": "2026-11-15T14:22:45.619101+00:00",
+  "source_R236_cloud_plan_sha256": "c4676e6d7cf1405d77e83f3812bdcf36de76a292c9743ac6d5af833e7d931e3a",
+  "source_R236_archive_sha256": "df612995037c88d8d9f4f5cc8667b7e91ab211fdb97c3a7c7e8304201cbcaff6",
+  "diff_sha256": "1d95af3aaa77c28f8f502486f7af768f48e9c69a8e2a2efa7037bda96e12d4e5",
+  "exploration_contract": {
+    "enabled": true,
+    "purpose": "Select a coherent stroke/line ROI for later original-CT physical-sheet followup, not exact reproduction or verified reading",
+    "old_gate_role": "R236 thresholds remain unchanged observations; finite and all implementation checks remain blocking",
+    "historical_R236_pair_gate": {
+      "max_abs": 0.0028054118156433105,
+      "mean_abs": 0.0006942504648274431,
+      "all_finite": true,
+      "threshold_max_abs": 0.005,
+      "threshold_mean_abs": 0.0005,
+      "passed": false,
+      "source": "Fixed public-vs-approximate phi input, central96 raw probability; not an exact-render claim"
+    },
+    "historical_R236_pair_gate_sha256": "3d87f6fbd6829f651810a70afd6c5ffa2bba0d3a07a92799443a474d97269c4d",
+    "old_research_statuses_unchanged": [
+      236,
+      237,
+      238
+    ],
+    "known_phi_input_is_published_not_approximate": true,
+    "residual_uncertainty": "Known phi36 shows the inference implementation on published input. It does not validate the full unknown approximate render; small phi pair plus geometry/CT checks do not remove that uncertainty.",
+    "selection_stop": "If the fixed known-phi coarse structure is not maintained, do not adopt unknown reaction as a discovery candidate. If independent native reviews identify no clear followup ROI, close this window without depth/model/threshold/window rescue.",
+    "independent_visual_review": "Researcher saves native-image observations first; root separately views before reading researcher interpretation. Brightness alone is insufficient; no transcription or novelty claim.",
+    "public_full_reference": {
+      "file_sha256": "1b4b432867fb1f0f5cba844371b76813b2c5b7ad0df7b3a5bb14ee9c717abb65",
+      "strip_xywh": [
+        4704,
+        140,
+        320,
+        300
+      ],
+      "crop_npy_sha256": "74f37f320010e797959d3d804e850034ec6027529f7dde83d441b5b8d2d1535e",
+      "raw8_png_sha256": "c0356eec4c2f5b86e0578a779619ed9779646cab6975fc5a43dcd5ee3eab80fc"
+    }
+  },
+  "local_model_forwards": 0,
+  "new_CT_bytes": 0
+}

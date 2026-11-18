@@ -1,0 +1,723 @@
+{
+  "points": [
+    {
+      "col_row": [
+        88,
+        69
+      ],
+      "atlas_xy": [
+        1583.5,
+        1241.5
+      ],
+      "P": [
+        4619.92431640625,
+        3782.326904296875,
+        10293.4716796875
+      ],
+      "N_obj": [
+        -0.5037065148353577,
+        -0.6384044885635376,
+        -0.5819961428642273
+      ],
+      "conditions": {
+        "corner": {
+          "native_offset_voxel": 3.991629123687744,
+          "native_opacity": 0.8316250443458557,
+          "obj_tokens": [
+            "4617.91",
+            "3779.78",
+            "10291.1"
+          ],
+          "obj_projected_offset_voxel": 4.0208878620688004,
+          "obj_residual_tangent_voxel": 0.03896540455771375,
+          "expected_float32_xyz": [
+            4617.91357421875,
+            3779.778564453125,
+            10291.1484375
+          ],
+          "obj_axis_error_xyz": [
+            0.003574218750145519,
+            0.0014355468752000888,
+            0.0484374999996362
+          ],
+          "obj_axis_round_limit_xyz": [
+            0.005,
+            0.005,
+            0.05
+          ],
+          "max_blurred_dn_depth": 5,
+          "max_alpha_depth": 5,
+          "max_weight_depth": 5,
+          "max_blurred_dn": 134.31698608398438,
+          "highest_weights": [
+            {
+              "depth": 5,
+              "weight": 0.21736544370651245
+            },
+            {
+              "depth": -2,
+              "weight": 0.1853407770395279
+            },
+            {
+              "depth": 4,
+              "weight": 0.1791819930076599
+            },
+            {
+              "depth": 6,
+              "weight": 0.12899701297283173
+            }
+          ],
+          "parent_float64_offset_voxel": 3.992403533946489,
+          "native_minus_parent_voxel": -0.0007744102587450286,
+          "max_blurred_dn_diff_from_parent": 0.0075725173909404475
+        },
+        "centered": {
+          "native_offset_voxel": 4.979386806488037,
+          "native_opacity": 0.9595189690589905,
+          "obj_tokens": [
+            "4617.42",
+            "3779.15",
+            "10290.6"
+          ],
+          "obj_projected_offset_voxel": 4.960896953565228,
+          "obj_residual_tangent_voxel": 0.019197919061056976,
+          "expected_float32_xyz": [
+            4617.416015625,
+            3779.14794921875,
+            10290.5732421875
+          ],
+          "obj_axis_error_xyz": [
+            0.00398437500007276,
+            0.0020507812500909495,
+            0.026757812500363798
+          ],
+          "obj_axis_round_limit_xyz": [
+            0.005,
+            0.005,
+            0.05
+          ],
+          "max_blurred_dn_depth": 6,
+          "max_alpha_depth": 6,
+          "max_weight_depth": 5,
+          "max_blurred_dn": 143.21856689453125,
+          "highest_weights": [
+            {
+              "depth": 5,
+              "weight": 0.27310559153556824
+            },
+            {
+              "depth": 4,
+              "weight": 0.23583923280239105
+            },
+            {
+              "depth": 6,
+              "weight": 0.1807396113872528
+            },
+            {
+              "depth": 3,
+              "weight": 0.15420961380004883
+            }
+          ],
+          "parent_float64_offset_voxel": 4.979561084254318,
+          "native_minus_parent_voxel": -0.00017427776628053948,
+          "max_blurred_dn_diff_from_parent": 0.01639399982127543
+        },
+        "r0": {
+          "native_offset_voxel": 5.760568618774414,
+          "native_opacity": 0.9736954569816589,
+          "obj_tokens": [
+            "4617.02",
+            "3778.65",
+            "10290.1"
+          ],
+          "obj_projected_offset_voxel": 5.77257987521307,
+          "obj_residual_tangent_voxel": 0.0150435134316721,
+          "expected_float32_xyz": [
+            4617.0224609375,
+            3778.6494140625,
+            10290.119140625
+          ],
+          "obj_axis_error_xyz": [
+            0.0024609374995634425,
+            0.0005859375000909495,
+            0.019140624999636202
+          ],
+          "obj_axis_round_limit_xyz": [
+            0.005,
+            0.005,
+            0.05
+          ],
+          "max_blurred_dn_depth": 6,
+          "max_alpha_depth": 6,
+          "max_weight_depth": 5,
+          "max_blurred_dn": 147.27896118164062,
+          "highest_weights": [
+            {
+              "depth": 5,
+              "weight": 0.38088318705558777
+            },
+            {
+              "depth": 6,
+              "weight": 0.3131149709224701
+            },
+            {
+              "depth": 4,
+              "weight": 0.11648944765329361
+            },
+            {
+              "depth": 7,
+              "weight": 0.09851484000682831
+            }
+          ],
+          "parent_float64_offset_voxel": 5.7607060238644365,
+          "native_minus_parent_voxel": -0.0001374050900224688,
+          "max_blurred_dn_diff_from_parent": 0.012692864249345348
+        }
+      },
+      "centered_minus_corner_voxel": 0.987757682800293
+    },
+    {
+      "col_row": [
+        299,
+        41
+      ],
+      "atlas_xy": [
+        5381.5,
+        737.5
+      ],
+      "P": [
+        4075.09130859375,
+        4342.146484375,
+        10511.4677734375
+      ],
+      "N_obj": [
+        -0.9886640310287476,
+        -0.10366859287023544,
+        0.10861077159643173
+      ],
+      "conditions": {
+        "corner": {
+          "native_offset_voxel": 5.713969707489014,
+          "native_opacity": 0.8874977231025696,
+          "obj_tokens": [
+            "4069.44",
+            "4341.55",
+            "10512.1"
+          ],
+          "obj_projected_offset_voxel": 5.717748845486461,
+          "obj_residual_tangent_voxel": 0.011933444038072265,
+          "expected_float32_xyz": [
+            4069.442138671875,
+            4341.55419921875,
+            10512.087890625
+          ],
+          "obj_axis_error_xyz": [
+            0.0021386718749454303,
+            0.004199218749818101,
+            0.012109375000363798
+          ],
+          "obj_axis_round_limit_xyz": [
+            0.005,
+            0.005,
+            0.05
+          ],
+          "max_blurred_dn_depth": 6,
+          "max_alpha_depth": 6,
+          "max_weight_depth": 6,
+          "max_blurred_dn": 149.0842742919922,
+          "highest_weights": [
+            {
+              "depth": 6,
+              "weight": 0.4242549240589142
+            },
+            {
+              "depth": 5,
+              "weight": 0.35851848125457764
+            },
+            {
+              "depth": 7,
+              "weight": 0.10472433269023895
+            },
+            {
+              "depth": -2,
+              "weight": 0.0
+            }
+          ],
+          "parent_float64_offset_voxel": 5.71407340703748,
+          "native_minus_parent_voxel": -0.00010369954846645157,
+          "max_blurred_dn_diff_from_parent": 0.009729916409440875
+        },
+        "centered": {
+          "native_offset_voxel": 6.796148300170898,
+          "native_opacity": 0.9491314888000488,
+          "obj_tokens": [
+            "4068.37",
+            "4341.44",
+            "10512.2"
+          ],
+          "obj_projected_offset_voxel": 6.797883981062852,
+          "obj_residual_tangent_voxel": 0.006363626192654245,
+          "expected_float32_xyz": [
+            4068.372314453125,
+            4341.44189453125,
+            10512.2060546875
+          ],
+          "obj_axis_error_xyz": [
+            0.0023144531251091394,
+            0.0018945312504001777,
+            0.006054687499272404
+          ],
+          "obj_axis_round_limit_xyz": [
+            0.005,
+            0.005,
+            0.05
+          ],
+          "max_blurred_dn_depth": 7,
+          "max_alpha_depth": 7,
+          "max_weight_depth": 7,
+          "max_blurred_dn": 151.42759704589844,
+          "highest_weights": [
+            {
+              "depth": 7,
+              "weight": 0.4639256000518799
+            },
+            {
+              "depth": 6,
+              "weight": 0.3477092683315277
+            },
+            {
+              "depth": 8,
+              "weight": 0.12069710344076157
+            },
+            {
+              "depth": 9,
+              "weight": 0.016799459233880043
+            }
+          ],
+          "parent_float64_offset_voxel": 6.7959634839165775,
+          "native_minus_parent_voxel": 0.00018481625432098525,
+          "max_blurred_dn_diff_from_parent": 0.007142854123912912
+        },
+        "r0": {
+          "native_offset_voxel": 6.680624485015869,
+          "native_opacity": 0.947048008441925,
+          "obj_tokens": [
+            "4068.49",
+            "4341.45",
+            "10512.2"
+          ],
+          "obj_projected_offset_voxel": 6.678207611410785,
+          "obj_residual_tangent_voxel": 0.008148255328569973,
+          "expected_float32_xyz": [
+            4068.486328125,
+            4341.4541015625,
+            10512.193359375
+          ],
+          "obj_axis_error_xyz": [
+            0.0036718749997817213,
+            0.004101562500181899,
+            0.006640625000727596
+          ],
+          "obj_axis_round_limit_xyz": [
+            0.005,
+            0.005,
+            0.05
+          ],
+          "max_blurred_dn_depth": 7,
+          "max_alpha_depth": 7,
+          "max_weight_depth": 6,
+          "max_blurred_dn": 150.44593811035156,
+          "highest_weights": [
+            {
+              "depth": 6,
+              "weight": 0.44518324732780457
+            },
+            {
+              "depth": 7,
+              "weight": 0.3830116093158722
+            },
+            {
+              "depth": 8,
+              "weight": 0.09491945803165436
+            },
+            {
+              "depth": 9,
+              "weight": 0.023933669552206993
+            }
+          ],
+          "parent_float64_offset_voxel": 6.680503491954005,
+          "native_minus_parent_voxel": 0.00012099306186375003,
+          "max_blurred_dn_diff_from_parent": 0.004905589634432772
+        }
+      },
+      "centered_minus_corner_voxel": 1.0821785926818848
+    },
+    {
+      "col_row": [
+        306,
+        39
+      ],
+      "atlas_xy": [
+        5507.5,
+        701.5
+      ],
+      "P": [
+        4104.048828125,
+        4242.52587890625,
+        10416.8115234375
+      ],
+      "N_obj": [
+        -0.8882886171340942,
+        -0.3351120054721832,
+        -0.3140753209590912
+      ],
+      "conditions": {
+        "corner": {
+          "native_offset_voxel": 7.774298667907715,
+          "native_opacity": 0.7635626792907715,
+          "obj_tokens": [
+            "4097.14",
+            "4239.92",
+            "10414.4"
+          ],
+          "obj_projected_offset_voxel": 7.767694685097467,
+          "obj_residual_tangent_voxel": 0.02962031188115591,
+          "expected_float32_xyz": [
+            4097.14306640625,
+            4239.92041015625,
+            10414.3701171875
+          ],
+          "obj_axis_error_xyz": [
+            0.003066406249672582,
+            0.0004101562499272404,
+            0.029882812499636202
+          ],
+          "obj_axis_round_limit_xyz": [
+            0.005,
+            0.005,
+            0.05
+          ],
+          "max_blurred_dn_depth": 10,
+          "max_alpha_depth": 10,
+          "max_weight_depth": 10,
+          "max_blurred_dn": 135.96926879882812,
+          "highest_weights": [
+            {
+              "depth": 10,
+              "weight": 0.2346641570329666
+            },
+            {
+              "depth": 2,
+              "weight": 0.2075081318616867
+            },
+            {
+              "depth": 9,
+              "weight": 0.17542044818401337
+            },
+            {
+              "depth": 11,
+              "weight": 0.14268052577972412
+            }
+          ],
+          "parent_float64_offset_voxel": 7.774271290192944,
+          "native_minus_parent_voxel": 2.7377714770793204e-05,
+          "max_blurred_dn_diff_from_parent": 0.0099256086117947
+        },
+        "centered": {
+          "native_offset_voxel": 0.4455941617488861,
+          "native_opacity": 0.2241460680961609,
+          "obj_tokens": [
+            "4103.65",
+            "4242.38",
+            "10416.7"
+          ],
+          "obj_projected_offset_voxel": 0.4381870158872915,
+          "obj_residual_tangent_voxel": 0.027823562839596153,
+          "expected_float32_xyz": [
+            4103.65283203125,
+            4242.37646484375,
+            10416.671875
+          ],
+          "obj_axis_error_xyz": [
+            0.002832031250363798,
+            0.0035351562501091394,
+            0.028125000000727596
+          ],
+          "obj_axis_round_limit_xyz": [
+            0.005,
+            0.005,
+            0.05
+          ],
+          "max_blurred_dn_depth": 0,
+          "max_alpha_depth": 0,
+          "max_weight_depth": 0,
+          "max_blurred_dn": 126.65772247314453,
+          "highest_weights": [
+            {
+              "depth": 0,
+              "weight": 0.1778549998998642
+            },
+            {
+              "depth": -1,
+              "weight": 0.03448193520307541
+            },
+            {
+              "depth": 11,
+              "weight": 0.0073443385772407055
+            },
+            {
+              "depth": 12,
+              "weight": 0.004464737139642239
+            }
+          ],
+          "parent_float64_offset_voxel": 0.44288397170035754,
+          "native_minus_parent_voxel": 0.0027101900485285713,
+          "max_blurred_dn_diff_from_parent": 0.010344932662903261
+        },
+        "r0": {
+          "native_offset_voxel": -0.2121870517730713,
+          "native_opacity": 0.9567928314208984,
+          "obj_tokens": [
+            "4104.24",
+            "4242.6",
+            "10416.9"
+          ],
+          "obj_projected_offset_voxel": -0.22244297361739448,
+          "obj_residual_tangent_voxel": 0.019693891620545394,
+          "expected_float32_xyz": [
+            4104.2373046875,
+            4242.59716796875,
+            10416.8779296875
+          ],
+          "obj_axis_error_xyz": [
+            0.0026953124997817213,
+            0.002832031250363798,
+            0.022070312499636202
+          ],
+          "obj_axis_round_limit_xyz": [
+            0.005,
+            0.005,
+            0.05
+          ],
+          "max_blurred_dn_depth": 0,
+          "max_alpha_depth": 0,
+          "max_weight_depth": -1,
+          "max_blurred_dn": 154.1772918701172,
+          "highest_weights": [
+            {
+              "depth": -1,
+              "weight": 0.47629696130752563
+            },
+            {
+              "depth": 0,
+              "weight": 0.40310966968536377
+            },
+            {
+              "depth": 1,
+              "weight": 0.058597907423973083
+            },
+            {
+              "depth": 11,
+              "weight": 0.01078198291361332
+            }
+          ],
+          "parent_float64_offset_voxel": -0.21205689980848624,
+          "native_minus_parent_voxel": -0.00013015196458504574,
+          "max_blurred_dn_diff_from_parent": 0.007858999478429496
+        }
+      },
+      "centered_minus_corner_voxel": -7.328704506158829
+    },
+    {
+      "col_row": [
+        324,
+        39
+      ],
+      "atlas_xy": [
+        5831.5,
+        701.5
+      ],
+      "P": [
+        4314.56396484375,
+        3986.13525390625,
+        10303.0126953125
+      ],
+      "N_obj": [
+        -0.5983451008796692,
+        -0.6424996852874756,
+        -0.4787245988845825
+      ],
+      "conditions": {
+        "corner": {
+          "native_offset_voxel": 6.801705837249756,
+          "native_opacity": 0.9345698952674866,
+          "obj_tokens": [
+            "4310.49",
+            "3981.77",
+            "10299.8"
+          ],
+          "obj_projected_offset_voxel": 6.7803074411947994,
+          "obj_residual_tangent_voxel": 0.03835307989346362,
+          "expected_float32_xyz": [
+            4310.494140625,
+            3981.76513671875,
+            10299.7568359375
+          ],
+          "obj_axis_error_xyz": [
+            0.004140625000218279,
+            0.00486328124998181,
+            0.043164062499272404
+          ],
+          "obj_axis_round_limit_xyz": [
+            0.005,
+            0.005,
+            0.05
+          ],
+          "max_blurred_dn_depth": 9,
+          "max_alpha_depth": 9,
+          "max_weight_depth": 6,
+          "max_blurred_dn": 143.40933227539062,
+          "highest_weights": [
+            {
+              "depth": 6,
+              "weight": 0.23545193672180176
+            },
+            {
+              "depth": 5,
+              "weight": 0.18082810938358307
+            },
+            {
+              "depth": 7,
+              "weight": 0.178985133767128
+            },
+            {
+              "depth": 8,
+              "weight": 0.16710318624973297
+            }
+          ],
+          "parent_float64_offset_voxel": 6.80170327335001,
+          "native_minus_parent_voxel": 2.563899745844367e-06,
+          "max_blurred_dn_diff_from_parent": 0.010371159350555104
+        },
+        "centered": {
+          "native_offset_voxel": 3.583949327468872,
+          "native_opacity": 0.9906134009361267,
+          "obj_tokens": [
+            "4312.42",
+            "3983.83",
+            "10301.3"
+          ],
+          "obj_projected_offset_voxel": 3.5838651464778257,
+          "obj_residual_tangent_voxel": 0.003998325789895273,
+          "expected_float32_xyz": [
+            4312.41943359375,
+            3983.83251953125,
+            10301.296875
+          ],
+          "obj_axis_error_xyz": [
+            0.0005664062500727596,
+            0.0025195312500727596,
+            0.0031249999992724042
+          ],
+          "obj_axis_round_limit_xyz": [
+            0.005,
+            0.005,
+            0.05
+          ],
+          "max_blurred_dn_depth": 5,
+          "max_alpha_depth": 5,
+          "max_weight_depth": 3,
+          "max_blurred_dn": 142.34255981445312,
+          "highest_weights": [
+            {
+              "depth": 3,
+              "weight": 0.3287290930747986
+            },
+            {
+              "depth": 4,
+              "weight": 0.22700151801109314
+            },
+            {
+              "depth": 2,
+              "weight": 0.2258111834526062
+            },
+            {
+              "depth": 5,
+              "weight": 0.1131453737616539
+            }
+          ],
+          "parent_float64_offset_voxel": 3.583920079989783,
+          "native_minus_parent_voxel": 2.9247479089278272e-05,
+          "max_blurred_dn_diff_from_parent": 0.00752453775616857
+        },
+        "r0": {
+          "native_offset_voxel": 3.1742279529571533,
+          "native_opacity": 0.999939501285553,
+          "obj_tokens": [
+            "4312.66",
+            "3984.1",
+            "10301.5"
+          ],
+          "obj_projected_offset_voxel": 3.171042487461964,
+          "obj_residual_tangent_voxel": 0.008758230556659018,
+          "expected_float32_xyz": [
+            4312.66455078125,
+            3984.095703125,
+            10301.4931640625
+          ],
+          "obj_axis_error_xyz": [
+            0.004550781250145519,
+            0.0042968749999090505,
+            0.0068359375
+          ],
+          "obj_axis_round_limit_xyz": [
+            0.005,
+            0.005,
+            0.05
+          ],
+          "max_blurred_dn_depth": 7,
+          "max_alpha_depth": 7,
+          "max_weight_depth": 3,
+          "max_blurred_dn": 154.8418731689453,
+          "highest_weights": [
+            {
+              "depth": 3,
+              "weight": 0.38857319951057434
+            },
+            {
+              "depth": 2,
+              "weight": 0.2800431549549103
+            },
+            {
+              "depth": 4,
+              "weight": 0.23733127117156982
+            },
+            {
+              "depth": 5,
+              "weight": 0.07122507691383362
+            }
+          ],
+          "parent_float64_offset_voxel": 3.1740628873668055,
+          "native_minus_parent_voxel": 0.00016506559034779045,
+          "max_blurred_dn_diff_from_parent": 0.010709588666067305
+        }
+      },
+      "centered_minus_corner_voxel": -3.217756509780884
+    }
+  ],
+  "product_keys": [
+    "0/80/29/35",
+    "0/80/29/36",
+    "0/80/31/33",
+    "0/81/33/31",
+    "0/81/33/32",
+    "0/82/33/31",
+    "0/82/34/31"
+  ],
+  "additional_section_only_keys": [
+    "0/80/30/33"
+  ],
+  "max_absolute_obj_axis_error_voxel": 0.0484374999996362,
+  "max_absolute_native_minus_parent_voxel": 0.0027101900485285713,
+  "max_absolute_blurred_dn_diff_from_parent": 0.01639399982127543
+}

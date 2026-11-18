@@ -1,0 +1,107 @@
+{
+  "utc": "2026-11-14T13:58:50.428749+00:00",
+  "reviewer": "root",
+  "revision": "63c641ba1dc794073208c24f7f88fa59c4f77621",
+  "faces": [
+    {
+      "name": "w052",
+      "meta_git_blob_verified": "83bd45d56a8f1dd2cf56b28d312fe5cef80b9a4c",
+      "header_width_height": [
+        255,
+        56
+      ],
+      "float32_header": true,
+      "declared_area_cm2": 3.585465275952,
+      "bbox": [
+        [
+          3419.949951171875,
+          3076.89794921875,
+          11600.029296875
+        ],
+        [
+          5184.20703125,
+          5544.63671875,
+          12399.9736328125
+        ]
+      ]
+    },
+    {
+      "name": "w053",
+      "meta_git_blob_verified": "bbfb41e35fe1942e79308754a56409dd3b927b24",
+      "header_width_height": [
+        260,
+        56
+      ],
+      "float32_header": true,
+      "declared_area_cm2": 3.6548817348,
+      "bbox": [
+        [
+          3402.7138671875,
+          3080.9111328125,
+          11600.0703125
+        ],
+        [
+          5188.08251953125,
+          5551.74267578125,
+          12399.95703125
+        ]
+      ]
+    },
+    {
+      "name": "w054",
+      "meta_git_blob_verified": "5fae00430186fbfec06b36900185cd6eb7647cbc",
+      "header_width_height": [
+        265,
+        56
+      ],
+      "float32_header": true,
+      "declared_area_cm2": 3.718688782832,
+      "bbox": [
+        [
+          3383.60791015625,
+          3066.872802734375,
+          11600.08203125
+        ],
+        [
+          5188.17333984375,
+          5573.4794921875,
+          12399.673828125
+        ]
+      ]
+    }
+  ],
+  "ct_l0": {
+    "shape": [
+      18977,
+      8387,
+      8387
+    ],
+    "chunks": [
+      128,
+      128,
+      128
+    ],
+    "dtype": "|u1",
+    "fill_value": 0,
+    "order": "C",
+    "filters": null,
+    "dimension_separator": "/",
+    "compressor": null,
+    "zarr_format": 2
+  },
+  "hypothetical_render": {
+    "scale_to_9_6um": 0.9752083333333333,
+    "mesh_scale": 0.05,
+    "buffer_xy": [
+      2048,
+      1024
+    ],
+    "core_xy": [
+      1984,
+      960
+    ],
+    "max_3_face_nominal_pixel_area_cm2": 5.2659486719999995,
+    "patch64_stride32_both_directions_3faces": 11718
+  },
+  "limits": "Meta and partial x TIFF headers only. Full XYZ arrays, valid UV coverage, physical-sheet membership and independence of adjacent mesh indices remain to be inspected. Nominal raster area is not distinct papyrus area. Header does not verify all TIFF payload bytes."
+}

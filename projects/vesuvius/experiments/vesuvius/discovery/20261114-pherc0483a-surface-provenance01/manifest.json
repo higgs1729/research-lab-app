@@ -1,0 +1,510 @@
+{
+  "generated_utc": "2026-11-14T11:31:34.509842+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/acquire-process.json",
+      "bytes": 697,
+      "sha256": "fa21756156cbbd632ef2d445bae93fcd6920df327b4901d45c0a08e6b4b38015"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/acquire_ct.py",
+      "bytes": 3120,
+      "sha256": "f8d0cecf7c2fabbbdf17db6cfc9621f6477fe3b0e561dc3ce719d0327459130f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/acquire_metadata.py",
+      "bytes": 3183,
+      "sha256": "5363d6b23d0336bcf6e99b7468d25cf8b1de59292536991a76cb167d79022968"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/acquisition.json",
+      "bytes": 4858,
+      "sha256": "fa50a94ae4b154cb981eeb4fe1f8422fefc7f70e605328f0e4e619d0363da299"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/anchors.json",
+      "bytes": 838,
+      "sha256": "4519f50509db1da7e7665504fee8f6566f809f2d7fedcb7f223bd0e0c145d2c1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/continuity-geometry/832-1152/geometry-process.json",
+      "bytes": 1481,
+      "sha256": "16e8c2ee2290528b8c67a697dbf4da340b7d94b9981c67be5edb7e71c9efc74c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/continuity-geometry/832-1152/geometry-start.json",
+      "bytes": 2839,
+      "sha256": "11c7a825b8bcfdaf81ad60332be0b7c66a7bbe39dc2a658b1c80a6ab2b812d8e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/continuity-geometry/832-1152/geometry-time.txt",
+      "bytes": 16,
+      "sha256": "03107ded83f5bd539358a114609fb369668f50873dd64581acde290ee6f7eb0c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/continuity-geometry/832-1152/geometry.log",
+      "bytes": 704,
+      "sha256": "47226e924f32ab3359c5de431d0a21b9eb833adc6b75ad623cf9568c04c712a8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/continuity-geometry/ldd.log",
+      "bytes": 5499,
+      "sha256": "23dd7a32a46631d69fdc920afb13fdcc5ddabf4842b86d93759300ba23970cfd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/continuity-geometry/stage-start.json",
+      "bytes": 2353,
+      "sha256": "a9d18fdd10064ac74e3044bf756a91e958aee27d85d3a36b0c15d73e4e569214"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/continuity-observer-source.json",
+      "bytes": 1052,
+      "sha256": "4f3b7673a425536327a40f88fb77e38370d5bc25b64f4926fd03e817673f9cf1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/continuity-plan-process.json",
+      "bytes": 689,
+      "sha256": "0a500202329d2539d708419b6709e3468f149b8064f9d940ca495ede626e3139"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/continuity-plan.json",
+      "bytes": 4147,
+      "sha256": "f50fbdd39522201bdbdd5009cbe30843e4895bde1302e68b2a3ec642e61d1c8e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/continuity.py",
+      "bytes": 1354,
+      "sha256": "78f8fa9e5213a2022d4cd6e7bbff1f76f0e2ecc0a6358b1f54eba917624e1660"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/ct-acquire-process.json",
+      "bytes": 690,
+      "sha256": "d55761a32b1565f75d29a0b9b4ca7e9800d5435645d865795bf525af3a92b794"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/ct-acquisition.json",
+      "bytes": 3411,
+      "sha256": "d7303b172ea6834802247b87fe8764e0c9e3699bd4702e5333166965d2d81298"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/ct-http.jsonl",
+      "bytes": 4935,
+      "sha256": "e8b5ba56227b8f7dc7784ba5b9406d521bee7ff6ae8ea9ab6e1b703900d6d5f5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/ct.zarr/.zattrs",
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/ct.zarr/.zgroup",
+      "bytes": 24,
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/ct.zarr/0/.zarray",
+      "bytes": 239,
+      "sha256": "a82e0cb3e1b4b8aca6bbf3595537aa5c3e8fa1f5c15989695a3581644fc247b6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/ct.zarr/0/88/28/23",
+      "bytes": 2097152,
+      "sha256": "95edfd5783a1b337a225fd5f4a91ed7d5b64420431489d711bf4a15cd567a079"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/ct.zarr/0/88/28/24",
+      "bytes": 2097152,
+      "sha256": "0b0b4c719772955dec15183b54a42faabf23da8cb18dc79c30964d62d659b046"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/ct.zarr/0/89/28/23",
+      "bytes": 2097152,
+      "sha256": "3f190e08038fb19a87a5170b115185affce7bd0ae2a441b4bf2b9f0b3bdb00c8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/ct.zarr/0/89/28/24",
+      "bytes": 2097152,
+      "sha256": "19cdaa89123ce6e1fbfe0d06810473e40e360d657b148616d844f2a4ecb0482a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/ct.zarr/0/90/28/23",
+      "bytes": 2097152,
+      "sha256": "993028793f21ded0547d15c1be6f3f8679df0295e1b7afe04272a5e3dd90302d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/ct.zarr/0/90/28/24",
+      "bytes": 2097152,
+      "sha256": "efff993d7a95ff8f6137d03621d4c18c0f7eee8462bda8fa81d96818170d337e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1120/geometry-process.json",
+      "bytes": 1458,
+      "sha256": "12830aec61e63e6de5f01a39c3d6be29dc49884d90447f7643a00cd15d8d9f5c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1120/geometry-start.json",
+      "bytes": 2791,
+      "sha256": "cc75ef2621f47d0d4df5c143eccf93a2eb2b3c4abfdf3f31765e6bad726dfdb5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1120/geometry-time.txt",
+      "bytes": 16,
+      "sha256": "81b0cf3b6128e2ab9663e766f4a6f9892aa931132da6f12ff19b9f87bfd36a30"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1120/geometry.bin",
+      "bytes": 98352,
+      "sha256": "f07aaaf5118b16d1dc605a35ba0ae2572b1632072cda22df8c174aa0d475caa4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1120/geometry.log",
+      "bytes": 620,
+      "sha256": "9fe3e84fe2e4160d3fc48389265dd8b7a390114c9fac21783ab77c624f433e63"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1236/geometry-process.json",
+      "bytes": 1459,
+      "sha256": "1886b64afccbba5dc492b25dd847f58ed6359ce38ff37d5aef1a2d18c7cf101a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1236/geometry-start.json",
+      "bytes": 2883,
+      "sha256": "3931ee553848762eeee69bdb858287d0d8c7f05dd6c12f6cf815ae64aae9fcd6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1236/geometry-time.txt",
+      "bytes": 16,
+      "sha256": "9c2277ec3c089b3d6fafd2142e096216051eec5f9fd6ff33f9fe6ae2eb6e75bd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1236/geometry.bin",
+      "bytes": 98352,
+      "sha256": "20baae58f45be86041c0cb09f2753d303f935c5858a69ebfad8d63f56d5f42e1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1236/geometry.log",
+      "bytes": 620,
+      "sha256": "7a7b30b84b8bcbaaf257d74cbfc0ceff951bcac9804b072346cef571625876e6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1360/geometry-process.json",
+      "bytes": 1459,
+      "sha256": "f38659d77fa881bc71068994acc86ba64b80e520a6e6bbeba59e80654c93968f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1360/geometry-start.json",
+      "bytes": 2883,
+      "sha256": "dd27e19efb0c3f981a96038e630a6f8acb5a6c88cf054b223318a3f4ef2f5ed7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1360/geometry-time.txt",
+      "bytes": 16,
+      "sha256": "10b994da18f2860360403761202121361cea71f8d5243a4a206e3e92c48d10ff"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1360/geometry.bin",
+      "bytes": 98352,
+      "sha256": "38a477a44b70a289d582d0c48d3524682ece85debec49b31d3a79ffac045b973"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/800-1360/geometry.log",
+      "bytes": 620,
+      "sha256": "c01c8dd2b64b7aa67cfe2df1091f3eabe40381c875d46686c737a26f6f7645f8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/ldd.log",
+      "bytes": 5499,
+      "sha256": "ef7c07c79e1454dd680f4ba170db6e38e4a4306559fcfc615b6b8e04f72e57bc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/stage-result.json",
+      "bytes": 153,
+      "sha256": "c75655794d1292491fc92a8a483933cc890b1e160a6c337fd44086c4ecdef935"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/geometry/stage-start.json",
+      "bytes": 4620,
+      "sha256": "f928d29dd34ec33a61307e67619e1718ca9313919dc161e4730a75c391ff4f81"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/http.jsonl",
+      "bytes": 3502,
+      "sha256": "679b21aa4e736ad2b60121d441f02271148812cf870e5758c7f88c2556ddf5ff"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/launch.sh",
+      "bytes": 180,
+      "sha256": "5497daee820f80b69b276402283de6e152d7486509c13a8fcebc557bae1ceadf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/lead-geometry-check-process.json",
+      "bytes": 701,
+      "sha256": "84b6d39ac24a4ebdf3aaaf4e8764519b6168af95530e013f7f9608ca20cbac63"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/lead-geometry-check.json",
+      "bytes": 10556,
+      "sha256": "aab245859b3c6a63d5ab17b49c33df62a19f6eacfc591e7595bee93015b9fe64"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/lead-geometry-expected.json",
+      "bytes": 9315,
+      "sha256": "f706201a1884018e58cd9eb17eeb16d481f0c99b7d035375b912a92758ce3f2a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/lead-geometry-process.json",
+      "bytes": 705,
+      "sha256": "70997714acd7259a5d7fd7e5e9ae20ab076e2c1464c29b61e505a383264f525e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/lead-sections-check-process.json",
+      "bytes": 701,
+      "sha256": "87dbcc393b37d84143addb6b9fa179ca63df62e3c099727ebf90900e20ac4197"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/lead-sections-check.json",
+      "bytes": 970,
+      "sha256": "6e0d5c6d352506fc07f6b6987540fcd8322407f76b27ef515c4b97e1e473c617"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/lead_geometry_check.py",
+      "bytes": 1611,
+      "sha256": "b34c0343df576d735d415c1c878341a3d09958c76e6854b9d86f08fc84f56aec"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/lead_geometry_expected.py",
+      "bytes": 2119,
+      "sha256": "3575d7d3c31caa4a3aabf578f4f7cc4e35a7826c036e44f558f3c07a8b6aae61"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/lead_sections_check.py",
+      "bytes": 4007,
+      "sha256": "bc9e705399e725024bd48dd35a87d4cc7534b7c7af55c381d1767052d92d9931"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/mesh/meta.json",
+      "bytes": 1197,
+      "sha256": "b1418279537de7e3c9a153378b584dfb158188a4b6fb55bf8fa8dd3edfc3d354"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/mesh/x.tif",
+      "bytes": 56329,
+      "sha256": "4d0f7f7625595d2bf148b30ce6573ef8cd608be381413f1dfed6e24902373757"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/mesh/y.tif",
+      "bytes": 56329,
+      "sha256": "aafaf59db56c1ea105dbeba321cdc923e7f526a9d0e556337d05bfdf16cac19a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/mesh/z.tif",
+      "bytes": 56329,
+      "sha256": "5e77a940ca525368f4e5f32a4e37c26659c380059d39711fa66029195d25d146"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/native_geometry.py",
+      "bytes": 3124,
+      "sha256": "4c3524de911ba615d9e61b10517f43b46f76a2a136bb57b0793050de3f0c35aa"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/observer-source.json",
+      "bytes": 1162,
+      "sha256": "9279c97e23fd6ddaed24d62e792e95501e622d57a2e168464d1999fd22feeda2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/plan_support.py",
+      "bytes": 7166,
+      "sha256": "70481a0604eaa01448a1b345fd05405c8fc1aef4c4a6c8ee2b97f8b31584ce79"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/README.md",
+      "bytes": 4874,
+      "sha256": "40b6abafd00a88c2dc51ce87ecbe627c3ebb8e03b0ee523f5ee2b3042edf29a2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/record.json",
+      "bytes": 1879,
+      "sha256": "c98968cb43e424320d513d23caa8f37f4bcccbd3f4cad25da371ff1a8cccb04b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/arc/atlas-d0.png",
+      "bytes": 3181,
+      "sha256": "a7b87f0504efc5bebc4ff5f2cb6ffafb0fa7e5addac141ae00c4a41b46b288b0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/arc/ct-d0.png",
+      "bytes": 3182,
+      "sha256": "f986917058b8ed506ef0bd487bb532cd153df31773b512cb9d9096511130d3ee"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/arc/normal-column.png",
+      "bytes": 1600,
+      "sha256": "a66e01a3e983d3f5e162bbbd0d5789d67343ed9d1b1fe7e62f867d23121636aa"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/arc/normal-row.png",
+      "bytes": 1647,
+      "sha256": "5b345b87585743f95532e04e71406b093d69a7f47ea39688694d884765fe64cf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/arc/normal-stack.npy",
+      "bytes": 135296,
+      "sha256": "e2a827c614ce069de4880a37d356463ac29bac6704849180c55fc97da6666ed2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/arc/ortho-X.png",
+      "bytes": 2980,
+      "sha256": "481c9a8993a0fa0fed5c1e9b8cd440c6f36352f20205311d566b25638f3c402e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/arc/ortho-Y.png",
+      "bytes": 3038,
+      "sha256": "169863ea222b62bbb32637806c424565ce78c236d005b61762b959ec7dbebed5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/arc/ortho-Z.png",
+      "bytes": 3111,
+      "sha256": "ca421d050e51428a14a9734220af420565c9f17f0313b1cf67d22d1317f94768"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/arc/orthogonal-annotated.png",
+      "bytes": 30107,
+      "sha256": "d190beb8b330c83cde07653c1967870bfe1b06891b6535fd1807a07900ffdff8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/continuous-yz-annotated.png",
+      "bytes": 51208,
+      "sha256": "4e1bc0c9e259ae275af2e2fa3d55bdce345cd391f91c40c6cab64ebcbcf56080"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/continuous-yz.png",
+      "bytes": 28113,
+      "sha256": "07d6a2ed0eb2cd79f3d30b009a04329db7fafa35529ed2ddcc4997e0e9840b15"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/lower/atlas-d0.png",
+      "bytes": 2680,
+      "sha256": "3e28f92a2ab8d8971bbf064666519365e7af32cab8b5dfa5d22323d1df60fa45"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/lower/ct-d0.png",
+      "bytes": 2680,
+      "sha256": "5bc7d43ca20db5ab0d2317e11e9958809d4b1b1a9eb99aadfa169d0fcb6f6505"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/lower/normal-column.png",
+      "bytes": 1344,
+      "sha256": "2a130e9a049392d81ede00d201d0e67bc4a2cec2153d325f5c0e03287c9bea93"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/lower/normal-row.png",
+      "bytes": 1392,
+      "sha256": "f1ba0408ed87c7f59f5305e3846a9c0f7b18b716af06bafa33aeaa5acd501131"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/lower/normal-stack.npy",
+      "bytes": 135296,
+      "sha256": "efe2bf538cf734bc1a1e14a508e9d149922292a14c910f959a2903f38fcd836d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/lower/ortho-X.png",
+      "bytes": 2605,
+      "sha256": "4d864b1991690f6d151b2fc1206bf90ffa87e6c4b85b6b8a5018b82422ad6cc4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/lower/ortho-Y.png",
+      "bytes": 2619,
+      "sha256": "c906ee4f41ca2f073e2e4a77612cb9d5a95bca241836cdef48c830e6f429ae74"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/lower/ortho-Z.png",
+      "bytes": 2580,
+      "sha256": "b575dc0784cd4c3be0e6163ff3d28f3c8a6f8d1111033cbf7224e02ea365f7d0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/lower/orthogonal-annotated.png",
+      "bytes": 24697,
+      "sha256": "a6f6b5f5ec190a09097e6d6c17c23831b3425da23af5f081c6f2357d19c79725"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/upper/atlas-d0.png",
+      "bytes": 3204,
+      "sha256": "c46269c8851b0f8614ab3fd3b14cbb6cdd5ca88c9690be68d3ba3a1768c69251"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/upper/ct-d0.png",
+      "bytes": 3203,
+      "sha256": "93a68375dc7855130bcb6dcef95323a8a681e03f159e718ffd6c5ff96ff51cbc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/upper/normal-column.png",
+      "bytes": 1741,
+      "sha256": "a987e78ce726b62a3c55936aa5e3572013e70ee3e033b619bc2620f1bdfee30c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/upper/normal-row.png",
+      "bytes": 1754,
+      "sha256": "10b9dc1d1bf7cf154bb4321bc4b7bde1da259472f5cbeedf5a7d367ee8ce2260"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/upper/normal-stack.npy",
+      "bytes": 135296,
+      "sha256": "41982c2c491dd1f6704930a59a3046417a5b0b5ec9abde5b28faa2c2a5cfe993"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/upper/ortho-X.png",
+      "bytes": 3383,
+      "sha256": "5a4cdfcac98715a4f50e72bad29c264d1a57d569d5ed6227d70c3b3b8ca26acd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/upper/ortho-Y.png",
+      "bytes": 3353,
+      "sha256": "234259e15e990bb84a089ff9f3a214ec11baef14ec5eb915b2c28be44382a2cf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/upper/ortho-Z.png",
+      "bytes": 3386,
+      "sha256": "2453c5f55d3af392142a0b479d8e300ad1098135d5a147f0e06aba747c4260a6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections/upper/orthogonal-annotated.png",
+      "bytes": 32722,
+      "sha256": "77b24f651a0b72a84e11bf747db40e25e62009a60a87ba2fef28780596c7e7d9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections-process.json",
+      "bytes": 688,
+      "sha256": "5e3ffe53d191c510bcf34a75f023268794a0ae9ba987a69e40b30ffc536d4cff"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections-result.json",
+      "bytes": 3350,
+      "sha256": "8f1c9b22d860241e962a39ae14b21f4d62c2f971cfecc2a09e6efbbf849b10ae"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections.py",
+      "bytes": 5892,
+      "sha256": "f0c40d7dde45dea07c79441f6098b37f9066d41b76d8fc2c1394220c33ed2776"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/support-plan.json",
+      "bytes": 6568,
+      "sha256": "d57c304e41b2c8e707913b0a57fee0e9bbafbb60f955290523a33538478d43d6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/support-process.json",
+      "bytes": 693,
+      "sha256": "e6b43b28253dfd9929f74f307e6cdf1ffba3dfa9cc894e7d6b56f9df285334f9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/visual.json",
+      "bytes": 915,
+      "sha256": "e16746ae6b30c04695c8690c5fc8209443a253466ae05200a94f65e89984ff97"
+    },
+    {
+      "path": "research/204-pherc0483a-surface-provenance.md",
+      "bytes": 6894,
+      "sha256": "ef88d5e6b9ead4a89f6b43afcf0b4480e653490132c2a71e8571149bf1a7a3de"
+    }
+  ]
+}

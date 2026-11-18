@@ -1,0 +1,30 @@
+{
+  "reviewer": "root",
+  "checked_utc": "2026-11-15T08:21:32.164345+00:00",
+  "sources": [
+    {
+      "file": "experiments\\vesuvius\\discovery\\20261115-pherc0306b-independent-face01\\originals\\submission\\code\\surface\\carrier.py",
+      "sha256": "300737971b7323834277ffd0ddc29abe6aad4ba608029501bbfa29434112cefb"
+    },
+    {
+      "file": "experiments\\vesuvius\\discovery\\20261115-pherc0306b-independent-face01\\originals\\submission\\code\\surface\\p1geom.py",
+      "sha256": "28bc0c8595f3256757ad47d8355be8f63d352da22246243248ac10cdce41b4c4"
+    },
+    {
+      "file": "experiments\\vesuvius\\discovery\\20261115-pherc0306b-independent-face01\\originals\\submission\\code\\surface\\reflatten.py",
+      "sha256": "7d6ea7bfb7eef563c8f608f42cd65e452b54fed8f556c62f258bcb2d2281010c"
+    },
+    {
+      "file": "experiments\\vesuvius\\discovery\\20261115-pherc0306b-independent-face01\\originals\\submission\\code\\surface\\touchup.py",
+      "sha256": "33a5923e724b92b7b72f83057e61223811b16733c99803075330f27d48cd809f"
+    }
+  ],
+  "observations": [
+    "carrier.py explicitly describes its P as a parametrization, not a sheet estimate. It combines big with smoothed in-plane displacement from A and smooths positions; normals come from that carrier.",
+    "carrier.py crossings uses Surf(up=4) and cross default span60,iters5,miss_max3. p1geom.py implements iterative nearest sampled-cloud projections onto each normal and retains finite offsets only with abs(t)<=60 and miss<3. This is an approximate near crossing, not an exact surface intersection.",
+    "carrier.py stores offsets t as float32 and discards the returned miss values. Reconstructed P+t*n may be within producer tolerance of its sampled cloud, but individual residual and original independent surfaces are unavailable from t alone.",
+    "Author adoption region in saved surface-decision.json is right line component u~14..23mm. The R225 upper rectangle is u[-6.41664,-0.0576],v[8.58336,12.03936]mm, so right-component agreement rate95.5% cannot be transferred.",
+    "Reflatten resamples the carrier. Reusing raw integer indices between the old carrier observations and V5Rc would not establish common physical position. Local geometric correspondence must carry residual/ambiguity and shared CT/m7 provenance."
+  ],
+  "next_comparison_limit": "Sampled observations may constrain a local interpretation, but cannot by themselves prove physical lamina identity or letters. No original lane mesh has yet been independently regenerated."
+}

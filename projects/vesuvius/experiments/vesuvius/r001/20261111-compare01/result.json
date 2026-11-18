@@ -1,0 +1,74 @@
+{
+  "exploratory": true,
+  "roi_selected_before_prediction": true,
+  "samples": 16384,
+  "valid": 7597,
+  "geometry_distance_l2_voxels": {
+    "0": 0.0,
+    "25": 0.8669539093971252,
+    "50": 2.346506118774414,
+    "75": 4.766119003295898,
+    "95": 8.272809982299805,
+    "100": 30.12019920349121
+  },
+  "normal_angle_degrees": {
+    "0": 0.07401873916387558,
+    "25": 2.8116374015808105,
+    "50": 4.390079498291016,
+    "75": 7.468822002410889,
+    "95": 11.45340633392334,
+    "100": 16.138124465942383
+  },
+  "roundtrip_source_pixels": {
+    "0": 3.587328054543122e-05,
+    "25": 0.19907480285449586,
+    "50": 0.6836258425405306,
+    "75": 2.0944113076290343,
+    "95": 23.07932866277954,
+    "100": 117.16329027673268
+  },
+  "validity_rule": "supervised, interior, distance <2 L2 voxels, abs-normal angle <20 degrees, roundtrip <8 source pixels",
+  "measurements": [
+    {
+      "shift_yx": [
+        0,
+        0
+      ],
+      "roc_auc": 0.9605457038674323,
+      "n_positive": 5774,
+      "n_negative": 1823,
+      "mean_positive": 132.91929338413578,
+      "mean_negative": 3.4229292375205707
+    },
+    {
+      "shift_yx": [
+        19,
+        19
+      ],
+      "roc_auc": 0.9923781127915423,
+      "n_positive": 5774,
+      "n_negative": 1823,
+      "mean_positive": 151.0561136127468,
+      "mean_negative": 6.835436094349973
+    },
+    {
+      "shift_yx": [
+        20,
+        20
+      ],
+      "roc_auc": 0.9915322075751078,
+      "n_positive": 5774,
+      "n_negative": 1823,
+      "mean_positive": 151.74783512296503,
+      "mean_negative": 7.521667580910587
+    }
+  ],
+  "network_bytes": 3832849,
+  "elapsed_seconds": 3.4347774000489153,
+  "paid_compute_usd": 0,
+  "limitations": [
+    "One preselected ROI; not held out at segment level; geometry algorithm requires independent validation.",
+    "Labels may derive from model outputs; does not measure generalization or new text.",
+    "Index-pixel convention 20*g+shift from issue; nearest sampling; no half-pixel convention comparison."
+  ]
+}

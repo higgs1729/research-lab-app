@@ -1,0 +1,26 @@
+{
+  "reason": "Git for Windows autocrlf changed line endings. All LF-normalized product hashes match. Initial files preserved; repeat only patch application with explicit LF settings.",
+  "files": {
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": {
+      "raw_sha256": "38b57cc0f2c8cfe10fc65d781ccf70d84f6b3ca9421102c05c886f67d2040481",
+      "crlf_count": 136,
+      "lf_count": 136,
+      "normalized_sha256": "8e8b41004bd62159348f3a854dfcb2cdb86fdca30d19af1863719f81aacb2776",
+      "target_sha256": "8e8b41004bd62159348f3a854dfcb2cdb86fdca30d19af1863719f81aacb2776"
+    },
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": {
+      "raw_sha256": "abb59b42461e43c4e5c11e333b2c58a9ee52e56fbc7b61f884cd69d469386e7b",
+      "crlf_count": 820,
+      "lf_count": 820,
+      "normalized_sha256": "dcc75e14768d321a4eaa7110950396a8a7574bb1fc8e6ad9414ead3113793978",
+      "target_sha256": "dcc75e14768d321a4eaa7110950396a8a7574bb1fc8e6ad9414ead3113793978"
+    },
+    "volume-cartographer/libs/flatboi/flatboi.cpp": {
+      "raw_sha256": "833cf692f61e8ac7dbc560b379ca13996d047d4922a28743c1e3663b94e4d375",
+      "crlf_count": 1269,
+      "lf_count": 1269,
+      "normalized_sha256": "00b682f7956108c75c048e32d96a28cd0bd4f536ad66de47483cf029931bb0ae",
+      "target_sha256": "00b682f7956108c75c048e32d96a28cd0bd4f536ad66de47483cf029931bb0ae"
+    }
+  }
+}

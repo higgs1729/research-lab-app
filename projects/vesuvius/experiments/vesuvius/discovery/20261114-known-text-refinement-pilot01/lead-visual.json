@@ -1,0 +1,15 @@
+{
+  "reviewer": "root",
+  "date_jst": "2026-11-14",
+  "images": ["comparison-interior-256.png", "comparison-384.png"],
+  "assessment": [
+    "The original surface preserves the bright arcs and dark central portion of the known published prediction in both models. The full 384 image shows the same broad ring-like structure in dense-native.",
+    "Corner-window refinement breaks the dense-native broad ring into more separated bright patches and reduces its correspondence with the original/published shape. Seed42 loses or relocates parts of the original pattern.",
+    "Centered-window refinement also disrupts the shape. Its seed42 image has a markedly different bright/dark arrangement, and dense-native loses much of the original ring continuity. No more legible character or newly separable letter is visible in these views.",
+    "The CT central layers change after both refinements, with a different presentation of fibers and gaps. A visually sharper CT texture does not establish that the ink-bearing surface is better aligned."
+  ],
+  "decision": "Do not adopt this fixed opacity-refinement recipe for the unread patches. Close this small known-region trial without depth/threshold tuning. Keep the centered-window implementation and the artificial/real CT mechanism evidence as an unpublished prototype, with this negative reading-related result attached.",
+  "scope": "One fixed 384-square region, 256-square main comparison, two existing reverse-order models and one refinement recipe. Similarity with public predictions is not recognition accuracy; the ROI only partly overlaps published character boxes 9 and 10. This does not prove that all surface refinement or centered sampling is harmful.",
+  "new_model_calls": 0,
+  "new_network_bytes": 0
+}

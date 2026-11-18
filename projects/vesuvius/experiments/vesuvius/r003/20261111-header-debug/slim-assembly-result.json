@@ -1,0 +1,10 @@
+{
+  "systems": 36,
+  "input_rejections": 14,
+  "comparison_rejections": 15,
+  "matrix_max_scaled_error": 0,
+  "rhs_max_scaled_error": 3.487972836730209e-06,
+  "lifecycle_max_absolute_error": 0,
+  "real_vertices": 0,
+  "real_faces": 0
+}

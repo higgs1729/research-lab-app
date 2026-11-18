@@ -1,0 +1,36 @@
+{
+    "area_cm2": 7.084716144754866,
+    "area_vx2": 8083234.5523881735,
+    "bbox": [
+        [
+            2404.07080078125,
+            2704.998046875,
+            5907.560546875
+        ],
+        [
+            4443.17578125,
+            4314.447265625,
+            11101.923828125
+        ]
+    ],
+    "date_last_modified": "20261008133607147",
+    "format": "tifxyz",
+    "grid_offset": [
+        16,
+        16
+    ],
+    "manual_ct_extension": true,
+    "scale": [
+        0.05000000074505806,
+        0.05000000074505806
+    ],
+    "source_case_id": "PHerc0211-3305-3380-8428-g80-material-c2-will-r002-component01-part00",
+    "source_coordinate_frame": "volume-native-voxels",
+    "source_volume": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr",
+    "type": "seg",
+    "uuid": "PHerc0211-3305-3380-8428-g80-material-c2-will-r002-component01-part00-manual",
+    "vc3d_segment_display_id": "PHerc0211-3305-3380-8428-g80-material-c2-will-r002-component01-part00-manual",
+    "vc3d_segment_folder": "segments",
+    "vc3d_segment_folder_default_palette": true,
+    "voxelsize": 9.362
+}

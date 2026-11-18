@@ -1,0 +1,11 @@
+{
+  "url": "https://github.com/priyankaranke/vesuvius-studio-multiscroll-cpt/releases/download/studio-softloss-20261023/studio-softloss-20261023-ema.safetensors",
+  "status": 200,
+  "content_length": "893443724",
+  "bytes": 893443724,
+  "sha256": "96b326286e38de99047f7cab36170c53749a18d5f43e5fde0c7c20f2980b0e90",
+  "seconds": 85.45934319999651,
+  "C_free_bytes": 12100120576,
+  "parameters_in_header": 223355921,
+  "tensors": 214
+}

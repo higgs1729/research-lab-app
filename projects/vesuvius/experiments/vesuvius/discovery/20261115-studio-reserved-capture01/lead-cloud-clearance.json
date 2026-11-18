@@ -1,0 +1,19 @@
+{
+  "approved": true,
+  "reviewed_utc": "2026-11-15T09:57:59.453518+00:00",
+  "cloud_plan_sha256": "47e6fc32520f5dbc045c34c3863df099429b1e5400b7b40c7eeeaecc005a3895",
+  "reviewer": "lead",
+  "independent_review": "Read capture.py, complete collector diff, control.py, deadline.py, and test_capture.py. Verified frozen controller assignments and all17 unchanged archive members. Reviewed actual Windows allocation proof and old-fails/new-preserves same collector test. No repeated model or test execution.",
+  "unchanged_science_plan_sha256": "d1a9774b2ad3816ade4234c4449577e86f2bf49cd6d809915a1a1c1ebebc0312",
+  "archive_members_verified": 17,
+  "actual_result_reservation_bytes": 12582912,
+  "new_local_write_cap_bytes": 67108864,
+  "admission_C_free_after_reservation_bytes": 2147483648,
+  "operational_limit_usd": 0.35,
+  "estimated_compute_usd": [
+    0.079,
+    0.197
+  ],
+  "absolute_deletion_seconds": 1800,
+  "scope": "One Secure A40 after immediate account/rate/inventory admission and independent watchdog ready. No automatic retry. Parent independently verifies numerical outputs and owned-Pod removal."
+}

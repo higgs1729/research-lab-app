@@ -1,0 +1,106 @@
+{
+  "status": "completed",
+  "environment": {
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": "C:\\dev\\ai-compute\\local-image-gen\\ComfyUI_windows_portable\\python_embeded\\python.exe",
+    "torch": "2.13.0+cu130",
+    "cuda": "13.0",
+    "numpy": "2.5.2",
+    "affinity": [
+      0
+    ],
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "nvidia_tf32_override": "0",
+    "matmul_fp32_precision": "ieee",
+    "cudnn_conv_fp32_precision": "ieee",
+    "torch_memory_fraction": 0.5002748091603053,
+    "torch_allocator_cap_bytes": 4294967296,
+    "job_commit_cap_bytes": 4294967296,
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "admission_gpu_and_ram": {
+      "device_free_bytes": 7418675200,
+      "device_total_bytes": 8585216000,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "peak_allocated_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "physical_available_bytes": 11717586944,
+      "process_peak_rss_bytes": 629895168
+    }
+  },
+  "started_utc": "2026-11-15T06:02:45.066733+00:00",
+  "maximum_patches": 1922,
+  "active_patches_expected": 1688,
+  "model_seconds_limit": 599.9667971000017,
+  "order": [
+    "mesh4-forward",
+    "mesh4-reverse"
+  ],
+  "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+  "prediction_source_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "contract_sha256": "f54e97988b32d2eba05ec83a2e8512c69eb40a9cdb2aa448593d0dcef44836c4",
+  "strict_load_seconds": 2.62059269999736,
+  "actual_patches": 1688,
+  "counts": {
+    "mesh4-forward": 844,
+    "mesh4-reverse": 844
+  },
+  "parity": {
+    "mesh4-forward": [
+      {
+        "grid_index": 13,
+        "mae": 1.6389094525948167e-09,
+        "max": 1.7136335372924805e-07
+      },
+      {
+        "grid_index": 14,
+        "mae": 8.631417358628823e-09,
+        "max": 3.427267074584961e-07
+      },
+      {
+        "grid_index": 15,
+        "mae": 1.385565440159553e-08,
+        "max": 2.430751919746399e-07
+      }
+    ],
+    "mesh4-reverse": [
+      {
+        "grid_index": 13,
+        "mae": 3.4210643207188696e-09,
+        "max": 2.905726432800293e-07
+      },
+      {
+        "grid_index": 14,
+        "mae": 2.6218174298264785e-09,
+        "max": 8.102506399154663e-08
+      },
+      {
+        "grid_index": 15,
+        "mae": 9.200590511682094e-09,
+        "max": 1.0058283805847168e-07
+      }
+    ]
+  },
+  "forecast": {
+    "steady_patch_wall_seconds": [
+      0.11451030000171158,
+      0.1086150000046473
+    ],
+    "expected_remaining_seconds": 192.94985550288402,
+    "remaining_seconds": 593.7589516000007,
+    "passed": true
+  },
+  "elapsed_seconds": 194.0305967000022,
+  "final_resources": {
+    "device_free_bytes": 6500122624,
+    "device_total_bytes": 8585216000,
+    "allocated_bytes": 525744640,
+    "reserved_bytes": 897581056,
+    "peak_allocated_bytes": 754979328,
+    "peak_reserved_bytes": 897581056,
+    "physical_available_bytes": 10929111040,
+    "process_peak_rss_bytes": 1684721664
+  },
+  "completed_utc": "2026-11-15T06:05:56.587978+00:00"
+}

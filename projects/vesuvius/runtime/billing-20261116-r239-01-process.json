@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\runtime\\billing-20261116-r239-read01.py"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-15T15:28:16.944166+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "completed_utc": "2026-11-15T15:28:17.512342+00:00",
+  "elapsed_seconds": 0.5681742999877315,
+  "max_rss_bytes": 35758080,
+  "user_cpu_seconds": 0.109375,
+  "sys_cpu_seconds": 0.046875
+}

@@ -1,0 +1,8 @@
+{
+  "checked_utc": "2026-11-15T07:13:26.976684+00:00",
+  "local_plan_sha256": "5a9935a585da0333fe5bb2edcae55c7710797ca8f49a71ebb033eb038eca963e",
+  "fixed_assets": 29,
+  "borrowed_sources_unchanged": true,
+  "import_smoke_sha256": "b7328b1cecbe39c2fc9ebf72ed6ae7c0dcd069ada7a90487840da9cd518cfe5e",
+  "scope": "Entry import fix and added import-only smoke; scientific code, input, CPU references and limits unchanged."
+}

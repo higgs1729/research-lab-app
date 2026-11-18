@@ -1,0 +1,176 @@
+{
+  "panels_in_order": [
+    "forward",
+    "reverse",
+    "author mask (top-left aligned)"
+  ],
+  "raw_gray_levels": true,
+  "mask_note": "Producer scoring mask; shape correspondence assumed at top-left, not evidence of ink or CT alignment.",
+  "observations": [
+    {
+      "path": "01.png",
+      "xyxy": [
+        9148,
+        988,
+        9385,
+        1220
+      ],
+      "panel_origins_xy": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          272
+        ],
+        [
+          0,
+          524
+        ]
+      ],
+      "pixels": 54984,
+      "mask_pixels": 54984,
+      "range_forward": [
+        55,
+        158
+      ],
+      "range_reverse": [
+        51,
+        157
+      ]
+    },
+    {
+      "path": "02.png",
+      "xyxy": [
+        3950,
+        1030,
+        4290,
+        1260
+      ],
+      "panel_origins_xy": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          270
+        ],
+        [
+          0,
+          520
+        ]
+      ],
+      "pixels": 78200,
+      "mask_pixels": 59500,
+      "range_forward": [
+        42,
+        216
+      ],
+      "range_reverse": [
+        55,
+        187
+      ]
+    },
+    {
+      "path": "03.png",
+      "xyxy": [
+        4350,
+        610,
+        4560,
+        810
+      ],
+      "panel_origins_xy": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          240
+        ],
+        [
+          0,
+          460
+        ]
+      ],
+      "pixels": 42000,
+      "mask_pixels": 42000,
+      "range_forward": [
+        49,
+        180
+      ],
+      "range_reverse": [
+        58,
+        164
+      ]
+    },
+    {
+      "path": "04.png",
+      "xyxy": [
+        6230,
+        1538,
+        6510,
+        1750
+      ],
+      "panel_origins_xy": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          252
+        ],
+        [
+          0,
+          484
+        ]
+      ],
+      "pixels": 59360,
+      "mask_pixels": 36680,
+      "range_forward": [
+        58,
+        188
+      ],
+      "range_reverse": [
+        54,
+        199
+      ]
+    },
+    {
+      "path": "05.png",
+      "xyxy": [
+        8160,
+        508,
+        8670,
+        650
+      ],
+      "panel_origins_xy": [
+        [
+          0,
+          20
+        ],
+        [
+          0,
+          182
+        ],
+        [
+          0,
+          344
+        ]
+      ],
+      "pixels": 72420,
+      "mask_pixels": 0,
+      "range_forward": [
+        0,
+        122
+      ],
+      "range_reverse": [
+        0,
+        118
+      ]
+    }
+  ]
+}

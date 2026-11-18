@@ -1,0 +1,106 @@
+{
+  "synthetic": {
+    "mesh_nodes_yx": [
+      3,
+      5
+    ],
+    "raster_pixels_yx": [
+      60,
+      100
+    ],
+    "marker_count": 4,
+    "raster_flip_minus_mesh_flip_px_yx": [
+      [
+        19,
+        19
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        19,
+        19
+      ],
+      [
+        19,
+        19
+      ]
+    ],
+    "endpoint_inclusive_canvas_px_yx": [
+      41,
+      81
+    ],
+    "residual_on_endpoint_inclusive_canvas_px_yx": [
+      0,
+      0
+    ],
+    "residual_at_phase_plus_9_5_px_yx": [
+      0,
+      0
+    ],
+    "residual_at_phase_minus_0_5_px_yx": [
+      20,
+      20
+    ]
+  },
+  "published_metadata_only": {
+    "mesh_nodes_yx": [
+      956,
+      56913
+    ],
+    "tiff_header_nodes_yx": [
+      956,
+      56913
+    ],
+    "mesh_node_flip_row_col": [
+      [
+        -1,
+        0,
+        955
+      ],
+      [
+        0,
+        -1,
+        56912
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "hecate_pixels_yx": [
+      19120,
+      1138260
+    ],
+    "hecate_rotation_note": "rotated 180 degrees from the source strips (unrotated mesh grid) onto the rot180 mesh grid",
+    "hecate_pixel_size_um_yx": [
+      9.6,
+      9.6
+    ],
+    "hecate_translation_um_yx": [
+      0.0,
+      0.0
+    ],
+    "mesh_step_um": 192.0,
+    "conditional_residual_at_phase_0_px_yx": [
+      19,
+      19
+    ],
+    "conditional_residual_at_phase_minus_0_5_px_yx": [
+      20,
+      20
+    ],
+    "conditional_residual_at_phase_0_um_yx": [
+      182.4,
+      182.4
+    ],
+    "metadata_sha256": {
+      "mesh/intermediate/tifxyz_normalized/meta.json": "0af32a21bf0d759a96b8d6b8b170b8f50693632c92fd87487eb666bf12d1a7bc",
+      "ink-detection/PHercParis4-20260926044226-2.4um-0.22m-78keV-volume-20260411134726-20260915161132-hecate-9.6um-L2-l64-accmax4-reverse.zarr/zarr.json": "301d926c46557b60b7f0cdc6db2657eada08df012ab7111d421887b4223f1ee2",
+      "ink-detection/PHercParis4-20260926044226-2.4um-0.22m-78keV-volume-20260411134726-20260915161132-hecate-9.6um-L2-l64-accmax4-reverse.zarr/0/zarr.json": "769bb800206d30a0273405178f263ff8ec6ca290e3e8211c52635ad7a1c796ba"
+    },
+    "response_body_bytes": 28770
+  }
+}

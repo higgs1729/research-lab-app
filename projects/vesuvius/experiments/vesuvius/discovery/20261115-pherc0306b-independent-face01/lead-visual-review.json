@@ -1,0 +1,34 @@
+{
+  "reviewer": "root",
+  "checked_utc": "2026-11-15T08:27:47.646751+00:00",
+  "agent_visual_verdict_read": false,
+  "images": [
+    {
+      "file": "upper-across-separate-overlay.png",
+      "sha256": "c2344a59f91a7daa0ffa31cb19c062ecbe9d86230348ebbed128bed64e69d819"
+    },
+    {
+      "file": "known-across-separate-overlay.png",
+      "sha256": "6fb6db488775e70e2e4bbf464b0bf841c8507420e6aed57ac76778bcf1470b4e"
+    },
+    {
+      "file": "upper-across-ancestors-overlay.png",
+      "sha256": "17e1de9a4439382b2ce4917f4a6077a255f9f3afc99c46f1c1036e421f3cf7c9"
+    },
+    {
+      "file": "known-across-ancestors-overlay.png",
+      "sha256": "c6dd1c82125b1754d43d35ae472c4597635139e6edbdf643b4ab665f66ad502e"
+    }
+  ],
+  "observations": [
+    "On the fixed known-across section, z84 and z84o and much of R1 lie near the V5Rc d=0 for most of the populated central/left interval; differences grow near the right end. The geometric comparison has some usable known-region overlap, but that is not physical ground truth.",
+    "On upper-across, the displayed independent winding proxies z84/z84o/z99 supply no roots in the701 fixed rays. The images show no two-lane confirmation of the candidate. Missing support near the original lane acquisition boundary must remain missing, not a negative ink result.",
+    "L1 has populated segments displaced on either side of d=0, with some large positive offsets (~16..24voxels) through the middle/right and negative offsets on an earlier segment. These cannot establish that the candidate follows L1 or justify snapping it to L1. The field is a sampled approximate crossing with missing pieces and possible different layer assignment.",
+    "A and big stay near d=0 across many upper columns. They are carrier/mesh ancestors, so this agreement is a consistency check, not independent corroboration.",
+    "Changing quad diagonal appears small in many displayed segments, but sparse sampling and discarded producer residual remain uncertainties. Visual closeness of the two diagonal curves does not bound the actual source-surface error."
+  ],
+  "decision": "This fixed published-proxy comparison does not establish independent sheet support across the upper candidate. Keep it unresolved; do not discard ink, claim letters, or choose a correction from the nearest displayed field. A genuinely covering separate construction or another discriminating test would be needed.",
+  "confirmed_new_letters": 0,
+  "new_CT_bytes": 0,
+  "cloud_cost_usd": 0
+}

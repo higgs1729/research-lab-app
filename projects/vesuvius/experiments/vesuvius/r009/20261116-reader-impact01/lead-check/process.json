@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r009\\20261116-reader-impact01\\lead-check\\check.py"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-16T02:00:36.882086+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "completed_utc": "2026-11-16T02:01:06.475855+00:00",
+  "elapsed_seconds": 29.593030699994415,
+  "max_rss_bytes": 144945152,
+  "user_cpu_seconds": 4.921875,
+  "sys_cpu_seconds": 3.421875
+}

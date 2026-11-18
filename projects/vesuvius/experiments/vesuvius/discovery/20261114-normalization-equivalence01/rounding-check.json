@@ -1,0 +1,134 @@
+{
+  "forward": {
+    "patches_with_different_float32_denominators": [
+      {
+        "patch": 6,
+        "mad": 31.0,
+        "official_denominator": 45.960601806640625,
+        "lens_denominator": 45.96059799194336
+      },
+      {
+        "patch": 15,
+        "mad": 24.0,
+        "official_denominator": 35.582401275634766,
+        "lens_denominator": 35.5823974609375
+      },
+      {
+        "patch": 29,
+        "mad": 24.0,
+        "official_denominator": 35.582401275634766,
+        "lens_denominator": 35.5823974609375
+      },
+      {
+        "patch": 31,
+        "mad": 31.0,
+        "official_denominator": 45.960601806640625,
+        "lens_denominator": 45.96059799194336
+      },
+      {
+        "patch": 32,
+        "mad": 34.0,
+        "official_denominator": 50.40840148925781,
+        "lens_denominator": 50.40839767456055
+      },
+      {
+        "patch": 37,
+        "mad": 34.0,
+        "official_denominator": 50.40840148925781,
+        "lens_denominator": 50.40839767456055
+      },
+      {
+        "patch": 38,
+        "mad": 34.0,
+        "official_denominator": 50.40840148925781,
+        "lens_denominator": 50.40839767456055
+      },
+      {
+        "patch": 45,
+        "mad": 24.0,
+        "official_denominator": 35.582401275634766,
+        "lens_denominator": 35.5823974609375
+      },
+      {
+        "patch": 46,
+        "mad": 24.0,
+        "official_denominator": 35.582401275634766,
+        "lens_denominator": 35.5823974609375
+      }
+    ],
+    "representative_patch": 15,
+    "representative_reconstructed_values": 278528,
+    "max_delta_raw_dn": 31,
+    "max_delta_numerator": -70.0,
+    "max_delta_saved_pair": [
+      -1.9672646522521973,
+      -1.9672648906707764
+    ]
+  },
+  "reverse": {
+    "patches_with_different_float32_denominators": [
+      {
+        "patch": 6,
+        "mad": 31.0,
+        "official_denominator": 45.960601806640625,
+        "lens_denominator": 45.96059799194336
+      },
+      {
+        "patch": 15,
+        "mad": 24.0,
+        "official_denominator": 35.582401275634766,
+        "lens_denominator": 35.5823974609375
+      },
+      {
+        "patch": 29,
+        "mad": 24.0,
+        "official_denominator": 35.582401275634766,
+        "lens_denominator": 35.5823974609375
+      },
+      {
+        "patch": 31,
+        "mad": 31.0,
+        "official_denominator": 45.960601806640625,
+        "lens_denominator": 45.96059799194336
+      },
+      {
+        "patch": 32,
+        "mad": 34.0,
+        "official_denominator": 50.40840148925781,
+        "lens_denominator": 50.40839767456055
+      },
+      {
+        "patch": 37,
+        "mad": 34.0,
+        "official_denominator": 50.40840148925781,
+        "lens_denominator": 50.40839767456055
+      },
+      {
+        "patch": 38,
+        "mad": 34.0,
+        "official_denominator": 50.40840148925781,
+        "lens_denominator": 50.40839767456055
+      },
+      {
+        "patch": 45,
+        "mad": 24.0,
+        "official_denominator": 35.582401275634766,
+        "lens_denominator": 35.5823974609375
+      },
+      {
+        "patch": 46,
+        "mad": 24.0,
+        "official_denominator": 35.582401275634766,
+        "lens_denominator": 35.5823974609375
+      }
+    ],
+    "representative_patch": 15,
+    "representative_reconstructed_values": 278528,
+    "max_delta_raw_dn": 150,
+    "max_delta_numerator": 49.0,
+    "max_delta_saved_pair": [
+      1.3770852088928223,
+      1.3770854473114014
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "r233-studio-ba1b3b7efa556de7",
+  "create_epoch": 1794741900,
+  "delete_epoch": 1794743700,
+  "precreate_list_had_no_match": true,
+  "list_hourly_usd": 0.59,
+  "requested_data_centers": [
+    "CA-MTL-1"
+  ],
+  "input_archive_sha256": "f59033bafd94373f83946ed2358c6cddd6120ef546f60f60694627faa1a0ca34",
+  "result_reservation": {
+    "allocated_bytes": 67108864,
+    "file_bytes": 67108864,
+    "windows_attributes": 32,
+    "links": 1,
+    "device": 10726679257801674650,
+    "file_id": 2251799815955969
+  },
+  "free_before_reservation_bytes": 9831227392,
+  "free_after_reservation_bytes": 9764081664,
+  "pod_id": "tbj4mepark90np",
+  "effective_hourly_usd": 0.59,
+  "data_center": "CA-MTL-1",
+  "ready_epoch": 1794742069.501761,
+  "transfer_end_epoch": 1794742549.501761,
+  "model_end_epoch": 1794743280,
+  "upload_verified_epoch": 1794742210.9407794,
+  "worker_launcher_pid": 950,
+  "worker_launch_confirmed_epoch": 1794742211.4296877,
+  "outer_forecast": {
+    "completed": 6,
+    "unknown_completed": 3,
+    "estimated_remaining_s": 141.3702389766695,
+    "deadline_remaining_s": 893.7814873378957,
+    "forecast_epoch": 1794742229.3819196,
+    "actual_model_deadline_remaining_at_forecast_s": 1050.6180803775787,
+    "exceeds_actual_deadline": false
+  },
+  "worker_result_seen_epoch": 1794742376.786775,
+  "collection_start_epoch": 1794742376.7867765,
+  "collection_end_epoch": 1794742736.7867765
+}

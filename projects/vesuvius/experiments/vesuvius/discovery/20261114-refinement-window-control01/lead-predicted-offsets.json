@@ -1,0 +1,621 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "stage": "predicted before product output",
+  "assumption_pending_native_confirmation": "OpenCV Gaussian7 sigma0 center weights [2,7,14,18,14,7,2]/64. +Z flat surface basis +X,+Y derived separately from PlaneSurface.cpp.",
+  "independent_method": "Exact rational arithmetic on analytic dense binary fields and specified +2 voxel tangent steps. No borrowed sampler or product execution. Product rounds float32, so final mesh displacement should be compared with a suitable small rounding tolerance.",
+  "runs": [
+    {
+      "fixture": "A",
+      "r": 0,
+      "offset_exact_rational": "600000/100001",
+      "offset_float64": 5.999940000599994,
+      "profile": [
+        {
+          "d": -2,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": -1,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 0,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 1,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 2,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 3,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 4,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 5,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 6,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "1"
+        },
+        {
+          "d": 7,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 8,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 9,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 10,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 11,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 12,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 13,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 14,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 15,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 16,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        }
+      ]
+    },
+    {
+      "fixture": "B",
+      "r": 0,
+      "offset_exact_rational": "600000/100001",
+      "offset_float64": 5.999940000599994,
+      "profile": [
+        {
+          "d": -2,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": -1,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 0,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 1,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 2,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 3,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 4,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 5,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 6,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "1"
+        },
+        {
+          "d": 7,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 8,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 9,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 10,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 11,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 12,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 13,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 14,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 15,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 16,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        }
+      ]
+    },
+    {
+      "fixture": "C",
+      "r": 3,
+      "offset_exact_rational": "600000/100001",
+      "offset_float64": 5.999940000599994,
+      "profile": [
+        {
+          "d": -2,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": -1,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 0,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 1,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 2,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 3,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 4,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 5,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 6,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "1"
+        },
+        {
+          "d": 7,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 8,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 9,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 10,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 11,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 12,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 13,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 14,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 15,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 16,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        }
+      ]
+    },
+    {
+      "fixture": "A",
+      "r": 3,
+      "offset_exact_rational": "84928125/9400094",
+      "offset_float64": 9.03481656672795,
+      "profile": [
+        {
+          "d": -2,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": -1,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 0,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 1,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 2,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 3,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 4,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 5,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 6,
+          "blurred": "1/32",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 7,
+          "blurred": "9/64",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 8,
+          "blurred": "23/64",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 9,
+          "blurred": "41/64",
+          "alpha": "2903/3008",
+          "joint": "2903/3008"
+        },
+        {
+          "d": 10,
+          "blurred": "55/64",
+          "alpha": "1",
+          "joint": "105/3008"
+        },
+        {
+          "d": 11,
+          "blurred": "31/32",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 12,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 13,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 14,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 15,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 16,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        }
+      ]
+    },
+    {
+      "fixture": "B",
+      "r": 3,
+      "offset_exact_rational": "28528125/9400094",
+      "offset_float64": 3.0348765661279558,
+      "profile": [
+        {
+          "d": -2,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": -1,
+          "blurred": "0",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 0,
+          "blurred": "1/32",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 1,
+          "blurred": "9/64",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 2,
+          "blurred": "23/64",
+          "alpha": "0",
+          "joint": "0"
+        },
+        {
+          "d": 3,
+          "blurred": "41/64",
+          "alpha": "2903/3008",
+          "joint": "2903/3008"
+        },
+        {
+          "d": 4,
+          "blurred": "55/64",
+          "alpha": "1",
+          "joint": "105/3008"
+        },
+        {
+          "d": 5,
+          "blurred": "31/32",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 6,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 7,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 8,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 9,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 10,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 11,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 12,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 13,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 14,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 15,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        },
+        {
+          "d": 16,
+          "blurred": "1",
+          "alpha": "1",
+          "joint": "0"
+        }
+      ]
+    }
+  ],
+  "expected_A_B_r3_gap_voxel": 5.999940000599993,
+  "scope": "Predicts only the existing corner-anchored sampler, not which real paper is correct or whether the behavior is intended."
+}

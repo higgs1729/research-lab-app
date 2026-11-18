@@ -1,0 +1,266 @@
+{
+  "cases": {
+    "baseline": {
+      "vertices": 249944,
+      "uvs": 249944,
+      "faces": 478224,
+      "obj_roundtrip_arrays_exact": true,
+      "saved_tifxyz_bits_exact": true,
+      "output_points": 247527,
+      "rejection_events": 564,
+      "selected_face_owned_pixels_yx": [
+        [
+          136,
+          519
+        ]
+      ],
+      "selected_face_rejected_xy_owner_face": [],
+      "other_incident_face_owned_pixels_yx": [],
+      "selected_face_geometry_indices": [
+        121018,
+        119026,
+        121019
+      ],
+      "selected_face_uv_indices": [
+        121018,
+        119026,
+        121019
+      ],
+      "selected_face_corner_xyz": [
+        [
+          2886.579345703125,
+          3882.645751953125,
+          3248.974853515625
+        ],
+        [
+          2897.489990234375,
+          3895.64599609375,
+          3271.2158203125
+        ],
+        [
+          2899.861328125,
+          3887.0810546875,
+          3250.77587890625
+        ]
+      ],
+      "selected_face_corner_uv": [
+        [
+          10383.611328125,
+          2696.465087890625
+        ],
+        [
+          10425.7333984375,
+          2701.16552734375
+        ],
+        [
+          10335.810546875,
+          2744.798583984375
+        ]
+      ],
+      "other_incident_face_corner_uv": [
+        [
+          10264.3525390625,
+          2773.501220703125
+        ],
+        [
+          10335.810546875,
+          2744.798583984375
+        ],
+        [
+          10309.978515625,
+          2781.967529296875
+        ]
+      ],
+      "coarse_and_C_fixed_source_corner_uv_preserved": true,
+      "all_owned_samples_source_corner_mapping_exact": true,
+      "output_metadata_keys": [
+        "bbox",
+        "format",
+        "name",
+        "scale",
+        "type",
+        "uuid"
+      ]
+    },
+    "corner": {
+      "vertices": 249944,
+      "uvs": 249945,
+      "faces": 478224,
+      "obj_roundtrip_arrays_exact": true,
+      "saved_tifxyz_bits_exact": true,
+      "output_points": 247527,
+      "rejection_events": 564,
+      "selected_face_owned_pixels_yx": [
+        [
+          136,
+          519
+        ]
+      ],
+      "selected_face_rejected_xy_owner_face": [],
+      "other_incident_face_owned_pixels_yx": [],
+      "selected_face_geometry_indices": [
+        121018,
+        119026,
+        121019
+      ],
+      "selected_face_uv_indices": [
+        121018,
+        119026,
+        249944
+      ],
+      "selected_face_corner_xyz": [
+        [
+          2886.579345703125,
+          3882.645751953125,
+          3248.974853515625
+        ],
+        [
+          2897.489990234375,
+          3895.64599609375,
+          3271.2158203125
+        ],
+        [
+          2899.861328125,
+          3887.0810546875,
+          3250.77587890625
+        ]
+      ],
+      "selected_face_corner_uv": [
+        [
+          10383.611328125,
+          2696.465087890625
+        ],
+        [
+          10425.7333984375,
+          2701.16552734375
+        ],
+        [
+          10370.2412109375,
+          2721.806884765625
+        ]
+      ],
+      "other_incident_face_corner_uv": [
+        [
+          10264.3525390625,
+          2773.501220703125
+        ],
+        [
+          10335.810546875,
+          2744.798583984375
+        ],
+        [
+          10309.978515625,
+          2781.967529296875
+        ]
+      ],
+      "coarse_and_C_fixed_source_corner_uv_preserved": true,
+      "all_owned_samples_source_corner_mapping_exact": true,
+      "output_metadata_keys": [
+        "bbox",
+        "format",
+        "name",
+        "scale",
+        "type",
+        "uuid"
+      ]
+    },
+    "duplicated": {
+      "vertices": 249945,
+      "uvs": 249945,
+      "faces": 478224,
+      "obj_roundtrip_arrays_exact": true,
+      "saved_tifxyz_bits_exact": true,
+      "output_points": 247527,
+      "rejection_events": 564,
+      "selected_face_owned_pixels_yx": [
+        [
+          136,
+          519
+        ]
+      ],
+      "selected_face_rejected_xy_owner_face": [],
+      "other_incident_face_owned_pixels_yx": [],
+      "selected_face_geometry_indices": [
+        121018,
+        119026,
+        249944
+      ],
+      "selected_face_uv_indices": [
+        121018,
+        119026,
+        249944
+      ],
+      "selected_face_corner_xyz": [
+        [
+          2886.579345703125,
+          3882.645751953125,
+          3248.974853515625
+        ],
+        [
+          2897.489990234375,
+          3895.64599609375,
+          3271.2158203125
+        ],
+        [
+          2899.861328125,
+          3887.0810546875,
+          3250.77587890625
+        ]
+      ],
+      "selected_face_corner_uv": [
+        [
+          10383.611328125,
+          2696.465087890625
+        ],
+        [
+          10425.7333984375,
+          2701.16552734375
+        ],
+        [
+          10370.2412109375,
+          2721.806884765625
+        ]
+      ],
+      "other_incident_face_corner_uv": [
+        [
+          10264.3525390625,
+          2773.501220703125
+        ],
+        [
+          10335.810546875,
+          2744.798583984375
+        ],
+        [
+          10309.978515625,
+          2781.967529296875
+        ]
+      ],
+      "coarse_and_C_fixed_source_corner_uv_preserved": true,
+      "all_owned_samples_source_corner_mapping_exact": true,
+      "output_metadata_keys": [
+        "bbox",
+        "format",
+        "name",
+        "scale",
+        "type",
+        "uuid"
+      ]
+    }
+  },
+  "geometry_or_uv_optimization": false,
+  "corner_vs_duplicated": {
+    "same_corner_xyz_and_uv": true,
+    "trace_byte_exact": true,
+    "native_xyz_byte_exact": true,
+    "saved_tifxyz_xyz_bit_exact": true
+  },
+  "corner_vs_baseline": {
+    "owner_differences": 0,
+    "lost_valid": 0,
+    "added_valid": 0,
+    "changed_xyz_at_common_valid": 1,
+    "changed_corner_uv_count": 1
+  },
+  "elapsed_seconds": 0.9541359000140801,
+  "limits": "One artificial UV edit, not repaired geometry or adopted candidate. OBJ indices and sidecar maps preserve provenance. Saved regular tifxyz XYZ alone does not retain the original face/corner indices or prove seam-safe downstream interpolation. No solver, coverage improvement, readability or global injectivity claim."
+}

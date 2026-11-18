@@ -1,0 +1,78 @@
+{
+  "input_faces": 78624,
+  "area3_total": 16450777.913587105,
+  "invalid_uv_faces": 0,
+  "zero_uv_area_faces": 0,
+  "negative_uv_area_faces": 0,
+  "undefined_or_nonpositive_uv_area_fraction": 0.0,
+  "positive_faces_only": {
+    "faces": 78624,
+    "area3_fraction": 1.0,
+    "area_weighted_normalized_symmetric_dirichlet": 1.03460668476892,
+    "area_weighted_inverse_L2_rms": 1.0356122594127088,
+    "max_symmetric_singular_stretch": 16.132152027208726,
+    "uv_area_over_3d_area": 0.9717422962131494,
+    "area_ratio_percentiles_1_50_99": [
+      0.6687792210479606,
+      0.9799534709473647,
+      1.4866707131924206
+    ],
+    "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+      1.0098749072124482,
+      1.1280084907337127,
+      1.325535562698561
+    ]
+  },
+  "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion.",
+  "unknown_vertices": 12316,
+  "trusted_vertices": 29033,
+  "linear_system_shape": [
+    12316,
+    12316
+  ],
+  "normal_equation_relative_residual": 1.0915286891761642e-15,
+  "elapsed_seconds": 4.831004299980123,
+  "translations": [
+    {
+      "component": 0,
+      "vertices": 35435,
+      "shift": [
+        19.812856674194336,
+        107.82573839576521
+      ]
+    },
+    {
+      "component": 2,
+      "vertices": 4933,
+      "shift": [
+        1526.5064702083373,
+        -1906.2131812592743
+      ]
+    },
+    {
+      "component": 3,
+      "vertices": 601,
+      "shift": [
+        9109.860671039136,
+        -1791.6468697644868
+      ]
+    },
+    {
+      "component": 1,
+      "vertices": 289,
+      "shift": [
+        9148.311894874914,
+        -1311.3114013671875
+      ]
+    },
+    {
+      "component": 4,
+      "vertices": 91,
+      "shift": [
+        13771.118859153135,
+        -2024.919189453125
+      ]
+    }
+  ],
+  "method": "All same-component coarse affine Jacobians are inverse-distance-four blended at unknown vertices. Trusted fine vertices in same-component coarse triangles are fixed. Minimize weighted squared edge-gradient residual with weights inverse edge length; solve normal equations. Recovered unsupported components remain fixed before packing."
+}

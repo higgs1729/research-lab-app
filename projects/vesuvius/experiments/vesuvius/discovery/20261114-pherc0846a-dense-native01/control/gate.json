@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "all_finite": true,
+  "positive_weight_pixels": 16384,
+  "uint8_range": [
+    54,
+    218
+  ],
+  "float_range": [
+    0.21383033692836761,
+    0.858004093170166
+  ],
+  "distinct_uint8": 165,
+  "weight_range": [
+    0.0010000000474974513,
+    1.0
+  ]
+}

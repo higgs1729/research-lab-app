@@ -1,0 +1,24 @@
+{
+  "kind": "experiment",
+  "summary": "R248。受賞 fig01 の緑枠を公開 v9 の二行目 CT に近似登録し、既知 φ XYWH [4640,780,320,300] が内側と確認。公開資料の範囲では手直し前の crop1711 の固定座標ファイルを特定できず、同じ紙面の前後比較は実施不可。主担当の独立照合済み。",
+  "evidence": [
+    "research/248-pherc0211-surface-pair-feasibility.md",
+    "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/README.md",
+    "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/figure-registration.json",
+    "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/coordinate-evidence.json",
+    "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/lead-check.json",
+    "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/manifest.json"
+  ],
+  "question": "手直し前と手直し後の固定公開面で、同じ既知字画を覆う面だけの比較を準備できるか。",
+  "conditions": "固定公開資料と保存済み CT 表示、XYZ の範囲だけ。元巻きと紙面が対応する前面の固定 XYZ が得られたときだけ単一 φ 対照の再開を検討する。",
+  "resources": {
+    "elapsed_seconds": null,
+    "cost": 0,
+    "currency": "USD",
+    "public_metadata_text_bytes_saved": 2027363,
+    "new_CT_bytes": 0,
+    "model_forwards": 0,
+    "GPU_uses": 0
+  },
+  "new_letters": 0
+}

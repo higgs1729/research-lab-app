@@ -1,0 +1,41 @@
+{
+  "reviewer": "root",
+  "model_forward_calls": 0,
+  "new_download_bytes": 0,
+  "fixed_code_sha256_match": true,
+  "checked_inputs": 3,
+  "checked_probability_values": 12288,
+  "outputs": {
+    "forward": {
+      "captured_patches": 3,
+      "output_exists": false
+    },
+    "reverse": {
+      "captured_patches": 0,
+      "output_exists": false
+    }
+  },
+  "supervisor": {
+    "argv": [
+      "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "-u",
+      "C:\\dev\\kensyoukin\\tools\\research\\run_windows.py",
+      "infer-process.json",
+      "run_cpu.py",
+      "59464.3669967"
+    ],
+    "started_utc": "2026-11-14T10:20:14.700342+00:00",
+    "deadline_seconds": 4500,
+    "initial_available_ram_bytes": 11276640256,
+    "system_cpu_percent_1s": 100.0,
+    "pid": 29876,
+    "reason": "child_exit",
+    "exit_code": 3,
+    "elapsed_seconds": 102.49979809999786,
+    "min_observed_available_ram_bytes": 8410464256,
+    "completed_utc": "2026-11-14T10:21:57.200110+00:00"
+  },
+  "execution_status": "forecast_stop",
+  "scope": "Numeric reproduction of this fixed rendering and saved probabilities; not proof of physical sheet identity, ink, or letters."
+}

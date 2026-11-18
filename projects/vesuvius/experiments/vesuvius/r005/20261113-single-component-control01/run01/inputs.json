@@ -1,0 +1,69 @@
+{
+  "source": "PHerc0139/20260317000000-w035_2026031718/20260317000000-on-20250728140407-9.362um.tifxyz",
+  "input_directory": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r011/20261113-w035-geometry01/run01/input",
+  "input_files": {
+    "meta.json": {
+      "bytes": 415,
+      "sha256": "11752e63185cc6bc8842cf6f4d7aef84a7e3ec7b0b4eb5c10bf99842e7cd8dda"
+    },
+    "x.tif": {
+      "bytes": 305102,
+      "sha256": "d827a5d2e51035c91da74b5fba4fea55c9df9d8f58c6ec7f534d6012ee2f7b69"
+    },
+    "y.tif": {
+      "bytes": 305102,
+      "sha256": "41f1df324572b68450f4da92dcd4598844f602982f1965e5bea67e6de080d664"
+    },
+    "z.tif": {
+      "bytes": 305102,
+      "sha256": "b61f8bbcd9cb538f43cd72678fd4d38a25cc1643daa4bcfdd7f2e9954f9a1e81"
+    }
+  },
+  "input_fetch_record_sha256": "ffc04b72f8a7b69105223e9c3323e335c6127acced806a9933fcf2d97e8227f3",
+  "geometry_fields": {
+    "grid_shape_yx": [
+      291,
+      262
+    ],
+    "used_vertices": 63499,
+    "valid_quads": 62913,
+    "triangles": 125826,
+    "renderable_components": 1
+  },
+  "geometry_record_sha256": "e65382b13adcf183d01e3ed0a038d4bbf91d51eca1bba84b3cee65219168297a",
+  "independent_geometry_record_sha256": "144f0581b8e9d9c995bf971454216e03ded62aca8e58e8cbcd9890f645940709",
+  "product": {
+    "binary": "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-flatboi",
+    "sha256": "4a7095c75418d8866dc376cf6d68856b478c242eb198635b92d8956bfc29aa5c",
+    "objects": {
+      "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-flatboi.o": "25defe74967689e0ac9dd63e6c25045de83386a899ca7aa1e17b87d7c1543e7e",
+      "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-SurfaceMeshing.o": "e90dac4165720db6e237fc995a4992dfd72a7fed5385bc37d0ae8828f187b800"
+    },
+    "deps": {
+      "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-flatboi.d": "75ad66db3bb301bfda098a1f6112b50ff9adbc04ab4021b1596a2e1deca7fc99",
+      "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-SurfaceMeshing.d": "53aa9cca96fb7a3d897504cfa96ba79d6644c94426604849ed46b61d7b5093ba"
+    }
+  },
+  "product_binary_record_sha256": "dbaa4ca7ffb0742930e231de0cb7a56a88aadaedfd0a351a11f90752a5ec9b17",
+  "runner_sha256": "3616b40cc18c6a6fdd7e0eb27d54ba010fd17cffec95c58ee1867eee4d310f43",
+  "conditions": {
+    "cpu_affinity": [
+      0
+    ],
+    "AS_bytes": 4294967296,
+    "core_dump": 0,
+    "env_overrides": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "PASTIX_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "TMPDIR": "/mnt/c/dev/kensyoukin/.work/r005-single-component-control01/run01",
+      "OMP_THREAD_LIMIT": "1",
+      "WANDB_DISABLED": "true",
+      "AGENTS_AGENT_MODE": "1",
+      "CUDA_VISIBLE_DEVICES": ""
+    }
+  },
+  "native_total_budget_seconds": 300
+}

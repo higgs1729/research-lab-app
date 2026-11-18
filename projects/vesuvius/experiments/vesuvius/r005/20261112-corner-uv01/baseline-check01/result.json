@@ -1,0 +1,33 @@
+{
+  "obj_parsed_binary_exact": true,
+  "trace_bytes_equal_to_G": true,
+  "all_xyz_bits_equal_to_G": true,
+  "all_saved_tifxyz_bits_equal_to_native": true,
+  "output_shape_yx": [
+    245,
+    3043
+  ],
+  "output_metadata": {
+    "bbox": [
+      [
+        1384.5128173828125,
+        1903.83837890625,
+        1092.7940673828125
+      ],
+      [
+        4374.115234375,
+        4388.552734375,
+        5647.59033203125
+      ]
+    ],
+    "format": "tifxyz",
+    "name": "r005-corner-uv-diagnostic",
+    "scale": [
+      0.05000000074505806,
+      0.05000000074505806
+    ],
+    "type": "seg",
+    "uuid": "8ea3f3b3-4a69-4029-a73a-18fe36d682ab"
+  },
+  "new_points_sha256": "61d1749d4083f6a99fadc2a7c1e514ce24a2020d5302794b4b7c1a1e71f2280f"
+}

@@ -1,0 +1,100 @@
+{
+  "references": {
+    "mesh4-forward": [
+      {
+        "grid_index": 1,
+        "output_sha256": "47e9103a89a38a7a6950af7163974a3185e5e3e1dbea9043c1657ae789dfc686",
+        "input_raw_sha256": "7db0f0773b76c815d5f3708fda161a19961124c08cdb72478de9088b0f9bb810"
+      },
+      {
+        "grid_index": 2,
+        "output_sha256": "4563a184c19dad6b6009cfa571a1b0eeebcf09c88d02499c0f532d2e121874d7",
+        "input_raw_sha256": "c7f0a7f593e6dbae30c731e6ec6b15bdc8932a460541becfccfd704cf9c7c6f7"
+      },
+      {
+        "grid_index": 3,
+        "output_sha256": "9a6981f86986240027eeccaece462d4c57bcece4588dbeb3d1da822056aa744b",
+        "input_raw_sha256": "851d3b8a5943f7febfad814c490bbdd272b4e507e4eead1610a0d4da6d1f965e"
+      }
+    ],
+    "mesh4-reverse": [
+      {
+        "grid_index": 1,
+        "output_sha256": "8542453457c4e944d379befcc7a655de8017fdcdaa461f38a35b6ddc6e758640",
+        "input_raw_sha256": "b13aa396b3658d01f8f3da9f91fd0b411c4cb22385d0403d9187a841aa5fc4e8"
+      },
+      {
+        "grid_index": 2,
+        "output_sha256": "b90e28a38c15f07d434175a050deef205ae7ed1518bc52d85e74852ec90404f1",
+        "input_raw_sha256": "cfd98cae78e48bd734fbe58f6fc86bebd6ab9f98ce01a80653d80de55abac783"
+      },
+      {
+        "grid_index": 3,
+        "output_sha256": "6a5d685039fb658f67d70ab16fe33a10f6dfae11c5d115b2ca3c9126fc5a6fac",
+        "input_raw_sha256": "795fcfa0c6c8c843cab7c494db2cdd40a3dd62b71d7316f7e4ddea3b72c00308"
+      }
+    ],
+    "mesh5-forward": [
+      {
+        "grid_index": 13,
+        "output_sha256": "5868973753fc223965e3309b9f8f555472f72529f4deed61e01b143c5d382ac9",
+        "input_raw_sha256": "41b29527361d5a5141f68dceec90ee42334ea43a438e8150e5f459656f7e976a"
+      },
+      {
+        "grid_index": 14,
+        "output_sha256": "1d4d464e608480fe37cfd8cb7bb4ce76dcde20022926d153afc2474f9e08927f",
+        "input_raw_sha256": "457a00a2d717a1501c8e50233e6612ba183ab743f87bbae065d93aa40bb0f3af"
+      },
+      {
+        "grid_index": 15,
+        "output_sha256": "f0f8809c14028189057671dfda5c8ed67b59f1eaa2673ce75ed533e65588deee",
+        "input_raw_sha256": "6844cc0d0e1ea4e2e1614bb006ba0d32b1a61b4cf582da5b26d27456b3c80f4e"
+      }
+    ],
+    "mesh5-reverse": [
+      {
+        "grid_index": 13,
+        "output_sha256": "eea1ced9773ed0e2fdc0908edc29454bf42aa6d85cc825129a34531724e1cfa8",
+        "input_raw_sha256": "15b9302a753c385dc99292f5f9dc8b479c7023c9dc8e0db0c1bebbcdad6e8359"
+      },
+      {
+        "grid_index": 14,
+        "output_sha256": "6db18bc8bce19413d5337f9086bb9e073daef01d568993ab455f08df21a8697f",
+        "input_raw_sha256": "6d44ebaede68b0e303ab65dcdf6d0cc1be591199859298ab9bbb87abf937c562"
+      },
+      {
+        "grid_index": 15,
+        "output_sha256": "83a3590b516c830e9b0c3724b3bec1ad21a9acd1476c5be9c251912642fd54f0",
+        "input_raw_sha256": "23f6d1fe8a0242d7b0e3842a14b41fdb08a0ad3ebf80a70b77ca6c6aa9cd3ef4"
+      }
+    ]
+  },
+  "model_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+  "source_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "strict_model_loads": 1,
+  "calls": 12,
+  "load_seconds": 1.190192099995329,
+  "elapsed_seconds": 58.16173360000539,
+  "environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "versions": {
+      "torch": "2.14.0",
+      "numpy": "2.5.2",
+      "zarr": "3.1.5",
+      "numcodecs": "0.16.5",
+      "psutil": "7.2.2"
+    },
+    "torch_build": "2.14.0+cpu",
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "zarr_async_concurrency": 1,
+    "affinity": [
+      0
+    ],
+    "physical_memory_available": 14600368128,
+    "workspace_free_bytes": 21781762048,
+    "dependencies": "C:\\dev\\kensyoukin\\.work\\r012-known-ink-inference01\\deps",
+    "network": "Python socket audit hook, loopback only, and HF offline"
+  }
+}

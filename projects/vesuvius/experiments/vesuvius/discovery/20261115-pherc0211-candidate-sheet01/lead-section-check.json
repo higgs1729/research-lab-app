@@ -1,0 +1,87 @@
+{
+  "utc": "2026-11-15T14:58:08.867604+00:00",
+  "method": "Independent flattened raw CT byte offsets and eight-corner XYZ weight sum; no worker imports. Display values use saved unrounded float64 values and explicitly constructed mark pixels.",
+  "CT_chunks_verified": 25,
+  "new_CT_bytes": 2097152,
+  "sample_count": 150540,
+  "planes": 12,
+  "images": 24,
+  "max_abs_error_DN": 8.526512829121202e-14,
+  "checks": [
+    {
+      "id": "candidate-q25-un",
+      "samples": 12545,
+      "max_error_DN": 8.526512829121202e-14,
+      "raw_and_fixed_pixels_including_marks_exact": true
+    },
+    {
+      "id": "candidate-q25-vn",
+      "samples": 12545,
+      "max_error_DN": 8.526512829121202e-14,
+      "raw_and_fixed_pixels_including_marks_exact": true
+    },
+    {
+      "id": "candidate-q50-un",
+      "samples": 12545,
+      "max_error_DN": 8.526512829121202e-14,
+      "raw_and_fixed_pixels_including_marks_exact": true
+    },
+    {
+      "id": "candidate-q50-vn",
+      "samples": 12545,
+      "max_error_DN": 8.526512829121202e-14,
+      "raw_and_fixed_pixels_including_marks_exact": true
+    },
+    {
+      "id": "candidate-q75-un",
+      "samples": 12545,
+      "max_error_DN": 8.526512829121202e-14,
+      "raw_and_fixed_pixels_including_marks_exact": true
+    },
+    {
+      "id": "candidate-q75-vn",
+      "samples": 12545,
+      "max_error_DN": 8.526512829121202e-14,
+      "raw_and_fixed_pixels_including_marks_exact": true
+    },
+    {
+      "id": "known_phi-q25-un",
+      "samples": 12545,
+      "max_error_DN": 8.526512829121202e-14,
+      "raw_and_fixed_pixels_including_marks_exact": true
+    },
+    {
+      "id": "known_phi-q25-vn",
+      "samples": 12545,
+      "max_error_DN": 8.526512829121202e-14,
+      "raw_and_fixed_pixels_including_marks_exact": true
+    },
+    {
+      "id": "known_phi-q50-un",
+      "samples": 12545,
+      "max_error_DN": 8.526512829121202e-14,
+      "raw_and_fixed_pixels_including_marks_exact": true
+    },
+    {
+      "id": "known_phi-q50-vn",
+      "samples": 12545,
+      "max_error_DN": 8.526512829121202e-14,
+      "raw_and_fixed_pixels_including_marks_exact": true
+    },
+    {
+      "id": "known_phi-q75-un",
+      "samples": 12545,
+      "max_error_DN": 8.526512829121202e-14,
+      "raw_and_fixed_pixels_including_marks_exact": true
+    },
+    {
+      "id": "known_phi-q75-vn",
+      "samples": 12545,
+      "max_error_DN": 8.526512829121202e-14,
+      "raw_and_fixed_pixels_including_marks_exact": true
+    }
+  ],
+  "passed": true,
+  "interpretation_of_sheet_or_ink": false,
+  "new_model_forwards": 0
+}

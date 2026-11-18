@@ -1,0 +1,6 @@
+{
+  "approved": true,
+  "utc": "2026-11-14T16:47:07.779266+00:00",
+  "plan_sha256": "9d6669908f4003c52c5dc91ba9ef4d1ff1142d7aedacc4c9c56971f68d7bca48",
+  "conditions": "One local gpu.py exclusive entry,120s entry/600s model/780s outer,CPU1/Job4GiB/VRAM4GiB, release only own holder/ticket; no additional cloud create; unchanged1704 scientific inputs/CPU12 parity."
+}

@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-14T12:54:13.287064+00:00",
+  "reviewer": "root",
+  "images_viewed_at_native_1024_size": [
+    "lead-hecate-forward.png",
+    "lead-hecate-reverse.png",
+    "ct-centre.png"
+  ],
+  "evaluated_inner_canvas_xywh": [
+    608,
+    608,
+    960,
+    960
+  ],
+  "candidate_roi_selected": null,
+  "observations": [
+    "Forward: sparse broad bright blobs, notably upper center and lower right; no independently separated repeated stroke sequence selected.",
+    "Reverse: broad bright bands and blobs in upper right and lower left; arc-like boundaries correspond spatially to broad CT gaps and cracks.",
+    "CT center: intersecting fibers, wide oblique gaps and broken boundaries; comparison does not establish a uniquely tracked physical lamina throughout."
+  ],
+  "decision": "Close this fixed region and central depth window without another threshold or depth search. Choose a different observation target with an independent rationale.",
+  "limits": [
+    "No statement that ink is absent from this ROI or the scroll.",
+    "No new characters or transcription.",
+    "No fourth adopted Progress Prizes contribution."
+  ],
+  "numerical_evidence": [
+    "lead-result-check.json",
+    "lead-overlap-output.json"
+  ],
+  "resource_evidence": "lead-deletion-check.json"
+}

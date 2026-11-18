@@ -1,0 +1,131 @@
+{
+  "source": {
+    "renderer_blob": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6",
+    "binary_sha256": "0ba24259046c7e9033fdb861c1f220c15fa16b5a7b683ac5ea0946151e40a1bc",
+    "pyramid_symbols": [
+      "000000000064f358 T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::CreateOptions const&, vcr::zarr::PyramidOptions const&)",
+      "000000000064f707 T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::CreateOptions const&, vcr::zarr::PyramidOptions const&, bool)",
+      "00000000006502d2 T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::PyramidOptions const&, bool)"
+    ],
+    "R007_native_patches_match_both_orders": true,
+    "python_patch_and_syntax": true,
+    "python_runtime": false
+  },
+  "saved": {
+    "old_failures": [
+      {
+        "label": "resume",
+        "exit_code": 1,
+        "L0_matches": true
+      },
+      {
+        "label": "fresh-resume",
+        "exit_code": 1,
+        "L0_matches": true
+      }
+    ],
+    "six_exact_case_file_counts": {
+      "normal": 14,
+      "fresh-resume": 14,
+      "l0-only-resume": 14,
+      "interrupted-init-resume": 14,
+      "complete-resume": 14,
+      "multipart-prepared-resume": 14
+    },
+    "preserved_sha_and_mtime": {
+      "l0-only-resume": [
+        "0/.zarray",
+        "0/0/0/0"
+      ],
+      "interrupted-init-resume": [
+        "0/.zarray",
+        "1/.zarray"
+      ],
+      "complete-resume": [
+        "0/.zarray",
+        "0/0/0/0",
+        "1/.zarray",
+        "2/.zarray",
+        "3/.zarray",
+        "4/.zarray",
+        "5/.zarray"
+      ],
+      "multipart-prepared-resume": [
+        "0/.zarray",
+        "1/.zarray",
+        "2/.zarray",
+        "3/.zarray",
+        "4/.zarray",
+        "5/.zarray"
+      ],
+      "mixed-codecs-resume": [
+        "0/.zarray",
+        "0/0.0.0",
+        "1/.zarray",
+        "1/.zattrs",
+        "3/.zarray"
+      ],
+      "pyramid-disabled": [
+        "0/.zarray",
+        "0/0/0/0"
+      ]
+    },
+    "mixed_decoded_all_levels_equal": true,
+    "mixed_formats": {
+      "0": {
+        "compressor": {
+          "id": "gzip",
+          "level": 7
+        },
+        "separator": "."
+      },
+      "1": {
+        "compressor": null,
+        "separator": "/"
+      },
+      "2": {
+        "compressor": {
+          "id": "gzip",
+          "level": 7
+        },
+        "separator": "."
+      },
+      "3": {
+        "compressor": {
+          "blocksize": 0,
+          "clevel": 3,
+          "cname": "lz4",
+          "id": "blosc",
+          "shuffle": 1
+        },
+        "separator": "/"
+      },
+      "4": {
+        "compressor": {
+          "id": "gzip",
+          "level": 7
+        },
+        "separator": "."
+      },
+      "5": {
+        "compressor": {
+          "id": "gzip",
+          "level": 7
+        },
+        "separator": "."
+      }
+    },
+    "pyramid_disabled_ome_paths": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "saved_processes": 10,
+    "saved_process_wall_seconds": 35.03968395000004
+  },
+  "new_ct_bytes": 0,
+  "new_cloud_cost_jpy": 0
+}

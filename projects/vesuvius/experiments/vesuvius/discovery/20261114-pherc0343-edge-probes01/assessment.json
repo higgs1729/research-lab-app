@@ -1,0 +1,11 @@
+{
+  "date_jst": "2026-11-14",
+  "summary": "PHerc0343の公開応答帯にある固定3地点を元CT11キーで診断。直交9面と中央行列の法線断面で複数の明暗帯が見えたが、公開応答の単一紙面への対応は3地点とも未判定。固定領域の追加探索なし。",
+  "images": "原寸固定0–255の直交65×65、法線行列64×33、中央64×64と、対応座標を併記した注記図",
+  "probes": [
+    {"atlas_anchor_xy":[5376,736],"observation":"d=0が複数明帯の間の暗い通路を通る。法線両側に明帯がある。","single_sheet_attribution":"unresolved"},
+    {"atlas_anchor_xy":[5504,704],"observation":"d=0近傍が一部で細い明帯に接近する。固定列で曲がる複数帯、X直交面で弧状境界。","single_sheet_attribution":"unresolved"},
+    {"atlas_anchor_xy":[5824,704],"observation":"d=0が斜行する暗帯の内部か縁を通る。正負両側に明帯があり、公開逆順予測は広く飽和する。","single_sheet_attribution":"unresolved"}
+  ],
+  "scope": "3地点の暗部を物理空隙と同定すること、物理紙面の連続性、インク、新字画、未読範囲は未判定。"
+}

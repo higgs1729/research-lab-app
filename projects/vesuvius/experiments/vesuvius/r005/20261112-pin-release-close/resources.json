@@ -1,0 +1,575 @@
+{
+  "new_paid_compute_cost": 0,
+  "currency": "USD",
+  "llm_and_local_electricity_cost": null,
+  "new_download_bytes": 0,
+  "new_dependency_installs": 0,
+  "new_native_builds": 0,
+  "new_scaf_solver_runs": 2,
+  "new_native_raster_runs": 2,
+  "numerical_jobs": [
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/analysis01-execution/state.json",
+      "started_utc": "2026-11-11T20:42:47.679822+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\analyze_pair.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\analysis01"
+      ],
+      "script_sha256": "b45551569888367cf358fe57e32a9a2a911cd39f58d9bb4f6628b42837f0c167",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 6.841196699999273,
+      "peak_rss_bytes": 720072704,
+      "stopped": null,
+      "completed_utc": "2026-11-11T20:42:54.522051+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/control01/state.json",
+      "mode": "run",
+      "started_utc": "2026-11-11T20:41:18.908508+00:00",
+      "commands": [
+        [
+          "/mnt/d/kensyoukin-work/r003-build/bin/r005-scaf-hard01",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pin-release01/input01/control.json",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pin-release01/control01/result.json"
+        ]
+      ],
+      "status": "complete",
+      "source_sha256": "75ae9c622fdebbdebf5cfadf051487d22012f3d0c967a6a87f0dfad86ebe5e20",
+      "helper_sha256": "f95b2fc13a37ed5c399f44322962be5da54e35fdba8f96b3f41e1c5bd5404824",
+      "header_sha256": {
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/triangle/scaf.h": "38bf5ed56f39c3b22802116623c7ee1ac6bcb9fbfb5668f473926f7895fd229f",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/triangle/scaf.cpp": "a3ff97f0f59ebb0ebc9bc05324360df6eacec17a29e708686c2a1fb7f34c0e83",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/triangle/triangulate.h": "5230b96958415e299d3267d169cc68f7570885513e7fb41666eab9b4dd9b40c4",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/triangle/triangulate.cpp": "81422b8d9f6dc2d0aa6d9abec833787a23b26607278bcfd63e119ab9beffe4a3",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/boundary_loop.h": "8dbb6e9f6863d0f5300d2783a3fa1396977ed7738bd3b5eea27f550b60059dc9",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/boundary_loop.cpp": "078162897c91e57510b7c7a097e98a5c443fcbb3fbac597dc5c69ded62809fd5",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim.h": "b29c4133a65461cf0ad2b24d2fb8f83a958b461eea6170e171a71c2cfae62f8a",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim.cpp": "39d154a0b399ef950755954192b00f445ee3b22c6be69893fb5725ae4187b82a",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim_assembly.h": "e18fecd7dc4ac9c2df392917dd6456cd85722ee9704554701c15744e938c12b3",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/flip_avoiding_line_search.cpp": "dc11208d4bef3e12dbb23e7ca693f2991baf653e4fc4ed7fb87560be9515ef2e",
+        "/mnt/d/kensyoukin-work/r005-scaf01/energy-override/include/igl/triangle/scaf.h": "38bf5ed56f39c3b22802116623c7ee1ac6bcb9fbfb5668f473926f7895fd229f",
+        "/mnt/d/kensyoukin-work/r005-scaf01/energy-override/include/igl/triangle/scaf.cpp": "3a1f270815e7a0c2d6bb28915630271d4c90bf397c370b8a723f5368d82f1ca2"
+      },
+      "triangle_sha256": {
+        "/mnt/d/kensyoukin-work/r005-scaf01/triangle-source/CMakeLists.txt": "c28ae30873d359e311108a4bb814ac695d6c8cd86270127c8b3f061e8254e4c9",
+        "/mnt/d/kensyoukin-work/r005-scaf01/triangle-source/README": "8a475c758031274ca7f7686980c0cd62aaa99c86f1d8d374451c0eac9fa4fb6d",
+        "/mnt/d/kensyoukin-work/r005-scaf01/triangle-source/triangle.cpp": "b0bbf2c8c66eead3f86a1630332556ece1bf923914bf77652a5e2f080df5acd6",
+        "/mnt/d/kensyoukin-work/r005-scaf01/triangle-source/triangle.h": "5e88ba9ba2469e1fdfd32360ed8b1d56871d0987da09654b0b886ea6d9e3f2c1"
+      },
+      "protected_hashes": {
+        "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp": "3eeb1bc7225c5588007e2dc9b54aa04523745d0a4e8e4f1321681ee5d77cd36c",
+        "/mnt/d/kensyoukin-work/r003-build/bin/r005-scaf-trial02": "2ef8f72c5bc88f033f3a6d3c42ab44759f2d51f9843aacb999fc4d75ac586a88",
+        "/mnt/d/kensyoukin-work/r005-scaf01/energy-override/include/igl/triangle/scaf.cpp": "3a1f270815e7a0c2d6bb28915630271d4c90bf397c370b8a723f5368d82f1ca2",
+        "/mnt/d/kensyoukin-work/r005-scaf01/energy-override/include/igl/triangle/scaf.h": "38bf5ed56f39c3b22802116623c7ee1ac6bcb9fbfb5668f473926f7895fd229f",
+        "/mnt/d/kensyoukin-work/r003-build/bin/r005-scaf-trial01": "7219a6c7d655d4ca1d26253fc0ecf4f9299fc4bde9cae0150ad4630da806e58e",
+        "/mnt/d/kensyoukin-work/r005-scaf01/objects01/triangle.o": "8f1919a66df35bf0d920200f3f4e3f4e5b79e959fc1886683f801448189f965d",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-baseline": "fae4e8af0277727de2a6b874492bab96dd969a9e5ea1175a38bd93b56ce63000",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+        "/mnt/d/kensyoukin-work/r003-build/bin/r005-slim-component01": "6b86e53f782a1afdc08661ac5977df017c8339eb1d05159b598010c060d97694",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_inpaint.so": "89be74bca1597bc52578021732d9bbf964de5792c37fcb1868702c89610b77c4",
+        "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+      },
+      "affinity": [
+        0
+      ],
+      "time_limit_per_command_seconds": 300,
+      "address_space_limit_bytes": 4294967296,
+      "input_sha256": "2a1b9fcb0ef8fe6dae077d8259852f4f8ee04e7a4940a3b55c89b554a7bfb6e2",
+      "exit_code": 0,
+      "elapsed_seconds": 15.922329663,
+      "max_child_rss_bytes": 128466944,
+      "protected_files_unchanged": true,
+      "completed_utc": "2026-11-11T20:41:35.015624+00:00",
+      "binary": "/mnt/d/kensyoukin-work/r003-build/bin/r005-scaf-hard01",
+      "binary_sha256": "8ddc36a238cc227412c9147d3670e39d0fa757200c3ec95bb02c0b76d7d5757b",
+      "result_sha256": "f977ab89776fca3733095eb2c711924ccd67fee134084275cf8359951d5ebd07"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/input01-execution/state.json",
+      "started_utc": "2026-11-11T20:40:51.210902+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\prepare_pair.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\input01"
+      ],
+      "script_sha256": "568d8260ffce4a2219af8e3c06c54482ec515d3126f0354a9fd7275d099610e5",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 1.9140763999894261,
+      "peak_rss_bytes": 430108672,
+      "stopped": null,
+      "completed_utc": "2026-11-11T20:40:53.125553+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/pack01-execution/state.json",
+      "started_utc": "2026-11-11T20:44:14.317773+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\prepare_raster_pair.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\pack01"
+      ],
+      "script_sha256": "115ddfb18cb0b5e41e199a5204a1272f0696a3c7acdc2bc6efc6638b18a8b843",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 4.559847500000615,
+      "peak_rss_bytes": 565579776,
+      "stopped": null,
+      "completed_utc": "2026-11-11T20:44:18.878237+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster-scope01-execution/state.json",
+      "started_utc": "2026-11-11T20:45:55.300163+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\check_raster_scope.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\raster-scope01"
+      ],
+      "script_sha256": "0e25cd67819f27ad0e289fabb9dac3953174061082d43f608f64543ddc067d0a",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 2.015206899959594,
+      "peak_rss_bytes": 471764992,
+      "stopped": null,
+      "completed_utc": "2026-11-11T20:45:57.316038+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/raster01-execution/state.json",
+      "started_utc": "2026-11-11T20:45:45.385397+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\evaluate_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\raster01"
+      ],
+      "script_sha256": "7ee64471016107bb70720425f309cd3f7562d5f21b6f275a306e5b64407fe9e9",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 8.435587199986912,
+      "peak_rss_bytes": 775569408,
+      "stopped": null,
+      "completed_utc": "2026-11-11T20:45:53.821876+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-pin-release01/release01/state.json",
+      "mode": "run",
+      "started_utc": "2026-11-11T20:41:50.958550+00:00",
+      "commands": [
+        [
+          "/mnt/d/kensyoukin-work/r003-build/bin/r005-scaf-hard01",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pin-release01/input01/release.json",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pin-release01/release01/result.json"
+        ]
+      ],
+      "status": "complete",
+      "source_sha256": "75ae9c622fdebbdebf5cfadf051487d22012f3d0c967a6a87f0dfad86ebe5e20",
+      "helper_sha256": "f95b2fc13a37ed5c399f44322962be5da54e35fdba8f96b3f41e1c5bd5404824",
+      "header_sha256": {
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/triangle/scaf.h": "38bf5ed56f39c3b22802116623c7ee1ac6bcb9fbfb5668f473926f7895fd229f",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/triangle/scaf.cpp": "a3ff97f0f59ebb0ebc9bc05324360df6eacec17a29e708686c2a1fb7f34c0e83",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/triangle/triangulate.h": "5230b96958415e299d3267d169cc68f7570885513e7fb41666eab9b4dd9b40c4",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/triangle/triangulate.cpp": "81422b8d9f6dc2d0aa6d9abec833787a23b26607278bcfd63e119ab9beffe4a3",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/boundary_loop.h": "8dbb6e9f6863d0f5300d2783a3fa1396977ed7738bd3b5eea27f550b60059dc9",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/boundary_loop.cpp": "078162897c91e57510b7c7a097e98a5c443fcbb3fbac597dc5c69ded62809fd5",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim.h": "b29c4133a65461cf0ad2b24d2fb8f83a958b461eea6170e171a71c2cfae62f8a",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim.cpp": "39d154a0b399ef950755954192b00f445ee3b22c6be69893fb5725ae4187b82a",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim_assembly.h": "e18fecd7dc4ac9c2df392917dd6456cd85722ee9704554701c15744e938c12b3",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/flip_avoiding_line_search.cpp": "dc11208d4bef3e12dbb23e7ca693f2991baf653e4fc4ed7fb87560be9515ef2e",
+        "/mnt/d/kensyoukin-work/r005-scaf01/energy-override/include/igl/triangle/scaf.h": "38bf5ed56f39c3b22802116623c7ee1ac6bcb9fbfb5668f473926f7895fd229f",
+        "/mnt/d/kensyoukin-work/r005-scaf01/energy-override/include/igl/triangle/scaf.cpp": "3a1f270815e7a0c2d6bb28915630271d4c90bf397c370b8a723f5368d82f1ca2"
+      },
+      "triangle_sha256": {
+        "/mnt/d/kensyoukin-work/r005-scaf01/triangle-source/CMakeLists.txt": "c28ae30873d359e311108a4bb814ac695d6c8cd86270127c8b3f061e8254e4c9",
+        "/mnt/d/kensyoukin-work/r005-scaf01/triangle-source/README": "8a475c758031274ca7f7686980c0cd62aaa99c86f1d8d374451c0eac9fa4fb6d",
+        "/mnt/d/kensyoukin-work/r005-scaf01/triangle-source/triangle.cpp": "b0bbf2c8c66eead3f86a1630332556ece1bf923914bf77652a5e2f080df5acd6",
+        "/mnt/d/kensyoukin-work/r005-scaf01/triangle-source/triangle.h": "5e88ba9ba2469e1fdfd32360ed8b1d56871d0987da09654b0b886ea6d9e3f2c1"
+      },
+      "protected_hashes": {
+        "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp": "3eeb1bc7225c5588007e2dc9b54aa04523745d0a4e8e4f1321681ee5d77cd36c",
+        "/mnt/d/kensyoukin-work/r003-build/bin/r005-scaf-trial02": "2ef8f72c5bc88f033f3a6d3c42ab44759f2d51f9843aacb999fc4d75ac586a88",
+        "/mnt/d/kensyoukin-work/r005-scaf01/energy-override/include/igl/triangle/scaf.cpp": "3a1f270815e7a0c2d6bb28915630271d4c90bf397c370b8a723f5368d82f1ca2",
+        "/mnt/d/kensyoukin-work/r005-scaf01/energy-override/include/igl/triangle/scaf.h": "38bf5ed56f39c3b22802116623c7ee1ac6bcb9fbfb5668f473926f7895fd229f",
+        "/mnt/d/kensyoukin-work/r003-build/bin/r005-scaf-trial01": "7219a6c7d655d4ca1d26253fc0ecf4f9299fc4bde9cae0150ad4630da806e58e",
+        "/mnt/d/kensyoukin-work/r005-scaf01/objects01/triangle.o": "8f1919a66df35bf0d920200f3f4e3f4e5b79e959fc1886683f801448189f965d",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-baseline": "fae4e8af0277727de2a6b874492bab96dd969a9e5ea1175a38bd93b56ce63000",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+        "/mnt/d/kensyoukin-work/r003-build/bin/r005-slim-component01": "6b86e53f782a1afdc08661ac5977df017c8339eb1d05159b598010c060d97694",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_inpaint.so": "89be74bca1597bc52578021732d9bbf964de5792c37fcb1868702c89610b77c4",
+        "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+      },
+      "affinity": [
+        0
+      ],
+      "time_limit_per_command_seconds": 300,
+      "address_space_limit_bytes": 4294967296,
+      "input_sha256": "677511d9f453c4322d76e748fba4dda29e11b9d6913fcc30c64e9ef6f449ccc4",
+      "exit_code": 0,
+      "elapsed_seconds": 6.151724588,
+      "max_child_rss_bytes": 128770048,
+      "protected_files_unchanged": true,
+      "completed_utc": "2026-11-11T20:41:57.165959+00:00",
+      "binary": "/mnt/d/kensyoukin-work/r003-build/bin/r005-scaf-hard01",
+      "binary_sha256": "8ddc36a238cc227412c9147d3670e39d0fa757200c3ec95bb02c0b76d7d5757b",
+      "result_sha256": "4f58cade211f47ed933aacab4544bcc9b90aa77b1308c6b4d5c2a392b2bd054d"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/state.json",
+      "status": "complete",
+      "command": [
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01",
+        "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-input02",
+        "--output=/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-runs/pin_control_second_keep1p5_01/output",
+        "--keep=1.5"
+      ],
+      "binary_sha256": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+      "input_manifest": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-input02/manifest.json",
+      "experimental_affine_fallback": true,
+      "experimental_component_packing": false,
+      "experimental_component_recovery": true,
+      "uv_override_sha256": "95438a41ad33f875987e9143976c9e6343b47369f6ad42f765f6482958b6655f",
+      "raster_trace": true,
+      "keep_percent": 1.5,
+      "default_iterations": 50,
+      "default_energy": "symmetric_dirichlet",
+      "affinity": [
+        0
+      ],
+      "threads": 1,
+      "wandb_disabled": true,
+      "started_utc": "2026-11-11T20:44:23.880535+00:00",
+      "exit_code": 0,
+      "elapsed_seconds": 16.389950747999997,
+      "completed_utc": "2026-11-11T20:44:40.276965+00:00",
+      "outputs": [
+        {
+          "file": "output/meta.json",
+          "bytes": 993,
+          "sha256": "a130004d5f3262387324bd5440a99ad04eb2301938af24fec9ae14479be230f3"
+        },
+        {
+          "file": "output/x.tif",
+          "bytes": 2982382,
+          "sha256": "fb59899027a06a94d23fac0ab9d4250f8374bc055cdba13c0f265453a754bf02"
+        },
+        {
+          "file": "output/y.tif",
+          "bytes": 2982382,
+          "sha256": "fac415aa5a3134746079f86c71bfe7a1a89f89ed94be6a382a0bd18f26dca9cc"
+        },
+        {
+          "file": "output/z.tif",
+          "bytes": 2982382,
+          "sha256": "0839b50f0ac469199e9d4208eecc6bf25d0d8c7aa9fca4430779309cbc713be5"
+        },
+        {
+          "file": "output.obj_components.json",
+          "bytes": 3533,
+          "sha256": "063a11f3c02950a3d77cf723b07bf1bee000f9ebc978df8ea9f5ac2dd8acca00"
+        },
+        {
+          "file": "output.obj_uv_diagnostics.json",
+          "bytes": 22157533,
+          "sha256": "b710235f77fe5cd452ddb14beec1088a99a96f732a2b77701683dff2aee38f00"
+        },
+        {
+          "file": "output_component_108248_energies_flatboi.txt",
+          "bytes": 663,
+          "sha256": "f6a212c258c217d5fbfd51f5143b300c07b82eacd66366344b77d9d166922936"
+        },
+        {
+          "file": "output_component_158916_energies_flatboi.txt",
+          "bytes": 664,
+          "sha256": "2baa4fa8835d14b8178455ce62d9851f38911fe652e155bfe22c9a60c4252445"
+        },
+        {
+          "file": "output_component_249232_energies_flatboi.txt",
+          "bytes": 663,
+          "sha256": "c4de21769e23e812d080bb86320e34d79d9bc04c9458c2c8f9203c5593020ac6"
+        },
+        {
+          "file": "output_energies_flatboi.txt",
+          "bytes": 663,
+          "sha256": "f37188cf8c1c6d5aa65c689042513cb2ed72dc902498e1b602f96ac8434aa190"
+        },
+        {
+          "file": "output_heat_L2.png",
+          "bytes": 59840,
+          "sha256": "1e12ea356a2508504e82a3fcb1840ca01d3c2fd94b2715704a96e725a28b1be5"
+        },
+        {
+          "file": "output_heat_Linf.png",
+          "bytes": 56189,
+          "sha256": "d5590d436c5b17925e27a7e2f5119d704146b8f342bc5e81e3714107315bc983"
+        },
+        {
+          "file": "output_heat_kappa.png",
+          "bytes": 55968,
+          "sha256": "189ba6b0e97ba211eb8c96bcc1caa88bfc734c7032e8cc5e2e7f9402f21e2cbc"
+        },
+        {
+          "file": "output_heat_logarea.png",
+          "bytes": 72198,
+          "sha256": "bb0744014098a2783a0fa34de4d1a4975af4fad1baeab27179495a2c5de4dd4c"
+        },
+        {
+          "file": "output_heat_ranges.txt",
+          "bytes": 246,
+          "sha256": "79abd70bf473f3c664d7b48668631a0b9109db0fd487d686870f0697a2d51fcc"
+        },
+        {
+          "file": "raster_trace.json",
+          "bytes": 3184089,
+          "sha256": "03ba9c712328442292c0c0aaf44f4c4be9b2f146f9d1e503dbbc5a1a9e8083c4"
+        },
+        {
+          "file": "runner.py",
+          "bytes": 4857,
+          "sha256": "08cb789e6ea28cbf720085c753b393b50592508965550f9580dfafa3921a98e5"
+        },
+        {
+          "file": "stdout.log",
+          "bytes": 10661,
+          "sha256": "1259ec99b09b13be7b3e7650dd1d6f7a477b9d4b0f76795c5dd45b61d6a01bf3"
+        },
+        {
+          "file": "uv_override.json",
+          "bytes": 12858959,
+          "sha256": "95438a41ad33f875987e9143976c9e6343b47369f6ad42f765f6482958b6655f"
+        }
+      ]
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/state.json",
+      "status": "complete",
+      "command": [
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01",
+        "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-input02",
+        "--output=/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-runs/pin_release_second_keep1p5_01/output",
+        "--keep=1.5"
+      ],
+      "binary_sha256": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+      "input_manifest": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-input02/manifest.json",
+      "experimental_affine_fallback": true,
+      "experimental_component_packing": false,
+      "experimental_component_recovery": true,
+      "uv_override_sha256": "6870c57bdc854f4104a251d2f460c787a09102cca637e9fb2e02e0568e9488fb",
+      "raster_trace": true,
+      "keep_percent": 1.5,
+      "default_iterations": 50,
+      "default_energy": "symmetric_dirichlet",
+      "affinity": [
+        0
+      ],
+      "threads": 1,
+      "wandb_disabled": true,
+      "started_utc": "2026-11-11T20:44:49.057828+00:00",
+      "exit_code": 0,
+      "elapsed_seconds": 23.061691695,
+      "completed_utc": "2026-11-11T20:45:12.139660+00:00",
+      "outputs": [
+        {
+          "file": "output/meta.json",
+          "bytes": 993,
+          "sha256": "6e65e87c84bf1b3ce9b5ed399903c7d24dbbcf6795478e3aac0c49d378845e78"
+        },
+        {
+          "file": "output/x.tif",
+          "bytes": 2982382,
+          "sha256": "a4e8640dc58f82a9a610970a7c812afbf81d86a91fb2257fdfdf6a91258d4ece"
+        },
+        {
+          "file": "output/y.tif",
+          "bytes": 2982382,
+          "sha256": "32f6e43a08927733bd53b9bd5dc56ae4affce7d8a1cb32e62684ec6e5322cf00"
+        },
+        {
+          "file": "output/z.tif",
+          "bytes": 2982382,
+          "sha256": "2284b748bec0a2bbe75508ab83c8fe92de3340b6ee216720cc70f9f6c1315365"
+        },
+        {
+          "file": "output.obj_components.json",
+          "bytes": 3533,
+          "sha256": "063a11f3c02950a3d77cf723b07bf1bee000f9ebc978df8ea9f5ac2dd8acca00"
+        },
+        {
+          "file": "output.obj_uv_diagnostics.json",
+          "bytes": 22157574,
+          "sha256": "118a76780610f64ffb589d4dc42dc09d1beeb0fa51a27075fd080dc260a3aa18"
+        },
+        {
+          "file": "output_component_108248_energies_flatboi.txt",
+          "bytes": 663,
+          "sha256": "f6a212c258c217d5fbfd51f5143b300c07b82eacd66366344b77d9d166922936"
+        },
+        {
+          "file": "output_component_158916_energies_flatboi.txt",
+          "bytes": 664,
+          "sha256": "2baa4fa8835d14b8178455ce62d9851f38911fe652e155bfe22c9a60c4252445"
+        },
+        {
+          "file": "output_component_249232_energies_flatboi.txt",
+          "bytes": 663,
+          "sha256": "c4de21769e23e812d080bb86320e34d79d9bc04c9458c2c8f9203c5593020ac6"
+        },
+        {
+          "file": "output_energies_flatboi.txt",
+          "bytes": 663,
+          "sha256": "f37188cf8c1c6d5aa65c689042513cb2ed72dc902498e1b602f96ac8434aa190"
+        },
+        {
+          "file": "output_heat_L2.png",
+          "bytes": 59840,
+          "sha256": "1e12ea356a2508504e82a3fcb1840ca01d3c2fd94b2715704a96e725a28b1be5"
+        },
+        {
+          "file": "output_heat_Linf.png",
+          "bytes": 56189,
+          "sha256": "d5590d436c5b17925e27a7e2f5119d704146b8f342bc5e81e3714107315bc983"
+        },
+        {
+          "file": "output_heat_kappa.png",
+          "bytes": 55968,
+          "sha256": "189ba6b0e97ba211eb8c96bcc1caa88bfc734c7032e8cc5e2e7f9402f21e2cbc"
+        },
+        {
+          "file": "output_heat_logarea.png",
+          "bytes": 72198,
+          "sha256": "bb0744014098a2783a0fa34de4d1a4975af4fad1baeab27179495a2c5de4dd4c"
+        },
+        {
+          "file": "output_heat_ranges.txt",
+          "bytes": 246,
+          "sha256": "79abd70bf473f3c664d7b48668631a0b9109db0fd487d686870f0697a2d51fcc"
+        },
+        {
+          "file": "raster_trace.json",
+          "bytes": 3184097,
+          "sha256": "2f3b6673160a9113cc27bb38060720a2ce4bacba0317d0b120a334fbe58e1d30"
+        },
+        {
+          "file": "runner.py",
+          "bytes": 4857,
+          "sha256": "08cb789e6ea28cbf720085c753b393b50592508965550f9580dfafa3921a98e5"
+        },
+        {
+          "file": "stdout.log",
+          "bytes": 10662,
+          "sha256": "39bc70b2b9d5bf94c22f204ba7076b4764972249a9143933f21bfbbf7779817a"
+        },
+        {
+          "file": "uv_override.json",
+          "bytes": 12859000,
+          "sha256": "6870c57bdc854f4104a251d2f460c787a09102cca637e9fb2e02e0568e9488fb"
+        }
+      ]
+    },
+    {
+      "role": "verification",
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/check01-execution/state.json",
+      "started_utc": "2026-11-11T20:49:53.612861+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release-verification01\\verify_geometry.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release-verification01\\check01"
+      ],
+      "script_sha256": "410de9b60f90e2790b4a53dd63959cd77b8123d9ca40438d52a798d57662d051",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 15.560129899997264,
+      "peak_rss_bytes": 347017216,
+      "stopped": null,
+      "completed_utc": "2026-11-11T20:50:09.173989+00:00"
+    },
+    {
+      "role": "verification",
+      "path": "experiments/vesuvius/r005/20261112-pin-release-verification01/check02-execution/state.json",
+      "started_utc": "2026-11-11T20:51:31.077805+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release-verification01\\verify_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release-verification01\\check02"
+      ],
+      "script_sha256": "e9a439c513cec31e87fc777ee552c3661ff4a87ce615fbe2acbe1f34be97296e",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 11.344905700010713,
+      "peak_rss_bytes": 481132544,
+      "stopped": null,
+      "completed_utc": "2026-11-11T20:51:42.423466+00:00"
+    }
+  ],
+  "sequential_numeric_intervals_verified": true,
+  "previous_frozen_files_checked": 132,
+  "previous_manifest_sha256": "bbe11f515ca902891ce88699856d6009fe315b996c5f734e4cadc2eb6a32a657",
+  "note": "CPU1 throughout. Native AS4GiB/300s per command; Python sampled RSS4GiB/300s. Existing hard-fixed SCAF binary and native raster only. No GPU. Shared-host O0 timings are not performance comparisons."
+}

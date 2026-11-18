@@ -1,0 +1,15 @@
+{
+  "reviewer": "root",
+  "date_jst": "2026-11-14",
+  "figures_reviewed": ["figures/point-1.png", "figures/point-2.png", "figures/point-3.png", "figures/point-4.png"],
+  "assessment": [
+    "Known-region point 88,69: all proposed positions enter the same visible broad bright band below the original point; the selected point itself is not annotated as ink.",
+    "Edge point 299,41: all proposals meet a bright band below P, with centered and r0 close together. A further bright band appears deeper in the displayed section.",
+    "Edge point 306,39: P lies near an upper bright band. Centered and r0 remain near it, while the corner-window proposal lies much farther down near the intervening dark/lower-band region. This is a spatially meaningful window-placement difference, not proof of which physical sheet is correct.",
+    "Edge point 324,39: centered and r0 remain near the upper portion of a broad bright band; the corner-window estimate goes farther into that band."
+  ],
+  "decision": "A small end-to-end comparison on the already readable known region is justified before changing any unread surface. Keep the source surface and the old placement as controls; do not infer physical-sheet identity or improved letters from these four offsets.",
+  "limitations": "The sections are fixed intensity 0..255 and normal depths -2..16. They do not identify ink, papyrus faces, continuity to another patch, or all sheets outside that range. No new letter has been found.",
+  "new_network_bytes": 0,
+  "new_product_calls": 0
+}

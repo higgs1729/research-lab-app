@@ -1,0 +1,15 @@
+{
+  "removed_path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-reserved-capture01\\cloud-run\\results.reserved",
+  "reason": "Stopped before upload. Only the reservation filler was present; no result archive.",
+  "owner": {
+    "allocated_bytes": 12582912,
+    "file_bytes": 12582912,
+    "windows_attributes": 32,
+    "links": 1,
+    "device": 10726679257801674650,
+    "file_id": 1407374885790336
+  },
+  "free_before_bytes": 10389757952,
+  "free_after_bytes": 10402340864,
+  "exists_after": false
+}

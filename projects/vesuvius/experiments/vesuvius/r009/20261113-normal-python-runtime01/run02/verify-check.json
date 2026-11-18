@@ -1,0 +1,148 @@
+{
+  "initializers": {
+    "vc_reader": {
+      "path": "/home/tomoy/r009-normal-python-run02-678qsuuz/build/stage/vc_reader/__init__.py",
+      "sha256": "839697c3d1a45b0dc604c0a5ba421c2adc51087d65820cf61e6d03bddc314990"
+    },
+    "vc_reader.reader": {
+      "path": "/home/tomoy/r009-normal-python-run02-678qsuuz/build/stage/vc_reader/reader/__init__.py",
+      "sha256": "ef603eae6a38bec2b700a20d8c7c806caa1c1440304085e30f6b4d59ac642be8"
+    }
+  },
+  "fixture_files": {
+    "default.zarr/.zgroup": {
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85",
+      "bytes": 19,
+      "origin_mtime_ns": 1794579232688324306,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "default.zarr/0/.zarray": {
+      "sha256": "dd168e0a4266ed5eb6d9975d320d584464cb4d22952f56406e6a2022a7f2701d",
+      "bytes": 258,
+      "origin_mtime_ns": 1794579232688324306,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "default.zarr/0/0/0/0": {
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23,
+      "origin_mtime_ns": 1794579232688324306,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "default.zarr/0/0/0/1": {
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23,
+      "origin_mtime_ns": 1794579232688324306,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "default.zarr/0/0/1/0": {
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23,
+      "origin_mtime_ns": 1794579232688324306,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "default.zarr/0/0/1/1": {
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23,
+      "origin_mtime_ns": 1794579232688324306,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "default.zarr/1/.zarray": {
+      "sha256": "dca2aeb9419b26ca1fd946937a2a49e9fd3a5b7f0c9e894a0b83cf72e65e49a4",
+      "bytes": 258,
+      "origin_mtime_ns": 1794579232704324786,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "default.zarr/2/.zarray": {
+      "sha256": "7bf35380c12840f22de12799b39b143f56ec18485d4a8f52694d4e1aa63e6853",
+      "bytes": 258,
+      "origin_mtime_ns": 1794579232704324786,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "preserve.zarr/.zgroup": {
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85",
+      "bytes": 19,
+      "origin_mtime_ns": 1794579232660323466,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "preserve.zarr/0/.zarray": {
+      "sha256": "dd168e0a4266ed5eb6d9975d320d584464cb4d22952f56406e6a2022a7f2701d",
+      "bytes": 258,
+      "origin_mtime_ns": 1794579232660323466,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "preserve.zarr/0/0/0/0": {
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23,
+      "origin_mtime_ns": 1794579232664323586,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "preserve.zarr/0/0/0/1": {
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23,
+      "origin_mtime_ns": 1794579232668323706,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "preserve.zarr/0/0/1/0": {
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23,
+      "origin_mtime_ns": 1794579232668323706,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "preserve.zarr/0/0/1/1": {
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23,
+      "origin_mtime_ns": 1794579232668323706,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "preserve.zarr/1/.zarray": {
+      "sha256": "004dfcdb98132bcb7fda73eb1507437c077f5033be545ac13d9c600ecbdb1567",
+      "bytes": 224,
+      "origin_mtime_ns": 1794579232668323706,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "preserve.zarr/1/0.0.0": {
+      "sha256": "06232b08dabb5a4fdb466598179349c845b0dc3436324794e270257b4e0fdbce",
+      "bytes": 16,
+      "origin_mtime_ns": 1794579232668323706,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "preserve.zarr/2/.zarray": {
+      "sha256": "7bf35380c12840f22de12799b39b143f56ec18485d4a8f52694d4e1aa63e6853",
+      "bytes": 258,
+      "origin_mtime_ns": 1794579232672323826,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "regression.zarr/.zgroup": {
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85",
+      "bytes": 19,
+      "origin_mtime_ns": 1794579232712325026,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "regression.zarr/0/.zarray": {
+      "sha256": "b45ae09d6683feaf10c407165420e941bba165ae2e7d59287f91b0add923dc73",
+      "bytes": 318,
+      "origin_mtime_ns": 1794579232712325026,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "regression.zarr/1/.zarray": {
+      "sha256": "004dfcdb98132bcb7fda73eb1507437c077f5033be545ac13d9c600ecbdb1567",
+      "bytes": 224,
+      "origin_mtime_ns": 1794579232716325146,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "regression.zarr/1/0.0.0": {
+      "sha256": "06232b08dabb5a4fdb466598179349c845b0dc3436324794e270257b4e0fdbce",
+      "bytes": 16,
+      "origin_mtime_ns": 1794579232716325146,
+      "saved_mtime_ns": 1794579232000000000
+    },
+    "regression.zarr/2/.zarray": {
+      "sha256": "97705c8cb432859af98daf3c36ce8e08eb77b4d011c4aeec18c54a84b8a56500",
+      "bytes": 318,
+      "origin_mtime_ns": 1794579232720325266,
+      "saved_mtime_ns": 1794579232000000000
+    }
+  },
+  "writer_sha256": "54743822522dae0be0ef881c0b81c0fc8925b8de24cd52348376d967ea31150d",
+  "import_isolated": false
+}

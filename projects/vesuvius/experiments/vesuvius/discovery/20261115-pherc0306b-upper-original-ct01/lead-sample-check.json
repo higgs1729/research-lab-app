@@ -1,0 +1,226 @@
+{
+  "checked_utc": "2026-11-15T08:12:58.634017+00:00",
+  "CT_keys_SHA256_and_S3_MD5_checked": 73,
+  "CT_bytes_checked": 153092096,
+  "diagnostic_images_exact": 43,
+  "diagnostic_pixels_exact": 417780,
+  "geometry_max_abs_error": 3.637978807091713e-12,
+  "rows": [
+    {
+      "file": "sections/upper-context-d0.png",
+      "pixels": 73600,
+      "exact": true
+    },
+    {
+      "file": "sections/known-context-d0.png",
+      "pixels": 44075,
+      "exact": true
+    },
+    {
+      "file": "sections/upper-bend-normal.png",
+      "pixels": 31785,
+      "exact": true
+    },
+    {
+      "file": "sections/upper-across-normal.png",
+      "pixels": 45565,
+      "exact": true
+    },
+    {
+      "file": "sections/upper-adjacent-normal.png",
+      "pixels": 27625,
+      "exact": true
+    },
+    {
+      "file": "sections/known-across-normal.png",
+      "pixels": 19565,
+      "exact": true
+    },
+    {
+      "file": "sections/known-down-normal.png",
+      "pixels": 23465,
+      "exact": true
+    },
+    {
+      "file": "sections/U1-axis-Z.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U1-axis-Y.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U1-axis-X.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U2-axis-Z.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U2-axis-Y.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U2-axis-X.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U3-axis-Z.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U3-axis-Y.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U3-axis-X.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U4-axis-Z.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U4-axis-Y.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U4-axis-X.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U5-axis-Z.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U5-axis-Y.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U5-axis-X.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U6-axis-Z.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U6-axis-Y.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U6-axis-X.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U7-axis-Z.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U7-axis-Y.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U7-axis-X.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U8-axis-Z.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U8-axis-Y.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/U8-axis-X.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/K1-axis-Z.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/K1-axis-Y.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/K1-axis-X.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/K2-axis-Z.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/K2-axis-Y.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/K2-axis-X.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/K3-axis-Z.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/K3-axis-Y.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/K3-axis-X.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/K4-axis-Z.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/K4-axis-Y.png",
+      "pixels": 4225,
+      "exact": true
+    },
+    {
+      "file": "sections/K4-axis-X.png",
+      "pixels": 4225,
+      "exact": true
+    }
+  ],
+  "scope": "Original voxel positions and numeric resampling. Physical lamina and ink judgement separate; no public layer20 pixel identity asserted."
+}

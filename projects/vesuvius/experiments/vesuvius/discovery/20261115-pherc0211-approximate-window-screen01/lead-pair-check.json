@@ -1,0 +1,36 @@
+{
+  "utc": "2026-11-15T14:03:39.659186+00:00",
+  "source_files": [
+    {
+      "file": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\cloud-run\\extracted\\gpu\\pair_public\\patches\\p000.npy",
+      "sha256": "d98b43df3c6b65cdb214c0996830cfc17f9e93bb1e2cbf31229122ad0f970dd1"
+    },
+    {
+      "file": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\cloud-run\\extracted\\gpu\\pair_render\\patches\\p000.npy",
+      "sha256": "ca7c6b0bf7f3e7f0b2afa973362b9f2e65604b77c23500d353fc533e25d2c71b"
+    }
+  ],
+  "pixels_checked": 9216,
+  "probability_max_abs_difference": 0.0028054118156433105,
+  "probability_mean_abs_difference": 0.0006942504648274431,
+  "raw_8bit_max_abs_difference": 1,
+  "raw_8bit_mean_abs_difference": 0.18326822916666666,
+  "raw_8bit_different_pixels": 1689,
+  "raw_8bit_signed_difference_counts": {
+    "-1": 134,
+    "0": 7527,
+    "1": 1555
+  },
+  "public_probability_range": [
+    0.19949506223201752,
+    0.9127879738807678
+  ],
+  "render_probability_range": [
+    0.19998128712177277,
+    0.9127238988876343
+  ],
+  "historical_R236_gate_passed": false,
+  "new_quality_gate_passed": null,
+  "new_model_forwards": 0,
+  "purpose": "Quantify existing fixed paired prediction display perturbation. This does not establish unknown accuracy, glyph identity, acceptable quality, or exact rendering. Lead visual assessment follows separately."
+}

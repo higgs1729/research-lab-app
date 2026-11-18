@@ -1,0 +1,206 @@
+{
+  "reader": {
+    "ome-zarr": "0.21.0",
+    "zarr": "3.4.2",
+    "dask": "2026.8.0",
+    "numpy": "2.5.5",
+    "numcodecs": "0.17.1"
+  },
+  "python": "3.14.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "fixture": "inputs.json",
+  "fixture_sha256": "4701f368c254fb4bcbc2d4065e2489ff2750358bf15307ed2eef9f77b03775d5",
+  "cases": {
+    "saved-old": {
+      "image": {
+        "status": "ok",
+        "value": {
+          "location_opened": false,
+          "node_count": 0,
+          "arrays": []
+        }
+      },
+      "direct_l0": {
+        "status": "ok",
+        "value": {
+          "shape": [
+            101,
+            128,
+            128
+          ],
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "sum": 157287567,
+          "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+        }
+      },
+      "warnings": []
+    },
+    "saved-fixed": {
+      "image": {
+        "status": "ok",
+        "value": {
+          "location_opened": true,
+          "node_count": 1,
+          "arrays": [
+            [
+              {
+                "shape": [
+                  101,
+                  128,
+                  128
+                ],
+                "dtype": "uint8",
+                "min": 0,
+                "max": 255,
+                "sum": 157287567,
+                "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+              }
+            ]
+          ]
+        }
+      },
+      "direct_l0": {
+        "status": "ok",
+        "value": {
+          "shape": [
+            101,
+            128,
+            128
+          ],
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "sum": 157287567,
+          "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+        }
+      },
+      "warnings": []
+    },
+    "legacy-attrs-only": {
+      "image": {
+        "status": "error",
+        "type": "ArrayNotFoundError",
+        "message": "No array found in store file://C:/dev/kensyoukin/.work/r245-reader-impact01/legacy-attrs-only.zarr at path 1"
+      },
+      "direct_l0": {
+        "status": "ok",
+        "value": {
+          "shape": [
+            101,
+            128,
+            128
+          ],
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "sum": 157287567,
+          "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+        }
+      },
+      "warnings": []
+    },
+    "pyramid-on-control": {
+      "image": {
+        "status": "ok",
+        "value": {
+          "location_opened": true,
+          "node_count": 1,
+          "arrays": [
+            [
+              {
+                "shape": [
+                  101,
+                  128,
+                  128
+                ],
+                "dtype": "uint8",
+                "min": 0,
+                "max": 255,
+                "sum": 157287567,
+                "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+              },
+              {
+                "shape": [
+                  101,
+                  64,
+                  64
+                ],
+                "dtype": "uint8",
+                "min": 2,
+                "max": 255,
+                "sum": 39321390,
+                "sha256_c_order": "3e373193b92e22bd31a82ea817831467e19022d4ae37b910ebe8641b770a55ac"
+              },
+              {
+                "shape": [
+                  101,
+                  32,
+                  32
+                ],
+                "dtype": "uint8",
+                "min": 6,
+                "max": 232,
+                "sum": 9830510,
+                "sha256_c_order": "247bec796ad32ca951db220ab332614b2a9e9265b563fcd96cbfe35b614e0494"
+              },
+              {
+                "shape": [
+                  101,
+                  16,
+                  16
+                ],
+                "dtype": "uint8",
+                "min": 10,
+                "max": 221,
+                "sum": 2457580,
+                "sha256_c_order": "71fdad275ae65f3da4a0dbd83ede3e3ecd943134c57a4920f9c3a9be2100f16c"
+              },
+              {
+                "shape": [
+                  101,
+                  8,
+                  8
+                ],
+                "dtype": "uint8",
+                "min": 26,
+                "max": 187,
+                "sum": 614426,
+                "sha256_c_order": "d1cc8582ec18ea85869aa553b876d93b4a9f759c948ef6ba92b6343a02cc4057"
+              },
+              {
+                "shape": [
+                  101,
+                  4,
+                  4
+                ],
+                "dtype": "uint8",
+                "min": 35,
+                "max": 170,
+                "sum": 153591,
+                "sha256_c_order": "d03514d0e7e45956b6ac76580db2656b1254f1d544e16f29604eccf511e43514"
+              }
+            ]
+          ]
+        }
+      },
+      "direct_l0": {
+        "status": "ok",
+        "value": {
+          "shape": [
+            101,
+            128,
+            128
+          ],
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "sum": 157287567,
+          "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+        }
+      },
+      "warnings": []
+    }
+  }
+}

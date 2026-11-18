@@ -1,0 +1,132 @@
+{
+  "pull_request": {
+    "url": "https://github.com/ScrollPrize/villa/pull/2446",
+    "number": 2446,
+    "state": "open",
+    "merged": false,
+    "mergeable": true,
+    "draft": false,
+    "body": "Refs #2294\n\n**In one sentence:** After vc_render_tifxyz finishes, render_ink.py now builds the same 8-bit ink JPGs with a fraction of the RAM.\n\n**Motivation (human-written):** I am working on ink detection for PHerc. Paris 4, and #2294 says a full-scroll render_ink.py run can run out of RAM even on a 64 GB machine. I tested the fix with the real renderer on a Paris 4 segment: the step after the render now uses about a quarter of the memory, and the images come out exactly the same. I think this can help people who render a whole scroll on a machine without a lot of RAM.\n\n**One real example:** I ran render_ink.py end to end with a real vc_render_tifxyz build on PHerc. Paris 4 segment 20231012184424 and the public 2.4 um volume from S3. Its memory growth after the render fell from 773 to 179 MiB, with the same sha256 for the JPG and all five slice TIFFs.\n\n**Before:** max_composite made a new array per slice, and p95 scaling made float32 copies of the whole strip. With `--strips`, every composite stayed in memory until the last strip was written.\n\n**After this PR:** Slices are maxed into one array in place, by row bands. uint8 and uint16 strips are scaled through a lookup table built from the same float32 expression, so pixels and p95 do not change. Each composite is freed once its strip is written.\n\n**Proof:** Growth of the render_ink.py process after the render returned, with identical JPGs in every row:\n\n| Input | main | this PR | Source |\n|---|---|---|---|\n| real render, two runs each | 773 / 776 MiB | 179 / 178 MiB | [comment](https://github.com/ScrollPrize/villa/issues/2294#issuecomment-6503081411) |\n| segment 4424, 9520 x 6425 uint8 | 823 MiB | 206 MiB | [comment](https://github.com/ScrollPrize/villa/issues/2294#issuecomment-6486484831) |\n| segment 20230701020044, uint16 | 1825 MiB | 725 MiB | same comment |\n| segment 4424, `--strips 4` plus full strip | 1116 MiB | 319 MiB | same comment |\n\nThe last three rows replace the renderer with five real layer TIFFs.\n\n**Why / where this is useful:** It helps runs whose full-scroll strip did not fit in RAM.\n\n- [x] I personally verified that the example and proof above were produced by this PR on the stated data.\n\n## Details\n\n- Credit to @ChaseHendrick for the analysis and outline patch this follows. One change: a float32 cast of the integer p95 is not always bit identical, so it is used only when numpy's two order statistics agree.\n- Scope: this covers the issue's post-render RAM. #2290 covered the on-disk remote cache, and capping the renderer's chunk cache is left for vc_reader. This PR changes only the post-render composite and scaling and leaves reading and cache budgets alone. #2440, which moved zarr and tifxyz reading into vc_reader, did not touch render_ink.py.\n- Rebased onto main d57c28ebe from the fix-2294 branch linked in the issue. render_ink.py and its tests are unchanged on main since then (checked at 2d4067b52). The numbers were measured on that branch (ad47b66c1, base 7154682e1). max_composite, scale_to_uint8 and the loop that frees each strip, which are what the numbers measure, are byte-identical in this PR. Apart from the rebase, the only change since then removes the `--cache-gb` option and its test. That option only sized the chunk cache of vc_render_tifxyz, which runs as a separate process, so it is not counted in the growth above.\n- `pytest tests/test_render_ink.py tests/test_surface_orientation.py tests/test_run_single.py` in spiral-fitting: 105 passed, 2 new.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\n<!-- codesmith:footer -->\n---\n<a href=\"https://backend.blacksmith.sh/track/enable-autofix?expires=1796418852&installation_model_id=447712&pr_number=2446&ref=codesmith_pr_footer&repository=ScrollPrize%2Fvilla&return_to=https%3A%2F%2Fgithub.com%2FScrollPrize%2Fvilla%2Fpull%2F2446&signature=6edb45cda744b75098aafb46ef93258befa51709336c77df67289fab08cab437\"><picture><source media=\"(prefers-color-scheme: dark)\" srcset=\"https://pr-comments-assets.blacksmith.sh/codesmith/autofix-with-codesmith-dark.svg\"><source media=\"(prefers-color-scheme: light)\" srcset=\"https://pr-comments-assets.blacksmith.sh/codesmith/autofix-with-codesmith-light.svg\"><img alt=\"Autofix with [code]smith\" src=\"https://pr-comments-assets.blacksmith.sh/codesmith/autofix-with-codesmith-dark-3x.png\" width=\"190\" height=\"28\"></picture></a>\n<sup><a href=\"https://app.blacksmith.sh/ScrollPrize/codesmith/villa/pr/2446?autoLogin=true&ref=codesmith_pr_footer\">Open in [code]smith</a> · Need help on this PR? Tag <code>@codesmith-bot</code> with what you need.</sup>\n\n<!-- codesmith:autofix:disabled -->\n<!-- /codesmith:footer -->\n",
+    "title": "render_ink: composite and scale ink strips without full-size float copies",
+    "base": "main",
+    "base_sha": "2d4067b5293ddd7825d660739e84ee992b3d1668",
+    "head": "fix-2294-v2",
+    "head_sha": "3e045930db4a469a52029d1c1482a0e212fdd6a3",
+    "head_repo_id": 1394646274,
+    "head_repo_full_name": "stantheman0128/villa",
+    "merge_commit_sha": "f03d3279142f1c0cc88ef38ea013fa9f26ef3078",
+    "user": {
+      "login": "stantheman0128",
+      "name": "stantheman0128",
+      "email": null,
+      "id": 79733497
+    },
+    "requested_reviewers": [
+      {
+        "login": "pmh47",
+        "name": "pmh47",
+        "email": null,
+        "id": 10145643
+      }
+    ],
+    "requested_team_reviewers": null,
+    "comments": [
+      {
+        "url": "https://github.com/ScrollPrize/villa/pull/2446#issuecomment-6642277433",
+        "body": "@stantheman0128 is attempting to deploy a commit to the **scroll** Team on [Vercel](https://vercel.com).\n\nA member of the Team first needs to [authorize it](https://vercel.com/git/authorize?team=scroll&slug=scroll&teamId=team_vaj9podZtoZhXLh5u4vJyGWa&type=github&job=%7B%22headInfo%22%3A%7B%22sha%22%3A%223e045930db4a469a52029d1c1482a0e212fdd6a3%22%7D%2C%22id%22%3A%22QmSugtAvknMaxUD1jmCpiw31At8tzKJAtgh4GCpwshw7Zk%22%2C%22org%22%3A%22ScrollPrize%22%2C%22prId%22%3A2446%2C%22repo%22%3A%22villa%22%7D).\n\n",
+        "user": {
+          "login": "vercel[bot]",
+          "name": "vercel[bot]",
+          "email": null,
+          "id": 35613825
+        },
+        "id": 6642277433,
+        "pull_request_review_id": null,
+        "in_reply_to_id": null,
+        "created_at": "2026-11-04T21:14:14Z",
+        "updated_at": "2026-11-04T21:14:14Z",
+        "review": null,
+        "side": null,
+        "line": null,
+        "start_line": null,
+        "path": null
+      },
+      {
+        "url": "https://github.com/ScrollPrize/villa/pull/2446#pullrequestreview-5775899491",
+        "body": "Copilot was unable to review this pull request because the user who requested the review has insufficient remaining quota. Try requesting a review at a lower effort level.\n\nAn organization owner can choose the repository organization as the billing source for reviews requested by members with a paid Copilot license. [Learn about Copilot code review billing](https://docs.github.com/en/copilot/concepts/agents/code-review#code-review-usage). [Review the Copilot code review billing settings](https://github.com/organizations/ScrollPrize/settings/copilot/policies).",
+        "user": {
+          "login": "copilot-pull-request-reviewer[bot]",
+          "name": "copilot-pull-request-reviewer[bot]",
+          "email": null,
+          "id": 175728472
+        },
+        "id": 5775899491,
+        "pull_request_review_id": null,
+        "in_reply_to_id": null,
+        "created_at": "2026-11-04T21:14:19Z",
+        "updated_at": null,
+        "review": "COMMENTED",
+        "side": null,
+        "line": null,
+        "start_line": null,
+        "path": null
+      }
+    ],
+    "created_at": "2026-11-04T21:14:08Z",
+    "updated_at": "2026-11-05T16:37:05Z",
+    "closed_at": null,
+    "merged_at": null,
+    "commits": 1,
+    "changed_files": 2,
+    "additions": 94,
+    "deletions": 11,
+    "display_url": "https://github.com/ScrollPrize/villa/pull/2446",
+    "display_title": "render_ink: composite and scale ink strips without full-size float copies"
+  },
+  "url": "https://github.com/ScrollPrize/villa/pull/2446",
+  "title": "render_ink: composite and scale ink strips without full-size float copies",
+  "comments": [
+    {
+      "url": "https://github.com/ScrollPrize/villa/pull/2446#issuecomment-6642277433",
+      "body": "@stantheman0128 is attempting to deploy a commit to the **scroll** Team on [Vercel](https://vercel.com).\n\nA member of the Team first needs to [authorize it](https://vercel.com/git/authorize?team=scroll&slug=scroll&teamId=team_vaj9podZtoZhXLh5u4vJyGWa&type=github&job=%7B%22headInfo%22%3A%7B%22sha%22%3A%223e045930db4a469a52029d1c1482a0e212fdd6a3%22%7D%2C%22id%22%3A%22QmSugtAvknMaxUD1jmCpiw31At8tzKJAtgh4GCpwshw7Zk%22%2C%22org%22%3A%22ScrollPrize%22%2C%22prId%22%3A2446%2C%22repo%22%3A%22villa%22%7D).\n\n",
+      "user": {
+        "login": "vercel[bot]",
+        "name": "vercel[bot]",
+        "email": null,
+        "id": 35613825
+      },
+      "id": 6642277433,
+      "pull_request_review_id": null,
+      "in_reply_to_id": null,
+      "created_at": "2026-11-04T21:14:14Z",
+      "updated_at": "2026-11-04T21:14:14Z",
+      "review": null,
+      "side": null,
+      "line": null,
+      "start_line": null,
+      "path": null
+    },
+    {
+      "url": "https://github.com/ScrollPrize/villa/pull/2446#pullrequestreview-5775899491",
+      "body": "Copilot was unable to review this pull request because the user who requested the review has insufficient remaining quota. Try requesting a review at a lower effort level.\n\nAn organization owner can choose the repository organization as the billing source for reviews requested by members with a paid Copilot license. [Learn about Copilot code review billing](https://docs.github.com/en/copilot/concepts/agents/code-review#code-review-usage). [Review the Copilot code review billing settings](https://github.com/organizations/ScrollPrize/settings/copilot/policies).",
+      "user": {
+        "login": "copilot-pull-request-reviewer[bot]",
+        "name": "copilot-pull-request-reviewer[bot]",
+        "email": null,
+        "id": 175728472
+      },
+      "id": 5775899491,
+      "pull_request_review_id": null,
+      "in_reply_to_id": null,
+      "created_at": "2026-11-04T21:14:19Z",
+      "updated_at": null,
+      "review": "COMMENTED",
+      "side": null,
+      "line": null,
+      "start_line": null,
+      "path": null
+    }
+  ],
+  "display_url": "https://github.com/ScrollPrize/villa/pull/2446",
+  "display_title": "render_ink: composite and scale ink strips without full-size float copies"
+}

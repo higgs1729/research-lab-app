@@ -1,0 +1,54 @@
+{
+  "native_xywh": [
+    1344,
+    1088,
+    672,
+    448
+  ],
+  "atlas_xywh": [
+    1408,
+    1088,
+    256,
+    256
+  ],
+  "native_p50": 0.24696748703718185,
+  "native_p99_5": 0.9250608563423155,
+  "native_raw_range": [
+    0.1303950548171997,
+    0.9374157786369324
+  ],
+  "preview": "fixed native main median to p99.5; raw is unchanged 0..1 scaled to uint8",
+  "atlas_mapping": "R222 exact pixel-centre bilinear sampling from 8.64 to 9.6 um",
+  "R222_render_sha256": {
+    "native-ct.png": "8b19b0c2ae94bed4c445358565d470688b1214b46f7b547e17c2eacbabcbc381",
+    "native-winner.png": "f6c6082c8900bf13821e2f149681624ed215dd3c3d655735e1efc04199fbff74",
+    "native-reader-raw.png": "8921ab450cd7d99e77104d843132b960c556f83aeeab12bc0cdbb135926907c6",
+    "native-reader-median-p995.png": "cacd3416fd75ce37ea9ca5d0a4cfd123f19fe56e99a14635e5aa05a83ec9b264",
+    "atlas-panel-00.png": "6b471c7a5794f78aa355488a2e4062b0093902282abf1beb41e4239d4daf8b3f",
+    "atlas-panel-01.png": "29d716e952464f897924e00427d2229887b7c130f3d57d8adca49900e8976756",
+    "atlas-panel-02.png": "c1ec3bdda9096bafe85245b53b1c3b2891a8706af98faeb1fb5caf75e19387fe",
+    "atlas-panel-03.png": "22826d5d5d579c48d2fe1f79d017b1fadeb69c1fed7ec7463957dee9d80f14b0",
+    "atlas-panel-04.png": "9a48f46f0a4b63130f6f91a79768de4d588a4d6a0c07bc9050c395d935d00b6d",
+    "atlas-panel-05.png": "f6ce044357700887e65182d1458d37df1133ba6324e356f68b0b8bda20076a72",
+    "atlas-panel-06.png": "d40bb9e1a51f2223e9fdfb2063ebe38ff11d3caf31c31b3832c56094592dbc86"
+  },
+  "R222_comparison_receipt_sha256": "a6e51dd264c35fbbc249e04cb5f5af29092555e68928d798d50dfe531cec8f53",
+  "figures": [
+    {
+      "file": "review/native-studio-raw.png",
+      "sha256": "1665f74cb518b0ddef95651d9f8a21fbc43b1f2afb2b5167e5a5859733fc97b2"
+    },
+    {
+      "file": "review/native-studio-median-p995.png",
+      "sha256": "62a552f9bdeecc7564ad1f552d110a6d610fbfb3d9a5e5a01ff60b6357784ebe"
+    },
+    {
+      "file": "review/comparison-native.png",
+      "sha256": "b4c34512876e9ab712f88b7186d12735af783156dc52605244eb309ad51354f9"
+    },
+    {
+      "file": "review/comparison-atlas-256.png",
+      "sha256": "b5d9d8afab40b6fe2e8dba6fdedb87b6fbf6033686f55038b5a161711e92d720"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-11-14T14:34:40.320861+00:00",
+  "source_url": "https://github.com/Nieuwlaar/pherc343-first-letters/blob/e8370f1f88a211166056df62ea6fcfffe4a1063e/mesh/snap_meshes.py",
+  "local_sha256": "417e7ff14d7670917c162180304002aa86733cbc84102d6c47974923a87faeb3",
+  "mode": "independent parent source reading, no execution",
+  "findings": [
+    "Normals use central or one-sided mesh finite differences; motion is along vertex normal, not tangential opacity averaging.",
+    "Binary prediction >0 sampled at rounded nearest voxels across +-15 L0 normal offsets by default; closest run centre is selected, followed by local parabolic adjustment.",
+    "Offset field uses 5x5 median jump rejection >6 vox, normalized Gaussian fill, sigma1 smoothing and +-15 clipping. This does not guarantee physical layer identity or uniqueness.",
+    "A vertex with no predicted run can still move due to neighboring offset fill; only unsupported neighborhoods retain the fitted position. Header no-sheet summary is less precise than implementation.",
+    "Arguments z0/z1 are parsed but not used. Passing a z band will not bound reads or computation.",
+    "Sampling gathers all valid mesh vertices before processing; cropped/local use needs explicit restricted mesh or bounded Zarr acquisition with verified complete support.",
+    "Three adjacent original windings are processed independently; no inter-winding separation/duplicate prevention is implemented.",
+    "The method reads structural surface predictions and never uses ink output. Predictions still need original CT verification."
+  ],
+  "resources": {
+    "new_ct": 0,
+    "model_forward": 0,
+    "paid": 0
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "reviewer": "root",
+  "utc": "2026-11-14T08:10:10.614793+00:00",
+  "cloud_created": 0,
+  "network_calls": 0,
+  "model_forward_calls": 0,
+  "estimate_usd_using_30_day_month": {
+    "0.89": "0.2975925925925925925925925926",
+    "0.90": "0.3009259259259259259259259259"
+  },
+  "reviewed_source_sha256": {
+    "run_once.py": "67d33b4ed960c114e6ee84bdc4d9692b0db67b448a578b26af1465bd5b10f5f3",
+    "pod_boot.py": "780e55b243fd20ee9d70e2ca77280712a81b86cf2b2dc58768f8fd35fe872354",
+    "pod_work.py": "dbfec14c6095b680d0b037e742bfc2fbf2f856090ad8106f05956b3c6aab0380",
+    "run_known.py": "fdb0db45d147f1e3881674cac7bc4803235e10607a28d19e7b30e6b0feb4b02a"
+  },
+  "docker_manifest_config_hash_chain_and_python_torch_history": true,
+  "review": [
+    "Official source and fixed 33x320x320 input, reverse 24 through 9, 81 stride32 patches retained.",
+    "First three saved CPU predictions gate the remaining 78; no warmup, no new CT, no second run.",
+    "Ownership is distinct from requested configuration: wrong configuration can be cleaned up.",
+    "One create POST, preexisting-name check and recorded absolute deadline, no create retry.",
+    "Local admin credential stays local; Pod watchdog uses only provider-injected own-Pod credential.",
+    "Worker drops Pod credential; logs and result archive exclude credentials and input/weight payloads.",
+    "User authorization is still required before approved-run. No payment or execution was authorized by this review."
+  ],
+  "visual_review": {
+    "file": "lead-public-reference.png",
+    "observation": "Published Hecate has high-contrast bright areas at upper center and lower right, broadly corresponding to the existing two models. This is a partial known-control crop, not an independent reading or a new discovery.",
+    "decision": "Useful as a fixed reproduction reference, not evidence of better recognition accuracy."
+  },
+  "unverified": [
+    "Live Pod creation, exec transfer, local-to-remote environment behavior and GPU runtime.",
+    "Pod-scoped credential DELETE authority; a successful GET cannot prove it.",
+    "Provider failures can prevent deletion; USD0.50 and 20 minutes are operational limits, not enforced provider caps.",
+    "Current account credit and auto-reload conditions must be checked before launch without changing them."
+  ],
+  "result": "Preparation is reviewable for one approval request; no claim of a tested cloud run."
+}

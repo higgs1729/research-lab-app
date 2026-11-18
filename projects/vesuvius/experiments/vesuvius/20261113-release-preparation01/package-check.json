@@ -1,0 +1,10 @@
+{
+  "all_root_manifest_files_match": 50,
+  "local_markdown_links_resolve": 48,
+  "broken_links": [],
+  "private_path_or_token_patterns": [],
+  "zip_entries": 51,
+  "zip_bytes": 252769,
+  "zip_sha256": "9117181dc1376b5dbf3c8722e03f661eb15fc26cc7372860bd764afb614004ef",
+  "python_sources_parse": true
+}

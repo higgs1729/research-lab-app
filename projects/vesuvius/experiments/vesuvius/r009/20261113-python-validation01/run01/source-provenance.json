@@ -1,0 +1,42 @@
+{
+  "fixed_main": "0080fa393724575d4f19059d91402757f9351b28",
+  "local_checkout_head": "7ad02f4f6e306b744ef6d2742dfe31fd55713ee5",
+  "files": {
+    "vc_reader/include/vc_reader/zarr_write.hpp": {
+      "local_git_blob": "9b2e88c6189e326673b2bd979b57bbe2cc6c7057",
+      "fixed_main_git_blob": "9b2e88c6189e326673b2bd979b57bbe2cc6c7057",
+      "match": true
+    },
+    "vc_reader/src/cpp/zarr/pyramid.cpp": {
+      "local_git_blob": "610f457a5207539d910a9d9578399b143b539d06",
+      "fixed_main_git_blob": "610f457a5207539d910a9d9578399b143b539d06",
+      "match": true
+    },
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp": {
+      "local_git_blob": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6",
+      "fixed_main_git_blob": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6",
+      "match": true
+    },
+    "vc_reader/src/cpp/bindings.cpp": {
+      "local_git_blob": "51d8ae2071f37f3ef2fc5e5d1a7b2664ded47cff",
+      "fixed_main_git_blob": "51d8ae2071f37f3ef2fc5e5d1a7b2664ded47cff",
+      "match": true
+    },
+    "vc_reader/src/vc_reader/reader/writer.py": {
+      "local_git_blob": "682f4604f0a9bfac6d406bc2efd9e2bddabdde4c",
+      "fixed_main_git_blob": "682f4604f0a9bfac6d406bc2efd9e2bddabdde4c",
+      "match": true
+    },
+    "vc_reader/README.md": {
+      "local_git_blob": "a7c25f8041c3fb52a95b8f69397184d1e3c03ed2",
+      "fixed_main_git_blob": "e7ee9e1f9637433bd4fca82697a44bc377bfb164",
+      "match": false
+    },
+    "vc_reader/tests/test_zarr_writer.py": {
+      "local_git_blob": "f07c79f0a2f9669a5b5b9b1ff82d933b5733245b",
+      "fixed_main_git_blob": "f07c79f0a2f9669a5b5b9b1ff82d933b5733245b",
+      "match": true
+    }
+  },
+  "all_match_fixed_main": false
+}

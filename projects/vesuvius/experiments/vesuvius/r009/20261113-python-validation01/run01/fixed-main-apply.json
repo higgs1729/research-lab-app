@@ -1,0 +1,37 @@
+{
+  "main": "0080fa393724575d4f19059d91402757f9351b28",
+  "patches_in_order": {
+    "crop-guard.patch": "91d92e7cd12b975c4cc8be16d7580ef55d3548a659be772c2cd92bd786a61ee7",
+    "resume-pyramid.patch": "92a703f53ca15787c2912ab9dbd9af18b98176b126b9a7aec9d3c77b2f81556d",
+    "pyramid-metadata.patch": "cca4821117c279939113e773c96c56c19d9d9b42c36bc8f1db1c531af63b9146",
+    "resume-pyramid-python-fixed-main.patch": "e514365be446b64f7c847f17021aa1b5d8158f325ad60b7802dd5484d19046ee"
+  },
+  "all_patches_applied": true,
+  "readme_capability_row_equal": true,
+  "readme_capability_row_before": "| Build pyramids and OME multiscales metadata | `zarr_write.hpp`: `zarr::writePyramid`, `writePyramidLevel`, `createPyramidLevels`, `omeMultiscales` | `zarr/pyramid.cpp` | `write_pyramid`, `write_pyramid_level`, `create_pyramid_levels`, `ome_multiscales` |",
+  "python_patch_only_context_changed": true,
+  "fixed_main_code_matches_build_staging": [
+    "vc_reader/include/vc_reader/zarr_write.hpp",
+    "vc_reader/src/cpp/bindings.cpp",
+    "vc_reader/src/cpp/zarr/pyramid.cpp",
+    "vc_reader/src/vc_reader/reader/writer.py",
+    "vc_reader/tests/test_zarr_writer.py"
+  ],
+  "official_blob_downloads": {
+    "vc_reader/README.md": {
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vc_reader/README.md",
+      "bytes": 104778,
+      "git_blob": "e7ee9e1f9637433bd4fca82697a44bc377bfb164",
+      "sha256": "672c8cae0d6974fc97d3bcf41f748bb76412d472d06dc8bcf2ba74fa867cbad9"
+    }
+  },
+  "result_sha256": {
+    "vc_reader/README.md": "b95a79f38f797ae98671aa5a17f7e0abd79aa158bc99f1f938e990f7b870fc0b",
+    "vc_reader/include/vc_reader/zarr_write.hpp": "7e25215511819d5f4feb0dc9bfd4dc2aee4b4f68a3d7b67621a01abe4f2a4eca",
+    "vc_reader/src/cpp/bindings.cpp": "c299f59d4cc2c45bfa9f79c3ae7a4776de81d94286242916d55602641df70629",
+    "vc_reader/src/cpp/zarr/pyramid.cpp": "1d121c03941ab1b20a10d16cce4c3630cd00ebf85ef395ae795b99c779b8c0e6",
+    "vc_reader/src/vc_reader/reader/writer.py": "54743822522dae0be0ef881c0b81c0fc8925b8de24cd52348376d967ea31150d",
+    "vc_reader/tests/test_zarr_writer.py": "4257a0f061f283e025f940ae63a05e7d995855df2f99befb16e2a405cae2dd14",
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp": "66d96d1e6cdf858e1ab857116ab3d4567d87ecf9c63e1d06c45a4be955d1f8de"
+  }
+}

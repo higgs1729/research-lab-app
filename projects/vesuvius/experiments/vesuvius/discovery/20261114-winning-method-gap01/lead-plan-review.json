@@ -1,0 +1,46 @@
+{
+  "utc": "2026-11-14T13:22:31.580056+00:00",
+  "reviewer": "root",
+  "approved_next_experiment": "One fixed five-map CPU geometric-line ranking trial against brightness ranking; no cloud/model run.",
+  "existing_files_hash_checked": [
+    "20261114-atlas-known-control01/originals/ct.png",
+    "20261114-hecate-known-text-control01/assets/atlas-hecate-reverse.png",
+    "20261114-unreviewed-atlas-face01/originals/ct-mid.png",
+    "20261114-unreviewed-atlas-face01/originals/hecate-9.6-forward.png",
+    "20261114-unreviewed-atlas-face01/originals/reader-v2-forward.png",
+    "20261114-unreviewed-atlas-face01/originals/hecate-9.6-reverse.png",
+    "20261114-unreviewed-atlas-face01/originals/reader-v2-reverse.png",
+    "20261114-next-atlas-surface01/originals/ct-mid.png",
+    "20261114-next-atlas-surface01/originals/hecate-9.6-forward.png",
+    "20261114-next-atlas-surface01/originals/reader-v2-forward.png",
+    "20261114-next-atlas-surface01/originals/hecate-9.6-reverse.png",
+    "20261114-next-atlas-surface01/originals/reader-v2-reverse.png"
+  ],
+  "new_png_planned_bytes": 2084949,
+  "positive_reference": "lead-next-reference.json",
+  "line_detector_sha256": "91b0410894220ac1ddde99cb38fa93c5b1385ea01fc3d130eaa6255a051bbb7a",
+  "plan_sha256": "ce299b782055daa030d404948c732b7bfcfc0b383b7c646af177085a3780ae07",
+  "input_contract_sha256": "a4bc79d100972ca070bcc5226b07e4d2ee5d7eec6d8a7e349f9c717db0e023c8",
+  "limits_accepted": [
+    "9.6um atlas adaptation of8.64um two-model fusion, not original306B lane reproduction.",
+    "CT>0 support/statistics approximation; quality tiles and physical sheet identity unverified.",
+    "No glyph and no crack-score term; no reuse of author calibrated threshold or error rate.",
+    "Known0343 reference exposed, stress maps not ground-truth negatives.",
+    "No retuning if fixed row1 endpoint fails; top3 ranking only."
+  ],
+  "resources": {
+    "new_pngs": 1,
+    "new_reader_v2_png_bytes": 2084949,
+    "network_seconds_cap": 90,
+    "cpu_cores": 1,
+    "process_commit_cap_gib": 4,
+    "compute_wall_cap_seconds": 300,
+    "working_space_cap_mib": 512,
+    "new_ct_voxel_bytes": 0,
+    "new_checkpoint_bytes": 0,
+    "forward_calls": 0,
+    "gpu_jobs": 0,
+    "cloud_estimated_usd": 0,
+    "cost_note": "\u65e2\u5b58Windows CPU\u7d4c\u8def\u3002\u6700\u5927\u4e00\u97626048\u00d72304\u3067float32\u4e00\u9762\u7d0453.2MiB\u3001uint8\u4e00\u9762\u7d0413.3MiB\u3002\u5408\u6210\u3068\u9806\u4f4d\u4ed8\u3051\u306f\u4e00\u9762\u30fb\u4e00\u5411\u304d\u305a\u3064\u51e6\u7406\u3057\u300116 float32\u76f8\u5f53\u3067\u3082\u7d04851MiB\u306e\u753b\u50cf\u914d\u5217\u3002\u5b9f\u969b\u306e\u5019\u88dc\u69cb\u9020\u3092\u542b\u3080\u6700\u5927\u30e1\u30e2\u30ea\u306836\u65b9\u4f4d\u51e6\u7406\u6642\u9593\u306f\u672a\u8a08\u6e2c\u3002commit 4GiB\u30fb\u5408\u8a08300\u79d2\u3067\u505c\u6b62\u3059\u308b\u3002"
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "target_coarse_vertex": 93501,
+  "target_cell_yx": [
+    112,
+    1368
+  ],
+  "target_prepack_uv": [
+    27364.1171875,
+    2256.893310546875
+  ],
+  "eligible_edges": 406809,
+  "selected_fixed_edge": [
+    125725,
+    125726
+  ],
+  "selected_cells_yx": [
+    [
+      128,
+      1366
+    ],
+    [
+      128,
+      1367
+    ]
+  ],
+  "selected_prepack_uv": [
+    [
+      27348.3125,
+      2258.75244140625
+    ],
+    [
+      27374.576171875,
+      2257.323974609375
+    ]
+  ],
+  "edge_distance_uv": 0.9980473932737728,
+  "edge_projection_parameter": 0.6038337181545844,
+  "tied_nearest_edges": [
+    [
+      125725,
+      125726
+    ]
+  ],
+  "selected_edge_incident_faces": [
+    239107,
+    239108,
+    239109,
+    239110,
+    239111,
+    243198,
+    243199,
+    243200,
+    243201,
+    243202
+  ],
+  "added_faces": [
+    243198,
+    243199,
+    243200,
+    243201,
+    243202
+  ],
+  "vertices": 605,
+  "faces": 934,
+  "control_moving": 482,
+  "release_moving": 484,
+  "coarse_points": 13,
+  "charts": [
+    {
+      "vertices": 602,
+      "faces": 933
+    },
+    {
+      "vertices": 3,
+      "faces": 1
+    }
+  ],
+  "boundary_degree_and_vertex_links_manifold": true,
+  "initial_internal_overlap_pairs": 0,
+  "initial_minimum_area": 2.451262932135304,
+  "elapsed_seconds": 1.0951610999763943,
+  "sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\holdout_seed_keep1p5_01\\output.obj_uv_diagnostics.json",
+      "sha256": "b47eaf70e6d7f4423b0e5c6efb56ce36b24ebd688510d49aefad5311a899e853"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-reconcile01\\second\\arrays.npz",
+      "sha256": "9247c744e4c6197aea2fcdc8d4bfe5682c2a3892e4d683373883ec7810595de7"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-local-kernel01\\global02\\arrays.npz",
+      "sha256": "b0133f7360b5d3a68f4a5d3918ae564d26698ef1d9cf50475e970a5f2396f3c9"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-scaf01\\input02\\arrays.npz",
+      "sha256": "b08bf6ff9508ae7a1dede641008aefd6699a8f3ce3b4ebafab9b241de9aba721"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-overlap01\\geometry01\\arrays.npz",
+      "sha256": "5c48c751ea8af5e7ec45a2cc54d6993bd27d70fc443933865c93edc54ed7d203"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-topology-verification01\\verify_topology.py",
+      "sha256": "1091b697b949870e76b7ad1017b6c9314ee091e1fd6c28e9495a17728fd2852b"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-15T06:02:02.420736+00:00",
+  "local_plan_sha256": "905f1293100bb05def8d3e2e3875df27a3971e039d59dd9a7f82e6091b0abc78",
+  "source_full_objects_verified": 83,
+  "prior_objects_byte_exact": 4,
+  "preview_middle_planes_byte_exact": 79,
+  "scientific_changes_from_completed_R219": [
+    "one wider fixed window instead of two windows",
+    "1922 maximum grid instead of 2164",
+    "two orders instead of four case-orders"
+  ],
+  "same_input_CPU6_and_pinned_weights": true,
+  "memory_FIFO_owner_timeout_guards_retained": true,
+  "new_forwards_and_network_calls": 0
+}

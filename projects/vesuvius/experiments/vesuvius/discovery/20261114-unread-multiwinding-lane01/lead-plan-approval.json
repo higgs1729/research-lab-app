@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-14T14:07:38.241867+00:00",
+  "reviewer": "root",
+  "decision": "Approve the next zero-cloud-cost geometry and CT study on the fixed3 PHerc0191 meshes. Conditional future inference is a budgeted outline, to be instantiated after measured support and input size. Runpod authority already delegated by user.",
+  "plan_sha256": "1a905bd714fead3cf2d26212ed7e317808b76a1f03fd9ee5fce2f11481ddf0f3",
+  "independent_evidence": [
+    "lead-prior-coverage-review.json",
+    "lead-hf-fit-readme.md",
+    "lead-hf-fit-readme-source.json",
+    "lead-metadata-check.json",
+    "lead-resource-cost-snapshot.json"
+  ],
+  "pre_observation_revision": "Before any XYZ body or CT intensities were read, changed all3-required to per-face eligibility/dedup. A rejected face must not invalidate a separately supported fixed face. No changes to winding IDs, ray, crop/depth or sampled positions.",
+  "scope_cautions": [
+    "Three mesh indices are not proven3 adjacent physical laminae; preserve uncertainty and avoid double-counting.",
+    "65 percent component threshold is practical input coverage, not calibrated papyrus quality.",
+    "Finite CT samples do not certify an entire19mm arc.",
+    "Computed 1.755316224cm2 per face is nominal image area, not measured distinct papyrus.",
+    "Earlier Hecate340 excludes this0191 fit; other-team unpublished results remain unknown.",
+    "Static future$0.82755 budget is not provider-enforced. Price/credits/auto-pay and archive size rechecked before creating any Pod."
+  ],
+  "next_stage": "Fixed XYZ9 files525366B, at most48 raw128cube uint8 chunks96MiB, CPU1/4GiB/local900s, no models or paid resources. Existing sources and local tools only. Preserve failures without scope rescue."
+}

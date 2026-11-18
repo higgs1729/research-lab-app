@@ -1,0 +1,21 @@
+{
+  "reviewer": "R222 experiment worker",
+  "date_jst": "2026-11-15",
+  "native_main_xywh": [1344, 1088, 672, 448],
+  "atlas_comparison_xywh": [1408, 1088, 256, 256],
+  "viewed": [
+    "review/comparison-native.png",
+    "review/native-reader-raw.png",
+    "review/native-reader-median-p995.png",
+    "review/native-winner.png",
+    "review/comparison-atlas-256.png"
+  ],
+  "shape_observed": [
+    "受賞原図箱9の右寄りに対応して、Reader逆順の生階調にも暗い穴を囲む曲線状の明部がある。左側の箱10にも大きな明部が同じ範囲に出る。",
+    "受賞原図の箱9では曲線の下の明部が分かれている。Readerでは周囲が太く連なり、別の明部として追えない。箱10の二本の上向き終端も同じ位置では分離しない。",
+    "中央値からp99.5の表示では暗い穴と右・左の強い反応が見やすい。両箱の間には淡い接続が残り、終端の判定は改善しない。",
+    "旧256²では公開Readerと自前Readerの右上の穴・中央の曲線・左下の明部位置が対応する。R175のdense-nativeも粗い曲線と暗部を示す。R198 Hecateは強い反応が分離しており、輪を連続して追いにくい。"
+  ],
+  "decision": "既知領域で粗い字画は再現し、既存モデルと異なる反応が観察できた。全体の輪郭、終端、字画分離の改善は確認できなかった。固定既知対照だけから未読探索への優先投入を支持できない。",
+  "record_summary": "Reader V3をPHerc0343受賞面のnative8.64µm・全面支持20patchで一回実行し、公開Readerの粗い字画を再現。受賞原図の明部の分離・終端は再現できず、既知面で可読性向上は未確認。GPU37.345秒、CPU参照最大差1.401e-6、クラウド費US$0。"
+}

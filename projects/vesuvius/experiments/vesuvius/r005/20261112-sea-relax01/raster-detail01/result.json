@@ -1,0 +1,1098 @@
+{
+  "I_vs_N_lost_quad_ids": [
+    94120,
+    97936
+  ],
+  "G_vs_I_recovered_quad_ids": [
+    94119,
+    94120,
+    94121,
+    96027,
+    96029,
+    97935,
+    97936,
+    97937,
+    99844,
+    99845,
+    113285,
+    115241,
+    115243,
+    115244
+  ],
+  "M_vs_N_gained_owned_sample_quads": [
+    101751,
+    103655,
+    109365,
+    109376,
+    109379,
+    115237,
+    115239
+  ],
+  "M_vs_N_lost_owned_sample_quads": [
+    101749,
+    109366,
+    109375,
+    113281,
+    113283
+  ],
+  "cell_details": [
+    {
+      "quad": 94119,
+      "cell_yx": [
+        114,
+        987
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 20.653488730363904,
+        "owned_samples": 0,
+        "nearest_pixel": 374547,
+        "nearest_source_face": 187792,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 9.727089402086838,
+        "owned_samples": 2,
+        "nearest_pixel": 368730,
+        "nearest_source_face": 188239,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 9.17053089435079,
+        "owned_samples": 1,
+        "nearest_pixel": 368730,
+        "nearest_source_face": 188239,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 8.917475055734085,
+        "owned_samples": 1,
+        "nearest_pixel": 368730,
+        "nearest_source_face": 188239,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 94120,
+      "cell_yx": [
+        114,
+        988
+      ],
+      "I_recovery_lost": true,
+      "G": {
+        "distance": 24.851661527532904,
+        "owned_samples": 0,
+        "nearest_pixel": 374548,
+        "nearest_source_face": 187794,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 19.601388963575058,
+        "owned_samples": 0,
+        "nearest_pixel": 365687,
+        "nearest_source_face": 188238,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 22.111031397114093,
+        "owned_samples": 0,
+        "nearest_pixel": 368730,
+        "nearest_source_face": 188239,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 21.979526039585934,
+        "owned_samples": 0,
+        "nearest_pixel": 368730,
+        "nearest_source_face": 188239,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 94121,
+      "cell_yx": [
+        114,
+        989
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 25.067702917041878,
+        "owned_samples": 0,
+        "nearest_pixel": 374550,
+        "nearest_source_face": 187799,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 5.62454349003159,
+        "owned_samples": 1,
+        "nearest_pixel": 368731,
+        "nearest_source_face": 188243,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 7.810667365180492,
+        "owned_samples": 1,
+        "nearest_pixel": 368731,
+        "nearest_source_face": 188243,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 8.638228938308393,
+        "owned_samples": 1,
+        "nearest_pixel": 368731,
+        "nearest_source_face": 188243,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 96027,
+      "cell_yx": [
+        115,
+        987
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 21.901646695764757,
+        "owned_samples": 0,
+        "nearest_pixel": 377591,
+        "nearest_source_face": 191610,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 9.82719795015939,
+        "owned_samples": 1,
+        "nearest_pixel": 371773,
+        "nearest_source_face": 192054,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 8.436004177813167,
+        "owned_samples": 1,
+        "nearest_pixel": 371773,
+        "nearest_source_face": 192055,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 7.875531878987211,
+        "owned_samples": 1,
+        "nearest_pixel": 371773,
+        "nearest_source_face": 192055,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 96029,
+      "cell_yx": [
+        115,
+        989
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 22.76909081868631,
+        "owned_samples": 0,
+        "nearest_pixel": 377593,
+        "nearest_source_face": 191614,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 1.649483850334158,
+        "owned_samples": 1,
+        "nearest_pixel": 371774,
+        "nearest_source_face": 192059,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 7.278299194207028,
+        "owned_samples": 1,
+        "nearest_pixel": 371774,
+        "nearest_source_face": 192059,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 7.364515900246951,
+        "owned_samples": 1,
+        "nearest_pixel": 371774,
+        "nearest_source_face": 192059,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 97935,
+      "cell_yx": [
+        116,
+        987
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 21.910247738188627,
+        "owned_samples": 0,
+        "nearest_pixel": 380634,
+        "nearest_source_face": 195425,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 16.20487911159173,
+        "owned_samples": 0,
+        "nearest_pixel": 374816,
+        "nearest_source_face": 195869,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 14.029828537361542,
+        "owned_samples": 0,
+        "nearest_pixel": 374816,
+        "nearest_source_face": 195869,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 14.270465953230103,
+        "owned_samples": 0,
+        "nearest_pixel": 374816,
+        "nearest_source_face": 195869,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 97936,
+      "cell_yx": [
+        116,
+        988
+      ],
+      "I_recovery_lost": true,
+      "G": {
+        "distance": 22.257335858833333,
+        "owned_samples": 0,
+        "nearest_pixel": 380635,
+        "nearest_source_face": 195427,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 19.220222848090497,
+        "owned_samples": 0,
+        "nearest_pixel": 374817,
+        "nearest_source_face": 195874,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 20.32641017241167,
+        "owned_samples": 0,
+        "nearest_pixel": 374817,
+        "nearest_source_face": 195874,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 20.815932833008638,
+        "owned_samples": 0,
+        "nearest_pixel": 374817,
+        "nearest_source_face": 195874,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 97937,
+      "cell_yx": [
+        116,
+        989
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 21.160985256928594,
+        "owned_samples": 0,
+        "nearest_pixel": 380636,
+        "nearest_source_face": 195429,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 3.5634579463314613,
+        "owned_samples": 1,
+        "nearest_pixel": 374817,
+        "nearest_source_face": 195874,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 5.163834735980922,
+        "owned_samples": 1,
+        "nearest_pixel": 374817,
+        "nearest_source_face": 195874,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 3.430674600408556,
+        "owned_samples": 1,
+        "nearest_pixel": 374817,
+        "nearest_source_face": 195874,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 99844,
+      "cell_yx": [
+        117,
+        988
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 21.34566501481742,
+        "owned_samples": 0,
+        "nearest_pixel": 383678,
+        "nearest_source_face": 199243,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 13.871323200101697,
+        "owned_samples": 0,
+        "nearest_pixel": 377860,
+        "nearest_source_face": 199690,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 12.887439708483123,
+        "owned_samples": 0,
+        "nearest_pixel": 377860,
+        "nearest_source_face": 199690,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 13.617067574789841,
+        "owned_samples": 0,
+        "nearest_pixel": 377860,
+        "nearest_source_face": 199690,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 99845,
+      "cell_yx": [
+        117,
+        989
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 20.318310210430578,
+        "owned_samples": 0,
+        "nearest_pixel": 383679,
+        "nearest_source_face": 199245,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 8.187587701395113,
+        "owned_samples": 1,
+        "nearest_pixel": 377860,
+        "nearest_source_face": 199690,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 10.61642650957004,
+        "owned_samples": 1,
+        "nearest_pixel": 377860,
+        "nearest_source_face": 199690,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 7.045168503234955,
+        "owned_samples": 1,
+        "nearest_pixel": 377860,
+        "nearest_source_face": 199690,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 101749,
+      "cell_yx": [
+        118,
+        985
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 14.527919334770104,
+        "owned_samples": 0,
+        "nearest_pixel": 380903,
+        "nearest_source_face": 203497,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "I": {
+        "distance": 8.382530592509317,
+        "owned_samples": 1,
+        "nearest_pixel": 380902,
+        "nearest_source_face": 203499,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 8.451192738115175,
+        "owned_samples": 1,
+        "nearest_pixel": 380902,
+        "nearest_source_face": 203498,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 10.977277902795652,
+        "owned_samples": 0,
+        "nearest_pixel": 380902,
+        "nearest_source_face": 203497,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 101751,
+      "cell_yx": [
+        118,
+        987
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 18.168649890551357,
+        "owned_samples": 0,
+        "nearest_pixel": 389764,
+        "nearest_source_face": 206874,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 18.168649890551357,
+        "owned_samples": 0,
+        "nearest_pixel": 389764,
+        "nearest_source_face": 206874,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "M": {
+        "distance": 16.411348309814457,
+        "owned_samples": 0,
+        "nearest_pixel": 383946,
+        "nearest_source_face": 203504,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 11.044714100887731,
+        "owned_samples": 1,
+        "nearest_pixel": 386989,
+        "nearest_source_face": 203503,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 103655,
+      "cell_yx": [
+        119,
+        983
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 3.7823450398424217,
+        "owned_samples": 1,
+        "nearest_pixel": 383945,
+        "nearest_source_face": 207311,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "I": {
+        "distance": 10.597547419488738,
+        "owned_samples": 2,
+        "nearest_pixel": 386987,
+        "nearest_source_face": 207311,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 14.680895430833202,
+        "owned_samples": 0,
+        "nearest_pixel": 392803,
+        "nearest_source_face": 206865,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "N": {
+        "distance": 7.06693011672713,
+        "owned_samples": 1,
+        "nearest_pixel": 383945,
+        "nearest_source_face": 207311,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 109365,
+      "cell_yx": [
+        122,
+        969
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 7.79587474887732,
+        "owned_samples": 1,
+        "nearest_pixel": 401919,
+        "nearest_source_face": 218406,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 7.79587474887732,
+        "owned_samples": 0,
+        "nearest_pixel": 401919,
+        "nearest_source_face": 218406,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "M": {
+        "distance": 7.79587474887732,
+        "owned_samples": 0,
+        "nearest_pixel": 401919,
+        "nearest_source_face": 218406,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "N": {
+        "distance": 7.79587474887732,
+        "owned_samples": 1,
+        "nearest_pixel": 401919,
+        "nearest_source_face": 218406,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      }
+    },
+    {
+      "quad": 109366,
+      "cell_yx": [
+        122,
+        970
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 6.077018394347746,
+        "owned_samples": 1,
+        "nearest_pixel": 401920,
+        "nearest_source_face": 218408,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 6.077018394347746,
+        "owned_samples": 1,
+        "nearest_pixel": 401920,
+        "nearest_source_face": 218408,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "M": {
+        "distance": 6.077018394347746,
+        "owned_samples": 1,
+        "nearest_pixel": 401920,
+        "nearest_source_face": 218408,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "N": {
+        "distance": 6.077018394347746,
+        "owned_samples": 0,
+        "nearest_pixel": 401920,
+        "nearest_source_face": 218408,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      }
+    },
+    {
+      "quad": 109375,
+      "cell_yx": [
+        122,
+        985
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 2.3601309571020526,
+        "owned_samples": 1,
+        "nearest_pixel": 393072,
+        "nearest_source_face": 218750,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "I": {
+        "distance": 5.714452996457035,
+        "owned_samples": 1,
+        "nearest_pixel": 393068,
+        "nearest_source_face": 218751,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 7.174599422230476,
+        "owned_samples": 1,
+        "nearest_pixel": 393068,
+        "nearest_source_face": 218751,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 9.983496837211263,
+        "owned_samples": 0,
+        "nearest_pixel": 393068,
+        "nearest_source_face": 218752,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 109376,
+      "cell_yx": [
+        122,
+        986
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 8.347524975051046,
+        "owned_samples": 0,
+        "nearest_pixel": 401935,
+        "nearest_source_face": 218427,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 8.347524975051046,
+        "owned_samples": 0,
+        "nearest_pixel": 401935,
+        "nearest_source_face": 218427,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "M": {
+        "distance": 8.347524975051046,
+        "owned_samples": 0,
+        "nearest_pixel": 401935,
+        "nearest_source_face": 218427,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "N": {
+        "distance": 7.817115898507797,
+        "owned_samples": 1,
+        "nearest_pixel": 393068,
+        "nearest_source_face": 218752,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 109379,
+      "cell_yx": [
+        122,
+        989
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 8.600384767149786,
+        "owned_samples": 0,
+        "nearest_pixel": 401938,
+        "nearest_source_face": 218433,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 8.600384767149786,
+        "owned_samples": 1,
+        "nearest_pixel": 401938,
+        "nearest_source_face": 218433,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "M": {
+        "distance": 8.600384767149786,
+        "owned_samples": 0,
+        "nearest_pixel": 401938,
+        "nearest_source_face": 218433,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "N": {
+        "distance": 8.600384767149786,
+        "owned_samples": 1,
+        "nearest_pixel": 401938,
+        "nearest_source_face": 218433,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      }
+    },
+    {
+      "quad": 113281,
+      "cell_yx": [
+        124,
+        973
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 8.616444163542113,
+        "owned_samples": 1,
+        "nearest_pixel": 399151,
+        "nearest_source_face": 226562,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "I": {
+        "distance": 12.408419074436031,
+        "owned_samples": 0,
+        "nearest_pixel": 396106,
+        "nearest_source_face": 222651,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 12.653971836421537,
+        "owned_samples": 1,
+        "nearest_pixel": 396106,
+        "nearest_source_face": 222651,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 11.887800296904938,
+        "owned_samples": 0,
+        "nearest_pixel": 396106,
+        "nearest_source_face": 222651,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 113283,
+      "cell_yx": [
+        124,
+        975
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 5.856532660273903,
+        "owned_samples": 1,
+        "nearest_pixel": 399153,
+        "nearest_source_face": 226566,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "I": {
+        "distance": 10.608334527696258,
+        "owned_samples": 0,
+        "nearest_pixel": 399150,
+        "nearest_source_face": 230478,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 9.79939939690048,
+        "owned_samples": 1,
+        "nearest_pixel": 399150,
+        "nearest_source_face": 226567,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 11.21253991139181,
+        "owned_samples": 0,
+        "nearest_pixel": 399150,
+        "nearest_source_face": 230478,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 113285,
+      "cell_yx": [
+        124,
+        977
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 20.305352867008317,
+        "owned_samples": 0,
+        "nearest_pixel": 396112,
+        "nearest_source_face": 222659,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "I": {
+        "distance": 9.855450564400568,
+        "owned_samples": 1,
+        "nearest_pixel": 399151,
+        "nearest_source_face": 226571,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 9.55268109115063,
+        "owned_samples": 1,
+        "nearest_pixel": 399151,
+        "nearest_source_face": 226570,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 9.281309315864394,
+        "owned_samples": 1,
+        "nearest_pixel": 399151,
+        "nearest_source_face": 226570,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 115237,
+      "cell_yx": [
+        125,
+        973
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 8.189369092510608,
+        "owned_samples": 1,
+        "nearest_pixel": 402195,
+        "nearest_source_face": 230475,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "I": {
+        "distance": 13.604131803503195,
+        "owned_samples": 0,
+        "nearest_pixel": 399149,
+        "nearest_source_face": 226565,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 13.343558721321614,
+        "owned_samples": 0,
+        "nearest_pixel": 399149,
+        "nearest_source_face": 226563,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 12.249862545139969,
+        "owned_samples": 1,
+        "nearest_pixel": 399149,
+        "nearest_source_face": 230475,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 115239,
+      "cell_yx": [
+        125,
+        975
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 9.66831356878628,
+        "owned_samples": 1,
+        "nearest_pixel": 402196,
+        "nearest_source_face": 230478,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "I": {
+        "distance": 10.032335688501483,
+        "owned_samples": 1,
+        "nearest_pixel": 399150,
+        "nearest_source_face": 230478,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 10.71387686019237,
+        "owned_samples": 0,
+        "nearest_pixel": 399150,
+        "nearest_source_face": 226567,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 9.303637733824148,
+        "owned_samples": 1,
+        "nearest_pixel": 399150,
+        "nearest_source_face": 230478,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 115241,
+      "cell_yx": [
+        125,
+        977
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 24.73878691877934,
+        "owned_samples": 0,
+        "nearest_pixel": 411058,
+        "nearest_source_face": 230148,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 9.610228213175779,
+        "owned_samples": 1,
+        "nearest_pixel": 402194,
+        "nearest_source_face": 230483,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 9.247825604805804,
+        "owned_samples": 1,
+        "nearest_pixel": 402194,
+        "nearest_source_face": 230483,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 9.247825604805804,
+        "owned_samples": 1,
+        "nearest_pixel": 402194,
+        "nearest_source_face": 230483,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 115243,
+      "cell_yx": [
+        125,
+        985
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 20.344341098365824,
+        "owned_samples": 0,
+        "nearest_pixel": 411064,
+        "nearest_source_face": 230161,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 9.751084255756561,
+        "owned_samples": 1,
+        "nearest_pixel": 402195,
+        "nearest_source_face": 230486,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 9.434082788424236,
+        "owned_samples": 1,
+        "nearest_pixel": 402195,
+        "nearest_source_face": 230486,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 8.11726495446085,
+        "owned_samples": 1,
+        "nearest_pixel": 402195,
+        "nearest_source_face": 230486,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 115244,
+      "cell_yx": [
+        125,
+        986
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 21.35812283199842,
+        "owned_samples": 0,
+        "nearest_pixel": 411065,
+        "nearest_source_face": 230163,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 5.3321007154641755,
+        "owned_samples": 1,
+        "nearest_pixel": 405238,
+        "nearest_source_face": 230489,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 7.279029472297271,
+        "owned_samples": 1,
+        "nearest_pixel": 405238,
+        "nearest_source_face": 230489,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 7.488417160540007,
+        "owned_samples": 1,
+        "nearest_pixel": 405238,
+        "nearest_source_face": 230489,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    }
+  ],
+  "rejections": {
+    "I": {
+      "total": 497,
+      "involving_subject": 4
+    },
+    "M": {
+      "total": 493,
+      "involving_subject": 0
+    },
+    "N": {
+      "total": 493,
+      "involving_subject": 0
+    }
+  },
+  "M_vs_N_rejections_disappeared": 0,
+  "M_vs_N_rejections_new": 0,
+  "M_vs_N_owner_changed_pixels": 15,
+  "elapsed_seconds": 0.7358238000306301
+}

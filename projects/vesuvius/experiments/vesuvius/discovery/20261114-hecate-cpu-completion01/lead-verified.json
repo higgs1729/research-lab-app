@@ -1,0 +1,63 @@
+{
+  "reviewer": "root",
+  "model_forward_calls": 0,
+  "gpu_operations": 0,
+  "new_download_bytes": 0,
+  "wrapper_hashes_match_before_launch": true,
+  "supervisor": {
+    "argv": [
+      "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "-u",
+      "C:\\dev\\kensyoukin\\tools\\research\\run_windows.py",
+      "infer-process.json",
+      "run_cpu.py",
+      "53051.9851101"
+    ],
+    "started_utc": "2026-11-14T08:33:22.318578+00:00",
+    "deadline_seconds": 4500,
+    "initial_available_ram_bytes": 15863070720,
+    "system_cpu_percent_1s": 9.3,
+    "pid": 38548,
+    "reason": "child_exit",
+    "exit_code": 0,
+    "elapsed_seconds": 417.9935905999955,
+    "min_observed_available_ram_bytes": 14448824320,
+    "completed_utc": "2026-11-14T08:40:20.312005+00:00"
+  },
+  "status": "completed",
+  "checked_inputs": 81,
+  "checked_probability_values": 331776,
+  "independent_cpu_parity": [
+    {
+      "index": 1,
+      "mae": 0.0,
+      "max_abs_diff": 0.0,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "mae": 0.0,
+      "max_abs_diff": 0.0,
+      "passed": true
+    },
+    {
+      "index": 3,
+      "mae": 0.0,
+      "max_abs_diff": 0.0,
+      "passed": true
+    }
+  ],
+  "output_values_bit_identical_to_independent_aggregation": 102400,
+  "output_raw_sha256": "1384add775327ee070dd60f2b193da79b7c6e7fa8c2e17fef085f51253d7b2d5",
+  "main_roi_global_xywh": [
+    1408,
+    1088,
+    256,
+    256
+  ],
+  "hecate_local_public_mae_dn": 36.238922119140625,
+  "hecate_local_public_correlation": 0.6882555558804403,
+  "main_roi_values": 65536,
+  "scope": "Known control reproduction; correlation is not recognition accuracy."
+}

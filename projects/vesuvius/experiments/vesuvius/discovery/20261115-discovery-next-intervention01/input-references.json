@@ -1,0 +1,120 @@
+{
+  "as_of_utc": "2026-11-15T07:42:23.682750+00:00",
+  "sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\179-known-text-neighbour-selection.md",
+      "bytes": 8210,
+      "sha256": "aeca8c256613a99dd794f905e15e4e6392a4260e6d5df7edc45698da1b4b3871",
+      "kind": "prior registered research; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\180-pherc0343-edge-sheet-probes.md",
+      "bytes": 7227,
+      "sha256": "257670c7f0c75af7ac43cdf7a230edc149138278d971c84c6ee06603ea024011",
+      "kind": "prior registered research; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\198-hecate-crop-before-reverse-control.md",
+      "bytes": 5959,
+      "sha256": "7b6072461eb4c83d9ff724fda3c1b3693d6f422c73d464cb086c56348e3bd28f",
+      "kind": "prior registered research; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\210-winning-method-gap-selection.md",
+      "bytes": 7460,
+      "sha256": "bc59b5e5691528aaeda68482c435e390ee627d5d478fdaae9a4cf51fa3ae2a59",
+      "kind": "prior registered research; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\211-fixed-line-priority-trial.md",
+      "bytes": 7109,
+      "sha256": "530a738703bf00dc3268f65192f03e4f9a3fbabec15504d4505f511e6caf0c4a",
+      "kind": "prior registered research; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\215-predicted-sheet-snap-feasibility.md",
+      "bytes": 5000,
+      "sha256": "7237e2eb93d1d67bd800812f2bb64a0fdcc55e5328b9c1bd8a5c70712f367639",
+      "kind": "prior registered research; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\216-m7-snap-known-control-and-local-ct.md",
+      "bytes": 5884,
+      "sha256": "d84f0b5818db171255206876abdfcd3ddea45af6b0967cd37c9701a944dca2d2",
+      "kind": "prior registered research; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\217-pherc0191-fixed-pair-ink-exploration.md",
+      "bytes": 7808,
+      "sha256": "4772b39f0c962b953c9cb97547d8a12c8b8a7bd466b2d2278d81d23ce3d8a17f",
+      "kind": "prior registered research; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\220-next-contiguous-unread-window.md",
+      "bytes": 9318,
+      "sha256": "d53db6a42ee7183a12143a0c884b70cd171c6d65c9cf8bba89531ee128ec66d3",
+      "kind": "prior registered research; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\221-pherc0813-wide-public-prediction-review.md",
+      "bytes": 10168,
+      "sha256": "1f40c03dde06120256460735cfbdd271803462add32d122321af7a060b1cd969",
+      "kind": "prior registered research; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\222-reader-v3-supported-known-control.md",
+      "bytes": 10810,
+      "sha256": "f762666a27d576ad6aaf7274d5785a4f633e8a71b12b11704527aa0580161e43",
+      "kind": "prior registered research; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\223-reader-v3-pherc0800-fixed-window.md",
+      "bytes": 12598,
+      "sha256": "d0b6a9b746cfdcb5d34e235e458bd11a858612a8d19e3f417e7292781956e28d",
+      "kind": "prior registered research; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-winning-method-gap01\\originals\\306b-method.md",
+      "bytes": 13290,
+      "sha256": "565ba85f44519939b7d3d6114360e24c9d88119cf1d3f1467af3d1031e09055a",
+      "kind": "reused primary evidence; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-winning-method-gap01\\originals\\306b-readme.md",
+      "bytes": 9269,
+      "sha256": "390af649890247fdba69aca7ec21e5eda922e2772ba5e505dbf1ff9007b38cdd",
+      "kind": "reused primary evidence; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-winning-method-gap01\\originals\\306b-models.md",
+      "bytes": 4283,
+      "sha256": "0d1110ed13095509fdd0b8de06533b1ec5483d7270c79c55966f0377d61be282",
+      "kind": "reused primary evidence; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-winning-method-gap01\\originals\\306b-tree.json",
+      "bytes": 149223,
+      "sha256": "d0b37dbc05fbdb05d4fb86ac057ad1031dd54d73d5619b2058f71a79177ab49d",
+      "kind": "reused primary evidence; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-reader-v3-known-control01\\review\\comparison-native.png",
+      "bytes": 783994,
+      "sha256": "a6733197ae494d9ee0680eb6e1c378d7fd66319895974bbdcf73d26f1495a496",
+      "kind": "reused primary evidence; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-reader-v3-known-control01\\review\\comparison-atlas-256.png",
+      "bytes": 266891,
+      "sha256": "c34e50bcd7dea00ea62efc67a5824cd879af1be620d185899cd7d241d27b1b60",
+      "kind": "reused primary evidence; read-only"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-reader-v3-pherc0800-fixed01\\review\\native-quadrant-00.png",
+      "bytes": 423197,
+      "sha256": "fd1fab78c1bf166649a8ea8b99dda1678bd4a8bdfd617dc7e9670d83df0c02e3",
+      "kind": "reused primary evidence; read-only"
+    }
+  ],
+  "monthly_snapshot": "prior-current-status.txt"
+}

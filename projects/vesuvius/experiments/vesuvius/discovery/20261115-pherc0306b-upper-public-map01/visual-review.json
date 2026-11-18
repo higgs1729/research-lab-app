@@ -1,0 +1,33 @@
+{
+  "reviewer": "r225_upper_public_map / gpt-6.1-sol / high",
+  "date_jst": "2026-11-15",
+  "observation": "Native tiles sent to parent before this verdict. Agent observed known and upper shapes before receiving the parent's message with a summary of its separately frozen judgement. The parent had not read the agent verdict when it froze its own review.",
+  "viewed": {
+    "known_control": "TRACE and Reader auxiliary t00 through t04, raw Reader t01/t02, CT t02, and R224 published claim-centre crop; overviews used for location.",
+    "upper_test": "Both models in raw and auxiliary t00 through t04, CT t00/t01, and R224 upper claim/TRACE published native crops."
+  },
+  "known_control": {
+    "decision": "Pass for coarse structure and placement.",
+    "observations": [
+      "t01: the compact upright near local x300 and broader crossing/upright and lower horizontal near x420..760 remain in position. Reader broadens and bridges components that TRACE separates more strongly.",
+      "t02: the right-of-centre ring with a dark cavity in the probability views remains in position around x210..460, y300..590. It corresponds to the known line-1 position 8 box, whose published XYWH is [4202,1778,261,296]. Reader thickens the rim and connects it to the bright arm at its left. The group remains visible in raw0..1.",
+      "Far-right known t03/t04 broad shallow responses and lower row are auxiliary observations; no character-level recovery asserted."
+    ]
+  },
+  "upper_test": {
+    "decision": "Retain one part of the preselected upper group for local original CT or an independent surface check.",
+    "candidate_count": 1,
+    "agent_candidate_raw_xyxy_half_open": [3424, 3424, 4160, 3824],
+    "agent_candidate_upper_display_xyxy_half_open": [992, 208, 1728, 608],
+    "candidate_scope": "Rounded visual envelope of the left bend and adjacent right components only, within the frozen preselected upper support. This is a carrier rectangle, neither a traced mask nor a CT XYZ box.",
+    "observations": [
+      "t00/t01: around t01 x0..335 and display y330..575, TRACE shows the bent upright at left, short separated lower components, and a small upper/right lobe. Reader follows the left bend, connects the strongest upper and lower-left lobes and extends a much more continuous lower bar around a dark centre. The right side of the cavity remains weak or interrupted. This extra organization is visible in raw0..1 and the shared auxiliary view.",
+      "t01 x400..680 and y220..570: Reader broadly preserves the paired lower peaks with the right-hand shoulder/stub extending upward, and a higher lobe near x650. TRACE gives more scattered peaks with a different relative strength and a weaker connector. This is adjacent spatial support rather than confirmation of a second glyph.",
+      "The derived CT near the left bend shows a dark vertical gap and crosswise fibres; they do not outline every component. Common geometry/texture errors and learned smoothing/bridging remain plausible. The gate does not use dark CT overlap or pixel equality.",
+      "The lower three-peak island in t01 has peaks in both maps but no stable stroke continuation. The t02/t03 lower cross-tile cluster and right-edge t04 isolated responses do not show an arrangement comparable to the selected group."
+    ]
+  },
+  "confirmed_new_letters": 0,
+  "same_physical_lamina": "unverified",
+  "prior_reading_and_novelty": "Upper response already public; exhaustive novelty, prior entrant readings and training exposure not established. TRACE and the claim view are dependent."
+}

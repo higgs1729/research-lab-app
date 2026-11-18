@@ -1,0 +1,37 @@
+{
+  "atlas_revision": "ac5ffd7098120368216948c4e06c494bf8e67178",
+  "date_jst": "2026-11-14",
+  "candidate_rule": "One representative per requested scroll, first face in the saved atlas index order, fixed before requesting any candidate metadata or images. No ranking of the other eight indexed faces.",
+  "official_check": "Fresh official First Letters list, Winners and three Data Browser bodies are saved in candidates/. All three candidates' listed volumes match their atlas L0 roots. No matching winner entries identified for these scrolls in the official Winners page; independent reading history and training exposure remain incomplete.",
+  "candidates": [
+    {
+      "face": "PHerc0175B_3024_3577_11121",
+      "official_volume": "20250521125822",
+      "atlas_rendered_pixels": 3640464,
+      "atlas_missing_ct_chunks": 0,
+      "atlas_sheet_fraction": 1.0,
+      "centre_models_both_orders": 7,
+      "atlas_alive_models": 7
+    },
+    {
+      "face": "PHerc0268_2704_5907_7421",
+      "official_volume": "20251110183117",
+      "atlas_rendered_pixels": 3640464,
+      "atlas_missing_ct_chunks": 0,
+      "atlas_sheet_fraction": 0.069,
+      "centre_models_both_orders": 7,
+      "atlas_alive_models": 7
+    },
+    {
+      "face": "PHerc0483A_3155_3610_11128",
+      "official_volume": "20250521140913",
+      "atlas_rendered_pixels": 3640464,
+      "atlas_missing_ct_chunks": 0,
+      "atlas_sheet_fraction": 0.172,
+      "centre_models_both_orders": 7,
+      "atlas_alive_models": 6
+    }
+  ],
+  "selected": "PHerc0175B_3024_3577_11121",
+  "reason": "The three fixed representatives have identical native dimensions, render coverage, seven centre model pairs, and zero reported missing CT chunks. Select the PHerc0175B face for its higher atlas sheet-mask fraction and all seven model liveness flags. This selects a comparison surface, without using the metadata as letter evidence. Assess material quality and stroke shape using the original images."
+}

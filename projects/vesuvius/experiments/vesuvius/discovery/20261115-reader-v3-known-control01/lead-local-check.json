@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-11-15T06:47:11.315740+00:00",
+  "local_plan_sha256": "f25584801c55ca8b1a5953a8438c394acfa72e436331d7299dd58cb8eef9a143",
+  "input_check_sha256": "20344b8c3653dfaf52c5f15c80d4b26e54dd13374edb3ecf1ceeb7445075ee39",
+  "fixed_files_checked": 16,
+  "borrowed_files_checked": 186,
+  "isolated_dependency_files_checked": 547,
+  "corrected_CLI_parse_verified_without_GPU": true,
+  "status": {
+    "requested_utc": "2026-11-15T06:47:02.783108+00:00",
+    "observed_utc": "2026-11-15T06:47:11.315435+00:00",
+    "vram_total_gib": 8.0,
+    "vram_used_gib": 1.35,
+    "available_physical_bytes": 12438487040,
+    "c_free_bytes": 14938914816,
+    "lane_available_ram_gib": 11.6,
+    "margins": {
+      "vram_gb": 1.0,
+      "mem_gb": 4.0
+    },
+    "jobs": [],
+    "tickets": [],
+    "reservation": null,
+    "comfy_running": false,
+    "gpu_stuck": null
+  },
+  "scientific_review": "Official make_model/config, strict complete weights, TargetHeadWrapper, whole raw 17 reverse layers per patch, robust_mad defaults, full-support 384/192 global phase, sigmoid and Hann, fp32/no TTA. CPU 2.14.0+cpu vs GPU 2.13.0+cu130 parity must pass 1e-4.",
+  "resource_review": "Existing FIFO/Job/MemGuard and 120/600/780 supervisor reused. Shim refuses Comfy stop calls; worker rejects newly observed Comfy and only own PID is killed on timeout. No cloud launch.",
+  "new_model_calls": 0
+}

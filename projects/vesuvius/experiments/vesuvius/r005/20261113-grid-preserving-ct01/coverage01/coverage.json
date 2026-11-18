@@ -1,0 +1,81 @@
+{
+  "plan_sha256": "233a8a7c7e8adbc5a828950be3f7f98e2ea309f008c3f48f2f4c9113e98062f2",
+  "geometry_seconds": 0.9636191399999996,
+  "ct_file_sha256": {
+    "0/16/22/26": "e4a6ed84f07f4c897c7f17a47f7de957893a4d56c1ce122605127c791b1aba96",
+    "0/16/23/26": "e1113982e93e71df67d64dacb55548e26799477f6a0f9b3ccfa90390d31089fa",
+    "0/16/23/27": "e946f91f75b00b2d814d81460e026c1f825cb5c56b255e3c8b63a267bc25bca2",
+    "0/17/22/26": "868535ed1ba25950cdc8154a200def314d8816acc734715b77b2b6c9a004d14d",
+    "0/17/22/27": "4146f0e73682440052c11f20259d9d4e6e7288b630325872e3ff6af21583bf5e",
+    "0/17/23/26": "33dd9e0ffea2a4b0a82f21af23774920e763cf81ff405edf8c3fdb1a47cbcb78",
+    "0/17/23/27": "c03b62c14c07c00b20d309260879d58dd2f5a144217cea3af692b8c8ddd9a8ef",
+    "0/18/23/26": "f8fcb67c494b8930a6e3a4e5002040c6cd7292f90486f44ce546297d0dca10e7",
+    "0/19/23/25": "54fbe5ad1205a91d08505f814b361cdff8efb75827e200d180467c39ccc7221f",
+    "0/19/23/26": "3e0eddb2d697300a71b67a9cbdf0fc3e47bb2e9f901a54048c03fc7566a61661",
+    "0/.zarray": "acad9dbc41bf7c9b5b983cdfd802308691e427ebb1a1a675561df717d50332a0",
+    ".zattrs": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+    ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+    "metadata.json": "7db0a497ed78165a17b681debacd40e6fadd99326aed8423b9e337007cad4b92"
+  },
+  "saved_ct_bytes": 20971520,
+  "rois": {
+    "before": {
+      "geometry_sha256": "128d1a6b3217769bdb9c5844755d0e9aefb3f8137f2ca86753eaeea73a6c68bc",
+      "raster_header": [
+        371.4250055346638,
+        118.9250017721206,
+        0.05000000074505806,
+        0.05000000074505806,
+        64,
+        64
+      ],
+      "samples": 20480,
+      "conservative_0p001_voxel_halo_keys": [
+        "0/16/22/26",
+        "0/16/23/26",
+        "0/17/22/26",
+        "0/17/23/26",
+        "0/18/23/26",
+        "0/19/23/25",
+        "0/19/23/26"
+      ],
+      "missing_keys": []
+    },
+    "component0": {
+      "geometry_sha256": "e4e7998bcebf63c4ded676665be6055634af5dfe8e0afc953e7eb7dc33aa952c",
+      "raster_header": [
+        369.4250055048615,
+        118.9250017721206,
+        0.05000000074505806,
+        0.05000000074505806,
+        64,
+        64
+      ],
+      "samples": 7040,
+      "conservative_0p001_voxel_halo_keys": [
+        "0/19/23/25",
+        "0/19/23/26"
+      ],
+      "missing_keys": []
+    },
+    "component2": {
+      "geometry_sha256": "1c0ed02eeef9a9163c4eb94343bbabf409f34a21fa11c021a5fad178926f7bbd",
+      "raster_header": [
+        430.4250064138323,
+        118.9250017721206,
+        0.05000000074505806,
+        0.05000000074505806,
+        64,
+        64
+      ],
+      "samples": 7040,
+      "conservative_0p001_voxel_halo_keys": [
+        "0/16/22/26",
+        "0/16/23/26",
+        "0/17/22/26",
+        "0/17/23/26"
+      ],
+      "missing_keys": []
+    }
+  }
+}

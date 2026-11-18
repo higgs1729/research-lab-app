@@ -1,0 +1,110 @@
+{
+  "figure": "20261115-pherc0211-adjacent-context01\\lead-article-images\\01-df0636eb-eceb-4f71-a0ae-425402c647dc_1863x407.png",
+  "figure_sha256": "055b9614e307bc315f9edc47cbeb3a08c433c7a0a1c6fbc380b8c108a85e39f3",
+  "figure_shape": [
+    407,
+    1863,
+    3
+  ],
+  "blocks_xyxy": [
+    [
+      320,
+      22,
+      672,
+      140
+    ],
+    [
+      720,
+      22,
+      1072,
+      140
+    ],
+    [
+      1130,
+      22,
+      1482,
+      140
+    ]
+  ],
+  "method": "NCC of grayscale highpass texture at scales .285–.325; fig01 pixel blocks exclude green border.",
+  "comparison": {
+    "v6-line2": {
+      "zip": "20261115-pherc0211-adjacent-context01\\sources\\v6-line2-mesh.zip",
+      "member": "mesh/raw-ct.png",
+      "member_sha256": "e4b17a4a2ba16be11807dc6b99e7a3461abaf967ac0009aad7773d6ad26a32b4",
+      "shape": [
+        600,
+        6060
+      ],
+      "dtype": "uint8",
+      "matches": [
+        {
+          "ncc": 0.10716845840215683,
+          "scale": 0.308,
+          "native_offset_estimate_uv": [
+            -113.63636363636364,
+            120.12987012987013
+          ],
+          "second_spatially_separated_at_winning_scale": 0.052219826728105545
+        },
+        {
+          "ncc": 0.42488986253738403,
+          "scale": 0.305,
+          "native_offset_estimate_uv": [
+            -104.91803278688525,
+            127.8688524590164
+          ],
+          "second_spatially_separated_at_winning_scale": 0.06609133630990982
+        },
+        {
+          "ncc": 0.05796851962804794,
+          "scale": 0.307,
+          "native_offset_estimate_uv": [
+            -29.315960912052116,
+            110.74918566775244
+          ],
+          "second_spatially_separated_at_winning_scale": 0.04655996710062027
+        }
+      ]
+    },
+    "v9": {
+      "zip": "20261115-pherc0211-adjacent-context01\\sources\\v9-mesh.zip",
+      "member": "mesh/raw-ct.png",
+      "member_sha256": "d4f08527029550bff4336eb8a040290d55c5f68a7e0db9f7fb12454538ff42c8",
+      "shape": [
+        1740,
+        6020
+      ],
+      "dtype": "uint8",
+      "matches": [
+        {
+          "ncc": 0.7886581420898438,
+          "scale": 0.306,
+          "native_offset_estimate_uv": [
+            -68.62745098039215,
+            699.3464052287582
+          ],
+          "second_spatially_separated_at_winning_scale": 0.06634833663702011
+        },
+        {
+          "ncc": 0.7265986204147339,
+          "scale": 0.306,
+          "native_offset_estimate_uv": [
+            -68.62745098039215,
+            699.3464052287582
+          ],
+          "second_spatially_separated_at_winning_scale": 0.07817904651165009
+        },
+        {
+          "ncc": 0.6865025162696838,
+          "scale": 0.306,
+          "native_offset_estimate_uv": [
+            -68.62745098039215,
+            699.3464052287582
+          ],
+          "second_spatially_separated_at_winning_scale": 0.06591829657554626
+        }
+      ]
+    }
+  }
+}

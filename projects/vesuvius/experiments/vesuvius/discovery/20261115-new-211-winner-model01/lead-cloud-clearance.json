@@ -1,0 +1,18 @@
+{
+  "approved": true,
+  "approved_utc": "2026-11-15T09:22:10.138731+00:00",
+  "cloud_plan_sha256": "36f693b27478b1c68a66ce8bc72fbc3ae64f5ab1f9c2af314210313ffa77a129",
+  "science_plan_sha256": "d1a9774b2ad3816ade4234c4449577e86f2bf49cd6d809915a1a1c1ebebc0312",
+  "reviewed_by": "lead independent source/diff review",
+  "fixed_file_hashes_verified": 15,
+  "lifecycle": "One Secure A5000 only; unchanged dedicated identity/PID1/finally deletion, independent absolute watchdog; 1800s absolute from precreate; no automatic retry or GPU substitution.",
+  "operational_limit_usd": 0.2,
+  "estimated_compute_usd": [
+    0.036,
+    0.09
+  ],
+  "C_free_bytes_at_review": 11451236352,
+  "requirements": "Immediate admission reruns account/autopay/rate/inventory/disk guards. Root independently verifies deletion and output.",
+  "resource_note": "Catalog host minimum50GB/9vCPU is an inventory snapshot, create admission requests at least8GB/1vCPU; worker needs8GiB RAM free, caps ownRSS4GiB/CPU1.",
+  "pods_created_at_clearance": 0
+}

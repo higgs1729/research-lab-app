@@ -1,0 +1,215 @@
+{
+  "generated_utc": "2026-11-14T06:32:16.920599+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/acquisition.json",
+      "bytes": 9452,
+      "sha256": "dcb6078396be6611eaf699d8cad01637723d6d913b88abdbf9e584fc449bb0d2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/contract-math.log",
+      "bytes": 766,
+      "sha256": "aeb11cd6123d8a23cd3fc363ae84141fb367f00acc18bb0f2ffdc9d28cc8caad"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/contract_math.py",
+      "bytes": 3556,
+      "sha256": "c7ec671a9b24354fb3c49e563d3f152b1b8db08b7f85dd5d66c2a0371b8515db"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/fetch_source.py",
+      "bytes": 839,
+      "sha256": "b2b6690057ef989b4b29e9a5f56e5a3e96ef412ccd2e4ecf6fae54f23a955514"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/github-receipts.json",
+      "bytes": 1182,
+      "sha256": "b1eb4eebe64191e8d5d89fd79da3c0bfc51c7e45812c7e8bcc19fcdd481c0735"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/lead-contract-check.json",
+      "bytes": 2328,
+      "sha256": "25028f4800f415c71d77d015d43ce1eba44083e917e56ae51177ac011456d9dd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/next-plan.json",
+      "bytes": 4887,
+      "sha256": "b543c7edb1c5268f8ba7a5ac49cc01e1ed73e6f8da74481389748242ea9db908"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/hecate-card.md",
+      "bytes": 12769,
+      "sha256": "17d7f029ffcff421dbf767c89e0e36a91f141fdfb5a647cc254e4c88cffabe9e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/hecate-card.md.http.json",
+      "bytes": 511,
+      "sha256": "5b3661bcbe8323a07155ac548a1c3cd37a3064511f1e2447c04e0d8ecba7bee1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/hecate-repo.json",
+      "bytes": 2677,
+      "sha256": "48ff97cd3e893e520dbd1ad6fdacebed73e8384a1d9e9578ad04378c6eddbe97"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/hecate-repo.json.http.json",
+      "bytes": 438,
+      "sha256": "41082dae6e1b54d427cc499fd0144c42f4ba56d51b547e9c8e2045e312f92c9d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/hecate-requirements.txt",
+      "bytes": 62,
+      "sha256": "cbb03f9674de9da201ad200ef03693e8c9e4663e906214aadcf3ebd51ce7d6bc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/hecate-requirements.txt.http.json",
+      "bytes": 528,
+      "sha256": "a4651c819dd6b49253d2edc40c0abb5d9a3fc3bf0a8c3dd69b77f1bbee1128bf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/hecate.py",
+      "bytes": 22462,
+      "sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/hecate.py.http.json",
+      "bytes": 506,
+      "sha256": "0fa7710fb3fc05e0c30e9edd8f1d84b679f04a73015ad7eae5ebf5d79dac5a7e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/official-306b.html",
+      "bytes": 199602,
+      "sha256": "57acf689450e8339ced1c28a7b036291273caa6bba14810e2a20d41b3b0928a9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/official-306b.html.http.json",
+      "bytes": 417,
+      "sha256": "03aa214819a6cb397c9135e5b58323a15a44cdc5601c324bd32a514861ec14e8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/official-PHerc0343.html",
+      "bytes": 23149,
+      "sha256": "ffd93f284c3ad2d3162ccd4401b1d8957d3c4cee03c99324a108dc0239a8dd2d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/official-PHerc0343.html.http.json",
+      "bytes": 375,
+      "sha256": "eab0d6b3a0181437d54feace1ea184a84cc02adf0a4d33e3d0e0f5a0eb255713"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/official-PHerc0343P.html",
+      "bytes": 44131,
+      "sha256": "175dc9386063652f06e4a61457af967ad091ed6e45b3465e08ec2a80f031f0ad"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/official-PHerc0343P.html.http.json",
+      "bytes": 378,
+      "sha256": "dcf78ad197383056c1bebe9368cb2066c12c74030ee3cccae5dcf7039e09a928"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/official-winners.html",
+      "bytes": 180088,
+      "sha256": "2c94e19604e48e167e94953ba38c16ff3d4b503d4c52e852bcf83a14d61df516"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/official-winners.html.http.json",
+      "bytes": 344,
+      "sha256": "f0ce82ecc295ee3dccfa8b276e3a383765b76cdaec563f6d6a4b9e61993e437e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/reader-author-config.json",
+      "bytes": 33187,
+      "sha256": "2d71d6d54cc975e4ab25c0c8a789bde5ab18879eaf9f2095e849526b29e10661"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/reader-author-readme.md",
+      "bytes": 11872,
+      "sha256": "f6170cde0a76941810c1fe40c403301a7a36f8f4c4c4b1d96c74168decb76d55"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/reader-author-speed.py",
+      "bytes": 4907,
+      "sha256": "d3a17c072fd76a4607c6e7cecf5a6649da43d459dc42634a8b255208961f887e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/reader-card.md",
+      "bytes": 1288,
+      "sha256": "5378ce1e3cf28d65a178a09a93d60359180f1c4739176ad5a7a32b14d466bfde"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/reader-card.md.http.json",
+      "bytes": 517,
+      "sha256": "dd4fac11a0761090279c8435ce714719c269810ec328045adf42d3065c49217a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/reader-github-head.json",
+      "bytes": 336,
+      "sha256": "182d51a18ab1662d4fad24ebb54999f84b395aeaf8402673c7b2438d84982b6a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/reader-github-head.json.http.json",
+      "bytes": 484,
+      "sha256": "6682217757a97312c6c9269232d492dd91c25626470819e8f6971cd3e4cc7b13"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/reader-v3-repo.json",
+      "bytes": 1313,
+      "sha256": "99cf3779e88c5a877a3a54594e551b0388befb742ca12d7dbe68012bd70f90bb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/reader-v3-repo.json.http.json",
+      "bytes": 449,
+      "sha256": "cf264e7aacb242679142eecd6fdd5c4b499244dd4dd80362d7e1cdefc68b2643"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/rectina-card.md",
+      "bytes": 8947,
+      "sha256": "8fcaa06b6038e7d81c13a93ae16275e86d998f36f1bb77891cd3e8f2a6c805c2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/rectina-card.md.http.json",
+      "bytes": 508,
+      "sha256": "54786b590cc5af327d74fa04f1b38a34b5d6745f62478b3a942d9b70cc7c1edf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/rectina-m2-card.md",
+      "bytes": 20235,
+      "sha256": "30c10c659f89f336b0f395755d6ff7297b3b18a152658dc473b1b70f4f00afe4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/rectina-m2-card.md.http.json",
+      "bytes": 519,
+      "sha256": "c6b5aa10895aa94fa30b47fffa68f275107b9647fdac9c0d687595ec7a02879c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/rectina-repo.json",
+      "bytes": 24765,
+      "sha256": "6c058348c80fc61103fe3c849d53c3c5de563dd935a28af0c6bdd60d6abf2147"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/originals/rectina-repo.json.http.json",
+      "bytes": 440,
+      "sha256": "ba7c2b39070cc66db20b98dace31db8393d61f3d89afb6f28aa44a0e7df278b6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/README.md",
+      "bytes": 7367,
+      "sha256": "64290412301d3209da7b7bf1ceaf645f30da7b92a2ac85a2f70ffe31aa2226b3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/record.json",
+      "bytes": 1454,
+      "sha256": "1fca1410162fc109577497f76306e2c4e0160d810d4fa4d2b82848b38972e18d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-alternative-ink-model-selection01/weights.json",
+      "bytes": 1145,
+      "sha256": "09dd3cee0e772c87cd3c97ab5b04c396b828a68ba2205435bf1ac292690d27fb"
+    },
+    {
+      "path": "research/189-alternative-ink-model-selection.md",
+      "bytes": 5433,
+      "sha256": "5acecec7029b64a62473ab4aab9c351e1a81f9df72bd1dc027b175114762c636"
+    }
+  ]
+}

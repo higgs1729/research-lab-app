@@ -1,0 +1,32 @@
+{
+  "utc": "2026-11-14T13:36:58.224030+00:00",
+  "reviewer": "root",
+  "blind": false,
+  "limitation": "Child sent numeric outcome before parent visual inspection; parent review is independent image inspection, not rank-blind. Child visual-review.json records its prior blinded sequence.",
+  "overview_ids": [
+    "10",
+    "01",
+    "02",
+    "05",
+    "07",
+    "08",
+    "11",
+    "12"
+  ],
+  "native_paths": [
+    "10/x2680-y0433.png",
+    "10/x2680-y0993.png",
+    "04/x1759-y0664.png",
+    "03/x1472-y0560.png",
+    "06/x0170-y0665.png",
+    "09/x0825-y0560.png"
+  ],
+  "observations": {
+    "10,04": "Known main row has separated vertical and bent responses across Hecate and Reader. Native tiles split these strokes across tile boundaries; context overview necessary. Reader fuses some strokes.",
+    "01,07": "Second known row appears as spaced curved/broad responses below main row. No newly discovered letters claimed.",
+    "02,03,05,09": "Stress sheet shows oblique layers/gaps and diffuse or isolated model responses without a selectable sequence of independent strokes. CT coincidence alone is not proof of non-ink.",
+    "06,08,11,12": "Stress sheet shows fiber intersections and rounded model blobs. No convincing repeated stroke pattern selected at inspected scales."
+  },
+  "selected_new_roi": null,
+  "decision": "Accept stop of fixed adapted ranker. No general no-ink claim; native viewing limited to listed tiles."
+}

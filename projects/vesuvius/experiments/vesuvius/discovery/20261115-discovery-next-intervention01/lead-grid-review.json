@@ -1,0 +1,35 @@
+{
+  "checked_utc": "2026-11-15T07:33:12.845024+00:00",
+  "code_sha256": "3656e0f54ec4ab62593886a04790338c8c76fcd4dbe2d82ea5877247210829c4",
+  "source_image_xyxy": [
+    2600,
+    420,
+    3880,
+    1444
+  ],
+  "map_xy_origin": [
+    220,
+    195
+  ],
+  "map_wh": [
+    6945,
+    4051
+  ],
+  "carrier_source_x_first_last": [
+    3074.4443359375,
+    4353.4443359375
+  ],
+  "carrier_source_y_first_last": [
+    3940.740478515625,
+    2917.74072265625
+  ],
+  "dtype": "float32",
+  "enclosing_bilinear_support_xyxy_exclusive": [
+    3074,
+    2917,
+    4355,
+    3942
+  ],
+  "maps": "Author applies float32 u/v coordinates and cv2 linear remap before reading-order reversal; this is not an integer crop of the carrier maps.",
+  "limits": "This confirms source sample support for the proposed published-image rectangle; no mesh/volume correspondence is established here."
+}

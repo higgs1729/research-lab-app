@@ -1,0 +1,199 @@
+{
+  "files": [
+    {
+      "path": "research/179-known-text-neighbour-selection.md",
+      "sha256": "aeca8c256613a99dd794f905e15e4e6392a4260e6d5df7edc45698da1b4b3871",
+      "bytes": 8210
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/acquisition.json",
+      "sha256": "c19b28c9a8ef741759e66d4ae95c4f5eab4e2de18fa8ce2b021be8e52145c1cb",
+      "bytes": 4056
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/atlas-coverage.png",
+      "sha256": "36880c56f12030ec1562f6ee9a666b2b3d6c81a139110db47c541466bcb22c69",
+      "bytes": 1227663
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/atlas-east-crop.png",
+      "sha256": "57dabd52349139a91a893e2178f89482762ccc4faadaca6e26206e7c0574aa49",
+      "bytes": 1239755
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/candidate.json",
+      "sha256": "e3dff8a934ce7d896e9ea9cc6b8db0065270a00fc6aa63f5b6e639387471ac28",
+      "bytes": 6023
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/concat_w047-w048_R5B2_z9500-11000.json",
+      "sha256": "73c52113726e667b3fdf99546a24c9cb31ddb5709d2739d731fa549910bb9684",
+      "bytes": 24111
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/concat_w047-w048_R5B2_z9500-11000_letter_boxes.json",
+      "sha256": "d431a5db05dccc811d2fbf5205c1c068c9121a46d7a676ef1967f4c192d3aad1",
+      "bytes": 2461
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/concat_w047-w048_R5B2_z9500-11000_rows.json",
+      "sha256": "adfb7680a8b083d896b0c806a8df7dfa4f305439170c25c9d124405523c757bd",
+      "bytes": 323
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/coverage.py",
+      "sha256": "8b3920e62c4963a040ff770444b0c577771811038a2085b78819643b4458739b",
+      "bytes": 2437
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/edge-0.png",
+      "sha256": "941c1b5d998d3a2f06d1186be6571e3830b4d285db049d3aa4d4004d1fe70290",
+      "bytes": 345695
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/edge-1.png",
+      "sha256": "a0fb8297da80e8a5d5dbfc3804cf93f7fac1a3908fad158e6d391447cf6fa998",
+      "bytes": 204715
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/edge-2.png",
+      "sha256": "9e55eadcbc250cb1023d3c4feab3b4b6caf28027fd4593e10643453f777aa4e5",
+      "bytes": 206280
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/edge-3.png",
+      "sha256": "5f2bb10fb46339fbe7ee83a05fe05746435210264e40ab8491c7ec7fe28f6b32",
+      "bytes": 207210
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/edge-4.png",
+      "sha256": "37907600719b1ae6cf5978456248289fb2df4ac6aaec337b65aee417da6efd89",
+      "bytes": 193401
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/edge_view.py",
+      "sha256": "cb5336f9b71af67d7eb4084c6198feb6aeaef3a4d6548bcb11984dc3fcda7bac",
+      "bytes": 1401
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/freeze.py",
+      "sha256": "dbe1076269289cd1f7980858042c4bc07de56bc77df65ee163c0dd4112933cae",
+      "bytes": 1609
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/lead-known-check.json",
+      "sha256": "903ea9e2e9fbfe9af47c090b993aeafefffe9f8742b1d936a58089514fe06d17",
+      "bytes": 6276
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/lead-known-process.json",
+      "sha256": "b027f76cc612b2f4436f57a0f022e7cba7ca88ac4b7bfaefb8dee0a5147ace42",
+      "bytes": 660
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/lead-known-visual.json",
+      "sha256": "638bf088b30a767dba2bb293af8166cffdc58a25379d2832adaffd40f0f6acaf",
+      "bytes": 1221
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/lead-probe-check.json",
+      "sha256": "c109db0bc0b8e08d43657ed7987d9bb44d15cd2f613e55bafa924f1a4107ee39",
+      "bytes": 831
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/lead-probe-process.json",
+      "sha256": "a05090ef1418e66fb944e4d9616f8a335ffa9ed62e56a9031ee58254731b8319",
+      "bytes": 661
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/lead_known_check.py",
+      "sha256": "aa45750eab5cb70520601ef30f751bba05dc7756cee023c6e58547d4fb499206",
+      "bytes": 2580
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/lead_probe_check.py",
+      "sha256": "9d32167634bc35518e7c0b3332814c27908f7c5e0c447490c2a6a3d19b9028a8",
+      "bytes": 2462
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/make_submission_image.py",
+      "sha256": "bec774b007c6c108be0fe14b96cd763f7fe2b5f8c469d3660ae47d4fa068fa5c",
+      "bytes": 166287
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/official-annotated.png",
+      "sha256": "34a0b4e8b403113bc7fda0a6fa6af3866dd4667f4f8e86797708ba3d1ce5e5c8",
+      "bytes": 3086665
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/official-other-submissions.png",
+      "sha256": "f793ade38063bedaa40e39bcf921da0882b05f57bdf46d6cf07ebe56268f2ac8",
+      "bytes": 1960877
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/position.py",
+      "sha256": "f2d316a756ed90f4d8ac8b9004a2549e3013cf9a9e5b6476d7fbe22239c54e67",
+      "bytes": 5748
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/probe-plan.json",
+      "sha256": "828177640997e0d82b22dac2f632d9a142b62805447c52abe8ccc7079ddbb83f",
+      "bytes": 2372
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/probe_plan.py",
+      "sha256": "27ec5ba7fc16d2cdefcf21be52fd9268474a89d90fc597222a40093c02793c06",
+      "bytes": 2820
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/README.md",
+      "sha256": "292071f29162673d6180afd670b3f72810126f018f229f8cb97b2dd95d85e900",
+      "bytes": 2110
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/record.json",
+      "sha256": "d5e1f38e5f3d11b9244f1664f589910b6bb2b6e0935ae285e32f53787bbc244f",
+      "bytes": 2890
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/RESULT.md",
+      "sha256": "82dd83cf615bf4d9fb21b86799a826759ed4b769d8239174501ce2b8c958e6b1",
+      "bytes": 7153
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/SHA256SUMS",
+      "sha256": "d35da893e3a4865f5544e476c5ba590bfc42f6e54a2d9a586b9a0def5e641969",
+      "bytes": 1689
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/source-intake.json",
+      "sha256": "70b76be29a9e2c777e955c29d511e4ff89799a4c8151cc211b66064c68e9b85e",
+      "bytes": 1300
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/winner-original.png",
+      "sha256": "59307c84ea65091de1bea14a3b75d44069bfe1fb498b3445f698ec3d1b8c1c78",
+      "bytes": 8801558
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/winner-tree.json",
+      "sha256": "74017083e8151bbea9c5d02d6ce633f0e9ad2a65fbeb5caf324637906bd81c65",
+      "bytes": 7522
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/winner-x.tif",
+      "sha256": "8f31c8d7bc79ef79a39677274f0f80cbcc4066b5c92b8aa47e8b938b1f9d1fc4",
+      "bytes": 172304
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/winner-y.tif",
+      "sha256": "7d4161972cb7e90a0d6d8203040c2e515ce6fb29c172091b21facace315545fc",
+      "bytes": 172304
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-known-neighbour-selection01/winner-z.tif",
+      "sha256": "04feacf27806f6653d85bb10b53068f0c37cecea209dc739a3b8b3b5c4363c65",
+      "bytes": 172304
+    }
+  ]
+}

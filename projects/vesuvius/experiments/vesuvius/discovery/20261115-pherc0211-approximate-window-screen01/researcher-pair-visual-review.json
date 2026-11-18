@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-15T14:05:16.895311+00:00",
+  "reviewer": "r239 researcher Astra/xhigh",
+  "reviewed_images": {
+    "review/pair-raw8-native.png": "becd8091ee730736bbe37595923e682c963378dfd2568228829b36bf1e9f9bca",
+    "review/pair-raw8-nearest4x.png": "42d5f31525ba6c562b850100407adbdeab923605eede216089c90dabcefb1c7b"
+  },
+  "display": "native96² and nearest4x; same raw0..1→u8 mapping; no contrast adjustment",
+  "lead_visual_judgement_seen": false,
+  "numerical_difference_stats_seen": true,
+  "observations": [
+    "両像とも上部が暗く、下部が明るい広い帯状構造を示す。境界は中央付近で左から緩く上下し、右端側で暗部が少し下へ伸びる。",
+    "同じ固定表示の原寸とnearest4xで、帯の位置や大きな明暗構造を変える相違を目視では識別できなかった。"
+  ],
+  "interpretation": "この一対の表示差が粗い構造の比較を妨げる所見は得られない。ただし、この96²patch自体は平滑な帯状応答が中心で、明確な一文字または複数字画をここから読んでいない。字画候補の選別品質や既知φ全体像の成立をこの小対照だけでは認定できない。",
+  "limitations": [
+    "実際に1689表示画素が最大1DN変わる事実を否定しない。",
+    "公開入力とのbit一致/旧mean gate合格を主張しない。",
+    "未知固定窓のモデル性能、物理紙層、新規性、インク有無は未評価。"
+  ],
+  "next_use": "主担当が独立に表示を確認し、近似探索という別目的と既知φ全体像の評価を含む計画の可否を決める。"
+}

@@ -1,0 +1,32 @@
+{
+  "completed_utc": "2026-11-12T01:46:42.374392+00:00",
+  "elapsed_seconds": 5.627598499995656,
+  "total_archive_bytes": 3807108,
+  "sources": [
+    {
+      "name": "sea",
+      "url": "https://codeload.github.com/duxingyi-charles/Smooth-Excess-Area/zip/c48935e0218e1a1ffe9a2b4b976577a5b0a530c2",
+      "archive_bytes": 1164053,
+      "sha256": "8ef466caf85d6bc9d81ad5471e2b20582dc79cf3cd6626ecd75c1f3a68118e57",
+      "unpacked": "D:\\kensyoukin-work\\r005-sea01\\sea",
+      "files": 36
+    },
+    {
+      "name": "cli11",
+      "url": "https://codeload.github.com/CLIUtils/CLI11/zip/refs/tags/v2.5.0",
+      "archive_bytes": 441993,
+      "sha256": "887270cae374a0b9e22b39647f9fc4bc742587fb26d6a221da2d2bbcf3109b0b",
+      "unpacked": "D:\\kensyoukin-work\\r005-sea01\\cli11",
+      "files": 250
+    },
+    {
+      "name": "nlopt",
+      "url": "https://codeload.github.com/stevengj/nlopt/zip/refs/tags/v2.10.0",
+      "archive_bytes": 2201062,
+      "sha256": "7bae1edca94c104a72b8d1126770c95963cfaf4530ad880295aae2ecdaa928e1",
+      "unpacked": "D:\\kensyoukin-work\\r005-sea01\\nlopt",
+      "files": 272
+    }
+  ],
+  "new_paid_compute_cost_usd": 0
+}

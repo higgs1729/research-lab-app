@@ -1,0 +1,95 @@
+{
+  "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0343-patch-phase01\\input.zarr",
+  "crop_xywh": [
+    1344,
+    1024,
+    384,
+    384
+  ],
+  "shape_zyx": [
+    33,
+    384,
+    384
+  ],
+  "zattrs_sha256": "1b6030cd74e5ac55eb3f0bcfc9fb8f8c8724e4525498316fa99a87fd47b5a018",
+  "zarray_sha256": "3d7cb770776a4ef5e6b57f7751603e6a29d3a67ad18f7b8f6cead14673e812dd",
+  "chunks": [
+    {
+      "path": "0/0/0/0",
+      "sha256": "f36ad09b97c26a48ef919c14a5e0e867f80875210747bac8ea0219bb4ed9a731",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/0/1",
+      "sha256": "8f62c2a7d0b4b79fe5a52cff1cd16a8c3678f21b0a33e105b58585568dade2de",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/0/2",
+      "sha256": "e4f38465877d047749e9e9bce37b2893a859a7ead556eb65d3beab65434d276f",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/1/0",
+      "sha256": "d358b13f4b5a98d2bd2f719a50aea58e4d0858fb21020aec8df03295e297b887",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/1/1",
+      "sha256": "7075c73effe489d2ce2d56db5357b59281bc00663187942c03dedd988ac1162e",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/1/2",
+      "sha256": "6bfb13690c7b34b3dd3478a2cd5a0e4e6b217520e35738a1425c73b4f88b1d4a",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/2/0",
+      "sha256": "50e5a8859cdcf00857614d51aab440e158b5adc571c5fb87c54e7320e2f223d4",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/2/1",
+      "sha256": "74ca7de9f7181e592d5389151b56c3224da54a6b9bfcc04f8d2328adca718462",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/2/2",
+      "sha256": "323ce7553800f33255e9fcd84e0765e43935c7adf73bb4cb6f00cc5f8802d770",
+      "bytes": 540672
+    }
+  ],
+  "layer_window": [
+    8,
+    25
+  ],
+  "reverse": [
+    24,
+    23,
+    22,
+    21,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8
+  ],
+  "expected_patches": 25,
+  "source_input_contract_sha256": "2c47646556279d5331e52ba6a79891e989fc4f9a39b3a7f41ae72f63fd969e8d",
+  "unchanged_uint8_values": 4866048,
+  "source_local_xywh": [
+    24,
+    44,
+    384,
+    384
+  ]
+}

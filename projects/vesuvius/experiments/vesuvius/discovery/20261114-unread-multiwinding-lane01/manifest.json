@@ -1,0 +1,120 @@
+{
+  "generated_utc": "2026-11-14T14:08:09.221584+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/acquisition.json",
+      "bytes": 9429,
+      "sha256": "2f0101c750cae3c583ed5b8ff079d09fd984a5e8f487e7f05c22914c466709a5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/collect_metadata.py",
+      "bytes": 5107,
+      "sha256": "e180c5d702cb2f07b0f97b45532c35377dc3dab9357a7a7ec1e844bc8a534e18"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/fit-metadata.json",
+      "bytes": 10684,
+      "sha256": "49e4703858ec5237d4b5500c4ae06e75ccad24350bb06b0231fda33c8c4992f0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/lead-hf-fit-readme-source.json",
+      "bytes": 378,
+      "sha256": "828e7c430f386f772e3d0b6e19dc1103ae5c8ca4260fe286b5afed5c66e717a3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/lead-hf-fit-readme.md",
+      "bytes": 5731,
+      "sha256": "484979ca3c830ce37da110bf5dc056a71c43c99a1d9b8d9987cdbbb0d8955515"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/lead-metadata-check.json",
+      "bytes": 2542,
+      "sha256": "9db1ee6535f526e5bffde4b2e9cfefcfa87686333762e5b6b9ec6234161a7012"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/lead-plan-approval.json",
+      "bytes": 1755,
+      "sha256": "5bf50240b8f58f48eb552b8380f5e3c23cfdcb00e56a3ba035310ed46f09f045"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/lead-prior-cost-record.json",
+      "bytes": 764,
+      "sha256": "1f9f46f549feb349c9cf0ff4870293193fa1a7197c37fd1a6625c1705082e43c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/lead-prior-coverage-review.json",
+      "bytes": 2156,
+      "sha256": "d98089e2d34f5a553920108cd93a6053a4c51bf2fd7285533e30126b1934f222"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/lead-resource-cost-snapshot.json",
+      "bytes": 3641,
+      "sha256": "43c5afd28c6683913b90cd802259d732734faab9e40ad4ee6e0d84a6d7cf9789"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/next-plan.json",
+      "bytes": 10637,
+      "sha256": "1a905bd714fead3cf2d26212ed7e317808b76a1f03fd9ee5fce2f11481ddf0f3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/originals/ct-L0-zarray.json",
+      "bytes": 239,
+      "sha256": "0b44cc0ee481c25d50f6817dcab06a642fd1a2b87bd704459f0569e49ca40d34"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/originals/ct-zattrs.json",
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/originals/ct-zgroup.json",
+      "bytes": 24,
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/originals/gmdevi-0191-batch.log",
+      "bytes": 4887,
+      "sha256": "84bf268dbe6da74a7acde0a8e00fa47b299e3866986fdd60e24f3dfb389e91a8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/originals/gmdevi-fit-remote.py",
+      "bytes": 5783,
+      "sha256": "6a933cd7d3d8317ef454408d1b8db9ba70fa9ba640dfb37fa02bf32dbe2e56fd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/originals/gmdevi-report.md",
+      "bytes": 13646,
+      "sha256": "0cca2b655fc509af23a9eee5735f1b52955556c2ebb1aa4d6b9bb69b1f5268dc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/originals/sqm-atlas.json",
+      "bytes": 60402,
+      "sha256": "f70ff1a3004e576758938f61b125adae9d83795fecdae4b87b77f7efdd5c5f87"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/originals/sqm-targets.json",
+      "bytes": 32535,
+      "sha256": "adfbcb16e2e0c17e2686f127fc8be6f5dedfcc914bb8c9e4f5e1643ef08d68f5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/originals/survey-0191-older-atlas-mesh-meta.json",
+      "bytes": 1197,
+      "sha256": "070449e75aa34fa197f307ff4233aed6ed8775764709032f7c61f97903df1fc8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/README.md",
+      "bytes": 9657,
+      "sha256": "e1b00ae57b12da623954bcecf8c9db8e2d70e1e646ed240447463ffabd93b6c5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-multiwinding-lane01/record.json",
+      "bytes": 2455,
+      "sha256": "ba87fc260af106c77e58fd5e3bd98b9e0e27c58eff444ca07924a08c807ce8a9"
+    },
+    {
+      "path": "research/212-unread-multiwinding-discovery-lane.md",
+      "bytes": 5153,
+      "sha256": "d28900cdf26b7428b7fa738d168da6f0b70fd03d87b9c11e85218c94a3a615bc"
+    }
+  ]
+}

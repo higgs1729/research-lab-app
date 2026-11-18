@@ -1,0 +1,341 @@
+{
+  "new_files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/acquisition-process.json",
+      "bytes": 687,
+      "sha256": "e423230ee1c813c3b33c51c7d4b5b40f1f63668bd6d9206e4bd87fff43c62eb0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/acquisitions.jsonl",
+      "bytes": 7184,
+      "sha256": "aa355ae85aa4263dbcd273007f58bf4c6527f45ddd05c90ca1916c9000318cf5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/coordinate-evidence.json",
+      "bytes": 5536,
+      "sha256": "0221a337d41a0bd8b43ad40caf010c66efb12a3bb1d093f213c5529d3336c550"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/coverage-process.json",
+      "bytes": 690,
+      "sha256": "c64a19d82a83749c92e17f788a9cd1b01c7eb84b4a598f45284f877622f9db58"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/fetch_followup.py",
+      "bytes": 1440,
+      "sha256": "c15f746f49107082307a843d378df245f1299c9d70c19d7c772a3ef330da33b1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/fetch_sources.py",
+      "bytes": 4643,
+      "sha256": "9e078ad600a22788f74419e43f2b507b0d73474318e9c82c6cd90321160ad222"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/figure-process.json",
+      "bytes": 685,
+      "sha256": "fbe770d8bcbf8cf2bc32207784ee00491c12c2cd2b2fe313c70a68476bbc77bf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/figure-registration.json",
+      "bytes": 3032,
+      "sha256": "6a9b1ebc2c129915296030759eb170cfd29baa691e486c42967bcf59cddd2eee"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/followup-acquisition-process.json",
+      "bytes": 689,
+      "sha256": "83b3f114659d8497a85bd34e62a94cbc5bd818d1be9872d91dfdd4900e727138"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/followup-acquisitions.jsonl",
+      "bytes": 3623,
+      "sha256": "dbe36ca6cb4bc5c6a07779c8f297b0b07a5c130199a79600a2cfc64219ba188a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/inspect_coverage.py",
+      "bytes": 6318,
+      "sha256": "9593246ebede13a32eeaed61d442c16f67771c2d4b6372e5f18f747e2c6695c5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/inspect_fig01.py",
+      "bytes": 3052,
+      "sha256": "2cc81d5bd4b033d951eaa8dd132bc4b2be8e29082043e49994d4c760a6c4d04d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/lead-check-process.json",
+      "bytes": 688,
+      "sha256": "71b48f113c5d1ddac329f410a8fd85bc3d665c8b5b2e005b06eee56c982306b0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/lead-check.json",
+      "bytes": 1091,
+      "sha256": "95e4887188f835f144ee8cff61372f5b9ec228e0ca1e2af62d10d3e75d690fd5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/lead-check.py",
+      "bytes": 3445,
+      "sha256": "9941ec68922baa1d379c4ea33d7e5372625269f8f34e5cd5f7840fbcff39444d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/archive-3305-meta.json",
+      "bytes": 742,
+      "sha256": "e0e1e06c6394eb6e3f4eb78de614a006d4601e890c5534733d3a8f3eec8a9b9d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/archive-3305-README.txt",
+      "bytes": 4295,
+      "sha256": "a9250d4e613b4eaa5c4f95ed0a6b73624d316911399f627f93bd1ed88a0f97f1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/archive-grown-meta.json",
+      "bytes": 611,
+      "sha256": "280e8f1261d0f095d6e76b4a98edcd0e5628995b70d84d4ab0aead00df7bb5a6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/archive-grown-README.md",
+      "bytes": 10417,
+      "sha256": "6cf0623b91de0d1eaa60420a03fa48190e9f0c8ef225e34d3876dc49c66cae06"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/archive-p737-manual-meta.json",
+      "bytes": 784,
+      "sha256": "ebdd80e26de472db07326c2ea116faba227d2952b39533b05111132031778cae"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/archive-p737-manual-README.md",
+      "bytes": 10448,
+      "sha256": "7c9d06ecad378d1382ea7aa9d9a6e0b295f023b402c1dc694dd15c46756187a4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/eligible-fits-inventory.json",
+      "bytes": 393253,
+      "sha256": "c51eed60bad6f151d6f6af2e9f6a9db5b2d25c9e75688adabcc58be34f651371"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/expanded9-3305-input.json",
+      "bytes": 2731,
+      "sha256": "e9d5619dfbd770636f582223431495f2fbe18bcae54aeb778d016c5a3e7dba0b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/expanded9-3305-source-meta.json",
+      "bytes": 1165,
+      "sha256": "ebf64c5d9fd3b333818ffac5db3d996397e2ea2b1db89e6a2fe6dc7fb6d96355"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/expanded9-dataset-inventory.json",
+      "bytes": 68089,
+      "sha256": "7b35280fb512192488004254906cf86e11b6810bb907b52b522dd3cf78fda37b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/first-light-head.json",
+      "bytes": 5614,
+      "sha256": "e772055892085e188c7647f3aa26b264e61c58e003755d9045631c3f7226d90c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/first-light-README.md",
+      "bytes": 8877,
+      "sha256": "f2bbc7d3b8ad85258ca26deac68480c4bebcb36f15d99f4b57252920ca79e348"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/first-light-releases.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/first-light-tree.json",
+      "bytes": 24748,
+      "sha256": "f4ce8bf6402f1d63b72c9097ffbc2336f3a87bc2c099dada999c5c9021b8efff"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/gmdevi-head.json",
+      "bytes": 221252,
+      "sha256": "9087bc88212f320a4fd8ded72088e29d86081b62c28b9ecf33cc83748712ecba"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/gmdevi-releases.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/gmdevi-REPORT.md",
+      "bytes": 13646,
+      "sha256": "0cca2b655fc509af23a9eee5735f1b52955556c2ebb1aa4d6b9bb69b1f5268dc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/gmdevi-run-index.md",
+      "bytes": 3729,
+      "sha256": "341438ac0bc77f0f21f6f5e49909c61d4f72dc6d932872d3c0480b166c4ff19c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/gmdevi-tree.json",
+      "bytes": 833292,
+      "sha256": "e0ca461a0d8e216a6a91e49bac5291d08ccb78be7a6ff8b5c0c7f25ca3182578"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/official-browser.html",
+      "bytes": 23287,
+      "sha256": "b9ced22a9bcbdf1ff969974b7e6ae784654325b28cee1c1426dc9242c9db11f4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/official-winners.html",
+      "bytes": 180088,
+      "sha256": "37afba79ec44521094ccd740203642089079711fed680e48a38bc3d45ebe8bbb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/s3-predictions.xml",
+      "bytes": 514,
+      "sha256": "25e4d04d8598ac5f612312d596f503ef862e3320e4ddd6aea639b42fb5243c1c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/s3-representations.xml",
+      "bytes": 483,
+      "sha256": "f41b81b8a4eea74087b223cf3e423b56e507a5a33231745130e95c2ab150b51c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/s3-root.xml",
+      "bytes": 504,
+      "sha256": "283968960850f03adf9bea4ded29e496efba9dba412170d5227585d651c58f39"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/spiral-dataset-index.html",
+      "bytes": 1020,
+      "sha256": "f87198632537940d93f13f143ba1895be6ab39d617133d6a18d9c29c0a8a0443"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/spiral-tracks-index.html",
+      "bytes": 2048,
+      "sha256": "4c32df55c207796522f973426843c33ce0adb3ff1ef9225865c3896859198494"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/originals/studio-training-dataset-inventory.json",
+      "bytes": 215722,
+      "sha256": "5b69acc5d1262b14157de151a922c33724a63b46037163aeeed8655eec8f76d8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/phi-reference-process.json",
+      "bytes": 692,
+      "sha256": "83b82cf28d373bea02d71e3b8ef9b1791e1e1eb08dfeeeb177b84183a1c1ab8b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/README.md",
+      "bytes": 14746,
+      "sha256": "b21d4b473f2953a40e19a1def7be084287d197c94b6e07e8b1fca702cb37d259"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/record.json",
+      "bytes": 1467,
+      "sha256": "cbc8b4fb6dd634f9b2aaca032610859375f475dea541f2c478fd42121823105c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/save_phi_reference.py",
+      "bytes": 1317,
+      "sha256": "0f2897797d2ce4f4ccfef19e5eb3e9750f90e1f113ec132a35e8865a1304a43a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/v9-grid-xyz.npy",
+      "bytes": 314372,
+      "sha256": "74b92a7ad1d0905c4afac01888feb88584b3ae51b77d5b911bc533fae3adad79"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/v9-phi-public-ct-native.png",
+      "bytes": 56912,
+      "sha256": "a46aa087f1a6a5110b06305bb0afb5d7b37857b4a2f639ca7d69b6aa4c217f28"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/v9-phi-public-raw8-native.png",
+      "bytes": 24492,
+      "sha256": "19ea9b4ec91ceb08be452f62f01b4e93d74544d30deb171850c8182829dd43a5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/v9-valid-cells.npy",
+      "bytes": 25928,
+      "sha256": "bd6e24bbb64df57087d9f358a2309e7acd3ce9bdc9c673364852ae7cf6a88419"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/v9-valid-nodes.npy",
+      "bytes": 26315,
+      "sha256": "606d87602dc3634bff225c23b18d9751aa09271d9904bab710c8bfa814135556"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/winner-panel-v9-ct.png",
+      "bytes": 598859,
+      "sha256": "14a3395226344f72906d34f34c3a392e1295799d86e10d772e1ae260704a1713"
+    }
+  ],
+  "external_evidence": [
+    {
+      "path": "research/248-pherc0211-surface-pair-feasibility.md",
+      "bytes": 7536,
+      "sha256": "2f3f429863f8a242d91d686eaf33b283be57005fac05cd231d79df8ac6f1bc34"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0211-adjacent-context01/lead-article-images/acquisition.json",
+      "bytes": 3281,
+      "sha256": "f612308515203104bd44f0903d66e9b9c0c7056fd41812cb116bcabdc24ae606"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0211-adjacent-context01/lead-article-images/01-df0636eb-eceb-4f71-a0ae-425402c647dc_1863x407.png",
+      "bytes": 781080,
+      "sha256": "055b9614e307bc315f9edc47cbeb3a08c433c7a0a1c6fbc380b8c108a85e39f3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0211-adjacent-context01/lead-article-images/02-af9bb591-10e1-42ed-8171-cae701387254_2048x523.png",
+      "bytes": 1996024,
+      "sha256": "16e0a845de48c9b39c07b7bbfb6ab7ddb718ee3a3b1ddb57a4f9e28ed931b385"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0211-adjacent-context01/sources/v6-line2-mesh.zip",
+      "bytes": 4953331,
+      "sha256": "9e9105d9bb812e6d2af454b30cb724e6339f0f0403e06eb28a302b484d31db36"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0211-adjacent-context01/sources/v9-mesh.zip",
+      "bytes": 9264958,
+      "sha256": "819dcfb40451fab3fa58441d8265813c8ddbe2b5693bb076fce3eeefce05a5d9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0211-adjacent-context01/sources/v9-probability-f32.tif",
+      "bytes": 38709184,
+      "sha256": "527c6fbbc5ac2d5a81d7cfb7ccc2925f2dc4b4d74627a0e7b08200d6874f071c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0211-adjacent-context01/candidate-plan.json",
+      "bytes": 24106,
+      "sha256": "621c238f4e49a5916ea064f89fc958b1aaaf0671c127e712069a787dbee5e7db"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-pherc0211-parent-probability-source01/sources/drive-inventory.json",
+      "bytes": 31054,
+      "sha256": "4b2bd546c6f230ec287358d3fb720da51700ad5504c11d5668ebd00a60605509"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-pherc0211-parent-probability-source01/sources/award-current-public.html",
+      "bytes": 200035,
+      "sha256": "163d884872b9a30c0a269f625727bb3ae45eb475c506152a0f698c60c897e062"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-pherc0211-parent-probability-source01/sources/github-inventory.json",
+      "bytes": 134695,
+      "sha256": "d249649d94cd518adfc4d2ee952771b1ca59d15b20110358ef97f156d4114ccb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-pherc0211-parent-probability-source01/sources/github-publish_crop1711.sh",
+      "bytes": 1477,
+      "sha256": "946b0db6ab0216483ee74e3fb1926210f9ebd67ca4a2b981180e4cc420ab2d95"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-pherc0211-added-context-coverage01/sources/v6/mesh__parent__case.json",
+      "bytes": 1372,
+      "sha256": "88bf5d3d4ebbbd21d40d7f8b9734c74adacd9b4f1d2aaa946eb561cbd67b881b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-pherc0211-added-context-coverage01/sources/v9/mesh__case.json",
+      "bytes": 1479,
+      "sha256": "00095b5d464c12c2465e3369572d27e5ce6fd28b436e1bf4d4c110cde045afee"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261116-pherc0211-added-context-coverage01/sources/v9/mesh__orientation.json",
+      "bytes": 3555,
+      "sha256": "4895f6b3a62cd78ff228e32ba114646a66e3bc0e2cc77a4d4037aed6cdc86394"
+    }
+  ]
+}

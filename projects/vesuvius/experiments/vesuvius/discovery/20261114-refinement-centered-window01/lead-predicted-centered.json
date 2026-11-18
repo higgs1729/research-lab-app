@@ -1,0 +1,40 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "stage": "prediction before new product execution",
+  "basis": "Same fixed fixture, actual OpenCV Gaussian7 verified in182. Centered tangent positions x=P.x+2*(i-r), y=P.y+2*(j-r).",
+  "centered_expected": [
+    {
+      "fixture": "A",
+      "r": 0,
+      "offset_exact_rational": "600000/100001",
+      "offset_float64": 5.999940000599994
+    },
+    {
+      "fixture": "B",
+      "r": 0,
+      "offset_exact_rational": "600000/100001",
+      "offset_float64": 5.999940000599994
+    },
+    {
+      "fixture": "C",
+      "r": 3,
+      "offset_exact_rational": "600000/100001",
+      "offset_float64": 5.999940000599994
+    },
+    {
+      "fixture": "A",
+      "r": 3,
+      "offset_exact_rational": "56728125/9400094",
+      "offset_float64": 6.0348465664279525
+    },
+    {
+      "fixture": "B",
+      "r": 3,
+      "offset_exact_rational": "56728125/9400094",
+      "offset_float64": 6.0348465664279525
+    }
+  ],
+  "expected_reflected_pair_difference_voxel": 0,
+  "scope": "The symmetric reflection result should agree, but the opacity estimator need not return the exact physical intersection d=6: its predicted r3 offset is about6.0348466. No real CT or glyph improvement is implied."
+}

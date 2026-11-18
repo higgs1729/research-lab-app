@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "recorded_utc": "2026-11-14T15:00:23.150726+00:00",
+  "lead_decision": "Parent explicitly approved 0191 conditional CT-only work after independent review and concordant local report.",
+  "known_comparison_sha256": "26da26eca81826ce41026ad616f29de023674599847912879e0d440850370099",
+  "lead_known_visual_sha256": "9a431602363b6ca23c623ed53b34d565483fae2320815b1b9bc2fd799fd2ed7e",
+  "local_visual_sha256": "bc6fa5bac5fb83da1fb13f7bfbb9b4ec61be5658e77bca62c3f10824ecf55790",
+  "unknown_raw_ct_keys_authorized": 0,
+  "unknown_models_authorized": 0
+}

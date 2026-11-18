@@ -1,0 +1,66 @@
+{
+  "utc": "2026-11-15T12:11:27.299758+00:00",
+  "passed": true,
+  "plan_sha256": "621c238f4e49a5916ea064f89fc958b1aaaf0671c127e712069a787dbee5e7db",
+  "parent_initial_review_sha256": "e449a6cc4fff2d67dd416c83a8e2d647fa72fb5e17c44a7dda26fb39a24c4a86",
+  "approved_additions": "8 XY and 6 tangent-normal observations fixed before CT retrieval; distinguish expected memory below1GiB from existing4GiB hard process commit limit. Original boxes,26keys,52MiB,cost0 and stop conditions retained.",
+  "anchors_checked": 8,
+  "oblique_basis_checks": 6,
+  "sampling_support": [
+    {
+      "kind": "candidate",
+      "grid_rc": [
+        40,
+        298
+      ],
+      "samples": 13065,
+      "inside_all_eight_corners": 13065
+    },
+    {
+      "kind": "candidate",
+      "grid_rc": [
+        42,
+        298
+      ],
+      "samples": 13065,
+      "inside_all_eight_corners": 13065
+    },
+    {
+      "kind": "candidate",
+      "grid_rc": [
+        44,
+        298
+      ],
+      "samples": 13065,
+      "inside_all_eight_corners": 13065
+    },
+    {
+      "kind": "candidate",
+      "grid_rc": [
+        46,
+        298
+      ],
+      "samples": 13065,
+      "inside_all_eight_corners": 13065
+    },
+    {
+      "kind": "known_phi",
+      "grid_rc": [
+        42,
+        240
+      ],
+      "samples": 13065,
+      "inside_all_eight_corners": 13065
+    },
+    {
+      "kind": "known_phi",
+      "grid_rc": [
+        46,
+        240
+      ],
+      "samples": 13065,
+      "inside_all_eight_corners": 13065
+    }
+  ],
+  "decision": "Approved for sequential R235 after R234 registration; original CT bodies not retrieved in R234."
+}

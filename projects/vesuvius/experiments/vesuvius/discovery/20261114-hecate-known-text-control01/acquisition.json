@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "name": "hecate_9.6um.pth",
+      "bytes": 522576086,
+      "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+      "url": "https://huggingface.co/scrollprize/hecate/resolve/9cb86e500e944b11a06a7020403cde5dffb5bcb2/hecate_9.6um.pth",
+      "started_utc": "2026-11-14T06:36:43.075919+00:00",
+      "max_transfer_seconds": 179.999882600001,
+      "exit_code": 0,
+      "curl": {
+        "http_status": 200,
+        "body_bytes": 522576086,
+        "transfer_seconds": 28.518687
+      },
+      "verified_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+      "saved": true,
+      "disk_body_bytes": 522576086,
+      "completed_utc": "2026-11-14T06:37:12.742592+00:00",
+      "stage_seconds": 29.66681729999982
+    },
+    {
+      "name": "atlas-hecate-reverse.png",
+      "bytes": 2114372,
+      "sha256": "67795f34e27c0b7b974e8d84780df8ecdf14cff5dd7893bc3891f7dc7d678427",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0343/kbh-POS_PHerc0343_erwin/maps/hecate-9.6/c%2B0_s1_reverse.png",
+      "started_utc": "2026-11-14T06:37:12.743371+00:00",
+      "max_transfer_seconds": 150.33242769999924,
+      "exit_code": 0,
+      "curl": {
+        "http_status": 200,
+        "body_bytes": 2114372,
+        "transfer_seconds": 2.698702
+      },
+      "verified_sha256": "67795f34e27c0b7b974e8d84780df8ecdf14cff5dd7893bc3891f7dc7d678427",
+      "saved": true,
+      "disk_body_bytes": 2114372,
+      "completed_utc": "2026-11-14T06:37:15.570613+00:00",
+      "stage_seconds": 32.49484459999803
+    }
+  ],
+  "total_seconds": 32.496022899998934,
+  "received_body_bytes": 524690458,
+  "ct_voxel_bytes": 0,
+  "cloud_cost_jpy": 0
+}

@@ -1,0 +1,32 @@
+{
+  "checked_utc": "2026-11-15T07:16:41.936247+00:00",
+  "owned_pids": {
+    "launcher": 47312,
+    "worker": 49912
+  },
+  "pid_exists": {
+    "launcher": false,
+    "worker": false
+  },
+  "observed": {
+    "requested_utc": "2026-11-15T07:16:34.703378+00:00",
+    "observed_utc": "2026-11-15T07:16:41.935958+00:00",
+    "vram_total_gib": 8.0,
+    "vram_used_gib": 1.38,
+    "available_physical_bytes": 12823519232,
+    "c_free_bytes": 14390808576,
+    "lane_available_ram_gib": 11.9,
+    "margins": {
+      "vram_gb": 1.0,
+      "mem_gb": 4.0
+    },
+    "jobs": [],
+    "tickets": [],
+    "reservation": null,
+    "comfy_running": false,
+    "gpu_stuck": null
+  },
+  "owned_jobs_or_tickets": [],
+  "owned_reservation": false,
+  "released": true
+}

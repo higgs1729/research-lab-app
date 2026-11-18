@@ -1,0 +1,22 @@
+{
+  "responses": [
+    {
+      "key": "0/79/28/36",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr/0/79/28/36",
+      "started_utc": "2026-11-13T18:54:08.101690+00:00",
+      "status": 200,
+      "etag": "f82e865313e7020e8e497f56e0a6e770",
+      "bytes": 2097152,
+      "file": "download/0/79/28/36",
+      "sha256": "42f4983c70d8cf968967b1efb8e447797c2cb32a11ec0514a434632a2847c5e3",
+      "received_bytes": 2097152,
+      "completed_utc": "2026-11-13T18:54:09.892802+00:00"
+    }
+  ],
+  "received_bytes": 2097152,
+  "elapsed_seconds": 1.7960279929999956,
+  "original_limit_seconds": 174.03345331399998,
+  "original_limit_bytes": 67108864,
+  "complete": true,
+  "plan_sha256": "d50746aa4d8c2a06cf466274a26986cf765c7a1fcf0812540f8e23d4c4dbceb2"
+}

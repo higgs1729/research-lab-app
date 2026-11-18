@@ -1,0 +1,38 @@
+{
+  "cli": {
+    "path": "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/apps/src/vc_render_tifxyz.cpp",
+    "sha256": "2d315d553b698943c15fad0021da3b75a5c1d5ebd03c005c1b66f3c16fe52798"
+  },
+  "surface": {
+    "path": "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/core/src/QuadSurface.cpp",
+    "sha256": "fe0be9b172db8d6557b771319421f9a801f3ebb9600ca975729ea43b756de758"
+  },
+  "grid": {
+    "path": "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/grid/grid.cpp",
+    "sha256": "9e835c1e37acd4adde0467d731d6050f91189b35a8e28e4ab81cb3d4303cc347"
+  },
+  "normals": {
+    "path": "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/grid/points.hpp",
+    "sha256": "6ebfa580cf3e78ab16ca051f958802de9c62ffa133cbe6d8fc9c6ec2f2b547ab"
+  },
+  "level_map": {
+    "path": "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/grid/level_map.hpp",
+    "sha256": "14cf56f8adc5227b06c75fe1155ec630d9e2f780744a70c5501f5c233ee1e3b9"
+  },
+  "libvc_core.so": {
+    "path": "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so",
+    "sha256": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53"
+  },
+  "libvc_reader_native.so": {
+    "path": "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so",
+    "sha256": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+  },
+  "observer_binary": {
+    "path": "/mnt/d/kensyoukin-work/r005-ct-render01/build02/vc_render_tifxyz",
+    "sha256": "7b4232a2356deca215ceaa8d072a7673023db8a5c2bfd90959dcb6c233ee9927"
+  },
+  "observer_source": {
+    "path": "experiments/vesuvius/r005/20261112-ct-render01/build02/vc_render_tifxyz.cpp",
+    "sha256": "413bd6a43dd792337fc74ff3d065744547a731a0f8d3371f00aa307ceeaefe77"
+  }
+}

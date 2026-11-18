@@ -1,0 +1,19 @@
+{
+  "reviewer": "R214担当",
+  "date": "2026-11-14",
+  "method": "All nine 5x nearest-neighbor marked views, both CT section planes at each location, fixed image DN without stretching. A locally traceable bright sheet-like band must pass the marker and stay identifiable in the paired sections for a support decision. Dark or bright DN alone does not assign a lamina.",
+  "site_reviews": [
+    {"site": "z11760-x256", "w052": "unresolved", "w053": "interlayer_candidate", "w054": "unresolved", "note": "Thin nearly vertical dark bands on XY. w053 is centered on a dark line with matching darker material at the central radial-Z row. Other points straddle stippling or curved bands with incomplete continuity."},
+    {"site": "z11760-x1024", "w052": "unresolved", "w053": "unresolved", "w054": "unresolved", "note": "w052/w053 on low-contrast mottling rather than clearly traceable thin bands. w054 is at a broken band edge with a bright spot nearby in radial-Z; the two planes do not resolve a lamina."},
+    {"site": "z11760-x1792", "w052": "interlayer_candidate", "w053": "interlayer_candidate", "w054": "unresolved", "note": "XY has curved diagonal ribbons. w052/w053 fall in dark tracks near the ribbon edges in the paired radial-Z view; w054 is near a grey transition."},
+    {"site": "z11952-x256", "w052": "unresolved", "w053": "interlayer_candidate", "w054": "unresolved", "note": "Weak granular XY contrast. w053 is close to a dark diagonal in radial-Z and an XY dark patch. w052/w054 do not show a uniquely traced band in both views."},
+    {"site": "z11952-x1024", "w052": "interlayer_candidate", "w053": "unresolved", "w054": "unresolved", "note": "w052 lies on a strong continuous dark channel in the paired planes. w053 is at a narrow bright/dark transition and w054 sits near another edge; the exact lamina at either marker is unclear."},
+    {"site": "z11952-x1792", "w052": "unresolved", "w053": "unresolved", "w054": "unresolved", "note": "w052 adjacent to an isolated sharp high-DN spot, w053 on mottled or discontinuous texture and w054 on an edge below a curving band. No assignment sustained in both paired views."},
+    {"site": "z12240-x256", "w052": "unresolved", "w053": "unresolved", "w054": "unresolved", "note": "Larger gaps and curling ribbons. w052 near a folded edge, w053 a broad grey region at the edge, w054 adjacent to a curved darker boundary. No uniquely traceable centered lamina."},
+    {"site": "z12240-x1024", "w052": "local_support", "w053": "interlayer_candidate", "w054": "unresolved", "note": "w052 plausibly follows the thin curved bright ribbon through both marks at this site. w053 lies inside a clear wide dark region in both views. w054 is near its right edge and lacks a unique band assignment."},
+    {"site": "z12240-x1792", "w052": "unresolved", "w053": "interlayer_candidate", "w054": "unresolved", "note": "Broken, folded-looking dark stripes and crossing grey edges. w053 near an opening in radial-Z; the other two points lack a traceable single band in both views."}
+  ],
+  "local_support_counts_in_left_middle_right_order": {"w052": [0, 1, 0], "w053": [0, 0, 0], "w054": [0, 0, 0]},
+  "pass_faces": [],
+  "interpretation": "All fail the fixed positive-support requirement (center 3, each flank at least 2). Dark-channel examples are observations of local CT contrast and do not establish the composition of the channel. No pair reached the independence adjudication. These finite views do not settle uninspected areas or ink."
+}

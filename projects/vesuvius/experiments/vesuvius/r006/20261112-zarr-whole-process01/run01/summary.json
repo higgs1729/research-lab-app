@@ -1,0 +1,100 @@
+{
+  "pairs": [
+    {
+      "pair": 1,
+      "off_seconds": 5.600469968000027,
+      "on_seconds": 1.6703588800000375,
+      "saved_seconds": 3.9301110879999896,
+      "saved_percent": 70.17466588439656,
+      "non_regression": true
+    },
+    {
+      "pair": 2,
+      "off_seconds": 1.5373734890000037,
+      "on_seconds": 1.4435051419999922,
+      "saved_seconds": 0.09386834700001145,
+      "saved_percent": 6.105760745300014,
+      "non_regression": true
+    },
+    {
+      "pair": 3,
+      "off_seconds": 1.5393640969999751,
+      "on_seconds": 1.3860766180000041,
+      "saved_seconds": 0.15328747899997097,
+      "saved_percent": 9.957844235727517,
+      "non_regression": true
+    },
+    {
+      "pair": 4,
+      "off_seconds": 1.5390084509999724,
+      "on_seconds": 1.6547183089999749,
+      "saved_seconds": -0.11570985800000244,
+      "saved_percent": -7.518468006125621,
+      "non_regression": false
+    },
+    {
+      "pair": 5,
+      "off_seconds": 1.315400651999994,
+      "on_seconds": 1.4893096199999718,
+      "saved_seconds": -0.1739089679999779,
+      "saved_percent": -13.220988429309271,
+      "non_regression": false
+    }
+  ],
+  "stats": {
+    "off": {
+      "elapsed_seconds": {
+        "min": 1.315400651999994,
+        "median": 1.5390084509999724,
+        "max": 5.600469968000027
+      },
+      "user_cpu_seconds": {
+        "min": 0.29,
+        "median": 0.34,
+        "max": 0.41
+      },
+      "sys_cpu_seconds": {
+        "min": 0.09,
+        "median": 0.11,
+        "max": 0.17
+      },
+      "max_child_rss_bytes": {
+        "min": 87511040,
+        "median": 88563712,
+        "max": 88825856
+      }
+    },
+    "on": {
+      "elapsed_seconds": {
+        "min": 1.3860766180000041,
+        "median": 1.4893096199999718,
+        "max": 1.6703588800000375
+      },
+      "user_cpu_seconds": {
+        "min": 0.22,
+        "median": 0.24,
+        "max": 0.28
+      },
+      "sys_cpu_seconds": {
+        "min": 0.09,
+        "median": 0.12,
+        "max": 0.17
+      },
+      "max_child_rss_bytes": {
+        "min": 86593536,
+        "median": 88563712,
+        "max": 89612288
+      }
+    }
+  },
+  "median_wall_saved_percent": 3.229276029492154,
+  "median_paired_saved_percent": 6.105760745300014,
+  "all_pairs_non_regression": false,
+  "passes_performance_threshold": false,
+  "total_measured_wall_seconds": 19.175585225999953,
+  "peak_rss_bytes": 89612288,
+  "outputs_equal": true,
+  "build_seconds": 206.486066892,
+  "additional_cloud_cost_jpy": 0,
+  "new_ct_download_bytes": 0
+}

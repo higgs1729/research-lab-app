@@ -1,0 +1,307 @@
+{
+  "runs": {
+    "default": {
+      "command": [
+        "unshare",
+        "-Urn",
+        "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-flatboi",
+        "/mnt/c/dev/kensyoukin/experiments/vesuvius/r011/20261113-w035-geometry01/run01/input",
+        "--output=/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261113-single-component-control01/run01/default/output",
+        "--keep=100.0",
+        "5"
+      ],
+      "cwd": "/mnt/c/dev/kensyoukin/.work/r005-single-component-control01/run01",
+      "started_utc": "2026-11-13T11:46:51.157271+00:00",
+      "completed_utc": "2026-11-13T11:47:59.232574+00:00",
+      "timeout_seconds": 299.992173858,
+      "elapsed_seconds": 68.075318302,
+      "exit_code": 0,
+      "max_child_rss_bytes": 341544960,
+      "user_cpu_seconds": 67.13,
+      "sys_cpu_seconds": 0.38,
+      "timing_pid": 368,
+      "reaped": true
+    },
+    "preserve-grid": {
+      "command": [
+        "unshare",
+        "-Urn",
+        "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-flatboi",
+        "/mnt/c/dev/kensyoukin/experiments/vesuvius/r011/20261113-w035-geometry01/run01/input",
+        "--output=/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261113-single-component-control01/run01/preserve-grid/output",
+        "--keep=100.0",
+        "5",
+        "--pack-components-preserve-grid"
+      ],
+      "cwd": "/mnt/c/dev/kensyoukin/.work/r005-single-component-control01/run01",
+      "started_utc": "2026-11-13T11:47:59.251213+00:00",
+      "completed_utc": "2026-11-13T11:49:29.549272+00:00",
+      "timeout_seconds": 231.89822192,
+      "elapsed_seconds": 90.29810064099999,
+      "exit_code": 0,
+      "max_child_rss_bytes": 341733376,
+      "user_cpu_seconds": 88.06,
+      "sys_cpu_seconds": 0.96,
+      "timing_pid": 391,
+      "reaped": true
+    }
+  },
+  "native_total_wall_seconds": 158.403847458,
+  "xyz_tiff": {
+    "x": {
+      "shape_yx": [
+        286,
+        259
+      ],
+      "dtype": "float32",
+      "samples_compared": 74074,
+      "different_pixel_bits": 0,
+      "array_le_sha256": {
+        "default": "a2447187fd78a81e940617b9202accd281f7fbdb6afb2d34aa4692c20e4f11e6",
+        "preserve-grid": "a2447187fd78a81e940617b9202accd281f7fbdb6afb2d34aa4692c20e4f11e6"
+      },
+      "file_sha256": {
+        "default": "484d5067f9f23abbae296a5ea6820089736c05ce222c586c94403dbd1e492734",
+        "preserve-grid": "484d5067f9f23abbae296a5ea6820089736c05ce222c586c94403dbd1e492734"
+      }
+    },
+    "y": {
+      "shape_yx": [
+        286,
+        259
+      ],
+      "dtype": "float32",
+      "samples_compared": 74074,
+      "different_pixel_bits": 0,
+      "array_le_sha256": {
+        "default": "c0e8d5fd79cc8d0c051e837e4992b44f3eafac2551fb02a1ffe8b8bb2edfeaa8",
+        "preserve-grid": "c0e8d5fd79cc8d0c051e837e4992b44f3eafac2551fb02a1ffe8b8bb2edfeaa8"
+      },
+      "file_sha256": {
+        "default": "482768674a7c04d4c88b9c65e7d473e2c377c0314da767fb3ef7734fffc18492",
+        "preserve-grid": "482768674a7c04d4c88b9c65e7d473e2c377c0314da767fb3ef7734fffc18492"
+      }
+    },
+    "z": {
+      "shape_yx": [
+        286,
+        259
+      ],
+      "dtype": "float32",
+      "samples_compared": 74074,
+      "different_pixel_bits": 0,
+      "array_le_sha256": {
+        "default": "18d2468aab89c54dd5f13000cf418a7e8ce051cfb2fc227a514448663fed1cd0",
+        "preserve-grid": "18d2468aab89c54dd5f13000cf418a7e8ce051cfb2fc227a514448663fed1cd0"
+      },
+      "file_sha256": {
+        "default": "c84bbbf37c95fdafd185531c48c4f0faee6816488c107b5de1e97cb003ec4726",
+        "preserve-grid": "c84bbbf37c95fdafd185531c48c4f0faee6816488c107b5de1e97cb003ec4726"
+      }
+    }
+  },
+  "shape_yx": [
+    286,
+    259
+  ],
+  "valid_samples_by_finite_non_sentinel_positive_z": {
+    "default": 62646,
+    "preserve-grid": 62646
+  },
+  "scale": {
+    "default": [
+      0.05000000074505806,
+      0.05000000074505806
+    ],
+    "preserve-grid": [
+      0.05000000074505806,
+      0.05000000074505806
+    ]
+  },
+  "metadata_differences": [
+    {
+      "key": "/uuid",
+      "default": "e534a1c7-de07-4dc6-a214-7e25c888b8d5",
+      "preserve": "f263e761-d9eb-48d8-b250-c023493f8180"
+    }
+  ],
+  "energy_lines_iteration_0_to_5": {
+    "default": [
+      "8.0042917498",
+      "8.0025943139",
+      "8.0025248984",
+      "8.0025050412",
+      "8.0024976487",
+      "8.0024943049"
+    ],
+    "preserve-grid": [
+      "8.0042917498",
+      "8.0025943139",
+      "8.0025248984",
+      "8.0025050412",
+      "8.0024976487",
+      "8.0024943049"
+    ]
+  },
+  "progress_iteration_0_to_5": {
+    "default": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "preserve-grid": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "all_case_files_by_sha256": {
+    "default": {
+      "conditions.json": {
+        "bytes": 899,
+        "sha256": "094026d52bb30b22041579cd6d733f84670c190461aa9bf00c6e36ec722ba1ef"
+      },
+      "flatboi-process.json": {
+        "bytes": 786,
+        "sha256": "ce41f2580395daa04fa63e79f014b2db2bc7e6f56192448f4d94985e76ec3d57"
+      },
+      "flatboi-time.txt": {
+        "bytes": 18,
+        "sha256": "ac972ab776db32baa5e444ea0455577891ac425921e00e596cb5e916a7009008"
+      },
+      "flatboi.log": {
+        "bytes": 1750,
+        "sha256": "9d5f9979fe041980a8ea363dda73c1eb0bc4130b314b9356b251a4bad7c9601a"
+      },
+      "output/meta.json": {
+        "bytes": 372,
+        "sha256": "c750941e9c356f8d50e9645b0b33fe09fc57da0891cdb6aab82e3964eea3998a"
+      },
+      "output/x.tif": {
+        "bytes": 296458,
+        "sha256": "484d5067f9f23abbae296a5ea6820089736c05ce222c586c94403dbd1e492734"
+      },
+      "output/y.tif": {
+        "bytes": 296458,
+        "sha256": "482768674a7c04d4c88b9c65e7d473e2c377c0314da767fb3ef7734fffc18492"
+      },
+      "output/z.tif": {
+        "bytes": 296458,
+        "sha256": "c84bbbf37c95fdafd185531c48c4f0faee6816488c107b5de1e97cb003ec4726"
+      },
+      "output_energies_flatboi.txt": {
+        "bytes": 78,
+        "sha256": "8c4e42264512728ac8c9a31e3938415b926409225b84a0e5fa4463c02e2abfcb"
+      },
+      "output_heat_kappa.png": {
+        "bytes": 515153,
+        "sha256": "65d99c3f9d618ea822a2bd784c431cee75da47600b1b79299ae30122143f8840"
+      },
+      "output_heat_L2.png": {
+        "bytes": 463784,
+        "sha256": "f2015360bf7d3ba2ba78398b2d15faaccaa8bb4ba8c4e28ef18bde5ece52f774"
+      },
+      "output_heat_Linf.png": {
+        "bytes": 481767,
+        "sha256": "a5d6f4a6fabbbeadeff6b71b608405fdad91cb191226c6d6cf63a9f9b62627d3"
+      },
+      "output_heat_logarea.png": {
+        "bytes": 563278,
+        "sha256": "de0e63a89a4d365bd4919917025bbda1cfc732fdcd84b7cc9b90f82fd286ec4a"
+      },
+      "output_heat_ranges.txt": {
+        "bytes": 246,
+        "sha256": "27501bb776cab2d6352adcd04c2793eb9d63026a08b7989660c4e163fd08002a"
+      }
+    },
+    "preserve-grid": {
+      "conditions.json": {
+        "bytes": 956,
+        "sha256": "8a7100aaa276c009949b243164aee61487467d4fa6429caab0cc7a2ae509858d"
+      },
+      "flatboi-process.json": {
+        "bytes": 835,
+        "sha256": "9ee198e1f39c1274eed296efdd04d65382ef3bd504ab808629f462b16901cae2"
+      },
+      "flatboi-time.txt": {
+        "bytes": 18,
+        "sha256": "57e4871cec48ff753371c96f5cb41430f4777a81ccf59d8a0e8455a52ea5713d"
+      },
+      "flatboi.log": {
+        "bytes": 1792,
+        "sha256": "018dff8ac0127cf29d9a496d145538766a2352168051ab4929bf2ec61066ce2f"
+      },
+      "output/meta.json": {
+        "bytes": 372,
+        "sha256": "02bd383b28ef97fdf9fa16139bc250d87260d9c45de0d61218f92c09e253c8db"
+      },
+      "output/x.tif": {
+        "bytes": 296458,
+        "sha256": "484d5067f9f23abbae296a5ea6820089736c05ce222c586c94403dbd1e492734"
+      },
+      "output/y.tif": {
+        "bytes": 296458,
+        "sha256": "482768674a7c04d4c88b9c65e7d473e2c377c0314da767fb3ef7734fffc18492"
+      },
+      "output/z.tif": {
+        "bytes": 296458,
+        "sha256": "c84bbbf37c95fdafd185531c48c4f0faee6816488c107b5de1e97cb003ec4726"
+      },
+      "output_energies_flatboi.txt": {
+        "bytes": 78,
+        "sha256": "8c4e42264512728ac8c9a31e3938415b926409225b84a0e5fa4463c02e2abfcb"
+      },
+      "output_heat_kappa.png": {
+        "bytes": 515153,
+        "sha256": "65d99c3f9d618ea822a2bd784c431cee75da47600b1b79299ae30122143f8840"
+      },
+      "output_heat_L2.png": {
+        "bytes": 463784,
+        "sha256": "f2015360bf7d3ba2ba78398b2d15faaccaa8bb4ba8c4e28ef18bde5ece52f774"
+      },
+      "output_heat_Linf.png": {
+        "bytes": 481767,
+        "sha256": "a5d6f4a6fabbbeadeff6b71b608405fdad91cb191226c6d6cf63a9f9b62627d3"
+      },
+      "output_heat_logarea.png": {
+        "bytes": 563278,
+        "sha256": "de0e63a89a4d365bd4919917025bbda1cfc732fdcd84b7cc9b90f82fd286ec4a"
+      },
+      "output_heat_ranges.txt": {
+        "bytes": 246,
+        "sha256": "27501bb776cab2d6352adcd04c2793eb9d63026a08b7989660c4e163fd08002a"
+      }
+    }
+  },
+  "case_files_equal": [
+    "output/x.tif",
+    "output/y.tif",
+    "output/z.tif",
+    "output_energies_flatboi.txt",
+    "output_heat_L2.png",
+    "output_heat_Linf.png",
+    "output_heat_kappa.png",
+    "output_heat_logarea.png",
+    "output_heat_ranges.txt"
+  ],
+  "case_files_different_or_missing": [
+    "conditions.json",
+    "flatboi-process.json",
+    "flatboi-time.txt",
+    "flatboi.log",
+    "output/meta.json"
+  ],
+  "comparison_versions": {
+    "numpy": "2.5.2",
+    "tifffile": "2026.10.15"
+  },
+  "xyz_all_file_hashes_equal": true,
+  "xyz_all_decoded_float32_bits_equal": true,
+  "solver_energy_file_equal": true
+}

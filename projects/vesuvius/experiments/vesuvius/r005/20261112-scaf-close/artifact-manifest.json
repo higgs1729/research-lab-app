@@ -1,0 +1,623 @@
+{
+  "created_utc": "2026-11-11T19:46:15.458785+00:00",
+  "scope": "SCAF trials, original/isolated-patched binaries, external source/objects, reports61/62 and independent checks. Previous fixed C/D/helper inputs referenced by hashes. Mutable root runners excluded; per-execution snapshots retained.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-close/decision-record.json",
+      "bytes": 1162,
+      "sha256": "a486002b9c75dd2b1891fdb6e50ba944088d437fffc213ee35ea6ca2c2bfafa9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-close/experiment-record.json",
+      "bytes": 1313,
+      "sha256": "f45992967f128aaf310f8839003efc666becb0757b7b5f6d0b6961f96fb4f097"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-close/freeze.py",
+      "bytes": 4930,
+      "sha256": "b9d08698a13d43789486e7d1008bcbbdada804b5f0ede9a08bcc6755d26c8c35"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-close/resources.json",
+      "bytes": 53824,
+      "sha256": "6f5dee8cf336d663831a68e8d864fb6bd72285f2d5a9562851651353939406d6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-close/runtime-status.json",
+      "bytes": 1046,
+      "sha256": "d89fa8774fc11994eed64cbcca7486c820c3f3a96e03be18fec0b534878ae15e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-close/verification-record.json",
+      "bytes": 682,
+      "sha256": "1fb85b377b8ec3b6ccac38b29433084fd2a129667cfac27f6d682f09797d7104"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/check01-execution/state.json",
+      "bytes": 858,
+      "sha256": "a654a66e212643bd4cd94dd4ea774d584402b7f8093a976759aeb1d0037dd340"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/check01-execution/stdout.log",
+      "bytes": 641,
+      "sha256": "6cbbd7fbffc7175d28fe4603e3d89818847bb8bbfc5dbc17d6ea19850a418a5a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/check02/face_arrays.npz",
+      "bytes": 175374,
+      "sha256": "7b1e8d3b02bf295ec470bc7a658a4a596c0f8336c5788b61db05005e1f68dfb4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/check02/result.json",
+      "bytes": 34395,
+      "sha256": "f640fa92b7aea038179fff52fce468d0becda10f74555a2026bb00ca0fc7b6e0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/check02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/check02-execution/state.json",
+      "bytes": 860,
+      "sha256": "580e6bb6de35dd8b84e328dcb4c5e0868ac90bc54dabcc43ff3087644019a9a3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/check02-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/check03/result.json",
+      "bytes": 9661,
+      "sha256": "e3c6396fdffbcb8e5b9e8cee8e19fec96637184089101a71cc99c297b81c6dbb"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/check03-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/check03-execution/state.json",
+      "bytes": 869,
+      "sha256": "37da493aad18b4b8f9be16a98c219d5363d7e7160e466f68dca148dd43dc4a96"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/check03-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/verify_fixed_points.py",
+      "bytes": 6902,
+      "sha256": "dda8e339038ea9bc0dd50a805a55729e25eafcc14f301e8cda4cb97adfb419bc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf-verification01/verify_scaf.py",
+      "bytes": 23142,
+      "sha256": "9749c417333fce53067c93f4b26fb7f4d1270ef95266a1f7e4a3d692bd3e580b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analysis01/analyze_trial.py",
+      "bytes": 4038,
+      "sha256": "0789593a0148d551a698dab599743e84d622203f5f100855ddfb8e4a1f15fdf0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analysis01/arrays.npz",
+      "bytes": 362351,
+      "sha256": "b7d1b7087085763cdc904a9b62d8becddc03651361dbaa96f8e3b5236b4c7f6f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analysis01/result.json",
+      "bytes": 26167,
+      "sha256": "d18b14b49eb4829e0a4c8a4a6b674157c4eeeed4de89995f76d7b2ad82e23fa2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analysis01-execution/state.json",
+      "bytes": 839,
+      "sha256": "50c205bb2cc74be3fedae7638a0e3b7447e1f2dd0db7cd66e8281174fdb18697"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analysis01-execution/stdout.log",
+      "bytes": 26167,
+      "sha256": "d18b14b49eb4829e0a4c8a4a6b674157c4eeeed4de89995f76d7b2ad82e23fa2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analysis02/analyze_continuation.py",
+      "bytes": 4037,
+      "sha256": "f136e8400b6d54e70380cf42452862bb92aaa80b735a6caeec0040052d08b7c8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analysis02/arrays.npz",
+      "bytes": 84197,
+      "sha256": "c5df144cbbb9e8b576cbc317670a5f20ac5d878681fd16ef5c9b72ac147aed6b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analysis02/result.json",
+      "bytes": 8318,
+      "sha256": "a24ad53a86c782dd0621e74bb1a5da49fab5ff93f49081c017bcc5b985d0ec31"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analysis02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analysis02-execution/state.json",
+      "bytes": 846,
+      "sha256": "c8ef9a166aa28973673e051c6d6ccb7b46be9deb6820c7605da897c488ae1a2e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analysis02-execution/stdout.log",
+      "bytes": 8318,
+      "sha256": "a24ad53a86c782dd0621e74bb1a5da49fab5ff93f49081c017bcc5b985d0ec31"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analyze_continuation.py",
+      "bytes": 4037,
+      "sha256": "f136e8400b6d54e70380cf42452862bb92aaa80b735a6caeec0040052d08b7c8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/analyze_trial.py",
+      "bytes": 4038,
+      "sha256": "0789593a0148d551a698dab599743e84d622203f5f100855ddfb8e4a1f15fdf0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/boundary-decision-record.json",
+      "bytes": 948,
+      "sha256": "35d1aaee8435dba38f30ac93cd3f763c6de693ae07822bab29d5b23df43f3a75"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/boundary01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/boundary01-execution/state.json",
+      "bytes": 843,
+      "sha256": "8925c0187cd38922b59150ed593a099b6f27be252ab10f55a2b917cc1681b8e3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/boundary01-execution/stdout.log",
+      "bytes": 693,
+      "sha256": "6ad7d917968583614bf51b886507e398fb97f49a8e08328ad18e696fd513aec1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/boundary02/arrays.npz",
+      "bytes": 80900,
+      "sha256": "37dd61c902eba3a6406bc7851a0ac7cb7ea9992e07978254090c7e3aab12d9c7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/boundary02/diagnose_boundaries.py",
+      "bytes": 2950,
+      "sha256": "1e08ff5c79d394f2391d5a19838df2520570b1474eb002ab793970965a9093a8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/boundary02/result.json",
+      "bytes": 7148,
+      "sha256": "0a0dddf01641ba86b48a858eb69e286055a98b90acbf1d25159752a96724f141"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/boundary02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/boundary02-execution/state.json",
+      "bytes": 849,
+      "sha256": "bb04d816ea77f7199a57b1db36c158a79d5d1510e1ea807813ae58760ae1d880"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/boundary02-execution/stdout.log",
+      "bytes": 7148,
+      "sha256": "0a0dddf01641ba86b48a858eb69e286055a98b90acbf1d25159752a96724f141"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/build01/native_job.py",
+      "bytes": 4902,
+      "sha256": "57c243064d079b8742e8ddd162e3337657897a1fd08d65e1f058b366a285048e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/build01/scaf_trial.cpp",
+      "bytes": 3819,
+      "sha256": "9c591797e535af24044a34eed9d573afaaa10817ac24a57debc3ce95629ecb0a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/build01/state.json",
+      "bytes": 11262,
+      "sha256": "0d978c12bf5b7c69a613b2e9fb5a622bf1fa6f811d74f4d771bb05f004b4d00a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/build01/stdout.log",
+      "bytes": 803,
+      "sha256": "fd8ae563c1b1102da3a3f1d613aa1e39b5703d5194189daece6b62e9339f861f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/build02/native_job.py",
+      "bytes": 5181,
+      "sha256": "6ebbc8ee151f67777381282ee9b92fae7f62695ffbd79d0139f47703be8edb55"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/build02/scaf_trial.cpp",
+      "bytes": 3819,
+      "sha256": "9c591797e535af24044a34eed9d573afaaa10817ac24a57debc3ce95629ecb0a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/build02/state.json",
+      "bytes": 11714,
+      "sha256": "30db7b03013f322b6030e074ca13ff1a89cf19c524b1abba9b4349d36ee146c8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/build02/stdout.log",
+      "bytes": 803,
+      "sha256": "fd8ae563c1b1102da3a3f1d613aa1e39b5703d5194189daece6b62e9339f861f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/candidate-energy.patch",
+      "bytes": 830,
+      "sha256": "b3030c6f3791b41d4de4d2e741ef8dbcd53485c0bf6c0a3f8c03ef330845e0d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/check_fixed_points.py",
+      "bytes": 4314,
+      "sha256": "d65f31499055307d4555fb41dcef9150b41014d11553444203405c6a3d78845e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/continuation-decision-record.json",
+      "bytes": 997,
+      "sha256": "697e6d3cb5e62193208413490e71551261ce9f9e26a6097d8e45317e93345a3d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/decision-record.json",
+      "bytes": 1398,
+      "sha256": "2e7f8523364ab19f1a62beea13f2094ff601d6f6349ea0bcddb5432f3697b484"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/diagnose_boundaries.py",
+      "bytes": 2919,
+      "sha256": "776c70cad02200b7a922cf8533091a0640040b50626884e8aad4e82bef0b4994"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/diagnose_boundaries_v2.py",
+      "bytes": 2950,
+      "sha256": "1e08ff5c79d394f2391d5a19838df2520570b1474eb002ab793970965a9093a8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/energy-decision-record.json",
+      "bytes": 1168,
+      "sha256": "48a725ecbaac7adac0e5c50e19f863eb33c7e0debb5537c8a28307e4ca99ba73"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/energy-patch-manifest.json",
+      "bytes": 1903,
+      "sha256": "cada27a30bd1f2205b3267c13937826fba95752d7de746c0a2adb05be9d579c7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input01-execution/state.json",
+      "bytes": 835,
+      "sha256": "0e07d698d1882420db96fe9bbd7891f49efc86e37434f1e78cc749ebca526c7d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input01-execution/stdout.log",
+      "bytes": 508,
+      "sha256": "138c1d3958486d493ec155f576bce7d1a6be3f16b9e3648c6788caf94ff19c43"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input02/arrays.npz",
+      "bytes": 17626,
+      "sha256": "b08bf6ff9508ae7a1dede641008aefd6699a8f3ce3b4ebafab9b241de9aba721"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input02/input.json",
+      "bytes": 80193,
+      "sha256": "2727668556f2473843144fe27152675796c8b2d04c22c891a5909797c3947364"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input02/result.json",
+      "bytes": 3034,
+      "sha256": "348686bcbf578146a3a5ee8db557e166cb38b4717ea49b9a7387ec045dd4f114"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input02/select_manifold_trial.py",
+      "bytes": 4727,
+      "sha256": "9140ab9c53cd08aaec8e99ec93155f1742ed4e2f9c46bba6e1233fb7a883f4ac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input02-execution/state.json",
+      "bytes": 844,
+      "sha256": "a48134d22636f1f963cfe0672391c0b00e0f4f72eb8cb9b18a8fb89d3ea7e7b5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input02-execution/stdout.log",
+      "bytes": 3034,
+      "sha256": "348686bcbf578146a3a5ee8db557e166cb38b4717ea49b9a7387ec045dd4f114"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input03/input.json",
+      "bytes": 79888,
+      "sha256": "999c922696a0374433305e0849bebe18035add21bd2a6f6affd0193735bd2f12"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input03/prepare_continuation.py",
+      "bytes": 1095,
+      "sha256": "e2a76830ff5d6ac093f4429adfbe7a4c4f45b840dd614179e79a385b5763c588"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input03/result.json",
+      "bytes": 492,
+      "sha256": "6e0779021f4427f5489bcca8134b755dc399e954fef434a3e2f856a56509e001"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input03-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input03-execution/state.json",
+      "bytes": 844,
+      "sha256": "b6bc349b7ca50a1fb1e333f59c037b3e1fd3a0950d758669564c1c9fc874f7ba"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/input03-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/manifold-decision-record.json",
+      "bytes": 1112,
+      "sha256": "7a4f70653ac47d96e68cfefdddd5e04749b0e8a8db8addb873009a7f9d625544"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/native_job.py",
+      "bytes": 4902,
+      "sha256": "57c243064d079b8742e8ddd162e3337657897a1fd08d65e1f058b366a285048e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/native_job_patched.py",
+      "bytes": 5181,
+      "sha256": "6ebbc8ee151f67777381282ee9b92fae7f62695ffbd79d0139f47703be8edb55"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/point-decision-record.json",
+      "bytes": 1011,
+      "sha256": "ca92c9ce710d0fde48385cbf6a300c00f23f6320b55a195f2a8b937fa043e24e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/points01/arrays.npz",
+      "bytes": 490,
+      "sha256": "84bd3c40a5d7c20246a326fdeff7ed9a89a11a434c01ddda0956fbb1d003bde7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/points01/check_fixed_points.py",
+      "bytes": 4314,
+      "sha256": "d65f31499055307d4555fb41dcef9150b41014d11553444203405c6a3d78845e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/points01/result.json",
+      "bytes": 5505,
+      "sha256": "cad2c3b99a7bb4f248c050408df7dda59f5c76f9ef27f8cda46f4b0d35a8719c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/points01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/points01-execution/state.json",
+      "bytes": 842,
+      "sha256": "73e8c82598b502034fae6a82654896528829deba155a25b890f8e93ed10de223"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/points01-execution/stdout.log",
+      "bytes": 5505,
+      "sha256": "cad2c3b99a7bb4f248c050408df7dda59f5c76f9ef27f8cda46f4b0d35a8719c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/prepare_continuation.py",
+      "bytes": 1095,
+      "sha256": "e2a76830ff5d6ac093f4429adfbe7a4c4f45b840dd614179e79a385b5763c588"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/prepare_energy_patch.py",
+      "bytes": 2862,
+      "sha256": "7a5e19572e2e62ac9253434b48099986baef2ecd326c5606ebad59216992ce63"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/prepare_trial.py",
+      "bytes": 3549,
+      "sha256": "5119f009d8df551d53b25e468485e6ccb8bf8e531936726c9d09ed81f82fdc7f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/README.md",
+      "bytes": 2460,
+      "sha256": "58154c00a423bea73279e066751aa9487fc2f8ac4d4e8b984b9c26e10ddc5e9b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run01/native_job.py",
+      "bytes": 4902,
+      "sha256": "57c243064d079b8742e8ddd162e3337657897a1fd08d65e1f058b366a285048e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run01/result.json",
+      "bytes": 231798,
+      "sha256": "4456422b301848820a439bf5e0fcc5ba3c717143b7220b5cbffd0c0d7622d578"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run01/scaf_trial.cpp",
+      "bytes": 3819,
+      "sha256": "9c591797e535af24044a34eed9d573afaaa10817ac24a57debc3ce95629ecb0a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run01/state.json",
+      "bytes": 4448,
+      "sha256": "8860019db45a85a5bfe4c00f874015031bd457fc54f2c1e9f27eb1927081d8f6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run01/stdout.log",
+      "bytes": 162,
+      "sha256": "c3f6c781dbee8de728636036276ff838e48006a4416578fd07a3f4b9fc20c924"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run02/native_job.py",
+      "bytes": 5181,
+      "sha256": "6ebbc8ee151f67777381282ee9b92fae7f62695ffbd79d0139f47703be8edb55"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run02/result.json",
+      "bytes": 231237,
+      "sha256": "b4f32ae15ed65a269d20ad71ff9839feda907ba40db04726bc4d0ef2dc01ede5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run02/scaf_trial.cpp",
+      "bytes": 3819,
+      "sha256": "9c591797e535af24044a34eed9d573afaaa10817ac24a57debc3ce95629ecb0a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run02/state.json",
+      "bytes": 5020,
+      "sha256": "4d73be1bbc54abb5c76aca325301d871d3cdf6af390cc7f15421e54beacc05b3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run02/stdout.log",
+      "bytes": 160,
+      "sha256": "dfbe07a892a179bf4aebcc8710dae57f06cfdc24a9d3f72d3d87111a5a7c37b0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run03/native_job.py",
+      "bytes": 5181,
+      "sha256": "6ebbc8ee151f67777381282ee9b92fae7f62695ffbd79d0139f47703be8edb55"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run03/result.json",
+      "bytes": 105905,
+      "sha256": "dd39f0e4312047a05924a36baec0f6e7fdfb5c711caeddcc8944dee2ad39fbd5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run03/scaf_trial.cpp",
+      "bytes": 3819,
+      "sha256": "9c591797e535af24044a34eed9d573afaaa10817ac24a57debc3ce95629ecb0a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run03/state.json",
+      "bytes": 5020,
+      "sha256": "4978832d66e038d2383ed9362419987c4e5ba297fe2cd828d094dd8bb0dcb074"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/run03/stdout.log",
+      "bytes": 56,
+      "sha256": "235515d965641ca15cf948ed95fef46d87509274684e4de6974e54b9cce0acdd"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/scaf_trial.cpp",
+      "bytes": 3819,
+      "sha256": "9c591797e535af24044a34eed9d573afaaa10817ac24a57debc3ce95629ecb0a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/select_manifold_trial.py",
+      "bytes": 4727,
+      "sha256": "9140ab9c53cd08aaec8e99ec93155f1742ed4e2f9c46bba6e1233fb7a883f4ac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/triangle-source-reference.json",
+      "bytes": 4309,
+      "sha256": "a0f17c84f2c8cb1fd0f5ac543b072a41c8edd4a048510d49e07ac30f59422419"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/upstream-energy-source.json",
+      "bytes": 977,
+      "sha256": "83a44c8824202e65c2a1018302d03651516d3197d6253e339ae49a0917140535"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-scaf01/upstream-scaf-search.json",
+      "bytes": 119235,
+      "sha256": "ecc7add6dcf007540797ece62a403dfaf1d60304a04b1a2d774bef17edd50256"
+    },
+    {
+      "path": "research/61-r005-scaf-trial.md",
+      "bytes": 11190,
+      "sha256": "cfad98dae6cc7ab6d504f9e2d07e6f5b9c5c88640505940d485578e13eee4625"
+    },
+    {
+      "path": "research/62-r005-scaf-verification.md",
+      "bytes": 10267,
+      "sha256": "5496e7bf65d76ec90964e383e890dd9d59c12eabe209e3ee1437b6f0dc1ecfa3"
+    }
+  ],
+  "external_files": [
+    {
+      "path": "D:\\kensyoukin-work\\r003-build\\bin\\r005-scaf-trial01",
+      "bytes": 10878552,
+      "sha256": "7219a6c7d655d4ca1d26253fc0ecf4f9299fc4bde9cae0150ad4630da806e58e"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r003-build\\bin\\r005-scaf-trial02",
+      "bytes": 10878720,
+      "sha256": "2ef8f72c5bc88f033f3a6d3c42ab44759f2d51f9843aacb999fc4d75ac586a88"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r005-scaf01\\energy-override\\include\\igl\\triangle\\scaf.cpp",
+      "bytes": 22453,
+      "sha256": "3a1f270815e7a0c2d6bb28915630271d4c90bf397c370b8a723f5368d82f1ca2"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r005-scaf01\\energy-override\\include\\igl\\triangle\\scaf.h",
+      "bytes": 4723,
+      "sha256": "38bf5ed56f39c3b22802116623c7ee1ac6bcb9fbfb5668f473926f7895fd229f"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r005-scaf01\\objects01\\scaf_trial.o",
+      "bytes": 18976928,
+      "sha256": "5451c54bc28bfd7b92853b8bc4bdec66d876fef93681ae356fc241e88eec4be4"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r005-scaf01\\objects01\\triangle.o",
+      "bytes": 281624,
+      "sha256": "8f1919a66df35bf0d920200f3f4e3f4e5b79e959fc1886683f801448189f965d"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r005-scaf01\\objects02\\scaf_trial.o",
+      "bytes": 18977192,
+      "sha256": "64c2550fab88f1e74e655ce714f64676b5456bc08b0d6549a56b52edd1b2c9b1"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r005-scaf01\\triangle-source\\CMakeLists.txt",
+      "bytes": 818,
+      "sha256": "c28ae30873d359e311108a4bb814ac695d6c8cd86270127c8b3f061e8254e4c9"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r005-scaf01\\triangle-source\\README",
+      "bytes": 8727,
+      "sha256": "8a475c758031274ca7f7686980c0cd62aaa99c86f1d8d374451c0eac9fa4fb6d"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r005-scaf01\\triangle-source\\triangle.cpp",
+      "bytes": 651624,
+      "sha256": "b0bbf2c8c66eead3f86a1630332556ece1bf923914bf77652a5e2f080df5acd6"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r005-scaf01\\triangle-source\\triangle.h",
+      "bytes": 21928,
+      "sha256": "5e88ba9ba2469e1fdfd32360ed8b1d56871d0987da09654b0b886ea6d9e3f2c1"
+    }
+  ]
+}

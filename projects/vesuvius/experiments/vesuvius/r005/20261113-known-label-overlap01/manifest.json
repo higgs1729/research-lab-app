@@ -1,0 +1,259 @@
+{
+  "files": [
+    {
+      "file": "research/144-r005-known-label-overlap.md",
+      "bytes": 12271,
+      "sha256": "1689b857cbf7f3de0270acfb2321b8955bf0eb9fc5755d681100ff4d7aea94a7"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/assess.py",
+      "bytes": 6546,
+      "sha256": "95692ba59c392c5665c46e4aefd2f72dd571597e0ffcd84a72b0f106a1edd9b7"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/closest_original_face.py",
+      "bytes": 1291,
+      "sha256": "636e895fadd40a17723396de43397f7f1590b487a0b358461b7162062507cc8d"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ct-20250804134230-metadata.json",
+      "bytes": 8446,
+      "sha256": "7db0a497ed78165a17b681debacd40e6fadd99326aed8423b9e337007cad4b92"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ct-20260309142202-metadata.json",
+      "bytes": 8350,
+      "sha256": "e60e9aa8d084366983026fdf5e6a77e1e1f82f981dffef07c604bfed2099c979"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ct-2um-volumes.xml",
+      "bytes": 643,
+      "sha256": "f8c484c28673483af9307f88db90f32e2ae6f68085be13d2d56d3239af7abbe7"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/data.py",
+      "bytes": 835,
+      "sha256": "33caa0622bd061d9162499af8ad64ff40663fac73f2ec46c2e601385ca6a4277"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/fetch.jsonl",
+      "bytes": 22267,
+      "sha256": "4c127cca7570b4c343492b618a8f99447318ecc3dc995f40fb71230a52e3079b"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/fetch.py",
+      "bytes": 2154,
+      "sha256": "fb3decfe98d07621c92f652a5a1c569c0b1513479bdfe36c66f3157a2fd811e8"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/first-2-meta.json",
+      "bytes": 412,
+      "sha256": "bdfaf16f2dcf618b2c5f0595d281fba02b9bace66a312a8f500ed386eb0e6046"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/first-2-objects.xml",
+      "bytes": 2074,
+      "sha256": "a85b86934d6643c9307e258c330475036098542f1875c86528bd88b6bf65ec29"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/first-9-meta.json",
+      "bytes": 291,
+      "sha256": "3ed15b457647d2eaa473d63f3748865f8292e69b987dad0148969a72a7101d09"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/first-9-objects.xml",
+      "bytes": 2071,
+      "sha256": "f073d64d12d30a8529e831f0ba837f5539859fbca83d1a3a00a242fbd529baa2"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/first-mesh.xml",
+      "bytes": 979,
+      "sha256": "ce0a6e447742491b71e77cc66f34711b0a4ea7ad9dc543fc62052de38aca7d80"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/inklabels-l0.json",
+      "bytes": 1216,
+      "sha256": "25491bef057da8adba6063c545aceea2c3cd1e64986d7ba51ecee16e29fc9b5a"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/inklabels-objects.xml",
+      "bytes": 793,
+      "sha256": "3fba383f66c50b10b5d408b228eef1cbea2c6c720eb3108306f91735b7604f2b"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/inklabels.bin",
+      "bytes": 28958,
+      "sha256": "df1e23d4910b91d55ad11f8b5352fd328ed32de3ee43fcfb39f6cd139eabe766"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/inklabels.json",
+      "bytes": 2983,
+      "sha256": "755f62b5dc2e49731c4da608fa0349ab1273ea0297c273812e114f0bfb22d56d"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/metadata.py",
+      "bytes": 1084,
+      "sha256": "71993e70a55ef65fa7a9f6d6585df4d4b7852c19e5ee5bf8750eb19b8d61f4b6"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/provenance_fetch.py",
+      "bytes": 135,
+      "sha256": "e4bcf0986146417eb86b5f2e51a0deaadcfea011e745f90e7e36d5697b98c358"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/record.json",
+      "bytes": 1304,
+      "sha256": "c3b50376277adf95530cc567ae866d134752602d06a6b3a4d57456063ecc02d2"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ref-2-meta.json",
+      "bytes": 282,
+      "sha256": "10b1c892388e2f59feed95378a8f36677c34579bd9d955fa8c717d375b558ad8"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ref-2-objects.xml",
+      "bytes": 2004,
+      "sha256": "877c93bbdd7683c974c3bd8a097d1f7a0d8fb545bd6ef9ec6d0964379220aa23"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ref-2-x.tif",
+      "bytes": 1177598,
+      "sha256": "12459daf2c693f77640aca57ff8dd2cf10fc1cfabf82f37e25155976592a19a7"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ref-2-y.tif",
+      "bytes": 1177598,
+      "sha256": "87b02cdda3a7e407d7f1b564fded6c208cf4d1178b1385384ed4859b27ae9137"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ref-2-z.tif",
+      "bytes": 1177598,
+      "sha256": "da02ecc39cc2ea41a404e4442cdb656dcc03f97e739fee2db7857247b421f2f7"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ref-9-meta.json",
+      "bytes": 419,
+      "sha256": "c3a33a24dd68d5cc2ab9ee98db33932e3366a2aed507265016ec1bd5c87335ed"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ref-9-objects.xml",
+      "bytes": 1998,
+      "sha256": "cd4226fa8768c79b905a215a9cae3a8538bbb3593062262075f64156c79e3c37"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ref-9-x.tif",
+      "bytes": 77742,
+      "sha256": "1f0748d26fced14c650d410d16b502041031d3b915600cbbadf131abb4d038f0"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ref-9-y.tif",
+      "bytes": 77742,
+      "sha256": "a6d2c3085b55d9314a0f18c7bf34317cdb5d7c6797804619bc94dfb84928f701"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/ref-9-z.tif",
+      "bytes": 77742,
+      "sha256": "c849c93dc57dc9b58c8922af2e2480198900572526a065e6d27d12c34487ac7c"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/reference-label-releases.xml",
+      "bytes": 521,
+      "sha256": "75547be17810126a717a9c0712ec3b9035c985d523e5f98da4ffa412198f56b0"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/reference-mesh.xml",
+      "bytes": 909,
+      "sha256": "78b23fc8ed0db1117537b7245b048265e9d1f12c7ec0ec21a9f28d33a1e70694"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/reference-surface-attrs.json",
+      "bytes": 3467,
+      "sha256": "b2f95a926b15c680a6b8a957a56f08a0633773a5bb38c78a985262fdf29c23db"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/reference-surface.xml",
+      "bytes": 836,
+      "sha256": "cb8a33ef0491d468cf0b1baceebde3f8947d21ad7424c47068b2b3e526c700d9"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/result.json",
+      "bytes": 5562,
+      "sha256": "3b03be904b79fec7ef6a34576bf21af627bdde012b26921f57307c4beb79b0df"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/second-2-meta.json",
+      "bytes": 414,
+      "sha256": "ed52b25cd3b379a3ed3044db8a1d28be3c4892b2e6b7e3f3fe4de3719d7a17f7"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/second-2-objects.xml",
+      "bytes": 2083,
+      "sha256": "6d788e027de82a1912bf797a6a1b644952bb608f058bb61b0efa827f0f5812e7"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/second-9-meta.json",
+      "bytes": 288,
+      "sha256": "1d9c3ae2e3a7738d33db2fe871f7828353fa453fa540593b1214e906d6efafdc"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/second-9-objects.xml",
+      "bytes": 2074,
+      "sha256": "814fba6e9660625be092e6bfba258415dda07d05ae4c3befcbed562913bef852"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/second-closest-ink-original-face.json",
+      "bytes": 705,
+      "sha256": "5540b44c23fec277616c1df583186f8312469004205871e5b2ee4eaacbbfb4ec"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/second-mesh.xml",
+      "bytes": 979,
+      "sha256": "4eb9f9903df613e44b53873e75a498e1afde9064b1b09dcd7f214aa8cd5bd783"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/supervision-l0.json",
+      "bytes": 1216,
+      "sha256": "25491bef057da8adba6063c545aceea2c3cd1e64986d7ba51ecee16e29fc9b5a"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/supervision-objects.xml",
+      "bytes": 797,
+      "sha256": "e7e7c4d47ad4b89a8d4533802f1abb7f6eb4afee9e3746b58c103f31c5f2e359"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/supervision.bin",
+      "bytes": 24874,
+      "sha256": "3e4ed57bdbcdd10cbd7776ed57cf8866c4eab3d4cba067c83ee2a1a8f52eb236"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/supervision.json",
+      "bytes": 2998,
+      "sha256": "8f172aa949c363a86199bfe776ef9b1f7ff214576dc0c738a0a39f14987d7629"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/support-samples.npz",
+      "bytes": 710434,
+      "sha256": "749ed5edef469e7633a02ae180a839926f36c38749656029ed3eeb86fa246550"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/transform-fit.xml",
+      "bytes": 709,
+      "sha256": "5f0eebacce6af80c3a3f3443ef7db96f87ab576bbd4641edf257393f84fbd608"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/transform-provenance.json",
+      "bytes": 265,
+      "sha256": "ffe2f181e62d65049c89b3377a47872655bcd6f472066cb0e7ea9d7210722bf8"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/transform.json",
+      "bytes": 2276,
+      "sha256": "ecf63a64afad0faa8f0dff1c7e680fadc4c059c07db05df3ea114f0629baed75"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-known-label-overlap01/transforms.xml",
+      "bytes": 517,
+      "sha256": "b8d297734a5440aa6d7e9fab1f454ff74660bbe341383795ee709618ca60f9ba"
+    }
+  ]
+}

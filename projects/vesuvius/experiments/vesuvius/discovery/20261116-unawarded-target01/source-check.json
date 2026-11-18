@@ -1,0 +1,161 @@
+{
+  "observed_utc": "2026-11-16T03:31:17.961045+00:00",
+  "saved_body_count": 36,
+  "saved_body_bytes": 4894435,
+  "saved_body_mib": 4.667696952819824,
+  "largest_body_bytes": 1163280,
+  "body_cap_mib": 64,
+  "per_body_cap_mib": 16,
+  "all_saved_bodies_verified": true,
+  "all_raw_github_sources_match_fixed_tree": [
+    {
+      "name": "jinho-README.md",
+      "revision": "34011216020f5bdb3070f5693f0e2721616e1c28",
+      "repository_path": "README.md",
+      "git_blob_sha1": "9dba2bf3f0e854d0e54f1d3761591525f8166f27",
+      "bytes": 17714,
+      "match": true
+    },
+    {
+      "name": "jinho-gallery.md",
+      "revision": "34011216020f5bdb3070f5693f0e2721616e1c28",
+      "repository_path": "docs/evidence_gallery/INDEX.md",
+      "git_blob_sha1": "253b7e055e25660047e601d7b112f1c2f24fbebb",
+      "bytes": 20675,
+      "match": true
+    },
+    {
+      "name": "jinho-ink-results.md",
+      "revision": "34011216020f5bdb3070f5693f0e2721616e1c28",
+      "repository_path": "results/ink9um_w016/RESULTS.md",
+      "git_blob_sha1": "34dece2b5b9e4724805e0247e90b1f0306eccdcf",
+      "bytes": 8940,
+      "match": true
+    },
+    {
+      "name": "jinho-ridge-results.md",
+      "revision": "34011216020f5bdb3070f5693f0e2721616e1c28",
+      "repository_path": "results/ridgecentre1218/RESULTS.md",
+      "git_blob_sha1": "f5aa78444556b3dedc5e3f03a0c8fbea606532f8",
+      "bytes": 11250,
+      "match": true
+    },
+    {
+      "name": "jinho-render-ab.json",
+      "revision": "34011216020f5bdb3070f5693f0e2721616e1c28",
+      "repository_path": "results/ink9um_1218/ink1218_demo.json",
+      "git_blob_sha1": "71377c6d47ac58f3ea6fb1c1eb3be60f97b17efa",
+      "bytes": 1648,
+      "match": true
+    },
+    {
+      "name": "jinho-growpatch-results.md",
+      "revision": "34011216020f5bdb3070f5693f0e2721616e1c28",
+      "repository_path": "results/growpatch16/RESULTS.md",
+      "git_blob_sha1": "7f73af172de1e3b5513a8d01fff62e654dbea01a",
+      "bytes": 5100,
+      "match": true
+    },
+    {
+      "name": "jinho-growpatch-results.json",
+      "revision": "34011216020f5bdb3070f5693f0e2721616e1c28",
+      "repository_path": "results/growpatch16/RESULTS.json",
+      "git_blob_sha1": "f546d3e8a9e527e4d610ec9bd839c470c9714a91",
+      "bytes": 82385,
+      "match": true
+    },
+    {
+      "name": "jinho-hazard-ab.png",
+      "revision": "34011216020f5bdb3070f5693f0e2721616e1c28",
+      "repository_path": "docs/evidence_gallery/render_1218_hazard_ab.png",
+      "git_blob_sha1": "dee0cb0a6461fa97ac7b8b46189be81bc5c61ea1",
+      "bytes": 924893,
+      "match": true
+    },
+    {
+      "name": "jinho-ink-demo.png",
+      "revision": "34011216020f5bdb3070f5693f0e2721616e1c28",
+      "repository_path": "docs/evidence_gallery/ink9um_1218_demo.png",
+      "git_blob_sha1": "4d68f45ee1b05fdbae784d38ccbf67a113246e50",
+      "bytes": 1163280,
+      "match": true
+    },
+    {
+      "name": "jinho-gallery-code.py",
+      "revision": "34011216020f5bdb3070f5693f0e2721616e1c28",
+      "repository_path": "docs/evidence_gallery/make_gallery.py",
+      "git_blob_sha1": "e24ec5287c5a9f05eae0bf59ab1d3d42ed4e3169",
+      "bytes": 33682,
+      "match": true
+    },
+    {
+      "name": "jinho-hazard-render.sh",
+      "revision": "34011216020f5bdb3070f5693f0e2721616e1c28",
+      "repository_path": "results/p8_support_mask/p8_render_hazard.sh",
+      "git_blob_sha1": "a665bb46c0350bb2c0ca2b03f9260a6ddd163417",
+      "bytes": 1087,
+      "match": true
+    },
+    {
+      "name": "iyan-README.md",
+      "revision": "cc1fb1429d62670f7dc00943932e90d0e6d31c8a",
+      "repository_path": "README.md",
+      "git_blob_sha1": "54231c152a83f163b3395073739a8526482c3e5a",
+      "bytes": 14583,
+      "match": true
+    },
+    {
+      "name": "gmdevi-report.md",
+      "revision": "420608850f5f126524e7a06ef3a8c85ba31d7f6c",
+      "repository_path": "report/REPORT.md",
+      "git_blob_sha1": "19d068388e83a1e9c86f91f0b69f62b3502032e7",
+      "bytes": 13646,
+      "match": true
+    },
+    {
+      "name": "1203-README.md",
+      "revision": "9fe1b3ae3dead06547c2f6df4626a606187d18e9",
+      "repository_path": "README.md",
+      "git_blob_sha1": "c87a475336e6a8adbbc86d05617bde0342c8da4b",
+      "bytes": 4627,
+      "match": true
+    },
+    {
+      "name": "1203-top-dig-sites.csv",
+      "revision": "9fe1b3ae3dead06547c2f6df4626a606187d18e9",
+      "repository_path": "data/top_dig_sites.csv",
+      "git_blob_sha1": "dde4c7a0f2c5adb3f0bfb126a17453266639d1ba",
+      "bytes": 585,
+      "match": true
+    },
+    {
+      "name": "unmerge-README.md",
+      "revision": "179ebe7d352b8601805c9079491f67241e1c7137",
+      "repository_path": "README.md",
+      "git_blob_sha1": "53915781063f409859da434b499ca96309b93c68",
+      "bytes": 6263,
+      "match": true
+    }
+  ],
+  "prior_sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-unread-multiwinding-lane01\\originals\\sqm-atlas.json",
+      "bytes": 60402,
+      "sha256": "f70ff1a3004e576758938f61b125adae9d83795fecdae4b87b77f7efdd5c5f87"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-unread-multiwinding-lane01\\originals\\gmdevi-report.md",
+      "bytes": 13646,
+      "sha256": "0cca2b655fc509af23a9eee5735f1b52955556c2ebb1aa4d6b9bb69b1f5268dc"
+    }
+  ],
+  "gmdevi_current_same_as_r212": true,
+  "new_ct_voxels": 0,
+  "model_forwards": 0,
+  "gpu": 0,
+  "paid_usd": 0,
+  "external_messages_posts": 0,
+  "new_file_writes_drive": "C",
+  "D_writes": 0,
+  "scope_note": "Saved HTTP response bodies only. Web-tool discovery response bytes and HTTP transport headers were not measured. No numerical image processing or scientific computation executed."
+}

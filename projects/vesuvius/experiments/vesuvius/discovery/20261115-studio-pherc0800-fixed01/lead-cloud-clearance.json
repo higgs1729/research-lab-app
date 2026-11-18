@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-15T11:24:27.824109+00:00",
+  "approved": true,
+  "cloud_plan_sha256": "0d9e6e2259e7866269998cacba5085e6f272653a37165930836609321a32a8cc",
+  "archive_members_verified": 22,
+  "controller_assignments_verified": 17,
+  "known_references_byte_identical": 3,
+  "unknown_input_values_verified": 23658496,
+  "independent_grid_patches_per_order": 324,
+  "upstream_model_and_patch_forward_unchanged": true,
+  "worker_text_equal_after_newline_normalization": true,
+  "GPU_order": [
+    "known3",
+    "forward324",
+    "reverse324"
+  ],
+  "estimated_usd": [
+    0.079,
+    0.159
+  ],
+  "operating_limit_usd": 0.35,
+  "absolute_deletion_seconds": 1800,
+  "reservation_bytes": 67108864,
+  "local_write_cap_bytes": 536870912,
+  "reason": "Same 16 physical stored slices, order-only comparison; source/coordinate identity independently verified. Archive and controller SHA checks completed before a worker newline-encoding comparison was corrected to normalized text comparison. One owned GPU with preserved model and resource margins, known3 parity before unknown, forecast against actual deadline, enlarged collection budget and physical reservation. Candidate0 closes this window."
+}

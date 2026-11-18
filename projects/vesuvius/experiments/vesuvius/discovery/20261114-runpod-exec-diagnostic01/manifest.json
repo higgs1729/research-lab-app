@@ -1,0 +1,260 @@
+{
+  "generated_utc": "2026-11-14T12:01:38.345719+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/README.md",
+      "bytes": 6075,
+      "sha256": "ddd893d27ab8451b312143f3909ef814b0f7e5b4daf2b9083b38cc78bfefb041"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/__pycache__/diagnostic.cpython-314.pyc",
+      "bytes": 24359,
+      "sha256": "153074fac79738da48b088e260d41d6d757c74893b1009c03152396bf71ebdd6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/admission.json",
+      "bytes": 439,
+      "sha256": "c1b5212ab4ed12d6086197a0b238fbec862535248d816bc90d092b49303cb0f4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/changes.md",
+      "bytes": 837,
+      "sha256": "36555de144cb15b1741c491a78ee2ac28c20d04a4855022959fe409f8016def0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/comparison-320.png",
+      "bytes": 144831,
+      "sha256": "128215729ed68dc78f0a451ed8f266e5c42cc2ec17ddbc0e7ce9d330ad780e44"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/comparison-384.png",
+      "bytes": 213369,
+      "sha256": "2d156ffa2c5abd04cc394e88f9517efd026f97d80400843aa97b65dd00bef1dc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/comparison.json",
+      "bytes": 955,
+      "sha256": "4e6c7e9d301fb6ddc95d1a89b902e9c65336fea6821ea37ed959d3dc20679573"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/diagnostic.py",
+      "bytes": 14340,
+      "sha256": "a117cf0eaf5d56c7c15ea6bfbbce05a4d6a787aa482ce5c3b4d6ee67b0474783"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/execution-result.json",
+      "bytes": 3534,
+      "sha256": "aba0a37420539c5236a11b573e627cfbc427e2d6cc7b795900a1afcf7f78c297"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/execution-start.json",
+      "bytes": 2194,
+      "sha256": "23ee5072cfa5fca090d46c714ea9de12dda79bd422028584ca4fc857298f8bf1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/finalize.py",
+      "bytes": 4010,
+      "sha256": "570863b14ada613b9520810e72ad0cdf979099774890e0ad1a0b1e618e8937d3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/first-three.json",
+      "bytes": 736,
+      "sha256": "842d6592b2bd72e5be154742a4c9588ff8cdf572f645aaa546e4cb96c2f2395f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/hecate-forward.png",
+      "bytes": 40701,
+      "sha256": "6f6a55a03a5765fbc73d9cb716bf2e38549d85a4cc7a8e0b697746d5b0114516"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/hecate-reverse.png",
+      "bytes": 74966,
+      "sha256": "a55ffaed69c25f1b8a5b04191046e22023b813952f32f7022a3fedb7838b6fa0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/image-process.json",
+      "bytes": 687,
+      "sha256": "c141c72d60b1f73482f8086bab06e07325d26c233b736011134b594de3704ac9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/inspect_billing.py",
+      "bytes": 1288,
+      "sha256": "b4f95f4ba77984e3fbe427178dad3c471351c2004a36c62e75387e1b5157eba7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/job-result.json",
+      "bytes": 44,
+      "sha256": "7d07873dde871c12e3f861f3a74745dd051b3e0a888b3f71438fb0689dcfe6fe"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/launcher.log",
+      "bytes": 107,
+      "sha256": "ab061c87dbaa853775305c8ec3ab6ee33d157fa3cb027bb589cdea94ee3ce2e6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/lead-deleted-exec-reference.json",
+      "bytes": 552,
+      "sha256": "07089067b70204baf4be1f6cdd63e21f645a47fa7fe5d83ecbfaf554d2802ada"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/lead-deletion-check.json",
+      "bytes": 300,
+      "sha256": "bd98fc0176cc2b0903acb24b995fe00e5129c0fd5daf782b3d5b64d5b0482e72"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/lead-diagnostic-check-process.json",
+      "bytes": 770,
+      "sha256": "4b7551f19a8a84988647a36f68b61248898d2e57a5bffd05604429b13eb34930"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/lead-diagnostic-check-process02.json",
+      "bytes": 694,
+      "sha256": "59c5b37a9930b31a6e513c2f00b21d32d77939c6804abf43c6f35a70f84e2723"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/lead-diagnostic-check.json",
+      "bytes": 542,
+      "sha256": "1e8a1455b25f6eb1b25bbf8cd862e3cd075d8e719c4e8086c4b90d3a07e7b1f6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/lead-hecate-forward.png",
+      "bytes": 40701,
+      "sha256": "6f6a55a03a5765fbc73d9cb716bf2e38549d85a4cc7a8e0b697746d5b0114516"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/lead-hecate-reverse.png",
+      "bytes": 74966,
+      "sha256": "a55ffaed69c25f1b8a5b04191046e22023b813952f32f7022a3fedb7838b6fa0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/lead-launch-clearance.json",
+      "bytes": 981,
+      "sha256": "492b0ee9821ee2c0d517a1cb87d55f92c72123f5581ee745e7194f197d09cabe"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/lead-result-check-process.json",
+      "bytes": 691,
+      "sha256": "91e69a9a56bb78bfe22985754fbafde90cb8cdf22d485adb9fed7fad5f3190c5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/lead-result-check.json",
+      "bytes": 984,
+      "sha256": "693862eb55538514b32ae93a106786e17d5776b056dc6c2ff43ed93adbef92ae"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/lead_diagnostic_check.py",
+      "bytes": 2577,
+      "sha256": "ef9b05bf1ce63a845da78ffef206858fb5f0c75af6043d7785980f0ae113663f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/lead_result_check.py",
+      "bytes": 4815,
+      "sha256": "e03c4afab24755ec6ed9ef00d9d859a71170700a3914b626311ea3fb8a99769e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/load.json",
+      "bytes": 446,
+      "sha256": "9f3299096086b84d9bb6466c62b05c49fe96d7d24c03647952389e1dcf2d0ffd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/local-verified-02.json",
+      "bytes": 2719,
+      "sha256": "065c470e7cef7c20b7d147cdb803ba3f3a28388c747dcdc2dcdf43306674b3dc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/local-verified.json",
+      "bytes": 2199,
+      "sha256": "c569651b7d342941ec046d5f4ffc0acb0511ddef335cf9d7c1c8abf10ffc0c30"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/local_check.py",
+      "bytes": 9514,
+      "sha256": "9bda1f1261d48d95ae8fd7641d75371406326b8b242b60ebbd93e3c97bc684fe"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/originals/run-a-command-in-a-pod.md",
+      "bytes": 24473,
+      "sha256": "9ed9eaa5b97a52360a51babfecb25842de6b6a84202508647b0ab6488b966e8f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/originals/stream-pod-logs.md",
+      "bytes": 15294,
+      "sha256": "c6d9953e61885ceaa588080a447fe4883dde56c9acab3bab84ae3d18620cfcc4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/post-delete-01.json",
+      "bytes": 730,
+      "sha256": "bb56f4eaaf01debaf3cdbab26746dde8efa8c32727eeb565360487ab0211f279"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/post-delete-cycle01.json",
+      "bytes": 731,
+      "sha256": "130487219e9c79837a008467619f817c3df228508e06ca0851478431f7838dfd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/post-delete-final.json",
+      "bytes": 731,
+      "sha256": "ee90a24012658bbb9e978a491a7b4a1b4239f967c4986e565d33bc03debddf93"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/prior-205-billing.json",
+      "bytes": 731,
+      "sha256": "16133720d929c81e7de5470b429ac6c51ece327b4bffc4a4a8620a1ad56d0c80"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/record.json",
+      "bytes": 2324,
+      "sha256": "9e53c6d05c9320daccf88bfbcf4da411d1a0b49e5cc52b934497ca0b7f574ccb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/review_images.py",
+      "bytes": 2528,
+      "sha256": "f3453d8e4593b003ad1f4b57f716764ee2f407b41e624f4182155e2538bfa0f5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/run01/cleanup.json",
+      "bytes": 95,
+      "sha256": "69664f4a049ba355c369f22166e85b1ab274e50073abfc4a95903cdcadc74289"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/run01/launch-receipt.json",
+      "bytes": 367,
+      "sha256": "1d4dfaaf97352dd4f172b99d349905fd503e060d4056ea4841c33ab8717acecf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/run01/results.tar",
+      "bytes": 4833280,
+      "sha256": "0ba5967a0dc77e24b95905953702b933bb60e7afa8a66ba96a8a8b2f83fee407"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/run01/startup.jsonl",
+      "bytes": 5212,
+      "sha256": "37ea5941acec92726292a95ba428543e6cf0288eec4c4f7c448306a9bd24320c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/source-receipt.json",
+      "bytes": 697,
+      "sha256": "d87bc6634e1ff8804ff131398003ff2f5e3043e5a794ddca397cbff3ef3a8fc2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/transfer.json",
+      "bytes": 129,
+      "sha256": "d56d60436fc8d60e39caea5d46f5520b637e16dc06db1af88ff1126eab8aca07"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/verified-result.json",
+      "bytes": 825,
+      "sha256": "9f5780246572a67f86757bb363e7cf933c0f0d795893f4dfa123672ad236344a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-runpod-exec-diagnostic01/visual-review.json",
+      "bytes": 1323,
+      "sha256": "b86d91e8245e23194f0c3210f31afb0ed91a8c74cf1cceeb2ee5555b20a31e91"
+    },
+    {
+      "path": "research/206-runpod-exec-diagnostic.md",
+      "bytes": 8216,
+      "sha256": "af34b06b42ed06b5214afb698c4f18a9e4d6694c449bf83b8a465a35ec9a4bbc"
+    }
+  ]
+}

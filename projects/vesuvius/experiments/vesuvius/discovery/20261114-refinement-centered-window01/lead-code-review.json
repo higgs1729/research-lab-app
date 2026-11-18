@@ -1,0 +1,9 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "patch_sha256": "2e17481803e4850980a89428d68eaf8b0cf0c0962aeae28c23e0bd4a1a388449",
+  "reviewed_change": "Internal config bool false, explicit JSON bool, optional P-r*dx-r*dy origin, and parameter forwarded by OBJ and tifxyz callers. Sampling depths, Gaussian/opacity arithmetic, normals and border offset unchanged.",
+  "geometric_check": "For true, sampled pixel(r,r) = (P-r*dx-r*dy)+r*dx+r*dy+d*N = P+d*N (up to floating point rounding). For omitted flag the origin remains exactly P.",
+  "compatibility_boundary": "Original function is in the app source; native compile/link and 5 omitted-flag output comparisons must confirm compatibility for the tested CLI path. No broad API/GUI/other platform claim.",
+  "scope": "Code review only. Await the already planned native comparisons; no extra model or physical-paper claim."
+}

@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-15T17:03:00.523412+00:00",
+  "passed": true,
+  "manifest_sha256": "d6dd1f3413ac87d110711b6ded22b272a18d5c4398b498330dd5cce4f986e86a",
+  "record_sha256": "6a9ec87942ffa0a1730fa22725e1dcb617977a37fc426e2270281b86b87154aa",
+  "local_files_checked": 509,
+  "local_bytes_checked": 264214859,
+  "ticket_and_external_references_checked": 161,
+  "new_model_forwards": 0
+}

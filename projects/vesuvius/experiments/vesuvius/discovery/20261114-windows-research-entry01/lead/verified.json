@@ -1,0 +1,24 @@
+{
+  "reviewer": "root",
+  "passed": true,
+  "runner_sha256": "70ad792c9d7d0775eeb1839283f739abe6604a1d6f7bf1203e086d802b1a5f9d",
+  "command": [
+    "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "C:\\dev\\kensyoukin\\tools\\research\\run_windows.py",
+    "../lead-process.json",
+    "../program/read_sibling.py",
+    "../target-result.json"
+  ],
+  "checks": [
+    "relative script from separate cwd",
+    "sibling import",
+    "absolute argv[0]",
+    "cwd unchanged",
+    "one CPU",
+    "single thread environment",
+    "4 GiB process limit"
+  ],
+  "model_calls": 0,
+  "ct_download_bytes": 0
+}

@@ -1,0 +1,17 @@
+{
+  "files": [
+    {
+      "file": "upstream-topology.py",
+      "url": "https://github.com/Wittmoon/villa/blob/b67f708eb9eb42270ff1664af411ab3dcfb9e3fd/vesuvius/src/vesuvius/label_processing/topology.py",
+      "git_blob_sha": "e644a8e87396b2bd0528ee25ab9f3bed661f6c28",
+      "source_commit": "b67f708eb9eb42270ff1664af411ab3dcfb9e3fd"
+    },
+    {
+      "file": "upstream-label_topology_audit.py",
+      "url": "https://github.com/Wittmoon/villa/blob/b67f708eb9eb42270ff1664af411ab3dcfb9e3fd/vesuvius/src/vesuvius/label_processing/label_topology_audit.py",
+      "git_blob_sha": "f85b36bbda74a710fa295f1901148fc605aabc71",
+      "source_commit": "b67f708eb9eb42270ff1664af411ab3dcfb9e3fd"
+    }
+  ],
+  "notes": "The README's old image_proc paths return 404. Current PR #2147 files are in label_processing. Original computational functions are extracted by AST without executing the CLI or installing optional cc3d."
+}

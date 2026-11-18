@@ -1,0 +1,133 @@
+{
+  "provenance": {
+    "frozen_file_count": 67,
+    "manifest": "788987f5be7c858467347add5a242136a8fc45e384d77a34b45d5bf21b6e5275",
+    "input_sha256": {
+      "meta.json": "876bf0f7c351641a5e541a004e159af8e4550601b96d08d152e92ab9c7486e44",
+      "x.tif": "f2d515066d64b832d1fbe7ee0f06c2423c53448d5da3c0da51132fa6ca166f03",
+      "y.tif": "6ee10487af838fee82d553dd1c933b8cf061a881057f1013aa7edbedec50b9e3",
+      "z.tif": "3deeee25a377eddf8643746ebd3c1eb4a20c114f17b8e7e923fb0b63f796ece1"
+    },
+    "source_arrays_and_probe": {
+      "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-holdout01\\solve-heldout\\arrays.npz": "b6f39c28899112157341e4b85a6c01f9cfa2918e29ff7895cad8ff85e4a87c47",
+      "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-reconcile01\\second\\arrays.npz": "9247c744e4c6197aea2fcdc8d4bfe5682c2a3892e4d683373883ec7810595de7",
+      "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\holdout_seed_keep1p5_01\\output.obj_uv_diagnostics.json": "b47eaf70e6d7f4423b0e5c6efb56ce36b24ebd688510d49aefad5311a899e853"
+    },
+    "jobs": {
+      "analysis01": {
+        "arrays.npz": "01d1e04b0f332b561d3d84e80ea4168a00e4803cd7f78913fc5e7c92513c742b",
+        "result.json": "ba857f0376abd4d5b54cf4f5f67e1779a4e16f6d5bdb0b0c1da9f93645ff2c99",
+        "diagnose.py": "67f749d7a1ed41e3b6a13895445e233bfff28f2a30e64a84e41bab3fb31676c5"
+      },
+      "release01": {
+        "arrays.npz": "27aa4974ee4e65e49240cc02fc0bf061cc2a92a8eafd69cc543ed3df40643e72",
+        "result.json": "ad256a9ba3e09bbfb82c32def203f4d7761f9848d536dbe3068d5a39bb0164ec",
+        "release_boundary_anchors.py": "a83be73d9b37321bad3a57ac77212cfd105fb7208689ba98fdc8968be7308bee"
+      },
+      "interiors01": {
+        "arrays.npz": "b1ddbfe98f693c851f509850ebf3551f8d871d1bacfa846db189505521582999",
+        "result.json": "53a0393406b5e7690dd85f5dad56f17609c679d05db960a29d5561d053a40d81",
+        "release_interiors.py": "3683496f51a4bd9b3ca57770e5af54bef2d38726272f390436b8a52592b486f2"
+      }
+    }
+  },
+  "local": {
+    "eligible_coarse_faces": 5861,
+    "min_coarse_det": 3431.7825637598403,
+    "finite_vertex_gradients": 249797,
+    "finite_gradient_faces": 478008,
+    "min_local_det": 3431.7825637598394,
+    "negative_faces": 93,
+    "min_local_det_on_inverted_faces": 19589.70209466839,
+    "inverted_local_relative_median": 0.0010289359656963481,
+    "inverted_local_relative_max": 0.016558587895654793,
+    "inverted_global_relative_median": 0.9753766146202645,
+    "inverted_global_relative_max": 2.9666838255177814,
+    "inverted_edge_cycle_median": 0.0010578699943812608,
+    "inverted_edge_cycle_max": 0.01671231243258954
+  },
+  "ablations": {
+    "C": {
+      "active_edges": 195511,
+      "relative_residual": 9.846436778052297e-16,
+      "anchored_unknown_regions": 346,
+      "largest_unknown_region": 1915,
+      "fixed": 183893,
+      "unknown": 66051,
+      "released": 0,
+      "max_coarse_displacement": 0.0,
+      "recovered": 0,
+      "remaining": 93,
+      "new": 0
+    },
+    "release01": {
+      "active_edges": 197489,
+      "relative_residual": 1.0855727320980455e-15,
+      "anchored_unknown_regions": 178,
+      "largest_unknown_region": 2145,
+      "fixed": 182871,
+      "unknown": 67073,
+      "released": 1022,
+      "max_coarse_displacement": 212.5146968735899,
+      "recovered": 17,
+      "remaining": 76,
+      "new": 7
+    },
+    "interiors01": {
+      "active_edges": 727854,
+      "relative_residual": 3.769193979861819e-15,
+      "anchored_unknown_regions": 6,
+      "largest_unknown_region": 192841,
+      "fixed": 4100,
+      "unknown": 245844,
+      "released": 179793,
+      "max_coarse_displacement": 0.0,
+      "recovered": 33,
+      "remaining": 60,
+      "new": 35
+    }
+  },
+  "prepack_quality": {
+    "methods": {
+      "C": {
+        "negative": 93,
+        "invalid": 0,
+        "zero": 0,
+        "positive_only_area_weighted_mean": 1.4549315862709449,
+        "excluded_area_fraction": 0.0002018442756413865,
+        "common_positive_area_weighted_mean": 1.4454678729245167
+      },
+      "release01": {
+        "negative": 83,
+        "invalid": 0,
+        "zero": 0,
+        "positive_only_area_weighted_mean": 1.476773586995952,
+        "excluded_area_fraction": 0.00018125766151991409,
+        "common_positive_area_weighted_mean": 1.0760940739523261
+      },
+      "interiors01": {
+        "negative": 95,
+        "invalid": 0,
+        "zero": 0,
+        "positive_only_area_weighted_mean": 1.2708336998876093,
+        "excluded_area_fraction": 0.0002103719085048628,
+        "common_positive_area_weighted_mean": 1.1558226108398861
+      }
+    },
+    "common_positive_faces": 478089,
+    "common_area_fraction": 0.9997053623502636
+  },
+  "figure": {
+    "crop_vertices": 131,
+    "crop_faces": 212,
+    "crop_inverted_faces": 24,
+    "main_inverted_faces": 23,
+    "main_quads": 13,
+    "adjacent_inverted_face_ids": [
+      214892
+    ],
+    "plot03_sha256": "c0b3b820e52d85ab31b6ef65a503a67418caae213283cf56f5d3d968c4467013",
+    "plot03_script_sha256": "899a6e92e9a7fa2b1edabcb6bf42500009145c0cbb13196e4dd828ac6e877cac"
+  },
+  "negative_in_all_three": 51
+}

@@ -1,0 +1,42 @@
+{
+  "jst_date": "2026-11-14",
+  "identified": "Coherent main and lower rows of stroke-like marks in reverse on the known control",
+  "forward": "Strong local features but no similarly coherent row in the same boxes",
+  "transcription": null,
+  "exact_award_pixel_registration": false,
+  "training_overlap_audited": false,
+  "unknown_surface_accuracy_measured": false,
+  "native_coordinates": {
+    "main-center": {
+      "xyxy_half_open": [
+        2880,
+        700,
+        4130,
+        1110
+      ],
+      "native_um_per_pixel": 9.6,
+      "image": "native-main-center.png"
+    },
+    "main-left": {
+      "xyxy_half_open": [
+        740,
+        980,
+        2260,
+        1440
+      ],
+      "native_um_per_pixel": 9.6,
+      "image": "native-main-left.png"
+    },
+    "lower": {
+      "xyxy_half_open": [
+        1420,
+        1430,
+        3310,
+        1830
+      ],
+      "native_um_per_pixel": 9.6,
+      "image": "native-lower.png"
+    }
+  },
+  "reverse_only_required_for_unknowns": false
+}

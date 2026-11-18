@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-15T10:55:51.202393+00:00",
+  "approved": true,
+  "cloud_plan_sha256": "0f931d1f82d99c25a566aeb4cb930997b5812b3c2d438ce1b253500a0258b43f",
+  "controller_assignments_verified": 16,
+  "archive_members_verified": 18,
+  "unchanged_scientific_functions": [
+    "cpu",
+    "patch",
+    "forward",
+    "model_info",
+    "source_paths"
+  ],
+  "reason": "Device-specific normalization contract preserves upstream CUDA arithmetic, exact raw identity and CPU output tolerance. Actual CUDA probe before weight download gates this one owned run. New pre-forward receipt makes future failure inspectable. R231 deadline, reservation, capture and deletion behavior retained.",
+  "maximum_pods": 1,
+  "estimated_usd": [
+    0.08,
+    0.2
+  ],
+  "operation_limit_usd": 0.35,
+  "deadline_seconds_from_precreate": 1800,
+  "scope": "R232 known-control only; no input/threshold sweep or publication."
+}

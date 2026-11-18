@@ -1,0 +1,65 @@
+{
+  "crop_xywh": [
+    1320,
+    980,
+    512,
+    512
+  ],
+  "atlas_canvas_hw": [
+    2304,
+    6048
+  ],
+  "mesh_grid_hw": [
+    128,
+    336
+  ],
+  "mesh_scale_xy": [
+    0.05,
+    0.05
+  ],
+  "mesh_meta_sha256": "76dce1781a09108632d15711bc75f43ad963aeddf22b1426954b160638f87e7e",
+  "scale": 0.9,
+  "slice_step": 1.111,
+  "vox_um": 8.64,
+  "atlas_nominal_um": 9.6,
+  "native_layers": 33,
+  "atlas_layer_indices": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "center_atlas_layer": 32,
+  "center_render_layer": 16,
+  "grid_formula": "(i-(canvas_size-1)/2)*mesh_scale/render_scale+mesh_size/2 = (i+0.5)*mesh_scale/render_scale",
+  "correspondence": "Same XY grid formula, same fixed CT/mesh, shared d=0. Normal and uint8 quantization checked separately."
+}

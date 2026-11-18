@@ -1,0 +1,25 @@
+{
+  "reviewer": "root",
+  "utc": "2026-11-14T07:00:15.499711+00:00",
+  "launcher_pid": 34460,
+  "launcher_no_longer_exists": true,
+  "own_lane_name_absent": true,
+  "current_holder": {
+    "name": "cw06-stage",
+    "pid": 47316,
+    "since": "2026-11-14 15:58:23",
+    "cwd": "C:\\dev\\earn-money\\image-gen-monetization\\commissions\\inbound\\13533871\\production\\stage-kit",
+    "phase": "run"
+  },
+  "current_tickets": [
+    {
+      "seq": 3,
+      "kind": "exclusive",
+      "pid": 20428,
+      "since": "2026-11-14 15:58:21",
+      "name": "vk-map-s4"
+    }
+  ],
+  "model_forward_calls": 0,
+  "other_processes_changed": false
+}

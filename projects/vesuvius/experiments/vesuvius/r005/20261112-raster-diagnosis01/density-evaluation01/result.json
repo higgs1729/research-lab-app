@@ -1,0 +1,151 @@
+{
+  "geometry_and_uv_unchanged": true,
+  "grid_shape_yx": [
+    977,
+    3043
+  ],
+  "grid_pitch_xy": [
+    19.999603211291912,
+    4.991175417040215
+  ],
+  "output_points": 990247,
+  "rejected_pixel_events": 2242,
+  "all_quads": 239112,
+  "before_gt20": 277,
+  "after_gt20": 205,
+  "before_gt40": 65,
+  "after_gt40": 52,
+  "recovered_to20": 72,
+  "new_gt20": 0,
+  "prior_bad11": [
+    {
+      "quad_id": 90667,
+      "source_yx": [
+        112,
+        1369
+      ],
+      "before_distance": 23.8024751197254,
+      "after_distance": 5.847689739990148,
+      "owned_samples": 1,
+      "rejected_samples": 0
+    },
+    {
+      "quad_id": 90668,
+      "source_yx": [
+        112,
+        1370
+      ],
+      "before_distance": 36.37895880317189,
+      "after_distance": 1.8248046132311948,
+      "owned_samples": 1,
+      "rejected_samples": 0
+    },
+    {
+      "quad_id": 90669,
+      "source_yx": [
+        112,
+        1371
+      ],
+      "before_distance": 35.39880593445314,
+      "after_distance": 5.6134762199191774,
+      "owned_samples": 1,
+      "rejected_samples": 0
+    },
+    {
+      "quad_id": 90670,
+      "source_yx": [
+        112,
+        1372
+      ],
+      "before_distance": 30.815892335661317,
+      "after_distance": 8.845968945771748,
+      "owned_samples": 1,
+      "rejected_samples": 0
+    },
+    {
+      "quad_id": 90671,
+      "source_yx": [
+        112,
+        1373
+      ],
+      "before_distance": 23.67537994773176,
+      "after_distance": 4.4883219544446575,
+      "owned_samples": 1,
+      "rejected_samples": 0
+    },
+    {
+      "quad_id": 90672,
+      "source_yx": [
+        112,
+        1374
+      ],
+      "before_distance": 24.918350780794924,
+      "after_distance": 2.7719721838645137,
+      "owned_samples": 1,
+      "rejected_samples": 0
+    },
+    {
+      "quad_id": 92528,
+      "source_yx": [
+        113,
+        1370
+      ],
+      "before_distance": 29.81563848306363,
+      "after_distance": 4.537883215510133,
+      "owned_samples": 1,
+      "rejected_samples": 0
+    },
+    {
+      "quad_id": 92529,
+      "source_yx": [
+        113,
+        1371
+      ],
+      "before_distance": 37.927456517858985,
+      "after_distance": 6.7054868893543,
+      "owned_samples": 1,
+      "rejected_samples": 0
+    },
+    {
+      "quad_id": 92530,
+      "source_yx": [
+        113,
+        1372
+      ],
+      "before_distance": 34.611270899327366,
+      "after_distance": 10.366272979421295,
+      "owned_samples": 1,
+      "rejected_samples": 0
+    },
+    {
+      "quad_id": 92531,
+      "source_yx": [
+        113,
+        1373
+      ],
+      "before_distance": 31.0435773829544,
+      "after_distance": 7.173112692082016,
+      "owned_samples": 2,
+      "rejected_samples": 0
+    },
+    {
+      "quad_id": 92532,
+      "source_yx": [
+        113,
+        1374
+      ],
+      "before_distance": 21.534450408900113,
+      "after_distance": 11.81050632729122,
+      "owned_samples": 0,
+      "rejected_samples": 0
+    }
+  ],
+  "old_grid_rows_comparison": {
+    "owner_differences": 422,
+    "lost_valid": 3,
+    "added_valid": 10,
+    "sameowner_max_abs_xyz_difference": 0.218017578125
+  },
+  "elapsed_seconds": 1.6408592000370845,
+  "limits": "Diagnostic-only anisotropic density, not new UV optimization or adopted production output. Fixed-point raster snaps at a new subpixel scale so old sample locations can differ slightly even though lattice endpoints and rows are nested. Increased samples/rejected counts cannot be compared as equal-cost output quality. Nearest same-component distances can select remote source-grid branches."
+}

@@ -1,0 +1,13 @@
+{
+  "archive_bytes": 3841,
+  "archive_sha256": "aaafea799a639dc461a992fe249716e1f4439c9d29c498673621982b4db2f7d3",
+  "reported_sha256": "aaafea799a639dc461a992fe249716e1f4439c9d29c498673621982b4db2f7d3",
+  "reservation": {
+    "allocated_bytes": 12582912,
+    "file_bytes": 12582912,
+    "windows_attributes": 32,
+    "links": 1,
+    "device": 10726679257801674650,
+    "file_id": 1688849862503622
+  }
+}

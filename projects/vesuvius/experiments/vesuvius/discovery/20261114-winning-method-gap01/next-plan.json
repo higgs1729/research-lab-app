@@ -1,0 +1,52 @@
+{
+  "question": "既にある同座標予測に行形状の順位を付けると、明るさ順だけで並べるより既知行を小さい確認枠に拾えるか。",
+  "intervention": "同じ候補集合で、候補内部のzmean順に対しsingle-line finderの幾何スコア順を比較する。",
+  "fixed_inputs": "next-inputs.json",
+  "cases_and_scope": {
+    "positive": "PHerc0343の受賞者面由来の固定atlas全6048×2304、既知reverseのみ。R179の東隣切出しや新領域の探索ではなく、既知行への位置対応を用いる。",
+    "stress": "R195 PHerc0125とR202 PHerc0175Bの保存全体画像、各両順。過去に追試ROIを選ばなかった範囲で、真のblankやインク陰性ラベルとしては扱わない。",
+    "processed_face_orders": 5,
+    "full_pixels_across_face_orders": 31602816
+  },
+  "fixed_input_transform": {
+    "spacing_um": 9.6,
+    "maps": ["Hecate 9.6", "Reader v2"],
+    "window": "c+0_s1",
+    "source": "originals/306b-ink-lane.py lines 62–65; originals/306b-fastpipe.py lines 41–63",
+    "transform": "CT中央PNG > 0を統計マスクとして、両モデルを別々にmean/SD（SD+1e-6）でz化、各1/2で平均し、同じマスクで再度z化する。元コードと同じく外周48pxと無効画素は使用しない。統計は48px除外前。外周除外を明示マスクへ反映する。",
+    "limits": "8.64 µmの0306Bレーンで使ったHecate/Reader v2の各1重みを9.6 µm公開atlasに適用する試験。作者コードはum>9でHecate/TRACEに切り替える。CT正値を描画支持の近似として明示採用する。物理紙面の帰属は未検証で、実際の有効域のゼロ点は落ちうる。実戦の31層quality tile、推論時tile skip、流儀の異なる前処理・量子化は再現しない。元のPNGと表示の0–255は保存する。各条件で表示階調・角度・境界は固定し、結果で変更しない。"
+  },
+  "line_processing": {
+    "source": "originals/306b-line_find.py (commit feabff6c54f95bd8e52a90e0a7a76881ee67d4cc, SHA-256 91b0410894220ac1ddde99cb38fa93c5b1385ea01fc3d130eaa6255a051bbb7a)",
+    "entry": "Import fixed read-only source and call run_map with explicit valid mask, glyph=None, ct=None. Use the same geometry candidates for both orders of ranking.",
+    "angles_degrees": {"start": -90, "stop_exclusive": 90, "step": 5, "count": 36},
+    "ranking": "Sort by source geometric score or by candidate zmean (missing sorts last); break equal values using the same fixed detection order. Preserve and report all candidates/ranks, review each ranking's top 3 per face/order including ties only by the fixed tiebreak.",
+    "other_constraints": "Use source thresholds, work-grid rule and up to 4,000 deduplicated chains per face/order. Geometry nominally starts at 8 mm and 4 slots at grouping; later refined statistics may differ. No glyph or automatic crack penalty, since historical glyph calibration and crack gates do not transfer. CT is visible for blinded review, and cracks/edges are interpreted as competing explanations.",
+    "blinded_review": "Show the union of fixed top-3 native patches in a pre-specified randomized order without ranking labels, with CT and both original model panels; apply the same display settings. Judge whether separate strokes/regular spacing survive in the source panels, whether the geometry is visibly tied to gaps/edges/fibres or ambiguous, and whether a distinct ROI merits verification. Do not read letters from chains or ranks alone."
+  },
+  "known_row_rule": {
+    "match_boxes": "Use 18 R179 raw boxes of rows 1 and 2; atlas edge coordinates = 0.9 × raw edges. Fit one orthogonal least-squares axis to all box centers in each known row before running; compare with lead-next-reference.json.",
+    "match_candidate": "The source candidate polygon contains at least four centers of boxes from the same row and at most one center from the other row. The undirected angle between the candidate axis and that known row's pre-fitted axis is at most 15 degrees.",
+    "endpoint": "Report first matching rank and matched-box count per row in both rankings, with a miss explicitly recorded. Primary endpoint is row 1; row 2 is a secondary descriptive control. Existing letter boxes are position references; blank rows.json is not a numeric baseline."
+  },
+  "decision": {
+    "continue": "Row 1 in geometry top 3 and better rank than zmean control, with separate known strokes in original images. Among the two stress cases, any proposed novel ROI also needs compatible source-image structure and plausible physical-sheet provenance; a chain or score alone is insufficient.",
+    "stop": "If row 1 is missing, tied/inferior, shapes are visually unsupported, or resource/input contracts fail, do not promote this ranking to new CT investment. If only the known endpoint passes and no stress ROI qualifies, retain a control-only result. Do not alter thresholds, angular search, model/window, or target to rescue.",
+    "interpretation": "Measures relative ranking on fixed quantized rasters and the same detector-generated candidate set. The known case is previously exposed and measures neither held-out accuracy nor comparison with humans over the full map. Author-reported discovery rankings and absolute score calibration remain out of scope. If no chain is found, ink remains undetermined."
+  },
+  "next_test_resource_envelope": {
+    "new_pngs": 1,
+    "new_reader_v2_png_bytes": 2084949,
+    "network_seconds_cap": 90,
+    "cpu_cores": 1,
+    "process_commit_cap_gib": 4,
+    "compute_wall_cap_seconds": 300,
+    "working_space_cap_mib": 512,
+    "new_ct_voxel_bytes": 0,
+    "new_checkpoint_bytes": 0,
+    "forward_calls": 0,
+    "gpu_jobs": 0,
+    "cloud_estimated_usd": 0,
+    "cost_note": "既存Windows CPU経路。最大一面6048×2304でfloat32一面約53.2MiB、uint8一面約13.3MiB。合成と順位付けは一面・一向きずつ処理し、16 float32相当でも約851MiBの画像配列。実際の候補構造を含む最大メモリと36方位処理時間は未計測。commit 4GiB・合計300秒で停止する。"
+  }
+}

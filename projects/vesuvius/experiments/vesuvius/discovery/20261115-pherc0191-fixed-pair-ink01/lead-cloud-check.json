@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-11-14T15:33:27.093962+00:00",
+  "cloud_plan_sha256": "825106b49e0a466aabd8e2f6bd3139e3f644d7e6d766e14435e79fa7ad375095",
+  "controller_source_sha256": "f047292fed22cc915006db2e6437ef1b7f8f7eba9133822f17c21dd09c8cb4d8",
+  "cpu_forwards_checked": 12,
+  "input_archive_bytes": 91157638,
+  "input_archive_sha256": "9675e0c3bc38ec07d96b4e5cdefa49e3f9b4b21c615adf1a14f040d1f8ce3682",
+  "all_archive_members_sha_verified": true,
+  "create_configuration": {
+    "cloud": "SECURE",
+    "gpu": {
+      "id": "NVIDIA GeForce RTX 4090",
+      "count": 1,
+      "minCudaVersion": "13.0",
+      "minRamPerGpu": 8,
+      "minVcpuCountPerGpu": 1
+    },
+    "disk": 20,
+    "ports": [],
+    "mounts": {},
+    "startSsh": false,
+    "startJupyter": false,
+    "globalNetworking": false
+  },
+  "one_create_owned_finally_cleanup_and_self_delete_deadline_retained": true,
+  "network_calls": 0,
+  "new_model_forwards": 0
+}

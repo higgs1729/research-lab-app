@@ -1,0 +1,79 @@
+{
+  "reader": {
+    "ome-zarr": "0.21.0",
+    "zarr": "3.4.2",
+    "dask": "2026.8.0",
+    "numpy": "2.5.5",
+    "numcodecs": "0.17.1"
+  },
+  "python": "3.14.6",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "fixture": "reader-inputs.json",
+  "fixture_sha256": "60976eb153f94ba700a9ef7d9796a9dfba187955df6e4bfe8321904bd9ab409d",
+  "cases": {
+    "baseline-false": {
+      "image": {
+        "status": "error",
+        "type": "ArrayNotFoundError",
+        "message": "No array found in store file://C:/dev/kensyoukin/experiments/vesuvius/r009/20261116-standalone-metadata01/run03/baseline-false.zarr at path 1"
+      },
+      "direct_l0": {
+        "status": "ok",
+        "value": {
+          "shape": [
+            28,
+            64,
+            64
+          ],
+          "dtype": "uint8",
+          "min": 4,
+          "max": 227,
+          "sum": 7519266,
+          "sha256_c_order": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+        }
+      },
+      "warnings": []
+    },
+    "fixed-false": {
+      "image": {
+        "status": "ok",
+        "value": {
+          "location_opened": true,
+          "node_count": 1,
+          "arrays": [
+            [
+              {
+                "shape": [
+                  28,
+                  64,
+                  64
+                ],
+                "dtype": "uint8",
+                "min": 4,
+                "max": 227,
+                "sum": 7519266,
+                "sha256_c_order": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+              }
+            ]
+          ]
+        }
+      },
+      "direct_l0": {
+        "status": "ok",
+        "value": {
+          "shape": [
+            28,
+            64,
+            64
+          ],
+          "dtype": "uint8",
+          "min": 4,
+          "max": 227,
+          "sum": 7519266,
+          "sha256_c_order": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+        }
+      },
+      "warnings": []
+    }
+  }
+}

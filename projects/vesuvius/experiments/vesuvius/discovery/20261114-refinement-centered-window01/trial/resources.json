@@ -1,0 +1,9 @@
+{
+  "product_calls": 12,
+  "native_seconds_sum": 0.6501836839999839,
+  "max_rss_bytes": 65499136,
+  "disk": {
+    "work_bytes": 8032256,
+    "host_c_free_bytes": 33278337024
+  }
+}

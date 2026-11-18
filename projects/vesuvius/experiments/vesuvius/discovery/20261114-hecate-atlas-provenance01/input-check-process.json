@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-atlas-provenance01\\check_saved_input.py"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-14T09:24:13.060405+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "completed_utc": "2026-11-14T09:24:18.367188+00:00",
+  "elapsed_seconds": 5.306817700002284,
+  "max_rss_bytes": 71749632,
+  "user_cpu_seconds": 0.4375,
+  "sys_cpu_seconds": 0.296875
+}

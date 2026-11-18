@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-14T15:34:07.674712+00:00",
+  "billing": {
+    "http_status": 200,
+    "client_balance_usd": 17.5303355386,
+    "auto_pay_enabled": false
+  },
+  "other_pod_count": 0,
+  "other_pod_hashes": [],
+  "other_hourly_usd": "0",
+  "minimum_credit_usd": "0.91",
+  "gpu": "NVIDIA GeForce RTX 4090",
+  "price": 0.89,
+  "availability": "LOW",
+  "eligible_centers": [
+    "US-IL-1"
+  ],
+  "existing_credits_checked": true
+}

@@ -1,0 +1,53 @@
+{
+  "source_vertex": 121019,
+  "source_cell_yx": [
+    126,
+    990
+  ],
+  "modified_face": 230495,
+  "unmodified_other_incident_face": 234444,
+  "modified_corner": 2,
+  "new_uv_index": 249944,
+  "old_uv": [
+    10335.810546875,
+    2744.798583984375
+  ],
+  "new_uv": [
+    10370.2412109375,
+    2721.806884765625
+  ],
+  "coarse_vertices": 3954,
+  "all_coarse_and_C_fixed_uvs_equal_to_G": true,
+  "all_original_face_xyz_and_order_preserved": true,
+  "corner_and_duplicated_corner_geometry_exact": true,
+  "cases": {
+    "baseline": {
+      "vertices": 249944,
+      "uvs": 249944,
+      "faces": 478224,
+      "selected_face_signed_uv_area": 1130.2957994937897,
+      "minimum_signed_uv_area": 0.3517625331878662,
+      "mesh_sha256": "446ba493b54ef6bde5f4304b9161d98f15883c327d6d54eb1d82871d32d1ba77"
+    },
+    "corner": {
+      "vertices": 249944,
+      "uvs": 249945,
+      "faces": 478224,
+      "selected_face_signed_uv_area": 565.1471880674362,
+      "minimum_signed_uv_area": 0.3517625331878662,
+      "mesh_sha256": "56ee3985784883fa13843ba687ec5870b3cbddb02356cfc25434fa3745011e67"
+    },
+    "duplicated": {
+      "vertices": 249945,
+      "uvs": 249945,
+      "faces": 478224,
+      "selected_face_signed_uv_area": 565.1471880674362,
+      "minimum_signed_uv_area": 0.3517625331878662,
+      "mesh_sha256": "832f86e6926a4dc35c843cbd8d1d3cc74f74ad0180ce26f01a58f1d79eb1478d"
+    }
+  },
+  "elapsed_seconds": 2.3770173999946564,
+  "source_probe_sha256": "118a76780610f64ffb589d4dc42dc09d1beeb0fa51a27075fd080dc260a3aa18",
+  "format": "little endian uint64 NV,NT,NF; NV*3 float32 XYZ; NT*2 float32 UV; NF*3 int32 geometry indices; NF*3 int32 UV indices",
+  "limits": "Artificial one-face UV edit to test representation, not an overlap repair or production candidate."
+}

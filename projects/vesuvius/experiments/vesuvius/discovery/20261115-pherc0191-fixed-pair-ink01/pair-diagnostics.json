@@ -1,0 +1,38 @@
+{
+  "basis": "Common geometric support in the fixed main region. DN difference and correlation alone do not indicate handwriting.",
+  "main_global_xywh": [
+    32,
+    64,
+    1984,
+    960
+  ],
+  "comparisons": {
+    "ct": {
+      "main_supported_values": 1546580,
+      "mean_raw_dn": 106.58013293848362,
+      "mean_snap_dn": 107.6784052554669,
+      "different_values": 1451620,
+      "mean_absolute_difference_dn": 17.78079504454991,
+      "max_absolute_difference_dn": 227.0,
+      "correlation": 0.6513298077885377
+    },
+    "forward": {
+      "main_supported_values": 1546580,
+      "mean_raw_dn": 7.403376482302888,
+      "mean_snap_dn": 6.832655278097479,
+      "different_values": 754697,
+      "mean_absolute_difference_dn": 7.3282170983718915,
+      "max_absolute_difference_dn": 254.0,
+      "correlation": 0.5266237865564694
+    },
+    "reverse": {
+      "main_supported_values": 1546580,
+      "mean_raw_dn": 4.866378719497213,
+      "mean_snap_dn": 4.859612176544375,
+      "different_values": 747328,
+      "mean_absolute_difference_dn": 5.469820507183592,
+      "max_absolute_difference_dn": 255.0,
+      "correlation": 0.4670018935934794
+    }
+  }
+}

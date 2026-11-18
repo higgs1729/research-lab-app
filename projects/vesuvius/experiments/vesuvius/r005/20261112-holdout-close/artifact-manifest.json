@@ -1,0 +1,536 @@
+{
+  "created_utc": "2026-11-11T15:36:37.807350+00:00",
+  "scope": "New second-surface validation evidence. Prior frozen evidence and mutable root helpers are excluded. Each execution saved its script and runner. External native binaries are identified by run hashes.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-close/decision-record.json",
+      "bytes": 1467,
+      "sha256": "674723f2685500eb32fdb32c28e2553d69d33146b27e8fa126238e9d9ce95c98"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-close/experiment-record.json",
+      "bytes": 922,
+      "sha256": "a4ac86b25830329ce3f5b3b30da5ba7600289e75819bbc911afc99d75c367bc9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-close/freeze.py",
+      "bytes": 4423,
+      "sha256": "1140fc28070bb431881210a2344adb157ba85387def442d5a3c3132d495e30a8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-close/resources.json",
+      "bytes": 4616,
+      "sha256": "1aa1f9aaa3e7cfc3b6e20cd0d7d4dbbb5435444f3d2ec2a34358afe5a2f097c8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-close/runtime-status.json",
+      "bytes": 1273,
+      "sha256": "b6f8472dc9363e09d3c6b9ed03ff1b37e6cc366185050379121ed1f9767b0f97"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-close/verification-record.json",
+      "bytes": 1132,
+      "sha256": "483d1b4f6164a05dafae0fd6b8749b3a57a58cd596f29fee78c9b72b18e03002"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-verification01/check01/distances.npz",
+      "bytes": 10838447,
+      "sha256": "43e81dcfbe4a37c0e8cb611270fcfd7f110dfb9a886672ace1af7a2e3f1cca1e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-verification01/check01/result.json",
+      "bytes": 56343,
+      "sha256": "a8dd01980816472b7d90cd28f8600e79887175586ab24e1f37483d93bf27eadc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-verification01/check01-execution/runner.py",
+      "bytes": 2270,
+      "sha256": "fe66a4fd1153c65afc5aae2fb218b29e7590aecf467aab1822dbdf1e8a101390"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-verification01/check01-execution/state.json",
+      "bytes": 869,
+      "sha256": "3a3ca7c01263d26f844f10163fb68dbcf6bb9fbcc4f23510715975ff04426506"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-verification01/check01-execution/stdout.log",
+      "bytes": 104,
+      "sha256": "a7c92f9b3b3d0e41bb9b0984b210487a7c26183f41c53a83f1f13c68841c6a68"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-verification01/classify_inversions.py",
+      "bytes": 4490,
+      "sha256": "bdd2f76150dc50e186a9a620f8aedb01ae3f158cd13e2e13316818c6680be7a1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-verification01/inversions.json",
+      "bytes": 3094,
+      "sha256": "4461a386d58431b11bb3bcd2ac063f38c6e60cb6c0030d1155811d23cd444d06"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout-verification01/verify_holdout.py",
+      "bytes": 18180,
+      "sha256": "181c39705396d05096ff9a31c0f2dddeb21443e40982f2d09704cc5c5750d8a5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/adapter-only.patch",
+      "bytes": 4754,
+      "sha256": "538a05dafd189518270c51015f29a8e3c73cf534988980c7116bc87be7d1e759"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/analysis01/arrays.npz",
+      "bytes": 36864672,
+      "sha256": "a83ba86b88428c3a7dbdc91efbec2a767fdc742ab2efe1d1eb3bb95cde7f2316"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/analysis01/evaluate_holdout.py",
+      "bytes": 6470,
+      "sha256": "7f3ada06527c1178a63412f154a7e58fa05c610b1a7c1abba1f188e5dd47edf0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/analysis01/mesh_quality.py",
+      "bytes": 2558,
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/analysis01/result.json",
+      "bytes": 13439,
+      "sha256": "a016aa57e5a924b4b0c4004f1a921d5838768ab36cdf08e7f66dd9e9ad5fca1f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/analysis01-execution/runner.py",
+      "bytes": 2270,
+      "sha256": "fe66a4fd1153c65afc5aae2fb218b29e7590aecf467aab1822dbdf1e8a101390"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/analysis01-execution/state.json",
+      "bytes": 848,
+      "sha256": "551f0d10af4abe4de16d54893c055abd3944c0b25dea5661ef4687b355e593c8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/analysis01-execution/stdout.log",
+      "bytes": 2004,
+      "sha256": "cc0b8b1349017d530a43f6a2a019f4d37ba91c46e9fa645ad02720a04c2016fa"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/create_adapter.py",
+      "bytes": 2919,
+      "sha256": "2809b3808340230a9dfb3fc4355fb9001de9b46d025184108d5273449c4cfbc6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/decision-record.json",
+      "bytes": 1153,
+      "sha256": "9b20f4cbe6df9c4138b059263dd56cf63acc7cde4e74f267dbb0465bf50ca86e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/download_input.py",
+      "bytes": 2119,
+      "sha256": "b7c64c25e093caac9d92592bbf86c071e9fda3e40a844b0a7c2ccf82b1962b6a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/evaluate_holdout.py",
+      "bytes": 6470,
+      "sha256": "7f3ada06527c1178a63412f154a7e58fa05c610b1a7c1abba1f188e5dd47edf0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/parity-original/arrays.npz",
+      "bytes": 3099612,
+      "sha256": "519f309e89c88b1ef099b7b2a02940879fa9c23df7da7f98b105d764e1ef1596"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/parity-original/mesh_quality.py",
+      "bytes": 2558,
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/parity-original/override.json",
+      "bytes": 2163960,
+      "sha256": "17a4e6bfbd9737f1b5bd8126328ab22eaf07d9c7142b9dcd9631ae52d4298385"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/parity-original/result.json",
+      "bytes": 2484,
+      "sha256": "06b89c4b3d26538f102209b9425595397b34caf3c2b6643a1cef49e0fd9d7dda"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/parity-original/solve_extension.py",
+      "bytes": 7712,
+      "sha256": "a6c220a4cec9f22aaa0ef85e50cfe43ddc952d1bde3bba0a0189bd10a78def2e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/parity-original-execution/runner.py",
+      "bytes": 2270,
+      "sha256": "fe66a4fd1153c65afc5aae2fb218b29e7590aecf467aab1822dbdf1e8a101390"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/parity-original-execution/state.json",
+      "bytes": 861,
+      "sha256": "3e03c5145bfe02dda9f44419fdae9d57fd66a6d7e10225eb5b8268c75d1d1b18"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/parity-original-execution/stdout.log",
+      "bytes": 2484,
+      "sha256": "06b89c4b3d26538f102209b9425595397b34caf3c2b6643a1cef49e0fd9d7dda"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/s3-list.xml",
+      "bytes": 1955,
+      "sha256": "10e670d504382ce291d76e3ef8a6deacbdef6360ac9a56d17af90d1c328b4314"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/solve-heldout/arrays.npz",
+      "bytes": 19024978,
+      "sha256": "b6f39c28899112157341e4b85a6c01f9cfa2918e29ff7895cad8ff85e4a87c47"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/solve-heldout/mesh_quality.py",
+      "bytes": 2558,
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/solve-heldout/override.json",
+      "bytes": 12859193,
+      "sha256": "96a276a193e2646dccd61f90274ede2ada6fee58ef410b214cc65ad9da56aef5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/solve-heldout/result.json",
+      "bytes": 3093,
+      "sha256": "b56c4cbd991b74e99ddb1b8e66399004bfc632891cb46e7d4b40e1bd8b2ffb41"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/solve-heldout/solve_extension.py",
+      "bytes": 7712,
+      "sha256": "a6c220a4cec9f22aaa0ef85e50cfe43ddc952d1bde3bba0a0189bd10a78def2e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/solve-heldout-execution/runner.py",
+      "bytes": 2270,
+      "sha256": "fe66a4fd1153c65afc5aae2fb218b29e7590aecf467aab1822dbdf1e8a101390"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/solve-heldout-execution/state.json",
+      "bytes": 1096,
+      "sha256": "8808e8e549a61f4ea414ed8fccf88d11f647f9f6070c9fd69014fa91e672a92a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/solve-heldout-execution/stdout.log",
+      "bytes": 3093,
+      "sha256": "b56c4cbd991b74e99ddb1b8e66399004bfc632891cb46e7d4b40e1bd8b2ffb41"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/solve_extension_dataset.py",
+      "bytes": 7712,
+      "sha256": "a6c220a4cec9f22aaa0ef85e50cfe43ddc952d1bde3bba0a0189bd10a78def2e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-holdout01/upstream-check.json",
+      "bytes": 977,
+      "sha256": "ef4f1d7472e4b837bdbc4f5d81cbb1dfa7392b0569f13e66e94ce95c4227b4a6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-input02/manifest.json",
+      "bytes": 1904,
+      "sha256": "904f3f0e1ca862280e02ac1dfd148ed7d144fc031305f551dbe99b92b4815147"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-input02/meta.json",
+      "bytes": 1144,
+      "sha256": "876bf0f7c351641a5e541a004e159af8e4550601b96d08d152e92ab9c7486e44"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-input02/x.tif",
+      "bytes": 2628902,
+      "sha256": "f2d515066d64b832d1fbe7ee0f06c2423c53448d5da3c0da51132fa6ca166f03"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-input02/y.tif",
+      "bytes": 2628902,
+      "sha256": "6ee10487af838fee82d553dd1c933b8cf061a881057f1013aa7edbedec50b9e3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-input02/z.tif",
+      "bytes": 2628902,
+      "sha256": "3deeee25a377eddf8643746ebd3c1eb4a20c114f17b8e7e923fb0b63f796ece1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/output/meta.json",
+      "bytes": 985,
+      "sha256": "bf01d9067a149f03d41839eb3c7d596496c7c98286c995732e6182d06310511f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/output/x.tif",
+      "bytes": 2552850,
+      "sha256": "58162d0e567c2d332083acac52163c2813752a082095da46bf2b5a76ae40083e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/output/y.tif",
+      "bytes": 2552850,
+      "sha256": "b565a878858519b0e127925a3462c7eb042b5c1afd5f74aeec10fe41373c67cd"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/output/z.tif",
+      "bytes": 2552850,
+      "sha256": "52a9c291961b6317d27bf8bd82880a25a42dd555fab8516a7b8dcc35e95ce9b4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/output.obj_uv_diagnostics.json",
+      "bytes": 22188228,
+      "sha256": "837bec4ed9de6e6b7159ee2be0082b4b1e82eafa9cff432e3b71cc572df7ed7b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/output_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "f37188cf8c1c6d5aa65c689042513cb2ed72dc902498e1b602f96ac8434aa190"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/output_heat_kappa.png",
+      "bytes": 55968,
+      "sha256": "189ba6b0e97ba211eb8c96bcc1caa88bfc734c7032e8cc5e2e7f9402f21e2cbc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/output_heat_L2.png",
+      "bytes": 59840,
+      "sha256": "1e12ea356a2508504e82a3fcb1840ca01d3c2fd94b2715704a96e725a28b1be5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/output_heat_Linf.png",
+      "bytes": 56189,
+      "sha256": "d5590d436c5b17925e27a7e2f5119d704146b8f342bc5e81e3714107315bc983"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/output_heat_logarea.png",
+      "bytes": 72198,
+      "sha256": "bb0744014098a2783a0fa34de4d1a4975af4fad1baeab27179495a2c5de4dd4c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/output_heat_ranges.txt",
+      "bytes": 246,
+      "sha256": "79abd70bf473f3c664d7b48668631a0b9109db0fd487d686870f0697a2d51fcc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/raster_trace.json",
+      "bytes": 2693234,
+      "sha256": "a9bcfd17827ef51e1b78e569d59d25f55b39b8276ee917584859c550b3a5489f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/runner.py",
+      "bytes": 4857,
+      "sha256": "08cb789e6ea28cbf720085c753b393b50592508965550f9580dfafa3921a98e5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/state.json",
+      "bytes": 3193,
+      "sha256": "8dbce95641b04ff2dbe75349697c80104bc3b948fe0f85329b93a8d5d87ca58c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_baseline_keep1p5_01/stdout.log",
+      "bytes": 3658,
+      "sha256": "058ea9ac08780215ef3109c16b33bc9890344f1810826962becbbb17b07971f4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output/meta.json",
+      "bytes": 986,
+      "sha256": "75880b61cff09f8600c9826873d55e6d7187b761dfad13028d2c8dcafe7f5d4a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output/x.tif",
+      "bytes": 2988262,
+      "sha256": "73d39e011e403bae93c522f568e088fdde4d65faa3baa3eee5417dd16ea3c413"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output/y.tif",
+      "bytes": 2988262,
+      "sha256": "67dd9cc8c2c8ea778258f88d9a72b313dba69a448e1a395490fa483bcc0eaa95"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output/z.tif",
+      "bytes": 2988262,
+      "sha256": "9ae28b54beaef2659b4f553a555db75aa4041f2ea79998297951995416bd167d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output.obj_components.json",
+      "bytes": 3533,
+      "sha256": "063a11f3c02950a3d77cf723b07bf1bee000f9ebc978df8ea9f5ac2dd8acca00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output.obj_uv_diagnostics.json",
+      "bytes": 22157767,
+      "sha256": "c48293fa5b91fef059474f2552d6c6a5fc04fa9fc4e5c13f89e4ae2156cbcdff"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output_component_108248_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "f6a212c258c217d5fbfd51f5143b300c07b82eacd66366344b77d9d166922936"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output_component_158916_energies_flatboi.txt",
+      "bytes": 664,
+      "sha256": "2baa4fa8835d14b8178455ce62d9851f38911fe652e155bfe22c9a60c4252445"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output_component_249232_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "c4de21769e23e812d080bb86320e34d79d9bc04c9458c2c8f9203c5593020ac6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "f37188cf8c1c6d5aa65c689042513cb2ed72dc902498e1b602f96ac8434aa190"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output_heat_kappa.png",
+      "bytes": 55968,
+      "sha256": "189ba6b0e97ba211eb8c96bcc1caa88bfc734c7032e8cc5e2e7f9402f21e2cbc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output_heat_L2.png",
+      "bytes": 59840,
+      "sha256": "1e12ea356a2508504e82a3fcb1840ca01d3c2fd94b2715704a96e725a28b1be5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output_heat_Linf.png",
+      "bytes": 56189,
+      "sha256": "d5590d436c5b17925e27a7e2f5119d704146b8f342bc5e81e3714107315bc983"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output_heat_logarea.png",
+      "bytes": 72198,
+      "sha256": "bb0744014098a2783a0fa34de4d1a4975af4fad1baeab27179495a2c5de4dd4c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/output_heat_ranges.txt",
+      "bytes": 246,
+      "sha256": "79abd70bf473f3c664d7b48668631a0b9109db0fd487d686870f0697a2d51fcc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/raster_trace.json",
+      "bytes": 3182978,
+      "sha256": "da86d13bd789b82c86bfbc7c6a827a6b70079974d2bcaed7910f9ac98e7d7d42"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/runner.py",
+      "bytes": 4857,
+      "sha256": "08cb789e6ea28cbf720085c753b393b50592508965550f9580dfafa3921a98e5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/state.json",
+      "bytes": 4113,
+      "sha256": "335e606d9b8f31e479bc59a275aa6fd23b243a5b262f65ab282444187ed5829e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/stdout.log",
+      "bytes": 10673,
+      "sha256": "56f1990338965152e2fe4a7c9b240036e6da998547702ac45de33b7f1309814c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_candidate_b_keep1p5_01/uv_override.json",
+      "bytes": 12859193,
+      "sha256": "96a276a193e2646dccd61f90274ede2ada6fee58ef410b214cc65ad9da56aef5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output/meta.json",
+      "bytes": 988,
+      "sha256": "3cab1696096828758ae705df24e8e4f98a1ca8770a92d1ea8eb61cac949f4cf3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output/x.tif",
+      "bytes": 2685522,
+      "sha256": "f51a68dc72fdf5b2f9d9ee08f73f340d6a7914fa2ec4ccd670444b97d439e1a3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output/y.tif",
+      "bytes": 2685522,
+      "sha256": "b725ec3f5551d26bd5beb7e2fd107d6867490fdd527cfdbf9a9af28741520cd5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output/z.tif",
+      "bytes": 2685522,
+      "sha256": "1fa07f24e7184a1d84c063c4b7c933ae3f68ca53b35cc3ef3e91fbfd3e4e37dc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output.obj_components.json",
+      "bytes": 3533,
+      "sha256": "063a11f3c02950a3d77cf723b07bf1bee000f9ebc978df8ea9f5ac2dd8acca00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output.obj_uv_diagnostics.json",
+      "bytes": 22189819,
+      "sha256": "b47eaf70e6d7f4423b0e5c6efb56ce36b24ebd688510d49aefad5311a899e853"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output_component_108248_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "f6a212c258c217d5fbfd51f5143b300c07b82eacd66366344b77d9d166922936"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output_component_158916_energies_flatboi.txt",
+      "bytes": 664,
+      "sha256": "2baa4fa8835d14b8178455ce62d9851f38911fe652e155bfe22c9a60c4252445"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output_component_249232_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "c4de21769e23e812d080bb86320e34d79d9bc04c9458c2c8f9203c5593020ac6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "f37188cf8c1c6d5aa65c689042513cb2ed72dc902498e1b602f96ac8434aa190"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output_heat_kappa.png",
+      "bytes": 55968,
+      "sha256": "189ba6b0e97ba211eb8c96bcc1caa88bfc734c7032e8cc5e2e7f9402f21e2cbc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output_heat_L2.png",
+      "bytes": 59840,
+      "sha256": "1e12ea356a2508504e82a3fcb1840ca01d3c2fd94b2715704a96e725a28b1be5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output_heat_Linf.png",
+      "bytes": 56189,
+      "sha256": "d5590d436c5b17925e27a7e2f5119d704146b8f342bc5e81e3714107315bc983"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output_heat_logarea.png",
+      "bytes": 72198,
+      "sha256": "bb0744014098a2783a0fa34de4d1a4975af4fad1baeab27179495a2c5de4dd4c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/output_heat_ranges.txt",
+      "bytes": 246,
+      "sha256": "79abd70bf473f3c664d7b48668631a0b9109db0fd487d686870f0697a2d51fcc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/raster_trace.json",
+      "bytes": 2970003,
+      "sha256": "69c7fe39b8f7fd915230dbf5aa8fb5636662aebc7401b23c7099ddfdc03a08a0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/runner.py",
+      "bytes": 4857,
+      "sha256": "08cb789e6ea28cbf720085c753b393b50592508965550f9580dfafa3921a98e5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/state.json",
+      "bytes": 3883,
+      "sha256": "0619d96cb0e901168124f8f20ce92b2703dcb16b11cf07d6580f9a7604ab9a81"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/holdout_seed_keep1p5_01/stdout.log",
+      "bytes": 10655,
+      "sha256": "bf407905b7860e5d231a88bfa77c52c5d15478a5f82345f0e910031d519304f6"
+    },
+    {
+      "path": "research/47-r005-heldout-trial.md",
+      "bytes": 10681,
+      "sha256": "55e3cc8737e2bccec2e95ce56373eb420467a8d2f747afe21daecdfad596fd2c"
+    },
+    {
+      "path": "research/48-r005-heldout-verification.md",
+      "bytes": 8226,
+      "sha256": "622193392cf5731f2fedfaca51afab9fe98ec3ffad4d12f73d01312cde1cff6a"
+    }
+  ]
+}

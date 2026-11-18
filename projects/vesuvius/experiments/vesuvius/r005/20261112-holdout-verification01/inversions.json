@@ -1,0 +1,154 @@
+{
+  "flip_count_and_identity_unchanged_by_packing": 94,
+  "counts_by_component": {
+    "1": 76,
+    "3": 1,
+    "6": 17
+  },
+  "counts_by_unknown_vertex_count": {
+    "2": 18,
+    "1": 6,
+    "3": 69,
+    "0": 1
+  },
+  "prior_sign_counts": {
+    "zero/positive": 63,
+    "positive/positive": 2,
+    "zero/negative": 28,
+    "negative/positive": 1
+  },
+  "fully_fixed_face": {
+    "face": 206097,
+    "quad_yx": [
+      119,
+      232
+    ],
+    "component": 3,
+    "unknown_vertices": 0,
+    "signed_area_uv": {
+      "baseline": -0.0,
+      "seed": 122.16315907239914,
+      "candidate_B": -1571.2360196113586,
+      "original_grid": 200.0
+    },
+    "cluster": 6,
+    "fine_indices": [
+      108252,
+      106313,
+      108253
+    ],
+    "fine_yx": [
+      [
+        120,
+        232
+      ],
+      [
+        119,
+        233
+      ],
+      [
+        120,
+        233
+      ]
+    ],
+    "changed_vertices": [
+      108252
+    ],
+    "seed_uvs": [
+      [
+        4640.06640625,
+        2414.9189453125
+      ],
+      [
+        4649.6171875,
+        2394.286865234375
+      ],
+      [
+        4650.74169921875,
+        2417.439453125
+      ]
+    ],
+    "candidate_B_prepack_uvs": [
+      [
+        4793.90380859375,
+        2570.378173828125
+      ],
+      [
+        4649.6171875,
+        2394.286865234375
+      ],
+      [
+        4650.74169921875,
+        2417.439453125
+      ]
+    ],
+    "prepack_area_uv": -1571.2959681153297
+  },
+  "recovered_components_anchor_compatibility": [
+    {
+      "fine_component": 3,
+      "native_component_root": 108248,
+      "fine_vertices": 49,
+      "anchor_count": 1,
+      "anchors": [
+        {
+          "coarse_index": 1837,
+          "coarse_yx": [
+            15,
+            29
+          ],
+          "fine_index": 108252,
+          "fine_yx": [
+            120,
+            232
+          ],
+          "coarse_uv_float32": [
+            4793.90380859375,
+            2570.378173828125
+          ],
+          "seed_uv": [
+            4640.06640625,
+            2414.9189453125
+          ],
+          "candidate_B_prepack_uv": [
+            4793.90380859375,
+            2570.378173828125
+          ],
+          "offset_uv": [
+            153.83740234375,
+            155.459228515625
+          ]
+        }
+      ],
+      "common_translation_uv": [
+        153.83740234375,
+        155.459228515625
+      ],
+      "max_residual_to_one_translation": 0.0
+    },
+    {
+      "fine_component": 4,
+      "native_component_root": 158916,
+      "fine_vertices": 49,
+      "anchor_count": 0,
+      "anchors": [],
+      "common_translation_uv": [
+        0.0,
+        0.0
+      ],
+      "max_residual_to_one_translation": 0.0
+    },
+    {
+      "fine_component": 8,
+      "native_component_root": 249232,
+      "fine_vertices": 49,
+      "anchor_count": 0,
+      "anchors": [],
+      "common_translation_uv": [
+        0.0,
+        0.0
+      ],
+      "max_residual_to_one_translation": 0.0
+    }
+  ]
+}

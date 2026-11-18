@@ -1,0 +1,98 @@
+{
+  "plan_sha256": "ee0dc54a1a6e0659d0f0268861c7f32c31af543322dac13c21ec568822754910",
+  "ct_keys": [
+    {
+      "key": "0/65/29/25",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/65/29/25",
+      "bytes": 2097152,
+      "sha256": "09902bcbe31518b9b5b39c4a9b3cfad824689bdae2381d0bf2d41a4d4fd6cfdc",
+      "source_receipt": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+        "bytes": 39303,
+        "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+      }
+    },
+    {
+      "key": "0/65/30/23",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/65/30/23",
+      "bytes": 2097152,
+      "sha256": "1b8e464a0167395623f9048ba07fa82146b2724ec8b40db13fd8c817dd9d8e71",
+      "source_receipt": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+        "bytes": 39303,
+        "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+      }
+    },
+    {
+      "key": "0/65/30/24",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/65/30/24",
+      "bytes": 2097152,
+      "sha256": "91a790efd38a1330849b1a2521772c85ebd49f5c6a351cd73dc4f5e823843b0e",
+      "source_receipt": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+        "bytes": 39303,
+        "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+      }
+    },
+    {
+      "key": "0/65/30/25",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/65/30/25",
+      "bytes": 2097152,
+      "sha256": "1425e98b502fd1d0379ffcc426ac70c6f44a21e95417c55e4e28f26984bca66e",
+      "source_receipt": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+        "bytes": 39303,
+        "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+      }
+    },
+    {
+      "key": "0/65/31/23",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/65/31/23",
+      "bytes": 2097152,
+      "sha256": "d0443f7973e3bbb4ba02d33ad380b3dec09d592e882431c969410a6d1de6284a",
+      "source_receipt": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+        "bytes": 39303,
+        "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+      }
+    },
+    {
+      "key": "0/65/31/24",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/65/31/24",
+      "bytes": 2097152,
+      "sha256": "dde6246d496ea8503ef7e220c45c0a95361d6cb609e44beff691ef01898f942f",
+      "source_receipt": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+        "bytes": 39303,
+        "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+      }
+    },
+    {
+      "key": "0/65/29/23",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-local-ct-bridge01/ct.zarr/0/65/29/23",
+      "bytes": 2097152,
+      "sha256": "d396347a3be77c3c9baa146238c9cccdaeab23964f042f6dcd4e70634c08e4f9"
+    },
+    {
+      "key": "0/65/29/24",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-local-ct-bridge01/ct.zarr/0/65/29/24",
+      "bytes": 2097152,
+      "sha256": "c4dde67c291d4a4e78ac1869e4d431090dae497d86e7437a0581fdfab961fde7"
+    },
+    {
+      "key": "0/65/31/25",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-local-ct-bridge01/ct.zarr/0/65/31/25",
+      "bytes": 2097152,
+      "sha256": "e7df6ffe8f25306f68ab4d85358f3f9d4e4e84ec0cc65aceef31e22998f1ce84"
+    }
+  ],
+  "acquisition": {
+    "file": "ct-acquisition.json",
+    "bytes": 1887,
+    "sha256": "81a1459ffe9ec72b95c6a302d77ab8332a9ea6fd55d72486b24b463d9ceca8a4"
+  },
+  "borrowed_extract": {
+    "file": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0483a-surface-provenance01\\sections.py",
+    "sha256": "f0c40d7dde45dea07c79441f6098b37f9066d41b76d8fc2c1394220c33ed2776"
+  }
+}

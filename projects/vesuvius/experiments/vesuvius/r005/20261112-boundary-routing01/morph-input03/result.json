@@ -1,0 +1,806 @@
+{
+  "gate": false,
+  "structural_errors": [
+    {
+      "from": 115033,
+      "to": 121012,
+      "reason": "More contour segments than available edges",
+      "required": 5,
+      "available": 3
+    }
+  ],
+  "target_simple": true,
+  "distance_to_obstacles": 0.0,
+  "negative_or_zero_boundary_faces": [
+    230483
+  ],
+  "minimum_boundary_area": -71.80754466185003,
+  "chords_leaving_polygon": [
+    [
+      119019,
+      121011
+    ]
+  ],
+  "maximum_chord_outside_length": 49.377583146462136,
+  "changed_J_boundary_vertices": 28,
+  "arcs": [
+    {
+      "start_pin": 93281,
+      "end_pin": 108869,
+      "retained_J_vertices": [
+        95167,
+        97053,
+        98957,
+        98959,
+        113041,
+        110822
+      ],
+      "pieces": [
+        {
+          "from": 93281,
+          "to": 95167,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 95167,
+          "to": 97053,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 97053,
+          "to": 98957,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 98957,
+          "to": 98959,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 98959,
+          "to": 249944,
+          "subdivisions": [
+            1,
+            11,
+            4
+          ]
+        },
+        {
+          "from": 249944,
+          "to": 113041,
+          "subdivisions": [
+            2,
+            8
+          ]
+        },
+        {
+          "from": 113041,
+          "to": 110822,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 110822,
+          "to": 108869,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 108869,
+      "end_pin": 108845,
+      "retained_J_vertices": [
+        108868,
+        108867,
+        108866,
+        108865,
+        108864,
+        108863,
+        110821,
+        113040,
+        115033,
+        121009,
+        121008,
+        121007,
+        121006,
+        121005,
+        121004,
+        121003,
+        121002,
+        121001,
+        121000,
+        119007,
+        117014,
+        115021,
+        113028,
+        110809,
+        108851,
+        108850,
+        108849,
+        108848,
+        108847,
+        108846
+      ],
+      "pieces": [
+        {
+          "from": 108869,
+          "to": 108868,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 108868,
+          "to": 108867,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 108867,
+          "to": 108866,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 108866,
+          "to": 108865,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 108865,
+          "to": 108864,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 108864,
+          "to": 108863,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 108863,
+          "to": 110821,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 110821,
+          "to": 113040,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 113040,
+          "to": 115033,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 121012,
+          "to": 121009,
+          "subdivisions": [
+            1,
+            2
+          ]
+        },
+        {
+          "from": 121009,
+          "to": 121008,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 121008,
+          "to": 121007,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 121007,
+          "to": 121006,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 121006,
+          "to": 121005,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 121005,
+          "to": 121004,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 121004,
+          "to": 121003,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 121003,
+          "to": 121002,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 121002,
+          "to": 121001,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 121001,
+          "to": 121000,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 121000,
+          "to": 119007,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 119007,
+          "to": 117014,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 117014,
+          "to": 115021,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 115021,
+          "to": 113028,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 113028,
+          "to": 110809,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 110809,
+          "to": 108851,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 108851,
+          "to": 108850,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 108850,
+          "to": 108849,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 108849,
+          "to": 108848,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 108848,
+          "to": 108847,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 108847,
+          "to": 108846,
+          "subdivisions": [
+            1
+          ]
+        },
+        {
+          "from": 108846,
+          "to": 108845,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 108845,
+      "end_pin": 106906,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 108845,
+          "to": 106906,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106906,
+      "end_pin": 106907,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106906,
+          "to": 106907,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106907,
+      "end_pin": 106908,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106907,
+          "to": 106908,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106908,
+      "end_pin": 106909,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106908,
+          "to": 106909,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106909,
+      "end_pin": 106910,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106909,
+          "to": 106910,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106910,
+      "end_pin": 106911,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106910,
+          "to": 106911,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106911,
+      "end_pin": 106912,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106911,
+          "to": 106912,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106912,
+      "end_pin": 106913,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106912,
+          "to": 106913,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106913,
+      "end_pin": 108853,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106913,
+          "to": 108853,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 108853,
+      "end_pin": 106914,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 108853,
+          "to": 106914,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106914,
+      "end_pin": 106915,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106914,
+          "to": 106915,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106915,
+      "end_pin": 106916,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106915,
+          "to": 106916,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106916,
+      "end_pin": 106917,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106916,
+          "to": 106917,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106917,
+      "end_pin": 106918,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106917,
+          "to": 106918,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106918,
+      "end_pin": 106919,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106918,
+          "to": 106919,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106919,
+      "end_pin": 106920,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106919,
+          "to": 106920,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106920,
+      "end_pin": 106921,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106920,
+          "to": 106921,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106921,
+      "end_pin": 108861,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106921,
+          "to": 108861,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 108861,
+      "end_pin": 106922,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 108861,
+          "to": 106922,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106922,
+      "end_pin": 106923,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106922,
+          "to": 106923,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106923,
+      "end_pin": 106924,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106923,
+          "to": 106924,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106924,
+      "end_pin": 106925,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106924,
+          "to": 106925,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106925,
+      "end_pin": 106926,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106925,
+          "to": 106926,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106926,
+      "end_pin": 106927,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106926,
+          "to": 106927,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106927,
+      "end_pin": 106928,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106927,
+          "to": 106928,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 106928,
+      "end_pin": 104988,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 106928,
+          "to": 104988,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 104988,
+      "end_pin": 103048,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 104988,
+          "to": 103048,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 103048,
+      "end_pin": 101108,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 103048,
+          "to": 101108,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 101108,
+      "end_pin": 98955,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 101108,
+          "to": 98955,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 98955,
+      "end_pin": 97052,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 98955,
+          "to": 97052,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 97052,
+      "end_pin": 95166,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 97052,
+          "to": 95166,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "start_pin": 95166,
+      "end_pin": 93281,
+      "retained_J_vertices": [],
+      "pieces": [
+        {
+          "from": 95166,
+          "to": 93281,
+          "subdivisions": [
+            1
+          ]
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 0.07796950003830716
+}

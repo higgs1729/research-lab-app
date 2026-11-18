@@ -1,0 +1,14 @@
+{
+  "date_jst": "2026-11-14",
+  "crop_canvas_xyxy": [843,843,1355,1355],
+  "source": "Same native XY in ct-mid-raw.png, forward-raw.png, reverse-raw.png and comparison.png. Fixed grayscale 0–255, no rescaling.",
+  "forward": "Diffuse local islands and occasional short bright bands. No uniquely traceable sequence of separate strokes or rows.",
+  "reverse": "Broader connected bright regions, including lower-left and centre. Their boundaries are diffuse, widths vary, and they do not define a uniquely traceable text row.",
+  "ct_relation": "The native centre layer shows fibre texture, holes, and diagonal dark bands. Some reverse bright areas lie next to the lower-left dark band, while some bright areas extend across relatively brighter CT and some dark holes have weaker scores. The comparison does not establish a physical crack mechanism or ink.",
+  "independent_review": "Lead inspected the original-size fixed comparison separately. The lead also found no uniquely identifiable separate strokes or rows, and left the relation to cracks unconfirmed.",
+  "candidate_text_roi": null,
+  "transcription": null,
+  "physical_sheet": "unresolved",
+  "upper_card_registration": "unverified",
+  "next_action_within_this_experiment": "Close this fixed two-order pilot without a depth or model sweep."
+}

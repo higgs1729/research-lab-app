@@ -1,0 +1,26 @@
+{
+  "commit": {
+    "sha": "a4aafd900a55793b69739143da025f41aba4631d"
+  },
+  "ref_result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "Action completed."
+      }
+    ],
+    "structuredContent": {
+      "success": true
+    },
+    "isError": false
+  },
+  "proof": {
+    "base_commit": "a35e2d49124758bc28e7fcf499bd656387e74f5c",
+    "base_tree": "13ddb226f46d78da9051462482165ed5501a52d3",
+    "new_tree": "cdd61b4cbb00847f2bfc680809739dc83d3cbd84",
+    "all_85_blobs_match": true,
+    "unchanged_files": 52,
+    "supplement_files": 32,
+    "updated_root_readme": true
+  }
+}

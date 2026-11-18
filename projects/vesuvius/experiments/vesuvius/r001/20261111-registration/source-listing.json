@@ -1,0 +1,5 @@
+{
+  "url": "https://philodemos.s3.amazonaws.com/?list-type=2&prefix=sean/paris4_full_100226/ink/hecate/accum025_reverse/&max-keys=10",
+  "status": 403,
+  "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>VNAEE8A29AHJ4H6E</RequestId><HostId>ZA31T2B4gsdfWZ1+SrJn2uX5H8Dw0Shm53aXmwG4DJyNOgFSR4i8Admt3T0f09ZLuBKYNseSGDg=</HostId></Error>"
+}

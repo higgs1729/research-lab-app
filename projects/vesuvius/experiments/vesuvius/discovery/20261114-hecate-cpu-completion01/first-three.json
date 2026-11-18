@@ -1,0 +1,32 @@
+{
+  "cpu_parity": [
+    {
+      "index": 1,
+      "mae": 0.0,
+      "max_abs_diff": 0.0,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "mae": 0.0,
+      "max_abs_diff": 0.0,
+      "passed": true
+    },
+    {
+      "index": 3,
+      "mae": 0.0,
+      "max_abs_diff": 0.0,
+      "passed": true
+    }
+  ],
+  "patch_boundary_seconds": [
+    4.938286900003732,
+    4.826695299998391,
+    4.574747599996044
+  ],
+  "projected_remaining_seconds": 376.48223339987453,
+  "remaining_seconds": 4480.262504000006,
+  "cpu_passed": true,
+  "time_passed": true,
+  "next_patch": 4
+}

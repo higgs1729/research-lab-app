@@ -1,0 +1,68 @@
+[
+  {
+    "path": "AGENTS.md",
+    "current_blob": "264c227ce69e18ab8b401199ba7911bf56f57236",
+    "previous_blob": null,
+    "sha256": "3fbfa605cd5d1daec47897a8efe111d76f6cc044c9814239130ca56b20935732"
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "current_blob": "32e75f7a8f507d7542922efdddaf2c20e9380bca",
+    "previous_blob": null,
+    "sha256": "6d31ec21459b591ca90680999222af87450a48e1eca5426a8ec1cc281ce3400b"
+  },
+  {
+    "path": ".github/pull_request_template.md",
+    "current_blob": "4066e4b34e414edf25da903e07995243be13a020",
+    "previous_blob": null,
+    "sha256": "9bd1ea4d3e87e02dac0ad14de7ddb99851de46781cd7a03356f852969dfe453c"
+  },
+  {
+    "path": "vc_reader/AGENTS.md",
+    "current_blob": "da346ff32ba3ceaebb0edf8f199da44d93785eec",
+    "previous_blob": null,
+    "sha256": "68da5775924029903069eb006c52bcad921ebb0cfe13f743ffb609963a4cfded"
+  },
+  {
+    "path": "vc_reader/include/vc_reader/zarr_write.hpp",
+    "current_blob": "9b2e88c6189e326673b2bd979b57bbe2cc6c7057",
+    "previous_blob": "9b2e88c6189e326673b2bd979b57bbe2cc6c7057",
+    "sha256": "82b2df9d13eb43ab3c0c5c9b822c56f376af33852178d767ed0e925cce51a19b"
+  },
+  {
+    "path": "vc_reader/src/cpp/zarr/pyramid.cpp",
+    "current_blob": "610f457a5207539d910a9d9578399b143b539d06",
+    "previous_blob": "610f457a5207539d910a9d9578399b143b539d06",
+    "sha256": "cf5d55c99a203edb5b3db9e513b2ce27475b60c7ad48aedb9c7d2a3971710f68"
+  },
+  {
+    "path": "volume-cartographer/apps/src/vc_render_tifxyz.cpp",
+    "current_blob": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6",
+    "previous_blob": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6",
+    "sha256": "2d315d553b698943c15fad0021da3b75a5c1d5ebd03c005c1b66f3c16fe52798"
+  },
+  {
+    "path": "vc_reader/src/cpp/bindings.cpp",
+    "current_blob": "51d8ae2071f37f3ef2fc5e5d1a7b2664ded47cff",
+    "previous_blob": "51d8ae2071f37f3ef2fc5e5d1a7b2664ded47cff",
+    "sha256": "d80052a3765991518fa884c5996e859f8f098d8bac82d6f8e6d413fb8e3d31e6"
+  },
+  {
+    "path": "vc_reader/src/vc_reader/reader/writer.py",
+    "current_blob": "682f4604f0a9bfac6d406bc2efd9e2bddabdde4c",
+    "previous_blob": "682f4604f0a9bfac6d406bc2efd9e2bddabdde4c",
+    "sha256": "851197032537b921ea4210251df6bdbf287fb53ef676f4fc961bce0d6eb66a5d"
+  },
+  {
+    "path": "vc_reader/README.md",
+    "current_blob": "e7ee9e1f9637433bd4fca82697a44bc377bfb164",
+    "previous_blob": "e7ee9e1f9637433bd4fca82697a44bc377bfb164",
+    "sha256": "672c8cae0d6974fc97d3bcf41f748bb76412d472d06dc8bcf2ba74fa867cbad9"
+  },
+  {
+    "path": "vc_reader/tests/test_zarr_writer.py",
+    "current_blob": "f07c79f0a2f9669a5b5b9b1ff82d933b5733245b",
+    "previous_blob": "f07c79f0a2f9669a5b5b9b1ff82d933b5733245b",
+    "sha256": "c8887667cec14f50e4131da6536b1b7ea6528fd74ae0ed89512fa04cf9efe48f"
+  }
+]

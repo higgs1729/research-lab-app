@@ -1,0 +1,335 @@
+{
+  "created_at": "2026-11-12T14:17:17.477886+09:00",
+  "local_villa_head": "7ad02f4f6e306b744ef6d2742dfe31fd55713ee5",
+  "direct_http_response_body_bytes": 179122,
+  "direct_http_response_body_limit_bytes": 5000000,
+  "ct_voxel_download_bytes": 0,
+  "volume_id": "20250804134230",
+  "volume_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/volumes/20250804134230-9.362um-1.2m-113keV-masked.zarr/",
+  "input_files": [
+    {
+      "path": "experiments/vesuvius/r003/20261111-input01/manifest.json",
+      "bytes": 1850,
+      "sha256": "fd41c8119d62915992337ea314330f37b76de13aa137f57f42180f267f39feac"
+    },
+    {
+      "path": "experiments/vesuvius/r003/20261111-input01/meta.json",
+      "bytes": 1148,
+      "sha256": "36dc7600f31d7f16fc252d8ab5b3ce57931a399c48343d2821436a3c1b0e6317"
+    },
+    {
+      "path": "experiments/vesuvius/r003/20261111-input01/x.tif",
+      "bytes": 369830,
+      "sha256": "da6fdece28f8fb89ff6d2506ae4347e13cf245454b95b9f1997046b6a3dbd7dc"
+    },
+    {
+      "path": "experiments/vesuvius/r003/20261111-input01/y.tif",
+      "bytes": 369830,
+      "sha256": "51b6d36f7b7afb0a72ae9a90b6e16f94663228bf4a0172cf5eedeb93e4cfab30"
+    },
+    {
+      "path": "experiments/vesuvius/r003/20261111-input01/z.tif",
+      "bytes": 369830,
+      "sha256": "44b3d11e1f130db7a060671ac429340b1ed6ab296697905696860338cf595eaa"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/artifact-manifest.json",
+      "bytes": 33451,
+      "sha256": "861ec8e7618667bf434f6dfbf3c5724cbe388bdb6ff54a274222ad56f0e90c2b"
+    },
+    {
+      "path": "research/99-r005-pack-native.md",
+      "bytes": 10717,
+      "sha256": "b160b92cabe0f929bdd132ebb0414d8ba2c4bdd03cdd4b6d9a1b75ec19e3f6a4"
+    },
+    {
+      "path": "research/100-r005-pack-native-verification.md",
+      "bytes": 10611,
+      "sha256": "063f651d95cb2be4bf024f09dd92feb600e019183341d7f98dcbf16ba174ceb1"
+    },
+    {
+      "path": "research/101-r005-portable-package.md",
+      "bytes": 3942,
+      "sha256": "9cb102638a87886e39d078ca82c1a1a55aaf33125503d6c1d7b2de9ab5274d6c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/state.json",
+      "bytes": 6120,
+      "sha256": "18f77174583eae3c43cc3d2f6e158d006cbdb6b625c748e47d3cf580642fbc72"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/raster_trace.json",
+      "bytes": 406680,
+      "sha256": "ed7d250473d1641377b0fcbd0f0ba1db39649f087f5c267d13a9b5b67068842d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/output.obj_uv_diagnostics.json",
+      "bytes": 7636906,
+      "sha256": "4eb5db4d31b813bafa5a1d132081ef510a66d5f107cb1fbeb0ffc0c1e97c0e96"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/output/meta.json",
+      "bytes": 993,
+      "sha256": "d6b067efb91185e193782cca148f3fa495370f18b7b8ac4bd6864c6685f18d8d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/output/x.tif",
+      "bytes": 380626,
+      "sha256": "767953dd89c9e3595bacd726be79025c022f3d571d89b970025002c9aab71f61"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/output/y.tif",
+      "bytes": 380626,
+      "sha256": "80cd0dfd2aafd15482095cceff57d316f9626185f398a5267665d608417509fc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-off01/output/z.tif",
+      "bytes": 380626,
+      "sha256": "21235c7fb55c22ef05c1558f83a11848c5a6365be603dfc6876529e404d65391"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/state.json",
+      "bytes": 6163,
+      "sha256": "42f9981d31921d6cf992591eafa01a036683f5c29870ae4fd963810fa9a9d052"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/raster_trace.json",
+      "bytes": 468622,
+      "sha256": "65d576414ef8b3153d32587741a39a9d3c61d8c476457546e91d71ab5beda8e3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output.obj_uv_diagnostics.json",
+      "bytes": 9122786,
+      "sha256": "d62bfce19d1e0e3bdea06d32bc48464b13a8ffa430c5723b93f93808eb93e845"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output/meta.json",
+      "bytes": 996,
+      "sha256": "5f23b9a97a4399415cfdae1a5a53ca1d5d5ce1c3012bd9b7e4ef5454d3981750"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output/x.tif",
+      "bytes": 468002,
+      "sha256": "264c3d08324137938f1d8c0b70c0903c468e469e96c7f8ee5aad79cdebf7eb5e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output/y.tif",
+      "bytes": 468002,
+      "sha256": "24eeb8a35b1b37c454b39fd6cb7196149894807af7ce43bc6c94214a837dcd6e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output/z.tif",
+      "bytes": 468002,
+      "sha256": "2cf42d7b4e7e676956a4996a4d4c9adcf05ab393405d586b241151da0f764cd1"
+    }
+  ],
+  "local_source_and_environment_files": [
+    {
+      "path": "D:/kensyoukin-work/r003-villa/volume-cartographer/apps/src/vc_render_tifxyz.cpp",
+      "bytes": 82208,
+      "sha256": "2d315d553b698943c15fad0021da3b75a5c1d5ebd03c005c1b66f3c16fe52798"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/volume-cartographer/apps/CMakeLists.txt",
+      "bytes": 5505,
+      "sha256": "fb9b7b27b16571e9bdabc7d5c63c75f7b446c60230072f95116abfc4bb53adb3"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/volume-cartographer/CMakeLists.txt",
+      "bytes": 41323,
+      "sha256": "23efb9488aad8b01a4abe176f88052a1b4b66e88e4db016a19ecca0c344c4119"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/volume-cartographer/core/src/QuadSurface.cpp",
+      "bytes": 43887,
+      "sha256": "fe0be9b172db8d6557b771319421f9a801f3ebb9600ca975729ea43b756de758"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/pyproject.toml",
+      "bytes": 1359,
+      "sha256": "b8863d164cb9e797c22c2754d82080d8646fc9c6e08e9a6651f0de590ccbe542"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/src/vc_reader/tifxyz.py",
+      "bytes": 3396,
+      "sha256": "d795493136b27066365f65806c5277285361599a876d877e7069ac85b4c84a25"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/src/vc_reader/reader/zarr_reader.py",
+      "bytes": 45533,
+      "sha256": "20ddab357f08509221ea9586e43db419efb5db770f7ce5accb36879843221ed5"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-build/CMakeCache.txt",
+      "bytes": 79652,
+      "sha256": "abf299eea98d3e50448047e195c677abcdca167899f284af0e229b5a52d4b09d"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-build/core/libvc_core.so",
+      "bytes": 99770864,
+      "sha256": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-build/reader/libvc_reader_native.so",
+      "bytes": 63831976,
+      "sha256": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+    }
+  ],
+  "frozen_evidence_files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/ct-9um-0-zarray.json",
+      "bytes": 239,
+      "sha256": "acad9dbc41bf7c9b5b983cdfd802308691e427ebb1a1a675561df717d50332a0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/ct-9um-1-zarray.json",
+      "bytes": 238,
+      "sha256": "6daf5b428126f24adda03efa7fa030112e95b55e34c1564bf798d22f0fb021be"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/ct-9um-2-zarray.json",
+      "bytes": 238,
+      "sha256": "7ce0ea475624b75be7df4ff1bdad8d4860fde0a97ca99f1feed66606c9e3721b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/ct-9um-metadata.json",
+      "bytes": 8446,
+      "sha256": "7db0a497ed78165a17b681debacd40e6fadd99326aed8423b9e337007cad4b92"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/ct-9um-zattrs.json",
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/ct-9um-zgroup.json",
+      "bytes": 24,
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/label-transfer-core.py",
+      "bytes": 67329,
+      "sha256": "fbdacc264ae0e6d49b7aca3e937ca1055eba146db914add9d4fc9f01be5b7137"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/label-transfer-pyproject.toml",
+      "bytes": 5956,
+      "sha256": "4244b88cd3d13feff88e42aaa78cfd4e0538fd4f260131c792e141d62904f3a6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/label-transfer-reference.md",
+      "bytes": 4465,
+      "sha256": "48ead7abf70aeb1e4771d060b914560bb75bbf9678f498138e38d8e4ae04b93a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/label-transfer-self-render.py",
+      "bytes": 49429,
+      "sha256": "57c3660b23fe3adeabdc5b010bd804517887750f6a212584d8b635699683e8e5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/mesh-1um-meta.json",
+      "bytes": 421,
+      "sha256": "da10de143e24b75078a0cfbffdff7bedab55f2e7564b910237f1beba0a28dc7e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/mesh-2um-meta.json",
+      "bytes": 412,
+      "sha256": "bdfaf16f2dcf618b2c5f0595d281fba02b9bace66a312a8f500ed386eb0e6046"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/mesh-9um-meta.json",
+      "bytes": 291,
+      "sha256": "3ed15b457647d2eaa473d63f3748865f8292e69b987dad0148969a72a7101d09"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/provenance-and-tools-fetch.json",
+      "bytes": 4161,
+      "sha256": "23b6c7eaf4d89bf7fa5b8292112fc0a6715cea9dd2bd290260a70ff34ea33eb7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/release-latest-api.json",
+      "bytes": 12072,
+      "sha256": "d5dd4df9f7d0d346b8861fe8daaefbea9bc9fcc4e4c195f988d07bdabde505b3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/release-stable-api.json",
+      "bytes": 12085,
+      "sha256": "0a222b16447c1ed53eb8c554cd55225437c3399180509b7e36dce0aa8e506ba0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/releases-fetch.json",
+      "bytes": 519,
+      "sha256": "0a21a9f8ce49ecf9469a20f4e0edd96aeef5d76c6fb560eee009af09f4ede6e8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/s3-ct-9um.xml",
+      "bytes": 2145,
+      "sha256": "8e6deaca64962b478ee9624ddb68cb5f57e758de19005f3151a71f1997925fee"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/s3-listings.json",
+      "bytes": 1787,
+      "sha256": "5e4ea13e7eff298daa45b09e32452df957be1c6dd702a0de1ce4fc2640bcb7e6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/s3-mesh-9um.xml",
+      "bytes": 2071,
+      "sha256": "f073d64d12d30a8529e831f0ba837f5539859fbca83d1a3a00a242fbd529baa2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/s3-mesh-intermediate.xml",
+      "bytes": 1973,
+      "sha256": "c7707953f9f7c0480eb36f26af47d6f89bf896046c0b5f6923d2593bc152d25c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/s3-metadata.json",
+      "bytes": 6120,
+      "sha256": "af7c920e2a8f8114526921b8f04294123532c51a4ed2d2c2bd7caa8604ed58fe"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/s3-sample.xml",
+      "bytes": 643,
+      "sha256": "f31580ff2165450b4e9f0157b7a98d29b17e16c18cd745ea4667ad7086637a24"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/s3-segment-mesh.xml",
+      "bytes": 979,
+      "sha256": "ce0a6e447742491b71e77cc66f34711b0a4ea7ad9dc543fc62052de38aca7d80"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/s3-segment-surface-volumes.xml",
+      "bytes": 1068,
+      "sha256": "0ccf14b41ef4ae928945cadf49ee94fd7320afde5c97b9b17a1f57e082f68f60"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/s3-segment.xml",
+      "bytes": 719,
+      "sha256": "f164770257283f7a96dddd116b8ae6e3a6f033b1d4f044388b422d2fa4f62530"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/s3-transforms.xml",
+      "bytes": 517,
+      "sha256": "b8d297734a5440aa6d7e9fab1f454ff74660bbe341383795ee709618ca60f9ba"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/s3-volumes.xml",
+      "bytes": 643,
+      "sha256": "f8c484c28673483af9307f88db90f32e2ae6f68085be13d2d56d3239af7abbe7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/surface-9um-0-zarray.json",
+      "bytes": 205,
+      "sha256": "28ff3cbb87169554e495e42ad88e8cf4395c120c0247aa6724772432143df485"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-ct-render-feasibility01/surface-9um-zattrs.json",
+      "bytes": 3482,
+      "sha256": "e14c12ff834d0495617279cbf1eeebb746ecfab6cafd0ac4ea16fe0bb3281c02"
+    },
+    {
+      "path": "research/102-r005-ct-render-feasibility.md",
+      "bytes": 12771,
+      "sha256": "b8b4b6f3944e03125c8724e3aaf62809287f22c9a48b324314647c0a46e1659d"
+    }
+  ]
+}

@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="lab-token" content="__TOKEN__">
+<title>Research Lab — 研究の記録と改善</title>
+<style>
+:root{
+  color-scheme:light;
+  --ground:#e4e9ec; --surface:#fbfcfc; --sunk:#eef2f4; --line:#cdd5da;
+  --ink:#1b2329; --muted:#5d6a73;
+  --act:#1e5a6e; --act-ink:#fff;
+  --carbon:#6b4e37; --carbon-bg:#f3ece5;
+  --run:#2f7a55; --wait:#a8721a; --stop:#78838a; --err:#b3261e;
+  --sans:"BIZ UDPGothic","BIZ UDPゴシック","Hiragino Sans","Meiryo",system-ui,sans-serif;
+  --fixed:"BIZ UDGothic","BIZ UDゴシック",Consolas,ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.7 var(--sans);color:var(--ink);background:var(--ground)}
+button,input,select,textarea{font:inherit;color:inherit}
+h1,h2,h3,p{margin:0}
+[hidden]{display:none!important}
+.fixed{font-family:var(--fixed)}
+
+/* 上部 */
+.top{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:14px 28px;background:var(--surface);border-bottom:1px solid var(--line)}
+.top h1{font-size:18px;font-weight:700}
+#project{font:12px var(--fixed);color:var(--muted);overflow-wrap:anywhere;flex:1;min-width:200px}
+
+/* 状態の線路 */
+.rail{padding:22px 28px 20px;background:var(--surface);border-bottom:1px solid var(--line)}
+.rail ol{list-style:none;margin:0;padding:0;display:flex;align-items:center;flex-wrap:wrap}
+.rail li{display:flex;align-items:center;color:var(--stop);font-size:15px}
+.rail li+li::before{content:"";width:44px;height:2px;background:var(--line);margin:0 10px}
+.rail .dot{width:14px;height:14px;border-radius:50%;border:2px solid var(--line);background:var(--surface);margin-right:8px;flex:none}
+.rail li.on{color:var(--ink);font-weight:700;font-size:24px}
+.rail li.on .dot{width:18px;height:18px}
+.rail li.on[data-phase=running] .dot{background:var(--run);border-color:var(--run);box-shadow:0 0 0 5px #2f7a5522}
+.rail li.on[data-phase=waiting] .dot{background:var(--wait);border-color:var(--wait);box-shadow:0 0 0 5px #a8721a22}
+.rail li.on[data-phase=paused] .dot,.rail li.on[data-phase=prepared] .dot{background:var(--stop);border-color:var(--stop)}
+.rail .who{margin-top:10px;color:var(--muted);font-size:14px}
+.rail .who b{color:var(--ink)}
+#waiting-reason{margin-top:8px;padding:8px 12px;background:#f7efe1;border-left:3px solid var(--wait);max-width:72ch;white-space:pre-wrap}
+
+/* 本体 */
+.body{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:24px;max-width:1240px;margin:0 auto;padding:24px 28px 40px}
+main{min-width:0}
+.tabs{display:flex;gap:4px;border-bottom:2px solid var(--line);margin-bottom:18px;flex-wrap:wrap}
+.tabs button{background:none;border:0;border-bottom:3px solid transparent;margin-bottom:-2px;padding:8px 14px;cursor:pointer;color:var(--muted)}
+.tabs button[aria-selected=true]{color:var(--ink);font-weight:700;border-bottom-color:var(--act)}
+.tabs .n{display:inline-block;min-width:22px;margin-left:6px;padding:0 6px;border-radius:10px;background:var(--sunk);font-size:12px;text-align:center;color:var(--muted);font-weight:400}
+.tabs .n.hot{background:var(--wait);color:#fff}
+.pane-head{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;margin-bottom:14px;flex-wrap:wrap}
+.pane-head p{color:var(--muted);font-size:13px;max-width:60ch}
+.sub-head{font-size:15px;margin:4px 0 10px}
+.sub-head.gap{margin-top:26px}
+
+/* 一覧 */
+.entry{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:16px 18px;margin-bottom:10px;overflow-wrap:anywhere}
+.entry .line1{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px;color:var(--muted)}
+.entry h3{font-size:16px;font-weight:700;margin:6px 0 4px;max-width:72ch;white-space:pre-wrap}
+.tag{display:inline-block;padding:1px 8px;border-radius:3px;font-size:12px;background:var(--sunk);color:var(--ink)}
+.tag.verified,.tag.accept{background:#e2efe8;color:#24603f}
+.tag.hypothesis,.tag.defer{background:#f6ecda;color:#7b5413}
+.tag.reject{background:#f6e3e1;color:#8f241d}
+.tag.pending{background:#e1ebef;color:var(--act)}
+.res{font-size:13px;color:var(--muted)}
+.empty{padding:28px;text-align:center;color:var(--muted);border:1px dashed var(--line);border-radius:6px}
+
+/* 根拠の指紋 */
+.prints{display:flex;flex-direction:column;gap:6px;margin-top:10px}
+.print{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:10px;font-size:13px}
+.print .fp{font:12px var(--fixed);background:var(--carbon-bg);color:var(--carbon);padding:2px 8px;border-radius:3px}
+.print .path{font:12px var(--fixed);overflow-wrap:anywhere}
+
+.print .fp.missing{background:var(--sunk);color:var(--muted)}
+.thumbs{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.thumbs button{padding:0;border:1px solid var(--line);border-radius:4px;background:#000;cursor:zoom-in;line-height:0}
+.thumbs img{height:96px;max-width:220px;object-fit:contain;border-radius:3px}
+.more-prints summary{cursor:pointer;font-size:12px;color:var(--muted);margin-top:6px}
+.ask{font-size:13px;color:var(--muted);max-width:72ch;margin-top:2px}
+.ask b{font-weight:400;color:var(--ink)}
+.extra summary{cursor:pointer;font-size:12px;color:var(--muted);margin-top:8px}
+.filter{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.filter input[type=search]{flex:1;min-width:180px;width:auto}.filter select{width:auto}
+.filter .res{align-self:center}
+#evidence-image{display:block;max-width:100%;max-height:70vh;margin:10px auto 0;background:#000}
+
+/* 提案 */
+.qa{display:grid;grid-template-columns:7em minmax(0,1fr);gap:4px 14px;margin:10px 0;font-size:14px}
+.qa dt{color:var(--muted)}.qa dd{margin:0;white-space:pre-wrap;max-width:68ch}
+.verdict{margin-top:12px;padding-top:12px;border-top:1px solid var(--line)}
+.verdict .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.verdict .row input{flex:1;min-width:200px;width:auto}
+.note{margin-top:6px;font-size:14px;white-space:pre-wrap}
+
+/* 部品 */
+label{display:block;font-size:13px;color:var(--muted);margin:10px 0 4px}
+input:not([type=checkbox]),select,textarea{width:100%;background:#fff;border:1px solid #b6c1c8;border-radius:4px;padding:8px 10px}
+textarea{min-height:70px;resize:vertical}
+.btn{display:inline-block;border:1px solid var(--act);background:var(--act);color:var(--act-ink);border-radius:4px;padding:8px 16px;cursor:pointer;white-space:nowrap}
+.btn.quiet{background:var(--surface);color:var(--ink);border-color:#a9b5bc}
+.btn.small{padding:3px 10px;font-size:12px}
+.btn.ok{background:var(--run);border-color:var(--run)}
+.btn.hold{background:var(--surface);color:#7b5413;border-color:var(--wait)}
+.btn.no{background:var(--surface);color:var(--err);border-color:var(--err)}
+.btn:hover{filter:brightness(.93)}.btn:disabled{opacity:.5;cursor:wait}
+:focus-visible{outline:3px solid #e0a43a;outline-offset:2px}
+.composer{background:var(--sunk);border:1px solid var(--line);border-radius:6px;padding:4px 18px 18px;margin-bottom:18px}
+.composer .grid{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+.picker{background:#fff;border:1px solid #b6c1c8;border-radius:4px;padding:6px 10px;max-height:150px;overflow:auto}
+.check{display:flex;align-items:center;gap:8px;color:var(--ink);font-size:14px;margin:4px 0}
+.check input{width:17px;height:17px;flex:none}
+.picker .check{font:12px var(--fixed)}
+.actions{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+
+/* 右の操作パネル */
+aside{align-self:start;position:sticky;top:16px;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:18px}
+aside h2{font-size:15px}
+aside .sub{font-size:12px;color:var(--muted)}
+aside .block{margin-top:16px}
+aside .block+.block{padding-top:14px;border-top:1px solid var(--sunk)}
+aside .actions .btn{flex:1}
+
+/* 起こす判定 */
+.hb{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:18px 20px}
+.hb .check{font-size:15px;margin:8px 0}
+.verdict-box{margin-top:14px;padding:14px 16px;border-radius:6px;background:var(--sunk)}
+.verdict-box strong{display:block;font-size:17px}
+.verdict-box.go{background:#e2efe8}
+.verdict-box summary{cursor:pointer;font-size:12px;color:var(--muted);margin-top:6px}
+.rules{margin:16px 0 0;padding-left:1.4em;color:var(--muted);font-size:13px;max-width:68ch}
+
+/* 履歴 */
+.log{background:var(--surface);border:1px solid var(--line);border-radius:6px}
+.log details{border-bottom:1px solid var(--sunk);padding:8px 14px}
+.log details:last-child{border-bottom:0}
+.log summary{cursor:pointer;display:grid;grid-template-columns:8.5em 8em minmax(0,1fr);gap:10px;font-size:14px;list-style:none}
+.log summary::-webkit-details-marker{display:none}
+.log time{color:var(--muted);font:12px/2 var(--fixed)}
+.log .what{color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+pre{font:12px/1.5 var(--fixed);white-space:pre-wrap;overflow-wrap:anywhere;margin:8px 0 0;color:#3d4850}
+
+/* 通知 */
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);max-width:min(640px,92vw);padding:12px 18px;border-radius:6px;white-space:pre-wrap;box-shadow:0 6px 24px #1b232933;z-index:5}
+#message{background:var(--ink);color:#fff}
+#error{background:#fff;color:var(--err);border:2px solid var(--err)}
+dialog{width:min(820px,94vw);max-height:85vh;border:1px solid var(--line);border-radius:8px;padding:22px;color:var(--ink)}
+dialog::backdrop{background:#1b232966}
+dialog h2{font-size:17px;margin-bottom:6px}
+.bad{color:var(--err);font-weight:700}.good{color:var(--run);font-weight:700}
+footer{max-width:1240px;margin:0 auto;padding:0 28px 28px;color:var(--muted);font-size:12px}
+
+@media(max-width:900px){
+  .body{grid-template-columns:1fr;padding:16px}
+  aside{position:static;order:-1}
+  .top,.rail,footer{padding-left:16px;padding-right:16px}
+  .rail li+li::before{width:16px;margin:0 6px}
+  .rail li.on{font-size:19px}
+  .composer .grid{grid-template-columns:1fr}
+  .log summary{grid-template-columns:1fr;gap:0}
+  .qa{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header class="top"><h1>Research Lab</h1><div id="project">読み込み中…</div><button id="refresh" class="btn quiet small" type="button">最新に更新</button></header>
+
+<section class="rail" aria-label="研究の状態">
+  <ol id="rail">
+    <li data-phase="prepared"><span class="dot"></span>準備中</li>
+    <li data-phase="running"><span class="dot"></span>稼働中</li>
+    <li data-phase="paused"><span class="dot"></span>一時停止</li>
+    <li data-phase="waiting"><span class="dot"></span>判断待ち</li>
+  </ol>
+  <p class="who" id="lead"></p>
+  <p id="waiting-reason" hidden></p>
+</section>
+
+<div class="body">
+<main>
+  <div class="tabs" role="tablist">
+    <button role="tab" type="button" data-tab="records" aria-selected="true">研究記録<span class="n" id="record-count">0</span></button>
+    <button role="tab" type="button" data-tab="proposals" aria-selected="false">監査提案<span class="n" id="pending-count">0</span></button>
+    <button role="tab" type="button" data-tab="heartbeat" aria-selected="false">起こす判定</button>
+    <button role="tab" type="button" data-tab="events" aria-selected="false">履歴</button>
+  </div>
+
+  <section data-pane="records" role="tabpanel">
+    <div class="pane-head"><p>何を試し、何が分かったかを根拠ファイルと一緒に残します。根拠は登録時の指紋(SHA-256)で、あとから中身が変わっていないか照合できます。</p><button class="btn" type="button" data-open="record-form">記録を追加</button></div>
+    <form id="record-form" class="composer" hidden>
+      <div class="grid">
+        <div><label for="kind">種類</label><select id="kind" name="kind"><option value="experiment">実験</option><option value="verification">検証</option><option value="decision">判断</option><option value="cost">資源・費用</option><option value="audit">監査</option></select></div>
+        <div><label for="claim-status">どこまで確かか</label><select id="claim-status" name="claim_status"><option value="hypothesis">仮説(未検証)</option><option value="observed">観測した</option><option value="verified">別の担当が検証した</option></select></div>
+      </div>
+      <label for="record-summary">要約</label><textarea id="record-summary" name="summary" required placeholder="何を試し、何が分かり、何がまだ分からないか"></textarea>
+      <div class="grid">
+        <div><label for="resource-minutes">作業時間(分、任意)</label><input id="resource-minutes" type="number" min="0" step="any" name="minutes"></div>
+        <div><label for="human-minutes">本人の対応時間(分、任意)</label><input id="human-minutes" type="number" min="0" step="any" name="human_minutes"></div>
+        <div><label for="resource-cost">費用(任意)</label><input id="resource-cost" type="number" min="0" step="any" name="cost"></div>
+        <div><label for="currency">通貨</label><input id="currency" name="currency" value="JPY"></div>
+      </div>
+      <label for="compute">計算資源・備考(任意)</label><input id="compute" name="compute" placeholder="例:ローカル CPU、追加費用なし">
+      <label>根拠ファイル(1 件以上)</label><div class="picker" data-file-picker></div>
+      <div class="actions"><button class="btn" type="submit">記録を保存</button><button class="btn quiet" type="button" data-close>やめる</button></div>
+    </form>
+    <div class="filter"><input id="record-search" type="search" placeholder="要約・問い・ファイル名で絞り込む" aria-label="研究記録を絞り込む"><select id="record-kind" aria-label="種類で絞り込む"><option value="">すべての種類</option><option value="experiment">実験</option><option value="verification">検証</option><option value="decision">判断</option><option value="cost">資源・費用</option><option value="audit">監査</option></select><label class="check" style="margin:0"><input type="checkbox" id="record-images">画像つきだけ</label><span class="res" id="record-shown"></span></div>
+    <div id="record-list"></div>
+  </section>
+
+  <section data-pane="proposals" role="tabpanel" hidden>
+    <div class="pane-head"><p>監査役が出した改善案に、主担当が理由をつけて採否を決めます。同じ内容と根拠の提案は二重に登録されません。</p><button class="btn" type="button" data-open="proposal-form">提案を書く</button></div>
+    <form id="proposal-form" class="composer" hidden>
+      <div class="grid">
+        <div><label for="problem">気づいた問題</label><textarea id="problem" name="problem" required></textarea></div>
+        <div><label for="change">変えること</label><textarea id="change" name="change" required></textarea></div>
+        <div><label for="benefit">期待する効果</label><textarea id="benefit" name="benefit" required></textarea></div>
+        <div><label for="proposal-cost">かかる負担</label><textarea id="proposal-cost" name="cost" required></textarea></div>
+      </div>
+      <label>根拠ファイル(1 件以上)</label><div class="picker" data-file-picker></div>
+      <div class="actions"><button class="btn" type="submit">提案を登録</button><button class="btn quiet" type="button" data-close>やめる</button></div>
+    </form>
+    <h2 class="sub-head">判断を待っている提案</h2>
+    <div id="inbox-list"></div>
+    <h2 class="sub-head gap" id="history-heading">判断済み</h2>
+    <div id="proposal-history"></div>
+  </section>
+
+  <section data-pane="heartbeat" role="tabpanel" hidden>
+    <div class="hb">
+      <p style="max-width:68ch">主担当が手を止めているときだけ、30 分に 1 回まで声をかけます。今の様子を選んで判定してください。</p>
+      <form id="heartbeat-form">
+        <label class="check"><input type="checkbox" name="idle">主担当は作業を終えて待っている</label>
+        <label class="check"><input type="checkbox" name="needs_input">主担当は私の入力や承認を待っている</label>
+        <div class="actions"><button class="btn" type="submit">今起こすか判定する</button></div>
+      </form>
+      <div id="heartbeat-result" class="verdict-box" role="status" hidden></div>
+      <ol class="rules">
+        <li>状態が「稼働中」であること</li>
+        <li>登録中の主担当と環境についての、60 秒以内の観測であること</li>
+        <li>主担当が待っていて、私の入力待ちではないこと</li>
+        <li>同じ 30 分枠でまだ予約していないこと</li>
+      </ol>
+      <p class="res" style="margin-top:10px">ここでは予約を記録するだけで、AI を実際に起動したり外へ送ったりはしません。</p>
+    </div>
+  </section>
+
+  <section data-pane="events" role="tabpanel" hidden>
+    <div class="pane-head"><p>登録・状態の変更・採否・判定を新しい順に並べます。行を開くと記録された中身が見られます。</p></div>
+    <div id="event-list" class="log"></div>
+  </section>
+</main>
+
+<aside aria-label="主担当の操作">
+  <h2>主担当</h2>
+  <p class="sub">研究を進める担当を 1 つだけ登録できます。</p>
+  <form id="activate-form" class="block">
+    <label for="thread">主担当の名前</label><input id="thread" name="thread_id" value="lead-01" required maxlength="200">
+    <label for="host">環境</label><input id="host" name="host_id" value="local" required maxlength="200">
+    <div class="actions"><button class="btn" type="submit">開始する</button><button id="pause" type="button" class="btn quiet">一時停止</button></div>
+  </form>
+  <form id="hold-form" class="block">
+    <label for="hold-reason">私の判断を待つ理由</label><input id="hold-reason" name="reason" placeholder="例:研究対象を変えるか相談したい" required>
+    <div class="actions"><button type="submit" class="btn quiet">判断待ちにする</button></div>
+  </form>
+  <p class="res block">別の主担当に替えるときは、先に一時停止します。</p>
+</aside>
+</div>
+
+<footer>研究記録はこの画面で管理します。データは対象フォルダの runtime/lab.sqlite3 に保存され、終了はターミナルで Ctrl+C です。</footer>
+
+<div id="error" class="toast" role="alert" hidden></div>
+<div id="message" class="toast" role="status" hidden></div>
+<dialog id="evidence-dialog" aria-labelledby="evidence-title"><h2 id="evidence-title">根拠ファイルの照合</h2><p id="evidence-path" class="fixed"></p><p id="evidence-match"></p><p id="evidence-hash" class="fixed res" style="white-space:pre-wrap;overflow-wrap:anywhere"></p><img id="evidence-image" alt="" hidden><pre id="evidence-text"></pre><form method="dialog" class="actions"><button class="btn quiet">閉じる</button></form></dialog>
+
+<script nonce="__TOKEN__">
+'use strict';
+const $ = id => document.getElementById(id);
+const token = document.querySelector('meta[name="lab-token"]').content;
+const labels = {prepared:'準備中',running:'稼働中',paused:'一時停止',waiting:'判断待ち',pending:'判断待ち',accept:'採用',defer:'保留',reject:'不採用',experiment:'実験',verification:'検証',decision:'判断',cost:'資源・費用',audit:'監査',hypothesis:'仮説',observed:'観測',verified:'検証済み'};
+const actions = {activate:'開始',pause:'一時停止',hold:'判断待ち',record:'研究記録',propose:'提案',delivered:'受領',decision:'採否',outcome:'採用後の結果',heartbeat:'起こす判定'};
+const reasons = {prepared:'準備中なので起こしません。',paused:'一時停止中なので起こしません。',waiting:'あなたの判断待ちなので起こしません。',wrong_target:'登録中の主担当が変わりました。最新に更新してください。',stale_or_unknown:'観測が古いか不明です。',not_idle:'主担当はまだ作業中です。',needs_input_or_unknown:'主担当があなたの入力を待っているので起こしません。',already_attempted:'この 30 分枠ではもう予約済みです。',reserved:'起こす条件がそろったので、この 30 分枠の予約を記録しました。'};
+let state = null, busy = false, toastTimer = null;
+function el(tag, text, cls){const n=document.createElement(tag); if(text!==undefined&&text!==null)n.textContent=text; if(cls)n.className=cls; return n;}
+function date(s){return new Date(s).toLocaleString('ja-JP',{month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'});}
+async function api(path, data){
+  const opts = data===undefined ? {} : {method:'POST',headers:{'Content-Type':'application/json','X-Lab-Token':token},body:JSON.stringify(data)};
+  const response = await fetch(path, opts); const value = await response.json();
+  if(!response.ok) throw new Error(value.error || '操作に失敗しました。'); return value;
+}
+function toast(id, text){['error','message'].forEach(k=>$(k).hidden=true); $(id).textContent=text; $(id).hidden=false; clearTimeout(toastTimer); toastTimer=setTimeout(()=>$(id).hidden=true, id==='error'?8000:3500);}
+async function run(action){
+  if(busy) return; busy=true;
+  document.querySelectorAll('button').forEach(b=>b.disabled=true);
+  try{ await action(); }catch(e){ toast('error', e.message); }
+  finally{ busy=false; document.querySelectorAll('button').forEach(b=>b.disabled=false); }
+}
+const message = text => toast('message', text);
+function values(form){return Object.fromEntries(new FormData(form));}
+function refs(form){return Array.from(form.querySelectorAll('[data-file-ref]:checked'), n=>n.value);}
+
+/* タブと入力欄の開閉 */
+function showTab(name){
+  document.querySelectorAll('[role=tab]').forEach(t=>t.setAttribute('aria-selected', String(t.dataset.tab===name)));
+  document.querySelectorAll('[data-pane]').forEach(p=>p.hidden = p.dataset.pane!==name);
+}
+document.querySelectorAll('[role=tab]').forEach(t=>t.addEventListener('click',()=>showTab(t.dataset.tab)));
+document.querySelectorAll('[data-open]').forEach(b=>b.addEventListener('click',()=>{const f=$(b.dataset.open); f.hidden=false; b.hidden=true; f.querySelector('select,textarea,input').focus();}));
+function closeComposer(form){form.hidden=true; form.reset(); document.querySelector('[data-open="'+form.id+'"]').hidden=false;}
+document.querySelectorAll('[data-close]').forEach(b=>b.addEventListener('click',()=>closeComposer(b.closest('form'))));
+
+function fillPickers(files){document.querySelectorAll('[data-file-picker]').forEach((box,idx)=>{
+  const checked=new Set(Array.from(box.querySelectorAll(':checked'),n=>n.value)); box.replaceChildren();
+  if(!files.length){box.append(el('p','対象フォルダに根拠のファイルを置いてから「最新に更新」を押してください。','res'));return;}
+  files.forEach((path,i)=>{const l=el('label',undefined,'check'),c=el('input');c.type='checkbox';c.value=path;c.dataset.fileRef='';c.checked=checked.has(path);c.id='file-'+idx+'-'+i;l.append(c,document.createTextNode(path));box.append(l);});
+});}
+
+/* 根拠の指紋 */
+const IMG = /\.(png|jpe?g|gif|webp)$/i;
+let present = new Set();
+const raw = path => '/api/raw?path='+encodeURIComponent(path);
+function inspect(ref){run(async()=>{
+  const r=await api('/api/evidence?path='+encodeURIComponent(ref.path));
+  const match=r.sha256===ref.sha256;
+  $('evidence-path').textContent=r.path;
+  $('evidence-match').textContent=match?'登録したときから中身は変わっていません。':'登録したときから中身が変わっています。';
+  $('evidence-match').className=match?'good':'bad';
+  $('evidence-hash').textContent='登録時 '+ref.sha256+(match?'':'\n現在　 '+r.sha256);
+  $('evidence-image').hidden=!r.image; if(r.image){$('evidence-image').src=raw(r.path); $('evidence-image').alt=r.path;}
+  $('evidence-text').hidden=r.image; $('evidence-text').textContent=r.text+(r.truncated?'\n(64 KiB より後は省略)':'');
+  $('evidence-dialog').showModal();
+});}
+function printLine(ref){
+  const line=el('div',undefined,'print'), here=present.has(ref.path);
+  const fp=el('span',ref.sha256.slice(0,12),'fp'+(here?'':' missing')); fp.title='登録時の SHA-256: '+ref.sha256;
+  line.append(fp, el('span',ref.path,'path'));
+  if(here){const btn=el('button','照合','btn quiet small'); btn.type='button'; btn.addEventListener('click',()=>inspect(ref)); line.append(btn);}
+  else line.append(el('span','同梱していない','res'));
+  return line;
+}
+function prints(parent, list){
+  const images=list.filter(r=>IMG.test(r.path) && present.has(r.path));
+  if(images.length){
+    const t=el('div',undefined,'thumbs');
+    images.forEach(ref=>{const b=el('button'), img=el('img'); b.type='button'; b.title=ref.path+' を拡大して照合'; img.src=raw(ref.path); img.alt=ref.path; b.append(img); b.addEventListener('click',()=>inspect(ref)); t.append(b);});
+    parent.append(t);
+  }
+  const box=el('div',undefined,'prints');
+  list.slice(0,4).forEach(ref=>box.append(printLine(ref)));
+  if(list.length>4){const d=el('details',undefined,'more-prints'); d.append(el('summary','ほかの根拠 '+(list.length-4)+' 件')); const inner=el('div',undefined,'prints'); list.slice(4).forEach(ref=>inner.append(printLine(ref))); d.append(inner); box.append(d);}
+  parent.append(box);
+}
+
+const show = v => (v!==null && typeof v==='object') ? JSON.stringify(v) : String(v);
+const SHOWN = ['kind','summary','claim_status','evidence','resources','question','conditions'];
+function renderRecords(){
+  const box=$('record-list'); box.replaceChildren();
+  if(!state.records.length){box.append(el('div','まだ記録がありません。「記録を追加」から最初の実験を残してください。','empty')); $('record-shown').textContent=''; return;}
+  const q=$('record-search').value.trim().toLowerCase(), kind=$('record-kind').value, onlyImg=$('record-images').checked;
+  const list=[...state.records].reverse().filter(r=>{
+    const p=r.payload;
+    if(kind && r.kind!==kind) return false;
+    if(onlyImg && !p.evidence.some(e=>IMG.test(e.path) && present.has(e.path))) return false;
+    if(q && ![p.summary,p.question,p.conditions,r.id,...p.evidence.map(e=>e.path)].join(' ').toLowerCase().includes(q)) return false;
+    return true;
+  });
+  $('record-shown').textContent=list.length+' / '+state.records.length+' 件';
+  if(!list.length){box.append(el('div','条件に合う記録はありません。','empty')); return;}
+  list.forEach(r=>{
+    const p=r.payload, item=el('article',undefined,'entry'), l1=el('div',undefined,'line1');
+    l1.append(el('span',labels[r.kind]||r.kind,'tag'));
+    if(p.claim_status) l1.append(el('span',labels[p.claim_status]||p.claim_status,'tag '+p.claim_status));
+    l1.append(el('span',date(r.created)), el('span',r.id,'fixed'));
+    item.append(l1, el('h3',p.summary));
+    if(p.question){const a=el('p',undefined,'ask'); a.append('問い: ', el('b',p.question)); item.append(a);}
+    if(p.conditions){const a=el('p',undefined,'ask'); a.append('条件: ', el('b',show(p.conditions))); item.append(a);}
+    const rs=(p.resources && typeof p.resources==='object')?p.resources:{}, parts=[];
+    if(rs.minutes!==undefined)parts.push('作業 '+rs.minutes+' 分');
+    if(rs.human_minutes!==undefined)parts.push('本人の対応 '+rs.human_minutes+' 分');
+    if(rs.cost!==undefined)parts.push('費用 '+rs.cost+' '+(rs.currency||''));
+    if(rs.compute)parts.push(show(rs.compute));
+    for(const [k,v] of Object.entries(rs)) if(!['minutes','human_minutes','cost','currency','compute'].includes(k) && v!==null) parts.push(k+': '+show(v));
+    if(parts.length) item.append(el('p',parts.join('、'),'res'));
+    prints(item,p.evidence);
+    const extra=Object.fromEntries(Object.entries(p).filter(([k])=>!SHOWN.includes(k)));
+    if(Object.keys(extra).length){const d=el('details',undefined,'extra'); d.append(el('summary','そのほかの項目 '+Object.keys(extra).length+' 件'), el('pre',JSON.stringify(extra,null,2))); item.append(d);}
+    box.append(item);
+  });
+}
+['record-search','record-kind','record-images'].forEach(id=>$(id).addEventListener('input',()=>state&&renderRecords()));
+
+function proposalCard(p){
+  const item=el('article',undefined,'entry'), l1=el('div',undefined,'line1');
+  l1.append(el('span',labels[p.decision],'tag '+p.decision), el('span',date(p.created)), el('span',p.id,'fixed'));
+  item.append(l1);
+  const qa=el('dl',undefined,'qa');
+  for(const [key,name] of [['problem','問題'],['change','変えること'],['benefit','期待する効果'],['cost','かかる負担']]) qa.append(el('dt',name), el('dd',p.payload[key]));
+  item.append(qa); prints(item,p.payload.evidence);
+  let delivered={}; try{delivered=JSON.parse(p.delivered_to)||{};}catch{}
+  if(p.delivered_at) item.append(el('p','受領: '+delivered.threadId+'('+delivered.hostId+')'+date(p.delivered_at),'res'));
+  if(p.reason) item.append(el('p','理由: '+p.reason,'note'));
+  if(p.outcome) item.append(el('p','採用後の結果: '+p.outcome,'note'));
+  const s=state.status;
+  if(p.decision==='pending' && s.phase==='running' && (delivered.threadId!==s.thread_id || delivered.hostId!==s.host_id)){
+    const btn=el('button','主担当が受け取ったことを記録','btn quiet small'); btn.type='button'; btn.style.marginTop='8px';
+    btn.addEventListener('click',()=>run(async()=>{await api('/api/delivered',{id:p.id,thread_id:s.thread_id,host_id:s.host_id}); await reload(); message('受け取ったことを記録しました。');}));
+    item.append(btn);
+  }
+  const v=el('form',undefined,'verdict'), row=el('div',undefined,'row'), reason=el('input');
+  reason.name='reason'; reason.required=true; reason.placeholder=p.decision==='pending'?'判断の理由(必須)':'判断を見直す理由(必須)'; reason.setAttribute('aria-label','判断の理由');
+  row.append(reason);
+  for(const [d,cls] of [['accept','ok'],['defer','hold'],['reject','no']]){const b=el('button',labels[d]+'する','btn '+cls); b.type='submit'; b.value=d; row.append(b);}
+  v.append(row);
+  v.addEventListener('submit',e=>{e.preventDefault(); const d=(e.submitter&&e.submitter.value)||'defer'; run(async()=>{await api('/api/decide',{id:p.id,decision:d,reason:reason.value}); await reload(); message(labels[d]+'として記録しました。');});});
+  item.append(v);
+  if(p.decision==='accept'){
+    const f=el('form',undefined,'verdict'), lab=el('label','採用してどうなったか'), t=el('textarea'), acts=el('div',undefined,'actions'), b=el('button','結果を保存','btn quiet');
+    t.id='outcome-'+p.id; t.required=true; t.value=p.outcome||''; lab.htmlFor=t.id; b.type='submit'; acts.append(b); f.append(lab,t,acts);
+    f.addEventListener('submit',e=>{e.preventDefault(); run(async()=>{await api('/api/outcome',{id:p.id,result:t.value}); await reload(); message('結果を保存しました。');});});
+    item.append(f);
+  }
+  return item;
+}
+
+function eventLine(e){
+  const d=el('details'), s=el('summary'), p=e.payload||{};
+  const what=[p.thread_id, labels[p.kind], p.summary, p.problem, labels[p.decision],
+    e.action==='heartbeat' ? (reasons[p.reason]||p.reason) : p.reason, p.outcome, e.action==='hold'?null:null].filter(Boolean).join(' / ');
+  s.append(el('time',date(e.created)), el('b',actions[e.action]||e.action), el('span',what||p.id||'','what'));
+  d.append(s, el('pre',JSON.stringify(p,null,2))); return d;
+}
+
+async function reload(){
+  state=await api('/api/state'); const s=state.status;
+  $('project').textContent=state.project;
+  document.querySelectorAll('#rail li').forEach(li=>li.classList.toggle('on', li.dataset.phase===s.phase));
+  $('lead').replaceChildren();
+  if(s.thread_id) $('lead').append('主担当 ', el('b',s.thread_id), '(環境 '+s.host_id+')');
+  else $('lead').textContent='主担当はまだ登録されていません。右の「開始する」から登録します。';
+  $('waiting-reason').hidden=!(s.waiting_reason && s.phase==='waiting'); $('waiting-reason').textContent='判断待ちの理由: '+(s.waiting_reason||'');
+  $('record-count').textContent=s.record_count;
+  $('pending-count').textContent=s.pending_proposals; $('pending-count').classList.toggle('hot', s.pending_proposals>0);
+  if(s.thread_id){$('thread').value=s.thread_id; $('host').value=s.host_id;}
+  present=new Set(state.files); fillPickers(state.files); renderRecords();
+  for(const [id,pending] of [['inbox-list',true],['proposal-history',false]]){
+    const box=$(id); box.replaceChildren(); const list=state.proposals.filter(p=>(p.decision==='pending')===pending);
+    if(!list.length) box.append(el('div',pending?'判断を待っている提案はありません。':'判断済みの提案はまだありません。','empty'));
+    list.forEach(p=>box.append(proposalCard(p)));
+    if(!pending) $('history-heading').textContent='判断済み('+list.length+' 件)';
+  }
+  const events=$('event-list'); events.replaceChildren();
+  if(!state.events.length) events.append(el('div','まだ履歴がありません。','empty'));
+  [...state.events].reverse().forEach(e=>events.append(eventLine(e)));
+}
+
+function bind(formId,path,success,make){const form=$(formId); form.addEventListener('submit',e=>{e.preventDefault(); run(async()=>{const result=await api(path,make?make(form):values(form)); await reload(); if(form.classList.contains('composer'))closeComposer(form); message(typeof success==='function'?success(result):success);});});}
+bind('activate-form','/api/activate','主担当を登録して稼働中にしました。');
+bind('hold-form','/api/hold','判断待ちにしました。');
+bind('record-form','/api/record','研究記録と根拠の指紋を保存しました。',f=>{const d=values(f),resources={};for(const k of ['minutes','human_minutes','cost'])if(d[k]!=='')resources[k]=Number(d[k]);if(d.compute)resources.compute=d.compute;if(d.cost!=='')resources.currency=d.currency;return {kind:d.kind,summary:d.summary,claim_status:d.claim_status,evidence:refs(f),resources};});
+bind('proposal-form','/api/propose',r=>r.duplicate?'同じ内容と根拠の提案がもうあるので、新しくは登録しませんでした。':'提案を登録しました。',f=>({...values(f),evidence:refs(f)}));
+$('pause').addEventListener('click',()=>run(async()=>{await api('/api/pause',{}); await reload(); message('一時停止しました。');}));
+$('refresh').addEventListener('click',()=>run(async()=>{await reload(); message('最新の状態にしました。');}));
+$('heartbeat-form').addEventListener('submit',e=>{e.preventDefault(); const f=e.currentTarget; run(async()=>{
+  const s=state.status;
+  const result=await api('/api/heartbeat',{thread_id:s.thread_id||'未登録',host_id:s.host_id,idle:f.elements.idle.checked,needs_input:f.elements.needs_input.checked});
+  const box=$('heartbeat-result'); box.className='verdict-box'+(result.reason==='reserved'?' go':'');
+  const det=el('details'); det.append(el('summary','記録された中身'), el('pre',JSON.stringify(result,null,2)));
+  box.replaceChildren(el('strong',reasons[result.reason]||result.reason), det); box.hidden=false; await reload();
+});});
+run(reload);
+</script>
+</body>
+</html>

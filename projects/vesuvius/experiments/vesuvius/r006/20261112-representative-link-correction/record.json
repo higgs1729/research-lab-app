@@ -1,0 +1,7 @@
+{
+  "kind": "decision",
+  "summary": "R111 run01の幾何CPU比87-88%は、O3 point本体がリンクで破棄されO0 projection/mask.cpp.oのpoint/Hermiteが実行された診断値と確認。主担当もmapの提供元を独立に確認。製品実装の判断には使わず、既存6TU O3 objectsのリンク順だけ是正した隔離run02で同じ固定試験を再実行する。",
+  "evidence": ["experiments/vesuvius/r006/20261112-representative-baseline01/run01/geometry-link.json", "research/111-r006-representative-baseline.md"],
+  "conditions": "run01全成果物/objects/CT/対照TIFFを非変更で保持。再compile/新規取得/製品最適化なし。O3 objectsを先に解決する新readerとrendererをrun02へ再リンク（上限60秒）。map/逆アセンブル/loaderで実幾何経路がO3 pointとその展開済みhelperを使うことを計測前に確認し、不成立なら停止。Array/cacheも提供元を再確認。mode各fresh3process×同Array3pass、CPU1 AS4GiB 各process120秒は111と同じ。元対照は保存済み101 TIFFを再ハッシュして再利用可。原試験は測定環境不成立として記録し、好結果を得るための条件変更とはしない。追加支出0円。",
+  "resources": {"elapsed_seconds": null, "cost": 0, "currency": "JPY"}
+}

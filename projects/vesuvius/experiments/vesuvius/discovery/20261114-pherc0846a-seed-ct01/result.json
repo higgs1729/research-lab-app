@@ -1,0 +1,35 @@
+{
+  "crop_xywh": [
+    1035,
+    1035,
+    128,
+    128
+  ],
+  "tiff_zarr_values_equal": 540672,
+  "uint8_zero_values": 4,
+  "render_range": [
+    0,
+    255
+  ],
+  "ct_audit_samples": 85,
+  "max_dn_residual": 0.4967709109187126,
+  "figures_sha256": {
+    "normal-sections.png": "e5c17a2ab350903c79afe1c456745a24c7a1c2e1f0d08ef59a5ebb8705131f4f",
+    "orthogonal-raw.png": "51edb3e10cf6d7131bcf36bf84c9acd7a4dfa41f7bdfb64bbdbbe0d3e7d86129",
+    "orthogonal-mesh.png": "8ac5da02da9282d31b5d4ad82b9412bb5fc834a02555e1456ddfe78b3a06ab2c"
+  },
+  "orthogonal_coverage": {
+    "X": [
+      4096,
+      0
+    ],
+    "Y": [
+      4096,
+      0
+    ],
+    "Z": [
+      4096,
+      0
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "mode": "geometry",
+  "count": 16,
+  "completed_utc": "2026-11-13T14:38:58.463841+00:00",
+  "elapsed_seconds": 13.476605846999973,
+  "disk": {
+    "work_file_bytes": 3950020,
+    "C_free_bytes": 42412355584
+  }
+}

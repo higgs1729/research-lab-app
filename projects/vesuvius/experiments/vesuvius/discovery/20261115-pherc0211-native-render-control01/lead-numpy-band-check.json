@@ -1,0 +1,33 @@
+{
+  "utc": "2026-11-15T13:37:34.910525+00:00",
+  "contract_sha256": "3c785547faa7a76d2a34c8eb677b2f9d4d5dc59c872ccb9bfcd53e29b94fdf70",
+  "preserved_port_sha256": "eb863455b8a107cb566079fd8e71e5e5cf351225cc420833185d69ed81f02279",
+  "single_intervention": {
+    "for tx in range(x//128,(x+w-1)//128+1):": "for tx in (0,):",
+    "xa=max(x,tx*128);xb=min(x+w,(tx+1)*128);": "xa=x;xb=x+w;"
+  },
+  "cases": [
+    {
+      "id": "phi",
+      "values": 262144,
+      "mismatch_count": 824,
+      "max_abs_DN": 1,
+      "mean_abs_DN": 0.003143310546875,
+      "output_sha256": "02f94f7f5c5fbdfd686c533966c5f7ded02c0cda8cb79e8877852103486aa45f",
+      "output": "lead-numpy-band-phi.npy"
+    },
+    {
+      "id": "heldout",
+      "values": 65536,
+      "mismatch_count": 235,
+      "max_abs_DN": 1,
+      "mean_abs_DN": 0.0035858154296875,
+      "output_sha256": "9fba7f5acefad98b97176b05d50b0ebb72a1aa229ef6c2f3d7cbf20e01429ec3",
+      "output": "lead-numpy-band-heldout.npy"
+    }
+  ],
+  "new_CT_bytes": 0,
+  "model_forwards": 0,
+  "native_outputs_read": false,
+  "limitation": "Independent NumPy comparison of full-width horizontal origin. Does not execute the author renderer container or establish whole-parent exactness."
+}

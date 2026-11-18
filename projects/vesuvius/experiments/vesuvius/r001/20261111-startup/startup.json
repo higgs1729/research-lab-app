@@ -1,0 +1,76 @@
+{
+  "date_jst": "2026-11-11",
+  "thread_id": "01a1c9bf-639d-70a2-a8bc-664019939aaa",
+  "phase": "running",
+  "automations": [
+    {
+      "version": 1,
+      "id": "vesuvius",
+      "kind": "cron",
+      "name": "Vesuvius 日次研究監査",
+      "prompt": "C:/dev/kensyoukin の日次研究監査を行う。作業ディレクトリは C:/dev/kensyoukin。最初に python C:/dev/kensyoukin/tools/lab.py status を実行し、phase が running でなければそこで終了する。running の場合は C:/dev/kensyoukin/AGENTS.md と C:/dev/kensyoukin/system/auditor.md を読み、その範囲で既存の実験結果・作業・投入を監査する。具体的な根拠のある改善を主担当へ提案し、採否と実施は主担当に委ねる。主担当への改善提案の配送は本人が依頼した役割に含まれる。lab.py delivery が返す登録先だけに、提案IDと根拠を含めて send_message_to_thread で届け、成功を確認してから配送済みを記録する。研究実験、実装、有料計算は起動しない。過去提案と採否を参照し、意味のある変化がない同じ提案を繰り返さない。",
+      "status": "ACTIVE",
+      "rrule": "FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "notification_policy": "failed_runs_only",
+      "execution_environment": "local",
+      "target": {
+        "type": "project",
+        "project_id": "700b8a62-385f-448c-bd23-ed6a99a98f7c"
+      },
+      "cwds": [
+        "C:\\agents",
+        "C:\\dev\\kensyoukin"
+      ],
+      "created_at": 1794378412703,
+      "updated_at": 1794386288350
+    },
+    {
+      "version": 1,
+      "id": "vesuvius-heartbeat",
+      "kind": "cron",
+      "name": "Vesuvius 主担当heartbeat",
+      "prompt": "Vesuvius主担当への定期起動を一回行う。本人は主担当の外で状態を確認してから送る方式を依頼し、確認後の競合による差し込みは許容している。C:/dev/kensyoukin/system/heartbeat-run.js を読み、functions.execでそのJavaScriptと text(await runHeartbeat(tools)); を実行する。必要なツールはexec_command、apply_patch、wait_threads、send_message_to_thread。スクリプトは登録先主担当の稼働状態を確認し、待機中だけ一通送る。送信先は登録済み主担当だけで、この送信は本人から許可されている。prepared/paused/waiting、実行中、状態不明なら終了する。主担当が動くのを待ったり、この回を再送したりしない。スクリプトが失敗した場合は失敗を報告し、別経路での送信や手動の再試行は行わない。この定期起動担当自身は研究、監査、課金を行わない。",
+      "status": "ACTIVE",
+      "rrule": "FREQ=MINUTELY;INTERVAL=30",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "notification_policy": "failed_runs_only",
+      "execution_environment": "local",
+      "target": {
+        "type": "project",
+        "project_id": "15666b88-1094-4688-aaa4-18ad2ccc2754"
+      },
+      "cwds": [
+        "C:\\dev\\kensyoukin",
+        "C:\\agents"
+      ],
+      "created_at": 1794385899091,
+      "updated_at": 1794386288736
+    }
+  ],
+  "settings_verified": true,
+  "external_observation": {
+    "agent": "/root/verify_startup",
+    "model": "gpt-6.1-sol",
+    "effort": "medium",
+    "thread_status": "active",
+    "latest_turn_status": "inProgress",
+    "error": null
+  },
+  "lead_model": {
+    "current": "gpt-6-astra",
+    "current_effort": "high",
+    "next_heartbeat_model": "gpt-6-astra",
+    "next_heartbeat_effort": "xhigh"
+  },
+  "heartbeat_check": {
+    "self_observation_error": "wait_threads cannot wait on the calling thread.",
+    "sent": false,
+    "bridge_tests": "6 scenarios passed; includes model/effort arguments",
+    "scheduled_execution_verified": false,
+    "actual_delivery_verified": false
+  },
+  "repair": "Initial configuration round-trip through Python's CP932 stdout corrupted Japanese names/prompts. Restored original text through automation_update and verified exact clean strings and unchanged scheduling/model/project fields using UTF-8."
+}

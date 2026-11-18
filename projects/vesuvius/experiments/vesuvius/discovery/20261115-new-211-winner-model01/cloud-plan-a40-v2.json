@@ -1,0 +1,20 @@
+{
+  "input_tar_gz_bytes": 6980298,
+  "input_tar_gz_sha256": "499e33cc48383a9d88cdeeab70aa5618f0fc29f7563c51d90af52a929eb2115a",
+  "result_limit_bytes": 12582912,
+  "science_plan_sha256": "d1a9774b2ad3816ade4234c4449577e86f2bf49cd6d809915a1a1c1ebebc0312",
+  "runtime_files": {
+    "fixed-assets.json": "04628d2a7b199dc41c278fc7f4ddf2ef8dd19d5421d09993217bac443a9a69a1",
+    "pod_boot.py": "c3ce00fa7527778caac505fb62947293af726abbd1bfe061d65dd89cf4b246f1",
+    "pod_work.py": "caf2430c023f826fa7312bf1b62e47167f321665c645e85cf395d928fd115648",
+    "run_once.py": "0857b3f8d4615194f9f84e12d12e75671c35c72995a55d478bdb5b30d5d1b7fc"
+  },
+  "controller_sha256": "fbc29cde0f4ca3912df03ad1bae4f7c7e06156e8d0c7e8b6fefebf7a2714fd11",
+  "watcher_sha256": "2036affa3a9d28c6ddbe4b1eee27378c952d782593c3c237adfb163241c284cd",
+  "borrowed_lifecycle": {
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-runpod-exec-diagnostic01\\diagnostic.py": "a117cf0eaf5d56c7c15ea6bfbbce05a4d6a787aa482ce5c3b4d6ee67b0474783",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-wider-hecate-run02\\run.py": "226ca1c6aa2166c1db5224517f30dc0a76a01e4f7c7e4037e6d9dcbaa1f5acd6"
+  },
+  "maximum_seconds": 1800,
+  "pods_created": 0
+}

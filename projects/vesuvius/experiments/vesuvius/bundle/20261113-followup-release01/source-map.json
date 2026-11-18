@@ -1,0 +1,196 @@
+{
+  "patches/01-pack-components.patch": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/patches/01-pack-components.patch",
+    "source_sha256": "579beabe7377499bf91a654ac0931b786a11314a3a3298bf6d934ca9643926d8",
+    "method": "exact copy"
+  },
+  "patches/02-preserve-grid.patch": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/patches/02-preserve-grid.patch",
+    "source_sha256": "798bbeb57c9c991e7a09a7138bac886848ca7be776210d7733f57a25d54a3c8c",
+    "method": "exact copy"
+  },
+  "patches/03-R009.patch": {
+    "source": "experiments/vesuvius/r009/20261113-upstream-preparation01/R009.patch",
+    "source_sha256": "02d394c4e68f2a5425a6c8a41c16f4ac2eede44cc3756a211dd31f635e475930",
+    "method": "exact copy"
+  },
+  "patches/04-R007.patch": {
+    "source": "experiments/vesuvius/r007/20261113-upstream-preparation01/R007.patch",
+    "source_sha256": "4d49ec9578c212285610b0e77a152deaf5c47211e67cc4fe2ba23a34a14c52f6",
+    "method": "exact copy"
+  },
+  "SOURCE_HASHES.json": {
+    "method": "excerpt",
+    "sources": [
+      {
+        "source": "experiments/vesuvius/bundle/20261113-fixed-main-integration01/run01/patch-result.json",
+        "source_sha256": "8edfb73c6fa8c07bbbb3bd75d32369e4dd087e2b370ea4f4dd047f73879bef6b"
+      },
+      {
+        "source": "experiments/vesuvius/bundle/20261113-fixed-main-integration01/lead-check.json",
+        "source_sha256": "48a799e99e2df22af966acb72fc1103cf682dc90f0c6d475d7b2b2df4fc7bf16"
+      }
+    ]
+  },
+  "data/surface-inputs-pherc0814.json": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/surface-inputs-pherc0814.json",
+    "source_sha256": "c3e02834cf276fcddd05c70eb0659d1d5ac77eb47357758f5fdc2a955a6fd77d",
+    "method": "exact copy"
+  },
+  "data/surface-inputs-w035.json": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/surface-inputs-w035.json",
+    "source_sha256": "4205e8f67a42c4d1025c97dde16ca31adcc3f8f0ff55cd5b397dfecbd7d91261",
+    "method": "exact copy"
+  },
+  "data/pherc0814-ct-chunks.json": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/ct-chunks.json",
+    "source_sha256": "89f5fd5818556f151c1093695f9ecee0ec1590dafa68016d6a213a31cd8d9ba0",
+    "method": "exact copy"
+  },
+  "images/ct-preservation-center.png": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/images/ct-preservation-center.png",
+    "source_sha256": "390128528af3e0e2d5730c275a3dd43c8ad5b0c6cb3828dec3e7c55715b06288",
+    "method": "exact copy",
+    "original_figure": {
+      "source": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/ct-preservation-center.png",
+      "source_sha256": "390128528af3e0e2d5730c275a3dd43c8ad5b0c6cb3828dec3e7c55715b06288"
+    }
+  },
+  "licenses/LICENSE-volume-cartographer.txt": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/licenses/LICENSE-volume-cartographer.txt",
+    "source_sha256": "7243392431c702199701a29f34e84530f2884a4fe37aba54c0ee2ccd361d052b",
+    "method": "exact copy"
+  },
+  "licenses/LICENSE-villa-root.txt": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/licenses/LICENSE-villa-root.txt",
+    "source_sha256": "87070eec603117b5365e2172999e81b08890aef91c1673383cf9779ee9c89976",
+    "method": "exact copy"
+  },
+  "licenses/LICENSE-R005-original-contributions.txt": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/licenses/LICENSE-R005-original-contributions.txt",
+    "source_sha256": "d4b1658a0688e4c2ed8c033cecbf891fc75d137bfd5dc96d7a27ffec19445cc5",
+    "method": "exact copy"
+  },
+  "data/pherc0814-ct-metadata/.zgroup": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/ct-metadata/.zgroup",
+    "source_sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+    "method": "exact copy"
+  },
+  "data/pherc0814-ct-metadata/.zattrs": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/ct-metadata/.zattrs",
+    "source_sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+    "method": "exact copy"
+  },
+  "data/pherc0814-ct-metadata/0/.zarray": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/ct-metadata/0/.zarray",
+    "source_sha256": "acad9dbc41bf7c9b5b983cdfd802308691e427ebb1a1a675561df717d50332a0",
+    "method": "exact copy"
+  },
+  "data/pherc0814-ct-metadata/metadata.json": {
+    "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/ct-metadata/metadata.json",
+    "source_sha256": "7db0a497ed78165a17b681debacd40e6fadd99326aed8423b9e337007cad4b92",
+    "method": "exact copy"
+  },
+  "checks/check_crop_cli.py": {
+    "source": "deliverables/vesuvius/2026-11-bundle/renderer-crop-guard/check_cli.py",
+    "source_sha256": "b62e4b0d5d117a6b073f60eb65e8d47089110c42ec9304c0831a4fb956985c39",
+    "method": "exact copy"
+  },
+  "checks/check_zarr_python.py": {
+    "source": "deliverables/vesuvius/2026-11-bundle/zarr-output-recovery/verify_python.py",
+    "source_sha256": "16f510afc61029d71fdc76c67e203640dfe2d0747cfeb447f92d3dff9838b8fb",
+    "method": "exact copy"
+  },
+  "licenses/LICENSE-R007-original-contributions.txt": {
+    "source": "deliverables/vesuvius/2026-11-bundle/renderer-crop-guard/LICENSE-original-contributions.txt",
+    "source_sha256": "d4b1658a0688e4c2ed8c033cecbf891fc75d137bfd5dc96d7a27ffec19445cc5",
+    "method": "exact copy"
+  },
+  "licenses/LICENSE-R009-original-contributions.txt": {
+    "source": "deliverables/vesuvius/2026-11-bundle/zarr-output-recovery/LICENSE-original-contributions.txt",
+    "source_sha256": "d4b1658a0688e4c2ed8c033cecbf891fc75d137bfd5dc96d7a27ffec19445cc5",
+    "method": "exact copy"
+  },
+  "data/pherc0139-ct-chunks.json": {
+    "method": "excerpt",
+    "sources": [
+      {
+        "source": "experiments/vesuvius/r012/20261113-known-ct-control01/run01/http.jsonl",
+        "source_sha256": "cdc112ff2f8b63fa86f887dacb7b7a7346cab3a8c76dee97dc17bcf9be61c9ac"
+      },
+      {
+        "source": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/candidate03.json",
+        "source_sha256": "7bc54a9e2b31a64f0a43924050ee65daac69a059937376d69ca85fe63a64d9d8"
+      }
+    ]
+  },
+  "data/pherc0139-ct-metadata/.zgroup": {
+    "source": "experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr/.zgroup",
+    "source_sha256": "e1e1914ae531ecb50e1ead685ef01895a5452faf5f25f35cd78f1f5de1367470",
+    "method": "exact copy"
+  },
+  "data/pherc0139-ct-metadata/.zattrs": {
+    "source": "experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr/.zattrs",
+    "source_sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+    "method": "exact copy"
+  },
+  "data/pherc0139-ct-metadata/0/.zarray": {
+    "source": "experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr/0/.zarray",
+    "source_sha256": "562679cffc09a94b7342a38c37e49f433a4dfa6e3c93b7599dbeaec791186a35",
+    "method": "exact copy"
+  },
+  "data/pherc0139-ct-metadata/metadata.json": {
+    "source": "experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr/metadata.json",
+    "source_sha256": "95917633ca11a1ddff2e6b7d66360c508f8158bbe05be277c8d51477befb5bae",
+    "method": "exact copy"
+  },
+  "RESULTS.json": {
+    "method": "excerpt",
+    "sources": {
+      "R154_local_extract": {
+        "source": "deliverables/vesuvius/grid-preserving-supplement-20261113/RESULTS.json",
+        "source_sha256": "6bc0688e1e388740c3e3ff1d77480b1adc454533ae69ee8f6f32fb5b8ad5ba92"
+      },
+      "R151_full_resolution": {
+        "source": "experiments/vesuvius/r005/20261113-grid-preserving-verification01/result-bounded.json",
+        "source_sha256": "ccf48f6a9319b94d51bc9913a8a096d3268fc22919a96157cd37e25a89822f53"
+      },
+      "R152_ct": {
+        "source": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/lead-check.json",
+        "source_sha256": "6a24fb13e33b5c1c3a2df3e854ecb09e6fc7a20a52b76caaae3b16501a0d4f24"
+      },
+      "R153_single_component": {
+        "source": "experiments/vesuvius/r005/20261113-single-component-control01/lead-check.json",
+        "source_sha256": "ffa40fe05af0ccbcdd79401fa0326cea7fbac40e3e64d616675225e3e635f1eb"
+      },
+      "R155_low_keep": {
+        "source": "experiments/vesuvius/r005/20261113-grid-preserving-low-keep01/lead-check.json",
+        "source_sha256": "b4f8e18c34e948fc2ece7eb1e2331c2506b7e4389801a76f684981105793c2a7"
+      },
+      "R159_old_base_standard_build": {
+        "source": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/comparison.json",
+        "source_sha256": "81aba6ac5afac820b637b8f4e8b3e50ddd006835634607ccb2403f45f6654177"
+      },
+      "R132_independent_resume": {
+        "source": "experiments/vesuvius/r009/20261113-interrupted-verification01/run01/result.json",
+        "source_sha256": "c875422e5218d2e68446ed9531cfc47e9635e64bf5d1c42153ea7b64a45da9fd"
+      },
+      "R157_multichunk": {
+        "source": "experiments/vesuvius/r009/20261113-multichunk-interruption01/lead-check.json",
+        "source_sha256": "3af47b2c503e97c5482353937a4d9ce81ca6d425f5f585fd28ad4cf1824fb7db"
+      },
+      "R160_independent_integration": {
+        "source": "experiments/vesuvius/bundle/20261113-fixed-main-integration01/lead-check.json",
+        "source_sha256": "48a799e99e2df22af966acb72fc1103cf682dc90f0c6d475d7b2b2df4fc7bf16"
+      },
+      "R160_build": {
+        "source": "experiments/vesuvius/bundle/20261113-fixed-main-integration01/run01/build-process.json",
+        "source_sha256": "e16537852a0e765ba3de26bb0f8a08042bd8baee49e50fb1015bbf9b9fa20ef5"
+      },
+      "R160_renderer_resume": {
+        "source": "experiments/vesuvius/bundle/20261113-fixed-main-integration01/run01-smokes/r009-comparison.json",
+        "source_sha256": "d013ceae26d3a703cd24d9f0fe87cec55f0b398d221b89365bb5c12ec2bb62be"
+      }
+    }
+  }
+}

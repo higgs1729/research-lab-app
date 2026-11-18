@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-ct-render01\\..\\..\\r012\\20261113-known-ink-inference01\\run_local.py",
+    "infer",
+    "infer01"
+  ],
+  "started_utc": "2026-11-13T08:31:56.837111+00:00",
+  "completed_utc": "2026-11-13T08:32:01.244159+00:00",
+  "elapsed_seconds": 4.406905200041365,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 747520000,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 2.421875,
+  "sys_cpu_seconds": 1.609375,
+  "exit_code": 0
+}

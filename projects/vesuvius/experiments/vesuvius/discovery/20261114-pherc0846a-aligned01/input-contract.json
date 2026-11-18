@@ -1,0 +1,312 @@
+{
+  "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-aligned01\\input.zarr",
+  "crop_xywh": [
+    896,
+    896,
+    448,
+    448
+  ],
+  "shape_zyx": [
+    33,
+    448,
+    448
+  ],
+  "layer_window": [
+    8,
+    25
+  ],
+  "forward": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "reverse": [
+    24,
+    23,
+    22,
+    21,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8
+  ],
+  "expected_patches": 36,
+  "chunks": [
+    {
+      "path": "0/0/0/0",
+      "bytes": 540672,
+      "sha256": "bc176c72574b2d5601dc576b2643cf6c22737c23238659279e24e32314138d80",
+      "logical_shape_zyx": [
+        33,
+        128,
+        128
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/0/1",
+      "bytes": 540672,
+      "sha256": "9e2f1f4235b1235f6ba09de203abbf158d45bff677c1cd2b1247d5b629ee1d11",
+      "logical_shape_zyx": [
+        33,
+        128,
+        128
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/0/2",
+      "bytes": 540672,
+      "sha256": "07c1fc733b51fdad1e5f5dd15e9531e2e3acfda6c479bac4ec36b52ff05f7861",
+      "logical_shape_zyx": [
+        33,
+        128,
+        128
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/0/3",
+      "bytes": 540672,
+      "sha256": "da60019055a4007f3a8d8141e5736633cdb49da921a3cb432d59742b5a9e3951",
+      "logical_shape_zyx": [
+        33,
+        128,
+        64
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/1/0",
+      "bytes": 540672,
+      "sha256": "5f28c69a8546066b4eeb55573c3589238e67a4d7cc5c33a124f29643d7b5d9a3",
+      "logical_shape_zyx": [
+        33,
+        128,
+        128
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/1/1",
+      "bytes": 540672,
+      "sha256": "2c435e2ac00605dfe45d4cc166494f3b6cbf80c9d464bc3530e67b184e464b10",
+      "logical_shape_zyx": [
+        33,
+        128,
+        128
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/1/2",
+      "bytes": 540672,
+      "sha256": "8853a83ec2a0b85d1f3e7d61437e7ab01def9ba332cb1bbdca896df09316357e",
+      "logical_shape_zyx": [
+        33,
+        128,
+        128
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/1/3",
+      "bytes": 540672,
+      "sha256": "d74cdd5c70cc921b260cadfbbbf8ca78e46fe8ddf8e0d8888fff824a8dec1ac3",
+      "logical_shape_zyx": [
+        33,
+        128,
+        64
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/2/0",
+      "bytes": 540672,
+      "sha256": "2012617dc11289742d9978a33838864ee1d67a052fd3c43f389cce0dca4de045",
+      "logical_shape_zyx": [
+        33,
+        128,
+        128
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/2/1",
+      "bytes": 540672,
+      "sha256": "b886aa858e83766f10fa6e811e7e6f428af8a72c6cc3258380a7bccba113ad01",
+      "logical_shape_zyx": [
+        33,
+        128,
+        128
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/2/2",
+      "bytes": 540672,
+      "sha256": "5a66488b553adfcde8adfce8a6ed982d86c85aa143c864f5133effce28ec68a2",
+      "logical_shape_zyx": [
+        33,
+        128,
+        128
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/2/3",
+      "bytes": 540672,
+      "sha256": "ce93e5dc880a9fe2439b4347bb3f24a121a2cafb6cc47256285ea069a8464aab",
+      "logical_shape_zyx": [
+        33,
+        128,
+        64
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/3/0",
+      "bytes": 540672,
+      "sha256": "b9c7a32ef1c871df665c9b2b9be0f65cae9438f9a84ef1dad02e7c315e6d93ba",
+      "logical_shape_zyx": [
+        33,
+        64,
+        128
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/3/1",
+      "bytes": 540672,
+      "sha256": "3e0fddce408598b9e136fbcace2a82cc64876dec9c3979336cc6a9f21e7bd817",
+      "logical_shape_zyx": [
+        33,
+        64,
+        128
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/3/2",
+      "bytes": 540672,
+      "sha256": "32ad17e3275e79fc88f147a16c17ee850f6e552ad0861c76c0ff7c895f9813ad",
+      "logical_shape_zyx": [
+        33,
+        64,
+        128
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    },
+    {
+      "path": "0/0/3/3",
+      "bytes": 540672,
+      "sha256": "f8e7ab70c5615807297aaec2b7b49183886f529b4270bdf87a5c42e7f312bddf",
+      "logical_shape_zyx": [
+        33,
+        64,
+        64
+      ],
+      "physical_shape_zyx": [
+        33,
+        128,
+        128
+      ]
+    }
+  ],
+  "source_input_contract_sha256": "6bc1bccb969d8f48946f5e9fee5f1931640cb7594c3b8afb387310a76f4f0f94",
+  "source_local_xywh": [
+    53,
+    53,
+    448,
+    448
+  ],
+  "zattrs_sha256": "a5bde0e6a14d8b59d9a9293a513b94e12a921a8e976ae116bc48a672413004c2",
+  "zarray_sha256": "5f34e5bad1dfc7cccdf2481d374e2f99e34eb772ff9ab41e08f41a22e07d2d2a",
+  "logical_values_equal": 6623232,
+  "padding_u8": 0,
+  "stored_minus_logical_values": 2027520,
+  "zarr_version_used_for_readback": "3.1.5"
+}

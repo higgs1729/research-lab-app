@@ -1,0 +1,144 @@
+{
+  "native_xywh": [
+    1344,
+    1088,
+    672,
+    448
+  ],
+  "native_pitch_um": 8.64,
+  "atlas_xywh": [
+    1408,
+    1088,
+    256,
+    256
+  ],
+  "atlas_pitch_um": 9.6,
+  "atlas_reference_inputs": [
+    {
+      "name": "Published CT middle",
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-atlas-known-control01\\originals\\ct.png",
+      "sha256": "1050da1a19ab63f73a9bc662132ea5088d041c70a04b382ccd87fd9252ef6547"
+    },
+    {
+      "name": "Published Reader V3 reverse",
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-reader-v3-known-control01\\atlas-reader-reverse.png",
+      "sha256": "aed13ce599e08f261e1b568b36f077e6d9a448544740be8712d36404bd3f9a79"
+    },
+    {
+      "name": "R175 dense-native reverse",
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0343-patch-phase01\\dense-reverse\\probability.png",
+      "sha256": "60f09649211f209912570512371aa93deb0db342056980b2e34f7ed083c7f89b"
+    },
+    {
+      "name": "R175 seed42 reverse",
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0343-patch-phase01\\seed42-reverse\\probability.png",
+      "sha256": "03a52f63298555f2dd7ac5ac7c8582b470ee1513b70ea545741c365c96b2911e"
+    },
+    {
+      "name": "R198 Hecate reverse",
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-depth-window-control01\\hecate-reverse.png",
+      "sha256": "26c4f9553607b4f485740232f99ee8f013322bd966c49d44c1c7d27f1a69d4c7"
+    },
+    {
+      "name": "award native picture",
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-known-neighbour-selection01\\winner-original.png",
+      "sha256": "59307c84ea65091de1bea14a3b75d44069bfe1fb498b3445f698ec3d1b8c1c78"
+    }
+  ],
+  "figures": [
+    {
+      "file": "review/native-ct.png",
+      "sha256": "8b19b0c2ae94bed4c445358565d470688b1214b46f7b547e17c2eacbabcbc381"
+    },
+    {
+      "file": "review/native-reader-raw.png",
+      "sha256": "8921ab450cd7d99e77104d843132b960c556f83aeeab12bc0cdbb135926907c6"
+    },
+    {
+      "file": "review/native-reader-median-p995.png",
+      "sha256": "cacd3416fd75ce37ea9ca5d0a4cfd123f19fe56e99a14635e5aa05a83ec9b264"
+    },
+    {
+      "file": "review/native-winner.png",
+      "sha256": "f6c6082c8900bf13821e2f149681624ed215dd3c3d655735e1efc04199fbff74"
+    },
+    {
+      "file": "review/comparison-native.png",
+      "sha256": "a6733197ae494d9ee0680eb6e1c378d7fd66319895974bbdcf73d26f1495a496"
+    },
+    {
+      "file": "review/comparison-atlas-256.png",
+      "sha256": "c34e50bcd7dea00ea62efc67a5824cd879af1be620d185899cd7d241d27b1b60"
+    },
+    {
+      "file": "review/atlas-panel-00.png",
+      "sha256": "6b471c7a5794f78aa355488a2e4062b0093902282abf1beb41e4239d4daf8b3f",
+      "label": "Published CT middle"
+    },
+    {
+      "file": "review/atlas-panel-01.png",
+      "sha256": "29d716e952464f897924e00427d2229887b7c130f3d57d8adca49900e8976756",
+      "label": "Reader V3 native-to-atlas raw"
+    },
+    {
+      "file": "review/atlas-panel-02.png",
+      "sha256": "c1ec3bdda9096bafe85245b53b1c3b2891a8706af98faeb1fb5caf75e19387fe",
+      "label": "Published Reader V3 reverse"
+    },
+    {
+      "file": "review/atlas-panel-03.png",
+      "sha256": "22826d5d5d579c48d2fe1f79d017b1fadeb69c1fed7ec7463957dee9d80f14b0",
+      "label": "Reader V3 native-to-atlas display"
+    },
+    {
+      "file": "review/atlas-panel-04.png",
+      "sha256": "9a48f46f0a4b63130f6f91a79768de4d588a4d6a0c07bc9050c395d935d00b6d",
+      "label": "R175 dense-native reverse"
+    },
+    {
+      "file": "review/atlas-panel-05.png",
+      "sha256": "f6ce044357700887e65182d1458d37df1133ba6324e356f68b0b8bda20076a72",
+      "label": "R198 Hecate reverse"
+    },
+    {
+      "file": "review/atlas-panel-06.png",
+      "sha256": "d40bb9e1a51f2223e9fdfb2063ebe38ff11d3caf31c31b3832c56094592dbc86",
+      "label": "R175 seed42 reverse"
+    }
+  ],
+  "preview_rule": "clip((score-median)/(p99.5-median),0,1)*255, truncate, over fixed native 672x448 main",
+  "native_score_p50": 0.35845133662223816,
+  "native_score_p995": 0.8072211220860481,
+  "native_raw_score_min": 0.21840918064117432,
+  "native_raw_score_max": 0.8367111682891846,
+  "native_main_min_weight": 0.991847813129425,
+  "comparison_mapping": "sample FP32 native scores at continuous native centres (atlas_i+.5)/.9-.5, bilinear, then truncate to uint8; reference images remain on their original atlas grids",
+  "published_reader_vs_native_on_atlas": {
+    "pearson": 0.9473598055400766,
+    "mae_dn": 17.349838256835938,
+    "signed_mean_dn": -15.886428833007812,
+    "both_uint8_identical_pixels": 824
+  },
+  "reader_vs_baselines_descriptive_pixel_differences": {
+    "R175 seed42 reverse": {
+      "pearson": 0.2863543078570966,
+      "mae_dn": 41.064178466796875,
+      "signed_mean_dn": 26.8974609375,
+      "both_uint8_identical_pixels": 449
+    },
+    "R175 dense-native reverse": {
+      "pearson": 0.8497369147149624,
+      "mae_dn": 17.349746704101562,
+      "signed_mean_dn": -7.7167816162109375,
+      "both_uint8_identical_pixels": 1280
+    },
+    "R198 Hecate reverse": {
+      "pearson": 0.4348131169053905,
+      "mae_dn": 93.95111083984375,
+      "signed_mean_dn": 80.37820434570312,
+      "both_uint8_identical_pixels": 65
+    }
+  },
+  "max_gpu_cpu_abs": 1.4007091522216797e-06,
+  "metric_use": "Pixel appearance only. Different XY/Z sampling and model conditions; no label accuracy metric."
+}

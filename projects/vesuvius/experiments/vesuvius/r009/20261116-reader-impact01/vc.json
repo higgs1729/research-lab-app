@@ -1,0 +1,266 @@
+{
+  "reader": {
+    "vc_reader": "0.1.0",
+    "numpy": "2.2.6",
+    "artifacts": {
+      "vc_reader._reader": {
+        "path": ".work/r009-python-validation01/run01/build04/_reader.cpython-312-x86_64-linux-gnu.so",
+        "sha256": "0f9f580c7ab68918b2ad1d8ef54535938d71736e701ee674fb1c157eb0e91cef"
+      },
+      "vc_reader._catalog": {
+        "path": ".work/r009-python-validation01/run01/build04/_catalog.cpython-312-x86_64-linux-gnu.so",
+        "sha256": "5cc8615c17d0414afb94ed1c79d8e1202bd2fd17c60409d6394d8bca9d0b9ab5"
+      },
+      "vc_reader.reader.zarr_group": {
+        "path": ".work/r009-python-validation01/run01/source/vc_reader/src/vc_reader/reader/zarr_group.py",
+        "sha256": "cc8925e058c2e8a41a3f2fc91353183a4fc1b8e07694c35b842a93850795cc26"
+      },
+      "vc_reader.reader.zarr_reader": {
+        "path": ".work/r009-python-validation01/run01/source/vc_reader/src/vc_reader/reader/zarr_reader.py",
+        "sha256": "20ddab357f08509221ea9586e43db419efb5db770f7ce5accb36879843221ed5"
+      }
+    }
+  },
+  "python": "3.12.3",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "fixture": "inputs.json",
+  "fixture_sha256": "4701f368c254fb4bcbc2d4065e2489ff2750358bf15307ed2eef9f77b03775d5",
+  "cases": {
+    "saved-old": {
+      "group": {
+        "status": "ok",
+        "value": {
+          "ome_levels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "array_keys": [
+            "0"
+          ],
+          "level_first": {
+            "status": "ok",
+            "value": {
+              "shape": [
+                101,
+                128,
+                128
+              ],
+              "dtype": "uint8",
+              "min": 0,
+              "max": 255,
+              "sum": 157287567,
+              "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+            }
+          },
+          "level_last": {
+            "status": "error",
+            "type": "KeyError",
+            "message": "\"no array '5' in /mnt/c/dev/kensyoukin/.work/r009-resume-pyramid-fix01/run01/pyramid-disabled.zarr\""
+          }
+        }
+      },
+      "direct_l0": {
+        "status": "ok",
+        "value": {
+          "shape": [
+            101,
+            128,
+            128
+          ],
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "sum": 157287567,
+          "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+        }
+      },
+      "warnings": []
+    },
+    "saved-fixed": {
+      "group": {
+        "status": "ok",
+        "value": {
+          "ome_levels": [
+            "0"
+          ],
+          "array_keys": [
+            "0"
+          ],
+          "level_first": {
+            "status": "ok",
+            "value": {
+              "shape": [
+                101,
+                128,
+                128
+              ],
+              "dtype": "uint8",
+              "min": 0,
+              "max": 255,
+              "sum": 157287567,
+              "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+            }
+          },
+          "level_last": {
+            "status": "ok",
+            "value": {
+              "shape": [
+                101,
+                128,
+                128
+              ],
+              "dtype": "uint8",
+              "min": 0,
+              "max": 255,
+              "sum": 157287567,
+              "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+            }
+          }
+        }
+      },
+      "direct_l0": {
+        "status": "ok",
+        "value": {
+          "shape": [
+            101,
+            128,
+            128
+          ],
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "sum": 157287567,
+          "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+        }
+      },
+      "warnings": []
+    },
+    "legacy-attrs-only": {
+      "group": {
+        "status": "ok",
+        "value": {
+          "ome_levels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "array_keys": [
+            "0"
+          ],
+          "level_first": {
+            "status": "ok",
+            "value": {
+              "shape": [
+                101,
+                128,
+                128
+              ],
+              "dtype": "uint8",
+              "min": 0,
+              "max": 255,
+              "sum": 157287567,
+              "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+            }
+          },
+          "level_last": {
+            "status": "error",
+            "type": "KeyError",
+            "message": "\"no array '5' in /mnt/c/dev/kensyoukin/.work/r245-reader-impact01/legacy-attrs-only.zarr\""
+          }
+        }
+      },
+      "direct_l0": {
+        "status": "ok",
+        "value": {
+          "shape": [
+            101,
+            128,
+            128
+          ],
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "sum": 157287567,
+          "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+        }
+      },
+      "warnings": []
+    },
+    "pyramid-on-control": {
+      "group": {
+        "status": "ok",
+        "value": {
+          "ome_levels": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "array_keys": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "level_first": {
+            "status": "ok",
+            "value": {
+              "shape": [
+                101,
+                128,
+                128
+              ],
+              "dtype": "uint8",
+              "min": 0,
+              "max": 255,
+              "sum": 157287567,
+              "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+            }
+          },
+          "level_last": {
+            "status": "ok",
+            "value": {
+              "shape": [
+                101,
+                4,
+                4
+              ],
+              "dtype": "uint8",
+              "min": 35,
+              "max": 170,
+              "sum": 153591,
+              "sha256_c_order": "d03514d0e7e45956b6ac76580db2656b1254f1d544e16f29604eccf511e43514"
+            }
+          }
+        }
+      },
+      "direct_l0": {
+        "status": "ok",
+        "value": {
+          "shape": [
+            101,
+            128,
+            128
+          ],
+          "dtype": "uint8",
+          "min": 0,
+          "max": 255,
+          "sum": 157287567,
+          "sha256_c_order": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+        }
+      },
+      "warnings": []
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "research": 243,
+  "recorded_utc": "2026-11-15T17:34:20.861142+00:00",
+  "completion_date_JST": "2026-11-16",
+  "parent_decision": "Close after independently checked stage A; do not perform B probability crops or image registration.",
+  "researcher_agrees": true,
+  "reason": "Old small-ROI cell supports are excluded from the v9 global box. The added area cannot be excluded en bloc, but its nominal residuals and UV branches do not establish one registered surface. Viewing the public v9 candidate crops would not recover the original main candidate historical full-parent response or establish prior reading/novelty.",
+  "fixed_v6_parent_xywh": [
+    4416,
+    2048,
+    384,
+    768
+  ],
+  "old_small_ROI_xywh": [
+    4416,
+    2048,
+    384,
+    256
+  ],
+  "added_part_xywh": [
+    4416,
+    2304,
+    384,
+    512
+  ],
+  "cell_support_exclusion": {
+    "old_excluded_pixels": 98304,
+    "old_total_pixels": 98304,
+    "added_excluded_pixels": 29984,
+    "added_not_excluded_pixels": 166624,
+    "all_columns_excluded_parent_y_halfopen": [
+      2048,
+      2380
+    ],
+    "mixed_parent_y_halfopen": [
+      2380,
+      2400
+    ],
+    "no_cell_box_exclusion_parent_y_halfopen": [
+      2400,
+      2816
+    ],
+    "lead_independently_checked": true,
+    "scope": "Bilinear cell-support boxes vs v9 global valid-node box; intersection is not a point or physical-paper match."
+  },
+  "stage_A": {
+    "result_sha256": "09b11fb056788ce456f0c5c3fbf8a716754685df99c5ef9bd5f96039a530d693",
+    "anchors": 840,
+    "valid_v9_cells": 22434,
+    "triangles": 44868,
+    "projection_runs": 1,
+    "elapsed_seconds_in_script": 25.22666489999392,
+    "old_and_added_statistics": {
+      "old_small_ROI": {
+        "anchors": 273,
+        "point_outside_global_bbox": 273,
+        "evaluated_distance_quantiles_min25median75max_vox": [
+          142.53618612484254,
+          250.95877234055132,
+          304.0301199772533,
+          357.89151985183156,
+          455.93885106134286
+        ],
+        "signed_normal_cosine_min_max": [
+          0.5554137709498462,
+          0.9990273427473803
+        ],
+        "nominal_component_counts_minus1_outside_fixed_CT_candidates": {
+          "-1": 236,
+          "0": 37,
+          "1": 0
+        },
+        "potential_cells_span_both_preplanned_UV_components": 0,
+        "anchors_with_potential_nonincident_cell": 18,
+        "multiple4neighbor_potential_components": 56,
+        "nominal_v9_pixel_bbox_xy": [
+          [
+            4279.5,
+            19.5
+          ],
+          [
+            4899.5,
+            139.5
+          ]
+        ]
+      },
+      "added_part": {
+        "anchors": 567,
+        "point_outside_global_bbox": 102,
+        "evaluated_distance_quantiles_min25median75max_vox": [
+          0.0026598484461728858,
+          0.9443998828439197,
+          2.7173603711020298,
+          93.10750735133061,
+          241.96583614494114
+        ],
+        "signed_normal_cosine_min_max": [
+          0.7456888341552862,
+          0.9999985115482789
+        ],
+        "nominal_component_counts_minus1_outside_fixed_CT_candidates": {
+          "-1": 43,
+          "0": 478,
+          "1": 46
+        },
+        "potential_cells_span_both_preplanned_UV_components": 3,
+        "anchors_with_potential_nonincident_cell": 4,
+        "multiple4neighbor_potential_components": 64,
+        "nominal_v9_pixel_bbox_xy": [
+          [
+            331.43938236771476,
+            59.5
+          ],
+          [
+            4839.5,
+            451.59907061395324
+          ]
+        ]
+      }
+    },
+    "distance_definition": "Residual to an actual bilinear point evaluated at a triangle-derived UV: an evaluated upper bound, not an exact global bilinear nearest distance.",
+    "cell_lower_bound": "max(0, minimum triangle distance - norm(P00-P10-P01+P11)/4)",
+    "maximum_cell_approximation_bound_vox": 3.9314445640013287,
+    "arithmetic_limit": "Float64 numerical bounds with one-ULP outward tie handling; not certified interval arithmetic or exact inverse.",
+    "multiple_4neighbor_potential_components_anchor_count": 120,
+    "topology_limit": "4-neighbor components are bookkeeping; diagonal touching cells can split groups. They do not identify distinct physical sheets.",
+    "added_anchors_with_both_preplanned_UV_components": 3,
+    "no_same_paper_distance_threshold": true,
+    "source_cell_support_and_point_inside_bbox_are_distinct": true
+  },
+  "CT_envelope": "Saved ancillary CT-depth/8-corner envelope has not received independent numerical verification; it is not the basis of the confirmed central-surface exclusion claim. No CT body was read.",
+  "public_mask_semantics": {
+    "source": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\sources\\v9\\inference.py",
+      "bytes": 5752,
+      "sha256": "09752cf7aa0b682c6ca9a46e41bf1f9f279e30d74d35eaab8fc0311504223ec0"
+    },
+    "source_line": 73,
+    "source_expression": "result[(np.asarray(volume) == 0).all(0)] = 0",
+    "meaning": "Actual inference sets probability to zero wherever all 16 input planes are zero. Such zeros cannot be interpreted as ink absence.",
+    "provided_mask_receipt": "lead-mask-source-read.json",
+    "provided_masks_same_sha256": "f4fa02d4e7aa92541079293db2a069eb6ef919f946503426f6dcfa804e1b7f7c",
+    "provided_mask_shape_hw": [
+      1740,
+      6020
+    ],
+    "provided_mask_nonzero_pixels": 8838800,
+    "reproduction_crop": null,
+    "limitation": "Provided mask support is distinct from the inference input-any-data mask. Equality of all pixels is unverified without original v9 input; no seam/mask-to-anchor match was asserted."
+  },
+  "stage_B_executed": false,
+  "prediction_pixels_read": 0,
+  "new_images": 0,
+  "CT_body_reads": 0,
+  "new_CT_bytes": 0,
+  "model_forwards": 0,
+  "GPU": 0,
+  "new_external_requests": 0,
+  "external_messages": 0,
+  "cost_USD": 0,
+  "R242_shape_candidate_retained": true,
+  "new_letters": 0,
+  "ink_sheet_identity_reading_novelty_established": false,
+  "historical_R236_pairgate_passed": false,
+  "next_needed_evidence": {
+    "kind": "Original historical full-parent probability/output and documented prior-read extent",
+    "existing_inquiry": "https://github.com/priyankaranke/vesuvius-studio-multiscroll-cpt/issues/1",
+    "status_basis": "Parent reported the already-authorized inquiry sent; no new request or reply check in R243.",
+    "new_research_or_external_wait_management": "Parent responsibility, outside this closed research."
+  },
+  "questions_for_user": [],
+  "registration_by_researcher": false
+}

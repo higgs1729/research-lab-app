@@ -1,0 +1,16 @@
+{
+  "reviewer": "lead/root",
+  "viewed_before_researcher_interpretation": true,
+  "actually_viewed_files": [
+    "review/pair-raw8-native.png",
+    "review/pair-raw8-nearest4x.png"
+  ],
+  "observations": [
+    "Both images have a dark upper area and a broad bright lower area with the same gently curved transition. I cannot distinguish a meaningful change of that visible structure between the two inputs at native or nearest-neighbour4x display.",
+    "This96x96 patch does not show a complete recognizable phi or a letter sequence to me. It is an input perturbation comparison, not a successful complete-letter readability control."
+  ],
+  "decision_scope": "The displayed perturbation in this one saved pair does not by itself justify abandoning bounded candidate exploration. It also does not demonstrate general robustness, unknown accuracy, or exact rendering. A separate prospective plan must retain a full known-phi image comparison and downstream raw-CT verification before accepting any unknown candidate.",
+  "historical_R236_gate_passed": false,
+  "new_letters_confirmed": 0,
+  "GPU_authorized_by_this_visual_record": false
+}

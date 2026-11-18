@@ -1,0 +1,63 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "planes": [
+    {
+      "probe": 1,
+      "axis": "X",
+      "pixels": 4225,
+      "all_exact": true
+    },
+    {
+      "probe": 1,
+      "axis": "Y",
+      "pixels": 4225,
+      "all_exact": true
+    },
+    {
+      "probe": 1,
+      "axis": "Z",
+      "pixels": 4225,
+      "all_exact": true
+    },
+    {
+      "probe": 2,
+      "axis": "X",
+      "pixels": 4225,
+      "all_exact": true
+    },
+    {
+      "probe": 2,
+      "axis": "Y",
+      "pixels": 4225,
+      "all_exact": true
+    },
+    {
+      "probe": 2,
+      "axis": "Z",
+      "pixels": 4225,
+      "all_exact": true
+    },
+    {
+      "probe": 3,
+      "axis": "X",
+      "pixels": 4225,
+      "all_exact": true
+    },
+    {
+      "probe": 3,
+      "axis": "Y",
+      "pixels": 4225,
+      "all_exact": true
+    },
+    {
+      "probe": 3,
+      "axis": "Z",
+      "pixels": 4225,
+      "all_exact": true
+    }
+  ],
+  "total_pixels": 38025,
+  "new_network_bytes": 0,
+  "new_render_calls": 0
+}

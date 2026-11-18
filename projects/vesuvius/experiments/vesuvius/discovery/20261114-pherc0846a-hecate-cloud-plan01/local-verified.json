@@ -1,0 +1,55 @@
+{
+  "synthetic_full_result_only": true,
+  "model_forward_calls": 0,
+  "network_calls": 0,
+  "pods_created": 0,
+  "input_bundle_bytes": 5079040,
+  "input_bundle_sha256": "6386a46d938f1fce52e4bc50cdbf00d13e4190098d54ebe36e5bc93ed7a2b782",
+  "upload_exec_calls": 36,
+  "result_exec_calls": 19,
+  "synthetic_full_result_bytes": 4608000,
+  "synthetic_result_verification": {
+    "execution_status": "completed",
+    "model_forward_calls": 0,
+    "directions": {
+      "forward": {
+        "patches_verified": 121,
+        "probability_values_verified": 495616,
+        "png_pixels_verified": 147456
+      },
+      "reverse": {
+        "patches_verified": 121,
+        "probability_values_verified": 495616,
+        "png_pixels_verified": 147456
+      }
+    },
+    "cpu_comparisons": [
+      {
+        "index": 1,
+        "mae": 0.0,
+        "max_abs_diff": 0.0,
+        "passed": true
+      },
+      {
+        "index": 2,
+        "mae": 0.0,
+        "max_abs_diff": 0.0,
+        "passed": true
+      },
+      {
+        "index": 3,
+        "mae": 0.0,
+        "max_abs_diff": 0.0,
+        "passed": true
+      }
+    ]
+  },
+  "create_response_timeout_single_post_and_only_owned_pod_deleted": true,
+  "price": {
+    "currency": "USD",
+    "compute_hour": "0.89",
+    "20_min_disk": "0.0009259259259259259259259259259",
+    "20_min_total_at_catalog_rate": "0.2975925925925925925925925926",
+    "20_min_total_at_0_90": "0.3009259259259259259259259259"
+  }
+}

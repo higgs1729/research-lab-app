@@ -1,0 +1,318 @@
+{
+ "schema": "inkatlas-atlas/1",
+ "screen_valid": true,
+ "screen_rule": {
+  "asym_primary": 2.0,
+  "cons_primary": 0.25,
+  "asym_any": 2.5,
+  "cons_any": 0.25,
+  "neighbour_mm": 2.0
+ },
+ "per_scroll": {
+  "PHerc0800": {
+   "role": "eligible",
+   "published": 0,
+   "held": 12
+  },
+  "PHerc1203": {
+   "role": "eligible",
+   "published": 0,
+   "held": 28
+  },
+  "PHerc0125": {
+   "role": "eligible",
+   "published": 1,
+   "held": 8
+  },
+  "PHerc0175A": {
+   "role": "eligible",
+   "published": 0,
+   "held": 6
+  },
+  "PHerc0175B": {
+   "role": "eligible",
+   "published": 4,
+   "held": 5
+  },
+  "PHerc0191": {
+   "role": "eligible",
+   "published": 1,
+   "held": 4
+  },
+  "PHerc0211": {
+   "role": "eligible",
+   "published": 0,
+   "held": 23
+  },
+  "PHerc0257": {
+   "role": "eligible",
+   "published": 1,
+   "held": 14
+  },
+  "PHerc0268": {
+   "role": "eligible",
+   "published": 3,
+   "held": 6
+  },
+  "PHerc0306B": {
+   "role": "eligible",
+   "published": 2,
+   "held": 8
+  },
+  "PHerc0343": {
+   "role": "reference",
+   "published": 7,
+   "held": 0
+  },
+  "PHerc0358": {
+   "role": "eligible",
+   "published": 2,
+   "held": 4
+  },
+  "PHerc0483A": {
+   "role": "eligible",
+   "published": 4,
+   "held": 2
+  },
+  "PHerc0483B": {
+   "role": "eligible",
+   "published": 2,
+   "held": 4
+  },
+  "PHerc0490A": {
+   "role": "eligible",
+   "published": 1,
+   "held": 5
+  },
+  "PHerc0490B": {
+   "role": "eligible",
+   "published": 0,
+   "held": 6
+  },
+  "PHerc0813": {
+   "role": "eligible",
+   "published": 1,
+   "held": 11
+  },
+  "PHerc0826": {
+   "role": "eligible",
+   "published": 0,
+   "held": 6
+  },
+  "PHerc0846A": {
+   "role": "eligible",
+   "published": 0,
+   "held": 29
+  },
+  "PHerc0846B": {
+   "role": "eligible",
+   "published": 1,
+   "held": 20
+  },
+  "PHerc1218": {
+   "role": "eligible",
+   "published": 2,
+   "held": 4
+  },
+  "PHerc1545": {
+   "role": "eligible",
+   "published": 0,
+   "held": 13
+  }
+ },
+ "surfaces": [
+  {
+   "id": "kbh-PHerc0125_5409_5288_14587",
+   "scroll": "PHerc0125",
+   "role": "eligible",
+   "path": "surfaces/PHerc0125/kbh-PHerc0125_5409_5288_14587"
+  },
+  {
+   "id": "kbh-PHerc0175B_3024_3577_11121",
+   "scroll": "PHerc0175B",
+   "role": "eligible",
+   "path": "surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121"
+  },
+  {
+   "id": "kbh-PHerc0175B_5189_6930_7948",
+   "scroll": "PHerc0175B",
+   "role": "eligible",
+   "path": "surfaces/PHerc0175B/kbh-PHerc0175B_5189_6930_7948"
+  },
+  {
+   "id": "kbh-PHerc0175B_6435_6047_4767",
+   "scroll": "PHerc0175B",
+   "role": "eligible",
+   "path": "surfaces/PHerc0175B/kbh-PHerc0175B_6435_6047_4767"
+  },
+  {
+   "id": "kbh-PHerc0175B_6568_6182_4776",
+   "scroll": "PHerc0175B",
+   "role": "eligible",
+   "path": "surfaces/PHerc0175B/kbh-PHerc0175B_6568_6182_4776"
+  },
+  {
+   "id": "kbh-PHerc0191_2707_2976_13281",
+   "scroll": "PHerc0191",
+   "role": "eligible",
+   "path": "surfaces/PHerc0191/kbh-PHerc0191_2707_2976_13281"
+  },
+  {
+   "id": "kbh-PHerc0257_3904_6108_9436",
+   "scroll": "PHerc0257",
+   "role": "eligible",
+   "path": "surfaces/PHerc0257/kbh-PHerc0257_3904_6108_9436"
+  },
+  {
+   "id": "kbh-PHerc0268_2704_5907_7421",
+   "scroll": "PHerc0268",
+   "role": "eligible",
+   "path": "surfaces/PHerc0268/kbh-PHerc0268_2704_5907_7421"
+  },
+  {
+   "id": "kbh-PHerc0268_4451_4514_10379",
+   "scroll": "PHerc0268",
+   "role": "eligible",
+   "path": "surfaces/PHerc0268/kbh-PHerc0268_4451_4514_10379"
+  },
+  {
+   "id": "kbh-PHerc0268_6113_8698_7414",
+   "scroll": "PHerc0268",
+   "role": "eligible",
+   "path": "surfaces/PHerc0268/kbh-PHerc0268_6113_8698_7414"
+  },
+  {
+   "id": "kbh-PHerc0306B_5773_5706_4769",
+   "scroll": "PHerc0306B",
+   "role": "eligible",
+   "path": "surfaces/PHerc0306B/kbh-PHerc0306B_5773_5706_4769"
+  },
+  {
+   "id": "kbh-PHerc0306B_5845_5074_11129",
+   "scroll": "PHerc0306B",
+   "role": "eligible",
+   "path": "surfaces/PHerc0306B/kbh-PHerc0306B_5845_5074_11129"
+  },
+  {
+   "id": "kbh-PHerc0343_4551_3852_10201",
+   "scroll": "PHerc0343",
+   "role": "reference",
+   "path": "surfaces/PHerc0343/kbh-PHerc0343_4551_3852_10201"
+  },
+  {
+   "id": "kbh-PHerc0343_4853_4577_10950",
+   "scroll": "PHerc0343",
+   "role": "reference",
+   "path": "surfaces/PHerc0343/kbh-PHerc0343_4853_4577_10950"
+  },
+  {
+   "id": "kbh-PHerc0343_4937_3336_11593",
+   "scroll": "PHerc0343",
+   "role": "reference",
+   "path": "surfaces/PHerc0343/kbh-PHerc0343_4937_3336_11593"
+  },
+  {
+   "id": "kbh-PHerc0343_5906_4532_8926",
+   "scroll": "PHerc0343",
+   "role": "reference",
+   "path": "surfaces/PHerc0343/kbh-PHerc0343_5906_4532_8926"
+  },
+  {
+   "id": "kbh-PHerc0343_5911_4059_10523",
+   "scroll": "PHerc0343",
+   "role": "reference",
+   "path": "surfaces/PHerc0343/kbh-PHerc0343_5911_4059_10523"
+  },
+  {
+   "id": "kbh-PHerc0343_5989_4040_10521",
+   "scroll": "PHerc0343",
+   "role": "reference",
+   "path": "surfaces/PHerc0343/kbh-PHerc0343_5989_4040_10521"
+  },
+  {
+   "id": "kbh-POS_PHerc0343_erwin",
+   "scroll": "PHerc0343",
+   "role": "reference",
+   "path": "surfaces/PHerc0343/kbh-POS_PHerc0343_erwin"
+  },
+  {
+   "id": "kbh-PHerc0358_2358_2561_4423",
+   "scroll": "PHerc0358",
+   "role": "eligible",
+   "path": "surfaces/PHerc0358/kbh-PHerc0358_2358_2561_4423"
+  },
+  {
+   "id": "kbh-PHerc0358_2549_3955_7370",
+   "scroll": "PHerc0358",
+   "role": "eligible",
+   "path": "surfaces/PHerc0358/kbh-PHerc0358_2549_3955_7370"
+  },
+  {
+   "id": "kbh-PHerc0483A_3155_3610_11128",
+   "scroll": "PHerc0483A",
+   "role": "eligible",
+   "path": "surfaces/PHerc0483A/kbh-PHerc0483A_3155_3610_11128"
+  },
+  {
+   "id": "kbh-PHerc0483A_4818_5326_7947",
+   "scroll": "PHerc0483A",
+   "role": "eligible",
+   "path": "surfaces/PHerc0483A/kbh-PHerc0483A_4818_5326_7947"
+  },
+  {
+   "id": "kbh-PHerc0483A_5050_5380_4769",
+   "scroll": "PHerc0483A",
+   "role": "eligible",
+   "path": "surfaces/PHerc0483A/kbh-PHerc0483A_5050_5380_4769"
+  },
+  {
+   "id": "kbh-PHerc0483A_5479_5938_11129",
+   "scroll": "PHerc0483A",
+   "role": "eligible",
+   "path": "surfaces/PHerc0483A/kbh-PHerc0483A_5479_5938_11129"
+  },
+  {
+   "id": "kbh-PHerc0483B_4103_6466_5937",
+   "scroll": "PHerc0483B",
+   "role": "eligible",
+   "path": "surfaces/PHerc0483B/kbh-PHerc0483B_4103_6466_5937"
+  },
+  {
+   "id": "kbh-PHerc0483B_5293_5712_3564",
+   "scroll": "PHerc0483B",
+   "role": "eligible",
+   "path": "surfaces/PHerc0483B/kbh-PHerc0483B_5293_5712_3564"
+  },
+  {
+   "id": "kbh-PHerc0490A_5776_5686_3509",
+   "scroll": "PHerc0490A",
+   "role": "eligible",
+   "path": "surfaces/PHerc0490A/kbh-PHerc0490A_5776_5686_3509"
+  },
+  {
+   "id": "kbh-PHerc0813_2999_3156_5096",
+   "scroll": "PHerc0813",
+   "role": "eligible",
+   "path": "surfaces/PHerc0813/kbh-PHerc0813_2999_3156_5096"
+  },
+  {
+   "id": "kbh-PHerc0846B_2768_2813_9748",
+   "scroll": "PHerc0846B",
+   "role": "eligible",
+   "path": "surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748"
+  },
+  {
+   "id": "kbh-PHerc1218_3144_3279_16272",
+   "scroll": "PHerc1218",
+   "role": "eligible",
+   "path": "surfaces/PHerc1218/kbh-PHerc1218_3144_3279_16272"
+  },
+  {
+   "id": "kbh-PHerc1218_4203_4343_16272",
+   "scroll": "PHerc1218",
+   "role": "eligible",
+   "path": "surfaces/PHerc1218/kbh-PHerc1218_4203_4343_16272"
+  }
+ ],
+ "failed": []
+}

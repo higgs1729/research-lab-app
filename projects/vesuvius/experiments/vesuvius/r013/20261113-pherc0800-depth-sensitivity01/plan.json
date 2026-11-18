@@ -1,0 +1,13 @@
+{
+  "input": "../20261113-pherc0800-first-inference01/input.zarr",
+  "public_xy_half_open": [256, 768],
+  "new_in_order": [[5, 22, "forward"], [5, 22, "reverse"], [9, 26, "forward"], [9, 26, "reverse"]],
+  "reuse": [[7, 24, "forward"], [7, 24, "reverse"]],
+  "wall_limit_seconds_each": 600,
+  "cpu": 1,
+  "process_commit_limit_bytes": 4294967296,
+  "network_bytes": 0,
+  "score_threshold_uint8": 128,
+  "display_range_uint8": [0, 255],
+  "compare": "Within direction compare all three depth pairs by uint8 MAE, Pearson r, counts, intersection and Jaccard; also compute three-way overlap."
+}

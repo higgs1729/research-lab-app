@@ -1,0 +1,16 @@
+{
+  "argv": [
+    "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "C:\\dev\\kensyoukin\\tools\\research\\run_windows.py",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-next-contiguous-unread-window01\\cpu-process.json",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-next-contiguous-unread-window01\\inputs.py",
+    "cpu"
+  ],
+  "initial_available_ram": 12419313664,
+  "initial_free_disk": 16188452864,
+  "patch_contract_sha256": "f54e97988b32d2eba05ec83a2e8512c69eb40a9cdb2aa448593d0dcef44836c4",
+  "wall_seconds": 480,
+  "exit_code": 0,
+  "elapsed_seconds": 34.126933300009114
+}

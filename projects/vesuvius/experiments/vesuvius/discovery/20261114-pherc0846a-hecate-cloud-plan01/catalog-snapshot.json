@@ -1,0 +1,57 @@
+{
+  "request_utc": "2026-11-14T10:35:42.484491+00:00",
+  "method": "GET",
+  "url": "https://api.runpod.io/v2/catalog/gpus?include=AVAILABILITY&product=POD&count=1&cloud=SECURE&minCudaVersion=13.0",
+  "http_status": 200,
+  "gpus": [
+    {
+      "availability": "HIGH",
+      "community": true,
+      "cudaVersions": [
+        {
+          "available": true,
+          "version": "13.2"
+        }
+      ],
+      "dataCenters": [
+        {
+          "availability": "HIGH",
+          "id": "EU-RO-1",
+          "name": "EU-RO-1"
+        },
+        {
+          "availability": "LOW",
+          "id": "EUR-IS-1",
+          "name": "EUR-IS-1"
+        },
+        {
+          "availability": "LOW",
+          "id": "EUR-IS-2",
+          "name": "EUR-IS-2"
+        },
+        {
+          "availability": "LOW",
+          "id": "US-IL-1",
+          "name": "US-IL-1"
+        }
+      ],
+      "id": "NVIDIA GeForce RTX 4090",
+      "manufacturer": "NVIDIA",
+      "maxCount": {
+        "community": 8,
+        "secure": 8
+      },
+      "memory": 24,
+      "minRam": 31,
+      "minVcpuCount": 8,
+      "name": "RTX 4090",
+      "pool": "ADA_24",
+      "price": {
+        "community": 0.34,
+        "secure": 0.89,
+        "serverless": 1.34
+      },
+      "secure": true
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "crop_xywh": [
+    896,
+    896,
+    448,
+    448
+  ],
+  "interior_xywh": [
+    960,
+    960,
+    320,
+    320
+  ],
+  "labels": null,
+  "display": {
+    "range": [
+      0,
+      255
+    ],
+    "resampling": null
+  },
+  "cases": {
+    "seed42-forward": {
+      "runtime": {
+        "seconds": 14.192506499995943,
+        "rss_bytes": 744701952
+      },
+      "aligned_minus_old_interior": {
+        "pixels": 102400,
+        "pearson": 0.4881633492614854,
+        "mean_signed_dn": 9.011669921875,
+        "mean_absolute_dn": 26.500556640625,
+        "max_absolute_dn": 93,
+        "equal": 1306
+      },
+      "inner_weight_range": [
+        0.9757224917411804,
+        1.0030001401901245
+      ],
+      "max_weight_residual": 3.032979682959791e-07
+    },
+    "seed42-reverse": {
+      "runtime": {
+        "seconds": 13.31131209997693,
+        "rss_bytes": 744759296
+      },
+      "aligned_minus_old_interior": {
+        "pixels": 102400,
+        "pearson": 0.43975436916551175,
+        "mean_signed_dn": -10.263671875,
+        "mean_absolute_dn": 31.801953125,
+        "max_absolute_dn": 138,
+        "equal": 1224
+      },
+      "inner_weight_range": [
+        0.9757224917411804,
+        1.0030001401901245
+      ],
+      "max_weight_residual": 3.032979682959791e-07
+    },
+    "dense-forward": {
+      "runtime": {
+        "seconds": 13.0716139000142,
+        "rss_bytes": 848281600
+      },
+      "aligned_minus_old_interior": {
+        "pixels": 102400,
+        "pearson": 0.8452650770430971,
+        "mean_signed_dn": -2.0191015625,
+        "mean_absolute_dn": 9.2559375,
+        "max_absolute_dn": 52,
+        "equal": 3897
+      },
+      "inner_weight_range": [
+        0.9757224917411804,
+        1.0030001401901245
+      ],
+      "max_weight_residual": 3.032979682959791e-07
+    },
+    "dense-reverse": {
+      "runtime": {
+        "seconds": 14.817348700016737,
+        "rss_bytes": 846594048
+      },
+      "aligned_minus_old_interior": {
+        "pixels": 102400,
+        "pearson": 0.8818065849175786,
+        "mean_signed_dn": -0.409267578125,
+        "mean_absolute_dn": 7.494521484375,
+        "max_absolute_dn": 43,
+        "equal": 4353
+      },
+      "inner_weight_range": [
+        0.9757224917411804,
+        1.0030001401901245
+      ],
+      "max_weight_residual": 3.032979682959791e-07
+    }
+  },
+  "same_weights_sha256": "4f8b08cc94709575fd405fbf12aa171cd1d56c18a58c10db3ed04ae82ac979c2",
+  "figure_sha256": {
+    "comparison-seed42.png": "93fc75ac2004add447aa32bee3bee99aff24d9ca07577e1ed27af54cbdc5eef9",
+    "comparison-dense.png": "2aa754eba32850a875c99b5537eff33b3f33c4450e97242492d28a02e53aba55",
+    "ct-centre.png": "05f1058f42727e3abec5bd6c6ebc6c025eff5687b0f8d0359a29a89228369cf5"
+  }
+}

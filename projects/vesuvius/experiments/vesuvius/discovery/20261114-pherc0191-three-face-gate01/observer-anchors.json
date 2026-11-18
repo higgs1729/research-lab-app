@@ -1,0 +1,99 @@
+{
+  "mount_d": [
+    "/mnt/d rw,noatime",
+    "/mnt/d ro,noatime"
+  ],
+  "network_namespace": "net:[4026532228]",
+  "cpu_affinity": [
+    0
+  ],
+  "as_bytes": 4294967296,
+  "binary_sha256": "7b4232a2356deca215ceaa8d072a7673023db8a5c2bfd90959dcb6c233ee9927",
+  "linked_library_hashes": {
+    "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+    "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+  },
+  "observations": [
+    {
+      "face": "w052",
+      "product_xy": [
+        617,
+        508
+      ],
+      "grid_header": [
+        31.648688215742823,
+        26.077334220369664,
+        0.05127109622406705,
+        0.05127109622406705,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        4878.994140625,
+        4866.4013671875,
+        11951.8642578125
+      ],
+      "normal_xyz": [
+        0.7958589196205139,
+        0.23761305212974548,
+        -0.5569098591804504
+      ]
+    },
+    {
+      "face": "w053",
+      "product_xy": [
+        631,
+        506
+      ],
+      "grid_header": [
+        32.379834466872126,
+        25.974792104583855,
+        0.05127109622406705,
+        0.05127109622406705,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        4890.658203125,
+        4877.09375,
+        11951.935546875
+      ],
+      "normal_xyz": [
+        0.8128120303153992,
+        0.432953804731369,
+        -0.38972756266593933
+      ]
+    },
+    {
+      "face": "w054",
+      "product_xy": [
+        646,
+        505
+      ],
+      "grid_header": [
+        33.136615484008416,
+        25.92352104669095,
+        0.05127109622406705,
+        0.05127109622406705,
+        1.0,
+        1.0
+      ],
+      "xyz": [
+        4901.31103515625,
+        4887.5126953125,
+        11952.412109375
+      ],
+      "normal_xyz": [
+        0.8363864421844482,
+        0.0642721876502037,
+        -0.5443591475486755
+      ]
+    }
+  ],
+  "disk": {
+    "c_free_bytes": 23444725760,
+    "work_bytes": 575661
+  },
+  "ct_voxel_values_read": 0,
+  "scope": "Fixed-anchor coordinate confirmation only; no replacement crop."
+}

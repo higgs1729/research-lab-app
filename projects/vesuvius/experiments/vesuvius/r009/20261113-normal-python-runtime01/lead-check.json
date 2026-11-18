@@ -1,0 +1,31 @@
+{
+  "normal_import": true,
+  "package_initializer_sha256": {
+    "vc_reader": "839697c3d1a45b0dc604c0a5ba421c2adc51087d65820cf61e6d03bddc314990",
+    "vc_reader.reader": "ef603eae6a38bec2b700a20d8c7c806caa1c1440304085e30f6b4d59ac642be8"
+  },
+  "preserved_files_sha_mtime": 7,
+  "direct_decoded_arrays": {
+    "0": {
+      "logical_values": 64,
+      "constant_value": 17,
+      "chunks": 4
+    },
+    "1": {
+      "logical_values": 16,
+      "constant_value": 9,
+      "chunks": 1
+    }
+  },
+  "created_metadata_matches": true,
+  "exported_fixture_files": 22,
+  "native_four_argument_result": true,
+  "upstream_function_source_matches": true,
+  "all_assertions_passed": true,
+  "new_native_runs": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "elapsed_seconds": 0.6151270130001194,
+  "max_rss_bytes": 62783488
+}

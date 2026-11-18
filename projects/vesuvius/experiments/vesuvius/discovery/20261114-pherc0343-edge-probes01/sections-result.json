@@ -1,0 +1,51 @@
+{
+  "probes": [
+    {
+      "folder": "probe-1",
+      "label": "within_winner_crop_unboxed",
+      "atlas_anchor_xy": [
+        5376,
+        736
+      ],
+      "tiff_zarr_equal": 135168,
+      "raw_voxels": 12675,
+      "centre_atlas_exact": 4086,
+      "centre_atlas_max_dn": 1,
+      "centre_atlas_mae_dn": 0.00244140625,
+      "centre_atlas_correlation": 0.9999979138132362,
+      "max_sample_residual_dn": 0.46600543009117246
+    },
+    {
+      "folder": "probe-2",
+      "label": "beyond_crop_band",
+      "atlas_anchor_xy": [
+        5504,
+        704
+      ],
+      "tiff_zarr_equal": 135168,
+      "raw_voxels": 12675,
+      "centre_atlas_exact": 4075,
+      "centre_atlas_max_dn": 1,
+      "centre_atlas_mae_dn": 0.005126953125,
+      "centre_atlas_correlation": 0.9999978053283362,
+      "max_sample_residual_dn": 0.4260747255757451
+    },
+    {
+      "folder": "probe-3",
+      "label": "beyond_crop_lobe",
+      "atlas_anchor_xy": [
+        5824,
+        704
+      ],
+      "tiff_zarr_equal": 135168,
+      "raw_voxels": 12675,
+      "centre_atlas_exact": 4075,
+      "centre_atlas_max_dn": 1,
+      "centre_atlas_mae_dn": 0.005126953125,
+      "centre_atlas_correlation": 0.9999976705555561,
+      "max_sample_residual_dn": 0.47236918890848756
+    }
+  ],
+  "atlas_ct_sha256": "1050da1a19ab63f73a9bc662132ea5088d041c70a04b382ccd87fd9252ef6547",
+  "atlas_reverse_sha256": "abe484095057200668181dd92c3ad3fdb104e8cd7fbbab1cc01017e3baaba182"
+}

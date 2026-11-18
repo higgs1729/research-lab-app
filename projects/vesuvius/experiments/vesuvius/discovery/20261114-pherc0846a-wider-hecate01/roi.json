@@ -1,0 +1,64 @@
+{
+  "crop_xywh": [
+    576,
+    576,
+    1024,
+    1024
+  ],
+  "inner_xywh": [
+    608,
+    608,
+    960,
+    960
+  ],
+  "seed_xyz": [
+    2601.0,
+    2784.0,
+    3851.0
+  ],
+  "full_canvas_wh": [
+    2184,
+    2184
+  ],
+  "old_canvas_wh": [
+    2240,
+    2240
+  ],
+  "mesh_shape_yx": [
+    112,
+    112
+  ],
+  "mesh_scale_xy": [
+    0.05000000074505806,
+    0.05000000074505806
+  ],
+  "voxel_um": 9.362,
+  "target_um": 9.6,
+  "render_scale": 0.9752083420753479,
+  "slice_step": 1.0254219770431519,
+  "ideal_spacing_zyx_um_using_float_cli": [
+    9.600000549077988,
+    9.599999913943169,
+    9.599999913943169
+  ],
+  "old_native_coordinate_of_crop_first_last_centers": [
+    590.8949891173966,
+    1639.901602230392
+  ],
+  "grid_formula": "(i-(C-1)/2)*s/r+M/2, C=lround(M*r/s), L0 no affine",
+  "observer_first_tile_header": [
+    29.569751417186126,
+    29.569751417186126,
+    0.05127109622406705,
+    0.05127109622406705,
+    64.0,
+    64.0
+  ],
+  "source_ref": ".work/r009-pyramid-metadata01/run01/source/volume-cartographer/apps/src/vc_render_tifxyz.cpp",
+  "source_sha256": "66d96d1e6cdf858e1ab857116ab3d4567d87ecf9c63e1d06c45a4be955d1f8de",
+  "source_lines": [
+    160,
+    1379,
+    1387
+  ]
+}

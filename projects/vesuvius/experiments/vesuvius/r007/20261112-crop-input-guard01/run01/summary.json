@@ -1,0 +1,22 @@
+{
+  "tiff_matches": [
+    {
+      "output": "/mnt/c/dev/kensyoukin/.work/r007-crop-input-guard01/run01/render/00.tif",
+      "control": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/control-stack/049.tif",
+      "sha256": "d3bb7185c729ea42c2d7a7305b618fe64b712193938a9fa5ffccba981c094872"
+    },
+    {
+      "output": "/mnt/c/dev/kensyoukin/.work/r007-crop-input-guard01/run01/render/01.tif",
+      "control": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/control-stack/050.tif",
+      "sha256": "3d071a7ca794549900794968802f024d66305fb86828fd92a6b188887eb1bcc5"
+    },
+    {
+      "output": "/mnt/c/dev/kensyoukin/.work/r007-crop-input-guard01/run01/render/02.tif",
+      "control": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/control-stack/051.tif",
+      "sha256": "54ec29da62d9a1d8f260ef561d16b2f4c3d56a70d1f49ead6b3352f8578f6ef4"
+    }
+  ],
+  "merged_sha256": "3d071a7ca794549900794968802f024d66305fb86828fd92a6b188887eb1bcc5",
+  "new_ct_download_bytes": 0,
+  "additional_cloud_cost_jpy": 0
+}

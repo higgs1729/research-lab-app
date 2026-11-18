@@ -1,0 +1,11 @@
+{
+  "atlas_revision": "ac5ffd7098120368216948c4e06c494bf8e67178",
+  "selected": "PHerc0125_5409_5288_14587",
+  "selection_before_receiving_images": true,
+  "rule": "Same scan resolution, canvas size and missing-chunk status. Prefer atlas sheet-mask coverage for a same-pixel CT texture comparison and all seven active pairs, without treating that coverage or prediction intensity as ink evidence.",
+  "candidates": [
+    {"face": "PHerc0125_5409_5288_14587", "eligible_volume": "20250821151825", "sheet_mask_fraction": 0.863, "alive_center_pairs": 7, "center_png_bytes": 20770643},
+    {"face": "PHerc0191_2707_2976_13281", "eligible_volume": "20250821151635", "sheet_mask_fraction": 0.159, "alive_center_pairs": 7, "center_png_bytes": 18929783},
+    {"face": "PHerc0257_3904_6108_9436", "eligible_volume": "20250821151750", "sheet_mask_fraction": 0.163, "alive_center_pairs": 6, "center_png_bytes": 19197793}
+  ]
+}

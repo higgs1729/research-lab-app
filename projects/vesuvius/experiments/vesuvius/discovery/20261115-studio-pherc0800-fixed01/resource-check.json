@@ -1,0 +1,34 @@
+{
+  "utc": "2026-11-15T11:35:11.750704+00:00",
+  "pod_id": "tbj4mepark90np",
+  "pod_name": "r233-studio-ba1b3b7efa556de7",
+  "details_status": 404,
+  "name_matches": 0,
+  "total_pods": 0,
+  "dedicated_billing_http_status": 200,
+  "dedicated_billing_records": [],
+  "query": {
+    "podId": "tbj4mepark90np",
+    "bucketSize": "hour",
+    "startTime": "2026-11-15T11:00:00+00:00",
+    "endTime": "2026-11-15T13:00:00+00:00"
+  },
+  "dedicated_billing_metadata": {
+    "query": {
+      "bucketSize": "hour",
+      "endTime": "2026-11-15T13:00:00Z",
+      "podId": "tbj4mepark90np",
+      "startTime": "2026-11-15T11:00:00Z"
+    },
+    "recordCount": 0,
+    "totals": {
+      "cpuAmount": 0,
+      "diskAmount": 0,
+      "gpuAmount": 0,
+      "totalAmount": 0
+    },
+    "uniquePodCount": 0
+  },
+  "c_free_bytes_observed": 9489035264,
+  "resource_mutations": 0
+}

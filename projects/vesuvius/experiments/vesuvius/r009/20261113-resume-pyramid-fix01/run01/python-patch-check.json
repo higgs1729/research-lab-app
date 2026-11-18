@@ -1,0 +1,38 @@
+{
+  "applied_patches": {
+    "resume-pyramid.patch": "92a703f53ca15787c2912ab9dbd9af18b98176b126b9a7aec9d3c77b2f81556d",
+    "resume-pyramid-python.patch": "d997b68d9348c1fae6b24534e3cf85c4b52faad8a4dc13eea5c30beff1b18d1b"
+  },
+  "original_sha256": {
+    "vc_reader/include/vc_reader/zarr_write.hpp": "82b2df9d13eb43ab3c0c5c9b822c56f376af33852178d767ed0e925cce51a19b",
+    "vc_reader/src/cpp/zarr/pyramid.cpp": "cf5d55c99a203edb5b3db9e513b2ce27475b60c7ad48aedb9c7d2a3971710f68",
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp": "2d315d553b698943c15fad0021da3b75a5c1d5ebd03c005c1b66f3c16fe52798",
+    "vc_reader/src/cpp/bindings.cpp": "d80052a3765991518fa884c5996e859f8f098d8bac82d6f8e6d413fb8e3d31e6",
+    "vc_reader/src/vc_reader/reader/writer.py": "851197032537b921ea4210251df6bdbf287fb53ef676f4fc961bce0d6eb66a5d",
+    "vc_reader/README.md": "646136fd1f98a14b9a68cf49b5745f874b73b24e3c696981e48a4295b9500c3b",
+    "vc_reader/tests/test_zarr_writer.py": "c8887667cec14f50e4131da6536b1b7ea6528fd74ae0ed89512fa04cf9efe48f"
+  },
+  "patched_sha256": {
+    "vc_reader/include/vc_reader/zarr_write.hpp": "7e25215511819d5f4feb0dc9bfd4dc2aee4b4f68a3d7b67621a01abe4f2a4eca",
+    "vc_reader/src/cpp/zarr/pyramid.cpp": "1d121c03941ab1b20a10d16cce4c3630cd00ebf85ef395ae795b99c779b8c0e6",
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp": "f24d67855a9d4c8e5dc1a734245b1f9a6d202068f2b130b30d61c2dc7b9760f7",
+    "vc_reader/src/cpp/bindings.cpp": "c299f59d4cc2c45bfa9f79c3ae7a4776de81d94286242916d55602641df70629",
+    "vc_reader/src/vc_reader/reader/writer.py": "54743822522dae0be0ef881c0b81c0fc8925b8de24cd52348376d967ea31150d",
+    "vc_reader/README.md": "0aadffeba75b2550e96582070c0b9773717423b3c242dbb9a8a5bbf88d1cd192",
+    "vc_reader/tests/test_zarr_writer.py": "4257a0f061f283e025f940ae63a05e7d995855df2f99befb16e2a405cae2dd14"
+  },
+  "python_syntax_parsed": [
+    "vc_reader/src/vc_reader/reader/writer.py",
+    "vc_reader/tests/test_zarr_writer.py"
+  ],
+  "python_h_present": false,
+  "available_modules": {
+    "nanobind": false,
+    "vc_reader": false,
+    "numpy": false,
+    "pytest": false
+  },
+  "extension_built": false,
+  "python_integration_test_run": false,
+  "C_work_bytes": 42161084
+}

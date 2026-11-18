@@ -1,0 +1,159 @@
+{
+  "started_utc": "2026-11-14T12:46:01.503051+00:00",
+  "pid": 1540,
+  "environment": {
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "python_executable": "/usr/local/bin/python",
+    "torch": "2.13.0+cu130",
+    "cuda": "13.0",
+    "numpy": "2.5.4",
+    "driver": [
+      "NVRM version: NVIDIA UNIX Open Kernel Module for x86_64  595.91.07  Release Build  (dvs-builder@U22-I3-B08-02-2)  Wed Jul 29 03:01:16 UTC 2026"
+    ],
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "capability": [
+      8,
+      9
+    ],
+    "affinity": [
+      0
+    ],
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "matmul_fp32_precision": "ieee",
+    "cudnn_conv_fp32_precision": "ieee",
+    "nvidia_tf32_override": "0",
+    "torch_allocator_cap_bytes": 4294967296,
+    "rss_observed_limit_bytes": 4294967296,
+    "admission_gpu_and_ram": {
+      "device_free_bytes": 24838406144,
+      "device_total_bytes": 25252724736,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "peak_allocated_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "physical_available_bytes": 61087232000,
+      "process_peak_rss_bytes": 631508992
+    }
+  },
+  "patch_zyx": [
+    16,
+    64,
+    64
+  ],
+  "stride": 32,
+  "batch": 1,
+  "precision": "fp32",
+  "directions": [
+    "forward",
+    "reverse"
+  ],
+  "planned_patches": 1922,
+  "work_limit_bytes": 134217728,
+  "hard_model_seconds": 250.0,
+  "depth_orders": {
+    "forward": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "reverse": [
+      23,
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9,
+      8
+    ]
+  },
+  "actual_spacing_zyx_um": [
+    9.600000549077988,
+    9.599999913943169,
+    9.599999913943169
+  ],
+  "global_xywh": [
+    576,
+    576,
+    1024,
+    1024
+  ],
+  "main_global_xywh": [
+    608,
+    608,
+    960,
+    960
+  ],
+  "window_sha256": {
+    "forward": "66d0c82bbef280b3ffe249ca227c5fca4a2bd7ff96d62a7f31472f777285d745",
+    "reverse": "82da7f1ad7e4ae29440aed2f8c9f167e45170d9a11284b4fec0b77eaa9ba74e3"
+  },
+  "input_sha256": "2e9112c9e464b53e9220f5878f328ece152d1c5631f452447f0fefe37be3a37c",
+  "model_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+  "source_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "strict_load_seconds": 1.5869878083467484,
+  "status": "completed",
+  "captured_patches": 1922,
+  "elapsed_seconds": 106.27195891644806,
+  "direction_counts": {
+    "forward": 961,
+    "reverse": 961
+  },
+  "completed_directions": [
+    "forward",
+    "reverse"
+  ],
+  "cpu_parity": [
+    {
+      "index": 1,
+      "mae": 3.3498823714950277e-09,
+      "max_abs_diff": 1.2665987014770508e-07,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "mae": 2.4817546906419352e-09,
+      "max_abs_diff": 8.009374141693115e-08,
+      "passed": true
+    },
+    {
+      "index": 3,
+      "mae": 5.212098308504665e-09,
+      "max_abs_diff": 1.601874828338623e-07,
+      "passed": true
+    }
+  ],
+  "final_resources": {
+    "device_free_bytes": 23871619072,
+    "device_total_bytes": 25252724736,
+    "allocated_bytes": 525744640,
+    "reserved_bytes": 897581056,
+    "peak_allocated_bytes": 754979328,
+    "peak_reserved_bytes": 897581056,
+    "physical_available_bytes": 60485591040,
+    "process_peak_rss_bytes": 1721864192
+  },
+  "completed_utc": "2026-11-14T12:47:46.333266+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "r231-studio-c91feb332541e089",
+  "create_epoch": 1794738390,
+  "delete_epoch": 1794740190,
+  "precreate_list_had_no_match": true,
+  "list_hourly_usd": 0.59,
+  "requested_data_centers": [
+    "CA-MTL-1"
+  ],
+  "input_archive_sha256": "499e33cc48383a9d88cdeeab70aa5618f0fc29f7563c51d90af52a929eb2115a",
+  "result_reservation": {
+    "allocated_bytes": 12582912,
+    "file_bytes": 12582912,
+    "windows_attributes": 32,
+    "links": 1,
+    "device": 10726679257801674650,
+    "file_id": 1688849862503622
+  },
+  "free_before_reservation_bytes": 10141949952,
+  "free_after_reservation_bytes": 10129301504,
+  "pod_id": "54g607o5gbhsk1",
+  "effective_hourly_usd": 0.59,
+  "data_center": "CA-MTL-1",
+  "ready_epoch": 1794738590.8879578,
+  "transfer_end_epoch": 1794739070.8879578,
+  "model_end_epoch": 1794739970.8879578,
+  "upload_verified_epoch": 1794738639.5117562,
+  "worker_launcher_pid": 362,
+  "worker_launch_confirmed_epoch": 1794738640.092383,
+  "worker_result_seen_epoch": 1794738651.067763,
+  "collection_start_epoch": 1794738651.0677643,
+  "collection_end_epoch": 1794738771.0677643
+}

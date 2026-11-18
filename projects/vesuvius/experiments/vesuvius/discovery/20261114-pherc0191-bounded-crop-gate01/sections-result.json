@@ -1,0 +1,221 @@
+{
+  "coordinate_plan_sha256": "b9e1afeb5e12418a69d58d4cedae99379c06aadfb56d53f5d6bf6de18d0ac305",
+  "r204_sections_source_sha256": "f0c40d7dde45dea07c79441f6098b37f9066d41b76d8fc2c1394220c33ed2776",
+  "sites": [
+    {
+      "site": "z11760-x256",
+      "views": [
+        {
+          "plane": "xy",
+          "file": "sections/z11760-x256-xy.png",
+          "sha256": "a5d155038b9212cf93d60436b4d30d7dc75e140d11e7a914df52cd3657b8693d",
+          "pixels": 2937,
+          "minimum": 22,
+          "maximum": 196
+        },
+        {
+          "plane": "radial-z",
+          "file": "sections/z11760-x256-radial-z.png",
+          "sha256": "c7c935dd6a4206eef9d753140118cf85d658f8414544e0acf61684be0a7afbf9",
+          "pixels": 2937,
+          "minimum": 26,
+          "maximum": 177
+        }
+      ],
+      "marked_file": "sections/z11760-x256-marked.png",
+      "marked_sha256": "00c0b5598d4a1082b7cd1c725beb07940d618cdf9b01eb0d0d52a82d741026c1"
+    },
+    {
+      "site": "z11760-x1024",
+      "views": [
+        {
+          "plane": "xy",
+          "file": "sections/z11760-x1024-xy.png",
+          "sha256": "96b5fb16498b3c947b00609004e9e9ac5bf0a317ab3c86613a24b811b92ae4a7",
+          "pixels": 3729,
+          "minimum": 29,
+          "maximum": 200
+        },
+        {
+          "plane": "radial-z",
+          "file": "sections/z11760-x1024-radial-z.png",
+          "sha256": "66f66a1e4e2b1ffe9dfc245f332d16e27a69fc85aefaf3a859cfffe5e1942820",
+          "pixels": 3729,
+          "minimum": 28,
+          "maximum": 209
+        }
+      ],
+      "marked_file": "sections/z11760-x1024-marked.png",
+      "marked_sha256": "abea7f2036046ea471ddeabe5a835fa50763b11fa4e41ac0778c46c3dba23359"
+    },
+    {
+      "site": "z11760-x1792",
+      "views": [
+        {
+          "plane": "xy",
+          "file": "sections/z11760-x1792-xy.png",
+          "sha256": "73e0a33dd9b4c9bab84473d50f44ed8e55ea66d9365d119ce2e0aa40732fc088",
+          "pixels": 2937,
+          "minimum": 15,
+          "maximum": 176
+        },
+        {
+          "plane": "radial-z",
+          "file": "sections/z11760-x1792-radial-z.png",
+          "sha256": "c50861d6ed1c8e39e965350ff69fa3e4cccd7d39ad743880b05ceecbcf961030",
+          "pixels": 2937,
+          "minimum": 15,
+          "maximum": 184
+        }
+      ],
+      "marked_file": "sections/z11760-x1792-marked.png",
+      "marked_sha256": "f20c6ae9b30c29581738bc27c52b651015ac717acb8986db746e84fb9af32ac9"
+    },
+    {
+      "site": "z11952-x256",
+      "views": [
+        {
+          "plane": "xy",
+          "file": "sections/z11952-x256-xy.png",
+          "sha256": "5e3a581a10b8de1f7e1c1d47304d4336648e945f842c373dd55c0be925db49c2",
+          "pixels": 3036,
+          "minimum": 42,
+          "maximum": 252
+        },
+        {
+          "plane": "radial-z",
+          "file": "sections/z11952-x256-radial-z.png",
+          "sha256": "8e1d32fa3bbe84021ce83f2b535dd1e3d4049ac88208111f2da324c80916f0d9",
+          "pixels": 3036,
+          "minimum": 45,
+          "maximum": 252
+        }
+      ],
+      "marked_file": "sections/z11952-x256-marked.png",
+      "marked_sha256": "4b6618b97d4ed220cb1278ff076d8afbc0cfd3fab423a0e678533194f9e2587e"
+    },
+    {
+      "site": "z11952-x1024",
+      "views": [
+        {
+          "plane": "xy",
+          "file": "sections/z11952-x1024-xy.png",
+          "sha256": "ff1bc581eb77db448f987420f22ff41c79acee4d7120e362d5f3073c3de7dba0",
+          "pixels": 2607,
+          "minimum": 25,
+          "maximum": 178
+        },
+        {
+          "plane": "radial-z",
+          "file": "sections/z11952-x1024-radial-z.png",
+          "sha256": "5371d93f415c484e408c42b20dd6833f1f799bae40094e8c9f5e2cdde7b8d884",
+          "pixels": 2607,
+          "minimum": 28,
+          "maximum": 173
+        }
+      ],
+      "marked_file": "sections/z11952-x1024-marked.png",
+      "marked_sha256": "0d8cb5720092fd869e416db5c6efa953a2a560520c63b728039e92a999ae42f6"
+    },
+    {
+      "site": "z11952-x1792",
+      "views": [
+        {
+          "plane": "xy",
+          "file": "sections/z11952-x1792-xy.png",
+          "sha256": "7df72831fd025fa5052487cc645fe88f4e09f615c00fcf9a113fd75c0f054000",
+          "pixels": 4884,
+          "minimum": 18,
+          "maximum": 255
+        },
+        {
+          "plane": "radial-z",
+          "file": "sections/z11952-x1792-radial-z.png",
+          "sha256": "c8e3ff3cbbafb7fea6d7662b0c9fab16799feea9916d4ffa385c09183d13c53a",
+          "pixels": 4884,
+          "minimum": 22,
+          "maximum": 255
+        }
+      ],
+      "marked_file": "sections/z11952-x1792-marked.png",
+      "marked_sha256": "01f1abfa9d9ff1b867375aa21b9a136a658dd369ebecacb93b3ba06170cc1ffa"
+    },
+    {
+      "site": "z12240-x256",
+      "views": [
+        {
+          "plane": "xy",
+          "file": "sections/z12240-x256-xy.png",
+          "sha256": "4031eef62501e1812991d477e6cea2ae60e872490a73ed22a6017925c4616cc6",
+          "pixels": 2805,
+          "minimum": 15,
+          "maximum": 190
+        },
+        {
+          "plane": "radial-z",
+          "file": "sections/z12240-x256-radial-z.png",
+          "sha256": "0296a04c3fd05314dceb819233dfa662627f900bd269cdae3a9c3b97c80e7505",
+          "pixels": 2805,
+          "minimum": 18,
+          "maximum": 222
+        }
+      ],
+      "marked_file": "sections/z12240-x256-marked.png",
+      "marked_sha256": "a74aea2ba72ed089e764818c513c36585ce6661c6a8a646e6108b8401fb72ac7"
+    },
+    {
+      "site": "z12240-x1024",
+      "views": [
+        {
+          "plane": "xy",
+          "file": "sections/z12240-x1024-xy.png",
+          "sha256": "ab20c48f3b00339c57c607d782a67cd6e206f06ca026197593432aa7455802d6",
+          "pixels": 2739,
+          "minimum": 16,
+          "maximum": 196
+        },
+        {
+          "plane": "radial-z",
+          "file": "sections/z12240-x1024-radial-z.png",
+          "sha256": "f999f9151e12d498e11763c86389f726c185c5a89ed6acd91ed92d8a29c4c577",
+          "pixels": 2739,
+          "minimum": 19,
+          "maximum": 176
+        }
+      ],
+      "marked_file": "sections/z12240-x1024-marked.png",
+      "marked_sha256": "2cca1987c11213379fb25b6df2de37a77850fe8fddcf37c2eeb39a33febb7bdf"
+    },
+    {
+      "site": "z12240-x1792",
+      "views": [
+        {
+          "plane": "xy",
+          "file": "sections/z12240-x1792-xy.png",
+          "sha256": "e6a60ed2fd40ebc31ee366c52c0100ae7fc802a1da1b2bca31be136eb75f151a",
+          "pixels": 2904,
+          "minimum": 20,
+          "maximum": 190
+        },
+        {
+          "plane": "radial-z",
+          "file": "sections/z12240-x1792-radial-z.png",
+          "sha256": "48ee1fb88a02bf238bd669bc163f88fdc32beb568070e81b10dfe270c9b069e6",
+          "pixels": 2904,
+          "minimum": 17,
+          "maximum": 204
+        }
+      ],
+      "marked_file": "sections/z12240-x1792-marked.png",
+      "marked_sha256": "1f57e183773e35d09bc6388554d8630168f7befb941ee9a27b70505cdee836ac"
+    }
+  ],
+  "ct_pixels_resampled": 57156,
+  "plain_png_values": "uint8 standard CT DN, float64 trilinear sampled at oriented planes; no contrast adjustment",
+  "gpu_calls": 0,
+  "model_calls": 0,
+  "disk": {
+    "c_free_bytes": 23403065344,
+    "work_bytes": 61247412
+  }
+}

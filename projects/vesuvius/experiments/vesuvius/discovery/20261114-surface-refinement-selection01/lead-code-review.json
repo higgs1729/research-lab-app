@@ -1,0 +1,45 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "source_root": "/home/tomoy/bundle-fixed-main-run01-pywin6ml/villa",
+  "fixed_version": "14d4e725df8b569e6fc8ceb3c04d130f705c1565",
+  "read_locations": {
+    "volume-cartographer/apps/src/ObjAlphaCompRefinement.cpp": [
+      35,
+      162,
+      177,
+      181,
+      199,
+      204,
+      209,
+      336,
+      352
+    ],
+    "vc_reader/include/vc_reader/grid.hpp": [
+      113
+    ],
+    "vc_reader/src/cpp/grid/grid.cpp": [
+      520,
+      569
+    ],
+    "volume-cartographer/core/src/PlaneSurface.cpp": [
+      119,
+      121
+    ]
+  },
+  "derivation": {
+    "plane_sample": "P + i*dx + j*dy + depth*N",
+    "evaluated_patch_pixel": "(r,r), after a symmetric Gaussian blur",
+    "evaluated_tangent_center": "P + r*dx + r*dy",
+    "dx_dy": "unit orthogonal plane basis divided by reader.scale",
+    "default_r": 3,
+    "default_reader_scale": 0.5,
+    "default_each_tangent_axis_voxel": 6,
+    "default_tangent_distance_voxel": 8.48528137423857,
+    "default_tangent_distance_um_at_8_64": 73.31283107342125,
+    "displacement": "N * (sum_k(T_k * alpha_k * depth_k)/(sum_k(T_k * alpha_k)+1e-5) + border_off)",
+    "all_zero_opacity": "Weighted offset=0, but default border_off=1 still moves the vertex."
+  },
+  "assessment": "Confirmed separate reading of source geometry and arithmetic; no execution of vc_objrefine. The method is a directional opacity estimator and has no observed physical-sheet identity. The tangent shift follows the published code contract, but whether it is intended for refinement or a defect is unresolved. Do not apply a correction to the unread candidate yet.",
+  "next_boundary": "A bounded existing-code geometry/opacity check could quantify the effect before any mesh correction. Missing CT support must be checked explicitly; the source-selection task reports zero fill on missing chunks."
+}

@@ -1,0 +1,406 @@
+{
+  "input_shape_yx": [
+    246,
+    2670
+  ],
+  "fine_vertices": 249944,
+  "fine_faces": 478224,
+  "input_quads": 239112,
+  "fine_components": 9,
+  "original_grid_quality": {
+    "input_faces": 478224,
+    "area3_total": 101749890.19763327,
+    "invalid_uv_faces": 0,
+    "zero_uv_area_faces": 0,
+    "negative_uv_area_faces": 0,
+    "undefined_or_nonpositive_uv_area_fraction": 0.0,
+    "positive_faces_only": {
+      "faces": 478224,
+      "area3_fraction": 1.0,
+      "area_weighted_normalized_symmetric_dirichlet": 1.0521256605161815,
+      "area_weighted_inverse_L2_rms": 1.061830099713392,
+      "max_symmetric_singular_stretch": 14.933334703819895,
+      "uv_area_over_3d_area": 0.9399990487874229,
+      "area_ratio_percentiles_1_50_99": [
+        0.6426855245946204,
+        0.9653947268746146,
+        1.2880789999989524
+      ],
+      "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+        1.0330683363716038,
+        1.1580917031917637,
+        1.2595064441981256
+      ]
+    },
+    "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+  },
+  "runs": {
+    "candidate_F": {
+      "tag": "hard_scaf_second_keep1p5_01",
+      "output_shape_yx": [
+        245,
+        3043
+      ],
+      "output_points": 247525,
+      "empty_fraction": 0.6679901010683603,
+      "all_distance_gt20": 270,
+      "same_component_distance_gt20": 281,
+      "same_component_distance_gt40": 65,
+      "same_component_distance_max": 78.52390327959255,
+      "rejected_pixel_events": 564,
+      "cross_component_rejected_events": 0,
+      "mixed_component_output_quads": 0,
+      "cross_component_valid_grid_edges": 0,
+      "quality": {
+        "input_faces": 478224,
+        "area3_total": 101749890.19763327,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 478224,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.2172714919087522,
+          "area_weighted_inverse_L2_rms": 1.2008238153956585,
+          "max_symmetric_singular_stretch": 537.2258835436866,
+          "uv_area_over_3d_area": 0.9736439000787102,
+          "area_ratio_percentiles_1_50_99": [
+            0.6995815705834899,
+            0.9799565892149507,
+            1.382256963621762
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0065724921043615,
+            1.091203935159851,
+            1.2985818443497685
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      },
+      "per_component": [
+        {
+          "component": 0,
+          "input_quads": 28836,
+          "output_points": 29418,
+          "same_component_distance_gt20": 7,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 1,
+          "input_quads": 187776,
+          "output_points": 195361,
+          "same_component_distance_gt20": 262,
+          "same_component_distance_gt40": 62
+        },
+        {
+          "component": 2,
+          "input_quads": 18468,
+          "output_points": 18723,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 3,
+          "input_quads": 36,
+          "output_points": 32,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 4,
+          "input_quads": 36,
+          "output_points": 51,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 5,
+          "input_quads": 864,
+          "output_points": 972,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 6,
+          "input_quads": 1944,
+          "output_points": 1918,
+          "same_component_distance_gt20": 12,
+          "same_component_distance_gt40": 3
+        },
+        {
+          "component": 7,
+          "input_quads": 1116,
+          "output_points": 1019,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 8,
+          "input_quads": 36,
+          "output_points": 31,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        }
+      ],
+      "vs_candidate_F": {
+        "recovered_to_20": 0,
+        "new_gt20": 0,
+        "both_gt20": 281
+      },
+      "vs_control": {
+        "recovered_to_20": 0,
+        "new_gt20": 0,
+        "both_gt20": 281
+      }
+    },
+    "control": {
+      "tag": "pin_control_second_keep1p5_01",
+      "output_shape_yx": [
+        245,
+        3043
+      ],
+      "output_points": 247525,
+      "empty_fraction": 0.6679901010683603,
+      "all_distance_gt20": 270,
+      "same_component_distance_gt20": 281,
+      "same_component_distance_gt40": 65,
+      "same_component_distance_max": 78.52390327959255,
+      "rejected_pixel_events": 564,
+      "cross_component_rejected_events": 0,
+      "mixed_component_output_quads": 0,
+      "cross_component_valid_grid_edges": 0,
+      "quality": {
+        "input_faces": 478224,
+        "area3_total": 101749890.19763327,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 478224,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.2172492992378676,
+          "area_weighted_inverse_L2_rms": 1.2008052905559123,
+          "max_symmetric_singular_stretch": 537.2258835436866,
+          "uv_area_over_3d_area": 0.9736437974831601,
+          "area_ratio_percentiles_1_50_99": [
+            0.6996156194270211,
+            0.9799569489264313,
+            1.382256963621762
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.006572429923573,
+            1.091203935159851,
+            1.2986507818814292
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      },
+      "per_component": [
+        {
+          "component": 0,
+          "input_quads": 28836,
+          "output_points": 29418,
+          "same_component_distance_gt20": 7,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 1,
+          "input_quads": 187776,
+          "output_points": 195361,
+          "same_component_distance_gt20": 262,
+          "same_component_distance_gt40": 62
+        },
+        {
+          "component": 2,
+          "input_quads": 18468,
+          "output_points": 18723,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 3,
+          "input_quads": 36,
+          "output_points": 32,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 4,
+          "input_quads": 36,
+          "output_points": 51,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 5,
+          "input_quads": 864,
+          "output_points": 972,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 6,
+          "input_quads": 1944,
+          "output_points": 1918,
+          "same_component_distance_gt20": 12,
+          "same_component_distance_gt40": 3
+        },
+        {
+          "component": 7,
+          "input_quads": 1116,
+          "output_points": 1019,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 8,
+          "input_quads": 36,
+          "output_points": 31,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        }
+      ],
+      "vs_candidate_F": {
+        "recovered_to_20": 0,
+        "new_gt20": 0,
+        "both_gt20": 281
+      },
+      "vs_control": {
+        "recovered_to_20": 0,
+        "new_gt20": 0,
+        "both_gt20": 281
+      }
+    },
+    "release": {
+      "tag": "pin_release_second_keep1p5_01",
+      "output_shape_yx": [
+        245,
+        3043
+      ],
+      "output_points": 247527,
+      "empty_fraction": 0.6679874184310596,
+      "all_distance_gt20": 266,
+      "same_component_distance_gt20": 277,
+      "same_component_distance_gt40": 65,
+      "same_component_distance_max": 78.52390327959255,
+      "rejected_pixel_events": 564,
+      "cross_component_rejected_events": 0,
+      "mixed_component_output_quads": 0,
+      "cross_component_valid_grid_edges": 0,
+      "quality": {
+        "input_faces": 478224,
+        "area3_total": 101749890.19763327,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 478224,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.1756903070124083,
+          "area_weighted_inverse_L2_rms": 1.1656845079177336,
+          "max_symmetric_singular_stretch": 537.2258835436866,
+          "uv_area_over_3d_area": 0.9736424010479834,
+          "area_ratio_percentiles_1_50_99": [
+            0.6995581291537291,
+            0.9799561841844561,
+            1.3822515283675043
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0065728904507427,
+            1.0912188981398991,
+            1.2990196118073036
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      },
+      "per_component": [
+        {
+          "component": 0,
+          "input_quads": 28836,
+          "output_points": 29418,
+          "same_component_distance_gt20": 7,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 1,
+          "input_quads": 187776,
+          "output_points": 195363,
+          "same_component_distance_gt20": 258,
+          "same_component_distance_gt40": 62
+        },
+        {
+          "component": 2,
+          "input_quads": 18468,
+          "output_points": 18723,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 3,
+          "input_quads": 36,
+          "output_points": 32,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 4,
+          "input_quads": 36,
+          "output_points": 51,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 5,
+          "input_quads": 864,
+          "output_points": 972,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 6,
+          "input_quads": 1944,
+          "output_points": 1918,
+          "same_component_distance_gt20": 12,
+          "same_component_distance_gt40": 3
+        },
+        {
+          "component": 7,
+          "input_quads": 1116,
+          "output_points": 1019,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        },
+        {
+          "component": 8,
+          "input_quads": 36,
+          "output_points": 31,
+          "same_component_distance_gt20": 0,
+          "same_component_distance_gt40": 0
+        }
+      ],
+      "vs_candidate_F": {
+        "recovered_to_20": 5,
+        "new_gt20": 1,
+        "both_gt20": 276
+      },
+      "vs_control": {
+        "recovered_to_20": 5,
+        "new_gt20": 1,
+        "both_gt20": 276
+      }
+    }
+  },
+  "common_positive_quality": {
+    "faces": 478224,
+    "area3_fraction": 1.0,
+    "area_weighted_normalized_symmetric_dirichlet": {
+      "candidate_F": 1.2172714919087522,
+      "control": 1.2172492992378676,
+      "release": 1.1756903070124083,
+      "original_grid": 1.0521256605161815
+    }
+  }
+}

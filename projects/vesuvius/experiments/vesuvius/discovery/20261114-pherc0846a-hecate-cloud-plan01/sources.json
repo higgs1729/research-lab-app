@@ -1,0 +1,77 @@
+{
+  "sources": [
+    {
+      "url": "https://www.runpod.io/pricing",
+      "local": "originals/pricing.html",
+      "request_utc": "2026-11-14T10:35:40.807702+00:00",
+      "http_status": 200,
+      "method": "GET",
+      "bytes": 340314,
+      "sha256": "6b1ff820f0db5d8944225056e3398b2d1eb0d773ff6f06e74f675a174157fdb2"
+    },
+    {
+      "url": "https://docs.runpod.io/pods/pricing.md",
+      "local": "originals/pods-pricing.md",
+      "request_utc": "2026-11-14T10:35:40.947539+00:00",
+      "http_status": 200,
+      "method": "GET",
+      "bytes": 5382,
+      "sha256": "66ac21b8a91596fb01d4ab9e6c55ebd86213afccb527186160e45b0a705491ac"
+    },
+    {
+      "url": "https://docs.runpod.io/pods/manage-pods.md",
+      "local": "originals/manage-pods.md",
+      "request_utc": "2026-11-14T10:35:41.085166+00:00",
+      "http_status": 200,
+      "method": "GET",
+      "bytes": 11864,
+      "sha256": "50ec9d7f7187d49fc834f1e9c4b8e9697c6e29468a0d9c41e7fb29e3e3027e17"
+    },
+    {
+      "url": "https://docs.runpod.io/pods/templates/environment-variables.md",
+      "local": "originals/env.md",
+      "request_utc": "2026-11-14T10:35:41.212776+00:00",
+      "http_status": 200,
+      "method": "GET",
+      "bytes": 6019,
+      "sha256": "66f09469a6c9c30c648046c7d1cc4910cbcaa88b759faea69e87765f8ee22a68"
+    },
+    {
+      "url": "https://docs.runpod.io/accounts-billing/billing.md",
+      "local": "originals/billing.md",
+      "request_utc": "2026-11-14T10:35:41.345114+00:00",
+      "http_status": 200,
+      "method": "GET",
+      "bytes": 9398,
+      "sha256": "993b887e3915bd2eebe66f186da88b3b06ba8f46cec6c701d7c65166a99df68c"
+    },
+    {
+      "url": "https://api.runpod.io/v2/openapi.json",
+      "local": "originals/openapi.json",
+      "request_utc": "2026-11-14T10:35:41.479224+00:00",
+      "http_status": 200,
+      "method": "GET",
+      "bytes": 422232,
+      "sha256": "41f48a46a68fd023cedf9bb5a53c957a8359fb27d72d8e68b85729cc3ae9f26d"
+    },
+    {
+      "url": "https://hub.docker.com/v2/repositories/runpod/pytorch/tags/2.1.0-cu1300-torch2130-ubuntu2404",
+      "local": "originals/docker-tag.json",
+      "request_utc": "2026-11-14T10:35:42.142209+00:00",
+      "http_status": 200,
+      "method": "GET",
+      "bytes": 845,
+      "sha256": "8ab22b7b711ccea2e37ee98b14ad5bee939551a433eca4717bb927aff4116802"
+    },
+    {
+      "url": "https://api.runpod.io/v2/catalog/gpus?include=AVAILABILITY&product=POD&count=1&cloud=SECURE&minCudaVersion=13.0",
+      "local": "catalog-snapshot.json",
+      "request_utc": "2026-11-14T10:35:42.484491+00:00",
+      "http_status": 200,
+      "method": "GET",
+      "bytes": 1271,
+      "sha256": "b36cd4642b25052b7a6cd5ae43cc5fb2d4677590e6f2b03997831f0358ce4a9f",
+      "saved": "only the fixed GPU row from the authenticated catalog"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "r201-hecate-3c44b0a6d15cf04c",
+  "create_epoch": 1794656042,
+  "delete_epoch": 1794657242,
+  "precreate_list_had_no_match": true,
+  "list_hourly_usd": 0.89,
+  "input_archive_sha256": "6386a46d938f1fce52e4bc50cdbf00d13e4190098d54ebe36e5bc93ed7a2b782",
+  "pod_id": "pqgmm8obc1rojl"
+}

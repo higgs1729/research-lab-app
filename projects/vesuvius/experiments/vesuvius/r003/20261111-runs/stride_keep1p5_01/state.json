@@ -1,0 +1,85 @@
+{
+  "status": "complete",
+  "command": [
+    "/mnt/d/kensyoukin-work/r003-build/bin/flatboi",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01",
+    "--output=/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-runs/stride_keep1p5_01/output",
+    "--keep=1.5"
+  ],
+  "binary_sha256": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef",
+  "input_manifest": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01/manifest.json",
+  "keep_percent": 1.5,
+  "default_iterations": 50,
+  "default_energy": "symmetric_dirichlet",
+  "affinity": [
+    0
+  ],
+  "threads": 1,
+  "wandb_disabled": true,
+  "started_utc": "2026-11-11T11:43:10.726535+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 5.7066229949999965,
+  "completed_utc": "2026-11-11T11:43:16.441066+00:00",
+  "outputs": [
+    {
+      "file": "output/meta.json",
+      "bytes": 991,
+      "sha256": "00b67d6cfffeec5a694ab391a04f301946a7047937ccc292583753874df320b8"
+    },
+    {
+      "file": "output/x.tif",
+      "bytes": 344306,
+      "sha256": "7c5544a7d4d949130b96a6f60610274dfd1df0ec0e1d740efdc077f8b6a08559"
+    },
+    {
+      "file": "output/y.tif",
+      "bytes": 344306,
+      "sha256": "83983f13d786274717c17da503a3ea52f062f79a92ffc6ae6a30b203328751bf"
+    },
+    {
+      "file": "output/z.tif",
+      "bytes": 344306,
+      "sha256": "34c5ad0db5482be9007d279942dc2469f15f2169699a78e0619e1de9734f43e6"
+    },
+    {
+      "file": "output_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "2c8a0e0825db6e665e6a8a7db67650acbfccedde497200cbaab9b7d1b041cc5e"
+    },
+    {
+      "file": "output_heat_L2.png",
+      "bytes": 50801,
+      "sha256": "6cd15dbce7c9cec2d5b4fccb1afe161259b2851312ca7066a4a0018b7ae36a19"
+    },
+    {
+      "file": "output_heat_Linf.png",
+      "bytes": 50265,
+      "sha256": "c8b2aa94e612232e4fbaa6ebacfcbecc6f8efa8ea94637ea7984361c97338c05"
+    },
+    {
+      "file": "output_heat_kappa.png",
+      "bytes": 50664,
+      "sha256": "3c81a0c9d6bc029da2e9014691f84f6a401b49b096c991d5660eaecd510b9901"
+    },
+    {
+      "file": "output_heat_logarea.png",
+      "bytes": 54557,
+      "sha256": "bdc170cf5a23ad57fa32650fe0521724c3a38c6a382bda796fbac2ccaae2daa9"
+    },
+    {
+      "file": "output_heat_ranges.txt",
+      "bytes": 246,
+      "sha256": "97f932d0b00294c54d0908cbe232a3cf3cc52388198d241974c8b4dd799aa3ad"
+    },
+    {
+      "file": "runner.py",
+      "bytes": 3037,
+      "sha256": "32e542dd28ffd3163633af2f07c6e3c9ef2f46a7f21f3514f0dd08832fb0d180"
+    },
+    {
+      "file": "stdout.log",
+      "bytes": 3440,
+      "sha256": "b483dda1475dd1a96a12fd49aaaaa852a2c71ace7596fa1d130fe33c7c08236f"
+    }
+  ]
+}

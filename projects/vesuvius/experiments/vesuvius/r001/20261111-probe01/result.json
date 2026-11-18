@@ -1,0 +1,112 @@
+{
+  "question": "Can official same-scan labels be located on gen19 with bounded partial reads?",
+  "tile_yx": [
+    8,
+    44
+  ],
+  "label_pixel_origin_yx": [
+    4096,
+    22528
+  ],
+  "label_classes_inside_supervision": {
+    "0": 95195,
+    "255": 166456
+  },
+  "supervision_pixels": 261651,
+  "source_mesh_info": [
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/segments/20231016151002/mesh/20231016151002-on-20260411134726-2.4um.tifxyz/x.tif",
+      "shape": [
+        1598,
+        2598
+      ],
+      "offset": 8
+    },
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/segments/20231016151002/mesh/20231016151002-on-20260411134726-2.4um.tifxyz/y.tif",
+      "shape": [
+        1598,
+        2598
+      ],
+      "offset": 8
+    },
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/segments/20231016151002/mesh/20231016151002-on-20260411134726-2.4um.tifxyz/z.tif",
+      "shape": [
+        1598,
+        2598
+      ],
+      "offset": 8
+    }
+  ],
+  "target_mesh_info": [
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/segments/20260926044226-spiral-output-generation-19/mesh/intermediate/tifxyz_normalized/x.tif",
+      "shape": [
+        956,
+        56913
+      ],
+      "offset": 272
+    },
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/segments/20260926044226-spiral-output-generation-19/mesh/intermediate/tifxyz_normalized/y.tif",
+      "shape": [
+        956,
+        56913
+      ],
+      "offset": 272
+    },
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHercParis4/segments/20260926044226-spiral-output-generation-19/mesh/intermediate/tifxyz_normalized/z.tif",
+      "shape": [
+        956,
+        56913
+      ],
+      "offset": 272
+    }
+  ],
+  "source_crop_origin_yx": [
+    202,
+    1124
+  ],
+  "source_grid_center_yx": [
+    217.6,
+    1139.2
+  ],
+  "source_center_target_xyz": [
+    4486.27212890625,
+    5626.88283203125,
+    17620.724765625
+  ],
+  "coarse_candidate_yx": [
+    95.0,
+    55852
+  ],
+  "coarse_projection_distance_voxels": 57.86596315272723,
+  "nearest_dense_node_yx": [
+    92,
+    55852
+  ],
+  "nearest_node_distance_voxels": 5.3149162310283415,
+  "target_crop_origin_yx": [
+    86,
+    55836
+  ],
+  "target_crop_shape": [
+    14,
+    34,
+    3
+  ],
+  "network_bytes": 26949960,
+  "elapsed_seconds": 59.98359140002867,
+  "paid_compute_usd": 0,
+  "versions": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.2",
+    "numcodecs": "0.17.1"
+  },
+  "limitations": [
+    "Candidate localization only; nearest-node distance includes grid quantization.",
+    "No surface/normal/round-trip validation and no ink alignment measurement yet."
+  ]
+}

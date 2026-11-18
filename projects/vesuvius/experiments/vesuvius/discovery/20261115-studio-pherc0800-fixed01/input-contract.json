@@ -1,0 +1,82 @@
+{
+  "plan_sha256": "f7cff2e3ecfd9f314dd8fd7ceaae5d144f37a8a57584c5a21197debf09fe4330",
+  "source": {
+    "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-reader-v3-pherc0800-fixed01\\native31.npy",
+    "bytes": 73138304,
+    "sha256": "bd6e0d9469710378cf349d13698d0fa917941213377c5314d349f9e318384691"
+  },
+  "source_shape": [
+    31,
+    1536,
+    1536
+  ],
+  "source_support_xywh": [
+    0,
+    384,
+    1536,
+    1536
+  ],
+  "crop_in_support_xywh": [
+    48,
+    176,
+    1216,
+    1216
+  ],
+  "bbox_xywh": [
+    48,
+    560,
+    1216,
+    1216
+  ],
+  "shape": [
+    16,
+    1216,
+    1216
+  ],
+  "dtype": "uint8",
+  "sha256": "4353a11324e7233f64e1ff598dd3e747774450d9e4df85c73881678ba44e5c39",
+  "raw_sha256": "532f4a0c2046b9053d327382a282ffc0de6caeec26c0a21e173d46ab43b328cb",
+  "source_depth_indices": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "reverse_source_depth_indices": [
+    22,
+    21,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8,
+    7
+  ],
+  "interpolation": null,
+  "normal_mapping": "unverified",
+  "known_input_contract": {
+    "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\known\\input-contract.json",
+    "bytes": 1543,
+    "sha256": "c0e919e923635b0dd1a3a96d725b30b7953fc029da9aa171b5ebe69fb0bfc8cc"
+  }
+}

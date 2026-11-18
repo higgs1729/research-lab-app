@@ -1,0 +1,244 @@
+{
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/compare.py",
+      "sha256": "f9fc2e5c2999ff60293e33ee6dd37b9ad39279e1e39a4428b7b22a62b62ff4e4",
+      "bytes": 2396
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/compare02-process.json",
+      "sha256": "4fb643c6d6062a779fc81c001b52917512abcf924b11bf428575c9bda92c6400",
+      "bytes": 680
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/compare02.log",
+      "sha256": "e832db29d06f713e3afd28df2056dc49b5a19cb4d5cf0a43b6c4423e5f10175b",
+      "bytes": 63
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/launch01.log",
+      "sha256": "405b229fc5479a6d12e8ee912d85788654d914925cbe4dd4ef524fcadb7f20c7",
+      "bytes": 1223
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/launch02.log",
+      "sha256": "4989b1c2c6f53636605db0cdac8456a8ceed9316ded91a8c2b3de50e4aedca9c",
+      "bytes": 885
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/lead-check-process.json",
+      "sha256": "7e8b38bcbc15a120c5bec468aaf79d11f1957e52c15ebbf33997df6b6acb9ea3",
+      "bytes": 642
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/lead-check.json",
+      "sha256": "f3bc0804f8389e5cc4a58506acd42f16668887031ce73dabcf49eb331b4fc510",
+      "bytes": 2669
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/lead_check.py",
+      "sha256": "441122983fb258faa4c1b1cde2d92c8d4504a69cd0a71361da360693ef3d08d0",
+      "bytes": 3302
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/README.md",
+      "sha256": "38fef16bb423bf9398df3903d16d314e0285f1ea264b19787640f38f81d18d6e",
+      "bytes": 5259
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/record.json",
+      "sha256": "67f003a5985b0b08790ee142c9f0c665431d23b815a4435980ad3833006be76c",
+      "bytes": 2556
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run.py",
+      "sha256": "cdc1b6cb1caa49228f0c41483639fba57e348ef057299c6c0b6cab761b6e0292",
+      "bytes": 16287
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run01/failure.json",
+      "sha256": "0772761ae64f4117f5941ac6cb0ee7227a30f5447b5313a7548d929499dc50d1",
+      "bytes": 243
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run01/final-state.json",
+      "sha256": "7e62d582a72442529531039d4f11478b1c5d0c370a43d4e624049ff012f7239c",
+      "bytes": 2292
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run01/prepared-inputs.json",
+      "sha256": "5dc332388acd3db8ad9c978065b8a39579590234f4ba528cd27b6f629fd6f817",
+      "bytes": 2266
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run01/start.json",
+      "sha256": "5eb1dc03f72b41db0f6aa75329c6f15d77367e780719c6c9bcb4f2b1e30631e0",
+      "bytes": 1442
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/build-process.json",
+      "sha256": "9baedac6e1fb481ec78678958b1d1e7e82a8b4adba4d119137f3838ece5fe5be",
+      "bytes": 9229
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/build-start.json",
+      "sha256": "4959af3bee8b857049c60392233eb6e1bc420418f0bc70d02e5f8a17cda23a82",
+      "bytes": 2231
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/build-time.txt",
+      "sha256": "363233b6c2570346a05a64a9addca43bc7f7aa7352ba2d7b005163c7a9b49c69",
+      "bytes": 21
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/build.log",
+      "sha256": "94e1eab500db4fd7cfe31e3e06667fe32e5e0eb3b0cab1a08e5c83739203c1c8",
+      "bytes": 98696
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/build.ninja",
+      "sha256": "7b8629a7c4fe29e4aed4ef714b7522f38ce0a857c5a67aee7e2586f784e1264c",
+      "bytes": 2783000
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/CMakeCache.txt",
+      "sha256": "ed8d344e8ddb1941f946e0d49cd515114d31b286a6f2a57f9800d57c7da932d5",
+      "bytes": 120818
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/comparison.json",
+      "sha256": "81aba6ac5afac820b637b8f4e8b3e50ddd006835634607ccb2403f45f6654177",
+      "bytes": 1526
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/compile_commands.json",
+      "sha256": "862340633efae066ed13ad0d7774f004f9f3cd860e8b1ca39bc4511cf06ebf77",
+      "bytes": 1490031
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/configure-check.json",
+      "sha256": "fb6081567aafb40e7ab4e1ae0026ed91eb126527aca02c767493531d5a175ee9",
+      "bytes": 4036
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/configure-process.json",
+      "sha256": "cc6ee7f31648df5d48262b89faca2db0b8661c87a9ba1d40ac7c1e968fc490d7",
+      "bytes": 2368
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/configure-start.json",
+      "sha256": "17588e27ec02e64155a64c7050f5c9162a6ecd0d2a27f915d8bef9fe8b6ec17e",
+      "bytes": 3039
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/configure-time.txt",
+      "sha256": "8a8c4e76b12f66da0f76484382e309c074b69e762dccffbf4ace9e47ab5774e3",
+      "bytes": 16
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/configure.log",
+      "sha256": "ee596e2b8ef6125118b894fd069f01b7d70e017037311395255ae76fb0678776",
+      "bytes": 49744
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/execution-result.json",
+      "sha256": "209ced95cdbccd69a55224569cf2646c27bf4f58c6388140713bd54c8fe7eb73",
+      "bytes": 839
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/final-state.json",
+      "sha256": "a3bd61ef08261da4a32d8d942a6c0c0aa424b2ed72f53b3b790285d3e96411a9",
+      "bytes": 2296
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/link-check.json",
+      "sha256": "6f6e24c3252b0e9c9a84c9e5633acd5ae9765ac9c5ad0121153caab8b47cf930",
+      "bytes": 18880
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/native-output/meta.json",
+      "sha256": "1759e763c7b4ad55d3718b52fd8d28542c14df8770354b4cc44d7d38784ff639",
+      "bytes": 993
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/native-output/x.tif",
+      "sha256": "c16a2b45b1fed2b85bc2898d002247ad1e5299673616cbcf0762204db94c51d1",
+      "bytes": 470066
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/native-output/y.tif",
+      "sha256": "cb18e6559b1582ea762e74446c7ac17c896e3ca1501ecef17877f52db224dbdb",
+      "bytes": 470066
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/native-output/z.tif",
+      "sha256": "219fa428ade0d4a3d09a6be1c5471c4121fa0ca3e42c9a4b68204343ddc8aea2",
+      "bytes": 470066
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/native-process.json",
+      "sha256": "5d40c2089c3dda97b08535f4da3d68ab5110a47fdcb5cfae012bb130b04b2b9b",
+      "bytes": 946
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/native-start.json",
+      "sha256": "4b13482cb34159b277ce4c86888bf1c90e26d265a011c1857cac76ba89c5b819",
+      "bytes": 2339
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/native-time.txt",
+      "sha256": "64fe5bc342c0c93139258a542e76fa9e21bcb13d1da74d9986aeb6e24e434927",
+      "bytes": 18
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/native.log",
+      "sha256": "cf23af016148d33fcb77c8e41778ce04095554be1c933d0d771e17490541a1c8",
+      "bytes": 1438
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/obj2tifxyz-help-process.json",
+      "sha256": "4d466daa4fc6747e5168440847ab6e1218be678a29e4c80e4385e50c58687991",
+      "bytes": 489
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/obj2tifxyz-help-start.json",
+      "sha256": "716676da7111dba55d66fb4d5b94e09377503a914692b06ec8b01ef23ac2b363",
+      "bytes": 2164
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/obj2tifxyz-help-time.txt",
+      "sha256": "f8546ef118871ec93e049a7fefe58b8f576176d03892319c1de7a63b2dbad082",
+      "bytes": 16
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/obj2tifxyz-help.log",
+      "sha256": "c3d114cc45d4535a338e65f4ff9480eea471d8e75c819170869e09615526f606",
+      "bytes": 1929
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/patched-source-sha256.json",
+      "sha256": "d690f76e1f8eeae99da51e16d758dd32388ab7f26837166d4179dcb0f919d567",
+      "bytes": 539
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/preconfigure.json",
+      "sha256": "9025c7568d0f5fb916facea52faadef071b952d28e842411d15a6c911ec426a2",
+      "bytes": 3222
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/prepared-inputs.json",
+      "sha256": "5dc332388acd3db8ad9c978065b8a39579590234f4ba528cd27b6f629fd6f817",
+      "bytes": 2266
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-standard-cmake-build01/run02/start.json",
+      "sha256": "459dba3580a07cda58e24ea7df325e643465286aba0f015c6c1645b405eceadd",
+      "bytes": 1442
+    },
+    {
+      "path": "research/159-r005-standard-cmake-build.md",
+      "sha256": "54e3986d1b6b7f25c50451433f383eeda09e0d2e2d1b93c7cdc69bec82247a11",
+      "bytes": 7880
+    }
+  ]
+}

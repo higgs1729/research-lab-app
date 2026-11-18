@@ -1,0 +1,101 @@
+{
+  "crop_xywh": [
+    7356,
+    2272,
+    128,
+    128
+  ],
+  "interpolation": "bicubic",
+  "geometry_sha256": "acfc8aa29c4f624fd9d5a71715e660f231af098ac85e30f81c85cdc460ec9dbd",
+  "raster": [
+    367.8250054810196,
+    113.62500169314444,
+    0.05000000074505806,
+    0.05000000074505806,
+    128,
+    128
+  ],
+  "valid_xyz_pixels": 16384,
+  "valid_normal_pixels": 16384,
+  "pixels": 16384,
+  "valid_fraction": 1.0,
+  "connected_4_neighbor_region_sizes": [
+    16384
+  ],
+  "corner_original_component_pixel_counts": {
+    "0": 16384
+  },
+  "nonmissing_derivative_stencil_original_components": [
+    0
+  ],
+  "centre_pixel_yx": [
+    64,
+    64
+  ],
+  "centre_has_normal": true,
+  "centre_xyz": [
+    3337.17041015625,
+    3020.87353515625,
+    2524.301513671875
+  ],
+  "centre_normal_xyz": [
+    -0.9154147505760193,
+    0.3903348743915558,
+    0.09825781732797623
+  ],
+  "sampling_tiles": [
+    {
+      "tile_yx": [
+        0,
+        0
+      ],
+      "raster_xywh": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "valid_pixels": 4096
+    },
+    {
+      "tile_yx": [
+        0,
+        1
+      ],
+      "raster_xywh": [
+        64,
+        0,
+        64,
+        64
+      ],
+      "valid_pixels": 4096
+    },
+    {
+      "tile_yx": [
+        1,
+        0
+      ],
+      "raster_xywh": [
+        0,
+        64,
+        64,
+        64
+      ],
+      "valid_pixels": 4096
+    },
+    {
+      "tile_yx": [
+        1,
+        1
+      ],
+      "raster_xywh": [
+        64,
+        64,
+        64,
+        64
+      ],
+      "valid_pixels": 4096
+    }
+  ],
+  "passed": true
+}

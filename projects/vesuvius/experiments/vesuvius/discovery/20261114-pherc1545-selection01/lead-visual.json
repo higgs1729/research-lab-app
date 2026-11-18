@@ -1,0 +1,9 @@
+{
+  "date_jst": "2026-11-14",
+  "images": ["PHerc1545_3499_4074_9431.jpg", "PHerc1545_3524_4074_9385.jpg"],
+  "inspection": "Original-detail images viewed independently before the worker's visual assessment",
+  "observation": "Yellow display responses are separated blobs and short curved shapes. Neither card uniquely identifies a sequence of independent letter strokes or a text line for transcription.",
+  "candidate_roi_from_jpeg": null,
+  "transcription": null,
+  "limits": "The card is a processed display, not a raw probability or a literal per-pixel top-three-percent intersection. No exact native coordinates are inferred from the JPEG, and no claim of ink absence is made."
+}

@@ -1,0 +1,106 @@
+{
+  "research": 243,
+  "utc": "2026-11-15T17:17:20.643731+00:00",
+  "status": "proposal; parent clearance needed before nominal projection or public probability comparison",
+  "question": "Which parts of the fixed384x768 display can be geometrically excluded, and can any remaining part be assigned a clearly qualified nominal v9 coordinate?",
+  "fixed_v6_parent_xywh": [
+    4416,
+    2048,
+    384,
+    768
+  ],
+  "old_small_ROI_xywh": [
+    4416,
+    2048,
+    384,
+    256
+  ],
+  "added_part_xywh": [
+    4416,
+    2304,
+    384,
+    512
+  ],
+  "prior_box_result": "Old small ROI excluded. Complete cell-support exclusion across x4416:4800 holds for y2048:2380; mixed2380:2400; cannot exclude y2400:2816 by this box. Intersection is not correspondence.",
+  "stage_A_geometry_only": {
+    "anchors_file": "fixed-geometry-anchors.json",
+    "anchors_sha256": "52621c91e410a135d74256daf13bc7c2e39907a052c6c53b8399ceb340f6467e",
+    "anchor_count": 840,
+    "v6_positions": "Reuse R236 geometry on these fixed pixel centers, raw normal convention retained. No new surface fit.",
+    "v9_surface": "All valid4corner cells of the saved87x301 normalized XYZ grid; a fixed00-to11 diagonal splits each quad into two triangles. Float64 numerical closest point to every valid triangle, vectorized per anchor, rather than nearest grid vertex.",
+    "bilinear_qualification": "The public surface is bilinear per cell. Evaluate the saved bilinear patch at each triangle-derived UV and retain its actual residual. Bound triangle-versus-bilinear displacement by ||P00-P10-P01+P11||/4 for that cell. Use these per-cell bounds to retain all cells whose lower distance bound can beat the best evaluated bilinear upper distance; do not report one selected triangle as an exact inverse or a certified interval solution.",
+    "ambiguity": "Keep the nominal lowest-residual coordinate and every potentially nearest cell branch under the interpolation bounds, grouped only by cell adjacency. Include the best nonadjacent alternative and its distance/bound. No threshold turns small distance into same paper.",
+    "orientation_and_continuity": "At nominal UV, compare signed and absolute cosine of v6 normal versus bilinear v9 derivative cross product; report local UV differences/Jacobian signs on the predefined anchor grid and branch changes. Preserve anomalous signs, distortion and multiple UV branches instead of silently smoothing or choosing a branch.",
+    "decision_scope": "Return geometry coordinates/residuals/bounds/normal and continuity evidence to parent. If support remains ambiguous or no coherent nominal branch is obtained, close with that limitation; do not add a registration optimizer, new thresholds or other surfaces.",
+    "model_CT_or_prediction_reads": 0,
+    "new_saved_output_cap_bytes": 4194304,
+    "CPU_seconds_stop": 300
+  },
+  "stage_B_separately_reviewed_proposal_only": {
+    "requires": "Parent first reviews stageA. No public probability pixels have been read in R243; stageB is not authorized by preparing this plan.",
+    "source_public_v9_probability": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-adjacent-context01\\sources\\v9-probability-f32.tif",
+    "source_expected_file_sha256": "527c6fbbc5ac2d5a81d7cfb7ccc2925f2dc4b4d74627a0e7b08200d6874f071c",
+    "source_shape_hw": [
+      1740,
+      6020
+    ],
+    "all_geometry_derived_component_crops": [
+      {
+        "component": 0,
+        "xywh": [
+          4339,
+          99,
+          482,
+          382
+        ],
+        "f32_bytes": 736496
+      },
+      {
+        "component": 1,
+        "xywh": [
+          139,
+          219,
+          482,
+          282
+        ],
+        "f32_bytes": 543696
+      }
+    ],
+    "crop_derivation": "All CT-support-box candidate cell components, before distance and probability inspection. u=(pixel+.5)*.05 gives nominal mapping; one-pixel enclosure guard covers rounding. These are candidate footprints, not registered matching patches. Do not enlarge or choose only a visually favorable component.",
+    "comparison": "If parent accepts qualified coordinates, use fixed native raw0..1 probability crops with uint8(255*clip(p,0,1)) truncation and coordinate-only anchors, alongside the already-fixed R242 display. No learned alignment, probability-based parameter fitting, new reading or equality threshold. Show every ambiguous branch or report correspondence unresolved.",
+    "confounds": [
+      "Manual surface revisions differ",
+      "v9 public GH200 bfloat16/Torch2.14 versus R242 FP32/Torch2.13",
+      "Native renderer versus approximateR236 tile path",
+      "Different full-parent inference canvas/patch context",
+      "Physical paper/ink/previous reading not established by coordinate proximity"
+    ],
+    "not_historical_parent_replacement": true
+  },
+  "resources": {
+    "new_total_save_cap_bytes": 16777216,
+    "CPU_cores": 1,
+    "hard_commit_bytes": 4294967296,
+    "C_free_floor_bytes": 2147483648,
+    "CT_downloads": 0,
+    "model_forwards": 0,
+    "GPU": 0,
+    "paid_compute": 0,
+    "external_messages": 0,
+    "new_dependencies": 0,
+    "existing_large_probability_file_not_copied": true
+  },
+  "source_receipts": {
+    "metadata-inspection.json": "c363924e0d7743c6d5d200337ade71f11bd7f8382d32a9bf7b9086ea6df8c387",
+    "geometry-box-check.json": "6fd12dce8286254eaf6a9942a485404e27521476ec114e6824a32fb1d93d9d8d",
+    "geometry-row-boxes.json": "a90d97f9069962fe9642f610748897ec069278cdcf6c8e09d64899cda151f181",
+    "candidate-cell-bounds.json": "b7bb56168cfd65020a2b8dbdbd6c71b0981cd8b6a21e14b34d64ed62c8afbdf8",
+    "candidate-cell-components.json": "c57b055d75a6045aa95918bafd12879506bec57ac5cb6605d6d39e4e59fc89fd",
+    "fixed-geometry-anchors.json": "52621c91e410a135d74256daf13bc7c2e39907a052c6c53b8399ceb340f6467e",
+    "lead-cell-box-check.json": "510cea30c2738d258df0fd2710d19617b2078533818afa98269eb3d4e24167df"
+  },
+  "public_v6_line2": "parent rows2980:3580, distinct from fixeddisplay2048:2816; no simple row offset to v9.",
+  "new_letters": 0,
+  "sheet_identity_established": false,
+  "novelty_established": false
+}

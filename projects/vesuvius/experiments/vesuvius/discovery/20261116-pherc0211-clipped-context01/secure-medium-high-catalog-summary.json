@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-15T16:22:17.400612+00:00",
+  "source": "secure-medium-high-catalog-raw.json",
+  "source_sha256": "bd06291164327e1cbf60927c4afd6e74ada9de563c1f6863c0db38ecbfa4616e",
+  "query_conditions": {
+    "cloud": "SECURE",
+    "product": "POD",
+    "count": 1,
+    "minCudaVersion": "13.0",
+    "max_secure_USD_per_hour": 1,
+    "availability": [
+      "MEDIUM",
+      "HIGH"
+    ]
+  },
+  "qualified_GPU_regions": [],
+  "overall_MEDIUM_HIGH_but_no_region_that_level": [],
+  "resources_created": 0,
+  "resource_mutations": 0,
+  "model_forwards": 0,
+  "selection_made": false,
+  "interpretation": "A catalog availability label is not a successful create or guarantee. No configuration or GPU selection is made by this read."
+}

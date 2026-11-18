@@ -1,0 +1,26 @@
+{
+  "pairs": {
+    "component0": {
+      "pure_pixels": 1408,
+      "bit_identical_samples": 7040,
+      "mixed_to_invalid_pixels": 1280,
+      "required_saved_ct_keys": [
+        "0/19/23/25",
+        "0/19/23/26"
+      ]
+    },
+    "component2": {
+      "pure_pixels": 1408,
+      "bit_identical_samples": 7040,
+      "mixed_to_invalid_pixels": 1280,
+      "required_saved_ct_keys": [
+        "0/16/22/26",
+        "0/16/23/26",
+        "0/17/22/26",
+        "0/17/23/26"
+      ]
+    }
+  },
+  "scope": "Independent masks from original owner grids; direct native geometry, float and TIFF equality. No new renderer/model run or independent CT-value interpolation.",
+  "network_bytes": 0
+}

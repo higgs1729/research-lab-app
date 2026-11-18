@@ -1,0 +1,47 @@
+{
+  "source": "PHerc0139/20260317000000-w035_2026031718/20260317000000-on-20250728140407-9.362um.tifxyz",
+  "grid_shape_yx": [
+    291,
+    262
+  ],
+  "dtype": "float32",
+  "scale": [
+    0.05000000074505806,
+    0.05000000074505806
+  ],
+  "valid_points": 63503,
+  "used_vertices": 63499,
+  "valid_quads": 62913,
+  "triangles": 125826,
+  "renderable_components": 1,
+  "independent_8_neighbor_quad_components": 1,
+  "validity_rules_agree": true,
+  "components": [
+    {
+      "component": 0,
+      "vertices": 63499,
+      "quads": 62913,
+      "grid_bbox_yx_minmax_inclusive": [
+        [
+          2,
+          2
+        ],
+        [
+          288,
+          259
+        ]
+      ]
+    }
+  ],
+  "xyz_bytes": 915306,
+  "all_download_bytes": 915721,
+  "elapsed_seconds": 4.436620799999218,
+  "versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "tifffile": "2026.10.15"
+  },
+  "new_cloud_cost_usd": 0,
+  "ct_or_model_downloaded": false,
+  "interpretation": "Only one renderable component: packing cannot separate distinct source components on this input."
+}

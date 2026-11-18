@@ -1,0 +1,19 @@
+{
+  "views": ["comparison-384.png", "comparison-320.png"],
+  "reference": "R176 seed42 and dense-native native comparisons, different 9.362 um grid and depth window",
+  "display": "Original 0–255; 1 px per input pixel; no rotation or enhancement",
+  "assessed_canvas_xywh": [[896,896,384,384], [928,928,320,320]],
+  "operator": {
+    "forward": "Dark background with sparse soft or isolated bright regions, including center-left and the outer top and lower margin.",
+    "reverse": "Broad mid-left response, isolated upper-right patch and oblique broad band at lower right. Several responses are adjacent to fissure-like or fiber-like structures in the central CT.",
+    "previous_models": "Different contrast and broad responses, with no trackable new strokes or line in this same neighborhood. No direct per-pixel comparison across grids.",
+    "followup_roi": null
+  },
+  "independent_lead": {
+    "views": ["hecate-forward.png", "hecate-reverse.png", "R199 ct-centre.png"],
+    "forward": "Sparse broad patches.",
+    "reverse": "Broad oblique band and patches in lower half, overlapping patterns from fibers or fissure-like areas.",
+    "followup_roi": null
+  },
+  "limits": "One fixed surface neighborhood, depth window and model. Physical sheet identity, training exposure, and absence of ink are undetermined."
+}

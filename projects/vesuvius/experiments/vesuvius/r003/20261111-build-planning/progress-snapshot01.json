@@ -1,0 +1,61 @@
+{
+  "observed_utc": "2026-11-11T10:56:00.016572+00:00",
+  "build_state": {
+    "pid": 277,
+    "source_commit": "7ad02f4f6e306b744ef6d2742dfe31fd55713ee5",
+    "build": "/mnt/d/kensyoukin-work/r003-build",
+    "started_utc": "2026-11-11T10:50:41.149992+00:00",
+    "affinity": [
+      0
+    ],
+    "steps": [
+      {
+        "name": "configure",
+        "command": [
+          "cmake",
+          "-S",
+          "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer",
+          "-B",
+          "/mnt/d/kensyoukin-work/r003-build",
+          "-G",
+          "Ninja",
+          "-DCMAKE_BUILD_TYPE=QuickBuild",
+          "-DVC_QUICKBUILD_OPT_LEVEL=0",
+          "-DCMAKE_C_COMPILER=gcc",
+          "-DCMAKE_CXX_COMPILER=g++",
+          "-DCMAKE_Fortran_COMPILER=gfortran",
+          "-DVC_TESTING=OFF",
+          "-DVC_BUILD_APPS=OFF",
+          "-DVC_BUILD_FLATBOI=ON",
+          "-DFLATBOI_BUILD_SLIM_TESTS=ON",
+          "-DVC_READER_ENABLE_CUDA=OFF",
+          "-DVC_OBJECT_STORE_BUILD_SERVER=OFF",
+          "-DVC_BUILD_PYTHON=OFF"
+        ],
+        "timeout_seconds": 600,
+        "status": "complete",
+        "child_pid": 369,
+        "exit_code": 0,
+        "elapsed_seconds": 231.658
+      },
+      {
+        "name": "build",
+        "command": [
+          "cmake",
+          "--build",
+          "/mnt/d/kensyoukin-work/r003-build",
+          "--target",
+          "flatboi",
+          "check_slim_assembly",
+          "--parallel",
+          "1"
+        ],
+        "timeout_seconds": 1800,
+        "status": "running",
+        "child_pid": 2122
+      }
+    ],
+    "status": "running",
+    "phase": "build"
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "grid_shape_yx": [
+    291,
+    262
+  ],
+  "dtype": "float32",
+  "valid_points": 63503,
+  "validity_disagreements": 0,
+  "validity_rules_agree": true,
+  "reader_and_store_vs_store_disagreements": 0,
+  "invalid_types": {
+    "all_minus_one": 12739
+  },
+  "used_vertices": 63499,
+  "valid_unused_vertices_yx": [
+    [
+      13,
+      200
+    ],
+    [
+      65,
+      5
+    ],
+    [
+      100,
+      2
+    ],
+    [
+      271,
+      7
+    ]
+  ],
+  "valid_quads": 62913,
+  "triangles": 125826,
+  "renderable_components": 1,
+  "components": [
+    {
+      "component": 0,
+      "vertices": 63499,
+      "quads": 62913,
+      "grid_bbox_yx_minmax_inclusive": [
+        [
+          2,
+          2
+        ],
+        [
+          288,
+          259
+        ]
+      ]
+    }
+  ],
+  "scale": [
+    0.05000000074505806,
+    0.05000000074505806
+  ],
+  "xyz_bytes": 915306,
+  "all_download_bytes": 915721,
+  "verified_utc": "2026-11-13T07:39:47.261882+00:00",
+  "method": "Union-find on vertex indices of each source triangle; no SciPy or lead arrays",
+  "compared_lead_fields": [
+    "all_download_bytes",
+    "components",
+    "dtype",
+    "grid_shape_yx",
+    "renderable_components",
+    "scale",
+    "triangles",
+    "used_vertices",
+    "valid_points",
+    "valid_quads",
+    "validity_rules_agree",
+    "xyz_bytes"
+  ],
+  "input_listing_sha256": "70537fe68298751290f90997750ad57bd2efa57c3ccfcfa8c3b144be1bd81216",
+  "input_files": {
+    "meta.json": {
+      "bytes": 415,
+      "etag": "d96c32251904b5ca9558e0e513e11f03",
+      "sha256": "11752e63185cc6bc8842cf6f4d7aef84a7e3ec7b0b4eb5c10bf99842e7cd8dda"
+    },
+    "x.tif": {
+      "bytes": 305102,
+      "etag": "996933018e840fe380d94b1e211abbd1",
+      "sha256": "d827a5d2e51035c91da74b5fba4fea55c9df9d8f58c6ec7f534d6012ee2f7b69"
+    },
+    "y.tif": {
+      "bytes": 305102,
+      "etag": "b2f6fb630d7e8f1b61b586eef6111a02",
+      "sha256": "41f1df324572b68450f4da92dcd4598844f602982f1965e5bea67e6de080d664"
+    },
+    "z.tif": {
+      "bytes": 305102,
+      "etag": "a391289c7b60b4c220e4ed3f55370c7e",
+      "sha256": "b61f8bbcd9cb538f43cd72678fd4d38a25cc1643daa4bcfdd7f2e9954f9a1e81"
+    }
+  },
+  "elapsed_seconds": 0.16723439999623224,
+  "new_download_bytes": 0,
+  "new_cloud_cost_usd": 0
+}

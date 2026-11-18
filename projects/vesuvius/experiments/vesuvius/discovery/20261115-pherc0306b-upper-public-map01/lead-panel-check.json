@@ -1,0 +1,20 @@
+{
+  "checked_utc": "2026-11-15T07:55:59.310281+00:00",
+  "native_probability_and_CT_panels_exact": 50,
+  "panel_pixels_exact": 56770560,
+  "coverage": {
+    "known_control": {
+      "fully_covered_columns": 4416,
+      "double_covered_columns": 512,
+      "native_height": 1152
+    },
+    "upper_test": {
+      "fully_covered_columns": 4416,
+      "double_covered_columns": 512,
+      "native_height": 1152
+    }
+  },
+  "shared_aux_limits_match_independent_input_check": true,
+  "different_renderer_half_pixel_or_public_png_remap_applied": false,
+  "limits": "Correct data presentation and coordinate accounting, not independent proof of ink or new text."
+}

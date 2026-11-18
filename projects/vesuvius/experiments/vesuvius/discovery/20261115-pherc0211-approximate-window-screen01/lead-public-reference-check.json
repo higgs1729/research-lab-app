@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-15T14:17:31.205574+00:00",
+  "file_sha256": "1b4b432867fb1f0f5cba844371b76813b2c5b7ad0df7b3a5bb14ee9c717abb65",
+  "public_manifest_hash_present": true,
+  "all_pixels_sha_exact": true,
+  "fixed_xywh": [
+    4704,
+    140,
+    320,
+    300
+  ],
+  "crop_probability_values_checked": 96000,
+  "display_values_checked": 96000,
+  "all_checks_passed": true,
+  "new_GPU_forwards": 0
+}

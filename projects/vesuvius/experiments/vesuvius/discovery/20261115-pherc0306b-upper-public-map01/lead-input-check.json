@@ -1,0 +1,106 @@
+{
+  "checked_utc": "2026-11-15T07:53:43.404970+00:00",
+  "input_assets": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0306b-upper-public-map01\\originals\\fwd_trace_v3B.npy",
+      "bytes": 76244128,
+      "sha256": "17eca601c21f3c5c7f263b144c77890d9e25c3cbcc6aa261505e580baf07a9e3"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0306b-upper-public-map01\\originals\\fwd_reader_v3.npy",
+      "bytes": 76244128,
+      "sha256": "0a9643a7ad2f70baf71e0f53f17a5230145f63b75e41b302c10d968a428ea1f6"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0306b-upper-public-map01\\originals\\ct_surface_layer20.png",
+      "bytes": 18935792,
+      "sha256": "e28222dd5d67b3ca10ad863f7426342e744618d9a3b5549aac7a03a47bc1ea63"
+    }
+  ],
+  "body_bytes": 171424048,
+  "regions": {
+    "known_control": {
+      "carrier_xywh": [
+        2432,
+        1728,
+        4416,
+        1152
+      ],
+      "geometry_valid": 5087232,
+      "ct_positive": 5087214,
+      "display_support": 5087214
+    },
+    "upper_test": {
+      "carrier_xywh": [
+        2432,
+        2880,
+        4416,
+        1152
+      ],
+      "geometry_valid": 5087232,
+      "ct_positive": 5087207,
+      "display_support": 5087207
+    }
+  },
+  "models": {
+    "fwd_trace_v3B": {
+      "dtype": "float16",
+      "shape": [
+        4900,
+        7780
+      ],
+      "regions": {
+        "known_control": {
+          "finite": 5087232,
+          "zero": 0,
+          "nan": 0,
+          "min": 0.13525390625,
+          "max": 0.83984375
+        },
+        "upper_test": {
+          "finite": 5087232,
+          "zero": 0,
+          "nan": 0,
+          "min": 0.11962890625,
+          "max": 0.73486328125
+        }
+      },
+      "union_support_count": 10174421,
+      "shared_median_p999": [
+        0.2098388671875,
+        0.775390625
+      ]
+    },
+    "fwd_reader_v3": {
+      "dtype": "float16",
+      "shape": [
+        4900,
+        7780
+      ],
+      "regions": {
+        "known_control": {
+          "finite": 5087232,
+          "zero": 0,
+          "nan": 0,
+          "min": 0.2098388671875,
+          "max": 0.83544921875
+        },
+        "upper_test": {
+          "finite": 5087232,
+          "zero": 0,
+          "nan": 0,
+          "min": 0.2281494140625,
+          "max": 0.79345703125
+        }
+      },
+      "union_support_count": 10174421,
+      "shared_median_p999": [
+        0.275146484375,
+        0.81103515625
+      ]
+    }
+  },
+  "CT_dtype": "uint8",
+  "orientation_rule": "native integer crop and flipud once; public remapped PNG is not pixel-identical",
+  "physical_sheet_or_ink_truth": "not established by these numerical checks"
+}

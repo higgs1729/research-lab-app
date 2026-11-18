@@ -1,0 +1,78 @@
+{
+  "product_records": "run01-smokes",
+  "source_commit": "14d4e725df8b569e6fc8ceb3c04d130f705c1565",
+  "source_files": 2269,
+  "unchanged_original_blobs": 2259,
+  "changed_source_sha256": {
+    "vc_reader/README.md": "b95a79f38f797ae98671aa5a17f7e0abd79aa158bc99f1f938e990f7b870fc0b",
+    "vc_reader/include/vc_reader/zarr_write.hpp": "7e25215511819d5f4feb0dc9bfd4dc2aee4b4f68a3d7b67621a01abe4f2a4eca",
+    "vc_reader/src/cpp/bindings.cpp": "c299f59d4cc2c45bfa9f79c3ae7a4776de81d94286242916d55602641df70629",
+    "vc_reader/src/cpp/zarr/pyramid.cpp": "1d121c03941ab1b20a10d16cce4c3630cd00ebf85ef395ae795b99c779b8c0e6",
+    "vc_reader/src/vc_reader/reader/writer.py": "54743822522dae0be0ef881c0b81c0fc8925b8de24cd52348376d967ea31150d",
+    "vc_reader/tests/test_zarr_writer.py": "4257a0f061f283e025f940ae63a05e7d995855df2f99befb16e2a405cae2dd14",
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp": "66d96d1e6cdf858e1ab857116ab3d4567d87ecf9c63e1d06c45a4be955d1f8de",
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "8e8b41004bd62159348f3a854dfcb2cdb86fdca30d19af1863719f81aacb2776",
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": "dcc75e14768d321a4eaa7110950396a8a7574bb1fc8e6ad9414ead3113793978",
+    "volume-cartographer/libs/flatboi/flatboi.cpp": "00b682f7956108c75c048e32d96a28cd0bd4f536ad66de47483cf029931bb0ae"
+  },
+  "R005_xyz_sha256": {
+    "x.tif": "c16a2b45b1fed2b85bc2898d002247ad1e5299673616cbcf0762204db94c51d1",
+    "y.tif": "cb18e6559b1582ea762e74446c7ac17c896e3ca1501ecef17877f52db224dbdb",
+    "z.tif": "219fa428ade0d4a3d09a6be1c5471c4121fa0ca3e42c9a4b68204343ddc8aea2"
+  },
+  "R005_scale": [
+    0.05000000074505806,
+    0.05000000074505806
+  ],
+  "R007_cases": {
+    "total": 18,
+    "early_rejection": 9,
+    "valid_reached_input_open": 5
+  },
+  "R009": {
+    "matching_files": 15,
+    "retained_L0_state_files": 4,
+    "levels": {
+      "0": {
+        "logical_sha256": "63133929530bce0d371bdd0691e681b5be72a4066b8255b2328f4746fc49c117",
+        "logical_values": 3612,
+        "zero_padding": 3556
+      },
+      "1": {
+        "logical_sha256": "fb79a73daa34421c9ab0eefec1a44ca0161b587bdd8eb413f3167026d564232a",
+        "logical_values": 1820,
+        "zero_padding": 0
+      },
+      "2": {
+        "logical_sha256": "64f68fa57b25be382f525f327f70b39850bec6b94116425675b9235d8019f03d",
+        "logical_values": 924,
+        "zero_padding": 0
+      },
+      "3": {
+        "logical_sha256": "1bd5fc01a249bb9014ee94b18dcf7f9a5abdad7345292067be7c54ca00a37673",
+        "logical_values": 476,
+        "zero_padding": 0
+      },
+      "4": {
+        "logical_sha256": "ba74b5694b364d750663ff7329ff87cae5dd2f49bcd9d294fab0768a04569d1a",
+        "logical_values": 252,
+        "zero_padding": 0
+      },
+      "5": {
+        "logical_sha256": "0b44b2e9179d78d90ac38b0eab3b087998c7a3326d9cb40e4c5ad20ea3ed42d0",
+        "logical_values": 140,
+        "zero_padding": 0
+      }
+    },
+    "OME_equal": true,
+    "normal_matches_R157_files": true
+  },
+  "all_assertions_passed": true,
+  "cpu_affinity": [
+    0
+  ],
+  "elapsed_seconds": 1.5009788559999606,
+  "max_rss_bytes": 25858048,
+  "new_builds": 0,
+  "new_native_runs": 0
+}

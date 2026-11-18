@@ -1,0 +1,13 @@
+{
+  "utc": "2026-11-15T16:28:23.050199+00:00",
+  "name": "r242-studio-d04a5eb19cdf24ac",
+  "recorded_pod_id": null,
+  "recorded_create_response_status": 400,
+  "current_name_matches": [],
+  "current_all_pods": [],
+  "owned_resource_currently_present": false,
+  "dedicated_deadline_helper_pids": [],
+  "unused_reserved_file_exists": false,
+  "resource_mutations": 0,
+  "interpretation": "Second create rejected without ID; independent current inventory. GET404 is not applicable. No claim of deleting a known Pod."
+}

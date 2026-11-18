@@ -1,0 +1,76 @@
+{
+  "receipts": [
+    {
+      "path": "originals/submission/README.md",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/README.md",
+      "bytes": 3010,
+      "sha256": "edb8bd7243e907b3be71a2c82517541024919ff8411a222b3e56a7b790575b0b",
+      "git_blob_sha1": "b2ad0289bacd9f7c267e580dcabf928b8438dad3",
+      "http_status": 200,
+      "utc": "2026-11-15T07:32:30.994831+00:00",
+      "elapsed_seconds": 0.2576186000078451
+    },
+    {
+      "path": "originals/submission/RELEASE_NOTES.md",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/RELEASE_NOTES.md",
+      "bytes": 2469,
+      "sha256": "540607585bebfa5ae8e59ca14ce5a662bc0dbbc044abec5f60dab104be6d5ef5",
+      "git_blob_sha1": "376a77c7665a2d2c9a182028b1c528be4665aa47",
+      "http_status": 200,
+      "utc": "2026-11-15T07:32:31.242546+00:00",
+      "elapsed_seconds": 0.2475992999970913
+    },
+    {
+      "path": "originals/submission/supporting/README.md",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/supporting/README.md",
+      "bytes": 2448,
+      "sha256": "5b6e8cc0214dfef234304c1c47d5164d4147d2d80fc149aee284c20b01930b99",
+      "git_blob_sha1": "3b42fea91c049b70e2e92f838ee354b466cc0aac",
+      "http_status": 200,
+      "utc": "2026-11-15T07:32:31.462186+00:00",
+      "elapsed_seconds": 0.21954260001075454
+    },
+    {
+      "path": "originals/submission/papyrologist_reading_2026-10-23.png",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/papyrologist_reading_2026-10-23.png",
+      "bytes": 443501,
+      "sha256": "4e983531e5d4f2a8ef6cd0cfe707be5a8f553c6fc86242d9c4ce797afd6b7b49",
+      "git_blob_sha1": "5b313362a3a78a5bb510893a8f7a9bbbfc028334",
+      "http_status": 200,
+      "utc": "2026-11-15T07:32:31.778861+00:00",
+      "elapsed_seconds": 0.31658729998162016
+    },
+    {
+      "path": "originals/submission/supporting/reading/papyrologist_label_2026-10-16_conservative.png",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/supporting/reading/papyrologist_label_2026-10-16_conservative.png",
+      "bytes": 74483,
+      "sha256": "3d7216f7bcef6372ea7fbb81e62a7efa6de1beed336adb5ec5805abd475050bf",
+      "git_blob_sha1": "6a60f572ed7e53d458e5715ee6f9b99df2c59208",
+      "http_status": 200,
+      "utc": "2026-11-15T07:32:32.041670+00:00",
+      "elapsed_seconds": 0.2626118999905884
+    },
+    {
+      "path": "originals/submission/supporting/reading/papyrologist_label_2026-10-16_fuller_tentative.png",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/supporting/reading/papyrologist_label_2026-10-16_fuller_tentative.png",
+      "bytes": 79533,
+      "sha256": "907825940adea79e93cc950d45a4bcf7a8bdb6c2e9387713c9bd5b9ad0ad84d6",
+      "git_blob_sha1": "16f76880fee6ebb16d35a2f8bf295c048ed1c813",
+      "http_status": 200,
+      "utc": "2026-11-15T07:32:32.291634+00:00",
+      "elapsed_seconds": 0.24988899999880232
+    },
+    {
+      "path": "originals/submission/supporting/reading/papyrologist_tracing_2026-10-23.png",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/supporting/reading/papyrologist_tracing_2026-10-23.png",
+      "bytes": 68845,
+      "sha256": "0fed7652601dd5a557e860722e69bb912d49f6a7a5311ea6641b114cc69682ef",
+      "git_blob_sha1": "e4adc65b9c73f818030bf57bda29d73605115501",
+      "http_status": 200,
+      "utc": "2026-11-15T07:32:32.555811+00:00",
+      "elapsed_seconds": 0.26410309999482706
+    }
+  ],
+  "total_body_bytes": 674289,
+  "elapsed_seconds": 1.817951799981529
+}

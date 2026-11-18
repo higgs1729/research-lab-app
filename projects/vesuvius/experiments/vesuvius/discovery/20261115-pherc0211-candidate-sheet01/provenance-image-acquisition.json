@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-15T14:46:13.473998+00:00",
+  "url": "https://raw.githubusercontent.com/priyankaranke/vesuvius-studio-multiscroll-cpt/2ac947c38589be6cfcc1b3b462e2431371a77043/studio-multiscroll-cpt-20261023/reference/crop1711-stock-vs-cpt.jpg",
+  "http_status": 200,
+  "content_length": "544889",
+  "content_type": "image/jpeg",
+  "etag": "\"e90a67ef53cacd1656f8595f14048d7a25965ff859802b402f38f06cfef01f2b\"",
+  "path": "sources/crop1711-stock-vs-cpt.jpg",
+  "bytes": 544889,
+  "sha256": "260c87f52969f954f72043a326e5f153a56b2644810475c00c9c95bf5c084601",
+  "git_blob_sha1": "4f021b2c5de176bd7e1d31f8e5e6d75bba2a24a8",
+  "seconds": 0.3055379999859724,
+  "CT_bytes_acquired": 0,
+  "new_images_rendered": 0,
+  "cost_USD": 0
+}

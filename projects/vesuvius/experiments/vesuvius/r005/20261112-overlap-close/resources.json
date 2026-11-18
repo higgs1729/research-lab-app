@@ -1,0 +1,113 @@
+{
+  "new_paid_compute_cost": 0,
+  "currency": "USD",
+  "llm_and_local_electricity_cost": null,
+  "new_input_download_bytes": 0,
+  "new_libraries_installed": 0,
+  "new_native_builds": 0,
+  "native_solver_runs": 0,
+  "numerical_jobs": [
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-overlap01/analysis01-execution/state.json",
+      "started_utc": "2026-11-11T18:41:11.399887+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-overlap01\\diagnose_fixed_overlap.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-overlap01\\analysis01"
+      ],
+      "script_sha256": "49039eaa3e94e72b99deda0103f262db3affa9fca5c33b6a5a932cbec525e3ae",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 8.197226599964779,
+      "peak_rss_bytes": 301191168,
+      "stopped": null,
+      "completed_utc": "2026-11-11T18:41:19.598485+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-overlap01/geometry01-execution/state.json",
+      "started_utc": "2026-11-11T18:46:28.114116+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-overlap01\\check_fixed_geometry.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-overlap01\\geometry01"
+      ],
+      "script_sha256": "cb56bee18766ebb52733e294bd37d997b43feeaeff2052b43f1fd9297f63dc16",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 59.319403400004376,
+      "peak_rss_bytes": 549744640,
+      "stopped": null,
+      "completed_utc": "2026-11-11T18:47:27.435651+00:00"
+    },
+    {
+      "role": "verification",
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/check01-execution/state.json",
+      "started_utc": "2026-11-11T18:52:49.636670+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-overlap-verification01\\verify_overlap.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-overlap-verification01\\check01"
+      ],
+      "script_sha256": "096c53789d1e0c407785b1683d2b8b066be553fc8da58a57be7d3ad66755e72c",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 22.722273299994413,
+      "peak_rss_bytes": 402866176,
+      "stopped": null,
+      "completed_utc": "2026-11-11T18:53:12.360450+00:00"
+    },
+    {
+      "role": "verification",
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/check02-execution/state.json",
+      "started_utc": "2026-11-11T18:54:11.893667+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-overlap-verification01\\verify_case_prepack.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-overlap-verification01\\check02"
+      ],
+      "script_sha256": "6ed11ee012419bd8d621f5078895d44ed66388935b6d2265aa00088473ffea06",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 2.3629417999763973,
+      "peak_rss_bytes": 273494016,
+      "stopped": null,
+      "completed_utc": "2026-11-11T18:54:14.257612+00:00"
+    }
+  ],
+  "sequential_numeric_intervals_verified": true,
+  "note": "One-CPU bounded Python diagnostics and separate verification, RSS4GiB sampled every0.1s,300s each. No full mesh solve. Timings are shared-host observations."
+}

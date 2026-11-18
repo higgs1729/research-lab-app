@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-15T06:06:48.085824+00:00",
+  "reviewer": "lead, independent before receiving child visual verdict",
+  "images": [
+    {
+      "path": "pair/mesh4-ct-centre.png",
+      "sha256": "9042f2d67ff436b8b5e7f9a2de21e3555b459417ae31ae85e083d2fbfa31a537"
+    },
+    {
+      "path": "local-run/mesh4-forward.png",
+      "sha256": "1ffee6dd81d8f206f601e5c08a4a7021f1798bf1d60a8692bd18ae7f28b2fb2f"
+    },
+    {
+      "path": "local-run/mesh4-reverse.png",
+      "sha256": "075fc06010fae1666030f56efac6a13238f25d0c90c94553d7a46cd54b48dbc7"
+    }
+  ],
+  "display": "Full1024x1024 source images fixed0..255, no resize/threshold/remap; assessment includes main [128,576,960,960].",
+  "observations": {
+    "CT": "Crossed fibers, transverse cracks/bands, isolated bright grains and dark irregular patches. A continuous texture is visible in supported area, but physical sheet identity is not established.",
+    "forward": "Diffuse isolated bright blobs, strongest lower-boundary spots and scattered central/right blobs; no repeated glyph series or line organization selected.",
+    "reverse": "Bright isolated blobs. Angular L-like patch near local [450..620,760..920] is broad and isolated, without neighboring repeated character/line structure; not selected as a follow-up text ROI."
+  },
+  "followup_text_roi_count": 0,
+  "scope": "Close only this fixed crop and same16-layer Hecate pair. No inference of ink absence, whole-scroll absence, verified physical sheet, or new decoded characters."
+}

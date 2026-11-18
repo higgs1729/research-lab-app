@@ -1,0 +1,208 @@
+{
+  "date_jst": "2026-11-14",
+  "body_count": 17,
+  "body_bytes": 591790,
+  "body_count_cap": 20,
+  "body_bytes_cap": 8388608,
+  "basis": "Complete new source bodies from fixed distribution, current official sources and connector. Browser discovery excerpts are not downloaded origin bodies in these totals.",
+  "image_bodies": 0,
+  "checkpoint_bytes": 0,
+  "ct_voxel_download_bytes": 0,
+  "dependency_installs": 0,
+  "builds": 0,
+  "model_forward_calls": 0,
+  "cloud_cost_jpy": 0,
+  "sources": [
+    {
+      "file": "hecate-card.md",
+      "url": "https://huggingface.co/scrollprize/hecate/raw/9cb86e500e944b11a06a7020403cde5dffb5bcb2/README.md",
+      "utc": "2026-11-14T06:21:43.666583+00:00",
+      "status": 200,
+      "final_url": "https://huggingface.co/scrollprize/hecate/raw/9cb86e500e944b11a06a7020403cde5dffb5bcb2/README.md",
+      "content_length": "12769",
+      "etag": "\"94f0407f5706a8ab98e55e4214b99be88ff3a5e1\"",
+      "bytes": 12769,
+      "sha256": "17d7f029ffcff421dbf767c89e0e36a91f141fdfb5a647cc254e4c88cffabe9e"
+    },
+    {
+      "file": "hecate-repo.json",
+      "url": "https://huggingface.co/api/models/scrollprize/hecate?blobs=true",
+      "utc": "2026-11-14T06:21:08.432963+00:00",
+      "status": 200,
+      "final_url": "https://huggingface.co/api/models/scrollprize/hecate?blobs=true",
+      "content_length": "2677",
+      "etag": "W/\"a75-beEaMj84knvY+gjwceVYeSdkqsE\"",
+      "bytes": 2677,
+      "sha256": "48ff97cd3e893e520dbd1ad6fdacebed73e8384a1d9e9578ad04378c6eddbe97"
+    },
+    {
+      "file": "hecate-requirements.txt",
+      "url": "https://huggingface.co/scrollprize/hecate/raw/9cb86e500e944b11a06a7020403cde5dffb5bcb2/requirements.txt",
+      "utc": "2026-11-14T06:21:43.623003+00:00",
+      "status": 200,
+      "final_url": "https://huggingface.co/scrollprize/hecate/raw/9cb86e500e944b11a06a7020403cde5dffb5bcb2/requirements.txt",
+      "content_length": "62",
+      "etag": "\"897aa8220778c52a39f2a4c0e420d5e5a397df78\"",
+      "bytes": 62,
+      "sha256": "cbb03f9674de9da201ad200ef03693e8c9e4663e906214aadcf3ebd51ce7d6bc"
+    },
+    {
+      "file": "hecate.py",
+      "url": "https://huggingface.co/scrollprize/hecate/raw/9cb86e500e944b11a06a7020403cde5dffb5bcb2/hecate.py",
+      "utc": "2026-11-14T06:21:43.745403+00:00",
+      "status": 200,
+      "final_url": "https://huggingface.co/scrollprize/hecate/raw/9cb86e500e944b11a06a7020403cde5dffb5bcb2/hecate.py",
+      "content_length": "22462",
+      "etag": "\"a2d3494361d81107d4bd9268cfe377d80f22cd0a\"",
+      "bytes": 22462,
+      "sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59"
+    },
+    {
+      "file": "official-306b.html",
+      "url": "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the",
+      "utc": "2026-11-14T06:22:19.689643+00:00",
+      "status": 200,
+      "final_url": "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the",
+      "content_length": null,
+      "etag": null,
+      "bytes": 199602,
+      "sha256": "57acf689450e8339ced1c28a7b036291273caa6bba14810e2a20d41b3b0928a9"
+    },
+    {
+      "file": "official-PHerc0343.html",
+      "url": "https://scrollprize.org/data_browser/PHerc0343",
+      "utc": "2026-11-14T06:26:38.805977+00:00",
+      "status": 200,
+      "final_url": "https://scrollprize.org/data_browser/PHerc0343",
+      "content_length": null,
+      "etag": null,
+      "bytes": 23149,
+      "sha256": "ffd93f284c3ad2d3162ccd4401b1d8957d3c4cee03c99324a108dc0239a8dd2d"
+    },
+    {
+      "file": "official-PHerc0343P.html",
+      "url": "https://scrollprize.org/data_browser/PHerc0343P",
+      "utc": "2026-11-14T06:26:38.780736+00:00",
+      "status": 200,
+      "final_url": "https://scrollprize.org/data_browser/PHerc0343P",
+      "content_length": null,
+      "etag": null,
+      "bytes": 44131,
+      "sha256": "175dc9386063652f06e4a61457af967ad091ed6e45b3465e08ec2a80f031f0ad"
+    },
+    {
+      "file": "official-winners.html",
+      "url": "https://scrollprize.org/winners",
+      "utc": "2026-11-14T06:22:19.637732+00:00",
+      "status": 200,
+      "final_url": "https://scrollprize.org/winners",
+      "content_length": null,
+      "etag": null,
+      "bytes": 180088,
+      "sha256": "2c94e19604e48e167e94953ba38c16ff3d4b503d4c52e852bcf83a14d61df516"
+    },
+    {
+      "file": "reader-card.md",
+      "url": "https://huggingface.co/domenicor046/reader-v3/raw/aee1d64bced4eb35546348f3d276b9e2a0b99c46/README.md",
+      "utc": "2026-11-14T06:21:43.609713+00:00",
+      "status": 200,
+      "final_url": "https://huggingface.co/domenicor046/reader-v3/raw/aee1d64bced4eb35546348f3d276b9e2a0b99c46/README.md",
+      "content_length": "1288",
+      "etag": "\"9aeac10c40e30d60dbbf490f1a6779d841d09d15\"",
+      "bytes": 1288,
+      "sha256": "5378ce1e3cf28d65a178a09a93d60359180f1c4739176ad5a7a32b14d466bfde"
+    },
+    {
+      "file": "reader-github-head.json",
+      "url": "https://api.github.com/repos/DomRusso2/reader-v3/git/ref/heads/main",
+      "utc": "2026-11-14T06:21:08.386833+00:00",
+      "status": 200,
+      "final_url": "https://api.github.com/repos/DomRusso2/reader-v3/git/ref/heads/main",
+      "content_length": "336",
+      "etag": "W/\"182d51a18ab1662d4fad24ebb54999f84b395aeaf8402673c7b2438d84982b6a\"",
+      "bytes": 336,
+      "sha256": "182d51a18ab1662d4fad24ebb54999f84b395aeaf8402673c7b2438d84982b6a"
+    },
+    {
+      "file": "reader-v3-repo.json",
+      "url": "https://huggingface.co/api/models/domenicor046/reader-v3?blobs=true",
+      "utc": "2026-11-14T06:21:08.380682+00:00",
+      "status": 200,
+      "final_url": "https://huggingface.co/api/models/domenicor046/reader-v3?blobs=true",
+      "content_length": "1313",
+      "etag": "W/\"521-UevgMsKMT9HFClGGOTaediOsF04\"",
+      "bytes": 1313,
+      "sha256": "99cf3779e88c5a877a3a54594e551b0388befb742ca12d7dbe68012bd70f90bb"
+    },
+    {
+      "file": "rectina-card.md",
+      "url": "https://huggingface.co/evilaliv3/rectina/raw/2f9eaf043512be4f89d22a3d39804dc55e387585/README.md",
+      "utc": "2026-11-14T06:21:43.823679+00:00",
+      "status": 200,
+      "final_url": "https://huggingface.co/evilaliv3/rectina/raw/2f9eaf043512be4f89d22a3d39804dc55e387585/README.md",
+      "content_length": "8947",
+      "etag": "\"1d696ffb59d50a06310bfaf46320daea7507eb78\"",
+      "bytes": 8947,
+      "sha256": "8fcaa06b6038e7d81c13a93ae16275e86d998f36f1bb77891cd3e8f2a6c805c2"
+    },
+    {
+      "file": "rectina-m2-card.md",
+      "url": "https://huggingface.co/evilaliv3/rectina/raw/2f9eaf043512be4f89d22a3d39804dc55e387585/m2/README.md",
+      "utc": "2026-11-14T06:21:43.936480+00:00",
+      "status": 200,
+      "final_url": "https://huggingface.co/evilaliv3/rectina/raw/2f9eaf043512be4f89d22a3d39804dc55e387585/m2/README.md",
+      "content_length": "20235",
+      "etag": "\"7e295f674c1ce21be1c3c85b38831d132aec5f00\"",
+      "bytes": 20235,
+      "sha256": "30c10c659f89f336b0f395755d6ff7297b3b18a152658dc473b1b70f4f00afe4"
+    },
+    {
+      "file": "rectina-repo.json",
+      "url": "https://huggingface.co/api/models/evilaliv3/rectina?blobs=true",
+      "utc": "2026-11-14T06:21:08.377227+00:00",
+      "status": 200,
+      "final_url": "https://huggingface.co/api/models/evilaliv3/rectina?blobs=true",
+      "content_length": "24765",
+      "etag": "W/\"60bd-jSqw7vbi8W8Ps4iPw1cCI4PWqes\"",
+      "bytes": 24765,
+      "sha256": "6c058348c80fc61103fe3c849d53c3c5de563dd935a28af0c6bdd60d6abf2147"
+    },
+    {
+      "file": "reader-author-readme.md",
+      "url": "https://github.com/DomRusso2/reader-v3/blob/4a9f1c633d2f30d9b522922ec1cb52c082013183/README.md",
+      "git_blob": "3741bca948e39371edb44502d1472635bd818c21",
+      "bytes": 11872,
+      "source": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 06:27:12 UTC",
+      "acquisition_window_utc": "2026-11-14 06:20–06:23 UTC",
+      "sha256": "f6170cde0a76941810c1fe40c403301a7a36f8f4c4c4b1d96c74168decb76d55"
+    },
+    {
+      "file": "reader-author-config.json",
+      "url": "https://github.com/DomRusso2/reader-v3/blob/4a9f1c633d2f30d9b522922ec1cb52c082013183/train_config.json",
+      "git_blob": "06cef73792a00e474cc1a54c9772fd9424db1bdc",
+      "bytes": 33187,
+      "source": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 06:27:12 UTC",
+      "acquisition_window_utc": "2026-11-14 06:20–06:23 UTC",
+      "sha256": "2d71d6d54cc975e4ab25c0c8a789bde5ab18879eaf9f2095e849526b29e10661"
+    },
+    {
+      "file": "reader-author-speed.py",
+      "url": "https://github.com/DomRusso2/reader-v3/blob/4a9f1c633d2f30d9b522922ec1cb52c082013183/scripts/speed_bench.py",
+      "git_blob": "39cfffe0ec3a3c13d1b4219720abda52af2b2b57",
+      "bytes": 4907,
+      "source": "GitHub fetch_file UTF-8",
+      "recorded_utc": "2026-11-14 06:27:12 UTC",
+      "acquisition_window_utc": "2026-11-14 06:20–06:23 UTC",
+      "sha256": "d3a17c072fd76a4607c6e7cecf5a6649da43d459dc42634a8b255208961f887e"
+    }
+  ],
+  "reused": [
+    "../20261114-pherc0343-patch-phase01/input-contract.json",
+    "../20261114-pherc0343-patch-phase01/seed42-reverse/execution.json",
+    "../20261114-atlas-known-control01/fixed-tree.json",
+    "../20261114-atlas-known-control01/surface-meta.json",
+    "../20261114-known-neighbour-selection01/lead-known-check.json"
+  ]
+}

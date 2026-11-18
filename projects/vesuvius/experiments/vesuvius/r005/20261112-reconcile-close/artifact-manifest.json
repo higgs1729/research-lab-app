@@ -1,0 +1,341 @@
+{
+  "created_utc": "2026-11-11T15:52:45.538477+00:00",
+  "scope": "New component reconciliation evidence only. Prior frozen inputs and results are referenced by hashes in these results. Mutable root helpers excluded; execution snapshots retained.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-close/decision-record.json",
+      "bytes": 1462,
+      "sha256": "de22d7611a6571b2b2d3255df2e19b45a315f717a8dcb9cdd40677796fa4fb03"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-close/experiment-record.json",
+      "bytes": 937,
+      "sha256": "8623f01cb2bd7407e5cd803d1368da41d754e58c878d82ecef035a306c9bfdd7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-close/freeze.py",
+      "bytes": 3851,
+      "sha256": "fe64e9da8599686681e936ded21664321c0bed734511dcda2e35cbe3b41c94d9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-close/resources.json",
+      "bytes": 4465,
+      "sha256": "a7cffc7aba03e82ffbee5dd48c33de1f07840889f74e4d980335c9e25e49b0fc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-close/runtime-status.json",
+      "bytes": 1063,
+      "sha256": "56c581649bab077a1b15f19b35c542a0595b3851e5c89a1700d3d3b33e9340f2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-close/verification-record.json",
+      "bytes": 954,
+      "sha256": "75b43efb5a1b3cb186418e9d077a1b634c2d8c3a38361fdc5933e3f27d875b3e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-verification01/check01-execution/state.json",
+      "bytes": 873,
+      "sha256": "fc470d95b9bac4cfe7ac9c8302c14f50840c76478e59518164a99d51b2278e32"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-verification01/check01-execution/stdout.log",
+      "bytes": 779,
+      "sha256": "f1bf54e3993efb7934b2dad905542f069a2cae7b019b605aaa9709cfcc3a0cbf"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-verification01/check02/distances.npz",
+      "bytes": 3637204,
+      "sha256": "5f4b45b8ee3c624668c7b597edf4decc89187778c25642776f2e6aaa72b9c3ae"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-verification01/check02/result.json",
+      "bytes": 14374,
+      "sha256": "d99f69974b7083cef7f2b241af67da17f3c1e46b21cb523a97043e91e5c03530"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-verification01/check02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-verification01/check02-execution/state.json",
+      "bytes": 875,
+      "sha256": "1ff4f2e14c80ecb47b5e71fe881bb67dbb0bf294f8a57cba6da32651f4246cbe"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-verification01/check02-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile-verification01/verify_reconcile.py",
+      "bytes": 19102,
+      "sha256": "e9e25935300de525f20f78398f5757d08c2096bf23394cb92cd7d114e8d91e5e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/analysis01/arrays.npz",
+      "bytes": 48717507,
+      "sha256": "eca2db42e9cbc33564b64e4fd93c19ee859638f15a7bf27fe926f65bab056fc0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/analysis01/evaluate_holdout.py",
+      "bytes": 6597,
+      "sha256": "a1949976f8316f5b3450275dda2930eef59ce1f5f32336c50cc0fdec19bf4d95"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/analysis01/mesh_quality.py",
+      "bytes": 2558,
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/analysis01/result.json",
+      "bytes": 17898,
+      "sha256": "85796b8aff6e40d9d4a4569ec5d28be659ef189c4f81d9039fa8991d7de7633f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/analysis01-execution/state.json",
+      "bytes": 854,
+      "sha256": "cc3215cac919f4e8c73528152956c7a85001f5bd6db28bc20b945a3e6aa58fda"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/analysis01-execution/stdout.log",
+      "bytes": 2936,
+      "sha256": "e43779e2f45541a134c2e9ec729d7fdd0fae879e6ede7abfad9a5cba53ca043c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/decision-record.json",
+      "bytes": 1375,
+      "sha256": "72626ee70d894d750e60ab6fdf36a366c4fa369c0b9f8b6d664953a7724106db"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/evaluate_reconcile.py",
+      "bytes": 6597,
+      "sha256": "a1949976f8316f5b3450275dda2930eef59ce1f5f32336c50cc0fdec19bf4d95"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/evaluation-only.patch",
+      "bytes": 1732,
+      "sha256": "34f2cb6d2420a6d0e783a0630abb39453fefa2fdd85cc0ad5d05abc738abef87"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/evaluation-source.json",
+      "bytes": 190,
+      "sha256": "eff7eb7ef062ca83a2b0dab74906cf7ddf2318906a63825413b0bbd9ad4979db"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/first/arrays.npz",
+      "bytes": 2708147,
+      "sha256": "16254bdb3c8ea5d80580d831308bf6760a5faa5435f3b8ad3bd8bee703bade31"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/first/mesh_quality.py",
+      "bytes": 2558,
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/first/override.json",
+      "bytes": 2163960,
+      "sha256": "17a4e6bfbd9737f1b5bd8126328ab22eaf07d9c7142b9dcd9631ae52d4298385"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/first/reconcile_recovered.py",
+      "bytes": 6065,
+      "sha256": "2d733c43d7b2e5d1e462ab8ae0d31880b9be7aef6603ae559de59204ac0d3bc6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/first/result.json",
+      "bytes": 3631,
+      "sha256": "8d02157289e7b951b375a0fed2744b0f39582a0727811dbc0ba7948409ce447a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/first-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/first-execution/state.json",
+      "bytes": 1213,
+      "sha256": "234620223c9fe9185694379926d7cb42a821357b2646af0ef22ad24ca19e8d2a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/first-execution/stdout.log",
+      "bytes": 3631,
+      "sha256": "8d02157289e7b951b375a0fed2744b0f39582a0727811dbc0ba7948409ce447a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/launch-note.json",
+      "bytes": 359,
+      "sha256": "c5f2d5f98f97af3d34ae53981fc519e6fae38ee3b048722b4686a7ac96d9d7b3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/prepare_evaluation.py",
+      "bytes": 1050,
+      "sha256": "89e619f3e832ef895a603787aaa38cee30c078cb03894001e09e7abe7909306a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/reconcile_recovered.py",
+      "bytes": 6065,
+      "sha256": "2d733c43d7b2e5d1e462ab8ae0d31880b9be7aef6603ae559de59204ac0d3bc6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/second/arrays.npz",
+      "bytes": 16220080,
+      "sha256": "9247c744e4c6197aea2fcdc8d4bfe5682c2a3892e4d683373883ec7810595de7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/second/mesh_quality.py",
+      "bytes": 2558,
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/second/override.json",
+      "bytes": 12859183,
+      "sha256": "9fb6636c40d34b3c1d8ded270c50e8ad90a43f7ca4f230169451e2a27bf4fe58"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/second/reconcile_recovered.py",
+      "bytes": 6065,
+      "sha256": "2d733c43d7b2e5d1e462ab8ae0d31880b9be7aef6603ae559de59204ac0d3bc6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/second/result.json",
+      "bytes": 4559,
+      "sha256": "7b8c7a075255fe9ac88a2e5878ff8d8c6c746c5c73822ef4e838e92e0f584ed8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/second-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/second-execution/state.json",
+      "bytes": 1205,
+      "sha256": "2cf6ba564f2277cc562f769709e79d3e97b72c12a7e885a68f5f8c92c179e238"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-reconcile01/second-execution/stdout.log",
+      "bytes": 4559,
+      "sha256": "7b8c7a075255fe9ac88a2e5878ff8d8c6c746c5c73822ef4e838e92e0f584ed8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output/meta.json",
+      "bytes": 993,
+      "sha256": "5652553cc52a50f08878765ec99df8eb71f7b94de167d8bb521590317aec40b6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output/x.tif",
+      "bytes": 2982382,
+      "sha256": "6eefe584ce1c05eb0bf3e72bb786b54d68819a7f1f7004be396dab76b0c9fa53"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output/y.tif",
+      "bytes": 2982382,
+      "sha256": "cf2fff9e773bcf91a63e8b8f1a924779b1f10c3d6ea9e1548f410aab7222c0ca"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output/z.tif",
+      "bytes": 2982382,
+      "sha256": "60d6b6cd94bff00571e657bdc152e2bd89438b89c9d140a70335c7325c031446"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output.obj_components.json",
+      "bytes": 3533,
+      "sha256": "063a11f3c02950a3d77cf723b07bf1bee000f9ebc978df8ea9f5ac2dd8acca00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output.obj_uv_diagnostics.json",
+      "bytes": 22157757,
+      "sha256": "44243f4adfa3b1d2366338b359f1ea82b1c8846421162212fa36e5b8565c0a30"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output_component_108248_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "f6a212c258c217d5fbfd51f5143b300c07b82eacd66366344b77d9d166922936"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output_component_158916_energies_flatboi.txt",
+      "bytes": 664,
+      "sha256": "2baa4fa8835d14b8178455ce62d9851f38911fe652e155bfe22c9a60c4252445"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output_component_249232_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "c4de21769e23e812d080bb86320e34d79d9bc04c9458c2c8f9203c5593020ac6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "f37188cf8c1c6d5aa65c689042513cb2ed72dc902498e1b602f96ac8434aa190"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output_heat_kappa.png",
+      "bytes": 55968,
+      "sha256": "189ba6b0e97ba211eb8c96bcc1caa88bfc734c7032e8cc5e2e7f9402f21e2cbc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output_heat_L2.png",
+      "bytes": 59840,
+      "sha256": "1e12ea356a2508504e82a3fcb1840ca01d3c2fd94b2715704a96e725a28b1be5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output_heat_Linf.png",
+      "bytes": 56189,
+      "sha256": "d5590d436c5b17925e27a7e2f5119d704146b8f342bc5e81e3714107315bc983"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output_heat_logarea.png",
+      "bytes": 72198,
+      "sha256": "bb0744014098a2783a0fa34de4d1a4975af4fad1baeab27179495a2c5de4dd4c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/output_heat_ranges.txt",
+      "bytes": 246,
+      "sha256": "79abd70bf473f3c664d7b48668631a0b9109db0fd487d686870f0697a2d51fcc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/raster_trace.json",
+      "bytes": 3177999,
+      "sha256": "64aed08d8348d815c31a403f24b44b7af976d87682d206751ed3db5b6fbc8e8c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/runner.py",
+      "bytes": 4857,
+      "sha256": "08cb789e6ea28cbf720085c753b393b50592508965550f9580dfafa3921a98e5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/state.json",
+      "bytes": 4110,
+      "sha256": "2a2d8ea75b71955708b13378b6c3bf3381988e58a7ef1d005de44212784c4a5a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/stdout.log",
+      "bytes": 10638,
+      "sha256": "ae8b90922e13bf10314dec620becd35c3d105b2877aadc093422097046e4aacc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-runs/reconcile_second_keep1p5_01/uv_override.json",
+      "bytes": 12859183,
+      "sha256": "9fb6636c40d34b3c1d8ded270c50e8ad90a43f7ca4f230169451e2a27bf4fe58"
+    },
+    {
+      "path": "research/49-r005-reconcile-trial.md",
+      "bytes": 5930,
+      "sha256": "5510bd2a6bd951669b169490858c30fc54a8044837d0263f65a10fa65c1fbde6"
+    },
+    {
+      "path": "research/50-r005-reconcile-verification.md",
+      "bytes": 7155,
+      "sha256": "98dd7f91467f1334cf110d087cc8ca34c13b13344610ba3486a870f729e7308d"
+    }
+  ]
+}

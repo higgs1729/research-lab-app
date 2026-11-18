@@ -1,0 +1,37 @@
+{
+  "utc": "2026-11-15T13:41:23.936458+00:00",
+  "source_fragments_checked": 11,
+  "native_intensity_values_checked": 655360,
+  "cases": [
+    {
+      "id": "phi",
+      "tile": {
+        "values": 262144,
+        "mismatch_count": 843,
+        "max_abs_DN": 1
+      },
+      "band": {
+        "values": 262144,
+        "mismatch_count": 824,
+        "max_abs_DN": 1
+      }
+    },
+    {
+      "id": "heldout",
+      "tile": {
+        "values": 65536,
+        "mismatch_count": 235,
+        "max_abs_DN": 1
+      },
+      "band": {
+        "values": 65536,
+        "mismatch_count": 235,
+        "max_abs_DN": 1
+      }
+    }
+  ],
+  "native_band_equals_separate_NumPy_intervention": true,
+  "native_tile_phi_equals_R236_intensity_base_and_normal": true,
+  "model_forwards_added": 0,
+  "interpretation": "TIF band branch difference is real, but this one fixed native build retains 1059 single-DN differences across the two controls. No exact input reproduction established. Original rendering host/compiler flags remain unknown."
+}

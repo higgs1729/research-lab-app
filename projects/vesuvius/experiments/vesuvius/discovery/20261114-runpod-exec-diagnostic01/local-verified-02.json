@@ -1,0 +1,99 @@
+{
+  "tests": {
+    "404_then_ready": {
+      "create_posts": 1,
+      "delete_calls": 1,
+      "marker_attempts": 2,
+      "startup_log_calls": 1,
+      "confirmed_absent": true,
+      "time_elapsed_seconds": 8.0,
+      "transfer_entry_reached": true
+    },
+    "404_continues": {
+      "create_posts": 1,
+      "delete_calls": 1,
+      "marker_attempts": 3,
+      "startup_log_calls": 2,
+      "confirmed_absent": true,
+      "time_elapsed_seconds": 12.0,
+      "transfer_entry_reached": false
+    },
+    "404_then_disappearance": {
+      "create_posts": 1,
+      "delete_calls": 0,
+      "marker_attempts": 1,
+      "startup_log_calls": 0,
+      "confirmed_absent": true,
+      "time_elapsed_seconds": 0.0,
+      "transfer_entry_reached": false
+    },
+    "auth_401": {
+      "create_posts": 1,
+      "delete_calls": 1,
+      "marker_attempts": 1,
+      "startup_log_calls": 0,
+      "confirmed_absent": true,
+      "time_elapsed_seconds": 4.0,
+      "transfer_entry_reached": false
+    },
+    "auth_403": {
+      "create_posts": 1,
+      "delete_calls": 1,
+      "marker_attempts": 1,
+      "startup_log_calls": 0,
+      "confirmed_absent": true,
+      "time_elapsed_seconds": 4.0,
+      "transfer_entry_reached": false
+    },
+    "log_failure": {
+      "create_posts": 1,
+      "delete_calls": 1,
+      "marker_attempts": 3,
+      "startup_log_calls": 2,
+      "confirmed_absent": true,
+      "time_elapsed_seconds": 12.0,
+      "transfer_entry_reached": false
+    },
+    "retry_after_over_deadline": {
+      "create_posts": 1,
+      "delete_calls": 1,
+      "marker_attempts": 1,
+      "startup_log_calls": 0,
+      "confirmed_absent": true,
+      "time_elapsed_seconds": 4.0,
+      "transfer_entry_reached": false
+    },
+    "retry_after_short": {
+      "create_posts": 1,
+      "delete_calls": 1,
+      "marker_attempts": 2,
+      "startup_log_calls": 1,
+      "confirmed_absent": true,
+      "time_elapsed_seconds": 11.0,
+      "transfer_entry_reached": true
+    },
+    "marker_self_get_failure": {
+      "create_posts": 1,
+      "delete_calls": 1,
+      "marker_attempts": 1,
+      "startup_log_calls": 1,
+      "confirmed_absent": true,
+      "time_elapsed_seconds": 4.0,
+      "transfer_entry_reached": false
+    },
+    "marker_exit_failure": {
+      "create_posts": 1,
+      "delete_calls": 1,
+      "marker_attempts": 1,
+      "startup_log_calls": 1,
+      "confirmed_absent": true,
+      "time_elapsed_seconds": 4.0,
+      "transfer_entry_reached": false
+    },
+    "redaction": true
+  },
+  "unchanged_r201_input_bundle_bytes": 5079040,
+  "network_calls": 0,
+  "real_pods_created": 0,
+  "model_calls": 0
+}

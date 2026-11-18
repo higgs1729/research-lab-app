@@ -1,0 +1,1257 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "probes": [
+    {
+      "label": "within_winner_crop_unboxed",
+      "ct_mid_pixels": 4096,
+      "ct_mid_exact_pixels": 4086,
+      "ct_mid_max_difference": 1,
+      "ct_mid_mae": 0.00244140625,
+      "max_geometry_error_voxel": 0.0006567575091943872,
+      "max_ct_residual": 0.4870188571512699,
+      "samples": [
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 0,
+          "expected": 124.34179782867432,
+          "observed": 124
+        },
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 8,
+          "expected": 36.242743539391086,
+          "observed": 36
+        },
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 16,
+          "expected": 41.87973758112639,
+          "observed": 42
+        },
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 24,
+          "expected": 127.05771961528808,
+          "observed": 127
+        },
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 32,
+          "expected": 36.14154968876392,
+          "observed": 36
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 0,
+          "expected": 47.23661318188533,
+          "observed": 47
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 8,
+          "expected": 34.26148913544603,
+          "observed": 34
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 16,
+          "expected": 32.82953459024429,
+          "observed": 33
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 24,
+          "expected": 115.77725434303284,
+          "observed": 116
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 32,
+          "expected": 118.62255967175588,
+          "observed": 119
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 0,
+          "expected": 101.3365888595581,
+          "observed": 101
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 8,
+          "expected": 129.48701885715127,
+          "observed": 129
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 16,
+          "expected": 36.381782760843635,
+          "observed": 36
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 24,
+          "expected": 100.46147573227063,
+          "observed": 100
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 32,
+          "expected": 31.165096044540405,
+          "observed": 31
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 0,
+          "expected": 134.56628980115056,
+          "observed": 135
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 8,
+          "expected": 49.71770524606109,
+          "observed": 50
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 16,
+          "expected": 44.84109149686992,
+          "observed": 45
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 24,
+          "expected": 129.95174407958984,
+          "observed": 130
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 32,
+          "expected": 72.7710058724042,
+          "observed": 73
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 0,
+          "expected": 128.30006380192935,
+          "observed": 128
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 8,
+          "expected": 87.19482654519379,
+          "observed": 87
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 16,
+          "expected": 41.314378544688225,
+          "observed": 41
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 24,
+          "expected": 111.76093631982803,
+          "observed": 112
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 32,
+          "expected": 31.45608145557344,
+          "observed": 31
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 0,
+          "expected": 87.54966688156128,
+          "observed": 88
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 8,
+          "expected": 158.22458570823073,
+          "observed": 158
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 16,
+          "expected": 51.85632663033903,
+          "observed": 52
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 24,
+          "expected": 115.8017239656765,
+          "observed": 116
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 32,
+          "expected": 53.22798192454502,
+          "observed": 53
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 0,
+          "expected": 143.75001788139343,
+          "observed": 144
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 8,
+          "expected": 51.099387131631374,
+          "observed": 51
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 16,
+          "expected": 41.47606785967946,
+          "observed": 41
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 24,
+          "expected": 133.90725202020258,
+          "observed": 134
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 32,
+          "expected": 32.97866308549419,
+          "observed": 33
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 0,
+          "expected": 113.29566176142544,
+          "observed": 113
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 8,
+          "expected": 36.340845230966806,
+          "observed": 36
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 16,
+          "expected": 30.9980829753913,
+          "observed": 31
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 24,
+          "expected": 37.35440384410322,
+          "observed": 37
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 32,
+          "expected": 41.41901755332947,
+          "observed": 41
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 0,
+          "expected": 84.90635588392615,
+          "observed": 85
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 8,
+          "expected": 33.061114708893,
+          "observed": 33
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 16,
+          "expected": 44.648906987160444,
+          "observed": 45
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 24,
+          "expected": 157.53399456990883,
+          "observed": 158
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 32,
+          "expected": 27.83135507069528,
+          "observed": 28
+        }
+      ]
+    },
+    {
+      "label": "beyond_crop_band",
+      "ct_mid_pixels": 4096,
+      "ct_mid_exact_pixels": 4075,
+      "ct_mid_max_difference": 1,
+      "ct_mid_mae": 0.005126953125,
+      "max_geometry_error_voxel": 0.0012513550889727409,
+      "max_ct_residual": 0.48517436161637306,
+      "samples": [
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 0,
+          "expected": 37.03073215484619,
+          "observed": 37
+        },
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 8,
+          "expected": 127.20391518855467,
+          "observed": 127
+        },
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 16,
+          "expected": 36.726338021457195,
+          "observed": 37
+        },
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 24,
+          "expected": 57.33367578452453,
+          "observed": 57
+        },
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 32,
+          "expected": 142.2127544283867,
+          "observed": 142
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 0,
+          "expected": 40.54063758463599,
+          "observed": 41
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 8,
+          "expected": 110.3128201244399,
+          "observed": 110
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 16,
+          "expected": 26.167183488607407,
+          "observed": 26
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 24,
+          "expected": 80.21994774695486,
+          "observed": 80
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 32,
+          "expected": 32.56892622425221,
+          "observed": 33
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 0,
+          "expected": 60.36940121650696,
+          "observed": 60
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 8,
+          "expected": 53.90062269940972,
+          "observed": 54
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 16,
+          "expected": 34.70117121189833,
+          "observed": 35
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 24,
+          "expected": 138.95416305214167,
+          "observed": 139
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 32,
+          "expected": 41.6308605838567,
+          "observed": 42
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 0,
+          "expected": 41.45442581176758,
+          "observed": 41
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 8,
+          "expected": 119.34348627924919,
+          "observed": 119
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 16,
+          "expected": 112.76011571288109,
+          "observed": 113
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 24,
+          "expected": 92.16979050356895,
+          "observed": 92
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 32,
+          "expected": 79.62572560459375,
+          "observed": 80
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 0,
+          "expected": 43.29367136955261,
+          "observed": 43
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 8,
+          "expected": 145.3057861328125,
+          "observed": 145
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 16,
+          "expected": 93.59732985123992,
+          "observed": 94
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 24,
+          "expected": 76.00775146484375,
+          "observed": 76
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 32,
+          "expected": 40.77583699836396,
+          "observed": 41
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 0,
+          "expected": 32.44176431745291,
+          "observed": 32
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 8,
+          "expected": 117.57537396997213,
+          "observed": 118
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 16,
+          "expected": 51.643227733671665,
+          "observed": 52
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 24,
+          "expected": 135.90848400443792,
+          "observed": 136
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 32,
+          "expected": 38.23721947520971,
+          "observed": 38
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 0,
+          "expected": 78.48517436161637,
+          "observed": 78
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 8,
+          "expected": 108.95258472114801,
+          "observed": 109
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 16,
+          "expected": 88.76894238218665,
+          "observed": 89
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 24,
+          "expected": 110.1409261804074,
+          "observed": 110
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 32,
+          "expected": 40.66028021089733,
+          "observed": 41
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 0,
+          "expected": 116.42572237923741,
+          "observed": 116
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 8,
+          "expected": 93.69951078481972,
+          "observed": 94
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 16,
+          "expected": 44.46603407384828,
+          "observed": 44
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 24,
+          "expected": 138.1967225112021,
+          "observed": 138
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 32,
+          "expected": 31.899076465517282,
+          "observed": 32
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 0,
+          "expected": 26.092404333408922,
+          "observed": 26
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 8,
+          "expected": 48.343729143962264,
+          "observed": 48
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 16,
+          "expected": 35.25941011123359,
+          "observed": 35
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 24,
+          "expected": 134.42607472557575,
+          "observed": 134
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 32,
+          "expected": 32.29737284500152,
+          "observed": 32
+        }
+      ]
+    },
+    {
+      "label": "beyond_crop_lobe",
+      "ct_mid_pixels": 4096,
+      "ct_mid_exact_pixels": 4075,
+      "ct_mid_max_difference": 1,
+      "ct_mid_mae": 0.005126953125,
+      "max_geometry_error_voxel": 0.0008980179524651263,
+      "max_ct_residual": 0.4905025283806026,
+      "samples": [
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 0,
+          "expected": 113.21436850726604,
+          "observed": 113
+        },
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 8,
+          "expected": 52.0942433453165,
+          "observed": 52
+        },
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 16,
+          "expected": 35.12087051337585,
+          "observed": 35
+        },
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 24,
+          "expected": 45.58739506220445,
+          "observed": 46
+        },
+        {
+          "local_yx": [
+            16,
+            16
+          ],
+          "layer": 32,
+          "expected": 47.60673302412033,
+          "observed": 48
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 0,
+          "expected": 125.87980956584215,
+          "observed": 126
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 8,
+          "expected": 125.19300285121426,
+          "observed": 125
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 16,
+          "expected": 32.29130959510803,
+          "observed": 32
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 24,
+          "expected": 99.24163721967489,
+          "observed": 99
+        },
+        {
+          "local_yx": [
+            16,
+            32
+          ],
+          "layer": 32,
+          "expected": 132.37827110290527,
+          "observed": 132
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 0,
+          "expected": 108.17630245746113,
+          "observed": 108
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 8,
+          "expected": 101.26715651340783,
+          "observed": 101
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 16,
+          "expected": 82.57308194041252,
+          "observed": 83
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 24,
+          "expected": 122.76368684694171,
+          "observed": 123
+        },
+        {
+          "local_yx": [
+            16,
+            48
+          ],
+          "layer": 32,
+          "expected": 121.39437754871324,
+          "observed": 121
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 0,
+          "expected": 84.28675553202629,
+          "observed": 84
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 8,
+          "expected": 114.06422824412584,
+          "observed": 114
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 16,
+          "expected": 85.18869633972645,
+          "observed": 85
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 24,
+          "expected": 121.07684832438827,
+          "observed": 121
+        },
+        {
+          "local_yx": [
+            32,
+            16
+          ],
+          "layer": 32,
+          "expected": 43.879549806937575,
+          "observed": 44
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 0,
+          "expected": 108.29450373817235,
+          "observed": 108
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 8,
+          "expected": 145.36870678933337,
+          "observed": 145
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 16,
+          "expected": 49.66687565855682,
+          "observed": 50
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 24,
+          "expected": 120.90594706870615,
+          "observed": 121
+        },
+        {
+          "local_yx": [
+            32,
+            32
+          ],
+          "layer": 32,
+          "expected": 121.47236918890849,
+          "observed": 121
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 0,
+          "expected": 97.67938697338104,
+          "observed": 98
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 8,
+          "expected": 110.90147782117128,
+          "observed": 111
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 16,
+          "expected": 78.47581301815808,
+          "observed": 78
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 24,
+          "expected": 131.87754322588444,
+          "observed": 132
+        },
+        {
+          "local_yx": [
+            32,
+            48
+          ],
+          "layer": 32,
+          "expected": 83.7932385802269,
+          "observed": 84
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 0,
+          "expected": 86.23929650615901,
+          "observed": 86
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 8,
+          "expected": 105.97291724244133,
+          "observed": 106
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 16,
+          "expected": 99.24876467511058,
+          "observed": 99
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 24,
+          "expected": 26.738486029207706,
+          "observed": 27
+        },
+        {
+          "local_yx": [
+            48,
+            16
+          ],
+          "layer": 32,
+          "expected": 39.11850878596306,
+          "observed": 39
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 0,
+          "expected": 74.54603099822998,
+          "observed": 75
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 8,
+          "expected": 110.00177747756243,
+          "observed": 110
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 16,
+          "expected": 32.5094974716194,
+          "observed": 33
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 24,
+          "expected": 41.600206047296524,
+          "observed": 42
+        },
+        {
+          "local_yx": [
+            48,
+            32
+          ],
+          "layer": 32,
+          "expected": 119.68087548017502,
+          "observed": 120
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 0,
+          "expected": 104.18145370483398,
+          "observed": 104
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 8,
+          "expected": 77.31549123302102,
+          "observed": 77
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 16,
+          "expected": 80.9586171671981,
+          "observed": 81
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 24,
+          "expected": 45.86529916524887,
+          "observed": 46
+        },
+        {
+          "local_yx": [
+            48,
+            48
+          ],
+          "layer": 32,
+          "expected": 143.52809760533273,
+          "observed": 144
+        }
+      ]
+    }
+  ],
+  "scope": "27 independent mesh points and 135 direct raw-CT trilinear samples, plus all 12288 central pixels versus the public atlas. No ink or physical continuity claim.",
+  "new_network_bytes": 0,
+  "new_render_or_model_calls": 0
+}

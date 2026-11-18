@@ -1,0 +1,43 @@
+{
+  "utc": "2026-11-15T16:53:49.792675+00:00",
+  "passed": true,
+  "common_patch_values_exact": 470016,
+  "overlap_each_array_values_exact": 131072,
+  "arrays": [
+    "probability",
+    "weight",
+    "numerator",
+    "nonzero"
+  ],
+  "known_phi_values_exact": 96000,
+  "raw_native_figures_checked": [
+    {
+      "file": "new-main-raw8-native.png",
+      "pixels": 655360,
+      "sha256": "791b3994ed18f45b256693ca2b6d315593a36f5cf93397cf68ad1590e0eacac4"
+    },
+    {
+      "file": "known-phi-raw8-native.png",
+      "pixels": 96000,
+      "sha256": "979b8492e3925281c5971a895d683004b7a15d8a9e859805272441153ea20dfa"
+    },
+    {
+      "file": "context-union-raw8-native.png",
+      "pixels": 1179648,
+      "sha256": "99507af59094e417363b34245b1ea8fbe301182d820e36aa03099a1de9d6c99d"
+    },
+    {
+      "file": "fixed-clipped-response-raw8-native.png",
+      "pixels": 294912,
+      "sha256": "d17c47ffb99d4c95f189aa78b8b33663f08602e0b2eaf7fd6fac75ff6f76d5de"
+    },
+    {
+      "file": "new-main-CT-preview-native.png",
+      "pixels": 655360,
+      "sha256": "75499480eecb62f390c196ae4d1d4a49b25b549c8e48c1920bc6656a4a0708c7"
+    }
+  ],
+  "coordinate_guide": "All nonannotation pixels equal union; crop/overlap boundaries and guide colors independently checked.",
+  "new_model_forwards": 0,
+  "interpretation": "Bit equality in these fixed samples across A40 and H100 is observed, not general GPU equivalence."
+}

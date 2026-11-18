@@ -1,0 +1,392 @@
+{
+  "created_utc": "2026-11-12T02:55:04.248810+00:00",
+  "scope": "Reports89/90, one-vertex LP diagnosis14 cases, O2-point combined mesh, preserved fixed conditions, full geometry and native same-grid G/I/N/O, independent primal/dual/Farkas/SAT/raster verification, resources/runtime/decision. I baseline retained; N lower-distortion and O sample-placement controls saved.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-close/decision-record.json",
+      "bytes": 1003,
+      "sha256": "a4724109886e7d955d834eff2d038456d14a611a9e2e5d60ab887f66934e09d2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-close/experiment-record.json",
+      "bytes": 1847,
+      "sha256": "a17f6a35e33a1a9e9667eb0a876fb25ca12a6e7fa8b6d1acb2b591508e0e9751"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-close/freeze.py",
+      "bytes": 5255,
+      "sha256": "f2b2b7939280e65bd25c3d27d69b4fee193158739ffb7dbb58db14ee3bc9f21c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-close/resources.json",
+      "bytes": 11827,
+      "sha256": "79413262e3d95f8de11a58608ca7dac0ae85e3f73e9764304fd34e3202e71231"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-close/runtime-status.json",
+      "bytes": 958,
+      "sha256": "28b77a12fdd9b51870cc803c5af5df0d09a876cfdc46b5b1a0bb211d860ea0f2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-close/verification-record.json",
+      "bytes": 987,
+      "sha256": "31203bb33768e4575cd8dadb622b744aa4332fb51e5e41061b82766fa1982fe8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-verification01/check01/pairs.npz",
+      "bytes": 1806,
+      "sha256": "3319cce5126857aaf3fe975c92df636355e6aaa91ff0463e47cc10db59c0e1de"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-verification01/check01/raster_arrays.npz",
+      "bytes": 11386093,
+      "sha256": "ca7073e227a94d3035916215956f67fb8be25793bafef54512b5f6605b1f63d3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-verification01/check01/result.json",
+      "bytes": 56303,
+      "sha256": "f5ae372244c886202077ce458d154c802064b10b73861365d459481349432162"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-verification01/check01-execution/state.json",
+      "bytes": 886,
+      "sha256": "37e1c50081e31f417d0a799660a67cd0617f74335ede823183ba90d2935f0225"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-verification01/check01-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-verification01/verify_saved.py",
+      "bytes": 33585,
+      "sha256": "1a746f8750d7ac1546966f20c5edf601230ec28214a2c32b0696ff519bd851c1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/adapt.py",
+      "bytes": 1514,
+      "sha256": "17151458dcde260dda8381c5dc4522ce98f6817a65a42e4d5b0863cde7b268dc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/analysis01/analyze.py",
+      "bytes": 4639,
+      "sha256": "86242af8eab06b17d8c1d7ac455c58b2e0b6a5078f8fbbb22e07984952ccc0ed"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/analysis01/arrays.npz",
+      "bytes": 17705086,
+      "sha256": "531448b3fd8f824c6fffbe5928f9ca3101adb2052a00545cb697d88b320b4e32"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/analysis01/result.json",
+      "bytes": 7417,
+      "sha256": "8eefa0be33c3220e95e3b91765aad67abc51bd995050722aa4f0598a9cd3d892"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/analysis01-execution/state.json",
+      "bytes": 857,
+      "sha256": "d8bba41dfade1c9f3853f4e30cf1fdac3678b80245d62cd9a88dd16347ee6eac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/analysis01-execution/stdout.log",
+      "bytes": 2490,
+      "sha256": "b82182014fa3bd03cd6d9ca257d338f86a9bfe05cdbe5be7be0fe6f419dfacd7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/analyze.py",
+      "bytes": 4639,
+      "sha256": "86242af8eab06b17d8c1d7ac455c58b2e0b6a5078f8fbbb22e07984952ccc0ed"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/decision-record.json",
+      "bytes": 1614,
+      "sha256": "0353c6c27200643eb2aab7dc30d9554f79b253dbf9a4ca0e8593f89669c237c5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/detail.py",
+      "bytes": 4272,
+      "sha256": "3d19058971c4f25783ecfd1c64105f802c8d62683ff8fd90c2cbf1c39a0a7878"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/detail01/arrays.npz",
+      "bytes": 2233,
+      "sha256": "c32511497897eb1abceee714867b5ea1e07511bd679588efa05c620647f46321"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/detail01/detail.py",
+      "bytes": 4272,
+      "sha256": "3d19058971c4f25783ecfd1c64105f802c8d62683ff8fd90c2cbf1c39a0a7878"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/detail01/result.json",
+      "bytes": 12589,
+      "sha256": "c9b2ec95c930f53cafd3fc343a63a53f792199874876e63e0fc97653a6c7f972"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/detail01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/detail01-execution/state.json",
+      "bytes": 855,
+      "sha256": "33a4b7a8d48e86cf07aca7eca6d20faecf71f30771591dd1a48eef351beb363b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/detail01-execution/stdout.log",
+      "bytes": 12589,
+      "sha256": "c9b2ec95c930f53cafd3fc343a63a53f792199874876e63e0fc97653a6c7f972"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/diagnose.py",
+      "bytes": 6249,
+      "sha256": "e031eaa51e096b7bc42529bb890d167a4526383605a4a93eb880373f8ec866dc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/diagnosis01/arrays.npz",
+      "bytes": 8663863,
+      "sha256": "3896acecd8fd1ca21fe4c9c5d55bda8687e1c2d9b28571131fbd05859b5a62ae"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/diagnosis01/diagnose.py",
+      "bytes": 6249,
+      "sha256": "e031eaa51e096b7bc42529bb890d167a4526383605a4a93eb880373f8ec866dc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/diagnosis01/result.json",
+      "bytes": 26814,
+      "sha256": "8fa58f07a2db3ff3b012ed8c2369634e3b53a0b79d08c73ce592afb9475100b0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/diagnosis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/diagnosis01-execution/state.json",
+      "bytes": 860,
+      "sha256": "642fdcf8469e11a206e9b6f053abb4f745d85a5478b37065dcdd98c10348d21d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/diagnosis01-execution/stdout.log",
+      "bytes": 7056,
+      "sha256": "d2803658126570160d6e5601f27efb612c8adbed6dc60fa3b6cc3daf68db2953"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/evaluate-raster02.patch",
+      "bytes": 1532,
+      "sha256": "bf99038a009d48bf71dec43892b14e01d16f1d1d9ebbfb223e9e0d82aa913290"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/evaluate_raster.py",
+      "bytes": 6554,
+      "sha256": "2f665c3bc4703eac98a8682ef07ca190f7f79c46493a819a407ce87dfaede1fe"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/evaluate_raster02.py",
+      "bytes": 6560,
+      "sha256": "49724a0777ca7fafd1a725dc82bb0edb0fe158137d0df9cbc68f338a4a4e9cb0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/native_raster.py",
+      "bytes": 3703,
+      "sha256": "c0264c7af3613172873bf4eb274c49021227c80083cad9450e0c2b0094c9685d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/prepare_raster.py",
+      "bytes": 2418,
+      "sha256": "06c819f01bc7c4421b0268f5f6a2df9f89c43f82e2d8abbf238086390baf4e94"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-adapt01/adapt.py",
+      "bytes": 1514,
+      "sha256": "17151458dcde260dda8381c5dc4522ce98f6817a65a42e4d5b0863cde7b268dc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-adapt01/evaluate.patch",
+      "bytes": 6674,
+      "sha256": "1cc802ad62c753dc887f5d0412e299f6bf160a08a4f116321d047d4e6c21fcd6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-adapt01/result.json",
+      "bytes": 577,
+      "sha256": "d4abc6fb3b71b1d3268f233a08ce1f37990ef29f012a784446f7cf39591f3657"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-adapt01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-adapt01-execution/state.json",
+      "bytes": 859,
+      "sha256": "4957b5cd25367ca97b7d80f8c65dcff5455cea0b26138ca7e84874141f81cf32"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-adapt01-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-analysis01/arrays.npz",
+      "bytes": 64860365,
+      "sha256": "62f4b6bf7676b84a20b3496ab2847b2d12562c433874c87a41a4fc7f3f04cf68"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-analysis01/evaluate_raster.py",
+      "bytes": 6560,
+      "sha256": "49724a0777ca7fafd1a725dc82bb0edb0fe158137d0df9cbc68f338a4a4e9cb0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-analysis01/result.json",
+      "bytes": 16324,
+      "sha256": "1c892df15ffaac45f1a47acf30e1e79f045c25c921dab19c3155efd8188aae6b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-analysis01-execution/state.json",
+      "bytes": 874,
+      "sha256": "67318cd5847880221bdc8821ada9d84e11a99a01c7a212f4ba8675358a7869f9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-analysis01-execution/stdout.log",
+      "bytes": 1530,
+      "sha256": "a888653b80edfa19185f36a16774ab80c1ef8a256256aa3441487ec3f87b96ef"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-decision-record.json",
+      "bytes": 1257,
+      "sha256": "f0e86a506df718d5890f4279a50d319e536c7896270c829d7640df953f170607"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-input01/correspondence.npz",
+      "bytes": 1500596,
+      "sha256": "11f461ce289080f771f926dd9d7b39974c3a06d11cedc6b3c10d17059ee09a90"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-input01/mesh.bin",
+      "bytes": 16476288,
+      "sha256": "1065241b0617a438b6fa9eb434364eab0d3f688a3b8e2658ab0c883db58fdc51"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-input01/prepare_raster.py",
+      "bytes": 2418,
+      "sha256": "06c819f01bc7c4421b0268f5f6a2df9f89c43f82e2d8abbf238086390baf4e94"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-input01/result.json",
+      "bytes": 396,
+      "sha256": "7ae260443a8fd8076353294411c144656f0a674011bc26f563cc55658180f293"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-input01/runner.patch",
+      "bytes": 3765,
+      "sha256": "33155812a7160fe9b9cd443d43af036dbc10642d77768d2ae0ce3e3a52ab4176"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-input01-execution/state.json",
+      "bytes": 868,
+      "sha256": "87281a4e1357424a9995653bfe6edb1a0e8abdd5550e090a701ae949d764640d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-input01-execution/stdout.log",
+      "bytes": 396,
+      "sha256": "7ae260443a8fd8076353294411c144656f0a674011bc26f563cc55658180f293"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/corner_obj.cpp",
+      "bytes": 3126,
+      "sha256": "19212966593c157043357c455dac74fbe20be83bd2b0f07058cacce8a25bfb37"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/mesh.obj",
+      "bytes": 41808267,
+      "sha256": "55da3892d8a7c0aefe50ef432be3a01eb3e93e0e4b9bed5c9313ac31c5450bae"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/native_obj.py",
+      "bytes": 3703,
+      "sha256": "c0264c7af3613172873bf4eb274c49021227c80083cad9450e0c2b0094c9685d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/output/meta.json",
+      "bytes": 382,
+      "sha256": "a7bfb29a624975425be6377d0b30a10c15938c4037221e00e62bcf60d2d2f5c6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/output/x.tif",
+      "bytes": 2982382,
+      "sha256": "16291bd965557a8db9cfcd8731afc4bcaabee576862870504765303c2f9cfc54"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/output/y.tif",
+      "bytes": 2982382,
+      "sha256": "4e30b7f38d0b143015a53cec59b04e8e796f6dbda4bc33428a700a1890550d58"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/output/z.tif",
+      "bytes": 2982382,
+      "sha256": "aeca87cb22783b4189d57559144698aa312486509b8b34519b11754dc639b2e2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/parsed.bin",
+      "bytes": 16476288,
+      "sha256": "1065241b0617a438b6fa9eb434364eab0d3f688a3b8e2658ab0c883db58fdc51"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/points.bin",
+      "bytes": 8946436,
+      "sha256": "bf9ce1c8f82a893aaca76db30912cfea617b0db8bcd0a4a774da3184149f6fde"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/raster_trace.json",
+      "bytes": 3182405,
+      "sha256": "9f38ae0079d91acb40cf852a6daaebaaba1624df4f22c0ea9a9bcd61c3a0663b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/result.json",
+      "bytes": 282,
+      "sha256": "0738934cefdf8230f1d9f6f3004a69af17129c98491d619ae2eff40a6f11958f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/state.json",
+      "bytes": 2327,
+      "sha256": "de861ec56736826d64d55a1d8d7efe9f1341d05cc35b962eb5aa8f14ac5f7cf5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/stdout.log",
+      "bytes": 272,
+      "sha256": "20061c197858d8638daa72a15d2b99aa27440ffc2612e9f89a7790485b9a5fdd"
+    },
+    {
+      "path": "research/89-r005-sample-placement.md",
+      "bytes": 9109,
+      "sha256": "61f39fe58aaac718e29897afe2b0f33bf8d818f41eb9926c764dd2dc20a7ce30"
+    },
+    {
+      "path": "research/90-r005-sample-placement-verification.md",
+      "bytes": 9586,
+      "sha256": "8e640e58bc5cb2b68ed4f399859208fb8dfcc4b613c3d8e386eec4b2d98f0a49"
+    }
+  ],
+  "external_files": []
+}

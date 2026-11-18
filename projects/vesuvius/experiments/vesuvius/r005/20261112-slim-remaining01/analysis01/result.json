@@ -1,0 +1,694 @@
+{
+  "regions": [
+    {
+      "region": 120,
+      "moving": 177,
+      "fixed": 40,
+      "faces": 331,
+      "C_negative": 28,
+      "accepted": true,
+      "stages": [
+        {
+          "penalty": 1.0,
+          "raw_boundary_max_error": 95.74295987151902,
+          "negative": 16,
+          "zero": 0,
+          "minimum_signed_area": -1092.6759768607037,
+          "float32_negative": 16,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": -1092.6695337295532
+        },
+        {
+          "penalty": 100.0,
+          "raw_boundary_max_error": 8.498969986213499,
+          "negative": 1,
+          "zero": 0,
+          "minimum_signed_area": -10.16658988417798,
+          "float32_negative": 1,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": -10.170555114746094
+        },
+        {
+          "penalty": 10000.0,
+          "raw_boundary_max_error": 0.09975455569486273,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 100.6894527477166,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 100.69137287139893
+        }
+      ],
+      "final_quality": {
+        "input_faces": 331,
+        "area3_total": 79439.32629403731,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 331,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.6203778311098322,
+          "area_weighted_inverse_L2_rms": 1.0047919349344971,
+          "max_symmetric_singular_stretch": 5.283740286268934,
+          "uv_area_over_3d_area": 1.4963941201160573,
+          "area_ratio_percentiles_1_50_99": [
+            0.6902016019587897,
+            1.3422656364638548,
+            3.8811787041175636
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.2857787018252096,
+            2.983204308671687,
+            5.899452855975484
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    },
+    {
+      "region": 90,
+      "moving": 482,
+      "fixed": 117,
+      "faces": 928,
+      "C_negative": 5,
+      "accepted": true,
+      "stages": [
+        {
+          "penalty": 1.0,
+          "raw_boundary_max_error": 88.08772168976316,
+          "negative": 19,
+          "zero": 0,
+          "minimum_signed_area": -680.3537739886114,
+          "float32_negative": 19,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": -680.350423336029
+        },
+        {
+          "penalty": 100.0,
+          "raw_boundary_max_error": 3.7028119953524663,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 18.39814206647307,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 18.376524567604065
+        },
+        {
+          "penalty": 10000.0,
+          "raw_boundary_max_error": 0.03973184353180999,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 18.50230190636853,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 18.4891699552536
+        }
+      ],
+      "final_quality": {
+        "input_faces": 928,
+        "area3_total": 203677.00701871247,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 928,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.2040594885096025,
+          "area_weighted_inverse_L2_rms": 1.0189307118242774,
+          "max_symmetric_singular_stretch": 4.072272390947933,
+          "uv_area_over_3d_area": 1.1369479042693629,
+          "area_ratio_percentiles_1_50_99": [
+            0.6261798976246035,
+            0.9985580239159613,
+            2.8469807816865114
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0060206039382553,
+            2.345001690410106,
+            3.008965351325273
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    },
+    {
+      "region": 108,
+      "moving": 567,
+      "fixed": 75,
+      "faces": 1104,
+      "C_negative": 10,
+      "accepted": true,
+      "stages": [
+        {
+          "penalty": 1.0,
+          "raw_boundary_max_error": 118.62528353057135,
+          "negative": 53,
+          "zero": 0,
+          "minimum_signed_area": -1293.4569477795026,
+          "float32_negative": 53,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": -1293.4514200687408
+        },
+        {
+          "penalty": 100.0,
+          "raw_boundary_max_error": 11.710229694529028,
+          "negative": 2,
+          "zero": 0,
+          "minimum_signed_area": -35.74319502377265,
+          "float32_negative": 2,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": -35.74782633781433
+        },
+        {
+          "penalty": 10000.0,
+          "raw_boundary_max_error": 0.13261942710865376,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 39.2994937449856,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 39.30481481552124
+        }
+      ],
+      "final_quality": {
+        "input_faces": 1104,
+        "area3_total": 262816.53524410655,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 1104,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.2474830309337364,
+          "area_weighted_inverse_L2_rms": 1.168702376728334,
+          "max_symmetric_singular_stretch": 4.167871466055211,
+          "uv_area_over_3d_area": 0.9781939525385577,
+          "area_ratio_percentiles_1_50_99": [
+            0.36658588142497306,
+            0.9760781305992365,
+            1.7808421855113512
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.101802938213149,
+            1.9950564751749944,
+            3.020464516431112
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    },
+    {
+      "region": 129,
+      "moving": 912,
+      "fixed": 122,
+      "faces": 1688,
+      "C_negative": 19,
+      "accepted": true,
+      "stages": [
+        {
+          "penalty": 1.0,
+          "raw_boundary_max_error": 63.208655429419544,
+          "negative": 12,
+          "zero": 0,
+          "minimum_signed_area": -376.81873627069774,
+          "float32_negative": 12,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": -376.81033396720886
+        },
+        {
+          "penalty": 100.0,
+          "raw_boundary_max_error": 2.6317838214547575,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 61.303957601646644,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 61.2998743057251
+        },
+        {
+          "penalty": 10000.0,
+          "raw_boundary_max_error": 0.027940829959496094,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 60.77930302543811,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 60.77908658981323
+        }
+      ],
+      "final_quality": {
+        "input_faces": 1688,
+        "area3_total": 386891.54938344355,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 1688,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0325641183647318,
+          "area_weighted_inverse_L2_rms": 1.0082159835123334,
+          "max_symmetric_singular_stretch": 6.983004402144391,
+          "uv_area_over_3d_area": 1.0185798390036127,
+          "area_ratio_percentiles_1_50_99": [
+            0.6820661301984677,
+            0.9978052366047696,
+            1.6168131706738444
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0037389200250062,
+            1.120536010226039,
+            1.3418369618315158
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    },
+    {
+      "region": 163,
+      "moving": 477,
+      "fixed": 156,
+      "faces": 973,
+      "C_negative": 2,
+      "accepted": true,
+      "stages": [
+        {
+          "penalty": 1.0,
+          "raw_boundary_max_error": 26.615621445404386,
+          "negative": 14,
+          "zero": 0,
+          "minimum_signed_area": -163.45534140732616,
+          "float32_negative": 14,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": -163.47045803070068
+        },
+        {
+          "penalty": 100.0,
+          "raw_boundary_max_error": 1.0331944532796336,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 72.67960373380593,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 72.68371915817261
+        },
+        {
+          "penalty": 10000.0,
+          "raw_boundary_max_error": 0.012216007724064254,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 73.13750227975322,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 73.1323299407959
+        }
+      ],
+      "final_quality": {
+        "input_faces": 973,
+        "area3_total": 215531.10055491948,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 973,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.043447073048702,
+          "area_weighted_inverse_L2_rms": 1.059935672561969,
+          "max_symmetric_singular_stretch": 4.571883054534085,
+          "uv_area_over_3d_area": 0.9351154760454763,
+          "area_ratio_percentiles_1_50_99": [
+            0.6246679666081855,
+            0.9507503158256791,
+            1.2449970661397476
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0107925268985283,
+            1.1121843119735813,
+            1.4297798189122501
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    },
+    {
+      "region": 280,
+      "moving": 905,
+      "fixed": 154,
+      "faces": 1724,
+      "C_negative": 17,
+      "accepted": true,
+      "stages": [
+        {
+          "penalty": 1.0,
+          "raw_boundary_max_error": 89.45529832310278,
+          "negative": 19,
+          "zero": 0,
+          "minimum_signed_area": -619.8704750397258,
+          "float32_negative": 19,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": -619.8785228729248
+        },
+        {
+          "penalty": 100.0,
+          "raw_boundary_max_error": 1.5324474439902476,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 42.72497948834907,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 42.71706295013428
+        },
+        {
+          "penalty": 10000.0,
+          "raw_boundary_max_error": 0.013370795761501979,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 44.47199952516861,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 44.45420551300049
+        }
+      ],
+      "final_quality": {
+        "input_faces": 1724,
+        "area3_total": 357803.1673338553,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 1724,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0448058054807852,
+          "area_weighted_inverse_L2_rms": 1.029498509247218,
+          "max_symmetric_singular_stretch": 3.005317558916353,
+          "uv_area_over_3d_area": 0.9997716224028582,
+          "area_ratio_percentiles_1_50_99": [
+            0.5425429723096823,
+            0.998005455461584,
+            1.6276634287605574
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0027644006216552,
+            1.2661346863434582,
+            1.8033337156755986
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    },
+    {
+      "region": 287,
+      "moving": 900,
+      "fixed": 171,
+      "faces": 1717,
+      "C_negative": 11,
+      "accepted": true,
+      "stages": [
+        {
+          "penalty": 1.0,
+          "raw_boundary_max_error": 77.25166571208895,
+          "negative": 23,
+          "zero": 0,
+          "minimum_signed_area": -916.7455990893369,
+          "float32_negative": 23,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": -916.7315464019775
+        },
+        {
+          "penalty": 100.0,
+          "raw_boundary_max_error": 7.506394947938363,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 22.057373325811042,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 22.046550750732422
+        },
+        {
+          "penalty": 10000.0,
+          "raw_boundary_max_error": 0.08436394244115643,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 71.13390241926211,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 71.12952613830566
+        }
+      ],
+      "final_quality": {
+        "input_faces": 1717,
+        "area3_total": 375720.8659446301,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 1717,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0591488621795093,
+          "area_weighted_inverse_L2_rms": 1.0358807463195203,
+          "max_symmetric_singular_stretch": 3.8125512613381716,
+          "uv_area_over_3d_area": 1.002404915042426,
+          "area_ratio_percentiles_1_50_99": [
+            0.64726875761792,
+            0.9964776581593279,
+            1.5705917207605724
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0030660660177328,
+            1.2936508910944762,
+            1.8536296111911923
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    },
+    {
+      "region": 320,
+      "moving": 197,
+      "fixed": 12,
+      "faces": 345,
+      "C_negative": 1,
+      "accepted": true,
+      "stages": [
+        {
+          "penalty": 1.0,
+          "raw_boundary_max_error": 94.91819740887054,
+          "negative": 1,
+          "zero": 0,
+          "minimum_signed_area": -329.9585127762832,
+          "float32_negative": 1,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": -329.99102783203125
+        },
+        {
+          "penalty": 100.0,
+          "raw_boundary_max_error": 2.509404329437718,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 123.39510671737277,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 123.38815879821777
+        },
+        {
+          "penalty": 10000.0,
+          "raw_boundary_max_error": 0.025490398839511846,
+          "negative": 0,
+          "zero": 0,
+          "minimum_signed_area": 122.96843630390805,
+          "float32_negative": 0,
+          "float32_zero": 0,
+          "float32_minimum_signed_area": 122.96908664703369
+        }
+      ],
+      "final_quality": {
+        "input_faces": 345,
+        "area3_total": 64951.501837391006,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 345,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.1391206146602422,
+          "area_weighted_inverse_L2_rms": 0.9329147493311263,
+          "max_symmetric_singular_stretch": 5.013656788231083,
+          "uv_area_over_3d_area": 1.2756342921652675,
+          "area_ratio_percentiles_1_50_99": [
+            0.9204934750110578,
+            1.1633053162255347,
+            2.5254401264519233
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0512361104745187,
+            1.3481547609435967,
+            2.436333020478264
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    }
+  ],
+  "accepted_regions": [
+    120,
+    90,
+    108,
+    129,
+    163,
+    280,
+    287,
+    320
+  ],
+  "changed_vertices": 4617,
+  "all_C_fixed_exact": true,
+  "all_coarse_exact": true,
+  "global_negative": 0,
+  "global_zero": 0,
+  "global_minimum_signed_area": 0.36532380015319177,
+  "global_float32_negative": 0,
+  "global_float32_zero": 0,
+  "C_negatives_recovered": 93,
+  "new_negative": 0,
+  "baseline_C_quality": {
+    "input_faces": 478224,
+    "area3_total": 101749890.19763327,
+    "invalid_uv_faces": 0,
+    "zero_uv_area_faces": 0,
+    "negative_uv_area_faces": 93,
+    "undefined_or_nonpositive_uv_area_fraction": 0.0002018442756413865,
+    "positive_faces_only": {
+      "faces": 478131,
+      "area3_fraction": 0.9997981557243586,
+      "area_weighted_normalized_symmetric_dirichlet": 1.4549315862709793,
+      "area_weighted_inverse_L2_rms": 1.3853010302362592,
+      "max_symmetric_singular_stretch": 658.7006097401709,
+      "uv_area_over_3d_area": 0.9709318790317775,
+      "area_ratio_percentiles_1_50_99": [
+        0.6781546315944826,
+        0.9791875853676129,
+        1.3831275185238474
+      ],
+      "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+        1.00677723632794,
+        1.0959824534918854,
+        1.359196290309554
+      ]
+    },
+    "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+  },
+  "merged_quality": {
+    "input_faces": 478224,
+    "area3_total": 101749890.19763327,
+    "invalid_uv_faces": 0,
+    "zero_uv_area_faces": 0,
+    "negative_uv_area_faces": 0,
+    "undefined_or_nonpositive_uv_area_fraction": 0.0,
+    "positive_faces_only": {
+      "faces": 478224,
+      "area3_fraction": 1.0,
+      "area_weighted_normalized_symmetric_dirichlet": 1.1632007236714392,
+      "area_weighted_inverse_L2_rms": 1.1548821218265117,
+      "max_symmetric_singular_stretch": 517.2883420248229,
+      "uv_area_over_3d_area": 0.9738839311631086,
+      "area_ratio_percentiles_1_50_99": [
+        0.7010936398349144,
+        0.9800072304377565,
+        1.3824103336805877
+      ],
+      "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+        1.006561941748212,
+        1.0908201168266205,
+        1.2930682936202704
+      ]
+    },
+    "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+  },
+  "common_positive_faces": 478131,
+  "common_positive_area3_fraction": 0.9997981557243586,
+  "common_positive_mean_C": 1.4549315862709793,
+  "common_positive_mean_merged": 1.1629684112621643,
+  "elapsed_seconds": 1.9524243000196293,
+  "notes": "Prepack experimental UV only. Accepted iff final exact-boundary patch is finite and every face has positive area in float64 and absolute float32. All nonselected vertices stay C. Packing, nonlocal overlap and rasterization are not evaluated.",
+  "sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\holdout_seed_keep1p5_01\\output.obj_uv_diagnostics.json",
+      "sha256": "b47eaf70e6d7f4423b0e5c6efb56ce36b24ebd688510d49aefad5311a899e853"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-reconcile01\\second\\arrays.npz",
+      "sha256": "9247c744e4c6197aea2fcdc8d4bfe5682c2a3892e4d683373883ec7810595de7"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-patch01\\input01\\arrays.npz",
+      "sha256": "c541068631042fdafb9d02ff1939b12bda91c908971db374ff73a769cc54f1ea"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-patch01\\run01\\result.json",
+      "sha256": "d160141b9f8742bc45adc8a8cdfc875c0a7e14bcb31f1ef96f939059ba37624d"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region090\\arrays.npz",
+      "sha256": "98472d013e25bc9f8b4ed69cd6cd7dcf0cd27fe4fec4b4a9276716451bfa8b81"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\runs01\\region090\\result.json",
+      "sha256": "69c6daafd6e61b0bffc9c6b9b8e4a6f00dd542feae92a87227213197c3cb1d20"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region108\\arrays.npz",
+      "sha256": "e700908eeb69496232ae808aeb61ff44690cbca62dd7d28c3457c3975c440dbb"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\runs01\\region108\\result.json",
+      "sha256": "1533a358cb500aa32eb5d8060770b7760aa1a9ab45ce5d95cd4021e076e7ceb7"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region129\\arrays.npz",
+      "sha256": "22c24d068a538baee85b29747e98c60c60037f2f4bcd5202c3e2f64451e9b83b"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\runs01\\region129\\result.json",
+      "sha256": "04bb5b3cbc8fe10203e870e381b314b2d9bd5beaa3c7bd532b5de81867781b27"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region163\\arrays.npz",
+      "sha256": "9099d295f948d6fdfa9928d40f0f5ccded8bd27528e7f2bebd2a131e2a884579"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\runs01\\region163\\result.json",
+      "sha256": "239a969921bcf8b2ef315328926f954b746b2247c692634ddf71f2ae30c1d92f"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region280\\arrays.npz",
+      "sha256": "4518f253b1f48fbaa15213c46dcc67dd10b329cb366a092104d8ef9e2044d2f6"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\runs01\\region280\\result.json",
+      "sha256": "9c82b563ae43b757f3ab6fedafe5e303968d9f2818d706068c02747d3a058e0f"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region287\\arrays.npz",
+      "sha256": "e42091d962da5565c6a43bbf097287efcceefe909ea67cdae9aa2f0bd78ed5eb"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\runs01\\region287\\result.json",
+      "sha256": "1422785fec85904e1716d160f0b48bc03c3c83ced7ae9c6f45b1da1b6bdb88c3"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region320\\arrays.npz",
+      "sha256": "db2f9444ea022d7c7bcefff4d93ab46f0a2f5eebeb81acb892d99d3d3cc517c3"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\runs01\\region320\\result.json",
+      "sha256": "f2f7a23b39363276e827a5a241895d7446e58329e9263cd8673519c4c185680e"
+    }
+  ]
+}

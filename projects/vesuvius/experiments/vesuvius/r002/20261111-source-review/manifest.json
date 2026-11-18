@@ -1,0 +1,77 @@
+{
+  "captured_utc": "2026-11-11T10:17:11.598Z",
+  "github_repository": "https://github.com/ScrollPrize/villa",
+  "verified_main": "c86cbd14bb34e0124684d3d97b03b310c947819a",
+  "main_checked_by": "git ls-remote https://github.com/ScrollPrize/villa.git refs/heads/main",
+  "retrieval": "GitHub connector fetch_issue, fetch_issue_comments, fetch_pr, fetch_pr_comments, search_issues, fetch_file; archive omits generated HTML and patches from issue/PR JSON responses",
+  "snapshots": [
+    "issue-2294.json",
+    "issue-2478.json",
+    "issue-2294-comments.json",
+    "issue-2478-comments.json",
+    "pr-2446.json",
+    "pr-2446-comments.json",
+    "pr-2290.json",
+    "pr-2290-comments.json",
+    "pr-1905.json",
+    "search-remote-cache.json",
+    "search-disk-cache.json",
+    "main-ref.json"
+  ],
+  "sources": [
+    {
+      "path": "volume-cartographer/core/src/RemoteCacheSettings.cpp",
+      "local": "volume-cartographer__core__src__RemoteCacheSettings.cpp",
+      "blob_sha": "63e1d4cf26cc9a0d464cfba30da06592b510e498",
+      "url": "https://github.com/ScrollPrize/villa/blob/c86cbd14bb34e0124684d3d97b03b310c947819a/volume-cartographer/core/src/RemoteCacheSettings.cpp"
+    },
+    {
+      "path": "vc_reader/src/cpp/disk_budget.cpp",
+      "local": "vc_reader__src__cpp__disk_budget.cpp",
+      "blob_sha": "245e32dec39efb4bd0d378a2da5c0dc005b3c60b",
+      "url": "https://github.com/ScrollPrize/villa/blob/c86cbd14bb34e0124684d3d97b03b310c947819a/vc_reader/src/cpp/disk_budget.cpp"
+    },
+    {
+      "path": "volume-cartographer/apps/src/vc_render_tifxyz.cpp",
+      "local": "volume-cartographer__apps__src__vc_render_tifxyz.cpp",
+      "blob_sha": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6",
+      "url": "https://github.com/ScrollPrize/villa/blob/c86cbd14bb34e0124684d3d97b03b310c947819a/volume-cartographer/apps/src/vc_render_tifxyz.cpp"
+    },
+    {
+      "path": "volume-cartographer/core/src/Volume.cpp",
+      "local": "volume-cartographer__core__src__Volume.cpp",
+      "blob_sha": "53e49961e6759103fb0cabbfe582c916f868c7f0",
+      "url": "https://github.com/ScrollPrize/villa/blob/c86cbd14bb34e0124684d3d97b03b310c947819a/volume-cartographer/core/src/Volume.cpp"
+    },
+    {
+      "path": "spiral-fitting/render_ink.py",
+      "local": "spiral-fitting__render_ink.py",
+      "blob_sha": "86b9e3c52988ada89fe10b57a1002fdbf2e0c5c5",
+      "url": "https://github.com/ScrollPrize/villa/blob/c86cbd14bb34e0124684d3d97b03b310c947819a/spiral-fitting/render_ink.py"
+    },
+    {
+      "path": "vc_reader/src/cpp/disk_cache.hpp",
+      "local": "vc_reader__src__cpp__disk_cache.hpp",
+      "blob_sha": "39152bb929c7b8f6c6f8145eb673005263cce35c",
+      "url": "https://github.com/ScrollPrize/villa/blob/c86cbd14bb34e0124684d3d97b03b310c947819a/vc_reader/src/cpp/disk_cache.hpp"
+    },
+    {
+      "path": "volume-cartographer/core/include/vc/core/util/RemoteCacheSettings.hpp",
+      "local": "volume-cartographer__core__include__vc__core__util__RemoteCacheSettings.hpp",
+      "blob_sha": "1c9e0658ad637d329f20ab1b25aa79454667a8e6",
+      "url": "https://github.com/ScrollPrize/villa/blob/c86cbd14bb34e0124684d3d97b03b310c947819a/volume-cartographer/core/include/vc/core/util/RemoteCacheSettings.hpp"
+    },
+    {
+      "path": "volume-cartographer/core/test/test_remote_cache_policy_first_open.cpp",
+      "local": "volume-cartographer__core__test__test_remote_cache_policy_first_open.cpp",
+      "blob_sha": "a131d5bdce6d9b0728f0e68b089952cbb4fd5cf4",
+      "url": "https://github.com/ScrollPrize/villa/blob/c86cbd14bb34e0124684d3d97b03b310c947819a/volume-cartographer/core/test/test_remote_cache_policy_first_open.cpp"
+    },
+    {
+      "path": "vc_reader/src/cpp/sources/caches.cpp",
+      "local": "vc_reader__src__cpp__sources__caches.cpp",
+      "blob_sha": "8e6428a2d396fb22a3236a28e9292258328d34f0",
+      "url": "https://github.com/ScrollPrize/villa/blob/c86cbd14bb34e0124684d3d97b03b310c947819a/vc_reader/src/cpp/sources/caches.cpp"
+    }
+  ]
+}

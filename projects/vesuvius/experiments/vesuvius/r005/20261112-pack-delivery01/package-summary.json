@@ -1,0 +1,14 @@
+{
+  "archive": "deliverables/vesuvius/flatboi-pack-components-20261112.zip",
+  "bytes": 88274,
+  "sha256": "a005899e9c69a690fc51a7c307b31d33595f4588e62e9858c664290315276be5",
+  "manifest_sha256": "b95fa4740c52caa1186a2adae976eae9dcdd1e6a7797be7b868dcaab07ce53a0",
+  "file_count_including_manifest": 15,
+  "checks": {
+    "relative_markdown_links": "pass",
+    "json_and_python_syntax": "pass",
+    "bash_syntax": "pass",
+    "bash_snippets_executed": false
+  },
+  "initial_shell_syntax_check_failure": "Windows subprocess text mode inserted CRLF into stdin. Retried as UTF-8 bytes; no README code was changed."
+}

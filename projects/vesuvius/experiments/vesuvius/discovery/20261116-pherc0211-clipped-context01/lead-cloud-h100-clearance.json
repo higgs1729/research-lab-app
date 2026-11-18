@@ -1,0 +1,38 @@
+{
+  "research": 242,
+  "approved": true,
+  "approved_utc": "2026-11-15T16:40:08.390478+00:00",
+  "attempt": "One explicit H100 six-region allocation after two A6000 rejections and Ada no-launch; no automatic retry.",
+  "cloud_plan_sha256": "d390c896e708435e5b4809c1804d0006ce5c1f072fe0840b98ba177c2c526aff",
+  "archive_sha256": "0124d2ffd6afd5029cd38c3e52fa0c046c381fcba6518acbce110b1a4e79ee83",
+  "latest_precreate_utc": "2026-11-15T16:50:08.390478+00:00",
+  "absolute_delete_not_after_utc": "2026-11-15T17:20:08.390478+00:00",
+  "actual_precreate_to_deleted_seconds": 1800,
+  "owned_pod_limit": 1,
+  "automatic_recreations": 0,
+  "GPU": "NVIDIA H100 80GB HBM3",
+  "data_centers": [
+    "AP-IN-1",
+    "AP-JP-1",
+    "EUR-NO-2",
+    "US-CA-2",
+    "US-MO-1",
+    "US-NE-1"
+  ],
+  "rate_ceiling_USD": 4.4,
+  "estimate_USD": [
+    0.4,
+    0.9
+  ],
+  "operating_ceiling_USD": 2.25,
+  "user_authority": "Necessary Runpod use delegated2026-11-14; updated experiment estimate communicated.",
+  "evidence": [
+    "lead-h100-artifact-check.json",
+    "offline-h100-check.json",
+    "lead-h100-live-read.json",
+    "live-h100-read.json",
+    "lead-post-diagnostic-resource-check.json"
+  ],
+  "code_review": "Reviewed full Ada-to-H100 diff; independently verified frozen source hashes, unchanged science archive24members and capture/lifecycle functions.",
+  "conditions": "Fresh account/catalog and precreate checks required. One POST, bounded failed-POST diagnostics, owned resource capture/finally/deadline cleanup. Preserve previous evidence. If allocation refused reconcile absence/helper/reservation, no retry. If successful complete228 and recover outputs before deletion. Return numeric differences and image paths before interpretation; no new tolerance or seamless merge on nonexact."
+}

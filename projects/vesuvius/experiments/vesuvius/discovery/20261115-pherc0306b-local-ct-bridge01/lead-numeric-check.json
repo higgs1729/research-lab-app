@@ -1,0 +1,16 @@
+{
+  "completed_utc": "2026-11-15T08:44:28.615153+00:00",
+  "passed": true,
+  "independent_chunk_keys": 9,
+  "complete_voxels_exact": 7229025,
+  "raw_frame_count": 128,
+  "raw_frame_pixels_exact": 8010000,
+  "contact_sheets": 15,
+  "sheet_data_pixels_exact": 10352925,
+  "enlarged_raw_panels": 8,
+  "enlarged_raw_pixels_exact": 3645000,
+  "new_ct_bytes": 6291456,
+  "new_ct_md5_matches_etag": true,
+  "h1_seed_from_r227_exact": true,
+  "limits": "Checks verify data and display fidelity, not physical sheet identity."
+}

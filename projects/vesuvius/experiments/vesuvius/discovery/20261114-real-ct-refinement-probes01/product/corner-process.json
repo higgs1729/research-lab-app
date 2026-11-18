@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/home/tomoy/refinement-centered-window01/bin/vc_objrefine",
+    "/home/tomoy/real-ct-refinement-probes01/ct.zarr",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/fixed-points.obj",
+    "/home/tomoy/real-ct-refinement-probes01/corner.obj",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/corner.json"
+  ],
+  "timing_pid": 395,
+  "process_group": 395,
+  "started_utc": "2026-11-13T18:40:48.583383+00:00",
+  "completed_utc": "2026-11-13T18:40:48.712055+00:00",
+  "elapsed_seconds": 0.1286713400000039,
+  "exit_code": 0,
+  "termination_reason": null,
+  "reaped": true,
+  "disk_samples": [],
+  "max_child_rss_bytes": 71827456,
+  "user_cpu_seconds": 0.01,
+  "sys_cpu_seconds": 0.01
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "01",
+    "key": "PHerc0343-reverse",
+    "detection_index": 2,
+    "geometry_rank": 3,
+    "zmean_rank": 2
+  },
+  {
+    "id": "02",
+    "key": "PHerc0175B-forward",
+    "detection_index": 2,
+    "geometry_rank": 1,
+    "zmean_rank": 1
+  },
+  {
+    "id": "03",
+    "key": "PHerc0175B-forward",
+    "detection_index": 1,
+    "geometry_rank": 2,
+    "zmean_rank": 2
+  },
+  {
+    "id": "04",
+    "key": "PHerc0343-reverse",
+    "detection_index": 4,
+    "geometry_rank": 2,
+    "zmean_rank": 4
+  },
+  {
+    "id": "05",
+    "key": "PHerc0175B-reverse",
+    "detection_index": 1,
+    "geometry_rank": 2,
+    "zmean_rank": 2
+  },
+  {
+    "id": "06",
+    "key": "PHerc0125-forward",
+    "detection_index": 1,
+    "geometry_rank": 1,
+    "zmean_rank": 1
+  },
+  {
+    "id": "07",
+    "key": "PHerc0343-reverse",
+    "detection_index": 3,
+    "geometry_rank": 4,
+    "zmean_rank": 3
+  },
+  {
+    "id": "08",
+    "key": "PHerc0125-reverse",
+    "detection_index": 1,
+    "geometry_rank": 2,
+    "zmean_rank": 1
+  },
+  {
+    "id": "09",
+    "key": "PHerc0175B-reverse",
+    "detection_index": 2,
+    "geometry_rank": 1,
+    "zmean_rank": 1
+  },
+  {
+    "id": "10",
+    "key": "PHerc0343-reverse",
+    "detection_index": 1,
+    "geometry_rank": 1,
+    "zmean_rank": 1
+  },
+  {
+    "id": "11",
+    "key": "PHerc0125-reverse",
+    "detection_index": 2,
+    "geometry_rank": 1,
+    "zmean_rank": 2
+  },
+  {
+    "id": "12",
+    "key": "PHerc0125-forward",
+    "detection_index": 2,
+    "geometry_rank": 2,
+    "zmean_rank": 2
+  }
+]

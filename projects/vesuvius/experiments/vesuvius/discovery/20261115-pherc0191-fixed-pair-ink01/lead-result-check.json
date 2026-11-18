@@ -1,0 +1,105 @@
+{
+  "checked_utc": "2026-11-14T15:56:07.153684+00:00",
+  "denominator_includes_all1953_patches_even254_skips": true,
+  "rows": [
+    {
+      "condition": "raw-forward",
+      "all_active_patch_input_hashes_checked": 1699,
+      "saved_probability_arrays_verified": 26,
+      "CPU_GPU_parity": [
+        {
+          "grid_index": 127,
+          "mae": 3.686182026285678e-09,
+          "max": 3.7997961044311523e-07
+        },
+        {
+          "grid_index": 128,
+          "mae": 1.4304077922133729e-09,
+          "max": 1.7508864402770996e-07
+        },
+        {
+          "grid_index": 129,
+          "mae": 1.4003944670548663e-09,
+          "max": 2.3096799850463867e-07
+        }
+      ],
+      "PNG_values_exact": 2097152,
+      "unsupported_nonzero_values": 0
+    },
+    {
+      "condition": "raw-reverse",
+      "all_active_patch_input_hashes_checked": 1699,
+      "saved_probability_arrays_verified": 26,
+      "CPU_GPU_parity": [
+        {
+          "grid_index": 127,
+          "mae": 1.9344952306710184e-09,
+          "max": 1.9371509552001953e-07
+        },
+        {
+          "grid_index": 128,
+          "mae": 1.5602381608914584e-09,
+          "max": 2.2724270820617676e-07
+        },
+        {
+          "grid_index": 129,
+          "mae": 1.3299086276674643e-09,
+          "max": 8.009374141693115e-08
+        }
+      ],
+      "PNG_values_exact": 2097152,
+      "unsupported_nonzero_values": 0
+    },
+    {
+      "condition": "snap-forward",
+      "all_active_patch_input_hashes_checked": 1699,
+      "saved_probability_arrays_verified": 26,
+      "CPU_GPU_parity": [
+        {
+          "grid_index": 127,
+          "mae": 1.9992967281723395e-09,
+          "max": 1.7881393432617188e-07
+        },
+        {
+          "grid_index": 128,
+          "mae": 1.7721504264045507e-09,
+          "max": 1.9371509552001953e-07
+        },
+        {
+          "grid_index": 129,
+          "mae": 1.9690560293383896e-09,
+          "max": 2.4586915969848633e-07
+        }
+      ],
+      "PNG_values_exact": 2097152,
+      "unsupported_nonzero_values": 0
+    },
+    {
+      "condition": "snap-reverse",
+      "all_active_patch_input_hashes_checked": 1699,
+      "saved_probability_arrays_verified": 26,
+      "CPU_GPU_parity": [
+        {
+          "grid_index": 127,
+          "mae": 3.5984157875645906e-09,
+          "max": 5.587935447692871e-07
+        },
+        {
+          "grid_index": 128,
+          "mae": 1.4356373867485672e-09,
+          "max": 1.1920928955078125e-07
+        },
+        {
+          "grid_index": 129,
+          "mae": 1.895841705845669e-09,
+          "max": 2.086162567138672e-07
+        }
+      ],
+      "PNG_values_exact": 2097152,
+      "unsupported_nonzero_values": 0
+    }
+  ],
+  "method": "Parent recomputes cosine Hann formula and all denominator pixels; checks every logged input against frozen positions/hashes and all recovered PNG values from raw numerators; independently compares12 saved GPU arrays to pre-cloud CPU.",
+  "new_model_forwards": 0,
+  "network_calls": 0
+}

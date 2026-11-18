@@ -1,0 +1,16 @@
+{
+  "vertices": 27,
+  "faces": 35,
+  "moving": 12,
+  "pins": 15,
+  "local_coarse": 1,
+  "minimum_initial_signed_area": 0.06524639681096783,
+  "stages": [
+    {
+      "penalty": 100000000.0,
+      "iterations": 50
+    }
+  ],
+  "H_source_sha256": "1d10e0ae46ba980cc28435a28778296125e570e88c3934585b522199f365d511",
+  "elapsed_seconds": 0.13591599999926984
+}

@@ -1,0 +1,8 @@
+{
+  "snapshot_sha256": "4aabd7c135b100a7cd04a07507dad1c9b53ac39a974ad2de10656a208e5a5f1b",
+  "snapshot_git_blob": "960079ce257b282fed6b4c2c67282e4074112556",
+  "local_sha256": "2d315d553b698943c15fad0021da3b75a5c1d5ebd03c005c1b66f3c16fe52798",
+  "local_git_blob": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6",
+  "local_matches_upstream_content": true,
+  "snapshot_note": "apply_patch snapshot may add a trailing newline; native source comparison ignores trailing LF only."
+}

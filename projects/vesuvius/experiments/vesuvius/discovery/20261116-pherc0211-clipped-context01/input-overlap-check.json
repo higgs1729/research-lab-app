@@ -1,0 +1,633 @@
+{
+  "passed": true,
+  "geometry_plan_sha256": "15f991716a24675ca67a53d071bbdd2e77068ea54bcfc62fe34f834a3a0159aa",
+  "input_values": 4718592,
+  "input_mismatches": 0,
+  "overlap_parent_xywh": [
+    4272,
+    2096,
+    1152,
+    256
+  ],
+  "all_16planes_overlap_raw_sha256": "2f4811acb396ee98e7cfc9bed5130cbb14188dd3f522f87b8e43ebb3bdd2d511",
+  "old_input_sha256": "27af8b21cee6e1abfd11e221075dc81cd1f1d0ac37aeb7d0045cd54fba23480c",
+  "new_input_sha256": "dd2a67a641784a256f6eca5b79f473d74fdbde4acf42a0bc7effeb40d7dde73c",
+  "common_patches": [
+    {
+      "old_index": 136,
+      "new_index": 0,
+      "global_core_xy": [
+        4288,
+        2112
+      ],
+      "raw_sha256": "d192d6dac30aa447b2ee6dc94922a0179f06dfe5ecc3265a3013a0344653e46d",
+      "CPU_normalized_sha256": "3bcaf0909b8f6e18d195e1b501d05cfc0efc58799bd3e857c00aad3fe3cdd57c",
+      "expected_CUDA_normalized_sha256": "606cea1defe224a75000f04ab8a10a86090de827c996a8c5d073169c249007cc",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 137,
+      "new_index": 1,
+      "global_core_xy": [
+        4352,
+        2112
+      ],
+      "raw_sha256": "ae722823a8c9245129f0e47b2b54b2880945dea79ca6c2b67913678aee4e1192",
+      "CPU_normalized_sha256": "bdad4f077f464335801ab4a9fd6c090ac3e239c718a6f4b63441436c7c929c90",
+      "expected_CUDA_normalized_sha256": "849bd7520eb34314df3e0a11f4270d06773346990001b453d4bd4400088c7881",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 138,
+      "new_index": 2,
+      "global_core_xy": [
+        4416,
+        2112
+      ],
+      "raw_sha256": "c122264453aceea0f1acc91a0cbf8b6f18d0c802f3b94432ec689a9c83343f8d",
+      "CPU_normalized_sha256": "2e40e198a651cf04632de12cb3845c8d99823669dee2fdbb4ba7ff46763b4381",
+      "expected_CUDA_normalized_sha256": "fc8cb01949e522368ce6cfe1ca8e6cc7666cfb5f3e93bef53b8424815f45b995",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 139,
+      "new_index": 3,
+      "global_core_xy": [
+        4480,
+        2112
+      ],
+      "raw_sha256": "674a7effa6da05e4d686dd1c0659746b488d1df466023910fe6dbad56dbe71e3",
+      "CPU_normalized_sha256": "1287f0e25c26f93a28928e6d91f3b2d0b390b63c955a8b70a9402b5590ac963a",
+      "expected_CUDA_normalized_sha256": "5af531262c38b4e5025875d2ac230a57930b7097e9fb329b782bab122fcac0f2",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 140,
+      "new_index": 4,
+      "global_core_xy": [
+        4544,
+        2112
+      ],
+      "raw_sha256": "2b9ec046911366d29a987ecf918c48c5cca3b21d6ac4a76bf3cd8fe364883069",
+      "CPU_normalized_sha256": "5ecb4b119fd1ae644da2df9741930bd5eed68c9c691c58634591caeb69173eec",
+      "expected_CUDA_normalized_sha256": "682f4c8bbd7490cf4752dacfb380a9acea29acfaf8edda5df01daacf1317f9d5",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 141,
+      "new_index": 5,
+      "global_core_xy": [
+        4608,
+        2112
+      ],
+      "raw_sha256": "ebb49468af085de0c2883c47c62b2d028255349ee512a991be3c468c30d332df",
+      "CPU_normalized_sha256": "fe7d47336befcf9edd667548fd658df3b6acf3e96aa7b64219355c71fc101899",
+      "expected_CUDA_normalized_sha256": "1f07f7a40c07751299f5e73de32605034750cf3fcca3120d615f3ec1f59bf0d9",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 142,
+      "new_index": 6,
+      "global_core_xy": [
+        4672,
+        2112
+      ],
+      "raw_sha256": "b6293bda7577f3f4d6210453596d099b0db2f89f4d66aa3d3bb6d472e99dd354",
+      "CPU_normalized_sha256": "1fff363d2757b6954a2e9af499128430c7770ed3c2da20c4fc56103b02ab1081",
+      "expected_CUDA_normalized_sha256": "d72b9777dbd8a6c13b5d7987ad4415da44c22894321b5d2c5f5ed5b774ba093d",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 143,
+      "new_index": 7,
+      "global_core_xy": [
+        4736,
+        2112
+      ],
+      "raw_sha256": "0d72763aed4dec3ded7d18deee52875c72ff9f6c999c9f07a46c828d6005770c",
+      "CPU_normalized_sha256": "2a3d8c7eb88fa80812594f9c93651de119b76a1822589b05d89fbedc7ff827b5",
+      "expected_CUDA_normalized_sha256": "5a6eda6dbbfbd92e425502fa7f24fb3b0304878804d3fd1e1b6ac932ae4cbc9f",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 144,
+      "new_index": 8,
+      "global_core_xy": [
+        4800,
+        2112
+      ],
+      "raw_sha256": "b38f04f0989f7d97b8ac1242d31aea25408b3a4bfddfef9088985fc0002d889c",
+      "CPU_normalized_sha256": "f8241700a4ccf335cafac785b02e8c9a03335d6f1bbf0d0cc4f26cd074e83ac8",
+      "expected_CUDA_normalized_sha256": "5b43028b44f359c988c857c7d41ee2d33b0835224519fb205e45d971e0b22d79",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 145,
+      "new_index": 9,
+      "global_core_xy": [
+        4864,
+        2112
+      ],
+      "raw_sha256": "67eaea28ad6cc54f520ad4f4edfdc4493a9a4c9148697476ef1cc07bd3f3d6c6",
+      "CPU_normalized_sha256": "056a1f67c22515fb2eda73d76a2b061ba2ec92e1f88375a93d2ce863c506d09d",
+      "expected_CUDA_normalized_sha256": "5bd6294822e5c5d5fc5740d198f0b674ecfbe659310ab70fae702fc6ab340170",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 146,
+      "new_index": 10,
+      "global_core_xy": [
+        4928,
+        2112
+      ],
+      "raw_sha256": "14921e9d3bd2e4bb6172672e4d4b0547e30095437534cabb6b4cfbf177088e79",
+      "CPU_normalized_sha256": "bba6fd7f70c042d4134f585bcc316cfc06a4a8fd076c27548b2a396ad39d2672",
+      "expected_CUDA_normalized_sha256": "23d681a79a28fc73aa0a9c54eeaddbc7030037fd64287a3e4e1564984122ad20",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 147,
+      "new_index": 11,
+      "global_core_xy": [
+        4992,
+        2112
+      ],
+      "raw_sha256": "f11f63158dbebd4fd4c44bda937a358fa99e28882af8abc3cf899d4b5426b519",
+      "CPU_normalized_sha256": "14dc4a4c3e64a253a06b42ccab122f08fef0d058511b031799ee1834e74d889b",
+      "expected_CUDA_normalized_sha256": "16434d9dbebec625b086fa2e8c9586a7c967bdb3dd70a1615b6152802df116cc",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 148,
+      "new_index": 12,
+      "global_core_xy": [
+        5056,
+        2112
+      ],
+      "raw_sha256": "657942c7ba8746738ab2bf915345b7bab1ca2cb81c598c3266bb0a66600e277d",
+      "CPU_normalized_sha256": "6876e4d28c89f2e4eee81318b22e44cde4cb2b378a95f2f88271941e83e1ad3c",
+      "expected_CUDA_normalized_sha256": "b22c4db46f18b8f9acbcfdcb7c6a9e441f5c60cbedfba5de4cbc3cd64b15f29e",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 149,
+      "new_index": 13,
+      "global_core_xy": [
+        5120,
+        2112
+      ],
+      "raw_sha256": "8a792c3585dd3d5801aec1ba14e1091be5227a25bcae8a4f5818279dbc3fd977",
+      "CPU_normalized_sha256": "5d917b723432262a57698eed64e0d605537475ae195b7008df80e117f625c1d9",
+      "expected_CUDA_normalized_sha256": "430d5a87c2b3eb00540993e65123356142b34370abe1d71a38fd1b600080f472",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 150,
+      "new_index": 14,
+      "global_core_xy": [
+        5184,
+        2112
+      ],
+      "raw_sha256": "3415ddf4807a65472dc7b79fc05ae3e991516659d19db9a91f5c79cd2566fb4e",
+      "CPU_normalized_sha256": "ffa5b113e40065def252ba6789363cc1d15a988f78dbb5025428b82207ba16c7",
+      "expected_CUDA_normalized_sha256": "59e1ea3840c50def219da99f5298faaa5e897f4c95fcef75a57f858450bf20e5",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 151,
+      "new_index": 15,
+      "global_core_xy": [
+        5248,
+        2112
+      ],
+      "raw_sha256": "8d394144f9fe67928cbe218a4598727f8672eda9d84e0600c00d737b145d928a",
+      "CPU_normalized_sha256": "d9a574d7f6e21e418ea0a11fcb6b371208f59abfbb5b8c94d6292f530f6139e0",
+      "expected_CUDA_normalized_sha256": "b7b7cacd19229e9d32213359b9b96ed39c4ea21c2e9916a25fbc2d2bc9e60e14",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 152,
+      "new_index": 16,
+      "global_core_xy": [
+        5312,
+        2112
+      ],
+      "raw_sha256": "bd93577a14b6396176c8c4895d98c6a10e6320bf2cff3cfe6a4c2828c5311fb7",
+      "CPU_normalized_sha256": "7720e988a1bc656b57e1db36486311e87c87bafdacd23863e5152193540267f4",
+      "expected_CUDA_normalized_sha256": "301cb60fc08ef724a3f58a93e333af7b3f6cde5e2feafeacc5e09954b8386bd6",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 153,
+      "new_index": 17,
+      "global_core_xy": [
+        4288,
+        2176
+      ],
+      "raw_sha256": "f53f9729b33e72fdb4e7b55886c770fdd6f6fc0883b95ca784426b0d08092a17",
+      "CPU_normalized_sha256": "883d293da92af94437a1aa01fe1009190162c73bbe4508bf792623d6009be9cb",
+      "expected_CUDA_normalized_sha256": "431ebfff4a8bcbaa06b2a168cebbc25231d917784b699b3608b717b795ccb6e6",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 154,
+      "new_index": 18,
+      "global_core_xy": [
+        4352,
+        2176
+      ],
+      "raw_sha256": "2fd2742e9ed3da8f7fc4738e3e5f4550927b7ce5aebd7767d29a4893c434d242",
+      "CPU_normalized_sha256": "ea0a666c4d9485e723346e022901dd862851782fa4e33ead45edffe5742976ed",
+      "expected_CUDA_normalized_sha256": "cd489af55081c63e14ee5c48ae5243870e3df185c032662575611856ba352860",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 155,
+      "new_index": 19,
+      "global_core_xy": [
+        4416,
+        2176
+      ],
+      "raw_sha256": "6ea55e369d970c333fd7774dcccdeefc35146d1677501f4d9a97ce714e52cef8",
+      "CPU_normalized_sha256": "bdf1fbda910cdb706e346437dc76b1f059ef561394595bc9b78f1f14e076b407",
+      "expected_CUDA_normalized_sha256": "7dfa7bf5af55ddb1b9e4c40b188db49f471606589f197d808c18a9b784b38b81",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 156,
+      "new_index": 20,
+      "global_core_xy": [
+        4480,
+        2176
+      ],
+      "raw_sha256": "895748880a6b39226cc7301cacc0a0d575a5c3fac8d9b62583744e2c5c1db762",
+      "CPU_normalized_sha256": "cb4bf9dd1bf7c9d52b6475c38b258915808cebd6f27047104669b838d2bdd45e",
+      "expected_CUDA_normalized_sha256": "8dfd21a71ab53e29a67318a61c7280af15871e99b0a33ebb07816a6361818ad8",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 157,
+      "new_index": 21,
+      "global_core_xy": [
+        4544,
+        2176
+      ],
+      "raw_sha256": "522664fe1c7386cda9af60c12404cfc1df08914321a491738c454b1da3976f09",
+      "CPU_normalized_sha256": "ac9c8cde823ac237082e3c3587d14f9c57e91a1746508ea62b5a882f4baa126e",
+      "expected_CUDA_normalized_sha256": "e253d3077a5a2953a59d46b8f64d71112e4682d283b87a5d29b6a5f374555fb9",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 158,
+      "new_index": 22,
+      "global_core_xy": [
+        4608,
+        2176
+      ],
+      "raw_sha256": "8c66bdf81eaad65c08ae19964b56ac019835937aba978e0d5a41ddbc66f2925f",
+      "CPU_normalized_sha256": "5a4f04c326bc24349f161cffba60bb874181150f5ee5e0f05e2c7f4a69c23eb1",
+      "expected_CUDA_normalized_sha256": "38d628935578237d41ae88bee8bcb81c913a744bf4c597545913fcece76d08cc",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 159,
+      "new_index": 23,
+      "global_core_xy": [
+        4672,
+        2176
+      ],
+      "raw_sha256": "be1fd28c7543e2c2a1bd70c9956f5abae38cb8c0ad8a0d19b4f3ce33dde8d932",
+      "CPU_normalized_sha256": "f016b612ecb427d9501eec2afb8fd583a25fcf72fee4f396606895f33303bc23",
+      "expected_CUDA_normalized_sha256": "d253c9ed94cd49d918d681bec2dde82674b3d48b2bcde1e3caaa2603b04eee00",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 160,
+      "new_index": 24,
+      "global_core_xy": [
+        4736,
+        2176
+      ],
+      "raw_sha256": "c5f5310c7170b308fb82bc8e3f839f12fa676b21588bb00e837531aff5bf3140",
+      "CPU_normalized_sha256": "812ef0b04b3c417aba4a6a564b046226327aab823e664cdc41cfd60f305149ff",
+      "expected_CUDA_normalized_sha256": "5b4b0f4f4b4f650963da436ff9892d60ada21dafea4a8de00007abe18b6818b4",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 161,
+      "new_index": 25,
+      "global_core_xy": [
+        4800,
+        2176
+      ],
+      "raw_sha256": "5825c5adcb35bc269c8d06b77ee22b801b04325e1d18ec9cb399110e03403096",
+      "CPU_normalized_sha256": "7d1a1749aada34b3502f2a14b8a9a5aa20a267002964f4537d637195a94e09ac",
+      "expected_CUDA_normalized_sha256": "2c4a27209617794fe13748879de75dae82de5208e072faec170c655bc9794aa6",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 162,
+      "new_index": 26,
+      "global_core_xy": [
+        4864,
+        2176
+      ],
+      "raw_sha256": "fcbdd5bfe46874ebb4ce37b129a40d5285357f86b4079caf9d81c7a679247475",
+      "CPU_normalized_sha256": "1a8016f4533075fbb1ee1ee15fa03b581a337b18c08b82d1aec4957e4909713d",
+      "expected_CUDA_normalized_sha256": "ed2d379efc7292022040f5365979f10ee9b7f294f12273a4bd8def7677454622",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 163,
+      "new_index": 27,
+      "global_core_xy": [
+        4928,
+        2176
+      ],
+      "raw_sha256": "e5d9574208b7e9ac434d1ea4788cb78cedf39dbcb0fe14cbfbe335c1725201ae",
+      "CPU_normalized_sha256": "8c6f4c430f4792103c3073d6579790e1801a1dd75f12f671e8399e5fb4813723",
+      "expected_CUDA_normalized_sha256": "fbdaad3885a2a06f7dc819ef265eeb4aa6a599eff7cec364c2b03e9e6f5b1f7f",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 164,
+      "new_index": 28,
+      "global_core_xy": [
+        4992,
+        2176
+      ],
+      "raw_sha256": "983279b50ac04ca4bbaf83b2360bca52c96bae9341aedc8d0eaf928c3660f1c4",
+      "CPU_normalized_sha256": "09eddec7dda283d66ab5864a7d2e9a701e1e504311092f120efb79e607ba08a9",
+      "expected_CUDA_normalized_sha256": "fff91ee4c3c19dfbf38d29d8ccc8eb5a22a7c32f9aaac2dfaa74429c08889b7e",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 165,
+      "new_index": 29,
+      "global_core_xy": [
+        5056,
+        2176
+      ],
+      "raw_sha256": "757ace54319c527a30ab4b1aef5cfb05b72f9d5c43bee922046aa6cdfc8c7639",
+      "CPU_normalized_sha256": "ffbf9e61395edc58f78f3f7a4d15a3a21ac2d7459c02369507f9e45740695eac",
+      "expected_CUDA_normalized_sha256": "5ff2febd3c9fb2b7d3de56f34f4cb819537b94156aa048ec615f01547c8660fd",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 166,
+      "new_index": 30,
+      "global_core_xy": [
+        5120,
+        2176
+      ],
+      "raw_sha256": "6fcf3f6d61353860991785978e254154293d6c4a2fb70bc1e3a8343e42c710f4",
+      "CPU_normalized_sha256": "9ac75e2f36982ff98c38e57197d8783c552e083954539a8e1d77fd2c30ec4b07",
+      "expected_CUDA_normalized_sha256": "4e0db8b588853e8d1ea252d272602892f8c0fb697f581fe38d02f6dd799980e6",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 167,
+      "new_index": 31,
+      "global_core_xy": [
+        5184,
+        2176
+      ],
+      "raw_sha256": "3c939629acac643b8c9e5dfb8e23ae1f996535c5432aa19549ddf6a4f6f457d1",
+      "CPU_normalized_sha256": "81b06f6487a09d83a521d11c22f3900e6b3bf36cb4c129ad5fb8851e135e6f03",
+      "expected_CUDA_normalized_sha256": "732b4e9a2e558176e48bc59c98dccd2eed971df5b6bd1959089ef9cc40e0219c",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 168,
+      "new_index": 32,
+      "global_core_xy": [
+        5248,
+        2176
+      ],
+      "raw_sha256": "76d1b12de3c2c4f9bcd4cd434744e7911c2876b9d1ce069092f951f0440eb1ad",
+      "CPU_normalized_sha256": "9b1b9051ff1453a030ad55ad38d2d4b7c923771481b2cf3a35aa484f38b16d57",
+      "expected_CUDA_normalized_sha256": "a7901e119c58e8b6e8d205cdbe3499d8db214eddf4953a808cc6ea4ccc441dd9",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 169,
+      "new_index": 33,
+      "global_core_xy": [
+        5312,
+        2176
+      ],
+      "raw_sha256": "cf8f64b696ba84c74a2c2d7f0b4af1388c20ba481d995a09c40af738ff8af837",
+      "CPU_normalized_sha256": "84102ec78d5a1f914fccc3a4ef90cc532994936d56fb85b2aeabfd745812f79a",
+      "expected_CUDA_normalized_sha256": "7af6729cce92d0c3a80f954f44a7ca07bcb433214bdcb2159fd36a75c85a285f",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 170,
+      "new_index": 34,
+      "global_core_xy": [
+        4288,
+        2240
+      ],
+      "raw_sha256": "1f48d5a1f80baad2403137d56fad3ab542762ea5655ade3b07c52b1234fc4dd4",
+      "CPU_normalized_sha256": "ae851f8498c821e4d623677ac5c31962fb7656e13461a546d78c6bfb64146340",
+      "expected_CUDA_normalized_sha256": "e53f69569f68aa97e9ecbaecd48ed471dbe85cbe872ccf49256633aa94a3c7cc",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 171,
+      "new_index": 35,
+      "global_core_xy": [
+        4352,
+        2240
+      ],
+      "raw_sha256": "79dfdeefa5dff5846c3d53f7d2060077df0a3080631a29f76c2167df12f8f8a0",
+      "CPU_normalized_sha256": "04a1a0750d93baec280f301566820f263960ffdd7fe0e2187bd3d92fbe753288",
+      "expected_CUDA_normalized_sha256": "71cc0ac42e4437059057b8337d7f179d8c20f50eaac3560af52d39c68c8ad1b2",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 172,
+      "new_index": 36,
+      "global_core_xy": [
+        4416,
+        2240
+      ],
+      "raw_sha256": "09ca9fe85c636e720d20994f0b85436b1cab5ff7104c5f954228fc2b3862b30c",
+      "CPU_normalized_sha256": "1e85d24c5453ce7c5ca44f9accca2a26f1f3e118ec5410f88169831fcd436879",
+      "expected_CUDA_normalized_sha256": "8bd492775b781467685a427950edd3c543d8377e8335cd6095ce36b59c2fd002",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 173,
+      "new_index": 37,
+      "global_core_xy": [
+        4480,
+        2240
+      ],
+      "raw_sha256": "4d9fdfb5b41c78d3d054658b72bf8be04dcbd1caf534d145c4605bc44d7cbfeb",
+      "CPU_normalized_sha256": "4127478a284abc140e5ebd625100d87427a60c75c86e54c295de020150b863ab",
+      "expected_CUDA_normalized_sha256": "704ba400c84ad6f035ea52bb8c660541c8ba343171be9dd9ef36f016174710cf",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 174,
+      "new_index": 38,
+      "global_core_xy": [
+        4544,
+        2240
+      ],
+      "raw_sha256": "db934ea41e06a44f7c88b1ff776f02af5a355ece1b279028a3eb4b4faefc84bc",
+      "CPU_normalized_sha256": "351b6255a89cc4636f18e270e50bdd4bfcfedf5e4b4faa3a8fa8147c100b1d59",
+      "expected_CUDA_normalized_sha256": "aba5efa708f8521bf54bd9251b2f6527274eb5c89a1ac9ff583f32b173d135d1",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 175,
+      "new_index": 39,
+      "global_core_xy": [
+        4608,
+        2240
+      ],
+      "raw_sha256": "639cd3178c43ef01ee63c513c2ae2ece9f2c2b1af75c2eb1eda8315386c3ddf0",
+      "CPU_normalized_sha256": "c1b0011bc5de8bdbc0ebb16e4bfddf7151c835b5d07c8a90cd89ad4516f279a6",
+      "expected_CUDA_normalized_sha256": "9a518fc80a5b076d1a52c28ac65d313bfe0823d1088d75d2ff6899ff5c711cf2",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 176,
+      "new_index": 40,
+      "global_core_xy": [
+        4672,
+        2240
+      ],
+      "raw_sha256": "baab66fc6dceccfc25ea7009d4649209654c3e6620accce611b475f67e0f101b",
+      "CPU_normalized_sha256": "530feff69252d6d8a089297815f6f7d4462b28577968bbb93da5e5ebe4ab4b4b",
+      "expected_CUDA_normalized_sha256": "bbe6b27d68aa9eaf9fb49b8a9c2ed45f99077e23e959b16608c6a5a4d5a4a5fc",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 177,
+      "new_index": 41,
+      "global_core_xy": [
+        4736,
+        2240
+      ],
+      "raw_sha256": "760ba3f4a12b8b91fb16967c4d15dbd227a42eafca6e5b31f8ccf6a831452c3c",
+      "CPU_normalized_sha256": "01f8fd330aacff4baa1df71dc1368b0b1e3e852493e1468107740a974d667018",
+      "expected_CUDA_normalized_sha256": "06758debccfca88c4c8b3e2ddf98d7021f626505188c2d6fe47c6a3bc600617e",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 178,
+      "new_index": 42,
+      "global_core_xy": [
+        4800,
+        2240
+      ],
+      "raw_sha256": "8c660b40f70de53c6608d6be99d4afaf2cf13d959218540f4e313f5a4b156b0f",
+      "CPU_normalized_sha256": "7ef0b1c83cd6df2b60dbf7ed2d63d3d879b2dfef9396b3ac704ec7e8e23cfc2c",
+      "expected_CUDA_normalized_sha256": "3469c3cfebe2b8c5436f5e6caa7f9f07854168bc99a7b7733686eb307146c19f",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 179,
+      "new_index": 43,
+      "global_core_xy": [
+        4864,
+        2240
+      ],
+      "raw_sha256": "abdcc6771141398c388d9d8491f27904080d63b51c336460feecfb8e204f8ed2",
+      "CPU_normalized_sha256": "2140860fc73071e368600482c5cafd478a2cec731971bf326690968aa3ac9e72",
+      "expected_CUDA_normalized_sha256": "5ae1f763c75ae14a2c3ed49a1b90c33b178bf7ee54aebf381fc0107cc6edb840",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 180,
+      "new_index": 44,
+      "global_core_xy": [
+        4928,
+        2240
+      ],
+      "raw_sha256": "12d9574ba6c9d606d98ca09c88245d6bbd04009292ba0a5c1ef867d7c045ad2f",
+      "CPU_normalized_sha256": "e8e7531e971f4faa27196b8b1a08720b33cfc1db7dae4635f2b2a70ad36d8405",
+      "expected_CUDA_normalized_sha256": "7d6af666d4585baf1aabe8473272bfb2ff69071a1b6a50864fee2bb172d2641e",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 181,
+      "new_index": 45,
+      "global_core_xy": [
+        4992,
+        2240
+      ],
+      "raw_sha256": "4c7f911434c88a1506311fd8cbb3c26aa2ffeb02296dd9b3889f1d493d292455",
+      "CPU_normalized_sha256": "bf38bf7ecf8a1cfb674acead284a2db6215b9768046b4624aefa3813526aa467",
+      "expected_CUDA_normalized_sha256": "888b6e43a4e2f01559509dc12a34500f161a901570acf260100002eee3ff9f2c",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 182,
+      "new_index": 46,
+      "global_core_xy": [
+        5056,
+        2240
+      ],
+      "raw_sha256": "72af90172a680dc75a2d3c811836531c0c0a91b7241cedb12aca1d32ccfce907",
+      "CPU_normalized_sha256": "175bd79261f0a49534f3fa0288a156895e306a50012c8a77db2062775ba192f5",
+      "expected_CUDA_normalized_sha256": "5e1e6c3228479016c3280c23e9d0f57eb72f8975c92c8d6e0739deeaa9d144ed",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 183,
+      "new_index": 47,
+      "global_core_xy": [
+        5120,
+        2240
+      ],
+      "raw_sha256": "64ec590e1fa22942bf11b05d3b1627573dd198d4ba4323068691414e27d86a53",
+      "CPU_normalized_sha256": "71e7df61cb23f5896b28e80f800cf5d5efc3e9ad6b9d605e977b9430836c87a0",
+      "expected_CUDA_normalized_sha256": "9f494a670bf5f30a46bc1a162da0e9a711e93a9dbb955f34191e4efe6a41371f",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 184,
+      "new_index": 48,
+      "global_core_xy": [
+        5184,
+        2240
+      ],
+      "raw_sha256": "7cad8fb7afe6fcb445aa0b3107f355c43ea7fd8165d3a37a0d721da08e78f8f8",
+      "CPU_normalized_sha256": "ac6eea3c8a81baf9adf2c0ee72a593726c7bc4892d7eccc6218599d9da76cd17",
+      "expected_CUDA_normalized_sha256": "f123447778602dd693ed36c5e97dd73a90300f8b337389fe4c24b9abeec54e56",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 185,
+      "new_index": 49,
+      "global_core_xy": [
+        5248,
+        2240
+      ],
+      "raw_sha256": "af1f930d17081a14a3b491cf064b41a774e02f3ed4c68b6ac5340f794eaf1911",
+      "CPU_normalized_sha256": "c73908556819b529645af136150af4fac4bf70c45410a7a8c02af0446451df64",
+      "expected_CUDA_normalized_sha256": "20baf2f72c1c473180bc387996220a16870ea72becd46bfdf0f0d0a416a07bc8",
+      "old_R239_actual_CUDA_matches": true
+    },
+    {
+      "old_index": 186,
+      "new_index": 50,
+      "global_core_xy": [
+        5312,
+        2240
+      ],
+      "raw_sha256": "46276a5521b625239c5e3d8707c9dcc940859d5204d833890501f4deffeccc39",
+      "CPU_normalized_sha256": "226b5a8ebde9df8b509cfc2e0dfae9df0682f9be1ad639ec64c60278ded343f7",
+      "expected_CUDA_normalized_sha256": "86a5b80ae757fc12319b1405c1e93b776d75c0ad013bb7a98e3f961ca13303ee",
+      "old_R239_actual_CUDA_matches": true
+    }
+  ],
+  "common_patch_count": 51,
+  "normalization_reference_sha256": "7564b486b64e49e78a9bc5faa39df10c7ac0bac98c90dd44706ca49049a25798",
+  "new_CUDA_execution": false,
+  "model_forwards": 0
+}

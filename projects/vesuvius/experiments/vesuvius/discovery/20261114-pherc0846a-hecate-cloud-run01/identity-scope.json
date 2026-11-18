@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-14T11:37:42.499056+00:00",
+  "account_status": 200,
+  "organization_status": 404,
+  "organization_returned": false,
+  "x_team_id_header_sent": false,
+  "account_or_organization_identifiers_saved": false,
+  "resource_mutations": 0
+}

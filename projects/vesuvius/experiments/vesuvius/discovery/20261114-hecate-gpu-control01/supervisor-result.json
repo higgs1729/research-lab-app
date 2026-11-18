@@ -1,0 +1,33 @@
+{
+  "argv": [
+    "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "C:\\agents\\tools\\gpu.py",
+    "exclusive",
+    "--name",
+    "r191-hecate-known-control",
+    "--mem",
+    "4",
+    "--vram",
+    "4",
+    "--",
+    "C:\\dev\\ai-compute\\local-image-gen\\ComfyUI_windows_portable\\python_embeded\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-u",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-gpu-control01\\run_gpu.py"
+  ],
+  "launcher_pid": 34460,
+  "started_utc": "2026-11-14T06:57:36.675441+00:00",
+  "start_wall_seconds": 1794639456.6754625,
+  "admission_limit_seconds": 120,
+  "model_limit_seconds": 600,
+  "outer_limit_seconds": 780,
+  "status": "admission_timeout",
+  "exit_code": 1,
+  "elapsed_seconds": 120.0338125000053,
+  "completed_utc": "2026-11-14T06:59:36.698661+00:00"
+}

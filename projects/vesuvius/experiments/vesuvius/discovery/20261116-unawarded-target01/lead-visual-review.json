@@ -1,0 +1,14 @@
+{
+  "reviewer": "lead",
+  "date": "2026-11-16",
+  "images": ["originals/jinho-hazard-ab.png", "originals/jinho-ink-demo.png"],
+  "procedure": "Viewed both supplied original public composites before receiving the researcher's visual conclusion; read the author's gallery provenance. No altered display or generated image.",
+  "observations": [
+    "The hazard comparison shows larger covered patches at some seeds, but prominent holes, fringed margins, curls and broad structural transitions remain. Area and reported thickness metrics alone do not establish a single continuous papyrus layer.",
+    "In the four forward ink panels, the brightest responses mainly form broad diffuse regions and bands adjoining gaps or edges. Their strength and shape differ across checkpoints.",
+    "The narrow oval and wavy structural feature near the upper middle is also visible in the CT texture; these composites do not isolate an independent letter sequence there.",
+    "I cannot select a concrete independent stroke or line ROI for follow-up from these two figures."
+  ],
+  "selected_roi_count": 0,
+  "limits": "Public colour/rescaled composites, not raw probability arrays. This is not evidence of absent ink, incorrect geometry at every point, or lack of letters elsewhere in PHerc1218. The researcher's upstream reports and source availability still need separate assessment."
+}

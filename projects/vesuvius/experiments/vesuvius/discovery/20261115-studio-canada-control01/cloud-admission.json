@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-15T10:26:25.913515+00:00",
+  "account": {
+    "http_status": 200,
+    "client_balance_usd": 17.1254108349,
+    "auto_pay_enabled": false
+  },
+  "pod_count": 0,
+  "gpu": "NVIDIA A40",
+  "cloud": "SECURE",
+  "availability": "MEDIUM",
+  "rate": 0.59,
+  "data_centers": [
+    {
+      "availability": "LOW",
+      "id": "CA-MTL-1",
+      "name": "CA-MTL-1"
+    }
+  ],
+  "requested_data_centers": [
+    "CA-MTL-1"
+  ],
+  "accepted": true
+}

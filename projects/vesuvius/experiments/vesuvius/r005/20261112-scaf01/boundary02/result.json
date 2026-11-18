@@ -1,0 +1,236 @@
+{
+  "global_boundary_vertices": 21727,
+  "global_nonmanifold_boundary_vertices": 29,
+  "regions": [
+    {
+      "region": 90,
+      "vertices": 599,
+      "faces": 928,
+      "boundary_vertices": 268,
+      "nonmanifold_boundary_vertices": 0,
+      "also_nonmanifold_in_full_mesh": 0,
+      "all_bad_vertices_fixed": true,
+      "examples": []
+    },
+    {
+      "region": 108,
+      "vertices": 642,
+      "faces": 1104,
+      "boundary_vertices": 178,
+      "nonmanifold_boundary_vertices": 0,
+      "also_nonmanifold_in_full_mesh": 0,
+      "all_bad_vertices_fixed": true,
+      "examples": []
+    },
+    {
+      "region": 120,
+      "vertices": 217,
+      "faces": 331,
+      "boundary_vertices": 101,
+      "nonmanifold_boundary_vertices": 0,
+      "also_nonmanifold_in_full_mesh": 0,
+      "all_bad_vertices_fixed": true,
+      "examples": []
+    },
+    {
+      "region": 129,
+      "vertices": 1034,
+      "faces": 1688,
+      "boundary_vertices": 375,
+      "nonmanifold_boundary_vertices": 3,
+      "also_nonmanifold_in_full_mesh": 3,
+      "all_bad_vertices_fixed": false,
+      "examples": [
+        {
+          "vertex": 121019,
+          "cell_yx": [
+            126,
+            990
+          ],
+          "fixed": false,
+          "patch_boundary_degree": 4,
+          "global_boundary_degree": 4,
+          "global_incident_faces": [
+            230495,
+            234444
+          ],
+          "omitted_incident_faces": [],
+          "omitted_faces_all_fixed": true
+        },
+        {
+          "vertex": 146894,
+          "cell_yx": [
+            138,
+            990
+          ],
+          "fixed": false,
+          "patch_boundary_degree": 4,
+          "global_boundary_degree": 4,
+          "global_incident_faces": [
+            280308,
+            280309,
+            284410,
+            284411
+          ],
+          "omitted_incident_faces": [],
+          "omitted_faces_all_fixed": true
+        },
+        {
+          "vertex": 159107,
+          "cell_yx": [
+            144,
+            984
+          ],
+          "fixed": false,
+          "patch_boundary_degree": 4,
+          "global_boundary_degree": 4,
+          "global_incident_faces": [
+            304020,
+            304021,
+            307786,
+            307787
+          ],
+          "omitted_incident_faces": [],
+          "omitted_faces_all_fixed": true
+        }
+      ]
+    },
+    {
+      "region": 163,
+      "vertices": 633,
+      "faces": 973,
+      "boundary_vertices": 290,
+      "nonmanifold_boundary_vertices": 1,
+      "also_nonmanifold_in_full_mesh": 1,
+      "all_bad_vertices_fixed": false,
+      "examples": [
+        {
+          "vertex": 159891,
+          "cell_yx": [
+            144,
+            2004
+          ],
+          "fixed": false,
+          "patch_boundary_degree": 4,
+          "global_boundary_degree": 4,
+          "global_incident_faces": [
+            305556,
+            305557,
+            309262,
+            309263
+          ],
+          "omitted_incident_faces": [],
+          "omitted_faces_all_fixed": true
+        }
+      ]
+    },
+    {
+      "region": 280,
+      "vertices": 1059,
+      "faces": 1724,
+      "boundary_vertices": 392,
+      "nonmanifold_boundary_vertices": 0,
+      "also_nonmanifold_in_full_mesh": 0,
+      "all_bad_vertices_fixed": true,
+      "examples": []
+    },
+    {
+      "region": 287,
+      "vertices": 1071,
+      "faces": 1717,
+      "boundary_vertices": 423,
+      "nonmanifold_boundary_vertices": 2,
+      "also_nonmanifold_in_full_mesh": 2,
+      "all_bad_vertices_fixed": false,
+      "examples": [
+        {
+          "vertex": 237101,
+          "cell_yx": [
+            198,
+            2364
+          ],
+          "fixed": false,
+          "patch_boundary_degree": 4,
+          "global_boundary_degree": 4,
+          "global_incident_faces": [
+            453900,
+            453901,
+            455458,
+            455459
+          ],
+          "omitted_incident_faces": [],
+          "omitted_faces_all_fixed": true
+        },
+        {
+          "vertex": 245912,
+          "cell_yx": [
+            210,
+            2394
+          ],
+          "fixed": false,
+          "patch_boundary_degree": 4,
+          "global_boundary_degree": 4,
+          "global_incident_faces": [
+            470627,
+            471348
+          ],
+          "omitted_incident_faces": [],
+          "omitted_faces_all_fixed": true
+        }
+      ]
+    },
+    {
+      "region": 320,
+      "vertices": 209,
+      "faces": 345,
+      "boundary_vertices": 71,
+      "nonmanifold_boundary_vertices": 0,
+      "also_nonmanifold_in_full_mesh": 0,
+      "all_bad_vertices_fixed": true,
+      "examples": []
+    }
+  ],
+  "elapsed_seconds": 2.069861399999354,
+  "sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\holdout_seed_keep1p5_01\\output.obj_uv_diagnostics.json",
+      "sha256": "b47eaf70e6d7f4423b0e5c6efb56ce36b24ebd688510d49aefad5311a899e853"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-reconcile01\\second\\arrays.npz",
+      "sha256": "9247c744e4c6197aea2fcdc8d4bfe5682c2a3892e4d683373883ec7810595de7"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region090\\arrays.npz",
+      "sha256": "98472d013e25bc9f8b4ed69cd6cd7dcf0cd27fe4fec4b4a9276716451bfa8b81"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region108\\arrays.npz",
+      "sha256": "e700908eeb69496232ae808aeb61ff44690cbca62dd7d28c3457c3975c440dbb"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-patch01\\input01\\arrays.npz",
+      "sha256": "c541068631042fdafb9d02ff1939b12bda91c908971db374ff73a769cc54f1ea"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region129\\arrays.npz",
+      "sha256": "22c24d068a538baee85b29747e98c60c60037f2f4bcd5202c3e2f64451e9b83b"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region163\\arrays.npz",
+      "sha256": "9099d295f948d6fdfa9928d40f0f5ccded8bd27528e7f2bebd2a131e2a884579"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region280\\arrays.npz",
+      "sha256": "4518f253b1f48fbaa15213c46dcc67dd10b329cb366a092104d8ef9e2044d2f6"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region287\\arrays.npz",
+      "sha256": "e42091d962da5565c6a43bbf097287efcceefe909ea67cdae9aa2f0bd78ed5eb"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-remaining01\\input01\\region320\\arrays.npz",
+      "sha256": "db2f9444ea022d7c7bcefff4d93ab46f0a2f5eebeb81acb892d99d3d3cc517c3"
+    }
+  ]
+}

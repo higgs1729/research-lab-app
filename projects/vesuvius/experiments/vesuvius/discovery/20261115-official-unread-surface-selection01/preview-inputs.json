@@ -1,0 +1,1006 @@
+{
+  "4": {
+    "crop_target_global_xywh": [
+      704,
+      1568,
+      1024,
+      640
+    ],
+    "main_target_global_xywh": [
+      736,
+      1600,
+      960,
+      576
+    ],
+    "target_shape_yx": [
+      2322,
+      2322
+    ],
+    "native_integer_support_xyxy_exclusive": [
+      782,
+      1742,
+      1920,
+      2454
+    ],
+    "all_geom_support_pixels": 463108,
+    "main_geom_support_pixels": 412428,
+    "valid_bilinear_corner_bbox_xyz": [
+      [
+        3244.845458984375,
+        5772.78466796875,
+        10887.6015625
+      ],
+      [
+        4054.923828125,
+        6639.5888671875,
+        11604.8291015625
+      ]
+    ],
+    "source_middle_layer": 15,
+    "present": [
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/13/6",
+        "bytes": 507904,
+        "etag": "\"a8cfe20a1b8efc316a8d1c5a7b0b2cac\"",
+        "yx": [
+          13,
+          6
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/13/7",
+        "bytes": 507904,
+        "etag": "\"0a48c87290a45ed4a787a5be67fe460e\"",
+        "yx": [
+          13,
+          7
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/13/8",
+        "bytes": 507904,
+        "etag": "\"b932b1ec43e0900f2071a3eeca067d0d\"",
+        "yx": [
+          13,
+          8
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/13/9",
+        "bytes": 507904,
+        "etag": "\"d13490a5a058b661a031f8a525afa528\"",
+        "yx": [
+          13,
+          9
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/13/10",
+        "bytes": 507904,
+        "etag": "\"c4d5e574fed2d3b91824eaa706391b28\"",
+        "yx": [
+          13,
+          10
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/13/11",
+        "bytes": 507904,
+        "etag": "\"6b5db1ee30372b574c424343901594ed\"",
+        "yx": [
+          13,
+          11
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/13/12",
+        "bytes": 507904,
+        "etag": "\"c911daf82338b39d74e1c3ae2a1ca14b\"",
+        "yx": [
+          13,
+          12
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/13/13",
+        "bytes": 507904,
+        "etag": "\"3dcae32dd3c0ab8561815ef377558468\"",
+        "yx": [
+          13,
+          13
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/13/14",
+        "bytes": 507904,
+        "etag": "\"00b19679dcd2c0aff2976cb6edd2ed36\"",
+        "yx": [
+          13,
+          14
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/14/6",
+        "bytes": 507904,
+        "etag": "\"379bd912f5bc7e2579bb158f849efdbb\"",
+        "yx": [
+          14,
+          6
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/14/7",
+        "bytes": 507904,
+        "etag": "\"baa8217df520dde50de34eaa5f0a1d50\"",
+        "yx": [
+          14,
+          7
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/14/8",
+        "bytes": 507904,
+        "etag": "\"6357744082bdfef88d69e41ab7d8b1db\"",
+        "yx": [
+          14,
+          8
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/14/9",
+        "bytes": 507904,
+        "etag": "\"ec97037095a8ebb9464ed0370ff64f98\"",
+        "yx": [
+          14,
+          9
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/14/10",
+        "bytes": 507904,
+        "etag": "\"d0f74f0c6a5c9c4c817e796f8d7b7109\"",
+        "yx": [
+          14,
+          10
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/14/11",
+        "bytes": 507904,
+        "etag": "\"4fb00f6beff42e8f47805ca823587209\"",
+        "yx": [
+          14,
+          11
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/14/12",
+        "bytes": 507904,
+        "etag": "\"65f85ed66dc1a9954e5382ed694a6bd7\"",
+        "yx": [
+          14,
+          12
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/14/13",
+        "bytes": 507904,
+        "etag": "\"ec0e8981213888cc635f6cce39733fa5\"",
+        "yx": [
+          14,
+          13
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/14/14",
+        "bytes": 507904,
+        "etag": "\"77cc95becdbcaaba6ab76bd32c73a6b2\"",
+        "yx": [
+          14,
+          14
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/15/6",
+        "bytes": 507904,
+        "etag": "\"9a79934d6447c44c157a478670d89270\"",
+        "yx": [
+          15,
+          6
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/15/7",
+        "bytes": 507904,
+        "etag": "\"290584ecbb28b990f933c01cb9af0255\"",
+        "yx": [
+          15,
+          7
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/15/8",
+        "bytes": 507904,
+        "etag": "\"cfa7497e0f121bd28d7bb602025dc897\"",
+        "yx": [
+          15,
+          8
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/15/9",
+        "bytes": 507904,
+        "etag": "\"e3643536a22c59707420e0a5fd8cc17f\"",
+        "yx": [
+          15,
+          9
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/15/10",
+        "bytes": 507904,
+        "etag": "\"adbf0a2c09b2e59446a7eb4b258344ac\"",
+        "yx": [
+          15,
+          10
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/15/11",
+        "bytes": 507904,
+        "etag": "\"124c2083a3f6b02d2157251badec8bc1\"",
+        "yx": [
+          15,
+          11
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/15/12",
+        "bytes": 507904,
+        "etag": "\"50150d017f5af6fac29f811b115d1e78\"",
+        "yx": [
+          15,
+          12
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/15/13",
+        "bytes": 507904,
+        "etag": "\"d342f3eb1f8e4d128dd4a904beae013b\"",
+        "yx": [
+          15,
+          13
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/15/14",
+        "bytes": 507904,
+        "etag": "\"c2a8dc8414ed298d24174277ef538f1b\"",
+        "yx": [
+          15,
+          14
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/16/6",
+        "bytes": 507904,
+        "etag": "\"aced18112162304034ec62ace71c7823\"",
+        "yx": [
+          16,
+          6
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/16/7",
+        "bytes": 507904,
+        "etag": "\"835bdd6272ef3ffb9fc8a1355a5315cd\"",
+        "yx": [
+          16,
+          7
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/16/8",
+        "bytes": 507904,
+        "etag": "\"2b624135935d450da417283c8715e4d0\"",
+        "yx": [
+          16,
+          8
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/16/9",
+        "bytes": 507904,
+        "etag": "\"31f305ee8e4020cabb92b09f7ee9afa9\"",
+        "yx": [
+          16,
+          9
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/16/10",
+        "bytes": 507904,
+        "etag": "\"39854528d659f77080bfa3ec01706a82\"",
+        "yx": [
+          16,
+          10
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/16/11",
+        "bytes": 507904,
+        "etag": "\"9a536036bb6c78da3adf43312fa474da\"",
+        "yx": [
+          16,
+          11
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/16/12",
+        "bytes": 507904,
+        "etag": "\"0c69b38086042276163d251f59867629\"",
+        "yx": [
+          16,
+          12
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/16/13",
+        "bytes": 507904,
+        "etag": "\"9ccc0c6a5f4d8231f59226ef54a71bb4\"",
+        "yx": [
+          16,
+          13
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/16/14",
+        "bytes": 507904,
+        "etag": "\"6604688e32731df8d00c157e158b18ba\"",
+        "yx": [
+          16,
+          14
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/17/7",
+        "bytes": 507904,
+        "etag": "\"5b6b6b740ca29e9feb4db58a1624011d\"",
+        "yx": [
+          17,
+          7
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/17/8",
+        "bytes": 507904,
+        "etag": "\"afbc361a5aefe6ffee8289a2277c14ed\"",
+        "yx": [
+          17,
+          8
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/17/9",
+        "bytes": 507904,
+        "etag": "\"413495b893d7b4f664c9036d1713105a\"",
+        "yx": [
+          17,
+          9
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/17/10",
+        "bytes": 507904,
+        "etag": "\"9ac8546fb3c23311f83beb4fabb11293\"",
+        "yx": [
+          17,
+          10
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/17/11",
+        "bytes": 507904,
+        "etag": "\"99c91122a02c31078f508ce0b60df9bd\"",
+        "yx": [
+          17,
+          11
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/17/12",
+        "bytes": 507904,
+        "etag": "\"b58210bf4c8fa5d6b68a32b731d524b7\"",
+        "yx": [
+          17,
+          12
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/17/13",
+        "bytes": 507904,
+        "etag": "\"13f9f7e925bd44e80b965eddb0121378\"",
+        "yx": [
+          17,
+          13
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/18/8",
+        "bytes": 507904,
+        "etag": "\"90a24158aecb9b16ed74105b6ae05488\"",
+        "yx": [
+          18,
+          8
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/18/9",
+        "bytes": 507904,
+        "etag": "\"bae422db10892ebc5a76be94c8eb9bf1\"",
+        "yx": [
+          18,
+          9
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/18/10",
+        "bytes": 507904,
+        "etag": "\"d22a3f91eabedb3b1c841ff404cb8d2c\"",
+        "yx": [
+          18,
+          10
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/18/11",
+        "bytes": 507904,
+        "etag": "\"20d4b1bc638980ae44792716bf4e971a\"",
+        "yx": [
+          18,
+          11
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/18/12",
+        "bytes": 507904,
+        "etag": "\"ff501f85911763986b8187cba5114379\"",
+        "yx": [
+          18,
+          12
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/19/10",
+        "bytes": 507904,
+        "etag": "\"7d1c4c85de5d20763e3cd07cdd68c65a\"",
+        "yx": [
+          19,
+          10
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/19/11",
+        "bytes": 507904,
+        "etag": "\"dc6eb9429aaa2648ea7c7122e065f3ea\"",
+        "yx": [
+          19,
+          11
+        ]
+      }
+    ],
+    "listed_absent_yx": [
+      [
+        17,
+        6
+      ],
+      [
+        17,
+        14
+      ],
+      [
+        18,
+        6
+      ],
+      [
+        18,
+        7
+      ],
+      [
+        18,
+        13
+      ],
+      [
+        18,
+        14
+      ],
+      [
+        19,
+        6
+      ],
+      [
+        19,
+        7
+      ],
+      [
+        19,
+        8
+      ],
+      [
+        19,
+        9
+      ],
+      [
+        19,
+        12
+      ],
+      [
+        19,
+        13
+      ],
+      [
+        19,
+        14
+      ]
+    ]
+  },
+  "5": {
+    "crop_target_global_xywh": [
+      480,
+      64,
+      960,
+      576
+    ],
+    "main_target_global_xywh": [
+      512,
+      96,
+      896,
+      512
+    ],
+    "target_shape_yx": [
+      2070,
+      2034
+    ],
+    "native_integer_support_xyxy_exclusive": [
+      533,
+      71,
+      1600,
+      712
+    ],
+    "all_geom_support_pixels": 371148,
+    "main_geom_support_pixels": 326968,
+    "valid_bilinear_corner_bbox_xyz": [
+      [
+        2939.611328125,
+        5880.783203125,
+        12544.3125
+      ],
+      [
+        3552.097412109375,
+        6814.9296875,
+        13204.107421875
+      ]
+    ],
+    "source_middle_layer": 15,
+    "present": [
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/0/8",
+        "bytes": 507904,
+        "etag": "\"06e7416a16cb3e8ab5591e6ad2af76ba\"",
+        "yx": [
+          0,
+          8
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/0/9",
+        "bytes": 507904,
+        "etag": "\"b06977760f0747f7a324e6fcef8c678d\"",
+        "yx": [
+          0,
+          9
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/1/7",
+        "bytes": 507904,
+        "etag": "\"b56c39da406a736ff547a1e00c26a180\"",
+        "yx": [
+          1,
+          7
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/1/8",
+        "bytes": 507904,
+        "etag": "\"ac996e7189b3ef356e019b778001370c\"",
+        "yx": [
+          1,
+          8
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/1/9",
+        "bytes": 507904,
+        "etag": "\"bcb734593832aebd19bd17067ba6731a\"",
+        "yx": [
+          1,
+          9
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/1/10",
+        "bytes": 507904,
+        "etag": "\"b7b89df6f763b6b99c988b09edd6f651\"",
+        "yx": [
+          1,
+          10
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/2/5",
+        "bytes": 507904,
+        "etag": "\"3640b3ce595b422906f287948690959f\"",
+        "yx": [
+          2,
+          5
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/2/6",
+        "bytes": 507904,
+        "etag": "\"4ec7cfde3bd784653e37918dde7eee8a\"",
+        "yx": [
+          2,
+          6
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/2/7",
+        "bytes": 507904,
+        "etag": "\"9689f42b71416c1032c98d5bee1682b2\"",
+        "yx": [
+          2,
+          7
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/2/8",
+        "bytes": 507904,
+        "etag": "\"d2a66602bbb3a2e16354190911c29a05\"",
+        "yx": [
+          2,
+          8
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/2/9",
+        "bytes": 507904,
+        "etag": "\"62c5c3221a242aa65346a445f71c627f\"",
+        "yx": [
+          2,
+          9
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/2/10",
+        "bytes": 507904,
+        "etag": "\"6b0c2107484b2b5976fa73ec3ed0bb6e\"",
+        "yx": [
+          2,
+          10
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/2/11",
+        "bytes": 507904,
+        "etag": "\"5f064c4e76c152d11dc49e9b9713dca9\"",
+        "yx": [
+          2,
+          11
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/3/4",
+        "bytes": 507904,
+        "etag": "\"8c78ff15cc911b2b1118688cf0fcd522\"",
+        "yx": [
+          3,
+          4
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/3/5",
+        "bytes": 507904,
+        "etag": "\"96d4a43ee0238310966f9ff7e87beb7f\"",
+        "yx": [
+          3,
+          5
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/3/6",
+        "bytes": 507904,
+        "etag": "\"96ed36e29a54dd969521df9f52d1a21a\"",
+        "yx": [
+          3,
+          6
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/3/7",
+        "bytes": 507904,
+        "etag": "\"0d772afebcb6e0aab5ee7f78acacbf9e\"",
+        "yx": [
+          3,
+          7
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/3/8",
+        "bytes": 507904,
+        "etag": "\"0f4ef838e82a315a4b19d6f984e8d3ea\"",
+        "yx": [
+          3,
+          8
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/3/9",
+        "bytes": 507904,
+        "etag": "\"21a7d78d963f0329298a6d902eec6333\"",
+        "yx": [
+          3,
+          9
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/3/10",
+        "bytes": 507904,
+        "etag": "\"7d5bf191170f26179f57bcd79113d3ea\"",
+        "yx": [
+          3,
+          10
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/3/11",
+        "bytes": 507904,
+        "etag": "\"befe2b9737ed1c3bac8ac7501789ad47\"",
+        "yx": [
+          3,
+          11
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/3/12",
+        "bytes": 507904,
+        "etag": "\"dd400ecf95f25cfb9057af4bb726ec1e\"",
+        "yx": [
+          3,
+          12
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/4/4",
+        "bytes": 507904,
+        "etag": "\"1c43a4bcbf5db65cc87d2cabda7247a2\"",
+        "yx": [
+          4,
+          4
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/4/5",
+        "bytes": 507904,
+        "etag": "\"03570f799633dc758bf549dbc0b471c2\"",
+        "yx": [
+          4,
+          5
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/4/6",
+        "bytes": 507904,
+        "etag": "\"8eec530da7255d32242d4980e17d925d\"",
+        "yx": [
+          4,
+          6
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/4/7",
+        "bytes": 507904,
+        "etag": "\"f8fbcefe65d196004ce8bdc27c2e1030\"",
+        "yx": [
+          4,
+          7
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/4/8",
+        "bytes": 507904,
+        "etag": "\"50707de16f9a6cb38a63ba6c2972c14c\"",
+        "yx": [
+          4,
+          8
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/4/9",
+        "bytes": 507904,
+        "etag": "\"101ad375cb13e9356b3ad0e031f3556c\"",
+        "yx": [
+          4,
+          9
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/4/10",
+        "bytes": 507904,
+        "etag": "\"527a2f4a78b220ec68fb1e9ece06231d\"",
+        "yx": [
+          4,
+          10
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/4/11",
+        "bytes": 507904,
+        "etag": "\"e9391efbe8681e75df51c5e852c22940\"",
+        "yx": [
+          4,
+          11
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/4/12",
+        "bytes": 507904,
+        "etag": "\"0f7601533a09406334f2d03db8b49acd\"",
+        "yx": [
+          4,
+          12
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/5/4",
+        "bytes": 507904,
+        "etag": "\"3342a0b91a1a50ede5654411b2c57725\"",
+        "yx": [
+          5,
+          4
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/5/5",
+        "bytes": 507904,
+        "etag": "\"a33b7ea41260531de5e5a389541b41ac\"",
+        "yx": [
+          5,
+          5
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/5/6",
+        "bytes": 507904,
+        "etag": "\"c7901b8696dd54bcb84d5f8a962a4bc0\"",
+        "yx": [
+          5,
+          6
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/5/7",
+        "bytes": 507904,
+        "etag": "\"4a9dd05afe9c49a94e317c2d070c66cc\"",
+        "yx": [
+          5,
+          7
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/5/8",
+        "bytes": 507904,
+        "etag": "\"366dc0066166b19ba252614134a8f12f\"",
+        "yx": [
+          5,
+          8
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/5/9",
+        "bytes": 507904,
+        "etag": "\"a02278817a23fa00615a6a90c7a0cafe\"",
+        "yx": [
+          5,
+          9
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/5/10",
+        "bytes": 507904,
+        "etag": "\"59c2210565fc4538785d64615e7561c7\"",
+        "yx": [
+          5,
+          10
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/5/11",
+        "bytes": 507904,
+        "etag": "\"a188aa1318e10f53990f79304e4f9826\"",
+        "yx": [
+          5,
+          11
+        ]
+      },
+      {
+        "key": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045/surface-volumes/8.64um-1.2m-116keV-volume-20250521135224.zarr/0/0/5/12",
+        "bytes": 507904,
+        "etag": "\"33806d112bc809378572586ee5134185\"",
+        "yx": [
+          5,
+          12
+        ]
+      }
+    ],
+    "listed_absent_yx": [
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        0,
+        6
+      ],
+      [
+        0,
+        7
+      ],
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        11
+      ],
+      [
+        0,
+        12
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        1,
+        6
+      ],
+      [
+        1,
+        11
+      ],
+      [
+        1,
+        12
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        12
+      ]
+    ]
+  }
+}

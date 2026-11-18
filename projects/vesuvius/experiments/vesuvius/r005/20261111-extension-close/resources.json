@@ -1,0 +1,80 @@
+{
+  "new_paid_compute_cost": 0,
+  "currency": "USD",
+  "new_real_input_download_bytes": 0,
+  "llm_and_local_electricity_cost": null,
+  "native_build_wall_seconds": 74.9550488,
+  "native_relink_wall_seconds": 17.188965843000005,
+  "native_runs": [
+    {
+      "tag": "override_disabled_keep1p5_01",
+      "elapsed_seconds": 13.89977752499999,
+      "started_utc": "2026-11-11T14:18:18.142542+00:00",
+      "completed_utc": "2026-11-11T14:18:32.074258+00:00",
+      "binary_sha256": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b"
+    },
+    {
+      "tag": "gradient_keep1p5_01",
+      "elapsed_seconds": 13.91774170900004,
+      "started_utc": "2026-11-11T14:19:00.614608+00:00",
+      "completed_utc": "2026-11-11T14:19:14.554223+00:00",
+      "binary_sha256": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b"
+    },
+    {
+      "tag": "gradient_fixed_keep1p5_01",
+      "elapsed_seconds": 7.360907249,
+      "started_utc": "2026-11-11T14:34:31.503481+00:00",
+      "completed_utc": "2026-11-11T14:34:38.872084+00:00",
+      "binary_sha256": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b"
+    }
+  ],
+  "numerical_prototypes": [
+    {
+      "started_utc": "2026-11-11T14:13:30.716779+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261111-extension02\\solve_extension.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261111-extension02\\solve01"
+      ],
+      "script_sha256": "b53abe4a13e2821ca3631eda2f6eb3e67232be72acb654cdc45fec08353e5429",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 6.658295300032478,
+      "peak_rss_bytes": 145690624,
+      "stopped": null,
+      "completed_utc": "2026-11-11T14:13:37.375852+00:00"
+    },
+    {
+      "started_utc": "2026-11-11T14:34:10.611679+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261111-extension03\\solve_extension.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261111-extension03\\solve01"
+      ],
+      "script_sha256": "8e181c362728c26cf5555a195d03e151867ca66e1c9559536df55ba1ad4d6211",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 7.06089989998145,
+      "peak_rss_bytes": 145629184,
+      "stopped": null,
+      "completed_utc": "2026-11-11T14:34:17.673466+00:00"
+    }
+  ],
+  "note": "Native processes use 4 GiB address-space and 300-second limits. Windows prototypes use sampled RSS/elapsed monitoring, recorded separately."
+}

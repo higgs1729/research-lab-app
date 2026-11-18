@@ -1,0 +1,105 @@
+{
+  "science_plan_sha256": "d1a9774b2ad3816ade4234c4449577e86f2bf49cd6d809915a1a1c1ebebc0312",
+  "archive_path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\cloud-input-r232.tar.gz",
+  "base_archive_sha256": "499e33cc48383a9d88cdeeab70aa5618f0fc29f7563c51d90af52a929eb2115a",
+  "archive_sha256": "ac4a5def1634f79ee3bd0fdc435f1d4825b4bc682dec2f8cd7efc5c5f102f2f3",
+  "archive_bytes": 6989797,
+  "archive_member_sha256": {
+    "plan.json": "d1a9774b2ad3816ade4234c4449577e86f2bf49cd6d809915a1a1c1ebebc0312",
+    "input-contract.json": "c0e919e923635b0dd1a3a96d725b30b7953fc029da9aa171b5ebe69fb0bfc8cc",
+    "input16.npy": "5ff8a0909d37436207f95bf1fed5512babea086da7961d05fdd7e2bcf04a9a7c",
+    "patch-contract.json": "b2ee0bb542d9c2dea29a38589ed68d02b60e564bf74f0e91fedf1b96f5b5a002",
+    "safetensors-header.json": "7ae1687c24d8f63249b84af3381ef2a60c0b2e47f89f23468c62846bca361120",
+    "cpu/model.json": "fc9ccf8f83f1a283e03b0a83388f5d0b603adf113212f309199757bb2210d5a7",
+    "cpu/p000.npy": "f0658d5e981b8ea7afa27e0cfdc78b42de1e5110cc7c48ce55cbe9e46afa3387",
+    "cpu/p047.npy": "639f30c7723d492c91c611e99f8083f712bc0144172faa2eb80230d2e15d8e8b",
+    "cpu/p095.npy": "71d4371bfea7ad0b9ac74466c7a4f043a7934ab7a907252096aedd4c45ad56e0",
+    "sources/studio-multiscroll-cpt-20261023/hf/model.py": "efbb390b6208c480fa8e8681137690b7df897c3e406956b9e804fa66645316d7",
+    "sources/studio-multiscroll-cpt-20261023/hf/inference.py": "09752cf7aa0b682c6ca9a46e41bf1f9f279e30d74d35eaab8fc0311504223ec0",
+    "studio_worker.py": "87ce4d54f3c2a7bfe9d3c333bb1ea552e0a2e90cef8233a939d1bbdad4a18b6c",
+    "cloud_worker.py": "19576ee8eca0f5dc275f105888f1086761df3414bb55a9c5b2f007e5c836f051",
+    "sources/wheelhouse/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774",
+    "r208_runtime.py": "e45c8c14e70d12bfed19e329ed0b3ee257bd627358c59e308acc91d2c6539db3",
+    "fixed-assets.json": "8158360708c0e582c424bccc71c555a22d76f3d0832d7ac6b09f3c7d0d9c9929",
+    "pod_work.py": "71e520811112a0fd58b544b746faec3afe7e1df0318a469653764dbe5794e2ad",
+    "normalization_probe.py": "c0bd4378f4daefe00a58823ee1383f779234293e18732a9ba8eb81fab7c36127"
+  },
+  "cpu_forwards_added": 0,
+  "known_control": {
+    "main_xywh": [
+      1344,
+      1088,
+      672,
+      448
+    ],
+    "patches": 96,
+    "CPU_reference_indices": [
+      0,
+      47,
+      95
+    ],
+    "CPU_GPU_output_atol": 0.0001,
+    "device_arithmetic": "upstream GPU clamp_/div_ float32 unchanged",
+    "pre_weight_gate": "model-free exact CUDA LUT and all 96 patch identities and SHAs; 45 s within transfer"
+  },
+  "controller_assignments": {
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\control.py": "c809b41b7244080ab9b61a84483e96ecf23f5c5ddbf15ef00d59462c72fb7452",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\capture.py": "4767517f9f14cfaff136e8bc277a8125dae783987383831b41f0f774f8de56ed",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\run_once.py": "ed888c3a1cb6f62f662c1b17b9dcd838a2c19621a16f7304ebdadc62d8292ad0",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\deadline.py": "9a1a6118ea0001fe58e46306fdb480560c411b9fe8a2e52a7cbac311ab40bdd5",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\results.py": "0a1f797ec57ba424f34d5d4138a0d26d4de3eeb9ab5f13521d31d97b440594f1",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\normalization_probe.py": "c0bd4378f4daefe00a58823ee1383f779234293e18732a9ba8eb81fab7c36127",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\studio_worker.py": "87ce4d54f3c2a7bfe9d3c333bb1ea552e0a2e90cef8233a939d1bbdad4a18b6c",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\cloud_worker.py": "19576ee8eca0f5dc275f105888f1086761df3414bb55a9c5b2f007e5c836f051",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\pod_work.py": "71e520811112a0fd58b544b746faec3afe7e1df0318a469653764dbe5794e2ad",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\cloud-assets-a40\\fixed-assets.json": "04628d2a7b199dc41c278fc7f4ddf2ef8dd19d5421d09993217bac443a9a69a1",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\cloud-assets-a40\\pod_boot.py": "c3ce00fa7527778caac505fb62947293af726abbd1bfe061d65dd89cf4b246f1",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\cloud-assets-a40\\pod_work.py": "caf2430c023f826fa7312bf1b62e47167f321665c645e85cf395d928fd115648",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-runpod-exec-diagnostic01\\diagnostic.py": "a117cf0eaf5d56c7c15ea6bfbbce05a4d6a787aa482ce5c3b4d6ee67b0474783",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-wider-hecate-run02\\run.py": "226ca1c6aa2166c1db5224517f30dc0a76a01e4f7c7e4037e6d9dcbaa1f5acd6",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-hecate-cloud-run01\\inspect_runpod.py": "49cf3e74c12d2212afaeae3149fc9c843f223590e949907ed8315e31f15107ad",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-canada-control01\\cloud-plan.json": "4658416dc8ee9d955238807e24118b705d4caeb6fc4fe9053b5e5b70e84e0d15"
+  },
+  "data_collection": {
+    "new_local_write_cap_bytes": 67108864,
+    "admission_free_bytes_after_reservation": 2147483648,
+    "physical_result_reservation_bytes": 12582912
+  },
+  "dollars": {
+    "rate_ceiling": 0.6,
+    "estimate_8_to_20_min": [
+      0.079,
+      0.197
+    ],
+    "operation_ceiling": 0.35,
+    "currency": "USD",
+    "additional": "small container disk"
+  },
+  "lifecycle": {
+    "gpu": "NVIDIA A40",
+    "cloud": "SECURE",
+    "resource_count": 1,
+    "dedicated_name_regex": "r232-studio-[0-9a-f]{16}",
+    "data_center_ids": [
+      "CA-MTL-1"
+    ],
+    "automatic_retries": 0,
+    "total_seconds": 1800,
+    "stage_max_seconds": {
+      "provision": 600,
+      "transfer": 480,
+      "model": 900,
+      "collection": 120,
+      "deletion": 60
+    },
+    "absolute_from_precreate_seconds": {
+      "provision": 600,
+      "transfer": 1080,
+      "model": 1620,
+      "collection": 1740,
+      "deletion": 1800
+    },
+    "input_weight_fetches_on_pod": 1
+  },
+  "pods_created_at_freeze": 0
+}

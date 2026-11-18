@@ -1,0 +1,289 @@
+{
+  "files": [
+    {
+      "path": "research/163-r009-normal-python-runtime.md",
+      "sha256": "f20042fe3c841f22f76057ba01363f8f737e3e1e0e3c6fccc7558cdb6ed38e74",
+      "bytes": 7898
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/launch.sh",
+      "sha256": "a9021fcf6465256f0656d6b66a8b5811820a27b07c8faf9db89ff0ea8f25488f",
+      "bytes": 231
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/launch01.log",
+      "sha256": "0dc40976300ad9b81e0bdcd4be8e988592a5e73898d224c53ca1a9c44e954560",
+      "bytes": 814
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/launch02.log",
+      "sha256": "4822b752466531c9c46c2a374e7550dadc00febf1b5fb57126cadf3b6e32059f",
+      "bytes": 1204
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/lead-check.json",
+      "sha256": "c81be3612dfcf882838e8649e02c63bb5094b5abfe257cf6bad5d9db287db2b6",
+      "bytes": 802
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/lead_check.py",
+      "sha256": "39192b1b98d1770f81d59c24f2a0a0150619cc6286c8f9d3d29d9c9ab551c430",
+      "bytes": 5419
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/README.md",
+      "sha256": "f8e640b5d6397a3b2c00392fbbe9796857f806fe628a95d00d2701fff36a71b9",
+      "bytes": 5765
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/record.json",
+      "sha256": "198afa85a9141c9099f90900c859c4a799202d09edaa48a42c212169215d9680",
+      "bytes": 3028
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run.py",
+      "sha256": "27dc0d6f41fe2dd32839aee35d3706da9b5ec366d52622eaf6e343f046f0610b",
+      "bytes": 16399
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run01/environment.json",
+      "sha256": "e78a99e1568a4265c80401f4dfdd26d55a4537d83b12a59ea6cdc3fcb8fbf928",
+      "bytes": 1038
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run01/failure.json",
+      "sha256": "34823cda8d9d8483fb87115f08087cfd8751dabdea8fc69a9b78ad5f5434fd91",
+      "bytes": 691
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run01/runner-start.json",
+      "sha256": "648f838f67c8d9a7d49eb65e2d42822011ef7fb5ef8f2433e4fdc7ac2efd2b53",
+      "bytes": 256
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/build-process.json",
+      "sha256": "947054dd266992bbd536f27ae3f0a0b00bf03695624b1a88341757596f67fee2",
+      "bytes": 10192
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/build-start.json",
+      "sha256": "2f1579b68611ceebbdd01102b5028146228395710e69cee51572b7faeee1c6c0",
+      "bytes": 1882
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/build-time.txt",
+      "sha256": "fd7ccb43150b6a02d190ebc1fd602bbec51924056567244744da58cb40d9c218",
+      "bytes": 21
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/build.log",
+      "sha256": "1e6a990e7637ee07cee69bc19080f8322f982efee79e91e170a41867a0677a99",
+      "bytes": 8055
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/CMakeCache.txt",
+      "sha256": "94fbe9ae4078843df040cec9a040df2bb7511f9a5acbe3c6681287d157328deb",
+      "bytes": 32893
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/compile_commands.json",
+      "sha256": "1b986a00d3e13df17a972d10c1d95c19226619d3a70ecc87358ffa42ac354838",
+      "bytes": 62311
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/complete.json",
+      "sha256": "b4ad8215aebe976b78572e4b9ddeb127ffb6a3ae03727b75c4ae99b8464b142e",
+      "bytes": 279
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/configure-check.json",
+      "sha256": "3769cfd05a52225b601f10ea5ab36509c5b4598ff149c5ae7695794b555544ef",
+      "bytes": 4468
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/configure-process.json",
+      "sha256": "150ca24643e25edfd6e86f948744ae59991031a03c8a26f1710446d197620515",
+      "bytes": 1864
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/configure-start.json",
+      "sha256": "7a95ebaa30cdf9382afefac552e35a0e563b24b29f4d0acb442fffb21e228811",
+      "bytes": 3029
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/configure-time.txt",
+      "sha256": "ed000af6978eeac8ed18aa965e80e03fb043050b936e364ffd30a2a583b3ce51",
+      "bytes": 16
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/configure.log",
+      "sha256": "0fad5a4a79ea2bdb60cb728e0239c34ecfdb282122a476a775fd18045cd42c2c",
+      "bytes": 1757
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/environment.json",
+      "sha256": "e34ec0f1daf02ef44159c635292a9ad75d335b9aac4d5f6143c374e4a2715ec0",
+      "bytes": 1038
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/failure.json",
+      "sha256": "d90c1fd8eefb776863d9d3b29ecd22fb446673545a92f60e75cd0c0d4f7407b1",
+      "bytes": 698
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/default.zarr/.zgroup",
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85",
+      "bytes": 19
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/default.zarr/0/.zarray",
+      "sha256": "dd168e0a4266ed5eb6d9975d320d584464cb4d22952f56406e6a2022a7f2701d",
+      "bytes": 258
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/default.zarr/0/0/0/0",
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/default.zarr/0/0/0/1",
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/default.zarr/0/0/1/0",
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/default.zarr/0/0/1/1",
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/default.zarr/1/.zarray",
+      "sha256": "dca2aeb9419b26ca1fd946937a2a49e9fd3a5b7f0c9e894a0b83cf72e65e49a4",
+      "bytes": 258
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/default.zarr/2/.zarray",
+      "sha256": "7bf35380c12840f22de12799b39b143f56ec18485d4a8f52694d4e1aa63e6853",
+      "bytes": 258
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/preserve.zarr/.zgroup",
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85",
+      "bytes": 19
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/preserve.zarr/0/.zarray",
+      "sha256": "dd168e0a4266ed5eb6d9975d320d584464cb4d22952f56406e6a2022a7f2701d",
+      "bytes": 258
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/preserve.zarr/0/0/0/0",
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/preserve.zarr/0/0/0/1",
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/preserve.zarr/0/0/1/0",
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/preserve.zarr/0/0/1/1",
+      "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+      "bytes": 23
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/preserve.zarr/1/.zarray",
+      "sha256": "004dfcdb98132bcb7fda73eb1507437c077f5033be545ac13d9c600ecbdb1567",
+      "bytes": 224
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/preserve.zarr/1/0.0.0",
+      "sha256": "06232b08dabb5a4fdb466598179349c845b0dc3436324794e270257b4e0fdbce",
+      "bytes": 16
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/preserve.zarr/2/.zarray",
+      "sha256": "7bf35380c12840f22de12799b39b143f56ec18485d4a8f52694d4e1aa63e6853",
+      "bytes": 258
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/regression.zarr/.zgroup",
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85",
+      "bytes": 19
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/regression.zarr/0/.zarray",
+      "sha256": "b45ae09d6683feaf10c407165420e941bba165ae2e7d59287f91b0add923dc73",
+      "bytes": 318
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/regression.zarr/1/.zarray",
+      "sha256": "004dfcdb98132bcb7fda73eb1507437c077f5033be545ac13d9c600ecbdb1567",
+      "bytes": 224
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/regression.zarr/1/0.0.0",
+      "sha256": "06232b08dabb5a4fdb466598179349c845b0dc3436324794e270257b4e0fdbce",
+      "bytes": 16
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/fixtures/regression.zarr/2/.zarray",
+      "sha256": "97705c8cb432859af98daf3c36ce8e08eb77b4d011c4aeec18c54a84b8a56500",
+      "bytes": 318
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/link-check.json",
+      "sha256": "810164420bb707976042c0b7f3c47f2fa7ec6fe710b5458602e77b555941d3a9",
+      "bytes": 11581
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/prepared.json",
+      "sha256": "f388baddeb695da632b873f52d0b07bfb7ae5ab69461420f33b3d9c13650feda",
+      "bytes": 148010
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/result.json",
+      "sha256": "9a2b0e9f43799f390534e5828475fc30f452b992771385069a66e03e20146b13",
+      "bytes": 3137
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/runner-start.json",
+      "sha256": "3ace1a05a3be8400cc2875e0956fe7ca00462fdbcacb7f663a3b2e914f3e7637",
+      "bytes": 256
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/verify-check.json",
+      "sha256": "e6482928ab1b02b2614d62bfe604a429f54f21ec7cf42c231992d302c86e7303",
+      "bytes": 5704
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/verify-process.json",
+      "sha256": "f81a12de4bf8344212c396ce9e18a458b9b7a9ad75f5d0198efca87d4055201f",
+      "bytes": 886
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/verify-start.json",
+      "sha256": "95ba4802f63dd893608396060821f69c2e28f4b9ccfe631cf228c6db5ea07c0f",
+      "bytes": 2332
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/verify-time.txt",
+      "sha256": "3f72a4b168bb34f52aaa61c7e60b757ba94ec02bf726ec8948abdc1dafe018cc",
+      "bytes": 17
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-runtime01/run02/verify.log",
+      "sha256": "07c7ae772923152cfb360dc93ffd74bce3fd1c72a8d54510537a4bcb45448eb8",
+      "bytes": 67472
+    }
+  ]
+}

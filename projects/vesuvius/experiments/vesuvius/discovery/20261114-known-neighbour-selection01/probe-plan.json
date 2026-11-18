@@ -1,0 +1,108 @@
+{
+  "phase": "proposed only",
+  "purpose": "Sheet continuity / fold or gap attribution at the already public band.",
+  "probes": [
+    {
+      "label": "within_winner_crop_unboxed",
+      "atlas_anchor_xy": [
+        5376,
+        736
+      ],
+      "atlas_context_xywh": [
+        5344,
+        704,
+        64,
+        64
+      ],
+      "mesh_anchor_xyz": [
+        4074.504753960504,
+        4348.054734971788,
+        10512.470673737702
+      ],
+      "orthogonal_center_zyx": [
+        10512,
+        4348,
+        4075
+      ],
+      "orthogonal_radius_vox": 32,
+      "conservative_key_count": 8
+    },
+    {
+      "label": "beyond_crop_band",
+      "atlas_anchor_xy": [
+        5504,
+        704
+      ],
+      "atlas_context_xywh": [
+        5472,
+        672,
+        64,
+        64
+      ],
+      "mesh_anchor_xyz": [
+        4102.389994303386,
+        4244.3535397376545,
+        10420.749121395158
+      ],
+      "orthogonal_center_zyx": [
+        10421,
+        4244,
+        4102
+      ],
+      "orthogonal_radius_vox": 32,
+      "conservative_key_count": 8
+    },
+    {
+      "label": "beyond_crop_lobe",
+      "atlas_anchor_xy": [
+        5824,
+        704
+      ],
+      "atlas_context_xywh": [
+        5792,
+        672,
+        64,
+        64
+      ],
+      "mesh_anchor_xyz": [
+        4308.055757875795,
+        3989.941931830512,
+        10306.707469798901
+      ],
+      "orthogonal_center_zyx": [
+        10307,
+        3990,
+        4308
+      ],
+      "orthogonal_radius_vox": 32,
+      "conservative_key_count": 4
+    }
+  ],
+  "union_keys": [
+    "0/80/30/33",
+    "0/80/30/34",
+    "0/80/31/33",
+    "0/80/31/34",
+    "0/80/32/31",
+    "0/80/32/32",
+    "0/80/33/31",
+    "0/80/33/32",
+    "0/81/32/31",
+    "0/81/32/32",
+    "0/81/33/31",
+    "0/81/33/32",
+    "0/81/34/31",
+    "0/81/34/32",
+    "0/82/33/31",
+    "0/82/33/32",
+    "0/82/34/31",
+    "0/82/34/32"
+  ],
+  "union_bytes": 37748736,
+  "overlap_r173_keys": [
+    "0/80/30/34",
+    "0/80/31/34"
+  ],
+  "additional_upper_bytes": 33554432,
+  "bounds": "Three 65\u00b3 native supports for raw orthogonal planes plus all-valid 64\u00b2 contexts expanded by 17.787 voxels per axis and trilinear corners. Replace estimated context supports with actual observer before CT GET."
+}

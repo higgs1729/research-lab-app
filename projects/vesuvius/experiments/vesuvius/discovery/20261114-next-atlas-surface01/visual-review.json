@@ -1,0 +1,29 @@
+{
+  "reviewer": "R202担当",
+  "date_jst": "2026-11-14",
+  "surface": "PHerc0175B_3024_3577_11121",
+  "window": "c+0_s1",
+  "overview": "review01/overview.png, CT and all fourteen predictions",
+  "native_full_coverage": "All sixteen g1 figures, for CT middle, Hecate 9.6 and Reader V3 in both orders",
+  "additional_native_tiles": [
+    "x0000-y1008-g2",
+    "x0504-y1008-g2",
+    "x1512-y0000-g2",
+    "x1512-y0504-g2",
+    "x1512-y1512-g2",
+    "x1008-y1008-g3",
+    "x1512-y0000-g3",
+    "x1512-y0504-g3",
+    "x1512-y0504-g4"
+  ],
+  "native_figures_visually_reviewed": 25,
+  "selection_correction": "The original comparison misread sheet_fraction as based on a common mask. PHerc0175B metadata says ct > 0 (sheet mask under 5 %), whereas both alternatives use sheet (crossness >= 0.31). The 1.0 value does not establish physical sheet coverage and cannot rank these three for sheet quality. The exact calculation is pending source review.",
+  "findings": [
+    {"xyxy_exclusive_approx": [1660, 50, 1930, 490], "observation": "Hecate bright upper-right islands are broad and irregular, with diagonal CT material texture visible through or near them. Reader and dense-native show diffuse responses without a repeated contour."},
+    {"xyxy_exclusive_approx": [1250, 590, 1850, 840], "observation": "Bright spots and short strands in Hecate and diffuse Reader responses occur by the long slanted dark gap and warped layers. No isolated strokes with consistent widths and spacing were selected."},
+    {"xyxy_exclusive_approx": [1008, 1008, 1512, 1512], "observation": "Several fine dark structures in d9v2 follow bends in CT material. Reader v2 is diffuse at these coordinates."},
+    {"xyxy_exclusive_approx": [45, 1008, 504, 1270], "observation": "Seed42 has a strong band near the left render edge and responses alongside a slanted dark layer. Seed43 also brightens along the right edge in the separate x1512/y0504 crop."}
+  ],
+  "native_roi_for_ct": null,
+  "decision": "Close this single face's centre-window review. No separable stroke or repeated letter spacing was selected. Historical prior reading, training exposure and pixel-to-XYZ mapping are unverified."
+}

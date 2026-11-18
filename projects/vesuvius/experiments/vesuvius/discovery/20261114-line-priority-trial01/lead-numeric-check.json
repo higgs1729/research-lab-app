@@ -1,0 +1,118 @@
+{
+  "utc": "2026-11-14T13:36:54.659582+00:00",
+  "reviewer": "root",
+  "method": "Independent math.log2 score; ray-crossing polygon containment; atan2 actual axis; recompute both ranks and endpoints. No importing child run.py or upstream detector.",
+  "cases": [
+    {
+      "case": "PHerc0125-forward",
+      "n": 2,
+      "endpoint": {
+        "geometry": {},
+        "zmean": {}
+      }
+    },
+    {
+      "case": "PHerc0125-reverse",
+      "n": 2,
+      "endpoint": {
+        "geometry": {},
+        "zmean": {}
+      }
+    },
+    {
+      "case": "PHerc0175B-forward",
+      "n": 2,
+      "endpoint": {
+        "geometry": {},
+        "zmean": {}
+      }
+    },
+    {
+      "case": "PHerc0175B-reverse",
+      "n": 2,
+      "endpoint": {
+        "geometry": {},
+        "zmean": {}
+      }
+    },
+    {
+      "case": "PHerc0343-reverse",
+      "n": 5,
+      "endpoint": {
+        "geometry": {
+          "1": {
+            "rank": 1,
+            "detection_index": 1,
+            "box_ids": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "other_row_count": 0,
+            "axis_difference": 1.9022725211186753
+          },
+          "2": {
+            "rank": 3,
+            "detection_index": 2,
+            "box_ids": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ],
+            "other_row_count": 0,
+            "axis_difference": 12.968396204253168
+          }
+        },
+        "zmean": {
+          "1": {
+            "rank": 1,
+            "detection_index": 1,
+            "box_ids": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "other_row_count": 0,
+            "axis_difference": 1.9022725211186753
+          },
+          "2": {
+            "rank": 2,
+            "detection_index": 2,
+            "box_ids": [
+              14,
+              15,
+              16,
+              17,
+              18
+            ],
+            "other_row_count": 0,
+            "axis_difference": 12.968396204253168
+          }
+        }
+      }
+    }
+  ],
+  "decision": "Primary known row geometry1 equals brightness1; criterion of strict improvement fails. Stop promoting this adapted ranker; no threshold rescue. Not evidence that all geometric or author glyph-assisted ranking is ineffective."
+}

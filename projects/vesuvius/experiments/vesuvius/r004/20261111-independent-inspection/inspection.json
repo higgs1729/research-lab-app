@@ -1,0 +1,216 @@
+{
+  "sample": "sample_00379",
+  "published_center_zyx": [
+    49,
+    274,
+    36
+  ],
+  "published_hole_voxels": 1617,
+  "numpy_version": "2.5.2",
+  "scipy_version": "1.18.1",
+  "input_hashes_verified": {
+    "image.tif": "aa0677ebc9618c77c2becf079344683393ef55b27baec9f3eb15a866907d6ffd",
+    "image.npy": "bd605f4ed495ece9583417983b86f942b0ad02eae4fd9cee8c55bd1f33d796b2",
+    "label.tif": "0a325aef4811b0499f9c0bb87babd0fc309e155b101ecf913c217751f4b93047",
+    "label.npy": "b84d849d7645bebe7974a92ba9d35aeb39cfedb1724a4b32042ebe5592ab0511"
+  },
+  "tiff_page_equals_array_index_checked": [
+    0,
+    48,
+    49,
+    50,
+    319
+  ],
+  "center_ct": 108,
+  "center_label": 1,
+  "center_neighborhood": {
+    "box_radius": 20,
+    "ct_quantile_percentiles": [
+      10,
+      25,
+      50,
+      75,
+      90
+    ],
+    "by_label": {
+      "0": {
+        "nearest_voxel_squared_distance": 3,
+        "nearest_zyx": [
+          [
+            50,
+            275,
+            37
+          ]
+        ],
+        "box_voxels": 41981,
+        "ct_quantiles": [
+          64.0,
+          72.0,
+          90.0,
+          122.0,
+          140.0
+        ]
+      },
+      "1": {
+        "nearest_voxel_squared_distance": 0,
+        "nearest_zyx": [
+          [
+            49,
+            274,
+            36
+          ]
+        ],
+        "box_voxels": 9244,
+        "ct_quantiles": [
+          71.0,
+          86.0,
+          103.0,
+          122.0,
+          139.0
+        ]
+      },
+      "2": {
+        "nearest_voxel_squared_distance": 89,
+        "nearest_zyx": [
+          [
+            46,
+            270,
+            28
+          ],
+          [
+            49,
+            269,
+            28
+          ]
+        ],
+        "box_voxels": 17696,
+        "ct_quantiles": [
+          66.0,
+          71.0,
+          75.0,
+          79.0,
+          83.0
+        ]
+      }
+    }
+  },
+  "closing_candidate": {
+    "voxel_count": 1617,
+    "bbox_min_zyx": [
+      42,
+      227,
+      9
+    ],
+    "bbox_max_zyx_inclusive": [
+      55,
+      316,
+      56
+    ],
+    "blob_original_label_counts": [
+      1617,
+      0,
+      0
+    ],
+    "face_neighbor_original_label_counts": [
+      719,
+      1355,
+      7
+    ],
+    "face_neighbor_surface_z_bounds": [
+      41,
+      56
+    ],
+    "nearest_ignore_distance_in_padded_bbox": 1.0,
+    "example_nearest_ignore_zyx": [
+      46,
+      317,
+      9
+    ],
+    "example_blob_voxel_near_ignore_zyx": [
+      46,
+      316,
+      9
+    ],
+    "ct_quantile_percentiles": [
+      10,
+      25,
+      50,
+      75,
+      90
+    ],
+    "blob_ct_quantiles": [
+      87.60000000000002,
+      102.0,
+      118.0,
+      134.0,
+      144.0
+    ]
+  },
+  "raw_background_connected_components": {
+    "center_box_radius": 4,
+    "only_background_0": {
+      "6": {
+        "components_touching_center_box": [
+          {
+            "voxels": 3298669,
+            "touches_volume_face": false
+          }
+        ],
+        "exact_size_components": 0,
+        "exact_size_components_touching_center_box": 0
+      },
+      "18": {
+        "components_touching_center_box": [
+          {
+            "voxels": 23334416,
+            "touches_volume_face": false
+          }
+        ],
+        "exact_size_components": 0,
+        "exact_size_components_touching_center_box": 0
+      },
+      "26": {
+        "components_touching_center_box": [
+          {
+            "voxels": 23334416,
+            "touches_volume_face": false
+          }
+        ],
+        "exact_size_components": 0,
+        "exact_size_components_touching_center_box": 0
+      }
+    },
+    "background_0_or_ignore_2": {
+      "6": {
+        "components_touching_center_box": [
+          {
+            "voxels": 30689786,
+            "touches_volume_face": true
+          }
+        ],
+        "exact_size_components": 0,
+        "exact_size_components_touching_center_box": 0
+      },
+      "18": {
+        "components_touching_center_box": [
+          {
+            "voxels": 30689786,
+            "touches_volume_face": true
+          }
+        ],
+        "exact_size_components": 0,
+        "exact_size_components_touching_center_box": 0
+      },
+      "26": {
+        "components_touching_center_box": [
+          {
+            "voxels": 30689786,
+            "touches_volume_face": true
+          }
+        ],
+        "exact_size_components": 0,
+        "exact_size_components_touching_center_box": 0
+      }
+    }
+  }
+}

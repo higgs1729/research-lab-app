@@ -1,0 +1,12 @@
+{
+  "reviewer": "root",
+  "model_forward_calls": 0,
+  "new_network_bytes": 0,
+  "status": "forecast_stop",
+  "captured_inputs_match_before_forward_independent_plan": 3,
+  "patch_probability_values_verified": 12288,
+  "wrappers_unchanged_from_preflight": true,
+  "supervisor_elapsed_seconds": 186.83243980000407,
+  "scope": "Reproduction and input/aggregation checks, not text accuracy or novelty.",
+  "forecast_stop_verified": true
+}

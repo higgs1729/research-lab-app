@@ -1,0 +1,47 @@
+[
+  {
+    "file": "surface-meta.json",
+    "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0343/kbh-POS_PHerc0343_erwin/meta.json",
+    "final_url": "https://huggingface.co/api/resolve-cache/datasets/SharpMeow/first-letters-ink-atlas/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces%2FPHerc0343%2Fkbh-POS_PHerc0343_erwin%2Fmeta.json?%2Fdatasets%2FSharpMeow%2Ffirst-letters-ink-atlas%2Fresolve%2Fac5ffd7098120368216948c4e06c494bf8e67178%2Fsurfaces%2FPHerc0343%2Fkbh-POS_PHerc0343_erwin%2Fmeta.json=&etag=%22db8156c79c9caf2b36b36e1a34f8489ab5280bc3%22",
+    "bytes": 23415,
+    "sha256": "1234a11a1106e7dd4a9092145ba543a0359ca43a83b2249d280e5175aad19fb7",
+    "repo_commit": "ac5ffd7098120368216948c4e06c494bf8e67178",
+    "utc": "2026-11-13T15:09:35.773912+00:00"
+  },
+  {
+    "file": "fixed-tree.json",
+    "url": "https://huggingface.co/api/datasets/SharpMeow/first-letters-ink-atlas/tree/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0343/kbh-POS_PHerc0343_erwin?recursive=true",
+    "final_url": "https://huggingface.co/api/datasets/SharpMeow/first-letters-ink-atlas/tree/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0343/kbh-POS_PHerc0343_erwin?recursive=true",
+    "bytes": 17217,
+    "sha256": "b9610e88474a1caadfe40dae0d06d20ff753cc3ef7e94b79a4361901061a2f53",
+    "repo_commit": null,
+    "utc": "2026-11-13T15:09:36.012018+00:00"
+  },
+  {
+    "file": "official-award.html",
+    "url": "https://scrollprize.substack.com/p/50k-first-letters-prize-awarded-for",
+    "final_url": "https://scrollprize.substack.com/p/50k-first-letters-prize-awarded-for",
+    "bytes": 214570,
+    "sha256": "b0fe004a19c71fea75a6ac3b2b9f5bfb460bddad272e0a93928cd5578c07c9b8",
+    "repo_commit": null,
+    "utc": "2026-11-13T15:09:36.366341+00:00"
+  },
+  {
+    "file": "survey-readme.md",
+    "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/README.md",
+    "final_url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/README.md",
+    "bytes": 19434,
+    "sha256": "1690d95db61f4588e156f7801910a316084c861dd32d3bac2607e612c017c9ff",
+    "etag": "\"171c63978d4b9c3ecd77fe63e8c9f36afda0a48fe7d54076463a0332a0c22196\"",
+    "utc": "2026-11-13T15:10:25.339267+00:00"
+  },
+  {
+    "file": "winner-readme.md",
+    "url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/HEAD/README.md",
+    "final_url": "https://raw.githubusercontent.com/Nieuwlaar/pherc343-first-letters/HEAD/README.md",
+    "bytes": 3868,
+    "sha256": "2be15c8d1cf6d3db49d051454687360f522a5673052cd40ae3ad93ccdc7c6299",
+    "etag": "\"6e45f90252a8ebcc1ff89544d2778a7a8f9a87840c450b6db872819d8775168f\"",
+    "utc": "2026-11-13T15:10:25.555758+00:00"
+  }
+]

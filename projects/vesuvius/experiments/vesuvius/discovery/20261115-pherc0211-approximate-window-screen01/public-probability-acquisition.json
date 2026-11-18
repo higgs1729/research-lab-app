@@ -1,0 +1,59 @@
+{
+  "started_utc": "2026-11-15T14:11:48.129329+00:00",
+  "source_url": "https://drive.google.com/file/d/18OVu0RjaMRSFHYMLP6_MCFksscTtApsW/view",
+  "transport": "Google Drive plugin fetch(download_raw_file=true,include_base64=false), returned authenticated file_uri.download_url; bearer URL not persisted",
+  "expected_bytes": 11940462,
+  "expected_file_sha256": "1b4b432867fb1f0f5cba844371b76813b2c5b7ad0df7b3a5bb14ee9c717abb65",
+  "local_search": "rg --files experiments/vesuvius/discovery | rg v6 probability/prob tif/npy: no matching file",
+  "deadline_seconds": 300,
+  "initial_storage_cap_bytes": 16777216,
+  "minimum_C_free_bytes": 2147483648,
+  "GPU_forwards": 0,
+  "model_forwards": 0,
+  "new_CT_bytes": 0,
+  "paid_cost_USD": 0,
+  "public_manifest": {
+    "zip_path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-adjacent-context01\\sources\\v6-line2-mesh.zip",
+    "zip_sha256": "9e9105d9bb812e6d2af454b30cb724e6339f0f0403e06eb28a302b484d31db36",
+    "member": "mesh/reproduction.json",
+    "probability_file": "PHerc0211-crop1711-manual-20261026-1237-legacyuv20-v6-line2_studiosoft_probability_f32.tif",
+    "probability_output": {
+      "file_sha256": "1b4b432867fb1f0f5cba844371b76813b2c5b7ad0df7b3a5bb14ee9c717abb65",
+      "pixels_sha256": "dfe3b4c9145ad62587d41ed62fd5a768d27ae12c7f1f72ad34d832f5da32a92d",
+      "dtype": "float32",
+      "shape": [
+        600,
+        6060
+      ]
+    }
+  },
+  "http_status": 200,
+  "content_type": "image/tiff",
+  "content_length": "11940462",
+  "transport_host": "sdmntprkoreacentral.oaiusercontent.com",
+  "complete_raw_file": {
+    "path": "sources/v6-probability-f32.tif",
+    "size": 11940462,
+    "sha256": "1b4b432867fb1f0f5cba844371b76813b2c5b7ad0df7b3a5bb14ee9c717abb65"
+  },
+  "crop": {
+    "shape": [
+      300,
+      320
+    ],
+    "range": [
+      0.0,
+      0.9227615594863892
+    ],
+    "npy_path": "public-known-phi-probability-f32.npy",
+    "npy_sha256": "74f37f320010e797959d3d804e850034ec6027529f7dde83d441b5b8d2d1535e",
+    "raw8_path": "review/public-known-phi-raw8-native.png",
+    "raw8_sha256": "c0356eec4c2f5b86e0578a779619ed9779646cab6975fc5a43dcd5ee3eab80fc",
+    "contract_sha256": "519ad209f85f9da6efc7c8b998f5f61ca5781ebba72da582267dde307fc1219e"
+  },
+  "C_new_bytes_snapshot": 12487061,
+  "C_free_bytes": 7024234496,
+  "status": "complete_verified",
+  "elapsed_seconds": 0.8062758999876678,
+  "completed_utc": "2026-11-15T14:11:48.935639+00:00"
+}

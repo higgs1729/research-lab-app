@@ -1,0 +1,21 @@
+{
+  "approved": true,
+  "cloud_plan_sha256": "4016e04378aa91630b29e4ee33d164a1dd3904ccbafb498bd6bff5601e1c94fc",
+  "archive_sha256": "089b3e2f44196cb556ae8a96ce36f3f744d0df1b1dafe5f66ce04c2d68b6fc37",
+  "latest_precreate_utc": "2026-11-15T14:35:00+00:00",
+  "absolute_delete_not_after_utc": "2026-11-15T15:05:00+00:00",
+  "actual_deletion_deadline": "Actual precreate UTC plus1800seconds, no later than15:05UTC. Delete earlier on completion or failure. No automatic creation retry.",
+  "authority": "Necessary Runpod use delegated by user2026-11-14. One sequential R239 approximate-input screening experiment.",
+  "independent_evidence": ["lead-cloud-plan-check.json", "lead-pair-check.json", "lead-display-check.json", "lead-pair-visual-review.json", "lead-public-reference-check.json", "lead-public-known-phi-visual-review.json"],
+  "science_scope": "Frozen R236 window/input/model. Historical R236 exact and approximate gate failures remain failures. Paired finite probabilities observed with unchanged historical thresholds, not a gate for this newly stated exploratory purpose. CPU references/input hashes/finite checks still block. Knownphi36 uses published input; its preserved coarse form does not establish unknown approximate-render accuracy. Independent native reviews before any original-CT followup candidate selection. No threshold/model/depth rescue and no new-letter claim.",
+  "research_pods_maximum": 1,
+  "existing_pods_required": 0,
+  "foreign_pod_actions_permitted": [],
+  "GPU": "NVIDIA A40 SECURE CA-MTL-1",
+  "rate_ceiling_USD_per_hour": 0.6,
+  "estimate_USD": [0.08,0.16],
+  "operating_ceiling_USD": 0.35,
+  "provider_enforced_spending_cap": false,
+  "required": "Live balance>=0.35 and auto-pay off; no existing Pods;64MiB physical recovery reservation before creation; Cfree>=2GiB after reserved headroom and own total<=192MiB;228maximum forwards; preserve failure/success outputs; finally+independent deadline deletion; parent independent owned-id absence and per-Pod-only billing.",
+  "external_publication_or_submission": false
+}

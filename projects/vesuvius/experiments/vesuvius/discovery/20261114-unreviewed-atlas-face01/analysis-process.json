@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-unreviewed-atlas-face01\\prepare_view.py",
+    "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-14T08:19:33.186624+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "completed_utc": "2026-11-14T08:19:37.917631+00:00",
+  "elapsed_seconds": 4.731024200002139,
+  "max_rss_bytes": 112594944,
+  "user_cpu_seconds": 3.625,
+  "sys_cpu_seconds": 0.578125
+}

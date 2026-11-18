@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "method": "independent stdlib file and raw pixel comparison",
+  "false_changed_files": [
+    ".zattrs"
+  ],
+  "old_ome_paths": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "fixed_ome_paths": [
+    "0"
+  ],
+  "default_files_equal": 14,
+  "pre_metadata_files_equal": 3,
+  "L0": {
+    "shape": [
+      28,
+      64,
+      64
+    ],
+    "sha256": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630",
+    "bytes": 114688,
+    "min": 4,
+    "max": 227,
+    "sum": 7519266
+  },
+  "local_PR_source_matches_tested_fixed_source": true,
+  "native_complete_sha256": "fa514cea090c1344255e005009c3d2a58610189c1958be780b29326ae8b66568",
+  "script_sha256": "cd57b7d4e0bd3affd1ee098430b798dc737a4bd14cf1ce8fdbd13a5bc8182ff8",
+  "limits": "No GUI or human review; actual reader behavior reviewed from separate R246 receipts and R245 independent replay."
+}

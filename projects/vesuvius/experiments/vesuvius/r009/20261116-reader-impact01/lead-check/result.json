@@ -1,0 +1,25 @@
+{
+  "only_difference": "multiscales[0].datasets excludes absent levels 1..5",
+  "cases": {
+    "legacy-metadata": {
+      "status": "error",
+      "type": "ArrayNotFoundError",
+      "message": "No array found in store file://C:/dev/kensyoukin/.work/r245-reader-impact01/legacy-attrs-only.zarr at path 1"
+    },
+    "fixed": {
+      "status": "ok",
+      "nodes": 1,
+      "arrays": [
+        {
+          "shape": [
+            101,
+            128,
+            128
+          ],
+          "dtype": "uint8",
+          "sha256": "8d5f47fa26dfbc80a7c47869188bda056b49e1f5ed0d85f941a40dd80d8fc937"
+        }
+      ]
+    }
+  }
+}

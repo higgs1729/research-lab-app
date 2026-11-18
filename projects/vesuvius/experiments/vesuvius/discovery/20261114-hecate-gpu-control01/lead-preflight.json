@@ -1,0 +1,14 @@
+{
+  "reviewer": "root",
+  "saved_input_source_checkpoint_public_and_cpu_refs_hashes_checked": true,
+  "source_expected_inputs": "R190 lead-input-expected.json fixed before any model forward",
+  "model_forward_calls": 0,
+  "new_download_bytes": 0,
+  "review": "Unmodified Hecate predict/load; actual input mask and precomputed hashes checked. GPU sigmoid capture with synchronization; CPU3 parity and forecast stop before fourth forward. IEEE TF32 disabled, native job4GiB queried in child, allocator4GiB. Existing local exclusive lane, bounded admission120/model600/outer780, own-process cancellation only. Embedded script parent explicitly supplied.",
+  "wrapper_hashes": {
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-gpu-control01\\preflight.py": "501df121ce94ec2ee4e6dc32335bb18d25a56d54d79a4b0e8ed62b46a2be81c4",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-gpu-control01\\run_gpu.py": "7af2c6ca2e00dfe29c13eeb1c4c24471c55be936a2da2bc4226010f5d642c044",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-gpu-control01\\supervise.py": "5471c6402192dd4e7ed35887ea867a42bc7453ea822702e5e2aee5fbf928c02d"
+  },
+  "status": "ready_for_one_bounded_admission_attempt; existing other job retains priority"
+}

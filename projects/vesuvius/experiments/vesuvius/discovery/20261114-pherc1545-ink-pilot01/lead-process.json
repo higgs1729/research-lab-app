@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc1545-ink-pilot01\\lead_check.py"
+  ],
+  "started_utc": "2026-11-13T17:30:34.914682+00:00",
+  "completed_utc": "2026-11-13T17:30:35.045165+00:00",
+  "elapsed_seconds": 0.1304915000218898,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 68468736,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 0.078125,
+  "sys_cpu_seconds": 0.09375,
+  "exit_code": 0
+}

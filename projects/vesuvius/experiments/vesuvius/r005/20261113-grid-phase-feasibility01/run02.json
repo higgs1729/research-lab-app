@@ -1,0 +1,1000 @@
+{
+  "first": {
+    "before": {
+      "grid_shape_yx": [
+        172,
+        553
+      ],
+      "uv_min_xy": [
+        -7.762141227722168,
+        -188.60693359375
+      ],
+      "uv_max_xy": [
+        11040.9716796875,
+        3228.44384765625
+      ],
+      "uv_units_per_cell": [
+        20.015821373980977,
+        19.982753106725145
+      ]
+    },
+    "current_after": {
+      "grid_shape_yx": [
+        172,
+        680
+      ],
+      "uv_min_xy": [
+        0.0,
+        0.0
+      ],
+      "uv_max_xy": [
+        13585.853515625,
+        3417.05078125
+      ],
+      "uv_units_per_cell": [
+        20.00862078884389,
+        19.982753106725145
+      ],
+      "reported_scale_xy_both": [
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "relative_step_change_ppm": [
+        -359.74467410304635,
+        0.0
+      ],
+      "components": [
+        {
+          "component": 0,
+          "vertices": 35435,
+          "uv_translation": [
+            -41.83191680908203,
+            188.60693359375
+          ],
+          "constant_grid_offset": [
+            -2.478634512602494,
+            0.0
+          ],
+          "constant_offset_fractional_from_nearest": [
+            -0.4786345126024938,
+            0.0
+          ],
+          "dilation_extent_cells": [
+            0.1534086310525587,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            5.719580533634696e-06,
+            6.108783501854784e-06
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              2.4777428370375367,
+              6.108783523472994e-06
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.4777428370375367,
+              6.108783523472994e-06
+            ]
+          }
+        },
+        {
+          "component": 2,
+          "vertices": 4933,
+          "uv_translation": [
+            1159.5782388448715,
+            -1575.76318359375
+          ],
+          "constant_grid_offset": [
+            57.56599166791956,
+            -88.29464627642854
+          ],
+          "constant_offset_fractional_from_nearest": [
+            -0.4340083320804382,
+            -0.29464627642853713
+          ],
+          "dilation_extent_cells": [
+            0.06523177968524888,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            1.871375255848602e-05,
+            0.0
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              57.76463650929725,
+              88.29464627642855
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.30059527038798706,
+              0.29464627642855135
+            ]
+          }
+        },
+        {
+          "component": 3,
+          "vertices": 601,
+          "uv_translation": [
+            8767.0633456707,
+            -1742.959228515625
+          ],
+          "constant_grid_offset": [
+            437.77636134354947,
+            -96.66166377541397
+          ],
+          "constant_offset_fractional_from_nearest": [
+            -0.22363865645053238,
+            0.33833622458602974
+          ],
+          "dilation_extent_cells": [
+            0.01109237583339974,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            1.8743542040432036e-05,
+            0.0
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              437.85005959367385,
+              96.66166377541398
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.1610532614701583,
+              0.33833622458604395
+            ]
+          }
+        },
+        {
+          "component": 1,
+          "vertices": 289,
+          "uv_translation": [
+            8837.878286480904,
+            -1314.8555908203125
+          ],
+          "constant_grid_offset": [
+            441.31558284,
+            -75.2380073148217
+          ],
+          "constant_offset_fractional_from_nearest": [
+            0.3155828399999905,
+            -0.2380073148217008
+          ],
+          "dilation_extent_cells": [
+            0.009217009442605312,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            1.877333152237805e-05,
+            0.0
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              441.3979358150767,
+              75.23800731482171
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.39793581507672116,
+              0.238007314821715
+            ]
+          }
+        },
+        {
+          "component": 4,
+          "vertices": 91,
+          "uv_translation": [
+            13457.89872789383,
+            -2028.7572021484375
+          ],
+          "constant_grid_offset": [
+            672.2170772592899,
+            -110.963895910616
+          ],
+          "constant_offset_fractional_from_nearest": [
+            0.2170772592899084,
+            0.03610408938399701
+          ],
+          "dilation_extent_cells": [
+            0.00244012747236964,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            2.437971202461789e-05,
+            0.0
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              672.219510007493,
+              110.963895910616
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.21951000749299965,
+              0.03610408938402543
+            ]
+          }
+        }
+      ]
+    },
+    "integer_translation_xy": {
+      "0": [
+        -2,
+        0
+      ],
+      "2": [
+        59,
+        0
+      ],
+      "3": [
+        440,
+        0
+      ],
+      "1": [
+        444,
+        0
+      ],
+      "4": [
+        675,
+        0
+      ]
+    },
+    "integer_uv_then_existing_bbox": {
+      "uv_min_xy": [
+        1.8002740144729614,
+        -188.60693359375
+      ],
+      "uv_max_xy": [
+        13638.634765625,
+        3228.44384765625
+      ],
+      "grid_shape_yx": [
+        172,
+        683
+      ],
+      "uv_units_per_cell": [
+        19.995359180260262,
+        19.982753106725145
+      ],
+      "snap_changed_vertices": 41240,
+      "max_snap_error_subpixels": [
+        122,
+        0
+      ],
+      "max_continuous_error_cells": [
+        0.4777428370375367,
+        0.0
+      ]
+    },
+    "integer_uv_with_locked_affine_and_float32_uv": {
+      "snap_changed_vertices": 58,
+      "max_snap_error_subpixels": [
+        1,
+        0
+      ],
+      "max_continuous_error_cells": [
+        2.4046741486927203e-05,
+        2.842170943040401e-14
+      ]
+    },
+    "fixed_point_grid_translation": {
+      "shape_yx": [
+        172,
+        683
+      ],
+      "packed_x_bounds_subpixels": [
+        [
+          0,
+          122,
+          109251
+        ],
+        [
+          2,
+          110013,
+          156416
+        ],
+        [
+          3,
+          157165,
+          165055
+        ],
+        [
+          1,
+          165685,
+          172242
+        ],
+        [
+          4,
+          172800,
+          174536
+        ]
+      ],
+      "saved_owners_preserved": 40944,
+      "saved_reject_offers_checked": 190,
+      "newly_exposed_same_lattice_points": 189,
+      "cross_component_occupied_edges": 0,
+      "scope": "reindex saved complete owner/reject records; bit-identical barycentric weights for saved claims; geometric separation by x bounds"
+    },
+    "downstream_scale1_phase": {
+      "x": {
+        "canvas_before": 11060,
+        "canvas_after": 13660,
+        "pairs": [
+          {
+            "translation_grid_cells": -2,
+            "nominal_render_pixel_shift": -40,
+            "max_abs_double_grid_error": 2.9802322387695312e-08,
+            "max_abs_float_grid_error": 3.0517578125e-05,
+            "nonzero_float_index_differences": 220,
+            "index_pairs": 11020
+          },
+          {
+            "translation_grid_cells": 59,
+            "nominal_render_pixel_shift": 1180,
+            "max_abs_double_grid_error": 8.791685104370117e-07,
+            "max_abs_float_grid_error": 3.0517578125e-05,
+            "nonzero_float_index_differences": 3020,
+            "index_pairs": 11060
+          },
+          {
+            "translation_grid_cells": 440,
+            "nominal_render_pixel_shift": 8800,
+            "max_abs_double_grid_error": 6.556510925292969e-06,
+            "max_abs_float_grid_error": 3.814697265625e-05,
+            "nonzero_float_index_differences": 3888,
+            "index_pairs": 4860
+          },
+          {
+            "translation_grid_cells": 444,
+            "nominal_render_pixel_shift": 8880,
+            "max_abs_double_grid_error": 6.616115570068359e-06,
+            "max_abs_float_grid_error": 3.814697265625e-05,
+            "nonzero_float_index_differences": 3824,
+            "index_pairs": 4780
+          },
+          {
+            "translation_grid_cells": 675,
+            "nominal_render_pixel_shift": 13500,
+            "max_abs_double_grid_error": 1.0058283805847168e-05,
+            "max_abs_float_grid_error": 3.6716461181640625e-05,
+            "nonzero_float_index_differences": 128,
+            "index_pairs": 160
+          }
+        ]
+      },
+      "y": {
+        "canvas_before": 3440,
+        "canvas_after": 3440,
+        "pairs": [
+          {
+            "translation_grid_cells": 0,
+            "nominal_render_pixel_shift": 0,
+            "max_abs_double_grid_error": 0.0,
+            "max_abs_float_grid_error": 0.0,
+            "nonzero_float_index_differences": 0,
+            "index_pairs": 3440
+          }
+        ]
+      }
+    },
+    "input_sha256": {
+      "20261112-grid-control01/input01/first/arrays.npz": "f388510058a72d0789645a4871520d2d3e0847bb9ea2890beca0ee343bb3c808",
+      "20261112-pack-native01/first-trace-off01/raster_trace.json": "ed7d250473d1641377b0fcbd0f0ba1db39649f087f5c267d13a9b5b67068842d",
+      "20261112-pack-native01/first-trace-off01/output.obj_uv_diagnostics.json": "4eb5db4d31b813bafa5a1d132081ef510a66d5f107cb1fbeb0ffc0c1e97c0e96",
+      "20261112-pack-native01/first-trace-off01/output/meta.json": "d6b067efb91185e193782cca148f3fa495370f18b7b8ac4bd6864c6685f18d8d",
+      "20261112-pack-native01/first-trace-on01/raster_trace.json": "65d576414ef8b3153d32587741a39a9d3c61d8c476457546e91d71ab5beda8e3",
+      "20261112-pack-native01/first-trace-on01/output.obj_uv_diagnostics.json": "d62bfce19d1e0e3bdea06d32bc48464b13a8ffa430c5723b93f93808eb93e845",
+      "20261112-pack-native01/first-trace-on01/output/meta.json": "5f23b9a97a4399415cfdae1a5a53ca1d5d5ce1c3012bd9b7e4ef5454d3981750"
+    }
+  },
+  "second": {
+    "before": {
+      "grid_shape_yx": [
+        252,
+        2637
+      ],
+      "uv_min_xy": [
+        52.973628997802734,
+        -256.37762451171875
+      ],
+      "uv_max_xy": [
+        52769.84765625,
+        4760.48779296875
+      ],
+      "uv_units_per_cell": [
+        19.99881449165402,
+        19.987510893924302
+      ]
+    },
+    "current_after": {
+      "grid_shape_yx": [
+        252,
+        3027
+      ],
+      "uv_min_xy": [
+        0.0,
+        0.0
+      ],
+      "uv_max_xy": [
+        60519.88671875,
+        5016.865234375
+      ],
+      "uv_units_per_cell": [
+        19.99996256402842,
+        19.987510893924302
+      ],
+      "reported_scale_xy_both": [
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "relative_step_change_ppm": [
+        57.40702154510835,
+        0.0
+      ],
+      "components": [
+        {
+          "component": 1,
+          "vertices": 195935,
+          "uv_translation": [
+            -9092.2373046875,
+            156.00379943847656
+          ],
+          "constant_grid_offset": [
+            -451.9640297701136,
+            -5.021827160267029
+          ],
+          "constant_offset_fractional_from_nearest": [
+            0.035970229886402194,
+            -0.021827160267029022
+          ],
+          "dilation_extent_cells": [
+            0.12537031059246137,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            4.882821639658607e-05,
+            6.870745551625669e-06
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              452.11539481771706,
+              5.021834031012617
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.1153948177170605,
+              0.021834031012616606
+            ]
+          }
+        },
+        {
+          "component": 0,
+          "vertices": 30027,
+          "uv_translation": [
+            39407.62695252895,
+            256.37762451171875
+          ],
+          "constant_grid_offset": [
+            1973.0337221980556,
+            0.0
+          ],
+          "constant_offset_fractional_from_nearest": [
+            0.03372219805555687,
+            0.0
+          ],
+          "dilation_extent_cells": [
+            0.019561885653593902,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            9.76266304150004e-05,
+            9.160994068834225e-06
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              1973.021503549972,
+              9.160994096646391e-06
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.02150354997206705,
+              9.160994096646391e-06
+            ]
+          }
+        },
+        {
+          "component": 2,
+          "vertices": 19470,
+          "uv_translation": [
+            50519.778322935104,
+            -1362.3626708984375
+          ],
+          "constant_grid_offset": [
+            2528.642330705767,
+            -80.98758789931229
+          ],
+          "constant_offset_fractional_from_nearest": [
+            -0.35766929423289184,
+            0.012412100687711813
+          ],
+          "dilation_extent_cells": [
+            0.013471444778580538,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            9.759682803682864e-05,
+            6.107329379222817e-06
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              2528.6423929112775,
+              80.9875940066417
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.37121411246653224,
+              0.012418208017123789
+            ]
+          }
+        },
+        {
+          "component": 6,
+          "vertices": 2131,
+          "uv_translation": [
+            21094.841310620308,
+            -3320.05322265625
+          ],
+          "constant_grid_offset": [
+            1057.392726207108,
+            -178.93327819298966
+          ],
+          "constant_offset_fractional_from_nearest": [
+            0.3927262071078985,
+            0.06672180701033881
+          ],
+          "dilation_extent_cells": [
+            0.005036948590216084,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            7.334365268066303e-05,
+            0.0
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              1057.2946065466767,
+              178.9332781929897
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.29460654667673225,
+              0.06672180701036723
+            ]
+          }
+        },
+        {
+          "component": 7,
+          "vertices": 1243,
+          "uv_translation": [
+            16445.27881002426,
+            -3931.06103515625
+          ],
+          "constant_grid_offset": [
+            824.914166024267,
+            -209.50275809184646
+          ],
+          "constant_offset_fractional_from_nearest": [
+            -0.08583397573295315,
+            0.49724190815354063
+          ],
+          "dilation_extent_cells": [
+            0.004224559228561631,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            7.33138503024913e-05,
+            0.0
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              824.7975487290785,
+              209.5027580918465
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.20667583015028868,
+              0.49724190815356906
+            ]
+          }
+        },
+        {
+          "component": 5,
+          "vertices": 991,
+          "uv_translation": [
+            45466.567871928215,
+            -2850.783935546875
+          ],
+          "constant_grid_offset": [
+            2275.9813352249303,
+            -155.45515279759485
+          ],
+          "constant_offset_fractional_from_nearest": [
+            -0.018664775069737516,
+            -0.45515279759484883
+          ],
+          "dilation_extent_cells": [
+            0.004104971321114717,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            7.328404792431954e-05,
+            0.0
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              2275.943822643897,
+              155.45515279759485
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.06041974690469942,
+              0.45515279759484883
+            ]
+          }
+        },
+        {
+          "component": 3,
+          "vertices": 49,
+          "uv_translation": [
+            55526.03710961342,
+            -2257.466552734375
+          ],
+          "constant_grid_offset": [
+            2778.955738575964,
+            -125.77074707237502
+          ],
+          "constant_offset_fractional_from_nearest": [
+            -0.04426142403599442,
+            0.22925292762498373
+          ],
+          "dilation_extent_cells": [
+            0.0003172696925271487,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            9.764451184190344e-05,
+            0.0
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              2778.9428843726223,
+              125.77074707237503
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.05757298228218133,
+              0.22925292762501215
+            ]
+          }
+        },
+        {
+          "component": 4,
+          "vertices": 49,
+          "uv_translation": [
+            46560.27685511112,
+            -2717.996337890625
+          ],
+          "constant_grid_offset": [
+            2330.666886744413,
+            -148.81162432819377
+          ],
+          "constant_offset_fractional_from_nearest": [
+            -0.3331132555867953,
+            0.18837567180622727
+          ],
+          "dilation_extent_cells": [
+            0.0003825899233415586,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            7.326020602178215e-05,
+            0.0
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              2330.627806160509,
+              148.8116243281938
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.372663515423028,
+              0.1883756718062557
+            ]
+          }
+        },
+        {
+          "component": 8,
+          "vertices": 49,
+          "uv_translation": [
+            26555.989745140076,
+            -4302.06201171875
+          ],
+          "constant_grid_offset": [
+            1330.450659042547,
+            -228.06439783435562
+          ],
+          "constant_offset_fractional_from_nearest": [
+            0.45065904254693123,
+            -0.06439783435561708
+          ],
+          "dilation_extent_cells": [
+            0.0003251575665996487,
+            0.0
+          ],
+          "max_float32_uv_rounding_grid_cells": [
+            7.319464078980432e-05,
+            0.0
+          ],
+          "actual_delta_from_nearest_integer": {
+            "max_abs_cell": [
+              1330.3535745637237,
+              228.06439783435562
+            ],
+            "max_abs_nearest_integer_residual_cell": [
+              0.3535745637236687,
+              0.06439783435561708
+            ]
+          }
+        }
+      ]
+    },
+    "integer_translation_xy": {
+      "1": [
+        -451,
+        0
+      ],
+      "0": [
+        1975,
+        0
+      ],
+      "2": [
+        2531,
+        0
+      ],
+      "6": [
+        1060,
+        0
+      ],
+      "7": [
+        828,
+        0
+      ],
+      "5": [
+        2280,
+        0
+      ],
+      "3": [
+        2784,
+        0
+      ],
+      "4": [
+        2336,
+        0
+      ],
+      "8": [
+        1336,
+        0
+      ]
+    },
+    "integer_uv_then_existing_bbox": {
+      "uv_min_xy": [
+        72.77197265625,
+        -256.37762451171875
+      ],
+      "uv_max_xy": [
+        60682.31640625,
+        4760.48779296875
+      ],
+      "grid_shape_yx": [
+        252,
+        3031
+      ],
+      "uv_units_per_cell": [
+        20.003149494636965,
+        19.987510893924302
+      ],
+      "snap_changed_vertices": 249944,
+      "max_snap_error_subpixels": [
+        422,
+        0
+      ],
+      "max_continuous_error_cells": [
+        1.6466773631871092,
+        0.0
+      ]
+    },
+    "integer_uv_with_locked_affine_and_float32_uv": {
+      "snap_changed_vertices": 1714,
+      "max_snap_error_subpixels": [
+        1,
+        0
+      ],
+      "max_continuous_error_cells": [
+        9.7520788131078e-05,
+        2.842170943040401e-14
+      ]
+    },
+    "fixed_point_grid_translation": {
+      "shape_yx": [
+        252,
+        3033
+      ],
+      "packed_x_bounds_subpixels": [
+        [
+          1,
+          253,
+          559360
+        ],
+        [
+          0,
+          560093,
+          647332
+        ],
+        [
+          2,
+          647936,
+          708014
+        ],
+        [
+          6,
+          708611,
+          731074
+        ],
+        [
+          7,
+          731712,
+          750552
+        ],
+        [
+          5,
+          751282,
+          769589
+        ],
+        [
+          3,
+          770356,
+          771771
+        ],
+        [
+          4,
+          772363,
+          774069
+        ],
+        [
+          8,
+          774651,
+          776102
+        ]
+      ],
+      "saved_owners_preserved": 254263,
+      "saved_reject_offers_checked": 757,
+      "newly_exposed_same_lattice_points": 399,
+      "cross_component_occupied_edges": 0,
+      "scope": "reindex saved complete owner/reject records; bit-identical barycentric weights for saved claims; geometric separation by x bounds"
+    },
+    "downstream_scale1_phase": {
+      "x": {
+        "canvas_before": 52740,
+        "canvas_after": 60660,
+        "pairs": [
+          {
+            "translation_grid_cells": -451,
+            "nominal_render_pixel_shift": -9020,
+            "max_abs_double_grid_error": 6.720423698425293e-06,
+            "max_abs_float_grid_error": 0.0001220703125,
+            "nonzero_float_index_differences": 17992,
+            "index_pairs": 43720
+          },
+          {
+            "translation_grid_cells": 828,
+            "nominal_render_pixel_shift": 16560,
+            "max_abs_double_grid_error": 1.233816146850586e-05,
+            "max_abs_float_grid_error": 0.0001220703125,
+            "nonzero_float_index_differences": 24272,
+            "index_pairs": 44100
+          },
+          {
+            "translation_grid_cells": 1060,
+            "nominal_render_pixel_shift": 21200,
+            "max_abs_double_grid_error": 1.5795230865478516e-05,
+            "max_abs_float_grid_error": 0.0001220703125,
+            "nonzero_float_index_differences": 25868,
+            "index_pairs": 39460
+          },
+          {
+            "translation_grid_cells": 1336,
+            "nominal_render_pixel_shift": 26720,
+            "max_abs_double_grid_error": 1.990795135498047e-05,
+            "max_abs_float_grid_error": 0.0001220703125,
+            "nonzero_float_index_differences": 23660,
+            "index_pairs": 33940
+          },
+          {
+            "translation_grid_cells": 1975,
+            "nominal_render_pixel_shift": 39500,
+            "max_abs_double_grid_error": 2.942979335784912e-05,
+            "max_abs_float_grid_error": 0.000152587890625,
+            "nonzero_float_index_differences": 16792,
+            "index_pairs": 21160
+          },
+          {
+            "translation_grid_cells": 2280,
+            "nominal_render_pixel_shift": 45600,
+            "max_abs_double_grid_error": 3.3974647521972656e-05,
+            "max_abs_float_grid_error": 0.000152587890625,
+            "nonzero_float_index_differences": 12048,
+            "index_pairs": 15060
+          },
+          {
+            "translation_grid_cells": 2336,
+            "nominal_render_pixel_shift": 46720,
+            "max_abs_double_grid_error": 3.4809112548828125e-05,
+            "max_abs_float_grid_error": 0.000152587890625,
+            "nonzero_float_index_differences": 11152,
+            "index_pairs": 13940
+          },
+          {
+            "translation_grid_cells": 2531,
+            "nominal_render_pixel_shift": 50620,
+            "max_abs_double_grid_error": 3.771483898162842e-05,
+            "max_abs_float_grid_error": 0.000152587890625,
+            "nonzero_float_index_differences": 8032,
+            "index_pairs": 10040
+          },
+          {
+            "translation_grid_cells": 2784,
+            "nominal_render_pixel_shift": 55680,
+            "max_abs_double_grid_error": 4.1484832763671875e-05,
+            "max_abs_float_grid_error": 0.0001468658447265625,
+            "nonzero_float_index_differences": 3984,
+            "index_pairs": 4980
+          }
+        ]
+      },
+      "y": {
+        "canvas_before": 5040,
+        "canvas_after": 5040,
+        "pairs": [
+          {
+            "translation_grid_cells": 0,
+            "nominal_render_pixel_shift": 0,
+            "max_abs_double_grid_error": 0.0,
+            "max_abs_float_grid_error": 0.0,
+            "nonzero_float_index_differences": 0,
+            "index_pairs": 5040
+          }
+        ]
+      }
+    },
+    "r145_fixed_candidates": {
+      "existing_pack": {
+        "zero": 191,
+        "zero_to_positive": 33,
+        "positive_to_zero": 40
+      },
+      "fixed_point_reindex": {
+        "zero": 184,
+        "zero_to_positive": 0,
+        "positive_to_zero": 0
+      }
+    },
+    "input_sha256": {
+      "20261112-grid-control01/input01/second/arrays.npz": "1ecfaa2abca48c231966c9c2364bfcc5f51eb2b50d2552e8f81d2839e5db2dc3",
+      "20261112-full-resolution-runs/second_keep100_iter5_01/raster_trace.json": "2d74dd6b593d02f5a948baa92cfb841ab4070cc52d9390a9623ce9d695664fe8",
+      "20261112-full-resolution-runs/second_keep100_iter5_01/output.obj_uv_diagnostics.json": "1aee0999d36aa782bdbf2c9e0b32ce085b42f79d16d9a879fbe65c458ccdad41",
+      "20261112-full-resolution-runs/second_keep100_iter5_01/output/meta.json": "6ee0b09f2b0f26bd9d36be9eb46c577a611a18d2dab506d6393cc901ec7619cf",
+      "20261112-pack-native01/second-trace-on01/raster_trace.json": "620fb253a13ed1c69d27865576c657052918298fcecfee40b74bd94da65676ce",
+      "20261112-pack-native01/second-trace-on01/output.obj_uv_diagnostics.json": "a5c41eace5e306fe70b8dbe70b82a70d19f11929a6e2a5766f0f93067b1e8641",
+      "20261112-pack-native01/second-trace-on01/output/meta.json": "be9f6d11f0f77030c3d38b1c0548061a178690cb2d596ebc80bc54dedd6c95f2",
+      "20261113-label-affected-region01/result.json": "344e874b84c56f0fccb1dcfbc6e35d54bef1b3d4340fb3e548c3948387fea3b3"
+    }
+  },
+  "source_sha256": {
+    "D:/kensyoukin-work/r003-villa/volume-cartographer/core/src/SurfaceMeshing.cpp": "761265e6ef324127193e09577acbbdb90c0055df9a974d7c3631f6c5246f2462",
+    "D:/kensyoukin-work/r003-villa/volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "a32b0045134b4a56737991ec6b7a682efed66fc89b1ae74164e0ed80bef1453c",
+    "D:/kensyoukin-work/r003-villa/volume-cartographer/core/src/QuadSurface.cpp": "fe0be9b172db8d6557b771319421f9a801f3ebb9600ca975729ea43b756de758",
+    "D:/kensyoukin-work/r003-villa/volume-cartographer/apps/src/vc_render_tifxyz.cpp": "2d315d553b698943c15fad0021da3b75a5c1d5ebd03c005c1b66f3c16fe52798",
+    "C:/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/flatboi.cpp": "20cc44404ccce6a04024c73cf65cb7ab5fc3ee9fc3169ff799b1a61899bd06a2"
+  }
+}

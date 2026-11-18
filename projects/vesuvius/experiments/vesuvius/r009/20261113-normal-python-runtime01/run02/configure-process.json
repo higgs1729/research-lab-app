@@ -1,0 +1,50 @@
+{
+  "command": [
+    "cmake",
+    "-S",
+    "/home/tomoy/r009-normal-python-run02-678qsuuz/source",
+    "-B",
+    "/home/tomoy/r009-normal-python-run02-678qsuuz/build",
+    "-G",
+    "Ninja",
+    "-DCMAKE_C_COMPILER=/usr/bin/gcc",
+    "-DCMAKE_CXX_COMPILER=/usr/bin/g++",
+    "-DCMAKE_BUILD_TYPE=Debug",
+    "-DCMAKE_C_FLAGS_DEBUG=-O0",
+    "-DCMAKE_CXX_FLAGS_DEBUG=-O0",
+    "-DCMAKE_CXX_FLAGS=-isystem /mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/home/tomoy/r009-normal-python-run02-678qsuuz/build/stage/vc_reader",
+    "-DCMAKE_BUILD_RPATH_USE_ORIGIN=ON",
+    "-DVC_READER_BUILD_PYTHON=ON",
+    "-DVC_READER_BUILD_READER=ON",
+    "-DVC_READER_SHARED_READER=ON",
+    "-DVC_READER_ENABLE_CUDA=OFF",
+    "-DVC_READER_BUILD_NATIVE_TESTS=OFF",
+    "-DVC_READER_BUILD_C_API=OFF",
+    "-DCMAKE_DISABLE_FIND_PACKAGE_vc_delta3d=ON",
+    "-DFETCHCONTENT_FULLY_DISCONNECTED=ON",
+    "-DFETCHCONTENT_SOURCE_DIR_VC_DELTA3D=/home/tomoy/r009-normal-python-run02-678qsuuz/vc_delta3d",
+    "-DPython_EXECUTABLE=/usr/bin/python3",
+    "-DPython_INCLUDE_DIR=/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include/python3.12",
+    "-Dnanobind_DIR=/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/site/nanobind/cmake"
+  ],
+  "timing_pid": 1647,
+  "process_group": 1647,
+  "started_utc": "2026-11-13T14:00:51.855147+00:00",
+  "completed_utc": "2026-11-13T14:01:08.145613+00:00",
+  "elapsed_seconds": 16.29047354599993,
+  "exit_code": 0,
+  "termination_reason": null,
+  "reaped": true,
+  "disk_samples": [
+    {
+      "utc": "2026-11-13T14:01:01.864646+00:00",
+      "work_bytes": 18558976,
+      "C_free_bytes": 43306311680
+    }
+  ],
+  "max_child_rss_bytes": 28467200,
+  "user_cpu_seconds": 0.51,
+  "sys_cpu_seconds": 0.89
+}

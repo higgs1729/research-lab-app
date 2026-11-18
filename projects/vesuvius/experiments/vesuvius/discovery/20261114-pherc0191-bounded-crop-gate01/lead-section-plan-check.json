@@ -1,0 +1,123 @@
+{
+  "utc": "2026-11-14T14:22:54.789777+00:00",
+  "reviewer": "root",
+  "coordinate_plan_sha256": "b9e1afeb5e12418a69d58d4cedae99379c06aadfb56d53f5d6bf6de18d0ac305",
+  "method": "Independent full constant-z reference intersections at each fixed product column; Newton validation of27 other reported cells; complete8-corner integer-address key union for18 sections. No child-module imports or CT reads.",
+  "reference_intersections": 9,
+  "validated_ray_intersections": 27,
+  "max_xyz_difference_voxel": 3.637978807091713e-12,
+  "section_planes": [
+    {
+      "section": "z11760-x256",
+      "plane": "xy",
+      "pixels": 2937,
+      "keys": 4
+    },
+    {
+      "section": "z11760-x256",
+      "plane": "radial-z",
+      "pixels": 2937,
+      "keys": 6
+    },
+    {
+      "section": "z11760-x1024",
+      "plane": "xy",
+      "pixels": 3729,
+      "keys": 2
+    },
+    {
+      "section": "z11760-x1024",
+      "plane": "radial-z",
+      "pixels": 3729,
+      "keys": 4
+    },
+    {
+      "section": "z11760-x1792",
+      "plane": "xy",
+      "pixels": 2937,
+      "keys": 3
+    },
+    {
+      "section": "z11760-x1792",
+      "plane": "radial-z",
+      "pixels": 2937,
+      "keys": 6
+    },
+    {
+      "section": "z11952-x256",
+      "plane": "xy",
+      "pixels": 3036,
+      "keys": 2
+    },
+    {
+      "section": "z11952-x256",
+      "plane": "radial-z",
+      "pixels": 3036,
+      "keys": 2
+    },
+    {
+      "section": "z11952-x1024",
+      "plane": "xy",
+      "pixels": 2607,
+      "keys": 1
+    },
+    {
+      "section": "z11952-x1024",
+      "plane": "radial-z",
+      "pixels": 2607,
+      "keys": 1
+    },
+    {
+      "section": "z11952-x1792",
+      "plane": "xy",
+      "pixels": 4884,
+      "keys": 4
+    },
+    {
+      "section": "z11952-x1792",
+      "plane": "radial-z",
+      "pixels": 4884,
+      "keys": 2
+    },
+    {
+      "section": "z12240-x256",
+      "plane": "xy",
+      "pixels": 2805,
+      "keys": 1
+    },
+    {
+      "section": "z12240-x256",
+      "plane": "radial-z",
+      "pixels": 2805,
+      "keys": 1
+    },
+    {
+      "section": "z12240-x1024",
+      "plane": "xy",
+      "pixels": 2739,
+      "keys": 2
+    },
+    {
+      "section": "z12240-x1024",
+      "plane": "radial-z",
+      "pixels": 2739,
+      "keys": 2
+    },
+    {
+      "section": "z12240-x1792",
+      "plane": "xy",
+      "pixels": 2904,
+      "keys": 2
+    },
+    {
+      "section": "z12240-x1792",
+      "plane": "radial-z",
+      "pixels": 2904,
+      "keys": 2
+    }
+  ],
+  "authorized_key_count": 29,
+  "authorized_bytes": 60817408,
+  "decision": "Approve acquisition of exactly29 pinned L0 chunks and the fixed section views; no model or paid resource. Physical paper remains undetermined.",
+  "ct_values_read": 0
+}

@@ -1,0 +1,33 @@
+{
+  "reviewer": "root",
+  "checked_utc": "2026-11-15T06:51:26.988544+00:00",
+  "independent": true,
+  "child_visual_verdict_read_before_this_record": false,
+  "viewed_sha256": {
+    "review/native-ct.png": "8b19b0c2ae94bed4c445358565d470688b1214b46f7b547e17c2eacbabcbc381",
+    "review/native-reader-raw.png": "8921ab450cd7d99e77104d843132b960c556f83aeeab12bc0cdbb135926907c6",
+    "review/native-reader-median-p995.png": "cacd3416fd75ce37ea9ca5d0a4cfd123f19fe56e99a14635e5aa05a83ec9b264",
+    "review/native-winner.png": "f6c6082c8900bf13821e2f149681624ed215dd3c3d655735e1efc04199fbff74",
+    "review/comparison-atlas-256.png": "c34e50bcd7dea00ea62efc67a5824cd879af1be620d185899cd7d241d27b1b60"
+  },
+  "native_main_xywh": [
+    1344,
+    1088,
+    672,
+    448
+  ],
+  "observations": [
+    "The native Reader raw output has a broad arc/ring around a dark centre in the right half, at the position of the published known-letter overlay. The left half contains a broad lower bright response at the other known-letter location.",
+    "The median-to-p99.5 display exposes the same raw response locations and suppresses the diffuse grey background; it does not add an independently resolved stroke.",
+    "Two upper narrow prongs apparent in the published left known-letter overlay are not separated with comparable clarity in this Reader output. The right response looks more continuously closed around its dark centre than parts of the published overlay; without independent pixel ground truth this is not labelled an invented character.",
+    "In the shared old 256-square view Reader retains a connected curved response where the saved Hecate view shows disconnected blobs. Dense-native also shows part of the curve. Native spacing/depth/checkpoint/context and display windows differ, so this is not a controlled claim of superior model accuracy."
+  ],
+  "decision": "Known partial stroke/shape reproduction is sufficient to justify one bounded Reader V3 test on an unread surface; character transcription and complete individual letter recovery are not established here.",
+  "new_letters": 0,
+  "fourth_award_candidate": false,
+  "limits": [
+    "This is known published text, not a discovery.",
+    "Model-family novelty and training holdout/generalization have not been established.",
+    "Raw output and display transform are distinguished; no claim that every bright pixel is ink."
+  ]
+}

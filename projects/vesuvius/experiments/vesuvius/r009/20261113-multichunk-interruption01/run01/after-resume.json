@@ -1,0 +1,458 @@
+{
+  "files": {
+    ".zattrs": {
+      "bytes": 3500,
+      "sha256": "4af8bf7571987876c118294117f7e14f197573f4aef7e76af56d97447d6a61c0",
+      "mtime_ns": 1794572798074933800,
+      "inode": 7036874419430336
+    },
+    ".zgroup": {
+      "bytes": 19,
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85",
+      "mtime_ns": 1794572797000000000,
+      "inode": 3377699722191747
+    },
+    "0/.zarray": {
+      "bytes": 230,
+      "sha256": "43c91328356958a8e24b78a23e6af8352af579479d46a8d410ffcaad8c7bd2ea",
+      "mtime_ns": 1794572797000000000,
+      "inode": 2251799815349125
+    },
+    "0/0/0/0": {
+      "bytes": 3584,
+      "sha256": "410c3adb0d0336eb749070c9471080d67100675ea7d0c327c90ad61d850117dc",
+      "mtime_ns": 1794572797000000000,
+      "inode": 13229323907064714
+    },
+    "0/0/1/0": {
+      "bytes": 3584,
+      "sha256": "b273ecb915bdf7bf473294ac577f0d2545bc913d14bcba1627b2054052d36e5a",
+      "mtime_ns": 1794572798002974000,
+      "inode": 2814749768770480
+    },
+    "1/.zarray": {
+      "bytes": 228,
+      "sha256": "a673d613f25848258d5792fd22837896f41e39f80498d6e2a6fa6124f33ae836",
+      "mtime_ns": 1794572797000000000,
+      "inode": 2251799815349134
+    },
+    "1/0/0/0": {
+      "bytes": 1820,
+      "sha256": "fb79a73daa34421c9ab0eefec1a44ca0161b587bdd8eb413f3167026d564232a",
+      "mtime_ns": 1794572798017578400,
+      "inode": 5629499535877043
+    },
+    "2/.zarray": {
+      "bytes": 228,
+      "sha256": "2819ccb383db3e002b2aef0c1c6890a82daaa001a338af69eaab94b3be655dce",
+      "mtime_ns": 1794572797000000000,
+      "inode": 2533274792059792
+    },
+    "2/0/0/0": {
+      "bytes": 924,
+      "sha256": "64f68fa57b25be382f525f327f70b39850bec6b94116425675b9235d8019f03d",
+      "mtime_ns": 1794572798032330500,
+      "inode": 3940649675613110
+    },
+    "3/.zarray": {
+      "bytes": 228,
+      "sha256": "4cfdf860c2d9c8d913e5ee49c3bd350f6c566d76029be947c4e8a5f830c82eb9",
+      "mtime_ns": 1794572797000000000,
+      "inode": 3096224745481112
+    },
+    "3/0/0/0": {
+      "bytes": 476,
+      "sha256": "1bd5fc01a249bb9014ee94b18dcf7f9a5abdad7345292067be7c54ca00a37673",
+      "mtime_ns": 1794572798045538600,
+      "inode": 5910974512587705
+    },
+    "4/.zarray": {
+      "bytes": 226,
+      "sha256": "84b70a1ed4d95d3086ed38d4210099aa12299df979f7f9224df56f4476138578",
+      "mtime_ns": 1794572797000000000,
+      "inode": 5910974512587681
+    },
+    "4/0/0/0": {
+      "bytes": 252,
+      "sha256": "ba74b5694b364d750663ff7329ff87cae5dd2f49bcd9d294fab0768a04569d1a",
+      "mtime_ns": 1794572798057022400,
+      "inode": 3659174698902460
+    },
+    "5/.zarray": {
+      "bytes": 226,
+      "sha256": "c389407707f555ec94d4edf58b6eb1bc9e0a315c556f90ea39fa720642e0ca64",
+      "mtime_ns": 1794572797000000000,
+      "inode": 4222124652323755
+    },
+    "5/0/0/0": {
+      "bytes": 140,
+      "sha256": "0b44b2e9179d78d90ac38b0eab3b087998c7a3326d9cb40e4c5ad20ea3ed42d0",
+      "mtime_ns": 1794572798069161000,
+      "inode": 3377699722191807
+    }
+  },
+  "levels": {
+    "0": {
+      "metadata": {
+        "chunks": [
+          28,
+          128,
+          1
+        ],
+        "compressor": null,
+        "dimension_separator": "/",
+        "dtype": "|u1",
+        "fill_value": 0,
+        "filters": null,
+        "order": "C",
+        "shape": [
+          28,
+          129,
+          1
+        ],
+        "zarr_format": 2
+      },
+      "chunks": {
+        "0/0/0/0": {
+          "stored_bytes": 3584,
+          "logical_values": 3584,
+          "logical_nonzero_values": 3584,
+          "zero_padding_bytes": 0
+        },
+        "0/0/1/0": {
+          "stored_bytes": 3584,
+          "logical_values": 28,
+          "logical_nonzero_values": 28,
+          "zero_padding_bytes": 3556
+        }
+      },
+      "logical_uint8_values": 3612,
+      "logical_sha256": "63133929530bce0d371bdd0691e681b5be72a4066b8255b2328f4746fc49c117"
+    },
+    "1": {
+      "metadata": {
+        "chunks": [
+          28,
+          65,
+          1
+        ],
+        "compressor": null,
+        "dimension_separator": "/",
+        "dtype": "|u1",
+        "fill_value": 0,
+        "filters": null,
+        "order": "C",
+        "shape": [
+          28,
+          65,
+          1
+        ],
+        "zarr_format": 2
+      },
+      "chunks": {
+        "1/0/0/0": {
+          "stored_bytes": 1820,
+          "logical_values": 1820,
+          "logical_nonzero_values": 1820,
+          "zero_padding_bytes": 0
+        }
+      },
+      "logical_uint8_values": 1820,
+      "logical_sha256": "fb79a73daa34421c9ab0eefec1a44ca0161b587bdd8eb413f3167026d564232a"
+    },
+    "2": {
+      "metadata": {
+        "chunks": [
+          28,
+          33,
+          1
+        ],
+        "compressor": null,
+        "dimension_separator": "/",
+        "dtype": "|u1",
+        "fill_value": 0,
+        "filters": null,
+        "order": "C",
+        "shape": [
+          28,
+          33,
+          1
+        ],
+        "zarr_format": 2
+      },
+      "chunks": {
+        "2/0/0/0": {
+          "stored_bytes": 924,
+          "logical_values": 924,
+          "logical_nonzero_values": 924,
+          "zero_padding_bytes": 0
+        }
+      },
+      "logical_uint8_values": 924,
+      "logical_sha256": "64f68fa57b25be382f525f327f70b39850bec6b94116425675b9235d8019f03d"
+    },
+    "3": {
+      "metadata": {
+        "chunks": [
+          28,
+          17,
+          1
+        ],
+        "compressor": null,
+        "dimension_separator": "/",
+        "dtype": "|u1",
+        "fill_value": 0,
+        "filters": null,
+        "order": "C",
+        "shape": [
+          28,
+          17,
+          1
+        ],
+        "zarr_format": 2
+      },
+      "chunks": {
+        "3/0/0/0": {
+          "stored_bytes": 476,
+          "logical_values": 476,
+          "logical_nonzero_values": 476,
+          "zero_padding_bytes": 0
+        }
+      },
+      "logical_uint8_values": 476,
+      "logical_sha256": "1bd5fc01a249bb9014ee94b18dcf7f9a5abdad7345292067be7c54ca00a37673"
+    },
+    "4": {
+      "metadata": {
+        "chunks": [
+          28,
+          9,
+          1
+        ],
+        "compressor": null,
+        "dimension_separator": "/",
+        "dtype": "|u1",
+        "fill_value": 0,
+        "filters": null,
+        "order": "C",
+        "shape": [
+          28,
+          9,
+          1
+        ],
+        "zarr_format": 2
+      },
+      "chunks": {
+        "4/0/0/0": {
+          "stored_bytes": 252,
+          "logical_values": 252,
+          "logical_nonzero_values": 252,
+          "zero_padding_bytes": 0
+        }
+      },
+      "logical_uint8_values": 252,
+      "logical_sha256": "ba74b5694b364d750663ff7329ff87cae5dd2f49bcd9d294fab0768a04569d1a"
+    },
+    "5": {
+      "metadata": {
+        "chunks": [
+          28,
+          5,
+          1
+        ],
+        "compressor": null,
+        "dimension_separator": "/",
+        "dtype": "|u1",
+        "fill_value": 0,
+        "filters": null,
+        "order": "C",
+        "shape": [
+          28,
+          5,
+          1
+        ],
+        "zarr_format": 2
+      },
+      "chunks": {
+        "5/0/0/0": {
+          "stored_bytes": 140,
+          "logical_values": 140,
+          "logical_nonzero_values": 140,
+          "zero_padding_bytes": 0
+        }
+      },
+      "logical_uint8_values": 140,
+      "logical_sha256": "0b44b2e9179d78d90ac38b0eab3b087998c7a3326d9cb40e4c5ad20ea3ed42d0"
+    }
+  },
+  "root_attributes": {
+    "canvas_size": [
+      1,
+      129
+    ],
+    "chunk_size": [
+      28,
+      128,
+      128
+    ],
+    "multiscales": [
+      {
+        "axes": [
+          {
+            "name": "z",
+            "type": "space",
+            "unit": "micrometer"
+          },
+          {
+            "name": "y",
+            "type": "space",
+            "unit": "micrometer"
+          },
+          {
+            "name": "x",
+            "type": "space",
+            "unit": "micrometer"
+          }
+        ],
+        "datasets": [
+          {
+            "coordinateTransformations": [
+              {
+                "scale": [
+                  9.362,
+                  9.362,
+                  9.362
+                ],
+                "type": "scale"
+              },
+              {
+                "translation": [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                "type": "translation"
+              }
+            ],
+            "path": "0"
+          },
+          {
+            "coordinateTransformations": [
+              {
+                "scale": [
+                  9.362,
+                  18.724,
+                  18.724
+                ],
+                "type": "scale"
+              },
+              {
+                "translation": [
+                  0.0,
+                  4.681,
+                  4.681
+                ],
+                "type": "translation"
+              }
+            ],
+            "path": "1"
+          },
+          {
+            "coordinateTransformations": [
+              {
+                "scale": [
+                  9.362,
+                  37.448,
+                  37.448
+                ],
+                "type": "scale"
+              },
+              {
+                "translation": [
+                  0.0,
+                  14.043,
+                  14.043
+                ],
+                "type": "translation"
+              }
+            ],
+            "path": "2"
+          },
+          {
+            "coordinateTransformations": [
+              {
+                "scale": [
+                  9.362,
+                  74.896,
+                  74.896
+                ],
+                "type": "scale"
+              },
+              {
+                "translation": [
+                  0.0,
+                  32.767,
+                  32.767
+                ],
+                "type": "translation"
+              }
+            ],
+            "path": "3"
+          },
+          {
+            "coordinateTransformations": [
+              {
+                "scale": [
+                  9.362,
+                  149.792,
+                  149.792
+                ],
+                "type": "scale"
+              },
+              {
+                "translation": [
+                  0.0,
+                  70.215,
+                  70.215
+                ],
+                "type": "translation"
+              }
+            ],
+            "path": "4"
+          },
+          {
+            "coordinateTransformations": [
+              {
+                "scale": [
+                  9.362,
+                  299.584,
+                  299.584
+                ],
+                "type": "scale"
+              },
+              {
+                "translation": [
+                  0.0,
+                  145.111,
+                  145.111
+                ],
+                "type": "translation"
+              }
+            ],
+            "path": "5"
+          }
+        ],
+        "metadata": {
+          "downsampling_method": "mean"
+        },
+        "name": "render",
+        "version": "0.4"
+      }
+    ],
+    "note_axes_order": "ZYX (slice, row, col)",
+    "num_slices": 28,
+    "slice_step": 1.0,
+    "source_group": 0,
+    "source_zarr": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr"
+  }
+}

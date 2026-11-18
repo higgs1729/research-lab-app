@@ -1,0 +1,55 @@
+{
+  "utc": "2026-11-15T13:57:32.648869+00:00",
+  "source_functions_checked": 11,
+  "source_TU_hashes_checked": 4,
+  "native_u8_values_checked": 786432,
+  "cases": [
+    {
+      "variant": "baseline",
+      "case": "phi",
+      "values": 262144,
+      "mismatches": 824,
+      "max_abs_DN": 1
+    },
+    {
+      "variant": "baseline",
+      "case": "heldout",
+      "values": 65536,
+      "mismatches": 235,
+      "max_abs_DN": 1
+    },
+    {
+      "variant": "baseline",
+      "case": "new_holdout",
+      "values": 65536,
+      "mismatches": 197,
+      "max_abs_DN": 1
+    },
+    {
+      "variant": "aligned",
+      "case": "phi",
+      "values": 262144,
+      "mismatches": 881,
+      "max_abs_DN": 1
+    },
+    {
+      "variant": "aligned",
+      "case": "heldout",
+      "values": 65536,
+      "mismatches": 254,
+      "max_abs_DN": 1
+    },
+    {
+      "variant": "aligned",
+      "case": "new_holdout",
+      "values": 65536,
+      "mismatches": 236,
+      "max_abs_DN": 1
+    }
+  ],
+  "baseline_old2_input_geometry_equal_R237": true,
+  "aligned_Slicing_only_fast_math_checked": true,
+  "exact_public_input_established": false,
+  "new_model_forwards": 0,
+  "interpretation": "One source-grounded configuration changed values but did not reproduce the public inputs. Do not attribute the residual to FMA alone or claim reproduction of the original author CPU/binary."
+}

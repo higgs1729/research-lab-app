@@ -1,0 +1,258 @@
+{
+  "native_main_xywh": [
+    142,
+    640,
+    1067,
+    1067
+  ],
+  "raw": "truncate(255*score)",
+  "supplemental_display": "Separate median and p99.5 for each direction over all pixels of the fixed native main. Clip and truncate to uint8. No masking or drawing added to score.",
+  "native_assets": [
+    {
+      "file": "review/native-ct-centre.png",
+      "sha256": "a93c2c9d58536ad3ba941aa06a7a77df88a7c59493533e7db456675b6e9a2b42",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/native-object-present.png",
+      "sha256": "c339ceadffe818e8a5ed970c9df094873859bcfdbd7d11b79236f3d0f3d23b1c",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/native-geometry-proxy.png",
+      "sha256": "582b300c8f713cd3176bcfb4ce04a5f785b7ba96f5f3b7d08848fee529a894df",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/native-nonzero17.png",
+      "sha256": "74ed65f9eaf22427ccb1c3de4aa6f5ec190154351f959a2159bd43a42b42ce42",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/native-forward-raw.png",
+      "sha256": "125109bbad9092236466d38f3cac51b486b66e7471e5caf42b5bc4bf9087d733",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/native-forward-median-p995.png",
+      "sha256": "7651ffaa08c60077ac2527809b7041b422985339aa7ff915dc29abbf13966659",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/native-forward-hann-support.png",
+      "sha256": "f989399c17bee1c84f12c3fd52ab857647b68ffe4bc78b33d2cbdb2aee2b3368",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/native-reverse-raw.png",
+      "sha256": "40a129d25ee547f2935ea576d771accab9b8c2e0195eb1f1706091fa7e81f791",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/native-reverse-median-p995.png",
+      "sha256": "0e14107f506ca1477e628754031eeec7e3e56dc5b80e103c1cdb46f99d2b56ef",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/native-reverse-hann-support.png",
+      "sha256": "f989399c17bee1c84f12c3fd52ab857647b68ffe4bc78b33d2cbdb2aee2b3368",
+      "shape": [
+        1067,
+        1067
+      ]
+    }
+  ],
+  "native_1to1_quadrants": [
+    {
+      "file": "review/native-quadrant-00.png",
+      "sha256": "fd1fab78c1bf166649a8ea8b99dda1678bd4a8bdfd617dc7e9670d83df0c02e3",
+      "shape": [
+        1122,
+        1615,
+        3
+      ],
+      "local_xywh": [
+        0,
+        0,
+        533,
+        533
+      ]
+    },
+    {
+      "file": "review/native-quadrant-01.png",
+      "sha256": "e051863369a03f95ee3dc76ee911df96b849836ff76fe5ee814af862f992b85b",
+      "shape": [
+        1122,
+        1618,
+        3
+      ],
+      "local_xywh": [
+        533,
+        0,
+        534,
+        533
+      ]
+    },
+    {
+      "file": "review/native-quadrant-10.png",
+      "sha256": "dde72609ef41421d097af019130b39e92d2f36eef2494495ad2f09e5d6997005",
+      "shape": [
+        1124,
+        1615,
+        3
+      ],
+      "local_xywh": [
+        0,
+        533,
+        533,
+        534
+      ]
+    },
+    {
+      "file": "review/native-quadrant-11.png",
+      "sha256": "e24bc0fdb6e7115e65eaff6646c04bf2272f2a177791c367e3e2ccce6b746090",
+      "shape": [
+        1124,
+        1618,
+        3
+      ],
+      "local_xywh": [
+        533,
+        533,
+        534,
+        534
+      ]
+    }
+  ],
+  "r220_grid_references": {
+    "forward": {
+      "reader_on_r220_xy": {
+        "file": "review/r220-grid-reader-forward-raw.png",
+        "sha256": "5b8ff4c69cca698c31663ea787b173276eed49b3b0a75d35f8bb8818e0a90129",
+        "shape": [
+          960,
+          960
+        ]
+      },
+      "r220_hecate_untouched_main": {
+        "file": "review/r220-grid-hecate-forward-raw.png",
+        "sha256": "4b8b0879677677dcda570e91491fccff9f74a7c915d714df68cbac28182e1472",
+        "shape": [
+          960,
+          960
+        ]
+      },
+      "coordinate_formula": "Bilinear sample of Reader float scores at native=(t+.5)/.9-.5; Hecate exact 960px crop."
+    },
+    "reverse": {
+      "reader_on_r220_xy": {
+        "file": "review/r220-grid-reader-reverse-raw.png",
+        "sha256": "812b9cf00782a53c5bd7200a763b63dfaeb3e556ac19d5c7635982c1f969362c",
+        "shape": [
+          960,
+          960
+        ]
+      },
+      "r220_hecate_untouched_main": {
+        "file": "review/r220-grid-hecate-reverse-raw.png",
+        "sha256": "8d3de6f49060efe3f9542464c90b870743e2f1cd7bc56c00445eb442bcc19701",
+        "shape": [
+          960,
+          960
+        ]
+      },
+      "coordinate_formula": "Bilinear sample of Reader float scores at native=(t+.5)/.9-.5; Hecate exact 960px crop."
+    }
+  },
+  "verification": {
+    "forward": {
+      "weight_max_abs": 4.76837158203125e-07,
+      "weighted_score_max_abs": 2.384185791015625e-07,
+      "score_max_abs": 2.384185791015625e-07,
+      "cpu_reference_checks": [
+        {
+          "max_abs": 2.562999725341797e-06,
+          "mean_abs": 2.3558945017043698e-08
+        },
+        {
+          "max_abs": 1.7881393432617188e-06,
+          "mean_abs": 3.695206274301199e-08
+        },
+        {
+          "max_abs": 1.7881393432617188e-06,
+          "mean_abs": 4.1588563703953696e-08
+        }
+      ],
+      "grid": 49,
+      "active": 48,
+      "grid_skips": 1,
+      "native_pixels_verified": 2359296,
+      "raw_score_min": 0.2078995704650879,
+      "raw_score_max": 0.5931936502456665,
+      "median": 0.25162041187286377,
+      "p995": 0.42246729373931896,
+      "weighted_pixels": 1138489,
+      "nonzero_without_weight": 0,
+      "weight_without_object": 70566
+    },
+    "reverse": {
+      "weight_max_abs": 4.76837158203125e-07,
+      "weighted_score_max_abs": 2.384185791015625e-07,
+      "score_max_abs": 2.086162567138672e-07,
+      "cpu_reference_checks": [
+        {
+          "max_abs": 2.3245811462402344e-06,
+          "mean_abs": 2.7154177573152083e-08
+        },
+        {
+          "max_abs": 1.5795230865478516e-06,
+          "mean_abs": 4.479423054704057e-08
+        },
+        {
+          "max_abs": 2.2649765014648438e-06,
+          "mean_abs": 4.564551758790003e-08
+        }
+      ],
+      "grid": 49,
+      "active": 48,
+      "grid_skips": 1,
+      "native_pixels_verified": 2359296,
+      "raw_score_min": 0.20785726606845856,
+      "raw_score_max": 0.6625171899795532,
+      "median": 0.2539399564266205,
+      "p995": 0.5257421827316309,
+      "weighted_pixels": 1138489,
+      "nonzero_without_weight": 0,
+      "weight_without_object": 70566
+    }
+  },
+  "gpu_raw_sha_log_limitation": "Active log rows reuse raw_sha256 for output probability bytes. The worker asserts raw input SHA against the fixed contract before forward. Verification recomputes raw input SHA from input.npy for all 98 positions and checks the logged active field against the probability arrays. No GPU output was changed.",
+  "comparison_limits": "Paired XY display only. Sampling, depth/sequences, receptive context and models differ. Region and history observed in R220, which retained ROI 0."
+}

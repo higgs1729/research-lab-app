@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-15T14:33:27.589889+00:00",
+  "pod_id": "uh56ny6t7mpdqx",
+  "name": "r239-studio-31e322a51025b003",
+  "exact_name_matches": 0,
+  "GET_status": 404,
+  "pod_status": "absent",
+  "cleanup_receipt": {
+    "pod_id": "uh56ny6t7mpdqx",
+    "absent_from_list": true,
+    "utc": 1794753159.444708
+  },
+  "confirmed_before_absolute_deadline": true,
+  "resource_mutations": 0
+}

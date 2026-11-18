@@ -1,0 +1,409 @@
+{
+  "research": 243,
+  "frozen_utc": "2026-11-15T17:34:20.962688+00:00",
+  "completion_date_JST": "2026-11-16",
+  "status": "resolved_geometry_only_B_not_executed",
+  "file_count": 48,
+  "file_bytes_total": 2644657,
+  "files": [
+    {
+      "path": "candidate-cell-bounds-process.json",
+      "bytes": 705,
+      "sha256": "0fdb07a0f0680e246892f150c22a0586f56578e184337e9dd0b70a1971e53e6b"
+    },
+    {
+      "path": "candidate-cell-bounds.json",
+      "bytes": 59148,
+      "sha256": "b7bb56168cfd65020a2b8dbdbd6c71b0981cd8b6a21e14b34d64ed62c8afbdf8"
+    },
+    {
+      "path": "candidate-cell-components.json",
+      "bytes": 31250,
+      "sha256": "c57b055d75a6045aa95918bafd12879506bec57ac5cb6605d6d39e4e59fc89fd"
+    },
+    {
+      "path": "candidate_cell_bounds.py",
+      "bytes": 2436,
+      "sha256": "0a444531b79fcafea8e3734b98b291c2c104ea279d8466f69d9832677313b190"
+    },
+    {
+      "path": "closest-analytical-check.json",
+      "bytes": 1152,
+      "sha256": "0173457d9c49bfa6f07d5f632780ea766bc391dd82e42b442653f776ec29a98c"
+    },
+    {
+      "path": "finalize_report.py",
+      "bytes": 22942,
+      "sha256": "4b087b58666656bbb19da0a20fa33db612067e28faddf785cf008a1eb4c8df76"
+    },
+    {
+      "path": "fixed-geometry-anchors.json",
+      "bytes": 31217,
+      "sha256": "52621c91e410a135d74256daf13bc7c2e39907a052c6c53b8399ceb340f6467e"
+    },
+    {
+      "path": "geometry-box-check.json",
+      "bytes": 13432,
+      "sha256": "6fd12dce8286254eaf6a9942a485404e27521476ec114e6824a32fb1d93d9d8d"
+    },
+    {
+      "path": "geometry-box-process.json",
+      "bytes": 700,
+      "sha256": "956f43e9792332ded84f3a537c94485a982e2ece2b353f1eb26b6967ba8b0f57"
+    },
+    {
+      "path": "geometry-row-boxes.json",
+      "bytes": 461205,
+      "sha256": "a90d97f9069962fe9642f610748897ec069278cdcf6c8e09d64899cda151f181"
+    },
+    {
+      "path": "geometry_boxes.py",
+      "bytes": 7229,
+      "sha256": "5f7bf8c717fee691d627fb158184456ec326db4472bbe241ab7d232224bcb992"
+    },
+    {
+      "path": "inspect_metadata.py",
+      "bytes": 2372,
+      "sha256": "cd76a09656950756c58f4d89b8e27db035f9c95eb25bc6ca68b358a9c8c42608"
+    },
+    {
+      "path": "inspect_metadata_initial.py",
+      "bytes": 2193,
+      "sha256": "5467b038401998e851270bea4c3596937abff09d81c9d5e13c492996ed68f031"
+    },
+    {
+      "path": "joint-decision.json",
+      "bytes": 6573,
+      "sha256": "ebdcb695aec79c8b6d8a03cd5a6ba5d37e468d6a5be1f35eacf62bbc9db9b22f"
+    },
+    {
+      "path": "lead-cell-box-check.json",
+      "bytes": 833,
+      "sha256": "510cea30c2738d258df0fd2710d19617b2078533818afa98269eb3d4e24167df"
+    },
+    {
+      "path": "lead-mask-source-read.json",
+      "bytes": 1427,
+      "sha256": "10618238d398108996660f454ec3e8e883697150e0eca0a760f92e1ebec267bb"
+    },
+    {
+      "path": "lead-projection-check.json",
+      "bytes": 2881,
+      "sha256": "22087608bf4587c62a026e534fda1f90eb38886c59bd4e607bf8c0a041d59d8c"
+    },
+    {
+      "path": "lead-stage-a-clearance.json",
+      "bytes": 1776,
+      "sha256": "57a9e5b27a415bfc9fb973aca4d56201e861179be2fed8f463887acd71cac7c6"
+    },
+    {
+      "path": "make_mapping_plan.py",
+      "bytes": 7745,
+      "sha256": "93e0bc482a6340f86242e5d691d6e07def6023c321dbcc070077cc67b4630e2b"
+    },
+    {
+      "path": "mapping-plan-process.json",
+      "bytes": 700,
+      "sha256": "8136dc7db25c1eb39aabaa207c35ecb91723b2effed1352886e1ef6c7a03fe0e"
+    },
+    {
+      "path": "metadata-inspection-process.json",
+      "bytes": 774,
+      "sha256": "25165c27b365e42f7780d7df8a19581048e3c1460afda8ebbdf6c9f9b6f1d339"
+    },
+    {
+      "path": "metadata-inspection-resume-process.json",
+      "bytes": 700,
+      "sha256": "6df5ab8b9a9efce53bd3f69a872ec2971d499d3b476184945e0a59e31eb764eb"
+    },
+    {
+      "path": "metadata-inspection.json",
+      "bytes": 586447,
+      "sha256": "c363924e0d7743c6d5d200337ade71f11bd7f8382d32a9bf7b9086ea6df8c387"
+    },
+    {
+      "path": "nominal-mapping-plan.json",
+      "bytes": 6115,
+      "sha256": "3e4833f47065d870c90c22d8c43bf54b49d3ed93790db9bc6a9d803fafc2e0b0"
+    },
+    {
+      "path": "project_geometry.py",
+      "bytes": 12155,
+      "sha256": "a11646b07ddc288083422158cf666b2a97af6be90d5ffecb6a9fd9978787f1a6"
+    },
+    {
+      "path": "project_geometry_initial.py",
+      "bytes": 11936,
+      "sha256": "ed691ebbbacf278b8365ab2ed9044b23977569f8b6d8933c9a2bbd7b3ca65fe6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3049,
+      "sha256": "b56a282299730933e678198d33587de405b69b9f050f9f1af13e8cb5c031096d"
+    },
+    {
+      "path": "record.json",
+      "bytes": 3987,
+      "sha256": "9f9899eb71b4ff808b293319fa6fc4d2468896f57a2236bd1a26f5f503debd47"
+    },
+    {
+      "path": "sources/v6/mesh__case.json",
+      "bytes": 2078,
+      "sha256": "78089a891a9277e0bdd0442d08f58bad48f34d7fdfe555a1058e498b937521ee"
+    },
+    {
+      "path": "sources/v6/mesh__inference-record.json",
+      "bytes": 1592,
+      "sha256": "b518f7cca74fecdfed17b128a0dd6e284c79a285beff01be05596b23e3d9f50a"
+    },
+    {
+      "path": "sources/v6/mesh__normalized-tifxyz__meta.json",
+      "bytes": 904,
+      "sha256": "6da46dcedcad539eda19a6cf98ae7db512b6d1bbc1857bdba11ec7cf64b1ef8e"
+    },
+    {
+      "path": "sources/v6/mesh__orientation.json",
+      "bytes": 2738,
+      "sha256": "d7c1895f9cc5d76c948bd8ffa4a83d6d4d60e347191bb6096b5bf389b8668e47"
+    },
+    {
+      "path": "sources/v6/mesh__parent__case.json",
+      "bytes": 1372,
+      "sha256": "88bf5d3d4ebbbd21d40d7f8b9734c74adacd9b4f1d2aaa946eb561cbd67b881b"
+    },
+    {
+      "path": "sources/v6/mesh__parent__normalized-tifxyz__meta.json",
+      "bytes": 290,
+      "sha256": "1a5b84da9a14759b776e625a260fccd2477e819a60a2968e3bab7a7f25789651"
+    },
+    {
+      "path": "sources/v6/mesh__parent__orientation.json",
+      "bytes": 2738,
+      "sha256": "d7c1895f9cc5d76c948bd8ffa4a83d6d4d60e347191bb6096b5bf389b8668e47"
+    },
+    {
+      "path": "sources/v6/mesh__reproduction.json",
+      "bytes": 6604,
+      "sha256": "205dff7d444300c43eb10301f050b34e8cc2338a20e5d915ae584cb3b4752baf"
+    },
+    {
+      "path": "sources/v6/mesh__split.json",
+      "bytes": 146149,
+      "sha256": "074c40f5ad19b1b247e12d2b4091b3539fb133bf5c63c1caebdbe898f6dc3780"
+    },
+    {
+      "path": "sources/v9/mesh__case.json",
+      "bytes": 1479,
+      "sha256": "00095b5d464c12c2465e3369572d27e5ce6fd28b436e1bf4d4c110cde045afee"
+    },
+    {
+      "path": "sources/v9/mesh__inference-record.json",
+      "bytes": 1599,
+      "sha256": "a57e2195e29acd82b7404cec78c4a91cf659b027b0ba873034c0563cc2ce12fd"
+    },
+    {
+      "path": "sources/v9/mesh__normalized-tifxyz__meta.json",
+      "bytes": 809,
+      "sha256": "5c812bd1988bf27d6b9c9a2c646184a6db19e84ec70d7f4b2b392c800aff58cf"
+    },
+    {
+      "path": "sources/v9/mesh__orientation.json",
+      "bytes": 3555,
+      "sha256": "4895f6b3a62cd78ff228e32ba114646a66e3bc0e2cc77a4d4037aed6cdc86394"
+    },
+    {
+      "path": "sources/v9/mesh__reproduction.json",
+      "bytes": 6343,
+      "sha256": "a508de77fe411bc56c4897fd51099cf42468953fcd340ce98dab2f1d9d0c8049"
+    },
+    {
+      "path": "stage-a-execution-process.json",
+      "bytes": 699,
+      "sha256": "8692045d9a149f0b337de193cf1b71a50bf00cbe27fc589e365ddb80bf4fcf4e"
+    },
+    {
+      "path": "stage-a-geometry-result.json",
+      "bytes": 1137725,
+      "sha256": "09b11fb056788ce456f0c5c3fbf8a716754685df99c5ef9bd5f96039a530d693"
+    },
+    {
+      "path": "stage-a-process.json",
+      "bytes": 773,
+      "sha256": "a73b1a4b08cc4cb15da5ec4e683a0cb50930ed02cd2a99cddff86337b70e84b8"
+    },
+    {
+      "path": "stage-a-summary-process.json",
+      "bytes": 698,
+      "sha256": "01c26bf15ddafe2f618825637d0dd407ba3c1eab4962b1696ee1b2802eedb48f"
+    },
+    {
+      "path": "stage-a-summary.json",
+      "bytes": 39383,
+      "sha256": "8635de0103397c7c086ed02b8f988fbb05b57fdf6668b2cd32b68d30cc3bec67"
+    },
+    {
+      "path": "summarize_stage_a.py",
+      "bytes": 4050,
+      "sha256": "d823c5eb3f436fe6aa1c2623613f52513858fdaede513e0428236011ecb955d9"
+    }
+  ],
+  "manifest_excludes_itself": true,
+  "research_ticket": {
+    "path": "C:\\dev\\kensyoukin\\research\\243-pherc0211-added-context-public-coverage.md",
+    "bytes": 15052,
+    "sha256": "f061343afe1147f21353872249922935ae5af0ea6dd9166195cd675a68240523"
+  },
+  "unchanged_request_section_sha256": "e60c519d003436d41b92c289ee611caf44117110ec90e7765692891544763f3b",
+  "external_reference_count": 26,
+  "external_references": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-adjacent-context01\\sources\\v6-line2-mesh.zip",
+      "bytes": 4953331,
+      "sha256": "9e9105d9bb812e6d2af454b30cb724e6339f0f0403e06eb28a302b484d31db36"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-adjacent-context01\\sources\\v9-mesh.zip",
+      "bytes": 9264958,
+      "sha256": "819dcfb40451fab3fa58441d8265813c8ddbe2b5693bb076fce3eeefce05a5d9"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-candidate-sheet01\\joint-decision.json",
+      "bytes": 2501,
+      "sha256": "cd2eb5d7ba340946d5cc0b4cc3d4e17a7c8a1de663343a05f7de95caef52a691"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-candidate-sheet01\\manifest.json",
+      "bytes": 28947,
+      "sha256": "53071662b1affa0f28a28025fb306ce4f9a87f5cbc64032b84378e424dbcbd83"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-candidate-sheet01\\provenance.md",
+      "bytes": 4518,
+      "sha256": "8db955d1418310f28e6cbe098820afccf273d708d16d64fa4ee7329111d23470"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\control_compare.py",
+      "bytes": 8623,
+      "sha256": "eb863455b8a107cb566079fd8e71e5e5cf351225cc420833185d69ed81f02279"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\inspect_sources.py",
+      "bytes": 3055,
+      "sha256": "80e102184b7ac9e4f3b457a686130675043c735285aa027cb3adad93b57b467d"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\sources\\v9\\inference.py",
+      "bytes": 5752,
+      "sha256": "09752cf7aa0b682c6ca9a46e41bf1f9f279e30d74d35eaab8fc0311504223ec0"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\sources\\v9\\reproduce_submission.py",
+      "bytes": 6070,
+      "sha256": "4daee96fbe901612f0c4d124d74718ac4c95fbf9e4f9f9fe697c990d84f3657c"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-pherc0211-clipped-context01\\candidate-input-contract.json",
+      "bytes": 7471,
+      "sha256": "d912bff1725f4a635e3ae9d735e1348829e1397cc9169be7d427ded166292669"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-pherc0211-clipped-context01\\geometry-plan.json",
+      "bytes": 137724,
+      "sha256": "15f991716a24675ca67a53d071bbdd2e77068ea54bcfc62fe34f834a3a0159aa"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-pherc0211-clipped-context01\\joint-decision.json",
+      "bytes": 1027,
+      "sha256": "e088384308eb2556e17b912e46abfeb275f8cbec86ca31c8ff20ce5d521cc9de"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-pherc0211-clipped-context01\\manifest.json",
+      "bytes": 137417,
+      "sha256": "d6dd1f3413ac87d110711b6ded22b272a18d5c4398b498330dd5cce4f986e86a"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-pherc0211-parent-probability-source01\\manifest.json",
+      "bytes": 8917,
+      "sha256": "d430fb153313d1613ace3f721c975f5e1ce12b94db74e7fc12ae90b715847773"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-pherc0211-parent-probability-source01\\README.md",
+      "bytes": 2943,
+      "sha256": "d885ce73023ca8f2a217798197af2934e2522b5462f0ef2c951094757f805b0b"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-pherc0211-parent-probability-source01\\source-evidence.json",
+      "bytes": 13533,
+      "sha256": "351e3c9de2fe796c4230207ef461538c4bc8b3c251a9740879f404020c736e40"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\240-pherc0211-candidate-sheet-and-provenance.md",
+      "bytes": 12719,
+      "sha256": "8c0d386d0878eee8670379ae8f40acf183a5a41608ce2eaa2570d182e8009d29"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\241-pherc0211-historical-parent-probability.md",
+      "bytes": 9481,
+      "sha256": "9cd0a54fc3af85c52bb0ff8e1df2952a5ba317c5847ad9e41395a861d31fd7fc"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\research\\242-pherc0211-clipped-response-context.md",
+      "bytes": 30217,
+      "sha256": "55f0c933f1544e1eb41f448dfa69f40953a0175bd38bed1463da4a557a70b728"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\runtime\\r243-lead-cell-box-check.py",
+      "bytes": 2726,
+      "sha256": "598d67418358ff8d47dcf2f9b63aef9fb209a7e61722ba96716815755491e022"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\runtime\\r243-lead-cell-box-process.json",
+      "bytes": 638,
+      "sha256": "9d76868432029ae85c41acfd4cb014629d28fb82b6437f39745cd1e4b7b658da"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\runtime\\r243-lead-projection-check.py",
+      "bytes": 4819,
+      "sha256": "3076c806ec57218226d4ebe885ac68fcd147b269663ee8934fda83d062e45c08"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\runtime\\r243-lead-projection-process.json",
+      "bytes": 637,
+      "sha256": "1d11cce254a24c5ed1204c04adf508ccc794085707ea36ae9ec59da7c265c4da"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\runtime\\r243-mask-source-process.json",
+      "bytes": 637,
+      "sha256": "2e68bf8e7b4bb2120e4a07d2148b806fd5e4f34e8aa2c3fcb5fc1dc87054d7f5"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\runtime\\r243-mask-source-read.py",
+      "bytes": 1935,
+      "sha256": "b2d8a5be4d00701687b0c82c19497f19d3ce5d9106d985e5f9cb4996610a4f91"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\tools\\research\\run_windows.py",
+      "bytes": 3671,
+      "sha256": "70ad792c9d7d0775eeb1839283f739abe6604a1d6f7bf1203e086d802b1a5f9d"
+    }
+  ],
+  "finalization_receipt": "runtime/r243-finalize-process.json is written by the runner after this manifest and is not self-hashed.",
+  "stage_A_projection_runs": 1,
+  "stage_B_executed": false,
+  "CT_body_reads": 0,
+  "new_CT_bytes": 0,
+  "model_forwards": 0,
+  "prediction_pixels_read": 0,
+  "new_images": 0,
+  "GPU": 0,
+  "new_external_requests": 0,
+  "external_messages": 0,
+  "actual_cost_USD": 0,
+  "new_letters": 0,
+  "ink_sheet_identity_reading_novelty_established": false,
+  "historical_R236_pairgate_passed": false,
+  "C_free_at_freeze_bytes": 6679375872,
+  "CPU_cores": 1,
+  "hard_process_commit_bytes": 4294967296,
+  "registration_publication_contact_submission_by_researcher": false
+}

@@ -1,0 +1,100 @@
+{
+  "references": {
+    "raw-forward": [
+      {
+        "grid_index": 127,
+        "output_sha256": "b9a5e4f913b04ee4f22b9a6f2fa77aee40ffc7af7283776f2670c32f8ad7d83f",
+        "input_raw_sha256": "d19739db4806d5dc0f87534aaad645d6475d55e581c60dd983fb087dc12a4b9d"
+      },
+      {
+        "grid_index": 128,
+        "output_sha256": "eeaec3bdb721f9d9382e383360c08113d96c8b594173880f304c59a257d539cb",
+        "input_raw_sha256": "c4c570fc69f1d90abddf25c8e7e119de5a7abbbb3792035135d85945d85cdcb7"
+      },
+      {
+        "grid_index": 129,
+        "output_sha256": "5f3500ab08bf91f49e53e40f5285ed561640e4c8f6d6719ec5d4ecfdb012a63d",
+        "input_raw_sha256": "d29382f0421c21c5c77ca7b4a87b446076f4e680b22e9c0f574e198c0149c9ca"
+      }
+    ],
+    "raw-reverse": [
+      {
+        "grid_index": 127,
+        "output_sha256": "ac41b6784261f2c0ff58a4a553d4ae15a72102d07ea58db222cb050ee42758d4",
+        "input_raw_sha256": "6a8647e708b4e7766ff8a58d6a51b5cca650f28d1fd39d6b77376b7f1d330704"
+      },
+      {
+        "grid_index": 128,
+        "output_sha256": "98dd09dd9fb8aa12a99cfba93ad61fdb6d726e3c7ecb752e7b5062eb475db5be",
+        "input_raw_sha256": "1bc8dcea4f20d9070c8902d4dc1fc4f79d371d8e8250a529a7de99ebfb732ef9"
+      },
+      {
+        "grid_index": 129,
+        "output_sha256": "7c60dcd7bdbcd9db131ea4229a843d48f437c4f78bede44227613f578a5f7c12",
+        "input_raw_sha256": "67661a6ccd5d51e91c13baaae745411eb18ca258cb1d31e30f866470e4db99e8"
+      }
+    ],
+    "snap-forward": [
+      {
+        "grid_index": 127,
+        "output_sha256": "2239926490d54aa11c230583f3947034d7a1472464f7026e894a6ccd03470a3d",
+        "input_raw_sha256": "b2aab415693dd667b6c238890efccca6e48281d8020e41c2bcb789748cd45cf4"
+      },
+      {
+        "grid_index": 128,
+        "output_sha256": "9cc615cdd774dc33b97fbc31c745728c9ced8d3edc8c9afba21894a0245395af",
+        "input_raw_sha256": "aa21bbfba2af29a25bdaa32e69c680cb6b0acb9cf347a287dd86c75c205aea5e"
+      },
+      {
+        "grid_index": 129,
+        "output_sha256": "53f4576f46399fb7b8886d2e7433ae28a51bd4afe0525e670a644e8d376a2adc",
+        "input_raw_sha256": "7455715c687d05017d9d573464ebd3810c080df00463db8e1fcbbbb754e346bf"
+      }
+    ],
+    "snap-reverse": [
+      {
+        "grid_index": 127,
+        "output_sha256": "0b885fa92ce63ff921cbe4384336e99e1893c01e808d865006f00d3fe5fb079f",
+        "input_raw_sha256": "18080a1d48e6870680e2bf0037abdbaa54aba986c9fd51779b8c8420e810490d"
+      },
+      {
+        "grid_index": 128,
+        "output_sha256": "17739139ed47dee80d7a61e4743b0ee4e2e0ae329d521e7cb4eac15acd5a2830",
+        "input_raw_sha256": "47a768bd2076c89ceb8decaf5dc72e1e63129a321bca011803f1d6419eecdc00"
+      },
+      {
+        "grid_index": 129,
+        "output_sha256": "3cebcc2ecdb84c24df835637bf323434afc3172d509d3890c4efa406eed9dd3a",
+        "input_raw_sha256": "3ff1fa9a861abd553a1803e0713276adc0d7c1dd59e814a84a1ecb3fe49d1398"
+      }
+    ]
+  },
+  "model_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+  "source_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "strict_model_loads": 1,
+  "calls": 12,
+  "load_seconds": 2.3374401000037324,
+  "elapsed_seconds": 60.04223260001163,
+  "environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "versions": {
+      "torch": "2.14.0",
+      "numpy": "2.5.2",
+      "zarr": "3.1.5",
+      "numcodecs": "0.16.5",
+      "psutil": "7.2.2"
+    },
+    "torch_build": "2.14.0+cpu",
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "zarr_async_concurrency": 1,
+    "affinity": [
+      0
+    ],
+    "physical_memory_available": 13245018112,
+    "workspace_free_bytes": 22017470464,
+    "dependencies": "C:\\dev\\kensyoukin\\.work\\r012-known-ink-inference01\\deps",
+    "network": "Python socket audit hook, loopback only, and HF offline"
+  }
+}

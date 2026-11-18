@@ -1,0 +1,19 @@
+{
+  "name": "r230-studio-c3591d95c9a563ed",
+  "create_epoch": 1794736729,
+  "delete_epoch": 1794738529,
+  "precreate_list_had_no_match": true,
+  "list_hourly_usd": 0.59,
+  "input_archive_sha256": "499e33cc48383a9d88cdeeab70aa5618f0fc29f7563c51d90af52a929eb2115a",
+  "result_reservation": {
+    "allocated_bytes": 12582912,
+    "file_bytes": 12582912,
+    "windows_attributes": 32,
+    "links": 1,
+    "device": 10726679257801674650,
+    "file_id": 1407374885790336
+  },
+  "free_before_reservation_bytes": 10420105216,
+  "free_after_reservation_bytes": 10407673856,
+  "pod_id": "1rznb9oa1abxn1"
+}

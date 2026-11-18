@@ -1,0 +1,36 @@
+{
+  "requested_utc": "2026-11-14T07:15:57.170301+00:00",
+  "observed_utc": "2026-11-14T07:16:08.389135+00:00",
+  "vram_total_gib": 8.0,
+  "vram_used_gib": 1.41,
+  "available_physical_bytes": 14117335040,
+  "c_free_bytes": 29916532736,
+  "lane_available_ram_gib": 13.1,
+  "margins": {
+    "vram_gb": 1.0,
+    "mem_gb": 4.0
+  },
+  "jobs": [
+    {
+      "name": "cw06-stage",
+      "kind": "lock",
+      "phase": "run",
+      "since": "2026-11-14 15:58:23"
+    }
+  ],
+  "tickets": [
+    {
+      "name": "vk-map-s4",
+      "kind": "exclusive",
+      "since": "2026-11-14 15:58:21"
+    },
+    {
+      "name": "cw789-pick",
+      "kind": "exclusive",
+      "since": "2026-11-14 16:08:30"
+    }
+  ],
+  "reservation": null,
+  "comfy_running": false,
+  "gpu_stuck": null
+}

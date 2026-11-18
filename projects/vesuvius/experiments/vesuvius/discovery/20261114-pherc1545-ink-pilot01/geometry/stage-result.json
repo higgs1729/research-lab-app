@@ -1,0 +1,9 @@
+{
+  "mode": "geometry",
+  "count": 256,
+  "elapsed_seconds": 395.031666961,
+  "disk": {
+    "file_bytes": 26898023,
+    "free_bytes_c": 35059777536
+  }
+}

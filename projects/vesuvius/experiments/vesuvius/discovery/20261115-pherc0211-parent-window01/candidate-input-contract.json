@@ -1,0 +1,190 @@
+{
+  "plan_v3_sha256": "5e03444aad724d1629e6290644ee33d25c93c7094c3645a7a383f5092574ee43",
+  "candidate_sampling_support_sha256": "1bae5cbdd038f7e3010d457b4c427a0fb2c4d7480e818022d161d7a74b6dd28d",
+  "frozen_control_implementation_sha256": "eb863455b8a107cb566079fd8e71e5e5cf351225cc420833185d69ed81f02279",
+  "file": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\input16.npy",
+  "bytes": 14155904,
+  "sha256": "27af8b21cee6e1abfd11e221075dc81cd1f1d0ac37aeb7d0045cd54fba23480c",
+  "raw_sha256": "19da59d8828409ee9b4396f15c8f13bf1525e8a6a6a5b9397411cb6eefce65fb",
+  "shape": [
+    16,
+    768,
+    1152
+  ],
+  "dtype": "uint8",
+  "support_xywh": [
+    4272,
+    1584,
+    1152,
+    768
+  ],
+  "main_xywh": [
+    4352,
+    1664,
+    1024,
+    640
+  ],
+  "source_offsets": [
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0,
+    -1,
+    -2,
+    -3,
+    -4,
+    -5,
+    -6,
+    -7
+  ],
+  "approximate_local_renderer": true,
+  "exact_upstream_reproduction": false,
+  "control_limit": "843/262144values differed,max1DN; pairedGPU gate required",
+  "borrowed_extract": {
+    "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0483a-surface-provenance01\\sections.py",
+    "source_sha256": "f0c40d7dde45dea07c79441f6098b37f9066d41b76d8fc2c1394220c33ed2776",
+    "function": "extract"
+  },
+  "CT_new_count": 103,
+  "CT_new_bytes": 216006656,
+  "all_zero_pixels": 0,
+  "planes": [
+    {
+      "index": 0,
+      "offset": 8,
+      "raw_sha256": "8d93309e2a3af36b77a9b051b7554a1b94b31c678f4af761927c8ed2e1387324",
+      "min": 3,
+      "max": 255,
+      "nonzero_values": 884736
+    },
+    {
+      "index": 1,
+      "offset": 7,
+      "raw_sha256": "f7cd7786bb1721512093549efb94fa11dcea9fe07c10508b58e613c167d7e94b",
+      "min": 6,
+      "max": 255,
+      "nonzero_values": 884736
+    },
+    {
+      "index": 2,
+      "offset": 6,
+      "raw_sha256": "8c3fefc1e38cddd043cc116df20d16deec8c596070b7c403c9e07725158ae885",
+      "min": 4,
+      "max": 255,
+      "nonzero_values": 884736
+    },
+    {
+      "index": 3,
+      "offset": 5,
+      "raw_sha256": "d60d421a18dc27757f80b4ec28759d65a21a276d96a60dead8dbb177d92c48ef",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884735
+    },
+    {
+      "index": 4,
+      "offset": 4,
+      "raw_sha256": "b0ab45fd842119ebf64bd7d4ef78f710eee07bcd5f68df424d90202838a841cc",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884735
+    },
+    {
+      "index": 5,
+      "offset": 3,
+      "raw_sha256": "5954c792b2cb55e531740febd8ec61134966f0b672773eef0d7faf9d5eb32290",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884735
+    },
+    {
+      "index": 6,
+      "offset": 2,
+      "raw_sha256": "3242d5ed6c9b98c51d5a24234e000436656ea1ee672826e5c8aaae00b120c02d",
+      "min": 4,
+      "max": 255,
+      "nonzero_values": 884736
+    },
+    {
+      "index": 7,
+      "offset": 1,
+      "raw_sha256": "1de9b69e204b459a1ce3e58e0189bb6365f551fc7d85c5078af810c921707fac",
+      "min": 6,
+      "max": 255,
+      "nonzero_values": 884736
+    },
+    {
+      "index": 8,
+      "offset": 0,
+      "raw_sha256": "fcaa9716bb970a95dafd33e5092697f395c45cff557034a7df68bd3f712dc898",
+      "min": 3,
+      "max": 255,
+      "nonzero_values": 884736
+    },
+    {
+      "index": 9,
+      "offset": -1,
+      "raw_sha256": "6b857c43c4dbd646be07d74f2729252841886b5ab48e7e3b1d2b8f2d791a0727",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884732
+    },
+    {
+      "index": 10,
+      "offset": -2,
+      "raw_sha256": "9606733343f4483c6551969a134852ac85d78141ec13f65a58912c614afb4605",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884730
+    },
+    {
+      "index": 11,
+      "offset": -3,
+      "raw_sha256": "b9391b5f96243ff33968df9d4f4d4ff40b519695c34fbddf8dce725d33e0e8cd",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884732
+    },
+    {
+      "index": 12,
+      "offset": -4,
+      "raw_sha256": "bd252720acc8ebaad1d9b2a0c9fe606e4366589a2554d65f06ea19b88e5c203a",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884731
+    },
+    {
+      "index": 13,
+      "offset": -5,
+      "raw_sha256": "ca4d29ea3a07a1cc45b9479e86576dc02d218dfddc2910c9346fde44843a8105",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884731
+    },
+    {
+      "index": 14,
+      "offset": -6,
+      "raw_sha256": "9efacd1a115731936b3b8ac91b4fdfa67d98b358271f9e42b180209b2558ced3",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884734
+    },
+    {
+      "index": 15,
+      "offset": -7,
+      "raw_sha256": "a6c6cab3ef45da3dfc3f2c8ccd825fe92693dec8256d7e5334c9c1069ea0e9f6",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884735
+    }
+  ],
+  "elapsed_seconds": 28.8407079000026,
+  "C_new_bytes": 294355178,
+  "C_free_bytes": 6223704064,
+  "GPU_forwards": 0
+}

@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-14T16:27:22.047650+00:00",
+  "rows": [
+    {
+      "case": "mesh4",
+      "input_values_exact": 10485760,
+      "geometry_mask_pixels": 462964,
+      "model_support_pixels": 458536,
+      "active_patches_per_order": 469,
+      "input_npy_sha256": "d727bb86bfdd241d212cd6fce61bcc2c2bb88a64e4cca1d13145a13ce1eda14d",
+      "all_patch_bytes_and_positions_equal": true
+    },
+    {
+      "case": "mesh5",
+      "input_values_exact": 8847360,
+      "geometry_mask_pixels": 371148,
+      "model_support_pixels": 366369,
+      "active_patches_per_order": 383,
+      "input_npy_sha256": "08c5c45ee037b02ebf465bd530b0fa32d833bcf410cc85cd6f18c933d24150bf",
+      "all_patch_bytes_and_positions_equal": true
+    }
+  ],
+  "patch_contract_sha256": "c908465ab382fe0fc90df3448293af2ee911d0f5f515b3a9b726d34e75920c0b",
+  "method": "No child code imported. Reconstruct native bounding rectangles directly from verified chunks; independently interpolate X then Y then Z and compare every uint8 value, both complete patch contracts and centre PNG.",
+  "new_network_model_Pod": 0
+}

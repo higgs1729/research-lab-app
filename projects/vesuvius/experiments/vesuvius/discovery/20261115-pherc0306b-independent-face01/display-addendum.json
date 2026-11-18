@@ -1,0 +1,30 @@
+[
+  {
+    "source": "upper-across-separate-overlay.png",
+    "output": "upper-across-separate-labelled.png",
+    "source_sha256": "c2344a59f91a7daa0ffa31cb19c062ecbe9d86230348ebbed128bed64e69d819",
+    "output_sha256": "d281fc130754e7799fefad9d114b0ffe38170cc2f36641ed0da6d4347c0be3b7",
+    "changes": "Caption describes dots accurately; labels only exact-on-path R226 sites."
+  },
+  {
+    "source": "upper-across-ancestors-overlay.png",
+    "output": "upper-across-ancestors-labelled.png",
+    "source_sha256": "17e1de9a4439382b2ce4917f4a6077a255f9f3afc99c46f1c1036e421f3cf7c9",
+    "output_sha256": "5055f69eace901666be00e3f94eadee19cf4f976f17a7fd818969606221ed6ef",
+    "changes": "Caption describes dots accurately; labels only exact-on-path R226 sites."
+  },
+  {
+    "source": "known-across-separate-overlay.png",
+    "output": "known-across-separate-labelled.png",
+    "source_sha256": "6fb6db488775e70e2e4bbf464b0bf841c8507420e6aed57ac76778bcf1470b4e",
+    "output_sha256": "61a7bfc5aa8078f80ef21cfb9df6526b01d9b6d06179816d1d46de667abaf33b",
+    "changes": "Caption describes dots accurately; labels only exact-on-path R226 sites."
+  },
+  {
+    "source": "known-across-ancestors-overlay.png",
+    "output": "known-across-ancestors-labelled.png",
+    "source_sha256": "c6dd1c82125b1754d43d35ae472c4597635139e6edbdf643b4ab665f66ad502e",
+    "output_sha256": "97df47be796bc6ae990d83f8834aac781a05af31e3dbd956b7af34395f038216",
+    "changes": "Caption describes dots accurately; labels only exact-on-path R226 sites."
+  }
+]

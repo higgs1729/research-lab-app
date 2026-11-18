@@ -1,0 +1,7 @@
+{
+  "content": "}\n\nIGL_INLINE double compute_soft_constraint_energy(const SCAFData &s)\n{\n  double e = 0;\n  for (auto const &x : s.soft_cons)\n    e += s.soft_const_p * (x.second - s.w_uv.row(x.first)).squaredNorm();\n\n  return e;\n}\n\nIGL_INLINE double compute_energy(SCAFData &s, const Eigen::MatrixXd &w_uv, bool whole)\n{\n  if (w_uv.rows() != s.v_num)\n    assert(!whole);\n  compute_jacobians(s, w_uv, whole);\n  double energy = compute_energy_from_jacobians(s.Ji_m, s.m_M, s.slim_energy);\n\n  if (whole)\n    energy += compute_energy_from_jacobians(s.Ji_s, s.s_M, s.scaf_energy);\n  energy += compute_soft_constraint_energy(s);\n  return energy;\n}\n\nIGL_INLINE void buildAm(const Eigen::VectorXd &sqrt_M,\n             const Eigen::SparseMatrix<double> &Dx,",
+  "encoding": "utf-8",
+  "sha": "87f66377b196be21cb9f4eccd1d1b07748341f09",
+  "display_url": "https://github.com/libigl/libigl/blob/main/include/igl/triangle/scaf.cpp",
+  "display_title": "scaf.cpp"
+}

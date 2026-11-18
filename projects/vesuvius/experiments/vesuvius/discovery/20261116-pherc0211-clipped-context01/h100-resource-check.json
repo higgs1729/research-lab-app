@@ -1,0 +1,34 @@
+{
+  "utc": "2026-11-15T16:51:04.969244+00:00",
+  "pod_id": "3spuikvh641nms",
+  "name": "r242-studio-3883a61468d540c4",
+  "dedicated_GET_status": 404,
+  "matching_pods": [],
+  "all_pods_count": 0,
+  "all_pods_selected": [],
+  "cleanup_before_actual_deadline": true,
+  "local_deadline_helper": null,
+  "unused_result_reservation_exists": false,
+  "results_archive_bytes": 12842731,
+  "billing_HTTP_status": 200,
+  "billing_query": {
+    "podId": "3spuikvh641nms",
+    "bucketSize": "hour",
+    "startTime": "2026-11-15T16:00:00+00:00",
+    "endTime": "2026-11-15T17:00:00+00:00"
+  },
+  "dedicated_billing_records": [],
+  "dedicated_billing_totals": {
+    "cpuAmount": 0,
+    "diskAmount": 0,
+    "gpuAmount": 0,
+    "totalAmount": 0
+  },
+  "billed_cost_status": "pending",
+  "account_balance_difference_not_used": true,
+  "precreate_to_confirmed_absence_seconds": 545.9241285324097,
+  "list_compute_hourly_USD": 4.39,
+  "elapsed_compute_estimate_USD": 0.6657241456270218,
+  "estimate_is_not_billed_cost": true,
+  "resource_mutations": 0
+}

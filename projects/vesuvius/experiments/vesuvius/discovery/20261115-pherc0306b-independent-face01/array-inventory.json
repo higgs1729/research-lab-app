@@ -1,0 +1,169 @@
+{
+  "u": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float64",
+    "value": null
+  },
+  "v": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float64",
+    "value": null
+  },
+  "P": {
+    "shape": [
+      245,
+      389,
+      3
+    ],
+    "dtype": "float64",
+    "value": null
+  },
+  "n": {
+    "shape": [
+      245,
+      389,
+      3
+    ],
+    "dtype": "float64",
+    "value": null
+  },
+  "ok": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "bool",
+    "value": null
+  },
+  "wA": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float32",
+    "value": null
+  },
+  "D_in": {
+    "shape": [
+      245,
+      389,
+      3
+    ],
+    "dtype": "float32",
+    "value": null
+  },
+  "U0": {
+    "shape": [],
+    "dtype": "float64",
+    "value": -36.0
+  },
+  "V0": {
+    "shape": [],
+    "dtype": "float64",
+    "value": -21.0
+  },
+  "CELL": {
+    "shape": [],
+    "dtype": "float64",
+    "value": 0.1728
+  },
+  "smooth_mm": {
+    "shape": [],
+    "dtype": "float64",
+    "value": 0.5
+  },
+  "x_A": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float32",
+    "value": null
+  },
+  "x_big": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float32",
+    "value": null
+  },
+  "x_R1": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float32",
+    "value": null
+  },
+  "x_L1": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float32",
+    "value": null
+  },
+  "x_z84_w072": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float32",
+    "value": null
+  },
+  "x_z84_w073": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float32",
+    "value": null
+  },
+  "x_z84_w074": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float32",
+    "value": null
+  },
+  "x_z84o_w073": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float32",
+    "value": null
+  },
+  "x_z84o_w074": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float32",
+    "value": null
+  },
+  "x_z84o_w075": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float32",
+    "value": null
+  },
+  "x_z84o_w076": {
+    "shape": [
+      245,
+      389
+    ],
+    "dtype": "float32",
+    "value": null
+  }
+}

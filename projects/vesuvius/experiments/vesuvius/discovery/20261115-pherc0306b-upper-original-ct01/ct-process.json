@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0306b-upper-original-ct01\\acquire_ct.py"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-15T08:08:15.380527+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "completed_utc": "2026-11-15T08:11:39.844283+00:00",
+  "elapsed_seconds": 204.4583932000096,
+  "max_rss_bytes": 49606656,
+  "user_cpu_seconds": 0.6875,
+  "sys_cpu_seconds": 0.328125
+}

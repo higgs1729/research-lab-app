@@ -1,0 +1,12 @@
+{
+  "review_date_jst": "2026-11-14",
+  "reviewer": "root",
+  "scope": ["2765_2952_4205.jpg at original detail", "2601_2784_3851.jpg at original detail", "report_card.py analyse/draw"],
+  "visual_observation": "Both published cards show broad saturated yellow patches. In 2601, strong patches lie near the diagonal central/lower-left CT band and branching upper-right features, with several adjacent dark holes or cracks. I cannot uniquely identify a sequence of separate letter strokes or lines from these cards.",
+  "candidate_text_roi": null,
+  "display_interpretation": "The fixed report_card.py draws the selected face's mean of two normalized predictions, normalized again and clipped with (x-0.5)/0.4, then masked by good, rather than the top-3-percent intersection used by the statistics. The saved JPEG's odd width does not match the direct source layout, so its export transform and exact source-to-card coordinates are unverified. Saturation and removal of weak responses may limit negative visual interpretation. No full continuous prediction or native CT layer was inspected here.",
+  "conclusion": "No legible text claim or transcription. Cannot decide whether the response is ink or crack-related from these derived JPEG cards alone.",
+  "next_step_consideration": "Use existing native continuous maps and CT first if publicly available. Their absence does not prevent a separately defined small experiment using the fixed published TIFXYZ seed/center: estimate minimum mesh and CT requirements, then diagnose sheet/crack geometry. Do not claim exact reproduction of a JPEG crop.",
+  "new_network_bytes": 0,
+  "new_product_model_runs": 0
+}

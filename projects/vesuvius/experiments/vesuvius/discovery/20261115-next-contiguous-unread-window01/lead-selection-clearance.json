@@ -1,0 +1,9 @@
+{
+  "approved": true,
+  "utc": "2026-11-14T17:08:52.544929+00:00",
+  "plan_sha256": "cf7ff888a58c86f6a4954692ecadb16305b54f13b11b1e71302131aa7d751c0c",
+  "evidence": "lead-selection-check.json",
+  "scope": "One new face4 crop[96,544,1024,1024],main[128,576,960,960],same16 planes both directions.79 new fullobjects and4 reused;no originalCT/newweights/cloud.",
+  "judgment": "Parent independently saw four native CT quadrants and verified exact range reconstruction/complete support. Accept wider exploratory observation; no paper-certification or ink claim.",
+  "next": "Prepare input,CPU6 and minimal one-case local worker; parent verifies changed input/runtime before the single GPU entry."
+}

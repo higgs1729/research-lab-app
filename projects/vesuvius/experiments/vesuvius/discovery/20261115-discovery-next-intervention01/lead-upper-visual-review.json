@@ -1,0 +1,26 @@
+{
+  "reviewer": "root",
+  "checked_utc": "2026-11-15T07:29:46.001413+00:00",
+  "agent_upper_visual_verdict_read": false,
+  "selection_not_blinded": true,
+  "published_image_xyxy": [
+    2600,
+    420,
+    3880,
+    1444
+  ],
+  "viewed_sha256": {
+    "claim-upper-lead-native.png": "137b6c0141ee6f4c51bd58e0e2bd9b64c8f5504b24399e4a5f8bccc4642b6733",
+    "trace-upper-lead-native.png": "5633a6b368175307f132c4c7c81f90a0b829136106c018e1a07e562a4c07ce70"
+  },
+  "observations": [
+    "Across the upper-lead crop there is a denser horizontal group of dark marks roughly local x350..1020,y240..480, separated from the sparse lower middle by a paler band.",
+    "Within that group, a bent/upright form on the left and several short separated dark marks or junctions to its right persist in the TRACE-alone display and claim display. Their ends and internal splits are broad, and I cannot assign a trustworthy character sequence.",
+    "This group has more context for a controlled follow-up than a single bright isolated spot, but it could still be an artefact. The two displays share TRACE, so their agreement is not independent corroboration.",
+    "This is already present in the author public image. Being outside the main dashed claim rectangle does not establish novelty or absence from other readers/submissions."
+  ],
+  "decision": "A provisional site for a bounded continuation experiment is defensible if exact raw/model/geometry provenance and prior-reading overlap are carried forward. It is not a newly discovered letter or a confirmed new text row.",
+  "confirmed_new_letters": 0,
+  "official_source_checked": "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the",
+  "official_fact": "The official Nov 2 2026 announcement reports the PHerc0306B First Letters award, multiple submissions to the same area, GrowPatch/m7 surface construction and TRACE times A-hn final output. This scroll is not a fresh First Letters opportunity."
+}

@@ -1,0 +1,57 @@
+{
+  "checked_utc": "2026-11-15T06:06:21.876085+00:00",
+  "denominator_includes_full961_grid_even_skips": true,
+  "rows": [
+    {
+      "condition": "mesh4-forward",
+      "all_active_patch_input_hashes_checked": 844,
+      "saved_probability_arrays_verified": 26,
+      "CPU_GPU_parity": [
+        {
+          "grid_index": 13,
+          "mae": 1.6389094525948167e-09,
+          "max": 1.7136335372924805e-07
+        },
+        {
+          "grid_index": 14,
+          "mae": 8.631417358628823e-09,
+          "max": 3.427267074584961e-07
+        },
+        {
+          "grid_index": 15,
+          "mae": 1.385565440159553e-08,
+          "max": 2.430751919746399e-07
+        }
+      ],
+      "PNG_values_exact": 1048576,
+      "unsupported_nonzero_values": 0
+    },
+    {
+      "condition": "mesh4-reverse",
+      "all_active_patch_input_hashes_checked": 844,
+      "saved_probability_arrays_verified": 26,
+      "CPU_GPU_parity": [
+        {
+          "grid_index": 13,
+          "mae": 3.4210643207188696e-09,
+          "max": 2.905726432800293e-07
+        },
+        {
+          "grid_index": 14,
+          "mae": 2.6218174298264785e-09,
+          "max": 8.102506399154663e-08
+        },
+        {
+          "grid_index": 15,
+          "mae": 9.200590511682094e-09,
+          "max": 1.0058283805847168e-07
+        }
+      ],
+      "PNG_values_exact": 1048576,
+      "unsupported_nonzero_values": 0
+    }
+  ],
+  "method": "Parent recomputes cosine Hann formula and all denominator pixels; checks every logged input against frozen positions/hashes and all recovered PNG values from raw numerators; independently compares6 saved GPU arrays to pre-GPU CPU.",
+  "new_model_forwards": 0,
+  "network_calls": 0
+}

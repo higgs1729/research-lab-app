@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-11-13T14:17:14.605744+00:00",
+  "repository": "higgs1729/vesuvius-workflow-improvements",
+  "commit": "a4aafd900a55793b69739143da025f41aba4631d",
+  "visibility": "public",
+  "all_85_remote_blob_and_mode_identities_match": true,
+  "old_snapshot_files_preserved": 51,
+  "other_preserved_files": 1,
+  "new_supplement_files": 32,
+  "root_readme_updated": true,
+  "anonymous_raw_sha256": {
+    "README.md": "56db0daabe0800900c7fa2807588d06d131dabc2952855443e865e8e8f6cde65",
+    "2026-11-supplement/MANIFEST.json": "93e23c4334ee9cb735998122f71db4eab661a2eeb6b7e471cf4a33bb81d0c1e4",
+    "2026-11-supplement/README.md": "4a0f8731b3e88f8af6c98d5c83c3d836020c36b0bcdbaebcb94051b8c00a07ab"
+  },
+  "submitted": false,
+  "upstream_pr_sent": false,
+  "external_adoption_established": false
+}

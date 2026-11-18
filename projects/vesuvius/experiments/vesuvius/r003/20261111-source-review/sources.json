@@ -1,0 +1,384 @@
+{
+  "date": "2026-11-11T19:42:24.0688565+09:00",
+  "main": "7ad02f4f6e306b744ef6d2742dfe31fd55713ee5",
+  "r001": "c86cbd14bb34e0124684d3d97b03b310c947819a",
+  "bytes": 868121.0,
+  "sources": [
+    {
+      "file": "apps__CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/apps/CMakeLists.txt",
+      "bytes": 5505,
+      "sha256": "fb9b7b27b16571e9bdabc7d5c63c75f7b446c60230072f95116abfc4bb53adb3",
+      "git_blob_sha1": "1b4259a866d1cb97204dd672faeb22a49e168806",
+      "r001_git_blob_sha1": "1b4259a866d1cb97204dd672faeb22a49e168806"
+    },
+    {
+      "file": "apps__VC3D__SegmentationCommandHandler.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/apps/VC3D/SegmentationCommandHandler.cpp",
+      "bytes": 81691,
+      "sha256": "7a53282735423a589a94b97357704d1e8d4b5b4b0028bfe4acb3fe334c55c630",
+      "git_blob_sha1": "dc3c2f70263499c0fec42c3249917964a20bf0c0",
+      "r001_git_blob_sha1": "dc3c2f70263499c0fec42c3249917964a20bf0c0"
+    },
+    {
+      "file": "CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/CMakeLists.txt",
+      "bytes": 41323,
+      "sha256": "23efb9488aad8b01a4abe176f88052a1b4b66e88e4db016a19ecca0c344c4119",
+      "git_blob_sha1": "467bac318a0ca4134daaedd28df8e0e0489a2421",
+      "r001_git_blob_sha1": "467bac318a0ca4134daaedd28df8e0e0489a2421"
+    },
+    {
+      "file": "core__CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/core/CMakeLists.txt",
+      "bytes": 9421,
+      "sha256": "7d8bf82d574896dc527f516e6629d060de2e871622d9b22d53721147d8858fb2",
+      "git_blob_sha1": "534c591cf429b239c42dd4b279e586a9281b4445",
+      "r001_git_blob_sha1": "534c591cf429b239c42dd4b279e586a9281b4445"
+    },
+    {
+      "file": "Dockerfile",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/Dockerfile",
+      "bytes": 1733,
+      "sha256": "464de2f480bdb43a8fde1ccc28bc63f10421e3f1c265603ef37b1f9575e4584b",
+      "git_blob_sha1": "f0ffc4fc03a4ead20547c341d5a86e78eec9f97e",
+      "r001_git_blob_sha1": "f0ffc4fc03a4ead20547c341d5a86e78eec9f97e"
+    },
+    {
+      "file": "github__workflows__vc3d-ci.yml",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/.github/workflows/vc3d-ci.yml",
+      "bytes": 22389,
+      "sha256": "b42f49bae75e06f97205ffe998ec02251bf2a3708b639e98e55df91733ee5af8",
+      "git_blob_sha1": "494ac028d324173a2cbe87eccd677066e88f49a1",
+      "r001_git_blob_sha1": "494ac028d324173a2cbe87eccd677066e88f49a1"
+    },
+    {
+      "file": "github__workflows__vc3d-linux.yml",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/.github/workflows/vc3d-linux.yml",
+      "bytes": 8736,
+      "sha256": "feb63284eb85d06a3ee1f4c2f5b99d46b39799e0c3c268fb4ca3121e4809d20b",
+      "git_blob_sha1": "6762a08f24906025a2b3266a2d5742444d2c1863",
+      "r001_git_blob_sha1": "6762a08f24906025a2b3266a2d5742444d2c1863"
+    },
+    {
+      "file": "github-issue-and-search.json",
+      "url": "https://github.com/ScrollPrize/villa/issues/2500",
+      "bytes": 18489,
+      "sha256": "4f72d094048fae96ec69af043571bce2b4e6865e87fa845d663df3d7d44fd8aa",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "issue-2500-timeline.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/issues/2500/timeline?per_page=100",
+      "bytes": 95,
+      "sha256": "b6033d9b352444d845e9b044bb66180a26649527e77b2ac6033d96feba517762",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "libs__flatboi__CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/libs/flatboi/CMakeLists.txt",
+      "bytes": 5147,
+      "sha256": "cfa25436c1e657ede2c8c3ac47ab2d7c8f15ae53bde1703a47c135135d074083",
+      "git_blob_sha1": "2665d8c787efd8166f7549fa24ec91d33682af53",
+      "r001_git_blob_sha1": "2665d8c787efd8166f7549fa24ec91d33682af53"
+    },
+    {
+      "file": "libs__flatboi__flatboi.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/libs/flatboi/flatboi.cpp",
+      "bytes": 45766,
+      "sha256": "7dffb8e27f4a3debbb7f530baaa673d0356af03e2e39a6f22355314ee1624ff6",
+      "git_blob_sha1": "2dcf5981008e6b68b8c29ef7e083fc769f40e163",
+      "r001_git_blob_sha1": "2dcf5981008e6b68b8c29ef7e083fc769f40e163"
+    },
+    {
+      "file": "libs__flatboi__tests__CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/libs/flatboi/tests/CMakeLists.txt",
+      "bytes": 1532,
+      "sha256": "d4d6906078341ef27f58db60198f4343cc8298b1ec7de4e3f6c21986d112a0d3",
+      "git_blob_sha1": "2b2fd4b3b8cc3053101f3cdda0799cef4f2b316b",
+      "r001_git_blob_sha1": "2b2fd4b3b8cc3053101f3cdda0799cef4f2b316b"
+    },
+    {
+      "file": "libs__flatboi__tests__README.md",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/libs/flatboi/tests/README.md",
+      "bytes": 2895,
+      "sha256": "f9c7779f24ca11f0261a033a99c307d5fbb12b034f2a151f6bebf9e7134f86d7",
+      "git_blob_sha1": "ef38db3bcb9c90d2bbaa433591db557320efdb4b",
+      "r001_git_blob_sha1": "ef38db3bcb9c90d2bbaa433591db557320efdb4b"
+    },
+    {
+      "file": "libs__flatboi__tests__test_slim_assembly.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/libs/flatboi/tests/test_slim_assembly.cpp",
+      "bytes": 20140,
+      "sha256": "e4873f3c590cf00d090d1a4093d5b04be30f7c450113241345f552f952bd3696",
+      "git_blob_sha1": "c8a932d20d2cf4debeb3330852fc244b122a9cb0",
+      "r001_git_blob_sha1": "c8a932d20d2cf4debeb3330852fc244b122a9cb0"
+    },
+    {
+      "file": "libs__libigl_changes__CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/libs/libigl_changes/CMakeLists.txt",
+      "bytes": 7870,
+      "sha256": "0c56bcf63904b4705c3b36626b910a10f6184f6398e6175ef6dc4bff1c3d2007",
+      "git_blob_sha1": "498caee7e77578efaa2242de4bcda3885599ad88",
+      "r001_git_blob_sha1": "498caee7e77578efaa2242de4bcda3885599ad88"
+    },
+    {
+      "file": "main-branch.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/branches/main",
+      "bytes": 213,
+      "sha256": "ce94d03100704ff9a6931979a68f4954d96efe16ee3284ae60bfa4d19e0d53f8",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "main-flatboi-history.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/commits?sha=main&path=volume-cartographer/libs/flatboi&per_page=25",
+      "bytes": 260589,
+      "sha256": "2cd8a0d11efe419a2af755d7a2c8a5caa0be5431bd54136a633d327da89bbfa4",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "pr-1012.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/1012",
+      "bytes": 1402,
+      "sha256": "c1cd79fd0da8b9061b5fd25b553ec36ee04c3e3d714eb7787e0e62a30a80f465",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "pr-1854.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/1854",
+      "bytes": 2614,
+      "sha256": "8e849397d42b2fa1624edb8e9375d99f7156e9689e6fe3acd1527e58e6da0f7e",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "pr-2158.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/2158",
+      "bytes": 8762,
+      "sha256": "3dcc41c0cfd109c9cf854cba1ec75b8b12be4783bbe90fbd9914c3686ee319e1",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "pr-941.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/941",
+      "bytes": 2750,
+      "sha256": "93fd90647d917fd8ae192ba228ce82ff26d6549482f078883c70459f72b1f3f5",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "pr-945.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/945",
+      "bytes": 259,
+      "sha256": "9f41a4e6b943c8918a71bb0b0df88ac84734c1fd16d7102aef0be9a7ec74e40a",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "README.md",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/README.md",
+      "bytes": 26355,
+      "sha256": "355670aa7ff7fb379849d4af1bcb43fb69cecd85ba84da2d9cdee0d2161cfd74",
+      "git_blob_sha1": "353ae4796ba500a91c4a49b13e32623b0ddb8f84",
+      "r001_git_blob_sha1": "353ae4796ba500a91c4a49b13e32623b0ddb8f84"
+    },
+    {
+      "file": "s3-comment-segment-list.xml",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&max-keys=100&prefix=PHerc0814%2Fsegments%2F20250928235953-auto_grown_20250928235953722%2Fmesh%2Fintermediate%2Ftifxyz_original%2F",
+      "bytes": 1956,
+      "sha256": "6924c8aa3d746c72cf435f365932d29b009fac189fbaff9d2126441a54ef00be",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "s3-comment-segment-meta.json",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250928235953-auto_grown_20250928235953722/mesh/intermediate/tifxyz_original/meta.json",
+      "bytes": 1144,
+      "sha256": "876bf0f7c351641a5e541a004e159af8e4550601b96d08d152e92ab9c7486e44",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "s3-reproducer-list.xml",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/?list-type=2&max-keys=100&prefix=PHerc0814%2Fsegments%2F20250929040153-auto_grown_20250929040153260%2Fmesh%2Fintermediate%2Ftifxyz_original%2F",
+      "bytes": 1953,
+      "sha256": "ea5b7f8b3dddcdd60d274245be917b248f7b467199f76aae50e6eb748a0141b6",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "s3-reproducer-meta.json",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250929040153-auto_grown_20250929040153260/mesh/intermediate/tifxyz_original/meta.json",
+      "bytes": 1148,
+      "sha256": "36dc7600f31d7f16fc252d8ab5b3ce57931a399c48343d2821436a3c1b0e6317",
+      "git_blob_sha1": null,
+      "r001_git_blob_sha1": null
+    },
+    {
+      "file": "spiral-fitting__render_ink.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/spiral-fitting/render_ink.py",
+      "bytes": 35068,
+      "sha256": "dc97ca8956342c4b65522593c9f302aecb3485bec3e7d7bd4d055058c1e8878e",
+      "git_blob_sha1": "86b9e3c52988ada89fe10b57a1002fdbf2e0c5c5",
+      "r001_git_blob_sha1": "86b9e3c52988ada89fe10b57a1002fdbf2e0c5c5"
+    },
+    {
+      "file": "vc_object_store__CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/vc_object_store/CMakeLists.txt",
+      "bytes": 4696,
+      "sha256": "2560035158e9bde2116b88cae627ae4935bd1ce88b0b24f4e12e99054873c9f1",
+      "git_blob_sha1": "d1ca7510b925736064e5dfd682d0ace2f1c0c270",
+      "r001_git_blob_sha1": "d1ca7510b925736064e5dfd682d0ace2f1c0c270"
+    },
+    {
+      "file": "vc_object_store__src__CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/vc_object_store/src/CMakeLists.txt",
+      "bytes": 7958,
+      "sha256": "7e44d03dfe54c9b903289c0c72f1dabaa3c73eda27bfcf3699658623d38b4091",
+      "git_blob_sha1": "1353a61264ce22dc5f51a12541d3c766dcc0542e",
+      "r001_git_blob_sha1": "1353a61264ce22dc5f51a12541d3c766dcc0542e"
+    },
+    {
+      "file": "vc_reader__cmake__NativeReader.cmake",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/vc_reader/cmake/NativeReader.cmake",
+      "bytes": 6796,
+      "sha256": "cfed58ee01f03f8045c5b2cc0647d5c658a429fd83d1b503c9ebe9112e61f2d5",
+      "git_blob_sha1": "8905cac1f8268d38c6f31966a9692819006d8891",
+      "r001_git_blob_sha1": "8905cac1f8268d38c6f31966a9692819006d8891"
+    },
+    {
+      "file": "vc_reader__cmake__NativeTargets.cmake",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/vc_reader/cmake/NativeTargets.cmake",
+      "bytes": 8201,
+      "sha256": "82619b706134051a6a49364f91c185d37f2bc266f03d9a23b28de893519eefad",
+      "git_blob_sha1": "2ac081751e099f50cab08604b1c626be35e6fd5f",
+      "r001_git_blob_sha1": "2ac081751e099f50cab08604b1c626be35e6fd5f"
+    },
+    {
+      "file": "vc_reader__CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/vc_reader/CMakeLists.txt",
+      "bytes": 17502,
+      "sha256": "d15412a8482575db4876c5a7c3e6f5a45693a30a8d03c3751eb0337e7aa1efd7",
+      "git_blob_sha1": "ad644d2a9319d80a9fa6ff3044e396838bc1e7b8",
+      "r001_git_blob_sha1": "3b463472df519971520b77671c2e561c377800f1"
+    },
+    {
+      "file": "vc_reader__third_party__volcomp__CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/vc_reader/third_party/volcomp/CMakeLists.txt",
+      "bytes": 1457,
+      "sha256": "bec4ac93f8083a1203f442136dadc2c141acf1eb74662a20063b15f5de0a3973",
+      "git_blob_sha1": "206574f1f09f4da734612c9cc48c3eb2397c3784",
+      "r001_git_blob_sha1": "206574f1f09f4da734612c9cc48c3eb2397c3784"
+    },
+    {
+      "file": "vcpkg.json",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/vcpkg.json",
+      "bytes": 918,
+      "sha256": "75595104834515ce4c4118c831b86730a449ed3be56395f3803ca37ea3c74746",
+      "git_blob_sha1": "1ac9adbcaae21ac3d1392d8ea3fa6eb8151e5bd8",
+      "r001_git_blob_sha1": "1ac9adbcaae21ac3d1392d8ea3fa6eb8151e5bd8"
+    },
+    {
+      "file": "volume-cartographer__apps__src__vc_tifxyz2obj.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/apps/src/vc_tifxyz2obj.cpp",
+      "bytes": 16386,
+      "sha256": "d0ebf3caf530d007c0fc67e43b733c70d1264b8cca5994a1fb8f5ce946c6e3fa",
+      "git_blob_sha1": "f7b4d45280cd0bd4999998aa1a7e6bdd5e736bb5",
+      "r001_git_blob_sha1": "f7b4d45280cd0bd4999998aa1a7e6bdd5e736bb5"
+    },
+    {
+      "file": "volume-cartographer__cmake__FetchLibigl.cmake",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/cmake/FetchLibigl.cmake",
+      "bytes": 474,
+      "sha256": "4ca2934d48e56526c83d02595addef3cc2fa51218e2ba7b10a48cc5883af37d2",
+      "git_blob_sha1": "a75455e03e0c1e6121043724c656509cf0ad4c4f",
+      "r001_git_blob_sha1": "a75455e03e0c1e6121043724c656509cf0ad4c4f"
+    },
+    {
+      "file": "volume-cartographer__cmake__ObjectStore.cmake",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/cmake/ObjectStore.cmake",
+      "bytes": 2507,
+      "sha256": "8f9d060f24bb173d8f8aeb5040b942e66a23c5629cca5821af70723c28ae7957",
+      "git_blob_sha1": "697160507252891922756e26a6815ceb1dbb864d",
+      "r001_git_blob_sha1": "697160507252891922756e26a6815ceb1dbb864d"
+    },
+    {
+      "file": "volume-cartographer__CMakePresets.json",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/CMakePresets.json",
+      "bytes": 14751,
+      "sha256": "f58ab2e72f747991a8b91dd80c061395dc3b40e00b8234aef9efe6ae3e393fa6",
+      "git_blob_sha1": "c51e12ec363760feee4af85f790fd7af5a2184b6",
+      "r001_git_blob_sha1": "c51e12ec363760feee4af85f790fd7af5a2184b6"
+    },
+    {
+      "file": "volume-cartographer__core__include__vc__core__util__SurfaceMeshing.hpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp",
+      "bytes": 5682,
+      "sha256": "a32b0045134b4a56737991ec6b7a682efed66fc89b1ae74164e0ed80bef1453c",
+      "git_blob_sha1": "4c6f3a3c6915985bbe56e30e4993ef9d715ead26",
+      "r001_git_blob_sha1": "4c6f3a3c6915985bbe56e30e4993ef9d715ead26"
+    },
+    {
+      "file": "volume-cartographer__core__src__QuadSurface.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/core/src/QuadSurface.cpp",
+      "bytes": 43887,
+      "sha256": "fe0be9b172db8d6557b771319421f9a801f3ebb9600ca975729ea43b756de758",
+      "git_blob_sha1": "0e61bbc807086453e2532c146857f85da8d84de4",
+      "r001_git_blob_sha1": "0e61bbc807086453e2532c146857f85da8d84de4"
+    },
+    {
+      "file": "volume-cartographer__core__src__SurfaceMeshing.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/core/src/SurfaceMeshing.cpp",
+      "bytes": 31420,
+      "sha256": "761265e6ef324127193e09577acbbdb90c0055df9a974d7c3631f6c5246f2462",
+      "git_blob_sha1": "8a066104309f320d52f563c578ee81c171c38d51",
+      "r001_git_blob_sha1": "8a066104309f320d52f563c578ee81c171c38d51"
+    },
+    {
+      "file": "volume-cartographer__core__test__CMakeLists.txt",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/core/test/CMakeLists.txt",
+      "bytes": 29374,
+      "sha256": "c52a5ddc45626809f2002b08e9b45cad0647968683f7be563262c6f1460267c7",
+      "git_blob_sha1": "491b3c8d394b37ead0d74614657379b457d7d4bf",
+      "r001_git_blob_sha1": "491b3c8d394b37ead0d74614657379b457d7d4bf"
+    },
+    {
+      "file": "volume-cartographer__core__test__test_surface_meshing.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/core/test/test_surface_meshing.cpp",
+      "bytes": 5797,
+      "sha256": "0cfea40f86c15ca94251ff5fd935b8b830fd9eee382f6ce0b3883d63ffdf0624",
+      "git_blob_sha1": "a8c4a554a4a7dda170a54778fd4e817d2bb3d6b7",
+      "r001_git_blob_sha1": "a8c4a554a4a7dda170a54778fd4e817d2bb3d6b7"
+    },
+    {
+      "file": "volume-cartographer__core__test__test_tool_store_modes.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/core/test/test_tool_store_modes.cpp",
+      "bytes": 19491,
+      "sha256": "01bf83457b45adf05a3c12867d2a12602481b689b54c20779c1f81408fa1bb74",
+      "git_blob_sha1": "8b9a8e650867269cad120d57317a631a2039d443",
+      "r001_git_blob_sha1": "8b9a8e650867269cad120d57317a631a2039d443"
+    },
+    {
+      "file": "volume-cartographer__libs__libigl_changes__include__igl__slim.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/libs/libigl_changes/include/igl/slim.cpp",
+      "bytes": 31156,
+      "sha256": "39d154a0b399ef950755954192b00f445ee3b22c6be69893fb5725ae4187b82a",
+      "git_blob_sha1": "d303bc5e51cdde524a982533833bd4f60ef677e6",
+      "r001_git_blob_sha1": "d303bc5e51cdde524a982533833bd4f60ef677e6"
+    },
+    {
+      "file": "volume-cartographer__scripts__install_build_deps.sh",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/7ad02f4f6e306b744ef6d2742dfe31fd55713ee5/volume-cartographer/scripts/install_build_deps.sh",
+      "bytes": 2723,
+      "sha256": "f4300bd193d72d7fc75ae25c48cc9cf68f449878e854df9a5da8a54fbdd39c8a",
+      "git_blob_sha1": "74f1096bea9dbe689283757da35554b7089f242a",
+      "r001_git_blob_sha1": "74f1096bea9dbe689283757da35554b7089f242a"
+    }
+  ]
+}

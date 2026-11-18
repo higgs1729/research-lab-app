@@ -1,0 +1,43 @@
+{
+  "prefix_recovered_without_rerunning_snap": true,
+  "previous_stop": "R216 writer adapter only accepted same-level output path; paths nested for meta.json.",
+  "core_uv_halfopen": [
+    0,
+    8,
+    106,
+    50
+  ],
+  "halo_uv_halfopen": [
+    0,
+    0,
+    117,
+    56
+  ],
+  "mesh_sha256": {
+    "meta.json": "2bd8a889650b7838319098d4229b29a289f5115488054ae76e625a3d818502cb",
+    "x.tif": "f775a0d98825764557daab5b06c839c28f1563f406e5b7fa95e956bede1d802e",
+    "y.tif": "44175ae4080b634905aa63e4108323b5dcc83ff130343e644ce1998bf4d12207",
+    "z.tif": "592076a544299b3ebda9a75f078f8f8a9e76b15b655fa3ca43efb79a3312ac8f"
+  },
+  "moved_points": 4348,
+  "outside_core_vertices_unchanged": 9828,
+  "max_move_voxel": 12.197882652282715,
+  "cases": {
+    "halo_included": {
+      "normal_valid": 4808,
+      "direct_hits": 4521,
+      "rejected": 902,
+      "applied": 4808,
+      "applied_without_direct": 287
+    },
+    "core_only": {
+      "normal_valid": 4349,
+      "direct_hits": 4085,
+      "rejected": 834,
+      "applied": 4349,
+      "applied_without_direct": 264
+    }
+  },
+  "source_upstream": "same fixed R216 arithmetic",
+  "upstream_snap_calls": 1
+}

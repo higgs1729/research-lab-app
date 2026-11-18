@@ -1,0 +1,129 @@
+{
+  "files": {
+    "acquire.py": {
+      "bytes": 4935,
+      "sha256": "114832616088b042e8e3d50e8d352e61d66f0ff4e75343173a05e62a12797b33"
+    },
+    "acquisition-plan.json": {
+      "bytes": 2968,
+      "sha256": "eb9d4d3a5ee4547677b5f25a785ee5487583cb1a88fe01af01adf48b45bea6db"
+    },
+    "acquisition-result.json": {
+      "bytes": 284,
+      "sha256": "b9c1bf3dda6f6ffe5f7c6236951c94030a3245906685120cd21c7ad15793af79"
+    },
+    "analysis-process.json": {
+      "bytes": 683,
+      "sha256": "cb265850a45edd897fa18183e346b817d00728f27e764ea58270c84f97c5ac7d"
+    },
+    "assessment.json": {
+      "bytes": 1003,
+      "sha256": "1752a33fec82b4156ccc81deda8e22934991ce0222949c532ead351b05b38798"
+    },
+    "check-native-process.json": {
+      "bytes": 687,
+      "sha256": "0227c009811fd417a585ebf0a17b50c9e12cd54d8d35d45e8d41477d03cca2d5"
+    },
+    "check_native.py": {
+      "bytes": 1149,
+      "sha256": "7a14d1743f1888fc54a02aaef92f5acdd1808b8bef0d218fed9b18891e1aabc6"
+    },
+    "comparison.png": {
+      "bytes": 2356465,
+      "sha256": "c9fdb18f65eb60360865a21a10252a71baa36173689c7a13b2ec93a95a7cc82a"
+    },
+    "fixed-tree.json": {
+      "bytes": 17217,
+      "sha256": "b9610e88474a1caadfe40dae0d06d20ff753cc3ef7e94b79a4361901061a2f53"
+    },
+    "get.jsonl": {
+      "bytes": 1862,
+      "sha256": "462c0f60e320bcb1b11e09d6fb45b489376f109ae2b48c0083a22e774f3cc726"
+    },
+    "lead-check.json": {
+      "bytes": 1505,
+      "sha256": "ae55a461d39f1b4e201e8490122e649671fb8d1d20bf16153a9b31b73c0f22c7"
+    },
+    "lead_check.py": {
+      "bytes": 2154,
+      "sha256": "2093b55757b3bae86936ef4a5263a763c26b129382a00a05c07b71f20ee3ba3e"
+    },
+    "native-boxes.json": {
+      "bytes": 532,
+      "sha256": "a129f4bd89264305e6d4c2df85bb521126babdcf4b4fab334d12881d9788b849"
+    },
+    "native-check.json": {
+      "bytes": 819,
+      "sha256": "7c2cfccbf6b5e246d78837834948e072a2005cab30568e4696cd10dd39021dab"
+    },
+    "native-lower.png": {
+      "bytes": 1186897,
+      "sha256": "cf91ecb0d1e8c283e3c91f2d5bb09b7b4d21b2c7b17351d5f3c4d25a5a1a5279"
+    },
+    "native-main-center.png": {
+      "bytes": 828290,
+      "sha256": "1407c99cf98b991993bbd660b8c87ae84bb9a82029c73535fab09bf63301794a"
+    },
+    "native-main-left.png": {
+      "bytes": 1181549,
+      "sha256": "67527e2693fbcb830d40f33351671a0f8aaaa178b26958d7da6b0bcb4236d5a6"
+    },
+    "native-process.json": {
+      "bytes": 685,
+      "sha256": "dad4c9d428db84e502f4166613404381698a5a2e23619a4964bc45d1046b1328"
+    },
+    "native_view.py": {
+      "bytes": 1210,
+      "sha256": "17980b2766c97c955906040d5d833a1d19faf1d2c8a798705f4cbfd5234e964b"
+    },
+    "official-award.html": {
+      "bytes": 214570,
+      "sha256": "b0fe004a19c71fea75a6ac3b2b9f5bfb460bddad272e0a93928cd5578c07c9b8"
+    },
+    "originals/ct.png": {
+      "bytes": 4947383,
+      "sha256": "1050da1a19ab63f73a9bc662132ea5088d041c70a04b382ccd87fd9252ef6547"
+    },
+    "originals/forward.png": {
+      "bytes": 3181902,
+      "sha256": "99d6d7644205e69f4141fcce41127629c061ae98797f2cf2d6c57e01243cd0aa"
+    },
+    "originals/reverse.png": {
+      "bytes": 3182382,
+      "sha256": "abe484095057200668181dd92c3ad3fdb104e8cd7fbbab1cc01017e3baaba182"
+    },
+    "pixels.json": {
+      "bytes": 1101,
+      "sha256": "308c571e027e3b69ab19f893c867374bf7f5271c274d98641274e4646f4c44dd"
+    },
+    "prepare_view.py": {
+      "bytes": 1872,
+      "sha256": "f9e9de6c500cb508f144cdddfcc347c0d7881809c0458b6ca041bdc0ebb450f7"
+    },
+    "primary-sources.json": {
+      "bytes": 2918,
+      "sha256": "142301259e32cfb658fac1938ab6e779f37acde96aa3fd4f154f1948813dcee6"
+    },
+    "README.md": {
+      "bytes": 4906,
+      "sha256": "fb50ebda6a4988119548a5e986b7b1ad43d6095505a1664b6429b8a0b9a26f48"
+    },
+    "source-match.json": {
+      "bytes": 771,
+      "sha256": "227ccdefd2e018b63836a40262f1e4a0fe4757cb34009d79ed1806a6084205de"
+    },
+    "surface-meta.json": {
+      "bytes": 23415,
+      "sha256": "1234a11a1106e7dd4a9092145ba543a0359ca43a83b2249d280e5175aad19fb7"
+    },
+    "survey-readme.md": {
+      "bytes": 19434,
+      "sha256": "1690d95db61f4588e156f7801910a316084c861dd32d3bac2607e612c017c9ff"
+    },
+    "winner-readme.md": {
+      "bytes": 3868,
+      "sha256": "2be15c8d1cf6d3db49d051454687360f522a5673052cd40ae3ad93ccdc7c6299"
+    }
+  },
+  "total_before_manifest_and_record": 17175416
+}

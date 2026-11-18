@@ -1,0 +1,81 @@
+{
+  "atlas_revision": "ac5ffd7098120368216948c4e06c494bf8e67178",
+  "surface": "surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748",
+  "metadata": [
+    {
+      "url": "https://huggingface.co/api/datasets/SharpMeow/first-letters-ink-atlas/tree/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748?recursive=true",
+      "output": "fixed-tree.json",
+      "bytes": 17574,
+      "sha256": "5de51350abdfd3d0c5e911600ab70f4b3b2b250f2053e64a16a5781926232818",
+      "etag": "W/\"44a6-j/GWqg8+UrXc/radYd8Ze51SHJo\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T07:05:08.815378+00:00"
+    },
+    {
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/meta.json",
+      "output": "surface-meta.json",
+      "bytes": 23280,
+      "sha256": "932d52dedeefeedabace519aeaee00f6626aa0729457c625834ed5dd6141faa6",
+      "etag": "\"5921d473de960c42e460a919cf2859854eef4cdc\"",
+      "repo_commit": "ac5ffd7098120368216948c4e06c494bf8e67178",
+      "utc": "2026-11-14T07:05:09.198646+00:00"
+    }
+  ],
+  "files": [
+    {
+      "path": "ct_mid.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/ct_mid.png",
+      "output": "originals/ct-mid.png",
+      "bytes": 2706889,
+      "lfs_sha256": "cc52e9e84ecaee3f7ff5ced9f600fb87f5c89bb29f891c1286507f2a2ba1a6de"
+    },
+    {
+      "path": "maps/hecate-9.6/c+0_s1_forward.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/maps/hecate-9.6/c%2B0_s1_forward.png",
+      "output": "originals/hecate-9.6-forward.png",
+      "bytes": 221617,
+      "lfs_sha256": "53313354079176fdd486f9aa327fbaaace16c1c45b0604dc0ce7f3a880720487"
+    },
+    {
+      "path": "maps/hecate-9.6/c+0_s1_reverse.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/maps/hecate-9.6/c%2B0_s1_reverse.png",
+      "output": "originals/hecate-9.6-reverse.png",
+      "bytes": 203721,
+      "lfs_sha256": "8379a080c3f15c6cf53e3b17c5cd8bf995a06a34a600b32d3f3ddfb231c7e601"
+    },
+    {
+      "path": "maps/reader-v3/c+0_s1_forward.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/maps/reader-v3/c%2B0_s1_forward.png",
+      "output": "originals/reader-v3-forward.png",
+      "bytes": 798646,
+      "lfs_sha256": "3916b878e1b881384929c579b3afb67e8a39e22707884f68ee9f66506b6b2e0c"
+    },
+    {
+      "path": "maps/reader-v3/c+0_s1_reverse.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/maps/reader-v3/c%2B0_s1_reverse.png",
+      "output": "originals/reader-v3-reverse.png",
+      "bytes": 807632,
+      "lfs_sha256": "85b6490be83baa13ff73657cc3c5a5d84c0596eb11087c93aaa2fb998fd12a50"
+    },
+    {
+      "path": "maps/ink_9um-s42/c+0_s1_forward.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/maps/ink_9um-s42/c%2B0_s1_forward.png",
+      "output": "originals/ink_9um-s42-forward.png",
+      "bytes": 1686636,
+      "lfs_sha256": "239208d3c24399ebd2e56ce2f42d0253b231e08ef2851d5759004fd7681648e9"
+    },
+    {
+      "path": "maps/ink_9um-s42/c+0_s1_reverse.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/maps/ink_9um-s42/c%2B0_s1_reverse.png",
+      "output": "originals/ink_9um-s42-reverse.png",
+      "bytes": 1690198,
+      "lfs_sha256": "e2109a5dfcaaf520a7fe8c90a0367a5e62589e09882b442fef7fb7e387372cfd"
+    }
+  ],
+  "image_total_bytes": 8115339,
+  "image_limit_bytes": 67108864,
+  "metadata_limit_bytes": 1048576,
+  "network_limit_seconds": 300,
+  "image_bodies_allowed": true,
+  "elapsed_at_preflight_seconds": 0.718267599993851
+}

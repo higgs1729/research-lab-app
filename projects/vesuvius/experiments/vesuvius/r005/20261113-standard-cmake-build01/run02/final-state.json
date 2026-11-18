@@ -1,0 +1,23 @@
+{
+  "last_phase": "native",
+  "utc": "2026-11-13T13:06:51.320722+00:00",
+  "protected_after": {
+    "/mnt/d/kensyoukin-work/r003-build/CMakeCache.txt": "abf299eea98d3e50448047e195c677abcdca167899f284af0e229b5a52d4b09d",
+    "/mnt/d/kensyoukin-work/r003-build/build.ninja": "69d995d3c61969f8aca07ce25f1ce328e8fbbaf39774f610c202c4bbbd11838a",
+    "/mnt/d/kensyoukin-work/r003-build/compile_commands.json": "f0a73c918273d913ad23451b29ed3ee685062cde0278d568350ba1f8fa11ae7b",
+    "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+    "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf",
+    "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "a32b0045134b4a56737991ec6b7a682efed66fc89b1ae74164e0ed80bef1453c",
+    "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/core/src/SurfaceMeshing.cpp": "761265e6ef324127193e09577acbbdb90c0055df9a974d7c3631f6c5246f2462",
+    "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp": "3eeb1bc7225c5588007e2dc9b54aa04523745d0a4e8e4f1321681ee5d77cd36c",
+    "/mnt/d/kensyoukin-work/r003-build/_deps/pastix-src/CMakeLists.txt": "80fb671caeb97eb6d6ece283794a8b10aa43e695e4cd72f019e24954709bcbaa",
+    "/mnt/d/kensyoukin-work/r003-build/_deps/pastix-src/spm/CMakeLists.txt": "f2ca91101476d6577c1bca7f7573e777267cee7b85af12f90f6ec8bb4168e108",
+    "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/CMakeLists.txt": "0c56bcf63904b4705c3b36626b910a10f6184f6398e6175ef6dc4bff1c3d2007",
+    "/mnt/c/dev/kensyoukin/deliverables/vesuvius/grid-preserving-supplement-20261113/patches/01-pack-components.patch": "579beabe7377499bf91a654ac0931b786a11314a3a3298bf6d934ca9643926d8",
+    "/mnt/c/dev/kensyoukin/deliverables/vesuvius/grid-preserving-supplement-20261113/patches/02-preserve-grid.patch": "798bbeb57c9c991e7a09a7138bac886848ca7be776210d7733f57a25d54a3c8c",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261113-grid-preserving-native01/source-sha256.json": "206c44b5cea6f47d7a2cd787bd77e6cfaa209b03fa5bf12ffcfe0040c8adbff6"
+  },
+  "protected_unchanged": true,
+  "work_bytes": 1449947136,
+  "C_free_bytes": 45297172480
+}

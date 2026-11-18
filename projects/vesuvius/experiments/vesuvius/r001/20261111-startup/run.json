@@ -1,0 +1,12 @@
+{
+  "observed_at": "2026-11-11T08:41:02.2140328Z",
+  "command": "python -X utf8 -B reproduce_gen19_rotation.py --published",
+  "elapsed_seconds": 3.2175533,
+  "python_version": "Python 3.14.6",
+  "source_sha256": "6F9DFF457141256B2F1EA970357982B0FDFBC1E6AC337BBB8AF67BC1BC45F287",
+  "result_sha256": "27A5CBFCE3BAAC5187F4E4824F096B2B2B5FE829F498E4EC364F3F05A0E4FEB7",
+  "paid_compute_usd": 0,
+  "total_research_cost": null,
+  "cost_scope": "No paid compute provisioned; LLM usage and local electricity not priced",
+  "limitation": "Metadata and synthetic checks only; no real ink-label alignment validation"
+}

@@ -1,0 +1,9 @@
+{
+  "upstream_git_blob": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6",
+  "upstream_sha256": "2d315d553b698943c15fad0021da3b75a5c1d5ebd03c005c1b66f3c16fe52798",
+  "products": {
+    "guard": "d78dd95e9262a1a3cb9b49c7a01b10ca136b81223cf56136a38a7f5b3819cbcb",
+    "baseline-observe": "39268d050f040af2ce9e8f10ade66532f99172484d166ba3bb7aaf343d21db46",
+    "guard-observe": "fb18bd1bc2781e549e2774a76393b318aa3c20ddae0ee658c52e3554d70d45eb"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "reviewer": "root",
+  "model_forward_calls": 0,
+  "new_download_bytes": 0,
+  "runner_checks": [
+    {
+      "file": "early-release-runners.py",
+      "sha256": "4c62eb1805fe16eb6f4444071eedf022ffa7f5dda0c75967d02118f36dea692a",
+      "window_function_line": 46,
+      "sub_selection_line": 326,
+      "selected_65": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "selected_33": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "file": "near-release-runners.py",
+      "sha256": "f7a19167e1ddc675eaf1d74d54c0c666016500f6b79ed2c15564acdcc0856458",
+      "window_function_line": 46,
+      "sub_selection_line": 328,
+      "selected_65": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39
+      ],
+      "selected_33": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    }
+  ],
+  "vendor_identical_to_used_hf_source": true,
+  "vendor_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "sdk_checkpoint_matches_used_checkpoint": true,
+  "sdk_profile": {
+    "schema": "ink-sdk.profile.v1",
+    "id": "hecate@9.6um",
+    "adapter": "hecate",
+    "family": "surface-volume-3d2d",
+    "source": {
+      "repo": "scrollprize/hecate",
+      "revision": "9cb86e500e944b11a06a7020403cde5dffb5bcb2",
+      "upstream": "scrollprize/hecate",
+      "upstream_revision": "9cb86e500e944b11a06a7020403cde5dffb5bcb2",
+      "url": "https://huggingface.co/scrollprize/hecate",
+      "license": "MIT"
+    },
+    "checkpoint": {
+      "path": "hecate/hecate_9.6um.pth",
+      "upstream_path": "hecate_9.6um.pth",
+      "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+      "bytes": 522576086
+    },
+    "input": {
+      "kind": "surface-volume",
+      "family": "surface-volume-3d2d",
+      "scale_um": 9.6,
+      "scale_tolerance_um": 0.192,
+      "depth": 16,
+      "normalization": "divide-255-no-clip",
+      "divisor": 255.0,
+      "tile": 64,
+      "stride": 32,
+      "min_valid_ratio": 0.0
+    },
+    "execution": {
+      "direction": "forward",
+      "batch": 1,
+      "amp": "fp32"
+    },
+    "output": {
+      "primary": "forward",
+      "no_ink_floor": 0.0,
+      "floor_provenance": "not-declared"
+    }
+  },
+  "manual_review": "SDKModel.run selects volume[idx] first, passes _prepared(sub) to HecateAdapter.run. Its one(reverse_z) passes that prepared array to byte-identical hecate.predict; no explicit depth reselection intervenes. SDK converts uint8 predictions to float32 /255. Actual atlas invocation precision and full render are not proven by this source chain.",
+  "conclusion": "The two pinned runner versions use crop-then-reverse. This differs by one layer from reversing the whole odd-depth source before its central even-depth crop.",
+  "historical_limit": "No per-output atlas generation receipt links the published PNG uniquely to this exact runtime. Do not call this proof of historical execution or image-difference causality."
+}

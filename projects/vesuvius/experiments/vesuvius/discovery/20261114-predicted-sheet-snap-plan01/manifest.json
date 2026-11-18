@@ -1,0 +1,170 @@
+{
+  "generated_utc": "2026-11-14T14:47:00.086828+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/collect_sources.py",
+      "bytes": 2859,
+      "sha256": "c9be3c301dda62e769e4be1fac5bc5088842aabbfe59266bdd930c52204db920"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/head_support.py",
+      "bytes": 1728,
+      "sha256": "f3e23fdee048daf242e87d82aaa8e9d5fcf279855a0d04262e594d2f9674cd49"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/lead-locality-reading.json",
+      "bytes": 1574,
+      "sha256": "11d7a64a9e73a8f8802e355fb14f40e21b9ed6c3b407f6c64ebab29138fc5098"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/lead-metadata-check.json",
+      "bytes": 2590,
+      "sha256": "1148f1d1d1b13f4d51e826e32bf6bfb0f091dbc2a1cb25ce2ee8b220b3e3aecb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/lead-plan-approval.json",
+      "bytes": 2449,
+      "sha256": "7355eaaa5391a6e957dbe1fd0b17e3841e218ad96249ef44ef4a0e22e42fbc7d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/lead-snap_meshes.py",
+      "bytes": 10741,
+      "sha256": "417e7ff14d7670917c162180304002aa86733cbc84102d6c47974923a87faeb3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/lead-source-reading.json",
+      "bytes": 1694,
+      "sha256": "d038cb9013dc9f9af0c9ee41cac9ce52fd4018ce9aba46c08951be2f2ff700cc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/lead-support-check.json",
+      "bytes": 3829,
+      "sha256": "b6753dc6edd2255dc75bf41a0ad51c767e6b25dfd69e8f2afa442cbb9e4c5e00"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/lead-support-check.py",
+      "bytes": 3676,
+      "sha256": "460e9f04b4c8a288361faa2637b9d54217b6c09cb92c94772f21e22eadca35b9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/lead-support-process.json",
+      "bytes": 693,
+      "sha256": "23faaaaee370989c65f553d79f861f14332996f37b934c95c09fa1af2e67ba7d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/next-plan.json",
+      "bytes": 8326,
+      "sha256": "5140217513b89de778f6f92008ef084bba19b89630e97ba8ede5f9644eea1e4e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/originals/306b-lane_box.sh",
+      "bytes": 18442,
+      "sha256": "c961a76c82c2f103f974ff0ee3f7390e00a0619b53c2a95ac32e7c1b46da116b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/originals/306b-touchup.py",
+      "bytes": 5178,
+      "sha256": "33a5923e724b92b7b72f83057e61223811b16733c99803075330f27d48cd809f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/originals/343-mesh-readme.md",
+      "bytes": 2110,
+      "sha256": "292071f29162673d6180afd670b3f72810126f018f229f8cb97b2dd95d85e900"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/originals/343-snap_meshes.py",
+      "bytes": 10740,
+      "sha256": "253e48b31072be8c95b890715b80e90e4efbb34b5b0687a63b7d4a0a7a87857d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/originals/PHerc0191-L0-zarray.json",
+      "bytes": 402,
+      "sha256": "6d394701e687075c024bf7feb786f9fbeba73ee2b07434b715f315fbcbae385a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/originals/PHerc0191-root-list.xml",
+      "bytes": 656,
+      "sha256": "078d08acdad04a56ce94a3b73cf289ce4a21bda885ea14a42e6d8d37ed85bae1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/originals/PHerc0191-zattrs.json",
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/originals/PHerc0191-zgroup.json",
+      "bytes": 24,
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/originals/PHerc0343-L0-zarray.json",
+      "bytes": 402,
+      "sha256": "e2ec7c9d42f499c4c37291f1e521b1fa0a08882f5854006da47136aee485e8fa"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/originals/PHerc0343-root-list.xml",
+      "bytes": 656,
+      "sha256": "d72cee8a8721e6aa343797a91bdeb547594fdbf82361950156bf39416c288510"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/originals/PHerc0343-zattrs.json",
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/originals/PHerc0343-zgroup.json",
+      "bytes": 24,
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/plan_support.py",
+      "bytes": 3419,
+      "sha256": "fbb430d188e9217f5d7964f1cb041c3da400540353e0388dcf3a6bdc15549bbc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/prediction-heads-process.json",
+      "bytes": 685,
+      "sha256": "3dbb32a069895a50537677922376eee605cd33ef96dc49f10717818afbf4822b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/prediction-key-heads.json",
+      "bytes": 44155,
+      "sha256": "bd881288e3649ff9a7bb09fae5b12fbac3e6312f90b69573d1a4a3bcebb0e915"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/README.md",
+      "bytes": 7383,
+      "sha256": "b91be6871b0c62d3e623ea2a84f59ec0f1c007e297286ff38d402662a3faa56a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/record.json",
+      "bytes": 2394,
+      "sha256": "2b4e578deb4c03ca2e8262c9be9e4ce001fd95b18c3c29ff2e04002f0187a6aa"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/source-acquisition.json",
+      "bytes": 5827,
+      "sha256": "3e6c266215c29948a2ac861509d25378dba28b726c3fc12647ff8811b7e89a15"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/source-process.json",
+      "bytes": 684,
+      "sha256": "851f4b02a3b8421969381055c7dea3bd972bc3cd8f677038b5751461369f767f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/support-estimate-process.json",
+      "bytes": 690,
+      "sha256": "01917462b6a6621f175eaa51bbe70db66ab796b60c0fe571a026c76ee5cb3b9d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-predicted-sheet-snap-plan01/support-estimate.json",
+      "bytes": 33132,
+      "sha256": "f56e3bce0ac5d35189c100519665af36e5252b14dc7a30e56be8b20187524dc2"
+    },
+    {
+      "path": "research/215-predicted-sheet-snap-feasibility.md",
+      "bytes": 5000,
+      "sha256": "7237e2eb93d1d67bd800812f2bb64a0fdcc55e5328b9c1bd8a5c70712f367639"
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "selected": {
+    "region": 90,
+    "patch_face": 185063,
+    "obstacle_face": 247303,
+    "pixel_xy": [
+      921,
+      120
+    ],
+    "minimum_barycentric": 0.1676531600209827,
+    "patch_faces": 928,
+    "C_pair_overlap_area": 0.0
+  },
+  "vertices": 602,
+  "faces": 929,
+  "moving_vertices": 482,
+  "fixed_vertices": 120,
+  "baselines": {
+    "C": {
+      "negative": 5,
+      "zero": 0,
+      "invalid": 0,
+      "minimum_signed_area": -157.66702202401734,
+      "positive_quality": {
+        "faces": 924,
+        "area3_fraction": 0.9936366276178785,
+        "area_weighted_normalized_symmetric_dirichlet": 2.108076036619808,
+        "area_weighted_inverse_L2_rms": 1.6801954808631265,
+        "max_symmetric_singular_stretch": 33.34504318887981,
+        "uv_area_over_3d_area": 0.9772303809800099,
+        "area_ratio_percentiles_1_50_99": [
+          0.3092470991798828,
+          0.9622551344300883,
+          3.780310292049135
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.0650304083176358,
+          4.224682992149065,
+          13.203368653935147
+        ]
+      },
+      "interior_overlap_pairs": 294,
+      "pairs_with_obstacle": 0,
+      "pairwise_intersection_area_sum": 10348.680457600625,
+      "known_pair_intersection_area": 0.0,
+      "max_fixed_error": 0.0
+    },
+    "D": {
+      "negative": 0,
+      "zero": 0,
+      "invalid": 0,
+      "minimum_signed_area": 18.50230190636853,
+      "positive_quality": {
+        "faces": 929,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 1.2038144558337474,
+        "area_weighted_inverse_L2_rms": 1.0189337958546145,
+        "max_symmetric_singular_stretch": 4.072272390947933,
+        "uv_area_over_3d_area": 1.1367341242113669,
+        "area_ratio_percentiles_1_50_99": [
+          0.6262452623428933,
+          0.9985387534182056,
+          2.8467333864035504
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.006038711574737,
+          2.344262656021537,
+          3.0087075544823803
+        ]
+      },
+      "interior_overlap_pairs": 265,
+      "pairs_with_obstacle": 3,
+      "pairwise_intersection_area_sum": 12683.805755027905,
+      "known_pair_intersection_area": 176.92605601213,
+      "max_fixed_error": 0.0
+    },
+    "initial": {
+      "negative": 0,
+      "zero": 0,
+      "invalid": 0,
+      "minimum_signed_area": 199.99999403953558,
+      "positive_quality": {
+        "faces": 929,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 1.1338813002430017,
+        "area_weighted_inverse_L2_rms": 1.1170211393391227,
+        "max_symmetric_singular_stretch": 14.933334481295867,
+        "uv_area_over_3d_area": 0.9110773830409702,
+        "area_ratio_percentiles_1_50_99": [
+          0.6174942673445095,
+          0.879620354394172,
+          3.718577971517288
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.0674606801143436,
+          1.853386532669642,
+          4.955082418525742
+        ]
+      },
+      "interior_overlap_pairs": 0,
+      "pairs_with_obstacle": 0,
+      "pairwise_intersection_area_sum": 0.0,
+      "known_pair_intersection_area": 0.0,
+      "max_fixed_error": 267.2815892132411
+    }
+  },
+  "stages": [
+    {
+      "run": "run03",
+      "penalty": 1000000.0,
+      "measurements": {
+        "raw": {
+          "negative": 0,
+          "zero": 0,
+          "invalid": 0,
+          "minimum_signed_area": 6.482109054418332,
+          "positive_quality": {
+            "faces": 929,
+            "area3_fraction": 1.0,
+            "area_weighted_normalized_symmetric_dirichlet": 5.103189958623111,
+            "area_weighted_inverse_L2_rms": 2.9796914133947237,
+            "max_symmetric_singular_stretch": 42.58631848326851,
+            "uv_area_over_3d_area": 1.0174816631961359,
+            "area_ratio_percentiles_1_50_99": [
+              0.0902233085093939,
+              0.9760302131226223,
+              2.695393253069419
+            ],
+            "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+              1.0191454377752727,
+              5.942850093251475,
+              51.906986392431016
+            ]
+          },
+          "interior_overlap_pairs": 0,
+          "pairs_with_obstacle": 0,
+          "pairwise_intersection_area_sum": 0.0,
+          "known_pair_intersection_area": 0.0,
+          "max_fixed_error": 1.026581178575631
+        },
+        "snapped": {
+          "negative": 3,
+          "zero": 0,
+          "invalid": 0,
+          "minimum_signed_area": -6.91548508437123,
+          "positive_quality": {
+            "faces": 926,
+            "area3_fraction": 0.9965303346636112,
+            "area_weighted_normalized_symmetric_dirichlet": 3.877448163608923,
+            "area_weighted_inverse_L2_rms": 2.535050552342277,
+            "max_symmetric_singular_stretch": 38.64663169278255,
+            "uv_area_over_3d_area": 1.0208760552498075,
+            "area_ratio_percentiles_1_50_99": [
+              0.10185992718283927,
+              0.9760392613940561,
+              2.6958266149429844
+            ],
+            "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+              1.018982006003299,
+              5.917387549392851,
+              51.91867123511552
+            ]
+          },
+          "interior_overlap_pairs": 23,
+          "pairs_with_obstacle": 0,
+          "pairwise_intersection_area_sum": 34.05435121202792,
+          "known_pair_intersection_area": 0.0,
+          "max_fixed_error": 0.0
+        },
+        "float32": {
+          "negative": 3,
+          "zero": 0,
+          "invalid": 0,
+          "minimum_signed_area": -6.92146372795105,
+          "positive_quality": {
+            "faces": 926,
+            "area3_fraction": 0.9965303346636112,
+            "area_weighted_normalized_symmetric_dirichlet": 3.876928188337793,
+            "area_weighted_inverse_L2_rms": 2.534845153342676,
+            "max_symmetric_singular_stretch": 38.62634961654363,
+            "uv_area_over_3d_area": 1.020877643436694,
+            "area_ratio_percentiles_1_50_99": [
+              0.10186936379340814,
+              0.9760895596939811,
+              2.695832520699144
+            ],
+            "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+              1.018981801452107,
+              5.917633810559829,
+              51.90853347144103
+            ]
+          },
+          "interior_overlap_pairs": 23,
+          "pairs_with_obstacle": 0,
+          "pairwise_intersection_area_sum": 34.06504989492106,
+          "known_pair_intersection_area": 0.0,
+          "max_fixed_error": 0.0
+        }
+      },
+      "identical_to_previous_raw": false
+    }
+  ],
+  "versions": {
+    "shapely": "2.1.2",
+    "geos": "3.13.1"
+  },
+  "scope": "Region90 plus one fixed triangle only. Pairwise intersection areas may double-count regions; not union area. Fixed-value exactness applies before float32. This does not establish absence of overlaps with every outside face.",
+  "elapsed_seconds": 0.2525353000382893,
+  "sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-scaf01\\input02\\arrays.npz",
+      "sha256": "b08bf6ff9508ae7a1dede641008aefd6699a8f3ce3b4ebafab9b241de9aba721"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-reconcile01\\second\\arrays.npz",
+      "sha256": "9247c744e4c6197aea2fcdc8d4bfe5682c2a3892e4d683373883ec7810595de7"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-raster01\\pack01\\arrays.npz",
+      "sha256": "0e665061e472d6b59d58f80f6bc3cfb646558413f50e7f3bcf8a535e7a98cd68"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\mesh_quality.py",
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-scaf01\\run03\\result.json",
+      "sha256": "dd39f0e4312047a05924a36baec0f6e7fdfb5c711caeddcc8944dee2ad39fbd5"
+    }
+  ]
+}

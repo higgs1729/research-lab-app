@@ -1,0 +1,12 @@
+{
+  "runs": [
+    "default",
+    "preserve-grid"
+  ],
+  "native_wall_seconds": 158.403847458,
+  "input_and_binary_unchanged": true,
+  "r150_protected_dependencies_match": true,
+  "new_download_bytes": 0,
+  "new_builds": 0,
+  "cloud_cost_jpy": 0
+}

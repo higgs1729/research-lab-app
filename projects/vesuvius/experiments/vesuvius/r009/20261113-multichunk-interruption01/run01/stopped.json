@@ -1,0 +1,56 @@
+{
+  "files": {
+    ".zgroup": {
+      "bytes": 19,
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85",
+      "mtime_ns": 1794572797050727900,
+      "inode": 3096224745480980
+    },
+    "0/.zarray": {
+      "bytes": 230,
+      "sha256": "43c91328356958a8e24b78a23e6af8352af579479d46a8d410ffcaad8c7bd2ea",
+      "mtime_ns": 1794572797046030700,
+      "inode": 3659174698902288
+    },
+    "0/0/0/0": {
+      "bytes": 3584,
+      "sha256": "410c3adb0d0336eb749070c9471080d67100675ea7d0c327c90ad61d850117dc",
+      "mtime_ns": 1794572797145997800,
+      "inode": 16325548650881912
+    },
+    "1/.zarray": {
+      "bytes": 228,
+      "sha256": "a673d613f25848258d5792fd22837896f41e39f80498d6e2a6fa6124f33ae836",
+      "mtime_ns": 1794572797061739700,
+      "inode": 1970324838638376
+    },
+    "2/.zarray": {
+      "bytes": 228,
+      "sha256": "2819ccb383db3e002b2aef0c1c6890a82daaa001a338af69eaab94b3be655dce",
+      "mtime_ns": 1794572797070013600,
+      "inode": 3940649675612980
+    },
+    "3/.zarray": {
+      "bytes": 228,
+      "sha256": "4cfdf860c2d9c8d913e5ee49c3bd350f6c566d76029be947c4e8a5f830c82eb9",
+      "mtime_ns": 1794572797081641100,
+      "inode": 1970324838638423
+    },
+    "4/.zarray": {
+      "bytes": 226,
+      "sha256": "84b70a1ed4d95d3086ed38d4210099aa12299df979f7f9224df56f4476138578",
+      "mtime_ns": 1794572797090146700,
+      "inode": 3377699722191730
+    },
+    "5/.zarray": {
+      "bytes": 226,
+      "sha256": "c389407707f555ec94d4edf58b6eb1bc9e0a315c556f90ea39fa720642e0ca64",
+      "mtime_ns": 1794572797098355800,
+      "inode": 2251799815349109
+    }
+  },
+  "gdb_exit": 1,
+  "inferior_and_gdb_pids_gone": true,
+  "gdb_exit_event_confirmed": false,
+  "explicit_sigkill_terminal_status": false
+}

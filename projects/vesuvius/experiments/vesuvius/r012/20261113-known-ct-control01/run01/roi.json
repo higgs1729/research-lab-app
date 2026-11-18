@@ -1,0 +1,29 @@
+{
+  "rule": "64x64 aligned to global 64px grid; fully supervised; both classes; maximize smaller class count; tie by y then x ascending",
+  "crop_xywh": [
+    2176,
+    1408,
+    64,
+    64
+  ],
+  "canvas_yx": [
+    5820,
+    5240
+  ],
+  "candidates": 112,
+  "positive": 2035,
+  "negative": 2061,
+  "score": 2035,
+  "input_hashes": {
+    "w035-inklabels-L0-zarr.json": "8fd210540303a70023b4513aedef242df8d453644abd5c1812deddebc6761b0c",
+    "w035-inklabels-L0.bin": "b0db4f2af6f306a99eaa39661950a472c54006b9ea47e10f38f960aa21385f49",
+    "w035-inklabels-zarr.json": "b3908d86adc336d4f99b9d2b557b1e58d949cee37ab15abd91cf8d0400d52c94",
+    "w035-supervision-L0-zarr.json": "8fd210540303a70023b4513aedef242df8d453644abd5c1812deddebc6761b0c",
+    "w035-supervision-L0.bin": "8d21bb35550e5793a86519ccdcee1afc6b26c80dba3d2197536cec8996d53ed1",
+    "w035-supervision-zarr.json": "e9607db0c8c952f12f64d90f4a7a2b46a8ab677459d60f7ca0abbd01f4ef8d74"
+  },
+  "roi_hashes": {
+    "ink.npy": "c4d52a805307edcefdb5ece70a12ad5a2af0b286d510cf051fdd772e1b93fff4",
+    "supervision.npy": "def31dff1cbf19969f8c991405763b31dec5b066e21cb72999dd1c8d7996ef20"
+  }
+}

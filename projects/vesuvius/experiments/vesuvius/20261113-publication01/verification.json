@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-11-13T00:49:23.891124+00:00",
+  "url": "https://github.com/higgs1729/vesuvius-workflow-improvements",
+  "visibility": "public",
+  "owner": "higgs1729",
+  "owner_id": 274176906,
+  "commit": "a35e2d49124758bc28e7fcf499bd656387e74f5c",
+  "branch": "main",
+  "remote_files": 53,
+  "all_remote_blob_identities_match": true,
+  "anonymous_raw_root_readme_and_snapshot_manifest_match": true,
+  "snapshot_files_unchanged": 51,
+  "published_snapshot_manifest_sha256": "5da527477e5ae0ec29b61c2e005d00b0652f062bc4467ecdb7b56574c8bf2fea",
+  "submitted": false,
+  "external_adoption_established": false
+}

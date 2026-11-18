@@ -1,0 +1,52 @@
+{
+  "R234_registration": "record-e4f98902cb7c",
+  "fixed_inputs": [
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-adjacent-context01/candidate-plan.json",
+      "bytes": 24106,
+      "sha256": "621c238f4e49a5916ea064f89fc958b1aaaf0671c127e712069a787dbee5e7db"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-adjacent-context01/lead-plan-final-check.json",
+      "bytes": 1687,
+      "sha256": "6e6d46b91def3e5792300e9e646e4ddb02ce0a2de988ca1d346b4263397f1bd8"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-adjacent-context01/sources/ct-level0-zarray.json",
+      "bytes": 239,
+      "sha256": "c754c949661243c8e60a4b3212d924882908f480c8249d8f9557eb83c84856c4"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-adjacent-context01/sources/v9-mesh.zip",
+      "bytes": 9264958,
+      "sha256": "819dcfb40451fab3fa58441d8265813c8ddbe2b5693bb076fce3eeefce05a5d9"
+    }
+  ],
+  "borrowed_code": [
+    {
+      "file": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/acquire_ct.py",
+      "bytes": 3120,
+      "sha256": "f8d0cecf7c2fabbbdf17db6cfc9621f6477fe3b0e561dc3ce719d0327459130f"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections.py",
+      "bytes": 5892,
+      "sha256": "f0c40d7dde45dea07c79441f6098b37f9066d41b76d8fc2c1394220c33ed2776"
+    },
+    {
+      "file": "tools/research/run_windows.py",
+      "bytes": 3671,
+      "sha256": "70ad792c9d7d0775eeb1839283f739abe6604a1d6f7bf1203e086d802b1a5f9d"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261112-ct-render01/run_windows.py",
+      "bytes": 3227,
+      "sha256": "4f92fe5fd0786ab8ea6811fb522f51095c183df447e100733adec03163807929"
+    }
+  ],
+  "source_CT_inventory": {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct-acquisition.json",
+    "bytes": 24350,
+    "sha256": "c92013ff13d61e211dbc0022ce2fcffc0367655f5f1566b0dc7a888f2eeb2182"
+  }
+}

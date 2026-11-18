@@ -1,0 +1,25 @@
+{
+  "status": "fifo_timeout",
+  "exit_code": 1,
+  "launcher_pid": 53792,
+  "elapsed_seconds": 300.2935318000091,
+  "gpu_entry_or_run_limit_seconds": 300,
+  "job_commit_gib": 2,
+  "admission_vram_gib": 1,
+  "cuda_allocator_cap_mib": 256,
+  "admitted": false,
+  "command": [
+    "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\local_probe.py",
+    "launcher",
+    "C:\\dev\\ai-compute\\local-image-gen\\ComfyUI_windows_portable\\python_embeded\\python.exe",
+    "-X",
+    "utf8",
+    "-B",
+    "-u",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\normalization_probe.py",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\local-normalization.jsonl"
+  ]
+}

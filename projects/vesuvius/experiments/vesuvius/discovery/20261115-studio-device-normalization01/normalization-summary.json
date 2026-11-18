@@ -1,0 +1,66 @@
+{
+  "device": "NVIDIA A40",
+  "torch": "2.13.0+cu130",
+  "cuda": "13.0",
+  "u8_bits_measured": 256,
+  "u8_values_differ_from_CPU": 127,
+  "expected_CUDA_exact_matches": 96,
+  "raw_coordinate_and_shape_exact_matches": 96,
+  "model_pre_forward_journal_pairs_verified": 96,
+  "maximum_input_CPU_GPU_delta": 5.960464477539063e-08,
+  "patch_000": {
+    "stage": "observed_patch",
+    "index": 0,
+    "core_global_xy": [
+      1280,
+      1024
+    ],
+    "input_global_xy": [
+      1264,
+      1008
+    ],
+    "raw_sha256": "e79919bddee50072be01cad3cb56e0c3c6413b7355337ba32716d39bc689af5e",
+    "raw_shape": [
+      16,
+      128,
+      128
+    ],
+    "tensor_shape": [
+      1,
+      1,
+      16,
+      128,
+      128
+    ],
+    "tensor_dtype": "float32",
+    "actual_cuda_sha256": "c0c37f5277271af87e50074745b0e9ddb3555e45a9f146c9759a101ecac58bcd",
+    "expected_cuda_sha256": "c0c37f5277271af87e50074745b0e9ddb3555e45a9f146c9759a101ecac58bcd",
+    "expected_cpu_sha256": "1b362b78776b69cf143565d763072dee0a2d722557a43949c4fe53d58407c52e",
+    "max_abs_cpu_delta": 5.960464477539063e-08,
+    "values_with_cpu_delta": 137435,
+    "identity_matches": true
+  },
+  "GPU_patch_files_verified": 96,
+  "CPU_GPU_comparisons": [
+    {
+      "index": 0,
+      "max_abs": 1.9371509552001953e-07,
+      "MAE": 3.615665870408217e-08,
+      "passed": true
+    },
+    {
+      "index": 47,
+      "max_abs": 9.238719940185547e-07,
+      "MAE": 2.332542660749621e-07,
+      "passed": true
+    },
+    {
+      "index": 95,
+      "max_abs": 6.258487701416016e-07,
+      "MAE": 1.3581949234422711e-07,
+      "passed": true
+    }
+  ],
+  "probe_sha256": "319e8fbf2ec30fa94cf1f5d0aba4a22a60043f845348489e6700e9d158f31fa2",
+  "journal_sha256": "299b1fa9411410b4347f3f078dada186e92e3b2043196afac2af0e274aca9e8e"
+}

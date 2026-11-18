@@ -1,0 +1,41 @@
+{
+  "utc": "2026-11-15T06:15:30.267736+00:00",
+  "source_files_verified": 16,
+  "bbox_separation_voxels": [
+    0.0,
+    0.0,
+    1011.966796875
+  ],
+  "author_mask_positive_pixels": 9008610,
+  "prediction_images": [
+    {
+      "direction": "forward",
+      "shape_yx": [
+        1920,
+        12352
+      ],
+      "nonzero": 13721600,
+      "nonzero_outside_author_mask": 4712990,
+      "range": [
+        0,
+        230
+      ]
+    },
+    {
+      "direction": "reverse",
+      "shape_yx": [
+        1920,
+        12352
+      ],
+      "nonzero": 13721600,
+      "nonzero_outside_author_mask": 4712990,
+      "range": [
+        0,
+        221
+      ]
+    }
+  ],
+  "mask_padding": "Original1860x12340 copied at upper-left into zero1920x12352 for comparison only; original retained.",
+  "meaning": "Published XYZ boxes are separated inZ; this does not prove distinct physical laminae or reproduce the historical render. Author mask is eroded occupancy, not validated ink or sheet membership.",
+  "new_forward_network": 0
+}

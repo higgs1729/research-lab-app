@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-real-ct-refinement-probes01\\lead_predict.py"
+  ],
+  "started_utc": "2026-11-13T18:37:46.682136+00:00",
+  "completed_utc": "2026-11-13T18:37:47.103137+00:00",
+  "elapsed_seconds": 0.42100079997908324,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 53399552,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 0.34375,
+  "sys_cpu_seconds": 0.125,
+  "exit_code": 0
+}

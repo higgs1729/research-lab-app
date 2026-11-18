@@ -1,0 +1,44 @@
+{
+  "definitions": {
+    "read_layer_chunk": {
+      "symbol": "_ZN3vcr5Array16read_layer_chunkEmRKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+      "map_line": 293497,
+      "address": "0x00000000008f5e30",
+      "size": 2111,
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o"
+    },
+    "memory_get": {
+      "symbol": "_ZN3vcr11MemoryCache3getERKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE",
+      "map_line": 293614,
+      "address": "0x00000000008fb0e0",
+      "size": 1779,
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o"
+    },
+    "chunk": {
+      "symbol": "_ZN3vcr5Array5chunkERKSt6vectorIlSaIlEE",
+      "map_line": 293743,
+      "address": "0x0000000000912d10",
+      "size": 2589,
+      "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/cache.cpp.o"
+    },
+    "point": {
+      "symbol": "_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_",
+      "map_line": 294050,
+      "address": "0x000000000091c1b0",
+      "size": 4049,
+      "object": "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/grid.o"
+    },
+    "surface_sample": {
+      "symbol": "_ZN3vcr4grid6sampleERKNS0_7SurfaceERKNS0_6RasterERKNS0_7RequestE",
+      "map_line": 294317,
+      "address": "0x0000000000945d30",
+      "size": 260,
+      "object": "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/grid.o"
+    }
+  },
+  "point_calls": [
+    "91c5fb:\te8 80 13 f9 ff       \tcall   8ad980 <sqrtf@plt>"
+  ],
+  "point_inline_hermite": true,
+  "loader_sha256": "e27039c860a776ad01c4bb3b96fad286e745867ebb61cabe38627741d6a07587"
+}

@@ -1,0 +1,18 @@
+{
+  "argv": [
+    "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "-B",
+    "-u",
+    "C:\\dev\\kensyoukin\\tools\\research\\run_windows.py",
+    "infer-process.json",
+    "run_hecate.py",
+    "run"
+  ],
+  "started_utc": "2026-11-14T06:41:23.611197+00:00",
+  "deadline_seconds": 900,
+  "pid": 34908,
+  "hard_timeout": false,
+  "exit_code": 3,
+  "elapsed_seconds": 186.83243980000407,
+  "completed_utc": "2026-11-14T06:44:30.443655+00:00"
+}

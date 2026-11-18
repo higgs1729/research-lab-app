@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-11-11T17:25:15.402355+00:00",
+  "lab": {
+    "phase": "running",
+    "thread_id": "01a1c9bf-639d-70a2-a8bc-664019939aaa",
+    "host_id": "local",
+    "pending_proposals": 0,
+    "record_count": 45
+  },
+  "inbox": [],
+  "automations": [
+    {
+      "id": "vesuvius",
+      "status": "ACTIVE",
+      "rrule": "FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "notification_policy": "failed_runs_only"
+    },
+    {
+      "id": "vesuvius-heartbeat",
+      "status": "ACTIVE",
+      "rrule": "FREQ=MINUTELY;INTERVAL=30",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "notification_policy": "failed_runs_only"
+    }
+  ],
+  "heartbeat_id": "local:01a1c9bf-639d-70a2-a8bc-664019939aaa:996898",
+  "primary_jobs_complete": true,
+  "paid_compute_running": false,
+  "user_decision_pending": false,
+  "first_daily_audit_due": "2026-11-12T09:00:00+09:00",
+  "first_daily_audit_delivery_verified": false,
+  "automation_view_checked": true
+}

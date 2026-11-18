@@ -1,0 +1,36 @@
+{
+  "samples": 458752,
+  "actual_keys": [
+    "0/31/26/32",
+    "0/31/27/32",
+    "0/32/26/32",
+    "0/32/27/32"
+  ],
+  "r129_native_top_left_equal": 114688,
+  "tiff_l0_equal": 458752,
+  "direct_round_mismatch": 0,
+  "direct_error_max": 0.4999978542327881,
+  "near_half_values": [],
+  "native_zarr_l0_sha256": "8289167d1be30b93106fa6d03bf84974f429e525dea354c39922f412032a8539",
+  "public_zarr_l0_sha256": "b01d4721220c1c8f2241f9231537c04554254be0a7a647946059a031b35abba2",
+  "vs_public_all_28": {
+    "samples": 458752,
+    "exact": 93878,
+    "abs_le_1": 231301,
+    "signed_mean": 0.46429879324776785,
+    "mae": 4.137141636439732,
+    "p95": 19.0,
+    "max_abs": 125,
+    "correlation": 0.9671352230854764
+  },
+  "vs_public_layers_6_to_22": {
+    "samples": 278528,
+    "exact": 57922,
+    "abs_le_1": 139861,
+    "signed_mean": 0.5169390510110294,
+    "mae": 4.510505227481618,
+    "p95": 20.0,
+    "max_abs": 104,
+    "correlation": 0.9689150157646348
+  }
+}

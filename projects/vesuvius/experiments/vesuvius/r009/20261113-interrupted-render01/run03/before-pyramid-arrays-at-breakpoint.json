@@ -1,0 +1,25 @@
+{
+  "utc": "2026-11-13T08:10:24.915750+00:00",
+  "pid": 451,
+  "gdb_pid": 443,
+  "process_group": 451,
+  "pc": "0x64f46e",
+  "file_snapshot": {
+    ".zgroup": {
+      "bytes": 19,
+      "mtime_ns": 1794557424866150600,
+      "inode": 3659174698826121,
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+    },
+    "0/.zarray": {
+      "bytes": 230,
+      "mtime_ns": 1794557424862095100,
+      "inode": 3659174698826120,
+      "sha256": "89e5a7d9713d0706ac706a645287f415579562973323ae1df824030e43e0c7ad"
+    }
+  },
+  "backtrace": "#0  vcr::zarr::createPyramidLevels () at /mnt/c/dev/kensyoukin/.work/r009-resume-pyramid-fix01/run01/source/vc_reader/src/cpp/zarr/pyramid.cpp:163\n#1  0x00000000005b1c4d in operator() () at /mnt/c/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/source/volume-cartographer/apps/src/vc_render_tifxyz.cpp:1544\n#2  0x00000000005b8a8d in main () at /mnt/c/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/source/volume-cartographer/apps/src/vc_render_tifxyz.cpp:1609\n",
+  "proc_status": "Name:\trenderer\nUmask:\t0022\nState:\tt (tracing stop)\nTgid:\t451\nNgid:\t0\nPid:\t451\nPPid:\t443\nTracerPid:\t443\nUid:\t0\t0\t0\t0\nGid:\t0\t0\t0\t0\nFDSize:\t64\nGroups:\t65534 65534 65534 65534 65534 65534 65534 65534 65534 65534 65534 0 \nNStgid:\t451\nNSpid:\t451\nNSpgid:\t451\nNSsid:\t442\nKthread:\t0\nVmPeak:\t  548680 kB\nVmSize:\t  548680 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t   58624 kB\nVmRSS:\t   58608 kB\nRssAnon:\t    6896 kB\nRssFile:\t   51712 kB\nRssShmem:\t       0 kB\nVmData:\t  136440 kB\nVmStk:\t     136 kB\nVmExe:\t    1104 kB\nVmLib:\t   92264 kB\nVmPTE:\t     344 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nuntag_mask:\t0xffffffffffffffff\nThreads:\t15\nSigQ:\t0/47811\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000000000000\nSigCgt:\t0000000100000000\nCapInh:\t0000000000000000\nCapPrm:\t000001ffffffffff\nCapEff:\t000001ffffffffff\nCapBnd:\t000001ffffffffff\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t0\nSeccomp_filters:\t0\nSpeculation_Store_Bypass:\tthread vulnerable\nSpeculationIndirectBranch:\tconditional enabled\nCpus_allowed:\t01\nCpus_allowed_list:\t0\nMems_allowed:\t00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t2455\nnonvoluntary_ctxt_switches:\t19\n",
+  "network_namespace": "net:[4026532228]",
+  "entry_condition_met": true
+}

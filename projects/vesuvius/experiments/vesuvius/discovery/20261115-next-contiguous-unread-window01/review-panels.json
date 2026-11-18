@@ -1,0 +1,114 @@
+{
+  "display": "Source uint8 0..255 at 1:1 without threshold or remapping.",
+  "sources": {
+    "mesh4-ct": {
+      "path": "pair/mesh4-ct-centre.png",
+      "sha256": "9042f2d67ff436b8b5e7f9a2de21e3555b459417ae31ae85e083d2fbfa31a537"
+    },
+    "mesh4-forward": {
+      "path": "results/mesh4-forward.png",
+      "sha256": "1ffee6dd81d8f206f601e5c08a4a7021f1798bf1d60a8692bd18ae7f28b2fb2f"
+    },
+    "mesh4-reverse": {
+      "path": "results/mesh4-reverse.png",
+      "sha256": "075fc06010fae1666030f56efac6a13238f25d0c90c94553d7a46cd54b48dbc7"
+    }
+  },
+  "panels": [
+    {
+      "path": "review/mesh4-ct-x0128-y0576.png",
+      "sha256": "5e4c05ae1e15c678a3729026bf98170e376d8567af2e51bd1a005e0ecad81cdb",
+      "raw_sha256": "bad307f36bc7370685a4d80886f4aaab90150a3f95a806381560ca4d5479821a",
+      "global_xywh": [
+        128,
+        576,
+        480,
+        960
+      ],
+      "window": "mesh4",
+      "kind": "ct"
+    },
+    {
+      "path": "review/mesh4-forward-x0128-y0576.png",
+      "sha256": "458ad280499c54d470b751a48db1f687977582094d9872c32b09d1f5969416f6",
+      "raw_sha256": "e3eca0cc20d73d3557bdb6b1ee095b248bc64b93c895ec1e44d72429a84f8c8e",
+      "global_xywh": [
+        128,
+        576,
+        480,
+        960
+      ],
+      "window": "mesh4",
+      "kind": "forward"
+    },
+    {
+      "path": "review/mesh4-reverse-x0128-y0576.png",
+      "sha256": "4ced1dd598fe7d3111772587e495b3018e3ed0bfa4200474a0fea94c41aa7da4",
+      "raw_sha256": "e0c6e9690d00a89f8d4017f2e1cdc9580cfd38fe9a24b9b83e2c968596ad5d4e",
+      "global_xywh": [
+        128,
+        576,
+        480,
+        960
+      ],
+      "window": "mesh4",
+      "kind": "reverse"
+    },
+    {
+      "path": "review/mesh4-ct-x0608-y0576.png",
+      "sha256": "e0d004648b080cacc2230aaddcff4dc1d616128145f9f2e1c7b2489058cec8ed",
+      "raw_sha256": "ee886652730421807e9ceba55bfc5346196fbddcef6759aacc465facfd443fb6",
+      "global_xywh": [
+        608,
+        576,
+        480,
+        960
+      ],
+      "window": "mesh4",
+      "kind": "ct"
+    },
+    {
+      "path": "review/mesh4-forward-x0608-y0576.png",
+      "sha256": "3308d3023e46923681841772cefba274698bfaf60d8989b504e4623fab45fc93",
+      "raw_sha256": "82393363d3601d30d33ebb53b557de9087c34e449c3afac331dd389131a206ea",
+      "global_xywh": [
+        608,
+        576,
+        480,
+        960
+      ],
+      "window": "mesh4",
+      "kind": "forward"
+    },
+    {
+      "path": "review/mesh4-reverse-x0608-y0576.png",
+      "sha256": "0d2c6bfa794317c1a4f9805c2334393b8977cd89d733cf920ba54c3593186873",
+      "raw_sha256": "6cca7eea2098adcbd76368daf4a6713d14547957f09f563e623362731c727a71",
+      "global_xywh": [
+        608,
+        576,
+        480,
+        960
+      ],
+      "window": "mesh4",
+      "kind": "reverse"
+    }
+  ],
+  "summary_on_main_geometric_support": {
+    "mesh4": {
+      "main_global_xywh": [
+        128,
+        576,
+        960,
+        960
+      ],
+      "main_supported_pixels": 782112,
+      "forward_nonzero": 575359,
+      "reverse_nonzero": 722206,
+      "nonidentical_dn": 660530,
+      "mae_dn": 9.880455740354323,
+      "max_dn": 245.0,
+      "correlation": 0.13238608731052384
+    }
+  }
+}

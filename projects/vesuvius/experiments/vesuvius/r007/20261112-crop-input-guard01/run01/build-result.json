@@ -1,0 +1,8 @@
+{
+  "elapsed_seconds": 124.693876843,
+  "binary_sha256": {
+    "guard": "925ff7996aeae9e40e536afdef7be9283dedc23ed38aa6e6cfeb70c27c3ffd6d",
+    "baseline-observe": "a13a0f456000b5d860fe6e08d056e9f06cf6317bf309dab35222490eccc41dce",
+    "guard-observe": "770e5cf1b8eb097847dc225c917829694900f61eb205f913c08d81e59e842961"
+  }
+}

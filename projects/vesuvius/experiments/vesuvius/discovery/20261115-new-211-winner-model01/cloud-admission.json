@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-15T09:22:58.166668+00:00",
+  "billing": {
+    "http_status": 200,
+    "client_balance_usd": 17.1947851655,
+    "auto_pay_enabled": false
+  },
+  "pod_count": 0,
+  "gpu": "NVIDIA RTX A5000",
+  "cloud": "SECURE",
+  "compute_hourly_usd": 0.27,
+  "availability": "NONE",
+  "data_center_ids": [],
+  "existing_credits_checked": false
+}

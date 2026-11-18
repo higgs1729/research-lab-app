@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-11-16T12:57:36+09:00",
+  "manifest": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/manifest.json",
+  "manifest_sha256": "b39713fc87d0ed9f28c7f6b7512df9be45a55a4a2f0c69749b07847bb55d18f0",
+  "new_files": 52,
+  "external_references": 15,
+  "checked_bytes": 59248433,
+  "mismatches": [],
+  "method": "Root read every manifest path and compared byte count and hashlib.sha256 with the frozen entry.",
+  "independent_scientific_check": "experiments/vesuvius/discovery/20261116-surface-pair-feasibility01/lead-check.json",
+  "decision": "No matching fixed pre-edit surface was identified in the inspected public sources; do not launch the proposed comparison. Conditional single-phi design retained, no new letters."
+}

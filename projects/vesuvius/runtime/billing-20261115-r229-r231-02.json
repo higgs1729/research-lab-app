@@ -1,0 +1,101 @@
+{
+  "utc": "2026-11-15T10:51:32.594448+00:00",
+  "resource_mutations": 0,
+  "rows": [
+    {
+      "source": "experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\cloud-run-a40\\launch-receipt.json",
+      "pod_id": "fz22fx79xv6493",
+      "http_status": 200,
+      "query": {
+        "podId": "fz22fx79xv6493",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T09:00:00+00:00",
+        "endTime": "2026-11-15T11:51:31.249468+00:00"
+      },
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "endTime": "2026-11-15T10:00:00Z",
+          "gpuAmount": 0.030153753235936165,
+          "podId": "fz22fx79xv6493",
+          "startTime": "2026-11-15T09:00:00Z",
+          "totalAmount": 0.030153753235936165
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T12:00:00Z",
+          "podId": "fz22fx79xv6493",
+          "startTime": "2026-11-15T09:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "gpuAmount": 0.030153753235936165,
+          "totalAmount": 0.030153753235936165
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "source": "experiments\\vesuvius\\discovery\\20261115-studio-reserved-capture01\\cloud-run\\launch-receipt.json",
+      "pod_id": "1rznb9oa1abxn1",
+      "http_status": 200,
+      "query": {
+        "podId": "1rznb9oa1abxn1",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T09:00:00+00:00",
+        "endTime": "2026-11-15T11:51:31.777023+00:00"
+      },
+      "records": [],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T12:00:00Z",
+          "podId": "1rznb9oa1abxn1",
+          "startTime": "2026-11-15T09:00:00Z"
+        },
+        "recordCount": 0,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "gpuAmount": 0,
+          "totalAmount": 0
+        },
+        "uniquePodCount": 0
+      }
+    },
+    {
+      "source": "experiments\\vesuvius\\discovery\\20261115-studio-canada-control01\\cloud-run\\launch-receipt.json",
+      "pod_id": "54g607o5gbhsk1",
+      "http_status": 200,
+      "query": {
+        "podId": "54g607o5gbhsk1",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T10:00:00+00:00",
+        "endTime": "2026-11-15T11:51:32.105664+00:00"
+      },
+      "records": [],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T12:00:00Z",
+          "podId": "54g607o5gbhsk1",
+          "startTime": "2026-11-15T10:00:00Z"
+        },
+        "recordCount": 0,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "gpuAmount": 0,
+          "totalAmount": 0
+        },
+        "uniquePodCount": 0
+      }
+    }
+  ],
+  "note": "Empty records mean billing not reflected; not zero cost. This is not final-invoice confirmation."
+}

@@ -1,0 +1,24 @@
+{
+  "wall_seconds": 765.8612446999978,
+  "cpu_seconds": 436.5,
+  "peak_rss_bytes": 1283772416,
+  "commit_limit_bytes": 4294967296,
+  "admission_cpu_1s_percent": 93.1,
+  "admission_available_ram_bytes": 12001492992,
+  "min_sampled_available_ram_bytes": 9412988928,
+  "strict_load_seconds": 8.641444100001536,
+  "forward_seconds": {
+    "count": 81,
+    "min": 4.4916770000054385,
+    "median": 6.220407599997998,
+    "max": 51.41424459999689,
+    "sum": 737.1020607999817
+  },
+  "source_sha256_rechecked": true,
+  "runner_pid_exited": true,
+  "new_network_bytes": 0,
+  "new_ct_bytes": 0,
+  "new_dependencies": 0,
+  "gpu_calls": 0,
+  "cost_jpy": 0
+}

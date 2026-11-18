@@ -1,0 +1,27 @@
+{
+  "date_jst": "2026-11-14",
+  "atlas_revision": "ac5ffd7098120368216948c4e06c494bf8e67178",
+  "face": "PHerc0125_5409_5288_14587",
+  "overview": "review01/overview.png",
+  "overview_scale": "1:8",
+  "native_dir": "review01/native-tiles",
+  "native_review": {
+    "g1_complete_4x4_canvas": true,
+    "g1_tile_origins_x_and_y": [0, 546, 1092, 1638],
+    "additional_tiles": [
+      "x0546-y0546-g2.png", "x0546-y0546-g3.png", "x0546-y0546-g4.png",
+      "x0000-y1638-g2.png", "x1092-y1092-g2.png", "x1092-y1092-g3.png",
+      "x1092-y1092-g4.png", "x1638-y1638-g4.png", "x0000-y1638-g4.png",
+      "x1092-y1638-g2.png", "x1092-y1638-g3.png", "x1638-y0000-g2.png"
+    ]
+  },
+  "native_display": "single-channel uint8 0-255, no rescale",
+  "observations": [
+    {"xyxy_exclusive_approx": [870, 780, 1092, 950], "finding": "Shared rounded response in forward Hecate, both Reader versions and d9v2 near a CT tear and crossing fibers. No distinct contour sequence."},
+    {"xyxy_exclusive_approx": [1270, 1092, 1638, 1638], "finding": "Tears and differently oriented fibers cross. Isolated or broad detections change across models and direction."},
+    {"xyxy_exclusive_approx": [49, 1650, 145, 2116], "finding": "The bright longitudinal response from both seeds and orders follows the left edge of the CT canvas support."},
+    {"xyxy_exclusive_approx": [1260, 1870, 1540, 2050], "finding": "Angular and circular patches are isolated in reverse Hecate. The same locations lack distinct repeated contours in Reader and dense-native."}
+  ],
+  "selected_followup_roi": null,
+  "scope": "One published canvas and the atlas c+0_s1 center window. No statement about ink absence, other depths or the rest of the scroll."
+}

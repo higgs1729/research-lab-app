@@ -1,0 +1,30 @@
+{
+  "review_date_jst": "2026-11-15",
+  "review_order": "Lead review was saved before the operator sent any visual judgment. The operator recorded the geometry below from the native images.",
+  "native_main_xywh": [142, 640, 1067, 1067],
+  "reviewed_panels": [
+    "review/native-quadrant-00.png",
+    "review/native-quadrant-01.png",
+    "review/native-quadrant-10.png",
+    "review/native-quadrant-11.png",
+    "review/native-forward-median-p995.png",
+    "review/native-reverse-median-p995.png",
+    "review/native-geometry-proxy.png",
+    "review/r220-grid-hecate-forward-raw.png",
+    "review/r220-grid-hecate-reverse-raw.png"
+  ],
+  "forward": [
+    "右上から右中ほどの約(912,855)と(1029,1048)の強い丸い反応は、それぞれ輪郭と終端がぼけた孤立斑。間の弱い反応とは連続する芯を追えない。",
+    "主域下端のY約1620〜1707には強い点と広い明部が交互に並ぶ。複数の端が画像外へ続き、主域内で反復する字画や行の芯を追えない。"
+  ],
+  "reverse": [
+    "左上のnative概略XYXY [420,920,680,1060] は斜めに伸びる太い明部。両端が丸く、周囲に続く線は切れており、端や隣接画を追試候補として指定できない。",
+    "左下のnative概略XYXY [400,1440,643,1630] では下向きに広がる明部と右へ伸びる淡い腕が見える。交わりが太くにじみ、細い芯や独立した枝を分離できない。近接する曲がった帯や弱い点状反応にも、同じ行に続く字画列を確認できない。"
+  ],
+  "comparison": "同じ物理窓のR220 Hecate原寸対照にも孤立斑や左下の太い屈曲がある。Readerの位置と広がりには違いがある。標本化、深さ、文脈、モデルの違いを含むため、出力差から精度は判定しない。",
+  "criterion": "各方向のrawと固定補助階調で、追跡できる線・字画連続または行として独立追試へ回す範囲を探した。方向一致は採用条件にしていない。",
+  "followup_rois": [],
+  "closed_scope": "PHerc0800 official surface 4, R220 physical window, native layers 7 through 23, one Reader V3 experiment with both orders.",
+  "ink_and_physical_lamina": "undetermined",
+  "record_summary": "PHerc0800公式面4の既観測窓を公式native 8.64 µmの同じ中央17層でReader V3順逆を一回比較。96forwardを144.068秒で完走、CPU6最大差2.563e−6。担当・主担当の別原寸目視で追試する字画・行ROIは0。固定条件を閉じ、インク有無・物理紙層・精度優位は未判定。新規公開面データ13,713,408 B、クラウド費US$0。"
+}

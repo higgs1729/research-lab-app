@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-16",
+  "scope": "R244 finite public-response verification; no search",
+  "files": [
+    {
+      "name": "candidate-roi-native.png",
+      "bytes": 22937,
+      "sha256": "47695d87a01d75be38352c9338e8a9c1612f364002bc2bb67541bdfa9070fc43"
+    },
+    {
+      "name": "fixed-check.json",
+      "bytes": 4981,
+      "sha256": "0d75e7c4412e2143c3af122fa345c59b1c4c7be59e2ced697b2f0603d5a64bda"
+    },
+    {
+      "name": "lead-visual-review.json",
+      "bytes": 1359,
+      "sha256": "c21a0f286dc52be83f591fca84b6cf4ef83c9597789d9559eec8cfc71adf2729"
+    },
+    {
+      "name": "official-local-native.png",
+      "bytes": 52344,
+      "sha256": "a814a703440c81cc35ed828b76391539a99501671c690c107273e2006b975b2b"
+    },
+    {
+      "name": "official-local-nearest4x.png",
+      "bytes": 77814,
+      "sha256": "6b35be4ec5f08e20b280c2475103dc2c9fead075669c2e47ac7d83ec0bbb4973"
+    },
+    {
+      "name": "process.json",
+      "bytes": 702,
+      "sha256": "5e249345bd2aaf52a58a63d77956c7604a52ecebf7cae688b6b0816227b8bf5b"
+    },
+    {
+      "name": "README.md",
+      "bytes": 1721,
+      "sha256": "81d1531449509197cf84518cdd85ea65caf0fc3115d12cff2779ef4395cf053b"
+    },
+    {
+      "name": "verify_fixed.py",
+      "bytes": 4484,
+      "sha256": "76da96b5461f4eaf5f139d434486501fe05127a39c2faba2428812bc28a27d95"
+    }
+  ],
+  "evidence_bytes": 166342.0,
+  "inputs": "fixed-check.json",
+  "ticket": "research/244-pherc0211-public-figure-verification.md",
+  "new_ct": 0,
+  "model_forward": 0,
+  "gpu": 0,
+  "paid_cost": 0,
+  "external_send": 0,
+  "d_operations": 0
+}

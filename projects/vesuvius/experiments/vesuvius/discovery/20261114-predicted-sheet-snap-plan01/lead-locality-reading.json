@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-11-14T14:35:24.620872+00:00",
+  "mode": "source-derived dependency bound, no synthetic or data execution",
+  "defaults": {
+    "median_radius_cells": 2,
+    "fill_sigma": 1,
+    "final_sigma": 1,
+    "scipy_default_truncate": 4.0
+  },
+  "conservative_dependency_radius": {
+    "D2_from_raw_D": 2,
+    "filled_from_raw_D": 6,
+    "D3_from_raw_D": 10,
+    "core_xyz_motion_from_input_xyz": 11
+  },
+  "reasoning": "median rejection reads raw D within 2 cells. Gaussian fill at sigma1 reads D2 within 4. Final Gaussian normalized convolution reads D3-pre within 4. Longest raw D dependency is 2+4+4=10; estimating raw D normals adds mesh finite-difference neighbor=1. These are grid Chebyshev radii and assume unchanged source defaults and scipy radius behavior.",
+  "application": "For a restricted mesh experiment, at least 11 original mesh-grid cells surrounding evaluated core reproduces source-local dependencies if complete prediction samples are available and no crop-boundary wraps enter. Original invalid vertices and original domain edges remain meaningful. Otherwise cropped output is an altered algorithm and must be declared.",
+  "limits": "This dependency bound addresses crop-boundary contamination only, not sheet correctness, duplicate selection or time/memory cost.",
+  "scipy_reference": {
+    "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.gaussian_filter.html",
+    "verified": "v1.18.0 docs, default reflect/truncate4/radius round(truncate*sigma), checked by parent web read"
+  }
+}

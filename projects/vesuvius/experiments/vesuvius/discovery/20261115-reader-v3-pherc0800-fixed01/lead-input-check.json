@@ -1,0 +1,19 @@
+{
+  "checked_utc": "2026-11-15T07:09:31.085204+00:00",
+  "plan_sha256": "2d4b968361272548a353c646788c5081abe71de4fd0c9465e854915cdc58efdc",
+  "native_original_voxels": 73138176,
+  "listed_chunks_byte_exact": 118,
+  "unlisted_zero_chunks": 26,
+  "native17_voxels_exact_selection": 40108032,
+  "raw_patch_hash_checks": 98,
+  "active_each_order": 48,
+  "skipped_each_order": 1,
+  "reference_indices": [
+    1,
+    25,
+    48
+  ],
+  "cpu_reference_hash_checks": 6,
+  "strict_model_matches_R222": true,
+  "new_forward_calls": 0
+}

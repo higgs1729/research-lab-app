@@ -1,0 +1,140 @@
+{
+  "source_image_xyxy": [
+    2600,
+    420,
+    3880,
+    1444
+  ],
+  "image_left_top": [
+    220,
+    195
+  ],
+  "context_raster_shape_hw": [
+    4051,
+    6945
+  ],
+  "source_axes_dtype": "float32 after np.arange float64; operations as fixed claimlib_v2",
+  "upper_source_x_first_last": [
+    3074.4443359375,
+    4353.4443359375
+  ],
+  "upper_source_y_first_last": [
+    3940.740478515625,
+    2917.74072265625
+  ],
+  "upper_linear_integer_support_xyxy_exclusive": [
+    3074,
+    2917,
+    4355,
+    3942
+  ],
+  "mesh_shape": [
+    245,
+    389,
+    3
+  ],
+  "mesh_grid_step_voxels": 20,
+  "regions": {
+    "known_control": {
+      "carrier_xywh": [
+        2432,
+        1728,
+        4416,
+        1152
+      ],
+      "physical_frame_bounds_mm": [
+        -14.98752,
+        -6.070079999999999,
+        23.166720000000005,
+        3.883200000000002
+      ],
+      "pixel_count": 5087232,
+      "four_corner_finite_positive_pixels": 5087232,
+      "fraction": 1.0,
+      "meaning": "Four finite positive XYZ corners only; not physical-sheet identity or CT coverage."
+    },
+    "upper_test": {
+      "carrier_xywh": [
+        2432,
+        2880,
+        4416,
+        1152
+      ],
+      "physical_frame_bounds_mm": [
+        -14.98752,
+        3.883200000000002,
+        23.166720000000005,
+        13.836480000000002
+      ],
+      "pixel_count": 5087232,
+      "four_corner_finite_positive_pixels": 5087232,
+      "fraction": 1.0,
+      "meaning": "Four finite positive XYZ corners only; not physical-sheet identity or CT coverage."
+    }
+  },
+  "reference_points": [
+    {
+      "image_xy": [
+        3200,
+        800
+      ],
+      "carrier_xy": [
+        3674.4443359375,
+        3560.740478515625
+      ],
+      "ct_xyz_l0": [
+        3160.767822265625,
+        3921.543701171875,
+        8382.1181640625
+      ]
+    },
+    {
+      "image_xy": [
+        3200,
+        1869
+      ],
+      "carrier_xy": [
+        3674.4443359375,
+        2491.74072265625
+      ],
+      "ct_xyz_l0": [
+        3201.53955078125,
+        3616.78955078125,
+        9385.34375
+      ]
+    },
+    {
+      "image_xy": [
+        4200,
+        800
+      ],
+      "carrier_xy": [
+        4674.4443359375,
+        3560.740478515625
+      ],
+      "ct_xyz_l0": [
+        3721.651611328125,
+        3260.977294921875,
+        8430.5556640625
+      ]
+    },
+    {
+      "image_xy": [
+        4200,
+        1869
+      ],
+      "carrier_xy": [
+        4674.4443359375,
+        2491.74072265625
+      ],
+      "ct_xyz_l0": [
+        3912.04736328125,
+        3014.4248046875,
+        9237.998046875
+      ]
+    }
+  ],
+  "physical_sheet_identity": "unconfirmed; no CT sampled in R224",
+  "coordinate_code_sha256": "3656e0f54ec4ab62593886a04790338c8c76fcd4dbe2d82ea5877247210829c4",
+  "mesh_lookup_convention": "Author exclusion README uses render pixel = grid / scale (20 pixels/grid cell). Reference XYZ uses that author convention only; do not substitute the R222 current-renderer half-pixel convention. These points are provenance references, not verified resampling of original CT."
+}

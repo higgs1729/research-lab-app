@@ -1,0 +1,21 @@
+{
+  "automation_id": "vesuvius-heartbeat",
+  "trigger_utc": "2026-11-15T17:49:32.498Z",
+  "checked_utc": "2026-11-15T17:50:16.931430+00:00",
+  "phase": "running",
+  "thread_id": "01a1c9bf-639d-70a2-a8bc-664019939aaa",
+  "pending_proposals": 0,
+  "board_new_posts": 0,
+  "issue_url": "https://github.com/priyankaranke/vesuvius-studio-multiscroll-cpt/issues/1",
+  "issue_comments": [],
+  "research_restarted": false,
+  "active_experiments": 0,
+  "resource_mutations": 0,
+  "waiting_reason": "No new author response, concrete lead, or audit proposal since the recorded allocation decision; current candidate still needs external original output/reading coverage.",
+  "billing_followup": "runtime/billing-20261116-r242-02.json",
+  "billing_observed_USD": 0.5422452458878979,
+  "billing_final_invoice": false,
+  "billing_reader": "Reused runtime/billing-20261116-r242-read01.py unchanged except substituting the output destination in memory; original file and first receipt preserved.",
+  "notification": "DONT_NOTIFY",
+  "notification_reason": "Research state unchanged. Routine dedicated billing reflection is within the disclosed estimate and requires no user action."
+}

@@ -1,0 +1,43 @@
+{
+  "reviewer": "root",
+  "utc": "2026-11-14T07:47:05.386833+00:00",
+  "launcher_pid": 12852,
+  "launcher_absent": true,
+  "own_lane_absent": true,
+  "current_holder": {
+    "name": "cw06-stage",
+    "pid": 47316,
+    "since": "2026-11-14 15:58:23",
+    "cwd": "C:\\dev\\earn-money\\image-gen-monetization\\commissions\\inbound\\13533871\\production\\stage-kit",
+    "phase": "run"
+  },
+  "current_tickets": [
+    {
+      "seq": 3,
+      "kind": "exclusive",
+      "pid": 20428,
+      "since": "2026-11-14 15:58:21",
+      "name": "vk-map-s4"
+    },
+    {
+      "seq": 4,
+      "kind": "exclusive",
+      "pid": 45400,
+      "since": "2026-11-14 16:08:30",
+      "name": "cw789-pick"
+    },
+    {
+      "seq": 6,
+      "kind": "exclusive",
+      "pid": 41836,
+      "since": "2026-11-14 16:39:46",
+      "name": "vk_13599605_voice_voice-irodori"
+    }
+  ],
+  "logical_cpu_count": 20,
+  "physical_cpu_count": 14,
+  "system_cpu_percent_one_second": 100.0,
+  "physical_free_bytes": 10087247872,
+  "model_forward_calls": 0,
+  "other_processes_changed": false
+}

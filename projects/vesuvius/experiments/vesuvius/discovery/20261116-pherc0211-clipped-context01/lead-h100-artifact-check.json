@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-15T16:39:42.962673+00:00",
+  "passed": true,
+  "cloud_plan_sha256": "d390c896e708435e5b4809c1804d0006ce5c1f072fe0840b98ba177c2c526aff",
+  "archive_sha256": "0124d2ffd6afd5029cd38c3e52fa0c046c381fcba6518acbce110b1a4e79ee83",
+  "archive_members_checked": 25,
+  "only_archive_changes": "fixed-assets GPU and rate metadata; other24 bytes identical to previously verified A6000 archive",
+  "controller_hashes_checked": 30,
+  "unchanged_lifecycle_AST_functions": [
+    "cleanup",
+    "owned_pod",
+    "check_existing",
+    "permitted_existing",
+    "upload",
+    "collect"
+  ],
+  "capture_change": "352 to384MiB constant only, original preserved",
+  "science_tests_repeated": 0,
+  "model_forwards": 0,
+  "network_calls": 0,
+  "creation_authorized": false
+}

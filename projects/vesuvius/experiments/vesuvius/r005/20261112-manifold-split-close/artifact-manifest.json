@@ -1,0 +1,403 @@
+{
+  "created_utc": "2026-11-11T21:53:54.584239+00:00",
+  "scope": "Reports69/70, libigl topology adapter and split result, restricted chart SCAF trial, isolated candidate analysis, immutable-contact rational witness, source snapshots, independent verification and resource/runtime records. Existing SCAF code/libraries referenced by prior frozen sources and protected per-run hashes.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split-close/decision-record.json",
+      "bytes": 1263,
+      "sha256": "c593cbe92ea2ff96a04bc2b9f1b8ae91d22100e5211c02fea0a70b2bdeeb2757"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split-close/experiment-record.json",
+      "bytes": 1803,
+      "sha256": "8b44433903ac2f31f4bcc9600a53b7383b01c4bc7f55abf1799df4b3f898b3e4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split-close/freeze.py",
+      "bytes": 4887,
+      "sha256": "1838435441ea3318439ddc9dd53955a05ce78f4be444547a88cbeed49bc9fe27"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split-close/resources.json",
+      "bytes": 27587,
+      "sha256": "641a6baa0c17e83dbb0fb5c8b96a0a726166bb83cb612603c4f4bee29fabf9e6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split-close/runtime-status.json",
+      "bytes": 1046,
+      "sha256": "44d91ba66f9ef67a7b6c78078f38249cf0cd7d318476b9f0dd26ea6392954e1f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split-close/verification-record.json",
+      "bytes": 768,
+      "sha256": "0de8a27e8d2c6e2e8b7736515946286c3f3ddf03f83066a881f5e932bebe8917"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split-verification01/check01/pairs.npz",
+      "bytes": 16204,
+      "sha256": "b65e33f6af02f5fa0bee90b084fc0586dc875a5e082a1c653c495837607960b5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split-verification01/check01/result.json",
+      "bytes": 7882,
+      "sha256": "f9e1998654f6fa7348c8fb40f07952a86dedf85b64cb7ecf9a67448d54cd3f63"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split-verification01/check01-execution/state.json",
+      "bytes": 891,
+      "sha256": "3b5914caf2051584a250575d84a74a8eaa0932bc5958ad10fa0d6847eac62dcb"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split-verification01/check01-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split-verification01/verify_split_and_trial.py",
+      "bytes": 20741,
+      "sha256": "0bf2047d20f62b962e4496184bc596eddfca30606b4a2d8f29c686db4f9b6ffd"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/analysis01/analyze_split.py",
+      "bytes": 4958,
+      "sha256": "0b4347f85c35eafdf13901a6db44d5d0351e80c3b04eaef2dd70f17f70b9189c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/analysis01/arrays.npz",
+      "bytes": 56541,
+      "sha256": "2fc7ed7761f2dee69fa78fba4eae0fcc94cd6e3a827ce9a9c4a528b258dadba3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/analysis01/result.json",
+      "bytes": 10020,
+      "sha256": "cb2fdece629224ea7a2d6edee6c9bbafa99f0542cd457b2d871e0f39776c421e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/analysis01-execution/state.json",
+      "bytes": 859,
+      "sha256": "cb56fead65522b79d0c571c43d60b402b17744eff8ec905e4e165107e6d9fb94"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/analysis01-execution/stdout.log",
+      "bytes": 10020,
+      "sha256": "cb2fdece629224ea7a2d6edee6c9bbafa99f0542cd457b2d871e0f39776c421e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/analyze_chart_trial.py",
+      "bytes": 5118,
+      "sha256": "655350114264cbe62d289a94ee4616f521b37c5f48aa176ec170f172f334c136"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/analyze_split.py",
+      "bytes": 4958,
+      "sha256": "0b4347f85c35eafdf13901a6db44d5d0351e80c3b04eaef2dd70f17f70b9189c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/build01/native_split.py",
+      "bytes": 3673,
+      "sha256": "412e8a11911a6e5aac4b86466775e37b9193b140612905f53988f6e229ad623e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/build01/split_topology.cpp",
+      "bytes": 1661,
+      "sha256": "7997386708890575f5de534f89180b2166ddfde0c7d858fe10035a33f4867990"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/build01/state.json",
+      "bytes": 9878,
+      "sha256": "cda80e2cb10a3fe62e6dee74083d41f4cf37d73a7278223fa2adde2c4a68ad3c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/build01/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-analysis01/analyze_chart_trial.py",
+      "bytes": 5118,
+      "sha256": "655350114264cbe62d289a94ee4616f521b37c5f48aa176ec170f172f334c136"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-analysis01/arrays.npz",
+      "bytes": 7540962,
+      "sha256": "0f27fd6737b68f46b2385f36aa85f2e0f92572f814e536aa137cf8406c56e111"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-analysis01/result.json",
+      "bytes": 11144,
+      "sha256": "085b821017a6213ae64cbafe72880cb6c6c42b8bf831c79bec9217d4cfd23ae5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-analysis01-execution/state.json",
+      "bytes": 872,
+      "sha256": "d597e7aabd38bf7d67551ade1294987b49fae50b94cfe4d39c0e45081951191f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-analysis01-execution/stdout.log",
+      "bytes": 11144,
+      "sha256": "085b821017a6213ae64cbafe72880cb6c6c42b8bf831c79bec9217d4cfd23ae5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-input01/arrays.npz",
+      "bytes": 8444,
+      "sha256": "d32de3b07736b06d1752c899b12b5e91b27ac60aa100d6de707466d160fe32f1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-input01/input.json",
+      "bytes": 29451,
+      "sha256": "4c6d428f8085652cf4a05e17b1ce05e1206d885379e922e0b5a992da5b4d94d0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-input01/prepare_chart_trial.py",
+      "bytes": 3910,
+      "sha256": "e54f9bbfef1d06a57c0085f25cf6818f3cc507ed85f489b151645c573691e054"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-input01/result.json",
+      "bytes": 1707,
+      "sha256": "c3bd0f5839370c4081a38492d69849a8df25eab736b23953800a6331bc441c84"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-input01-execution/state.json",
+      "bytes": 868,
+      "sha256": "a88c345fc12c7fa52a4a22e862b0bb962cebdcdce1e307472cf91208a71ab612"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-input01-execution/stdout.log",
+      "bytes": 1707,
+      "sha256": "c3bd0f5839370c4081a38492d69849a8df25eab736b23953800a6331bc441c84"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/chart-trial-decision-record.json",
+      "bytes": 1592,
+      "sha256": "80ea7a2bdf530e8171a6496f8dd798e050a0978ce00a0f385fe2873358572ed3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/check_immutable_contacts.py",
+      "bytes": 4535,
+      "sha256": "5b1a389e24524da32f68e74063b3efe1c753c46a5e68ed0c4c909846df1bc2fb"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/contacts01/arrays.npz",
+      "bytes": 569687,
+      "sha256": "5d9b406b947d45bacd62ad990ce8fd375a2ca49136af90af17badc31f6e598cc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/contacts01/check_immutable_contacts.py",
+      "bytes": 4535,
+      "sha256": "5b1a389e24524da32f68e74063b3efe1c753c46a5e68ed0c4c909846df1bc2fb"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/contacts01/result.json",
+      "bytes": 2896,
+      "sha256": "11e8dd81fc08e0bfe0fb896feba5ef7da56dc250c87d049949b8d41063fa875d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/contacts01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/contacts01-execution/state.json",
+      "bytes": 871,
+      "sha256": "e69f21990121f7ea32a9481020ad84214189cb558c0263ac0e2eb0eacdcfb1c5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/contacts01-execution/stdout.log",
+      "bytes": 2363,
+      "sha256": "3f4aa3c9ed2afc3d1b7fbd1a04b8646c874b78670f0ea070886b28408927785f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/decision-record.json",
+      "bytes": 1410,
+      "sha256": "083a2ffdb77744d2b62a82b877820471c19e715ddaf400ee37be0763dbdf15b3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/input01/arrays.npz",
+      "bytes": 58521,
+      "sha256": "31a30f7f166795c74ba1579b26fa9cac1a5ed7d257b6372c9f2e1460d1cf0074"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/input01/input.json",
+      "bytes": 28405,
+      "sha256": "af8f282b8febfdef29b769162b12aecaa9874630b54aec3bcbe2fbdef1c54d6a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/input01/prepare_split.py",
+      "bytes": 1664,
+      "sha256": "6c9892ae0e9204cca7973da176478ec28ae54d2510b7ab0d19a7fe055de4c555"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/input01/result.json",
+      "bytes": 1007,
+      "sha256": "e529821121340ee3343fe3a371db5c6bc67c50ad4bc5472f450a6e233824745b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/input01-execution/state.json",
+      "bytes": 857,
+      "sha256": "7e91bb0cc7d40769d89a9f7aa1023e3ef76d41cf679728329858971adeaa45a2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/input01-execution/stdout.log",
+      "bytes": 880,
+      "sha256": "7b70fdda2bad889d8d3a8048910d04370f0c125154325d4cf4931f6649465227"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/libigl-source-snapshot/boundary_loop.cpp",
+      "bytes": 3820,
+      "sha256": "078162897c91e57510b7c7a097e98a5c443fcbb3fbac597dc5c69ded62809fd5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/libigl-source-snapshot/boundary_loop.h",
+      "bytes": 1875,
+      "sha256": "8dbb6e9f6863d0f5300d2783a3fa1396977ed7738bd3b5eea27f550b60059dc9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/libigl-source-snapshot/is_edge_manifold.cpp",
+      "bytes": 3102,
+      "sha256": "58352437845720d698a5ca886da76fea1be932b4f55de422e35d55722beb6950"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/libigl-source-snapshot/is_edge_manifold.h",
+      "bytes": 2125,
+      "sha256": "acaf2807d51176dec03a9bccf029a7363373fb7d92d298f798efe9f4f4447fd5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/libigl-source-snapshot/is_vertex_manifold.cpp",
+      "bytes": 3320,
+      "sha256": "c85ff06c239d89f6c6726edbcd9c4d650b6e9288c97257f467f4dbfe0460249c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/libigl-source-snapshot/is_vertex_manifold.h",
+      "bytes": 1420,
+      "sha256": "0c101905ae5c9ea7d3249bbee720b4f55706cbf6c755bf6851f7afe5df15c268"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/libigl-source-snapshot/split_nonmanifold.cpp",
+      "bytes": 14126,
+      "sha256": "bcafcee2ae6fe94dd05f1d4c0f30133b727aae732ebd496b72df97117205dbef"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/libigl-source-snapshot/split_nonmanifold.h",
+      "bytes": 1829,
+      "sha256": "514bc5b1f0f477dbf98b08e421d859abe01190d212a5bab424a20b5526cb0e69"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/native_split.py",
+      "bytes": 3673,
+      "sha256": "412e8a11911a6e5aac4b86466775e37b9193b140612905f53988f6e229ad623e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/prepare_chart_trial.py",
+      "bytes": 3910,
+      "sha256": "e54f9bbfef1d06a57c0085f25cf6818f3cc507ed85f489b151645c573691e054"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/prepare_split.py",
+      "bytes": 1664,
+      "sha256": "6c9892ae0e9204cca7973da176478ec28ae54d2510b7ab0d19a7fe055de4c555"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/soft01/native_job.py",
+      "bytes": 5181,
+      "sha256": "6ebbc8ee151f67777381282ee9b92fae7f62695ffbd79d0139f47703be8edb55"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/soft01/result.json",
+      "bytes": 141307,
+      "sha256": "03c619e1daa15c62a6ba28b7c43fc44a446572ddad372d0086ceaac86e8f884d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/soft01/scaf_trial.cpp",
+      "bytes": 3819,
+      "sha256": "9c591797e535af24044a34eed9d573afaaa10817ac24a57debc3ce95629ecb0a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/soft01/state.json",
+      "bytes": 5047,
+      "sha256": "022a0b455bc3626353959381003ed660a6ae3b28d7683fb571e9075ade0b8b6c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/soft01/stdout.log",
+      "bytes": 162,
+      "sha256": "4373da09732d44568c957cefa14effa5666d4051517c059c12bf4df5e4f6eba2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/split01/native_split.py",
+      "bytes": 3673,
+      "sha256": "412e8a11911a6e5aac4b86466775e37b9193b140612905f53988f6e229ad623e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/split01/result.json",
+      "bytes": 89356,
+      "sha256": "8d22d7f9f2b2e08cf01c96476e013a3453fde6b9a901dfbb5b0cdd6f13585538"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/split01/split_topology.cpp",
+      "bytes": 1661,
+      "sha256": "7997386708890575f5de534f89180b2166ddfde0c7d858fe10035a33f4867990"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/split01/state.json",
+      "bytes": 3298,
+      "sha256": "89c64d1058ee015f22a085e255ba2a32257354baa5fc2ff62d7dbbf61ac663cc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/split01/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-manifold-split01/split_topology.cpp",
+      "bytes": 1661,
+      "sha256": "7997386708890575f5de534f89180b2166ddfde0c7d858fe10035a33f4867990"
+    },
+    {
+      "path": "research/69-r005-manifold-chart-trial.md",
+      "bytes": 9016,
+      "sha256": "cb5c94698ca7dac0c6949657820f04779e650a86a55c7caa54ba0d6ce438b41f"
+    },
+    {
+      "path": "research/70-r005-manifold-split-verification.md",
+      "bytes": 7479,
+      "sha256": "5a9ce072eb9c873c316f35d1b8eb223b804b19287f5cb9bfbc40d2e15860ba0a"
+    }
+  ],
+  "external_files": [
+    {
+      "path": "D:/kensyoukin-work/r003-build/bin/r005-split-topology01",
+      "bytes": 5117424,
+      "sha256": "6497820ea1e90c007f984e408980b1edd2bf922452f282045e225c03be153f3b"
+    },
+    {
+      "path": "D:/kensyoukin-work/r005-manifold01/split_topology.o",
+      "bytes": 8586184,
+      "sha256": "8a37f2ad24b92c68404ad6e4586c014c69e89b7a2fcd2054b2683a344884ed91"
+    }
+  ]
+}

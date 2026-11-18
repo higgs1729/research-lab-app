@@ -1,0 +1,61 @@
+{
+  "utc": "2026-11-13T12:26:37.232476+00:00",
+  "pid": 445,
+  "gdb_pid": 437,
+  "process_group": 445,
+  "pc": "0x62afee",
+  "file_snapshot": {
+    ".zgroup": {
+      "bytes": 19,
+      "mtime_ns": 1794572797050727900,
+      "inode": 3096224745480980,
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+    },
+    "0/.zarray": {
+      "bytes": 230,
+      "mtime_ns": 1794572797046030700,
+      "inode": 3659174698902288,
+      "sha256": "43c91328356958a8e24b78a23e6af8352af579479d46a8d410ffcaad8c7bd2ea"
+    },
+    "0/0/0/0": {
+      "bytes": 3584,
+      "mtime_ns": 1794572797145997800,
+      "inode": 16325548650881912,
+      "sha256": "410c3adb0d0336eb749070c9471080d67100675ea7d0c327c90ad61d850117dc"
+    },
+    "1/.zarray": {
+      "bytes": 228,
+      "mtime_ns": 1794572797061739700,
+      "inode": 1970324838638376,
+      "sha256": "a673d613f25848258d5792fd22837896f41e39f80498d6e2a6fa6124f33ae836"
+    },
+    "2/.zarray": {
+      "bytes": 228,
+      "mtime_ns": 1794572797070013600,
+      "inode": 3940649675612980,
+      "sha256": "2819ccb383db3e002b2aef0c1c6890a82daaa001a338af69eaab94b3be655dce"
+    },
+    "3/.zarray": {
+      "bytes": 228,
+      "mtime_ns": 1794572797081641100,
+      "inode": 1970324838638423,
+      "sha256": "4cfdf860c2d9c8d913e5ee49c3bd350f6c566d76029be947c4e8a5f830c82eb9"
+    },
+    "4/.zarray": {
+      "bytes": 226,
+      "mtime_ns": 1794572797090146700,
+      "inode": 3377699722191730,
+      "sha256": "84b70a1ed4d95d3086ed38d4210099aa12299df979f7f9224df56f4476138578"
+    },
+    "5/.zarray": {
+      "bytes": 226,
+      "mtime_ns": 1794572797098355800,
+      "inode": 2251799815349109,
+      "sha256": "c389407707f555ec94d4edf58b6eb1bc9e0a315c556f90ea39fa720642e0ca64"
+    }
+  },
+  "backtrace": "#0  0x000000000062afee in _Z11renderTilesIhEvRK11QuadSurfaceRK13RenderSurfaceRN3vcr5ArrayERKNS6_11ElementTypeERKN2cv5Size_IiEERKNSC_5Rect_IiEESG_fidRKSt6vectorIfSaIfEE9AccumTypebiiRKNS6_9composite7OptionsEiiimmmjjPNS6_4zarr6WriterEPSL_ISt10unique_ptrINS6_7sources10TiffWriterESt14default_deleteIS10_EESaIS13_EEbb._omp_fn.0(void) () at /mnt/c/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/source/volume-cartographer/apps/src/vc_render_tifxyz.cpp:487\n#1  0x00007f9ffd58b977 in GOMP_parallel () from /lib/x86_64-linux-gnu/libgomp.so.1\n#2  0x00000000005c7caf in renderTiles<unsigned char> () at /mnt/c/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/source/volume-cartographer/apps/src/vc_render_tifxyz.cpp:443\n#3  0x00000000005b229d in operator() () at /mnt/c/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/source/volume-cartographer/apps/src/vc_render_tifxyz.cpp:1568\n#4  0x00000000005b8a8d in main () at /mnt/c/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/source/volume-cartographer/apps/src/vc_render_tifxyz.cpp:1609\n",
+  "proc_status": "Name:\trenderer\nUmask:\t0022\nState:\tt (tracing stop)\nTgid:\t445\nNgid:\t0\nPid:\t445\nPPid:\t437\nTracerPid:\t437\nUid:\t0\t0\t0\t0\nGid:\t0\t0\t0\t0\nFDSize:\t64\nGroups:\t65534 65534 65534 65534 65534 65534 65534 65534 65534 65534 65534 0 \nNStgid:\t445\nNSpid:\t445\nNSpgid:\t445\nNSsid:\t436\nKthread:\t0\nVmPeak:\t  749156 kB\nVmSize:\t  685672 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t   67468 kB\nVmRSS:\t   67468 kB\nRssAnon:\t   14860 kB\nRssFile:\t   52608 kB\nRssShmem:\t       0 kB\nVmData:\t  144548 kB\nVmStk:\t     136 kB\nVmExe:\t    1104 kB\nVmLib:\t   92264 kB\nVmPTE:\t     368 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nuntag_mask:\t0xffffffffffffffff\nThreads:\t15\nSigQ:\t0/47811\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000000000000\nSigCgt:\t0000000100000000\nCapInh:\t0000000000000000\nCapPrm:\t000001ffffffffff\nCapEff:\t000001ffffffffff\nCapBnd:\t000001ffffffffff\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t0\nSeccomp_filters:\t0\nSpeculation_Store_Bypass:\tthread vulnerable\nSpeculationIndirectBranch:\tconditional enabled\nCpus_allowed:\t01\nCpus_allowed_list:\t0\nMems_allowed:\t00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t3134\nnonvoluntary_ctxt_switches:\t33\n",
+  "network_namespace": "net:[4026532228]",
+  "entry_condition_met": true
+}

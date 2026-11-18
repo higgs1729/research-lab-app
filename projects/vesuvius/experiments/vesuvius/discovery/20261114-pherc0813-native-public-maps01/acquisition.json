@@ -1,0 +1,93 @@
+{
+  "receipts": [
+    {
+      "url": "https://api.github.com/repos/pscamillo/vesuvius-eligible-meshes/contents/meshes/PHerc0813/z12496_w020?ref=620769e2e1e70d1e61b588092229cb76d3af4804",
+      "output": "mesh-listing.json",
+      "bytes": 4728,
+      "sha256": "610e9caba84813f471ab3834fc3b2bf4d737e921c54dc60ebae8e73ac7fd3c77",
+      "headers": {
+        "Content-Length": "4728",
+        "ETag": "\"6a6637e15eb76115d8985e001ddf386cfa01de07\"",
+        "X-Repo-Commit": null
+      },
+      "utc": "2026-11-14T06:11:41.200357+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pscamillo/vesuvius-eligible-meshes/620769e2e1e70d1e61b588092229cb76d3af4804/meshes/PHerc0813/z12496_w020/meta.json",
+      "output": "originals/mesh/meta.json",
+      "bytes": 4215,
+      "sha256": "a057316945c43e5d6e084a7730763a7af54d7e84bf2759db88e98f7ac69540dc",
+      "headers": {
+        "Content-Length": "4215",
+        "ETag": "\"a7f29f68dd543cc43129e8cc430c718f57f586eaf4e87fa0173dd4d9660648de\"",
+        "X-Repo-Commit": null
+      },
+      "utc": "2026-11-14T06:11:41.478970+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pscamillo/vesuvius-eligible-meshes/620769e2e1e70d1e61b588092229cb76d3af4804/meshes/PHerc0813/z12496_w020/x.tif",
+      "output": "originals/mesh/x.tif",
+      "bytes": 28944,
+      "sha256": "203dd1cb3538e3383a98711c0809898a2d71407e71e56662d4ebcf3c4acc8b49",
+      "headers": {
+        "Content-Length": "28944",
+        "ETag": "\"dee25181ada785dffbff0796fc1fdbb1f557156415b06c01f55ba31eb5815ccf\"",
+        "X-Repo-Commit": null
+      },
+      "utc": "2026-11-14T06:11:41.735374+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pscamillo/vesuvius-eligible-meshes/620769e2e1e70d1e61b588092229cb76d3af4804/meshes/PHerc0813/z12496_w020/y.tif",
+      "output": "originals/mesh/y.tif",
+      "bytes": 28944,
+      "sha256": "1cec3ebe3c7ac8022310d7f5be47621de1c861eef2d0e86cc91c695207bbc82d",
+      "headers": {
+        "Content-Length": "28944",
+        "ETag": "\"f44c21c32a63d851edac1c20e5bc2ecca3ef4951e263029d363cf6283c6b6b12\"",
+        "X-Repo-Commit": null
+      },
+      "utc": "2026-11-14T06:11:41.994481+00:00"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pscamillo/vesuvius-eligible-meshes/620769e2e1e70d1e61b588092229cb76d3af4804/meshes/PHerc0813/z12496_w020/z.tif",
+      "output": "originals/mesh/z.tif",
+      "bytes": 28944,
+      "sha256": "6b9f718c709f5732eea183add9deaeb3c6ded25484d51d893431ddc0a6862fb3",
+      "headers": {
+        "Content-Length": "28944",
+        "ETag": "\"25dff945a4e1ecf636c1598287cc69cc68234165ccfb3317adadf23e8d897c39\"",
+        "X-Repo-Commit": null
+      },
+      "utc": "2026-11-14T06:11:42.231847+00:00"
+    },
+    {
+      "url": "https://huggingface.co/datasets/pscamillo/vesuvius-eligible-meshes-ink9/resolve/dd968475bca14ccfbfd7b06cc6ba87723bb25642/PHerc0813/z12496_w020.tif",
+      "output": "originals/z12496_w020.tif",
+      "bytes": 1135632,
+      "sha256": "a87ad251b1e17ed416349c5a0c982bf591f8b737b4e91cf74a25ed4097ec5feb",
+      "headers": {
+        "Content-Length": "1135632",
+        "ETag": "\"bc02c46c03467505585cca8e40cab1543419ab9d027627ff83dc18efc44cd87f\"",
+        "X-Repo-Commit": null
+      },
+      "utc": "2026-11-14T06:11:45.819106+00:00"
+    },
+    {
+      "url": "https://huggingface.co/datasets/pscamillo/vesuvius-eligible-meshes-ink9/resolve/dd968475bca14ccfbfd7b06cc6ba87723bb25642/PHerc0813/z12496_w020_reverse.tif",
+      "output": "originals/z12496_w020_reverse.tif",
+      "bytes": 1300494,
+      "sha256": "cbd3f4b32c4e8f0f45d4c1367e87ee5df4103c68b19e07f59da18d8a32b48d56",
+      "headers": {
+        "Content-Length": "1300494",
+        "ETag": "\"632851a65d38b0905c4d319485278da5afbd487d7f2ef66a625e3d52560cdb85\"",
+        "X-Repo-Commit": null
+      },
+      "utc": "2026-11-14T06:11:47.690575+00:00"
+    }
+  ],
+  "transferred_bytes": 2531901,
+  "network_stage_seconds": 6.806336999994528,
+  "ct_bytes": 0,
+  "cost_jpy": 0,
+  "completed_utc": "2026-11-14T06:11:47.692550+00:00"
+}

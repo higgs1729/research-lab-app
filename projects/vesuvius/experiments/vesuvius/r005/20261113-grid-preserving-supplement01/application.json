@@ -1,0 +1,23 @@
+{
+  "source_fixed_by_git_object_and_saved_upstream_tree": true,
+  "c_partial_worktree": ".work/r005-grid-preserving-supplement01",
+  "preserved_patch_whitespace": {
+    "strict_apply_exit": 128,
+    "diff_check_exit": 2,
+    "single_diagnostic": "volume-cartographer/core/src/SurfaceMeshing.cpp:409: trailing whitespace.\n+    std::cout << \"Valid grid points: \" << valid_count << \" / \" << (width * grid_size[1])",
+    "apply_with_whitespace_warn_succeeded": true
+  },
+  "product_sources_match_r150_cleaned_sources": true,
+  "flatboi_observation_sources_match": true,
+  "renderer_observation_source_matches": true,
+  "working_copy_left_in_product_state": true,
+  "product_files_after_both_patches": {
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "8e8b41004bd62159348f3a854dfcb2cdb86fdca30d19af1863719f81aacb2776",
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": "dcc75e14768d321a4eaa7110950396a8a7574bb1fc8e6ad9414ead3113793978",
+    "volume-cartographer/libs/flatboi/flatboi.cpp": "00b682f7956108c75c048e32d96a28cd0bd4f536ad66de47483cf029931bb0ae"
+  },
+  "comment_encoding_existing_proof_confirmed": true,
+  "new_builds": 0,
+  "new_native_runs": 0,
+  "new_network_bytes": 0
+}

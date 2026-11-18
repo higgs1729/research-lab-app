@@ -1,0 +1,39 @@
+{
+  "files": [
+    {
+      "path": "research/162-r009-normal-python-feasibility.md",
+      "sha256": "76b69b59e917179c484fd82cbec2bc6717f139b5b379abeaf349c035b76d2ca7",
+      "bytes": 5943
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-feasibility01/README.md",
+      "sha256": "67ad173534855a4df1f5d76d357b3f185b3fe30a68659081a1fdec3ed814cb2d",
+      "bytes": 9134
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-feasibility01/readback.txt",
+      "sha256": "79d291ffbedfc8c4b44e2d23ee67a808137e427ff8b4db66fd76215bdfbbfb7a",
+      "bytes": 6911
+    },
+    {
+      "path": "experiments/vesuvius/bundle/20261113-fixed-main-integration01/run01/patch-result.json",
+      "sha256": "8edfb73c6fa8c07bbbb3bd75d32369e4dd087e2b370ea4f4dd047f73879bef6b",
+      "bytes": 5553
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-python-validation01/run01/abi-inputs.json",
+      "sha256": "6beebdb8cd31942c43b51386abead5b2b74cffd59feb427c5ec30aaefbee9c20",
+      "bytes": 1561
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-python-validation01/run01/downloads.json",
+      "sha256": "b9ce46284424dd658887cea1eeaae6810e98e3a185ec34e5e55965b75b73bde7",
+      "bytes": 1308
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-normal-python-feasibility01/record.json",
+      "sha256": "11e8f820f5f5dcd95a8c3d41b3863c566b26739b87accfbfa65ceaeedcec8200",
+      "bytes": 1793
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "total_planned_values": 150540,
+  "planes": [
+    {
+      "id": "candidate-q25-un",
+      "values": 12545,
+      "min": 10.629119229485273,
+      "max": 250.0105941523334,
+      "finite": true,
+      "outside_count": 0,
+      "outside_all_values": []
+    },
+    {
+      "id": "candidate-q25-vn",
+      "values": 12545,
+      "min": 17.034847569549093,
+      "max": 248.53252974446352,
+      "finite": true,
+      "outside_count": 0,
+      "outside_all_values": []
+    },
+    {
+      "id": "candidate-q50-un",
+      "values": 12545,
+      "min": 18.47160780045478,
+      "max": 254.99999999999997,
+      "finite": true,
+      "outside_count": 0,
+      "outside_all_values": []
+    },
+    {
+      "id": "candidate-q50-vn",
+      "values": 12545,
+      "min": 15.218539059394807,
+      "max": 252.0319216646286,
+      "finite": true,
+      "outside_count": 0,
+      "outside_all_values": []
+    },
+    {
+      "id": "candidate-q75-un",
+      "values": 12545,
+      "min": 11.941321954101808,
+      "max": 255.00000000000003,
+      "finite": true,
+      "outside_count": 5,
+      "outside_all_values": [
+        {
+          "yx": [
+            24,
+            140
+          ],
+          "value": 255.00000000000003,
+          "distance_beyond_domain": 2.842170943040401e-14,
+          "eight_uint8_corners": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "eight_weights": [
+            0.005679852314552994,
+            0.08157141268584024,
+            0.03086699844855637,
+            0.44329755940468296,
+            0.004437162709503062,
+            0.06372447917417032,
+            0.02411363656750327,
+            0.34630889869519077
+          ],
+          "weight_sum": 1.0
+        },
+        {
+          "yx": [
+            28,
+            139
+          ],
+          "value": 255.00000000000003,
+          "distance_beyond_domain": 2.842170943040401e-14,
+          "eight_uint8_corners": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "eight_weights": [
+            0.46518475971626344,
+            0.23099343944189227,
+            0.024356817737094583,
+            0.012094689229248333,
+            0.1697673256653424,
+            0.0843001358948395,
+            0.008888923642870066,
+            0.004413908672449412
+          ],
+          "weight_sum": 1.0
+        },
+        {
+          "yx": [
+            28,
+            140
+          ],
+          "value": 255.00000000000003,
+          "distance_beyond_domain": 2.842170943040401e-14,
+          "eight_uint8_corners": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "eight_weights": [
+            0.05307647190647509,
+            0.024948559512081622,
+            0.4625431586469208,
+            0.21741809705707124,
+            0.016946525617613183,
+            0.007965702837954829,
+            0.14768312975048178,
+            0.06941835467140153
+          ],
+          "weight_sum": 1.0
+        },
+        {
+          "yx": [
+            29,
+            138
+          ],
+          "value": 255.00000000000003,
+          "distance_beyond_domain": 2.842170943040401e-14,
+          "eight_uint8_corners": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "eight_weights": [
+            0.48058186956822313,
+            0.11277722569400786,
+            0.13206516656318323,
+            0.030991479368945526,
+            0.15475904601002424,
+            0.03631700853746875,
+            0.042528194429881185,
+            0.00998000982826609
+          ],
+          "weight_sum": 1.0
+        },
+        {
+          "yx": [
+            56,
+            150
+          ],
+          "value": 255.00000000000003,
+          "distance_beyond_domain": 2.842170943040401e-14,
+          "eight_uint8_corners": [
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255,
+            255
+          ],
+          "eight_weights": [
+            0.010868392604975732,
+            0.09087145446837021,
+            0.030531266469941146,
+            0.2552742334330799,
+            0.017175790326830958,
+            0.14360808496449948,
+            0.04824987929311966,
+            0.40342089843918294
+          ],
+          "weight_sum": 1.0
+        }
+      ]
+    },
+    {
+      "id": "candidate-q75-vn",
+      "values": 12545,
+      "min": 20.42112802391285,
+      "max": 250.94332827400933,
+      "finite": true,
+      "outside_count": 0,
+      "outside_all_values": []
+    },
+    {
+      "id": "known_phi-q25-un",
+      "values": 12545,
+      "min": 12.32857073563179,
+      "max": 207.0662512817775,
+      "finite": true,
+      "outside_count": 0,
+      "outside_all_values": []
+    },
+    {
+      "id": "known_phi-q25-vn",
+      "values": 12545,
+      "min": 17.36532406229327,
+      "max": 213.75801461578214,
+      "finite": true,
+      "outside_count": 0,
+      "outside_all_values": []
+    },
+    {
+      "id": "known_phi-q50-un",
+      "values": 12545,
+      "min": 6.611362710587749,
+      "max": 254.11496578607716,
+      "finite": true,
+      "outside_count": 0,
+      "outside_all_values": []
+    },
+    {
+      "id": "known_phi-q50-vn",
+      "values": 12545,
+      "min": 9.00600618970776,
+      "max": 243.45375230723994,
+      "finite": true,
+      "outside_count": 0,
+      "outside_all_values": []
+    },
+    {
+      "id": "known_phi-q75-un",
+      "values": 12545,
+      "min": 3.3297209684289886,
+      "max": 197.25706016482104,
+      "finite": true,
+      "outside_count": 0,
+      "outside_all_values": []
+    },
+    {
+      "id": "known_phi-q75-vn",
+      "values": 12545,
+      "min": 5.3217158531317965,
+      "max": 207.88873626824417,
+      "finite": true,
+      "outside_count": 0,
+      "outside_all_values": []
+    }
+  ],
+  "total_outside_domain_values": 5,
+  "maximum_overshoot_DN": 2.842170943040401e-14,
+  "new_positions_or_planes": 0,
+  "CT_bytes_acquired": 0,
+  "images_written": 0,
+  "first_failure_plane": "candidate-q75-un",
+  "initial_saved_planes": 4,
+  "previous_first_plane_diagnostic_confirmed_first_plane_was_valid": true
+}

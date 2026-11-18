@@ -1,0 +1,22 @@
+{
+  "command": [
+    "unshare",
+    "-Urn",
+    "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-flatboi",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r011/20261113-w035-geometry01/run01/input",
+    "--output=/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261113-single-component-control01/run01/default/output",
+    "--keep=100.0",
+    "5"
+  ],
+  "cwd": "/mnt/c/dev/kensyoukin/.work/r005-single-component-control01/run01",
+  "started_utc": "2026-11-13T11:46:51.157271+00:00",
+  "completed_utc": "2026-11-13T11:47:59.232574+00:00",
+  "timeout_seconds": 299.992173858,
+  "elapsed_seconds": 68.075318302,
+  "exit_code": 0,
+  "max_child_rss_bytes": 341544960,
+  "user_cpu_seconds": 67.13,
+  "sys_cpu_seconds": 0.38,
+  "timing_pid": 368,
+  "reaped": true
+}

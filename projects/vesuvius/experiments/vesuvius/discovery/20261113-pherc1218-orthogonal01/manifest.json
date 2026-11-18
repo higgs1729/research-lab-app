@@ -1,0 +1,159 @@
+{
+  "files": [
+    {
+      "path": "research/166-pherc1218-orthogonal-sections.md",
+      "bytes": 9243,
+      "sha256": "10102b487eecf3e7651b35f8d6db8fe6510ee7842fa260d3c7a937a0cf20d6e5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/assessment.json",
+      "bytes": 1202,
+      "sha256": "cf91aee386957d344fbc7428e47172266df079a753f3ecff5f61d397d6e4dbb9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/coordinates.json",
+      "bytes": 4517,
+      "sha256": "72bba81f31e08ed9820a94eace6cb6932161f2b4d42723b9e327d67ad320a6de"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/lab-record.json",
+      "bytes": 2076,
+      "sha256": "9388a8d8f5b1b72962d78a650f3496c495f28d36cf478408ff46d6f1219ced4b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/layout-process.json",
+      "bytes": 237,
+      "sha256": "1b1338fe997ecda933c7754f3a7f01217ff1ea94b935cf96081f6c96f892fdd6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/layout-sections.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/layout-start.json",
+      "bytes": 717,
+      "sha256": "40544c1c9b89cdf649a79f5c81378fb62bb9d9866cd0bb85c4720c6173bcb163"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/layout-time.txt",
+      "bytes": 17,
+      "sha256": "cf14349ff1d18325ae209493e414102680edb81986c67b456175d685e5c945e1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/lead-check.json",
+      "bytes": 612,
+      "sha256": "3348bfc2d26dccf62fd77ef5bd63b7ca6efa6c26c19b3a989058052a9899fd4e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/lead_check.py",
+      "bytes": 4990,
+      "sha256": "456c25f312f653a09073584b1e8b1d9382047c14ad334c2244eb0a738abf64f4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/mesh-projections-readable.png",
+      "bytes": 1174472,
+      "sha256": "d640f2cd5e6a419772d5b12c118a178b9d638d219ae3f221ca2d3c3e70d8199d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/mesh-projections.png",
+      "bytes": 1172197,
+      "sha256": "dfa53451679f69714e97df992cb631439f00c6f46fce0fdbd1bbe3749cf736a7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/process.json",
+      "bytes": 239,
+      "sha256": "5315c56fd3c3d5c03aed95c8dbab14c5eef349f396f95854a3a523c7544d710c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/projections.json",
+      "bytes": 1345052,
+      "sha256": "039ea7c6dbe1077efc849f61a5d101fa188308ca1abc40bbb19d11788b7c7a61"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/raw/X3787.png",
+      "bytes": 85330,
+      "sha256": "f87ea924cd251a9f5c9056ebd5b1c087ecb2445f769afb2a1bfba40d14824b77"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/raw/X3803.png",
+      "bytes": 85863,
+      "sha256": "8f76522c8c56c9009a97619a59f9f38604b0a8cf5c655d402910440e3dfd83de"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/raw/X3819.png",
+      "bytes": 85620,
+      "sha256": "c10ddebb083d36824a5806f3568557e65fd46a2d8aced3c120f7e9f57836f9e6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/raw/Y5117.png",
+      "bytes": 126232,
+      "sha256": "1af6af3ec3e6d92147ff0efa9c462e21d85d2109ee72b42ba9b0d2749295ad67"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/raw/Y5133.png",
+      "bytes": 126496,
+      "sha256": "cf9219abe46535b68b300fc937b5f35c5067fd456c8bf0dd75b5699e295675b3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/raw/Y5149.png",
+      "bytes": 126467,
+      "sha256": "de75497dff31e267c6bd6d8acad16e67fde8f217e86392fe36819a62c96a4c91"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/raw/Z11010.png",
+      "bytes": 83278,
+      "sha256": "8ef88ed720df255dd2c17b54a00318e3eaebaa07ca3e1e9715fc1979f2b93806"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/raw/Z11026.png",
+      "bytes": 83200,
+      "sha256": "6b0478d87c8c70afc0b274eb72c48688ed4c77a22fe8653b39cbf0378e86e963"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/raw/Z11042.png",
+      "bytes": 83445,
+      "sha256": "91fef9bc95eb1c4016286679deddb9352fb9e8d5ef33096963afcc7b2ef4e8a4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/raw-sections.png",
+      "bytes": 1125489,
+      "sha256": "a99a15ee672bbc3a9a544edb188f4fd6c5dc65573d5488245c31a4137161c52a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/README.md",
+      "bytes": 1412,
+      "sha256": "e111d1f72252baaf652ac3777f667bdf43a7bf78c87f558669abbd7783853a56"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/result.json",
+      "bytes": 15061,
+      "sha256": "78ab667b9ced28fe58f9eb2270eb4792df06013410a56c9568ae4f4fd12625e7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/run_bounded.py",
+      "bytes": 3091,
+      "sha256": "bc168824d16abdda257d0ebab332a3f53bc051baff1c67441a6c71cc49823c85"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/sections.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/sections.py",
+      "bytes": 19116,
+      "sha256": "b6748d27266738d84d47a696f5732ea63a0932fb46f27ad822c778e2f33b7f7a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/start.json",
+      "bytes": 689,
+      "sha256": "7e3c9c99fe3ed61312348a575acc9de8a0a507b25b7e8425041c88f17c19feb5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261113-pherc1218-orthogonal01/time.txt",
+      "bytes": 17,
+      "sha256": "6248225bb6afa3a1fc28af5c81c6ad47c046265901a30097fdc0b5ac824adfc6"
+    }
+  ]
+}

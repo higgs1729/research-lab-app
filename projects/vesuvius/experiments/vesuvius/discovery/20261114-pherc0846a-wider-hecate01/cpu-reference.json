@@ -1,0 +1,60 @@
+{
+  "rows": [
+    {
+      "index": 1,
+      "global_xy": [
+        576,
+        576
+      ],
+      "raw_input_sha256": "26fd673381702bd40513c86d3bb2552126774c231df8f035af496912f9b154cf",
+      "raw_probability_sha256": "d66168141fa30aa88b8ad948652b08f3e51d26a32467ba31532342a453fe3d6f",
+      "elapsed_seconds": 11.79011470000114
+    },
+    {
+      "index": 2,
+      "global_xy": [
+        608,
+        576
+      ],
+      "raw_input_sha256": "39bc5f18b7cbce09c2ec65d5d33053f04b323f1d50af450164b8c10e6473db2a",
+      "raw_probability_sha256": "91d302c9b6f3461aaf2838aa8f6e7ea31d67e707216378513584a30e5a0976a2",
+      "elapsed_seconds": 19.807314199999382
+    },
+    {
+      "index": 3,
+      "global_xy": [
+        640,
+        576
+      ],
+      "raw_input_sha256": "3637ae45f6d1026389c9d1e589e9a094cb1056b528f3e27e45203d87bb2c0ad4",
+      "raw_probability_sha256": "1ec3326ee4aac41b091b8a14e682a37b475091aadb6af980785a3b416a17dcf1",
+      "elapsed_seconds": 28.590403900001547
+    }
+  ],
+  "elapsed_seconds": 28.596078300004592,
+  "load_seconds": 1.2906407000045874,
+  "environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "versions": {
+      "torch": "2.14.0",
+      "numpy": "2.5.2",
+      "zarr": "3.1.5",
+      "numcodecs": "0.16.5",
+      "psutil": "7.2.2"
+    },
+    "torch_build": "2.14.0+cpu",
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "zarr_async_concurrency": 1,
+    "affinity": [
+      0
+    ],
+    "physical_memory_available": 12605915136,
+    "workspace_free_bytes": 22196260864,
+    "dependencies": "C:\\dev\\kensyoukin\\.work\\r012-known-ink-inference01\\deps",
+    "network": "Python socket audit hook, loopback only, and HF offline"
+  },
+  "model_loads": 1,
+  "forward_calls": 3
+}

@@ -1,0 +1,22 @@
+{
+  "name": "r242-studio-d04a5eb19cdf24ac",
+  "create_epoch": 1794759595,
+  "delete_epoch": 1794761395,
+  "precreate_list_had_no_match": true,
+  "list_hourly_usd": 0.69,
+  "requested_data_centers": [
+    "EU-SE-1"
+  ],
+  "input_archive_sha256": "e1b3a7a91d6eb3183a06bc10e2fec49a6da9ddf2a3c2017f5fd4044a5b4485e4",
+  "result_reservation": {
+    "allocated_bytes": 67108864,
+    "file_bytes": 67108864,
+    "windows_attributes": 32,
+    "links": 1,
+    "device": 10726679257801674650,
+    "file_id": 2533274792841592
+  },
+  "free_before_reservation_bytes": 14884958208,
+  "free_after_reservation_bytes": 14817677312,
+  "precreate_foreign_pods_untouched": []
+}

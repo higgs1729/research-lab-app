@@ -1,0 +1,24 @@
+{
+  "vertices": 443,
+  "faces": 702,
+  "chart_vertex_counts": [
+    224,
+    201,
+    18
+  ],
+  "chart_face_counts": [
+    346,
+    336,
+    20
+  ],
+  "fixed": 253,
+  "moving": 190,
+  "coarse_unique": 12,
+  "obstacle_shared_source_vertices": [
+    108876
+  ],
+  "initial_min_signed_area": 199.99999403953558,
+  "initial_internal_overlap_pairs": 0,
+  "all_source_face_corners_preserved": true,
+  "elapsed_seconds": 0.96150720003061
+}

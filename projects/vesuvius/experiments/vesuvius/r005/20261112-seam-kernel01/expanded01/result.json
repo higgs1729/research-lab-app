@@ -1,0 +1,336 @@
+{
+  "vertices": [
+    104989,
+    104990,
+    104991,
+    106929,
+    106930,
+    106931,
+    108868,
+    108870,
+    108871,
+    110822,
+    110823,
+    110824
+  ],
+  "incident_faces": [
+    199679,
+    199680,
+    199681,
+    199682,
+    199683,
+    199684,
+    199685,
+    203494,
+    203495,
+    203496,
+    203497,
+    203498,
+    203499,
+    203500,
+    203501,
+    207309,
+    207310,
+    207311,
+    207312,
+    207313,
+    207314,
+    207315,
+    207316,
+    207317,
+    210924,
+    210925,
+    210926,
+    210927,
+    210928,
+    210929,
+    214836,
+    214837,
+    214838,
+    214839,
+    214840
+  ],
+  "variables": 24,
+  "solver_success": true,
+  "solver_status": 0,
+  "solver_message": "Optimization terminated successfully",
+  "iterations": 24,
+  "objective": 233.94408598051456,
+  "min_constraint": -3.577988599845483e-13,
+  "required_normalized_double_area": 0.01,
+  "displacement": [
+    [
+      -3.723826020591945e-09,
+      8.764444529512664e-11
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      -0.7641727858177239,
+      17.966809842358742
+    ],
+    [
+      -3.9114332734753834,
+      6.477761005241188
+    ],
+    [
+      -0.008121646823821728,
+      -0.03312215832441781
+    ],
+    [
+      -0.1520858619277784,
+      3.7108093170436653
+    ],
+    [
+      3.6324754874395486,
+      -3.2569607775484224
+    ],
+    [
+      4.050102067313006e-09,
+      4.5288963082532456e-08
+    ],
+    [
+      0.30324547985367123,
+      -7.039050339309049
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "measurements": {
+    "base": {
+      "negative": 2,
+      "zero": 0,
+      "minimum_signed_area": -69.40679067312927,
+      "interior_overlap_pairs": 58,
+      "inside_subject_pairs": 45,
+      "outside_pairs": 13
+    },
+    "candidate": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_signed_area": 0.06524639681096783,
+      "interior_overlap_pairs": 59,
+      "inside_subject_pairs": 46,
+      "outside_pairs": 13
+    },
+    "packed": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_signed_area": 0.06495940685272217,
+      "interior_overlap_pairs": 59,
+      "inside_subject_pairs": 46,
+      "outside_pairs": 13
+    }
+  },
+  "all_fixed_and_coarse_exact": true,
+  "all_external_corner_uv_exact": true,
+  "history": [
+    {
+      "objective": 52.866386754861644,
+      "min_constraint": -2.0026638907630883,
+      "max_displacement": 7.182396873197413
+    },
+    {
+      "objective": 203.1798285992085,
+      "min_constraint": -1.0416557945058533,
+      "max_displacement": 12.73232629672808
+    },
+    {
+      "objective": 332.6828853991016,
+      "min_constraint": -0.8720108043059824,
+      "max_displacement": 18.39313888510005
+    },
+    {
+      "objective": 343.2469681824099,
+      "min_constraint": -0.4954007622868734,
+      "max_displacement": 19.621778483282853
+    },
+    {
+      "objective": 303.2951218421348,
+      "min_constraint": -0.07530835710345647,
+      "max_displacement": 18.107303691852042
+    },
+    {
+      "objective": 290.4983130923961,
+      "min_constraint": -0.0406045465120826,
+      "max_displacement": 18.36766606042848
+    },
+    {
+      "objective": 280.6933233549466,
+      "min_constraint": -0.028281973890617366,
+      "max_displacement": 18.563607615626335
+    },
+    {
+      "objective": 266.78492809695354,
+      "min_constraint": -0.009260283367426122,
+      "max_displacement": 18.769536747591125
+    },
+    {
+      "objective": 251.37514459973576,
+      "min_constraint": -0.0018105616045286325,
+      "max_displacement": 18.771206445199436
+    },
+    {
+      "objective": 241.17242157488639,
+      "min_constraint": -0.018348692499912216,
+      "max_displacement": 18.405267876099174
+    },
+    {
+      "objective": 236.59922563181854,
+      "min_constraint": -0.013081437601071815,
+      "max_displacement": 18.141968674577225
+    },
+    {
+      "objective": 235.28324515686901,
+      "min_constraint": -0.007641459730118811,
+      "max_displacement": 17.918954795948828
+    },
+    {
+      "objective": 234.62112425105082,
+      "min_constraint": -0.0003072867223332214,
+      "max_displacement": 17.964416181836906
+    },
+    {
+      "objective": 234.24087363605597,
+      "min_constraint": -9.295860021259032e-05,
+      "max_displacement": 17.972934277125763
+    },
+    {
+      "objective": 233.98026981942843,
+      "min_constraint": -0.0001371903627303949,
+      "max_displacement": 17.97656535394251
+    },
+    {
+      "objective": 233.95250807724378,
+      "min_constraint": -7.707860841381711e-06,
+      "max_displacement": 17.976648005116974
+    },
+    {
+      "objective": 233.94515771773024,
+      "min_constraint": -7.875869792641627e-06,
+      "max_displacement": 17.98004988885133
+    },
+    {
+      "objective": 233.94415278391065,
+      "min_constraint": -9.435521723007156e-07,
+      "max_displacement": 17.982169990035437
+    },
+    {
+      "objective": 233.9441231186003,
+      "min_constraint": -1.265349506505628e-06,
+      "max_displacement": 17.98303212225963
+    },
+    {
+      "objective": 233.944082961132,
+      "min_constraint": -5.201455400248578e-08,
+      "max_displacement": 17.983056339477617
+    },
+    {
+      "objective": 233.94408597956377,
+      "min_constraint": -5.0130080642141195e-11,
+      "max_displacement": 17.98304554843378
+    },
+    {
+      "objective": 233.94408598045163,
+      "min_constraint": -1.4646252960437423e-12,
+      "max_displacement": 17.983053254616884
+    },
+    {
+      "objective": 233.94408598051456,
+      "min_constraint": -3.577988599845483e-13,
+      "max_displacement": 17.983053577133763
+    }
+  ],
+  "packing_translations": [
+    {
+      "component": 1,
+      "vertices": 195936,
+      "shift": [
+        -9075.5100040077,
+        107.94813392166351
+      ]
+    },
+    {
+      "component": 0,
+      "vertices": 30027,
+      "shift": [
+        39496.1702018038,
+        277.51085805665906
+      ]
+    },
+    {
+      "component": 2,
+      "vertices": 19470,
+      "shift": [
+        50557.30385491612,
+        -1380.2710348003886
+      ]
+    },
+    {
+      "component": 6,
+      "vertices": 2131,
+      "shift": [
+        21159.10197041004,
+        -3615.09326171875
+      ]
+    },
+    {
+      "component": 7,
+      "vertices": 1243,
+      "shift": [
+        16758.546453022624,
+        -3942.817601500688
+      ]
+    },
+    {
+      "component": 5,
+      "vertices": 991,
+      "shift": [
+        45773.385093677614,
+        -2798.063473964491
+      ]
+    },
+    {
+      "component": 3,
+      "vertices": 49,
+      "shift": [
+        55690.00867855062,
+        -2414.024658203125
+      ]
+    },
+    {
+      "component": 4,
+      "vertices": 49,
+      "shift": [
+        46879.175181860825,
+        -2718.3642578125
+      ]
+    },
+    {
+      "component": 8,
+      "vertices": 49,
+      "shift": [
+        26874.642954702278,
+        -4302.119140625
+      ]
+    }
+  ],
+  "elapsed_seconds": 2.604160300048534,
+  "versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1"
+  },
+  "limits": "One expanded-patch SLSQP from zero displacement, max200 iterations. Feasible numerical witness only if all constraints and areas pass; no proof of infeasibility from failure. No native raster/adoption."
+}

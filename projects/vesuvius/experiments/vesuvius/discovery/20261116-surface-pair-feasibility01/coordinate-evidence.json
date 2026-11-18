@@ -1,0 +1,234 @@
+{
+  "green_box_fig01_xyxy_halfopen": [
+    284,
+    8,
+    1543,
+    152
+  ],
+  "fig01_source_sha256": "055b9614e307bc315f9edc47cbeb3a08c433c7a0a1c6fbc380b8c108a85e39f3",
+  "approximate_v9_box_float": [
+    859.4771241830066,
+    725.4901960784314,
+    4973.856209150326,
+    1196.078431372549
+  ],
+  "green_box_v9": {
+    "box_xyxy_halfopen": [
+      859,
+      725,
+      4974,
+      1197
+    ],
+    "valid_cells": 4968,
+    "all_cells": 4968,
+    "valid_cell_corner_bbox_xyz": [
+      [
+        2530.52197265625,
+        3320.487548828125,
+        8187.90380859375
+      ],
+      [
+        4232.255859375,
+        4260.81103515625,
+        8868.0654296875
+      ]
+    ]
+  },
+  "v9_known_phi": {
+    "box_xyxy_halfopen": [
+      4640,
+      780,
+      4960,
+      1080
+    ],
+    "valid_cells": 272,
+    "all_cells": 272,
+    "valid_cell_corner_bbox_xyz": [
+      [
+        3352.646240234375,
+        3331.06005859375,
+        8248.05859375
+      ],
+      [
+        3695.37548828125,
+        3410.276123046875,
+        8572.966796875
+      ]
+    ]
+  },
+  "v9_phi_center_grid_rc45_240_xyz": [
+    3516.6298828125,
+    3347.90625,
+    8367.599609375
+  ],
+  "v9_source": {
+    "archive": "20261115-pherc0211-adjacent-context01\\sources\\v9-mesh.zip",
+    "member_sha256": {
+      "mesh/normalized-tifxyz/x.tif": "7dcbf7b1b2870f4c1265c9982dcd897a26a4db84ad9f942f80f583ea170801a1",
+      "mesh/normalized-tifxyz/y.tif": "6b9956c81a1d7fc3b4629ec1b550e7400c9ddb4ab06ae73a8f9cd2d126f2f15d",
+      "mesh/normalized-tifxyz/z.tif": "8647c633fad706ca393caa63439702b0c176e87a1403d5d140ea7a645ced38a2"
+    },
+    "XYZ": {
+      "file": "v9-grid-xyz.npy",
+      "sha256": "74b92a7ad1d0905c4afac01888feb88584b3ae51b77d5b911bc533fae3adad79",
+      "shape": [
+        87,
+        301,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "valid_nodes": {
+      "file": "v9-valid-nodes.npy",
+      "sha256": "606d87602dc3634bff225c23b18d9751aa09271d9904bab710c8bfa814135556",
+      "shape": [
+        87,
+        301
+      ],
+      "dtype": "bool"
+    },
+    "valid_cells": {
+      "file": "v9-valid-cells.npy",
+      "sha256": "bd6e24bbb64df57087d9f358a2309e7acd3ce9bdc9c673364852ae7cf6a88419",
+      "shape": [
+        86,
+        300
+      ],
+      "dtype": "bool"
+    }
+  },
+  "archive_box_overlap": {
+    "archive-grown": {
+      "bbox_xyz": [
+        [
+          1811.93359375,
+          4309.419921875,
+          6486.318359375
+        ],
+        [
+          3864.118408203125,
+          4752.6767578125,
+          9501.884765625
+        ]
+      ],
+      "id": "PHerc0211-P737m01st3-grown",
+      "compared_regions": {
+        "approximate_green_box": {
+          "bbox_gap_xyz_vox": [
+            0.0,
+            48.60888671875,
+            0.0
+          ],
+          "strictly_disjoint_on_any_axis": true
+        },
+        "existing_known_phi": {
+          "bbox_gap_xyz_vox": [
+            0.0,
+            899.143798828125,
+            0.0
+          ],
+          "strictly_disjoint_on_any_axis": true
+        }
+      }
+    },
+    "archive-p737-manual": {
+      "bbox_xyz": [
+        [
+          1396.90576171875,
+          4060.75439453125,
+          6570.5146484375
+        ],
+        [
+          3942.5166015625,
+          4749.5341796875,
+          9413.421875
+        ]
+      ],
+      "id": "PHerc0211-P737m01st3-manual-20261014-1701-legacyuv20-v3",
+      "compared_regions": {
+        "approximate_green_box": {
+          "bbox_gap_xyz_vox": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "strictly_disjoint_on_any_axis": false
+        },
+        "existing_known_phi": {
+          "bbox_gap_xyz_vox": [
+            0.0,
+            650.478271484375,
+            0.0
+          ],
+          "strictly_disjoint_on_any_axis": true
+        }
+      }
+    },
+    "archive-3305": {
+      "bbox_xyz": [
+        [
+          2431.341796875,
+          2706.814697265625,
+          5927.005859375
+        ],
+        [
+          4422.74951171875,
+          4296.8544921875,
+          11083.212890625
+        ]
+      ],
+      "id": "PHerc0211-3305-r002-c01-manual-20261008-203736-legacyuv20-v1",
+      "compared_regions": {
+        "approximate_green_box": {
+          "bbox_gap_xyz_vox": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "strictly_disjoint_on_any_axis": false
+        },
+        "existing_known_phi": {
+          "bbox_gap_xyz_vox": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "strictly_disjoint_on_any_axis": false
+        }
+      }
+    },
+    "expanded9-3305-source": {
+      "bbox_xyz": [
+        [
+          2404.07080078125,
+          2704.998046875,
+          5907.560546875
+        ],
+        [
+          4443.17578125,
+          4314.447265625,
+          11101.923828125
+        ]
+      ],
+      "id": "PHerc0211-3305-3380-8428-g80-material-c2-will-r002-component01-part00-manual",
+      "compared_regions": {
+        "approximate_green_box": {
+          "bbox_gap_xyz_vox": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "strictly_disjoint_on_any_axis": false
+        },
+        "existing_known_phi": {
+          "bbox_gap_xyz_vox": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "strictly_disjoint_on_any_axis": false
+        }
+      }
+    }
+  }
+}

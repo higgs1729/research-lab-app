@@ -1,0 +1,5 @@
+{
+  "r131_observer_error": "Couldn't get registers: No such process.",
+  "gdb_kill_fallback": "Couldn't get registers: No such process.",
+  "inferior_proc_present": true
+}

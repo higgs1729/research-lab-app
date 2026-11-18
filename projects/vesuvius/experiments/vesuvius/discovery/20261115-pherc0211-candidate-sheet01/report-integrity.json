@@ -1,0 +1,12 @@
+{
+  "request_section_unchanged": true,
+  "request_section_sha256": "97aaca0492b9fb5b183d18bbdae37c65f529d67ed13989de4795036bf7c215fb",
+  "independent_review_hashes": {
+    "researcher-ct-visual-review.json": "96ce7c52fc16905a474d124cca72671950d9321adcd576518833e30b70847777",
+    "lead-section-visual-review.json": "2fba4cdd81d459121d00b7fc1ba3777591f584ebbcc76974ac81de3f26d65d07",
+    "researcher-provenance-visual-review.json": "11038196bf2c6f35abcdd1e5988d330a3007ae2aa62efb346df2ed470b42d07f",
+    "lead-provenance-visual-review.json": "cd775f12f711fb3e9465757d9b98f26646a1a5c64cacfb179e4ea50ecb2b7a53"
+  },
+  "ticket_sha256_after_report": "8c0d386d0878eee8670379ae8f40acf183a5a41608ce2eaa2570d182e8009d29",
+  "new_experiments_in_finalization": 0
+}

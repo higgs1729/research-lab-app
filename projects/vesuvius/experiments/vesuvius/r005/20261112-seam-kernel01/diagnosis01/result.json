@@ -1,0 +1,426 @@
+{
+  "negative_faces": [
+    207312,
+    207313
+  ],
+  "negative_face_cells": [
+    [
+      [
+        120,
+        984
+      ],
+      [
+        119,
+        984
+      ],
+      [
+        119,
+        985
+      ]
+    ],
+    [
+      [
+        120,
+        984
+      ],
+      [
+        119,
+        985
+      ],
+      [
+        120,
+        985
+      ]
+    ]
+  ],
+  "candidate_count": 3,
+  "rows": [
+    {
+      "uv_vertex": 106929,
+      "source_vertex": 106929,
+      "cell_yx": [
+        119,
+        984
+      ],
+      "covers_all_negative_faces": false,
+      "incident_faces": [
+        203495,
+        203496,
+        203497,
+        207310,
+        207311,
+        207312
+      ],
+      "incident_source_vertices": [
+        [
+          106928,
+          104989,
+          106929
+        ],
+        [
+          106929,
+          104989,
+          104990
+        ],
+        [
+          106929,
+          104990,
+          106930
+        ],
+        [
+          108868,
+          106928,
+          106929
+        ],
+        [
+          108868,
+          106929,
+          108869
+        ],
+        [
+          108869,
+          106929,
+          106930
+        ]
+      ],
+      "incident_fixed_mask": [
+        [
+          true,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          true
+        ],
+        [
+          true,
+          false,
+          false
+        ]
+      ],
+      "coarse": false,
+      "normals": [
+        [
+          0.9998971158858773,
+          0.014344254707181611
+        ],
+        [
+          -0.23969763598193078,
+          0.970847590152375
+        ],
+        [
+          -0.9834622937152835,
+          0.18111299467535016
+        ],
+        [
+          0.9894029062017093,
+          0.1451960371346659
+        ],
+        [
+          0.17585760746224688,
+          -0.9844156144117454
+        ],
+        [
+          -0.6205049672762555,
+          0.7842025156714898
+        ]
+      ],
+      "base_heights": [
+        6.214630051936048,
+        20.322171767046743,
+        7.125339190525974,
+        6.510633468997655,
+        15.241627959894524,
+        -3.363839137674752
+      ],
+      "required_minimum_height": 0.01,
+      "solver_success": true,
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        -2.401809044680841,
+        2.4018090446808396
+      ],
+      "linf_displacement": 2.40180904468084,
+      "minimum_post_height": 0.009999999999999343,
+      "max_inequality_violation": 8.881784197001252e-16
+    },
+    {
+      "uv_vertex": 106930,
+      "source_vertex": 106930,
+      "cell_yx": [
+        119,
+        985
+      ],
+      "covers_all_negative_faces": true,
+      "incident_faces": [
+        203497,
+        203498,
+        203499,
+        207312,
+        207313,
+        207314
+      ],
+      "incident_source_vertices": [
+        [
+          106929,
+          104990,
+          106930
+        ],
+        [
+          106930,
+          104990,
+          104991
+        ],
+        [
+          106930,
+          104991,
+          106931
+        ],
+        [
+          108869,
+          106929,
+          106930
+        ],
+        [
+          108869,
+          106930,
+          108870
+        ],
+        [
+          108870,
+          106930,
+          106931
+        ]
+      ],
+      "incident_fixed_mask": [
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          true,
+          false,
+          false
+        ],
+        [
+          true,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ]
+      ],
+      "coarse": false,
+      "normals": [
+        [
+          0.9846778038093636,
+          0.1743835505005226
+        ],
+        [
+          -0.26686256802343644,
+          0.9637345950976008
+        ],
+        [
+          -0.9998619175048453,
+          0.016617638927777817
+        ],
+        [
+          0.7161290485927828,
+          -0.6979678973717885
+        ],
+        [
+          0.16328564576524365,
+          0.9865788351100115
+        ],
+        [
+          -0.5966948045839173,
+          -0.8024682611683535
+        ]
+      ],
+      "base_heights": [
+        11.307384270021174,
+        29.072316234265855,
+        2.940312318715267,
+        -1.452743980050757,
+        -8.36870518549388,
+        3.32846706592657
+      ],
+      "required_minimum_height": 0.01,
+      "solver_success": false,
+      "solver_status": 2,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible)"
+    },
+    {
+      "uv_vertex": 108870,
+      "source_vertex": 108870,
+      "cell_yx": [
+        120,
+        985
+      ],
+      "covers_all_negative_faces": false,
+      "incident_faces": [
+        207313,
+        207314,
+        207315,
+        210924,
+        210925,
+        210926
+      ],
+      "incident_source_vertices": [
+        [
+          108869,
+          106930,
+          108870
+        ],
+        [
+          108870,
+          106930,
+          106931
+        ],
+        [
+          108870,
+          106931,
+          108871
+        ],
+        [
+          110822,
+          108869,
+          108870
+        ],
+        [
+          110822,
+          108870,
+          110823
+        ],
+        [
+          110823,
+          108870,
+          108871
+        ]
+      ],
+      "incident_fixed_mask": [
+        [
+          true,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ]
+      ],
+      "coarse": false,
+      "normals": [
+        [
+          0.6205049672762555,
+          -0.7842025156714898
+        ],
+        [
+          -0.5459407550389501,
+          0.8378237833742254
+        ],
+        [
+          -0.7716611042655043,
+          -0.6360339143188378
+        ],
+        [
+          0.058252266203817946,
+          0.9983018949606974
+        ],
+        [
+          0.994167470459576,
+          0.10784730260886502
+        ],
+        [
+          -0.021037313486642815,
+          -0.999778691231847
+        ]
+      ],
+      "base_heights": [
+        -12.278295287940216,
+        12.240553236673355,
+        3.1281133829060535,
+        1.7505809863969741,
+        52.17696965582307,
+        10.261116884615792
+      ],
+      "required_minimum_height": 0.01,
+      "solver_success": false,
+      "solver_status": 2,
+      "solver_message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is Infeasible)"
+    }
+  ],
+  "measurements": {
+    "base": {
+      "negative_faces": 2,
+      "zero_faces": 0,
+      "minimum_signed_area": -69.40679067312927,
+      "overlap_pairs": 58,
+      "inside_subject_pairs": 45,
+      "outside_pairs": 13,
+      "all_fixed_exact_relative_to_base": true
+    }
+  },
+  "elapsed_seconds": 1.4213025000062771,
+  "versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "shapely": "2.1.2"
+  },
+  "source_sha256": "8c06b1110e3021fad4c018d1bc92d9f0367a525829cb8539dade60a1b5cd0376",
+  "method_source_sha256": "e5567c6ebb50b30772539990c17da25435d9588b40079f087931dfe4159f0013",
+  "limits": "Each LP moves one nonfixed UV vertex with all other coordinates frozen. Height0.01 is diagnostic; infeasibility is not a statement about multi-vertex or global repair. Only candidates covering both negative faces are evaluated against the full same component; no native raster or adoption."
+}

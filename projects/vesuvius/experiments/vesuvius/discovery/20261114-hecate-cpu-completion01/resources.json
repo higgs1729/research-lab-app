@@ -1,0 +1,36 @@
+{
+  "runtime_seconds": 417.9935905999955,
+  "process_elapsed_seconds": 417.5359126999974,
+  "process_user_plus_system_seconds": 361.640625,
+  "process_peak_rss_bytes": 1283129344,
+  "commit_limit_bytes": 4294967296,
+  "initial_available_ram_bytes": 15863070720,
+  "min_available_ram_bytes_sampled": 14448824320,
+  "initial_1s_cpu_percent": 9.3,
+  "strict_load_seconds": 1.379904200002784,
+  "patch_forward_seconds": {
+    "count": 81,
+    "min": 4.458713200001512,
+    "median": 4.82329409999511,
+    "max": 8.172676300004241,
+    "sum": 411.8036714000118
+  },
+  "first_three_r196_seconds": [
+    4.93439209999633,
+    4.82329409999511,
+    4.571203700004844
+  ],
+  "first_three_r190_seconds": [
+    49.23621389999607,
+    44.81741199999669,
+    46.18849090000003
+  ],
+  "r190_process_elapsed_seconds": 184.1055914000026,
+  "r190_process_user_plus_system_seconds": 36.71875,
+  "r196_pid_exited": true,
+  "preflight_hashes_verified_after": true,
+  "new_network_bytes": 0,
+  "new_ct_bytes": 0,
+  "gpu_model_calls": 0,
+  "cloud_cost_jpy": 0
+}

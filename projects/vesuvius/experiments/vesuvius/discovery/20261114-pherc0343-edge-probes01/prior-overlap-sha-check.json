@@ -1,0 +1,20 @@
+[
+  {
+    "key": "0/80/30/34",
+    "file": "ct.zarr/0/80/30/34",
+    "etag": "ed36089f0288cfe10ff4102296ea8015",
+    "sha256": "89cb9069f7ad6dee83087582f7a249904f0918b01eaee3eaca6acea869ce55ee",
+    "bytes": 2097152,
+    "reused_from": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0343-ct-readable01\\ct.zarr\\0\\80\\30\\34",
+    "needed_by_measured_support": false
+  },
+  {
+    "key": "0/80/31/34",
+    "file": "ct.zarr/0/80/31/34",
+    "etag": "42e621ccf59c34a74ace4c156c948869",
+    "sha256": "4d9595fc611594a043a4c5f8eede3feba37bf7583bcf4d777bc2995f03ccfc9a",
+    "bytes": 2097152,
+    "reused_from": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0343-ct-readable01\\ct.zarr\\0\\80\\31\\34",
+    "needed_by_measured_support": false
+  }
+]

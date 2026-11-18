@@ -1,0 +1,45 @@
+{
+  "utc": "2026-11-15T17:49:00.834262+00:00",
+  "checked_documents": [
+    {
+      "path": "README.md",
+      "sha256": "0632885083dd987c58582671df2ae0e90d16a04ff594abcb720062c0bdb13b8d"
+    },
+    {
+      "path": "docs/heartbeat.md",
+      "sha256": "72003d44f2b73ee0249d69c2a6935bff1e755e864dfbf2dadf9304836a1b7645"
+    },
+    {
+      "path": "docs/operations.md",
+      "sha256": "9189c01287141b72ac621a7c2a254c1b80563312926dff36b9c265ff6756bacc"
+    },
+    {
+      "path": "docs/research-system-design.md",
+      "sha256": "f4178001220dc0f9c75badd18b50639046012124c681ffc8d6c7a4ccee3cd421"
+    },
+    {
+      "path": "docs/research-allocation-20261116.md",
+      "sha256": "aad7c8b80c2fe767ff22f7c05fa4633694efc04822393a13858399d3c3b79f03"
+    },
+    {
+      "path": "deliverables/vesuvius/2026-11-bundle/FORM_PACKET_20261116.md",
+      "sha256": "e3514dd345cf8bf3136bc88ec7c7df0f879145f93fc7607f91e88767d1139326"
+    },
+    {
+      "path": "deliverables/vesuvius/2026-11-bundle/SUBMISSION_DRAFT.md",
+      "sha256": "6824f098aef0e5b506bd62e777c90b9cc500c014bb334bca3a73619be9eb8417"
+    }
+  ],
+  "missing_local_links": [],
+  "saved_insights": [
+    "C:\\agents\\knowledge\\i-20261116-runpod-stock-and-total-lifetime.md",
+    "C:\\agents\\knowledge\\i-20261116-runpod-billing-snapshot-lag.md",
+    "knowledge\\i-20261116-exact-reproduction-vs-exploration.md",
+    "knowledge\\i-20261116-parent-provenance-before-novelty.md"
+  ],
+  "automations_changed": false,
+  "product_code_changed": false,
+  "new_paid_jobs": 0,
+  "form_submitted": false,
+  "external_messages_added_after_approved_issue": 0
+}

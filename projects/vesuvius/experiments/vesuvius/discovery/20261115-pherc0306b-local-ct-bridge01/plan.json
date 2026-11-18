@@ -1,0 +1,439 @@
+{
+  "created_utc": "2026-11-15T08:38:24.233694+00:00",
+  "question": "Within the fixed U2-U3-U5 neighbourhood, can native adjacent slices distinguish one continuous paper-like band at V5Rc from the U5 L1-side hypothesis?",
+  "source": {
+    "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0306B/volumes/20250521133212-8.640um-1.2m-116keV-masked.zarr/",
+    "volume_id": "20250521133212",
+    "level": 0,
+    "voxel_um": 8.64,
+    "stored_axes": "ZYX",
+    "level_metadata": {
+      "shape": [
+        15898,
+        8849,
+        8849
+      ],
+      "chunks": [
+        128,
+        128,
+        128
+      ],
+      "fill_value": 0,
+      "order": "C",
+      "filters": null,
+      "dimension_separator": "/",
+      "compressor": null,
+      "zarr_format": 2,
+      "dtype": "|u1"
+    },
+    "metadata_received_bytes": 3281,
+    "advertised_full_object_bytes": 2097152
+  },
+  "cube": {
+    "inclusive_xyz": [
+      [
+        2952,
+        3792,
+        8336
+      ],
+      [
+        3312,
+        4016,
+        8424
+      ]
+    ],
+    "half_open_zyx": [
+      [
+        8336,
+        3792,
+        2952
+      ],
+      [
+        8425,
+        4017,
+        3313
+      ]
+    ],
+    "shape_zyx": [
+      89,
+      225,
+      361
+    ],
+    "dtype": "uint8",
+    "bytes": 7229025,
+    "voxel_um": 8.64,
+    "interpolation": "none; native integer voxels only"
+  },
+  "hypotheses": {
+    "H0": {
+      "name": "V5Rc d=0",
+      "sites": {
+        "U2": {
+          "region": "upper",
+          "r225_selection_label": "left upright",
+          "raw_xy": [
+            3490,
+            3550
+          ],
+          "mesh_xyz": [
+            2983.1907958984375,
+            3979.2870483398438,
+            8394.750244140625
+          ],
+          "normal_xyz": [
+            0.47064085874931144,
+            0.7938652820289368,
+            0.38506505432826177
+          ]
+        },
+        "U3": {
+          "region": "upper",
+          "r225_selection_label": "dark cavity of left shape",
+          "raw_xy": [
+            3580,
+            3560
+          ],
+          "mesh_xyz": [
+            3071.8564453125,
+            3954.906005859375,
+            8384.9248046875
+          ],
+          "normal_xyz": [
+            0.20147922352921172,
+            0.8771437169953062,
+            0.4359185958659301
+          ]
+        },
+        "U5": {
+          "region": "upper",
+          "r225_selection_label": "dark separator between groups",
+          "raw_xy": [
+            3820,
+            3560
+          ],
+          "mesh_xyz": [
+            3269.0859375,
+            3827.501953125,
+            8363.75390625
+          ],
+          "normal_xyz": [
+            0.7219821684932491,
+            0.6757134554963804,
+            0.1488390890825615
+          ]
+        }
+      },
+      "path_file": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-local-ct-bridge01/fixed-path.json",
+        "bytes": 46906,
+        "sha256": "ed9cfb9cb7eea9946f9e87688a3942925241b4f3c95e48b72a873f3d9ac9b415"
+      },
+      "raw_polyline_xy": [
+        [
+          3490,
+          3550
+        ],
+        [
+          3580,
+          3560
+        ],
+        [
+          3820,
+          3560
+        ]
+      ],
+      "meaning": "Geometric reference, not a traced physical lamina."
+    },
+    "H1": {
+      "name": "U5 L1 side",
+      "seed_xyz": [
+        3281.4574088927197,
+        3839.080590450345,
+        8366.30432731725
+      ],
+      "d_voxel": 17.13542512904242,
+      "sensitivity_d_voxel": 17.139747118924966,
+      "ray_index": 1006,
+      "root_source": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/root-sets.json",
+        "bytes": 369954,
+        "sha256": "43664ff0e5a857e4bbb952ceadd80cd4f7180a5b18c9e1d56d0128c293bdd4b9"
+      },
+      "meaning": "Approximate published crossing; original fit miss and between-node interpolation uncertainty not bounded. No L1 interpolation across missing U3 support."
+    }
+  },
+  "stacks": {
+    "Z": {
+      "indices_inclusive": [
+        8336,
+        8424
+      ],
+      "count": 89,
+      "horizontal": "X increasing",
+      "vertical": "Y increasing",
+      "native_shape_yx": [
+        225,
+        361
+      ]
+    },
+    "X-U2": {
+      "indices_inclusive": [
+        2979,
+        2987
+      ],
+      "count": 9,
+      "horizontal": "Y increasing",
+      "vertical": "Z increasing",
+      "native_shape_yx": [
+        89,
+        225
+      ]
+    },
+    "X-U3": {
+      "indices_inclusive": [
+        3068,
+        3076
+      ],
+      "count": 9,
+      "horizontal": "Y increasing",
+      "vertical": "Z increasing",
+      "native_shape_yx": [
+        89,
+        225
+      ]
+    },
+    "X-U5-L1": {
+      "indices_inclusive": [
+        3265,
+        3285
+      ],
+      "count": 21,
+      "horizontal": "Y increasing",
+      "vertical": "Z increasing",
+      "native_shape_yx": [
+        89,
+        225
+      ]
+    }
+  },
+  "display": {
+    "dn_window": [
+      0,
+      255
+    ],
+    "raw_png": "1 pixel = 1 L0 voxel; no resampling",
+    "primary_sheets": "9 consecutive Z planes per page, three columns, 1:1 native pixels",
+    "orthogonal_sheets": "9 consecutive X planes per page, three columns, 2x nearest only",
+    "enlarged_seeds": {
+      "Z": [
+        8395,
+        8385,
+        8364,
+        8366
+      ],
+      "X": [
+        2983,
+        3072,
+        3269,
+        3281
+      ],
+      "zoom": 3,
+      "interpolation": "nearest"
+    },
+    "markers": "Only projected fixed H0 path points and H1 seed whose rounded fixed-axis coordinate equals the slice. Each enlarged plane has an unmarked left panel and a marked right panel. No ridge tracking or re-seeding."
+  },
+  "observation": "Review all primary pages in increasing Z and all fixed X stacks in increasing X. Follow morphology and 3D persistence; do not jump to brightest ridge. Mark branch/merge, gaps and unresolved intervals by native coordinates. Original voxel cube retained for independent inspection.",
+  "stopping_rule": "If complete fixed stacks cannot distinguish connectivity through the U3/U5 approach, stop local geometry diagnostics for this candidate and keep an unresolved location. Short supported portions do not establish ink, new text, whole-patch paper identity or surface correction. No post-CT window/seed changes.",
+  "required_keys": [
+    "0/65/29/23",
+    "0/65/29/24",
+    "0/65/29/25",
+    "0/65/30/23",
+    "0/65/30/24",
+    "0/65/30/25",
+    "0/65/31/23",
+    "0/65/31/24",
+    "0/65/31/25"
+  ],
+  "cached_keys": [
+    {
+      "key": "0/65/29/25",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/65/29/25",
+      "bytes": 2097152,
+      "sha256": "09902bcbe31518b9b5b39c4a9b3cfad824689bdae2381d0bf2d41a4d4fd6cfdc",
+      "source_receipt": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+        "bytes": 39303,
+        "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+      }
+    },
+    {
+      "key": "0/65/30/23",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/65/30/23",
+      "bytes": 2097152,
+      "sha256": "1b8e464a0167395623f9048ba07fa82146b2724ec8b40db13fd8c817dd9d8e71",
+      "source_receipt": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+        "bytes": 39303,
+        "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+      }
+    },
+    {
+      "key": "0/65/30/24",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/65/30/24",
+      "bytes": 2097152,
+      "sha256": "91a790efd38a1330849b1a2521772c85ebd49f5c6a351cd73dc4f5e823843b0e",
+      "source_receipt": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+        "bytes": 39303,
+        "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+      }
+    },
+    {
+      "key": "0/65/30/25",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/65/30/25",
+      "bytes": 2097152,
+      "sha256": "1425e98b502fd1d0379ffcc426ac70c6f44a21e95417c55e4e28f26984bca66e",
+      "source_receipt": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+        "bytes": 39303,
+        "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+      }
+    },
+    {
+      "key": "0/65/31/23",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/65/31/23",
+      "bytes": 2097152,
+      "sha256": "d0443f7973e3bbb4ba02d33ad380b3dec09d592e882431c969410a6d1de6284a",
+      "source_receipt": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+        "bytes": 39303,
+        "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+      }
+    },
+    {
+      "key": "0/65/31/24",
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/65/31/24",
+      "bytes": 2097152,
+      "sha256": "dde6246d496ea8503ef7e220c45c0a95361d6cb609e44beff691ef01898f942f",
+      "source_receipt": {
+        "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+        "bytes": 39303,
+        "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+      }
+    }
+  ],
+  "new_keys": [
+    "0/65/29/23",
+    "0/65/29/24",
+    "0/65/31/25"
+  ],
+  "required_count": 9,
+  "additional_ct_bytes": 6291456,
+  "limits": {
+    "new_ct_bytes": 67108864,
+    "C_output_bytes": 1073741824,
+    "C_free_bytes": 10737418240,
+    "cpu_count": 1,
+    "commit_bytes": 4294967296,
+    "fetch_deadline_seconds": 300,
+    "compute_deadline_seconds": 300,
+    "cloud_cost_usd": 0,
+    "new_model_calls": 0,
+    "gpu_seconds": 0
+  },
+  "inputs": [
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/plan.json",
+      "bytes": 43752,
+      "sha256": "24329bd07841e9be666bacb2701d7f4f2df6d9944f1feb78089625fa9fb1f5d9"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct-acquisition.json",
+      "bytes": 39303,
+      "sha256": "cae244bfdd3a5cff9517734ba59f8190c004e5c918685d0d2f22570bd4585369"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/ct.zarr/0/.zarray",
+      "bytes": 239,
+      "sha256": "a82e0cb3e1b4b8aca6bbf3595537aa5c3e8fa1f5c15989695a3581644fc247b6"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/render_sections.py",
+      "bytes": 11328,
+      "sha256": "58de05b3ac11d5f6a7cba305707b73f36a18911e938c065cbd1f74ba3cca8bfb"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/plan_ct.py",
+      "bytes": 14020,
+      "sha256": "cfe7ec32b2ab5d0aacd7f3580ddd2f26459f86783cb27b448653387548cd5397"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/plan.json",
+      "bytes": 30132,
+      "sha256": "bea3aa2012cefcc18465f5ae6ec7079eed5a997eac53612374e10ee36b8465cb"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/root-sets.json",
+      "bytes": 369954,
+      "sha256": "43664ff0e5a857e4bbb952ceadd80cd4f7180a5b18c9e1d56d0128c293bdd4b9"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/all-triangle-hits.npz",
+      "bytes": 250917,
+      "sha256": "b685494873d0bb5d7cd76b5120e9ddf3e4cb6fa423e61acf615f0eb3a7196eb5"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/rays.npz",
+      "bytes": 38493,
+      "sha256": "b9e74d4384ba754e366206cb0fb6967ba8958389bc7f84b82d82abcffc1f1971"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/geometry-result.json",
+      "bytes": 66199,
+      "sha256": "1c8f35c71c4337420722ef7e90088e62d3c44037fa1f3a99b391818628fa9264"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-local-ct-bridge01/fixed-path.json",
+      "bytes": 46906,
+      "sha256": "ed9cfb9cb7eea9946f9e87688a3942925241b4f3c95e48b72a873f3d9ac9b415"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-local-ct-bridge01/prepare_plan.py",
+      "bytes": 6198,
+      "sha256": "12958533fe2752e11bd08781b0b338a00bb1e1897b4c89d0c1d0d82c07e386b5"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-discovery-next-intervention01/originals/submission/mesh/PHerc0306B_20250521133212_w074own_touchup_V5Rc/x.tif",
+      "bytes": 381492,
+      "sha256": "e6f14ec22d3c5cf2b37836cbb9141bae08c55b5bc1f89f4e07c202d424d64c29"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-discovery-next-intervention01/originals/submission/mesh/PHerc0306B_20250521133212_w074own_touchup_V5Rc/y.tif",
+      "bytes": 381492,
+      "sha256": "60d0807ee8574cdc39f9710b9866f1c3a3e6f611357cd611e17f8deb39fd1c42"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-discovery-next-intervention01/originals/submission/mesh/PHerc0306B_20250521133212_w074own_touchup_V5Rc/z.tif",
+      "bytes": 381492,
+      "sha256": "243d236048a9bb04293bae77473740d479824cc551ed67a355b21199f9bd0596"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/sections.py",
+      "bytes": 5892,
+      "sha256": "f0c40d7dde45dea07c79441f6098b37f9066d41b76d8fc2c1394220c33ed2776"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261114-pherc0483a-surface-provenance01/acquire_ct.py",
+      "bytes": 3120,
+      "sha256": "f8d0cecf7c2fabbbdf17db6cfc9621f6477fe3b0e561dc3ce719d0327459130f"
+    },
+    {
+      "file": "tools/research/run_windows.py",
+      "bytes": 3671,
+      "sha256": "70ad792c9d7d0775eeb1839283f739abe6604a1d6f7bf1203e086d802b1a5f9d"
+    }
+  ],
+  "preflight_c_free_bytes": 13952045056,
+  "disposition": "fixed_before_new_ct_acquisition_and_image_generation"
+}

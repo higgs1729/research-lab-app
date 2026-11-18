@@ -1,0 +1,19 @@
+{
+  "crop_xywh": [
+    1320,
+    980,
+    512,
+    512
+  ],
+  "source_atlas_sha256": "1050da1a19ab63f73a9bc662132ea5088d041c70a04b382ccd87fd9252ef6547",
+  "ours_layer": 16,
+  "atlas_layer": 32,
+  "samples": 262144,
+  "exact": 260873,
+  "abs_le_1": 262144,
+  "mean_signed_dn": 0.000133514404296875,
+  "mae_dn": 0.004848480224609375,
+  "max_abs_dn": 1,
+  "p95_abs_dn": 0.0,
+  "correlation": 0.9999976678703114
+}

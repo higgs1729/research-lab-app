@@ -1,0 +1,69 @@
+{
+  "utc": "2026-11-15T14:33:47.806358+00:00",
+  "all_images_source_values_exact": true,
+  "checks": [
+    {
+      "file": "review\\known_phi-probability-raw-native.png",
+      "sha256": "979b8492e3925281c5971a895d683004b7a15d8a9e859805272441153ea20dfa",
+      "values": 96000
+    },
+    {
+      "file": "review\\known_phi-probability-median-p995-native.png",
+      "sha256": "cc3081c7616db509625d15a259e5f2a2eebe2e43f5a31163785984671305101a",
+      "values": 96000
+    },
+    {
+      "file": "review\\known-phi-ct-native.png",
+      "sha256": "bfbf5b0de3d6b5f83da4b4b2ce683ab191e5f4fe9366f6f90b18c990c7bdae26",
+      "values": 96000
+    },
+    {
+      "file": "review\\candidate-probability-raw-native.png",
+      "sha256": "ca9b538ff862c8fc1978a6982788b57cd2d8f07b596ca42a2237e0b7463766a8",
+      "values": 655360
+    },
+    {
+      "file": "review\\candidate-probability-median-p995-native.png",
+      "sha256": "5246d19ad2832a67740ff4e3ffadaf7959cc54dbcb5c445ebd5607e52f651ce6",
+      "values": 655360
+    },
+    {
+      "file": "review\\candidate-ct-native.png",
+      "sha256": "130631345b6361d88af82c478ca99decf7f67cc7e59635a4f9825a0f159064ae",
+      "values": 655360
+    },
+    {
+      "file": "review\\candidate-native-quadrant-00.png",
+      "sha256": "d48a1b7da0677897bfa8078ea5f4f56408a231ef750323765dc64ebcc541f449",
+      "source_values": 491520,
+      "no_resampling": true
+    },
+    {
+      "file": "review\\candidate-native-quadrant-01.png",
+      "sha256": "659dc9b81e9485d0945943e024059120e5c1d2d38451bb4a464b4cfafc66766f",
+      "source_values": 491520,
+      "no_resampling": true
+    },
+    {
+      "file": "review\\candidate-native-quadrant-10.png",
+      "sha256": "01eb059fa19a698b070326d14ca067c35930df62129e1bc37832414024e5a4ee",
+      "source_values": 491520,
+      "no_resampling": true
+    },
+    {
+      "file": "review\\candidate-native-quadrant-11.png",
+      "sha256": "44ab9b7c95e4d4903c1da6771694c28379687b36c1f92a337af3e9a3465b8310",
+      "source_values": 491520,
+      "no_resampling": true
+    }
+  ],
+  "known_public_vs_local_FP32_descriptive_only": {
+    "probability_abs_max": 0.02177909016609192,
+    "probability_abs_mean": 0.0038173835252722104,
+    "raw8_abs_max_DN": 6,
+    "raw8_abs_mean_DN": 0.9741666666666666,
+    "acceptance_threshold_added": false
+  },
+  "scientific_interpretation": false,
+  "GPU_forwards_added": 0
+}

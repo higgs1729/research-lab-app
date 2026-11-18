@@ -1,0 +1,35 @@
+{
+  "vertices": 224,
+  "faces": 346,
+  "pins": 104,
+  "moving": 120,
+  "sample_faces": [
+    188240,
+    195873
+  ],
+  "sample_vertex_ids": [
+    98963,
+    98964,
+    98965,
+    101114,
+    103053,
+    103054
+  ],
+  "new_interior_pin_ids": [
+    98964,
+    101114,
+    103053,
+    103054
+  ],
+  "coarse": 5,
+  "minimum_initial_area": 8.52045592904702,
+  "stages": [
+    {
+      "penalty": 100000000.0,
+      "iterations": 50
+    }
+  ],
+  "O_source_sha256": "531448b3fd8f824c6fffbe5928f9ca3101adb2052a00545cb697d88b320b4e32",
+  "runner_source_sha256": "64e51ad8d96fc1ba0f69b1449830f394ed0da118482c67836d5e8d570ea256dd",
+  "elapsed_seconds": 0.20206450001569465
+}

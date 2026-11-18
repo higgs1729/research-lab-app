@@ -1,0 +1,388 @@
+{
+  "runs": {
+    "G": {
+      "output_shape": [
+        245,
+        3043
+      ],
+      "output_points": 247527,
+      "rejected_events": 564,
+      "cross_component_rejected_events": 0,
+      "gt20": 277,
+      "gt40": 65,
+      "maximum_distance": 78.52390327959255,
+      "no_owned_sample_quads": 15243,
+      "quality": {
+        "input_faces": 478224,
+        "area3_total": 101749890.19763327,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 478224,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.1756903070124083,
+          "area_weighted_inverse_L2_rms": 1.1656845079177336,
+          "max_symmetric_singular_stretch": 537.2258835436866,
+          "uv_area_over_3d_area": 0.9736424010479834,
+          "area_ratio_percentiles_1_50_99": [
+            0.6995581291537291,
+            0.9799561841844561,
+            1.3822515283675043
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0065728904507427,
+            1.0912188981398991,
+            1.2990196118073036
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      },
+      "subject_quality": {
+        "input_faces": 346,
+        "area3_total": 73690.77763919535,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 346,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.0780161782686972,
+          "area_weighted_inverse_L2_rms": 0.9815576806221171,
+          "max_symmetric_singular_stretch": 6.983008263063859,
+          "uv_area_over_3d_area": 1.110872880666436,
+          "area_ratio_percentiles_1_50_99": [
+            0.8011093103160349,
+            1.0088013467361128,
+            2.239325708711026
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.003356993715114,
+            1.2138371281069769,
+            1.8119688151929112
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      },
+      "per_component": [
+        {
+          "component": 0,
+          "output_points": 29418,
+          "gt20": 7,
+          "gt40": 0
+        },
+        {
+          "component": 1,
+          "output_points": 195363,
+          "gt20": 258,
+          "gt40": 62
+        },
+        {
+          "component": 2,
+          "output_points": 18723,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 3,
+          "output_points": 32,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 4,
+          "output_points": 51,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 5,
+          "output_points": 972,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 6,
+          "output_points": 1918,
+          "gt20": 12,
+          "gt40": 3
+        },
+        {
+          "component": 7,
+          "output_points": 1019,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 8,
+          "output_points": 31,
+          "gt20": 0,
+          "gt40": 0
+        }
+      ]
+    },
+    "I": {
+      "output_shape": [
+        245,
+        3043
+      ],
+      "output_points": 247529,
+      "rejected_events": 497,
+      "cross_component_rejected_events": 0,
+      "gt20": 263,
+      "gt40": 65,
+      "maximum_distance": 78.52390327959255,
+      "no_owned_sample_quads": 15241,
+      "quality": {
+        "input_faces": 478224,
+        "area3_total": 101749890.19763327,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 478224,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.1763771177297075,
+          "area_weighted_inverse_L2_rms": 1.1663096541290205,
+          "max_symmetric_singular_stretch": 537.2258835436866,
+          "uv_area_over_3d_area": 0.9733705138377966,
+          "area_ratio_percentiles_1_50_99": [
+            0.6975988553583334,
+            0.9798759700832556,
+            1.3810817179944186
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0065822803974314,
+            1.091823885839743,
+            1.3062611592810058
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      },
+      "subject_quality": {
+        "input_faces": 346,
+        "area3_total": 73690.77763919535,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 346,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 2.0263426488337077,
+          "area_weighted_inverse_L2_rms": 1.7252220263571345,
+          "max_symmetric_singular_stretch": 6.915044432101086,
+          "uv_area_over_3d_area": 0.7354596380746651,
+          "area_ratio_percentiles_1_50_99": [
+            0.22155136496197095,
+            0.7620510458717544,
+            2.0712545885210454
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.248810437733351,
+            5.526189795550918,
+            9.142262191354055
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      },
+      "per_component": [
+        {
+          "component": 0,
+          "output_points": 29418,
+          "gt20": 7,
+          "gt40": 0
+        },
+        {
+          "component": 1,
+          "output_points": 195365,
+          "gt20": 244,
+          "gt40": 62
+        },
+        {
+          "component": 2,
+          "output_points": 18723,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 3,
+          "output_points": 32,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 4,
+          "output_points": 51,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 5,
+          "output_points": 972,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 6,
+          "output_points": 1918,
+          "gt20": 12,
+          "gt40": 3
+        },
+        {
+          "component": 7,
+          "output_points": 1019,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 8,
+          "output_points": 31,
+          "gt20": 0,
+          "gt40": 0
+        }
+      ]
+    },
+    "M": {
+      "output_shape": [
+        245,
+        3043
+      ],
+      "output_points": 247530,
+      "rejected_events": 493,
+      "cross_component_rejected_events": 0,
+      "gt20": 265,
+      "gt40": 65,
+      "maximum_distance": 78.52390327959255,
+      "no_owned_sample_quads": 15243,
+      "quality": {
+        "input_faces": 478224,
+        "area3_total": 101749890.19763327,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 478224,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.1767817507761231,
+          "area_weighted_inverse_L2_rms": 1.1666654493108857,
+          "max_symmetric_singular_stretch": 537.2258835436866,
+          "uv_area_over_3d_area": 0.9733597908813983,
+          "area_ratio_percentiles_1_50_99": [
+            0.6974681585259348,
+            0.9798773471162796,
+            1.3813127445945785
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.006582315787158,
+            1.091858191425848,
+            1.306633984961111
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      },
+      "subject_quality": {
+        "input_faces": 346,
+        "area3_total": 73690.77763919535,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 346,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 2.585047134823436,
+          "area_weighted_inverse_L2_rms": 2.0303973445754027,
+          "max_symmetric_singular_stretch": 24.211280643808312,
+          "uv_area_over_3d_area": 0.72065371973495,
+          "area_ratio_percentiles_1_50_99": [
+            0.11805478676555835,
+            0.7524910245660501,
+            1.9347432691393591
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.2696037442149117,
+            6.03176645158084,
+            15.412905337350747
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      },
+      "per_component": [
+        {
+          "component": 0,
+          "output_points": 29418,
+          "gt20": 7,
+          "gt40": 0
+        },
+        {
+          "component": 1,
+          "output_points": 195366,
+          "gt20": 246,
+          "gt40": 62
+        },
+        {
+          "component": 2,
+          "output_points": 18723,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 3,
+          "output_points": 32,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 4,
+          "output_points": 51,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 5,
+          "output_points": 972,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 6,
+          "output_points": 1918,
+          "gt20": 12,
+          "gt40": 3
+        },
+        {
+          "component": 7,
+          "output_points": 1019,
+          "gt20": 0,
+          "gt40": 0
+        },
+        {
+          "component": 8,
+          "output_points": 31,
+          "gt20": 0,
+          "gt40": 0
+        }
+      ]
+    }
+  },
+  "vs_I": {
+    "recovered_to20": 0,
+    "new_gt20": 2,
+    "owner_changed_pixels": 32
+  },
+  "comparison": {
+    "recovered_to20": 12,
+    "new_gt20": 0,
+    "both_gt20": 265,
+    "owner_changed_pixels": 131,
+    "new_bad_details": []
+  },
+  "all_packed_fixed_coarse_and_external_corners_equal_G": true,
+  "elapsed_seconds": 3.395964399969671,
+  "limits": "Candidate M is a diagnostic: subject-related continuous triangle overlaps measured zero, while mean SD increased slightly vs I. Same-component nearest distances do not prove local branch fidelity or readability; own-source samples are recorded. No product adoption."
+}

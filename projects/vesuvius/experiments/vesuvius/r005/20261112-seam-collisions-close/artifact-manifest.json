@@ -1,0 +1,307 @@
+{
+  "created_utc": "2026-11-12T00:27:45.430002+00:00",
+  "scope": "Reports80/81; I collision groups and boundary; four single-vertex LP witnesses; whole-chart J and local42 K affine-field edge solves; independent verification; resource/runtime and decision records. No new native raster or adopted candidate.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-close/decision-record.json",
+      "bytes": 909,
+      "sha256": "7472f6d574df2c55ee954cc2ef47db8828f75710fbacf2678d532e6ff14a2c85"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-close/experiment-record.json",
+      "bytes": 1778,
+      "sha256": "222d8436acde84de023c8fb3ddd3a2685a143d3bb8afebf4f5fcbed3156499c6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-close/freeze.py",
+      "bytes": 5272,
+      "sha256": "2b4af09bac5f7a7045b49a707f6402234ad7b1eff8254111b13d9aad6614b9bc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-close/resources.json",
+      "bytes": 9990,
+      "sha256": "37b6305d1eab747383ee85cfa9e3b6063ee5926fd29cb2c16ee9bf21d2c62590"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-close/runtime-status.json",
+      "bytes": 1006,
+      "sha256": "e469df41f4e21d865ea40033bec2d8ea9a6ee016776b757ffdc8eb5aca550c98"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-close/verification-record.json",
+      "bytes": 740,
+      "sha256": "5956d3ab1edf3ae45700a98c89fd3f760cd6dc4617c068e4fe0bf1698885ca0c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/check01-execution/state.json",
+      "bytes": 881,
+      "sha256": "3d61cccad598ab6342ec83727611c4176f5fe0899376e92d7cce3f6c2f756c7d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/check01-execution/stdout.log",
+      "bytes": 751,
+      "sha256": "1f82d2c4ee48400eacebc524d166ccb3e9f51fdfc35986f6ce153cdc73b8200f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/check02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/check02-execution/state.json",
+      "bytes": 883,
+      "sha256": "7f7b46198efae25dd899e761436d1007d7d742a54c706973e5befec2e0af373a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/check02-execution/stdout.log",
+      "bytes": 995,
+      "sha256": "f1684e9387c8e5b933c580fb8788b6a85cbbcd7039a459a6a8a2169f0b20c43b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/check03/pairs.npz",
+      "bytes": 10260,
+      "sha256": "3f200eb731a8f6be5c1b64790095d4dcbe289bdc30268cd6c42ec8f4b1379dd9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/check03/result.json",
+      "bytes": 33203,
+      "sha256": "031ec62e8d2aa50e1da960313d702971e64a034231391799c1c8c96cde45e615"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/check03-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/check03-execution/state.json",
+      "bytes": 885,
+      "sha256": "b48f49a281d6dc6f742d4ecce9b87996feaf5edf4ab947ed2b50e61c9bb2208a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/check03-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/verify_saved.py",
+      "bytes": 28695,
+      "sha256": "1905350e1ff43fe04d6198c6c570e4b50f1e723a75b11be496fd0600edfb9441"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/verify_saved02.py",
+      "bytes": 28708,
+      "sha256": "94010e13f5edf5d7b51e6e009125fcf47c5f07bc726e2b7bc54367a41db21097"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions-verification01/verify_saved03.py",
+      "bytes": 28734,
+      "sha256": "cb6625d7dc485dc47c3a6d7ed067d1d1f1716590d15e10f2eaef8550710cf7b3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/affine-record.json",
+      "bytes": 1405,
+      "sha256": "b43c7d1b412e6e475314ba34d2d143c708c4f6a8b5e526a11eaeca69e3ef88ba"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/affine01/affine_trial.py",
+      "bytes": 6221,
+      "sha256": "685b40097b9cf246bdeec905cf6e3fe973fad82d7b69365458f7336c0fb06194"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/affine01/arrays.npz",
+      "bytes": 15823045,
+      "sha256": "c16053d62348228ee88c314ce2f1c23f6442a195b449da0372af96f2471b42a4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/affine01/result.json",
+      "bytes": 3275,
+      "sha256": "3b7ed85faa646e06c22f841baa79d18d120d5d3474ca480f9e339ece6ac2f794"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/affine01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/affine01-execution/state.json",
+      "bytes": 858,
+      "sha256": "40380b881d1659c5cf7fa54820a206c91fca07d3669b2fe4e66c2884488086d0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/affine01-execution/stdout.log",
+      "bytes": 3275,
+      "sha256": "3b7ed85faa646e06c22f841baa79d18d120d5d3474ca480f9e339ece6ac2f794"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/affine_trial.py",
+      "bytes": 6221,
+      "sha256": "685b40097b9cf246bdeec905cf6e3fe973fad82d7b69365458f7336c0fb06194"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/boundaries01/compare_boundaries.py",
+      "bytes": 2904,
+      "sha256": "c12741d1ba18c13e6736b8a9f97ca6b59e104897f065a220b90f0126cb2e15ae"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/boundaries01/result.json",
+      "bytes": 129840,
+      "sha256": "c600b672e56845214c060f1d83ffe96ecf46fefb7e8c5c9a3206cc39d9d78001"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/boundaries01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/boundaries01-execution/state.json",
+      "bytes": 869,
+      "sha256": "b63cffa603f6e9267eaeccd66c78a6ed7ecd7ca2587b93161a17ad57a11f37cb"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/boundaries01-execution/stdout.log",
+      "bytes": 4639,
+      "sha256": "458d57fee779d3566847e4fac769a31a805d5937d92f27d5ebdddd35ee752800"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/check01/arrays.npz",
+      "bytes": 2975,
+      "sha256": "e4caf09073dfea8b751db97ee1b8187f9d5dc70b77d05974d3d40e082695b777"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/check01/diagnose.py",
+      "bytes": 5806,
+      "sha256": "fe9219694039e5c011930bdedcd26175a7522f9a726960f422362fe2ca81145a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/check01/result.json",
+      "bytes": 108593,
+      "sha256": "8bff6fee2fd34db37224df668cfd61ec00c7d75d344993138e45bae9e1c9f56e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/check01-execution/state.json",
+      "bytes": 853,
+      "sha256": "70a077acc0bea1a52c5e3d85b124d1f09eaaf0b8be0425a677474592e790a926"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/check01-execution/stdout.log",
+      "bytes": 3606,
+      "sha256": "dd1b99e9e7b3748bb449217e8325118499f62d889177f1e6471efb563061aa04"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/check_boundary_kernels.py",
+      "bytes": 4613,
+      "sha256": "b43ed17331ee0588eb29c769b22545a3a349d010c9ba7a4c5b9ba4097175c857"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/compare_boundaries.py",
+      "bytes": 2904,
+      "sha256": "c12741d1ba18c13e6736b8a9f97ca6b59e104897f065a220b90f0126cb2e15ae"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/decision-record.json",
+      "bytes": 969,
+      "sha256": "0e19fe7457a12fcb60b9d35378c536825a9b27ee2d303200b0bd1ce855f9b505"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/diagnose.py",
+      "bytes": 5806,
+      "sha256": "fe9219694039e5c011930bdedcd26175a7522f9a726960f422362fe2ca81145a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/kernel-record.json",
+      "bytes": 1101,
+      "sha256": "77d31775f2176b2523ca599de105ab47356711aca8630a7d46d36c639dcaa4aa"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/kernel01/arrays.npz",
+      "bytes": 17479313,
+      "sha256": "ce3154c62507713a20e43ba4a3ae061a9cd2af1c8851c5c606372dcfd29ecba1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/kernel01/check_boundary_kernels.py",
+      "bytes": 4613,
+      "sha256": "b43ed17331ee0588eb29c769b22545a3a349d010c9ba7a4c5b9ba4097175c857"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/kernel01/result.json",
+      "bytes": 13548,
+      "sha256": "3930d0760d264ad2e531a90d1a5fa9887217620a3d060106422df99c4363e533"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/kernel01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/kernel01-execution/state.json",
+      "bytes": 868,
+      "sha256": "edcb5499160be0d4c1af3140e1185be2e2dbc1a77d2f795cac29eb64934a1bbb"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/kernel01-execution/stdout.log",
+      "bytes": 13548,
+      "sha256": "3930d0760d264ad2e531a90d1a5fa9887217620a3d060106422df99c4363e533"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/local-affine-record.json",
+      "bytes": 1272,
+      "sha256": "adbb6135e518f9df2c588d0570e667c9cea36bbc222341c58cedb5697dbaca47"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/local-affine01/arrays.npz",
+      "bytes": 15814908,
+      "sha256": "ec2de6f2c1c3b01193097d7bf3811bc2c2c0e75eb9b18ff5c6a7f7ea43d4afd3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/local-affine01/local_affine_trial.py",
+      "bytes": 6762,
+      "sha256": "0dcff697fa1b9077bd9898f50c32352f7f490dec34782210b5fb2a4f5967b910"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/local-affine01/result.json",
+      "bytes": 3286,
+      "sha256": "8a4ce287606cf53a519125a3eb08b719e9d54e162c4f312396ffc91a200e4765"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/local-affine01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/local-affine01-execution/state.json",
+      "bytes": 870,
+      "sha256": "0752f80386e2a8809d6cda871b0f1bcab377aa93f66c12ffcde51a282b6e2b1c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/local-affine01-execution/stdout.log",
+      "bytes": 3286,
+      "sha256": "8a4ce287606cf53a519125a3eb08b719e9d54e162c4f312396ffc91a200e4765"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-collisions01/local_affine_trial.py",
+      "bytes": 6762,
+      "sha256": "0dcff697fa1b9077bd9898f50c32352f7f490dec34782210b5fb2a4f5967b910"
+    },
+    {
+      "path": "research/80-r005-seam-collisions-trial.md",
+      "bytes": 8958,
+      "sha256": "555d41c80604a934476d596cd5d7148ee10ff60bba109502a7fffc01c2c53ead"
+    },
+    {
+      "path": "research/81-r005-seam-collisions-verification.md",
+      "bytes": 8896,
+      "sha256": "1f3d33e3fdcdaa34593e733e747e7cabe489fcfbc45966d6a6d1588c370e20cb"
+    }
+  ],
+  "external_files": []
+}

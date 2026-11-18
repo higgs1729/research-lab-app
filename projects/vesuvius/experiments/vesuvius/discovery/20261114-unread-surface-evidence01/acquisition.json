@@ -1,0 +1,119 @@
+{
+  "receipts": [
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/p191_a.jpg",
+      "output": "originals/p191_a.jpg",
+      "bytes": 298002,
+      "sha256": "08521e40215abc7456b6789413ca7493f6f6361bbd0ad44e15718bc9e8072067",
+      "http_status": 200,
+      "etag": "\"dbb69970bff5f00b3a6a1a4f5496b7a45f6022ac95e9999f5b1495507228ee53\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:02:45.041746+00:00",
+      "git_blob_sha1": "1be7e0c766c31c9e704fda0a6dc8fdea8369e199",
+      "git_blob_sha1_match": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/p191_a.json",
+      "output": "originals/p191_a-card.json",
+      "bytes": 377,
+      "sha256": "072a71af443b5b77cb68bee8aa4386542cea8b6f40fc11f57fd374ed6148369e",
+      "http_status": 200,
+      "etag": "\"f40521d4c29ba19253965c2b420d60b0a5d78674e23ebf708f623f6714270662\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:02:45.277220+00:00",
+      "git_blob_sha1": "c6c6e0fbdb2714f3633389cabc8deefce16e646b",
+      "git_blob_sha1_match": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/p191_a/meta.json",
+      "output": "originals/p191_a-mesh-meta.json",
+      "bytes": 1172,
+      "sha256": "eb62e832b560c8efce9c9a17c3171be0264425965652354987395875f6feabb0",
+      "http_status": 200,
+      "etag": "\"5d845fc395e3ad08a1106f32eeea3bc01d80038bdb9bc32e4fd8bb9b93e5ebd5\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:02:45.503373+00:00",
+      "git_blob_sha1": "fbac3664a10bed8ce744649e954a84da94321777",
+      "git_blob_sha1_match": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0257_3549_4692_13210.jpg",
+      "output": "originals/PHerc0257_3549_4692_13210.jpg",
+      "bytes": 331912,
+      "sha256": "8a0c8a6922e2943209900cec205405140d2be9e33812fcc3f21abe0e95b6f8fd",
+      "http_status": 200,
+      "etag": "\"71cde40ae1e5df89149089de3ab100d6dc26247c8f5e8604d6a69be67392ca7b\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:02:45.776579+00:00",
+      "git_blob_sha1": "39729dacfec90cb2418112c20acc3a1310fff735",
+      "git_blob_sha1_match": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0257_3549_4692_13210.json",
+      "output": "originals/PHerc0257_3549_4692_13210-card.json",
+      "bytes": 380,
+      "sha256": "434fd2c7c2c02fcc4638f8bbe3acc572732f7e11c28fb839e54ef3c3c3a73570",
+      "http_status": 200,
+      "etag": "\"6eaf68ccfc8036ee977d3159ac3c65dbe76588627449bd5005a1195fc96d96d8\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:02:46.013857+00:00",
+      "git_blob_sha1": "e3743b448bae6395969f2105b5df71d86628dbd9",
+      "git_blob_sha1_match": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/PHerc0257_3549_4692_13210/meta.json",
+      "output": "originals/PHerc0257_3549_4692_13210-mesh-meta.json",
+      "bytes": 1196,
+      "sha256": "b7ce573db75209d428b78d6f408289437a3a544f4e7fb4e70ae41b53169ca690",
+      "http_status": 200,
+      "etag": "\"cacaca2b8de5331ec1b6ffe27458987874802de3ccba739c492f13a756a1da7e\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:02:46.254359+00:00",
+      "git_blob_sha1": "7a57c1451add1745995ef4ba16e899ca4975a819",
+      "git_blob_sha1_match": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0268_9054_2867_6674.jpg",
+      "output": "originals/PHerc0268_9054_2867_6674.jpg",
+      "bytes": 315410,
+      "sha256": "d568dea2cfd31817aad8be388bf875bb9b39068b743aab5835c6d5cb8cd79e5e",
+      "http_status": 200,
+      "etag": "\"e33d9da4591d60f387783fb50be474c12c74eb187492856b1ca96819a1588384\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:02:46.693405+00:00",
+      "git_blob_sha1": "0560b4e42fbfcef165f73ca4e7925498b04a33aa",
+      "git_blob_sha1_match": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0268_9054_2867_6674.json",
+      "output": "originals/PHerc0268_9054_2867_6674-card.json",
+      "bytes": 378,
+      "sha256": "80898e7daea95d9565a25becdfca8fc9a2b4b8eb53271d5a7fba1fd6ceb3ce21",
+      "http_status": 200,
+      "etag": "\"aacea95158b4eeeaafc089ba03b60303a53ebc5b4f95854d5e4fa6e7c5c29378\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:02:46.919907+00:00",
+      "git_blob_sha1": "27e2217659c269579911783dbfbfc576610c80eb",
+      "git_blob_sha1_match": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/PHerc0268_9054_2867_6674/meta.json",
+      "output": "originals/PHerc0268_9054_2867_6674-mesh-meta.json",
+      "bytes": 1195,
+      "sha256": "2ceafe1278b34769df79411c593baef19d2af338ea5a53622d18e994ec18969a",
+      "http_status": 200,
+      "etag": "\"5edb6d2bb0b22a3c0967bddae3194e5840dec186828e47e49a5eaf053e37e0a6\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:02:47.174319+00:00",
+      "git_blob_sha1": "da411e501cecce87898a3aa4491ddd096e4a60a1",
+      "git_blob_sha1_match": true
+    }
+  ],
+  "bytes": 950022,
+  "elapsed_seconds": 2.4340487999943434,
+  "cumulative_bytes": 950022,
+  "cumulative_seconds": 2.434049600000435,
+  "new_ct_voxel_bytes": 0,
+  "new_model_calls": 0,
+  "cost_jpy": 0
+}

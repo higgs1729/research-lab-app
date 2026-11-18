@@ -1,0 +1,25 @@
+{
+  "retained_candidate_cards": 3,
+  "retained_card_bytes": 945324,
+  "retained_card_metadata_responses": 6,
+  "retained_metadata_bytes": 4698,
+  "direct_official_403_attempts": 1,
+  "retained_direct_official_bytes": 0,
+  "saved_http_body_bytes": 950022,
+  "measured_acquisition_seconds": 2.4340487999943434,
+  "current_official_and_search_web_time_bytes": "not measured",
+  "acquisition_process_peak_rss_bytes": 36855808,
+  "acquisition_process_cpu_affinity": [
+    0
+  ],
+  "acquisition_process_commit_cap_bytes": 4294967296,
+  "native_prediction_acquisition_bytes": 0,
+  "new_ct_voxel_bytes": 0,
+  "new_mesh_xyz_bytes": 0,
+  "new_model_checkpoint_bytes": 0,
+  "model_forwards": 0,
+  "builds": 0,
+  "gpu_jobs": 0,
+  "external_publications": 0,
+  "cost_jpy": 0
+}

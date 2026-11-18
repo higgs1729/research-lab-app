@@ -1,0 +1,128 @@
+{
+  "inputs": {
+    "3144-ct": {
+      "png_mode": "L",
+      "shape_yx": [
+        2016,
+        2016
+      ],
+      "min_max": [
+        0,
+        255
+      ],
+      "counts_0_255": [
+        596683,
+        463
+      ],
+      "sha256": "ec7b0807512c8588d3363f492647404371971c5a6256ea8956eff1d7342bc1a2",
+      "overview_origin_xy": [
+        100,
+        50
+      ]
+    },
+    "3144-forward": {
+      "png_mode": "L",
+      "shape_yx": [
+        2016,
+        2016
+      ],
+      "min_max": [
+        21,
+        255
+      ],
+      "counts_0_255": [
+        0,
+        1573
+      ],
+      "sha256": "548b679a0ef06aacde463cb219d10f7454fc233ee4d9f9c2729f54d0c3b29ac2",
+      "overview_origin_xy": [
+        100,
+        744
+      ]
+    },
+    "3144-reverse": {
+      "png_mode": "L",
+      "shape_yx": [
+        2016,
+        2016
+      ],
+      "min_max": [
+        21,
+        255
+      ],
+      "counts_0_255": [
+        0,
+        10664
+      ],
+      "sha256": "8575c2ea09a8601054e6bf31cc9b1c4cfe2b5de1c1de34ade0bd798e2ee023a8",
+      "overview_origin_xy": [
+        100,
+        1438
+      ]
+    },
+    "4203-ct": {
+      "png_mode": "L",
+      "shape_yx": [
+        2016,
+        2016
+      ],
+      "min_max": [
+        0,
+        255
+      ],
+      "counts_0_255": [
+        435905,
+        330
+      ],
+      "sha256": "e3514c87d440e77474c42fd48a76fc61570af78eeb303131e35ea592262cea6c",
+      "overview_origin_xy": [
+        800,
+        50
+      ]
+    },
+    "4203-forward": {
+      "png_mode": "L",
+      "shape_yx": [
+        2016,
+        2016
+      ],
+      "min_max": [
+        38,
+        255
+      ],
+      "counts_0_255": [
+        0,
+        5199
+      ],
+      "sha256": "435243f35392a8594d8eceb898967544d4e6f93674af55beb45e4e5397cdceba",
+      "overview_origin_xy": [
+        800,
+        744
+      ]
+    },
+    "4203-reverse": {
+      "png_mode": "L",
+      "shape_yx": [
+        2016,
+        2016
+      ],
+      "min_max": [
+        36,
+        255
+      ],
+      "counts_0_255": [
+        0,
+        3980
+      ],
+      "sha256": "c331570356c892210218760160bee8b56a29cf9ee7112f0d79bdb206f406af41",
+      "overview_origin_xy": [
+        800,
+        1438
+      ]
+    }
+  },
+  "native_um_per_pixel": 9.6,
+  "overview_um_per_display_pixel": 28.8,
+  "display": "Unchanged gray levels, area reduction only in overview; native tiles unscaled.",
+  "native_tiles": "Exhaustive two by two covering all original pixels for each image."
+}

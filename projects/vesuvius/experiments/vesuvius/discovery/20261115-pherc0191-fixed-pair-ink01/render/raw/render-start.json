@@ -1,0 +1,77 @@
+{
+  "mode": "render",
+  "case": "raw",
+  "crop_xywh": [
+    0,
+    32,
+    2048,
+    1024
+  ],
+  "mount_d": [
+    "/mnt/d rw,noatime",
+    "/mnt/d ro,noatime"
+  ],
+  "network_namespace": "net:[4026532228]",
+  "cpu_affinity": [
+    0
+  ],
+  "as_bytes": 4294967296,
+  "binary_sha256": "7b4232a2356deca215ceaa8d072a7673023db8a5c2bfd90959dcb6c233ee9927",
+  "linked_library_hashes": {
+    "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+    "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+  },
+  "mesh_sha256": {
+    "meta.json": "c91e3363e71557f62095a522029f87265a19f84275cc6be0f9981e3670d11040",
+    "x.tif": "d4035e68506895711e7fdc296ed306e3966868e5449c852dcf56538acf6b33c3",
+    "y.tif": "da7b896cdcffd0083b545ebfb9c4aa824839330e6e16b99a36e9ae4bc1db98a1",
+    "z.tif": "7b6d7dcbf449f92d3d61770ca0bf63f4ecc7293f9bbf355d87105daa60ac05f1"
+  },
+  "phase": "render",
+  "command": [
+    "/mnt/d/kensyoukin-work/r005-ct-render01/build02/vc_render_tifxyz",
+    "--volume",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0191-fixed-pair-ink01/ct.zarr",
+    "--segmentation",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0191-three-face-gate01/mesh/w052",
+    "--tif-output",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0191-fixed-pair-ink01/render/raw/tiff",
+    "--zarr-output",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0191-fixed-pair-ink01/render/raw/surface.zarr",
+    "--zarr-compressor",
+    "none",
+    "--pyramid",
+    "false",
+    "--scale",
+    "0.9752083333333333",
+    "--group-idx",
+    "0",
+    "--num-slices",
+    "33",
+    "--slice-step",
+    "1.0254219183935056",
+    "--surface-interpolation",
+    "linear",
+    "--voxel-size",
+    "9.362",
+    "--voxel-unit",
+    "micrometer",
+    "--cache-gb",
+    "1",
+    "--crop-x",
+    "0",
+    "--crop-y",
+    "32",
+    "--crop-width",
+    "2048",
+    "--crop-height",
+    "1024"
+  ],
+  "cwd": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0191-fixed-pair-ink01/render/raw",
+  "timing_pid": 393,
+  "process_group": 393,
+  "log": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0191-fixed-pair-ink01/render/raw/render.log",
+  "timeout_seconds": 119.997516465,
+  "started_utc": "2026-11-14T15:29:36.636460+00:00",
+  "child_proc_stat": "393 (time) D 288 393 393 0 -1 4194304 2 0 0 0 0 0 0 0 20 0 1 0 711 172032 0 18446744073709551615 0 0 140735107309057 0 0 0 0 0 0 1 0 0 17 0 0 0 0 0 0 0 0 102941592440832 140735107309057 0 0 0 0\n"
+}

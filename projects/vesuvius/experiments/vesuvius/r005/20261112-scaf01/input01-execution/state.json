@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-11-11T19:10:18.202774+00:00",
+  "command": [
+    "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-scaf01\\prepare_trial.py",
+    "--out",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-scaf01\\input01"
+  ],
+  "script_sha256": "5119f009d8df551d53b25e468485e6ccb8bf8e531936726c9d09ed81f82fdc7f",
+  "rss_limit_bytes": 4294967296,
+  "time_limit_seconds": 300,
+  "threads_env": 1,
+  "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+  "affinity": [
+    0
+  ],
+  "status": "failed",
+  "exit_code": 1,
+  "elapsed_seconds": 0.8078753000008874,
+  "peak_rss_bytes": 228188160,
+  "stopped": null,
+  "completed_utc": "2026-11-11T19:10:19.011206+00:00"
+}

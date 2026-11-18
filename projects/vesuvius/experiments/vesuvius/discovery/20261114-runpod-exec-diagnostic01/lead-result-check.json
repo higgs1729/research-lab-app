@@ -1,0 +1,37 @@
+{
+  "reviewer": "root",
+  "model_forward_calls": 0,
+  "directions": {
+    "forward": {
+      "patches": 121,
+      "probability_values": 495616,
+      "png_values": 147456,
+      "png_sha256": "6f6a55a03a5765fbc73d9cb716bf2e38549d85a4cc7a8e0b697746d5b0114516"
+    },
+    "reverse": {
+      "patches": 121,
+      "probability_values": 495616,
+      "png_values": 147456,
+      "png_sha256": "a55ffaed69c25f1b8a5b04191046e22023b813952f32f7022a3fedb7838b6fa0"
+    }
+  },
+  "hann_formula_max_error": 1.8845489047070174e-07,
+  "cpu_parity": [
+    {
+      "index": 1,
+      "mae": 2.6357355586981157e-07,
+      "max": 4.827976226806641e-06
+    },
+    {
+      "index": 2,
+      "mae": 3.915813628907472e-08,
+      "max": 9.015202522277832e-07
+    },
+    {
+      "index": 3,
+      "mae": 1.0786049386979357e-08,
+      "max": 2.8312206268310547e-07
+    }
+  ],
+  "result_archive_sha256": "0ba5967a0dc77e24b95905953702b933bb60e7afa8a66ba96a8a8b2f83fee407"
+}

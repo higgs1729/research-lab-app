@@ -1,0 +1,277 @@
+{
+  "new_paid_compute_cost": 0,
+  "currency": "USD",
+  "llm_and_local_electricity_cost": null,
+  "new_input_data_download_bytes": 0,
+  "new_dependency_installs": 0,
+  "new_native_builds": 0,
+  "new_native_raster_runs": 1,
+  "new_solver_runs": 1,
+  "numerical_jobs": [
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-relax01/analysis01-execution/state.json",
+      "started_utc": "2026-11-11T23:40:03.741272+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax01\\analyze_trial.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax01\\analysis01"
+      ],
+      "script_sha256": "8a19c0c0e5f2db0a786299dfa7ddfc7121c1b8b2e1d4e31487dea3c04f1dfd0a",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 7.1164521999889985,
+      "peak_rss_bytes": 856236032,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:40:10.858429+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-relax01/input01-execution/state.json",
+      "started_utc": "2026-11-11T23:38:50.780938+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax01\\prepare_trial.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax01\\input01"
+      ],
+      "script_sha256": "0e65ac4d11a017075e78f9fb1e90880359b6f20751b3850f09063e8e5553b340",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.40824069996597245,
+      "peak_rss_bytes": 65036288,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:38:51.189739+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-relax01/raster-analysis01-execution/state.json",
+      "started_utc": "2026-11-11T23:41:00.903072+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax01\\evaluate_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax01\\raster-analysis01"
+      ],
+      "script_sha256": "2db9e42f7fb309e0a1b4152290beab8394e9b87e1caeefb99a0b3876644af0d0",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 5.524841199978255,
+      "peak_rss_bytes": 596955136,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:41:06.436090+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-relax01/raster-input01-execution/state.json",
+      "started_utc": "2026-11-11T23:40:49.275535+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax01\\prepare_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax01\\raster-input01"
+      ],
+      "script_sha256": "06c819f01bc7c4421b0268f5f6a2df9f89c43f82e2d8abbf238086390baf4e94",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.7104944000020623,
+      "peak_rss_bytes": 83558400,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:40:49.996952+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-relax01/raster01/state.json",
+      "mode": "candidate",
+      "started_utc": "2026-11-11T23:40:55.357048+00:00",
+      "commands": [
+        [
+          "/mnt/d/kensyoukin-work/r003-build/bin/r005-corner-obj01",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-seam-relax01/raster-input01/mesh.bin",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-seam-relax01/raster01"
+        ]
+      ],
+      "status": "complete",
+      "source_sha256": "19212966593c157043357c455dac74fbe20be83bd2b0f07058cacce8a25bfb37",
+      "header_sha256": {
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/writeOBJ.h": "733d29c86e0693fb80dd3e7f531417fe3898b2944578ed79d6a1c4ef831efa5b",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/writeOBJ.cpp": "51a01371679a4eb54d5ef09fdfed0d2bbf60715876a04071e3f396d2a3d29dbc"
+      },
+      "protected_hashes": {
+        "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp": "3eeb1bc7225c5588007e2dc9b54aa04523745d0a4e8e4f1321681ee5d77cd36c",
+        "/mnt/d/kensyoukin-work/r005-build05/SurfaceMeshing-trace.o": "53844681c5ff559b3c7ed93cda6ff5fdacb4aca5f8bd4db91f9c5ba98cfc69f5",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_inpaint.so": "89be74bca1597bc52578021732d9bbf964de5792c37fcb1868702c89610b77c4",
+        "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+      },
+      "affinity": [
+        0
+      ],
+      "time_limit_per_command_seconds": 300,
+      "address_space_limit_bytes": 4294967296,
+      "input_sha256": "7c9c1da6d73660f96311e07d5879c968bc0b645a7b797a4ab3f9a9135fe23744",
+      "exit_code": 0,
+      "elapsed_seconds": 4.182135192,
+      "max_child_rss_bytes": 149065728,
+      "protected_files_unchanged": true,
+      "completed_utc": "2026-11-11T23:40:59.625364+00:00",
+      "binary": "/mnt/d/kensyoukin-work/r003-build/bin/r005-corner-obj01",
+      "binary_sha256": "be1839d686e95e4b32d4cb81035fcb82f46f845fa03c844b8cd6f6be81a7a738"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-relax01/slim01/state.json",
+      "mode": "run",
+      "started_utc": "2026-11-11T23:39:02.529477+00:00",
+      "commands": [
+        [
+          "/mnt/d/kensyoukin-work/r003-build/bin/r005-slim-component01",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-seam-relax01/input01/input.json",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-seam-relax01/slim01/result.json"
+        ]
+      ],
+      "status": "complete",
+      "source_sha256": "f95b2fc13a37ed5c399f44322962be5da54e35fdba8f96b3f41e1c5bd5404824",
+      "header_sha256": {
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim.h": "b29c4133a65461cf0ad2b24d2fb8f83a958b461eea6170e171a71c2cfae62f8a",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim.cpp": "39d154a0b399ef950755954192b00f445ee3b22c6be69893fb5725ae4187b82a",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim_assembly.h": "e18fecd7dc4ac9c2df392917dd6456cd85722ee9704554701c15744e938c12b3",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/flip_avoiding_line_search.cpp": "dc11208d4bef3e12dbb23e7ca693f2991baf653e4fc4ed7fb87560be9515ef2e"
+      },
+      "protected_hashes": {
+        "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp": "3eeb1bc7225c5588007e2dc9b54aa04523745d0a4e8e4f1321681ee5d77cd36c",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-baseline": "fae4e8af0277727de2a6b874492bab96dd969a9e5ea1175a38bd93b56ce63000",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_inpaint.so": "89be74bca1597bc52578021732d9bbf964de5792c37fcb1868702c89610b77c4",
+        "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+      },
+      "affinity": [
+        0
+      ],
+      "time_limit_per_command_seconds": 300,
+      "address_space_limit_bytes": 4294967296,
+      "input_sha256": "d86eb364fa78d2bb40861422bf082f4e16d796765cf0c7902b3551d5d575f6ab",
+      "exit_code": 0,
+      "elapsed_seconds": 0.988807757,
+      "max_child_rss_bytes": 128155648,
+      "protected_files_unchanged": true,
+      "completed_utc": "2026-11-11T23:39:03.573758+00:00",
+      "binary": "/mnt/d/kensyoukin-work/r003-build/bin/r005-slim-component01",
+      "binary_sha256": "6b86e53f782a1afdc08661ac5977df017c8339eb1d05159b598010c060d97694",
+      "result_sha256": "5a97b70afd5f6b1c684862fd310ceea6742e50f8262579d6445112b69fd874eb"
+    },
+    {
+      "role": "verification",
+      "path": "experiments/vesuvius/r005/20261112-seam-relax-verification01/check01-execution/state.json",
+      "started_utc": "2026-11-11T23:44:27.609864+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax-verification01\\verify_geometry.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax-verification01\\check01"
+      ],
+      "script_sha256": "8f1bb1f426a988ad03e7a61cd297e5b188a5c69a079a03379856c24d05b96dbd",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 3.3170724000083283,
+      "peak_rss_bytes": 273235968,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:44:30.927538+00:00"
+    },
+    {
+      "role": "verification",
+      "path": "experiments/vesuvius/r005/20261112-seam-relax-verification01/check02-execution/state.json",
+      "started_utc": "2026-11-11T23:44:48.251199+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax-verification01\\verify_geometry02.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax-verification01\\check02"
+      ],
+      "script_sha256": "cc7bbeaec3ee84402b00da789ef9e6c1a8b130e95b82414cfc20001ef590a283",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 5.025802199961618,
+      "peak_rss_bytes": 329478144,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:44:53.277627+00:00"
+    },
+    {
+      "role": "verification",
+      "path": "experiments/vesuvius/r005/20261112-seam-relax-verification01/check03-execution/state.json",
+      "started_utc": "2026-11-11T23:46:43.855998+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax-verification01\\verify_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-relax-verification01\\check03"
+      ],
+      "script_sha256": "cd275fbdf1956fb5d6941cac4bd3bcc8304b4cae8233807e46fea0feee1d6345",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 10.441697300004307,
+      "peak_rss_bytes": 470781952,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:46:54.298535+00:00"
+    }
+  ],
+  "sequential_bounded_numeric_intervals_verified": true,
+  "previous_frozen_files_checked": 101,
+  "previous_manifest_sha256": "787fc449a84306696bd140c7cc66148f28514b907b171d32e518b9fee7f7ee46",
+  "main_and_verification_artifact_bytes": 202727368,
+  "note": "CPU1. Native AS4GiB/300s per command; Python sampled RSS4GiB/300s. Existing SLIM and corner-UV raster binaries only. All six primary jobs succeeded. Soft pins were restored exactly before global evaluation. One preserved verifier failure incorrectly expected 50 history rows; the native log includes iteration0, so a new verification script checked all51 rows successfully. No GPU. Shared-host O0 timings are not performance comparisons."
+}

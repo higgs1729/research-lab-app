@@ -1,0 +1,109 @@
+{
+  "files": [
+    {
+      "path": "research/174-normalization-equivalence.md",
+      "bytes": 10239,
+      "sha256": "579039bdfc11bc0fd685e8b974b446ce546aec198630030f540289276afada19"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/check_rounding.py",
+      "bytes": 2376,
+      "sha256": "ce58642ba3d0469774951ad259a5fdc3d62e079c2e420e6fe43472666d59854b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/compare-process.json",
+      "bytes": 689,
+      "sha256": "5903b144760512c13808920e1faa8db9ed00cac40256d6f2ab3a02a31986b505"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/compare-start.json",
+      "bytes": 558,
+      "sha256": "3249bb83fcf9ca55c9d1c0c4d36ade0e2cc6b6e5ac7e717424c2980e25a70ee5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/compare.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/compare.py",
+      "bytes": 10162,
+      "sha256": "2f0b41726a9df706fa14446b7c87a3e3bb16c12673a82219fe0ad3bd0b5f60b8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/ink-lens-engine.py",
+      "bytes": 24944,
+      "sha256": "280309c7bf86bd2d8c55bb64feb52168cbde230d02912fec72d1288260ccffa7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/lab-record.json",
+      "bytes": 1861,
+      "sha256": "f353d29aac48e36337221ad0c56899d2c3d7c6ed9f1b0a5f482a87c028f4a251"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/lead-check.json",
+      "bytes": 858,
+      "sha256": "1c6d7245b2bd325ffe958f3528a81a9d8bcf8c422feeea4f5f3af1d9b1d98dc5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/lead-process.json",
+      "bytes": 655,
+      "sha256": "410c0366814753b23a59798e28c50e30d5addebb4f52358a6bf2ce45b1c8cbcf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/lead_check.py",
+      "bytes": 2078,
+      "sha256": "e2740e161c3983054933b63abb9c2e1c6006b413665acae1a34f8aecbebb823f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/README.md",
+      "bytes": 1167,
+      "sha256": "9eac5890f16fba27e1485bb6daeb9f9ac97efe7d8e281bf0226565ee3b0ca348"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/representative-forward-numpy.npy",
+      "bytes": 1114240,
+      "sha256": "c49a75c0605e2f76a1f661af5f10fd33afc772332ad22ab8c1fc6f3d50a82c23"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/representative-forward-torch.npy",
+      "bytes": 1114240,
+      "sha256": "acdf92b807b5e751c939cb8f4ddef2279950e6dc7425743a384c680d21362595"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/representative-forward-u8.npy",
+      "bytes": 278656,
+      "sha256": "7292eac54ed28c8470d98f21d9a265d5080f1546e3d3a431af5fa869779f9900"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/representative-reverse-numpy.npy",
+      "bytes": 1114240,
+      "sha256": "b8a8a77aa80d875ba6abbabd7287658a925f39d1fe7ef3c431ebb57757e486dc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/representative-reverse-torch.npy",
+      "bytes": 1114240,
+      "sha256": "d4b34ce7f8a282e0c2d6e87040c6fcec792ba2a9d9c1b50266092b53c8615496"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/representative-reverse-u8.npy",
+      "bytes": 278656,
+      "sha256": "ed3c590264b5a44e17706d572190d1e56726de2b63d18e6d72e52b802d4cf044"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/result.json",
+      "bytes": 114660,
+      "sha256": "98d4ada4ae8d3bd022c62d8e323f70f654475fb1c313f8d5fa28b068265905b3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/rounding-check.json",
+      "bytes": 3571,
+      "sha256": "5a57ece20649a61197561bf877d6024173a1e47b23ad2519076a0eb8ce4e837f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-normalization-equivalence01/rounding-process.json",
+      "bytes": 694,
+      "sha256": "7b816badd9be6d43f9ed53e506f48d999918cc8a305cf121d2a079d7e17d1d7c"
+    }
+  ]
+}

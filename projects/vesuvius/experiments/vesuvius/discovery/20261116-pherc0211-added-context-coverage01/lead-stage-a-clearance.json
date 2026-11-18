@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-15T17:19:37.171503+00:00",
+  "approved_stage": "A geometry only, one bounded run",
+  "plan_sha256": "3e4833f47065d870c90c22d8c43bf54b49d3ed93790db9bc6a9d803fafc2e0b0",
+  "basis": "Newly added context intersects global v9 box and admits two disconnected UV candidate sets; global bbox cannot decide correspondence. Parent independently checked all768 row-cell boxes.",
+  "limits": {
+    "CPU_cores": 1,
+    "hard_commit_bytes": 4294967296,
+    "elapsed_seconds": 300,
+    "stage_new_output_bytes": 4194304,
+    "total_saved_bytes": 16777216,
+    "C_free_floor_bytes": 2147483648,
+    "model_forwards": 0,
+    "CT_reads": 0,
+    "prediction_pixels_read": 0
+  },
+  "mathematical_review": "For diagonal00-to11, bilinear-minus-triangle is -v*(1-u)*D in u>=v and -u*(1-v)*D in v>=u, D=P00-P10-P01+P11. Absolute coefficient<=1/4. Thus triangle distance minus norm(D)/4 is a cell lower bound; evaluated bilinear UV residual is an upper bound. Report uncertainty; not an exact inverse.",
+  "conditions": [
+    "Keep all840 fixed anchors, all valid source cells and potential alternative branches; no result-selected distance or paper-identity threshold.",
+    "Handle degenerate triangles explicitly and check the new closest-point routine with small analytically known interior/edge/vertex/degenerate cases; this validates numerical implementation only.",
+    "No probability crops or image alignment in this authorization. Before later public probability interpretation, state how published validity/seam masks restrict the nominal geometry; masked regions cannot be treated as ink negatives.",
+    "If ambiguous or no coherent nominal branch, preserve that result and stop this mapping attempt; do not add optimizers/other surfaces."
+  ]
+}

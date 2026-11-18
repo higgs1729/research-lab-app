@@ -1,0 +1,15 @@
+{
+  "ct_planes": 18,
+  "ct_values_exact": 43218,
+  "ct_max_difference_dn": 0,
+  "baseline_input_bytes_exact": 4866048,
+  "same_checkpoint_source_layers_patch_count": true,
+  "weight_map_exact": true,
+  "probability_and_png_values_exact": 147456,
+  "paired_stats": {
+    "pearson": 0.9936055564053301,
+    "mae_dn": 3.0372467041015625,
+    "max_dn": 23.0
+  },
+  "new_CT_network_models": 0
+}

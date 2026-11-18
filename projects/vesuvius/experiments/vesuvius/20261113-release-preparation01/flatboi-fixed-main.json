@@ -1,0 +1,10 @@
+{
+  "checked_at_utc": "2026-11-12 19:12:13 UTC",
+  "source_url": "https://github.com/ScrollPrize/villa/blob/0080fa393724575d4f19059d91402757f9351b28/volume-cartographer/libs/flatboi/flatboi.cpp",
+  "fixed_main": "0080fa393724575d4f19059d91402757f9351b28",
+  "file": "volume-cartographer/libs/flatboi/flatboi.cpp",
+  "github_blob": "2dcf5981008e6b68b8c29ef7e083fc769f40e163",
+  "tested_R005_blob": "2dcf5981008e6b68b8c29ef7e083fc769f40e163",
+  "match": true,
+  "scope": "Source identity only; no new flatboi build or experiment."
+}

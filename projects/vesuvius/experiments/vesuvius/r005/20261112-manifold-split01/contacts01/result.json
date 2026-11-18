@@ -1,0 +1,109 @@
+{
+  "unchanged_outside_faces": 375206,
+  "all_outside_geometry_exactly_preserved": true,
+  "pin_strict_inside_outside_pairs": 1,
+  "distinct_conflicting_pin_vertices": [
+    121019
+  ],
+  "conflicts_at_extra_pin_121019": 1,
+  "summaries": {
+    "G": {
+      "total_pairs": 686,
+      "internal_pairs": 61,
+      "external_pairs": 625,
+      "distinct_external_faces": 141,
+      "distinct_external_all_C_fixed_faces": 89,
+      "distinct_external_not_all_C_fixed_faces": 52,
+      "external_source_bbox_yx": [
+        [
+          105,
+          998
+        ],
+        [
+          121,
+          1015
+        ]
+      ]
+    },
+    "candidate": {
+      "total_pairs": 634,
+      "internal_pairs": 0,
+      "external_pairs": 634,
+      "distinct_external_faces": 145,
+      "distinct_external_all_C_fixed_faces": 88,
+      "distinct_external_not_all_C_fixed_faces": 57,
+      "external_source_bbox_yx": [
+        [
+          107,
+          998
+        ],
+        [
+          121,
+          1015
+        ]
+      ]
+    }
+  },
+  "witnesses": [
+    {
+      "pin_global_vertex": 121019,
+      "pin_source_yx": [
+        126,
+        990
+      ],
+      "pin_original_C_fixed": false,
+      "pin_coarse": false,
+      "outside_face": 210941,
+      "outside_vertex_ids": [
+        110834,
+        110835,
+        110836
+      ],
+      "outside_source_yx": [
+        [
+          121,
+          998
+        ],
+        [
+          120,
+          999
+        ],
+        [
+          121,
+          999
+        ]
+      ],
+      "outside_all_C_fixed": false,
+      "outside_vertices_shared_with_pin": false,
+      "subject_incident_faces": [
+        230495
+      ],
+      "pin_G_uv": [
+        19411.320377056574,
+        2636.8505449899785
+      ],
+      "outside_G_uv": [
+        [
+          19392.380318201227,
+          2656.3537935278223
+        ],
+        [
+          19413.475054252678,
+          2634.300234641696
+        ],
+        [
+          19413.829510007057,
+          2655.1998073038003
+        ]
+      ],
+      "exact_barycentric": [
+        "13883245117404325707965697/135607620916699631697633065",
+        "239652831381088258069228189/271215241833399263395266130",
+        "3795920217502353910106547/271215241833399263395266130"
+      ],
+      "minimum_barycentric": 0.013995969370460723
+    }
+  ],
+  "elapsed_seconds": 1.1494602999882773,
+  "implication": "If a pinned vertex of a nondegenerate subject triangle lies strictly inside an immutable outside triangle, the subject triangle must overlap that outside triangle in positive area near the pinned vertex. This rules out a zero-overlap repair of the full subject while all stated pins and outside geometry remain fixed. It does not rule out joint repair of a larger domain or prove infeasibility for original C fixed conditions."
+}

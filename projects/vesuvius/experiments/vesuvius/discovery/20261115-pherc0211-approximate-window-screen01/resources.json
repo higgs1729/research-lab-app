@@ -1,0 +1,63 @@
+{
+  "utc": "2026-11-15T14:37:06.225392+00:00",
+  "owned_pod": {
+    "id": "uh56ny6t7mpdqx",
+    "name": "r239-studio-31e322a51025b003",
+    "precreate_utc": "2026-11-15T14:25:25+00:00",
+    "absolute_delete_deadline_utc": "2026-11-15T14:55:25+00:00",
+    "absence_confirmed_utc": "2026-11-15T14:32:39.444708+00:00",
+    "precreate_to_absence_seconds_upper_bound": 434.444708108902,
+    "GPU": "NVIDIA A40",
+    "cloud": "SECURE",
+    "data_center": "CA-MTL-1",
+    "effective_hourly_USD": 0.59,
+    "created_count": 1,
+    "automatic_recreations": 0,
+    "GET404_and_name0_confirmed_by_researcher_and_lead": true
+  },
+  "cost": {
+    "currency": "USD",
+    "planned_estimate": [
+      0.08,
+      0.16
+    ],
+    "operating_ceiling": 0.35,
+    "provider_enforced_cap": false,
+    "dedicated_actual_USD": null,
+    "dedicated_actual_status": "pending: per-Pod records empty at2026-11-15T14:33:13.815617Z; empty totals are not a zero-cost bill",
+    "billing_evidence": "lead-cloud-resource-check.json",
+    "time_rate_compute_estimate_USD": 0.0712006604956256,
+    "temporary20GB_disk_hourly_estimate_USD": 0.002777777777777778,
+    "time_rate_plus_disk_estimate_USD": 0.07153588017780839,
+    "estimate_basis": "Actual precreate to absence upper-bound duration times observed compute rate plus legacy20GB disk estimate at$0.10/GB-month/720hours. Not final billed usage. Account balance difference not attributed."
+  },
+  "model": {
+    "forwards": 228,
+    "loads": 1,
+    "model_elapsed_seconds": 54.30131540307775,
+    "GPU_peak_allocated_bytes": 1345575936,
+    "GPU_peak_reserved_bytes": 1556086784,
+    "Pod_process_peak_RSS_bytes": 2426384384,
+    "new_CPU_model_forwards": 0
+  },
+  "local": {
+    "CPU_affinity_cores": 1,
+    "process_commit_limit_bytes": 4294967296,
+    "storage_limit_bytes": 201326592,
+    "result_physical_reservation_bytes": 67108864,
+    "result_archive_bytes": 12753670,
+    "unpacked_result_bytes": 18749952,
+    "new_save_bytes_snapshot": 67640123,
+    "C_free_bytes": 6738599936,
+    "C_free_floor_bytes": 2147483648,
+    "peak_storage_note": "Continuous peak storage not measured; admission reserved64MiB and budgeted48MiB unpack+24MiBfigures within192MiB. Final manifest measures all persisted files."
+  },
+  "new_CT_bytes": 0,
+  "public_probability_download_bytes": 11940462,
+  "checkpoint_download_to_pod_bytes": 893443724,
+  "checkpoint_download_to_C_bytes": 0,
+  "D_writes": 0,
+  "D_git_commands": 0,
+  "shared_install_update_build_mutations": 0,
+  "publication_contact_submission": 0
+}

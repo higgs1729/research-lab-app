@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-14T13:00:42.639432+00:00",
+  "url": "https://scrollprize.org/prizes",
+  "local_urllib_http_status": 403,
+  "local_file_saved": false,
+  "direct_response_attempts": 1,
+  "winners_local_attempted": false,
+  "current_web_check": {
+    "prizes": "https://scrollprize.org/prizes",
+    "winners": "https://scrollprize.org/winners",
+    "first_letters_eligible_count": 20,
+    "first_letters_winner_entries": [
+      "PHerc0306B",
+      "PHerc0343"
+    ],
+    "note": "Current web read used for presence checks, not direct quotation; original HTML from study202 remains available."
+  },
+  "saved_primary_html": [
+    "experiments/vesuvius/discovery/20261114-next-atlas-surface01/candidates/official-prizes.html",
+    "experiments/vesuvius/discovery/20261114-next-atlas-surface01/candidates/official-winners.html"
+  ]
+}

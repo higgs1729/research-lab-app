@@ -1,0 +1,13 @@
+{
+  "cases": [
+    "original",
+    "corner",
+    "centered"
+  ],
+  "tags": [
+    "seed42-reverse",
+    "dense-reverse"
+  ],
+  "call_count": 6,
+  "elapsed_seconds": 79.68367080000462
+}

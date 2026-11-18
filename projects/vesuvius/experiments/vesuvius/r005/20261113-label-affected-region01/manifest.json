@@ -1,0 +1,34 @@
+{
+  "files": [
+    {
+      "file": "research/145-r005-label-candidate-affected-region.md",
+      "bytes": 9060,
+      "sha256": "9763473074b187d4d4bd78acb3ed896662c148ba3da386c1e25ebddad18c4ffe"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-label-affected-region01/assess.py",
+      "bytes": 10454,
+      "sha256": "b5677877efbd397bee3ce615a4fd41e38402d0ef2edd63d4e22af695cc7460ea"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-label-affected-region01/footprint-summary.json",
+      "bytes": 696,
+      "sha256": "2c00d251a6dd7b2b9c4db514180ddbd8e4018d672f1544b0266ca1da7af5e931"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-label-affected-region01/process.json",
+      "bytes": 667,
+      "sha256": "7304e108c05aa46dbfffea9634a90c4a4e628f5a71abb2b200978631eec934d8"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-label-affected-region01/record.json",
+      "bytes": 1280,
+      "sha256": "5721d199f4f84bb2663dc4b94cde7c2232a88795587868433b9dfe66f9e38bc2"
+    },
+    {
+      "file": "experiments/vesuvius/r005/20261113-label-affected-region01/result.json",
+      "bytes": 1000971,
+      "sha256": "344e874b84c56f0fccb1dcfbc6e35d54bef1b3d4340fb3e548c3948387fea3b3"
+    }
+  ]
+}

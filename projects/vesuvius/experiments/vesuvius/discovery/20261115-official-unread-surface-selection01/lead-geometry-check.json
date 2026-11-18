@@ -1,0 +1,88 @@
+{
+  "checked_utc": "2026-11-14T16:11:48.682571+00:00",
+  "method": "No child geometry code imported. Exact10/9 pixel-centre relation, all four TIFXYZ corners per selected pixel, convex cell hull outside previous whole-mesh bbox expanded32.",
+  "rows": [
+    {
+      "mesh": 4,
+      "target_xywh": [
+        704,
+        1568,
+        1024,
+        640
+      ],
+      "geometry_support_pixels": 463108,
+      "main_support_pixels": 412428,
+      "cell_hull_bbox_xyz": [
+        [
+          3244.845458984375,
+          5772.78466796875,
+          10887.6015625
+        ],
+        [
+          4054.923828125,
+          6639.5888671875,
+          11604.8291015625
+        ]
+      ],
+      "all_valid_cells_outside_old_entire_mesh_bbox_padded32": true,
+      "source_xy_bounds": [
+        782.2777777777778,
+        1742.2777777777778,
+        1918.9444444444443,
+        2452.277777777778
+      ],
+      "nominal_main_pixel_area_cm2": 0.509607936,
+      "geometry_supported_main_nominal_cm2": 0.38009364479999996,
+      "xyz_sha256": {
+        "x": "4d76b0c52c98dfc85c0a242af02ec9e6b923c462f99158771fb3ffd6778d2209",
+        "y": "bf68dadf590e676266493e544ae1e5336310a0b8be6a63be3ff233e4a03e2c0c",
+        "z": "11dd2d78632ba5fabf23d3d917904e4e3af5f740a1079ce63d659c49c12e896d"
+      }
+    },
+    {
+      "mesh": 5,
+      "target_xywh": [
+        480,
+        64,
+        960,
+        576
+      ],
+      "geometry_support_pixels": 371148,
+      "main_support_pixels": 326968,
+      "cell_hull_bbox_xyz": [
+        [
+          2939.611328125,
+          5880.783203125,
+          12544.3125
+        ],
+        [
+          3552.097412109375,
+          6814.9296875,
+          13204.107421875
+        ]
+      ],
+      "all_valid_cells_outside_old_entire_mesh_bbox_padded32": true,
+      "source_xy_bounds": [
+        533.3888888888889,
+        71.16666666666667,
+        1598.9444444444443,
+        710.0555555555555
+      ],
+      "nominal_main_pixel_area_cm2": 0.42278584319999996,
+      "geometry_supported_main_nominal_cm2": 0.3013337088,
+      "xyz_sha256": {
+        "x": "21da87d0ab1729352172d56d9da07dcc103fe92c9079eb911215237c1dfe793e",
+        "y": "8a44f7936396dfdcdd4257c24ad470a8a292ff1bde69ef21ec8291bc96791527",
+        "z": "02f479757bb10de67138e81ef726f5f7f909a12b196205df1a3203e5e4681011"
+      }
+    }
+  ],
+  "pair_separating_axis_gap_voxel": [
+    -307.251953125,
+    -758.8056640625,
+    939.4833984375
+  ],
+  "corrected_diagnostic": "First parent output used96um instead of9.6um in its area-only conversion. Original output retained as lead-geometry-check-before-area-fix.json. Coordinate, support and separation checks unchanged.",
+  "limitation": "This checks the declared public-raster-to-TIFXYZ planning map, not an independently observed producer mapping or certified physical sheet. Source data and model prior exposure remain separate questions.",
+  "new_CT_model_Pod_or_network": 0
+}

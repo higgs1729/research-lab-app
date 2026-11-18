@@ -1,0 +1,30 @@
+{
+  "surface": "PHerc0139 20260317000000-w035_2026031718",
+  "ct": "20250728140407 L0 9.362 µm",
+  "crop_xywh": [
+    2176,
+    1408,
+    64,
+    64
+  ],
+  "layers": 28,
+  "inputs": {
+    "experiments/vesuvius/r012/20261113-known-ct-control01/run01/plan.json": "02a7e0dd8b066d6fa5797671c1d77a9d6fc775a6b7d555df142c71daa7b51fbc",
+    "experiments/vesuvius/r012/20261113-known-ct-control01/run01/native-roi.npy": "a514fdbbd0e6a59204c33a55a75b4e5462b88f1dd28238c5f929791acf06c421",
+    "experiments/vesuvius/r012/20261113-known-ct-control01/run01/render/settings.json": "fd222c357838a7782fc23f137753f655422a49f42fd1f20094ab66f18c82c55d",
+    "experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr/.zattrs": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+    "experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr/.zgroup": "e1e1914ae531ecb50e1ead685ef01895a5452faf5f25f35cd78f1f5de1367470",
+    "experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr/0/.zarray": "562679cffc09a94b7342a38c37e49f433a4dfa6e3c93b7599dbeaec791186a35",
+    "experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr/0/31/26/32": "fae44439c239f7ad0f70ccf803619f8ae343684e682ee23759d85627e8493203",
+    "experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr/0/32/26/32": "ab30cffcb0753c3be21f0a60de4585d7cd4ad286333f8a81029314c5b0e2f77e",
+    "experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr/metadata.json": "95917633ca11a1ddff2e6b7d66360c508f8158bbe05be277c8d51477befb5bae",
+    "experiments/vesuvius/r011/20261113-w035-geometry01/run01/input/meta.json": "11752e63185cc6bc8842cf6f4d7aef84a7e3ec7b0b4eb5c10bf99842e7cd8dda",
+    "experiments/vesuvius/r011/20261113-w035-geometry01/run01/input/x.tif": "d827a5d2e51035c91da74b5fba4fea55c9df9d8f58c6ec7f534d6012ee2f7b69",
+    "experiments/vesuvius/r011/20261113-w035-geometry01/run01/input/y.tif": "41f1df324572b68450f4da92dcd4598844f602982f1965e5bea67e6de080d664",
+    "experiments/vesuvius/r011/20261113-w035-geometry01/run01/input/z.tif": "b61f8bbcd9cb538f43cd72678fd4d38a25cc1643daa4bcfdd7f2e9954f9a1e81"
+  },
+  "template": {
+    "path": "experiments/vesuvius/r009/20261113-interrupted-render01/run02/normal-process.json",
+    "sha256": "68a4b45d76eef3abc03e54a1e4dcde9d1659c1e7d231484a5161472ad1745421"
+  }
+}

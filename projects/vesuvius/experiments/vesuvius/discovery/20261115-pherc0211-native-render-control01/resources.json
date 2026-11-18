@@ -1,0 +1,190 @@
+{
+  "utc": "2026-11-15T13:41:17.485528+00:00",
+  "phase": "pre independent review; mutable folder; not manifest freeze",
+  "GPU_forwards": 0,
+  "new_CT_bytes": 0,
+  "new_remote_requests": 0,
+  "cloud_resources_created": 0,
+  "cost_USD": 0,
+  "C_files_count": 109,
+  "C_bytes_snapshot": 2971242,
+  "C_free_bytes": 4414902272,
+  "initial_storage_cap": 67108864,
+  "execution_storage_estimate_cap": 10485760,
+  "shared_install_update_build_mutations": [],
+  "D_commands_or_reads": [],
+  "temporary_files_remaining": [],
+  "linux_processes": {
+    "build": {
+      "command": [
+        "unshare",
+        "-Urn",
+        "g++",
+        "-std=c++17",
+        "-O2",
+        "-ffp-contract=off",
+        "-I/usr/include/opencv4",
+        "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01/native.cpp",
+        "-o",
+        "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01/native-control",
+        "-lopencv_core"
+      ],
+      "cwd": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01",
+      "started_utc": "2026-11-15T13:37:22.658505+00:00",
+      "completed_utc": "2026-11-15T13:37:29.430095+00:00",
+      "timeout_seconds": 120,
+      "elapsed_seconds": 6.771602763000001,
+      "exit_code": 0,
+      "max_child_rss_bytes": 208175104,
+      "user_cpu_seconds": 2.36,
+      "sys_cpu_seconds": 0.82,
+      "timing_pid": 462,
+      "reaped": true
+    },
+    "tile": {
+      "command": [
+        "unshare",
+        "-Urn",
+        "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01/native-control",
+        "tile"
+      ],
+      "cwd": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01",
+      "started_utc": "2026-11-15T13:38:36.129531+00:00",
+      "completed_utc": "2026-11-15T13:38:38.756790+00:00",
+      "timeout_seconds": 120,
+      "elapsed_seconds": 2.627193093999992,
+      "exit_code": 0,
+      "max_child_rss_bytes": 23666688,
+      "user_cpu_seconds": 0.07,
+      "sys_cpu_seconds": 0.18,
+      "timing_pid": 427,
+      "reaped": true
+    },
+    "band": {
+      "command": [
+        "unshare",
+        "-Urn",
+        "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01/native-control",
+        "band"
+      ],
+      "cwd": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01",
+      "started_utc": "2026-11-15T13:38:59.208822+00:00",
+      "completed_utc": "2026-11-15T13:38:59.592632+00:00",
+      "timeout_seconds": 120,
+      "elapsed_seconds": 0.383781005000003,
+      "exit_code": 0,
+      "max_child_rss_bytes": 62128128,
+      "user_cpu_seconds": 0.05,
+      "sys_cpu_seconds": 0.05,
+      "timing_pid": 451,
+      "reaped": true
+    }
+  },
+  "python_processes": {
+    "prepare": {
+      "argv": [
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-native-render-control01\\prepare.py"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "started_utc": "2026-11-15T13:35:27.322072+00:00",
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OMP_THREAD_LIMIT": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1"
+      },
+      "exit_code": 1,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296,
+      "exception": {
+        "type": "UnicodeDecodeError",
+        "message": "'cp932' codec can't decode byte 0x97 in position 6712: illegal multibyte sequence"
+      },
+      "completed_utc": "2026-11-15T13:36:07.055196+00:00",
+      "elapsed_seconds": 39.7323470999836,
+      "max_rss_bytes": 83722240,
+      "user_cpu_seconds": 12.53125,
+      "sys_cpu_seconds": 2.875
+    },
+    "extract": {
+      "argv": [
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-native-render-control01\\extract_sources.py"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "started_utc": "2026-11-15T13:36:58.020828+00:00",
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OMP_THREAD_LIMIT": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1"
+      },
+      "exit_code": 0,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296,
+      "completed_utc": "2026-11-15T13:36:58.453224+00:00",
+      "elapsed_seconds": 0.43241050001233816,
+      "max_rss_bytes": 38014976,
+      "user_cpu_seconds": 0.171875,
+      "sys_cpu_seconds": 0.109375
+    },
+    "compare": {
+      "argv": [
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-native-render-control01\\compare.py"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "started_utc": "2026-11-15T13:39:07.703483+00:00",
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OMP_THREAD_LIMIT": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1"
+      },
+      "exit_code": 0,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296,
+      "completed_utc": "2026-11-15T13:39:08.098823+00:00",
+      "elapsed_seconds": 0.39535379997687414,
+      "max_rss_bytes": 51986432,
+      "user_cpu_seconds": 0.203125,
+      "sys_cpu_seconds": 0.078125
+    }
+  },
+  "OCI_total_compressed_layer_bytes": 2764426945,
+  "selected_OCI_layer_metadata": [
+    {
+      "command": "RUN |1 DEBIAN_FRONTEND=noninteractive /bin/sh -c apt -y install --no-install-recommends     build-essential git cmake ninja-build pkg-config     qt6-base-dev libboost-system-dev libboost-program-options-dev libceres-dev     libcgal-dev     libopencv-dev libopencv-contrib-dev     libblosc-dev libspdlog-dev libgsl-dev libsdl2-dev libcurl4-openssl-dev nlohmann-json3-dev libavahi-client-dev     libde265-dev libx265-dev liblz4-dev     file curl unzip ca-certificates bzip2 wget fuse jq gimp desktop-file-utils  && rm -rf /var/lib/apt/lists/* # buildkit",
+      "layer_digest": "sha256:087d19347a9fd74f4746f61709982853b2a941b3ac877bd8210325a929cb3553",
+      "compressed_bytes": 628024575
+    },
+    {
+      "command": "COPY . /src # buildkit",
+      "layer_digest": "sha256:402b12c645eb28c0828798e3e3e5162a3c01d9d2ba9320e837a105bfb6dcdf13",
+      "compressed_bytes": 13214515
+    },
+    {
+      "command": "RUN |2 DEBIAN_FRONTEND=noninteractive LIBIGL_COMMIT=ae8f959ea26d7059abad4c698aba8d6b7c3205e8 /bin/bash -lc rm -rf build  && cmake -S . -B build       -DCMAKE_BUILD_TYPE=Release       -DLIBIGL_WITH_PASTIX=ON       -DBLA_VENDOR=OpenBLAS       -DCMAKE_PREFIX_PATH=/usr/local/pastix       -DCMAKE_CXX_FLAGS_RELEASE=\"-O3 -DNDEBUG\"       -DCMAKE_EXPORT_COMPILE_COMMANDS=ON       -DCMAKE_CXX_FLAGS=\"-DSLIM_CACHED\" # buildkit",
+      "layer_digest": "sha256:dc7ad8b343162b8637faca659c406ba563a25ccbe93e2502da2a3cda756f060d",
+      "compressed_bytes": 24610874
+    },
+    {
+      "command": "RUN |2 DEBIAN_FRONTEND=noninteractive LIBIGL_COMMIT=ae8f959ea26d7059abad4c698aba8d6b7c3205e8 /bin/bash -lc cmake --build build -j\"$(nproc)\" # buildkit",
+      "layer_digest": "sha256:88c01e356fc17e7505794d6f5416071ec7edd599cfc76361c0cf596db1fb0fc4",
+      "compressed_bytes": 653281
+    },
+    {
+      "command": "RUN |2 DEBIAN_FRONTEND=noninteractive LIBIGL_COMMIT=ae8f959ea26d7059abad4c698aba8d6b7c3205e8 /bin/bash -lc cmake -DVC_WITH_CUDA_SPARSE=off           -DVC_USE_OPENMP=ON           -GNinja /src  && ninja  && cp bin/* /usr/local/bin/ # buildkit",
+      "layer_digest": "sha256:15bde56842f56e2f9c86b36a6509130e1a9c7e073babd54ae7496b4356680387",
+      "compressed_bytes": 1608134412
+    }
+  ],
+  "next_boundary": "Full binary/real flags not executed or established. Main renderer build settings depend on pinned source CMake; flatboi Release flags do not establish main renderer flags. No flag sweep."
+}

@@ -1,0 +1,35 @@
+{
+  "checked_utc": "2026-11-14T16:14:06.697352+00:00",
+  "rows": [
+    {
+      "mesh": 4,
+      "native_xyxy_exclusive": [
+        782,
+        1742,
+        1920,
+        2454
+      ],
+      "present_ranges_verified": 50,
+      "exact_image_pixels": 810256
+    },
+    {
+      "mesh": 5,
+      "native_xyxy_exclusive": [
+        533,
+        71,
+        1600,
+        712
+      ],
+      "present_ranges_verified": 40,
+      "exact_image_pixels": 683947
+    }
+  ],
+  "all_exact_pixels": 1494203,
+  "lead_visual_observations": [
+    "Mesh4 has fairly aligned crossing fibre bands in upper part, with several tears/voids and fragmented areas lower down; unsupported outer corners form a triangular edge.",
+    "Mesh5 has broad relatively continuous horizontal bands with perpendicular fibres and local folds/dark defects; unsupported upper corners form a triangle.",
+    "No text claim from the raw CT preview. These public surfaces provide a concrete new bounded field for fixed ink inference, while sheet membership remains unverified."
+  ],
+  "selection": "Keep the two geometrically fixed windows for the next ink experiment. Do not rank by apparent letter shapes in CT.",
+  "new_original_CT_model_Pod_or_network": 0
+}

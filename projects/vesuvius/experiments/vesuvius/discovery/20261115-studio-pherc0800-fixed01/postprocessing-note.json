@@ -1,0 +1,10 @@
+{
+  "extraction_files": 670,
+  "earliest_saved_file_utc": "2026-11-15T11:35:11.454664+00:00",
+  "extraction_receipt_utc": "2026-11-15T11:37:28.894690+00:00",
+  "observed_span_s": 137.44002628326416,
+  "premature_figures": "started while extract session continued; required main arrays already existed; summarize stopped before writing due missing extraction receipt",
+  "recovery": "existing extraction process completed0, summarize only rerun; frozen science/collector untouched",
+  "likely_contributor_by_code_inspection": "per-member written_bytes full-directory traversal; no broader diagnosis attempted",
+  "per_operation_profile_measured": false
+}

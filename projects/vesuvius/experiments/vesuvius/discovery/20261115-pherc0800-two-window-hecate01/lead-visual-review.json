@@ -1,0 +1,62 @@
+{
+  "utc": "2026-11-14T16:52:26.605910+00:00",
+  "reviewer": "lead parent, before receiving child visual verdict",
+  "method": "Independently viewed both complete resampled CT centres and all four full native-scale PNGs, fixed0..255. Main areas are the32px-rim-excluded rectangles; identity/order known, not blind. No new scaling, enhancement, inference, or transcribed character was added.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0800-two-window-hecate01/pair/mesh4-ct-centre.png",
+      "sha256": "6e1bb458e1fdcc30a3b6016a4ec9861b68179fd3043f89fe66711ccb55e42ae8",
+      "size_xy": [
+        1024,
+        640
+      ]
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0800-two-window-hecate01/local-run/mesh4-forward.png",
+      "sha256": "42bfb67b717b96bc6b43820a9c8c38ff58be32f640bcb8276b5738999e36b601",
+      "size_xy": [
+        1024,
+        640
+      ]
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0800-two-window-hecate01/local-run/mesh4-reverse.png",
+      "sha256": "b5738e399de96b630f2f7c0654fc42c66d51ccd35ba6dbd721646b4c49c263c3",
+      "size_xy": [
+        1024,
+        640
+      ]
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0800-two-window-hecate01/pair/mesh5-ct-centre.png",
+      "sha256": "c773c9fdd6734ac5ee41164c56e0007d022be7e8e7fd789001b238c301f602e8",
+      "size_xy": [
+        960,
+        576
+      ]
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0800-two-window-hecate01/local-run/mesh5-forward.png",
+      "sha256": "470c75c6af5c7c72b193f34fb9072e136619047177a487ec14db5d6b3156a4d7",
+      "size_xy": [
+        960,
+        576
+      ]
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261115-pherc0800-two-window-hecate01/local-run/mesh5-reverse.png",
+      "sha256": "f964c9f8213a777dda669ecac0a1c82f98413daaaa59c37fd8d7510c3da1d7f1",
+      "size_xy": [
+        960,
+        576
+      ]
+    }
+  ],
+  "observations": {
+    "mesh4": "Forward has several broad bright diffuse patches, especially lower left and central-lower support. Reverse suppresses most of those and retains separated irregular patches. Fine structure inside responses is mottled; I cannot trace repeated coherent glyph strokes or a line through the full main rectangle.",
+    "mesh5": "Both orders contain sparse irregular blobs. Forward has an isolated angular/loop-like response near local x300-430,y280-380, but it does not form a repeated stroke sequence or a line; reverse emphasizes a different compact irregular patch in that region. No text ROI selected. The CT has strong bands and local folds/voids; this is context, not a proven causal label for every response."
+  },
+  "followup_text_ROIs": [],
+  "decision": "Close these two fixed windows at this depth. No novel letters or fourth submission contribution established.",
+  "limitations": "No proof of ink absence, whole-scroll negative result, verified physical lamina, or exhaustive previous community/training coverage. Low-amplitude or model-missed ink remains possible."
+}

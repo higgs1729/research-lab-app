@@ -1,0 +1,28 @@
+{
+  "checked_date": "2026-11-15",
+  "github_head": "feabff6c54f95bd8e52a90e0a7a76881ee67d4cc",
+  "github_tree_complete": true,
+  "github_entry_count": 555,
+  "hf_revision": "f435998b55269762942a979052044309b29650ac",
+  "hf_sibling_count": 9639,
+  "github_releases": [],
+  "public_originals_not_located": [
+    "x_vast_plan/results/PHerc0306B_z8400/results/flat/w074/tifxyz/flatten.tifxyz",
+    "x_vast_plan/results/PHerc0306B_z8400o/results/flat/w074/tifxyz/flatten.tifxyz",
+    "x_vast_plan/results/PHerc0306B_z9900/results/flat/w074/tifxyz/flatten.tifxyz",
+    "x_refine/trials/N7_sheet_extension/grow/R1/auto_grown_20261014015614971",
+    "x_refine/trials/N7_sheet_extension/grow/L1/auto_grown_20261014025938089"
+  ],
+  "absence_scope": "Not in fixed complete Git tree, current HF sibling inventory, empty GitHub releases, or Docker context recipe. Official S3 PHerc0306B top level has photos/representations/volumes; representations lists predictions/surfaces. This does not prove absence from every public host or archive. No guessed source-path GET attempted.",
+  "available": "Signed-offset samples in carrier.npz plus x_z99_w074.npy, source generators and author SHA256. Original per-node miss and original lane topology are not shipped in these arrays.",
+  "producer": {
+    "carrier": "smooth big+A in-plane parametrization, explicitly not sheet estimate; n from smooth P; 20vox carrier grid",
+    "z84_z84o_R1_L1_A_big": "carrier.crossings creates g.Surf(up4) and cross(span60, default iters5/miss_max3), saves float32 t, discards miss",
+    "z99": "touchup.py lines24–28 uses separate g.Surf(up4).cross(span60), saves uncast float64 t; shipped cached file checksum matches author decision. Historical producer replay not independently established.",
+    "local_equation": "Q=P+t*n is a near-crossing proxy; |t|<=60 and miss<3 are producer code conditions, not independently measured error bounds on shipped data."
+  },
+  "shared_dependencies": "Author discovery says spiral fits were snapped to same m7 prediction; GrowPatches also use m7 and same CT. Separate constructions are not independent physical truth.",
+  "selection_caveat": "METHOD section8 says ink on alternate right-end sheet had been viewed before adoption and tracing was used as no-harm check; code can omit ink while selection is not blind.",
+  "band_config": "z8400/z8400o both8400–9900 (outer winding range differs); z9900 9900–11400; z6900 6900–8400 is listed but original w074 geometry/near-crossing samples are not in shipped inputs. Do not substitute z9900 for rendered-up in flipped frame.",
+  "eligible_support": "Only existing saved finite samples count. Same-array-index pre/post reflatten mapping, intensity peak snapping, extrapolation over missing offsets and applying right-component95.5% rate are excluded."
+}

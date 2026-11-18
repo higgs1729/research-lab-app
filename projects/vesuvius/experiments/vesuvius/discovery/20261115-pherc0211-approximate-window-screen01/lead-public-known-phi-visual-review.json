@@ -1,0 +1,13 @@
+{
+  "reviewer": "lead/root",
+  "viewed_before_researcher_interpretation": true,
+  "actually_viewed_file": "review/public-known-phi-raw8-native.png",
+  "observations": [
+    "At native 320x300, the bright structure has a curved or ring-like upper part around a dark centre and a broad vertical bright stroke continuing downward through the central area. It is compatible with the published phi reference; it is substantially more informative than the incomplete 96x96 pair crop.",
+    "The image is blurred, strokes are broad, and there is a black masked boundary near the top. I do not independently establish an exact letter transcription from this probability image alone."
+  ],
+  "decision_scope": "Adequate as a fixed known-location visual reference for the separately planned approximate-input screening experiment. The local known-phi output must be reviewed against this before accepting an unknown region for raw-CT followup. This is not proof of novel text, same-sheet attribution, general accuracy, or exact reproduction.",
+  "historical_R236_gate_passed": false,
+  "new_letters_confirmed": 0,
+  "GPU_authorized_by_this_visual_record": false
+}

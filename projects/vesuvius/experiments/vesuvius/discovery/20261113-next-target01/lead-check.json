@@ -1,0 +1,25 @@
+{
+  "checked_saved_http_bodies": 27,
+  "first_letters_1218_listed": true,
+  "first_letters_1447_not_listed": true,
+  "mesh_body_not_downloaded": true,
+  "listed_mesh_tiff_bytes": 2239008,
+  "scale": [
+    0.05,
+    0.05
+  ],
+  "raw_ct_chunk_bytes": 2097152,
+  "fixed_crop_xywh": [
+    9162,
+    2012,
+    256,
+    256
+  ],
+  "nominal_width_mm": 2.21184,
+  "prior_models_per_depth": 6,
+  "prior_depths": 31,
+  "prior_max_share_depth": -15,
+  "prior_max_share": 0.05961452749503102,
+  "interpretation": "geometry diagnosis only; source label w081 is not identified with actual mesh winding w083; no ink or new text established",
+  "all_assertions_passed": true
+}

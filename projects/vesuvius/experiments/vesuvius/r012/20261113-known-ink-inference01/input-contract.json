@@ -1,0 +1,42 @@
+{
+  "roi_xywh": [
+    2176,
+    1408,
+    128,
+    128
+  ],
+  "shape_zyx": [
+    28,
+    128,
+    128
+  ],
+  "input_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/segments/20260317000000-w035_2026031718/surface-volumes/9.362um-1.2m-113keV-volume-20250728140407.zarr/0/0/11/17",
+  "input_sha256": "b01d4721220c1c8f2241f9231537c04554254be0a7a647946059a031b35abba2",
+  "source_overlap_with_r129_public_roi_equal": true,
+  "source_layer_start_inclusive": 6,
+  "source_layer_end_exclusive": 23,
+  "direction": "forward",
+  "expected_model_patch_zyx": [
+    17,
+    128,
+    128
+  ],
+  "padding": "none",
+  "test_time_augmentation": false,
+  "selected_layer_value_range": [
+    2,
+    223
+  ],
+  "label_tile_yx": [
+    2,
+    4
+  ],
+  "known_positive": 6708,
+  "known_negative": 4007,
+  "unsupervised": 5669,
+  "label_hashes": {
+    "inklabels": "43c07bc8b0649237f5870da23749ea9ebeb02fbcf5c694115eaa9879c57b0666",
+    "supervision": "2c68ff6ed8884e8c73eea9cba04acc21730add290023abe69f39e0c4e6cb8b0a"
+  },
+  "evaluation": "Entire fixed 128x128 patch where supervision>0; AUROC and average precision from uint8 TIFF; binary threshold stored uint8>=128 (p >= 0.5 prior to quantization is not exactly recoverable)."
+}

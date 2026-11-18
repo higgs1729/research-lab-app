@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-15T14:24:17.145719+00:00",
+  "cloud_plan_sha256": "4016e04378aa91630b29e4ee33d164a1dd3904ccbafb498bd6bff5601e1c94fc",
+  "archive_sha256": "089b3e2f44196cb556ae8a96ce36f3f744d0df1b1dafe5f66ce04c2d68b6fc37",
+  "archive_members_checked": 25,
+  "changed_members": [
+    "fixed-assets.json",
+    "gpu_loop.py",
+    "input-contract.json",
+    "patch-contract.json",
+    "plan.json"
+  ],
+  "science_fields_unchanged": [
+    "cases",
+    "contract",
+    "selection",
+    "checkpoint",
+    "source_files",
+    "input",
+    "main_xywh",
+    "approximate_render_limit"
+  ],
+  "input_and_reference_arrays_unchanged": true,
+  "all228_patch_identities_unchanged": true,
+  "historical_R236_gate_remains_failed": true,
+  "code_diff_reviewed_by_lead": true,
+  "current_local_bytes": 34314085,
+  "all_checks_passed": true,
+  "network_calls": 0,
+  "pod_creations": 0
+}

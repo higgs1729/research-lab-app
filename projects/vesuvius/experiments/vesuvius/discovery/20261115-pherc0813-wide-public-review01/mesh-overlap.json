@@ -1,0 +1,101 @@
+{
+  "receipts": [
+    {
+      "url": "https://raw.githubusercontent.com/pscamillo/vesuvius-eligible-meshes/0c966f8f11f92cffb09dbc6320a706161405ad0b/meshes/PHerc0813/z14304_w100/meta.json",
+      "path": "originals\\mesh\\meta.json",
+      "bytes": 4223,
+      "git_blob_sha1": "3d67de773083577261406631e55d863f89865811",
+      "sha256": "e9886dcda97f942ce4b263f6b4514234ed4fb8fa2d7d84844f5c374b7d0143e0",
+      "response_headers": {
+        "Content-Length": "4223",
+        "ETag": "\"d2563ad9ececaede915969a60341626841799d31b6f8b44a47928ccff5b275d2\"",
+        "Last-Modified": null
+      },
+      "seconds": 0.26759660000971053
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pscamillo/vesuvius-eligible-meshes/0c966f8f11f92cffb09dbc6320a706161405ad0b/meshes/PHerc0813/z14304_w100/x.tif",
+      "path": "originals\\mesh\\x.tif",
+      "bytes": 229796,
+      "git_blob_sha1": "ddb21a9a1cad7dd001d19cddefde3af89d82248b",
+      "sha256": "c68208f1d2285d1983d324000d9894fb390f6e4bbf1527e8b4b4ce7b6f3d7a59",
+      "response_headers": {
+        "Content-Length": "229796",
+        "ETag": "\"0fceaf502f10105daf5944805752e62005f688c3a2e0af725bf79f253f1d1a01\"",
+        "Last-Modified": null
+      },
+      "seconds": 0.29380959999980405
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pscamillo/vesuvius-eligible-meshes/0c966f8f11f92cffb09dbc6320a706161405ad0b/meshes/PHerc0813/z14304_w100/y.tif",
+      "path": "originals\\mesh\\y.tif",
+      "bytes": 229796,
+      "git_blob_sha1": "3a731b93048d7ae26a442646d9ba6c3d85bddb30",
+      "sha256": "73e34c09cc81e38b8e19364e4974155222a0fc3127e973f9b0a67208f3e0fd95",
+      "response_headers": {
+        "Content-Length": "229796",
+        "ETag": "\"e24f4cac4d985a2fc8d0e173413af8531fd5855876a91602ccac0cbaee21777f\"",
+        "Last-Modified": null
+      },
+      "seconds": 0.2800495999981649
+    },
+    {
+      "url": "https://raw.githubusercontent.com/pscamillo/vesuvius-eligible-meshes/0c966f8f11f92cffb09dbc6320a706161405ad0b/meshes/PHerc0813/z14304_w100/z.tif",
+      "path": "originals\\mesh\\z.tif",
+      "bytes": 229796,
+      "git_blob_sha1": "8ed2558c3d1e572137e32a1ea545f2f3b59274fa",
+      "sha256": "1f6ac013efe2f8794d9b507ade6691282ca35d831ba72208b45e9f6b93ce90c6",
+      "response_headers": {
+        "Content-Length": "229796",
+        "ETag": "\"2008170dd48f74a712e2115732e02f54ec59a165dfa1907e97bc0255f640c4df\"",
+        "Last-Modified": null
+      },
+      "seconds": 0.255533400006243
+    }
+  ],
+  "old_mesh": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0813-native-public-maps01\\originals\\mesh",
+  "xyz_node_shape": [
+    93,
+    617,
+    3
+  ],
+  "current_bbox_xyz": [
+    [
+      924.2401733398438,
+      1592.2847900390625,
+      14304.8310546875
+    ],
+    [
+      4890.9716796875,
+      5508.58935546875,
+      15103.3818359375
+    ]
+  ],
+  "r188_bbox_xyz": [
+    [
+      2955.15869140625,
+      3240.837158203125,
+      12498.8681640625
+    ],
+    [
+      3696.7646484375,
+      4205.828125,
+      13292.8642578125
+    ]
+  ],
+  "node_bbox_overlap_extent_xyz": [
+    741.60595703125,
+    964.990966796875,
+    0.0
+  ],
+  "node_bbox_separation_xyz": [
+    0.0,
+    0.0,
+    1011.966796875
+  ],
+  "scale_xy": [
+    0.05,
+    0.05
+  ],
+  "history_limit": "Bounding boxes of the published mesh nodes in their nominal coordinates."
+}

@@ -1,0 +1,33 @@
+{
+  "checked_utc": "2026-11-15T06:51:27.167557+00:00",
+  "plan_sha256": "344d38dde6dabf1825512c323d8cefebd3f7214cf08470fd1b710b66f283867c",
+  "saved_GPU_patches_verified": 20,
+  "full_output_values_checked": 1105920,
+  "main_values": 301056,
+  "independent_cosine_Hann_weight_max_delta": 4.172325134277344e-07,
+  "independent_reconstruction_max_delta": 2.119955432311471e-07,
+  "raw_uint8_exact": true,
+  "CPU_GPU_parity": [
+    {
+      "index": 0,
+      "maximum": 1.3113021850585938e-06,
+      "mean": 5.290914728561802e-08
+    },
+    {
+      "index": 9,
+      "maximum": 1.0132789611816406e-06,
+      "mean": 1.0455611487714123e-07
+    },
+    {
+      "index": 19,
+      "maximum": 1.4007091522216797e-06,
+      "mean": 5.2245113124627096e-08
+    }
+  ],
+  "score_main_range": [
+    0.21840918064117432,
+    0.8367111682891846
+  ],
+  "new_model_calls": 0,
+  "limits": "Numerical execution and stitching only; visual reading assessed separately."
+}

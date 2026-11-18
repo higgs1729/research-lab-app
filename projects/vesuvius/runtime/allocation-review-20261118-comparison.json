@@ -1,0 +1,17 @@
+{
+  "head_unchanged": {
+    "jinho": true,
+    "unmerge": true,
+    "gmdevi": true,
+    "1203": true
+  },
+  "release_metadata_unchanged": {
+    "jinho": true,
+    "unmerge": true
+  },
+  "ignored_release_fields": [
+    "download_count",
+    "author profile metadata"
+  ],
+  "new_data_or_compute": false
+}

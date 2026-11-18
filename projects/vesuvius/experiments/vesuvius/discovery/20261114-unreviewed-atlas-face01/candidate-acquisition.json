@@ -1,0 +1,101 @@
+{
+  "receipts": [
+    {
+      "url": "https://huggingface.co/api/datasets/SharpMeow/first-letters-ink-atlas/tree/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0125/kbh-PHerc0125_5409_5288_14587?recursive=true",
+      "output": "candidates/PHerc0125-tree.json",
+      "bytes": 17519,
+      "sha256": "1f597fac9a0117e4711c45dda30c9f83b59b49ed1828d916f8ef7747127e1cc8",
+      "http_status": 200,
+      "etag": "W/\"446f-KxWQo7p5u9x02sNSytp/ZwGasQ8\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T08:16:58.087425+00:00"
+    },
+    {
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0125/kbh-PHerc0125_5409_5288_14587/meta.json",
+      "output": "candidates/PHerc0125-meta.json",
+      "bytes": 23382,
+      "sha256": "86b0dc0b6bfeae7f8cfac128d5f5daa84bd3455648da143befbb6f434ce032f4",
+      "http_status": 200,
+      "etag": "\"bf47acdaee9246f9976dc07b7b8a610b6355194b\"",
+      "repo_commit": "ac5ffd7098120368216948c4e06c494bf8e67178",
+      "utc": "2026-11-14T08:16:58.467146+00:00"
+    },
+    {
+      "url": "https://scrollprize.org/data_browser/PHerc0125",
+      "output": "candidates/PHerc0125-official.html",
+      "bytes": 23287,
+      "sha256": "17d7b63b0a56e93c3733ebedd4170a3ecc54a2d57b135da64f4d13f52aa019de",
+      "http_status": 200,
+      "etag": null,
+      "repo_commit": null,
+      "utc": "2026-11-14T08:16:58.870121+00:00"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/SharpMeow/first-letters-ink-atlas/tree/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0191/kbh-PHerc0191_2707_2976_13281?recursive=true",
+      "output": "candidates/PHerc0191-tree.json",
+      "bytes": 17519,
+      "sha256": "2789d9d09d48ff4c99daa6c1b5f88217641ca062fc43b5ac0baa6fa615be25db",
+      "http_status": 200,
+      "etag": "W/\"446f-CG4W3bZFqNi2oksACGFrVkViFLE\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T08:16:59.101197+00:00"
+    },
+    {
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0191/kbh-PHerc0191_2707_2976_13281/meta.json",
+      "output": "candidates/PHerc0191-meta.json",
+      "bytes": 23256,
+      "sha256": "b8d1466a53780b3133137dba04328c6184f93898938eafbcdba6556bb30a11cf",
+      "http_status": 200,
+      "etag": "\"599fef246a375c22fda21604345e5ff32dfdf3fd\"",
+      "repo_commit": "ac5ffd7098120368216948c4e06c494bf8e67178",
+      "utc": "2026-11-14T08:16:59.477820+00:00"
+    },
+    {
+      "url": "https://scrollprize.org/data_browser/PHerc0191",
+      "output": "candidates/PHerc0191-official.html",
+      "bytes": 23287,
+      "sha256": "42bc30093f724359dbae7304c12aebe2a88faa270aa23836ec32b2a45f0a6d90",
+      "http_status": 200,
+      "etag": null,
+      "repo_commit": null,
+      "utc": "2026-11-14T08:16:59.729217+00:00"
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/SharpMeow/first-letters-ink-atlas/tree/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0257/kbh-PHerc0257_3904_6108_9436?recursive=true",
+      "output": "candidates/PHerc0257-tree.json",
+      "bytes": 17464,
+      "sha256": "1f27a8ba3780b23dbfa4c9abc65483bb99ea2c3d1f64d504e0989a455d980408",
+      "http_status": 200,
+      "etag": "W/\"4438-h6HVMks3q+QnOcmwzz/bctGxKMw\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T08:16:59.967578+00:00"
+    },
+    {
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0257/kbh-PHerc0257_3904_6108_9436/meta.json",
+      "output": "candidates/PHerc0257-meta.json",
+      "bytes": 23252,
+      "sha256": "03ac23f1eaec5d87533a0275d22c10ac7dd7386f3b53540efb0d5534acbf0e74",
+      "http_status": 200,
+      "etag": "\"c0c0cc7ac8be12516eb9cca2516892257879fa3d\"",
+      "repo_commit": "ac5ffd7098120368216948c4e06c494bf8e67178",
+      "utc": "2026-11-14T08:17:00.338483+00:00"
+    },
+    {
+      "url": "https://scrollprize.org/data_browser/PHerc0257",
+      "output": "candidates/PHerc0257-official.html",
+      "bytes": 23287,
+      "sha256": "6ac483213a624458a33e06cea72bd6f8aed4a6b58584dfa8e940e59967923194",
+      "http_status": 200,
+      "etag": null,
+      "repo_commit": null,
+      "utc": "2026-11-14T08:17:00.620461+00:00"
+    }
+  ],
+  "bytes": 192253,
+  "elapsed_seconds": 2.8791872000001604,
+  "cumulative_bytes": 192253,
+  "cumulative_seconds": 2.8791888000050676,
+  "new_ct_voxel_bytes": 0,
+  "new_model_calls": 0,
+  "cost_jpy": 0
+}

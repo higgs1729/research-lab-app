@@ -1,0 +1,15 @@
+{
+  "product_and_shared_sha256": {
+    "/home/tomoy/refinement-centered-window01/bin/vc_objrefine": "593a240d669c0ff088f89b4722b29df946a57581f77fcc29e2430b9f869a7505",
+    "/home/tomoy/refinement-centered-window01/ObjAlphaCompRefinement.cpp": "259963e1dad4686fcc181a1f0bce33eb999157780bfa0302f504b141f183d826",
+    "/home/tomoy/bundle-fixed-main-run01-pywin6ml/build/core/libvc_core.so": "4b414187f3bab2d2eebe988e8cc757d40492a20aa8211c7379a54438cb417b14",
+    "/home/tomoy/bundle-fixed-main-run01-pywin6ml/build/reader/libvc_reader_native.so": "e7125f4e0cb01f3ecd8564ef0217d47d2bf2f3fed7c342b5cbdb73276fa86da2"
+  },
+  "obj_sha256": "b498e97a8dcc0a85c53d02a6728c7ee1969d231f8010f78f8e38149f66458399",
+  "config_sha256": {
+    "corner": "72957b01778f3312d263fdd1c8ac936b1b8ea88b2c9e37b9625164701cf5f961",
+    "centered": "989945c33be3c4449f10d32399d7ec694efdeef89777eb15476ecb7d62a20de2",
+    "r0": "dade38d7bbea8552e1ef86da3125249048d82cab2ebc00175950ffad2c4895e6"
+  },
+  "support_plan_sha256": "cdc5326590c35aa14c88bce5b05a9fac745e09609b12c7934679269c1c6bf7f1"
+}

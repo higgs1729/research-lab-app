@@ -1,0 +1,169 @@
+{
+  "atlas_revision": "ac5ffd7098120368216948c4e06c494bf8e67178",
+  "inputs_root": "experiments/vesuvius/discovery",
+  "files": [
+    {
+      "id": "PHerc0343/kbh-POS_PHerc0343_erwin",
+      "role": "pre-mapped known-row positive control",
+      "volume": "20250521140437",
+      "spacing_um": 9.6,
+      "files": {
+        "ct": {
+          "path": "20261114-atlas-known-control01/originals/ct.png",
+          "bytes": 4947383,
+          "size_xy": [
+            6048,
+            2304
+          ],
+          "sha256": "1050da1a19ab63f73a9bc662132ea5088d041c70a04b382ccd87fd9252ef6547"
+        },
+        "reverse": {
+          "hecate": {
+            "path": "20261114-hecate-known-text-control01/assets/atlas-hecate-reverse.png",
+            "bytes": 2114372,
+            "size_xy": [
+              6048,
+              2304
+            ],
+            "sha256": "67795f34e27c0b7b974e8d84780df8ecdf14cff5dd7893bc3891f7dc7d678427"
+          },
+          "reader_v2": {
+            "planned_path": "originals/0343-reader-v2-reverse.png",
+            "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0343/kbh-POS_PHerc0343_erwin/maps/reader-v2/c%2B0_s1_reverse.png",
+            "bytes": 2084949,
+            "size_xy": [
+              6048,
+              2304
+            ],
+            "sha256": "88bfef9b090c2fc8af4f6aed6c7fa9c1346f28b7bbc333b930eef06663475c45",
+            "acquired_in_r210": false
+          }
+        }
+      }
+    },
+    {
+      "id": "PHerc0125/kbh-PHerc0125_5409_5288_14587",
+      "role": "prior no-ROI artifact stress; ink truth unknown",
+      "volume": "20250821151825",
+      "spacing_um": 9.6,
+      "files": {
+        "ct": {
+          "path": "20261114-unreviewed-atlas-face01/originals/ct-mid.png",
+          "bytes": 2547688,
+          "size_xy": [
+            2184,
+            2184
+          ],
+          "sha256": "f78edf5ff339297215a9dd655607213d8e654c8384c9fe5a5dd54881c0d6d9cd"
+        },
+        "forward": {
+          "hecate": {
+            "path": "20261114-unreviewed-atlas-face01/originals/hecate-9.6-forward.png",
+            "bytes": 808684,
+            "size_xy": [
+              2184,
+              2184
+            ],
+            "sha256": "7b2e88361f5b5797db05ee59c11ac092055c5f8c7b977cf074d393068a910c1c"
+          },
+          "reader_v2": {
+            "path": "20261114-unreviewed-atlas-face01/originals/reader-v2-forward.png",
+            "bytes": 936827,
+            "size_xy": [
+              2184,
+              2184
+            ],
+            "sha256": "b870a8e6c51ad455fcabc55ab12edf1b35e9448a4e82de9988ae9eba4fe6f193"
+          }
+        },
+        "reverse": {
+          "hecate": {
+            "path": "20261114-unreviewed-atlas-face01/originals/hecate-9.6-reverse.png",
+            "bytes": 787145,
+            "size_xy": [
+              2184,
+              2184
+            ],
+            "sha256": "e25cebebb05c7f4ded46c9f61310bb1a5fa24effc76507d922d883aa7e3b540c"
+          },
+          "reader_v2": {
+            "path": "20261114-unreviewed-atlas-face01/originals/reader-v2-reverse.png",
+            "bytes": 951602,
+            "size_xy": [
+              2184,
+              2184
+            ],
+            "sha256": "20a172b03ac3734116bce363ccb00f606b3a1240e7d754c2db81d12bd2b5b27c"
+          }
+        }
+      }
+    },
+    {
+      "id": "PHerc0175B/kbh-PHerc0175B_3024_3577_11121",
+      "role": "prior no-ROI artifact stress; ink truth unknown",
+      "volume": "20250521125822",
+      "spacing_um": 9.6,
+      "files": {
+        "ct": {
+          "path": "20261114-next-atlas-surface01/originals/ct-mid.png",
+          "bytes": 2322633,
+          "size_xy": [
+            2016,
+            2016
+          ],
+          "sha256": "bff953349da221cfdbc9777ed8293fb447897b9580ce0d4558e1ab759aa4a2ce"
+        },
+        "forward": {
+          "hecate": {
+            "path": "20261114-next-atlas-surface01/originals/hecate-9.6-forward.png",
+            "bytes": 465735,
+            "size_xy": [
+              2016,
+              2016
+            ],
+            "sha256": "10c153b09c790817ed4b2a72482af857662117c4e7f600d6dbc097b71cdf6083"
+          },
+          "reader_v2": {
+            "path": "20261114-next-atlas-surface01/originals/reader-v2-forward.png",
+            "bytes": 704169,
+            "size_xy": [
+              2016,
+              2016
+            ],
+            "sha256": "fd2157d1a191bd3b611676c71d4ccdf774bf6825ce3152a9ba18f9b8a3bf0db3"
+          }
+        },
+        "reverse": {
+          "hecate": {
+            "path": "20261114-next-atlas-surface01/originals/hecate-9.6-reverse.png",
+            "bytes": 466896,
+            "size_xy": [
+              2016,
+              2016
+            ],
+            "sha256": "8e6f4c383297bd4ba771c2a9fc22b1b144e895bc698230e7f1a6521219eed09b"
+          },
+          "reader_v2": {
+            "path": "20261114-next-atlas-surface01/originals/reader-v2-reverse.png",
+            "bytes": 715592,
+            "size_xy": [
+              2016,
+              2016
+            ],
+            "sha256": "7e49603a2e57bea1a7fe1761416f316cf568ae422284d537d6f94a8d460abbd3"
+          }
+        }
+      }
+    }
+  ],
+  "existing_box_coordinates": {
+    "path": "20261114-known-neighbour-selection01/concat_w047-w048_R5B2_z9500-11000_letter_boxes.json",
+    "sha256": "d431a5db05dccc811d2fbf5205c1c068c9121a46d7a676ef1967f4c192d3aad1",
+    "conversion": "Each raw box edge multiplied by 0.9; match in the native atlas edge coordinate frame.",
+    "count": 18,
+    "row_counts": {
+      "1": 13,
+      "2": 5
+    }
+  }
+}

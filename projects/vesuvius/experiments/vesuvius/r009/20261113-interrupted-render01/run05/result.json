@@ -1,0 +1,250 @@
+{
+  "normal_matches_r129_l0": true,
+  "stops": {
+    "after-l0-chunk": {
+      "snapshot_paths": [
+        ".zgroup",
+        "0/.zarray",
+        "0/0/0/0",
+        "1/.zarray",
+        "2/.zarray",
+        "3/.zarray",
+        "4/.zarray",
+        "5/.zarray"
+      ],
+      "restored_paths": [
+        ".zattrs",
+        ".zgroup",
+        "0/.zarray",
+        "0/0/0/0",
+        "1/.zarray",
+        "1/0/0/0",
+        "2/.zarray",
+        "2/0/0/0",
+        "3/.zarray",
+        "3/0/0/0",
+        "4/.zarray",
+        "4/0/0/0",
+        "5/.zarray",
+        "5/0/0/0"
+      ],
+      "preserved_files_sha_mtime_inode": [
+        ".zgroup",
+        "0/.zarray",
+        "0/0/0/0",
+        "1/.zarray",
+        "2/.zarray",
+        "3/.zarray",
+        "4/.zarray",
+        "5/.zarray"
+      ],
+      "inodes_before": {
+        ".zgroup": 3940649675536827,
+        "0/.zarray": 3659174698826173,
+        "0/0/0/0": 3659174698826176,
+        "1/.zarray": 3659174698826178,
+        "2/.zarray": 3659174698826180,
+        "3/.zarray": 3659174698826182,
+        "4/.zarray": 3659174698826184,
+        "5/.zarray": 3659174698826186
+      },
+      "inodes_after": {
+        ".zgroup": 3940649675536827,
+        "0/.zarray": 3659174698826173,
+        "0/0/0/0": 3659174698826176,
+        "1/.zarray": 3659174698826178,
+        "2/.zarray": 3659174698826180,
+        "3/.zarray": 3659174698826182,
+        "4/.zarray": 3659174698826184,
+        "5/.zarray": 3659174698826186
+      },
+      "identical_to_normal_files": 14,
+      "ome_paths": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "all_levels": {
+        "0": {
+          "shape": [
+            28,
+            64,
+            64
+          ],
+          "dtype": "|u1",
+          "decoded_bytes": 114688,
+          "decoded_sha256": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+        },
+        "1": {
+          "shape": [
+            28,
+            32,
+            32
+          ],
+          "dtype": "|u1",
+          "decoded_bytes": 28672,
+          "decoded_sha256": "633bca3ca715964251b13a00afd36158c60618f6fbcd6586223d4f80ea34eb75"
+        },
+        "2": {
+          "shape": [
+            28,
+            16,
+            16
+          ],
+          "dtype": "|u1",
+          "decoded_bytes": 7168,
+          "decoded_sha256": "b75666b6e69c7c83627a87a35dce52b82588f8bee2ae28b9717765c400de9cea"
+        },
+        "3": {
+          "shape": [
+            28,
+            8,
+            8
+          ],
+          "dtype": "|u1",
+          "decoded_bytes": 1792,
+          "decoded_sha256": "ce82c6b1a9e4a5693ae762e85c0bbc3c8ba4ad2c468c00c2c8bd3405dc710a34"
+        },
+        "4": {
+          "shape": [
+            28,
+            4,
+            4
+          ],
+          "dtype": "|u1",
+          "decoded_bytes": 448,
+          "decoded_sha256": "5534018884b48517474b8be0565b8328c278e4f70480d97eae27296501e23028"
+        },
+        "5": {
+          "shape": [
+            28,
+            2,
+            2
+          ],
+          "dtype": "|u1",
+          "decoded_bytes": 112,
+          "decoded_sha256": "d5fdbeb2526b403dbce5aa1da88a9b79f9f871fe41f9d93ef57efb5ac49bdf41"
+        }
+      }
+    },
+    "before-pyramid-arrays": {
+      "snapshot_paths": [
+        ".zgroup",
+        "0/.zarray"
+      ],
+      "restored_paths": [
+        ".zattrs",
+        ".zgroup",
+        "0/.zarray",
+        "0/0/0/0",
+        "1/.zarray",
+        "1/0/0/0",
+        "2/.zarray",
+        "2/0/0/0",
+        "3/.zarray",
+        "3/0/0/0",
+        "4/.zarray",
+        "4/0/0/0",
+        "5/.zarray",
+        "5/0/0/0"
+      ],
+      "preserved_files_sha_mtime_inode": [
+        ".zgroup",
+        "0/.zarray"
+      ],
+      "inodes_before": {
+        ".zgroup": 3940649675536872,
+        "0/.zarray": 3659174698826218
+      },
+      "inodes_after": {
+        ".zgroup": 3940649675536872,
+        "0/.zarray": 3659174698826218
+      },
+      "identical_to_normal_files": 14,
+      "ome_paths": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "all_levels": {
+        "0": {
+          "shape": [
+            28,
+            64,
+            64
+          ],
+          "dtype": "|u1",
+          "decoded_bytes": 114688,
+          "decoded_sha256": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+        },
+        "1": {
+          "shape": [
+            28,
+            32,
+            32
+          ],
+          "dtype": "|u1",
+          "decoded_bytes": 28672,
+          "decoded_sha256": "633bca3ca715964251b13a00afd36158c60618f6fbcd6586223d4f80ea34eb75"
+        },
+        "2": {
+          "shape": [
+            28,
+            16,
+            16
+          ],
+          "dtype": "|u1",
+          "decoded_bytes": 7168,
+          "decoded_sha256": "b75666b6e69c7c83627a87a35dce52b82588f8bee2ae28b9717765c400de9cea"
+        },
+        "3": {
+          "shape": [
+            28,
+            8,
+            8
+          ],
+          "dtype": "|u1",
+          "decoded_bytes": 1792,
+          "decoded_sha256": "ce82c6b1a9e4a5693ae762e85c0bbc3c8ba4ad2c468c00c2c8bd3405dc710a34"
+        },
+        "4": {
+          "shape": [
+            28,
+            4,
+            4
+          ],
+          "dtype": "|u1",
+          "decoded_bytes": 448,
+          "decoded_sha256": "5534018884b48517474b8be0565b8328c278e4f70480d97eae27296501e23028"
+        },
+        "5": {
+          "shape": [
+            28,
+            2,
+            2
+          ],
+          "dtype": "|u1",
+          "decoded_bytes": 112,
+          "decoded_sha256": "d5fdbeb2526b403dbce5aa1da88a9b79f9f871fe41f9d93ef57efb5ac49bdf41"
+        }
+      },
+      "old_resume": {
+        "exit": 1,
+        "failed_at": "L1 array open",
+        "L0_metadata_preserved": true,
+        "L0_chunk_equal": true,
+        "ome_paths": null
+      }
+    }
+  },
+  "new_download_bytes": 0,
+  "cloud_cost_jpy": 0,
+  "work_bytes_before_result": 575465,
+  "interruption_terminal_status": "GDB failed to collect native terminating signal; real tracing stops and unchanged output observed"
+}

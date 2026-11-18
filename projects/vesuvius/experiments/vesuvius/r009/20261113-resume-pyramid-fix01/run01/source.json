@@ -1,0 +1,20 @@
+{
+  "upstream_renderer_git_blob": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6",
+  "upstream_sha256": {
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp": "2d315d553b698943c15fad0021da3b75a5c1d5ebd03c005c1b66f3c16fe52798",
+    "vc_reader/src/cpp/zarr/pyramid.cpp": "cf5d55c99a203edb5b3db9e513b2ce27475b60c7ad48aedb9c7d2a3971710f68",
+    "vc_reader/include/vc_reader/zarr_write.hpp": "82b2df9d13eb43ab3c0c5c9b822c56f376af33852178d767ed0e925cce51a19b"
+  },
+  "fixed_sha256": {
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp": "f24d67855a9d4c8e5dc1a734245b1f9a6d202068f2b130b30d61c2dc7b9760f7",
+    "vc_reader/src/cpp/zarr/pyramid.cpp": "1d121c03941ab1b20a10d16cce4c3630cd00ebf85ef395ae795b99c779b8c0e6",
+    "vc_reader/include/vc_reader/zarr_write.hpp": "7e25215511819d5f4feb0dc9bfd4dc2aee4b4f68a3d7b67621a01abe4f2a4eca"
+  },
+  "patch_sha256": "92a703f53ca15787c2912ab9dbd9af18b98176b126b9a7aec9d3c77b2f81556d",
+  "R007_sha256": "91d92e7cd12b975c4cc8be16d7580ef55d3548a659be772c2cd92bd786a61ee7",
+  "combined_same_both_orders": {
+    "volume-cartographer/apps/src/vc_render_tifxyz.cpp": "6db7ca9e8774cce0bd88bd99911077ec809d5266ebf0c59ba11f94fb9a46948a",
+    "vc_reader/src/cpp/zarr/pyramid.cpp": "1d121c03941ab1b20a10d16cce4c3630cd00ebf85ef395ae795b99c779b8c0e6",
+    "vc_reader/include/vc_reader/zarr_write.hpp": "7e25215511819d5f4feb0dc9bfd4dc2aee4b4f68a3d7b67621a01abe4f2a4eca"
+  }
+}

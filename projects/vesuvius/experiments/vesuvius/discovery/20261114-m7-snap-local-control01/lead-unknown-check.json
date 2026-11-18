@@ -1,0 +1,175 @@
+{
+  "method": "Independent finite differences for every local node verify applied XYZ and mask against saved final offsets; known stage separately validated full offset algorithm and same upstream port is used. Independent Newton solve from cell centre validates each reported physical-ray root. This does not independently enumerate every possible cell root.",
+  "regions": 27,
+  "applied_local_core_nodes": 1728,
+  "XYZ_components_exact": 71820,
+  "physical_ray_roots_checked": 27,
+  "max_root_xyz_difference_voxel": 1.8189894035458565e-12,
+  "original18CT_images_hashes_unchanged": true,
+  "m7_objects_sha_checked": 121,
+  "checks": [
+    {
+      "site": "z11760-x256",
+      "face": "w052",
+      "xyz_error": 0.0,
+      "radial_delta": 1.8511642715079688
+    },
+    {
+      "site": "z11760-x256",
+      "face": "w053",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": 6.152588045113362
+    },
+    {
+      "site": "z11760-x256",
+      "face": "w054",
+      "xyz_error": 1.8189894035458565e-12,
+      "radial_delta": -3.4209110986191718
+    },
+    {
+      "site": "z11760-x1024",
+      "face": "w052",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": 1.7317610333859648
+    },
+    {
+      "site": "z11760-x1024",
+      "face": "w053",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": 6.02764144656112
+    },
+    {
+      "site": "z11760-x1024",
+      "face": "w054",
+      "xyz_error": 0.0,
+      "radial_delta": 6.168319103825979
+    },
+    {
+      "site": "z11760-x1792",
+      "face": "w052",
+      "xyz_error": 4.547473508864641e-13,
+      "radial_delta": -14.775620626647878
+    },
+    {
+      "site": "z11760-x1792",
+      "face": "w053",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": -13.743037030524647
+    },
+    {
+      "site": "z11760-x1792",
+      "face": "w054",
+      "xyz_error": 1.8189894035458565e-12,
+      "radial_delta": 22.657234407812894
+    },
+    {
+      "site": "z11952-x256",
+      "face": "w052",
+      "xyz_error": 0.0,
+      "radial_delta": 0.27951372189045287
+    },
+    {
+      "site": "z11952-x256",
+      "face": "w053",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": 0.11061818020391456
+    },
+    {
+      "site": "z11952-x256",
+      "face": "w054",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": 5.377285668051513
+    },
+    {
+      "site": "z11952-x1024",
+      "face": "w052",
+      "xyz_error": 1.8189894035458565e-12,
+      "radial_delta": 4.496389253684129
+    },
+    {
+      "site": "z11952-x1024",
+      "face": "w053",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": -2.2984476187129985
+    },
+    {
+      "site": "z11952-x1024",
+      "face": "w054",
+      "xyz_error": 1.8189894035458565e-12,
+      "radial_delta": -5.238506726567039
+    },
+    {
+      "site": "z11952-x1792",
+      "face": "w052",
+      "xyz_error": 4.547473508864641e-13,
+      "radial_delta": 0.7428444710299118
+    },
+    {
+      "site": "z11952-x1792",
+      "face": "w053",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": -0.015450531714122917
+    },
+    {
+      "site": "z11952-x1792",
+      "face": "w054",
+      "xyz_error": 1.8189894035458565e-12,
+      "radial_delta": -2.0156424700735442
+    },
+    {
+      "site": "z12240-x256",
+      "face": "w052",
+      "xyz_error": 1.8189894035458565e-12,
+      "radial_delta": 0.5493834271003379
+    },
+    {
+      "site": "z12240-x256",
+      "face": "w053",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": -1.7085818830706785
+    },
+    {
+      "site": "z12240-x256",
+      "face": "w054",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": -2.317790153813462
+    },
+    {
+      "site": "z12240-x1024",
+      "face": "w052",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": 2.157587182458883
+    },
+    {
+      "site": "z12240-x1024",
+      "face": "w053",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": 2.5330163174678546
+    },
+    {
+      "site": "z12240-x1024",
+      "face": "w054",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": 2.0241457897286637
+    },
+    {
+      "site": "z12240-x1792",
+      "face": "w052",
+      "xyz_error": 1.8189894035458565e-12,
+      "radial_delta": 4.327697358028672
+    },
+    {
+      "site": "z12240-x1792",
+      "face": "w053",
+      "xyz_error": 1.8189894035458565e-12,
+      "radial_delta": -1.4933405435056102
+    },
+    {
+      "site": "z12240-x1792",
+      "face": "w054",
+      "xyz_error": 9.094947017729282e-13,
+      "radial_delta": 1.143945826437971
+    }
+  ],
+  "new_CT_models_network": 0
+}

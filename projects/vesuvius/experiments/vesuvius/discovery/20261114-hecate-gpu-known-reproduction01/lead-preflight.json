@@ -1,0 +1,21 @@
+{
+  "reviewer": "root",
+  "model_forward_calls": 0,
+  "new_network_bytes": 0,
+  "source": "R191 registered sources",
+  "exact_delta": {
+    "preflight.py": "own job name only",
+    "supervise.py": "entry120\u21921800 and outer780\u21922460 only",
+    "run_gpu.py": "byte-equivalent",
+    "compare.py": "byte-equivalent"
+  },
+  "source_asset_and_cpu_reference_contracts_unchanged": true,
+  "cuda_environment_matches_191": true,
+  "wrapper_hashes": {
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-gpu-known-reproduction01\\preflight.py": "4ce0af24dc88cc687279b75c84bdc5bd70214b13bf2a582815a3f57357bf3276",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-gpu-known-reproduction01\\supervise.py": "b2585e69057d2af8d66c212952a255cdeab62caf32538b1f02481c3dec7b9814",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-gpu-known-reproduction01\\run_gpu.py": "7af2c6ca2e00dfe29c13eeb1c4c24471c55be936a2da2bc4226010f5d642c044",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-gpu-known-reproduction01\\compare.py": "bd70b804b8676095d20761ec85728503b4b7d5cef38ec7b73d5cb9598824c040"
+  },
+  "decision": "Proceed with one FIFO admission; model cap600 and all numerical/resource conditions unchanged."
+}

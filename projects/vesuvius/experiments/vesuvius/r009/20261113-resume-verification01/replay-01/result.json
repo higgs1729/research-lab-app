@@ -1,0 +1,19 @@
+{
+  "output": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-resume-verification01/replay-01/partial.zarr",
+  "files_match_saved_mixed_output": 15,
+  "created_levels": [
+    2,
+    4,
+    5
+  ],
+  "existing_sha_and_mtime_match": [
+    "0/.zarray",
+    "0/0.0.0",
+    "1/.zarray",
+    "1/.zattrs",
+    "3/.zarray"
+  ],
+  "output_bytes": 2017186,
+  "new_ct_bytes": 0,
+  "new_cloud_cost_jpy": 0
+}

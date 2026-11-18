@@ -1,0 +1,56 @@
+{
+  "passes": true,
+  "network_calls": 0,
+  "model_forwards": 0,
+  "archive_member_count": 17,
+  "science_input_and_R230_capture_unchanged": true,
+  "create_data_center_ids": [
+    "CA-MTL-1"
+  ],
+  "outside_center_rejected": true,
+  "expired_600_second_readiness_contacts_provider": false,
+  "short_budget_mock_forecast": {
+    "completed": 3,
+    "forecast_epoch": 1001100,
+    "estimated_remaining_s": 525,
+    "deadline_remaining_s": 880,
+    "actual_model_deadline_remaining_at_forecast_s": 520,
+    "exceeds_actual_deadline": true,
+    "outcome": "sigint_sent"
+  },
+  "precreate_to_absolute_delete_seconds": 1800,
+  "examples": [
+    {
+      "ready_offset_seconds": 0,
+      "transfer_end_offset_seconds": 480,
+      "model_end_offset_seconds": 1380,
+      "model_seconds_if_full_transfer_used": 900,
+      "collection_end_offset_seconds": 1500,
+      "seconds_remaining_for_cleanup": 300
+    },
+    {
+      "ready_offset_seconds": 120,
+      "transfer_end_offset_seconds": 600,
+      "model_end_offset_seconds": 1500,
+      "model_seconds_if_full_transfer_used": 900,
+      "collection_end_offset_seconds": 1620,
+      "seconds_remaining_for_cleanup": 180
+    },
+    {
+      "ready_offset_seconds": 240,
+      "transfer_end_offset_seconds": 720,
+      "model_end_offset_seconds": 1620,
+      "model_seconds_if_full_transfer_used": 900,
+      "collection_end_offset_seconds": 1740,
+      "seconds_remaining_for_cleanup": 60
+    },
+    {
+      "ready_offset_seconds": 600,
+      "transfer_end_offset_seconds": 1080,
+      "model_end_offset_seconds": 1620,
+      "model_seconds_if_full_transfer_used": 540,
+      "collection_end_offset_seconds": 1740,
+      "seconds_remaining_for_cleanup": 60
+    }
+  ]
+}

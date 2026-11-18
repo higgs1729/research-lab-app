@@ -1,0 +1,40 @@
+{
+  "new_saved_http_body_bytes": 16080613,
+  "http_body_bytes_by_phase": {
+    "small_source_metadata": 281055,
+    "mesh_xyz_and_meta": 693611,
+    "seed43_prediction_pair_and_mask": 15105947
+  },
+  "elapsed_seconds_by_local_phase": {
+    "freeze-process.json": 0.19716900000639725,
+    "mesh-process.json": 1.2809477999981027,
+    "acquisition-process.json": 5.855075200001011,
+    "review-process.json": 3.9037510999914957,
+    "observation-context-process.json": 0.40512900000612717
+  },
+  "max_rss_bytes_by_local_phase": {
+    "freeze-process.json": 40120320,
+    "mesh-process.json": 55341056,
+    "acquisition-process.json": 60743680,
+    "review-process.json": 189009920,
+    "observation-context-process.json": 138379264
+  },
+  "seconds_sum_of_local_logged_phases": 11.642072100003134,
+  "timing_limit_note": "The small metadata curl calls and human/model review are outside the summed local phases. This is not protocol-inclusive network traffic.",
+  "first_saved_metadata_utc": "2026-11-15T06:11:50.187682Z",
+  "last_saved_prediction_or_mask_utc": "2026-11-15T06:13:49.338465Z",
+  "cpu_count_each_local_process": 1,
+  "commit_limit_bytes_each_local_process": 4294967296,
+  "experiment_directory_bytes_before_resource_record_and_manifest": 38725003,
+  "c_free_bytes_at_finalize": 15984484352,
+  "writes_to_d": 0,
+  "new_ct_3d_bytes": 0,
+  "new_surface_tar_bytes": 0,
+  "new_checkpoint_bytes": 0,
+  "new_model_forwards": 0,
+  "gpu_jobs": 0,
+  "paid_cloud_instances": 0,
+  "cloud_cost_usd": 0,
+  "external_submission_or_message": 0,
+  "local_electricity_cost_measured": false
+}

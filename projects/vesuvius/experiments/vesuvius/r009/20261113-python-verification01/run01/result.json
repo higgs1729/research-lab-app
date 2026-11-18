@@ -1,0 +1,30 @@
+{
+  "replay_passed": true,
+  "real_wrapper_imported": "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/source/vc_reader/src/vc_reader/reader/writer.py",
+  "real_native_sha256": "0f9f580c7ab68918b2ad1d8ef54535938d71736e701ee674fb1c157eb0e91cef",
+  "real_catalog_sha256": "5cc8615c17d0414afb94ed1c79d8e1202bd2fd17c60409d6394d8bca9d0b9ab5",
+  "independent_level0_gzip_values": {
+    "chunks": 4,
+    "pixels": 64,
+    "all_equal": 17
+  },
+  "independent_level1_raw_values": {
+    "chunks": 1,
+    "pixels": 16,
+    "all_equal": 9
+  },
+  "existing_file_sha_and_mtime_preserved": true,
+  "missing_level2_metadata_created": true,
+  "original_four_argument_native_call_passed": true,
+  "added_test_function_passed": {
+    "function": "test_create_pyramid_levels_preserves_existing_arrays",
+    "ast_sha256": "30f7c1eab653617aa7eb686a26e300cdb6af2595ee5da0ca8a92a51bc5c261c7",
+    "source_sha256": "4257a0f061f283e025f940ae63a05e7d995855df2f99befb16e2a405cae2dd14"
+  },
+  "verify_script_sha256": "16f510afc61029d71fdc76c67e203640dfe2d0747cfeb447f92d3dff9838b8fb",
+  "C_bytes_before_final_report": 17968,
+  "full_package_initializers_executed": false,
+  "additional_cloud_cost_jpy": 0,
+  "new_CT_bytes": 0,
+  "new_dependency_bytes": 0
+}

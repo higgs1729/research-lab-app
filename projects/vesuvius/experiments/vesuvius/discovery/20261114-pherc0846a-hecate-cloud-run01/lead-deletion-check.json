@@ -1,0 +1,13 @@
+{
+  "reviewer": "root",
+  "recorded_utc": "2026-11-14T11:36:18.766878+00:00",
+  "source": "Independent authenticated API reads in root tool call after the controller cleanup",
+  "pod_id": "pqgmm8obc1rojl",
+  "name": "r201-hecate-3c44b0a6d15cf04c",
+  "id_get_status": 404,
+  "name_matches_in_list": 0,
+  "total_pods_in_list": 0,
+  "pagination_has_more": false,
+  "resource_mutations_by_root": 0,
+  "billing_not_yet_final": true
+}

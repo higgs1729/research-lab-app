@@ -1,0 +1,20 @@
+{
+  "observer": "R247 gpt-6-astra / xhigh",
+  "observed_date_jst": "2026-11-16",
+  "source_commit": "34011216020f5bdb3070f5693f0e2721616e1c28",
+  "display": "Original downloaded author PNGs displayed directly, without our crop, recoloring, rotation or resampling. These are author composites, not raw native probability maps.",
+  "parent_handoff": "Original image paths sent before this observation; parent judgement not received at time of recording.",
+  "images": [
+    {
+      "path": "originals/jinho-hazard-ab.png",
+      "observation": "s0 has fine curved and tangled texture across both arms. s1 and s3 have broad black missing regions and comb-like boundaries, with the extent and outline changing between arms. Increased extent does not visually establish a single coherent sheet.",
+      "interpretation_limit": "No numerical geometry or physical sheet claim is independently validated by this figure."
+    },
+    {
+      "path": "originals/jinho-ink-demo.png",
+      "observation": "Four forward maps show broad diffuse bright masses along the upper, right and lower-left boundaries and near the central dark cut. The positions and widths vary between checkpoints. The conspicuous central enclosed dark feature is already present in the CT display. I cannot nominate a finite stroke or row ROI from the displayed response.",
+      "selected_roi": null,
+      "interpretation_limit": "Only this composite was observed, not all native pixels or reverse maps. No claim of absent ink, absent letters in the original probabilities, or an anatomically wrong sheet."
+    }
+  ]
+}

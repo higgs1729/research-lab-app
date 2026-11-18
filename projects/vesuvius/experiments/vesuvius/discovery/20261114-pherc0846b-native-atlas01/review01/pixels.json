@@ -1,0 +1,912 @@
+{
+  "canvas_wh": [
+    2184,
+    2184
+  ],
+  "canvas_um_per_pixel": 9.6,
+  "origin": "top left, zero-based X column and Y row; all rectangles half-open",
+  "native_display": "all seven images, unmodified uint8 0-255, no inversion or registration",
+  "overview_display": "same box-area reduction 1:7 for all seven images, fixed gray 0-255",
+  "layout": "CT left/top, forward top, reverse bottom, Hecate / Reader V3 / seed42 left to right after CT",
+  "inputs": {
+    "ct-mid": {
+      "source": {
+        "path": "ct_mid.png",
+        "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/ct_mid.png",
+        "output": "originals/ct-mid.png",
+        "bytes": 2706889,
+        "lfs_sha256": "cc52e9e84ecaee3f7ff5ced9f600fb87f5c89bb29f891c1286507f2a2ba1a6de"
+      },
+      "wh": [
+        2184,
+        2184
+      ],
+      "dtype": "uint8",
+      "gray_min_max": [
+        0,
+        255
+      ],
+      "count_zero": 497367,
+      "count_255": 1810,
+      "nonzero_xyxy_exclusive": [
+        49,
+        49,
+        2116,
+        2116
+      ]
+    },
+    "hecate-9.6-forward": {
+      "source": {
+        "path": "maps/hecate-9.6/c+0_s1_forward.png",
+        "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/maps/hecate-9.6/c%2B0_s1_forward.png",
+        "output": "originals/hecate-9.6-forward.png",
+        "bytes": 221617,
+        "lfs_sha256": "53313354079176fdd486f9aa327fbaaace16c1c45b0604dc0ce7f3a880720487"
+      },
+      "wh": [
+        2184,
+        2184
+      ],
+      "dtype": "uint8",
+      "gray_min_max": [
+        0,
+        249
+      ],
+      "count_zero": 4378026,
+      "count_255": 0,
+      "nonzero_xyxy_exclusive": [
+        49,
+        49,
+        2116,
+        2116
+      ]
+    },
+    "hecate-9.6-reverse": {
+      "source": {
+        "path": "maps/hecate-9.6/c+0_s1_reverse.png",
+        "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/maps/hecate-9.6/c%2B0_s1_reverse.png",
+        "output": "originals/hecate-9.6-reverse.png",
+        "bytes": 203721,
+        "lfs_sha256": "8379a080c3f15c6cf53e3b17c5cd8bf995a06a34a600b32d3f3ddfb231c7e601"
+      },
+      "wh": [
+        2184,
+        2184
+      ],
+      "dtype": "uint8",
+      "gray_min_max": [
+        0,
+        255
+      ],
+      "count_zero": 4409177,
+      "count_255": 15,
+      "nonzero_xyxy_exclusive": [
+        49,
+        49,
+        2116,
+        2116
+      ]
+    },
+    "reader-v3-forward": {
+      "source": {
+        "path": "maps/reader-v3/c+0_s1_forward.png",
+        "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/maps/reader-v3/c%2B0_s1_forward.png",
+        "output": "originals/reader-v3-forward.png",
+        "bytes": 798646,
+        "lfs_sha256": "3916b878e1b881384929c579b3afb67e8a39e22707884f68ee9f66506b6b2e0c"
+      },
+      "wh": [
+        2184,
+        2184
+      ],
+      "dtype": "uint8",
+      "gray_min_max": [
+        55,
+        182
+      ],
+      "count_zero": 0,
+      "count_255": 0,
+      "nonzero_xyxy_exclusive": [
+        0,
+        0,
+        2184,
+        2184
+      ]
+    },
+    "reader-v3-reverse": {
+      "source": {
+        "path": "maps/reader-v3/c+0_s1_reverse.png",
+        "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/maps/reader-v3/c%2B0_s1_reverse.png",
+        "output": "originals/reader-v3-reverse.png",
+        "bytes": 807632,
+        "lfs_sha256": "85b6490be83baa13ff73657cc3c5a5d84c0596eb11087c93aaa2fb998fd12a50"
+      },
+      "wh": [
+        2184,
+        2184
+      ],
+      "dtype": "uint8",
+      "gray_min_max": [
+        55,
+        190
+      ],
+      "count_zero": 0,
+      "count_255": 0,
+      "nonzero_xyxy_exclusive": [
+        0,
+        0,
+        2184,
+        2184
+      ]
+    },
+    "ink_9um-s42-forward": {
+      "source": {
+        "path": "maps/ink_9um-s42/c+0_s1_forward.png",
+        "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/maps/ink_9um-s42/c%2B0_s1_forward.png",
+        "output": "originals/ink_9um-s42-forward.png",
+        "bytes": 1686636,
+        "lfs_sha256": "239208d3c24399ebd2e56ce2f42d0253b231e08ef2851d5759004fd7681648e9"
+      },
+      "wh": [
+        2184,
+        2184
+      ],
+      "dtype": "uint8",
+      "gray_min_max": [
+        52,
+        216
+      ],
+      "count_zero": 0,
+      "count_255": 0,
+      "nonzero_xyxy_exclusive": [
+        0,
+        0,
+        2184,
+        2184
+      ]
+    },
+    "ink_9um-s42-reverse": {
+      "source": {
+        "path": "maps/ink_9um-s42/c+0_s1_reverse.png",
+        "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0846B/kbh-PHerc0846B_2768_2813_9748/maps/ink_9um-s42/c%2B0_s1_reverse.png",
+        "output": "originals/ink_9um-s42-reverse.png",
+        "bytes": 1690198,
+        "lfs_sha256": "e2109a5dfcaaf520a7fe8c90a0367a5e62589e09882b442fef7fb7e387372cfd"
+      },
+      "wh": [
+        2184,
+        2184
+      ],
+      "dtype": "uint8",
+      "gray_min_max": [
+        53,
+        207
+      ],
+      "count_zero": 0,
+      "count_255": 0,
+      "nonzero_xyxy_exclusive": [
+        0,
+        0,
+        2184,
+        2184
+      ]
+    }
+  },
+  "overview": {
+    "xyxy_exclusive": [
+      0,
+      0,
+      2184,
+      2184
+    ],
+    "display_wh": [
+      312,
+      312
+    ],
+    "panel_origins_xy": {
+      "ct-mid": [
+        0,
+        22
+      ],
+      "hecate-9.6-forward": [
+        316,
+        22
+      ],
+      "reader-v3-forward": [
+        632,
+        22
+      ],
+      "ink_9um-s42-forward": [
+        948,
+        22
+      ],
+      "hecate-9.6-reverse": [
+        316,
+        360
+      ],
+      "reader-v3-reverse": [
+        632,
+        360
+      ],
+      "ink_9um-s42-reverse": [
+        948,
+        360
+      ]
+    }
+  },
+  "native_tiles": {
+    "native-tiles/x0000-y0000.png": {
+      "xyxy_exclusive": [
+        0,
+        0,
+        546,
+        546
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x0546-y0000.png": {
+      "xyxy_exclusive": [
+        546,
+        0,
+        1092,
+        546
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x1092-y0000.png": {
+      "xyxy_exclusive": [
+        1092,
+        0,
+        1638,
+        546
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x1638-y0000.png": {
+      "xyxy_exclusive": [
+        1638,
+        0,
+        2184,
+        546
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x0000-y0546.png": {
+      "xyxy_exclusive": [
+        0,
+        546,
+        546,
+        1092
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x0546-y0546.png": {
+      "xyxy_exclusive": [
+        546,
+        546,
+        1092,
+        1092
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x1092-y0546.png": {
+      "xyxy_exclusive": [
+        1092,
+        546,
+        1638,
+        1092
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x1638-y0546.png": {
+      "xyxy_exclusive": [
+        1638,
+        546,
+        2184,
+        1092
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x0000-y1092.png": {
+      "xyxy_exclusive": [
+        0,
+        1092,
+        546,
+        1638
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x0546-y1092.png": {
+      "xyxy_exclusive": [
+        546,
+        1092,
+        1092,
+        1638
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x1092-y1092.png": {
+      "xyxy_exclusive": [
+        1092,
+        1092,
+        1638,
+        1638
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x1638-y1092.png": {
+      "xyxy_exclusive": [
+        1638,
+        1092,
+        2184,
+        1638
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x0000-y1638.png": {
+      "xyxy_exclusive": [
+        0,
+        1638,
+        546,
+        2184
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x0546-y1638.png": {
+      "xyxy_exclusive": [
+        546,
+        1638,
+        1092,
+        2184
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x1092-y1638.png": {
+      "xyxy_exclusive": [
+        1092,
+        1638,
+        1638,
+        2184
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    },
+    "native-tiles/x1638-y1638.png": {
+      "xyxy_exclusive": [
+        1638,
+        1638,
+        2184,
+        2184
+      ],
+      "display_wh": [
+        546,
+        546
+      ],
+      "panel_origins_xy": {
+        "ct-mid": [
+          0,
+          22
+        ],
+        "hecate-9.6-forward": [
+          550,
+          22
+        ],
+        "reader-v3-forward": [
+          1100,
+          22
+        ],
+        "ink_9um-s42-forward": [
+          1650,
+          22
+        ],
+        "hecate-9.6-reverse": [
+          550,
+          594
+        ],
+        "reader-v3-reverse": [
+          1100,
+          594
+        ],
+        "ink_9um-s42-reverse": [
+          1650,
+          594
+        ]
+      }
+    }
+  },
+  "native_panels_compared": 112
+}

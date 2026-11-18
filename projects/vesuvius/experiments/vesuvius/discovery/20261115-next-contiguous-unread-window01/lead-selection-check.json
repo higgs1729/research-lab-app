@@ -1,0 +1,53 @@
+{
+  "utc": "2026-11-14T17:08:27.289070+00:00",
+  "same_chart_target_crop_overlap_pixels": 0,
+  "all_mask_values_equal": 1048576,
+  "main_geometric_support": 782112,
+  "main_support_outside_actual_prior_crop_boxes_plus32": 570456,
+  "both_supports_one_connected_component": true,
+  "prior_actual_crop_boxes": {
+    "6": [
+      [
+        3167.071533203125,
+        6055.4365234375,
+        11777.4091796875
+      ],
+      [
+        3602.00732421875,
+        6581.57958984375,
+        12311.3330078125
+      ]
+    ],
+    "4": [
+      [
+        3244.845458984375,
+        5772.78466796875,
+        10887.6015625
+      ],
+      [
+        4054.923828125,
+        6639.5888671875,
+        11604.8291015625
+      ]
+    ],
+    "5": [
+      [
+        2939.611328125,
+        5880.783203125,
+        12544.3125
+      ],
+      [
+        3552.097412109375,
+        6814.9296875,
+        13204.107421875
+      ]
+    ]
+  },
+  "new_ranges": 79,
+  "cached_full_objects": 4,
+  "native_preview_pixels_exact": 1297321,
+  "all_four_quadrants_exact": true,
+  "parent_visual_observation": "Parent viewed all four native quadrants: upper/lower left have triangular support edges and transverse cracks; both right quadrants retain extensive crossed fibre bands with local dark patches and bright particles. Accept as one exploratory wider central window, not certified physical lamina or recovered text.",
+  "selection_limits": "80% geometric/70% box-disjoint search filters are coverage heuristics, not calibrated ink sensitivity or paper-quality metrics. Box overlap does not mean already observed;570456 is a conservative planning proxy, not novel readable paper area.",
+  "new_model_cloud_or_network_calls": 0
+}

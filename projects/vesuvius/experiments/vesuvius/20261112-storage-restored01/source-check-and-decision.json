@@ -1,0 +1,50 @@
+{
+  "utc": "2026-11-12T12:42:38.328983+00:00",
+  "passed": true,
+  "initial_valid_paths": 308,
+  "compiled_source_paths": 6,
+  "explanation": "Initial check accidentally treated source_sha256 compilation-unit labels as file paths. All 308 actual paths matched. These six compile-source paths are now resolved from -c arguments and matched. No actual missing file or hash mismatch found.",
+  "source_files": {
+    "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp": {
+      "unit": "grid/grid.cpp",
+      "expected": "d097106b25ffb64ce33fb4c369b73a6533054012379b831d2497860f330d054d",
+      "actual": "d097106b25ffb64ce33fb4c369b73a6533054012379b831d2497860f330d054d",
+      "match": true
+    },
+    "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/cache.cpp": {
+      "unit": "cache.cpp",
+      "expected": "c8488b2e2fd61db233657317756e9f74b4a0d92181e517875c0430ee87efb8a3",
+      "actual": "c8488b2e2fd61db233657317756e9f74b4a0d92181e517875c0430ee87efb8a3",
+      "match": true
+    },
+    "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/zarr/open.cpp": {
+      "unit": "zarr/open.cpp",
+      "expected": "3ce5f8eeb8795f5b62d5f7f83b3ae0a92317b5855f487f1dffdc14b554d7238e",
+      "actual": "3ce5f8eeb8795f5b62d5f7f83b3ae0a92317b5855f487f1dffdc14b554d7238e",
+      "match": true
+    },
+    "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/display/display.cpp": {
+      "unit": "display/display.cpp",
+      "expected": "f3309c511327a9eb3a73342c4d00f10f727b9c3ca5332450171e60f603c85837",
+      "actual": "f3309c511327a9eb3a73342c4d00f10f727b9c3ca5332450171e60f603c85837",
+      "match": true
+    },
+    "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/sources/image_write.cpp": {
+      "unit": "sources/image_write.cpp",
+      "expected": "78a62470161f9d450a3408b5a9dace922e0d6f736e3e144388484445fa61f343",
+      "actual": "78a62470161f9d450a3408b5a9dace922e0d6f736e3e144388484445fa61f343",
+      "match": true
+    },
+    "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/vc_render_tifxyz.cpp": {
+      "unit": "renderer",
+      "expected": "067f447b5557616eb3a735e91adaa1ca935cdde1f6245fca113622a899838dbb",
+      "actual": "067f447b5557616eb3a735e91adaa1ca935cdde1f6245fca113622a899838dbb",
+      "match": true
+    }
+  },
+  "windows_disk": "Samsung PSSD T7 online/healthy",
+  "windows_volume": "D exFAT Warning / Full Repair Needed; fsutil dirty query confirms dirty",
+  "wsl_mount": "D: via 9p at /mnt/d; distribution Ubuntu",
+  "run02_exists": false,
+  "decision": "Resume using new C: run02 work/output. D: is input-only. Do not run filesystem repair or create D: outputs. Fixed experiment conditions unchanged; filesystem relocation recorded."
+}

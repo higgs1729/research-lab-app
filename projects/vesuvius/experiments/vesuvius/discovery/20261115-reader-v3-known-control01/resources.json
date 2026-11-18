@@ -1,0 +1,51 @@
+{
+  "checked_utc": "2026-11-15T06:54:59.434065+00:00",
+  "additional_cloud_cost_USD": 0,
+  "cloud_pods_started": 0,
+  "initial_download_metadata_and_git_bytes": 53481,
+  "acquisition_wall_seconds": 52.9713502000086,
+  "new_payload_received_bytes": 315538718,
+  "ct_reused_bytes": 109051904,
+  "new_CT_bytes": 174063616,
+  "native_render_calls": 1,
+  "native_render_seconds": 8.149901603,
+  "native_render_peak_rss_bytes": 363769856,
+  "cpu_reference_forward_calls": 3,
+  "cpu_reference_seconds": 16.730840400006855,
+  "cpu_reference_peak_rss_bytes": 1065504768,
+  "gpu_model_passes": 1,
+  "gpu_patch_forwards": 20,
+  "gpu_model_wall_seconds": 37.34517999998934,
+  "gpu_loop_wall_seconds": 27.473901999997906,
+  "gpu_supervisor_wall_seconds": 43.36563339999702,
+  "gpu_peak_reserved_bytes": 664797184,
+  "gpu_peak_allocated_bytes": 492541440,
+  "gpu_peak_RSS_bytes": 1273528320,
+  "gpu_min_vram_free_bytes": 6732906496,
+  "gpu_min_ram_free_bytes": 10986369024,
+  "owned_gpu_jobs_remaining": 0,
+  "gpu_pids_exited": [
+    29124,
+    54032
+  ],
+  "GPU_FIFO_release": {
+    "requested_utc": "2026-11-15T06:49:53.294907+00:00",
+    "observed_utc": "2026-11-15T06:50:01.284311+00:00",
+    "vram_total_gib": 8.0,
+    "vram_used_gib": 1.35,
+    "available_physical_bytes": 12346552320,
+    "c_free_bytes": 14909579264,
+    "lane_available_ram_gib": 11.5,
+    "margins": {
+      "vram_gb": 1.0,
+      "mem_gb": 4.0
+    },
+    "jobs": [],
+    "tickets": [],
+    "reservation": null,
+    "comfy_running": false,
+    "gpu_stuck": null
+  },
+  "new_unknown_face_forward_calls": 0,
+  "isolated_dependencies_written": true
+}

@@ -1,0 +1,24 @@
+{
+  "reviewer": "root",
+  "date_jst": "2026-11-14",
+  "sources_read": ["originals/pscamillo-hf-readme.md", "originals/pscamillo-hf-PHerc0813-tree.json", "originals/pscamillo-mesh-index.csv", "originals/pscamillo-mesh-method.md"],
+  "checks": {
+    "hf_fixed_revision": "dd968475bca14ccfbfd7b06cc6ba87723bb25642",
+    "mesh_index_fixed_revision": "620769e2e1e70d1e61b588092229cb76d3af4804",
+    "target": "PHerc0813/z12496_w020",
+    "index_visual_gate": "aprova",
+    "index_area_cm2": 1.73,
+    "example_w100_visual_gate": "reprova",
+    "prediction_sizes_bytes": [1135632,1300494],
+    "prediction_total_bytes": 2436126,
+    "checkpoint_as_reported": "hybrid_3d2d-seed43/step-060000",
+    "render_as_reported": "scale1, L0,31 layers,step1,without flip-normals",
+    "model_layers_as_reported": "7:24",
+    "direction_correction": "_reverse suffix corresponds to the team's forward convention; unsuffixed corresponds to reverse",
+    "publisher_text_screen": "No example in the distributed collection passed the author's own text screening"
+  },
+  "decision": "Accept one bounded next study of this distinct public surface, beginning with its existing continuous predictions and exact mesh/canvas mapping. No CT acquisition justified yet. Source statements about matching grids are not a verified equality between prediction pixels and XYZ control nodes.",
+  "scope": "Independent reading of saved primary sources and three processed cards. Native TIFF bodies, target XYZ, actual dimensions, physical sheet identity, readable letters and training-coordinate exclusions are not verified. The 4 cm2 prize condition is a bounding area, not a minimum required surface size.",
+  "new_network_bytes": 0,
+  "new_model_calls": 0
+}

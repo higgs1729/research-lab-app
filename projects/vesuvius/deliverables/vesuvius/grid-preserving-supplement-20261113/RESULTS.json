@@ -1,0 +1,187 @@
+{
+  "flatboi_settings": {
+    "keep_percent": 100,
+    "slim_iterations": 5,
+    "one_cpu": true,
+    "address_space_limit_bytes": 4294967296
+  },
+  "R151_two_PHerc0814_surfaces": {
+    "first": {
+      "shape_yx": [
+        172,
+        683
+      ],
+      "source_shape_yx": [
+        172,
+        553
+      ],
+      "components": 5,
+      "scale": [
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "old_owners_preserved_xyz_bits": 40944,
+      "new_owners_weights_and_xyz_match_bits": 41133,
+      "same_rejects_before": 1,
+      "same_rejects_after": 1,
+      "cross_rejects_before": 189,
+      "cross_rejects_after": 0,
+      "mixed_edges": 0,
+      "mixed_quads": 0,
+      "exposed_points": 189
+    },
+    "second": {
+      "shape_yx": [
+        252,
+        3033
+      ],
+      "source_shape_yx": [
+        252,
+        2637
+      ],
+      "components": 9,
+      "scale": [
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "old_owners_preserved_xyz_bits": 254263,
+      "new_owners_weights_and_xyz_match_bits": 254662,
+      "same_rejects_before": 358,
+      "same_rejects_after": 358,
+      "cross_rejects_before": 399,
+      "cross_rejects_after": 0,
+      "mixed_edges": 0,
+      "mixed_quads": 0,
+      "exposed_points": 399
+    }
+  },
+  "R152_fixed_CT": {
+    "before_crop_xywh": [
+      7428,
+      2378,
+      64,
+      64
+    ],
+    "offsets_voxels": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "source_voxel_size_um": 9.362,
+    "source_level": 0,
+    "surface_interpolation": "linear",
+    "ct_interpolation": "trilinear",
+    "original_mixed_support_pixels": 1280,
+    "pure_support_samples_equal_total": 14080,
+    "pairs": {
+      "component0": {
+        "pure_pixels": 1408,
+        "bit_identical_samples": 7040,
+        "mixed_to_invalid_pixels": 1280,
+        "required_saved_ct_keys": [
+          "0/19/23/25",
+          "0/19/23/26"
+        ],
+        "crop_xywh": [
+          7388,
+          2378,
+          64,
+          64
+        ],
+        "source_face": 53045,
+        "mixed_positions_still_valid": 0
+      },
+      "component2": {
+        "pure_pixels": 1408,
+        "bit_identical_samples": 7040,
+        "mixed_to_invalid_pixels": 1280,
+        "required_saved_ct_keys": [
+          "0/16/22/26",
+          "0/16/23/26",
+          "0/17/22/26",
+          "0/17/23/26"
+        ],
+        "crop_xywh": [
+          8608,
+          2378,
+          64,
+          64
+        ],
+        "source_face": 63364,
+        "mixed_positions_still_valid": 0
+      }
+    },
+    "figure_sha256": "390128528af3e0e2d5730c275a3dd43c8ad5b0c6cb3828dec3e7c55715b06288"
+  },
+  "R153_PHerc0139_w035": {
+    "input_geometry": {
+      "grid_shape_yx": [
+        291,
+        262
+      ],
+      "used_vertices": 63499,
+      "valid_quads": 62913,
+      "triangles": 125826,
+      "renderable_components": 1
+    },
+    "output_shape_yx": [
+      286,
+      259
+    ],
+    "output_valid_points": 62646,
+    "xyz": {
+      "x.tif": {
+        "sha256": "484d5067f9f23abbae296a5ea6820089736c05ce222c586c94403dbd1e492734",
+        "shape_yx": [
+          286,
+          259
+        ],
+        "pixels": 74074,
+        "all_bits_equal": true
+      },
+      "y.tif": {
+        "sha256": "482768674a7c04d4c88b9c65e7d473e2c377c0314da767fb3ef7734fffc18492",
+        "shape_yx": [
+          286,
+          259
+        ],
+        "pixels": 74074,
+        "all_bits_equal": true
+      },
+      "z.tif": {
+        "sha256": "c84bbbf37c95fdafd185531c48c4f0faee6816488c107b5de1e97cb003ec4726",
+        "shape_yx": [
+          286,
+          259
+        ],
+        "pixels": 74074,
+        "all_bits_equal": true
+      }
+    },
+    "scale": [
+      0.05000000074505806,
+      0.05000000074505806
+    ],
+    "metadata_different_top_level_keys": [
+      "uuid"
+    ],
+    "energy_sha256": "8c4e42264512728ac8c9a31e3938415b926409225b84a0e5fa4463c02e2abfcb",
+    "energy_iteration_0_to_5": [
+      "8.0042917498",
+      "8.0025943139",
+      "8.0025248984",
+      "8.0025050412",
+      "8.0024976487",
+      "8.0024943049"
+    ]
+  },
+  "source_record_sha256": {
+    "R151_independent": "ccf48f6a9319b94d51bc9913a8a096d3268fc22919a96157cd37e25a89822f53",
+    "R152_comparison": "1f628016059be35d2fd35305a66110667333c4de58770ce148c705abe781aa85",
+    "R152_independent": "6a24fb13e33b5c1c3a2df3e854ecb09e6fc7a20a52b76caaae3b16501a0d4f24",
+    "R153_comparison": "94a1672dc79572348c05ef804ddb350d3455a5467631e30a09d5627a61ab70ef",
+    "R153_independent": "ffa40fe05af0ccbcdd79401fa0326cea7fbac40e3e64d616675225e3e635f1eb"
+  }
+}

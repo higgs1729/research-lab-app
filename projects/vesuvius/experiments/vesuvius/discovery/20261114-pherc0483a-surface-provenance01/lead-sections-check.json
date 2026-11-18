@@ -1,0 +1,24 @@
+{
+  "reviewer": "root",
+  "raw_continuous_values": 39808,
+  "orthogonal_values": 38025,
+  "independent_interpolated_samples": 135,
+  "max_interpolation_error_dn": 0.490584097802639,
+  "central_atlas_values": 12288,
+  "central_exact": 12205,
+  "central_max_dn": 1,
+  "visual_scope": [
+    "sections/continuous-yz-annotated.png",
+    "sections/upper/orthogonal-annotated.png",
+    "sections/arc/orthogonal-annotated.png",
+    "sections/lower/orthogonal-annotated.png"
+  ],
+  "visual_observations": [
+    "The upper area is granular and bright; the lower area has weaker fibrous texture.",
+    "The arc point lies near a sharp boundary in the continuous section.",
+    "I cannot trace a unique lamina through the three centers from these views."
+  ],
+  "decision": "Physical sheet correspondence remains undetermined. No ink conclusion, geometric correction or additional image-driven route selection.",
+  "new_network_bytes": 0,
+  "model_calls": 0
+}

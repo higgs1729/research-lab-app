@@ -1,0 +1,34 @@
+{
+  "utc": "2026-11-15T16:55:26.629615+00:00",
+  "reviewer": "lead root, independent before reading researcher interpretation",
+  "images_viewed": [
+    "review/fixed-clipped-response-raw8-native.png",
+    "review/context-union-raw8-native.png",
+    "review/known-phi-raw8-native.png",
+    "review/new-main-raw8-native.png",
+    "review/context-coordinate-guide.png",
+    "review/new-main-CT-preview-native.png"
+  ],
+  "known_public_reference": "../20261115-pherc0211-approximate-window-screen01/review/public-known-phi-raw8-native.png",
+  "observations": [
+    "The old lower clipped response now has visible lower endings: a broad left descending part with a rightward foot and a separate right descending part with a rounded bottom. These endings lie below the old bottom marker y2304 and terminate before the next separated weak response.",
+    "The dark central space is bounded above and on its sides, but opens below; I do not identify a closed enclosed loop. The upper bright band still connects neighboring descending portions horizontally.",
+    "A dark separation follows the former clipped response. Farther down there are weak detached responses and another stronger lower band cut by the new bottom. That bottom clipping is not a reason to extend this study again.",
+    "The CT preview shows long fibers/laminar texture with diagonal horizontal ridges and scattered bright points. It is not direct evidence of ink or a continuous single physical sheet.",
+    "The new known-phi raw image retains the published reference coarse form. Numerical checks show this sample identical to R239."
+  ],
+  "decision": "The fixed lower context resolves the former boundary ambiguity enough to retain a bounded shape candidate with visible terminals. This is a positive morphology observation, not decoded text, ink confirmation, physical-sheet confirmation, or novelty. Close this one fixed context inference without depth/model/window rescue.",
+  "transcription": null,
+  "new_letters": 0,
+  "new_candidate_area_selected": false,
+  "unresolved": [
+    "ink versus model/structure response",
+    "physical-sheet attribution over whole candidate",
+    "historical author output and already-read coverage"
+  ],
+  "numerical_evidence": [
+    "lead-h100-output-check.json",
+    "lead-overlap-display-check.json",
+    "lead-h100-resource-check.json"
+  ]
+}

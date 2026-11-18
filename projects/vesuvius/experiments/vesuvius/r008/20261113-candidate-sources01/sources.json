@@ -1,0 +1,403 @@
+{
+  "villa_main": "0080fa393724575d4f19059d91402757f9351b28",
+  "reporter_repository": "23f2451f1c5cb2012a240ab25323e15b9be82594",
+  "sources": [
+    {
+      "file": "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_transfer.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vesuvius/src/vesuvius/tifxyz_label_transfer/transfer.py",
+      "retrieved_utc": "2026-11-12T17:49:48.183801+00:00",
+      "bytes": 51653,
+      "sha256": "9f46d47554a726fbd420673e5ab81ea61ee38a00da7e4f972b0c9c95cb9169ee",
+      "git_blob": "ef0d98e116e7b0b0daef0607d78184073fbfbe31",
+      "ETag": "\"73454954a6d851e87518c0aa8303e33d80e50bae7ecfc53fad1ca555688c0705\""
+    },
+    {
+      "file": "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_estimate_canvas_offset.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vesuvius/src/vesuvius/tifxyz_label_transfer/estimate_canvas_offset.py",
+      "retrieved_utc": "2026-11-12T17:49:48.183421+00:00",
+      "bytes": 22280,
+      "sha256": "af13881125164684827d36015c66751c7fb382df12d4f6bd0d445edf992f4350",
+      "git_blob": "a57aa22427cdf31883f35ec26b11bb160a766fef",
+      "ETag": "\"fb89a15487a6e6ca0472ad6d8cd41a24b67c535304c1b843ef5a3b247da757ab\""
+    },
+    {
+      "file": "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_README.md",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vesuvius/src/vesuvius/tifxyz_label_transfer/README.md",
+      "retrieved_utc": "2026-11-12T17:49:48.190886+00:00",
+      "bytes": 6616,
+      "sha256": "cb159e79d3b7dd861879ff44a3b04174e7a008b58b20bdfa9d4e9b7f39af7647",
+      "git_blob": "fc606445811d40c7443c8fe52afbc13f6e01e733",
+      "ETag": "\"bba47f4487e7fb86427b6093b554f396f0f08bc3425494475bf8d7903c60cbab\""
+    },
+    {
+      "file": "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_core.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vesuvius/src/vesuvius/tifxyz_label_transfer/core.py",
+      "retrieved_utc": "2026-11-12T17:49:48.208212+00:00",
+      "bytes": 67329,
+      "sha256": "fbdacc264ae0e6d49b7aca3e937ca1055eba146db914add9d4fc9f01be5b7137",
+      "git_blob": "2895fb1ad14a202f705bd4ed4b399817382a8576",
+      "ETag": "\"d1c0057ea37d3c0ad22e22b8d1657e8fd203aefcef0cd1e0d925458d56600c48\""
+    },
+    {
+      "file": "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_native.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vesuvius/src/vesuvius/tifxyz_label_transfer/native.py",
+      "retrieved_utc": "2026-11-12T17:49:48.173941+00:00",
+      "bytes": 1041,
+      "sha256": "22fa8e1ed24dfc82b18bbddc6d1933ba5583485a422ffbad5e4e53c7fba321a3",
+      "git_blob": "3be800a5c3dc1b631f881abbd15bdd3616283ac7",
+      "ETag": "\"a885db686b5e950f250469547a51f5444b93200a482a41ef5670980d5e9820ef\""
+    },
+    {
+      "file": "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_planar.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vesuvius/src/vesuvius/tifxyz_label_transfer/planar.py",
+      "retrieved_utc": "2026-11-12T17:49:48.183983+00:00",
+      "bytes": 9681,
+      "sha256": "f1a51a3f6f02783ef8d5a06eb91f2ffd1f6831951beb7afc26e8f2cd1cf2b61c",
+      "git_blob": "2933df6fa9ce277f744c5daf12fc3cd60a73a18d",
+      "ETag": "\"4f5ede0fd378e315c5b99e220d2b0c3108a353a4cc1d5597a75573553c976fcf\""
+    },
+    {
+      "file": "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_estimate_canvas_offset_evidence.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vesuvius/src/vesuvius/tifxyz_label_transfer/estimate_canvas_offset_evidence.py",
+      "retrieved_utc": "2026-11-12T17:49:48.192506+00:00",
+      "bytes": 8232,
+      "sha256": "7ca47b1c2daa3bbc6a51bbb5013c30af1508c8a43659164c4d996d038e81e970",
+      "git_blob": "47ba33c00883f1b4c3c29936aea233d279a537c8",
+      "ETag": "\"cb27cbb5e5e3fb1af2bbff6400c92c8287c9765fe9ca1fa6026a00e2e4e0ed1e\""
+    },
+    {
+      "file": "villa-vesuvius_src_vesuvius_tifxyz_label_transfer_docs_theory.md",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vesuvius/src/vesuvius/tifxyz_label_transfer/docs/theory.md",
+      "retrieved_utc": "2026-11-12T17:49:48.168971+00:00",
+      "bytes": 1937,
+      "sha256": "d669b7224ebbf7e1d57c8fd3fe36230cf183f7a896acf97cc9839ce0a08520fd",
+      "git_blob": "4d024c612e4bc0952d7a80ea2e454c6e666153cd",
+      "ETag": "\"e454029a6603ac8b971e1166e9fa95512e81d1bde6ae9fd79a1829abb8416f0a\""
+    },
+    {
+      "file": "villa-vesuvius_src_vesuvius_ink_detection_data_dataset.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vesuvius/src/vesuvius/ink_detection/data/dataset.py",
+      "retrieved_utc": "2026-11-12T17:49:48.430953+00:00",
+      "bytes": 28261,
+      "sha256": "ff15dee78cc26252589d89a778f7f277d8bbe3999a85de306370c91b35f771bc",
+      "git_blob": "7ffcfba3c7064b407297cbf017d8588ed31b7501",
+      "ETag": "\"9335ee5eb6a2632e5c246009fa47e6d3cea87bcd93b0cb1d10f55d6b9009f511\""
+    },
+    {
+      "file": "villa-vesuvius_tests_tifxyz_label_transfer_test_native_rasterizer.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vesuvius/tests/tifxyz_label_transfer/test_native_rasterizer.py",
+      "retrieved_utc": "2026-11-12T17:49:48.440386+00:00",
+      "bytes": 10198,
+      "sha256": "8127cbc37555224a52b61b656515be383bdeaf1003047c5ec57c835965368e0f",
+      "git_blob": "65bb1ae4a4965f8209c94c2ce83464477f4a5cbc",
+      "ETag": "\"ad27022306c4f73f893f7a3d446c151185f6da3897807a40ce289d7f2c3bd242\""
+    },
+    {
+      "file": "villa-vc_reader_src_vc_reader_resident.py",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vc_reader/src/vc_reader/resident.py",
+      "retrieved_utc": "2026-11-12T17:49:48.480725+00:00",
+      "bytes": 8347,
+      "sha256": "4535cd65b176c05860d9399a91d648b2b7b017cc7295f4e49a4a0d43ba01c53b",
+      "git_blob": "cce9e01c266a4b09c38834d983928de3e93735b6",
+      "ETag": "\"86bbdc9da5076d3fb8b59f9dd858c6050afcde060427e766dd23247b3d8400dd\""
+    },
+    {
+      "file": "villa-vc_reader_src_cpp_projection_transfer.hpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vc_reader/src/cpp/projection/transfer.hpp",
+      "retrieved_utc": "2026-11-12T17:49:48.472686+00:00",
+      "bytes": 6812,
+      "sha256": "22de6aac1efe9967c506164ecff295a6f1e98d4ed48cac97d2f7bbaf02b265ad",
+      "git_blob": "f3bf95461eddb5bf8f87aaac9b9b8764952cc6f7",
+      "ETag": "\"77a3eeb2f9daf23b3b4eb93ae2926b0dd0e1e54d8df0693a1e68c3d0b53b0946\""
+    },
+    {
+      "file": "villa-vc_reader_src_cpp_projection_transfer_bindings.hpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/0080fa393724575d4f19059d91402757f9351b28/vc_reader/src/cpp/projection/transfer_bindings.hpp",
+      "retrieved_utc": "2026-11-12T17:49:48.476435+00:00",
+      "bytes": 4578,
+      "sha256": "9dc0fc322e0607959f46da79341a3377fac65c8c86280d32b0cb668c124540e6",
+      "git_blob": "389b2b8d42437246a20aa32de5447f01e2571913",
+      "ETag": "\"a48da7c244f94d417cd7f5a691c2bcd8c60eb209536f226e709c84c92c045d6d\""
+    },
+    {
+      "file": "reporter-README.md",
+      "url": "https://raw.githubusercontent.com/stantheman0128/vesuvius-hf65-alignment/23f2451f1c5cb2012a240ab25323e15b9be82594/README.md",
+      "retrieved_utc": "2026-11-12T17:49:48.455050+00:00",
+      "bytes": 8767,
+      "sha256": "ca1079394e28af87cc57430251c8849240538f156b5a582bfc92eac39ebc3a43",
+      "git_blob": "0b5f259ee6851283ee6b9fa8cc1b37ea3b8863d8",
+      "ETag": "\"d9847c7f3da2a881f7cea0637c6ea6a43cb14d5a4d1d862a9c606af3cd828eb8\""
+    },
+    {
+      "file": "reporter-correct_shifts_shifts.json",
+      "url": "https://raw.githubusercontent.com/stantheman0128/vesuvius-hf65-alignment/23f2451f1c5cb2012a240ab25323e15b9be82594/correct/shifts/shifts.json",
+      "retrieved_utc": "2026-11-12T17:49:48.472978+00:00",
+      "bytes": 29980,
+      "sha256": "2d68f035c451e9165502274a40abc5231347e4d691941e2506eb4c8c2382938a",
+      "git_blob": "732dec59d1c381e319931a43fd0d895389031d09",
+      "ETag": "\"f7d3fe118718b40948bfdcb41b400c47cc1c45295cfcc71dcb3192411c642c4b\""
+    },
+    {
+      "file": "reporter-correct_apply_fit.py",
+      "url": "https://raw.githubusercontent.com/stantheman0128/vesuvius-hf65-alignment/23f2451f1c5cb2012a240ab25323e15b9be82594/correct/apply_fit.py",
+      "retrieved_utc": "2026-11-12T17:49:48.483533+00:00",
+      "bytes": 16451,
+      "sha256": "28f84e7b9f30b7f0eb4a6bde7d6cc42cff43cf3ccac0aa0b4ae0ea9d3a54bacd",
+      "git_blob": "6d661ea6a3518ae19fe5523363310a4e5af3a0ef",
+      "ETag": "\"5e5e9f71b87c5fa58dae9b95b9b93b98901428bdf5101a970f891e9ebf6dcf26\""
+    },
+    {
+      "file": "reporter-correct_shifts_apply_shifts.py",
+      "url": "https://raw.githubusercontent.com/stantheman0128/vesuvius-hf65-alignment/23f2451f1c5cb2012a240ab25323e15b9be82594/correct/shifts/apply_shifts.py",
+      "retrieved_utc": "2026-11-12T17:49:48.706435+00:00",
+      "bytes": 7371,
+      "sha256": "ff78fea84b32825a6d162ac92a266b3839e57cb66c36c854d02ec6fd31f66ccc",
+      "git_blob": "9fc9d340b4d5db64d08662ec19f0556b613ed2c6",
+      "ETag": "\"37c6657eff36746c5f80dab8b5cab8cacaafafd125a15ed69ab4007ef0424fe0\""
+    },
+    {
+      "file": "reporter-correct_regions_new_w01.json",
+      "url": "https://raw.githubusercontent.com/stantheman0128/vesuvius-hf65-alignment/23f2451f1c5cb2012a240ab25323e15b9be82594/correct/regions_new_w01.json",
+      "retrieved_utc": "2026-11-12T17:49:48.855919+00:00",
+      "bytes": 385,
+      "sha256": "326db55d3650b72096e76dbcc46bd7a502072fcdd64981fd692802edd69d7ca0",
+      "git_blob": "08487dfd5005a19640bf4df0c71cf2097d6f622e",
+      "ETag": "\"c36642ed2ab78c1e39d63d4dfbe7c7612b2cf201bd128bb4e307bc7b617522ce\""
+    },
+    {
+      "file": "reporter-correct_RESULTS.md",
+      "url": "https://raw.githubusercontent.com/stantheman0128/vesuvius-hf65-alignment/23f2451f1c5cb2012a240ab25323e15b9be82594/correct/RESULTS.md",
+      "retrieved_utc": "2026-11-12T17:49:48.713756+00:00",
+      "bytes": 17781,
+      "sha256": "76e0000043120bec258d7d0654f1a1276e88a620bd654633f3314be16c4090f2",
+      "git_blob": "5cfd078330bb9f1d71fd7acda94b377ef8dee8ff",
+      "ETag": "\"8568ba6585272bd6740fdb7a2f62d864d5ceea137b0b52cfd3737d0f8ce3afca\""
+    },
+    {
+      "file": "reporter-results_before_w01.jsonl",
+      "url": "https://raw.githubusercontent.com/stantheman0128/vesuvius-hf65-alignment/23f2451f1c5cb2012a240ab25323e15b9be82594/results/before_w01.jsonl",
+      "retrieved_utc": "2026-11-12T17:49:48.934105+00:00",
+      "bytes": 15815,
+      "sha256": "b3ee52b567e6d72eb6a69d889e9a1cb65b1e2e5c4bd721a36dae9d4f536f9cce",
+      "git_blob": "37be432ffdb486e1cfe8abadb691cb9062a33f04",
+      "ETag": "\"27b1e77c0a9db29067f03b81c726c5439095d05f72067948269e516797729b86\""
+    },
+    {
+      "file": "reporter-results_after_w01.jsonl",
+      "url": "https://raw.githubusercontent.com/stantheman0128/vesuvius-hf65-alignment/23f2451f1c5cb2012a240ab25323e15b9be82594/results/after_w01.jsonl",
+      "retrieved_utc": "2026-11-12T17:49:48.720067+00:00",
+      "bytes": 9900,
+      "sha256": "fb7f3bb8e7557990afacdd972acfc45b1bfd460b2f69b5cc86e8fd5f63c3c4f0",
+      "git_blob": "6bcbe8b3910c40582d96f8f38ee952f7ae5d44cc",
+      "ETag": "\"7c36b6b728775e55b6fcdcb25ccf94bc1c6057bb8ee78910fbf0c382643a59ee\""
+    },
+    {
+      "file": "reporter-labelshift-w01_RESULTS.md",
+      "url": "https://raw.githubusercontent.com/stantheman0128/vesuvius-hf65-alignment/23f2451f1c5cb2012a240ab25323e15b9be82594/labelshift-w01/RESULTS.md",
+      "retrieved_utc": "2026-11-12T17:49:48.720717+00:00",
+      "bytes": 5228,
+      "sha256": "d2b0aa81d0f69cbaee1622f26284302effe2524fef31479c10f4d7d37269fcaf",
+      "git_blob": "7ee5f3645b0cd74ac1bea7420c76697cbfe5b438",
+      "ETag": "\"f78495f3ca8408a77ce16c46db3e9408366ca166801bd37a97305e75426190e8\""
+    },
+    {
+      "file": "reporter-labelshift-w01_ADDENDUM.md",
+      "url": "https://raw.githubusercontent.com/stantheman0128/vesuvius-hf65-alignment/23f2451f1c5cb2012a240ab25323e15b9be82594/labelshift-w01/ADDENDUM.md",
+      "retrieved_utc": "2026-11-12T17:49:48.734976+00:00",
+      "bytes": 3842,
+      "sha256": "d65422f213760b54853a46d44ec0dbd6b62417ed4a1026f4d7ee9ee55ae9108c",
+      "git_blob": "ee28d212ec25974147cfcdd4711f3c82320a8f51",
+      "ETag": "\"1c5e6d758189be148c019b30d88a0ffbb582948e02d62fd043fa43766e5c474d\""
+    },
+    {
+      "file": "villa-issue-2370.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/issues/2370",
+      "retrieved_utc": "2026-11-12T17:49:48.869935+00:00",
+      "bytes": 6566,
+      "sha256": "88e6f5b4b22d7661b9f2572d1224599bfa695d97bd53d60e7a7a136712dfbaba",
+      "ETag": "W/\"0803a51601d1988006f9f2f36ae603d73d274859666cdfb53c142c440a8a382e\"",
+      "Last-Modified": "Wed, 11 Nov 2026 14:39:58 GMT"
+    },
+    {
+      "file": "villa-issue-2442.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/issues/2442",
+      "retrieved_utc": "2026-11-12T17:49:49.070874+00:00",
+      "bytes": 3164,
+      "sha256": "785a0ca91d0be26b6ac31633f30c3d5b721f2660c36d922c3737ba798587d22e",
+      "ETag": "W/\"a80f78f61a2dea703d523a8fb1a40056f97b237eac89cf6d978999d9957d15c3\"",
+      "Last-Modified": "Fri, 06 Nov 2026 11:06:44 GMT"
+    },
+    {
+      "file": "villa-issue-2437.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/issues/2437",
+      "retrieved_utc": "2026-11-12T17:49:49.075844+00:00",
+      "bytes": 4830,
+      "sha256": "00d2856b3ac2dd8a4a4e2896a0064440c047235cc4ca31435c7dc110ea1633d8",
+      "ETag": "W/\"2a922f2b0f0af632230c09241a67245bfc925770b04006c25875180dfa53557b\"",
+      "Last-Modified": "Sat, 07 Nov 2026 16:11:38 GMT"
+    },
+    {
+      "file": "villa-issue-1466.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/issues/1466",
+      "retrieved_utc": "2026-11-12T17:49:49.134701+00:00",
+      "bytes": 6868,
+      "sha256": "41bf3cb1bc4f6c7717ffef03216cc705c088f5e8a7e9f91082fb6ab19acf9ba8",
+      "ETag": "W/\"370c4d184a3f2648bc681de545d20052e35e7d5f428b53fa40b276b34bcff30c\"",
+      "Last-Modified": "Mon, 05 Oct 2026 21:38:47 GMT"
+    },
+    {
+      "file": "villa-issue-2294.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/issues/2294",
+      "retrieved_utc": "2026-11-12T17:49:49.130805+00:00",
+      "bytes": 14725,
+      "sha256": "f9e30e48c57d471c04ab858982a6cac2f44ba7c1b8b8cbd24d5b35a87ca82304",
+      "ETag": "W/\"7d8d1c1809d00017480727eec08196c6070d9159fbf2dc1e646f3f13684130a1\"",
+      "Last-Modified": "Sun, 01 Nov 2026 19:23:31 GMT"
+    },
+    {
+      "file": "villa-issue-2243.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/issues/2243",
+      "retrieved_utc": "2026-11-12T17:49:49.071060+00:00",
+      "bytes": 6433,
+      "sha256": "3af6a6cb9b01f76b4d8ea847e98fb60d8173c2dbcea59b8f899f7074058dd62c",
+      "ETag": "W/\"664be70e995ec48566bc5395fd43369e19be624a3c3b0cc0e6598cca3d863b24\"",
+      "Last-Modified": "Sat, 31 Oct 2026 08:38:52 GMT"
+    },
+    {
+      "file": "villa-issue-2500.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/issues/2500",
+      "retrieved_utc": "2026-11-12T17:49:49.191483+00:00",
+      "bytes": 6685,
+      "sha256": "07e535e17e4a5d9596e51681cc38a8e647308255a1e7eac5a99990b7b2d95534",
+      "ETag": "W/\"291dcd3180e6048addc0a25c387da156b68b94c43d0424fabcd5c863a998bb88\"",
+      "Last-Modified": "Tue, 10 Nov 2026 16:31:17 GMT"
+    },
+    {
+      "file": "villa-issue-2370-comments.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/issues/2370/comments?per_page=100",
+      "retrieved_utc": "2026-11-12T17:49:49.274840+00:00",
+      "bytes": 20425,
+      "sha256": "1e0c33f60956a0a0b39313b91a4e8e96b1a2ed3d6150a88d9b9e475f556a9008",
+      "ETag": "W/\"c95a081e3a9419e94ce44f25c41b0edf9976b388419ea1a73085b292ae8b0a61\""
+    },
+    {
+      "file": "villa-pr-2447.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/2447",
+      "retrieved_utc": "2026-11-12T17:49:49.484677+00:00",
+      "bytes": 19542,
+      "sha256": "61716491f6bf42736eeae47a6c65fe7e45e86edeba3b12da3f0f4ee3d16c0d0b",
+      "ETag": "\"f9574d81f472ce7a52ab9f7522e69bac8bb47d5ef8aa322d8bcb1473b46da1ee\"",
+      "Last-Modified": "Wed, 04 Nov 2026 22:27:12 GMT"
+    },
+    {
+      "file": "villa-pr-1943.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/1943",
+      "retrieved_utc": "2026-11-12T17:49:49.465591+00:00",
+      "bytes": 19386,
+      "sha256": "e3905805859b8af4933638c34fc34e3aab71dfc00c670ea2e862bce896d66d1b",
+      "ETag": "\"cf71ce5b33002c6c71b5720244e761ae2ca5e127c0aa6c55b72d86829c470ba3\"",
+      "Last-Modified": "Sun, 01 Nov 2026 11:17:22 GMT"
+    },
+    {
+      "file": "villa-pr-1801.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/1801",
+      "retrieved_utc": "2026-11-12T17:49:49.473404+00:00",
+      "bytes": 28390,
+      "sha256": "b0fab9d326101eae0b59504bb7ae1cdd2e8c916dec3332f45a308ecdecd27f53",
+      "ETag": "\"c4c0bbffa43cf292aab0ce771483f58e30e09533d960201d73a225e63cb7a418\"",
+      "Last-Modified": "Sun, 01 Nov 2026 10:44:54 GMT"
+    },
+    {
+      "file": "villa-pr-2358.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/2358",
+      "retrieved_utc": "2026-11-12T17:49:49.441903+00:00",
+      "bytes": 19625,
+      "sha256": "c420d03b493608cc4e2dbe37462169b32bc7be379d9173a6e4ed6f9d4b5853aa",
+      "ETag": "\"e3c0eecb7700b025f7155328c9f59f539969789f4a3dc80e224b3c654f90b1f0\"",
+      "Last-Modified": "Thu, 29 Oct 2026 04:01:12 GMT"
+    },
+    {
+      "file": "villa-pr-2446.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/2446",
+      "retrieved_utc": "2026-11-12T17:49:49.586298+00:00",
+      "bytes": 21549,
+      "sha256": "da735ff17cfffcc4274a1f4179eacd42a6852bc4fee7ba4a1cfdda75054de991",
+      "ETag": "\"591f804454cfd4409f7de4117f5cacd0b15dc49a8e61d9874d85d3b6af952efe\"",
+      "Last-Modified": "Wed, 11 Nov 2026 14:39:58 GMT"
+    },
+    {
+      "file": "villa-pr-2476.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/2476",
+      "retrieved_utc": "2026-11-12T17:49:49.678176+00:00",
+      "bytes": 27541,
+      "sha256": "1f872bca8c5f48ddb7f3c666def0ebe410ee639ac7fb18618819000570aa098e",
+      "ETag": "\"af091f8f02ab3f9a2854702f8e3220e59cbfa2ee581a3827e6dc8ad63372c9a3\"",
+      "Last-Modified": "Sun, 08 Nov 2026 07:53:51 GMT"
+    },
+    {
+      "file": "villa-pr-2411.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/2411",
+      "retrieved_utc": "2026-11-12T17:49:49.798610+00:00",
+      "bytes": 23414,
+      "sha256": "e792d9c86fa28e961bf4f1da9623e3e32cdda84774562dbfff324aea41ec89a0",
+      "ETag": "\"42a1efe919b52555a950e5669587795b768ece015831f6646600677767ee0068\"",
+      "Last-Modified": "Thu, 12 Nov 2026 06:38:21 GMT"
+    },
+    {
+      "file": "bucket-w01-meta.json",
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink/phercparis4/w01_20230702185753_r15/meta.json",
+      "retrieved_utc": "2026-11-12T17:49:50.374177+00:00",
+      "bytes": 594,
+      "sha256": "3b778a51b477fb021833c426bebdfa74ec8ee29d853d9e23507a85eacbe57ef4",
+      "ETag": "\"af9e110442e8d18b1717f0e05027482ae9eecd70df2b60901886ef1f1f5577a6\""
+    },
+    {
+      "file": "bucket-w01-hf65-zattrs.json",
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink/phercparis4/w01_20230702185753_r15/w01_20230702185753_r15.zarr/.zattrs",
+      "retrieved_utc": "2026-11-12T17:49:50.617074+00:00",
+      "bytes": 5156,
+      "sha256": "e5529ddc26b8ab90aa7a5635098d8c41e11a8a4b4fc2012f9843ff77f061aacb",
+      "ETag": "\"fb1980b21951991bdb2d89929d1b69458fe37c49d60d8523e795e9ca8558b62e\""
+    },
+    {
+      "file": "bucket-w01-hf65-0-zarray.json",
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink/phercparis4/w01_20230702185753_r15/w01_20230702185753_r15.zarr/0/.zarray",
+      "retrieved_utc": "2026-11-12T17:49:50.592242+00:00",
+      "bytes": 368,
+      "sha256": "f1eb1d32b3ad2601fd554f147091f30e28da00ca85ef8c9f388370b8bdf8132f",
+      "ETag": "\"a59d532b81c11506f6970859108c08f9c9d500a10c27800c4f2569e63b8a3d2d\""
+    },
+    {
+      "file": "bucket-w01-ink-zattrs.json",
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink/phercparis4/w01_20230702185753_r15/w01_20230702185753_r15_inklabels.zarr/.zattrs",
+      "retrieved_utc": "2026-11-12T17:49:50.557453+00:00",
+      "bytes": 3047,
+      "sha256": "c07591de5d57ffdfac72512c2f839df6548e31651962983ffadcf91ee84a240c",
+      "ETag": "\"06c5b20cb1d714912e1291422a2c632fb4c9461b724cafff401b2c24ba46949f\""
+    },
+    {
+      "file": "bucket-w01-ink-0-zarray.json",
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink/phercparis4/w01_20230702185753_r15/w01_20230702185753_r15_inklabels.zarr/0/.zarray",
+      "retrieved_utc": "2026-11-12T17:49:50.576791+00:00",
+      "bytes": 400,
+      "sha256": "e74061d985dd97c4e16cc73b29218d4a7089c60e7fc056beeec916be3c2e04d4",
+      "ETag": "\"78cd2c760870f544ab95809b1af45eb4a75d980e7d99a3a1da95a35951ef7d5d\""
+    },
+    {
+      "file": "bucket-w01-supervision-zattrs.json",
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink/phercparis4/w01_20230702185753_r15/w01_20230702185753_r15_supervision_mask.zarr/.zattrs",
+      "retrieved_utc": "2026-11-12T17:49:50.389325+00:00",
+      "bytes": 3054,
+      "sha256": "f2d2445292a9a07be9161aeca42c2154bfd0849a6c513a98e672d6ef21281e19",
+      "ETag": "\"4961ea24eaf0b7e68378ef2d256d4a54fa33b0d7f55e82f6a190443b77d2022a\""
+    },
+    {
+      "file": "bucket-w01-supervision-0-zarray.json",
+      "url": "https://huggingface.co/buckets/scrollprize/datasets/resolve/ink/phercparis4/w01_20230702185753_r15/w01_20230702185753_r15_supervision_mask.zarr/0/.zarray",
+      "retrieved_utc": "2026-11-12T17:49:50.636908+00:00",
+      "bytes": 400,
+      "sha256": "e74061d985dd97c4e16cc73b29218d4a7089c60e7fc056beeec916be3c2e04d4",
+      "ETag": "\"78cd2c760870f544ab95809b1af45eb4a75d980e7d99a3a1da95a35951ef7d5d\""
+    }
+  ]
+}

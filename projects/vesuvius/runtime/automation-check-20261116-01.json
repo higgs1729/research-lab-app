@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-15T17:32:00.984590+00:00",
+  "tools_views_completed": true,
+  "automations": [
+    {
+      "id": "vesuvius-heartbeat",
+      "kind": "heartbeat",
+      "status": "ACTIVE",
+      "rrule": "RRULE:FREQ=MINUTELY;INTERVAL=180",
+      "target_thread_id": "01a1c9bf-639d-70a2-a8bc-664019939aaa",
+      "notification_policy": null,
+      "config_sha256": "1f5f67356ef1680da3806a84a1a5bfb6fc59e09c3cdecdb047ada4359be15b57"
+    },
+    {
+      "id": "vesuvius",
+      "kind": "heartbeat",
+      "status": "ACTIVE",
+      "rrule": "FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0",
+      "target_thread_id": "01a1cd0a-0544-7992-bd1c-7b4cd6360b0c",
+      "notification_policy": "failed_runs_only",
+      "config_sha256": "59c973d421bd84eb292fd10fa91196b7db2428bcffba815aedb2dbb834ffc144"
+    }
+  ]
+}

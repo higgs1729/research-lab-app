@@ -1,0 +1,250 @@
+{
+  "new_paid_compute_cost_usd": 0,
+  "llm_and_local_electricity_cost": null,
+  "main_model": "gpt-6-astra/xhigh",
+  "verification_model": "gpt-6.1-sol/high",
+  "new_input_download_bytes": 0,
+  "new_dependency_installs": 0,
+  "new_native_builds": 0,
+  "LP_diagnostic_cases": 14,
+  "existing_native_raster_runs": 1,
+  "all_numerical_jobs_sequential": true,
+  "numerical_jobs": [
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/analysis01-execution/state.json",
+      "started_utc": "2026-11-12T02:41:55.469949+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement01\\analyze.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement01\\analysis01"
+      ],
+      "script_sha256": "86242af8eab06b17d8c1d7ac455c58b2e0b6a5078f8fbbb22e07984952ccc0ed",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 6.529923999973107,
+      "peak_rss_bytes": 834138112,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:42:02.000617+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/detail01-execution/state.json",
+      "started_utc": "2026-11-12T02:44:35.782035+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement01\\detail.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement01\\detail01"
+      ],
+      "script_sha256": "3d19058971c4f25783ecfd1c64105f802c8d62683ff8fd90c2cbf1c39a0a7878",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 1.0088316000183113,
+      "peak_rss_bytes": 287342592,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:44:36.791437+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/diagnosis01-execution/state.json",
+      "started_utc": "2026-11-12T02:40:59.164980+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement01\\diagnose.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement01\\diagnosis01"
+      ],
+      "script_sha256": "e031eaa51e096b7bc42529bb890d167a4526383605a4a93eb880373f8ec866dc",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 2.6064552000025287,
+      "peak_rss_bytes": 314015744,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:41:01.771996+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-adapt01-execution/state.json",
+      "started_utc": "2026-11-12T02:42:57.774853+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement01\\adapt.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement01\\raster-adapt01"
+      ],
+      "script_sha256": "17151458dcde260dda8381c5dc4522ce98f6817a65a42e4d5b0863cde7b268dc",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.10650240001268685,
+      "peak_rss_bytes": 2232320,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:42:57.881872+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-analysis01-execution/state.json",
+      "started_utc": "2026-11-12T02:43:37.718815+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement01\\evaluate_raster02.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement01\\raster-analysis01"
+      ],
+      "script_sha256": "49724a0777ca7fafd1a725dc82bb0edb0fe158137d0df9cbc68f338a4a4e9cb0",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 7.643464200024027,
+      "peak_rss_bytes": 657985536,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:43:45.369854+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster-input01-execution/state.json",
+      "started_utc": "2026-11-12T02:42:59.230695+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement01\\prepare_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement01\\raster-input01"
+      ],
+      "script_sha256": "06c819f01bc7c4421b0268f5f6a2df9f89c43f82e2d8abbf238086390baf4e94",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6068438999936916,
+      "peak_rss_bytes": 83202048,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:42:59.838859+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sample-placement01/raster01/state.json",
+      "mode": "candidate",
+      "started_utc": "2026-11-12T02:43:10.315999+00:00",
+      "commands": [
+        [
+          "/mnt/d/kensyoukin-work/r003-build/bin/r005-corner-obj01",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-sample-placement01/raster-input01/mesh.bin",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-sample-placement01/raster01"
+        ]
+      ],
+      "status": "complete",
+      "source_sha256": "19212966593c157043357c455dac74fbe20be83bd2b0f07058cacce8a25bfb37",
+      "header_sha256": {
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/writeOBJ.h": "733d29c86e0693fb80dd3e7f531417fe3898b2944578ed79d6a1c4ef831efa5b",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/writeOBJ.cpp": "51a01371679a4eb54d5ef09fdfed0d2bbf60715876a04071e3f396d2a3d29dbc"
+      },
+      "protected_hashes": {
+        "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp": "3eeb1bc7225c5588007e2dc9b54aa04523745d0a4e8e4f1321681ee5d77cd36c",
+        "/mnt/d/kensyoukin-work/r005-build05/SurfaceMeshing-trace.o": "53844681c5ff559b3c7ed93cda6ff5fdacb4aca5f8bd4db91f9c5ba98cfc69f5",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_inpaint.so": "89be74bca1597bc52578021732d9bbf964de5792c37fcb1868702c89610b77c4",
+        "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+      },
+      "affinity": [
+        0
+      ],
+      "time_limit_per_command_seconds": 300,
+      "address_space_limit_bytes": 4294967296,
+      "input_sha256": "1065241b0617a438b6fa9eb434364eab0d3f688a3b8e2658ab0c883db58fdc51",
+      "exit_code": 0,
+      "elapsed_seconds": 4.468244167,
+      "max_child_rss_bytes": 148668416,
+      "protected_files_unchanged": true,
+      "completed_utc": "2026-11-12T02:43:14.864268+00:00",
+      "binary": "/mnt/d/kensyoukin-work/r003-build/bin/r005-corner-obj01",
+      "binary_sha256": "be1839d686e95e4b32d4cb81035fcb82f46f845fa03c844b8cd6f6be81a7a738"
+    },
+    {
+      "role": "verification",
+      "path": "experiments/vesuvius/r005/20261112-sample-placement-verification01/check01-execution/state.json",
+      "started_utc": "2026-11-12T02:50:50.752785+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement-verification01\\verify_saved.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-placement-verification01\\check01"
+      ],
+      "script_sha256": "1a746f8750d7ac1546966f20c5edf601230ec28214a2c32b0696ff519bd851c1",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 27.520655200001784,
+      "peak_rss_bytes": 547696640,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:51:18.274756+00:00"
+    }
+  ],
+  "failed_jobs_preserved": [],
+  "previous_manifests": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-close/artifact-manifest.json",
+      "sha256": "f5a5e6f448457aa968345a22846f8fad932393957874fd3eb0b6fe513e90ac00",
+      "files_checked": 76
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-relax-close/artifact-manifest.json",
+      "sha256": "bf00befa39f81a4226f27ae6006982f627ea321be20df98c4310f9012698cf86",
+      "files_checked": 75
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/artifact-manifest.json",
+      "sha256": "1dd6bebf093aee8cfba121ce1dcbe7ddb26d780ce025e8a6b22f9a04f3dfe152",
+      "files_checked": 13
+    }
+  ],
+  "main_and_verification_artifact_bytes": 200244285,
+  "note": "All7 primary and1 verifier jobs succeeded. Original generated evaluator had an old N trace path found and corrected before numerical execution; unexecuted version and diff preserved. O demonstrates same-grid sample placement with2 interior changes/12 faces, no subject-related overlap, but increased SD. I retained; N/O preserved as distinct controls."
+}

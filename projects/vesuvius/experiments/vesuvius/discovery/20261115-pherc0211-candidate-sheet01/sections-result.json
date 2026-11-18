@@ -1,0 +1,1339 @@
+{
+  "plan_sha256": "7cb7186301853468d18cacfc375ad78c0aa20b9b05cbc7b273b5ea70e4fcf352",
+  "plane_count": 12,
+  "existing_planes_preserved_and_verified": 4,
+  "initial_failure_preserved": "observation-process.json",
+  "range_diagnostic": "fixed-planes-range-diagnostic.json",
+  "float_values_unclipped": true,
+  "total_samples": 150540,
+  "raw_and_window_images": 24,
+  "sections": [
+    {
+      "id": "candidate-q25-un",
+      "anchor": "candidate-q25",
+      "kind": "candidate",
+      "parent_pixel_xy": [
+        4512,
+        2176
+      ],
+      "axis": "u",
+      "shape_hw": [
+        65,
+        193
+      ],
+      "range_DN": [
+        10.629119229485273,
+        250.0105941523334
+      ],
+      "origin_xyz": [
+        3204.305419921875,
+        3536.363037109375,
+        7313.50244140625
+      ],
+      "tangent": [
+        0.7836694235918553,
+        -0.6193722063505809,
+        -0.0473318553156628
+      ],
+      "normal": [
+        -0.6171273783549933,
+        -0.7849832858382559,
+        0.05436027813824981
+      ],
+      "s_range_inclusive": [
+        -96,
+        96
+      ],
+      "d_range_inclusive": [
+        -32,
+        32
+      ],
+      "array": "sections/candidate-q25-un.npy",
+      "array_sha256": "7776a54b199b5c5540bd530502238d0b01292bccc3f3e1ca40ba1be05969facc",
+      "raw_png": "sections/candidate-q25-un-raw.png",
+      "raw_sha256": "38c7b840248ee9a1187ca46118cd2f71a9e7eea59e456d690bc8151107ff9d77",
+      "window_png": "sections/candidate-q25-un-window.png",
+      "window_sha256": "37348d1183a143fbef0433d20a625a2596ee76f902c6fdd6b303b1ab5e61d2f9",
+      "geometry_marks": [
+        {
+          "xy": [
+            94,
+            30,
+            98,
+            30
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            94,
+            34,
+            98,
+            34
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            72,
+            32,
+            88,
+            32
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            104,
+            32,
+            120,
+            32
+          ],
+          "color": [
+            255,
+            180,
+            65
+          ]
+        }
+      ],
+      "CT_keys": [
+        "0/57/26/25",
+        "0/57/27/24",
+        "0/57/27/25",
+        "0/57/28/24"
+      ]
+    },
+    {
+      "id": "candidate-q25-vn",
+      "anchor": "candidate-q25",
+      "kind": "candidate",
+      "parent_pixel_xy": [
+        4512,
+        2176
+      ],
+      "axis": "v",
+      "shape_hw": [
+        65,
+        193
+      ],
+      "range_DN": [
+        17.034847569549093,
+        248.53252974446352
+      ],
+      "origin_xyz": [
+        3204.305419921875,
+        3536.363037109375,
+        7313.50244140625
+      ],
+      "tangent": [
+        0.07082396071882893,
+        0.013390704051262328,
+        0.9973989450731886
+      ],
+      "normal": [
+        -0.6171273783549933,
+        -0.7849832858382559,
+        0.05436027813824981
+      ],
+      "s_range_inclusive": [
+        -96,
+        96
+      ],
+      "d_range_inclusive": [
+        -32,
+        32
+      ],
+      "array": "sections/candidate-q25-vn.npy",
+      "array_sha256": "70a5ddac714969012e9885aec3767da71b68b398d7aff728b9b947db7c70a8fa",
+      "raw_png": "sections/candidate-q25-vn-raw.png",
+      "raw_sha256": "9dea416d6260ca3ba9769f2232f4781567beae24d7e08f78174ebb94b629e38a",
+      "window_png": "sections/candidate-q25-vn-window.png",
+      "window_sha256": "00f2d697a39dd0e0cfb46706dadffe9b40644b955596afa6ae63f97515fdee28",
+      "geometry_marks": [
+        {
+          "xy": [
+            94,
+            30,
+            98,
+            30
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            94,
+            34,
+            98,
+            34
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            72,
+            32,
+            88,
+            32
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            104,
+            32,
+            120,
+            32
+          ],
+          "color": [
+            255,
+            180,
+            65
+          ]
+        }
+      ],
+      "CT_keys": [
+        "0/56/27/24",
+        "0/56/27/25",
+        "0/57/27/24",
+        "0/57/27/25"
+      ]
+    },
+    {
+      "id": "candidate-q50-un",
+      "anchor": "candidate-q50",
+      "kind": "candidate",
+      "parent_pixel_xy": [
+        4608,
+        2176
+      ],
+      "axis": "u",
+      "shape_hw": [
+        65,
+        193
+      ],
+      "range_DN": [
+        18.47160780045478,
+        254.99999999999997
+      ],
+      "origin_xyz": [
+        3288.00146484375,
+        3491.554443359375,
+        7308.7568359375
+      ],
+      "tangent": [
+        0.9162104103442903,
+        -0.3972994254496077,
+        -0.05207351067633811
+      ],
+      "normal": [
+        -0.3988917949757998,
+        -0.9166704656311704,
+        -0.024507005947642917
+      ],
+      "s_range_inclusive": [
+        -96,
+        96
+      ],
+      "d_range_inclusive": [
+        -32,
+        32
+      ],
+      "array": "sections/candidate-q50-un.npy",
+      "array_sha256": "d6ef368c637d880c6fdd25a4b402f478281d23c1003f15777cbb37de738e6f54",
+      "raw_png": "sections/candidate-q50-un-raw.png",
+      "raw_sha256": "ae923e2468401bd824b0470a83de98c766aed446f4fdef1f8d94c0a84a5d3e51",
+      "window_png": "sections/candidate-q50-un-window.png",
+      "window_sha256": "33d02251c34e6a2ef6caf8e17ccae4ce814fa271577ddce6b858c4b1c5812f08",
+      "geometry_marks": [
+        {
+          "xy": [
+            94,
+            30,
+            98,
+            30
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            94,
+            34,
+            98,
+            34
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            72,
+            32,
+            88,
+            32
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            104,
+            32,
+            120,
+            32
+          ],
+          "color": [
+            255,
+            180,
+            65
+          ]
+        }
+      ],
+      "CT_keys": [
+        "0/57/26/25",
+        "0/57/26/26",
+        "0/57/27/24",
+        "0/57/27/25",
+        "0/57/27/26"
+      ]
+    },
+    {
+      "id": "candidate-q50-vn",
+      "anchor": "candidate-q50",
+      "kind": "candidate",
+      "parent_pixel_xy": [
+        4608,
+        2176
+      ],
+      "axis": "v",
+      "shape_hw": [
+        65,
+        193
+      ],
+      "range_DN": [
+        15.218539059394807,
+        252.0319216646286
+      ],
+      "origin_xyz": [
+        3288.00146484375,
+        3491.554443359375,
+        7308.7568359375
+      ],
+      "tangent": [
+        0.03799762989623993,
+        -0.043225270119975866,
+        0.9983425044268743
+      ],
+      "normal": [
+        -0.3988917949757998,
+        -0.9166704656311704,
+        -0.024507005947642917
+      ],
+      "s_range_inclusive": [
+        -96,
+        96
+      ],
+      "d_range_inclusive": [
+        -32,
+        32
+      ],
+      "array": "sections/candidate-q50-vn.npy",
+      "array_sha256": "446739dd06624bae087e45285ba857b8f7312a70c2f63d666057bac5fbe03cff",
+      "raw_png": "sections/candidate-q50-vn-raw.png",
+      "raw_sha256": "a298ebfef2233ed97e4f04be0c63d1cfce49b3e820889ece4a13cb2d4e74b26d",
+      "window_png": "sections/candidate-q50-vn-window.png",
+      "window_sha256": "7a4937eeecfac7cb2d11432a7409137a1c06ad6686078b47204a3c97b169056b",
+      "geometry_marks": [
+        {
+          "xy": [
+            94,
+            30,
+            98,
+            30
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            94,
+            34,
+            98,
+            34
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            72,
+            32,
+            88,
+            32
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            104,
+            32,
+            120,
+            32
+          ],
+          "color": [
+            255,
+            180,
+            65
+          ]
+        }
+      ],
+      "CT_keys": [
+        "0/56/27/25",
+        "0/57/27/25"
+      ]
+    },
+    {
+      "id": "candidate-q75-un",
+      "anchor": "candidate-q75",
+      "kind": "candidate",
+      "parent_pixel_xy": [
+        4704,
+        2176
+      ],
+      "axis": "u",
+      "shape_hw": [
+        65,
+        193
+      ],
+      "range_DN": [
+        11.941321954101808,
+        255.00000000000003
+      ],
+      "origin_xyz": [
+        3374.23486328125,
+        3453.66796875,
+        7304.1611328125
+      ],
+      "tangent": [
+        0.9879485408397033,
+        -0.15269159915600555,
+        -0.025356580997506355
+      ],
+      "normal": [
+        -0.15378790897037106,
+        -0.9868810882475164,
+        -0.04914261606710488
+      ],
+      "s_range_inclusive": [
+        -96,
+        96
+      ],
+      "d_range_inclusive": [
+        -32,
+        32
+      ],
+      "array": "sections/candidate-q75-un.npy",
+      "array_sha256": "a34ef92c372338b1d8708891c2d54aa7332603dcee7efaa1596aa9204f479551",
+      "raw_png": "sections/candidate-q75-un-raw.png",
+      "raw_sha256": "b39c62072740d0cc1ae9970a2ffca535c192de290b0593645163def9438e0ec4",
+      "window_png": "sections/candidate-q75-un-window.png",
+      "window_sha256": "f41f562ac14c1603d7350c6855142422d2120fad043c0ae546f49240c20149be",
+      "geometry_marks": [
+        {
+          "xy": [
+            94,
+            30,
+            98,
+            30
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            94,
+            34,
+            98,
+            34
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            72,
+            32,
+            88,
+            32
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            104,
+            32,
+            120,
+            32
+          ],
+          "color": [
+            255,
+            180,
+            65
+          ]
+        }
+      ],
+      "CT_keys": [
+        "0/57/26/25",
+        "0/57/26/26",
+        "0/57/26/27",
+        "0/57/27/25",
+        "0/57/27/26",
+        "0/57/27/27"
+      ]
+    },
+    {
+      "id": "candidate-q75-vn",
+      "anchor": "candidate-q75",
+      "kind": "candidate",
+      "parent_pixel_xy": [
+        4704,
+        2176
+      ],
+      "axis": "v",
+      "shape_hw": [
+        65,
+        193
+      ],
+      "range_DN": [
+        20.42112802391285,
+        250.94332827400933
+      ],
+      "origin_xyz": [
+        3374.23486328125,
+        3453.66796875,
+        7304.1611328125
+      ],
+      "tangent": [
+        0.017520265615059507,
+        -0.052449911406786356,
+        0.9984698528679763
+      ],
+      "normal": [
+        -0.15378790897037106,
+        -0.9868810882475164,
+        -0.04914261606710488
+      ],
+      "s_range_inclusive": [
+        -96,
+        96
+      ],
+      "d_range_inclusive": [
+        -32,
+        32
+      ],
+      "array": "sections/candidate-q75-vn.npy",
+      "array_sha256": "69abc5f021bcc36c3d0a6ba35b0ff2c57c9779a0693b9713c3c18078d0e5f64c",
+      "raw_png": "sections/candidate-q75-vn-raw.png",
+      "raw_sha256": "522273eea38b92bb706ba6ce582fea83428a53edccc290af74cba31008ee7424",
+      "window_png": "sections/candidate-q75-vn-window.png",
+      "window_sha256": "bf4116bd3a492f80e0a59fad9f52bc3437433b3bf10a33fc1983d3c5bb24dd19",
+      "geometry_marks": [
+        {
+          "xy": [
+            94,
+            30,
+            98,
+            30
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            94,
+            34,
+            98,
+            34
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            72,
+            32,
+            88,
+            32
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            104,
+            32,
+            120,
+            32
+          ],
+          "color": [
+            255,
+            180,
+            65
+          ]
+        }
+      ],
+      "CT_keys": [
+        "0/56/26/26",
+        "0/56/27/26",
+        "0/57/26/26",
+        "0/57/27/26"
+      ]
+    },
+    {
+      "id": "known_phi-q25-un",
+      "anchor": "known_phi-q25",
+      "kind": "known_phi",
+      "parent_pixel_xy": [
+        4784,
+        3270
+      ],
+      "axis": "u",
+      "shape_hw": [
+        65,
+        193
+      ],
+      "range_DN": [
+        12.32857073563179,
+        207.0662512817775
+      ],
+      "origin_xyz": [
+        3474.205078125,
+        3349.65283203125,
+        8369.14453125
+      ],
+      "tangent": [
+        0.9937860244278984,
+        -0.10914736319889007,
+        -0.021821795492633154
+      ],
+      "normal": [
+        -0.11123386303897138,
+        -0.966731383400606,
+        -0.230342050138002
+      ],
+      "s_range_inclusive": [
+        -96,
+        96
+      ],
+      "d_range_inclusive": [
+        -32,
+        32
+      ],
+      "array": "sections/known_phi-q25-un.npy",
+      "array_sha256": "b53f95649ce046dcb0691eab41eb7de6db31f5fe0cdb724acbad9b6b4d13e97b",
+      "raw_png": "sections/known_phi-q25-un-raw.png",
+      "raw_sha256": "e67d1eee07d35e4c045ee987d95629b9e63fded56eeab2dd30f17974c13017be",
+      "window_png": "sections/known_phi-q25-un-window.png",
+      "window_sha256": "208d806a09be1fa36f2b357c22f329c01b418f67b3604c1e3be842e7e4ce07ad",
+      "geometry_marks": [
+        {
+          "xy": [
+            94,
+            30,
+            98,
+            30
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            94,
+            34,
+            98,
+            34
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            72,
+            32,
+            88,
+            32
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            104,
+            32,
+            120,
+            32
+          ],
+          "color": [
+            255,
+            180,
+            65
+          ]
+        }
+      ],
+      "CT_keys": [
+        "0/65/25/26",
+        "0/65/25/27",
+        "0/65/26/26",
+        "0/65/26/27"
+      ]
+    },
+    {
+      "id": "known_phi-q25-vn",
+      "anchor": "known_phi-q25",
+      "kind": "known_phi",
+      "parent_pixel_xy": [
+        4784,
+        3270
+      ],
+      "axis": "v",
+      "shape_hw": [
+        65,
+        193
+      ],
+      "range_DN": [
+        17.36532406229327,
+        213.75801461578214
+      ],
+      "origin_xyz": [
+        3474.205078125,
+        3349.65283203125,
+        8369.14453125
+      ],
+      "tangent": [
+        -0.00404541286151109,
+        -0.23133803287630864,
+        0.9728650210485009
+      ],
+      "normal": [
+        -0.11123386303897138,
+        -0.966731383400606,
+        -0.230342050138002
+      ],
+      "s_range_inclusive": [
+        -96,
+        96
+      ],
+      "d_range_inclusive": [
+        -32,
+        32
+      ],
+      "array": "sections/known_phi-q25-vn.npy",
+      "array_sha256": "3a2a8885de2d365186826e0ed0e15783640a8231a4fd0ebd7be9d3d7befc6d05",
+      "raw_png": "sections/known_phi-q25-vn-raw.png",
+      "raw_sha256": "4df44ce794c0dcae8773ef5043b0c79d48ece67a050bf6acbf4f0247061b2156",
+      "window_png": "sections/known_phi-q25-vn-window.png",
+      "window_sha256": "667aba3a8d6dc854c9922cb92ab6d76e8f65d8da7941287305cd574e36b84402",
+      "geometry_marks": [
+        {
+          "xy": [
+            94,
+            30,
+            98,
+            30
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            94,
+            34,
+            98,
+            34
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            72,
+            32,
+            88,
+            32
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            104,
+            32,
+            120,
+            32
+          ],
+          "color": [
+            255,
+            180,
+            65
+          ]
+        }
+      ],
+      "CT_keys": [
+        "0/64/26/27",
+        "0/65/25/27",
+        "0/65/26/27",
+        "0/66/25/27",
+        "0/66/26/27"
+      ]
+    },
+    {
+      "id": "known_phi-q50-un",
+      "anchor": "known_phi-q50",
+      "kind": "known_phi",
+      "parent_pixel_xy": [
+        4864,
+        3270
+      ],
+      "axis": "u",
+      "shape_hw": [
+        65,
+        193
+      ],
+      "range_DN": [
+        6.611362710587749,
+        254.11496578607716
+      ],
+      "origin_xyz": [
+        3553.7626953125,
+        3349.50537109375,
+        8369.0263671875
+      ],
+      "tangent": [
+        0.9947600526408029,
+        0.10172098562572227,
+        0.010260543523558336
+      ],
+      "normal": [
+        0.10147878821288954,
+        -0.9701946542226764,
+        -0.22005542133877284
+      ],
+      "s_range_inclusive": [
+        -96,
+        96
+      ],
+      "d_range_inclusive": [
+        -32,
+        32
+      ],
+      "array": "sections/known_phi-q50-un.npy",
+      "array_sha256": "cee865ffd51f2063d9d859a5e8eb049984b3f9bc99b8350a4bf7c56ec634ed31",
+      "raw_png": "sections/known_phi-q50-un-raw.png",
+      "raw_sha256": "5ec09eaf3c8ce1f7643b3402577edf005df4ae457e76bc8a917990112649e60b",
+      "window_png": "sections/known_phi-q50-un-window.png",
+      "window_sha256": "111f79e62f0d1e3ff86504f26db8c9dcc1142d76cfb1c24092e591b38b7952e4",
+      "geometry_marks": [
+        {
+          "xy": [
+            94,
+            30,
+            98,
+            30
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            94,
+            34,
+            98,
+            34
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            72,
+            32,
+            88,
+            32
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            104,
+            32,
+            120,
+            32
+          ],
+          "color": [
+            255,
+            180,
+            65
+          ]
+        }
+      ],
+      "CT_keys": [
+        "0/65/25/27",
+        "0/65/25/28",
+        "0/65/26/26",
+        "0/65/26/27",
+        "0/65/26/28"
+      ]
+    },
+    {
+      "id": "known_phi-q50-vn",
+      "anchor": "known_phi-q50",
+      "kind": "known_phi",
+      "parent_pixel_xy": [
+        4864,
+        3270
+      ],
+      "axis": "v",
+      "shape_hw": [
+        65,
+        193
+      ],
+      "range_DN": [
+        9.00600618970776,
+        243.45375230723994
+      ],
+      "origin_xyz": [
+        3553.7626953125,
+        3349.50537109375,
+        8369.0263671875
+      ],
+      "tangent": [
+        0.012429529874888169,
+        -0.21994357003802806,
+        0.9754334076634942
+      ],
+      "normal": [
+        0.10147878821288954,
+        -0.9701946542226764,
+        -0.22005542133877284
+      ],
+      "s_range_inclusive": [
+        -96,
+        96
+      ],
+      "d_range_inclusive": [
+        -32,
+        32
+      ],
+      "array": "sections/known_phi-q50-vn.npy",
+      "array_sha256": "c21c99bc195ad718157956bd0d9cfed46bfac9820a3ee2a27be7c17a6a837caf",
+      "raw_png": "sections/known_phi-q50-vn-raw.png",
+      "raw_sha256": "b8ff1978b2474fdc82650e4d2ccee6df59dbc0f2f132399f92e61ccd92e706c5",
+      "window_png": "sections/known_phi-q50-vn-window.png",
+      "window_sha256": "d88cd7d350361508ad030e5189e54e4693423fd73b773516803140904f10f29f",
+      "geometry_marks": [
+        {
+          "xy": [
+            94,
+            30,
+            98,
+            30
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            94,
+            34,
+            98,
+            34
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            72,
+            32,
+            88,
+            32
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            104,
+            32,
+            120,
+            32
+          ],
+          "color": [
+            255,
+            180,
+            65
+          ]
+        }
+      ],
+      "CT_keys": [
+        "0/64/26/27",
+        "0/65/25/27",
+        "0/65/26/27",
+        "0/66/25/27",
+        "0/66/26/27"
+      ]
+    },
+    {
+      "id": "known_phi-q75-un",
+      "anchor": "known_phi-q75",
+      "kind": "known_phi",
+      "parent_pixel_xy": [
+        4944,
+        3270
+      ],
+      "axis": "u",
+      "shape_hw": [
+        65,
+        193
+      ],
+      "range_DN": [
+        3.3297209684289886,
+        197.25706016482104
+      ],
+      "origin_xyz": [
+        3631.0263671875,
+        3369.468017578125,
+        8371.8154296875
+      ],
+      "tangent": [
+        0.9596632698310907,
+        0.2796524411116141,
+        0.02899863302664941
+      ],
+      "normal": [
+        0.28042563385783636,
+        -0.9446701865274747,
+        -0.1701755051750307
+      ],
+      "s_range_inclusive": [
+        -96,
+        96
+      ],
+      "d_range_inclusive": [
+        -32,
+        32
+      ],
+      "array": "sections/known_phi-q75-un.npy",
+      "array_sha256": "040d3d493e3793082d97159d74f13c8cf7c43ac8e3612460a00a3d7322b61e4d",
+      "raw_png": "sections/known_phi-q75-un-raw.png",
+      "raw_sha256": "aecbcf2a111ddfaa3f4990da6e6d5ebbdce728ef88b64feec9cdccd81b653ae0",
+      "window_png": "sections/known_phi-q75-un-window.png",
+      "window_sha256": "a151f9b686b28ad79589dec05e38ad27f1b67553efbd220676540e24e025e6ad",
+      "geometry_marks": [
+        {
+          "xy": [
+            94,
+            30,
+            98,
+            30
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            94,
+            34,
+            98,
+            34
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            72,
+            32,
+            88,
+            32
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            104,
+            32,
+            120,
+            32
+          ],
+          "color": [
+            255,
+            180,
+            65
+          ]
+        }
+      ],
+      "CT_keys": [
+        "0/65/25/27",
+        "0/65/25/28",
+        "0/65/26/27",
+        "0/65/26/28",
+        "0/65/26/29"
+      ]
+    },
+    {
+      "id": "known_phi-q75-vn",
+      "anchor": "known_phi-q75",
+      "kind": "known_phi",
+      "parent_pixel_xy": [
+        4944,
+        3270
+      ],
+      "axis": "v",
+      "shape_hw": [
+        65,
+        193
+      ],
+      "range_DN": [
+        5.3217158531317965,
+        207.88873626824417
+      ],
+      "origin_xyz": [
+        3631.0263671875,
+        3369.468017578125,
+        8371.8154296875
+      ],
+      "tangent": [
+        0.020195851369272762,
+        -0.1714431417889366,
+        0.9849869931735185
+      ],
+      "normal": [
+        0.28042563385783636,
+        -0.9446701865274747,
+        -0.1701755051750307
+      ],
+      "s_range_inclusive": [
+        -96,
+        96
+      ],
+      "d_range_inclusive": [
+        -32,
+        32
+      ],
+      "array": "sections/known_phi-q75-vn.npy",
+      "array_sha256": "f54af8195b81a65cf5b39f854f6c5f1cd2cca88b12cef5206df2997f5c75c81f",
+      "raw_png": "sections/known_phi-q75-vn-raw.png",
+      "raw_sha256": "ea8351334217df32dc2626e18e02a32d5ff233ef10882b54aae5e114bddcff32",
+      "window_png": "sections/known_phi-q75-vn-window.png",
+      "window_sha256": "06dfb29c64cb863b161a7d5ca51b3e6539fdbe6f34c95b89cf64614412bd31ea",
+      "geometry_marks": [
+        {
+          "xy": [
+            94,
+            30,
+            98,
+            30
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            94,
+            34,
+            98,
+            34
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            72,
+            32,
+            88,
+            32
+          ],
+          "color": [
+            0,
+            230,
+            255
+          ]
+        },
+        {
+          "xy": [
+            104,
+            32,
+            120,
+            32
+          ],
+          "color": [
+            255,
+            180,
+            65
+          ]
+        }
+      ],
+      "CT_keys": [
+        "0/64/26/28",
+        "0/65/25/28",
+        "0/65/26/28",
+        "0/66/25/28",
+        "0/66/26/28"
+      ]
+    }
+  ],
+  "display": {
+    "native_samples_per_pixel": 1,
+    "width": 193,
+    "height": 65,
+    "raw_DN_window": [
+      0,
+      255
+    ],
+    "fixed_DN_window": [
+      46,
+      169
+    ],
+    "fixed_window_basis": "Same display as R235, chosen before any R240 CT read; do not adapt per plane.",
+    "formula": "floor(clip(255*(DN-lo)/(hi-lo),0,255)+0.5). Preserve float64 NPY separately.",
+    "raw": "Unannotated grayscale native image",
+    "window": "Same native samples, grayscale with short cyan/orange geometry-axis marks only at origin/s axis as in R235; d positive downward; marker is not a traced layer.",
+    "figures": 24,
+    "optional_fixed_nearest_enlargement": false,
+    "no_rotations_reflections_resampling_or_percentile_tuning": true
+  },
+  "sampling": {
+    "method": "R235/R204 existing float64 trilinear over original uint8 level0 CT; remove only terminal uint8 rounding, as R235 did. Exactly eight floor/+1 corners.",
+    "purpose": "Observational tangent-normal sections, not a new papyrus surface, model input, or a proposed change to R236 renderer arithmetic.",
+    "missing_policy": "All eight corners must be in the fixed25keys, valid metadata and volume bounds. Missing bytes/corners stop; no extrapolation, padding, replacement, widening, or new position.",
+    "no_ct_values_used_to_select_positions": true
+  },
+  "elapsed_render_seconds": 5.490331999986665,
+  "borrowed_helpers": {
+    "R235_render_sections_sha256": "cad8d9bb66aefbef9abb5ce11d3b3b9f78971f7eb7ad1f0fac92647f8904cabf",
+    "R204_sections_sha256": "f0c40d7dde45dea07c79441f6098b37f9066d41b76d8fc2c1394220c33ed2776",
+    "float64_terminal_rounding_removed_by_existing_R235_readback": true
+  },
+  "C_new_bytes_snapshot": 4474309,
+  "C_free_bytes": 6235361280,
+  "new_CT_bytes": 2097152,
+  "GPU_forwards": 0,
+  "cost_USD": 0
+}

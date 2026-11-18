@@ -1,0 +1,87 @@
+{
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/villa/4bbdf01314da473cd5bb720d0cb5a1498a32eddd/vesuvius/src/vesuvius/ink_detection/face_check.py",
+      "local": "originals/pr2318-face_check.py",
+      "method": "GET",
+      "utc": "2026-11-14T11:05:15.061605+00:00",
+      "utc_basis": "file save time",
+      "http_status": 200,
+      "bytes": 8487,
+      "sha256": "e14b73d16ad6d0f7208924d85cda146af9a1c7d115364089f4b891f5a51859ba"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/vesuvius_survey/inkcheck.py",
+      "local": "originals/survey-inkcheck.py",
+      "method": "GET",
+      "utc": "2026-11-14T11:05:45.495876+00:00",
+      "utc_basis": "file save time",
+      "http_status": 200,
+      "bytes": 11173,
+      "sha256": "009f013b1e5f40f27de70c7d76096d553c9ca04a0e52557a4ba03d5cb03e91b3"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/vesuvius_survey/side.py",
+      "local": "originals/survey-side.py",
+      "method": "GET",
+      "utc": "2026-11-14T11:05:45.789282+00:00",
+      "utc_basis": "file save time",
+      "http_status": 200,
+      "bytes": 3502,
+      "sha256": "d772cb09abab60269084ca82ba047021f941a56e79dccca441b7563080464434"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/analysis/takeaways.md",
+      "local": "originals/survey-takeaways.md",
+      "method": "GET",
+      "utc": "2026-11-14T11:05:46.086665+00:00",
+      "utc_basis": "file save time",
+      "http_status": 200,
+      "bytes": 2665,
+      "sha256": "2eac571a47645b98fbd100c529dce9873249217d562b34904e3324c1990acf5e"
+    },
+    {
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/2318",
+      "local": "originals/pr2318.json",
+      "method": "GET",
+      "utc": "2026-11-14T11:08:04.519949+00:00",
+      "http_status": 200,
+      "bytes": 24389,
+      "sha256": "d96cb13063667cb3176c5cce3ee29c1d176ba3c11327ed4aca558822404fd1e0",
+      "curl_seconds": 0.45844779999606544
+    },
+    {
+      "url": "https://api.github.com/repos/ketchupbyheinz/vesuvius-scroll-survey/commits/1f12c1ceb14c1f24acc48249eaad60bcdf541721",
+      "local": "originals/survey-commit.json",
+      "method": "GET",
+      "utc": "2026-11-14T11:08:05.026204+00:00",
+      "http_status": 200,
+      "bytes": 7796,
+      "sha256": "e4b07cccc0ce6f7d49260e2bb18673fe91b05cfac49fc0fd85a60b8e1f0030fe",
+      "curl_seconds": 0.34706299999379553
+    },
+    {
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0268/kbh-PHerc0268_2704_5907_7421/ct_mid.png",
+      "local": "originals/PHerc0268-ct-mid.png",
+      "method": "GET",
+      "utc": "2026-11-14T11:08:05.394002+00:00",
+      "http_status": 200,
+      "bytes": 2135049,
+      "sha256": "f8cc55e9c5a71b37f64c9d62c7e733f7bc1cf0ebed7557b6e4d69bd9bdc887ea",
+      "curl_seconds": 2.3606595000019297
+    },
+    {
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0483A/kbh-PHerc0483A_3155_3610_11128/ct_mid.png",
+      "local": "originals/PHerc0483A-ct-mid.png",
+      "method": "GET",
+      "utc": "2026-11-14T11:08:07.760472+00:00",
+      "http_status": 200,
+      "bytes": 2502997,
+      "sha256": "a54891dd5bb0377b8904fa99dc83a9df57092ccca89f4c86b132b5fb8af5033b",
+      "curl_seconds": 2.3109207000015886
+    }
+  ],
+  "saved_body_bytes": 4696058,
+  "measured_curl_seconds": 5.477090999993379,
+  "earlier_communication_seconds": "not individually measured; bounded as described in README"
+}

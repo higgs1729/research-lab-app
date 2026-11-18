@@ -1,0 +1,652 @@
+{
+  "v9_shape": [
+    87,
+    301,
+    3
+  ],
+  "v9_source_shape": [
+    119,
+    334,
+    3
+  ],
+  "v6_parent_shape": [
+    230,
+    303,
+    3
+  ],
+  "coordinate_axes": "XYZ volume-native voxels; grid node at continuous canvas u=20*col,v=20*row. This is not the exact XYZ of an integer image pixel centre. Existing renderer convention is gr=(v+0.5)*0.05,gc=(u+0.5)*0.05; pinned upstream renderer has not been rerun here.",
+  "known_control": {
+    "label": "article phi, visual correspondence; ROI [4640,780,320,300]",
+    "center_grid_rc": [
+      45,
+      240
+    ],
+    "continuous_canvas_node_uv": [
+      4800,
+      900
+    ],
+    "xyz": [
+      3516.6298828125,
+      3347.90625,
+      8367.599609375
+    ]
+  },
+  "right_edge_rows": [
+    {
+      "v9_grid_rc": [
+        40,
+        298
+      ],
+      "v9_continuous_canvas_node_uv": [
+        5960,
+        800
+      ],
+      "xyz": [
+        4217.2080078125,
+        4210.2919921875,
+        8358.7294921875
+      ],
+      "tangent_outward_u": [
+        0.6538204157600624,
+        0.7490956363732598,
+        0.10665172995258965
+      ],
+      "probe_note": "straight tangent extrapolation for coverage diagnosis, not generated or verified papyrus surface",
+      "v6_probes": [
+        {
+          "extrapolation_vox": 0,
+          "v6_nearest_distance_vox": 7.0219173801910495,
+          "v6_grid_rc": [
+            157,
+            299
+          ],
+          "v6_xyz": [
+            4213.00634765625,
+            4204.666015625,
+            8358.6875
+          ]
+        },
+        {
+          "extrapolation_vox": 20,
+          "v6_nearest_distance_vox": 9.218784655883143,
+          "v6_grid_rc": [
+            157,
+            300
+          ],
+          "v6_xyz": [
+            4224.15478515625,
+            4218.388671875,
+            8360.947265625
+          ]
+        },
+        {
+          "extrapolation_vox": 40,
+          "v6_nearest_distance_vox": 10.205186905342664,
+          "v6_grid_rc": [
+            155,
+            91
+          ],
+          "v6_xyz": [
+            4243.609375,
+            4246.3603515625,
+            8354.8212890625
+          ]
+        },
+        {
+          "extrapolation_vox": 80,
+          "v6_nearest_distance_vox": 31.496843408148564,
+          "v6_grid_rc": [
+            155,
+            92
+          ],
+          "v6_xyz": [
+            4240.27001953125,
+            4262.7548828125,
+            8358.25390625
+          ]
+        },
+        {
+          "extrapolation_vox": 160,
+          "v6_nearest_distance_vox": 106.74798806714675,
+          "v6_grid_rc": [
+            154,
+            92
+          ],
+          "v6_xyz": [
+            4243.8994140625,
+            4267.283203125,
+            8338.7568359375
+          ]
+        }
+      ]
+    },
+    {
+      "v9_grid_rc": [
+        42,
+        298
+      ],
+      "v9_continuous_canvas_node_uv": [
+        5960,
+        840
+      ],
+      "xyz": [
+        4210.22509765625,
+        4210.63916015625,
+        8398.435546875
+      ],
+      "tangent_outward_u": [
+        0.6948548731596832,
+        0.7094000470473525,
+        0.11801812782557872
+      ],
+      "probe_note": "straight tangent extrapolation for coverage diagnosis, not generated or verified papyrus surface",
+      "v6_probes": [
+        {
+          "extrapolation_vox": 0,
+          "v6_nearest_distance_vox": 7.9627754103910355,
+          "v6_grid_rc": [
+            159,
+            299
+          ],
+          "v6_xyz": [
+            4204.67431640625,
+            4204.93212890625,
+            8398.279296875
+          ]
+        },
+        {
+          "extrapolation_vox": 20,
+          "v6_nearest_distance_vox": 9.957646808696376,
+          "v6_grid_rc": [
+            159,
+            300
+          ],
+          "v6_xyz": [
+            4217.13623046875,
+            4217.7314453125,
+            8400.8388671875
+          ]
+        },
+        {
+          "extrapolation_vox": 40,
+          "v6_nearest_distance_vox": 5.860723420569542,
+          "v6_grid_rc": [
+            158,
+            91
+          ],
+          "v6_xyz": [
+            4239.833984375,
+            4239.66943359375,
+            8408.6904296875
+          ]
+        },
+        {
+          "extrapolation_vox": 80,
+          "v6_nearest_distance_vox": 29.07647964993221,
+          "v6_grid_rc": [
+            158,
+            92
+          ],
+          "v6_xyz": [
+            4238.7607421875,
+            4256.7333984375,
+            8407.9287109375
+          ]
+        },
+        {
+          "extrapolation_vox": 160,
+          "v6_nearest_distance_vox": 105.30389813151555,
+          "v6_grid_rc": [
+            159,
+            92
+          ],
+          "v6_xyz": [
+            4239.703125,
+            4258.65771484375,
+            8428.5380859375
+          ]
+        }
+      ]
+    },
+    {
+      "v9_grid_rc": [
+        44,
+        298
+      ],
+      "v9_continuous_canvas_node_uv": [
+        5960,
+        880
+      ],
+      "xyz": [
+        4203.02978515625,
+        4210.9658203125,
+        8438.076171875
+      ],
+      "tangent_outward_u": [
+        0.7026422810597892,
+        0.7010097025873587,
+        0.1219804154177176
+      ],
+      "probe_note": "straight tangent extrapolation for coverage diagnosis, not generated or verified papyrus surface",
+      "v6_probes": [
+        {
+          "extrapolation_vox": 0,
+          "v6_nearest_distance_vox": 8.943941809238888,
+          "v6_grid_rc": [
+            161,
+            299
+          ],
+          "v6_xyz": [
+            4196.53271484375,
+            4204.82275390625,
+            8437.8642578125
+          ]
+        },
+        {
+          "extrapolation_vox": 20,
+          "v6_nearest_distance_vox": 10.731851058669982,
+          "v6_grid_rc": [
+            161,
+            300
+          ],
+          "v6_xyz": [
+            4209.35693359375,
+            4217.537109375,
+            8440.5224609375
+          ]
+        },
+        {
+          "extrapolation_vox": 40,
+          "v6_nearest_distance_vox": 7.573768588151434,
+          "v6_grid_rc": [
+            160,
+            91
+          ],
+          "v6_xyz": [
+            4235.89013671875,
+            4241.00390625,
+            8448.501953125
+          ]
+        },
+        {
+          "extrapolation_vox": 80,
+          "v6_nearest_distance_vox": 20.793478087291057,
+          "v6_grid_rc": [
+            160,
+            92
+          ],
+          "v6_xyz": [
+            4240.0556640625,
+            4259.1728515625,
+            8449.34765625
+          ]
+        },
+        {
+          "extrapolation_vox": 160,
+          "v6_nearest_distance_vox": 99.21117644297217,
+          "v6_grid_rc": [
+            160,
+            92
+          ],
+          "v6_xyz": [
+            4240.0556640625,
+            4259.1728515625,
+            8449.34765625
+          ]
+        }
+      ]
+    },
+    {
+      "v9_grid_rc": [
+        46,
+        298
+      ],
+      "v9_continuous_canvas_node_uv": [
+        5960,
+        920
+      ],
+      "xyz": [
+        4195.943359375,
+        4211.0791015625,
+        8477.6357421875
+      ],
+      "tangent_outward_u": [
+        0.7107963176177331,
+        0.6925788892957161,
+        0.12289457662152067
+      ],
+      "probe_note": "straight tangent extrapolation for coverage diagnosis, not generated or verified papyrus surface",
+      "v6_probes": [
+        {
+          "extrapolation_vox": 0,
+          "v6_nearest_distance_vox": 8.836570615878363,
+          "v6_grid_rc": [
+            163,
+            300
+          ],
+          "v6_xyz": [
+            4202.53564453125,
+            4216.37109375,
+            8480.208984375
+          ]
+        },
+        {
+          "extrapolation_vox": 20,
+          "v6_nearest_distance_vox": 11.462971537832376,
+          "v6_grid_rc": [
+            163,
+            300
+          ],
+          "v6_xyz": [
+            4202.53564453125,
+            4216.37109375,
+            8480.208984375
+          ]
+        },
+        {
+          "extrapolation_vox": 40,
+          "v6_nearest_distance_vox": 8.377026594551674,
+          "v6_grid_rc": [
+            162,
+            91
+          ],
+          "v6_xyz": [
+            4230.34130859375,
+            4238.13671875,
+            8488.396484375
+          ]
+        },
+        {
+          "extrapolation_vox": 80,
+          "v6_nearest_distance_vox": 20.37921632235719,
+          "v6_grid_rc": [
+            162,
+            92
+          ],
+          "v6_xyz": [
+            4235.748046875,
+            4255.6484375,
+            8490.0869140625
+          ]
+        },
+        {
+          "extrapolation_vox": 160,
+          "v6_nearest_distance_vox": 98.88690251986074,
+          "v6_grid_rc": [
+            161,
+            92
+          ],
+          "v6_xyz": [
+            4239.16650390625,
+            4258.15869140625,
+            8469.98828125
+          ]
+        }
+      ]
+    },
+    {
+      "v9_grid_rc": [
+        48,
+        298
+      ],
+      "v9_continuous_canvas_node_uv": [
+        5960,
+        960
+      ],
+      "xyz": [
+        4189.63720703125,
+        4208.6435546875,
+        8511.5361328125
+      ],
+      "tangent_outward_u": [
+        0.698163112216041,
+        0.6932333147089409,
+        -0.1788738105997245
+      ],
+      "probe_note": "straight tangent extrapolation for coverage diagnosis, not generated or verified papyrus surface",
+      "v6_probes": [
+        {
+          "extrapolation_vox": 0,
+          "v6_nearest_distance_vox": 11.820074861889703,
+          "v6_grid_rc": [
+            165,
+            300
+          ],
+          "v6_xyz": [
+            4198.64404296875,
+            4214.45947265625,
+            8506.5595703125
+          ]
+        },
+        {
+          "extrapolation_vox": 20,
+          "v6_nearest_distance_vox": 9.555414893259552,
+          "v6_grid_rc": [
+            165,
+            300
+          ],
+          "v6_xyz": [
+            4198.64404296875,
+            4214.45947265625,
+            8506.5595703125
+          ]
+        },
+        {
+          "extrapolation_vox": 40,
+          "v6_nearest_distance_vox": 11.157788785064819,
+          "v6_grid_rc": [
+            163,
+            91
+          ],
+          "v6_xyz": [
+            4227.8828125,
+            4236.5625,
+            8508.62109375
+          ]
+        },
+        {
+          "extrapolation_vox": 80,
+          "v6_nearest_distance_vox": 14.742688969608219,
+          "v6_grid_rc": [
+            162,
+            92
+          ],
+          "v6_xyz": [
+            4235.748046875,
+            4255.6484375,
+            8490.0869140625
+          ]
+        },
+        {
+          "extrapolation_vox": 160,
+          "v6_nearest_distance_vox": 88.33639251261033,
+          "v6_grid_rc": [
+            161,
+            92
+          ],
+          "v6_xyz": [
+            4239.16650390625,
+            4258.15869140625,
+            8469.98828125
+          ]
+        }
+      ]
+    },
+    {
+      "v9_grid_rc": [
+        50,
+        297
+      ],
+      "v9_continuous_canvas_node_uv": [
+        5940,
+        1000
+      ],
+      "xyz": [
+        4174.26513671875,
+        4191.79345703125,
+        8554.6005859375
+      ],
+      "tangent_outward_u": [
+        0.680028895211534,
+        0.7257215731732479,
+        0.10434989175043141
+      ],
+      "probe_note": "straight tangent extrapolation for coverage diagnosis, not generated or verified papyrus surface",
+      "v6_probes": [
+        {
+          "extrapolation_vox": 0,
+          "v6_nearest_distance_vox": 7.051925338109705,
+          "v6_grid_rc": [
+            167,
+            299
+          ],
+          "v6_xyz": [
+            4178.9853515625,
+            4196.32421875,
+            8557.2314453125
+          ]
+        },
+        {
+          "extrapolation_vox": 20,
+          "v6_nearest_distance_vox": 13.37274448391864,
+          "v6_grid_rc": [
+            167,
+            299
+          ],
+          "v6_xyz": [
+            4178.9853515625,
+            4196.32421875,
+            8557.2314453125
+          ]
+        },
+        {
+          "extrapolation_vox": 40,
+          "v6_nearest_distance_vox": 17.34681424119713,
+          "v6_grid_rc": [
+            166,
+            90
+          ],
+          "v6_xyz": [
+            4216.0927734375,
+            4219.29931640625,
+            8567.9755859375
+          ]
+        },
+        {
+          "extrapolation_vox": 80,
+          "v6_nearest_distance_vox": 13.765570395077548,
+          "v6_grid_rc": [
+            166,
+            91
+          ],
+          "v6_xyz": [
+            4225.68798828125,
+            4238.3056640625,
+            8569.8271484375
+          ]
+        },
+        {
+          "extrapolation_vox": 160,
+          "v6_nearest_distance_vox": 59.35307565104941,
+          "v6_grid_rc": [
+            166,
+            93
+          ],
+          "v6_xyz": [
+            4237.20263671875,
+            4270.296875,
+            8569.2158203125
+          ]
+        }
+      ]
+    },
+    {
+      "v9_grid_rc": [
+        52,
+        299
+      ],
+      "v9_continuous_canvas_node_uv": [
+        5980,
+        1040
+      ],
+      "xyz": [
+        4196.890625,
+        4210.75634765625,
+        8603.01171875
+      ],
+      "tangent_outward_u": [
+        0.6714713031477973,
+        0.5896081879898276,
+        0.4488746748306826
+      ],
+      "probe_note": "straight tangent extrapolation for coverage diagnosis, not generated or verified papyrus surface",
+      "v6_probes": [
+        {
+          "extrapolation_vox": 0,
+          "v6_nearest_distance_vox": 1.3507204464608156,
+          "v6_grid_rc": [
+            169,
+            301
+          ],
+          "v6_xyz": [
+            4196.8857421875,
+            4210.87255859375,
+            8601.666015625
+          ]
+        },
+        {
+          "extrapolation_vox": 20,
+          "v6_nearest_distance_vox": 8.454490961262751,
+          "v6_grid_rc": [
+            168,
+            90
+          ],
+          "v6_xyz": [
+            4214.2412109375,
+            4216.26708984375,
+            8607.9091796875
+          ]
+        },
+        {
+          "extrapolation_vox": 40,
+          "v6_nearest_distance_vox": 10.63031595817825,
+          "v6_grid_rc": [
+            169,
+            91
+          ],
+          "v6_xyz": [
+            4225.9365234375,
+            4229.876953125,
+            8630.36328125
+          ]
+        },
+        {
+          "extrapolation_vox": 80,
+          "v6_nearest_distance_vox": 15.799258952913243,
+          "v6_grid_rc": [
+            169,
+            93
+          ],
+          "v6_xyz": [
+            4235.6044921875,
+            4261.54150390625,
+            8635.5419921875
+          ]
+        },
+        {
+          "extrapolation_vox": 160,
+          "v6_nearest_distance_vox": 87.30795373348924,
+          "v6_grid_rc": [
+            170,
+            93
+          ],
+          "v6_xyz": [
+            4233.4482421875,
+            4257.61474609375,
+            8656.263671875
+          ]
+        }
+      ]
+    }
+  ]
+}

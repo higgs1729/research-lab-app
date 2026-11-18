@@ -1,0 +1,79 @@
+{
+  "cpu_affinity": [
+    0
+  ],
+  "AS_bytes": 4294967296,
+  "core_dump": 0,
+  "env_overrides": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PASTIX_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "TMPDIR": "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-low-keep01",
+    "OMP_THREAD_LIMIT": "1",
+    "WANDB_DISABLED": "true",
+    "AGENTS_AGENT_MODE": "1",
+    "CUDA_VISIBLE_DEVICES": ""
+  },
+  "keep_percent": 1.5,
+  "iterations": 5,
+  "budget_seconds": 180,
+  "source": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01",
+  "binaries": {
+    "trace": {
+      "binary": "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/trace-flatboi",
+      "sha256": "43e77083187f03a7a34262d3fb98126cad786696b7f667cff3960619795b7846",
+      "objects": {
+        "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/trace-flatboi.o": "9091c24701e0985d06cc665536e4791929ae19851abe269631616278b26b449e",
+        "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/trace-SurfaceMeshing.o": "a6a6ce663799c0709431e758f0596a42ff78ddba2c124dcb83d228a9d6ed15b0"
+      },
+      "deps": {
+        "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/trace-flatboi.d": "d13abb4307140f1e6f76358480a7868f70ca7361d540d8deddf08cb8c9985b41",
+        "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/trace-SurfaceMeshing.d": "3d24f08bf974f881f5ed526b02517130640d290cb4c938fee7d45bddcd13641b"
+      }
+    },
+    "product": {
+      "binary": "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-flatboi",
+      "sha256": "4a7095c75418d8866dc376cf6d68856b478c242eb198635b92d8956bfc29aa5c",
+      "objects": {
+        "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-flatboi.o": "25defe74967689e0ac9dd63e6c25045de83386a899ca7aa1e17b87d7c1543e7e",
+        "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-SurfaceMeshing.o": "e90dac4165720db6e237fc995a4992dfd72a7fed5385bc37d0ae8828f187b800"
+      },
+      "deps": {
+        "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-flatboi.d": "75ad66db3bb301bfda098a1f6112b50ff9adbc04ab4021b1596a2e1deca7fc99",
+        "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-SurfaceMeshing.d": "53aa9cca96fb7a3d897504cfa96ba79d6644c94426604849ed46b61d7b5093ba"
+      }
+    }
+  },
+  "protected_before": {
+    "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp": "3eeb1bc7225c5588007e2dc9b54aa04523745d0a4e8e4f1321681ee5d77cd36c",
+    "/mnt/d/kensyoukin-work/r003-build/compile_commands.json": "f0a73c918273d913ad23451b29ed3ee685062cde0278d568350ba1f8fa11ae7b",
+    "/mnt/d/kensyoukin-work/r003-build/build.ninja": "69d995d3c61969f8aca07ce25f1ce328e8fbbaf39774f610c202c4bbbd11838a",
+    "/mnt/d/kensyoukin-work/r003-build/CMakeCache.txt": "abf299eea98d3e50448047e195c677abcdca167899f284af0e229b5a52d4b09d",
+    "/mnt/d/kensyoukin-work/r003-build/bin/flatboi": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef",
+    "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-baseline": "fae4e8af0277727de2a6b874492bab96dd969a9e5ea1175a38bd93b56ce63000",
+    "/mnt/d/kensyoukin-work/r005-build05/SurfaceMeshing-trace.o": "53844681c5ff559b3c7ed93cda6ff5fdacb4aca5f8bd4db91f9c5ba98cfc69f5",
+    "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+    "/mnt/d/kensyoukin-work/r003-build/core/libvc_inpaint.so": "89be74bca1597bc52578021732d9bbf964de5792c37fcb1868702c89610b77c4",
+    "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf",
+    "/mnt/d/kensyoukin-work/r003-build/_deps/pastix-build/libpastix.a": "ac4a219b1a8f381f0c13c82bc4bae1bb9c7cc6599916c18cabda5bf612c000fa",
+    "/mnt/d/kensyoukin-work/r003-build/_deps/pastix-build/spm/src/libspm.a": "5b00382951fe4b33f9be5c6b768871dc02592bc5a6c52e6e6c8d73c4cb8bb0d7",
+    "/mnt/d/kensyoukin-work/r003-build/_deps/pastix-build/kernels/libpastix_kernels.a": "44feee6f44f19ca44a737b803d1819ce0a017777d2d1bbbf05933f330c8b0d2e",
+    "/mnt/d/kensyoukin-work/r003-build/object_store/src/libvc_resident_geometry.a": "2c2cac2ff48474eaec6314642f34a79e40bcb5e3b10ca341e1646b3b08c64774",
+    "/mnt/d/kensyoukin-work/r003-build/object_store/src/libvc_objects.a": "038ffa6d54e53d4852acf68a57de38e74f6237ee76b4864c96c69a3e68eac7fb",
+    "/mnt/d/kensyoukin-work/r003-build/object_store/src/libvc_object_formats.a": "21a01abe557c1deb12d66bcd70b6922ee4482b8b5e21999fb59d3aa5635e4b13",
+    "/mnt/d/kensyoukin-work/r003-build/object_store/src/libvc_geometry.a": "574c274a92ef6d2f0feab6cd7f3d416b1f440e99a80d22311cfa54304195e4fd",
+    "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_catalog.a": "3a889901cd503136314b867d86229d4fbd0fe1c179993802ed1db88c73b88ff2",
+    "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_sftp.a": "e035caa8edcdb74e098f8f543785ff98336f17c9519a39bf96b2f27d43c963d1",
+    "/mnt/d/kensyoukin-work/r003-build/_deps/vc_delta3d-build/libvc_delta3d.a": "043c7f3c77ad3d293b941e52229380c3ab112b8d96e80f5d02b660c9d1532026",
+    "/mnt/d/kensyoukin-work/r003-build/reader/third_party/volcomp/libvc_reader_volcomp.a": "f1ee9f470128265a0c03de8e0b01ae1319c0a6d5bb043cb4c2e1454e2ba7813b",
+    "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_thinning.a": "07cb205f2ee0fa5614684975e489be9150952351fa56edbcb32407e9776b6086",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01/meta.json": "36dc7600f31d7f16fc252d8ab5b3ce57931a399c48343d2821436a3c1b0e6317",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01/x.tif": "da6fdece28f8fb89ff6d2506ae4347e13cf245454b95b9f1997046b6a3dbd7dc",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01/y.tif": "51b6d36f7b7afb0a72ae9a90b6e16f94663228bf4a0172cf5eedeb93e4cfab30",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01/z.tif": "44b3d11e1f130db7a060671ac429340b1ed6ab296697905696860338cf595eaa",
+    "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/trace-flatboi": "43e77083187f03a7a34262d3fb98126cad786696b7f667cff3960619795b7846",
+    "/mnt/c/dev/kensyoukin/.work/r005-grid-preserving-native01/build01/product-flatboi": "4a7095c75418d8866dc376cf6d68856b478c242eb198635b92d8956bfc29aa5c"
+  }
+}

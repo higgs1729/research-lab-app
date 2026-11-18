@@ -1,0 +1,14 @@
+{
+  "reviewer": "lead/root",
+  "actually_viewed_file": "sources/crop1711-stock-vs-cpt.jpg",
+  "viewed_before_researcher_provenance_interpretation": true,
+  "observations": [
+    "The overview has three side-by-side panels: a CT-like papyrus image and two coloured probability overlays. The paper contains fibres, prominent cracks/holes, and several bright model response groups distributed near the upper and lower edges and toward the right.",
+    "The two overlays differ in coverage and intensity at several locations. This is a public model comparison with existing responses, not a raw probability map registered to our fixed ROI.",
+    "From this overview alone I cannot locate our R239 lower-left ROI by a verified pixel transform, or establish that its broad connected components are a new or already-published reading. I do not infer novelty from failure to recognise a matching region visually."
+  ],
+  "scope": "Visual provenance inspection only. Exact ROI overlap requires documented geometry or an independently checked coordinate correspondence. Image appearance alone neither establishes novelty nor rejects the provisional CT followup candidate.",
+  "new_letters": 0,
+  "novelty_established": false,
+  "candidate_identity_with_public_overview_established": false
+}

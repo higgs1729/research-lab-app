@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "name": "libpython3.12-dev_3.12.3-1ubuntu0.17_amd64.deb",
+      "bytes": 5683746,
+      "sha256": "c123ddab7763e45199e21b4ac8545e705f20a0315b9ada4c236b52fb088c4e16",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/p/python3.12/libpython3.12-dev_3.12.3-1ubuntu0.17_amd64.deb"
+    },
+    {
+      "name": "nanobind-2.10.2-py3-none-any.whl",
+      "bytes": 246514,
+      "sha256": "6976c1b04b90481d2612b346485a3063818c6faa5077fe9d8bbc9b5fbe29c380",
+      "url": "https://files.pythonhosted.org/packages/14/06/cb08965f985a5e1b9cb55ed96337c1f6daaa6b9cbdaeabe6bb3f7a1a11df/nanobind-2.10.2-py3-none-any.whl",
+      "metadata_url": "https://pypi.org/pypi/nanobind/2.10.2/json",
+      "version": "2.10.2"
+    },
+    {
+      "name": "numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "bytes": 16527618,
+      "sha256": "fd83c01228a688733f1ded5201c678f0c53ecc1006ffbc404db9f7a899ac6249",
+      "url": "https://files.pythonhosted.org/packages/8c/3d/1e1db36cfd41f895d266b103df00ca5b3cbe965184df824dec5c08c6b803/numpy-2.2.6-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+      "metadata_url": "https://pypi.org/pypi/numpy/2.2.6/json",
+      "version": "2.2.6"
+    }
+  ],
+  "total_bytes_including_metadata": 22572530,
+  "max_bytes": 67108864
+}

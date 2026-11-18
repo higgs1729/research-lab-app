@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-14T08:09:03.086273+00:00",
+  "model_forward_calls": 0,
+  "gpu_ops": 0,
+  "network_calls": 0,
+  "cloud_resources_created": 0,
+  "compile": [
+    "run_once.py",
+    "pod_boot.py",
+    "pod_work.py",
+    "run_known.py"
+  ],
+  "schema": [
+    "create request",
+    "every exec upload request"
+  ],
+  "asset_hashes": "all fixed inputs, local weight and local atlas",
+  "bundle_bytes": 3522560,
+  "bundle_sha256": "a892eeefd350e5990c34306db4576e13c79480e561c8482479d002fceaa33c5a",
+  "fake_exec_upload_calls": 25,
+  "fake_wrong_config_removed_only_owned_pod": true,
+  "fake_id_mismatch_removed_none": true,
+  "fake_create_response_timeout_posted_once_and_deleted_only_owned_pod": true,
+  "docker_digests_and_python_torch_history_verified": true,
+  "estimate_usd": {
+    "disk": 0.000925925925925926,
+    "4090_at_0.89": 0.29759259259259263,
+    "4090_at_0.90": 0.30092592592592593,
+    "a5000_at_0.27": 0.09092592592592594
+  }
+}

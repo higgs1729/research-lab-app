@@ -1,0 +1,50 @@
+{
+  "utc": "2026-11-15T15:25:05.350855+00:00",
+  "passed": true,
+  "drive_folder_counts": [
+    22,
+    5,
+    5,
+    7,
+    5,
+    8,
+    5,
+    4,
+    5
+  ],
+  "listed_entries": 66,
+  "probability_tiffs": [
+    "PHerc0211-crop1711-lines123-manual-20261028-1316-legacyuv20-v9_studiosoft_probability_f32.tif",
+    "PHerc0211-crop1711-manual-20261026-1237-legacyuv20-v6-line2_studiosoft_probability_f32.tif"
+  ],
+  "zip_members": 39,
+  "zip_sha256": "9e9105d9bb812e6d2af454b30cb724e6339f0f0403e06eb28a302b484d31db36",
+  "zip_historical_hash_hits": [
+    "mesh/parent/results.json",
+    "mesh/results.json"
+  ],
+  "historical_checkpoint_matches_public_epoch9_lfs": true,
+  "github_tree_sizes": [
+    115,
+    106,
+    114
+  ],
+  "github_release_count": 2,
+  "issues_enabled": true,
+  "historical_full_parent_probability_located": false,
+  "claim_limit": "Absence within the saved finite public search only; no proof of nonpublication or unread text. Historical probability hash byte semantics remain unknown.",
+  "candidate_half_open_yx": [
+    [
+      2048,
+      2304
+    ],
+    [
+      4416,
+      4800
+    ]
+  ],
+  "overlap_with_line2_rows": 0,
+  "new_letters": 0,
+  "gpu_or_paid_calls": 0,
+  "prefreeze_report_correction": "ZIP has 39 entries (all files), not the 38 initially stated in prose. Saved complete member list was already correct. First parent check stopped on count assertion; final expected count now 39 after direct inspection."
+}

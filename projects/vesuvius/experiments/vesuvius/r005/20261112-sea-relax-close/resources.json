@@ -1,0 +1,272 @@
+{
+  "new_paid_compute_cost_usd": 0,
+  "llm_and_local_electricity_cost": null,
+  "main_model": "gpt-6-astra/xhigh",
+  "verification_model": "gpt-6.1-sol/high",
+  "new_input_download_bytes": 0,
+  "new_dependency_installs": 0,
+  "new_native_builds": 0,
+  "existing_SLIM_runs": 1,
+  "existing_native_raster_runs": 1,
+  "all_numerical_jobs_sequential": true,
+  "numerical_jobs": [
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/analysis01-execution/state.json",
+      "started_utc": "2026-11-12T02:10:26.680180+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sea-relax01\\analyze.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sea-relax01\\analysis01"
+      ],
+      "script_sha256": "6c062944b4513f42f1941cad7f57aed97e8a5d338e0306337c96297d571235b8",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 7.638576900004409,
+      "peak_rss_bytes": 865263616,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:10:34.319566+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/input01-execution/state.json",
+      "started_utc": "2026-11-12T02:09:38.165865+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sea-relax01\\prepare_trial.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sea-relax01\\input01"
+      ],
+      "script_sha256": "c9596e379076af1b181becedf9f12db695a45e0deeeffa74c2883279005e45ff",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.30694839998614043,
+      "peak_rss_bytes": 50532352,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:09:38.473309+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-analysis01-execution/state.json",
+      "started_utc": "2026-11-12T02:11:31.028955+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sea-relax01\\evaluate_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sea-relax01\\raster-analysis01"
+      ],
+      "script_sha256": "4613cd96b1d69bb77cafc33cab3d6c797cbff481fd1d6277c3b2eb80573265f5",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 7.030312600021716,
+      "peak_rss_bytes": 659664896,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:11:38.067675+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-detail01-execution/state.json",
+      "started_utc": "2026-11-12T02:12:27.694158+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sea-relax01\\diagnose_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sea-relax01\\raster-detail01"
+      ],
+      "script_sha256": "6918c289147bf9f58daa6c2d3fc0bd3ea2dc162d775b49b1425babc118f2f63c",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 1.0104783999850042,
+      "peak_rss_bytes": 201363456,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:12:28.705212+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-input01-execution/state.json",
+      "started_utc": "2026-11-12T02:11:11.381920+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sea-relax01\\prepare_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sea-relax01\\raster-input01"
+      ],
+      "script_sha256": "06c819f01bc7c4421b0268f5f6a2df9f89c43f82e2d8abbf238086390baf4e94",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.709682899992913,
+      "peak_rss_bytes": 83009536,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:11:12.092951+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/state.json",
+      "mode": "candidate",
+      "started_utc": "2026-11-12T02:11:17.902224+00:00",
+      "commands": [
+        [
+          "/mnt/d/kensyoukin-work/r003-build/bin/r005-corner-obj01",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-sea-relax01/raster-input01/mesh.bin",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-sea-relax01/raster01"
+        ]
+      ],
+      "status": "complete",
+      "source_sha256": "19212966593c157043357c455dac74fbe20be83bd2b0f07058cacce8a25bfb37",
+      "header_sha256": {
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/writeOBJ.h": "733d29c86e0693fb80dd3e7f531417fe3898b2944578ed79d6a1c4ef831efa5b",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/writeOBJ.cpp": "51a01371679a4eb54d5ef09fdfed0d2bbf60715876a04071e3f396d2a3d29dbc"
+      },
+      "protected_hashes": {
+        "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp": "3eeb1bc7225c5588007e2dc9b54aa04523745d0a4e8e4f1321681ee5d77cd36c",
+        "/mnt/d/kensyoukin-work/r005-build05/SurfaceMeshing-trace.o": "53844681c5ff559b3c7ed93cda6ff5fdacb4aca5f8bd4db91f9c5ba98cfc69f5",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_inpaint.so": "89be74bca1597bc52578021732d9bbf964de5792c37fcb1868702c89610b77c4",
+        "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+      },
+      "affinity": [
+        0
+      ],
+      "time_limit_per_command_seconds": 300,
+      "address_space_limit_bytes": 4294967296,
+      "input_sha256": "5088636c796b3a2b29035ba712a3e32e0e2574021effe8b8212044fc62b0cc85",
+      "exit_code": 0,
+      "elapsed_seconds": 4.451738708000001,
+      "max_child_rss_bytes": 149065728,
+      "protected_files_unchanged": true,
+      "completed_utc": "2026-11-12T02:11:22.421451+00:00",
+      "binary": "/mnt/d/kensyoukin-work/r003-build/bin/r005-corner-obj01",
+      "binary_sha256": "be1839d686e95e4b32d4cb81035fcb82f46f845fa03c844b8cd6f6be81a7a738"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/slim01/state.json",
+      "mode": "run",
+      "started_utc": "2026-11-12T02:09:44.248759+00:00",
+      "commands": [
+        [
+          "/mnt/d/kensyoukin-work/r003-build/bin/r005-slim-component01",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-sea-relax01/input01/input.json",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-sea-relax01/slim01/result.json"
+        ]
+      ],
+      "status": "complete",
+      "source_sha256": "f95b2fc13a37ed5c399f44322962be5da54e35fdba8f96b3f41e1c5bd5404824",
+      "header_sha256": {
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim.h": "b29c4133a65461cf0ad2b24d2fb8f83a958b461eea6170e171a71c2cfae62f8a",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim.cpp": "39d154a0b399ef950755954192b00f445ee3b22c6be69893fb5725ae4187b82a",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim_assembly.h": "e18fecd7dc4ac9c2df392917dd6456cd85722ee9704554701c15744e938c12b3",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/flip_avoiding_line_search.cpp": "dc11208d4bef3e12dbb23e7ca693f2991baf653e4fc4ed7fb87560be9515ef2e"
+      },
+      "protected_hashes": {
+        "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp": "3eeb1bc7225c5588007e2dc9b54aa04523745d0a4e8e4f1321681ee5d77cd36c",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-baseline": "fae4e8af0277727de2a6b874492bab96dd969a9e5ea1175a38bd93b56ce63000",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_inpaint.so": "89be74bca1597bc52578021732d9bbf964de5792c37fcb1868702c89610b77c4",
+        "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+      },
+      "affinity": [
+        0
+      ],
+      "time_limit_per_command_seconds": 300,
+      "address_space_limit_bytes": 4294967296,
+      "input_sha256": "fb678ac25779aaa1ea9b2f2d6c5669154e06ebec8bf7f4d4a1673c566a65fcf9",
+      "exit_code": 0,
+      "elapsed_seconds": 1.6959912419999998,
+      "max_child_rss_bytes": 128020480,
+      "protected_files_unchanged": true,
+      "completed_utc": "2026-11-12T02:09:46.028771+00:00",
+      "binary": "/mnt/d/kensyoukin-work/r003-build/bin/r005-slim-component01",
+      "binary_sha256": "6b86e53f782a1afdc08661ac5977df017c8339eb1d05159b598010c060d97694",
+      "result_sha256": "4fe8060800da0b4f0284eaf67d454557db228603ef6269dd6314140927ab2598"
+    },
+    {
+      "role": "verification",
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-verification01/check01-execution/state.json",
+      "started_utc": "2026-11-12T02:17:33.068566+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sea-relax-verification01\\verify_saved.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sea-relax-verification01\\check01"
+      ],
+      "script_sha256": "274695b8a9d0aab3fdbdd9bce316c61258d35b7080da061f9673b9b9d0d69f36",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 18.774373600026593,
+      "peak_rss_bytes": 486633472,
+      "stopped": null,
+      "completed_utc": "2026-11-12T02:17:51.844150+00:00"
+    }
+  ],
+  "failed_jobs_preserved": [],
+  "previous_manifests": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-close/artifact-manifest.json",
+      "sha256": "7778d64b197fb584c32cc3fdd92e0432bc2fc3af2ed8d7eeb9f90e3360961011",
+      "files_checked": 97,
+      "external_files_checked": 8
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-relax-close/artifact-manifest.json",
+      "sha256": "bf00befa39f81a4226f27ae6006982f627ea321be20df98c4310f9012698cf86",
+      "files_checked": 75,
+      "external_files_checked": 0
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-packed-gate01/artifact-manifest.json",
+      "sha256": "1dd6bebf093aee8cfba121ce1dcbe7ddb26d780ce025e8a6b22f9a04f3dfe152",
+      "files_checked": 13,
+      "external_files_checked": 0
+    }
+  ],
+  "main_and_verification_artifact_bytes": 191661964,
+  "note": "Main7 jobs succeeded. Fixed100 M boundary restored exactly after soft SLIM; N lower SD than M, subject-related overlap0. Same-grid diagnostics retain both I-vs-N gate false and M-vs-N true. I baseline retained because two I-recovered cells remain beyond20. Self-owned sample gain7/loss5/net2."
+}

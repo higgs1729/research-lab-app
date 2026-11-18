@@ -1,0 +1,241 @@
+{
+  "initial_plan_sha256": "5235ae72d3b0325672cd5eea749dcb750b5e81a5344ce4f7077f66f301a0b662",
+  "geometry_plan_sha256": "15f991716a24675ca67a53d071bbdd2e77068ea54bcfc62fe34f834a3a0159aa",
+  "frozen_control_implementation_sha256": "eb863455b8a107cb566079fd8e71e5e5cf351225cc420833185d69ed81f02279",
+  "file": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-pherc0211-clipped-context01\\input16.npy",
+  "bytes": 14155904,
+  "sha256": "dd2a67a641784a256f6eca5b79f473d74fdbde4acf42a0bc7effeb40d7dde73c",
+  "raw_sha256": "0476d922079419b2360432cb89b7e39a52d0c5a8749c6e81e574176c23fde52a",
+  "shape": [
+    16,
+    768,
+    1152
+  ],
+  "dtype": "uint8",
+  "support_xywh": [
+    4272,
+    2096,
+    1152,
+    768
+  ],
+  "main_xywh": [
+    4352,
+    2176,
+    1024,
+    640
+  ],
+  "source_offsets": [
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0,
+    -1,
+    -2,
+    -3,
+    -4,
+    -5,
+    -6,
+    -7
+  ],
+  "approximate_local_renderer": true,
+  "exact_upstream_reproduction": false,
+  "historical_R236_input_gate_failed": true,
+  "historical_R236_pair_gate_passed": false,
+  "borrowed_extract": {
+    "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0483a-surface-provenance01\\sections.py",
+    "source_sha256": "f0c40d7dde45dea07c79441f6098b37f9066d41b76d8fc2c1394220c33ed2776",
+    "function": "extract"
+  },
+  "new_CT_keys": 62,
+  "new_CT_bytes": 130023424,
+  "reused_CT_keys": 46,
+  "all_zero_pixels": 0,
+  "planes": [
+    {
+      "index": 0,
+      "offset": 8,
+      "raw_sha256": "8598682902645f46e39351120697b461b08f0abcc75da7db1e6d48e4dbdaef75",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884734,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "cffa6281cdb39f4807e6274f6178c976fb288dc6d03ad6f8a5dffc9df6599efd"
+    },
+    {
+      "index": 1,
+      "offset": 7,
+      "raw_sha256": "611c03be7c5ee532c950dc2307e5fe08928e8beaa9253631a3458efb6514ee92",
+      "min": 2,
+      "max": 255,
+      "nonzero_values": 884736,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "d3e6d2be8c8a5ce7726a4a6fee09c222aabcf854ed9fc0ab1513e756adea4c88"
+    },
+    {
+      "index": 2,
+      "offset": 6,
+      "raw_sha256": "87614ed38eacd5ea0d168832c98d86eda50b34a609a85cf66a00351748260b14",
+      "min": 2,
+      "max": 255,
+      "nonzero_values": 884736,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "afacc29899cceee68efc507ed1554c531f260c2bff14c2f6f7c17f11e13c405f"
+    },
+    {
+      "index": 3,
+      "offset": 5,
+      "raw_sha256": "d7c06101585a886fc3bf1d4eff29090c1c06bebb383bfd75a7279e1e5aeeb09d",
+      "min": 5,
+      "max": 255,
+      "nonzero_values": 884736,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "e4c6cacdd782460a2a0e087c38865adf4a8aaf3428081d85ec73e81a6c080afe"
+    },
+    {
+      "index": 4,
+      "offset": 4,
+      "raw_sha256": "745154c8cfab19a23c9597e9c8f251c40c35844fdfe398312d84d5ac08540f73",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884735,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "0eead4081d205532ac41dfdf7b156e7c4f3647bc2b409fe3c6cf49d235175fcc"
+    },
+    {
+      "index": 5,
+      "offset": 3,
+      "raw_sha256": "700fd2da7c85363b8154a4cd995c9618c3dc975ac2b6186d2548e929e4cc9e89",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884735,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "729a1ed6e1e0bfc9bebe77274622e2b06cb48181469273408fa69081f0022248"
+    },
+    {
+      "index": 6,
+      "offset": 2,
+      "raw_sha256": "66ec9533f8c44ac24061136b1c72ab67f72fcdea645b82aeb05a83ede03657b0",
+      "min": 5,
+      "max": 255,
+      "nonzero_values": 884736,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "86410580db2dcfbce848055d58ad82f61a214762412b8f5da77e776e3ed45f6c"
+    },
+    {
+      "index": 7,
+      "offset": 1,
+      "raw_sha256": "190db8c01bc7f875064edf7a8076f9f75fcdcb2f6646ffeb772a5478fd07fcde",
+      "min": 1,
+      "max": 255,
+      "nonzero_values": 884736,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "047e89e2066abebb7484c8508b65d5da5dac120de53d41226ad578650d8aec44"
+    },
+    {
+      "index": 8,
+      "offset": 0,
+      "raw_sha256": "7ea3a3c6386bd952563fb814cc1dfd4d0ca122e20043db9ab954870903015aec",
+      "min": 1,
+      "max": 255,
+      "nonzero_values": 884736,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "70da47f9619b8f04f1508efc0ede675a4cac606b68d81b621338800f2780a642"
+    },
+    {
+      "index": 9,
+      "offset": -1,
+      "raw_sha256": "6c6c3e3c3193fb2998e243b852e4aab4c53d279a310eb1ea4d5877ad5e9f34a1",
+      "min": 7,
+      "max": 255,
+      "nonzero_values": 884736,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "1f2771e349a4b0a3b107e75e00744206a7252d17d04fbf0e86df7a4fb61f91c5"
+    },
+    {
+      "index": 10,
+      "offset": -2,
+      "raw_sha256": "cfe7100b18321bc7d3565a41bcdce24594423018d22697e012997259f85a7308",
+      "min": 2,
+      "max": 255,
+      "nonzero_values": 884736,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "acf622d3e55b1679dc3fbd4ff7e1d110a6b7e7507adfba15a6286a4b107ff56c"
+    },
+    {
+      "index": 11,
+      "offset": -3,
+      "raw_sha256": "2f1d1f2241347d19987f6f21529d488ae3d3f95e87e8c672b41395efb1caf63f",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884735,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "3fe7b76a927557d5ea7ffba0ab445700886f65054d48a6da61dc949026bac1cc"
+    },
+    {
+      "index": 12,
+      "offset": -4,
+      "raw_sha256": "b87b338d7181b6f9aecb8fd74c10a5fffc6ec5f0c183f5f60e127c04ede30b1d",
+      "min": 1,
+      "max": 255,
+      "nonzero_values": 884736,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "ff63b2532eded102fdf5fed826f2479407b3c00ea1223a2e5aff475d52a8079d"
+    },
+    {
+      "index": 13,
+      "offset": -5,
+      "raw_sha256": "833a7b4dbadc6058ede725d5e59c7fb604684f59dfca67a4e446eb3004af8806",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884732,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "162f722f8aa2a5ecb88b6faad1aa235d0b75f812a6f8027c3f775b5bbfe86ef0"
+    },
+    {
+      "index": 14,
+      "offset": -6,
+      "raw_sha256": "cba5a8286fd76344f766c0c89243e3af9ae1b74a1fce51a44bac9d422d6e7fe7",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884733,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "63de6620de71da8791806ca15a4d07f6b1c5f5a1824645641e89de7dd67af30c"
+    },
+    {
+      "index": 15,
+      "offset": -7,
+      "raw_sha256": "1193f874a9282bea24f4c5c6d5dd2a20af6650e6b3948bb2a9f49a9f30411991",
+      "min": 0,
+      "max": 255,
+      "nonzero_values": 884730,
+      "overlap_values": 294912,
+      "overlap_mismatches": 0,
+      "overlap_raw_sha256": "41da0ac5e5c67761fab2702e570fe104df7a3cad5f59f7addd64ad24ca0d2ee8"
+    }
+  ],
+  "elapsed_seconds": 25.939164900017204,
+  "C_new_bytes": 144586802,
+  "C_free_bytes": 15537831936,
+  "GPU_forwards": 0,
+  "common_patch_raw_and_normalization_all_equal": true
+}

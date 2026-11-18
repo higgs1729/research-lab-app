@@ -1,0 +1,80 @@
+{
+  "reviewer": "root",
+  "checked_utc": "2026-11-15T07:55:20.517628+00:00",
+  "agent_visual_verdict_read": false,
+  "images": [
+    {
+      "path": "review/known_control/t01-reader-aux.png",
+      "sha256": "6c9b5c49cba889713e385ab1a24aaf49a05f1bdcc8179e9ea68dc202e25e05a6"
+    },
+    {
+      "path": "review/known_control/t02-reader-aux.png",
+      "sha256": "f2474f13dbc18f615aa9ba682bcc729ad410c398f28817deabcc01766ebe4fdb"
+    },
+    {
+      "path": "review/upper_test/t01-reader-aux.png",
+      "sha256": "f10c09c163b3925f047fde862c46bdfca6faf1356fb4aa5205027b8ef0bbef1a"
+    },
+    {
+      "path": "review/upper_test/t01-trace-aux.png",
+      "sha256": "2843007dd6d56703a6a835e75f505eda6ec79ceb490b57d42dfb5466dac30836"
+    },
+    {
+      "path": "review/upper_test/t00-reader-aux.png",
+      "sha256": "dc86594c628f08d26b8ef0503e6588b241866e48d4cb2488aa5f159b02b4d88e"
+    },
+    {
+      "path": "review/upper_test/t02-reader-aux.png",
+      "sha256": "bde7b83cbf46836cf82ccb060e721c2ba9778cba2640b4251dd7fd9e5837aea5"
+    },
+    {
+      "path": "review/upper_test/t03-reader-aux.png",
+      "sha256": "02bf358c972784911f424c67478babfdd76114636a73b1d7036a2771024d2314"
+    },
+    {
+      "path": "review/upper_test/t04-reader-aux.png",
+      "sha256": "89a7937cab50c7eecdde3bfd1e11cb0fd473185fcf96d7a8a1feba79981587ab"
+    },
+    {
+      "path": "review/upper_test/t01-reader-raw.png",
+      "sha256": "55152d4cd69f033255e1cced2e6c66f1fab36d18d4eb32c8363b84fbe084e5a5"
+    },
+    {
+      "path": "review/upper_test/t01-trace-raw.png",
+      "sha256": "4a1641f7a3b37d33fab5609769a466d833d3ac120439f946a170adb143dad5e0"
+    },
+    {
+      "path": "review/upper_test/t01-ct.png",
+      "sha256": "93f0552e25257d6952eb484e2b78f4a8457fab4a3c08d895ab458ac3d8b4e29b"
+    },
+    {
+      "path": "review/known_control/t02-reader-raw.png",
+      "sha256": "b67b7fc5483dfc5c14458a7a4695474e31dfd78ea22390261e2f6dfbeae825d7"
+    }
+  ],
+  "coverage": "Reader auxiliary upper band entire width in five native tiles; known control key centre tiles; upper selected main group raw TRACE/Reader and CT. Not every source pixel manually reviewed.",
+  "known_control": "Reader maintains the horizontal arrangement of coarse upright/diagonal/lower-horizontal shapes through t01 and the enclosed dark cavity in a bright rounded structure in t02, also visible on raw scale. The coarse positive control is usable, but fine junctions and separated endings remain merged.",
+  "upper_test": [
+    "Reader t01 at local x0..330,y330..570 adds a more continuous left bent upright and lower horizontal around a dark centre; TRACE has the corresponding upright and separated bright lower spots. Reader bridges could be false joins, so its extra connection is not a decipherment.",
+    "The right adjacent group near local x420..650,y280..560 retains an upright/paired arrangement in both maps, with a brighter lower-right part. Their spacing and the darker band below are coherent enough for a focused follow-up, without identifying letters.",
+    "The repeated arrangement is visible on raw 0..1 scales, not only the shared auxiliary stretch. Reader evidence has different continuity and suppression from TRACE, rather than solely restating the TRACE thumbnail.",
+    "Other upper tiles mainly show sparse blobs, broad bent fragments or boundary partial features. I select no additional ROI from those tiles.",
+    "The derived CT t01 has cross-oriented fibres and dark gaps and a distorted right zone; it does not establish one physical lamina or prove the responses are ink."
+  ],
+  "decision": "Retain the one previously selected upper group for a bounded original-CT/independent-surface investigation. No text transcription or new-letter claim. Verify that the same physical patch is followed; model agreement can reflect common CT artifacts and known Reader gap merging.",
+  "retained_roi_count": 1,
+  "retained_reference_raw_xyxy": [
+    3074,
+    2917,
+    4355,
+    3942
+  ],
+  "approx_core_response_raw_xyxy": [
+    3424,
+    3460,
+    4116,
+    3752
+  ],
+  "confirmed_new_letters": 0,
+  "novelty": "Already in author public maps; no overlap with the one saved public tracing does not establish an unpublished reading."
+}

@@ -1,0 +1,45 @@
+{
+  "tile_yx": [
+    26,
+    67
+  ],
+  "source_center_l2_xyz": [
+    4850.4134765625,
+    4478.0271484375,
+    15663.2208984375
+  ],
+  "dense_rows_yx_extent": [
+    [
+      198,
+      224
+    ],
+    [
+      0,
+      56913
+    ]
+  ],
+  "ink_and_supervision_match_cached_http_bytes": true,
+  "nearest_crop_triangle": {
+    "grid_yx": [
+      210.1093615027246,
+      56129.309101862724
+    ],
+    "distance_l2vox": 2.536610200130089,
+    "normal_angle_degrees": 4.345383840599735,
+    "roundtrip_source_pixels": 0.780296234122496
+  },
+  "nearest_outside_crop_triangle": {
+    "grid_yx": [
+      209.97512319731922,
+      56008.567564606274
+    ],
+    "distance_l2vox": 17.22865694234555,
+    "normal_angle_degrees": 5.805565435049157,
+    "roundtrip_source_pixels": 7.113873082758756
+  },
+  "outside_minus_inside_distance_l2vox": 14.69204674221546,
+  "candidate_grid_separation": 120.74161187831379,
+  "network_bytes": 0,
+  "paid_compute_usd": 0,
+  "elapsed_seconds": 3.317567299993243
+}

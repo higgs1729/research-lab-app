@@ -1,0 +1,40 @@
+{
+  "utc": "2026-11-15T17:21:27.279697+00:00",
+  "source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-adjacent-context01\\sources\\v9-mesh.zip",
+  "archive_sha256": "819dcfb40451fab3fa58441d8265813c8ddbe2b5693bb076fce3eeefce05a5d9",
+  "reproduction_crop": null,
+  "masks": [
+    {
+      "path": "mesh/mask.png",
+      "sha256": "f4fa02d4e7aa92541079293db2a069eb6ef919f946503426f6dcfa804e1b7f7c",
+      "shape": [
+        1740,
+        6020
+      ],
+      "dtype": "uint8",
+      "nonzero_pixels": 8838800,
+      "unique_values": [
+        0,
+        255
+      ]
+    },
+    {
+      "path": "mesh/studiosoft-mask.png",
+      "sha256": "f4fa02d4e7aa92541079293db2a069eb6ef919f946503426f6dcfa804e1b7f7c",
+      "shape": [
+        1740,
+        6020
+      ],
+      "dtype": "uint8",
+      "nonzero_pixels": 8838800,
+      "unique_values": [
+        0,
+        255
+      ]
+    }
+  ],
+  "reproduce_script_sha256": "4daee96fbe901612f0c4d124d74718ac4c95fbf9e4f9f9fe697c990d84f3657c",
+  "observation": "Packaged masks are byte-identical; published reproduce_submission applies separate crop mask only when crop is truthy, whereas v9 crop is null. This alone does not establish whether another inference stage applies this mask. Check actual inference semantics before any probability interpretation.",
+  "prediction_pixels_read": 0,
+  "new_CT_or_model_forwards": 0
+}

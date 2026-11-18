@@ -1,0 +1,58 @@
+{
+  "reviewer": "root",
+  "model_forward_calls": 0,
+  "new_download_bytes": 0,
+  "gpu_operations": 0,
+  "wrapper_hashes_match_before_launch": true,
+  "supervisor": {
+    "argv": [
+      "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "-B",
+      "-u",
+      "C:\\dev\\kensyoukin\\tools\\research\\run_windows.py",
+      "infer-process.json",
+      "run_cpu.py",
+      "56723.7776414"
+    ],
+    "started_utc": "2026-11-14T09:34:34.110980+00:00",
+    "deadline_seconds": 4500,
+    "initial_available_ram_bytes": 12001492992,
+    "system_cpu_percent_1s": 93.1,
+    "pid": 3412,
+    "reason": "child_exit",
+    "exit_code": 0,
+    "elapsed_seconds": 765.8612446999978,
+    "min_observed_available_ram_bytes": 9412988928,
+    "completed_utc": "2026-11-14T09:47:19.972189+00:00"
+  },
+  "status": "completed",
+  "checked_inputs": 81,
+  "checked_probability_values": 331776,
+  "output_values_bit_identical_to_independent_aggregation": 102400,
+  "output_raw_sha256": "3154ba5de4c556d298b388a423b6934dd8af56c717932064faa62b913fa818d0",
+  "main_roi_global_xywh": [
+    1408,
+    1088,
+    256,
+    256
+  ],
+  "previous_vs_public": {
+    "mae_dn": 36.238922119140625,
+    "pearson": 0.6882555558804403,
+    "equal_pixels": 4573,
+    "max_abs_dn": 245.0
+  },
+  "new_vs_public": {
+    "mae_dn": 11.306793212890625,
+    "pearson": 0.9491392779925143,
+    "equal_pixels": 12784,
+    "max_abs_dn": 167.0
+  },
+  "new_vs_previous": {
+    "mae_dn": 37.210052490234375,
+    "pearson": 0.6363317548323792,
+    "equal_pixels": 4648,
+    "max_abs_dn": 246.0
+  },
+  "scope": "Fixed known partial-stroke control. Image agreement is not letter recognition accuracy or unknown-scroll generalization."
+}

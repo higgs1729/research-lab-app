@@ -1,0 +1,23 @@
+{
+  "patches": 20,
+  "cpu_checks": 3,
+  "model_wall_seconds": 37.34517999998934,
+  "loop_wall_seconds": 27.473901999997906,
+  "final_resources": {
+    "device_free_bytes": 6732906496,
+    "device_total_bytes": 8585216000,
+    "allocated_bytes": 140088832,
+    "reserved_bytes": 664797184,
+    "peak_allocated_bytes": 492541440,
+    "peak_reserved_bytes": 664797184,
+    "physical_available_bytes": 11049680896,
+    "process_peak_rss_bytes": 1273528320
+  },
+  "precision": "float32, IEEE, TF32 disabled",
+  "autocast": false,
+  "compile": false,
+  "tta": false,
+  "batch": 1,
+  "mask": null,
+  "support_outputs_complete_only_in_fixed_main": true
+}

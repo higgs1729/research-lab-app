@@ -1,0 +1,204 @@
+{
+  "passed": true,
+  "raster": [
+    369.4250055048615,
+    118.42500176467001,
+    0.05000000074505806,
+    0.05000000074505806,
+    64,
+    64
+  ],
+  "observation_sha256": "e7907fc1bd88f69227b29288fb0a47b36153cc0249fc09e8006f361691b5c76b",
+  "saved_centre_zyx": [
+    null,
+    null,
+    null
+  ],
+  "estimated_identity_level_map_centre_zyx": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "available_keys": [
+    "0/16/22/26",
+    "0/16/23/26",
+    "0/16/23/27",
+    "0/17/22/26",
+    "0/17/22/27",
+    "0/17/23/26",
+    "0/17/23/27",
+    "0/18/23/26",
+    "0/19/23/25",
+    "0/19/23/26"
+  ],
+  "offsets": {
+    "stack": [
+      [
+        -1,
+        0,
+        1
+      ]
+    ],
+    "accum": [
+      [
+        -1,
+        -0.5
+      ],
+      [
+        0,
+        0.5
+      ],
+      [
+        1,
+        1.5
+      ]
+    ]
+  },
+  "halo_voxels": 0.001,
+  "by_offset": [
+    {
+      "offset": -1,
+      "points": 2048,
+      "nominal_corners_per_point": 8,
+      "exact_keys": [
+        "0/19/23/26"
+      ],
+      "halo_keys": [
+        "0/19/23/26"
+      ],
+      "missing_keys": [],
+      "halo_bounds_zyx_inclusive": [
+        [
+          2456,
+          2996,
+          3332
+        ],
+        [
+          2498,
+          3059,
+          3357
+        ]
+      ]
+    },
+    {
+      "offset": -0.5,
+      "points": 2048,
+      "nominal_corners_per_point": 8,
+      "exact_keys": [
+        "0/19/23/26"
+      ],
+      "halo_keys": [
+        "0/19/23/26"
+      ],
+      "missing_keys": [],
+      "halo_bounds_zyx_inclusive": [
+        [
+          2456,
+          2997,
+          3331
+        ],
+        [
+          2498,
+          3059,
+          3357
+        ]
+      ]
+    },
+    {
+      "offset": 0,
+      "points": 2048,
+      "nominal_corners_per_point": 8,
+      "exact_keys": [
+        "0/19/23/26"
+      ],
+      "halo_keys": [
+        "0/19/23/26"
+      ],
+      "missing_keys": [],
+      "halo_bounds_zyx_inclusive": [
+        [
+          2456,
+          2997,
+          3331
+        ],
+        [
+          2498,
+          3059,
+          3357
+        ]
+      ]
+    },
+    {
+      "offset": 0.5,
+      "points": 2048,
+      "nominal_corners_per_point": 8,
+      "exact_keys": [
+        "0/19/23/26"
+      ],
+      "halo_keys": [
+        "0/19/23/26"
+      ],
+      "missing_keys": [],
+      "halo_bounds_zyx_inclusive": [
+        [
+          2456,
+          2997,
+          3330
+        ],
+        [
+          2498,
+          3059,
+          3356
+        ]
+      ]
+    },
+    {
+      "offset": 1,
+      "points": 2048,
+      "nominal_corners_per_point": 8,
+      "exact_keys": [
+        "0/19/23/26"
+      ],
+      "halo_keys": [
+        "0/19/23/26"
+      ],
+      "missing_keys": [],
+      "halo_bounds_zyx_inclusive": [
+        [
+          2456,
+          2997,
+          3330
+        ],
+        [
+          2498,
+          3059,
+          3356
+        ]
+      ]
+    },
+    {
+      "offset": 1.5,
+      "points": 2048,
+      "nominal_corners_per_point": 8,
+      "exact_keys": [
+        "0/19/23/26"
+      ],
+      "halo_keys": [
+        "0/19/23/26"
+      ],
+      "missing_keys": [],
+      "halo_bounds_zyx_inclusive": [
+        [
+          2456,
+          2997,
+          3329
+        ],
+        [
+          2498,
+          3060,
+          3355
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "input_crop_bit_identical_values": 2436,
+  "rows": [
+    {
+      "mode": "corner",
+      "outside_bit_identical_vertices": 42196,
+      "local_embedded_vertices": 812,
+      "moved_vertices": 695,
+      "fixed_node_checks": [
+        {
+          "grid_col_row": [
+            76,
+            58
+          ],
+          "independent_predicted_offset": 6.406549887170019,
+          "actual_projected_offset": 6.407210111564442,
+          "difference": 0.0006602243944229258,
+          "tangent_rounding_residual": 0.0003271890301048187
+        },
+        {
+          "grid_col_row": [
+            86,
+            58
+          ],
+          "independent_predicted_offset": 13.44474901418838,
+          "actual_projected_offset": 13.444856457058208,
+          "difference": 0.00010744286982777851,
+          "tangent_rounding_residual": 0.00026785262997612846
+        },
+        {
+          "grid_col_row": [
+            94,
+            58
+          ],
+          "independent_predicted_offset": 3.3387619964358097,
+          "actual_projected_offset": 3.3380539164614245,
+          "difference": 0.0007080799743852673,
+          "tangent_rounding_residual": 0.0004042544572431366
+        },
+        {
+          "grid_col_row": [
+            76,
+            68
+          ],
+          "independent_predicted_offset": 5.114426187096786,
+          "actual_projected_offset": 5.1119718978141275,
+          "difference": 0.0024542892826584506,
+          "tangent_rounding_residual": 0.0002495009925498571
+        },
+        {
+          "grid_col_row": [
+            88,
+            69
+          ],
+          "independent_predicted_offset": 3.992403533946489,
+          "actual_projected_offset": 3.991813417588892,
+          "difference": 0.0005901163575972035,
+          "tangent_rounding_residual": 6.908789164812377e-05
+        },
+        {
+          "grid_col_row": [
+            94,
+            68
+          ],
+          "independent_predicted_offset": 0.9181806065790119,
+          "actual_projected_offset": 0.9178481219013743,
+          "difference": 0.00033248467763757894,
+          "tangent_rounding_residual": 0.00014086639607982558
+        },
+        {
+          "grid_col_row": [
+            76,
+            77
+          ],
+          "independent_predicted_offset": 0.0,
+          "actual_projected_offset": 0.0,
+          "difference": 0.0,
+          "tangent_rounding_residual": 0.0
+        },
+        {
+          "grid_col_row": [
+            86,
+            77
+          ],
+          "independent_predicted_offset": -1.1346812672547528,
+          "actual_projected_offset": -1.1345440488912182,
+          "difference": 0.00013721836353464134,
+          "tangent_rounding_residual": 0.00024418943691734477
+        },
+        {
+          "grid_col_row": [
+            94,
+            77
+          ],
+          "independent_predicted_offset": 9.656553084295721,
+          "actual_projected_offset": 9.65629033013343,
+          "difference": 0.00026275416229104565,
+          "tangent_rounding_residual": 0.0003094740158692101
+        }
+      ]
+    },
+    {
+      "mode": "centered",
+      "outside_bit_identical_vertices": 42196,
+      "local_embedded_vertices": 812,
+      "moved_vertices": 688,
+      "fixed_node_checks": [
+        {
+          "grid_col_row": [
+            76,
+            58
+          ],
+          "independent_predicted_offset": 5.082981454540224,
+          "actual_projected_offset": 5.083291712426866,
+          "difference": 0.00031025788664162945,
+          "tangent_rounding_residual": 0.0003784595412533393
+        },
+        {
+          "grid_col_row": [
+            86,
+            58
+          ],
+          "independent_predicted_offset": 13.062628211753166,
+          "actual_projected_offset": 13.062166338173412,
+          "difference": 0.0004618735797539131,
+          "tangent_rounding_residual": 0.00020450789326460753
+        },
+        {
+          "grid_col_row": [
+            94,
+            58
+          ],
+          "independent_predicted_offset": 0.12290066831481668,
+          "actual_projected_offset": 0.12329423352725863,
+          "difference": 0.0003935652124419514,
+          "tangent_rounding_residual": 0.0003171473497224672
+        },
+        {
+          "grid_col_row": [
+            76,
+            68
+          ],
+          "independent_predicted_offset": 1.326411966109035,
+          "actual_projected_offset": 1.3262587091822449,
+          "difference": 0.00015325692679013514,
+          "tangent_rounding_residual": 0.00022430184607693168
+        },
+        {
+          "grid_col_row": [
+            88,
+            69
+          ],
+          "independent_predicted_offset": 4.979561084254318,
+          "actual_projected_offset": 4.979785945333476,
+          "difference": 0.00022486107915842268,
+          "tangent_rounding_residual": 0.0002793233186723348
+        },
+        {
+          "grid_col_row": [
+            94,
+            68
+          ],
+          "independent_predicted_offset": 0.972188884340792,
+          "actual_projected_offset": 0.9719156814679042,
+          "difference": 0.00027320287288779,
+          "tangent_rounding_residual": 0.00020140275092842125
+        },
+        {
+          "grid_col_row": [
+            76,
+            77
+          ],
+          "independent_predicted_offset": 0.0,
+          "actual_projected_offset": 0.0,
+          "difference": 0.0,
+          "tangent_rounding_residual": 0.0
+        },
+        {
+          "grid_col_row": [
+            86,
+            77
+          ],
+          "independent_predicted_offset": 3.7114427288921523,
+          "actual_projected_offset": 3.711675180678453,
+          "difference": 0.00023245178630082464,
+          "tangent_rounding_residual": 5.594165413953647e-05
+        },
+        {
+          "grid_col_row": [
+            94,
+            77
+          ],
+          "independent_predicted_offset": 5.6881348391082165,
+          "actual_projected_offset": 5.688757650321254,
+          "difference": 0.0006228112130370889,
+          "tangent_rounding_residual": 0.0003805828399697856
+        }
+      ]
+    }
+  ],
+  "scope": "All embedded and outside XYZ/scale; nine preselected independent raw-CT opacity predictions per mode. No reading or physical-sheet claim.",
+  "new_product_calls": 0,
+  "new_network_bytes": 0
+}

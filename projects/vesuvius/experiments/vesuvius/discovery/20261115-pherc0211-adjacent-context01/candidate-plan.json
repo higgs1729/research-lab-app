@@ -1,0 +1,729 @@
+{
+  "status": "proposal_for_next_ticket_not_executed",
+  "question": "At the public v9 row-two right edge, does the same papyrus sheet continue within a fixed local CT box sufficiently to justify extending the missing upper-right stroke, or does that path stop at missing/ambiguous support?",
+  "candidate_status": "Previously published unresolved model response. Not our newly discovered ink or letter; absent confirmed transcription in consulted released materials is not proof no one read it.",
+  "volume_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr",
+  "voxel_um": 9.362,
+  "volume_axes": "storage ZYX, geometry XYZ",
+  "boxes": {
+    "candidate_edge": {
+      "xyz_halfopen": [
+        [
+          4096,
+          4096,
+          8320
+        ],
+        [
+          4352,
+          4352,
+          8576
+        ]
+      ],
+      "target": "Existing right-edge nodes r=40,42,44,46 and their immediate outward continuation; upper right hook of the visible row-two component.",
+      "image_roi_xywh": [
+        5820,
+        800,
+        160,
+        160
+      ],
+      "ct_keys": [
+        "0/65/32/32",
+        "0/66/32/32",
+        "0/65/33/32",
+        "0/66/33/32",
+        "0/65/32/33",
+        "0/66/32/33",
+        "0/65/33/33",
+        "0/66/33/33"
+      ],
+      "expected_bytes": 16777216
+    },
+    "known_phi_control": {
+      "xyz_halfopen": [
+        [
+          3328,
+          3200,
+          8192
+        ],
+        [
+          3712,
+          3456,
+          8576
+        ]
+      ],
+      "image_roi_xywh": [
+        4640,
+        780,
+        320,
+        300
+      ],
+      "grid_support_rc_halfopen": [
+        [
+          39,
+          232
+        ],
+        [
+          55,
+          249
+        ]
+      ],
+      "derivation": "All valid position-support nodes for the fixed image ROI, axis hull expanded -16/+17 voxels and rounded outward to 128-voxel chunk boundaries. Rendering is not performed here.",
+      "ct_keys": [
+        "0/64/25/26",
+        "0/65/25/26",
+        "0/66/25/26",
+        "0/64/26/26",
+        "0/65/26/26",
+        "0/66/26/26",
+        "0/64/25/27",
+        "0/65/25/27",
+        "0/66/25/27",
+        "0/64/26/27",
+        "0/65/26/27",
+        "0/66/26/27",
+        "0/64/25/28",
+        "0/65/25/28",
+        "0/66/25/28",
+        "0/64/26/28",
+        "0/65/26/28",
+        "0/66/26/28"
+      ],
+      "expected_bytes": 37748736
+    }
+  },
+  "head_records": [
+    {
+      "key": "0/64/25/26",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/64/25/26",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"2371733342e92ca1998a3e29b689bd70\"",
+      "retrieved_utc": "2026-11-15T12:05:33.986894+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/64/25/27",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/64/25/27",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"33f6157447ce92e668d5623938b16d40\"",
+      "retrieved_utc": "2026-11-15T12:05:33.987971+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/64/25/28",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/64/25/28",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"119235789e432ebf06d065e21da8b4f1\"",
+      "retrieved_utc": "2026-11-15T12:05:33.989257+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/64/26/26",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/64/26/26",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"69452da6bf7af4614b04294c14c17f7b\"",
+      "retrieved_utc": "2026-11-15T12:05:33.990010+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/64/26/27",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/64/26/27",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"753c9f45065eff270f1f698be87beedf\"",
+      "retrieved_utc": "2026-11-15T12:05:34.676641+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/64/26/28",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/64/26/28",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"0669c6dfee3a9d34414109e3cb77d8fc\"",
+      "retrieved_utc": "2026-11-15T12:05:34.678625+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/65/25/26",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/65/25/26",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"e8d79222c433f3efb57989dddabfa6ed\"",
+      "retrieved_utc": "2026-11-15T12:05:34.684335+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/65/25/27",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/65/25/27",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"b7be5b073c4c505766e709e0e1e2f56c\"",
+      "retrieved_utc": "2026-11-15T12:05:34.699296+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/65/25/28",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/65/25/28",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"58928d323b02405653878ea4882f6385\"",
+      "retrieved_utc": "2026-11-15T12:05:35.219120+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/65/26/26",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/65/26/26",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"f15b43871d0bb21858f9528e57467155\"",
+      "retrieved_utc": "2026-11-15T12:05:35.225814+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/65/26/27",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/65/26/27",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"5e2e5fd3a816b9a1c6776fccff276e4d\"",
+      "retrieved_utc": "2026-11-15T12:05:35.242202+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/65/26/28",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/65/26/28",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"d5f5d33736bb4bf63fb49268d8cc7e93\"",
+      "retrieved_utc": "2026-11-15T12:05:35.251112+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/65/32/32",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/65/32/32",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"551cb10af74a3ff7c7428aeb04addf5d\"",
+      "retrieved_utc": "2026-11-15T12:05:35.775991+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "candidate_edge"
+      ]
+    },
+    {
+      "key": "0/65/32/33",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/65/32/33",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"e110d3de9a2ce935349962b6a81aa410\"",
+      "retrieved_utc": "2026-11-15T12:05:35.801582+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "candidate_edge"
+      ]
+    },
+    {
+      "key": "0/65/33/32",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/65/33/32",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"7a0d1e6c6efcaba0caf318943056a691\"",
+      "retrieved_utc": "2026-11-15T12:05:35.827764+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "candidate_edge"
+      ]
+    },
+    {
+      "key": "0/65/33/33",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/65/33/33",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"d19c39d5a8ea70780b8183f3339618ed\"",
+      "retrieved_utc": "2026-11-15T12:05:35.848336+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "candidate_edge"
+      ]
+    },
+    {
+      "key": "0/66/25/26",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/66/25/26",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"d86cc46bc3d766588ed1dcc87739bbcd\"",
+      "retrieved_utc": "2026-11-15T12:05:36.326658+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/66/25/27",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/66/25/27",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"e826f57c76221b55ee3aa378f1d2538b\"",
+      "retrieved_utc": "2026-11-15T12:05:36.346233+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/66/25/28",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/66/25/28",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"27bdd3fe8b55ae21a73a62f40c11bd58\"",
+      "retrieved_utc": "2026-11-15T12:05:36.354004+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/66/26/26",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/66/26/26",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"e1d7a69023b84bfe126d5866676091b4\"",
+      "retrieved_utc": "2026-11-15T12:05:36.396005+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/66/26/27",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/66/26/27",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"4247feadeb02029d2c88801ea4aa0644\"",
+      "retrieved_utc": "2026-11-15T12:05:36.879422+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/66/26/28",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/66/26/28",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"7cd22e078d9d0b069cb60316c735a2c9\"",
+      "retrieved_utc": "2026-11-15T12:05:36.892561+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "known_phi_control"
+      ]
+    },
+    {
+      "key": "0/66/32/32",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/66/32/32",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"1cc79d93e2b3e06a0d6ca717d51a259e\"",
+      "retrieved_utc": "2026-11-15T12:05:36.902457+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "candidate_edge"
+      ]
+    },
+    {
+      "key": "0/66/32/33",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/66/32/33",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"38d2a71284a06ff671852324fe4711ee\"",
+      "retrieved_utc": "2026-11-15T12:05:36.945838+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "candidate_edge"
+      ]
+    },
+    {
+      "key": "0/66/33/32",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/66/33/32",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"2ed318ae4ec5c7faf1e20c234ad720be\"",
+      "retrieved_utc": "2026-11-15T12:05:37.435328+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "candidate_edge"
+      ]
+    },
+    {
+      "key": "0/66/33/33",
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/66/33/33",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"714abb002c7ea28770f631662963b572\"",
+      "retrieved_utc": "2026-11-15T12:05:37.436299+00:00",
+      "method": "HEAD",
+      "body_bytes": 0,
+      "used_by": [
+        "candidate_edge"
+      ]
+    }
+  ],
+  "download_bytes": 54525952,
+  "execution": {
+    "new_CT_body_downloads_now": 0,
+    "future_gpu": 0,
+    "future_paid_compute_usd": 0,
+    "future_cpu_threads": 1,
+    "future_wall_limit_minutes": 15,
+    "future_C_new_save_cap_MiB": 96,
+    "minimum_C_free_GiB": 2,
+    "future_render_or_model_forward": false,
+    "method": "Inspect eight fixed native XY cross sections plus six fixed local tangent/normal planes through saved edge anchors and known-phi control. Use only the saved fixed boxes; mark out-of-box samples missing. This diagnostic creates no replacement surface and makes no transcription.",
+    "future_expected_RAM_peak_below_GiB": 1,
+    "future_process_commit_limit_GiB": 4,
+    "future_resource_runner": "tools/research/run_windows.py existing runner; record measured peak, no new limit controller",
+    "storage": "Save only the 26 acquired CT chunks; assemble box arrays in RAM without saving duplicate box volumes. C new-save cap remains 96 MiB."
+  },
+  "support": "The existing candidate sheet continues across the boundary without an unresolvable sheet switch inside the fixed box; the missing branch can be targeted by a bounded later surface extension. Agreement at the known-phi control establishes the coordinate/contrast comparison, not independent ink confirmation.",
+  "reject_or_stop": "The sheet ends, loses support, or has multiple indistinguishable continuations inside this fixed box; or the known control does not map as expected. Stop this right-edge candidate without widening the box, scanning extra depths, trying further models, or chaining another local CT diagnosis.",
+  "success_claim_limit": "Only feasibility of a local surface continuation. Any future new stroke requires a separately verified extended surface, CT render, prediction and prior-publication comparison.",
+  "fixed_observations": {
+    "raw_plane_orientation": "XY at integer storage Z; no resampling, no rotation or reflection. Display X increases right and Y down. Grid node XYZ is the anchor; no image-pixel-to-XYZ interpolator is assumed.",
+    "display": [
+      "raw native uint8 0..255",
+      "one fixed CT display window 46..169 with saved node and local tangent overlay"
+    ],
+    "candidate_anchors": [
+      {
+        "grid_rc": [
+          40,
+          298
+        ],
+        "xyz": [
+          4217.2080078125,
+          4210.2919921875,
+          8358.7294921875
+        ],
+        "ct_z": 8359
+      },
+      {
+        "grid_rc": [
+          42,
+          298
+        ],
+        "xyz": [
+          4210.22509765625,
+          4210.63916015625,
+          8398.435546875
+        ],
+        "ct_z": 8398
+      },
+      {
+        "grid_rc": [
+          44,
+          298
+        ],
+        "xyz": [
+          4203.02978515625,
+          4210.9658203125,
+          8438.076171875
+        ],
+        "ct_z": 8438
+      },
+      {
+        "grid_rc": [
+          46,
+          298
+        ],
+        "xyz": [
+          4195.943359375,
+          4211.0791015625,
+          8477.6357421875
+        ],
+        "ct_z": 8478
+      }
+    ],
+    "known_phi_anchors": [
+      {
+        "grid_rc": [
+          40,
+          240
+        ],
+        "xyz": [
+          3513.88134765625,
+          3358.15771484375,
+          8268.7705078125
+        ],
+        "ct_z": 8269
+      },
+      {
+        "grid_rc": [
+          42,
+          240
+        ],
+        "xyz": [
+          3514.47802734375,
+          3361.5732421875,
+          8308.9052734375
+        ],
+        "ct_z": 8309
+      },
+      {
+        "grid_rc": [
+          44,
+          240
+        ],
+        "xyz": [
+          3515.880859375,
+          3354.09716796875,
+          8348.4033203125
+        ],
+        "ct_z": 8348
+      },
+      {
+        "grid_rc": [
+          46,
+          240
+        ],
+        "xyz": [
+          3517.32421875,
+          3343.50927734375,
+          8387.287109375
+        ],
+        "ct_z": 8387
+      }
+    ],
+    "axial_planes_count": 8,
+    "display_images_count": 28,
+    "time_sampling": "Four cross sections spanning 119 native Z voxels at the candidate; these are spatial cross sections, not time observations.",
+    "oblique_sections": {
+      "construction": "Q(s,d)=origin_xyz+s*t+d*n. n=normalize(du cross dv); no physical recto/verso interpretation. This is an observation plane, not a generated surface.",
+      "s_inclusive_vox": [
+        -80,
+        120
+      ],
+      "normal_distance_inclusive_vox": [
+        -32,
+        32
+      ],
+      "step_vox": 1,
+      "image_shape_hw": [
+        65,
+        201
+      ],
+      "sampler": "float64 trilinear on native uint8 CT; retain floating sample values before display; no fill of missing data",
+      "inside_rule": "R235 preflight must confirm all eight trilinear source corners are in the designated fixed candidate/control box. Outside samples are marked missing; do not widen boxes or fetch extra chunks.",
+      "sections": [
+        {
+          "kind": "candidate",
+          "grid_rc": [
+            40,
+            298
+          ],
+          "origin_xyz": [
+            4217.2080078125,
+            4210.2919921875,
+            8358.7294921875
+          ],
+          "u_difference_rule": "backward one-cell difference G[r,c]-G[r,c-1] at the edge",
+          "v_difference_rule": "centred one-cell difference G[r+1,c]-G[r-1,c]",
+          "tangent_t": [
+            0.6538204157600624,
+            0.7490956363732598,
+            0.10665172995258965
+          ],
+          "normal_n": [
+            0.7382709882615711,
+            -0.6624481060830367,
+            0.12695847603953267
+          ]
+        },
+        {
+          "kind": "candidate",
+          "grid_rc": [
+            42,
+            298
+          ],
+          "origin_xyz": [
+            4210.22509765625,
+            4210.63916015625,
+            8398.435546875
+          ],
+          "u_difference_rule": "backward one-cell difference G[r,c]-G[r,c-1] at the edge",
+          "v_difference_rule": "centred one-cell difference G[r+1,c]-G[r-1,c]",
+          "tangent_t": [
+            0.6948548731596832,
+            0.7094000470473525,
+            0.11801812782557872
+          ],
+          "normal_n": [
+            0.6969889656285839,
+            -0.7047379654171313,
+            0.1324793640221717
+          ]
+        },
+        {
+          "kind": "candidate",
+          "grid_rc": [
+            44,
+            298
+          ],
+          "origin_xyz": [
+            4203.02978515625,
+            4210.9658203125,
+            8438.076171875
+          ],
+          "u_difference_rule": "backward one-cell difference G[r,c]-G[r,c-1] at the edge",
+          "v_difference_rule": "centred one-cell difference G[r+1,c]-G[r-1,c]",
+          "tangent_t": [
+            0.7026422810597892,
+            0.7010097025873587,
+            0.1219804154177176
+          ],
+          "normal_n": [
+            0.6889034736930214,
+            -0.7131148344713756,
+            0.1299201169586575
+          ]
+        },
+        {
+          "kind": "candidate",
+          "grid_rc": [
+            46,
+            298
+          ],
+          "origin_xyz": [
+            4195.943359375,
+            4211.0791015625,
+            8477.6357421875
+          ],
+          "u_difference_rule": "backward one-cell difference G[r,c]-G[r,c-1] at the edge",
+          "v_difference_rule": "centred one-cell difference G[r+1,c]-G[r-1,c]",
+          "tangent_t": [
+            0.7107963176177331,
+            0.6925788892957161,
+            0.12289457662152067
+          ],
+          "normal_n": [
+            0.6847627315079106,
+            -0.7212720168202569,
+            0.10424336568753018
+          ]
+        },
+        {
+          "kind": "known_phi",
+          "grid_rc": [
+            42,
+            240
+          ],
+          "origin_xyz": [
+            3514.47802734375,
+            3361.5732421875,
+            8308.9052734375
+          ],
+          "u_difference_rule": "centred one-cell difference G[r,c+1]-G[r,c-1]",
+          "v_difference_rule": "centred one-cell difference G[r+1,c]-G[r-1,c]",
+          "tangent_t": [
+            0.9992622291488324,
+            0.032924966930182986,
+            -0.019772302575885914
+          ],
+          "normal_n": [
+            0.032410963071386696,
+            -0.9991421686187975,
+            -0.02577705104373905
+          ]
+        },
+        {
+          "kind": "known_phi",
+          "grid_rc": [
+            46,
+            240
+          ],
+          "origin_xyz": [
+            3517.32421875,
+            3343.50927734375,
+            8387.287109375
+          ],
+          "u_difference_rule": "centred one-cell difference G[r,c+1]-G[r,c-1]",
+          "v_difference_rule": "centred one-cell difference G[r+1,c]-G[r-1,c]",
+          "tangent_t": [
+            0.9992175077974779,
+            -0.023383639636085952,
+            -0.03189949072268757
+          ],
+          "normal_n": [
+            -0.02798257302785393,
+            -0.9879337608332456,
+            -0.1523281320459901
+          ]
+        }
+      ]
+    },
+    "oblique_planes_count": 6,
+    "all_planes_count": 14
+  }
+}

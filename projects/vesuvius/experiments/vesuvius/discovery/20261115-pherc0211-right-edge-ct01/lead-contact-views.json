@@ -1,0 +1,137 @@
+{
+  "same_fixed_observations_only": true,
+  "views": [
+    {
+      "file": "lead-candidate-sd-contact.png",
+      "panels": [
+        {
+          "source": "sections/candidate-r40-sd-raw.png",
+          "rect_xywh": [
+            12,
+            30,
+            804,
+            260
+          ],
+          "integer_zoom": 4
+        },
+        {
+          "source": "sections/candidate-r40-sd-window.png",
+          "rect_xywh": [
+            832,
+            30,
+            804,
+            260
+          ],
+          "integer_zoom": 4
+        },
+        {
+          "source": "sections/candidate-r42-sd-raw.png",
+          "rect_xywh": [
+            12,
+            330,
+            804,
+            260
+          ],
+          "integer_zoom": 4
+        },
+        {
+          "source": "sections/candidate-r42-sd-window.png",
+          "rect_xywh": [
+            832,
+            330,
+            804,
+            260
+          ],
+          "integer_zoom": 4
+        },
+        {
+          "source": "sections/candidate-r44-sd-raw.png",
+          "rect_xywh": [
+            12,
+            630,
+            804,
+            260
+          ],
+          "integer_zoom": 4
+        },
+        {
+          "source": "sections/candidate-r44-sd-window.png",
+          "rect_xywh": [
+            832,
+            630,
+            804,
+            260
+          ],
+          "integer_zoom": 4
+        },
+        {
+          "source": "sections/candidate-r46-sd-raw.png",
+          "rect_xywh": [
+            12,
+            930,
+            804,
+            260
+          ],
+          "integer_zoom": 4
+        },
+        {
+          "source": "sections/candidate-r46-sd-window.png",
+          "rect_xywh": [
+            832,
+            930,
+            804,
+            260
+          ],
+          "integer_zoom": 4
+        }
+      ],
+      "new_sections": 0
+    },
+    {
+      "file": "lead-known_phi-sd-contact.png",
+      "panels": [
+        {
+          "source": "sections/known_phi-r42-sd-raw.png",
+          "rect_xywh": [
+            12,
+            30,
+            804,
+            260
+          ],
+          "integer_zoom": 4
+        },
+        {
+          "source": "sections/known_phi-r42-sd-window.png",
+          "rect_xywh": [
+            832,
+            30,
+            804,
+            260
+          ],
+          "integer_zoom": 4
+        },
+        {
+          "source": "sections/known_phi-r46-sd-raw.png",
+          "rect_xywh": [
+            12,
+            330,
+            804,
+            260
+          ],
+          "integer_zoom": 4
+        },
+        {
+          "source": "sections/known_phi-r46-sd-window.png",
+          "rect_xywh": [
+            832,
+            330,
+            804,
+            260
+          ],
+          "integer_zoom": 4
+        }
+      ],
+      "new_sections": 0
+    }
+  ]
+}

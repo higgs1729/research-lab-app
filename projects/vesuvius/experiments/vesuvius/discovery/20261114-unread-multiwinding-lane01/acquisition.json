@@ -1,0 +1,188 @@
+{
+  "responses": [
+    {
+      "url": "https://huggingface.co/api/datasets/rodriguescarson/eligible-scroll-spiral-fits/tree/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90",
+      "status": 200,
+      "bytes": 791,
+      "content_range": null,
+      "etag": "W/\"317-n4iQShk8E3QDSAAtCz4yv3Nc1mE\"",
+      "sha256": "7c83f2443068b2a3c1c6287cbeffcd285b9385900fb767fefa177a33754f75fd",
+      "seconds": 0.3763108999992255
+    },
+    {
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w052/meta.json",
+      "status": 200,
+      "bytes": 444,
+      "content_range": null,
+      "etag": "\"83bd45d56a8f1dd2cf56b28d312fe5cef80b9a4c\"",
+      "sha256": "c91e3363e71557f62095a522029f87265a19f84275cc6be0f9981e3670d11040",
+      "seconds": 0.2522731000062777
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/rodriguescarson/eligible-scroll-spiral-fits/tree/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w052",
+      "status": 200,
+      "bytes": 655,
+      "content_range": null,
+      "etag": "W/\"28f-Mro6mgOZ0nYS+qtchX1Mt5obgNI\"",
+      "sha256": "f09ef8ca5403def7b47f241601bb12c45a78f55a27f335ecc7aa53c2596c7f81",
+      "seconds": 0.20420690000173636
+    },
+    {
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w052/x.tif",
+      "status": 206,
+      "bytes": 512,
+      "content_range": "bytes 0-511/57254",
+      "etag": "\"4cdd1dfde36befdabad53442a6da388e354baf2a\"",
+      "sha256": "183001e5e4d56525b57bec822de44b3ec527b837b253308c1302c0dfc0fbd7fe",
+      "seconds": 0.25447390000044834
+    },
+    {
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w053/meta.json",
+      "status": 200,
+      "bytes": 437,
+      "content_range": null,
+      "etag": "\"bbfb41e35fe1942e79308754a56409dd3b927b24\"",
+      "sha256": "9c74c8d62311f0c41f165ad3d53f20916449e8b726db18d50555c0ab8fff582e",
+      "seconds": 0.22780749999219552
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/rodriguescarson/eligible-scroll-spiral-fits/tree/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w053",
+      "status": 200,
+      "bytes": 655,
+      "content_range": null,
+      "etag": "W/\"28f-zCSlIbN4Nf1TNYasJsG1+zm2jjM\"",
+      "sha256": "40c7811a19a2b1d0ee60db241e53c4e196feab9d167673678c70d93a46e328bc",
+      "seconds": 0.2406934999889927
+    },
+    {
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w053/x.tif",
+      "status": 206,
+      "bytes": 512,
+      "content_range": "bytes 0-511/58374",
+      "etag": "\"da3d79398370ae4b22ebd97c3d846011123dc184\"",
+      "sha256": "dff723174c8257e919c717ee89bdcf9551e81dab0c3d1f21521fbcda2426d069",
+      "seconds": 0.23498639999888837
+    },
+    {
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w054/meta.json",
+      "status": 200,
+      "bytes": 447,
+      "content_range": null,
+      "etag": "\"5fae00430186fbfec06b36900185cd6eb7647cbc\"",
+      "sha256": "8b89cc32ca097e65686a8a289db5d7fc77f41077fe37a319ca12a4698aa06d61",
+      "seconds": 0.24374259999603964
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/rodriguescarson/eligible-scroll-spiral-fits/tree/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w054",
+      "status": 200,
+      "bytes": 655,
+      "content_range": null,
+      "etag": "W/\"28f-/ujvCn752N/2xnXIaWAEmf2+j6g\"",
+      "sha256": "e2d5c4e8a79a6bb2c491077fe0a6fe8caf1e425420d372e231a125bd72110e06",
+      "seconds": 0.21056989999487996
+    },
+    {
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-spiral-fits/resolve/63c641ba1dc794073208c24f7f88fa59c4f77621/2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted/w054/x.tif",
+      "status": 206,
+      "bytes": 512,
+      "content_range": "bytes 0-511/59494",
+      "etag": "\"7197ff45b10e8431cb3a8b2c6beef96853311b35\"",
+      "sha256": "b5292b5efdd65a6c791b000d70cf65494381e48ec4059b07eca5b0eacf9de60f",
+      "seconds": 0.2678650000016205
+    },
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0191/volumes/20250821151635-9.362um-1.2m-113keV-masked.zarr/0/.zarray",
+      "status": 200,
+      "bytes": 239,
+      "content_range": null,
+      "etag": "\"0107f43470e3c9447eb165fa8929720c\"",
+      "sha256": "0b44cc0ee481c25d50f6817dcab06a642fd1a2b87bd704459f0569e49ca40d34",
+      "seconds": 0.5659163999953307,
+      "path": "originals/ct-L0-zarray.json"
+    },
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0191/volumes/20250821151635-9.362um-1.2m-113keV-masked.zarr/.zattrs",
+      "status": 200,
+      "bytes": 3018,
+      "content_range": null,
+      "etag": "\"c792decadf526e26820c786d48dcddf0\"",
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+      "seconds": 0.5482828000094742,
+      "path": "originals/ct-zattrs.json"
+    },
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0191/volumes/20250821151635-9.362um-1.2m-113keV-masked.zarr/.zgroup",
+      "status": 200,
+      "bytes": 24,
+      "content_range": null,
+      "etag": "\"e20297935e73dd0154104d4ea53040ab\"",
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+      "seconds": 0.5470719000004465,
+      "path": "originals/ct-zgroup.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jcooperkai-sys/Scan-Quality-Map/76fcf8ed54ea2b5b0878446b105a2a585e85a11b/docs/atlas.json",
+      "status": 200,
+      "bytes": 60402,
+      "content_range": null,
+      "etag": "\"d5e456def9f6c075cac3f54008480f116cd9bc54b3fb97e6f068e4e436de3489\"",
+      "sha256": "f70ff1a3004e576758938f61b125adae9d83795fecdae4b87b77f7efdd5c5f87",
+      "seconds": 0.3082301000104053,
+      "path": "originals/sqm-atlas.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jcooperkai-sys/Scan-Quality-Map/76fcf8ed54ea2b5b0878446b105a2a585e85a11b/docs/targets.json",
+      "status": 200,
+      "bytes": 32535,
+      "content_range": null,
+      "etag": "\"4f5000fb25c8b45e99355cb55a721e5c2f52586884cb268bc021179c59246dc4\"",
+      "sha256": "adfbcb16e2e0c17e2686f127fc8be6f5dedfcc914bb8c9e4f5e1643ef08d68f5",
+      "seconds": 0.2675890999962576,
+      "path": "originals/sqm-targets.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gmDevi/vc-windows-tools/420608850f5f126524e7a06ef3a8c85ba31d7f6c/report/REPORT.md",
+      "status": 200,
+      "bytes": 13646,
+      "content_range": null,
+      "etag": "\"7f3ea961e0933cfc55ab4e69ccfdefa25b8b9a3461949e5f15cd55f42553a0a9\"",
+      "sha256": "0cca2b655fc509af23a9eee5735f1b52955556c2ebb1aa4d6b9bb69b1f5268dc",
+      "seconds": 0.28424229999654926,
+      "path": "originals/gmdevi-report.md"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gmDevi/vc-windows-tools/420608850f5f126524e7a06ef3a8c85ba31d7f6c/kaggle/fit_remote.py",
+      "status": 200,
+      "bytes": 5783,
+      "content_range": null,
+      "etag": "\"13b8f5166f851b9256d1efefc02c25a9e9fae83ad32e8b2acbab9e34f2e2b43e\"",
+      "sha256": "6a933cd7d3d8317ef454408d1b8db9ba70fa9ba640dfb37fa02bf32dbe2e56fd",
+      "seconds": 0.5704866999876685,
+      "path": "originals/gmdevi-fit-remote.py"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gmDevi/vc-windows-tools/420608850f5f126524e7a06ef3a8c85ba31d7f6c/results/p0191_batch/batch.log",
+      "status": 200,
+      "bytes": 4887,
+      "content_range": null,
+      "etag": "\"850d93f0005feca8752f7e1d3c4f22e69e736ba84e36af7e2fb6e1cec6d84817\"",
+      "sha256": "84bf268dbe6da74a7acde0a8e00fa47b299e3866986fdd60e24f3dfb389e91a8",
+      "seconds": 0.2634970999934012,
+      "path": "originals/gmdevi-0191-batch.log"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/PHerc0191_2707_2976_13281/meta.json",
+      "status": 200,
+      "bytes": 1197,
+      "content_range": null,
+      "etag": "\"8694bdaf246f13160affd450e7aeb7c2024de522830b3dccc39d473e259c89f7\"",
+      "sha256": "070449e75aa34fa197f307ff4233aed6ed8775764709032f7c61f97903df1fc8",
+      "seconds": 0.42309410001325887,
+      "path": "originals/survey-0191-older-atlas-mesh-meta.json"
+    }
+  ],
+  "transport_seconds": 6.30027429999609,
+  "saved_or_embedded_body_bytes": 127351,
+  "full_xyz_downloaded": 0,
+  "ct_chunks": 0
+}

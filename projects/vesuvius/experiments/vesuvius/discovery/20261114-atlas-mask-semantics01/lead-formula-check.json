@@ -1,0 +1,109 @@
+{
+  "reviewer": "root",
+  "utc": "2026-11-14T11:11:41.160664+00:00",
+  "opencv": "5.0.0",
+  "numpy": "2.5.2",
+  "source_sha256": "e14b73d16ad6d0f7208924d85cda146af9a1c7d115364089f4b891f5a51859ba",
+  "rows": [
+    {
+      "id": "kbh-PHerc0175B_3024_3577_11121",
+      "sheet_pixels": 93040,
+      "fallback": true,
+      "used_pixels": 3640421,
+      "fractions": {
+        "canvas": 0.8957164607741245,
+        "positive_ct": 1.0,
+        "rendered": 0.9999881883188516
+      },
+      "published_sheet_fraction": 1.0
+    },
+    {
+      "id": "kbh-PHerc0268_2704_5907_7421",
+      "sheet_pixels": 251458,
+      "fallback": false,
+      "used_pixels": 251458,
+      "fractions": {
+        "canvas": 0.061870610512723606,
+        "positive_ct": 0.06907306321391998,
+        "rendered": 0.06907306321391998
+      },
+      "published_sheet_fraction": 0.069
+    },
+    {
+      "id": "kbh-PHerc0483A_3155_3610_11128",
+      "sheet_pixels": 627484,
+      "fallback": false,
+      "used_pixels": 627484,
+      "fractions": {
+        "canvas": 0.15439086514235323,
+        "positive_ct": 0.17236374264379486,
+        "rendered": 0.17236374264379486
+      },
+      "published_sheet_fraction": 0.172
+    },
+    {
+      "id": "kbh-PHerc0125_5409_5288_14587",
+      "sheet_pixels": 3686967,
+      "fallback": false,
+      "used_pixels": 3686967,
+      "fractions": {
+        "canvas": 0.7729723916193696,
+        "positive_ct": 0.8629569095801713,
+        "rendered": 0.8629552937409553
+      },
+      "published_sheet_fraction": 0.863
+    },
+    {
+      "id": "kbh-PHerc1218_3144_3279_16272",
+      "sheet_pixels": 2880845,
+      "fallback": false,
+      "used_pixels": 2880845,
+      "fractions": {
+        "canvas": 0.7088246901769967,
+        "positive_ct": 0.8307957756044357,
+        "rendered": 0.7913400599484022
+      },
+      "published_sheet_fraction": 0.831
+    },
+    {
+      "id": "kbh-PHerc1218_4203_4343_16272",
+      "sheet_pixels": 2777021,
+      "fallback": false,
+      "used_pixels": 2777021,
+      "fractions": {
+        "canvas": 0.6832790552563618,
+        "positive_ct": 0.7653672425848547,
+        "rendered": 0.7628206184706126
+      },
+      "published_sheet_fraction": 0.765
+    },
+    {
+      "id": "kbh-PHerc0846B_2768_2813_9748",
+      "sheet_pixels": 929456,
+      "fallback": false,
+      "used_pixels": 929456,
+      "fractions": {
+        "canvas": 0.19486038991533497,
+        "positive_ct": 0.21754438689017105,
+        "rendered": 0.21754438689017105
+      },
+      "published_sheet_fraction": 0.217
+    },
+    {
+      "id": "kbh-POS_PHerc0343_erwin",
+      "sheet_pixels": 6177477,
+      "fallback": false,
+      "used_pixels": 6177477,
+      "fractions": {
+        "canvas": 0.4433195460620591,
+        "positive_ct": 0.7138691865524225,
+        "rendered": 0.7138658867790043
+      },
+      "published_sheet_fraction": 0.714
+    }
+  ],
+  "new_network_bytes": 0,
+  "model_calls": 0,
+  "interpretation": "Gabor orthogonal texture-energy threshold is not verified physical sheet identity or a letter detector. The fallback is based on the entire canvas; the reported fraction cannot be compared between mask kinds.",
+  "historical_limit": "The atlas generation wrapper and exact rounding were not obtained. The eight matching used-pixel counts support mask correspondence, not historical execution provenance."
+}

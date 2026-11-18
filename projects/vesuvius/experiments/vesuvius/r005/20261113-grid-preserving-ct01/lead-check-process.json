@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-ct-render01\\..\\20261113-grid-preserving-ct01\\lead_check.py"
+  ],
+  "started_utc": "2026-11-13T11:37:34.699048+00:00",
+  "completed_utc": "2026-11-13T11:37:34.940999+00:00",
+  "elapsed_seconds": 0.24195680004777387,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 59912192,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 0.171875,
+  "sys_cpu_seconds": 0.15625,
+  "exit_code": 0
+}

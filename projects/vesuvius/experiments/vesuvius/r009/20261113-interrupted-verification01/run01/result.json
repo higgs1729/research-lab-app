@@ -1,0 +1,293 @@
+{
+  "checks": {
+    "after-l0-chunk": {
+      "process": {
+        "command": [
+          "unshare",
+          "-Urn",
+          "/mnt/c/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/renderer",
+          "--volume",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr",
+          "--segmentation",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r011/20261113-w035-geometry01/run01/input",
+          "--zarr-output",
+          "/mnt/c/dev/kensyoukin/.work/r009-interrupted-verification01/run01/after-l0-chunk.zarr",
+          "--zarr-compressor",
+          "none",
+          "--pyramid",
+          "true",
+          "--scale",
+          "1",
+          "--group-idx",
+          "0",
+          "--num-slices",
+          "28",
+          "--slice-step",
+          "1",
+          "--surface-interpolation",
+          "bicubic",
+          "--voxel-size",
+          "9.362",
+          "--voxel-unit",
+          "micrometer",
+          "--cache-gb",
+          "1",
+          "--flip-normals",
+          "--crop-x",
+          "2176",
+          "--crop-y",
+          "1408",
+          "--crop-width",
+          "64",
+          "--crop-height",
+          "64",
+          "--resume"
+        ],
+        "cwd": "/mnt/c/dev/kensyoukin/.work/r009-interrupted-verification01/run01",
+        "started_utc": "2026-11-13T08:16:25.049292+00:00",
+        "elapsed_seconds": 0.42017091699999964,
+        "exit_code": 0
+      },
+      "all_14_files_equal": true,
+      "preserved_sha_mtime_inode": [
+        ".zgroup",
+        "0/.zarray",
+        "0/0/0/0",
+        "1/.zarray",
+        "2/.zarray",
+        "3/.zarray",
+        "4/.zarray",
+        "5/.zarray"
+      ],
+      "levels": {
+        "0": {
+          "shape": [
+            28,
+            64,
+            64
+          ],
+          "uint8_values": 114688,
+          "sha256": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+        },
+        "1": {
+          "shape": [
+            28,
+            32,
+            32
+          ],
+          "uint8_values": 28672,
+          "sha256": "633bca3ca715964251b13a00afd36158c60618f6fbcd6586223d4f80ea34eb75"
+        },
+        "2": {
+          "shape": [
+            28,
+            16,
+            16
+          ],
+          "uint8_values": 7168,
+          "sha256": "b75666b6e69c7c83627a87a35dce52b82588f8bee2ae28b9717765c400de9cea"
+        },
+        "3": {
+          "shape": [
+            28,
+            8,
+            8
+          ],
+          "uint8_values": 1792,
+          "sha256": "ce82c6b1a9e4a5693ae762e85c0bbc3c8ba4ad2c468c00c2c8bd3405dc710a34"
+        },
+        "4": {
+          "shape": [
+            28,
+            4,
+            4
+          ],
+          "uint8_values": 448,
+          "sha256": "5534018884b48517474b8be0565b8328c278e4f70480d97eae27296501e23028"
+        },
+        "5": {
+          "shape": [
+            28,
+            2,
+            2
+          ],
+          "uint8_values": 112,
+          "sha256": "d5fdbeb2526b403dbce5aa1da88a9b79f9f871fe41f9d93ef57efb5ac49bdf41"
+        }
+      },
+      "original_snapshot_unchanged": true,
+      "signal_status_confirmed": false,
+      "observed_breakpoint_pid": 455
+    },
+    "before-pyramid-arrays": {
+      "process": {
+        "command": [
+          "unshare",
+          "-Urn",
+          "/mnt/c/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/renderer",
+          "--volume",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr",
+          "--segmentation",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r011/20261113-w035-geometry01/run01/input",
+          "--zarr-output",
+          "/mnt/c/dev/kensyoukin/.work/r009-interrupted-verification01/run01/before-pyramid-arrays.zarr",
+          "--zarr-compressor",
+          "none",
+          "--pyramid",
+          "true",
+          "--scale",
+          "1",
+          "--group-idx",
+          "0",
+          "--num-slices",
+          "28",
+          "--slice-step",
+          "1",
+          "--surface-interpolation",
+          "bicubic",
+          "--voxel-size",
+          "9.362",
+          "--voxel-unit",
+          "micrometer",
+          "--cache-gb",
+          "1",
+          "--flip-normals",
+          "--crop-x",
+          "2176",
+          "--crop-y",
+          "1408",
+          "--crop-width",
+          "64",
+          "--crop-height",
+          "64",
+          "--resume"
+        ],
+        "cwd": "/mnt/c/dev/kensyoukin/.work/r009-interrupted-verification01/run01",
+        "started_utc": "2026-11-13T08:16:26.396268+00:00",
+        "elapsed_seconds": 0.4197292829999997,
+        "exit_code": 0
+      },
+      "all_14_files_equal": true,
+      "preserved_sha_mtime_inode": [
+        ".zgroup",
+        "0/.zarray"
+      ],
+      "levels": {
+        "0": {
+          "shape": [
+            28,
+            64,
+            64
+          ],
+          "uint8_values": 114688,
+          "sha256": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+        },
+        "1": {
+          "shape": [
+            28,
+            32,
+            32
+          ],
+          "uint8_values": 28672,
+          "sha256": "633bca3ca715964251b13a00afd36158c60618f6fbcd6586223d4f80ea34eb75"
+        },
+        "2": {
+          "shape": [
+            28,
+            16,
+            16
+          ],
+          "uint8_values": 7168,
+          "sha256": "b75666b6e69c7c83627a87a35dce52b82588f8bee2ae28b9717765c400de9cea"
+        },
+        "3": {
+          "shape": [
+            28,
+            8,
+            8
+          ],
+          "uint8_values": 1792,
+          "sha256": "ce82c6b1a9e4a5693ae762e85c0bbc3c8ba4ad2c468c00c2c8bd3405dc710a34"
+        },
+        "4": {
+          "shape": [
+            28,
+            4,
+            4
+          ],
+          "uint8_values": 448,
+          "sha256": "5534018884b48517474b8be0565b8328c278e4f70480d97eae27296501e23028"
+        },
+        "5": {
+          "shape": [
+            28,
+            2,
+            2
+          ],
+          "uint8_values": 112,
+          "sha256": "d5fdbeb2526b403dbce5aa1da88a9b79f9f871fe41f9d93ef57efb5ac49bdf41"
+        }
+      },
+      "original_snapshot_unchanged": true,
+      "signal_status_confirmed": false,
+      "observed_breakpoint_pid": 451,
+      "old": {
+        "process": {
+          "command": [
+            "unshare",
+            "-Urn",
+            "/mnt/c/dev/kensyoukin/.work/r009-resume-reproduction01/run01/renderer",
+            "--volume",
+            "/mnt/c/dev/kensyoukin/experiments/vesuvius/r012/20261113-known-ct-control01/run01/ct.zarr",
+            "--segmentation",
+            "/mnt/c/dev/kensyoukin/experiments/vesuvius/r011/20261113-w035-geometry01/run01/input",
+            "--zarr-output",
+            "/mnt/c/dev/kensyoukin/.work/r009-interrupted-verification01/run01/old-resume.zarr",
+            "--zarr-compressor",
+            "none",
+            "--pyramid",
+            "true",
+            "--scale",
+            "1",
+            "--group-idx",
+            "0",
+            "--num-slices",
+            "28",
+            "--slice-step",
+            "1",
+            "--surface-interpolation",
+            "bicubic",
+            "--voxel-size",
+            "9.362",
+            "--voxel-unit",
+            "micrometer",
+            "--cache-gb",
+            "1",
+            "--flip-normals",
+            "--crop-x",
+            "2176",
+            "--crop-y",
+            "1408",
+            "--crop-width",
+            "64",
+            "--crop-height",
+            "64",
+            "--resume"
+          ],
+          "cwd": "/mnt/c/dev/kensyoukin/.work/r009-interrupted-verification01/run01",
+          "started_utc": "2026-11-13T08:16:27.164217+00:00",
+          "elapsed_seconds": 0.3184619460000002,
+          "exit_code": 1
+        },
+        "L0_matches_normal": true,
+        "L1_missing_failure": true
+      }
+    }
+  },
+  "elapsed_seconds": 3.834137296,
+  "max_child_rss_bytes": 69431296,
+  "output_bytes_before_result": 444383,
+  "new_download_bytes": 0,
+  "cloud_cost_jpy": 0,
+  "limits": "No new process kill; OS terminating signal remains unconfirmed; one L0 chunk."
+}

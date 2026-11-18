@@ -1,0 +1,13 @@
+{
+  "observed_utc": "2026-11-11T10:39:16Z",
+  "windows_c_free_bytes": 11398778880,
+  "windows_free_physical_memory_kib": 7067408,
+  "wsl_available_commands": ["/usr/bin/g++"],
+  "wsl_absent_commands": ["cmake", "ninja", "clang++", "pkg-config"],
+  "wsl_dpkg_no_match": ["cmake", "ninja-build", "libeigen3-dev", "libopencv-dev", "libboost-all-dev", "libtiff-dev", "libfmt-dev", "libspdlog-dev", "libceres-dev", "libhdf5-dev", "libcurl4-openssl-dev", "libzstd-dev", "libopenblas-dev", "libmetis-dev"],
+  "followup_observed_utc": "2026-11-11T10:40Z",
+  "windows_d_free_bytes": 126382899200,
+  "docker": "daemon named pipe dockerDesktopLinuxEngine absent; images could not be listed",
+  "wsl_root_available_bytes_reported": 1015129788416,
+  "note": "WSL virtual filesystem free space does not establish the physical drive free space. These are observed capacities, not reserved resources. No package installation or Docker startup was performed."
+}

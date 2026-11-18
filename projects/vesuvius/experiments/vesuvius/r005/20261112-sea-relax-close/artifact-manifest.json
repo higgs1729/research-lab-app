@@ -1,0 +1,387 @@
+{
+  "created_utc": "2026-11-12T02:19:52.697473+00:00",
+  "scope": "Reports87/88, M boundary-target SLIM N, exact restored boundary and unchanged coarse/exterior geometry, same-grid native G/I/M/N comparison, independent verification, resources/runtime/decision. I baseline retained; N saved as lower-distortion overlap-free candidate.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-close/decision-record.json",
+      "bytes": 966,
+      "sha256": "8e5379b71a0d0dd526ca68ce5121b788d1165f41aa1674a8d8db364a0e6ba10d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-close/experiment-record.json",
+      "bytes": 1601,
+      "sha256": "ff2cb18984ffe2fda342471c6c3fc5dcf73552ec21f9025141c32958b6636d8c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-close/freeze.py",
+      "bytes": 5569,
+      "sha256": "9258a66a174e399f8462ccd39cee575dc3f0df54ca4c30348ba9a997da20f479"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-close/resources.json",
+      "bytes": 13702,
+      "sha256": "347a9c12995516bde0090a88e95a218eb552a7b0530d00dedf68fdf87634561c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-close/runtime-status.json",
+      "bytes": 958,
+      "sha256": "b529acc0e039e89e211103fb6f3c425be47f1ee2302aec03e02eb981f967fafe"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-close/verification-record.json",
+      "bytes": 758,
+      "sha256": "ef8a2fb45d02ec52cde5bc210b8481345e95f3a846b1cf064cff0be4c179a89b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-verification01/check01/pairs.npz",
+      "bytes": 1806,
+      "sha256": "5323dca2f2b6e3652eef66e5fc68777ef4083c0286972e62601ed64125367f99"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-verification01/check01/raster_arrays.npz",
+      "bytes": 11385887,
+      "sha256": "9532dfe732b96aa5aabd33fdbece31ebc1a388e3f729a1879087d7d73b9325be"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-verification01/check01/result.json",
+      "bytes": 74571,
+      "sha256": "f58304a3c682fb43dc53f73e7ccfe3a7746dfe16456e3b3817aa61a4c4d82a75"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-verification01/check01-execution/state.json",
+      "bytes": 872,
+      "sha256": "7d9f1899d89d9fb5986f3342f8340572562e096036058377a91f1e746f695e62"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-verification01/check01-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax-verification01/verify_saved.py",
+      "bytes": 25771,
+      "sha256": "274695b8a9d0aab3fdbdd9bce316c61258d35b7080da061f9673b9b9d0d69f36"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/adapt_raster.py",
+      "bytes": 1555,
+      "sha256": "3324f6a82e82c07df4f468754f1e7f0621932e06b9180667647d32105ed09c61"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/analysis01/analyze.py",
+      "bytes": 4425,
+      "sha256": "6c062944b4513f42f1941cad7f57aed97e8a5d338e0306337c96297d571235b8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/analysis01/arrays.npz",
+      "bytes": 17711898,
+      "sha256": "bd72812c9905d5f52155497897a932f660f7bc005867b6192fab53fc24685eb2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/analysis01/result.json",
+      "bytes": 3464,
+      "sha256": "f6355fa33cdf12f15b72517636ed50cbf9fafd6af66303737a85f1e7bbafa881"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/analysis01-execution/state.json",
+      "bytes": 843,
+      "sha256": "1c7b5b8b36d8ea781c77b9ff9d750a7277562109a70488877b0c3146036e64a4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/analysis01-execution/stdout.log",
+      "bytes": 2122,
+      "sha256": "2e3c97951719e02a9607fe9e0dbf240d2b9c86ff1baac162385732ae0d857483"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/analyze.py",
+      "bytes": 4425,
+      "sha256": "6c062944b4513f42f1941cad7f57aed97e8a5d338e0306337c96297d571235b8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/decision-record.json",
+      "bytes": 1358,
+      "sha256": "231e594d7f66b71b6b57e7aa3e95ef2fd7afa9af7b8e4f542bfbc568b701ae90"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/diagnose_raster.py",
+      "bytes": 2543,
+      "sha256": "6918c289147bf9f58daa6c2d3fc0bd3ea2dc162d775b49b1425babc118f2f63c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/evaluate-raster.patch",
+      "bytes": 6271,
+      "sha256": "6c17f177db6d48046919027727e9476dd1aa944ca6c5753b92f0e6fc117d7519"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/evaluate_raster.py",
+      "bytes": 6575,
+      "sha256": "4613cd96b1d69bb77cafc33cab3d6c797cbff481fd1d6277c3b2eb80573265f5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/input01/arrays.npz",
+      "bytes": 12625,
+      "sha256": "f2ffd7a2a4888fdae7edee9a99e8900b986680171420f845a65975dae01a0ae6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/input01/input.json",
+      "bytes": 31970,
+      "sha256": "fb678ac25779aaa1ea9b2f2d6c5669154e06ebec8bf7f4d4a1673c566a65fcf9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/input01/prepare_trial.py",
+      "bytes": 2699,
+      "sha256": "c9596e379076af1b181becedf9f12db695a45e0deeeffa74c2883279005e45ff"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/input01/result.json",
+      "bytes": 903,
+      "sha256": "ae44d22b64f157645ead137843c0ab6aa901160409c92f7651304b6ff5810a2b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/input01-execution/state.json",
+      "bytes": 847,
+      "sha256": "3e472910f89a24e9286c4a9460f1f4a99ccaedd02de4a3e2d30cec7675e959a7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/input01-execution/stdout.log",
+      "bytes": 903,
+      "sha256": "ae44d22b64f157645ead137843c0ab6aa901160409c92f7651304b6ff5810a2b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/native_raster.py",
+      "bytes": 3703,
+      "sha256": "c0264c7af3613172873bf4eb274c49021227c80083cad9450e0c2b0094c9685d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/native_slim.py",
+      "bytes": 4116,
+      "sha256": "64e51ad8d96fc1ba0f69b1449830f394ed0da118482c67836d5e8d570ea256dd"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/prepare_raster.py",
+      "bytes": 2418,
+      "sha256": "06c819f01bc7c4421b0268f5f6a2df9f89c43f82e2d8abbf238086390baf4e94"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/prepare_trial.py",
+      "bytes": 2699,
+      "sha256": "c9596e379076af1b181becedf9f12db695a45e0deeeffa74c2883279005e45ff"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-analysis01/arrays.npz",
+      "bytes": 64860367,
+      "sha256": "fb95dd1a5d0c20dacc0c14ec35122152814bea52ffbbf4cb7b0a177e817c9586"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-analysis01/evaluate_raster.py",
+      "bytes": 6575,
+      "sha256": "4613cd96b1d69bb77cafc33cab3d6c797cbff481fd1d6277c3b2eb80573265f5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-analysis01/result.json",
+      "bytes": 16356,
+      "sha256": "33b5a5b639d2893e2ffc5a88bba19e746cb780224c8a80942aa29530be72281c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-analysis01-execution/state.json",
+      "bytes": 858,
+      "sha256": "f200811ad28e11a0af9d298502713c8b8d6b8783da23745a7633c3bb0287c825"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-analysis01-execution/stdout.log",
+      "bytes": 1531,
+      "sha256": "d939687f69e94a7adb9ac3755fb498f3dd628a1803f65cadd343cfe3075d4c7d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-decision-record.json",
+      "bytes": 957,
+      "sha256": "e391c398cccebb3ee58ebf45ede4bd5f49c0ddf54a33a4a839645ff8164adaec"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-detail01/diagnose_raster.py",
+      "bytes": 2543,
+      "sha256": "6918c289147bf9f58daa6c2d3fc0bd3ea2dc162d775b49b1425babc118f2f63c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-detail01/result.json",
+      "bytes": 29922,
+      "sha256": "69310ac61eeda1cfc2cfb9d71214beb3632c7fad993e4efa4e07c58f9071bad2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-detail01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-detail01-execution/state.json",
+      "bytes": 857,
+      "sha256": "1ae2fa57c15a39087c2ec440a90547b60d9aae992c998b453250011fd9c3a72e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-detail01-execution/stdout.log",
+      "bytes": 29922,
+      "sha256": "69310ac61eeda1cfc2cfb9d71214beb3632c7fad993e4efa4e07c58f9071bad2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-input01/correspondence.npz",
+      "bytes": 1500596,
+      "sha256": "11f461ce289080f771f926dd9d7b39974c3a06d11cedc6b3c10d17059ee09a90"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-input01/mesh.bin",
+      "bytes": 16476288,
+      "sha256": "5088636c796b3a2b29035ba712a3e32e0e2574021effe8b8212044fc62b0cc85"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-input01/prepare_raster.py",
+      "bytes": 2418,
+      "sha256": "06c819f01bc7c4421b0268f5f6a2df9f89c43f82e2d8abbf238086390baf4e94"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-input01/result.json",
+      "bytes": 396,
+      "sha256": "d2470c5868862bec4ae69e4dfed140584b6b043a1780386927b2ac944ea591e0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-input01/runner.patch",
+      "bytes": 3758,
+      "sha256": "5730fd4193cc65a8ad8e138226e46231262e4a83de90e5424db71d3769c41cd0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-input01-execution/state.json",
+      "bytes": 853,
+      "sha256": "3d4104d2d5edaf11b0f7ce79ead7426ab538b4d548bb37d91d134a9d4b6b17ed"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster-input01-execution/stdout.log",
+      "bytes": 396,
+      "sha256": "d2470c5868862bec4ae69e4dfed140584b6b043a1780386927b2ac944ea591e0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/corner_obj.cpp",
+      "bytes": 3126,
+      "sha256": "19212966593c157043357c455dac74fbe20be83bd2b0f07058cacce8a25bfb37"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/mesh.obj",
+      "bytes": 41808263,
+      "sha256": "5d83b4169445d6e3b86efe7f53108cb4b3f6d845a592b332c3a8915ff46cdc9a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/native_obj.py",
+      "bytes": 3703,
+      "sha256": "c0264c7af3613172873bf4eb274c49021227c80083cad9450e0c2b0094c9685d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/output/meta.json",
+      "bytes": 382,
+      "sha256": "05922938221cbdf2a41558412a3624105fff2e3abc5ffc12d748722d99608267"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/output/x.tif",
+      "bytes": 2982382,
+      "sha256": "4d9cc97b6a360c91f0dc58451b68f048ab6aad6b64934e40d5c7caa5919cbae5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/output/y.tif",
+      "bytes": 2982382,
+      "sha256": "be74c8a4093b94f5e6ed35acf071401486ddf4ea6871773105c48466af6a8c1b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/output/z.tif",
+      "bytes": 2982382,
+      "sha256": "694a05bbb07b4ed9540ae435c0e2c033e1e4e9cff8ce13e22460ecc75dd5f87b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/parsed.bin",
+      "bytes": 16476288,
+      "sha256": "5088636c796b3a2b29035ba712a3e32e0e2574021effe8b8212044fc62b0cc85"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/points.bin",
+      "bytes": 8946436,
+      "sha256": "4bb39db7688eb7b7f9290e12e1b42e044ba9840b3274610708ae1920dfb0b2a2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/raster_trace.json",
+      "bytes": 3182405,
+      "sha256": "907b90ca109ea9cedb9e91e545e707806fa35c282b02e5f0cc01cbf45f030df6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/result.json",
+      "bytes": 282,
+      "sha256": "0738934cefdf8230f1d9f6f3004a69af17129c98491d619ae2eff40a6f11958f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/state.json",
+      "bytes": 2319,
+      "sha256": "53f4e8cc74aa07f1e6c235f69e02f2495b8fd9a6aaf7cb93c201dc7be9107533"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/raster01/stdout.log",
+      "bytes": 272,
+      "sha256": "20061c197858d8638daa72a15d2b99aa27440ffc2612e9f89a7790485b9a5fdd"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/slim01/native_job.py",
+      "bytes": 4116,
+      "sha256": "64e51ad8d96fc1ba0f69b1449830f394ed0da118482c67836d5e8d570ea256dd"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/slim01/result.json",
+      "bytes": 34346,
+      "sha256": "4fe8060800da0b4f0284eaf67d454557db228603ef6269dd6314140927ab2598"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/slim01/slim_component.cpp",
+      "bytes": 3781,
+      "sha256": "f95b2fc13a37ed5c399f44322962be5da54e35fdba8f96b3f41e1c5bd5404824"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/slim01/state.json",
+      "bytes": 2724,
+      "sha256": "8a997a23e437620468ed23ab3f5966bb22488d16db9482879beafd1ce43bddda"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-sea-relax01/slim01/stdout.log",
+      "bytes": 119,
+      "sha256": "bae1c02c9223079cb19dd46b1892014386216b43f83c7375a93ea4649b47c69d"
+    },
+    {
+      "path": "research/87-r005-sea-relax-trial.md",
+      "bytes": 7426,
+      "sha256": "f347c797baf5f8c86de21a56a60811babb212a28ecf8db2a6934494e1a8b3e3a"
+    },
+    {
+      "path": "research/88-r005-sea-relax-verification.md",
+      "bytes": 8849,
+      "sha256": "6df6a538b29ff9476e13b82d3ff9664d4e4df40410efb85fa432f5de795f0985"
+    }
+  ],
+  "external_files": []
+}

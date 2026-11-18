@@ -1,0 +1,22 @@
+{
+  "as_of_utc": "2026-11-15T12:14:31.634617+00:00",
+  "gpu_used": false,
+  "paid_compute_usd": 0,
+  "new_CT_body_bytes": 0,
+  "new_model_forward_count": 0,
+  "new_letters": 0,
+  "selected_followup_candidates": 1,
+  "c_free_bytes_at_freeze": 8202551296,
+  "c_free_min_required_bytes": 2147483648,
+  "new_save_cap_bytes": 67108864,
+  "tree_bytes_before_closing_records": 63005718,
+  "ticket_bytes_charged_conservatively": 14504,
+  "d_write_bytes": 0,
+  "network_body_bytes_direct": 52936392,
+  "network_body_bytes_readme": 5897,
+  "network_body_bytes_parent_article_images": 5440815,
+  "elapsed_seconds": null,
+  "future_CT_plan_bytes": 54525952,
+  "future_CT_bodies_downloaded": false,
+  "note": "Local research time/token cost is not separately metered. The final filesystem total including manifest is reported after freeze; C free is an observed value, not continuous monitoring."
+}

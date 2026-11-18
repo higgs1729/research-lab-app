@@ -1,0 +1,20 @@
+{
+  "reviewer": "R232 experiment worker",
+  "date_jst": "2026-11-15",
+  "native_main_xywh": [1344, 1088, 672, 448],
+  "atlas_comparison_xywh": [1408, 1088, 256, 256],
+  "viewed": [
+    "review/comparison-native.png",
+    "review/native-studio-raw.png",
+    "review/comparison-atlas-256.png"
+  ],
+  "observations": [
+    "Studioの生階調で、受賞原図の右側（箱9）の曲がりと囲いに対応する暗部と広い明部が見える。Studioの輪は原図より閉じて太く、右端方向へ明部が続く。",
+    "原図で輪の下に離れている短い明部は、Studioの右側の太い反応に続く。中央値からp99.5の固定表示でも独立した下部成分を追えない。",
+    "左側（箱10）は横帯から下の明部への張り出しが対応する。原図の二本の細い上向き終端を連続線として追えず、分離も確認できない。",
+    "固定256角ではStudioの暗い中心が生階調でReader V3より明瞭に見え、周囲の明部が太い。既知曲線の位置はReader V3やdense-nativeにも反応がある。"
+  ],
+  "decision": "Studioは固定既知域の粗い形状を再現した。下部の分離と左終端の可読性改善は確認できなかった。",
+  "new_letters": 0,
+  "training_holdout_test": false
+}

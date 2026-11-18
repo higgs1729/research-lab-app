@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-15T11:02:34.598735+00:00",
+  "passed": true,
+  "observed_source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\cloud-run\\extracted\\normalization-probe.jsonl",
+  "observed_sha256": "319e8fbf2ec30fa94cf1f5d0aba4a22a60043f845348489e6700e9d158f31fa2",
+  "method": "Python struct scalar FP32 rounding lookup; independently sliced fixed input; no worker import",
+  "device": "NVIDIA A40",
+  "torch": "2.13.0+cu130",
+  "exact_observed_u8_bits": 256,
+  "exact_raw_and_CPU_contracts": 96,
+  "exact_observed_GPU_normalization_hashes": 96,
+  "max_CPU_GPU_input_delta": 5.960464477539063e-08,
+  "model_output_parity_verified": false,
+  "additional_model_forwards": 0
+}

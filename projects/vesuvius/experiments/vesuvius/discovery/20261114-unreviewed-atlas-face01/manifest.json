@@ -1,0 +1,546 @@
+{
+  "generated_utc": "2026-11-14T08:25:47.437596+00:00",
+  "workspace_bytes_before_manifest": 54288803,
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/acquire.py",
+      "bytes": 6959,
+      "sha256": "56ec196eb812458af3d0dae89f94b0d41c460f34974d8adc1841a96c5f849c90"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/acquisition-plan.json",
+      "bytes": 7533,
+      "sha256": "d2f476caf0c89a8fb25f67af98a7fc71b69748bea1300192b999a46a35be03b0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/analysis-process.json",
+      "bytes": 764,
+      "sha256": "89f34afc5346b433cbbadb44c19504d5907c345ca6b6706daf0076fcae0fdd54"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/candidate-acquisition.json",
+      "bytes": 4641,
+      "sha256": "a16c77cf36cfcb86b8930ff463b1e8f4dbdc748b666c54ecca994f0f36611983"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/candidate-process.json",
+      "bytes": 698,
+      "sha256": "9586e746214ec6b7bd49d4f4dd73e3132d035d8d0cb435786efd6c6337b778de"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/candidates/PHerc0125-meta.json",
+      "bytes": 23382,
+      "sha256": "86b0dc0b6bfeae7f8cfac128d5f5daa84bd3455648da143befbb6f434ce032f4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/candidates/PHerc0125-official.html",
+      "bytes": 23287,
+      "sha256": "17d7b63b0a56e93c3733ebedd4170a3ecc54a2d57b135da64f4d13f52aa019de"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/candidates/PHerc0125-tree.json",
+      "bytes": 17519,
+      "sha256": "1f597fac9a0117e4711c45dda30c9f83b59b49ed1828d916f8ef7747127e1cc8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/candidates/PHerc0191-meta.json",
+      "bytes": 23256,
+      "sha256": "b8d1466a53780b3133137dba04328c6184f93898938eafbcdba6556bb30a11cf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/candidates/PHerc0191-official.html",
+      "bytes": 23287,
+      "sha256": "42bc30093f724359dbae7304c12aebe2a88faa270aa23836ec32b2a45f0a6d90"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/candidates/PHerc0191-tree.json",
+      "bytes": 17519,
+      "sha256": "2789d9d09d48ff4c99daa6c1b5f88217641ca062fc43b5ac0baa6fa615be25db"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/candidates/PHerc0257-meta.json",
+      "bytes": 23252,
+      "sha256": "03ac23f1eaec5d87533a0275d22c10ac7dd7386f3b53540efb0d5534acbf0e74"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/candidates/PHerc0257-official.html",
+      "bytes": 23287,
+      "sha256": "6ac483213a624458a33e06cea72bd6f8aed4a6b58584dfa8e940e59967923194"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/candidates/PHerc0257-tree.json",
+      "bytes": 17464,
+      "sha256": "1f27a8ba3780b23dbfa4c9abc65483bb99ea2c3d1f64d504e0989a455d980408"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/image-acquisition.json",
+      "bytes": 8984,
+      "sha256": "bf9052e629e6d18185b6b1c018cc0b59334c18fcc5129ce83dea026550d1fa36"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/image-process.json",
+      "bytes": 697,
+      "sha256": "667a5b79800bc4ecbce38c6a7b5f59035c382f61f8a07aa234a9e878a85c0eb7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/lead-checked.json",
+      "bytes": 3645,
+      "sha256": "5e52eafbf4edcb3c3f6cabe4dea768eca269193715ac5c3b3d717ef6411db5a4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/lead-process.json",
+      "bytes": 759,
+      "sha256": "8cd1186e7844e780abe9b726c1406522e9864da081faf1ea828cda5be5320b00"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/lead-process02.json",
+      "bytes": 685,
+      "sha256": "58244a69ac7416d73ad2d4493f8cb64b627ad04b6edc801f966b7edc03969f45"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/lead_check.py",
+      "bytes": 5599,
+      "sha256": "afcd7902ee4922e0216e206af2c9d092e1e9647a3d383af9cd924d31ce1c8643"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/lead_check_before_mask_fix.py",
+      "bytes": 4806,
+      "sha256": "548551eb620f46fa142e6e69b62ebf109c8ab0335a8801fdc82deafcd0c5c5a6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/ct-mid.png",
+      "bytes": 2547688,
+      "sha256": "f78edf5ff339297215a9dd655607213d8e654c8384c9fe5a5dd54881c0d6d9cd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/d9v2-forward.png",
+      "bytes": 1481528,
+      "sha256": "3df5ebee7c80e920765cfcc21e26ca4faf57cecab09366df1578421ef9655779"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/d9v2-reverse.png",
+      "bytes": 1458148,
+      "sha256": "516c3a6e3b55dec437d6b68f78d163b7161b0da22009b6f0df1f195c5d6a3ad4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/dense-native-forward.png",
+      "bytes": 1581658,
+      "sha256": "4822f07426f6aefa6b7f195ba5fb6408dd102d2bd3dd30553332e4770a64e453"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/dense-native-reverse.png",
+      "bytes": 1580909,
+      "sha256": "0ea15ae5371182d9c6ce0fda056ab9278daefaab79bf4a7e5436cfa9dd777fd3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/hecate-9.6-forward.png",
+      "bytes": 808684,
+      "sha256": "7b2e88361f5b5797db05ee59c11ac092055c5f8c7b977cf074d393068a910c1c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/hecate-9.6-reverse.png",
+      "bytes": 787145,
+      "sha256": "e25cebebb05c7f4ded46c9f61310bb1a5fa24effc76507d922d883aa7e3b540c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/ink_9um-s42-forward.png",
+      "bytes": 1774231,
+      "sha256": "de2f68ffa297b07d2b85c86f0875654e8799445cdaf2ebe110ccd0969a1f9ee8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/ink_9um-s42-reverse.png",
+      "bytes": 1732827,
+      "sha256": "f332f9f306be36e61c79841410b95a02f1b76d64842b453c9989fc0d8793e856"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/ink_9um-s43-forward.png",
+      "bytes": 1678077,
+      "sha256": "dfef9317ec4adab95f089b3568b6827e53fe62d7ea465262648228d825eae518"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/ink_9um-s43-reverse.png",
+      "bytes": 1666153,
+      "sha256": "508b9f158e7aa14ac2cfa05a0d9b4494a3a189a005bd5654198c4675d9c85e75"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/reader-v2-forward.png",
+      "bytes": 936827,
+      "sha256": "b870a8e6c51ad455fcabc55ab12edf1b35e9448a4e82de9988ae9eba4fe6f193"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/reader-v2-reverse.png",
+      "bytes": 951602,
+      "sha256": "20a172b03ac3734116bce363ccb00f606b3a1240e7d754c2db81d12bd2b5b27c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/reader-v3-forward.png",
+      "bytes": 884742,
+      "sha256": "a8a8e7e835abcdba911348dfbd4ae943bb741b2b6269e3abf88e862b36c4d111"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/originals/reader-v3-reverse.png",
+      "bytes": 900424,
+      "sha256": "85ee34b634e45323541690e8018ac31c19cef2d7a5035d9a11a70066e1624e68"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/prepare_view.py",
+      "bytes": 4531,
+      "sha256": "873b5a45bd108310ffe39743a7bc9573a10253104939eb8609d0da103481b973"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/README.md",
+      "bytes": 6596,
+      "sha256": "386768e349542aad4f59e2e2b1d5a299a7ba8a63e8fc702f0049b1e1e26832d5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/record.json",
+      "bytes": 2405,
+      "sha256": "9894d0d1a5f36f07784574793c3885e16b8831df515910247d1f67c43807470d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y0000-g1.png",
+      "bytes": 425195,
+      "sha256": "9819537d8f9781de2343c12cb70351700c78a1f47ad7506d122384c48c5e8c39"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y0000-g2.png",
+      "bytes": 635427,
+      "sha256": "0154dcffa7af51c15067617afe700000237925d44ae9341f813a7e3fa959185b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y0000-g3.png",
+      "bytes": 530612,
+      "sha256": "144334aa21d14aada02054ca19da7e4f3754a4aa1b5e2311adbebe1a577c12dd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y0000-g4.png",
+      "bytes": 410595,
+      "sha256": "ac0b7c8d320f99aa1193ea9759c47433398f0ea647e3ad627fab86c1bd401de2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y0546-g1.png",
+      "bytes": 448909,
+      "sha256": "d3eba0dc83cfab4f7822271b1da1f98bd5c4a3ae22b69792c294cf0317b48b9d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y0546-g2.png",
+      "bytes": 666112,
+      "sha256": "1c16401a507187498f1cd5955b6353f6a726a2f7b69bdefcad3798de9e1a0882"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y0546-g3.png",
+      "bytes": 553126,
+      "sha256": "53e79ea6bf3d8eaccfcb63c88f15476dd2f90928795ecc31b777f5c128d19459"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y0546-g4.png",
+      "bytes": 426264,
+      "sha256": "7c5f4172d12e7b29e3146d2182216a84ef50a81d8b10e481d223cc959903fc7d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y1092-g1.png",
+      "bytes": 395108,
+      "sha256": "251ec268b44d63465eec48344d32ab23589b2635586d20adeee7700b7019cb28"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y1092-g2.png",
+      "bytes": 661482,
+      "sha256": "4afb1792e4c5b7a9077604f71c474e818236aa4d584cee94e0914faa55abdaf4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y1092-g3.png",
+      "bytes": 547957,
+      "sha256": "22c0138168214d65020239aa04b1eca22d61159190fdf04e0a825362df97757c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y1092-g4.png",
+      "bytes": 433654,
+      "sha256": "414d46baf556e315c0625d72cf760e91c06cd4d851e35d917e560c83d2a3eadf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y1638-g1.png",
+      "bytes": 327707,
+      "sha256": "550a805bdc6f52bcce00e813f324ead44b154cc5a0f5df50453ff455006b0c7e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y1638-g2.png",
+      "bytes": 612589,
+      "sha256": "f4c5827a28991a3a62bcec31c73b12c9262caa5515f4f0b953839417bd070cd9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y1638-g3.png",
+      "bytes": 500065,
+      "sha256": "efe57b309fbc0bd40b455e152344c1af2be2c121fbb7e5cab0b3269237a249b1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0000-y1638-g4.png",
+      "bytes": 402066,
+      "sha256": "207a1f6af2cc276b4d84c5b8c52408623c551e8afd61bae781cbbf8b31785fd8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y0000-g1.png",
+      "bytes": 453170,
+      "sha256": "d5f8544a59f9374236779c16e2f479f2f0e22218eb8b9478a58d99a4ee6b55de"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y0000-g2.png",
+      "bytes": 662050,
+      "sha256": "43b0b69a13a0a2fedfdb08258ea5f1df111cc68eb38046dafdb71d20ab0bf920"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y0000-g3.png",
+      "bytes": 555436,
+      "sha256": "56944a93d3aaa342e8eab8918c3df6ac30cc826ee081e6fe716a9d5552b00014"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y0000-g4.png",
+      "bytes": 433401,
+      "sha256": "83984f30348dc34fab21bc235c467f95a82767f8e6716819b4b51ec63f3e043f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y0546-g1.png",
+      "bytes": 514946,
+      "sha256": "667ab661684a58f2f636fa40e3b86c1046e9ecdf7966305220168fd796cb3fe0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y0546-g2.png",
+      "bytes": 690683,
+      "sha256": "bbd85d40a8152c5f81200c23c8d6d09257920f152484399d97789433fa5b3f3b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y0546-g3.png",
+      "bytes": 587520,
+      "sha256": "489cb6b03e167537236934f87c513cd3bc649cecb4c6a9bb4b3551b823407886"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y0546-g4.png",
+      "bytes": 450707,
+      "sha256": "bb4994d22552f73b09f2c793f78696b7c2dea96efbfd835891c4fa13c4d40720"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y1092-g1.png",
+      "bytes": 472042,
+      "sha256": "71588e24e7e53522869d1afcc281bdac37e9555bc80823fed80b41dc6204a967"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y1092-g2.png",
+      "bytes": 691194,
+      "sha256": "195a1e7197f53433191cce3729612f5058f088d9eb342fe9f8f7d484226f64f5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y1092-g3.png",
+      "bytes": 587086,
+      "sha256": "20c438c8ec7546e3f6eebae16dbb11e5bcf7bb0ef03acb21fff118ceef8e61b4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y1092-g4.png",
+      "bytes": 447847,
+      "sha256": "7593778df58f6933a104a8b111ca7ba9800b0b005a6861811727c42b916b7e97"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y1638-g1.png",
+      "bytes": 354198,
+      "sha256": "440c023ba24287d6885a5d903e30914b63c0a11b3e93b735075f9f2985a66f0d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y1638-g2.png",
+      "bytes": 631375,
+      "sha256": "805aab8ba8830f040f0b82976cc2b7654a3ca1ba54a3951a49a92758265f44bf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y1638-g3.png",
+      "bytes": 521619,
+      "sha256": "5ab9c19991f40f77141e6919c022de74ef2aab3dfc498a314f392183621a0c13"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x0546-y1638-g4.png",
+      "bytes": 406056,
+      "sha256": "31866efe22d121052353dc7f0b5db5f1028b176377a991887021cfbcd8d3bc8e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y0000-g1.png",
+      "bytes": 440600,
+      "sha256": "0e594fc0494176a0969ff6104af848210f45e6afc3d8c1e31fc7062cdf8d6c98"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y0000-g2.png",
+      "bytes": 661898,
+      "sha256": "181a1f75deadb34eae80445b19e218d4b63db34eb650945d5596b70f65720056"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y0000-g3.png",
+      "bytes": 546880,
+      "sha256": "680ca0dc0a1e7dde557ae4c6659fb6a52d82f50781ee74ddfaa08f0fce7bfddd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y0000-g4.png",
+      "bytes": 428878,
+      "sha256": "f12eaa3a5e8ca7907d8a8177c34a7e420ce1fd19cf139d9bc8d0bfde15e92655"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y0546-g1.png",
+      "bytes": 465552,
+      "sha256": "4360ea58157331a8a266061d790996603632a1059315aecf29c368664a0bc8c6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y0546-g2.png",
+      "bytes": 681358,
+      "sha256": "475c938dee627e512c484d9cef12fb8aff117940a320d0529cb8c29ff3c38e46"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y0546-g3.png",
+      "bytes": 569929,
+      "sha256": "a4351e6933121eb8dcee1b27210bf453b828b2415a18f78f80aae27678c2f850"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y0546-g4.png",
+      "bytes": 454053,
+      "sha256": "f080829d633c5ff339c489dd2307d4e469d7670313c0090816ab5661b911c4bb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y1092-g1.png",
+      "bytes": 437030,
+      "sha256": "3a8a40f02d8701b3b95a78c5d852295463f1c89c079d596eeb8429feb30bebca"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y1092-g2.png",
+      "bytes": 682195,
+      "sha256": "2a973a62c4155f1db414fcab7e06d28dbd562c9b6ca90a3e035b5f5a8956d9ea"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y1092-g3.png",
+      "bytes": 577771,
+      "sha256": "8fb6dff5d98d25c39643b87f6fef2deec60d24359be1f5558aecbd98e6e641ee"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y1092-g4.png",
+      "bytes": 439873,
+      "sha256": "4e6b9d22398360f5056f37939916e59635bf70d04ba2dc8afeba831563a38faf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y1638-g1.png",
+      "bytes": 420579,
+      "sha256": "2db48c4f2c8f4f39038889c28b64c595638d603364330bd9015bcdf9217c4e77"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y1638-g2.png",
+      "bytes": 640324,
+      "sha256": "da555938203c8976f4771d5957a4aca69afd4b62c817d686488f1132d6f57c99"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y1638-g3.png",
+      "bytes": 530792,
+      "sha256": "f370dd3539748a98567ff9abed550dd939cd0f65e1056a8482aa840abcd66454"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1092-y1638-g4.png",
+      "bytes": 412915,
+      "sha256": "5f3f7f032a50d45dfcceca5c12b956e934243f4dd2871f0edde0c0fd7fe9b3ee"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y0000-g1.png",
+      "bytes": 366484,
+      "sha256": "cbb610ddefa57bb2194b1e35b1ffc30ab4f788342e31d481fcf38145e4eb266b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y0000-g2.png",
+      "bytes": 626758,
+      "sha256": "af0284df6a5490330e0f2d72c3518797935c5ddb2b72186758ca439000c387cc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y0000-g3.png",
+      "bytes": 510685,
+      "sha256": "76f31e093638f8479bf8338716d83e3d15dd2d5a694ae2a4039eb7c1580ceadc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y0000-g4.png",
+      "bytes": 409891,
+      "sha256": "afa6d6e8224ad81c913ad741afff57ffdee8e68909c06d34bc422e9c56580e71"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y0546-g1.png",
+      "bytes": 428428,
+      "sha256": "e696de56dd259cee84f1563a0ac718f881c63a47a7158d2a755473b78fd153e4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y0546-g2.png",
+      "bytes": 643114,
+      "sha256": "da59837ae6006a3dca11a09059d3b3acb27a3068c8e1ebe50699117c9b6ab547"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y0546-g3.png",
+      "bytes": 530329,
+      "sha256": "28e4e9d8194fc798b1a3882544feaac84664d4c2a37021cc87872d42d4ade5ce"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y0546-g4.png",
+      "bytes": 424248,
+      "sha256": "dc630b6f600f20e9c7937c92908e6a8290faaebeedb3bc1876a8daf0601b163c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y1092-g1.png",
+      "bytes": 427546,
+      "sha256": "753aac5943a6067290dc9af3263883f57f9c2b36469ae422f9675eef3a0d1491"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y1092-g2.png",
+      "bytes": 650365,
+      "sha256": "a06defc09d1f305a06204eccfa38554f897bd39cc4fd09b9adef7aec4f07c4a8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y1092-g3.png",
+      "bytes": 540730,
+      "sha256": "32cd568f703765b4bd4680bac6cad1b89f934103b33f3ab4a48a61597a02c5f9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y1092-g4.png",
+      "bytes": 420871,
+      "sha256": "819f1c7466633f482d2d8b21dfa25de329c2e1a1de8ca97ff0bbac4633124923"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y1638-g1.png",
+      "bytes": 382211,
+      "sha256": "cd55a36ffefbd310c048c2d50ae9c4fc2c7a015e70968f5379d52deff335fd2f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y1638-g2.png",
+      "bytes": 599417,
+      "sha256": "6ba3d3efbc2ef82de73f83ef3ba5d92e24d30062d069ef24112ffa37ec914377"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y1638-g3.png",
+      "bytes": 489508,
+      "sha256": "c683940b22023535a0c3005543533d213efa1c450c1e1748f9aca48bc493bb60"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/native-tiles/x1638-y1638-g4.png",
+      "bytes": 381709,
+      "sha256": "a9d807d3b271198a07ca8fd3e1eec2e1718ea0813f321d64ebccbcf09a68c29a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/overview.png",
+      "bytes": 541414,
+      "sha256": "03dac302bf82eb40d265b01cc6604ac314d66fbc0be3f0f95abc1318906c9798"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/review01/pixels.json",
+      "bytes": 56217,
+      "sha256": "5ae914fee0498ba46bb14d34b69f80731a50cce14f20542ddb1c46984a56eadc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/selection.json",
+      "bytes": 916,
+      "sha256": "49f990b058a4ac151fc12167174558c7b7985412ce993f16ae8ab255941f0d5d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unreviewed-atlas-face01/visual-review.json",
+      "bytes": 1712,
+      "sha256": "6357b37494494f9f329522ad0ac5d76e18ea831eb0a4d57787a258ff8c00ecd0"
+    },
+    {
+      "path": "research/195-unreviewed-atlas-face-selection.md",
+      "bytes": 7227,
+      "sha256": "05cdac5d58930d930e55704ff0bcf9ece4c4027b59a34649823138e6999d9e6f"
+    }
+  ]
+}

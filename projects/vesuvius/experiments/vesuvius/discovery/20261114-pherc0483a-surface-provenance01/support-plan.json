@@ -1,0 +1,270 @@
+{
+  "source_ct_url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0483A/volumes/20250521140913-8.640um-1.2m-116keV-masked.zarr/0",
+  "official_scan": "20250510022723",
+  "official_volume": "20250521140913",
+  "mesh_generator_target": "20250521140913-surface-20260413222639-surface-m7-L0-th0.2.zarr",
+  "mesh_xyz_shape": [
+    112,
+    112,
+    3
+  ],
+  "valid_mesh_nodes": 11664,
+  "invalid_mesh_nodes": 880,
+  "canvas_hw": [
+    2016,
+    2016
+  ],
+  "mesh_grid_scale": [
+    0.05000000074505806,
+    0.05000000074505806
+  ],
+  "render_scale": 0.9,
+  "voxel_um": 8.64,
+  "canvas_um": 9.6,
+  "atlas_meta_sha256": "e45147938b455bd6d1ea61687221a55dac6335fdd7528ed076af66a2f6d10d0d",
+  "atlas_png_sha256": "a54891dd5bb0377b8904fa99dc83a9df57092ccca89f4c86b132b5fb8af5033b",
+  "source_shape_zyx": [
+    15898,
+    8849,
+    8849
+  ],
+  "point_method": "Observer with R180 settings; grid=(atlas+0.5)*mesh_scale/render_scale",
+  "support_method": "0.001-voxel guard, both trilinear endpoints, three exact orthogonal planes per anchor",
+  "minimal_render_samples": "Three 64x64 central planes plus fixed central row and column at 33 layers",
+  "probes": [
+    {
+      "label": "upper",
+      "atlas_anchor_xy": [
+        832,
+        1152
+      ],
+      "atlas_context_xywh": [
+        800,
+        1120,
+        64,
+        64
+      ],
+      "geometry_sha256": "f07aaaf5118b16d1dc605a35ba0ae2572b1632072cda22df8c174aa0d475caa4",
+      "geometry_header": [
+        44.47222280013892,
+        62.250000927597284,
+        0.05555555785511753,
+        0.05555555785511753,
+        64.0,
+        64.0
+      ],
+      "valid_pixels": 4096,
+      "max_bilinear_point_error_voxel": 0.0006007526625658102,
+      "anchor_xyz": [
+        3038.94140625,
+        3655.2158203125,
+        11360.2109375
+      ],
+      "normal_xyz": [
+        -0.3347587287425995,
+        -0.937587559223175,
+        -0.09416034817695618
+      ],
+      "orthogonal_center_zyx": [
+        11360,
+        3655,
+        3039
+      ],
+      "minimal_render_keys": [
+        "0/88/28/23",
+        "0/88/28/24",
+        "0/89/28/23"
+      ],
+      "full_context_render_keys": [
+        "0/88/28/23",
+        "0/88/28/24",
+        "0/89/28/23"
+      ],
+      "raw_plane_keys": [
+        "0/88/28/23",
+        "0/89/28/23"
+      ],
+      "minimal_union_keys": [
+        "0/88/28/23",
+        "0/88/28/24",
+        "0/89/28/23"
+      ]
+    },
+    {
+      "label": "arc",
+      "atlas_anchor_xy": [
+        832,
+        1268
+      ],
+      "atlas_context_xywh": [
+        800,
+        1236,
+        64,
+        64
+      ],
+      "geometry_sha256": "20baae58f45be86041c0cb09f2753d303f935c5858a69ebfad8d63f56d5f42e1",
+      "geometry_header": [
+        44.47222280013892,
+        68.6944460614688,
+        0.05555555785511753,
+        0.05555555785511753,
+        64.0,
+        64.0
+      ],
+      "valid_pixels": 4096,
+      "max_bilinear_point_error_voxel": 0.0005419357731836463,
+      "anchor_xyz": [
+        3061.7607421875,
+        3645.2216796875,
+        11483.923828125
+      ],
+      "normal_xyz": [
+        -0.3159879148006439,
+        -0.8925893306732178,
+        -0.32161465287208557
+      ],
+      "orthogonal_center_zyx": [
+        11484,
+        3645,
+        3062
+      ],
+      "minimal_render_keys": [
+        "0/89/28/23",
+        "0/89/28/24"
+      ],
+      "full_context_render_keys": [
+        "0/89/28/23",
+        "0/89/28/24",
+        "0/90/28/23",
+        "0/90/28/24"
+      ],
+      "raw_plane_keys": [
+        "0/89/28/23",
+        "0/89/28/24"
+      ],
+      "minimal_union_keys": [
+        "0/89/28/23",
+        "0/89/28/24"
+      ]
+    },
+    {
+      "label": "lower",
+      "atlas_anchor_xy": [
+        832,
+        1392
+      ],
+      "atlas_context_xywh": [
+        800,
+        1360,
+        64,
+        64
+      ],
+      "geometry_sha256": "38a477a44b70a289d582d0c48d3524682ece85debec49b31d3a79ffac045b973",
+      "geometry_header": [
+        44.47222280013892,
+        75.58333547686539,
+        0.05555555785511753,
+        0.05555555785511753,
+        64.0,
+        64.0
+      ],
+      "valid_pixels": 4096,
+      "max_bilinear_point_error_voxel": 0.0007701413728022281,
+      "anchor_xyz": [
+        3098.128173828125,
+        3623.4765625,
+        11605.9638671875
+      ],
+      "normal_xyz": [
+        -0.33195558190345764,
+        -0.9424105882644653,
+        0.04083952307701111
+      ],
+      "orthogonal_center_zyx": [
+        11606,
+        3623,
+        3098
+      ],
+      "minimal_render_keys": [
+        "0/90/28/23",
+        "0/90/28/24"
+      ],
+      "full_context_render_keys": [
+        "0/90/28/23",
+        "0/90/28/24"
+      ],
+      "raw_plane_keys": [
+        "0/90/28/23",
+        "0/90/28/24"
+      ],
+      "minimal_union_keys": [
+        "0/90/28/23",
+        "0/90/28/24"
+      ]
+    }
+  ],
+  "anchor_separation_vox": [
+    126.19621328016926,
+    129.18673051056817
+  ],
+  "successive_normal_dot": [
+    0.9729437122844846,
+    0.932944999292566
+  ],
+  "offsets_voxel": [
+    -17.775999069213867,
+    -16.66499900817871,
+    -15.553998947143555,
+    -14.442998886108398,
+    -13.331998825073242,
+    -12.220999717712402,
+    -11.109999656677246,
+    -9.99899959564209,
+    -8.887999534606934,
+    -7.776999473571777,
+    -6.665999412536621,
+    -5.554999828338623,
+    -4.443999767303467,
+    -3.3329997062683105,
+    -2.2219998836517334,
+    -1.1109999418258667,
+    0.0,
+    1.1109999418258667,
+    2.2219998836517334,
+    3.3329997062683105,
+    4.443999767303467,
+    5.554999828338623,
+    6.665999412536621,
+    7.776999473571777,
+    8.887999534606934,
+    9.99899959564209,
+    11.109999656677246,
+    12.220999717712402,
+    13.331998825073242,
+    14.442998886108398,
+    15.553998947143555,
+    16.66499900817871,
+    17.775999069213867
+  ],
+  "minimum_keys": [
+    "0/88/28/23",
+    "0/88/28/24",
+    "0/89/28/23",
+    "0/89/28/24",
+    "0/90/28/23",
+    "0/90/28/24"
+  ],
+  "full_context_keys": [
+    "0/88/28/23",
+    "0/88/28/24",
+    "0/89/28/23",
+    "0/89/28/24",
+    "0/90/28/23",
+    "0/90/28/24"
+  ],
+  "minimum_new_bytes_if_no_local_reuse": 12582912,
+  "full_context_new_bytes_if_no_local_reuse": 12582912,
+  "other_local_0483_zarr_metadata_in_discovery": [],
+  "new_ct_voxel_bytes_received": 0,
+  "chunk_presence_verified": false
+}

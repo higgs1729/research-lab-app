@@ -1,0 +1,119 @@
+{
+  "preserved_level_file_manifests": {
+    "0": {
+      ".zarray": {
+        "sha256": "dd168e0a4266ed5eb6d9975d320d584464cb4d22952f56406e6a2022a7f2701d",
+        "mtime_ns": 1794579232660323466
+      },
+      "0/1/1": {
+        "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+        "mtime_ns": 1794579232668323706
+      },
+      "0/1/0": {
+        "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+        "mtime_ns": 1794579232668323706
+      },
+      "0/0/1": {
+        "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+        "mtime_ns": 1794579232668323706
+      },
+      "0/0/0": {
+        "sha256": "82d4d1d33757513f1a89356a2c8ee9720a6db032853991826e5a8dc92a1bdb33",
+        "mtime_ns": 1794579232664323586
+      }
+    },
+    "1": {
+      ".zarray": {
+        "sha256": "004dfcdb98132bcb7fda73eb1507437c077f5033be545ac13d9c600ecbdb1567",
+        "mtime_ns": 1794579232668323706
+      },
+      "0.0.0": {
+        "sha256": "06232b08dabb5a4fdb466598179349c845b0dc3436324794e270257b4e0fdbce",
+        "mtime_ns": 1794579232668323706
+      }
+    }
+  },
+  "preserved_pixels": {
+    "0": 17,
+    "1": 9
+  },
+  "preserve_true_created_level": {
+    "chunks": [
+      1,
+      2,
+      2
+    ],
+    "compressor": {
+      "id": "gzip",
+      "level": 7
+    },
+    "dimension_separator": "/",
+    "dtype": "|u1",
+    "fill_value": 0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      1,
+      2,
+      2
+    ],
+    "zarr_format": 2
+  },
+  "default_reinitialized_level": {
+    "chunks": [
+      1,
+      4,
+      4
+    ],
+    "compressor": {
+      "id": "gzip",
+      "level": 7
+    },
+    "dimension_separator": "/",
+    "dtype": "|u1",
+    "fill_value": 0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      1,
+      4,
+      4
+    ],
+    "zarr_format": 2
+  },
+  "default_created_level": {
+    "chunks": [
+      1,
+      2,
+      2
+    ],
+    "compressor": {
+      "id": "gzip",
+      "level": 7
+    },
+    "dimension_separator": "/",
+    "dtype": "|u1",
+    "fill_value": 0,
+    "filters": null,
+    "order": "C",
+    "shape": [
+      1,
+      2,
+      2
+    ],
+    "zarr_format": 2
+  },
+  "native_original_four_argument_call_passed": true,
+  "upstream_test_function_passed": {
+    "function": "test_create_pyramid_levels_preserves_existing_arrays",
+    "ast_sha256": "30f7c1eab653617aa7eb686a26e300cdb6af2595ee5da0ca8a92a51bc5c261c7",
+    "source_sha256": "4257a0f061f283e025f940ae63a05e7d995855df2f99befb16e2a405cae2dd14"
+  },
+  "writer_module": "/home/tomoy/r009-normal-python-run02-678qsuuz/build/stage/vc_reader/reader/writer.py",
+  "native_module": "/home/tomoy/r009-normal-python-run02-678qsuuz/build/stage/vc_reader/_reader.cpython-312-x86_64-linux-gnu.so",
+  "native_sha256": "09ff9eca01e6fb7dd45a912617db0db9694f99934a577f12cc1b4060dcd5f5a1",
+  "catalog_module": "/home/tomoy/r009-normal-python-run02-678qsuuz/build/stage/vc_reader/_catalog.cpython-312-x86_64-linux-gnu.so",
+  "catalog_sha256": "19f4ab04b78d4572ac3c340e8b9cca33b5b858c0dd68b10559dcd411342929be",
+  "numpy_version": "2.2.6",
+  "import_isolated": false
+}

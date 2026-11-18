@@ -1,0 +1,45 @@
+{
+  "checked_utc": "2026-11-11T18:50:48.879389+00:00",
+  "sources": [
+    {
+      "path": "D:\\kensyoukin-work\\r003-build\\_deps\\libigl-src\\include\\igl\\triangle\\scaf.h",
+      "sha256": "38bf5ed56f39c3b22802116623c7ee1ac6bcb9fbfb5668f473926f7895fd229f"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r003-build\\_deps\\libigl-src\\include\\igl\\triangle\\scaf.cpp",
+      "sha256": "a3ff97f0f59ebb0ebc9bc05324360df6eacec17a29e708686c2a1fb7f34c0e83"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r003-build\\_deps\\libigl-src\\include\\igl\\triangle\\triangulate.h",
+      "sha256": "5230b96958415e299d3267d169cc68f7570885513e7fb41666eab9b4dd9b40c4"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r003-build\\_deps\\libigl-src\\include\\igl\\triangle\\triangulate.cpp",
+      "sha256": "81422b8d9f6dc2d0aa6d9abec833787a23b26607278bcfd63e119ab9beffe4a3"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r003-build\\_deps\\libigl-src\\tutorial\\710_SCAF\\main.cpp",
+      "sha256": "c3912e5c5b3c8b72ecc1072c879039c93a8cbc8e385dc360b598888a966bf747"
+    },
+    {
+      "path": "D:\\kensyoukin-work\\r003-build\\_deps\\libigl-src\\cmake\\recipes\\external\\triangle.cmake",
+      "sha256": "0f472ebd195a1765df361b1ae66f456efade2c6541e2b3e1d96eb38411406994"
+    }
+  ],
+  "official_references": [
+    "https://libigl.github.io/tutorial/#simplicial-complex-augmentation-framework-for-bijective-maps",
+    "https://shapely.readthedocs.io/en/stable/strtree.html",
+    "https://shapely.readthedocs.io/en/stable/reference/shapely.relate_pattern.html"
+  ],
+  "observed": {
+    "shapely": "2.1.2",
+    "geos": "3.13.1",
+    "scaf_source_available": true,
+    "scaf_native_test_performed": false,
+    "triangle_recipe_repository": "https://github.com/libigl/triangle.git",
+    "triangle_recipe_commit": "62f02db9ab4ff4b62d5ff82a77c8ea458c84c23a",
+    "triangle_search": "No triangle.h, triangle.c/cpp or libtriangle artifact in scoped D:/kensyoukin-work filename search. WSL conventional /usr/include/triangle.h, /usr/local/include/triangle.h, /usr/lib/x86_64-linux-gnu/libtriangle.so and /usr/local/lib/libtriangle.so absent; not an exhaustive system search.",
+    "public_constraints": "scaf_precompute b/bc documented soft. SCAFData exposes fixed_ids. Tutorial constructs nonoverlapping initialization before optimization; overlapping D is not assumed valid initialization.",
+    "next_scope": "Determine small standalone API harness and Triangle dependency cost; region129 plus an obstacle, not full-component integration."
+  }
+}

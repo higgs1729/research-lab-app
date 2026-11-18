@@ -1,0 +1,171 @@
+{
+  "files": {
+    "acquire.py": {
+      "bytes": 5463,
+      "sha256": "f7ddfbcee062d3f38b21703930bc9cdc06ca983b91a3e0234f55a6399e019584"
+    },
+    "acquisition-plan.json": {
+      "bytes": 3083,
+      "sha256": "d98f566426c68e08e3756aac8b0b4dda93dd97e62f92ffdf612722c51d642a3f"
+    },
+    "acquisition-process.json": {
+      "bytes": 686,
+      "sha256": "7818b639200538424551c6f6687ed062cdd0c1f8b831af2ce8b316f2ade9b1fe"
+    },
+    "acquisition.json": {
+      "bytes": 4143,
+      "sha256": "5fddb2b2c7cde5e336f30c9379ecf5ba878cea49370f0da4f6427cd3ea2c7d93"
+    },
+    "check_support.py": {
+      "bytes": 2895,
+      "sha256": "7e26c0992d173cf493f04091eeefa2d6590812d46e3dd5d8d58d12a4220bb841"
+    },
+    "common.py": {
+      "bytes": 565,
+      "sha256": "3261d4756f5f60c98fbf335bb153b1a29b4a905c3d9539cf7be77ca5fb338169"
+    },
+    "lead-check.json": {
+      "bytes": 876,
+      "sha256": "4de6b396fa4b4fef4a065e0d4d8c70c00f7a9233f0cd222d02ad579b004e88f8"
+    },
+    "lead-process.json": {
+      "bytes": 689,
+      "sha256": "2fc3a33f96d55108c6d8ab162e5bd1a2790e4b9da8580b68fb0e78dc5fde983d"
+    },
+    "lead-visual.json": {
+      "bytes": 1014,
+      "sha256": "e6be4aa0c3c46a71c75860cd242107ab0350bd222bf9d6a826dad5df5a37a4f0"
+    },
+    "lead_check.py": {
+      "bytes": 3899,
+      "sha256": "09e0767338d25645517c6d63671bfa00a62731e41a76ef022597aec09cd9d29d"
+    },
+    "mesh-listing.json": {
+      "bytes": 4728,
+      "sha256": "610e9caba84813f471ab3834fc3b2bf4d737e921c54dc60ebae8e73ac7fd3c77"
+    },
+    "originals/mesh/meta.json": {
+      "bytes": 4215,
+      "sha256": "a057316945c43e5d6e084a7730763a7af54d7e84bf2759db88e98f7ac69540dc"
+    },
+    "originals/mesh/x.tif": {
+      "bytes": 28944,
+      "sha256": "203dd1cb3538e3383a98711c0809898a2d71407e71e56662d4ebcf3c4acc8b49"
+    },
+    "originals/mesh/y.tif": {
+      "bytes": 28944,
+      "sha256": "1cec3ebe3c7ac8022310d7f5be47621de1c861eef2d0e86cc91c695207bbc82d"
+    },
+    "originals/mesh/z.tif": {
+      "bytes": 28944,
+      "sha256": "6b9f718c709f5732eea183add9deaeb3c6ded25484d51d893431ddc0a6862fb3"
+    },
+    "originals/z12496_w020.tif": {
+      "bytes": 1135632,
+      "sha256": "a87ad251b1e17ed416349c5a0c982bf591f8b737b4e91cf74a25ed4097ec5feb"
+    },
+    "originals/z12496_w020_reverse.tif": {
+      "bytes": 1300494,
+      "sha256": "cbd3f4b32c4e8f0f45d4c1367e87ee5df4103c68b19e07f59da18d8a32b48d56"
+    },
+    "README.md": {
+      "bytes": 6053,
+      "sha256": "32ac4d9d8b9c76824e146ccf46785b65a46c2dcb5d9cb90f82cd8c28cf002b1d"
+    },
+    "record.json": {
+      "bytes": 1610,
+      "sha256": "e821b13fd9ed65865d6e55fe26fd8cf361e63e4a174ea62833551878913e7242"
+    },
+    "review-process.json": {
+      "bytes": 773,
+      "sha256": "d578d8384c571bf5cea9dbc94b493cd11386e1afa20109747a595c4f074cb802"
+    },
+    "review.py": {
+      "bytes": 7631,
+      "sha256": "a36cde8e575c87485a6bae9e39f3156c69aaaefdeb07d05941f8315786d563c8"
+    },
+    "review01/forward.png": {
+      "bytes": 861475,
+      "sha256": "592ec4c25ac4b8c7d768c93a08312e9ec00ca7beccaa2b3808b6be5f430b6229"
+    },
+    "review01/four-valid-nodes.png": {
+      "bytes": 5215,
+      "sha256": "619859c0bd8584b4a0d8463922ae3cb1c72f5601b18b17a9ae513e6ca2d899cc"
+    },
+    "review01/native-tiles/x0000-y0000.png": {
+      "bytes": 185080,
+      "sha256": "4c53136d039ae4f7a39b87e931c2a723025c4510c0295c5b086dbe7fbf00db11"
+    },
+    "review01/native-tiles/x0000-y0560.png": {
+      "bytes": 164040,
+      "sha256": "4e6965dde0e1b61c30c1983a1b08b5ee2bd59bf8ce874e893018052d0ce3483a"
+    },
+    "review01/native-tiles/x0512-y0000.png": {
+      "bytes": 160892,
+      "sha256": "55c29b9c0f78ef8e5aad04845b0a073e8bd7c0701c85784b966e130315ef40e7"
+    },
+    "review01/native-tiles/x0512-y0560.png": {
+      "bytes": 188886,
+      "sha256": "fec77b7b3ff2489befb0a35d4d3b7bbff7a1357a10cee399660c0850ef0a60c9"
+    },
+    "review01/native-tiles/x1024-y0000.png": {
+      "bytes": 170773,
+      "sha256": "3821757775ef0e98bd1f04abf9a48dd99c871ffe77ba01b17b16c97942c019b3"
+    },
+    "review01/native-tiles/x1024-y0560.png": {
+      "bytes": 179552,
+      "sha256": "88dbd6177a077036d9953d8ec555fdd8b348e4e7fa3cb58ff3b7c8e2c7bd27ad"
+    },
+    "review01/native-tiles/x1536-y0000.png": {
+      "bytes": 178074,
+      "sha256": "f9138aeb0a35e44fd83db826a51e4072c72dbfffec2afcf4515e7d80c654eb03"
+    },
+    "review01/native-tiles/x1536-y0560.png": {
+      "bytes": 152120,
+      "sha256": "3ef21234ee96248d62d4822a87c5cc3ffe7ea5ddc3c03093f213f9593f41f9bf"
+    },
+    "review01/native-tiles/x2048-y0000.png": {
+      "bytes": 175809,
+      "sha256": "e183d56cf6c395febeeeb80e2e7a99131e509bb94ccf370b82aaf42ab9c227f4"
+    },
+    "review01/native-tiles/x2048-y0560.png": {
+      "bytes": 159551,
+      "sha256": "8bc70e976945ea270932ae126adf8a49c088bce42d4b4f2e2b110612616760ee"
+    },
+    "review01/overview.png": {
+      "bytes": 137335,
+      "sha256": "0fe78e72c1ee0be64ca62387b882781b0e9667748e995fe9af6e905d0975198e"
+    },
+    "review01/pixels.json": {
+      "bytes": 7727,
+      "sha256": "9d03637067c191a3e45574fdef6808e4ec2cc4e3cc90ca97bf793ceab763155f"
+    },
+    "review01/reverse.png": {
+      "bytes": 810601,
+      "sha256": "d22f8af59af6efbc27a77381d6e46ca8867fd1ffca540440d3ad6c64c9e55e79"
+    },
+    "support-check.json": {
+      "bytes": 4109,
+      "sha256": "149340c3720287e465ae769a37ac29ecfd64ba6b748008a30979b3b5babacd76"
+    },
+    "support-process.json": {
+      "bytes": 875,
+      "sha256": "ae5a9510c3a60725f9c1ed289532c498ab23188232cb5a9622f40933c0c4cedc"
+    }
+  },
+  "referenced_files_from_repo_root": {
+    "research/188-pherc0813-native-public-maps.md": {
+      "bytes": 7136,
+      "sha256": "ad546fecca48f9db4fd398d1718111da604d96f87526843b698a056b7fb33445"
+    },
+    "tools/research/run_windows.py": {
+      "bytes": 3671,
+      "sha256": "70ad792c9d7d0775eeb1839283f739abe6604a1d6f7bf1203e086d802b1a5f9d"
+    },
+    "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/next-plan.json": {
+      "bytes": 3431,
+      "sha256": "16f0867a80884a4be24b8bf06f3d5fea0c431351b1a566035faaf6cf80b564e2"
+    }
+  },
+  "recorded_file_bytes_before_manifest": 6113395
+}

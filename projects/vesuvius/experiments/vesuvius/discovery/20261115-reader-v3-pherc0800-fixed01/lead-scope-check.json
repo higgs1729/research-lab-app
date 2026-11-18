@@ -1,0 +1,29 @@
+{
+  "checked_utc": "2026-11-15T07:08:07.435622+00:00",
+  "plan_sha256": "2d4b968361272548a353c646788c5081abe71de4fd0c9465e854915cdc58efdc",
+  "native_main_xywh": [
+    142,
+    640,
+    1067,
+    1067
+  ],
+  "native_support_xywh": [
+    0,
+    384,
+    1536,
+    1536
+  ],
+  "global_patch_footprints_each_order": 49,
+  "all_required_chunk_positions": 144,
+  "chunk_counts": {
+    "cached": 91,
+    "fetch": 27,
+    "unlisted_zarr_fill": 26
+  },
+  "new_body_bytes": 13713408,
+  "cached_sha_and_official_md5_checked": 91,
+  "full_official_listing_not_truncated": true,
+  "missing_objects_have_explicit_fill_zero": true,
+  "new_network_or_model_calls": 0,
+  "limits": "The coordinate map matches the existing nominal surface chart; no physical lamina or ink claim."
+}

@@ -1,0 +1,61 @@
+{
+  "utc": "2026-11-13T08:09:21.190823+00:00",
+  "pid": 455,
+  "gdb_pid": 447,
+  "process_group": 455,
+  "pc": "0x65170a",
+  "file_snapshot": {
+    ".zgroup": {
+      "bytes": 19,
+      "mtime_ns": 1794557360997332800,
+      "inode": 6192449489221776,
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+    },
+    "0/.zarray": {
+      "bytes": 230,
+      "mtime_ns": 1794557360993822900,
+      "inode": 5066549582379149,
+      "sha256": "89e5a7d9713d0706ac706a645287f415579562973323ae1df824030e43e0c7ad"
+    },
+    "0/0/0/0": {
+      "bytes": 114688,
+      "mtime_ns": 1794557361117335200,
+      "inode": 5348024559089940,
+      "sha256": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+    },
+    "1/.zarray": {
+      "bytes": 230,
+      "mtime_ns": 1794557361007209400,
+      "inode": 5348024559089814,
+      "sha256": "484c9e4bf53ba81d474419ff65a168fb1e38badd580adbb74358cdb2732397a0"
+    },
+    "2/.zarray": {
+      "bytes": 230,
+      "mtime_ns": 1794557361016213400,
+      "inode": 10133099163170988,
+      "sha256": "9df7506ee61d21fc1f90f5b5e1e986553a8b6cafecdf37700daf149625cb48ae"
+    },
+    "3/.zarray": {
+      "bytes": 226,
+      "mtime_ns": 1794557361027215000,
+      "inode": 16044073674094776,
+      "sha256": "9d44a961be0433211d5b772252accac0c4afb85369f85f33a9c8b42173722aaf"
+    },
+    "4/.zarray": {
+      "bytes": 226,
+      "mtime_ns": 1794557361036729300,
+      "inode": 16607023627516142,
+      "sha256": "a5ccb069a352c210b18ea9a9fad98361eb6db43f0644770839b90260fa5b1a64"
+    },
+    "5/.zarray": {
+      "bytes": 226,
+      "mtime_ns": 1794557361046551500,
+      "inode": 267964177830131968,
+      "sha256": "493f346ad31c009828ebee0ab815cb65e8999b2915b7940b5f4c13c4bdfc4b09"
+    }
+  },
+  "backtrace": "#0  vcr::zarr::writePyramidLevel(std::filesystem::__cxx11::path const&, int, vcr::zarr::PyramidOptions const&, std::optional<vcr::zarr::ChunkRange> const&, std::function<void (unsigned long, unsigned long)> const&) () at /mnt/c/dev/kensyoukin/.work/r009-resume-pyramid-fix01/run01/source/vc_reader/src/cpp/zarr/pyramid.cpp:204\n#1  0x00000000005b259c in operator() () at /mnt/c/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/source/volume-cartographer/apps/src/vc_render_tifxyz.cpp:1585\n#2  0x00000000005b8a8d in main () at /mnt/c/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/source/volume-cartographer/apps/src/vc_render_tifxyz.cpp:1609\n",
+  "proc_status": "Name:\trenderer\nUmask:\t0022\nState:\tt (tracing stop)\nTgid:\t455\nNgid:\t0\nPid:\t455\nPPid:\t447\nTracerPid:\t447\nUid:\t0\t0\t0\t0\nGid:\t0\t0\t0\t0\nFDSize:\t64\nGroups:\t65534 65534 65534 65534 65534 65534 65534 65534 65534 65534 65534 0 \nNStgid:\t455\nNSpid:\t455\nNSpgid:\t455\nNSsid:\t446\nKthread:\t0\nVmPeak:\t  557100 kB\nVmSize:\t  552928 kB\nVmLck:\t       0 kB\nVmPin:\t       0 kB\nVmHWM:\t   67824 kB\nVmRSS:\t   63852 kB\nRssAnon:\t   11244 kB\nRssFile:\t   52608 kB\nRssShmem:\t       0 kB\nVmData:\t  140688 kB\nVmStk:\t     136 kB\nVmExe:\t    1104 kB\nVmLib:\t   92264 kB\nVmPTE:\t     356 kB\nVmSwap:\t       0 kB\nHugetlbPages:\t       0 kB\nCoreDumping:\t0\nTHP_enabled:\t1\nuntag_mask:\t0xffffffffffffffff\nThreads:\t15\nSigQ:\t0/47811\nSigPnd:\t0000000000000000\nShdPnd:\t0000000000000000\nSigBlk:\t0000000000000000\nSigIgn:\t0000000000000000\nSigCgt:\t0000000100000000\nCapInh:\t0000000000000000\nCapPrm:\t000001ffffffffff\nCapEff:\t000001ffffffffff\nCapBnd:\t000001ffffffffff\nCapAmb:\t0000000000000000\nNoNewPrivs:\t0\nSeccomp:\t0\nSeccomp_filters:\t0\nSpeculation_Store_Bypass:\tthread vulnerable\nSpeculationIndirectBranch:\tconditional enabled\nCpus_allowed:\t01\nCpus_allowed_list:\t0\nMems_allowed:\t00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001\nMems_allowed_list:\t0\nvoluntary_ctxt_switches:\t3259\nnonvoluntary_ctxt_switches:\t51\n",
+  "network_namespace": "net:[4026532228]",
+  "entry_condition_met": true
+}

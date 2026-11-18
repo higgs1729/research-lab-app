@@ -1,0 +1,102 @@
+{
+  "status": "complete",
+  "command": [
+    "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-input02",
+    "--output=/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-full-resolution-runs/second_keep100_iter5_01/output",
+    "--keep=100.0",
+    "5"
+  ],
+  "binary_sha256": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+  "input_manifest": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-input02/manifest.json",
+  "experimental_affine_fallback": false,
+  "experimental_component_packing": false,
+  "experimental_component_recovery": false,
+  "uv_override_sha256": null,
+  "raster_trace": true,
+  "keep_percent": 100.0,
+  "explicit_iterations": 5,
+  "default_energy": "symmetric_dirichlet",
+  "affinity": [
+    0
+  ],
+  "threads": 1,
+  "wandb_disabled": true,
+  "started_utc": "2026-11-12T04:08:21.691152+00:00",
+  "exit_code": 0,
+  "elapsed_seconds": 131.740818197,
+  "completed_utc": "2026-11-12T04:10:33.445071+00:00",
+  "max_child_rss_bytes": 1027383296,
+  "outputs": [
+    {
+      "file": "output/meta.json",
+      "bytes": 994,
+      "sha256": "6ee0b09f2b0f26bd9d36be9eb46c577a611a18d2dab506d6393cc901ec7619cf"
+    },
+    {
+      "file": "output/x.tif",
+      "bytes": 2658330,
+      "sha256": "53aed638b84cb01b55f9568b20aa1092ef32f784ea80193eeef53c2c94c240e8"
+    },
+    {
+      "file": "output/y.tif",
+      "bytes": 2658330,
+      "sha256": "fc7bcdb1f23d1bf3039605efd9a45b05e962164b68b45b086614df09789f85b5"
+    },
+    {
+      "file": "output/z.tif",
+      "bytes": 2658330,
+      "sha256": "f934d9696a3eb30edbef13233f967aa37315fc746e903525c566477537509186"
+    },
+    {
+      "file": "output.obj_uv_diagnostics.json",
+      "bytes": 34294475,
+      "sha256": "1aee0999d36aa782bdbf2c9e0b32ce085b42f79d16d9a879fbe65c458ccdad41"
+    },
+    {
+      "file": "output_energies_flatboi.txt",
+      "bytes": 78,
+      "sha256": "1905f98f0e22883b3850427774449c0b080079e06e6201deca8259ffb17b67dd"
+    },
+    {
+      "file": "output_heat_L2.png",
+      "bytes": 162601,
+      "sha256": "3b1558a821a345d43119a90018d881fbf65daf520e838783d02ec331c7485bbd"
+    },
+    {
+      "file": "output_heat_Linf.png",
+      "bytes": 173802,
+      "sha256": "a7cf5d178b96a32447d0d5dd7fe7335ac135cb4a0a6f267235f38767704df644"
+    },
+    {
+      "file": "output_heat_kappa.png",
+      "bytes": 154263,
+      "sha256": "0a7938e6ba7ac4ebaefccddf18ecfa231f35bfa4ccf1e0ead906701d9903974d"
+    },
+    {
+      "file": "output_heat_logarea.png",
+      "bytes": 189329,
+      "sha256": "9fa55769f5fcce5a353910f0dffe69083152e05095012d8c6e802e4fe4b79ccf"
+    },
+    {
+      "file": "output_heat_ranges.txt",
+      "bytes": 246,
+      "sha256": "fbef07bf73e0db2f04c4eb8819a9a0890d4521421690595f3eaded50660c8995"
+    },
+    {
+      "file": "raster_trace.json",
+      "bytes": 2972034,
+      "sha256": "2d74dd6b593d02f5a948baa92cfb841ab4070cc52d9390a9623ce9d695664fe8"
+    },
+    {
+      "file": "runner.py",
+      "bytes": 5265,
+      "sha256": "35558196e86d021e7dfb591d37016d04ca8061c406a5cec403c5ed9b1537d3fd"
+    },
+    {
+      "file": "stdout.log",
+      "bytes": 1953,
+      "sha256": "623ca2b31d1cc6cbb86ea4eb4faa3130454c662189b2eb526a78e1e168d4efc6"
+    }
+  ]
+}

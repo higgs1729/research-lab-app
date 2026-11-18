@@ -1,0 +1,180 @@
+{
+  "passed": true,
+  "conditions": [
+    {
+      "direction": "forward",
+      "center": 13,
+      "mean": 74.46057510375977,
+      "p99": 129.0,
+      "max": 160,
+      "ge128": 2925,
+      "sha256": "414cf9ac377d6d4753ad864aa78eb14d3039881616db7b26258cb93eb5b74633"
+    },
+    {
+      "direction": "forward",
+      "center": 15,
+      "mean": 73.94178009033203,
+      "p99": 138.0,
+      "max": 191,
+      "ge128": 3575,
+      "sha256": "dac99715d859ad454d80b3aa3e42a0ed309ca163caa8f67bd2197fdd3610e92c"
+    },
+    {
+      "direction": "forward",
+      "center": 17,
+      "mean": 74.51793670654297,
+      "p99": 159.0,
+      "max": 191,
+      "ge128": 5966,
+      "sha256": "b1ae98b0d3e54e0155682a986ea661b4c7e279a081603fd8e2255a72a8805f38"
+    },
+    {
+      "direction": "reverse",
+      "center": 13,
+      "mean": 76.28876495361328,
+      "p99": 135.0,
+      "max": 166,
+      "ge128": 4490,
+      "sha256": "eabfe5b56397314972fbdcccaa8e274e8708d22d6ffcd0b3a38e0c4ee72527c5"
+    },
+    {
+      "direction": "reverse",
+      "center": 15,
+      "mean": 72.4887580871582,
+      "p99": 123.0,
+      "max": 181,
+      "ge128": 1822,
+      "sha256": "d589644613c303feb7b386907268c7bf36794a9df0d9dd64f8e06f8f6710e4fb"
+    },
+    {
+      "direction": "reverse",
+      "center": 17,
+      "mean": 72.64273071289062,
+      "p99": 116.0,
+      "max": 141,
+      "ge128": 629,
+      "sha256": "8317375e35e8f1201a23e4b4afc61d49cc82434e2aa049a4d64a98506343cc52"
+    }
+  ],
+  "pairs": [
+    {
+      "direction": "forward",
+      "centers": [
+        13,
+        15
+      ],
+      "mae": 6.080692291259766,
+      "correlation": 0.6771914898814031,
+      "intersection": 1250,
+      "union": 5250,
+      "jaccard": 0.23809523809523808
+    },
+    {
+      "direction": "forward",
+      "centers": [
+        13,
+        17
+      ],
+      "mae": 10.269458770751953,
+      "correlation": 0.3632131720393162,
+      "intersection": 908,
+      "union": 7983,
+      "jaccard": 0.1137417011148691
+    },
+    {
+      "direction": "forward",
+      "centers": [
+        15,
+        17
+      ],
+      "mae": 6.316047668457031,
+      "correlation": 0.7890788659565465,
+      "intersection": 3196,
+      "union": 6345,
+      "jaccard": 0.5037037037037037
+    },
+    {
+      "direction": "reverse",
+      "centers": [
+        13,
+        15
+      ],
+      "mae": 8.05099868774414,
+      "correlation": 0.4253801641149581,
+      "intersection": 175,
+      "union": 6137,
+      "jaccard": 0.028515561349193416
+    },
+    {
+      "direction": "reverse",
+      "centers": [
+        13,
+        17
+      ],
+      "mae": 9.144554138183594,
+      "correlation": 0.3065087407361809,
+      "intersection": 57,
+      "union": 5062,
+      "jaccard": 0.01126037139470565
+    },
+    {
+      "direction": "reverse",
+      "centers": [
+        15,
+        17
+      ],
+      "mae": 5.956630706787109,
+      "correlation": 0.5679936131223278,
+      "intersection": 98,
+      "union": 2353,
+      "jaccard": 0.0416489587760306
+    }
+  ],
+  "three_way": {
+    "forward": {
+      "intersection": 908,
+      "union": 8020,
+      "jaccard": 0.11321695760598503
+    },
+    "reverse": {
+      "intersection": 29,
+      "union": 6640,
+      "jaccard": 0.004367469879518073
+    }
+  },
+  "processes": [
+    {
+      "tag": "center13-forward",
+      "started_utc": "2026-11-13T09:46:06.626845+00:00",
+      "completed_utc": "2026-11-13T09:46:22.377810+00:00",
+      "elapsed_seconds": 15.750557999999728,
+      "max_rss_bytes": 744738816
+    },
+    {
+      "tag": "center13-reverse",
+      "started_utc": "2026-11-13T09:46:22.973830+00:00",
+      "completed_utc": "2026-11-13T09:46:38.774297+00:00",
+      "elapsed_seconds": 15.800057000014931,
+      "max_rss_bytes": 745304064
+    },
+    {
+      "tag": "center17-forward",
+      "started_utc": "2026-11-13T09:46:39.356260+00:00",
+      "completed_utc": "2026-11-13T09:46:54.486028+00:00",
+      "elapsed_seconds": 15.129376199969556,
+      "max_rss_bytes": 744714240
+    },
+    {
+      "tag": "center17-reverse",
+      "started_utc": "2026-11-13T09:46:55.208742+00:00",
+      "completed_utc": "2026-11-13T09:47:10.984688+00:00",
+      "elapsed_seconds": 15.775537999987137,
+      "max_rss_bytes": 744755200
+    }
+  ],
+  "new_inference_seconds": 62.45552919997135,
+  "verification_seconds": 0.0816128000151366,
+  "new_download_bytes": 0,
+  "new_model_runs": 0,
+  "limit": "These are score-set comparisons without ink labels or independent transcription."
+}

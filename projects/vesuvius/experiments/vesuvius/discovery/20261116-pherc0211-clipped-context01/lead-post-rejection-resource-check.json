@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-15T16:08:08.042484+00:00",
+  "name": "r242-studio-44d40eb0d37f49af",
+  "recorded_pod_id": null,
+  "recorded_create_response_status": 400,
+  "current_name_matches": [],
+  "current_all_pods": [],
+  "owned_resource_currently_present": false,
+  "resource_mutations": 0,
+  "interpretation": "Create was rejected without an ID; no matching or other Pods visible in this independent current inventory. No per-ID GET404 is possible. This is not a claim that a known Pod was deleted."
+}

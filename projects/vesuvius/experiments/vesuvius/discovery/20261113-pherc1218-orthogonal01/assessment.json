@@ -1,0 +1,15 @@
+{
+  "date_jst": "2026-11-13",
+  "observed_images": ["raw-sections.png", "mesh-projections-readable.png"],
+  "review_overlay_sha256": "d640f2cd5e6a419772d5b12c118a178b9d638d219ae3f221ca2d3c3e70d8199d",
+  "raw_and_projected_observations": {
+    "X": "Closely spaced wavy bands are visible in the three YZ sections. Parts of the mesh trace run alongside the bands, and a unique band identity could not be followed across all three sections.",
+    "Y": "The XZ sections show irregular texture and several dark gaps. No reproducible assignment of the cyan points to the same physical lamina was made across the three sections.",
+    "Z": "All three XY sections show sloping layered texture and a prominent dark band. Parts of the mesh run parallel to nearby structures, but the observed band and its edges could not be uniquely assigned to the physical sheet carried by the mesh."
+  },
+  "physical_sheet_correspondence": "undetermined",
+  "signed_distance_measurement": null,
+  "constant_depth_correction": null,
+  "independent_lead_visual_decision": "undetermined",
+  "scope": "Fixed nine sections from the saved block. No inference about sheet correctness, contamination, ink, letters, or recto/verso."
+}

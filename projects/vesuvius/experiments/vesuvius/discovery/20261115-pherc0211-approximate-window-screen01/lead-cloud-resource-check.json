@@ -1,0 +1,34 @@
+{
+  "checked_utc": "2026-11-15T14:33:13.815617+00:00",
+  "launch_receipt_sha256": "36c86ab3ed87fbd05a9b5f2874045ca3915df64562fd601785b0b2693bbeb1b8",
+  "name": "r239-studio-31e322a51025b003",
+  "pod_id": "uh56ny6t7mpdqx",
+  "details_http_status": 404,
+  "details_status": null,
+  "dedicated_name_count": 0,
+  "all_pods_count": 0,
+  "account": {
+    "http_status": 200,
+    "client_balance_usd": 15.9243644358,
+    "auto_pay_enabled": false
+  },
+  "attributable_billing": {
+    "http_status": 200,
+    "records": [],
+    "totals": {
+      "cpuAmount": 0,
+      "diskAmount": 0,
+      "gpuAmount": 0,
+      "totalAmount": 0
+    },
+    "query": {
+      "podId": "uh56ny6t7mpdqx",
+      "bucketSize": "hour",
+      "startTime": "2026-11-15T14:00:00+00:00",
+      "endTime": "2026-11-15T15:00:00+00:00"
+    },
+    "final_invoice_confirmed": false
+  },
+  "resource_mutations": 0,
+  "absence_confirmed": true
+}

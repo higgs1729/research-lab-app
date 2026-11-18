@@ -1,0 +1,17 @@
+{
+  "date_jst": "2026-11-14",
+  "summary": "PHerc1545の事前選定タイルを含む1024²を公式元CT 122キーから描画し、seed42とdense-nativeを中央17層の両順で各225パッチ実行。内部896²と選定768²の原寸目視で紙の模様や空隙と区別できる字画・行候補は0。固定ROI・中央層窓の探索を終了。",
+  "display_dn": [0, 255],
+  "reviewed_xywh": [[704, 704, 896, 896], [768, 768, 768, 768]],
+  "reviewed_outputs": ["ct-centre", "seed42-forward", "seed42-reverse", "dense-forward", "dense-reverse"],
+  "observations": [
+    "中央CT面では縦横の繊維束、暗い開口、繊維の交差が目立つ。",
+    "左下のcanvas概略XY(860,1430)では複数出力に幅広い明部がある。中央CTの暗い開口と交差繊維の近傍で、層順により輪郭が変わる。由来は同定できない。",
+    "dense逆順の中央下に淡く弧状に見える反応がある。輪郭が幅広く途切れ、紙の模様と区別できる字画や隣接字画の列を指せない。"
+  ],
+  "stroke_or_line_candidates": [],
+  "transcription": null,
+  "independent_lead_review": "lead-visual.json",
+  "disposition": "固定ROI・中央17層の設定探索を終了。",
+  "limits": "今回の所見は保存したROI・中央17層・既存二モデル両順の範囲に限る。インクの有無、紙面の物理的連続性、別の紙面と巻物全体は未判定。"
+}

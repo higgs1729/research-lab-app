@@ -1,0 +1,40 @@
+{
+  "as_of": "2026-11-15",
+  "github_current_head": "feabff6c54f95bd8e52a90e0a7a76881ee67d4cc",
+  "github_current_head_equals_R210_pin": true,
+  "hf_current_revision": "f435998b55269762942a979052044309b29650ac",
+  "official_award": {
+    "url": "https://scrollprize.substack.com/p/writing-seen-in-pherc-306b-for-the",
+    "local": "originals/official-306b.html",
+    "fact": "PHerc0306B First Letters prize awarded; many submissions treated the same area. Small visibility improvements resolved a previously ambiguous sequence.",
+    "implication": "A further response on this scroll is not a fresh eligible-scroll First Letters opportunity. No prize eligibility or expected award is asserted."
+  },
+  "published_reading": {
+    "primary_sources": [
+      "R210 originals/306b-readme.md",
+      "originals/submission/method/checks/letter_dimensions.json",
+      "originals/submission/papyrologist_reading_2026-10-23.png",
+      "originals/submission/supporting/reading/papyrologist_label_2026-10-16_fuller_tentative.png",
+      "originals/submission/supporting/reading/papyrologist_tracing_2026-10-23.png"
+    ],
+    "stated_reading": "Main line and a dotted pi beginning the second line; some supporting images contain tentative alternatives and additional lower tracings.",
+    "upper_selection": "Outside the main dashed claim box, inside the already-published full context. No white stroke in the fixed Oct23 tracing overlaps it (prior-reading-overlap.json).",
+    "not_established": [
+      "Never observed before",
+      "Never read by another entrant",
+      "New ink",
+      "A physical continuous lamina",
+      "A third readable line"
+    ],
+    "unavailable_history": "RELEASE_NOTES says the prior submitted version and a private email were removed from the public release. Private submissions and omitted version cannot be ruled out.",
+    "bounded_text_review": "Checked main METHOD/README, submission README/RELEASE_NOTES/supporting README, current claim metadata, letter dimensions/grids and dated published reading/tracing images. No separate upper-group transcription was identified in that set; this is not an exhaustive novelty search.",
+    "tracing_offset_source": "Original Oct23 tracing PNG header: main image px = these px + (1713,1062). Corroborated by the frame field of evidence_grid_line2_equal_windows.json. The >127 white-stroke threshold is also stated in that PNG header."
+  },
+  "training_and_dependence": {
+    "public_models": "Author config/METHOD report Reader V3 and TRACE public models without PHerc0306B training; full initialization and training-coordinate audit not independently performed here.",
+    "Ahn": "Fine-tuned with other PHerc0306B surfaces. Author's 3D exclusion covers the entire displayed context, not merely the claim rectangle; authors report all 23331 training tiles pass. R224 inspected the rule, not all tile distances.",
+    "dependence": "TRACE is one of A-hn's teachers and a factor in the claim product. Claim vs TRACE agreement is not independent. Reader V3 has separate weights/family, but errors can still correlate through shared CT and data.",
+    "selection_exposure": "The known line and target preview were viewed before choosing the test; no blinded discovery or held-out generalization result is claimed."
+  },
+  "source_correction": "The Oct23 tracing image header says it was never used to choose a model. Later RELEASE_NOTES and METHOD section 7 explicitly correct this: tracing was used for checks and selection/gating. The corrected prose governs interpretation."
+}

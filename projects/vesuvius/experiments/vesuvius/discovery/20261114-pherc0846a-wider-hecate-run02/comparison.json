@@ -1,0 +1,54 @@
+{
+  "main_global_xywh": [
+    608,
+    608,
+    960,
+    960
+  ],
+  "native_tiles": 9,
+  "tile_panels_value_count": 2764800,
+  "shared_inner_global_xywh": [
+    928,
+    928,
+    320,
+    320
+  ],
+  "output_overlap": {
+    "forward": {
+      "pixels": 102400,
+      "identical": 100627,
+      "mae_dn": 0.01734375,
+      "max_abs_dn": 2
+    },
+    "reverse": {
+      "pixels": 102400,
+      "identical": 90881,
+      "mae_dn": 0.1165234375,
+      "max_abs_dn": 3
+    }
+  },
+  "shared_support_patches": {
+    "forward": {
+      "supporting_patches": 121,
+      "raw_input_hash_matches": 0,
+      "normalized_hash_matches": 0,
+      "probability_hash_matches": 0,
+      "probability_values": 495616,
+      "probability_mae": 0.00013232642434489014,
+      "probability_max_abs": 0.01894056797027588
+    },
+    "reverse": {
+      "supporting_patches": 121,
+      "raw_input_hash_matches": 0,
+      "normalized_hash_matches": 0,
+      "probability_hash_matches": 0,
+      "probability_values": 495616,
+      "probability_mae": 0.0005218306022656382,
+      "probability_max_abs": 0.03139901161193848
+    }
+  },
+  "original_png_sha256": {
+    "forward": "82626abce0f1d3208968a7375a05bac6c6f8258677f12451426f190beafd0078",
+    "reverse": "2d660e1314c9b6c758301a1614b25db2b428125f426a6d2239064c409102569e"
+  }
+}

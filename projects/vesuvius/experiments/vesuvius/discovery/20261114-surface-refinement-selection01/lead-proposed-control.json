@@ -1,0 +1,48 @@
+{
+  "date_jst": "2026-11-14",
+  "status": "proposal only; no build or execution",
+  "question": "Does the existing patch-origin/evaluation-centre mismatch materially change the returned normal displacement?",
+  "fixtures": {
+    "volume_shape_zyx": [
+      64,
+      64,
+      64
+    ],
+    "dtype": "uint8",
+    "chunks_zyx": [
+      16,
+      16,
+      16
+    ],
+    "all_chunks_present": true,
+    "target_point_xyz": [
+      32,
+      32,
+      32
+    ],
+    "surface": "A small flat tifxyz mesh with valid interior normal +Z, target node at the center.",
+    "A_density": "255 if z >= 38 + 0.5*(x-32), otherwise 0; constant in y",
+    "B_density": "255 if z >= 38 - 0.5*(x-32), otherwise 0; constant in y",
+    "C_density": "255 if z >= 38, otherwise 0"
+  },
+  "fixed_conditions": {
+    "scale_group": 0,
+    "reader_scale": 0.5,
+    "start": -2,
+    "stop": 16,
+    "step": 1,
+    "border_off": 0,
+    "thresholds": "unchanged upstream 118/255 and 165/255",
+    "cuda": false
+  },
+  "runs": [
+    "A r=0",
+    "B r=0",
+    "C r=3",
+    "A r=3",
+    "B r=3"
+  ],
+  "independent_expectation": "A and B are reflections around the target tangent coordinate and have the same target normal intersection d=6. A Gaussian patch actually centered on P would have identical blurred depth profiles under this reflection, because its tangent weights are symmetric. The original corner-anchored patch need not. The r=0 pair and flat C test input/normal/compositing consistency.",
+  "scope": "This isolates a sampling property, not sheet identity, real-data readability, a product defect verdict, or a corrected implementation. Full sparse support is present to avoid fill-value ambiguity.",
+  "proposed_resources": "CPU1/AS4GiB/offline; reuse fixed local source and dependencies in a new output/build directory; no new CT/model/dependencies/cloud. Estimate native build before dispatch."
+}

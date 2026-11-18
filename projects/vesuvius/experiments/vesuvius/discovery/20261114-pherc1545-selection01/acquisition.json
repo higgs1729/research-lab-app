@@ -1,0 +1,61 @@
+{
+  "endpoint": "GitHub fetch_file fixed commit; base64 for original bytes, seed inventory text returned whole bodies",
+  "revision": "1f12c1ceb14c1f24acc48249eaad60bcdf541721",
+  "seed_inventory_requests": [
+    {
+      "path": "analysis/seeds_leads2.json",
+      "bytes": 2991,
+      "git_blob": "086beb4622c3b773501b42236b162a6f03c329b8",
+      "retained": false
+    },
+    {
+      "path": "analysis/seeds_leads3.json",
+      "bytes": 1216,
+      "git_blob": "7dda7da69859bb3bd28e899c02f03e39aa28a810",
+      "retained": false
+    },
+    {
+      "path": "analysis/seeds_leads4.json",
+      "bytes": 999,
+      "git_blob": "7f080a04ec5f629618bb442f1093081acb89d7df",
+      "retained": false
+    },
+    {
+      "path": "analysis/seeds_leads5.json",
+      "bytes": 555,
+      "git_blob": "86ab2ab957e3a1b585fdb8a5c82ad998bd0f73f9",
+      "retained": false
+    },
+    {
+      "path": "analysis/seeds_leads6.json",
+      "bytes": 1443,
+      "git_blob": "28b01d81aeffa79378b09006be3ec45fdb8fc2d9",
+      "retained": false
+    },
+    {
+      "path": "analysis/seeds_leads7.json",
+      "bytes": 660,
+      "git_blob": "a404300a62591da58674590d8456a6d874c4a84d",
+      "retained": true
+    }
+  ],
+  "duplicate_existing": {
+    "path": "analysis/side.json",
+    "bytes": 25049,
+    "sha256": "d8110165f5e57a79a00ce7f64bb0f819b84974aead72e06fac21c191c5a0825a",
+    "retained_at": "../20261114-pherc0846a-lead-audit01/side.json"
+  },
+  "saved_new_text_count": 14,
+  "saved_new_text_bytes": 12896,
+  "new_text_responses_received": 19,
+  "new_text_bytes_received": 20100,
+  "all_text_responses_including_duplicate": 20,
+  "all_text_bytes_including_duplicate": 45149,
+  "card_jpeg_count": 2,
+  "card_jpeg_bytes": 695600,
+  "mesh_tiff_count": 3,
+  "mesh_tiff_bytes": 151086,
+  "planned_text_count": 16,
+  "ct_payload_bytes": 0,
+  "notes": "Used GitHub file connector for survey sources and the official S3 .zarray only for CT metadata. Web verified official prize/data browser/winners pages; those HTML bodies were not separately acquired into the research folder."
+}

@@ -1,0 +1,397 @@
+{
+  "all_boundary_faces": [
+    {
+      "face": 180899,
+      "uv_vertices": [
+        95166,
+        93281,
+        95167
+      ],
+      "initial_area": 203.23589720040428,
+      "target_area_rational": "114411638862504433/1125899906842624",
+      "target_absolute_area_rational": "114411638862504433/1125899906842624",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 184618,
+      "uv_vertices": [
+        97052,
+        95166,
+        95167
+      ],
+      "initial_area": 206.53457738819887,
+      "target_area_rational": "57546412416024597/281474976710656",
+      "target_absolute_area_rational": "57546412416024597/281474976710656",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 184619,
+      "uv_vertices": [
+        97052,
+        95167,
+        97053
+      ],
+      "initial_area": 205.16328345070656,
+      "target_area_rational": "31343396429473659426429741/302231454903657293676544",
+      "target_absolute_area_rational": "31343396429473659426429741/302231454903657293676544",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 188230,
+      "uv_vertices": [
+        98955,
+        97052,
+        97053
+      ],
+      "initial_area": 204.65000213259276,
+      "target_area_rational": "465026718156718491/2251799813685248",
+      "target_absolute_area_rational": "465026718156718491/2251799813685248",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207265,
+      "uv_vertices": [
+        108845,
+        106906,
+        108846
+      ],
+      "initial_area": 234.75827900642477,
+      "target_area_rational": "521901862258425667/2251799813685248",
+      "target_absolute_area_rational": "521901862258425667/2251799813685248",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207266,
+      "uv_vertices": [
+        108846,
+        106906,
+        106907
+      ],
+      "initial_area": 230.32194625436767,
+      "target_area_rational": "517131827406919709/2251799813685248",
+      "target_absolute_area_rational": "517131827406919709/2251799813685248",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207267,
+      "uv_vertices": [
+        108846,
+        106907,
+        108847
+      ],
+      "initial_area": 232.11659131483995,
+      "target_area_rational": "140443291458040850739287961/604462909807314587353088",
+      "target_absolute_area_rational": "140443291458040850739287961/604462909807314587353088",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207268,
+      "uv_vertices": [
+        108847,
+        106907,
+        106908
+      ],
+      "initial_area": 230.70336324912859,
+      "target_area_rational": "259210069524341061/1125899906842624",
+      "target_absolute_area_rational": "259210069524341061/1125899906842624",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207269,
+      "uv_vertices": [
+        108847,
+        106908,
+        108848
+      ],
+      "initial_area": 231.30358510741294,
+      "target_area_rational": "140787995623329110641944679/604462909807314587353088",
+      "target_absolute_area_rational": "140787995623329110641944679/604462909807314587353088",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207270,
+      "uv_vertices": [
+        108848,
+        106908,
+        106909
+      ],
+      "initial_area": 230.79590642388501,
+      "target_area_rational": "259853089542311107/1125899906842624",
+      "target_absolute_area_rational": "259853089542311107/1125899906842624",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207271,
+      "uv_vertices": [
+        108848,
+        106909,
+        108849
+      ],
+      "initial_area": 231.10685844582923,
+      "target_area_rational": "139947304544572390877011069/604462909807314587353088",
+      "target_absolute_area_rational": "139947304544572390877011069/604462909807314587353088",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207272,
+      "uv_vertices": [
+        108849,
+        106909,
+        106910
+      ],
+      "initial_area": 230.74037818926294,
+      "target_area_rational": "259366351215507239/1125899906842624",
+      "target_absolute_area_rational": "259366351215507239/1125899906842624",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207273,
+      "uv_vertices": [
+        108849,
+        106910,
+        108850
+      ],
+      "initial_area": 231.2242324578508,
+      "target_area_rational": "34921224147245378398943719/151115727451828646838272",
+      "target_absolute_area_rational": "34921224147245378398943719/151115727451828646838272",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207274,
+      "uv_vertices": [
+        108850,
+        106910,
+        106911
+      ],
+      "initial_area": 230.45153426341653,
+      "target_area_rational": "64719640815499333/281474976710656",
+      "target_absolute_area_rational": "64719640815499333/281474976710656",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207275,
+      "uv_vertices": [
+        108850,
+        106911,
+        108851
+      ],
+      "initial_area": 231.83886342474648,
+      "target_area_rational": "139424102624714512901476919/604462909807314587353088",
+      "target_absolute_area_rational": "139424102624714512901476919/604462909807314587353088",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207276,
+      "uv_vertices": [
+        108851,
+        106911,
+        106912
+      ],
+      "initial_area": 229.49801921935432,
+      "target_area_rational": "64597949614909441/281474976710656",
+      "target_absolute_area_rational": "64597949614909441/281474976710656",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207300,
+      "uv_vertices": [
+        108863,
+        106923,
+        106924
+      ],
+      "initial_area": 199.52446033587572,
+      "target_area_rational": "224644571304987307/1125899906842624",
+      "target_absolute_area_rational": "224644571304987307/1125899906842624",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207301,
+      "uv_vertices": [
+        108863,
+        106924,
+        108864
+      ],
+      "initial_area": 197.02453620380953,
+      "target_area_rational": "60041044600588019202125769/302231454903657293676544",
+      "target_absolute_area_rational": "60041044600588019202125769/302231454903657293676544",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207302,
+      "uv_vertices": [
+        108864,
+        106924,
+        106925
+      ],
+      "initial_area": 200.06326231557262,
+      "target_area_rational": "224786745115495227/1125899906842624",
+      "target_absolute_area_rational": "224786745115495227/1125899906842624",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207303,
+      "uv_vertices": [
+        108864,
+        106925,
+        108865
+      ],
+      "initial_area": 199.27945725337264,
+      "target_area_rational": "120170870685789699246796589/604462909807314587353088",
+      "target_absolute_area_rational": "120170870685789699246796589/604462909807314587353088",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207304,
+      "uv_vertices": [
+        108865,
+        106925,
+        106926
+      ],
+      "initial_area": 200.25800869849158,
+      "target_area_rational": "449950808552387073/2251799813685248",
+      "target_absolute_area_rational": "449950808552387073/2251799813685248",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207305,
+      "uv_vertices": [
+        108865,
+        106926,
+        108866
+      ],
+      "initial_area": 199.96297048592933,
+      "target_area_rational": "120259694774670988952957691/604462909807314587353088",
+      "target_absolute_area_rational": "120259694774670988952957691/604462909807314587353088",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207306,
+      "uv_vertices": [
+        108866,
+        106926,
+        106927
+      ],
+      "initial_area": 200.30774691400111,
+      "target_area_rational": "450281704069049833/2251799813685248",
+      "target_absolute_area_rational": "450281704069049833/2251799813685248",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207307,
+      "uv_vertices": [
+        108866,
+        106927,
+        108867
+      ],
+      "initial_area": 200.07951956381717,
+      "target_area_rational": "30087129715899927105349361/151115727451828646838272",
+      "target_absolute_area_rational": "30087129715899927105349361/151115727451828646838272",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207308,
+      "uv_vertices": [
+        108867,
+        106927,
+        106928
+      ],
+      "initial_area": 200.3084754174424,
+      "target_area_rational": "28163391455616567/140737488355328",
+      "target_absolute_area_rational": "28163391455616567/140737488355328",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 207309,
+      "uv_vertices": [
+        108867,
+        106928,
+        108868
+      ],
+      "initial_area": 199.80701368163795,
+      "target_area_rational": "30109682384502762739909017/151115727451828646838272",
+      "target_absolute_area_rational": "30109682384502762739909017/151115727451828646838272",
+      "linear_morph_area_roots_0_1": []
+    },
+    {
+      "face": 230483,
+      "uv_vertices": [
+        121011,
+        119019,
+        121012
+      ],
+      "initial_area": 209.14451560491855,
+      "target_area_rational": "-214873020566983702566101977/1208925819614629174706176",
+      "target_absolute_area_rational": "-214873020566983702566101977/1208925819614629174706176",
+      "linear_morph_area_roots_0_1": [
+        0.5828902772791431
+      ]
+    },
+    {
+      "face": 230495,
+      "uv_vertices": [
+        121018,
+        119026,
+        249944
+      ],
+      "initial_area": 209.34780017267377,
+      "target_area_rational": "-23865762538459/1208925819614629174706176",
+      "target_absolute_area_rational": "-23865762538459/1208925819614629174706176",
+      "linear_morph_area_roots_0_1": [
+        0.9999999999998539
+      ]
+    }
+  ],
+  "boundary_only_face_count": 28,
+  "nonpositive_boundary_faces": [
+    {
+      "face": 230483,
+      "uv_vertices": [
+        121011,
+        119019,
+        121012
+      ],
+      "initial_area": 209.14451560491855,
+      "target_area_rational": "-214873020566983702566101977/1208925819614629174706176",
+      "target_absolute_area_rational": "-214873020566983702566101977/1208925819614629174706176",
+      "linear_morph_area_roots_0_1": [
+        0.5828902772791431
+      ]
+    },
+    {
+      "face": 230495,
+      "uv_vertices": [
+        121018,
+        119026,
+        249944
+      ],
+      "initial_area": 209.34780017267377,
+      "target_area_rational": "-23865762538459/1208925819614629174706176",
+      "target_absolute_area_rational": "-23865762538459/1208925819614629174706176",
+      "linear_morph_area_roots_0_1": [
+        0.9999999999998539
+      ]
+    }
+  ],
+  "boundary_internal_chords": 29,
+  "chords_leaving_target_polygon": [
+    {
+      "uv_edge": [
+        119019,
+        121011
+      ],
+      "length_outside_target_polygon": 30.19374200418071
+    },
+    {
+      "uv_edge": [
+        119026,
+        121018
+      ],
+      "length_outside_target_polygon": 21.60031582491979
+    }
+  ],
+  "proper_crossings_of_fixed_chords": [],
+  "raw_failed_negative_face_ids": [
+    230483
+  ],
+  "elapsed_seconds": 0.0618804000550881
+}

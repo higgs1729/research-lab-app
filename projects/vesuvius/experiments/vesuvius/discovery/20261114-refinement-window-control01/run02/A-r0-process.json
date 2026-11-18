@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/home/tomoy/refinement-window-control01-build03/bin/vc_objrefine",
+    "/home/tomoy/refinement-window-control01-build03/fixture/A.zarr",
+    "/home/tomoy/refinement-window-control01-build03/fixture/surface",
+    "/home/tomoy/refinement-window-control01-build03/output/A-r0",
+    "/home/tomoy/refinement-window-control01-build03/fixture/r0.json"
+  ],
+  "timing_pid": 394,
+  "process_group": 394,
+  "started_utc": "2026-11-13T18:19:24.679040+00:00",
+  "completed_utc": "2026-11-13T18:19:24.754139+00:00",
+  "elapsed_seconds": 0.0751046469999892,
+  "exit_code": 0,
+  "termination_reason": null,
+  "reaped": true,
+  "disk_samples": [],
+  "max_child_rss_bytes": 64446464,
+  "user_cpu_seconds": 0.02,
+  "sys_cpu_seconds": 0.01
+}

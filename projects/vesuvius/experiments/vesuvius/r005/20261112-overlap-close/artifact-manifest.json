@@ -1,0 +1,191 @@
+{
+  "created_utc": "2026-11-11T18:56:15.121333+00:00",
+  "scope": "Fixed-geometry overlap diagnostic, exact C/D pair certificate, source capability references, independent check and reports59/60. Previous evidence referenced by hash. Mutable root runners excluded; execution snapshots retained.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-close/decision-record.json",
+      "bytes": 1027,
+      "sha256": "284194a806c8f0592439abf0bc81e42ace3f0ef0127d563aa69dbab0b2c21ac3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-close/experiment-record.json",
+      "bytes": 1123,
+      "sha256": "e592c4961d4e77b88946058e09fecb64cddbfaa8bb44db1fda0680322256cda9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-close/freeze.py",
+      "bytes": 3630,
+      "sha256": "dcd5ad157564d1c063ca28e99f290adbebe9adefb19d5b5ce400dfe62ea11d87"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-close/resources.json",
+      "bytes": 4810,
+      "sha256": "1ad7da435c3e855cf0b7c2e1b781361011412800ab2119974d20d2fc3443e56f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-close/runtime-status.json",
+      "bytes": 1046,
+      "sha256": "9c577086bf2922cc8086507b004f3844726eb7b8cabbdd873b3c8062ee155e44"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-close/verification-record.json",
+      "bytes": 710,
+      "sha256": "91e1a9821fe4bb306cd9b9eb1c3d75e4b8b6f0794f9f95f3c0b39c64a3446164"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/check01/fixed_geometry_ids.npz",
+      "bytes": 1741798,
+      "sha256": "fad74f590e3e00f603f9d0507cebc8f8619c4577e08b6123066e80f588fb181c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/check01/result.json",
+      "bytes": 8159,
+      "sha256": "2bcc742b8cbb5b97ca9e6b9910ea53fcd679933c3b85c4034eb8984c1708bdea"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/check01-execution/state.json",
+      "bytes": 870,
+      "sha256": "fdcb03d9adde8729553bd1dbf228e7c1f9b5941d79b23772084d1a0d5ac86d30"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/check01-execution/stdout.log",
+      "bytes": 2210,
+      "sha256": "a958ad738e285f182d11340070c3c3b64d705797dab6c94d54c9294146529f42"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/check02/result.json",
+      "bytes": 1980,
+      "sha256": "e015ca0818f11223d46ab00321047d03bf74fcccb0c36a197ea50bd1f821f1a9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/check02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/check02-execution/state.json",
+      "bytes": 875,
+      "sha256": "3ab8666ab8c423985cccaa842d1d2f36652bb4141c6e5404f02f5145a9498791"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/check02-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/verify_case_prepack.py",
+      "bytes": 2295,
+      "sha256": "6ed11ee012419bd8d621f5078895d44ed66388935b6d2265aa00088473ffea06"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap-verification01/verify_overlap.py",
+      "bytes": 14563,
+      "sha256": "096c53789d1e0c407785b1683d2b8b066be553fc8da58a57be7d3ad66755e72c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/analysis01/arrays.npz",
+      "bytes": 55995,
+      "sha256": "ca1f43f1f9d642a5ebe67b4193413469c33ec54e13639901919c5d7e08bcaa82"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/analysis01/diagnose_fixed_overlap.py",
+      "bytes": 6142,
+      "sha256": "49039eaa3e94e72b99deda0103f262db3affa9fca5c33b6a5a932cbec525e3ae"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/analysis01/result.json",
+      "bytes": 6351,
+      "sha256": "f64cd758b4c8e2324a033af41b3e9d99b765132013f0526653bab1a64c61372c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/analysis01-execution/state.json",
+      "bytes": 854,
+      "sha256": "aacdd0583c2abfe7f7f8a7916094ab38d92405db64b4cc365e8655ef66ee4242"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/analysis01-execution/stdout.log",
+      "bytes": 4683,
+      "sha256": "1ca9156fd65c38fb67c4718386c9a0f419c88a4e32fe56e05b2365179fbe9182"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/capability-sources.json",
+      "bytes": 2577,
+      "sha256": "90e4a969530a0c7b5284f858c62fb7089d1cdced13d30367b25dd97cb28d6b5e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/check_fixed_geometry.py",
+      "bytes": 6933,
+      "sha256": "cb56bee18766ebb52733e294bd37d997b43feeaeff2052b43f1fd9297f63dc16"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/decision-record.json",
+      "bytes": 1069,
+      "sha256": "d3f784ebdfc29fe71a8a4e069dfc37561cfe9f4835da68ce69fbc2cb7e6c542e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/diagnose_fixed_overlap.py",
+      "bytes": 6142,
+      "sha256": "49039eaa3e94e72b99deda0103f262db3affa9fca5c33b6a5a932cbec525e3ae"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/geometry-decision-record.json",
+      "bytes": 1051,
+      "sha256": "a597d81a371b4b7708f6074c287d5be0b28ef8eb3eada044cb3097429aca6642"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/geometry01/arrays.npz",
+      "bytes": 1742431,
+      "sha256": "5c48c751ea8af5e7ec45a2cc54d6993bd27d70fc443933865c93edc54ed7d203"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/geometry01/check_fixed_geometry.py",
+      "bytes": 6933,
+      "sha256": "cb56bee18766ebb52733e294bd37d997b43feeaeff2052b43f1fd9297f63dc16"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/geometry01/result.json",
+      "bytes": 5741,
+      "sha256": "b99e2a685eea0f0e08320dff17ebfdaa567fe6e52b872eeb481377ebed0f9d62"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/geometry01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/geometry01-execution/state.json",
+      "bytes": 853,
+      "sha256": "767ab11f90dbbdb9a812b06b545feb3e22b514b5b95e60090e79dd048550dbe7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/geometry01-execution/stdout.log",
+      "bytes": 7198,
+      "sha256": "384575fe958a1eed523aa481e0a2c8cd1c3cd7e64aaa69eb57c28e137fd064ab"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-overlap01/save_capability_sources.py",
+      "bytes": 1978,
+      "sha256": "7db251a552d84b1a6ad7f4cd242dda781ae97550eaccd891fd4516cb3d7e91d5"
+    },
+    {
+      "path": "research/59-r005-overlap-constraints.md",
+      "bytes": 7781,
+      "sha256": "a5572f5f811a0b0f403741e19d38f7cc86682d2f4d463cd21bd48159aa1523cc"
+    },
+    {
+      "path": "research/60-r005-overlap-verification.md",
+      "bytes": 6082,
+      "sha256": "4c6f0d67dff1a0399eb9a6d01096bde6b07873ffac7b66e527e1c9d2d4e60ada"
+    }
+  ]
+}

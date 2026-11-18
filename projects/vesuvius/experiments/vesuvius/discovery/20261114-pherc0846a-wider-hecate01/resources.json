@@ -1,0 +1,14 @@
+{
+  "dedicated_pod_lifetime_observation_seconds": 36.6566272,
+  "dedicated_estimated_cost_usd": "0.009090617270123456790123456791",
+  "dedicated_actual_cost_usd": null,
+  "account_wide_observed_balance_change_usd": "0.0815900870",
+  "note": "Other owned workload ran during the interval. The account balance delta is not the R207 Pod charge.",
+  "new_ct_bytes": 213909504,
+  "cache_reused_keys": 44,
+  "gpu_forward_calls": 0,
+  "cpu_reference_forward_calls": 3,
+  "pod_create_posts": 1,
+  "new_remote_checkpoint_bytes": 0,
+  "model_result_tar_bytes": 0
+}

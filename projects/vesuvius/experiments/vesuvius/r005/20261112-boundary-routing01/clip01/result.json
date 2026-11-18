@@ -1,0 +1,958 @@
+{
+  "clearance": 1.0,
+  "simplify_tolerance": 0.1,
+  "original_area": 72204.69581662834,
+  "obstacle_area": 84552.33940123291,
+  "remaining_components": [
+    {
+      "component": 0,
+      "area": 44473.51746465908,
+      "holes": 0,
+      "max_fixed_boundary_distance": 0.0,
+      "fixed_on_exterior_count": 34
+    }
+  ],
+  "selected_component": 0,
+  "fixed_order_preserved": true,
+  "minimum_fixed_point_to_obstacles": 18.62186826544557,
+  "arcs": [
+    {
+      "start_pin": 93281,
+      "end_pin": 108869,
+      "available_edges": 32,
+      "original_clip_edges": 16,
+      "simplified_edges": 9,
+      "simple": true,
+      "distance_to_obstacles": 0.9999968062565101,
+      "ids": [
+        93281,
+        95167,
+        97053,
+        98957,
+        98959,
+        98961,
+        98963,
+        98965,
+        98967,
+        98968,
+        101115,
+        103055,
+        104995,
+        106935,
+        108875,
+        110828,
+        113047,
+        115040,
+        117033,
+        119026,
+        249944,
+        121018,
+        121017,
+        121016,
+        121015,
+        121014,
+        121013,
+        119020,
+        117027,
+        115034,
+        113041,
+        110822,
+        108869
+      ],
+      "simplified_coordinates": [
+        [
+          19579.380859375,
+          2245.121826171875
+        ],
+        [
+          19585.24636813384,
+          2266.2208886159847
+        ],
+        [
+          19590.65157533492,
+          2287.724336111723
+        ],
+        [
+          19609.485896824473,
+          2287.585509541952
+        ],
+        [
+          19635.255155102615,
+          2287.105212133129
+        ],
+        [
+          19642.059254146116,
+          2427.3422995389346
+        ],
+        [
+          19643.20766336432,
+          2469.4817402894355
+        ],
+        [
+          19641.100086374245,
+          2469.8831016731865
+        ],
+        [
+          19630.872936362855,
+          2437.208343759071
+        ],
+        [
+          19623.900390625,
+          2416.70166015625
+        ]
+      ]
+    },
+    {
+      "start_pin": 108869,
+      "end_pin": 108845,
+      "available_edges": 36,
+      "original_clip_edges": 37,
+      "simplified_edges": 15,
+      "simple": true,
+      "distance_to_obstacles": 0.9999999999979449,
+      "ids": [
+        108869,
+        108868,
+        108867,
+        108866,
+        108865,
+        108864,
+        108863,
+        110821,
+        113040,
+        115033,
+        117026,
+        119019,
+        121012,
+        121011,
+        121010,
+        121009,
+        121008,
+        121007,
+        121006,
+        121005,
+        121004,
+        121003,
+        121002,
+        121001,
+        121000,
+        119007,
+        117014,
+        115021,
+        113028,
+        110809,
+        108851,
+        108850,
+        108849,
+        108848,
+        108847,
+        108846,
+        108845
+      ],
+      "simplified_coordinates": [
+        [
+          19623.900390625,
+          2416.70166015625
+        ],
+        [
+          19605.414570964713,
+          2416.4262010059037
+        ],
+        [
+          19511.455880709465,
+          2416.065328420901
+        ],
+        [
+          19518.472347484036,
+          2436.8433926062426
+        ],
+        [
+          19525.15595476253,
+          2457.802932074194
+        ],
+        [
+          19535.150314669914,
+          2490.1231438011073
+        ],
+        [
+          19503.358213951327,
+          2496.1401161948106
+        ],
+        [
+          19502.99235048522,
+          2518.5719958551995
+        ],
+        [
+          19501.18171897176,
+          2540.1023867754207
+        ],
+        [
+          19500.705900468645,
+          2543.6312193159533
+        ],
+        [
+          19315.847069108637,
+          2551.0033943993008
+        ],
+        [
+          19291.061488071377,
+          2467.3581850581236
+        ],
+        [
+          19284.535051399747,
+          2446.551391114781
+        ],
+        [
+          19277.170990288876,
+          2425.902759559257
+        ],
+        [
+          19211.55000650725,
+          2429.257803948315
+        ],
+        [
+          19145.56640625,
+          2432.35400390625
+        ]
+      ]
+    },
+    {
+      "start_pin": 108845,
+      "end_pin": 106906,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 303.0259583692808,
+      "ids": [
+        108845,
+        106906
+      ],
+      "simplified_coordinates": [
+        [
+          19145.56640625,
+          2432.35400390625
+        ],
+        [
+          19161.021484375,
+          2410.553466796875
+        ]
+      ]
+    },
+    {
+      "start_pin": 106906,
+      "end_pin": 106907,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 294.10409432451155,
+      "ids": [
+        106906,
+        106907
+      ],
+      "simplified_coordinates": [
+        [
+          19161.021484375,
+          2410.553466796875
+        ],
+        [
+          19182.798828125,
+          2409.4794921875
+        ]
+      ]
+    },
+    {
+      "start_pin": 106907,
+      "end_pin": 106908,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 281.71745715898714,
+      "ids": [
+        106907,
+        106908
+      ],
+      "simplified_coordinates": [
+        [
+          19182.798828125,
+          2409.4794921875
+        ],
+        [
+          19204.576171875,
+          2408.40576171875
+        ]
+      ]
+    },
+    {
+      "start_pin": 106908,
+      "end_pin": 106909,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 270.52385580071973,
+      "ids": [
+        106908,
+        106909
+      ],
+      "simplified_coordinates": [
+        [
+          19204.576171875,
+          2408.40576171875
+        ],
+        [
+          19226.353515625,
+          2407.331787109375
+        ]
+      ]
+    },
+    {
+      "start_pin": 106909,
+      "end_pin": 106910,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 260.6765943519985,
+      "ids": [
+        106909,
+        106910
+      ],
+      "simplified_coordinates": [
+        [
+          19226.353515625,
+          2407.331787109375
+        ],
+        [
+          19248.130859375,
+          2406.258056640625
+        ]
+      ]
+    },
+    {
+      "start_pin": 106910,
+      "end_pin": 106911,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 251.76483301183615,
+      "ids": [
+        106910,
+        106911
+      ],
+      "simplified_coordinates": [
+        [
+          19248.130859375,
+          2406.258056640625
+        ],
+        [
+          19269.908203125,
+          2405.18408203125
+        ]
+      ]
+    },
+    {
+      "start_pin": 106911,
+      "end_pin": 106912,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 232.05007202867895,
+      "ids": [
+        106911,
+        106912
+      ],
+      "simplified_coordinates": [
+        [
+          19269.908203125,
+          2405.18408203125
+        ],
+        [
+          19291.685546875,
+          2404.1103515625
+        ]
+      ]
+    },
+    {
+      "start_pin": 106912,
+      "end_pin": 106913,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 212.74350231757944,
+      "ids": [
+        106912,
+        106913
+      ],
+      "simplified_coordinates": [
+        [
+          19291.685546875,
+          2404.1103515625
+        ],
+        [
+          19313.462890625,
+          2403.036376953125
+        ]
+      ]
+    },
+    {
+      "start_pin": 106913,
+      "end_pin": 108853,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 198.54738762774392,
+      "ids": [
+        106913,
+        108853
+      ],
+      "simplified_coordinates": [
+        [
+          19313.462890625,
+          2403.036376953125
+        ],
+        [
+          19319.787109375,
+          2423.76318359375
+        ]
+      ]
+    },
+    {
+      "start_pin": 108853,
+      "end_pin": 106914,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 195.8414025041524,
+      "ids": [
+        108853,
+        106914
+      ],
+      "simplified_coordinates": [
+        [
+          19319.787109375,
+          2423.76318359375
+        ],
+        [
+          19332.63671875,
+          2402.790283203125
+        ]
+      ]
+    },
+    {
+      "start_pin": 106914,
+      "end_pin": 106915,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 179.79957413783964,
+      "ids": [
+        106914,
+        106915
+      ],
+      "simplified_coordinates": [
+        [
+          19332.63671875,
+          2402.790283203125
+        ],
+        [
+          19351.767578125,
+          2401.8505859375
+        ]
+      ]
+    },
+    {
+      "start_pin": 106915,
+      "end_pin": 106916,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 164.4235270042531,
+      "ids": [
+        106915,
+        106916
+      ],
+      "simplified_coordinates": [
+        [
+          19351.767578125,
+          2401.8505859375
+        ],
+        [
+          19370.900390625,
+          2400.9111328125
+        ]
+      ]
+    },
+    {
+      "start_pin": 106916,
+      "end_pin": 106917,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 149.92213415958287,
+      "ids": [
+        106916,
+        106917
+      ],
+      "simplified_coordinates": [
+        [
+          19370.900390625,
+          2400.9111328125
+        ],
+        [
+          19390.03125,
+          2399.9716796875
+        ]
+      ]
+    },
+    {
+      "start_pin": 106917,
+      "end_pin": 106918,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 136.5709233817351,
+      "ids": [
+        106917,
+        106918
+      ],
+      "simplified_coordinates": [
+        [
+          19390.03125,
+          2399.9716796875
+        ],
+        [
+          19409.1640625,
+          2399.031982421875
+        ]
+      ]
+    },
+    {
+      "start_pin": 106918,
+      "end_pin": 106919,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 124.74266227246616,
+      "ids": [
+        106918,
+        106919
+      ],
+      "simplified_coordinates": [
+        [
+          19409.1640625,
+          2399.031982421875
+        ],
+        [
+          19428.294921875,
+          2398.092529296875
+        ]
+      ]
+    },
+    {
+      "start_pin": 106919,
+      "end_pin": 106920,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 114.90688044458233,
+      "ids": [
+        106919,
+        106920
+      ],
+      "simplified_coordinates": [
+        [
+          19428.294921875,
+          2398.092529296875
+        ],
+        [
+          19447.42578125,
+          2397.153076171875
+        ]
+      ]
+    },
+    {
+      "start_pin": 106920,
+      "end_pin": 106921,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 107.61085843806677,
+      "ids": [
+        106920,
+        106921
+      ],
+      "simplified_coordinates": [
+        [
+          19447.42578125,
+          2397.153076171875
+        ],
+        [
+          19466.55859375,
+          2396.21337890625
+        ]
+      ]
+    },
+    {
+      "start_pin": 106921,
+      "end_pin": 108861,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 86.65515392923014,
+      "ids": [
+        106921,
+        108861
+      ],
+      "simplified_coordinates": [
+        [
+          19466.55859375,
+          2396.21337890625
+        ],
+        [
+          19472.83984375,
+          2416.246826171875
+        ]
+      ]
+    },
+    {
+      "start_pin": 108861,
+      "end_pin": 106922,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 86.65515392923014,
+      "ids": [
+        108861,
+        106922
+      ],
+      "simplified_coordinates": [
+        [
+          19472.83984375,
+          2416.246826171875
+        ],
+        [
+          19486.158203125,
+          2394.856201171875
+        ]
+      ]
+    },
+    {
+      "start_pin": 106922,
+      "end_pin": 106923,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 100.16951606738508,
+      "ids": [
+        106922,
+        106923
+      ],
+      "simplified_coordinates": [
+        [
+          19486.158203125,
+          2394.856201171875
+        ],
+        [
+          19505.041015625,
+          2394.9130859375
+        ]
+      ]
+    },
+    {
+      "start_pin": 106923,
+      "end_pin": 106924,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 96.56181753485588,
+      "ids": [
+        106923,
+        106924
+      ],
+      "simplified_coordinates": [
+        [
+          19505.041015625,
+          2394.9130859375
+        ],
+        [
+          19523.923828125,
+          2394.969970703125
+        ]
+      ]
+    },
+    {
+      "start_pin": 106924,
+      "end_pin": 106925,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 92.93011013225954,
+      "ids": [
+        106924,
+        106925
+      ],
+      "simplified_coordinates": [
+        [
+          19523.923828125,
+          2394.969970703125
+        ],
+        [
+          19542.8046875,
+          2395.02685546875
+        ]
+      ]
+    },
+    {
+      "start_pin": 106925,
+      "end_pin": 106926,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 79.71402165945604,
+      "ids": [
+        106925,
+        106926
+      ],
+      "simplified_coordinates": [
+        [
+          19542.8046875,
+          2395.02685546875
+        ],
+        [
+          19561.6875,
+          2395.083740234375
+        ]
+      ]
+    },
+    {
+      "start_pin": 106926,
+      "end_pin": 106927,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 60.85615257927851,
+      "ids": [
+        106926,
+        106927
+      ],
+      "simplified_coordinates": [
+        [
+          19561.6875,
+          2395.083740234375
+        ],
+        [
+          19580.5703125,
+          2395.140625
+        ]
+      ]
+    },
+    {
+      "start_pin": 106927,
+      "end_pin": 106928,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 41.99827166758926,
+      "ids": [
+        106927,
+        106928
+      ],
+      "simplified_coordinates": [
+        [
+          19580.5703125,
+          2395.140625
+        ],
+        [
+          19599.453125,
+          2395.197265625
+        ]
+      ]
+    },
+    {
+      "start_pin": 106928,
+      "end_pin": 104988,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 41.99827166758926,
+      "ids": [
+        106928,
+        104988
+      ],
+      "simplified_coordinates": [
+        [
+          19599.453125,
+          2395.197265625
+        ],
+        [
+          19593.888671875,
+          2373.75
+        ]
+      ]
+    },
+    {
+      "start_pin": 104988,
+      "end_pin": 103048,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 46.516818103022445,
+      "ids": [
+        104988,
+        103048
+      ],
+      "simplified_coordinates": [
+        [
+          19593.888671875,
+          2373.75
+        ],
+        [
+          19588.322265625,
+          2352.302490234375
+        ]
+      ]
+    },
+    {
+      "start_pin": 103048,
+      "end_pin": 101108,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 51.03730905394116,
+      "ids": [
+        103048,
+        101108
+      ],
+      "simplified_coordinates": [
+        [
+          19588.322265625,
+          2352.302490234375
+        ],
+        [
+          19582.7578125,
+          2330.85498046875
+        ]
+      ]
+    },
+    {
+      "start_pin": 101108,
+      "end_pin": 98955,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 55.55584380820291,
+      "ids": [
+        101108,
+        98955
+      ],
+      "simplified_coordinates": [
+        [
+          19582.7578125,
+          2330.85498046875
+        ],
+        [
+          19577.193359375,
+          2309.407470703125
+        ]
+      ]
+    },
+    {
+      "start_pin": 98955,
+      "end_pin": 97052,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 60.07437746400984,
+      "ids": [
+        98955,
+        97052
+      ],
+      "simplified_coordinates": [
+        [
+          19577.193359375,
+          2309.407470703125
+        ],
+        [
+          19571.62890625,
+          2287.9599609375
+        ]
+      ]
+    },
+    {
+      "start_pin": 97052,
+      "end_pin": 95166,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 64.59291285033831,
+      "ids": [
+        97052,
+        95166
+      ],
+      "simplified_coordinates": [
+        [
+          19571.62890625,
+          2287.9599609375
+        ],
+        [
+          19566.0625,
+          2266.512451171875
+        ]
+      ]
+    },
+    {
+      "start_pin": 95166,
+      "end_pin": 93281,
+      "available_edges": 1,
+      "original_clip_edges": 1,
+      "simplified_edges": 1,
+      "simple": true,
+      "distance_to_obstacles": 55.187183418640345,
+      "ids": [
+        95166,
+        93281
+      ],
+      "simplified_coordinates": [
+        [
+          19566.0625,
+          2266.512451171875
+        ],
+        [
+          19579.380859375,
+          2245.121826171875
+        ]
+      ]
+    }
+  ],
+  "target_boundary_gate": true,
+  "elapsed_seconds": 0.08076049998635426
+}

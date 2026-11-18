@@ -1,0 +1,33 @@
+{
+  "checked_utc": "2026-11-15T07:37:30.903271+00:00",
+  "plan_sha256": "6e9f4eccf7de9c5e3b14e071f938bd6fc6a4bddae8de0946ffaeb0f775b90c4d",
+  "regions": {
+    "known_control": {
+      "node_rectangle_xyxy_inclusive": [
+        121,
+        86,
+        343,
+        144
+      ],
+      "all_nodes_finite_positive": true,
+      "covered_carrier_pixels": 5087232
+    },
+    "upper_test": {
+      "node_rectangle_xyxy_inclusive": [
+        121,
+        144,
+        343,
+        202
+      ],
+      "all_nodes_finite_positive": true,
+      "covered_carrier_pixels": 5087232
+    }
+  },
+  "reference_points_checked": 4,
+  "max_bilinear_float_difference_voxel": 0.0006461647171818186,
+  "new_body_bytes": 171424048,
+  "upper_lead_entire_source_support_inside_test": true,
+  "coordinate_convention": "Author carrier: node=(render_x/20,render_y/20), as supplied meta. Not an assertion that a different renderer uses the same centre convention.",
+  "physical_lamina_identity": "unconfirmed",
+  "new_inference_ct_or_gpu": 0
+}

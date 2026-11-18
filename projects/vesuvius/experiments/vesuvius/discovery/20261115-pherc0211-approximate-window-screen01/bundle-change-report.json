@@ -1,0 +1,38 @@
+{
+  "prior_archive_sha256": "df612995037c88d8d9f4f5cc8667b7e91ab211fdb97c3a7c7e8304201cbcaff6",
+  "archive_sha256": "089b3e2f44196cb556ae8a96ce36f3f744d0df1b1dafe5f66ce04c2d68b6fc37",
+  "changed_members": [
+    "fixed-assets.json",
+    "gpu_loop.py",
+    "input-contract.json",
+    "patch-contract.json",
+    "plan.json"
+  ],
+  "unchanged_members": [
+    "cloud_worker.py",
+    "control/rendered16.npy",
+    "input16.npy",
+    "known/cpu/p000.npy",
+    "known/cpu/p047.npy",
+    "known/cpu/p095.npy",
+    "known/input-contract.json",
+    "known/input16.npy",
+    "known/patch-contract.json",
+    "known/plan.json",
+    "normalization_probe.py",
+    "pod_work.py",
+    "prepared-controls/known-phi16.npy",
+    "prepared-controls/pair-public16.npy",
+    "r208_runtime.py",
+    "safetensors-header.json",
+    "sources/studio-multiscroll-cpt-20261023/hf/inference.py",
+    "sources/studio-multiscroll-cpt-20261023/hf/model.py",
+    "sources/wheelhouse/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl",
+    "studio_worker.py"
+  ],
+  "source_plan_cases_exactly_equal": true,
+  "source_contract_exactly_equal": true,
+  "source_selection_exactly_equal": true,
+  "cloud_plan_sha256": "4016e04378aa91630b29e4ee33d164a1dd3904ccbafb498bd6bff5601e1c94fc",
+  "pods_created": 0
+}

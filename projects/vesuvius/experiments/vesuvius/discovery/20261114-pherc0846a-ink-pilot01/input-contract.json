@@ -1,0 +1,156 @@
+{
+  "utc": "2026-11-13T15:51:31.555641+00:00",
+  "crop_xywh": [
+    843,
+    843,
+    512,
+    512
+  ],
+  "voxel_micrometer": 9.362,
+  "source_layers": [
+    8,
+    25
+  ],
+  "shape_zyx": [
+    33,
+    512,
+    512
+  ],
+  "forward": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "reverse": [
+    24,
+    23,
+    22,
+    21,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9,
+    8
+  ],
+  "source": "R170 fixed PHerc0846A mesh and official CT, R171 native render",
+  "zattrs_sha256": "eea74c3917d76a048a234455febcf8dbab15afdb3a8a34964f8668c915024426",
+  "zarray_sha256": "33e766e5b5107dfe2fb2a95c91b77da5ce3a31bb06cc16bf97ad5f708ceea8f6",
+  "chunks": [
+    {
+      "path": "0/0/0/0",
+      "sha256": "4ce025c5b0b8afdb0f8148972992986e4e65dfe544220706e813a2ea2368ca3d",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/0/1",
+      "sha256": "47bd003b82f7d2903bf87c3ff8a3ad37f0c142dc6c1c8a1a9acf750231646568",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/0/2",
+      "sha256": "5ccd603605f826d2762c1cf54f35a2800a13982738f869dbde8116da866846de",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/0/3",
+      "sha256": "3846f6924ce239a228c43905d345cc4560ad8d01964dfb43c9a2c5ed78a6111d",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/1/0",
+      "sha256": "43f68701ed189add66bbd51e6a9582c7d243a5472ecc480866ad48c67fcdd8d9",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/1/1",
+      "sha256": "13dfaee90f367fef715cac173f29bfcd006ce40eb63ff2ced69f4df7311ec644",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/1/2",
+      "sha256": "db85cc9e2e53554328d8db634794a4be7b47ae9c577d8e0f53613007eb7f7110",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/1/3",
+      "sha256": "dbe072e98d77850b7e6c63e7dd443d170317d531813e6310095bb488c0cfa5c9",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/2/0",
+      "sha256": "69e00d75795a4b3c0aa4999379db10c9d2b935518b513b72b9a3c27a89177145",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/2/1",
+      "sha256": "2e1914bb55ab4d8dee63fd58ef2d4715f91e56bd50b01ff78b429e9ee5f9b96c",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/2/2",
+      "sha256": "f7bbf66f78bc9c6fb92c2606123149cffe09c110094e45f3b84059d092fb3894",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/2/3",
+      "sha256": "4c3df0f76dae2a0a0c0b31eb8c1c242b4c7f3de11b7c9c03a73e4178df78d947",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/3/0",
+      "sha256": "fa789984849ce066b537aae6191e661ce14785c0c8c193f19f821cdf121027f9",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/3/1",
+      "sha256": "657c56518f97fdb5c529e9fb0b09e0ff95a38be5534efc535f3816735011a8de",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/3/2",
+      "sha256": "a5b240406dc74e9d983b36d1cced9a74d6f33839cea13172c73ccbe96b7af173",
+      "bytes": 540672
+    },
+    {
+      "path": "0/0/3/3",
+      "sha256": "af752cd5aa0ab9f2a2a18b657a726acfde2581a547ea89279b7e7d6e2443c111",
+      "bytes": 540672
+    }
+  ],
+  "valid_xy": 262144,
+  "valid_xy_mask_sha256": "0acd32b99c7188ffb30eacfc6f0f0eae72734665c91e0c57c01f389ab059aaed",
+  "selected_nonzero": 4456404,
+  "selected_pixels": 4456448,
+  "all_selected_depth_zero_xy": 0,
+  "selected_minmax": [
+    0,
+    255
+  ],
+  "central_compare_sha256": "7fd3f36be6fbcef1c254e122c1ad6eeeacb42b9a3321b252710d3d247e7e2292",
+  "tiff_zarr_equal": 8650752,
+  "labels": null,
+  "resampled": false,
+  "physical_face": "unverified"
+}

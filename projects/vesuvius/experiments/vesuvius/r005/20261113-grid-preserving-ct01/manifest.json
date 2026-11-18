@@ -1,0 +1,314 @@
+{
+  "files": [
+    {
+      "path": ".work/r005-grid-preserving-ct01/geometry01/metadata-only.zarr/.zattrs",
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+      "bytes": 3018
+    },
+    {
+      "path": ".work/r005-grid-preserving-ct01/geometry01/metadata-only.zarr/.zgroup",
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+      "bytes": 24
+    },
+    {
+      "path": ".work/r005-grid-preserving-ct01/geometry01/metadata-only.zarr/0/.zarray",
+      "sha256": "acad9dbc41bf7c9b5b983cdfd802308691e427ebb1a1a675561df717d50332a0",
+      "bytes": 239
+    },
+    {
+      "path": ".work/r005-grid-preserving-ct01/geometry01/metadata-only.zarr/metadata.json",
+      "sha256": "7db0a497ed78165a17b681debacd40e6fadd99326aed8423b9e337007cad4b92",
+      "bytes": 8446
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/compare.py",
+      "sha256": "a496cdc6d536926079f296fd562c918bbbf40201b374b4230bb48b3673970f9b",
+      "bytes": 17855
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/compare01/result.json",
+      "sha256": "992e7869852c0c161aa118591afbb7bb189c592db2b1be8959e17c6ed7b0589c",
+      "bytes": 9259
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/compare01/sample-arrays.npz",
+      "sha256": "84eeb683027f82bb1e3057f5f4f836f46f46684a1c5a19bdc7fa643f02f660eb",
+      "bytes": 622988
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/compare01-process.json",
+      "sha256": "df43f4e5ca36024d43747434baea83d7efaec739fc984b5a2454eaf2246a669b",
+      "bytes": 748
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/compare01.log",
+      "sha256": "1a5fcb9d5b9c238d10fd605fb5d468f5dd74495b87af52abafe6295c5a62e64a",
+      "bytes": 218
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/compare02/result.json",
+      "sha256": "1f628016059be35d2fd35305a66110667333c4de58770ce148c705abe781aa85",
+      "bytes": 9535
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/compare02/sample-arrays.npz",
+      "sha256": "84eeb683027f82bb1e3057f5f4f836f46f46684a1c5a19bdc7fa643f02f660eb",
+      "bytes": 622988
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/compare02-process.json",
+      "sha256": "7e5fea74b18bd4b1b8011a6f893eff8b3635417b8204b3ecfd97bb9a4f1b3a5d",
+      "bytes": 744
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/compare02.log",
+      "sha256": "1a5fcb9d5b9c238d10fd605fb5d468f5dd74495b87af52abafe6295c5a62e64a",
+      "bytes": 218
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/coverage01/coverage.json",
+      "sha256": "bf9312ecfc7687d20855992c6ace890ad777d9bd3207ce8e81fcefb79b272d73",
+      "bytes": 2939
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/coverage01-process.json",
+      "sha256": "9e20f6b13660adb58812dccb7d012acc9d807612ddd284b0977ef49231203133",
+      "bytes": 736
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/coverage01.log",
+      "sha256": "e519532e14082a14fcee111a2d68f2085ec7fb59482d0816dc6a32e8b2b9e0f1",
+      "bytes": 77
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01/component0/geometry-process.json",
+      "sha256": "d31bc27b72e25dea27ff97a8dbc2279791d242b868f91575fc5a3111bdb84d45",
+      "bytes": 1285
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01/component0/geometry-time.txt",
+      "sha256": "4bec6eae2721299821039966d63428d178f73ff69ea0596fa58c42592e095407",
+      "bytes": 16
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01/component0/geometry.bin",
+      "sha256": "e4e7998bcebf63c4ded676665be6055634af5dfe8e0afc953e7eb7dc33aa952c",
+      "bytes": 98352
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01/component0/geometry.log",
+      "sha256": "392b69f7fed50bea81b3af589d02984c7aa63f6bbfea7827455c02cfb479d6c3",
+      "bytes": 488
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01/component0/observation-env.json",
+      "sha256": "343e3392a2c87db99309b9d943036fa874603479fd323afcf552c00c0f01f0c6",
+      "bytes": 175
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01/component2/geometry-process.json",
+      "sha256": "f7c6e2d4b31fda35bf0727cd115d8e2fde338804e524d8e4e4ff6414a2ae39dd",
+      "bytes": 1286
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01/component2/geometry-time.txt",
+      "sha256": "07da6da1217466b2e3666c0f916695e73a88d3e3cb5a3537414e21f79e801f7b",
+      "bytes": 16
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01/component2/geometry.bin",
+      "sha256": "1c0ed02eeef9a9163c4eb94343bbabf409f34a21fa11c021a5fad178926f7bbd",
+      "bytes": 98352
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01/component2/geometry.log",
+      "sha256": "bba44f320091d35e389003fefb63f0359a8f5613143e485b02c7c8c29342e855",
+      "bytes": 488
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01/component2/observation-env.json",
+      "sha256": "8d16f2db5124fefb3bb65317139960abbd3fdf5e22a9e7d1c98e65da32433995",
+      "bytes": 175
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01/result.json",
+      "sha256": "62f5d7b3287726c541a87c5d94c7a9ecf9a88ad7d223397053263de1d1864bae",
+      "bytes": 102
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01/settings.json",
+      "sha256": "454f3ceeb76e995e4638fb8fead7c636b303c12e31e346cfd960ee1e65bb8bb3",
+      "bytes": 2183
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/geometry01.log",
+      "sha256": "ebd68ba7734590a594718ab7b2a68511c87542404aa9d29d3086ef84f7219789",
+      "bytes": 53
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/plan01/plan.json",
+      "sha256": "233a8a7c7e8adbc5a828950be3f7f98e2ea309f008c3f48f2f4c9113e98062f2",
+      "bytes": 6148
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/plan01/support.npz",
+      "sha256": "9ff138ddb0491f547ec85d65e687f0e89cc697508722400391e01f0aeb51df0f",
+      "bytes": 45895
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/plan01-process.json",
+      "sha256": "1f1b13e7e3c5b895ddaeb2276f768c09ea80ea355fe2380054e5f44fb8c73c10",
+      "bytes": 692
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/plan01.log",
+      "sha256": "a513e9ab1c14e192cd5db999ba06c4bd3e5e13a26c1908cde67210ccf9acf33f",
+      "bytes": 1188
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/README.md",
+      "sha256": "095be6e5be4a823e207bab6feff895eb1df9a4b68947498b515ebd49285005af",
+      "bytes": 4172
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/record.json",
+      "sha256": "09ca8d82dc0dc06e25d143605814ff1f4035919c0c3fc77cb60393d2c0c3393c",
+      "bytes": 2159
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component0/ct-layers.f32",
+      "sha256": "935f6e329ab5b5e599fdd878316c37b872d89c92af77ff328623b65331d22bfb",
+      "bytes": 81920
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component0/geometry.bin",
+      "sha256": "e4e7998bcebf63c4ded676665be6055634af5dfe8e0afc953e7eb7dc33aa952c",
+      "bytes": 98352
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component0/observation-env.json",
+      "sha256": "aefcd4eb5c29b1a0dd9014c7872c784c4a50f8ed9ce5cb2d67ef78ef50e6f81f",
+      "bytes": 275
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component0/render-process.json",
+      "sha256": "a4b5187a8df2dd1cd9329cd770e275186b80f2342b7ae3dc1d7faa914de80306",
+      "bytes": 1249
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component0/render-time.txt",
+      "sha256": "a2181a8128a65b8d675ba3110dc62b1e05e4d69509b3452d085c9ca9ed417db2",
+      "bytes": 16
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component0/render.log",
+      "sha256": "282f9667ecc369735c5ebbf1e2c0807fb7718610868bbde300f1aeb6a3e2d604",
+      "bytes": 537
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component0/tiff/00.tif",
+      "sha256": "63afe7d38c5efc5c57011277fa2d6e8e3b80d10aed697c9557694aadd7b9bac7",
+      "bytes": 2148
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component0/tiff/01.tif",
+      "sha256": "bab2c5383576c09689ca365fa6f5c8495df1fe1446d55ac531414bc17877a316",
+      "bytes": 2158
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component0/tiff/02.tif",
+      "sha256": "7c9883e2224aff2c0cd13c511876d60d5b671adc9e2c83e34dbd4eecc2a47205",
+      "bytes": 2160
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component0/tiff/03.tif",
+      "sha256": "7dc8880501659a82277915adeb31e67a446112e41a52b48c5df70e40462c554d",
+      "bytes": 2138
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component0/tiff/04.tif",
+      "sha256": "687e8d03713039f85f4bbe324b0672fa156469dbb5d43876ec351bbedea45feb",
+      "bytes": 2136
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component2/ct-layers.f32",
+      "sha256": "9c3b30640478b917e407767a3195a2f3780d940c3cd4f02c1d68dcb5ec27c97a",
+      "bytes": 81920
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component2/geometry.bin",
+      "sha256": "1c0ed02eeef9a9163c4eb94343bbabf409f34a21fa11c021a5fad178926f7bbd",
+      "bytes": 98352
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component2/observation-env.json",
+      "sha256": "f5aee2ffbfc97b16cd1d9fe8b0a7a4471269b1b79005191e564723309526ce60",
+      "bytes": 275
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component2/render-process.json",
+      "sha256": "4cd9dd7304d2841e502156262acf143eefb075a5d85cd4287563ab9e86936020",
+      "bytes": 1248
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component2/render-time.txt",
+      "sha256": "71a8f175a81a018b1fe59bb183c334d876d14150c8bbc50581d42585bd85c108",
+      "bytes": 16
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component2/render.log",
+      "sha256": "41d4477e605ff45bebc8bd9c8e4a99f51b2bdfe5b69e5e72352f112d5fe4df82",
+      "bytes": 537
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component2/tiff/00.tif",
+      "sha256": "b85bc3238e421b7dc240f753b7948cb05ed7adf29a674b642ab377a13dcc5ac3",
+      "bytes": 2110
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component2/tiff/01.tif",
+      "sha256": "77a9862151109a2722d5831f6d7c08daaa689440810aaaf9049326eae122e939",
+      "bytes": 2060
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component2/tiff/02.tif",
+      "sha256": "de13856b5e272ffd4007db08fe254f127a0ac34e31319045aa0fe60be632d280",
+      "bytes": 1966
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component2/tiff/03.tif",
+      "sha256": "05abda7d8f6e29b53f442395a06c1ce0846da66908ddc273eee4486699425bea",
+      "bytes": 1796
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/component2/tiff/04.tif",
+      "sha256": "bfa8665e97005f37f090e218d94e1d87db581f35e791c4c6610b9d12a90f8080",
+      "bytes": 1708
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/result.json",
+      "sha256": "62f5d7b3287726c541a87c5d94c7a9ecf9a88ad7d223397053263de1d1864bae",
+      "bytes": 102
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01/settings.json",
+      "sha256": "b0f7c7701b9c221f310c4ad269c63a22be61d9160446dc1f459db45cdd35f88d",
+      "bytes": 2205
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/render01.log",
+      "sha256": "4306c8cf78d32037e6dbcd4c21fd9f3e547fad4ddbaa3890a22aa795632c15e4",
+      "bytes": 50
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-preserving-ct01/renderer.py",
+      "sha256": "f4f3a2fb679f6c0427a958823eb446f638b52d6c7a47ffd3dde89b74db118ca3",
+      "bytes": 4108
+    },
+    {
+      "path": "research/152-r005-grid-preserving-ct-boundary.md",
+      "sha256": "c819715b0d60e7e94507477c182a02a7705756121a9917a7ec5e2bf30524f3a3",
+      "bytes": 7710
+    }
+  ]
+}

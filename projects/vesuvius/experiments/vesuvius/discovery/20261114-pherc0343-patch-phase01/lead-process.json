@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0343-patch-phase01\\lead_check.py"
+  ],
+  "started_utc": "2026-11-13T16:44:16.429325+00:00",
+  "completed_utc": "2026-11-13T16:44:16.793740+00:00",
+  "elapsed_seconds": 0.3644168999744579,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 85643264,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 0.25,
+  "sys_cpu_seconds": 0.171875,
+  "exit_code": 0
+}

@@ -1,0 +1,16 @@
+{
+  "reviewer": "root",
+  "utc": "2026-11-14T10:18:31.976827+00:00",
+  "wrapper_hashes": {
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-hecate-pilot01\\preflight.py": "fa2865b2f74d2213c738897c0e082ec025bd3c53e4c17cb0719d43de03496610",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-hecate-pilot01\\run_cpu.py": "d20b2ef2496c0c91a833bcaf04ab75a91685c5807498e08530dbaf03bdb218d0",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-hecate-pilot01\\supervise.py": "042ef8323034ddf1182e24ba27b6e03c97f5d9c2d4c89c616eaa685cdda95d93",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-hecate-pilot01\\prepare.py": "97d1c7b76c607621d39426a77a583265494da942597777bbd1c85504c0d3721a",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-hecate-pilot01\\native_run.py": "192eb0b7ddcd32b2a4e383df10d435e7cbc9448c9be460fcc898b21600a915cb"
+  },
+  "independent_patch_inputs_checked": 242,
+  "raster_matches_input_npy": true,
+  "model_forward_calls": 0,
+  "new_download_bytes": 0,
+  "cpu_launch_review": "One model load, same 16 planes in both orders, 242 total; first-three forecast includes remaining 239, shared 4500-second deadline and RAM guards."
+}

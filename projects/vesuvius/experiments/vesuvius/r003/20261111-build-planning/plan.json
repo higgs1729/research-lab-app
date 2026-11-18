@@ -1,0 +1,21 @@
+{
+  "research_id": "R003",
+  "heartbeat_slot": 996885,
+  "question": "現行flatboiで小さい公開面の重なりを再現し、初期UVの単位修正を既存処理の差分として検証できるか",
+  "status": "local_baseline_pilot",
+  "source_commit": "7ad02f4f6e306b744ef6d2742dfe31fd55713ee5",
+  "upstream_issue": "https://github.com/ScrollPrize/villa/issues/2500",
+  "attribution": "初期UVにstrideを掛ける仮説と既存18+20件の実験はissue作者alpaltianの成果。今回の独自発見ではない。",
+  "pilot_input": "PHerc0814/segments/20250929040153-auto_grown_20250929040153260/mesh/intermediate/tifxyz_original/",
+  "pilot_input_bytes_listed": 1110638,
+  "baseline_parameters": {"keep_percent": 1.5, "iterations": 50, "energy": "symmetric_dirichlet"},
+  "build": {"apps": false, "cuda": false, "python_bindings": false, "flatboi": true, "slim_tests": true, "object_store_server": false, "compile_jobs": 1, "build_type": "QuickBuild", "optimization": 0},
+  "workspace": "D:/kensyoukin-work/r003-villa",
+  "build_directory": "D:/kensyoukin-work/r003-build",
+  "dependencies": "Official install_build_deps.sh minimal-build in existing WSL. Simulation: 364 planned package operations, 325694880 downloaded bytes, 1564730368 bytes full installed-size sum including upgrades. Actual package list may change on apt update.",
+  "resource_review": {"paid_compute_usd": 0, "initial_build_review_minutes": 30, "windows_c_dependency_budget_bytes": 3221225472, "windows_d_work_budget_bytes": 10737418240, "network_initial_review_bytes": 2147483648},
+  "next_checks": ["Current upstream flatboi baseline on the named public surface", "Exact input, flags, executable and result hashes", "Only then propose a code difference and compare output coverage and stretch"],
+  "stop_conditions": ["同じ修正の既存PRが判明", "ローカル資源の見直し枠を超える", "公開依存の取得が認証やアクセス拒否で止まる", "初期UV修正だけでは実データ改善を説明できず必要な追加情報が得られない"],
+  "submission": "Private research only at this stage. No PR, message or prize entry is authorized by this plan. Upstream requires real-data evidence and human-authored commentary for AI-assisted PRs; do not claim a human performed the autonomous run.",
+  "authorization": "The user authorized autonomous technical work and low-spend research. Routine local setup is within that scope; per-experiment paid compute approval remains required."
+}

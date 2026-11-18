@@ -1,0 +1,14 @@
+{
+  "binary": "/mnt/c/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/renderer",
+  "binary_sha256": "71fb6e31962727a866a50046c852bd2a3141a7f161f280d127731d106695f063",
+  "renderer_object_sha256": "31db3bf97bba4a7ff7551759d772fcd6093c9921d989ae7ce03eb73db5cf673c",
+  "dependency_sha256": "c831993c9b10eec9423f4ba56429f1e94f1d0c9961713e76575903ad4a924adf",
+  "linked_symbols": [
+    "000000000064f46e T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::CreateOptions const&, vcr::zarr::PyramidOptions const&)",
+    "000000000064f81d T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::CreateOptions const&, vcr::zarr::PyramidOptions const&, bool)",
+    "00000000006503e8 T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::PyramidOptions const&, bool)"
+  ],
+  "elapsed_seconds": 113.286117262,
+  "max_child_rss_bytes": 1585221632,
+  "C_work_bytes": 16594203
+}

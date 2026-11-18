@@ -1,0 +1,28 @@
+{
+  "runs": {
+    "default": {
+      "center_xyz": [
+        32.0,
+        32.0,
+        41.0348
+      ],
+      "center_offset_voxel": 9.034799999999997,
+      "unchanged_xy_vertices": 25,
+      "moving_vertices": 25,
+      "output_sha256": "560baa5b13db2f597ad743332705697cf6c13d20b349bcf8b0a6f434c52b894e"
+    },
+    "centered": {
+      "center_xyz": [
+        32.0,
+        32.0,
+        38.0348
+      ],
+      "center_offset_voxel": 6.034799999999997,
+      "unchanged_xy_vertices": 25,
+      "moving_vertices": 25,
+      "output_sha256": "f004489571f4311cc11a73c0281e1daf5a26b3879d02e343248238470782b779"
+    }
+  },
+  "normal": "explicit +Z for all 25 vertices",
+  "precision": "OBJ writer uses default six significant digits; compare with TIFF float32 tolerance"
+}

@@ -1,0 +1,220 @@
+{
+  "generated_utc": "2026-11-14T05:56:40.078487+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/acquire.py",
+      "bytes": 4797,
+      "sha256": "728dc72c7a753762fdcdd1c4e10aa96be598914f5d0f499fc01d91dc4abf4300"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/acquisition.json",
+      "bytes": 21354,
+      "sha256": "4b41bb60734c88ce6b4678adb95c3b67fb75d35dc8b6aa203c8471ecdc60a7ea"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/gh-metadata-http.jsonl",
+      "bytes": 1516,
+      "sha256": "b662864bd6ce5f59bd3286bf82b5a71a5b0620eccae6be73d4f274b8460fac15"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/github-docs-verified.json",
+      "bytes": 5304,
+      "sha256": "82b3eb13ba95500ae125d8455fdb357753580683a3ce81ba6cd98555c3e7489b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/github-docs.json",
+      "bytes": 4474,
+      "sha256": "c1c3dd12e5e01758a3548acd6d7fb6e1b0367d0edcafb5a1f63c757b1d1684f0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/hf-metadata-http.jsonl",
+      "bytes": 2120,
+      "sha256": "d6e4e420a1b9911593329f9d441f7f3add0ff4dbbf028a2ac7495d4f41c876b3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/lead-source-check.json",
+      "bytes": 1724,
+      "sha256": "05feeff7f12264917d5af3d8379d6f3fc971ceae9fcc28e0313fc8d769ae81fe"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/lead-visual.json",
+      "bytes": 1523,
+      "sha256": "183be8cfa6539e9377c72acd3fb65cd017101a45903608bbf4720130062ef7e8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/model_pairs_PHerc0846B_3962_4983_7051.json",
+      "bytes": 332,
+      "sha256": "97211145517749e61718b35333745f0f042bcbf9faf5af0b4311ebd522b46894"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/next-plan.json",
+      "bytes": 3431,
+      "sha256": "16f0867a80884a4be24b8bf06f3d5fea0c431351b1a566035faaf6cf80b564e2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/official-http.jsonl",
+      "bytes": 2707,
+      "sha256": "fa1905d516752a9bb5c4d371274dcd6bf28718618507009ec287058ca56aa4c1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/official-PHerc0813.html",
+      "bytes": 23287,
+      "sha256": "708f4a740174218e7d58bb1372d9243618c8f0218f392a5442b250a57b1bcd13"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/official-PHerc0846B.html",
+      "bytes": 22850,
+      "sha256": "2b20636f606f0a23752be699253054271dbb24f4c2f81fc59a9a16ab124f7bc6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/official-PHerc1545.html",
+      "bytes": 23292,
+      "sha256": "206e484f3f3f11ded852723528d84733f5614866255db7f63c0fe7ae44663191"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/official-prizes.html",
+      "bytes": 55054,
+      "sha256": "2de92acf96ae2e39b774c1f14e35a4f8b5d6fa29e979b4aa5c58b0ab9963aedd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/official-winners.html",
+      "bytes": 180088,
+      "sha256": "dcd810efd1912ebb268d4892adc4dfca7efe16d8d7d1c972ae2e6dae6d1ab5bb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/PHerc0813_4654_5413_8615.jpg",
+      "bytes": 325072,
+      "sha256": "211a376f571b00084cdbbd0a23c88a1f8abf27afae5c72ffe886b1e52f1d4661"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/PHerc0846B_3962_4983_7051.jpg",
+      "bytes": 336110,
+      "sha256": "78014787e62d997ee41fdaf4fbcb3f2238fb00cf6a7d67bcd6c64c4f2a4b6f51"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/PHerc1545_3051_3484_14673.jpg",
+      "bytes": 355185,
+      "sha256": "0248d15a4c36bdf3a776d4392c8dae7c49cf664ee1f420aa7e6aa6c5cf51f541"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/pscamillo-gh-head.json",
+      "bytes": 366,
+      "sha256": "e5bdbfcd23d1f2559c516c496ae5105e2b5645cd9ab1fe8c9ca0be315e639780"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/pscamillo-gh-mesh-directory.json",
+      "bytes": 4731,
+      "sha256": "6c53f05d8f046d7d919c5802fd0be214ceed99550cb97f14e68b2ca6d4eab9f2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/pscamillo-hf-PHerc0813-tree.json",
+      "bytes": 46421,
+      "sha256": "ec5efc8b3a988b50f9b2d87b8eae8f68de003494b28df45d0697939cb8a0ea21"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/pscamillo-hf-readme.md",
+      "bytes": 1940,
+      "sha256": "c389495f820975ddacef405ec81704501662609f1424c57b4cdab09eb0f43cfb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/pscamillo-hf-repo.json",
+      "bytes": 31808,
+      "sha256": "787bc866a1e11f95fedebbbf6ff64b033da8acb7108453cad6aa51a1de19db67"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/pscamillo-mesh-index.csv",
+      "bytes": 29838,
+      "sha256": "242d7e1a61033da45f0c3fa3e4367a4ab1905c8f301c680fd1a127d04abb188f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/pscamillo-mesh-method.md",
+      "bytes": 3380,
+      "sha256": "ee7266547f74f4efde57f1e2696b9f005045403b04738ee49627b74710e808f8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/pscamillo-mesh-repo-readme.md",
+      "bytes": 6774,
+      "sha256": "41c501cc4947411df0563958c38c8cea59172337231dcf2729cefb08916ce93f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/originals/pscamillo-PHerc0813-z12496_w100-meta.json",
+      "bytes": 4219,
+      "sha256": "203f60c2e333a21f0504f88c41fc82a5e8304068454c9ad7c337d0b0164a689b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/PHerc0813_4654_5413_8615-meta.json",
+      "bytes": 1195,
+      "sha256": "6009ef32888cc76c093ce990e41b47527bc64ca17f585bb33c0e47aafec17e66"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/PHerc0813_4654_5413_8615.json",
+      "bytes": 378,
+      "sha256": "bb6c05b1f8bf2b79a1d1726038132495ab513c4c8f51e4ae972206db3c167a1c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/PHerc0846B_3962_4983_7051-meta.json",
+      "bytes": 1204,
+      "sha256": "bb4c4b9bf7f94b73a01812f6e999e6ec76c8a01f035fabafb964cd2e50bc8740"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/PHerc0846B_3962_4983_7051.json",
+      "bytes": 380,
+      "sha256": "1640ba964785aa02b37abd8e413c2d97e2b4536ff5dcb1e6ce4042c57be0390a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/PHerc1545_3051_3484_14673-meta.json",
+      "bytes": 1188,
+      "sha256": "758b3a6b5b9443ae6cce405097522846005383895f2ddaffbf2b12ff5d6dee4e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/PHerc1545_3051_3484_14673.json",
+      "bytes": 378,
+      "sha256": "d803829cc065dabea1eacfd05d81038f2c440a8dff9eae6de6fa1e8061e06455"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/preview-http.jsonl",
+      "bytes": 3686,
+      "sha256": "8ad41207a89e82e03897eecb2e5dd048deb1a82e447705a9e68dcfa17779e65a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/preview-plan.json",
+      "bytes": 1230,
+      "sha256": "87637a77dcf9a17fb80ce9f3f701099de06ed31f75489d48ade3f424b46b7389"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/pscamillo-github-docs.json",
+      "bytes": 1685,
+      "sha256": "e2e36bfdd731de3c032fb5cb3ede52591065381f20e7531f1c029747221522d9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/README.md",
+      "bytes": 10716,
+      "sha256": "2b19e4cf0f2e90270b4451e01e13522c91aef648bf126f74b8addd385c5d115c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/record.json",
+      "bytes": 1401,
+      "sha256": "5349333ad2f9e21af5464a347603ab9e191d97b438b697dfdd603ad18931c6ba"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/survey-analysis.md",
+      "bytes": 1695,
+      "sha256": "68a80e69d4f543a8a098d796a0fca2773661f07177cae5b0486afaecd7b70571"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/survey-entry.py",
+      "bytes": 4255,
+      "sha256": "0a2abd537da687b0d40b5c181dc7fe3b8a7365545f2722be45707b12bcaa92ea"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-unread-lead-reselection01/survey.csv",
+      "bytes": 42455,
+      "sha256": "a813ba648df851ebb89a722858702caae1ab3bc87bcedd8d4ee86b50543bdc37"
+    },
+    {
+      "path": "research/186-unread-lead-reselection.md",
+      "bytes": 6186,
+      "sha256": "39e131a9e1a8642d8131cb4efbe51e4b59939530fa97d38d2be0e8e0d9eafe49"
+    }
+  ]
+}

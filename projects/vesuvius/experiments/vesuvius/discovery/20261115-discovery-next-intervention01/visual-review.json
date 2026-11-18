@@ -1,0 +1,19 @@
+{
+  "reviewer": "r224_discovery_selection, gpt-6-astra/xhigh",
+  "date_jst": "2026-11-15",
+  "kind": "selection review; not blinded to known text",
+  "viewed": ["R222 comparison-native.png", "R222 comparison-atlas-256.png", "R223 native-quadrant-00.png", "R224 claim/TRACE overviews", "R224 claim/TRACE known-left, known-centre, known-right, above-centre, below-centre native crops", "R224 claim/TRACE upper-lead native crops", "Oct23 papyrologist reading", "Oct16 fuller tentative tracing", "Oct23 tracing"],
+  "observations": [
+    "R222 reproduces a broad enclosing curve/cavity and neighbouring bright structure, but thin terminals and nearby divisions remain merged. This supports partial known-shape sensitivity, not unfamiliar-scroll accuracy.",
+    "The R223 quadrant shows broad diagonal response and isolated blobs. This single reread does not replace the R223 team's whole-window judgement or create a new negative label.",
+    "The R224 known middle shows an enclosed dark loop/cavity on the right of a vertical/horizontal neighbouring pattern. Across the full overview these are situated among a longer row. Known left has distinct upper groups and a lower horizontal/upright grouping; known right is thicker and partly merged.",
+    "The R224 above-centre and below-centre samples do not supply a reliable new row; mostly faint patches and short bars. These five samples are not a complete native survey of the full public page.",
+    "In upper-lead native crop, local x approximately 350..1020 and y 240..480 contains a bent upright/curve at the left and several short dark segments and junction-like blobs to its right. A relatively pale band lies below. It is more structured than one isolated dot, but no character identity or text row is established.",
+    "The upper group exists in both TRACE and claim product, but the product includes TRACE; this is not independent evidence. It was selected after viewing the overview, and is already public.",
+    "The published Oct23 tracing includes shapes below the principal two-line claim area. Box exterior is therefore not a novelty test. Its white strokes do not intersect the selected upper rectangle, which lies above the first white traced stroke. Other earlier/private submissions remain unaudited."
+  ],
+  "decision": "Select the upper published response for one same-surface known-control comparison with the separate public Reader V3 map. Do not count the already-seen TRACE shape as new corroboration.",
+  "confirmed_new_characters": 0,
+  "claimed_transcription": null,
+  "independence_note": "Parent froze its core known/upper image judgements before receiving this written verdict. This file is the final compiled log, not a claim that all image review was blinded."
+}

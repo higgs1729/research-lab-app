@@ -1,0 +1,11 @@
+{
+  "checked_utc": "2026-11-15T06:53:32.378582+00:00",
+  "native_main_values_each": 301056,
+  "native_raw_CT_stretch_winner_exact": true,
+  "winner_source_orientation_from_sidecar": true,
+  "atlas_bilinear_values_each": 65536,
+  "atlas_raw_and_stretch_exact": true,
+  "montage_panels_original_pixel_identity": 11,
+  "new_model_calls": 0,
+  "scope": "Display correspondence, not accuracy or unknown-letter evidence."
+}

@@ -1,0 +1,39 @@
+{
+  "utc": "2026-11-15T13:35:15.810249+00:00",
+  "helper_archive": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-adjacent-context01\\sources\\v6-line2-mesh.zip",
+  "helper_sha256": "4daee96fbe901612f0c4d124d74718ac4c95fbf9e4f9f9fe697c990d84f3657c",
+  "renderer_source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\lead-renderer-oci\\vc_render_tifxyz.cpp",
+  "renderer_source_sha256": "171f7c09d07995befc4be54a8527d9aca3e1667fbaad89607244aa609d4bcccd",
+  "helper_tif_only_no_zarr": true,
+  "source_references": [
+    {
+      "text": "const bool wantZarr = parsed.count(\"zarr-output\") > 0;",
+      "lines": [
+        1135
+      ]
+    },
+    {
+      "text": "// Band-based: TIF-only path",
+      "lines": [
+        1662
+      ]
+    },
+    {
+      "text": "uint32_t bandH = 128;",
+      "lines": [
+        1663
+      ]
+    },
+    {
+      "text": "genTile(surf, cv::Size(tgtSize.width, int(dy)), renderScale, u0, v0, bandPts, bandNrm);",
+      "lines": [
+        495,
+        614
+      ]
+    }
+  ],
+  "manual_read_review": "Read original ZIP helper render command, wantZarr flag definition, both render paths, renderBands loop and genTile. TIF-only uses full target width with 128-row bands; it does not reset the horizontal coordinate origin for each 128-column tile. R236 local port explicitly does reset it. This is a confirmed execution-path difference; the degree of resulting input error is for the subsequent fixed experiment.",
+  "original_render_host_architecture_confirmed": false,
+  "model_forwards": 0,
+  "new_CT_bytes": 0
+}

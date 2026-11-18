@@ -1,0 +1,69 @@
+{
+  "utc": "2026-11-15T06:06:54.950493+00:00",
+  "pids_absent": [
+    11420,
+    51208
+  ],
+  "status": {
+    "at": "2026-11-15 15:06:54",
+    "gpu": {
+      "util": 8.0,
+      "used_gb": 1.2,
+      "total_gb": 8.0
+    },
+    "mem": {
+      "avail_gb": 11.6,
+      "total_gb": 31.6,
+      "commit_left_gb": 65.1
+    },
+    "margin": {
+      "vram_gb": 1.0,
+      "mem_gb": 4.0
+    },
+    "reservation": null,
+    "jobs": [],
+    "tickets": [],
+    "comfy": {
+      "pids": [],
+      "mode": null,
+      "queue": null,
+      "hold_left": 0,
+      "idle_watch": false,
+      "unused_sec": null,
+      "idle_stop_sec": 600.0
+    },
+    "others": [
+      {
+        "name": "dwm.exe",
+        "pid": 2420,
+        "mem_gb": 0.33,
+        "vram_gb": 0.59,
+        "gpu_util": 0.4,
+        "cpu": 0.0
+      },
+      {
+        "name": "run.exe",
+        "pid": 30520,
+        "mem_gb": 2.14,
+        "vram_gb": 0.0,
+        "gpu_util": 0.0,
+        "cpu": 0.0
+      },
+      {
+        "name": "claude.exe",
+        "pid": 40096,
+        "mem_gb": 1.13,
+        "vram_gb": 0.0,
+        "gpu_util": 0.0,
+        "cpu": 0.0
+      }
+    ],
+    "gpu_stuck": null,
+    "cloud": null,
+    "holder": null,
+    "comfy_pids": [],
+    "comfy_queue": null,
+    "comfy_hold_left": 0
+  },
+  "mutations": 0
+}

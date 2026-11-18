@@ -1,0 +1,365 @@
+{
+  "survey_revision": "1f12c1ceb14c1f24acc48249eaad60bcdf541721",
+  "atlas_revision": "ac5ffd7098120368216948c4e06c494bf8e67178",
+  "byte_and_git_blob_checks": 9,
+  "card_dimension_checks": 3,
+  "native_pixels_to_source_xyz_verified": false,
+  "candidates": {
+    "p191_a": {
+      "published_card": {
+        "path": "originals/p191_a.jpg",
+        "size_xy": [
+          1773,
+          786
+        ],
+        "mode": "RGB"
+      },
+      "survey_row": {
+        "tag": "p191_a",
+        "role": "first_letters_eligible",
+        "sample": "survey",
+        "scroll": "PHerc0191",
+        "seed_x": "2301",
+        "seed_y": "3300",
+        "seed_z": "9499",
+        "voxel_um": "9.362",
+        "trace_sheet_good_fraction": "0.61",
+        "trace_median_cross": "",
+        "traced_ok": "True",
+        "inked": "True",
+        "sheet_good_fraction": "0.61",
+        "face": "forward",
+        "agree_top3": "0.184",
+        "agree_top3_other_face": "0.1239",
+        "face_contrast_ratio": "1.019",
+        "chain": "1.273",
+        "chain_other_face": "1.059",
+        "face_consistency": "0.375",
+        "consistent_face": "forward",
+        "tiles": "8",
+        "strong_tiles": "4",
+        "strong_tiles_other_face": "1",
+        "consistent_side": "outer",
+        "forward_inward_score": "-0.743",
+        "curvature": "0.085",
+        "ink_on_dark": "0.175",
+        "ink_ct_z": "-0.293",
+        "face_asymmetry": "1.485"
+      },
+      "separate_atlas_surface_survey_row": {
+        "tag": "PHerc0191_2707_2976_13281",
+        "role": "first_letters_eligible",
+        "sample": "survey",
+        "scroll": "PHerc0191",
+        "seed_x": "2707",
+        "seed_y": "2976",
+        "seed_z": "13281",
+        "voxel_um": "9.362",
+        "trace_sheet_good_fraction": "0.033",
+        "trace_median_cross": "0.1255",
+        "traced_ok": "False",
+        "inked": "False",
+        "sheet_good_fraction": "",
+        "face": "",
+        "agree_top3": "",
+        "agree_top3_other_face": "",
+        "face_contrast_ratio": "",
+        "chain": "",
+        "chain_other_face": "",
+        "face_consistency": "",
+        "consistent_face": "",
+        "tiles": "",
+        "strong_tiles": "",
+        "strong_tiles_other_face": "",
+        "consistent_side": "",
+        "forward_inward_score": "",
+        "curvature": "",
+        "ink_on_dark": "",
+        "ink_ct_z": "",
+        "face_asymmetry": ""
+      },
+      "same_scroll_atlas_release_ids": [
+        "kbh-PHerc0191_2707_2976_13281"
+      ],
+      "same_fixed_surface_in_released_atlas": false,
+      "mesh_seed_xyz_voxels": [
+        2301.0,
+        3300.0,
+        9499.0
+      ],
+      "mesh_source_surface_volume": "20250821151635-surface-20260413222639-surface-m7-L0-th0.2.zarr",
+      "matched_prize_reconstruction": "20250821151635",
+      "mesh_bbox_xyz_voxels": [
+        [
+          1774.895263671875,
+          2269.144287109375,
+          8437.765625
+        ],
+        [
+          3283.099365234375,
+          4434.88818359375,
+          10576.1357421875
+        ]
+      ],
+      "mesh_grid_scale": [
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "public_xyz_files_listed": [
+        {
+          "path": "results/meshes/p191_a/x.tif",
+          "bytes": 56329,
+          "git_blob_sha1": "297125f322a0fee4037845f632134a5d22a585b2"
+        },
+        {
+          "path": "results/meshes/p191_a/y.tif",
+          "bytes": 56329,
+          "git_blob_sha1": "8d9193ef38713f8fc01459de406a63ce2dfe1d18"
+        },
+        {
+          "path": "results/meshes/p191_a/z.tif",
+          "bytes": 56329,
+          "git_blob_sha1": "b1745d99ca43370a171404d816fba16864cce709"
+        }
+      ]
+    },
+    "PHerc0257_3549_4692_13210": {
+      "published_card": {
+        "path": "originals/PHerc0257_3549_4692_13210.jpg",
+        "size_xy": [
+          1773,
+          786
+        ],
+        "mode": "RGB"
+      },
+      "survey_row": {
+        "tag": "PHerc0257_3549_4692_13210",
+        "role": "first_letters_eligible",
+        "sample": "survey",
+        "scroll": "PHerc0257",
+        "seed_x": "3549",
+        "seed_y": "4692",
+        "seed_z": "13210",
+        "voxel_um": "9.362",
+        "trace_sheet_good_fraction": "0.625",
+        "trace_median_cross": "0.3473",
+        "traced_ok": "True",
+        "inked": "True",
+        "sheet_good_fraction": "0.653",
+        "face": "forward",
+        "agree_top3": "0.0967",
+        "agree_top3_other_face": "0.0601",
+        "face_contrast_ratio": "1.112",
+        "chain": "1.962",
+        "chain_other_face": "1.398",
+        "face_consistency": "0.429",
+        "consistent_face": "forward",
+        "tiles": "14",
+        "strong_tiles": "6",
+        "strong_tiles_other_face": "0",
+        "consistent_side": "inner",
+        "forward_inward_score": "0.805",
+        "curvature": "0.09",
+        "ink_on_dark": "0.139",
+        "ink_ct_z": "-0.121",
+        "face_asymmetry": "1.609"
+      },
+      "separate_atlas_surface_survey_row": {
+        "tag": "PHerc0257_3904_6108_9436",
+        "role": "first_letters_eligible",
+        "sample": "survey",
+        "scroll": "PHerc0257",
+        "seed_x": "3904",
+        "seed_y": "6108",
+        "seed_z": "9436",
+        "voxel_um": "9.362",
+        "trace_sheet_good_fraction": "0.0",
+        "trace_median_cross": "0.1144",
+        "traced_ok": "False",
+        "inked": "False",
+        "sheet_good_fraction": "",
+        "face": "",
+        "agree_top3": "",
+        "agree_top3_other_face": "",
+        "face_contrast_ratio": "",
+        "chain": "",
+        "chain_other_face": "",
+        "face_consistency": "",
+        "consistent_face": "",
+        "tiles": "",
+        "strong_tiles": "",
+        "strong_tiles_other_face": "",
+        "consistent_side": "",
+        "forward_inward_score": "",
+        "curvature": "",
+        "ink_on_dark": "",
+        "ink_ct_z": "",
+        "face_asymmetry": ""
+      },
+      "same_scroll_atlas_release_ids": [
+        "kbh-PHerc0257_3904_6108_9436"
+      ],
+      "same_fixed_surface_in_released_atlas": false,
+      "mesh_seed_xyz_voxels": [
+        3549.0,
+        4692.0,
+        13210.0
+      ],
+      "mesh_source_surface_volume": "20250821151750-surface-20260413222639-surface-m7-L0-th0.2.zarr",
+      "matched_prize_reconstruction": "20250821151750",
+      "mesh_bbox_xyz_voxels": [
+        [
+          2786.325927734375,
+          3487.583740234375,
+          11964.94140625
+        ],
+        [
+          4443.57666015625,
+          5781.138671875,
+          14518.052734375
+        ]
+      ],
+      "mesh_grid_scale": [
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "public_xyz_files_listed": [
+        {
+          "path": "results/meshes/PHerc0257_3549_4692_13210/x.tif",
+          "bytes": 56329,
+          "git_blob_sha1": "0d4abd5e053d5f54f5b3d2719814a3eb49c1840e"
+        },
+        {
+          "path": "results/meshes/PHerc0257_3549_4692_13210/y.tif",
+          "bytes": 56329,
+          "git_blob_sha1": "a29c0d87da5a86b590d6b902f00656dc38a95e7f"
+        },
+        {
+          "path": "results/meshes/PHerc0257_3549_4692_13210/z.tif",
+          "bytes": 56329,
+          "git_blob_sha1": "2d4459794df33ece558f2c62051260beecb087c0"
+        }
+      ]
+    },
+    "PHerc0268_9054_2867_6674": {
+      "published_card": {
+        "path": "originals/PHerc0268_9054_2867_6674.jpg",
+        "size_xy": [
+          1773,
+          786
+        ],
+        "mode": "RGB"
+      },
+      "survey_row": {
+        "tag": "PHerc0268_9054_2867_6674",
+        "role": "first_letters_eligible",
+        "sample": "survey",
+        "scroll": "PHerc0268",
+        "seed_x": "9054",
+        "seed_y": "2867",
+        "seed_z": "6674",
+        "voxel_um": "8.64",
+        "trace_sheet_good_fraction": "0.452",
+        "trace_median_cross": "0.2716",
+        "traced_ok": "True",
+        "inked": "True",
+        "sheet_good_fraction": "0.506",
+        "face": "reverse",
+        "agree_top3": "0.2157",
+        "agree_top3_other_face": "0.1595",
+        "face_contrast_ratio": "1.035",
+        "chain": "1.6",
+        "chain_other_face": "0.783",
+        "face_consistency": "0.083",
+        "consistent_face": "reverse",
+        "tiles": "12",
+        "strong_tiles": "2",
+        "strong_tiles_other_face": "1",
+        "consistent_side": "inner",
+        "forward_inward_score": "-0.756",
+        "curvature": "0.133",
+        "ink_on_dark": "0.116",
+        "ink_ct_z": "-0.139",
+        "face_asymmetry": "1.352"
+      },
+      "separate_atlas_surface_survey_row": {
+        "tag": "PHerc0268_2704_5907_7421",
+        "role": "first_letters_eligible",
+        "sample": "survey",
+        "scroll": "PHerc0268",
+        "seed_x": "2704",
+        "seed_y": "5907",
+        "seed_z": "7421",
+        "voxel_um": "8.64",
+        "trace_sheet_good_fraction": "0.0",
+        "trace_median_cross": "0.0539",
+        "traced_ok": "False",
+        "inked": "False",
+        "sheet_good_fraction": "",
+        "face": "",
+        "agree_top3": "",
+        "agree_top3_other_face": "",
+        "face_contrast_ratio": "",
+        "chain": "",
+        "chain_other_face": "",
+        "face_consistency": "",
+        "consistent_face": "",
+        "tiles": "",
+        "strong_tiles": "",
+        "strong_tiles_other_face": "",
+        "consistent_side": "",
+        "forward_inward_score": "",
+        "curvature": "",
+        "ink_on_dark": "",
+        "ink_ct_z": "",
+        "face_asymmetry": ""
+      },
+      "same_scroll_atlas_release_ids": [
+        "kbh-PHerc0268_2704_5907_7421",
+        "kbh-PHerc0268_4451_4514_10379",
+        "kbh-PHerc0268_6113_8698_7414"
+      ],
+      "same_fixed_surface_in_released_atlas": false,
+      "mesh_seed_xyz_voxels": [
+        9054.0,
+        2867.0,
+        6674.0
+      ],
+      "mesh_source_surface_volume": "20251110183117-surface-20260413222639-surface-m7-L0-th0.2.zarr",
+      "matched_prize_reconstruction": "20251110183117",
+      "mesh_bbox_xyz_voxels": [
+        [
+          7718.00732421875,
+          2324.480224609375,
+          5559.8134765625
+        ],
+        [
+          9936.81640625,
+          3844.405029296875,
+          7886.48193359375
+        ]
+      ],
+      "mesh_grid_scale": [
+        0.05000000074505806,
+        0.05000000074505806
+      ],
+      "public_xyz_files_listed": [
+        {
+          "path": "results/meshes/PHerc0268_9054_2867_6674/x.tif",
+          "bytes": 56329,
+          "git_blob_sha1": "a882c44cbe1a642a69baadbfcccb9872e82b07ac"
+        },
+        {
+          "path": "results/meshes/PHerc0268_9054_2867_6674/y.tif",
+          "bytes": 56329,
+          "git_blob_sha1": "c91a8c096f828642cbf18a6f4690a08f6cd0f1c6"
+        },
+        {
+          "path": "results/meshes/PHerc0268_9054_2867_6674/z.tif",
+          "bytes": 56329,
+          "git_blob_sha1": "8fe5159193852e0c1cb134c0fb4ffa2c133e90fc"
+        }
+      ]
+    }
+  }
+}

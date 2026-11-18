@@ -1,0 +1,83 @@
+{
+  "research": 242,
+  "CPU_cores": 1,
+  "hard_process_commit_bytes": 4294967296,
+  "C_free_floor_bytes": 2147483648,
+  "final_total_write_cap_bytes": 402653184,
+  "validated_peak_bound_bytes": 373886281,
+  "new_CT_keys": 62,
+  "new_CT_bytes": 130023424,
+  "reused_CT_keys": 46,
+  "new_CPU_model_forwards": 0,
+  "GPU_forwards": 228,
+  "total_create_POSTs": 3,
+  "created_Pods": 1,
+  "automatic_recreations": 0,
+  "no_launch_variants": [
+    "A40 availability NONE",
+    "RTX4000 Ada availability NONE"
+  ],
+  "rejected_noID_attempts": [
+    {
+      "name": "r242-studio-44d40eb0d37f49af",
+      "response_status": 400,
+      "reason": "unavailable original body; unknown",
+      "evidence": "cloud-run/startup.jsonl",
+      "partial_record": "record-be8579e1eb5e"
+    },
+    {
+      "name": "r242-studio-d04a5eb19cdf24ac",
+      "response_status": 400,
+      "reason": "Service reports no available instance with requested specifications; specific constraint not isolated",
+      "evidence": "cloud-run-create-diagnostic/startup.jsonl",
+      "partial_record": "record-526f22584cbd"
+    }
+  ],
+  "successful_Pod": {
+    "id": "3spuikvh641nms",
+    "name": "r242-studio-3883a61468d540c4",
+    "GPU": "NVIDIA H100 80GB HBM3",
+    "data_center": "AP-IN-1",
+    "actual_precreate_utc": "2026-11-15T16:40:49Z",
+    "actual_deadline_utc": "2026-11-15T17:10:49Z",
+    "absence_confirmed_utc": "2026-11-15T16:49:54.924Z",
+    "elapsed_to_absence_seconds": 545.9241285324097,
+    "GET404_name0_allPods0": true,
+    "helper_absent": true,
+    "unused_reservation_absent": true,
+    "result_archive_bytes": 12842731
+  },
+  "dollars": {
+    "currency": "USD",
+    "communicated_estimate": [
+      0.4,
+      0.9
+    ],
+    "operating_ceiling": 2.25,
+    "provider_hard_cap": false,
+    "rate_ceiling": 4.4,
+    "observed_hourly": 4.39,
+    "elapsed_compute_estimate": 0.6657241456270218,
+    "elapsed_disk_estimate": 0.0004215747436999608,
+    "elapsed_compute_plus_disk_estimate": 0.6661457203707217,
+    "disk_estimate_basis": "Final cloud-plan30minute20GB disk allowance, proportionally scaled to precreate-to-absence duration; not billed cost.",
+    "actual_dedicated_cost": null,
+    "dedicated_detail_status": "pending records[] at saved read; zero totals are not a zero-cost conclusion",
+    "billing_receipts": [
+      "h100-resource-check.json",
+      "lead-h100-resource-check.json"
+    ],
+    "account_balance_difference_used": false
+  },
+  "evidence": [
+    "cloud-run-h100-process.json",
+    "cloud-run-h100/launch-receipt.json",
+    "cloud-run-h100/cleanup.json",
+    "cloud-run-h100/capture.json",
+    "local-rejection-cleanup.json",
+    "local-create-diagnostic-cleanup.json",
+    "lead-post-rejection-resource-check.json",
+    "lead-post-diagnostic-resource-check.json"
+  ],
+  "science_loop_seconds": 19.13946398580447
+}

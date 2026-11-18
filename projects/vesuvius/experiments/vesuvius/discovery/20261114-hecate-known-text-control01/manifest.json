@@ -1,0 +1,196 @@
+{
+  "generated_utc": "2026-11-14T06:47:25.777798+00:00",
+  "workspace_bytes_before_manifest": 529027768,
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/acquire.py",
+      "bytes": 4047,
+      "sha256": "f804a0ac1cb8cbe49508f9e52ebda41bdb9ff2892f7f1ddc88cef92fbb38e918"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/acquisition-atlas-hecate-reverse.png.json",
+      "bytes": 814,
+      "sha256": "8b43051154f3ab98e275ecb7752967b11fb47c892366f018cfa8421d86e2614a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/acquisition-hecate_9.6um.pth.json",
+      "bytes": 724,
+      "sha256": "3c07b2beb551e30f681ecb153c65b07639a8328dd2ec0de1a35f979b55887e02"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/acquisition-plan.json",
+      "bytes": 854,
+      "sha256": "73c731f4a747dd12d58d9f1e5f4b3064fedfc740ed8bcda12fd99462a3065e62"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/acquisition.json",
+      "bytes": 1841,
+      "sha256": "7561dc03c4ba9537a64812d257d84855a63ea33cf42dd29d5c13436c43fb6a7b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/assets/atlas-hecate-reverse.png",
+      "bytes": 2114372,
+      "sha256": "67795f34e27c0b7b974e8d84780df8ecdf14cff5dd7893bc3891f7dc7d678427"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/assets/hecate_9.6um.pth",
+      "bytes": 522576086,
+      "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/compare.py",
+      "bytes": 3267,
+      "sha256": "c8eb086d177f9c7a7f270d10d3a63c2fa3cc65d6f54f56bdccf503880c1017b8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/execution-result.json",
+      "bytes": 1824,
+      "sha256": "74857389958dcd0012ce2eb0c7a369f013c2b31fc097c6d5e066f3605175b84c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/execution-start.json",
+      "bytes": 1559,
+      "sha256": "a70180ac42bd7730e2b7315a4a2a6b83d94afb5d38a27b03bcd6235a1963be50"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/first-three.json",
+      "bytes": 378,
+      "sha256": "9015bdb7626f1bf1641833d2424f70813b461cf317b4236b880ac590baa3fa2e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/infer-process.json",
+      "bytes": 843,
+      "sha256": "6863038b4e35123e0979c41cf13705c97fba9bd323d51440e89633a40bba8fb5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/inference.log",
+      "bytes": 14,
+      "sha256": "77df26545b000429aafa7a8f05e401a2544f9fd60e6af4afa0b44216398d3c9c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/input-contract.json",
+      "bytes": 2461,
+      "sha256": "e6c199d7d14f4673683ce359be472c1ab174f43c24c3db05dedbbbbc39da58a7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/input.npy",
+      "bytes": 3379328,
+      "sha256": "5f1caf23443ed3f4933803ab668e566de9c0deb06ab4878977a00b0ae9e49566"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/lead-input-expected.json",
+      "bytes": 36094,
+      "sha256": "5e1c94fe19b88bef89e68e11c622989014b108f5436dfeb908b6f1643126a506"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/lead-input-process.json",
+      "bytes": 693,
+      "sha256": "6574c3b387e1a47eddb5084a862362ccf5ef99c811e743c2889f17c21985a653"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/lead-preflight.json",
+      "bytes": 1029,
+      "sha256": "5ff788d183d0cacbc6cf69dabea84d383e55a2c514b462f68cdac3eb5e514f5e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/lead-verification-process.json",
+      "bytes": 687,
+      "sha256": "18bda5151418528975a804b87daa7abe9b8c715bc50b91cc83d5d76163d5e3f8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/lead-verified.json",
+      "bytes": 444,
+      "sha256": "a36514baab5a04471d881a5e13e9028737dfc63b200175ec69c237b28f390d71"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/lead_input_plan.py",
+      "bytes": 1894,
+      "sha256": "2fc412414ada7a853e5219525cb65420e3089d9b27e19f497da4a2f8799d04df"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/lead_verify.py",
+      "bytes": 5118,
+      "sha256": "cd5b1fd13176024447fdef035cd333c58b3f06dc5936d75aecb35456bb5b3738"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/load.json",
+      "bytes": 175,
+      "sha256": "6141436da4d7cb1f64299702ffd2e0de8a23cab82e299d76a3c63ca392b61ee4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/patches/001.npy",
+      "bytes": 16512,
+      "sha256": "b7f561f9d43b13bba2ef223082331e2dafa2920aef6c3962f8e71e9548f26db7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/patches/002.npy",
+      "bytes": 16512,
+      "sha256": "2233ceea0e78375ca77d8ca18cd724229f023dafcdb1a09a1118ce10bea7b573"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/patches/003.npy",
+      "bytes": 16512,
+      "sha256": "c92944a05ea24b195530ae27e955f56c75b88b5d596fe4996b5e431844d8bf37"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/patches.jsonl",
+      "bytes": 1519,
+      "sha256": "ec925e03fe328384ea3627120c85d179b2071f76d068ee628a4bed70125a7b03"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/prepare-process.json",
+      "bytes": 886,
+      "sha256": "cd2fbfc332d6201c7e477c56954d4f80e050f5fd1a5936c5633eb9e2a1d5321b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/prepare02-process.json",
+      "bytes": 847,
+      "sha256": "7234cebf054a33783311858d496933ffa3ad066691445c77a3167b9c5e0d8238"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/README.md",
+      "bytes": 3626,
+      "sha256": "5e91741b31b6160ba334a8f31678468d9124fbbc1f087c6baa183ccdd001e5f6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/record.json",
+      "bytes": 1488,
+      "sha256": "0dcc1c9e5c7e7e3b32de684eeda1dbc16cf796f19a12476cbd3b7073ea9f5660"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/run_hecate.py",
+      "bytes": 13391,
+      "sha256": "c699c1f835d12be9d93e78a7190e7e15e8d1219241f1a9c51502598b5e07fb8b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/supervise.py",
+      "bytes": 1890,
+      "sha256": "5e461210594249bfef80d28a7568b9ab2cdcafb8392bf48c054f967d935937ba"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/supervisor-result.json",
+      "bytes": 491,
+      "sha256": "85aa48acdade437d8bc0920d8567e4fd90f7e275a49c5019d573ff12bf9cdbd8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/supervisor-start.json",
+      "bytes": 348,
+      "sha256": "7d5eeb32fb7d457db7291bef5c07274d004e3dc44c75ed974d447d6bb0e33639"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/temporary/hecate-ipmegrss/sum",
+      "bytes": 409600,
+      "sha256": "29c7d58a29f571e151b4455725208bb150ccf32f31886d5cd2173a612c5cea5d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/temporary/hecate-ipmegrss/weight",
+      "bytes": 409600,
+      "sha256": "8828b729a912f1b7e6be34759e57194207cd8a425f28d67b5bbb9215ace3e2a0"
+    },
+    {
+      "path": "research/190-hecate-known-text-control.md",
+      "bytes": 6125,
+      "sha256": "1133d5005664e4f58192b2ae59349e5a21903bc8bb16049257ed160631c8346c"
+    }
+  ]
+}

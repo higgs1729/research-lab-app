@@ -1,0 +1,144 @@
+{
+  "status": "completed",
+  "environment": {
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": "C:\\dev\\ai-compute\\local-image-gen\\ComfyUI_windows_portable\\python_embeded\\python.exe",
+    "torch": "2.13.0+cu130",
+    "cuda": "13.0",
+    "numpy": "2.5.2",
+    "affinity": [
+      0
+    ],
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "nvidia_tf32_override": "0",
+    "matmul_fp32_precision": "ieee",
+    "cudnn_conv_fp32_precision": "ieee",
+    "torch_memory_fraction": 0.5002748091603053,
+    "torch_allocator_cap_bytes": 4294967296,
+    "job_commit_cap_bytes": 4294967296,
+    "gpu": "NVIDIA GeForce RTX 4060 Ti",
+    "admission_gpu_and_ram": {
+      "device_free_bytes": 7418675200,
+      "device_total_bytes": 8585216000,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "peak_allocated_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "physical_available_bytes": 14011760640,
+      "process_peak_rss_bytes": 629706752
+    }
+  },
+  "started_utc": "2026-11-14T16:47:34.501127+00:00",
+  "maximum_patches": 2164,
+  "active_patches_expected": 1704,
+  "model_seconds_limit": 599.9594942999975,
+  "order": [
+    "mesh4-forward",
+    "mesh4-reverse",
+    "mesh5-forward",
+    "mesh5-reverse"
+  ],
+  "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+  "prediction_source_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "contract_sha256": "c908465ab382fe0fc90df3448293af2ee911d0f5f515b3a9b726d34e75920c0b",
+  "strict_load_seconds": 1.5383025000046473,
+  "actual_patches": 1704,
+  "counts": {
+    "mesh4-forward": 469,
+    "mesh4-reverse": 469,
+    "mesh5-forward": 383,
+    "mesh5-reverse": 383
+  },
+  "parity": {
+    "mesh4-forward": [
+      {
+        "grid_index": 1,
+        "mae": 4.660823833546601e-07,
+        "max": 1.6689300537109375e-06
+      },
+      {
+        "grid_index": 2,
+        "mae": 3.2426760299131274e-07,
+        "max": 1.2516975402832031e-06
+      },
+      {
+        "grid_index": 3,
+        "mae": 1.6821616100060055e-08,
+        "max": 2.086162567138672e-07
+      }
+    ],
+    "mesh4-reverse": [
+      {
+        "grid_index": 1,
+        "mae": 1.1081567663495662e-08,
+        "max": 1.2665987014770508e-07
+      },
+      {
+        "grid_index": 2,
+        "mae": 1.2654390957322903e-07,
+        "max": 9.313225746154785e-07
+      },
+      {
+        "grid_index": 3,
+        "mae": 1.137650542659685e-07,
+        "max": 3.725290298461914e-07
+      }
+    ],
+    "mesh5-forward": [
+      {
+        "grid_index": 13,
+        "mae": 4.274625098332763e-11,
+        "max": 1.043081283569336e-07
+      },
+      {
+        "grid_index": 14,
+        "mae": 2.1965433916193433e-09,
+        "max": 2.2351741790771484e-07
+      },
+      {
+        "grid_index": 15,
+        "mae": 3.6437768358155154e-09,
+        "max": 1.6391277313232422e-07
+      }
+    ],
+    "mesh5-reverse": [
+      {
+        "grid_index": 13,
+        "mae": 4.729372449219227e-11,
+        "max": 1.2665987014770508e-07
+      },
+      {
+        "grid_index": 14,
+        "mae": 2.5835333872237243e-09,
+        "max": 1.2293457984924316e-07
+      },
+      {
+        "grid_index": 15,
+        "mae": 9.637901143833005e-09,
+        "max": 2.4586915969848633e-07
+      }
+    ]
+  },
+  "forecast": {
+    "steady_patch_wall_seconds": [
+      0.10756110001238994,
+      0.11335619998862967
+    ],
+    "expected_remaining_seconds": 192.81889618065907,
+    "remaining_seconds": 594.4322649000096,
+    "passed": true
+  },
+  "elapsed_seconds": 191.43800199999532,
+  "final_resources": {
+    "device_free_bytes": 6500122624,
+    "device_total_bytes": 8585216000,
+    "allocated_bytes": 525744640,
+    "reserved_bytes": 897581056,
+    "peak_allocated_bytes": 754979328,
+    "peak_reserved_bytes": 897581056,
+    "physical_available_bytes": 13472301056,
+    "process_peak_rss_bytes": 1685155840
+  },
+  "completed_utc": "2026-11-14T16:50:42.968699+00:00"
+}

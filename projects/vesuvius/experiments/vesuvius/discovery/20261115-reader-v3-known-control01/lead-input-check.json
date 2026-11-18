@@ -1,0 +1,431 @@
+{
+  "checked_utc": "2026-11-15T06:46:01.056522+00:00",
+  "plan_sha256": "344d38dde6dabf1825512c323d8cefebd3f7214cf08470fd1b710b66f283867c",
+  "input_sha256": "fb84f9cd40d201374817c4f793691a6ce1dd78f72f33b7726f9c3715d347bed9",
+  "CT_complete_keys_hash_checked": 135,
+  "native_CT_samples": [
+    {
+      "native_xy": [
+        1168,
+        784
+      ],
+      "layer": 0,
+      "independent_CT_value": 54.09140942036174,
+      "rendered": 54
+    },
+    {
+      "native_xy": [
+        1168,
+        784
+      ],
+      "layer": 4,
+      "independent_CT_value": 117.43470830377191,
+      "rendered": 117
+    },
+    {
+      "native_xy": [
+        1168,
+        784
+      ],
+      "layer": 8,
+      "independent_CT_value": 130.93584622070193,
+      "rendered": 131
+    },
+    {
+      "native_xy": [
+        1168,
+        784
+      ],
+      "layer": 12,
+      "independent_CT_value": 82.51394477207214,
+      "rendered": 83
+    },
+    {
+      "native_xy": [
+        1168,
+        784
+      ],
+      "layer": 16,
+      "independent_CT_value": 32.671254033688456,
+      "rendered": 33
+    },
+    {
+      "native_xy": [
+        1728,
+        784
+      ],
+      "layer": 0,
+      "independent_CT_value": 101.34854489564896,
+      "rendered": 101
+    },
+    {
+      "native_xy": [
+        1728,
+        784
+      ],
+      "layer": 4,
+      "independent_CT_value": 106.164153277874,
+      "rendered": 106
+    },
+    {
+      "native_xy": [
+        1728,
+        784
+      ],
+      "layer": 8,
+      "independent_CT_value": 36.00750420242548,
+      "rendered": 36
+    },
+    {
+      "native_xy": [
+        1728,
+        784
+      ],
+      "layer": 12,
+      "independent_CT_value": 115.11706233024597,
+      "rendered": 115
+    },
+    {
+      "native_xy": [
+        1728,
+        784
+      ],
+      "layer": 16,
+      "independent_CT_value": 115.4387097619474,
+      "rendered": 115
+    },
+    {
+      "native_xy": [
+        2287,
+        784
+      ],
+      "layer": 0,
+      "independent_CT_value": 104.640226717107,
+      "rendered": 105
+    },
+    {
+      "native_xy": [
+        2287,
+        784
+      ],
+      "layer": 4,
+      "independent_CT_value": 90.53154667117633,
+      "rendered": 91
+    },
+    {
+      "native_xy": [
+        2287,
+        784
+      ],
+      "layer": 8,
+      "independent_CT_value": 104.71580058336258,
+      "rendered": 105
+    },
+    {
+      "native_xy": [
+        2287,
+        784
+      ],
+      "layer": 12,
+      "independent_CT_value": 50.275800284114666,
+      "rendered": 50
+    },
+    {
+      "native_xy": [
+        2287,
+        784
+      ],
+      "layer": 16,
+      "independent_CT_value": 49.376892861910164,
+      "rendered": 49
+    },
+    {
+      "native_xy": [
+        1168,
+        1248
+      ],
+      "layer": 0,
+      "independent_CT_value": 24.860398195218295,
+      "rendered": 25
+    },
+    {
+      "native_xy": [
+        1168,
+        1248
+      ],
+      "layer": 4,
+      "independent_CT_value": 187.79949401319027,
+      "rendered": 188
+    },
+    {
+      "native_xy": [
+        1168,
+        1248
+      ],
+      "layer": 8,
+      "independent_CT_value": 40.27876311959699,
+      "rendered": 40
+    },
+    {
+      "native_xy": [
+        1168,
+        1248
+      ],
+      "layer": 12,
+      "independent_CT_value": 122.94892650656402,
+      "rendered": 123
+    },
+    {
+      "native_xy": [
+        1168,
+        1248
+      ],
+      "layer": 16,
+      "independent_CT_value": 60.514472858048975,
+      "rendered": 61
+    },
+    {
+      "native_xy": [
+        1728,
+        1248
+      ],
+      "layer": 0,
+      "independent_CT_value": 106.24136712774634,
+      "rendered": 106
+    },
+    {
+      "native_xy": [
+        1728,
+        1248
+      ],
+      "layer": 4,
+      "independent_CT_value": 71.82685209531337,
+      "rendered": 72
+    },
+    {
+      "native_xy": [
+        1728,
+        1248
+      ],
+      "layer": 8,
+      "independent_CT_value": 108.90833991765976,
+      "rendered": 109
+    },
+    {
+      "native_xy": [
+        1728,
+        1248
+      ],
+      "layer": 12,
+      "independent_CT_value": 110.82451053196564,
+      "rendered": 111
+    },
+    {
+      "native_xy": [
+        1728,
+        1248
+      ],
+      "layer": 16,
+      "independent_CT_value": 84.3576804571785,
+      "rendered": 84
+    },
+    {
+      "native_xy": [
+        2287,
+        1248
+      ],
+      "layer": 0,
+      "independent_CT_value": 123.70722229592502,
+      "rendered": 124
+    },
+    {
+      "native_xy": [
+        2287,
+        1248
+      ],
+      "layer": 4,
+      "independent_CT_value": 85.01393395848572,
+      "rendered": 85
+    },
+    {
+      "native_xy": [
+        2287,
+        1248
+      ],
+      "layer": 8,
+      "independent_CT_value": 46.094993042293936,
+      "rendered": 46
+    },
+    {
+      "native_xy": [
+        2287,
+        1248
+      ],
+      "layer": 12,
+      "independent_CT_value": 123.1412050742656,
+      "rendered": 123
+    },
+    {
+      "native_xy": [
+        2287,
+        1248
+      ],
+      "layer": 16,
+      "independent_CT_value": 41.930355567485094,
+      "rendered": 42
+    },
+    {
+      "native_xy": [
+        1168,
+        1711
+      ],
+      "layer": 0,
+      "independent_CT_value": 97.60737124434672,
+      "rendered": 98
+    },
+    {
+      "native_xy": [
+        1168,
+        1711
+      ],
+      "layer": 4,
+      "independent_CT_value": 38.89919856004417,
+      "rendered": 39
+    },
+    {
+      "native_xy": [
+        1168,
+        1711
+      ],
+      "layer": 8,
+      "independent_CT_value": 96.65330169443041,
+      "rendered": 97
+    },
+    {
+      "native_xy": [
+        1168,
+        1711
+      ],
+      "layer": 12,
+      "independent_CT_value": 112.15127766411752,
+      "rendered": 112
+    },
+    {
+      "native_xy": [
+        1168,
+        1711
+      ],
+      "layer": 16,
+      "independent_CT_value": 91.38604738702998,
+      "rendered": 91
+    },
+    {
+      "native_xy": [
+        1728,
+        1711
+      ],
+      "layer": 0,
+      "independent_CT_value": 50.340865813195705,
+      "rendered": 50
+    },
+    {
+      "native_xy": [
+        1728,
+        1711
+      ],
+      "layer": 4,
+      "independent_CT_value": 67.63709055632353,
+      "rendered": 68
+    },
+    {
+      "native_xy": [
+        1728,
+        1711
+      ],
+      "layer": 8,
+      "independent_CT_value": 143.6879520714283,
+      "rendered": 144
+    },
+    {
+      "native_xy": [
+        1728,
+        1711
+      ],
+      "layer": 12,
+      "independent_CT_value": 108.3251403849572,
+      "rendered": 108
+    },
+    {
+      "native_xy": [
+        1728,
+        1711
+      ],
+      "layer": 16,
+      "independent_CT_value": 92.21862863749266,
+      "rendered": 92
+    },
+    {
+      "native_xy": [
+        2287,
+        1711
+      ],
+      "layer": 0,
+      "independent_CT_value": 97.31004344881512,
+      "rendered": 97
+    },
+    {
+      "native_xy": [
+        2287,
+        1711
+      ],
+      "layer": 4,
+      "independent_CT_value": 131.50035568792373,
+      "rendered": 132
+    },
+    {
+      "native_xy": [
+        2287,
+        1711
+      ],
+      "layer": 8,
+      "independent_CT_value": 118.9082254525274,
+      "rendered": 119
+    },
+    {
+      "native_xy": [
+        2287,
+        1711
+      ],
+      "layer": 12,
+      "independent_CT_value": 94.45440819766372,
+      "rendered": 94
+    },
+    {
+      "native_xy": [
+        2287,
+        1711
+      ],
+      "layer": 16,
+      "independent_CT_value": 134.2301355684176,
+      "rendered": 134
+    }
+  ],
+  "max_CT_quantization_difference": 0.4996443120762706,
+  "all_20_reverse_patch_raw_hashes_verified": true,
+  "CPU_reference_patches": [
+    0,
+    9,
+    19
+  ],
+  "author_model_fields_compared": [
+    "model_type",
+    "model_config",
+    "targets",
+    "in_channels",
+    "patch_size",
+    "image_normalization"
+  ],
+  "strict_complete_load_record_verified": true,
+  "extra_model_calls": 0,
+  "limits": "Existing known-letter control, not evidence of an unknown text or training exclusion."
+}

@@ -1,0 +1,40 @@
+{
+  "checked_utc": "2026-11-11T15:36:37.793986+00:00",
+  "lab": {
+    "phase": "running",
+    "thread_id": "01a1c9bf-639d-70a2-a8bc-664019939aaa",
+    "host_id": "local",
+    "pending_proposals": 0,
+    "record_count": 30
+  },
+  "inbox": [],
+  "automations": [
+    {
+      "id": "vesuvius",
+      "name": "Vesuvius 日次研究監査",
+      "status": "ACTIVE",
+      "rrule": "FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "notification_policy": "failed_runs_only",
+      "updated_at": 1794386288350
+    },
+    {
+      "id": "vesuvius-heartbeat",
+      "name": "Vesuvius 主担当heartbeat",
+      "status": "ACTIVE",
+      "rrule": "FREQ=MINUTELY;INTERVAL=30",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "notification_policy": "failed_runs_only",
+      "updated_at": 1794386288736
+    }
+  ],
+  "automation_view_checked_this_turn": true,
+  "primary_numerical_and_native_jobs_completed": true,
+  "paid_compute_running": false,
+  "user_decision_pending": false,
+  "first_daily_audit_due": "2026-11-12T09:00:00+09:00",
+  "first_daily_audit_delivery_verified": false,
+  "heartbeat_delivery_and_lead_resumption_previously_verified": true
+}

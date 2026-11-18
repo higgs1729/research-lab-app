@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "scope": "Only H100 hardware/rate/fixed6regions/cap/paths/deadline; no228patch/CPU scientific recomputation",
+  "archive_member_count": 25,
+  "only_changed_archive_member": "fixed-assets.json",
+  "only_manifest_fields_changed": [
+    "gpu",
+    "max_hourly_compute_usd"
+  ],
+  "unchanged_members": 24,
+  "science_plan_input_model_workers_patch_bytes_unchanged": true,
+  "runtime_actual_device_expected_env_manifest_check_preserved": true,
+  "bounded_POST_error_diagnostic_AST_unchanged": true,
+  "cleanup_and_ownership_AST_unchanged": true,
+  "region_membership_6_allowed_and_outside_rejected": true,
+  "all_listed_NONE_blocks": true,
+  "unlisted_HIGH_does_not_authorize": true,
+  "create_payload_changes_only": [
+    "gpu.id",
+    "env.R201_EXPECTED_GPU",
+    "dataCenterIds"
+  ],
+  "GPU": "NVIDIA H100 80GB HBM3",
+  "data_centers": [
+    "AP-IN-1",
+    "AP-JP-1",
+    "EUR-NO-2",
+    "US-CA-2",
+    "US-MO-1",
+    "US-NE-1"
+  ],
+  "rate_ceiling": 4.4,
+  "operating_ceiling": 2.25,
+  "same_pinned_image": true,
+  "actual_precreate_to_deletion_max_seconds": 1800,
+  "cloud_plan_sha256": "d390c896e708435e5b4809c1804d0006ce5c1f072fe0840b98ba177c2c526aff",
+  "archive_sha256": "0124d2ffd6afd5029cd38c3e52fa0c046c381fcba6518acbce110b1a4e79ee83",
+  "C_peak_bound_bytes": 373886281,
+  "write_cap_bytes": 402653184,
+  "reservation_bytes": 67108864,
+  "model_forwards": 0,
+  "network_calls": 0,
+  "pods_created": 0
+}

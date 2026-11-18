@@ -1,0 +1,92 @@
+[
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/inputs/carrier.npz",
+    "bytes": 6991690,
+    "sha256": "dd22701e391e8aff6a632c6b569be8a3de1059eb84ec10c44bfb4daeb2120d1f"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/inputs/x_z99_w074.npy",
+    "bytes": 762568,
+    "sha256": "fadf182717574128359ca2f1fdf6198268d6f098b7b1576a7ce2c874d650dddc"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/plan.json",
+    "bytes": 43752,
+    "sha256": "24329bd07841e9be666bacb2701d7f4f2df6d9944f1feb78089625fa9fb1f5d9"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/plan_ct.py",
+    "bytes": 14020,
+    "sha256": "cfe7ec32b2ab5d0aacd7f3580ddd2f26459f86783cb27b448653387548cd5397"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/sections/upper-across-normal.png",
+    "bytes": 29173,
+    "sha256": "346c5db023096af6d218b65c97e936bd0123d009e49101eeafcca64c74c8369b"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/sections/known-across-normal.png",
+    "bytes": 12644,
+    "sha256": "88d4b6160b0c5ce8df8a87f847e7fa42ee570ebefe9bdebce8d8a3e46f91e35e"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/compare_geometry.py",
+    "bytes": 7582,
+    "sha256": "5bf2726976f63b5c4a79e5ae64ed820fc3a4af6deaa558c728aedddac019c60b"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-discovery-next-intervention01/originals/submission/mesh/PHerc0306B_20250521133212_w074own_touchup_V5Rc/x.tif",
+    "bytes": 381492,
+    "sha256": "e6f14ec22d3c5cf2b37836cbb9141bae08c55b5bc1f89f4e07c202d424d64c29"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-discovery-next-intervention01/originals/submission/mesh/PHerc0306B_20250521133212_w074own_touchup_V5Rc/y.tif",
+    "bytes": 381492,
+    "sha256": "60d0807ee8574cdc39f9710b9866f1c3a3e6f611357cd611e17f8deb39fd1c42"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-discovery-next-intervention01/originals/submission/mesh/PHerc0306B_20250521133212_w074own_touchup_V5Rc/z.tif",
+    "bytes": 381492,
+    "sha256": "243d236048a9bb04293bae77473740d479824cc551ed67a355b21199f9bd0596"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-discovery-next-intervention01/originals/submission/mesh/PHerc0306B_20250521133212_w074own_touchup_V5Rc/meta.json",
+    "bytes": 1606,
+    "sha256": "6fbf2200e1ac55a6cef7232ee4d9098919dc8185b9204e9ea08017e58f0c1ac1"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/adopt_check.py",
+    "bytes": 3166,
+    "sha256": "64884bcb99514fb5362b68b0c393036c2a90257bf58672089fd41c684def794a"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/agree.py",
+    "bytes": 2195,
+    "sha256": "272e48ffc85f657ab74e2e6fbf8ff91f61462955fe53595dc23fb23666a28a6c"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/carrier.py",
+    "bytes": 7384,
+    "sha256": "300737971b7323834277ffd0ddc29abe6aad4ba608029501bbfa29434112cefb"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/p1geom.py",
+    "bytes": 11372,
+    "sha256": "28bc0c8595f3256757ad47d8355be8f63d352da22246243248ac10cdce41b4c4"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/reflatten.py",
+    "bytes": 9170,
+    "sha256": "7d6ea7bfb7eef563c8f608f42cd65e452b54fed8f556c62f258bcb2d2281010c"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/touchup.py",
+    "bytes": 5178,
+    "sha256": "33a5923e724b92b7b72f83057e61223811b16733c99803075330f27d48cd809f"
+  },
+  {
+    "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/track.py",
+    "bytes": 13249,
+    "sha256": "0e7a4e732f9ef5c218cb5a8662beac4e6e0aea7aefa30476006f1298e73f6a3d"
+  }
+]

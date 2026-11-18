@@ -1,0 +1,493 @@
+{
+  "v9-mesh.zip": {
+    "zip_bytes": 9264958,
+    "zip_sha256": "819dcfb40451fab3fa58441d8265813c8ddbe2b5693bb076fce3eeefce05a5d9",
+    "support_checks": [
+      {
+        "member": "mesh/reproduce_submission.py",
+        "bytes": 6070,
+        "sha256": "4daee96fbe901612f0c4d124d74718ac4c95fbf9e4f9f9fe697c990d84f3657c",
+        "matches": true
+      },
+      {
+        "member": "mesh/labels.json",
+        "bytes": 502,
+        "sha256": "4929c79e425f9c98c669c23331565792bdc61ea7b310f175fe3718a0bcd53d53",
+        "matches": true
+      },
+      {
+        "member": "mesh/make_submission_images.py",
+        "bytes": 7715,
+        "sha256": "210d9ca746790db0156b7180aae0f8d85f715918f52d95d4cbc34c1d724c1dbd",
+        "matches": true
+      },
+      {
+        "member": "mesh/label-32-row-1.png",
+        "bytes": 696,
+        "sha256": "a491849a07861acc4fa99ae013de803089ee3803b91919f97345821246355c8d",
+        "matches": true
+      },
+      {
+        "member": "mesh/label-52-1-cm.png",
+        "bytes": 790,
+        "sha256": "43649886c0252f426217fcae06c7912800c2db24d75b49d9541970c6f4af6f5d",
+        "matches": true
+      },
+      {
+        "member": "mesh/raw-ct.png",
+        "bytes": 4877938,
+        "sha256": "d4f08527029550bff4336eb8a040290d55c5f68a7e0db9f7fb12454538ff42c8",
+        "matches": true
+      },
+      {
+        "member": "mesh/label-32-row-2.png",
+        "bytes": 775,
+        "sha256": "606100f8858214d5761ebec79fb1761d11dde21d7febbc8c42fbe43d942b8e2f",
+        "matches": true
+      },
+      {
+        "member": "mesh/turbo.json",
+        "bytes": 3984,
+        "sha256": "395ab2efc55f73615ce7a114b79c8bfc3c509a58e239bbf75fbfa4b3a44ef427",
+        "matches": true
+      },
+      {
+        "member": "mesh/results.json",
+        "bytes": 8618,
+        "sha256": "ce6044727b51c2c93bd2e462d7a1e35671f13dcece2485278c10a58aee875eca",
+        "matches": true
+      },
+      {
+        "member": "mesh/CONTENTS.txt",
+        "bytes": 278,
+        "sha256": "d338607c4b199ca61250f22425897d91307a37bebd87cb7e8c160275dce873c4",
+        "matches": true
+      },
+      {
+        "member": "mesh/label-32-row-3.png",
+        "bytes": 809,
+        "sha256": "e661a5a5c5a25c926a9571691ad726f65b08c7ef668787cb3e71bcf5d22091de",
+        "matches": true
+      },
+      {
+        "member": "mesh/requirements-inference-exact.txt",
+        "bytes": 472,
+        "sha256": "289eaf4ab6d16482c433125dd7dd29318ef0b419f60d1081771443ddd7a90d26",
+        "matches": true
+      },
+      {
+        "member": "mesh/studiosoft-mask.png",
+        "bytes": 15692,
+        "sha256": "f4fa02d4e7aa92541079293db2a069eb6ef919f946503426f6dcfa804e1b7f7c",
+        "matches": true
+      },
+      {
+        "member": "mesh/surface_energies_flatboi.txt",
+        "bytes": 663,
+        "sha256": "8f9c7469ac41fb0aed374731def5ce3d1506599fedac18f46f370422fab913e7",
+        "matches": true
+      },
+      {
+        "member": "mesh/surface.obj",
+        "bytes": 4543199,
+        "sha256": "45deb5d7d89e207cbe3f05fd1842f60740fa2c4a95121340876d0c4b99bc6e89",
+        "matches": true
+      },
+      {
+        "member": "mesh/surface_flatboi.obj",
+        "bytes": 8458793,
+        "sha256": "62224894bd6920c3fd99391bde98a6ff6b194d864c9bc845b8cc1916084ed5b4",
+        "matches": true
+      },
+      {
+        "member": "mesh/inference-record.json",
+        "bytes": 1599,
+        "sha256": "a57e2195e29acd82b7404cec78c4a91cf659b027b0ba873034c0563cc2ce12fd",
+        "matches": true
+      },
+      {
+        "member": "mesh/reproduce_submission.sh",
+        "bytes": 1581,
+        "sha256": "288cd4270795414b1570892674e59e83e4a0e108358fda39f8d6509ee394f359",
+        "matches": true
+      },
+      {
+        "member": "mesh/REPRODUCE.md",
+        "bytes": 4804,
+        "sha256": "bad3a5a23c4abdbff4faa228bef8f9d1f12fa584d7723556daa52c40e287404d",
+        "matches": true
+      },
+      {
+        "member": "mesh/make_submission_images_original.py",
+        "bytes": 7617,
+        "sha256": "f91467b0a73af998e6409255c35789abe347dac73fddfef299c12e18f96e13d2",
+        "matches": true
+      },
+      {
+        "member": "mesh/flat-mesh.npz",
+        "bytes": 811200,
+        "sha256": "8821d77d3ce321ff50c734159abc3f01540bb715299fc57afb7f55380c45c34c",
+        "matches": true
+      },
+      {
+        "member": "mesh/mesh.npz",
+        "bytes": 370365,
+        "sha256": "45667fef524937f8f67aec95beace6b5f35ede2df5e943921603d0575c86c177",
+        "matches": true
+      },
+      {
+        "member": "mesh/mask.png",
+        "bytes": 15692,
+        "sha256": "f4fa02d4e7aa92541079293db2a069eb6ef919f946503426f6dcfa804e1b7f7c",
+        "matches": true
+      },
+      {
+        "member": "mesh/case.json",
+        "bytes": 1479,
+        "sha256": "00095b5d464c12c2465e3369572d27e5ce6fd28b436e1bf4d4c110cde045afee",
+        "matches": true
+      },
+      {
+        "member": "mesh/orientation.json",
+        "bytes": 3555,
+        "sha256": "4895f6b3a62cd78ff228e32ba114646a66e3bc0e2cc77a4d4037aed6cdc86394",
+        "matches": true
+      },
+      {
+        "member": "mesh/normalized-tifxyz/z.tif",
+        "bytes": 84276,
+        "sha256": "8647c633fad706ca393caa63439702b0c176e87a1403d5d140ea7a645ced38a2",
+        "matches": true
+      },
+      {
+        "member": "mesh/normalized-tifxyz/x.tif",
+        "bytes": 98108,
+        "sha256": "7dcbf7b1b2870f4c1265c9982dcd897a26a4db84ad9f942f80f583ea170801a1",
+        "matches": true
+      },
+      {
+        "member": "mesh/normalized-tifxyz/y.tif",
+        "bytes": 96096,
+        "sha256": "6b9956c81a1d7fc3b4629ec1b550e7400c9ddb4ab06ae73a8f9cd2d126f2f15d",
+        "matches": true
+      },
+      {
+        "member": "mesh/normalized-tifxyz/Open in VC3D.volpkg.json",
+        "bytes": 404,
+        "sha256": "37f7505a3950d283c52016d3298552537d2f5364a7380ee6f02cb80ae68af98c",
+        "matches": true
+      },
+      {
+        "member": "mesh/normalized-tifxyz/meta.json",
+        "bytes": 809,
+        "sha256": "5c812bd1988bf27d6b9c9a2c646184a6db19e84ec70d7f4b2b392c800aff58cf",
+        "matches": true
+      },
+      {
+        "member": "mesh/source-tifxyz/z.tif",
+        "bytes": 159118,
+        "sha256": "32f38ab5c5b9846977774c0819ef2ecf882898cfe8e98bd353d48bb395fb5f81",
+        "matches": true
+      },
+      {
+        "member": "mesh/source-tifxyz/x.tif",
+        "bytes": 159118,
+        "sha256": "7505e87e9ed5fa30f1745a5a6cf78132d20b674483ffc0e1d9986f31b3736d9e",
+        "matches": true
+      },
+      {
+        "member": "mesh/source-tifxyz/y.tif",
+        "bytes": 159118,
+        "sha256": "aaccd089a0df149672c85175284596e0cc0446b329431920a9d7e6e8e252cc69",
+        "matches": true
+      },
+      {
+        "member": "mesh/source-tifxyz/meta.json",
+        "bytes": 1749,
+        "sha256": "14438930a82b6d53c5d1f063adfaa0fd62801731a6f044cfc19472ca4218156e",
+        "matches": true
+      },
+      {
+        "member": "mesh/inference/model.py",
+        "bytes": 4161,
+        "sha256": "efbb390b6208c480fa8e8681137690b7df897c3e406956b9e804fa66645316d7",
+        "matches": true
+      },
+      {
+        "member": "mesh/inference/inference.py",
+        "bytes": 5752,
+        "sha256": "09752cf7aa0b682c6ca9a46e41bf1f9f279e30d74d35eaab8fc0311504223ec0",
+        "matches": true
+      }
+    ]
+  },
+  "v9_exact_raster_edges": [
+    {
+      "v": 800,
+      "last_masked_u": 5949,
+      "ct_value_at_last": 139,
+      "probability_at_last": 0.26808661222457886
+    },
+    {
+      "v": 840,
+      "last_masked_u": 5949,
+      "ct_value_at_last": 131,
+      "probability_at_last": 0.5121005177497864
+    },
+    {
+      "v": 880,
+      "last_masked_u": 5949,
+      "ct_value_at_last": 135,
+      "probability_at_last": 0.21979999542236328
+    },
+    {
+      "v": 920,
+      "last_masked_u": 5949,
+      "ct_value_at_last": 147,
+      "probability_at_last": 0.19425423443317413
+    }
+  ],
+  "v6-line2-mesh.zip": {
+    "zip_bytes": 4953331,
+    "zip_sha256": "9e9105d9bb812e6d2af454b30cb724e6339f0f0403e06eb28a302b484d31db36",
+    "support_checks": [
+      {
+        "member": "mesh/reproduce_submission.py",
+        "bytes": 6070,
+        "sha256": "4daee96fbe901612f0c4d124d74718ac4c95fbf9e4f9f9fe697c990d84f3657c",
+        "matches": true
+      },
+      {
+        "member": "mesh/labels.json",
+        "bytes": 502,
+        "sha256": "4929c79e425f9c98c669c23331565792bdc61ea7b310f175fe3718a0bcd53d53",
+        "matches": true
+      },
+      {
+        "member": "mesh/make_submission_images.py",
+        "bytes": 7857,
+        "sha256": "2a8de71cdb985ba6e7fa193e467f51f884e46fecffb1ff0c92d8243d8967fe14",
+        "matches": true
+      },
+      {
+        "member": "mesh/label-32-row-1.png",
+        "bytes": 696,
+        "sha256": "a491849a07861acc4fa99ae013de803089ee3803b91919f97345821246355c8d",
+        "matches": true
+      },
+      {
+        "member": "mesh/label-52-1-cm.png",
+        "bytes": 790,
+        "sha256": "43649886c0252f426217fcae06c7912800c2db24d75b49d9541970c6f4af6f5d",
+        "matches": true
+      },
+      {
+        "member": "mesh/manual-save-snapshot.sha256",
+        "bytes": 292,
+        "sha256": "b5d6c62080fb68223612d0533a3977e03d3a54390382042e4c23df41aea56393",
+        "matches": true
+      },
+      {
+        "member": "mesh/raw-ct.png",
+        "bytes": 1498591,
+        "sha256": "e4b17a4a2ba16be11807dc6b99e7a3461abaf967ac0009aad7773d6ad26a32b4",
+        "matches": true
+      },
+      {
+        "member": "mesh/label-32-row-2.png",
+        "bytes": 775,
+        "sha256": "606100f8858214d5761ebec79fb1761d11dde21d7febbc8c42fbe43d942b8e2f",
+        "matches": true
+      },
+      {
+        "member": "mesh/turbo.json",
+        "bytes": 3984,
+        "sha256": "395ab2efc55f73615ce7a114b79c8bfc3c509a58e239bbf75fbfa4b3a44ef427",
+        "matches": true
+      },
+      {
+        "member": "mesh/results.json",
+        "bytes": 7559,
+        "sha256": "f259a7f172d00c3e94e0e6ad59497c445e8c6376010e19fbcce8e5030bcd7aae",
+        "matches": true
+      },
+      {
+        "member": "mesh/CONTENTS.txt",
+        "bytes": 1826,
+        "sha256": "4d3d248ccd3dc8605dcb85d67602bd9e0b15b83f6052d71b1f744b08edaf962b",
+        "matches": true
+      },
+      {
+        "member": "mesh/label-32-row-3.png",
+        "bytes": 809,
+        "sha256": "e661a5a5c5a25c926a9571691ad726f65b08c7ef668787cb3e71bcf5d22091de",
+        "matches": true
+      },
+      {
+        "member": "mesh/requirements-inference-exact.txt",
+        "bytes": 472,
+        "sha256": "289eaf4ab6d16482c433125dd7dd29318ef0b419f60d1081771443ddd7a90d26",
+        "matches": true
+      },
+      {
+        "member": "mesh/inference-record.json",
+        "bytes": 1592,
+        "sha256": "b518f7cca74fecdfed17b128a0dd6e284c79a285beff01be05596b23e3d9f50a",
+        "matches": true
+      },
+      {
+        "member": "mesh/reproduce_submission.sh",
+        "bytes": 1581,
+        "sha256": "288cd4270795414b1570892674e59e83e4a0e108358fda39f8d6509ee394f359",
+        "matches": true
+      },
+      {
+        "member": "mesh/REPRODUCE.md",
+        "bytes": 4804,
+        "sha256": "bad3a5a23c4abdbff4faa228bef8f9d1f12fa584d7723556daa52c40e287404d",
+        "matches": true
+      },
+      {
+        "member": "mesh/make_submission_images_original.py",
+        "bytes": 7759,
+        "sha256": "0d1bb78edd049164c62ec6810717657a3034c14532458f27be2918d40c548aca",
+        "matches": true
+      },
+      {
+        "member": "mesh/split.json",
+        "bytes": 146149,
+        "sha256": "074c40f5ad19b1b247e12d2b4091b3539fb133bf5c63c1caebdbe898f6dc3780",
+        "matches": true
+      },
+      {
+        "member": "mesh/mask.png",
+        "bytes": 13812,
+        "sha256": "52f8af57432d674ff57aa84f929b4fa4c3b82cc3fc580cf61d9516a94d67157e",
+        "matches": true
+      },
+      {
+        "member": "mesh/case.json",
+        "bytes": 2078,
+        "sha256": "78089a891a9277e0bdd0442d08f58bad48f34d7fdfe555a1058e498b937521ee",
+        "matches": true
+      },
+      {
+        "member": "mesh/orientation.json",
+        "bytes": 2738,
+        "sha256": "d7c1895f9cc5d76c948bd8ffa4a83d6d4d60e347191bb6096b5bf389b8668e47",
+        "matches": true
+      },
+      {
+        "member": "mesh/normalized-tifxyz/z.tif",
+        "bytes": 37844,
+        "sha256": "a53207bd711403f5eac6b2d9dc3c193268369adbe099a5e77ce12f0b812e62b3",
+        "matches": true
+      },
+      {
+        "member": "mesh/normalized-tifxyz/x.tif",
+        "bytes": 37844,
+        "sha256": "89cbc380eda421bf9c7db601d6f7d1b9c1f8103d9723b1479c0f6d0e96896fc6",
+        "matches": true
+      },
+      {
+        "member": "mesh/normalized-tifxyz/y.tif",
+        "bytes": 37844,
+        "sha256": "1646effe9a2883e4057ce6b1265cd8a192c5eed3f7740aadb85d2ff5eca2f500",
+        "matches": true
+      },
+      {
+        "member": "mesh/normalized-tifxyz/Open in VC3D.volpkg.json",
+        "bytes": 410,
+        "sha256": "d6a720bbf9d47c9c2d834efa40e7c036e545c525d362b0c314c112b577088590",
+        "matches": true
+      },
+      {
+        "member": "mesh/normalized-tifxyz/meta.json",
+        "bytes": 904,
+        "sha256": "6da46dcedcad539eda19a6cf98ae7db512b6d1bbc1857bdba11ec7cf64b1ef8e",
+        "matches": true
+      },
+      {
+        "member": "mesh/parent/results.json",
+        "bytes": 7437,
+        "sha256": "3ab11f39fd7b1c483c605c599078a92a1691e0aa308d2eca24bd38c4d907a765",
+        "matches": true
+      },
+      {
+        "member": "mesh/parent/surface_energies_flatboi.txt",
+        "bytes": 663,
+        "sha256": "a6b3a6b4779d2277c02a33c0646f73692e8d313613c202e8fd6cfcca33825839",
+        "matches": true
+      },
+      {
+        "member": "mesh/parent/flat-mesh.npz",
+        "bytes": 2425359,
+        "sha256": "a5a91e5ffe320b6f2e11caf3c15e7de52297fd8ce3b7b0a7eade751a7b5d8f15",
+        "matches": true
+      },
+      {
+        "member": "mesh/parent/mesh.npz",
+        "bytes": 1073378,
+        "sha256": "bb332b574c24328ee845efeae90fe87c42e8fae13450cc3f0e0c8534b5dc3ad6",
+        "matches": true
+      },
+      {
+        "member": "mesh/parent/case.json",
+        "bytes": 1372,
+        "sha256": "88bf5d3d4ebbbd21d40d7f8b9734c74adacd9b4f1d2aaa946eb561cbd67b881b",
+        "matches": true
+      },
+      {
+        "member": "mesh/parent/orientation.json",
+        "bytes": 2738,
+        "sha256": "d7c1895f9cc5d76c948bd8ffa4a83d6d4d60e347191bb6096b5bf389b8668e47",
+        "matches": true
+      },
+      {
+        "member": "mesh/parent/normalized-tifxyz/z.tif",
+        "bytes": 241292,
+        "sha256": "ec1dd8fdb1a0fea71d91b384e102c9db2d4024fb334f0e5bb21e7f6d86aa6d93",
+        "matches": true
+      },
+      {
+        "member": "mesh/parent/normalized-tifxyz/x.tif",
+        "bytes": 285240,
+        "sha256": "46deb5421817a10d1b513d0757cad27888d76e6f26b30498d4aca395b78f8e43",
+        "matches": true
+      },
+      {
+        "member": "mesh/parent/normalized-tifxyz/y.tif",
+        "bytes": 278388,
+        "sha256": "9502b50b88e25b03737fb17eb403d7f0b329d4d267ebefe3024410c67153bdef",
+        "matches": true
+      },
+      {
+        "member": "mesh/parent/normalized-tifxyz/meta.json",
+        "bytes": 290,
+        "sha256": "1a5b84da9a14759b776e625a260fccd2477e819a60a2968e3bab7a7f25789651",
+        "matches": true
+      },
+      {
+        "member": "mesh/inference/model.py",
+        "bytes": 4161,
+        "sha256": "efbb390b6208c480fa8e8681137690b7df897c3e406956b9e804fa66645316d7",
+        "matches": true
+      },
+      {
+        "member": "mesh/inference/inference.py",
+        "bytes": 5752,
+        "sha256": "09752cf7aa0b682c6ca9a46e41bf1f9f279e30d74d35eaab8fc0311504223ec0",
+        "matches": true
+      }
+    ]
+  },
+  "readme": {
+    "bytes": 5897,
+    "sha256": "aef0e81bbb0dccffe00bf5afab024b0758ac18d02994fc62e03f391285bd4317",
+    "source_url": "https://drive.google.com/file/d/1GItRQdbeJin2ilqCmhLsYJiidz4BNmdx/view",
+    "method": "Google Drive connector raw fetch; downloaded its authenticated file_uri, bytes preserved. Ephemeral download URL omitted."
+  },
+  "checked_utc": "2026-11-15T12:08:09.681825+00:00",
+  "current_tree_bytes": 62969126,
+  "c_free_bytes": 8391811072
+}

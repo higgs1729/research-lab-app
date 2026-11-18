@@ -1,0 +1,163 @@
+{
+  "status": "complete",
+  "kind": "trace",
+  "command": [
+    "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-pack-nativetrace01",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01",
+    "--output=/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output",
+    "--keep=100.0",
+    "5",
+    "--pack-components"
+  ],
+  "binary_sha256": "4e7238eb07a2b43386a97f69d22ee2edd69c47c36c29b3a2c6499c0b91b9139f",
+  "cpu_affinity": [
+    0
+  ],
+  "timeout_seconds": 300,
+  "address_space_limit_bytes": 4294967296,
+  "started_utc": "2026-11-12T04:32:47.182716+00:00",
+  "env_overrides": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "PASTIX_NUM_THREADS": "1",
+    "WANDB_DISABLED": "true",
+    "TMPDIR": "/mnt/d/kensyoukin-work/r005-pack-native01",
+    "VC3D_CONFIG_DIR": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/config",
+    "FLATBOI_DIAGNOSTICS": "1",
+    "FLATBOI_RASTER_DIAGNOSTICS": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/raster_trace.json"
+  },
+  "input_manifest": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01/manifest.json",
+  "input_manifest_sha256": "fd41c8119d62915992337ea314330f37b76de13aa137f57f42180f267f39feac",
+  "input_objects": [
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250929040153-auto_grown_20250929040153260/mesh/intermediate/tifxyz_original/meta.json",
+      "file": "meta.json",
+      "bytes": 1148,
+      "etag": "\"e89f747c99642eb851f9118971bb2d22\"",
+      "last_modified": "Fri, 03 Jul 2026 10:59:37 GMT",
+      "sha256": "36dc7600f31d7f16fc252d8ab5b3ce57931a399c48343d2821436a3c1b0e6317"
+    },
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250929040153-auto_grown_20250929040153260/mesh/intermediate/tifxyz_original/x.tif",
+      "file": "x.tif",
+      "bytes": 369830,
+      "etag": "\"9a7f691cb44c5dd737c4e0ff1ef752ac\"",
+      "last_modified": "Fri, 03 Jul 2026 10:59:38 GMT",
+      "sha256": "da6fdece28f8fb89ff6d2506ae4347e13cf245454b95b9f1997046b6a3dbd7dc"
+    },
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250929040153-auto_grown_20250929040153260/mesh/intermediate/tifxyz_original/y.tif",
+      "file": "y.tif",
+      "bytes": 369830,
+      "etag": "\"2978de9a60f83cc88a3b33d14305ce39\"",
+      "last_modified": "Fri, 03 Jul 2026 10:59:39 GMT",
+      "sha256": "51b6d36f7b7afb0a72ae9a90b6e16f94663228bf4a0172cf5eedeb93e4cfab30"
+    },
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0814/segments/20250929040153-auto_grown_20250929040153260/mesh/intermediate/tifxyz_original/z.tif",
+      "file": "z.tif",
+      "bytes": 369830,
+      "etag": "\"07dadbdae2ae1aebda46c90b89b0ad18\"",
+      "last_modified": "Fri, 03 Jul 2026 10:59:39 GMT",
+      "sha256": "44b3d11e1f130db7a060671ac429340b1ed6ab296697905696860338cf595eaa"
+    }
+  ],
+  "keep_percent": 100.0,
+  "iterations": 5,
+  "pack": true,
+  "cwd": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01",
+  "measured_command": [
+    "/usr/bin/time",
+    "-q",
+    "-o",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/stdout-rss-kib.txt",
+    "-f",
+    "%M",
+    "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-pack-nativetrace01",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01",
+    "--output=/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output",
+    "--keep=100.0",
+    "5",
+    "--pack-components"
+  ],
+  "exit_code": 0,
+  "completed_utc": "2026-11-12T04:33:12.990816+00:00",
+  "elapsed_seconds": 25.808105504000025,
+  "max_child_rss_bytes": 219492352,
+  "timing_pid": 474,
+  "timing_child_reaped": true,
+  "binary_unchanged": true,
+  "outputs": [
+    {
+      "file": "output/meta.json",
+      "sha256": "5f23b9a97a4399415cfdae1a5a53ca1d5d5ce1c3012bd9b7e4ef5454d3981750",
+      "bytes": 996
+    },
+    {
+      "file": "output/x.tif",
+      "sha256": "264c3d08324137938f1d8c0b70c0903c468e469e96c7f8ee5aad79cdebf7eb5e",
+      "bytes": 468002
+    },
+    {
+      "file": "output/y.tif",
+      "sha256": "24eeb8a35b1b37c454b39fd6cb7196149894807af7ce43bc6c94214a837dcd6e",
+      "bytes": 468002
+    },
+    {
+      "file": "output/z.tif",
+      "sha256": "2cf42d7b4e7e676956a4996a4d4c9adcf05ab393405d586b241151da0f764cd1",
+      "bytes": 468002
+    },
+    {
+      "file": "output.obj_uv_diagnostics.json",
+      "sha256": "d62bfce19d1e0e3bdea06d32bc48464b13a8ffa430c5723b93f93808eb93e845",
+      "bytes": 9122786
+    },
+    {
+      "file": "output_energies_flatboi.txt",
+      "sha256": "c16614943ba6a8186b25cecfcf7cbdfba635a450c7ed78a713389a62c2edfe40",
+      "bytes": 78
+    },
+    {
+      "file": "output_heat_L2.png",
+      "sha256": "6dfab0c35a17cf8fa59ad33703068d3a316bc8de91503a8c2c1c71734d326b74",
+      "bytes": 302462
+    },
+    {
+      "file": "output_heat_Linf.png",
+      "sha256": "4c7626e3c65036719822f6b16ac510b4eaa5c0dafb818861f6e82a40e37446db",
+      "bytes": 273945
+    },
+    {
+      "file": "output_heat_kappa.png",
+      "sha256": "23f6ea35cf154b287fa4e70f6f7efb8f7fa818af160534f7113593d9cb0a4abb",
+      "bytes": 300983
+    },
+    {
+      "file": "output_heat_logarea.png",
+      "sha256": "e7c5ebf5ab5d2b998ff83306100f7dcf6f123cf17ec5b5448a6104a3c7f1c632",
+      "bytes": 347847
+    },
+    {
+      "file": "output_heat_ranges.txt",
+      "sha256": "f0d2b16896a6ba44e9dfed08d81ef0845cbcefb00d548cf7ced714479d7e6a92",
+      "bytes": 246
+    },
+    {
+      "file": "raster_trace.json",
+      "sha256": "65d576414ef8b3153d32587741a39a9d3c61d8c476457546e91d71ab5beda8e3",
+      "bytes": 468622
+    },
+    {
+      "file": "stdout-rss-kib.txt",
+      "sha256": "21c355851078ce8928e055febcdaf7b912a28be5d55cee327c81a15e17bc0b5b",
+      "bytes": 7
+    },
+    {
+      "file": "stdout.log",
+      "sha256": "db490dbd7463a38cb7fc0d42b8cdef60d279736934f64f1fcda375a407f7c067",
+      "bytes": 1821
+    }
+  ]
+}

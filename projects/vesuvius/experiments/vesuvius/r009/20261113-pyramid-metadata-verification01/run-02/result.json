@@ -1,0 +1,201 @@
+{
+  "source": {
+    "binary_sha256": "71fb6e31962727a866a50046c852bd2a3141a7f161f280d127731d106695f063",
+    "patched_source_sha256": {
+      "volume-cartographer/apps/src/vc_render_tifxyz.cpp": "66d96d1e6cdf858e1ab857116ab3d4567d87ecf9c63e1d06c45a4be955d1f8de",
+      "vc_reader/src/cpp/zarr/pyramid.cpp": "1d121c03941ab1b20a10d16cce4c3630cd00ebf85ef395ae795b99c779b8c0e6",
+      "vc_reader/include/vc_reader/zarr_write.hpp": "7e25215511819d5f4feb0dc9bfd4dc2aee4b4f68a3d7b67621a01abe4f2a4eca"
+    },
+    "patch_orders_match": true,
+    "borrowed_pyramid_sha256": "c30be25b8038ff7085bcec02fb2007403aae27e67ba6ee94fa11666eb22704cf",
+    "fixed_main_header_blob": "9b2e88c6189e326673b2bd979b57bbe2cc6c7057",
+    "pyramid_symbols": [
+      "000000000064f46e T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::CreateOptions const&, vcr::zarr::PyramidOptions const&)",
+      "000000000064f81d T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::CreateOptions const&, vcr::zarr::PyramidOptions const&, bool)",
+      "00000000006503e8 T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::PyramidOptions const&, bool)"
+    ]
+  },
+  "saved": {
+    "old_disabled": {
+      "datasets": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "arrays": [
+        "0"
+      ]
+    },
+    "combined": {
+      "normal": {
+        "paths": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "arrays": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "file_count": 14,
+        "array_0_and_chunk_match_control": true,
+        "attrs_equal_control_with_expected_paths": true
+      },
+      "fresh-resume": {
+        "paths": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "arrays": [
+          "0",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "file_count": 14,
+        "array_0_and_chunk_match_control": true,
+        "attrs_equal_control_with_expected_paths": true
+      },
+      "disabled-normal": {
+        "paths": [
+          "0"
+        ],
+        "arrays": [
+          "0"
+        ],
+        "file_count": 4,
+        "array_0_and_chunk_match_control": true,
+        "attrs_equal_control_with_expected_paths": true
+      },
+      "disabled-pre": {
+        "paths": [
+          "0"
+        ],
+        "arrays": [
+          "0"
+        ],
+        "file_count": 3,
+        "array_0_and_chunk_match_control": false,
+        "attrs_equal_control_with_expected_paths": true
+      }
+    },
+    "crop_cases": {
+      "all-zero": {
+        "exit_code": 1,
+        "crop_diagnosis": false
+      },
+      "auto-crop": {
+        "exit_code": 1,
+        "crop_diagnosis": false
+      },
+      "auto-with-partial": {
+        "exit_code": 1,
+        "crop_diagnosis": true
+      },
+      "default-crop": {
+        "exit_code": 1,
+        "crop_diagnosis": false
+      },
+      "default-origin": {
+        "exit_code": 1,
+        "crop_diagnosis": false
+      },
+      "help": {
+        "exit_code": 0,
+        "crop_diagnosis": false
+      },
+      "invalid-part": {
+        "exit_code": 1,
+        "crop_diagnosis": false
+      },
+      "merge-empty": {
+        "exit_code": 1,
+        "crop_diagnosis": false
+      },
+      "missing-height": {
+        "exit_code": 1,
+        "crop_diagnosis": true
+      },
+      "missing-segmentation": {
+        "exit_code": 1,
+        "crop_diagnosis": false
+      },
+      "missing-width": {
+        "exit_code": 1,
+        "crop_diagnosis": true
+      },
+      "negative-height": {
+        "exit_code": 1,
+        "crop_diagnosis": true
+      },
+      "negative-origin": {
+        "exit_code": 1,
+        "crop_diagnosis": false
+      },
+      "negative-width": {
+        "exit_code": 1,
+        "crop_diagnosis": true
+      },
+      "position-only": {
+        "exit_code": 1,
+        "crop_diagnosis": true
+      },
+      "position-with-explicit-zero-sizes": {
+        "exit_code": 1,
+        "crop_diagnosis": true
+      },
+      "tiff-invalid": {
+        "exit_code": 1,
+        "crop_diagnosis": true
+      },
+      "zero-height": {
+        "exit_code": 1,
+        "crop_diagnosis": true
+      }
+    }
+  },
+  "replayed_pre": {
+    "output": "/mnt/c/dev/kensyoukin/experiments/vesuvius/r009/20261113-pyramid-metadata-verification01/run-02/disabled-pre.zarr",
+    "datasets": [
+      "0"
+    ],
+    "arrays": [
+      "0"
+    ],
+    "chunks": 0,
+    "manifest": {
+      ".zattrs": {
+        "bytes": 1305,
+        "sha256": "bfe9201d173114f51d93466794f2e81c68541a7b48dbb230f5be32fe2ac2c70a"
+      },
+      ".zgroup": {
+        "bytes": 19,
+        "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+      },
+      "0/.zarray": {
+        "bytes": 330,
+        "sha256": "3aa6350bec7cf3a0dfb80c66d42e3f408dd2e2a800c2c588d0c853329cb9e863"
+      }
+    },
+    "output_bytes": 1654
+  },
+  "C_work_bytes_before_final_json": 228331,
+  "new_ct_bytes": 0,
+  "new_cloud_cost_jpy": 0
+}

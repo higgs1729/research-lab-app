@@ -1,0 +1,42 @@
+{
+  "reviewer": "root",
+  "utc": "2026-11-14T10:47:02.123000+00:00",
+  "model_forward_calls": 0,
+  "remote_mutations": 0,
+  "pods_created": 0,
+  "fixed_inputs_cross_checked": 242,
+  "cpu_reference_patches": 3,
+  "input_tar_bytes": 5079040,
+  "input_tar_sha256": "6386a46d938f1fce52e4bc50cdbf00d13e4190098d54ebe36e5bc93ed7a2b782",
+  "estimate_usd_20_min_30_day_month": {
+    "0.89": "0.2975925925925925925925925926",
+    "0.90": "0.3009259259259259259259259259"
+  },
+  "reviewed_source_sha256": {
+    "run_once.py": "1c865be3cbbce6854ec65b136fba6de9898404bfea855ffd53fdb4562f33aa50",
+    "pod_boot.py": "2b9784300519172f8bcdd60bfb5963424bb38f1a7ca5461e4aca9f38fdc8e9c3",
+    "pod_work.py": "fe94049d5815360b5d218a4cdcf420fa3181bd0e0c616a98c50279b737751dcc",
+    "run_pilot.py": "df5e90daeb5591cd8f438315ea07fd93391030c59487960020510238448d4b39",
+    "verify_result.py": "0caebe1f38e2ca6956637dffc78b0d8ba57b2da42a3d5d7ad0da92f7032456be",
+    "local_check.py": "364b0942c0a7a400212c44c015c3652b8e6013754b71e256966f6df8ba3e449c"
+  },
+  "image_digest_chain_and_current_tag_match": true,
+  "review": [
+    "One official model load and the fixed 16-plane input in both directions; 242 total forwards maximum.",
+    "Three saved CPU references gate patch four; real GPU parity is untested.",
+    "A uniform prediction is permitted; no image threshold is used to manufacture a positive result.",
+    "Archive whitelist includes both PNGs, both patch directories and the on-Pod Hann.",
+    "Lost creation response has no second POST; ownership check is separate from allocated configuration.",
+    "Local credential stays local and the model worker receives no Pod API key.",
+    "Synthetic fixture validates transport/aggregation only and is not a real Hann/model experiment."
+  ],
+  "unresolved": [
+    "Explicit user authorization for this one paid experiment has not been received.",
+    "Current auto-pay settings are unverified: Google SSO required human passkey verification. Manual task agents:TASK-61.",
+    "Do not pass --existing-credits-checked until payment conditions are known and rechecked immediately before launch.",
+    "Live GPU execution, provisioning/exec timing and own-Pod DELETE authority are untested.",
+    "20 minutes and USD0.50 are operational limits; provider/network failure can prevent timely deletion.",
+    "For real results, independently validate saved Hann against its formula and reaggregate every completed PNG."
+  ],
+  "result": "Concrete proposal ready for an approval decision, with authentication/payment preconditions stated; no paid run authorized."
+}

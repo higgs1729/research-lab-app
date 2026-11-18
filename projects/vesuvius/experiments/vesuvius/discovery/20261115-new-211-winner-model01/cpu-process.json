@@ -1,0 +1,24 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\studio_worker.py"
+  ],
+  "cwd": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01",
+  "started_utc": "2026-11-15T09:05:00.911798+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "completed_utc": "2026-11-15T09:06:13.170285+00:00",
+  "elapsed_seconds": 72.25688400000217,
+  "max_rss_bytes": 2007961600,
+  "user_cpu_seconds": 28.859375,
+  "sys_cpu_seconds": 8.75
+}

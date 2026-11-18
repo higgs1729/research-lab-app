@@ -1,0 +1,28 @@
+{
+  "reviewer": "root",
+  "date_jst": "2026-11-14",
+  "passed": true,
+  "tiff_and_panels_compared_values": 5734400,
+  "valid_nodes": 5138,
+  "valid_quads": 4946,
+  "nominal_four_node_support_pixels": 1978400,
+  "prediction_counts": [
+    {
+      "nonzero": 2582528,
+      "outside_four_valid_nodes": 604128
+    },
+    {
+      "nonzero": 2582528,
+      "outside_four_valid_nodes": 604128
+    }
+  ],
+  "nominal_probe_xyz": [
+    3372.2149470004574,
+    3271.6281515763494,
+    12941.100107487233
+  ],
+  "nominal_probe_max_error": 4.547473508864641e-13,
+  "scope": "Exact source hashes, XYZ bounds, four-node support and unmodified native panel pixels. The nominal bilinear point uses the documented scale1/no-crop convention, not an independently reproduced historical renderer or proven physical sheet.",
+  "new_ct_bytes": 0,
+  "new_model_calls": 0
+}

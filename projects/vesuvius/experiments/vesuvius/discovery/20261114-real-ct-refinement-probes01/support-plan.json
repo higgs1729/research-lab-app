@@ -1,0 +1,593 @@
+{
+  "points": [
+    {
+      "col_row": [
+        88,
+        69
+      ],
+      "P": [
+        4619.92431640625,
+        3782.326904296875,
+        10293.4716796875
+      ],
+      "N": [
+        -0.5037065148353577,
+        -0.6384044885635376,
+        -0.5819961428642273
+      ],
+      "N_obj": [
+        -0.5037065148353577,
+        -0.6384044885635376,
+        -0.5819961428642273
+      ],
+      "Bx_obj": [
+        0.8636407852172852,
+        -0.3564579486846924,
+        -0.3564579486846924
+      ],
+      "By_obj": [
+        -0.020107194781303406,
+        0.6821857690811157,
+        -0.7309023141860962
+      ],
+      "supports": {
+        "centered": {
+          "keys": [
+            "0/80/29/35",
+            "0/80/29/36"
+          ],
+          "xyz_bounds": [
+            [
+              4606,
+              3765,
+              10277
+            ],
+            [
+              4627,
+              3790,
+              10302
+            ]
+          ],
+          "unique_corners": 3928,
+          "sample_count": 931
+        },
+        "corner": {
+          "keys": [
+            "0/80/29/36"
+          ],
+          "xyz_bounds": [
+            [
+              4611,
+              3767,
+              10271
+            ],
+            [
+              4632,
+              3792,
+              10295
+            ]
+          ],
+          "unique_corners": 3947,
+          "sample_count": 931
+        },
+        "r0": {
+          "keys": [
+            "0/80/29/36"
+          ],
+          "xyz_bounds": [
+            [
+              4611,
+              3772,
+              10284
+            ],
+            [
+              4621,
+              3784,
+              10295
+            ]
+          ],
+          "unique_corners": 99,
+          "sample_count": 19
+        },
+        "section_x": {
+          "keys": [
+            "0/80/29/35",
+            "0/80/29/36"
+          ],
+          "xyz_bounds": [
+            [
+              4599,
+              3767,
+              10279
+            ],
+            [
+              4634,
+              3789,
+              10300
+            ]
+          ],
+          "unique_corners": 1601,
+          "sample_count": 1083
+        },
+        "section_y": {
+          "keys": [
+            "0/80/29/36"
+          ],
+          "xyz_bounds": [
+            [
+              4611,
+              3762,
+              10273
+            ],
+            [
+              4622,
+              3794,
+              10305
+            ]
+          ],
+          "unique_corners": 1561,
+          "sample_count": 1083
+        }
+      }
+    },
+    {
+      "col_row": [
+        299,
+        41
+      ],
+      "P": [
+        4075.09130859375,
+        4342.146484375,
+        10511.4677734375
+      ],
+      "N": [
+        -0.9886640310287476,
+        -0.10366859287023544,
+        0.10861077159643173
+      ],
+      "N_obj": [
+        -0.9886640310287476,
+        -0.10366859287023544,
+        0.10861077159643173
+      ],
+      "Bx_obj": [
+        0.09508835524320602,
+        0.1274997442960739,
+        0.9872699975967407
+      ],
+      "By_obj": [
+        -0.11619672924280167,
+        0.9864059090614319,
+        -0.11619672924280167
+      ],
+      "supports": {
+        "centered": {
+          "keys": [
+            "0/82/33/31"
+          ],
+          "xyz_bounds": [
+            [
+              4058,
+              4333,
+              10504
+            ],
+            [
+              4079,
+              4350,
+              10520
+            ]
+          ],
+          "unique_corners": 3953,
+          "sample_count": 931
+        },
+        "corner": {
+          "keys": [
+            "0/82/33/31",
+            "0/82/34/31"
+          ],
+          "xyz_bounds": [
+            [
+              4057,
+              4340,
+              10509
+            ],
+            [
+              4079,
+              4356,
+              10526
+            ]
+          ],
+          "unique_corners": 3955,
+          "sample_count": 931
+        },
+        "r0": {
+          "keys": [
+            "0/82/33/31"
+          ],
+          "xyz_bounds": [
+            [
+              4059,
+              4340,
+              10511
+            ],
+            [
+              4078,
+              4343,
+              10514
+            ]
+          ],
+          "unique_corners": 88,
+          "sample_count": 19
+        },
+        "section_x": {
+          "keys": [
+            "0/82/33/31"
+          ],
+          "xyz_bounds": [
+            [
+              4057,
+              4338,
+              10497
+            ],
+            [
+              4079,
+              4345,
+              10528
+            ]
+          ],
+          "unique_corners": 1364,
+          "sample_count": 1083
+        },
+        "section_y": {
+          "keys": [
+            "0/82/33/31",
+            "0/82/34/31"
+          ],
+          "xyz_bounds": [
+            [
+              4057,
+              4326,
+              10509
+            ],
+            [
+              4079,
+              4357,
+              10515
+            ]
+          ],
+          "unique_corners": 1352,
+          "sample_count": 1083
+        }
+      }
+    },
+    {
+      "col_row": [
+        306,
+        39
+      ],
+      "P": [
+        4104.048828125,
+        4242.52587890625,
+        10416.8115234375
+      ],
+      "N": [
+        -0.8882886171340942,
+        -0.3351120054721832,
+        -0.3140753209590912
+      ],
+      "N_obj": [
+        -0.8882886171340942,
+        -0.3351120054721832,
+        -0.3140753209590912
+      ],
+      "Bx_obj": [
+        0.3790897727012634,
+        -0.14889109134674072,
+        -0.913303017616272
+      ],
+      "By_obj": [
+        -0.259295791387558,
+        0.9303393959999084,
+        -0.259295791387558
+      ],
+      "supports": {
+        "centered": {
+          "keys": [
+            "0/81/33/31",
+            "0/81/33/32"
+          ],
+          "xyz_bounds": [
+            [
+              4086,
+              4230,
+              10404
+            ],
+            [
+              4110,
+              4250,
+              10425
+            ]
+          ],
+          "unique_corners": 3965,
+          "sample_count": 931
+        },
+        "corner": {
+          "keys": [
+            "0/81/33/31",
+            "0/81/33/32"
+          ],
+          "xyz_bounds": [
+            [
+              4086,
+              4235,
+              10397
+            ],
+            [
+              4111,
+              4255,
+              10418
+            ]
+          ],
+          "unique_corners": 3956,
+          "sample_count": 931
+        },
+        "r0": {
+          "keys": [
+            "0/81/33/31",
+            "0/81/33/32"
+          ],
+          "xyz_bounds": [
+            [
+              4089,
+              4237,
+              10411
+            ],
+            [
+              4106,
+              4244,
+              10418
+            ]
+          ],
+          "unique_corners": 100,
+          "sample_count": 19
+        },
+        "section_x": {
+          "keys": [
+            "0/81/33/31",
+            "0/81/33/32"
+          ],
+          "xyz_bounds": [
+            [
+              4084,
+              4235,
+              10399
+            ],
+            [
+              4112,
+              4246,
+              10431
+            ]
+          ],
+          "unique_corners": 1493,
+          "sample_count": 1083
+        },
+        "section_y": {
+          "keys": [
+            "0/81/33/31",
+            "0/81/33/32"
+          ],
+          "xyz_bounds": [
+            [
+              4086,
+              4224,
+              10408
+            ],
+            [
+              4110,
+              4257,
+              10422
+            ]
+          ],
+          "unique_corners": 1529,
+          "sample_count": 1083
+        }
+      }
+    },
+    {
+      "col_row": [
+        324,
+        39
+      ],
+      "P": [
+        4314.56396484375,
+        3986.13525390625,
+        10303.0126953125
+      ],
+      "N": [
+        -0.598345160484314,
+        -0.6424997448921204,
+        -0.4787246286869049
+      ],
+      "N_obj": [
+        -0.5983451008796692,
+        -0.6424996852874756,
+        -0.4787245988845825
+      ],
+      "Bx_obj": [
+        0.7981957197189331,
+        -0.42595985531806946,
+        -0.42595985531806946
+      ],
+      "By_obj": [
+        -0.06976161897182465,
+        0.6369869112968445,
+        -0.7677115201950073
+      ],
+      "supports": {
+        "centered": {
+          "keys": [
+            "0/80/31/33"
+          ],
+          "xyz_bounds": [
+            [
+              4299,
+              3969,
+              10288
+            ],
+            [
+              4321,
+              3994,
+              10312
+            ]
+          ],
+          "unique_corners": 3911,
+          "sample_count": 931
+        },
+        "corner": {
+          "keys": [
+            "0/80/31/33"
+          ],
+          "xyz_bounds": [
+            [
+              4304,
+              3970,
+              10281
+            ],
+            [
+              4326,
+              3996,
+              10304
+            ]
+          ],
+          "unique_corners": 3911,
+          "sample_count": 931
+        },
+        "r0": {
+          "keys": [
+            "0/80/31/33"
+          ],
+          "xyz_bounds": [
+            [
+              4304,
+              3975,
+              10295
+            ],
+            [
+              4316,
+              3988,
+              10304
+            ]
+          ],
+          "unique_corners": 100,
+          "sample_count": 19
+        },
+        "section_x": {
+          "keys": [
+            "0/80/31/33"
+          ],
+          "xyz_bounds": [
+            [
+              4293,
+              3969,
+              10289
+            ],
+            [
+              4327,
+              3994,
+              10310
+            ]
+          ],
+          "unique_corners": 1615,
+          "sample_count": 1083
+        },
+        "section_y": {
+          "keys": [
+            "0/80/30/33",
+            "0/80/31/33"
+          ],
+          "xyz_bounds": [
+            [
+              4304,
+              3966,
+              10284
+            ],
+            [
+              4317,
+              3997,
+              10315
+            ]
+          ],
+          "unique_corners": 1608,
+          "sample_count": 1083
+        }
+      }
+    }
+  ],
+  "support_union": [
+    "0/80/29/35",
+    "0/80/29/36",
+    "0/80/30/33",
+    "0/80/31/33",
+    "0/81/33/31",
+    "0/81/33/32",
+    "0/82/33/31",
+    "0/82/34/31"
+  ],
+  "cached": {
+    "0/80/29/35": {
+      "file": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/80/29/35",
+      "sha256": "b804ff1757c796c1a8c205f823c6b5f48b8857d136ffeadd7e495fb06d30f199",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr/0/80/29/35",
+      "bytes": 2097152
+    },
+    "0/80/29/36": {
+      "file": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-ct-readable01/ct.zarr/0/80/29/36",
+      "sha256": "db5c261f7f449b5afb03bea2ec00b78cb4e7eb5fb309bace1f045fed7db67600",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr/0/80/29/36",
+      "bytes": 2097152
+    },
+    "0/80/30/33": {
+      "file": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-edge-probes01/ct.zarr/0/80/30/33",
+      "sha256": "5bebfe289c050880011d556f7345807fcb9eb8dfda3ba51fa660338634120456",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr/0/80/30/33",
+      "bytes": 2097152
+    },
+    "0/80/31/33": {
+      "file": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-edge-probes01/ct.zarr/0/80/31/33",
+      "sha256": "d3270df7f573a4d02a688309c860e321bff90fb43d7346f864debc66f70bf9b8",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr/0/80/31/33",
+      "bytes": 2097152
+    },
+    "0/81/33/31": {
+      "file": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-edge-probes01/ct.zarr/0/81/33/31",
+      "sha256": "83cec8d9e3e5d07328cf1530e8f1cfd504569d23f4ccf98505d815359b4ddf3e",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr/0/81/33/31",
+      "bytes": 2097152
+    },
+    "0/81/33/32": {
+      "file": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-edge-probes01/ct.zarr/0/81/33/32",
+      "sha256": "5fb56a573af6a10682739c20bd765ae6eee23a8678e98973cd8694c40164c401",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr/0/81/33/32",
+      "bytes": 2097152
+    },
+    "0/82/33/31": {
+      "file": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-edge-probes01/ct.zarr/0/82/33/31",
+      "sha256": "7e46fefdd8a9fcfeffadd7acb0cc92667e3bc06c30d9daf9bb151ea0d3d639cf",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr/0/82/33/31",
+      "bytes": 2097152
+    },
+    "0/82/34/31": {
+      "file": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261114-pherc0343-edge-probes01/ct.zarr/0/82/34/31",
+      "sha256": "d7c77cffe8a1741a8aa7056f0efe257ab1807b8e54ddccfe2b0b35dd4cb0870b",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr/0/82/34/31",
+      "bytes": 2097152
+    }
+  },
+  "missing": [],
+  "missing_bytes": 0,
+  "metadata_sha256": {
+    ".zgroup": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+    ".zattrs": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+    "0/.zarray": "da501230c845ddebe3317941e12a90452f7f14c75f75b1e34ee43c1133c613e4"
+  }
+}

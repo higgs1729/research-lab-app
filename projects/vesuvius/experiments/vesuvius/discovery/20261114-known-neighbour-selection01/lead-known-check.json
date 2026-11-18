@@ -1,0 +1,348 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "winner_image_sha256": "59307c84ea65091de1bea14a3b75d44069bfe1fb498b3445f698ec3d1b8c1c78",
+  "winner_image_wh": [
+    5854,
+    2881
+  ],
+  "raw_to_reading_box_formula": "[col1-x1,row1-y1,col1-x0,row1-y0], exclusive boundaries",
+  "mapped_boxes": [
+    {
+      "id": 1,
+      "raw_box": [
+        4992.5,
+        684.0,
+        5441.7,
+        1054.8
+      ],
+      "area_box": [
+        579.3000000000002,
+        1505.2,
+        1028.5,
+        1876.0
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 2,
+      "raw_box": [
+        4804.0,
+        729.1,
+        4934.6,
+        1068.5
+      ],
+      "area_box": [
+        1086.3999999999996,
+        1491.5,
+        1217.0,
+        1830.9
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 3,
+      "raw_box": [
+        4563.9,
+        791.7,
+        4822.3,
+        1136.3
+      ],
+      "area_box": [
+        1198.6999999999998,
+        1423.7,
+        1457.1000000000004,
+        1768.3
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 4,
+      "raw_box": [
+        4106.3,
+        765.4,
+        4570.5,
+        1205.6
+      ],
+      "area_box": [
+        1450.5,
+        1354.4,
+        1914.6999999999998,
+        1794.6
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 5,
+      "raw_box": [
+        3443.1,
+        807.6,
+        4006.8,
+        1229.7
+      ],
+      "area_box": [
+        2014.1999999999998,
+        1330.3,
+        2577.9,
+        1752.4
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 6,
+      "raw_box": [
+        2967.8,
+        892.0,
+        3278.4,
+        1301.8
+      ],
+      "area_box": [
+        2742.6,
+        1258.2,
+        3053.2,
+        1668.0
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 7,
+      "raw_box": [
+        2610.2,
+        954.6,
+        2920.8,
+        1335.8
+      ],
+      "area_box": [
+        3100.2,
+        1224.2,
+        3410.8,
+        1605.4
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 8,
+      "raw_box": [
+        2009.8,
+        1166.1,
+        2484.9,
+        1395.8
+      ],
+      "area_box": [
+        3536.1,
+        1164.2,
+        4011.2,
+        1393.9
+      ],
+      "max_difference_px": 4.547473508864641e-13
+    },
+    {
+      "id": 9,
+      "raw_box": [
+        1654.8,
+        1132.1,
+        1970.7,
+        1461.1
+      ],
+      "area_box": [
+        4050.3,
+        1098.9,
+        4366.2,
+        1427.9
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 10,
+      "raw_box": [
+        1378.8,
+        1186.6,
+        1622.9,
+        1485.0
+      ],
+      "area_box": [
+        4398.1,
+        1075.0,
+        4642.2,
+        1373.4
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 11,
+      "raw_box": [
+        1155.0,
+        1261.2,
+        1376.5,
+        1507.6
+      ],
+      "area_box": [
+        4644.5,
+        1052.4,
+        4866.0,
+        1298.8
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 12,
+      "raw_box": [
+        951.6,
+        1012.5,
+        1231.9,
+        1577.6
+      ],
+      "area_box": [
+        4789.1,
+        982.4000000000001,
+        5069.4,
+        1547.5
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 13,
+      "raw_box": [
+        732.4,
+        1245.3,
+        940.3,
+        1518.9
+      ],
+      "area_box": [
+        5080.7,
+        1041.1,
+        5288.6,
+        1314.7
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 14,
+      "raw_box": [
+        2802.7,
+        1659.0,
+        3089.7,
+        1894.1
+      ],
+      "area_box": [
+        2931.3,
+        665.9000000000001,
+        3218.3,
+        901.0
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 15,
+      "raw_box": [
+        2397.8,
+        1750.6,
+        2795.1,
+        1981.6
+      ],
+      "area_box": [
+        3225.9,
+        578.4000000000001,
+        3623.2,
+        809.4000000000001
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 16,
+      "raw_box": [
+        2088.5,
+        1729.1,
+        2384.6,
+        2002.6
+      ],
+      "area_box": [
+        3636.4,
+        557.4000000000001,
+        3932.5,
+        830.9000000000001
+      ],
+      "max_difference_px": 4.547473508864641e-13
+    },
+    {
+      "id": 17,
+      "raw_box": [
+        1853.4,
+        1747.2,
+        2061.3,
+        2025.2
+      ],
+      "area_box": [
+        3959.7,
+        534.8,
+        4167.6,
+        812.8
+      ],
+      "max_difference_px": 0.0
+    },
+    {
+      "id": 18,
+      "raw_box": [
+        1595.8,
+        1595.7,
+        1871.5,
+        2023.0
+      ],
+      "area_box": [
+        4149.5,
+        537.0,
+        4425.2,
+        964.3
+      ],
+      "max_difference_px": 0.0
+    }
+  ],
+  "mesh_comparison": {
+    "x": {
+      "winner_shape": [
+        128,
+        336
+      ],
+      "control_shape": [
+        128,
+        336
+      ],
+      "winner_dtype": "float32",
+      "control_dtype": "float32",
+      "bit_identical_values": 43008,
+      "all_values": 43008,
+      "all_bits_equal": true
+    },
+    "y": {
+      "winner_shape": [
+        128,
+        336
+      ],
+      "control_shape": [
+        128,
+        336
+      ],
+      "winner_dtype": "float32",
+      "control_dtype": "float32",
+      "bit_identical_values": 43008,
+      "all_values": 43008,
+      "all_bits_equal": true
+    },
+    "z": {
+      "winner_shape": [
+        128,
+        336
+      ],
+      "control_shape": [
+        128,
+        336
+      ],
+      "winner_dtype": "float32",
+      "control_dtype": "float32",
+      "bit_identical_values": 43008,
+      "all_values": 43008,
+      "all_bits_equal": true
+    }
+  },
+  "scope": "Checks the 18 published location boxes and saved mesh relation. The boxes are not a complete map of all previously known text, and no point outside them is declared unread."
+}

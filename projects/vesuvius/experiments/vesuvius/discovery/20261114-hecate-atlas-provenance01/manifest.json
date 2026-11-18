@@ -1,0 +1,226 @@
+{
+  "generated_utc": "2026-11-14T09:29:30.452612+00:00",
+  "workspace_bytes_before_manifest": 1445789,
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/acquisition.json",
+      "bytes": 13205,
+      "sha256": "6857415800d56814f87b5a3216c40e0c9e01b0aaf4281215f2f4f4f8e89c1c1f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/check_saved_input.py",
+      "bytes": 6186,
+      "sha256": "5694c5a70747e664e87c2b1e079630fcd031dd37384dc7a0319be29175c2560d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/discovery-receipts.json",
+      "bytes": 637,
+      "sha256": "cc8dd516af73458c826d0ec1559e33d586bb018dc57cafc76f6fba2cb9c2ca5a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/get_hf_metadata.py",
+      "bytes": 1543,
+      "sha256": "9d06bc5b4965712e39e0122d1c1d0ee82d186b129b917c1a936dfa63fdd367ea"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/github-receipts.json",
+      "bytes": 5767,
+      "sha256": "d1c39e86ef3c1f0e39634fcbac067e2a9c1208e46f47e9e0ebdab19e28117f43"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/hf-metadata-receipts.json",
+      "bytes": 834,
+      "sha256": "45cb7be518fe7e2a96cb895e73e8e1b61da5ffc29e962723db36b584a3e3c2de"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/input-check-process.json",
+      "bytes": 690,
+      "sha256": "c90d31a6768d4e5c0e7e8c87a87f90f06594764fee540063372145d860b752f5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/lead-depth-checked.json",
+      "bytes": 1660,
+      "sha256": "83f424d94e8c40105c3feab0a74b05bc0143c2e6b1740ce63b26a0bd52cb200c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/lead-depth-process.json",
+      "bytes": 690,
+      "sha256": "ea7eb1e24a2c38ac9eb8b265d831032b9fe0db6bcc8897cd3fa28a8c90ece8ef"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/lead-source-checked.json",
+      "bytes": 3659,
+      "sha256": "8ad136ee30c38834d1880e65a0464dcb351e8042f18a789e3446c3c06a93ba53"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/lead_depth_check.py",
+      "bytes": 3468,
+      "sha256": "62e3b5f6c7339c9a022586fee69b72d1dcf4d32edf0260d82e4048b81e1e95fe"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/lead_source_check.py",
+      "bytes": 3226,
+      "sha256": "405fbe7d54f300d81e9a145f0c116c7906b819a017e075fc74ea13c80590936b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/atlas-hf-script.py",
+      "bytes": 5630,
+      "sha256": "3d3b944ba2c5357248582a083c688957755ae9422c4b70a0c3eac14f3b268e3f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/atlas-history.json",
+      "bytes": 24781,
+      "sha256": "732d442a30cd321cf87c1659bd816f1d822086e43a25a416a04aa2585b730512"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/atlas-kit-history.json",
+      "bytes": 24781,
+      "sha256": "732d442a30cd321cf87c1659bd816f1d822086e43a25a416a04aa2585b730512"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/atlas-scripts-tree.json",
+      "bytes": 412,
+      "sha256": "95e9301ad4689525599cef8256f27a6f48bd1d2f9a496fe287a154cfbd083331"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/atlas-tool-doc.md",
+      "bytes": 15712,
+      "sha256": "aaf1045b6eb38256e074ea88dcc9216045f1de002425a0f3325ee644c8323395"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/early-release-runners.py",
+      "bytes": 18061,
+      "sha256": "4c62eb1805fe16eb6f4444071eedf022ffa7f5dda0c75967d02118f36dea692a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/early-release-zoo.py",
+      "bytes": 20327,
+      "sha256": "5773cbc54fb0c6f0be780349cc2df3b87e1aed7c1eb62a09a248b7439336a0c5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/hf-atlas-commits.json",
+      "bytes": 2263,
+      "sha256": "e42b4790dc9e9d971049dce70c873bae56ce469060fa670c5f7198da21ac2424"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/hf-atlas-root-tree.json",
+      "bytes": 487,
+      "sha256": "94281ef08846ba7730eba900677c0f1d49ddef5819a53821f673d7289cf8d356"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/ink-lens-history.json",
+      "bytes": 19001,
+      "sha256": "121a1a056c54203221672d61079be03e57e01f5f5f46774e662bc1774cc34620"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/ink-sdk-pin-commit.json",
+      "bytes": 5674,
+      "sha256": "f28c477d33eaad378f13a01fb31bf0be133cf81f4710eff7805f68836d25d09c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/kit-tree.json",
+      "bytes": 23751,
+      "sha256": "f5c2900dfc4637fae6cb4b1b3ad94a91efcae6fc3e51de1abe4b4b207f4f3fb2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/near-release-atlas.py",
+      "bytes": 32341,
+      "sha256": "d3650789413790925cd65b8e526fa59a48a2450935ae3ff290791e668024f2b1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/near-release-commits.json",
+      "bytes": 16063,
+      "sha256": "70d3e1c1e450542f607d5a33ce774696028a936ea2764db8c90dd8dc377e16f3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/near-release-compare.py",
+      "bytes": 28922,
+      "sha256": "f10a6a398424c7140a6d1e817888556b5da6e49a6c5954cdd8825ca4c1790943"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/near-release-runners.py",
+      "bytes": 18221,
+      "sha256": "f7a19167e1ddc675eaf1d74d54c0c666016500f6b79ed2c15564acdcc0856458"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/near-release-zoo.py",
+      "bytes": 20624,
+      "sha256": "8a59fa7057c8e600c67ffdddf8eec2805718cbb478f91a9656c7f1fd440b5f2d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/pre-upload-compare.py",
+      "bytes": 28645,
+      "sha256": "ea80ecac11d86d2dcaa9cb685c5565f832600b056dd87b34cfe65098ae2451b5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/pre-upload-runners.py",
+      "bytes": 18219,
+      "sha256": "a3ca690510d22a8ec18921164ac6c2e67b6f9839d51008e6ea9248a28e5f3305"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/pre-upload-zoo.py",
+      "bytes": 20624,
+      "sha256": "5cf903ba6959b3312033d1a952a57bbeda6700b44d984fcd58a8293d8e63a877"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/release-commit.json",
+      "bytes": 183882,
+      "sha256": "6676f88ef819f7670e12dd8080730996ffb7fff98d44f1aebe42d4f585eccc7d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/release-lens-tree.json",
+      "bytes": 22725,
+      "sha256": "2707e25e2a3f80ff6dbe203accdf390f36277814506c20a99f960f602dd2d063"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/release-meta.json",
+      "bytes": 740167,
+      "sha256": "eda1eafc8f67e88b8165087d26f18c959d161d060f5866304b50a6ae906d5a65"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/sdk-adapter.py",
+      "bytes": 7236,
+      "sha256": "547ba59f952f4adda37509a2bc4d6ac04f5f34a2435d835b655769e7ed20f19f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/sdk-profile.toml",
+      "bytes": 884,
+      "sha256": "78a58c86d200f9876240466e429a265d9fe061c0aa7918bfa2cb3c79690b4625"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/sdk-tree.json",
+      "bytes": 17173,
+      "sha256": "b6f12cc6c9ae8f44766d8a670caa69e52349ab7d60dcb82389ead0014cbf4a0a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/originals/sdk-vendor.py",
+      "bytes": 22462,
+      "sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/pre-upload-receipts.json",
+      "bytes": 897,
+      "sha256": "ca182b70af2d83b4426d8bc630ca4df13c4a1258e9564b89b444841f11b64969"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/README.md",
+      "bytes": 6528,
+      "sha256": "ac9a05714e3efbc6cdbd91a2c81b988212b811af7eb1a22ad3bd93dae690f915"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/record.json",
+      "bytes": 2424,
+      "sha256": "797bd7b4ba5d203a59f8ab93b2510473d79c0d9d7719ef1ecf0bf751334de1fa"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-atlas-provenance01/saved-input-check.json",
+      "bytes": 47412,
+      "sha256": "2b38a18d249b779f2674890058b3e63b449985d65156b4c12df3f8469e420177"
+    },
+    {
+      "path": "research/197-hecate-atlas-provenance-gap.md",
+      "bytes": 7895,
+      "sha256": "239d6c21877390f0017fd854b2e6a302beb4fc965d06ddb0aca6eea0b0b839d9"
+    }
+  ]
+}

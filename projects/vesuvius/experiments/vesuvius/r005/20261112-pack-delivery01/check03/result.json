@@ -1,0 +1,194 @@
+{
+  "portable_metrics_checks": [
+    {
+      "case": "first-before",
+      "sha256": "e6cf25a4e7468935b5a6aab9552a0863528a2b5090bb39f3d0357992050e9483",
+      "fields_compared": [
+        "grid_yx",
+        "source_vertices",
+        "source_faces",
+        "input_quads",
+        "source_components",
+        "invalid_uv_vertices",
+        "filtered_triangles",
+        "output_points",
+        "rejected_events",
+        "cross_component_rejected",
+        "cross_component_grid_edges",
+        "no_owned_sample_quads",
+        "gt20",
+        "gt40",
+        "max_finite_distance",
+        "quads_without_component_samples"
+      ]
+    },
+    {
+      "case": "first-after",
+      "sha256": "924051575f14ab4c9911b0ceb4e02e23c72b33c1e207104f2352d4598d897d2d",
+      "fields_compared": [
+        "grid_yx",
+        "source_vertices",
+        "source_faces",
+        "input_quads",
+        "source_components",
+        "invalid_uv_vertices",
+        "filtered_triangles",
+        "output_points",
+        "rejected_events",
+        "cross_component_rejected",
+        "cross_component_grid_edges",
+        "no_owned_sample_quads",
+        "gt20",
+        "gt40",
+        "max_finite_distance",
+        "quads_without_component_samples"
+      ]
+    },
+    {
+      "case": "first-low",
+      "sha256": "fe3ca806b7b33dd2b7efb96decd51a8bc17ff4b13468fb8374f5f2e56a6617e5",
+      "fields_compared": [
+        "grid_yx",
+        "source_vertices",
+        "source_faces",
+        "input_quads",
+        "source_components",
+        "invalid_uv_vertices",
+        "filtered_triangles",
+        "output_points",
+        "rejected_events",
+        "cross_component_rejected",
+        "cross_component_grid_edges",
+        "no_owned_sample_quads",
+        "gt20",
+        "gt40",
+        "max_finite_distance",
+        "quads_without_component_samples"
+      ]
+    },
+    {
+      "case": "second-before",
+      "sha256": "064d5cbe930772c3cab7fc7f0f7d4743086a7eacef64fa3bb10d1835648e6776",
+      "fields_compared": [
+        "grid_yx",
+        "source_vertices",
+        "source_faces",
+        "input_quads",
+        "source_components",
+        "invalid_uv_vertices",
+        "filtered_triangles",
+        "output_points",
+        "rejected_events",
+        "cross_component_rejected",
+        "cross_component_grid_edges",
+        "no_owned_sample_quads",
+        "gt20",
+        "gt40",
+        "max_finite_distance",
+        "quads_without_component_samples"
+      ]
+    },
+    {
+      "case": "second-after",
+      "sha256": "65c5c1b1adb1f8bab476acbc8c45513d84d6f44cdc18caefba180d902d07bd21",
+      "fields_compared": [
+        "grid_yx",
+        "source_vertices",
+        "source_faces",
+        "input_quads",
+        "source_components",
+        "invalid_uv_vertices",
+        "filtered_triangles",
+        "output_points",
+        "rejected_events",
+        "cross_component_rejected",
+        "cross_component_grid_edges",
+        "no_owned_sample_quads",
+        "gt20",
+        "gt40",
+        "max_finite_distance",
+        "quads_without_component_samples"
+      ]
+    }
+  ],
+  "three_packaged_patches_apply_to_exact_frozen_instrumented_sources": true,
+  "patch_commands": [
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--whitespace=error",
+        "--check",
+        "C:\\dev\\kensyoukin\\deliverables\\vesuvius\\flatboi-pack-components-20261112\\pack-components.patch"
+      ],
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--whitespace=error",
+        "C:\\dev\\kensyoukin\\deliverables\\vesuvius\\flatboi-pack-components-20261112\\pack-components.patch"
+      ],
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--whitespace=error",
+        "--check",
+        "C:\\dev\\kensyoukin\\deliverables\\vesuvius\\flatboi-pack-components-20261112\\diagnostics\\flatboi-observation.patch"
+      ],
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--whitespace=error",
+        "C:\\dev\\kensyoukin\\deliverables\\vesuvius\\flatboi-pack-components-20261112\\diagnostics\\flatboi-observation.patch"
+      ],
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--whitespace=error",
+        "--check",
+        "C:\\dev\\kensyoukin\\deliverables\\vesuvius\\flatboi-pack-components-20261112\\diagnostics\\raster-observation.patch"
+      ],
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.autocrlf=false",
+        "apply",
+        "--whitespace=error",
+        "C:\\dev\\kensyoukin\\deliverables\\vesuvius\\flatboi-pack-components-20261112\\diagnostics\\raster-observation.patch"
+      ],
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "prior_failure": "All5 numeric summaries had passed; Windows Git refused repository traversal on exFAT ownership. Used hash-checked source file instead, without changing persistent Git configuration or rerunning the metrics. Second packaging check applied correct code but Windows Git converted LF to CRLF; this check disables autocrlf only for each apply command.",
+  "method": "Packaging validation of frozen results, not new independent scientific verification."
+}

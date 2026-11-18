@@ -1,0 +1,84 @@
+{
+  "raster_gates": {
+    "I": {
+      "candidate": {
+        "id": "Q",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1764626765716224
+      },
+      "control": {
+        "id": "I",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1763771177297075
+      },
+      "rule": "candidate has no negative/zero faces and mean_SD < control mean_SD",
+      "passed": false
+    },
+    "N": {
+      "candidate": {
+        "id": "Q",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1764626765716224
+      },
+      "control": {
+        "id": "N",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1764030449873752
+      },
+      "rule": "candidate has no negative/zero faces and mean_SD < control mean_SD",
+      "passed": false
+    },
+    "O": {
+      "candidate": {
+        "id": "Q",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1764626765716224
+      },
+      "control": {
+        "id": "O",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1770858884739255
+      },
+      "rule": "candidate has no negative/zero faces and mean_SD < control mean_SD",
+      "passed": true
+    },
+    "P": {
+      "candidate": {
+        "id": "Q",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1764626765716224
+      },
+      "control": {
+        "id": "P",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.17704420459164
+      },
+      "rule": "candidate has no negative/zero faces and mean_SD < control mean_SD",
+      "passed": true
+    }
+  }
+}

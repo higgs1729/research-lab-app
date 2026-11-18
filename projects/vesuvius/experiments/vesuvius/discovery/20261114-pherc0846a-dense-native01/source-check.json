@@ -1,0 +1,117 @@
+{
+  "author": "3ea17f54a9b3d5fd1aaf73e1d2c8386dbaa9f30e",
+  "borrowed": "47a9c37f6f8e99afdab47bb46ad425aa726f5dc0",
+  "git_repo": "D:/kensyoukin-work/r003-villa",
+  "scope": [
+    "ink-detection",
+    "vesuvius/src/vesuvius"
+  ],
+  "changes": [
+    "M\tink-detection/koine_machines/preprocessing/create_label_zarrs.py"
+  ],
+  "safetensors_installed_version": "0.8.0",
+  "author_training_datasets": [
+    {
+      "family": "public_2p4_level2_zmean4",
+      "segments": [
+        "pherc0139-w016",
+        "pherc0139-w035",
+        "pherc0139-w039",
+        "pherc0139-w040",
+        "pherc0139-w041",
+        "pherc0139-w043"
+      ]
+    },
+    {
+      "family": "public_2p4_level2_zmean4",
+      "segments": [
+        "pherc0139-w017",
+        "pherc0139-w028",
+        "pherc0139-w029"
+      ]
+    },
+    {
+      "family": "public_2p4_level2_zmean4",
+      "segments": [
+        "pherc0814-46527"
+      ]
+    },
+    {
+      "family": "public_2p4_level2_zmean4",
+      "segments": [
+        "pherc1667-w013",
+        "pherc1667-w018",
+        "pherc1667-w023",
+        "pherc1667-w031"
+      ]
+    },
+    {
+      "family": "public_2p4_level2_zmean4",
+      "segments": [
+        "pherc1667-w028",
+        "pherc1667-w029"
+      ]
+    },
+    {
+      "family": "public_2p4_level2_zmean4",
+      "segments": [
+        "phercparis4-w00",
+        "phercparis4-w01",
+        "phercparis4-w02",
+        "phercparis4-w03",
+        "phercparis4-w05",
+        "phercparis4-w06",
+        "phercparis4-w07",
+        "phercparis4-w09"
+      ]
+    },
+    {
+      "family": "native_9p362_level0",
+      "segments": [
+        "w035",
+        "w039",
+        "w040",
+        "w041",
+        "w044"
+      ]
+    },
+    {
+      "family": "native_9p362_level0_dense78keV",
+      "segments": [
+        "w030",
+        "w032",
+        "w033",
+        "w034",
+        "w040",
+        "w041",
+        "w043",
+        "w046",
+        "w049",
+        "w050"
+      ]
+    }
+  ],
+  "target_lexical_matches": {
+    "author-config.json": {
+      "0846a": false,
+      "20250728152254": false
+    },
+    "author-native-report.json": {
+      "0846a": false,
+      "20250728152254": false
+    },
+    "author-dense7-report.json": {
+      "0846a": false,
+      "20250728152254": false
+    },
+    "author-teacher-sources.tsv": {
+      "0846a": false,
+      "20250728152254": false
+    },
+    "author-aligned-sources.tsv": {
+      "0846a": false,
+      "20250728152254": false
+    }
+  },
+  "scope_limit": "Declared treatment inputs and public reports only, no transitive exclusion proof."
+}

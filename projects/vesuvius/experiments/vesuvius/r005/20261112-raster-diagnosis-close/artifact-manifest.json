@@ -1,0 +1,388 @@
+{
+  "created_utc": "2026-11-11T21:23:43.296035+00:00",
+  "scope": "Reports67/68, retained diagnosis failure and successful replacement, G geometry input, density adapter build/control/dense runs, saved outputs, figures, independent verification and resource/runtime records. Existing raster code/libraries referenced by prior frozen sources and protected per-run hashes.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis-close/decision-record.json",
+      "bytes": 1176,
+      "sha256": "524e777a339b7cf02a8d3270ef744bf704623c6f5d0ff8c7b4c5cf5693c4b7e4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis-close/experiment-record.json",
+      "bytes": 1632,
+      "sha256": "196b764b62dffcba8796e6373862304e842cd361fb61ebc6acd742601e00c740"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis-close/freeze.py",
+      "bytes": 5267,
+      "sha256": "42d97f1e5ec91ddae845dde61c8d208c82dbb712997a9ca24cd0bc4f14290fba"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis-close/resources.json",
+      "bytes": 23462,
+      "sha256": "42cfeb52fe18628f062ecb4b4358eac96d4ea5e73bd04012004947b75d17033a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis-close/runtime-status.json",
+      "bytes": 1046,
+      "sha256": "63e925442fb3bff20d5fd1af9041f246691320fc74a616cd8c038d2562ee6a45"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis-close/verification-record.json",
+      "bytes": 714,
+      "sha256": "95861d17cc5e193115a2b7378e6e8b9bf999d4e44d1a9720793ed5af225fe8fe"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis-verification01/check01/arrays.npz",
+      "bytes": 3655709,
+      "sha256": "fe6cbc3ecfa57e8f000646a78b322d0409ff8919e8d981962849ecb46da8743a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis-verification01/check01/result.json",
+      "bytes": 32171,
+      "sha256": "dd15b6bd11fff74832729d57b3754960904011c58be762c42716a257b3b52332"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis-verification01/check01-execution/state.json",
+      "bytes": 887,
+      "sha256": "0a66f184da695b5f3440f37177b7b2a2aef6e13d4b39b307e88273b502b4c4de"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis-verification01/check01-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis-verification01/verify_samples.py",
+      "bytes": 16949,
+      "sha256": "fa04dcde36fde6ed4b720ba93aa550cadab5a39b037e0505cad2f4478477538c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/build01/native_density.py",
+      "bytes": 3549,
+      "sha256": "6701f8761b9c2c72332c83ce506a8eb95c76429d69b95489f830965c543add2b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/build01/raster_density.cpp",
+      "bytes": 1369,
+      "sha256": "bba919ec368a22651fedf47d0a1bf5930f70e040e3abb8995cbd1d8af7422e01"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/build01/state.json",
+      "bytes": 8738,
+      "sha256": "be2d4d2f1fad2ddda1ed14a1fd5f92623fe986c640fdcc09ce25a54bb7f9856f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/build01/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/check_control.py",
+      "bytes": 1254,
+      "sha256": "7a146145aee58c03e374d661d6eb35db7d25225c019d405d6e416f8cc657f89f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/control-check01/check_control.py",
+      "bytes": 1254,
+      "sha256": "7a146145aee58c03e374d661d6eb35db7d25225c019d405d6e416f8cc657f89f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/control-check01/result.json",
+      "bytes": 432,
+      "sha256": "ecd81b4a4b64c187e124ca1daa6b722124d5db45d4605b2b4378d24eeae57239"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/control-check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/control-check01-execution/state.json",
+      "bytes": 868,
+      "sha256": "5f4f7bb82a63569f5fd0afd6ba9eb1348af2a7a169df56f5e182164d834a9d17"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/control-check01-execution/stdout.log",
+      "bytes": 393,
+      "sha256": "b690079e73c40e0ca7dc9f2dea58db97852e5ab8b9e71f32168b8695aae05573"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/control01/native_density.py",
+      "bytes": 3549,
+      "sha256": "6701f8761b9c2c72332c83ce506a8eb95c76429d69b95489f830965c543add2b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/control01/points.bin",
+      "bytes": 8946436,
+      "sha256": "61d1749d4083f6a99fadc2a7c1e514ce24a2020d5302794b4b7c1a1e71f2280f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/control01/raster_density.cpp",
+      "bytes": 1369,
+      "sha256": "bba919ec368a22651fedf47d0a1bf5930f70e040e3abb8995cbd1d8af7422e01"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/control01/raster_trace.json",
+      "bytes": 3184097,
+      "sha256": "2f3b6673160a9113cc27bb38060720a2ce4bacba0317d0b120a334fbe58e1d30"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/control01/state.json",
+      "bytes": 2377,
+      "sha256": "d7aab75762e88bd0b8a86f2430ef314d9e083b4829936b743e5e5b8729e4d843"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/control01/stdout.log",
+      "bytes": 206,
+      "sha256": "32c426cfcfdc6be764b7f4ada6a0295f603ad1b39537a16f632e8d2ed3e836e8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/decision-record.json",
+      "bytes": 1125,
+      "sha256": "2d14b31b7990ddb6e30d5dfb4da4735d2a84c7f8a440aa7acad6735001a0da39"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-decision-record.json",
+      "bytes": 1627,
+      "sha256": "ad703294fca18abcd869357f1d29c4a02ce52b6572d4e124cb3b0244cb0dadd3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-evaluation01/arrays.npz",
+      "bytes": 4364467,
+      "sha256": "e33ab97e501b2c0b7e269e39da972a96cc2f549ffdc762997ac4ed4874dc3700"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-evaluation01/evaluate_density.py",
+      "bytes": 4412,
+      "sha256": "a3bbdaf27f599f5dee5e40fafd31308574996a8e6652153a2461816807e986f5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-evaluation01/result.json",
+      "bytes": 3731,
+      "sha256": "6f1403935414f4d82211df15209efa2a0f9a95cae322c88efad0efdc03768546"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-evaluation01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-evaluation01-execution/state.json",
+      "bytes": 877,
+      "sha256": "cf17c71435d37ce5af5fcc84dc20961808a21eb5378482e28c2528fc2a3fccf6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-evaluation01-execution/stdout.log",
+      "bytes": 3731,
+      "sha256": "6f1403935414f4d82211df15209efa2a0f9a95cae322c88efad0efdc03768546"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-input01/geometry.bin",
+      "bytes": 10737584,
+      "sha256": "ca0db14d86f9aff5e150e58252091bea41e38fe587f522ad375e12201c89942b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-input01/prepare_density.py",
+      "bytes": 1537,
+      "sha256": "bf8c5311c462303baefa810d3a6994eaafc05c515ca510be93d5ca5bc1faf6ca"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-input01/result.json",
+      "bytes": 602,
+      "sha256": "9ce6ad0af14d4a45744bb285f7fca828c0389794b22b5c63bb232b2e8e8e806e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-input01-execution/state.json",
+      "bytes": 871,
+      "sha256": "fbdc6d5244f58e31cf74dbe77f023466b9a0f7b192092b3b790761807c531c84"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density-input01-execution/stdout.log",
+      "bytes": 512,
+      "sha256": "3ea5539d28d46345950ef3d07fa4b7ae5f14d309dd52c3e55dd562d3790c7826"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density01/native_density.py",
+      "bytes": 3549,
+      "sha256": "6701f8761b9c2c72332c83ce506a8eb95c76429d69b95489f830965c543add2b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density01/points.bin",
+      "bytes": 35676148,
+      "sha256": "2821fc13fb177546f65684be15bd18e6b2c05b1ab9d2f24814fb0e8b8118e9e6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density01/raster_density.cpp",
+      "bytes": 1369,
+      "sha256": "bba919ec368a22651fedf47d0a1bf5930f70e040e3abb8995cbd1d8af7422e01"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density01/raster_trace.json",
+      "bytes": 12708572,
+      "sha256": "cb2416a4c36c236e9db0da884f906198e197b62daa314e7c3c3f25bf8c447d66"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density01/state.json",
+      "bytes": 2376,
+      "sha256": "83add47b44d104b3c73aae86dc040a90ab45304f3681c4e59d2568446fe9b6c9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/density01/stdout.log",
+      "bytes": 215,
+      "sha256": "52e71097cb777a650a3e6a1523dd7e6cd25e7db79879776ff236e54a4712a8a8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/diagnose_samples.py",
+      "bytes": 6046,
+      "sha256": "ba97a75b3f9c32d32ea2663b170e3d9ba892cc8114139cf207fd25309ba1670d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/diagnose_samples02.py",
+      "bytes": 6076,
+      "sha256": "9c4af8e7b994f078dd5b10db21b1438615b68ec193668e77b8a81e6325ac6770"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/diagnosis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/diagnosis01-execution/state.json",
+      "bytes": 866,
+      "sha256": "363a3bb214eee7af329aac649c05bc2d19cdf17dc5efdbd24c5eddb1f6adda00"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/diagnosis01-execution/stdout.log",
+      "bytes": 646,
+      "sha256": "2451370c12940285e77d27ebcd670cf40b479f582c3459de2d2e5ba5b322d34f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/diagnosis02/arrays.npz",
+      "bytes": 4026,
+      "sha256": "3cc376248b416ef9af93d40c6edf9660b2f1140e78c4da124e7870904f6e5014"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/diagnosis02/diagnose_samples.py",
+      "bytes": 6076,
+      "sha256": "9c4af8e7b994f078dd5b10db21b1438615b68ec193668e77b8a81e6325ac6770"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/diagnosis02/result.json",
+      "bytes": 179616,
+      "sha256": "2d51ec412aa9991ded2250b9080dc7fa51d1d17606476269379d0f83bb9f3d5a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/diagnosis02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/diagnosis02-execution/state.json",
+      "bytes": 869,
+      "sha256": "7105b645604798787b86bfb9f59972f1a8601621deb0404921d2dd9f6ca280f1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/diagnosis02-execution/stdout.log",
+      "bytes": 4976,
+      "sha256": "122abea26d2a5b9ebcf625e8e219924a14b5c8b04ba428086b7b2d8bc9da29f8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/evaluate_density.py",
+      "bytes": 4412,
+      "sha256": "a3bbdaf27f599f5dee5e40fafd31308574996a8e6652153a2461816807e986f5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/figure01/plot-sampling.ps1",
+      "bytes": 3518,
+      "sha256": "8247012dc10b24e3b87a334ba39dbb4d92cd9732d681c1306d7267d86269e911"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/figure01/sampling-lattice.png",
+      "bytes": 45638,
+      "sha256": "1a60e48383aa2038612e733c80da59577530dacf62be102e69dcb26f866e111e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/figure01/state.json",
+      "bytes": 245,
+      "sha256": "e838098ff156b556adffd8f7835c69e4f97d95a9de90f12d93d5f4748b41d22b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/figure02/plot-sampling.ps1",
+      "bytes": 3518,
+      "sha256": "d42025301adbaac224009c8ba329b8f169257bc93e6b648e544c7b7120b2b679"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/figure02/sampling-lattice.png",
+      "bytes": 49925,
+      "sha256": "4972c2f34b4fb8586a4a2bf160ca3abbf435d171c6162521c32be44774a95017"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/figure02/state.json",
+      "bytes": 255,
+      "sha256": "66f2934a0e696e6dd00f624620279ddc126270b6f92e1e1a5a6e40e4083c4c52"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/native_density.py",
+      "bytes": 3549,
+      "sha256": "6701f8761b9c2c72332c83ce506a8eb95c76429d69b95489f830965c543add2b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/plot-sampling.ps1",
+      "bytes": 3518,
+      "sha256": "8247012dc10b24e3b87a334ba39dbb4d92cd9732d681c1306d7267d86269e911"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/plot-sampling02.ps1",
+      "bytes": 3518,
+      "sha256": "d42025301adbaac224009c8ba329b8f169257bc93e6b648e544c7b7120b2b679"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/prepare_density.py",
+      "bytes": 1537,
+      "sha256": "bf8c5311c462303baefa810d3a6994eaafc05c515ca510be93d5ca5bc1faf6ca"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-raster-diagnosis01/raster_density.cpp",
+      "bytes": 1369,
+      "sha256": "bba919ec368a22651fedf47d0a1bf5930f70e040e3abb8995cbd1d8af7422e01"
+    },
+    {
+      "path": "research/67-r005-raster-sampling-diagnosis.md",
+      "bytes": 8329,
+      "sha256": "3ee6cd051a5ab47bcddde233be705530a08199fe583e9d05990e99f5da6ac648"
+    },
+    {
+      "path": "research/68-r005-raster-diagnosis-verification.md",
+      "bytes": 6934,
+      "sha256": "c0161da3c27367094d0647a1c7c9a52370d269b106eb54aa43a3708268f8bd75"
+    }
+  ],
+  "external_files": [
+    {
+      "path": "D:/kensyoukin-work/r003-build/bin/r005-raster-density01",
+      "bytes": 20245784,
+      "sha256": "59dc59ae3d6a647cca010c24748db57c9c673d0bc85060618e0cbd2c4919834f"
+    },
+    {
+      "path": "D:/kensyoukin-work/r005-density01/adapter.o",
+      "bytes": 281080,
+      "sha256": "77eaf544aff051fa63c6d52ceab1710c6f815cab50801334237fc0132d05f32c"
+    },
+    {
+      "path": "D:/kensyoukin-work/r005-build05/SurfaceMeshing-trace.o",
+      "bytes": 2357280,
+      "sha256": "53844681c5ff559b3c7ed93cda6ff5fdacb4aca5f8bd4db91f9c5ba98cfc69f5"
+    }
+  ]
+}

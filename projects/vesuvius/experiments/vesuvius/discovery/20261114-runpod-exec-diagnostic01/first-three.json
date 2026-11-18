@@ -1,0 +1,33 @@
+{
+  "cpu_parity": [
+    {
+      "index": 1,
+      "mae": 2.6357355586981157e-07,
+      "max_abs_diff": 4.827976226806641e-06,
+      "passed": true
+    },
+    {
+      "index": 2,
+      "mae": 3.915813628907472e-08,
+      "max_abs_diff": 9.015202522277832e-07,
+      "passed": true
+    },
+    {
+      "index": 3,
+      "mae": 1.0786049386979357e-08,
+      "max_abs_diff": 2.8312206268310547e-07,
+      "passed": true
+    }
+  ],
+  "patch_boundary_seconds": [
+    0.3067086348310113,
+    0.05497570615261793,
+    0.05534244887530804
+  ],
+  "projected_remaining_seconds": 13.22684528119862,
+  "remaining_seconds": 595.7958368598484,
+  "cpu_passed": true,
+  "time_passed": true,
+  "next_patch": 4,
+  "remaining_patches_both_directions": 239
+}

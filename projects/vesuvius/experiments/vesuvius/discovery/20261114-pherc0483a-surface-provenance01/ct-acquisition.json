@@ -1,0 +1,80 @@
+{
+  "plan_sha256": "f50fbdd39522201bdbdd5009cbe30843e4895bde1302e68b2a3ec642e61d1c8e",
+  "received_bytes": 12582912,
+  "responses": [
+    {
+      "method": "GET",
+      "key": "0/88/28/23",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0483A/volumes/20250521140913-8.640um-1.2m-116keV-masked.zarr/0/88/28/23",
+      "file": "ct.zarr/0/88/28/23",
+      "bytes_received": 2097152,
+      "status": 200,
+      "length": 2097152,
+      "etag": "\"8bc49f71501abe2b34f8864c2322a66a\"",
+      "sha256": "95edfd5783a1b337a225fd5f4a91ed7d5b64420431489d711bf4a15cd567a079",
+      "elapsed_total_seconds": 5.087749999998778
+    },
+    {
+      "method": "GET",
+      "key": "0/88/28/24",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0483A/volumes/20250521140913-8.640um-1.2m-116keV-masked.zarr/0/88/28/24",
+      "file": "ct.zarr/0/88/28/24",
+      "bytes_received": 2097152,
+      "status": 200,
+      "length": 2097152,
+      "etag": "\"9b7328d47e33167b2abdfc81a8191a84\"",
+      "sha256": "0b0b4c719772955dec15183b54a42faabf23da8cb18dc79c30964d62d659b046",
+      "elapsed_total_seconds": 7.072788999998011
+    },
+    {
+      "method": "GET",
+      "key": "0/89/28/23",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0483A/volumes/20250521140913-8.640um-1.2m-116keV-masked.zarr/0/89/28/23",
+      "file": "ct.zarr/0/89/28/23",
+      "bytes_received": 2097152,
+      "status": 200,
+      "length": 2097152,
+      "etag": "\"033bc1e5dd32e5c8edfbfb93e39aa7cb\"",
+      "sha256": "3f190e08038fb19a87a5170b115185affce7bd0ae2a441b4bf2b9f0b3bdb00c8",
+      "elapsed_total_seconds": 10.125835999999254
+    },
+    {
+      "method": "GET",
+      "key": "0/89/28/24",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0483A/volumes/20250521140913-8.640um-1.2m-116keV-masked.zarr/0/89/28/24",
+      "file": "ct.zarr/0/89/28/24",
+      "bytes_received": 2097152,
+      "status": 200,
+      "length": 2097152,
+      "etag": "\"d9922a48ca08e1775c52367f792c00e8\"",
+      "sha256": "19cdaa89123ce6e1fbfe0d06810473e40e360d657b148616d844f2a4ecb0482a",
+      "elapsed_total_seconds": 11.906435099997907
+    },
+    {
+      "method": "GET",
+      "key": "0/90/28/23",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0483A/volumes/20250521140913-8.640um-1.2m-116keV-masked.zarr/0/90/28/23",
+      "file": "ct.zarr/0/90/28/23",
+      "bytes_received": 2097152,
+      "status": 200,
+      "length": 2097152,
+      "etag": "\"408797c4bf34019fa391fbc6cf2a8e82\"",
+      "sha256": "993028793f21ded0547d15c1be6f3f8679df0295e1b7afe04272a5e3dd90302d",
+      "elapsed_total_seconds": 13.680181399999128
+    },
+    {
+      "method": "GET",
+      "key": "0/90/28/24",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0483A/volumes/20250521140913-8.640um-1.2m-116keV-masked.zarr/0/90/28/24",
+      "file": "ct.zarr/0/90/28/24",
+      "bytes_received": 2097152,
+      "status": 200,
+      "length": 2097152,
+      "etag": "\"bd422b38650dc768cd7eba32bfc7fed3\"",
+      "sha256": "efff993d7a95ff8f6137d03621d4c18c0f7eee8462bda8fa81d96818170d337e",
+      "elapsed_total_seconds": 15.705737199998111
+    }
+  ],
+  "elapsed_seconds": 15.70611139999528,
+  "retries": 0
+}

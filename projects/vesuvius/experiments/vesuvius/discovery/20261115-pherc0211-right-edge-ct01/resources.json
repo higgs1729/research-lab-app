@@ -1,0 +1,66 @@
+{
+  "network_get_seconds": 63.02487600001041,
+  "acquisition_retries": 0,
+  "new_ct_chunks": 26,
+  "new_ct_body_bytes": 54525952,
+  "new_metadata_bytes": 0,
+  "plane_samples": {
+    "xy": 655360,
+    "sd": 78390
+  },
+  "acquisition_and_drawing_limit_seconds": 900,
+  "started_utc": "2026-11-15T12:20:45.367861+00:00",
+  "completed_utc": "2026-11-15T12:24:39.631660+00:00",
+  "elapsed_including_between_stages_seconds": 234.263799,
+  "total_process_elapsed_seconds": 112.71575649996521,
+  "process_elapsed_seconds": {
+    "ct": 64.657074799994,
+    "render-first": 28.573459599982016,
+    "render": 19.485222099989187
+  },
+  "measured_peak_working_set_bytes": {
+    "ct": 44687360,
+    "render-first": 52195328,
+    "render": 51191808
+  },
+  "independent_verification_resources": {
+    "numeric": {
+      "elapsed_seconds": 21.84377159998985,
+      "peak_working_set_bytes": 108273664
+    },
+    "contact": {
+      "elapsed_seconds": 4.174363199999789,
+      "peak_working_set_bytes": 51769344
+    }
+  },
+  "expected_ram_peak_below_bytes": 1073741824,
+  "process_commit_limit_bytes": 4294967296,
+  "cpu_affinity": {
+    "ct": [
+      0
+    ],
+    "render-first": [
+      0
+    ],
+    "render": [
+      0
+    ]
+  },
+  "C_before_acquisition": {
+    "free_bytes": 8197492736,
+    "experiment_bytes": 7899
+  },
+  "C_before_final_receipts": {
+    "free_bytes": 7998648320,
+    "experiment_bytes": 57653408
+  },
+  "C_new_save_limit_bytes": 100663296,
+  "C_min_free_bytes": 2147483648,
+  "D_write_bytes": 0,
+  "gpu_runs": 0,
+  "models_run": 0,
+  "surfaces_generated": 0,
+  "paid_instances_started": 0,
+  "estimated_incremental_usd": 0,
+  "actual_incremental_usd": 0
+}

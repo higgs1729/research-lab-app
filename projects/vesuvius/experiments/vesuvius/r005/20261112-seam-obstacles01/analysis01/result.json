@@ -1,0 +1,545 @@
+{
+  "baseline_local": {
+    "negative": 0,
+    "zero": 0,
+    "minimum_area": 113.63134036425099,
+    "interior_overlap_pairs": 686,
+    "max_anchor_error": 0.0,
+    "subject_max_anchor_error": 0.0,
+    "obstacle_max_anchor_error": 0.0,
+    "worst_anchor_source_vertex": 93281,
+    "worst_anchor_local_vertex": 0,
+    "quality": {
+      "faces": 702,
+      "area3_fraction": 1.0,
+      "area_weighted_normalized_symmetric_dirichlet": 1.0570267697059614,
+      "area_weighted_inverse_L2_rms": 1.0343618613279946,
+      "max_symmetric_singular_stretch": 6.983004402144391,
+      "uv_area_over_3d_area": 0.9963682984499344,
+      "area_ratio_percentiles_1_50_99": [
+        0.6959207466960573,
+        0.997566614914857,
+        1.6695125344892354
+      ],
+      "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+        1.0140549191585064,
+        1.1726990444607532,
+        1.425581165142215
+      ]
+    }
+  },
+  "baseline_global": {
+    "full_mesh_negative": 0,
+    "full_mesh_zero": 0,
+    "subject_negative": 0,
+    "subject_zero": 0,
+    "interior_overlap_pairs": 686,
+    "inside_subject_pairs": 61,
+    "pairs_with_outside": 625,
+    "known_pair_present": true,
+    "prior_pin_obstruction_pair_present": true
+  },
+  "stages": [
+    {
+      "penalty": 1.0,
+      "raw": {
+        "negative": 0,
+        "zero": 0,
+        "minimum_area": 18.715195366644334,
+        "interior_overlap_pairs": 0,
+        "max_anchor_error": 420.9992239055496,
+        "subject_max_anchor_error": 77.97215945403896,
+        "obstacle_max_anchor_error": 420.9992239055496,
+        "worst_anchor_source_vertex": 110830,
+        "worst_anchor_local_vertex": 426,
+        "quality": {
+          "faces": 702,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.5207465155855653,
+          "area_weighted_inverse_L2_rms": 1.407691614230434,
+          "max_symmetric_singular_stretch": 5.6125744842593885,
+          "uv_area_over_3d_area": 0.788184141323865,
+          "area_ratio_percentiles_1_50_99": [
+            0.12441375503927747,
+            0.7921048728184064,
+            1.6531122358783412
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.1566656021490997,
+            3.967768809766439,
+            6.298586514412639
+          ]
+        }
+      },
+      "snapped": {
+        "negative": 20,
+        "zero": 0,
+        "minimum_area": -787.2869311617809,
+        "interior_overlap_pairs": 291,
+        "max_anchor_error": 0.0,
+        "subject_max_anchor_error": 0.0,
+        "obstacle_max_anchor_error": 0.0,
+        "worst_anchor_source_vertex": 93281,
+        "worst_anchor_local_vertex": 0,
+        "quality": {
+          "faces": 682,
+          "area3_fraction": 0.9744091688815713,
+          "area_weighted_normalized_symmetric_dirichlet": 37.28956440547141,
+          "area_weighted_inverse_L2_rms": 8.578275151566707,
+          "max_symmetric_singular_stretch": 326.3993768313056,
+          "uv_area_over_3d_area": 0.855172263519775,
+          "area_ratio_percentiles_1_50_99": [
+            0.24754043850275856,
+            0.8522133645503205,
+            1.5323220341694188
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.058408827994702,
+            1.8357481429875089,
+            17.05983290279095
+          ]
+        }
+      },
+      "global": {
+        "full_mesh_negative": 20,
+        "full_mesh_zero": 0,
+        "subject_negative": 20,
+        "subject_zero": 0,
+        "interior_overlap_pairs": 530,
+        "inside_subject_pairs": 261,
+        "pairs_with_outside": 269,
+        "known_pair_present": false,
+        "prior_pin_obstruction_pair_present": false
+      },
+      "packed_global": {
+        "full_mesh_negative": 20,
+        "full_mesh_zero": 0,
+        "subject_negative": 20,
+        "subject_zero": 0,
+        "interior_overlap_pairs": 530,
+        "inside_subject_pairs": 261,
+        "pairs_with_outside": 269,
+        "known_pair_present": false,
+        "prior_pin_obstruction_pair_present": false
+      },
+      "split_copy_uv": [
+        19492.61753267992,
+        2577.17249699112
+      ],
+      "unchanged_other_copy_uv": [
+        19411.320377056574,
+        2636.8505449899785
+      ],
+      "packing_translations": [
+        {
+          "component": 1,
+          "vertices": 195936,
+          "shift": [
+            -9075.5100040077,
+            107.94813392166351
+          ]
+        },
+        {
+          "component": 0,
+          "vertices": 30027,
+          "shift": [
+            39496.1702018038,
+            277.51085805665906
+          ]
+        },
+        {
+          "component": 2,
+          "vertices": 19470,
+          "shift": [
+            50557.30385491612,
+            -1380.2710348003886
+          ]
+        },
+        {
+          "component": 6,
+          "vertices": 2131,
+          "shift": [
+            21159.10197041004,
+            -3615.09326171875
+          ]
+        },
+        {
+          "component": 7,
+          "vertices": 1243,
+          "shift": [
+            16758.546453022624,
+            -3942.817601500688
+          ]
+        },
+        {
+          "component": 5,
+          "vertices": 991,
+          "shift": [
+            45773.385093677614,
+            -2798.063473964491
+          ]
+        },
+        {
+          "component": 3,
+          "vertices": 49,
+          "shift": [
+            55690.00867855062,
+            -2414.024658203125
+          ]
+        },
+        {
+          "component": 4,
+          "vertices": 49,
+          "shift": [
+            46879.175181860825,
+            -2718.3642578125
+          ]
+        },
+        {
+          "component": 8,
+          "vertices": 49,
+          "shift": [
+            26874.642954702278,
+            -4302.119140625
+          ]
+        }
+      ]
+    },
+    {
+      "penalty": 100.0,
+      "raw": {
+        "negative": 0,
+        "zero": 0,
+        "minimum_area": 1.5074752901446549,
+        "interior_overlap_pairs": 0,
+        "max_anchor_error": 372.22280119145597,
+        "subject_max_anchor_error": 28.046769562870594,
+        "obstacle_max_anchor_error": 372.22280119145597,
+        "worst_anchor_source_vertex": 110830,
+        "worst_anchor_local_vertex": 426,
+        "quality": {
+          "faces": 702,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 7.433973059729878,
+          "area_weighted_inverse_L2_rms": 3.5880691192876317,
+          "max_symmetric_singular_stretch": 22.196743016576555,
+          "uv_area_over_3d_area": 0.6977263828607643,
+          "area_ratio_percentiles_1_50_99": [
+            0.0073143197011670364,
+            0.7302362657134904,
+            1.7485217187453408
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.269343918472835,
+            51.001340270072305,
+            87.37635326853547
+          ]
+        }
+      },
+      "snapped": {
+        "negative": 4,
+        "zero": 0,
+        "minimum_area": -193.82170176807315,
+        "interior_overlap_pairs": 96,
+        "max_anchor_error": 0.0,
+        "subject_max_anchor_error": 0.0,
+        "obstacle_max_anchor_error": 0.0,
+        "worst_anchor_source_vertex": 93281,
+        "worst_anchor_local_vertex": 0,
+        "quality": {
+          "faces": 698,
+          "area3_fraction": 0.9950354692364987,
+          "area_weighted_normalized_symmetric_dirichlet": 3.9295994249789556,
+          "area_weighted_inverse_L2_rms": 2.6299114521183395,
+          "max_symmetric_singular_stretch": 85.36634619029061,
+          "uv_area_over_3d_area": 0.8193350531714803,
+          "area_ratio_percentiles_1_50_99": [
+            0.14430986048819383,
+            0.8422036489414744,
+            1.368814804001094
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0658868628541787,
+            2.592480805563292,
+            10.228123398091254
+          ]
+        }
+      },
+      "global": {
+        "full_mesh_negative": 4,
+        "full_mesh_zero": 0,
+        "subject_negative": 4,
+        "subject_zero": 0,
+        "interior_overlap_pairs": 99,
+        "inside_subject_pairs": 75,
+        "pairs_with_outside": 24,
+        "known_pair_present": false,
+        "prior_pin_obstruction_pair_present": false
+      },
+      "packed_global": {
+        "full_mesh_negative": 4,
+        "full_mesh_zero": 0,
+        "subject_negative": 4,
+        "subject_zero": 0,
+        "interior_overlap_pairs": 99,
+        "inside_subject_pairs": 75,
+        "pairs_with_outside": 24,
+        "known_pair_present": false,
+        "prior_pin_obstruction_pair_present": false
+      },
+      "split_copy_uv": [
+        19493.37198760366,
+        2580.9693685251605
+      ],
+      "unchanged_other_copy_uv": [
+        19411.320377056574,
+        2636.8505449899785
+      ],
+      "packing_translations": [
+        {
+          "component": 1,
+          "vertices": 195936,
+          "shift": [
+            -9075.5100040077,
+            107.94813392166351
+          ]
+        },
+        {
+          "component": 0,
+          "vertices": 30027,
+          "shift": [
+            39496.1702018038,
+            277.51085805665906
+          ]
+        },
+        {
+          "component": 2,
+          "vertices": 19470,
+          "shift": [
+            50557.30385491612,
+            -1380.2710348003886
+          ]
+        },
+        {
+          "component": 6,
+          "vertices": 2131,
+          "shift": [
+            21159.10197041004,
+            -3615.09326171875
+          ]
+        },
+        {
+          "component": 7,
+          "vertices": 1243,
+          "shift": [
+            16758.546453022624,
+            -3942.817601500688
+          ]
+        },
+        {
+          "component": 5,
+          "vertices": 991,
+          "shift": [
+            45773.385093677614,
+            -2798.063473964491
+          ]
+        },
+        {
+          "component": 3,
+          "vertices": 49,
+          "shift": [
+            55690.00867855062,
+            -2414.024658203125
+          ]
+        },
+        {
+          "component": 4,
+          "vertices": 49,
+          "shift": [
+            46879.175181860825,
+            -2718.3642578125
+          ]
+        },
+        {
+          "component": 8,
+          "vertices": 49,
+          "shift": [
+            26874.642954702278,
+            -4302.119140625
+          ]
+        }
+      ]
+    },
+    {
+      "penalty": 10000.0,
+      "raw": {
+        "negative": 0,
+        "zero": 0,
+        "minimum_area": 0.09272761982359494,
+        "interior_overlap_pairs": 0,
+        "max_anchor_error": 368.34630155802665,
+        "subject_max_anchor_error": 14.466007090203668,
+        "obstacle_max_anchor_error": 368.34630155802665,
+        "worst_anchor_source_vertex": 110830,
+        "worst_anchor_local_vertex": 426,
+        "quality": {
+          "faces": 702,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 102.27975288200498,
+          "area_weighted_inverse_L2_rms": 14.224468522531474,
+          "max_symmetric_singular_stretch": 122.11383649240884,
+          "uv_area_over_3d_area": 0.686200240017575,
+          "area_ratio_percentiles_1_50_99": [
+            0.0005219081279708894,
+            0.7377170666095724,
+            1.5800892907310782
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.2242522864318053,
+            804.9355601431993,
+            1991.0735970554483
+          ]
+        }
+      },
+      "snapped": {
+        "negative": 2,
+        "zero": 0,
+        "minimum_area": -69.40679067312927,
+        "interior_overlap_pairs": 58,
+        "max_anchor_error": 0.0,
+        "subject_max_anchor_error": 0.0,
+        "obstacle_max_anchor_error": 0.0,
+        "worst_anchor_source_vertex": 93281,
+        "worst_anchor_local_vertex": 0,
+        "quality": {
+          "faces": 700,
+          "area3_fraction": 0.9973968966148392,
+          "area_weighted_normalized_symmetric_dirichlet": 1.482210692190583,
+          "area_weighted_inverse_L2_rms": 1.4157437292899135,
+          "max_symmetric_singular_stretch": 10.645370735095762,
+          "uv_area_over_3d_area": 0.8199196151839326,
+          "area_ratio_percentiles_1_50_99": [
+            0.22645678250486212,
+            0.8473643131041441,
+            1.355108934955221
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0654342175950484,
+            3.197947871553406,
+            8.446701891866775
+          ]
+        }
+      },
+      "global": {
+        "full_mesh_negative": 2,
+        "full_mesh_zero": 0,
+        "subject_negative": 2,
+        "subject_zero": 0,
+        "interior_overlap_pairs": 58,
+        "inside_subject_pairs": 45,
+        "pairs_with_outside": 13,
+        "known_pair_present": false,
+        "prior_pin_obstruction_pair_present": false
+      },
+      "packed_global": {
+        "full_mesh_negative": 2,
+        "full_mesh_zero": 0,
+        "subject_negative": 2,
+        "subject_zero": 0,
+        "interior_overlap_pairs": 58,
+        "inside_subject_pairs": 45,
+        "pairs_with_outside": 13,
+        "known_pair_present": false,
+        "prior_pin_obstruction_pair_present": false
+      },
+      "split_copy_uv": [
+        19493.614001164835,
+        2581.1729334849992
+      ],
+      "unchanged_other_copy_uv": [
+        19411.320377056574,
+        2636.8505449899785
+      ],
+      "packing_translations": [
+        {
+          "component": 1,
+          "vertices": 195936,
+          "shift": [
+            -9075.5100040077,
+            107.94813392166351
+          ]
+        },
+        {
+          "component": 0,
+          "vertices": 30027,
+          "shift": [
+            39496.1702018038,
+            277.51085805665906
+          ]
+        },
+        {
+          "component": 2,
+          "vertices": 19470,
+          "shift": [
+            50557.30385491612,
+            -1380.2710348003886
+          ]
+        },
+        {
+          "component": 6,
+          "vertices": 2131,
+          "shift": [
+            21159.10197041004,
+            -3615.09326171875
+          ]
+        },
+        {
+          "component": 7,
+          "vertices": 1243,
+          "shift": [
+            16758.546453022624,
+            -3942.817601500688
+          ]
+        },
+        {
+          "component": 5,
+          "vertices": 991,
+          "shift": [
+            45773.385093677614,
+            -2798.063473964491
+          ]
+        },
+        {
+          "component": 3,
+          "vertices": 49,
+          "shift": [
+            55690.00867855062,
+            -2414.024658203125
+          ]
+        },
+        {
+          "component": 4,
+          "vertices": 49,
+          "shift": [
+            46879.175181860825,
+            -2718.3642578125
+          ]
+        },
+        {
+          "component": 8,
+          "vertices": 49,
+          "shift": [
+            26874.642954702278,
+            -4302.119140625
+          ]
+        }
+      ]
+    }
+  ],
+  "subject_faces": 346,
+  "unchanged_external_faces": 477878,
+  "coarse_preserved_relative_to_C": true,
+  "C_fixed_preserved_relative_to_G": true,
+  "elapsed_seconds": 4.034194500010926,
+  "limits": "One soft trial with source-grid horizontal initialization. Strict-snap results are diagnostics only; invalid/overlapping candidates are not adopted. No native raster or global external/external overlap claim."
+}

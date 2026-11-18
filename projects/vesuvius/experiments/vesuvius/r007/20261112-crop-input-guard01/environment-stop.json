@@ -1,0 +1,16 @@
+{
+  "observed_date_jst": "2026-11-12",
+  "phase": "original renderer help, before any R116 build",
+  "command": ["wsl", "-d", "Ubuntu", "--", "taskset", "-c", "0", "prlimit", "--as=4294967296", "--", "timeout", "30s", "unshare", "-Urn", "/mnt/d/kensyoukin-work/r005-ct-render01/build02/vc_render_tifxyz", "--help"],
+  "exit_code": 1,
+  "error": "Wsl/Service/WSL_E_DISTRO_NOT_FOUND",
+  "wsl_list": [{"distribution": "docker-desktop", "state": "Stopped", "version": 2}],
+  "hkcu_lxss_distribution_names": ["docker-desktop"],
+  "ubuntu_appx_count": 0,
+  "checked_missing_paths": ["C:/wsl", "D:/wsl", "C:/Users/tomoy/Ubuntu", "C:/Users/tomoy/AppData/Local/wsl"],
+  "limited_storage_search": "Ubuntu VHD/export not found under checked LocalAppData package/WSL paths, C:/dev, C:/work, C:/temp or D:/kensyoukin-work. Research 11 and 31 describe the existing Ubuntu and its tools but do not give the distro storage path.",
+  "known_inputs_present": ["D:/kensyoukin-work/r003-villa/volume-cartographer/apps/src/vc_render_tifxyz.cpp", "D:/kensyoukin-work/r005-ct-render01/build02/vc_render_tifxyz", "C:/dev/kensyoukin/.work/r006-zarr-whole-process01/run01/ct.zarr"],
+  "build_started": false,
+  "native_renderer_started": false,
+  "changes_to_wsl": false
+}

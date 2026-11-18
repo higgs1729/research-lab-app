@@ -1,0 +1,74 @@
+{
+  "utc": "2026-11-14T08:31:50.578282+00:00",
+  "available_ram_bytes": 15685812224,
+  "system_cpu_percent_1s": 20.3,
+  "logical_cpus": 20,
+  "c_free_bytes": 33980817408,
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+  "hard_limit_seconds": 4500,
+  "assets": {
+    "source": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-alternative-ink-model-selection01\\originals\\hecate.py",
+      "bytes": 22462,
+      "sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59"
+    },
+    "checkpoint": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\assets\\hecate_9.6um.pth",
+      "bytes": 522576086,
+      "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d"
+    },
+    "input": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\input.npy",
+      "bytes": 3379328,
+      "sha256": "5f1caf23443ed3f4933803ab668e566de9c0deb06ab4878977a00b0ae9e49566"
+    },
+    "atlas_reference": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\assets\\atlas-hecate-reverse.png",
+      "bytes": 2114372,
+      "sha256": "67795f34e27c0b7b974e8d84780df8ecdf14cff5dd7893bc3891f7dc7d678427"
+    }
+  },
+  "cpu_refs": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\patches\\001.npy",
+      "file_sha256": "b7f561f9d43b13bba2ef223082331e2dafa2920aef6c3962f8e71e9548f26db7",
+      "index": 1,
+      "raw_probability_sha256": "29d892766a403a2d5b69d8b80f3c872a6446b5c8d79b4ed456b9aa958b0368e7"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\patches\\002.npy",
+      "file_sha256": "2233ceea0e78375ca77d8ca18cd724229f023dafcdb1a09a1118ce10bea7b573",
+      "index": 2,
+      "raw_probability_sha256": "f9a20177a3eca31e4295e7ef9f7b998c210cced6501d6309d0a17ab7ea364e4f"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\patches\\003.npy",
+      "file_sha256": "c92944a05ea24b195530ae27e955f56c75b88b5d596fe4996b5e431844d8bf37",
+      "index": 3,
+      "raw_probability_sha256": "e9d387beca5496f9491d3e498e999d13706bb4c19d024215128db70284ed0330"
+    }
+  ],
+  "borrowed_sha256": {
+    "tools/research/run_windows.py": "70ad792c9d7d0775eeb1839283f739abe6604a1d6f7bf1203e086d802b1a5f9d",
+    "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/run_hecate.py": "c699c1f835d12be9d93e78a7190e7e15e8d1219241f1a9c51502598b5e07fb8b",
+    "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/supervise.py": "5e461210594249bfef80d28a7568b9ab2cdcafb8392bf48c054f967d935937ba",
+    "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/input-contract.json": "e6c199d7d14f4673683ce359be472c1ab174f43c24c3db05dedbbbbc39da58a7",
+    "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/lead-input-expected.json": "5e1c94fe19b88bef89e68e11c622989014b108f5436dfeb908b6f1643126a506",
+    "experiments/vesuvius/discovery/20261114-hecate-known-text-control01/patches.jsonl": "ec925e03fe328384ea3627120c85d179b2071f76d068ee628a4bed70125a7b03",
+    "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/preflight.py": "501df121ce94ec2ee4e6dc32335bb18d25a56d54d79a4b0e8ed62b46a2be81c4",
+    "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/preflight.json": "5908f8e91eecd25cd5ead8913a3908c09075c51cce7a7b31d54681f44ddba2d9",
+    "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/run_gpu.py": "7af2c6ca2e00dfe29c13eeb1c4c24471c55be936a2da2bc4226010f5d642c044",
+    "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/compare.py": "bd70b804b8676095d20761ec85728503b4b7d5cef38ec7b73d5cb9598824c040",
+    "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/preflight.json": "8d2296e6a3a91cb9c7b2a01758ddd81fcdfb9249bcf0d1f3594d2a42a9541776",
+    "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/run_gpu.py": "7af2c6ca2e00dfe29c13eeb1c4c24471c55be936a2da2bc4226010f5d642c044"
+  },
+  "local_sha256": {
+    "preflight.py": "c62f64c18b45659fee5878978900bf8ecfe4a7d0705ef60ce8c2cd3fe5bc58c9",
+    "run_cpu.py": "d4db69ace7c8e850641adba767f72e7de845d6c6d4f3d1a011c1b5ffe1285c7f",
+    "supervise.py": "c42b0e63912b0f959a21ff307fba062a2014b29c51a3241cf40304d1f0560d74",
+    "compare.py": "75956dc587bcf8a5f6ff5f5b9555311476a24175a0d45acc602abb906e7de410"
+  },
+  "model_forward_calls": 0,
+  "new_download_bytes": 0
+}

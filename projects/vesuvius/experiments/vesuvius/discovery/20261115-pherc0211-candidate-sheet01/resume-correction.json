@@ -1,0 +1,24 @@
+{
+  "cause": "The fifth fixed plane had5 all255-corner samples at255+2.842170943040401e-14 from float64 weighted-sum rounding. Shape/dtype/finite all correct across all150540values.",
+  "correction": "Remove the unplanned strict endpoint assertion; retain finite and unchanged float64 interpolation/raw NPY; old fixed PNG clipping/rounding unchanged. Resume from verified downloaded chunk, never GET again; verify initial4 NPY/PNG without overwrite.",
+  "first_report_correction": "Early message said first plane failed. Existing output inventory and full diagnostics establish fifth plane failure after4saved planes.",
+  "original_script_sha256": "4da29110801f9cfa5f57f41ff53811d593876445253f634a92226860f50842bb",
+  "resume_script_sha256": "852a0b4971b2268f7cb9a29afc4ff90ef9b89e2f8260c701ed5b9399169b2528",
+  "original_outputs_before_resume": {
+    "candidate-q25-un-raw.png": "38c7b840248ee9a1187ca46118cd2f71a9e7eea59e456d690bc8151107ff9d77",
+    "candidate-q25-un-window.png": "37348d1183a143fbef0433d20a625a2596ee76f902c6fdd6b303b1ab5e61d2f9",
+    "candidate-q25-un.npy": "7776a54b199b5c5540bd530502238d0b01292bccc3f3e1ca40ba1be05969facc",
+    "candidate-q25-vn-raw.png": "9dea416d6260ca3ba9769f2232f4781567beae24d7e08f78174ebb94b629e38a",
+    "candidate-q25-vn-window.png": "00f2d697a39dd0e0cfb46706dadffe9b40644b955596afa6ae63f97515fdee28",
+    "candidate-q25-vn.npy": "70a5ddac714969012e9885aec3767da71b68b398d7aff728b9b947db7c70a8fa",
+    "candidate-q50-un-raw.png": "ae923e2468401bd824b0470a83de98c766aed446f4fdef1f8d94c0a84a5d3e51",
+    "candidate-q50-un-window.png": "33d02251c34e6a2ef6caf8e17ccae4ce814fa271577ddce6b858c4b1c5812f08",
+    "candidate-q50-un.npy": "d6ef368c637d880c6fdd25a4b402f478281d23c1003f15777cbb37de738e6f54",
+    "candidate-q50-vn-raw.png": "a298ebfef2233ed97e4f04be0c63d1cfce49b3e820889ece4a13cb2d4e74b26d",
+    "candidate-q50-vn-window.png": "7a4937eeecfac7cb2d11432a7409137a1c06ad6686078b47204a3c97b169056b",
+    "candidate-q50-vn.npy": "446739dd06624bae087e45285ba857b8f7312a70c2f63d666057bac5fbe03cff"
+  },
+  "new_positions_or_planes": 0,
+  "new_CT_requests": 0,
+  "model_or_probability_acceptance_threshold_changes": 0
+}

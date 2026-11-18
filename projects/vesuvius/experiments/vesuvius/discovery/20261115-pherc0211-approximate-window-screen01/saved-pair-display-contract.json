@@ -1,0 +1,51 @@
+{
+  "utc": "2026-11-15T14:04:25.943297+00:00",
+  "sources": {
+    "pair_public": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\cloud-run\\extracted\\gpu\\pair_public\\patches\\p000.npy",
+      "sha256": "d98b43df3c6b65cdb214c0996830cfc17f9e93bb1e2cbf31229122ad0f970dd1",
+      "shape": [
+        96,
+        96
+      ],
+      "dtype": "float32",
+      "input_raw_sha256": "78bf6fb768fad29717cc276b23bcfd0278b24754c0685945c94ebcf079ef5b98",
+      "normalized_input_sha256": "1507c802c62f27e7f3f8ebb75230497b06fc82913b509c69c364762c8ef82f51"
+    },
+    "pair_render": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\cloud-run\\extracted\\gpu\\pair_render\\patches\\p000.npy",
+      "sha256": "ca7c6b0bf7f3e7f0b2afa973362b9f2e65604b77c23500d353fc533e25d2c71b",
+      "shape": [
+        96,
+        96
+      ],
+      "dtype": "float32",
+      "input_raw_sha256": "9e1307fc2e2d583d58415a7f1432f71187f9317e45dfe8da686812e6440542e3",
+      "normalized_input_sha256": "326610fa5470db710f3bcceecfc311ef861af7739531092cc76c360596424db9"
+    }
+  },
+  "pixels_compared": 9216,
+  "parent_core_xywh": [
+    4784,
+    3216,
+    96,
+    96
+  ],
+  "render_input_parent_xywh": [
+    4768,
+    3200,
+    128,
+    128
+  ],
+  "display": "float32 multiplication by255 then truncation to uint8; black0/white1; both same fixed scale; no percentile normalization/threshold/rotation/flip",
+  "difference": "render minus public in float64; DN difference render_u8-public_u8 as int16",
+  "figures": [
+    "two individual96x96 raw8 images",
+    "native96x96 pair with captions outside data",
+    "nearest-neighbour4x view of same raw8 pixels with captions outside data"
+  ],
+  "old_R236_gate_is_preserved_false": true,
+  "model_forwards": 0,
+  "new_CT_bytes": 0,
+  "paid_cost_USD": 0
+}

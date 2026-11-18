@@ -1,0 +1,6 @@
+{
+  "path": "experiments/vesuvius/r003/20261111-patch01/initial-uv-units-lf.patch",
+  "sha256": "63a0bbf05520ca68d8f0602d4c296639e0e5b47f693217984c5a088354691874",
+  "reverse_apply_check_exit_code": 0,
+  "original_preserved": true
+}

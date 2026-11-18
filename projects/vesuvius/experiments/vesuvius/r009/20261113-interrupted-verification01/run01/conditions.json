@@ -1,0 +1,22 @@
+{
+  "env_overrides": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OPENCV_FOR_THREADS_NUM": "1",
+    "TMPDIR": "/mnt/c/dev/kensyoukin/.work/r009-interrupted-verification01/run01",
+    "CUDA_VISIBLE_DEVICES": "",
+    "AGENTS_AGENT_MODE": "1"
+  },
+  "binary_sha256": "71fb6e31962727a866a50046c852bd2a3141a7f161f280d127731d106695f063",
+  "old_binary_sha256": "7b4232a2356deca215ceaa8d072a7673023db8a5c2bfd90959dcb6c233ee9927",
+  "cpu_affinity": [
+    0
+  ],
+  "address_space_bytes": 4294967296,
+  "core_bytes": 0,
+  "timeout_seconds_per_process": 300,
+  "additional_interruptions": 0
+}

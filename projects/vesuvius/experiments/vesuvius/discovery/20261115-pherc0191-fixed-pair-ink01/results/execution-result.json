@@ -1,0 +1,150 @@
+{
+  "status": "completed",
+  "environment": {
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "python_executable": "/usr/local/bin/python",
+    "torch": "2.13.0+cu130",
+    "cuda": "13.0",
+    "numpy": "2.5.4",
+    "driver": [
+      "NVRM version: NVIDIA UNIX Open Kernel Module for x86_64  595.91.07  Release Build  (dvs-builder@U22-I3-B08-02-2)  Wed Jul 29 03:01:16 UTC 2026"
+    ],
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "capability": [
+      8,
+      9
+    ],
+    "affinity": [
+      0
+    ],
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "matmul_fp32_precision": "ieee",
+    "cudnn_conv_fp32_precision": "ieee",
+    "nvidia_tf32_override": "0",
+    "torch_allocator_cap_bytes": 4294967296,
+    "rss_observed_limit_bytes": 4294967296,
+    "admission_gpu_and_ram": {
+      "device_free_bytes": 24838471680,
+      "device_total_bytes": 25252724736,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "peak_allocated_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "physical_available_bytes": 39959543808,
+      "process_peak_rss_bytes": 630571008
+    }
+  },
+  "started_utc": "2026-11-14T15:48:17.221684+00:00",
+  "maximum_patches": 7812,
+  "active_patches_expected": 6796,
+  "model_seconds_limit": 900.0,
+  "order": [
+    "raw-forward",
+    "raw-reverse",
+    "snap-forward",
+    "snap-reverse"
+  ],
+  "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+  "prediction_source_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "contract_sha256": "f20c7892154c6adc0edfbb90d2717867621af7605ef0d91062aca8bf653e1a07",
+  "strict_load_seconds": 1.652290676953271,
+  "actual_patches": 6796,
+  "counts": {
+    "raw-forward": 1699,
+    "raw-reverse": 1699,
+    "snap-forward": 1699,
+    "snap-reverse": 1699
+  },
+  "parity": {
+    "raw-forward": [
+      {
+        "grid_index": 127,
+        "mae": 3.686182026285678e-09,
+        "max": 3.7997961044311523e-07
+      },
+      {
+        "grid_index": 128,
+        "mae": 1.4304077922133729e-09,
+        "max": 1.7508864402770996e-07
+      },
+      {
+        "grid_index": 129,
+        "mae": 1.4003944670548663e-09,
+        "max": 2.3096799850463867e-07
+      }
+    ],
+    "raw-reverse": [
+      {
+        "grid_index": 127,
+        "mae": 1.9344952306710184e-09,
+        "max": 1.9371509552001953e-07
+      },
+      {
+        "grid_index": 128,
+        "mae": 1.5602381608914584e-09,
+        "max": 2.2724270820617676e-07
+      },
+      {
+        "grid_index": 129,
+        "mae": 1.3299086276674643e-09,
+        "max": 8.009374141693115e-08
+      }
+    ],
+    "snap-forward": [
+      {
+        "grid_index": 127,
+        "mae": 1.9992967281723395e-09,
+        "max": 1.7881393432617188e-07
+      },
+      {
+        "grid_index": 128,
+        "mae": 1.7721504264045507e-09,
+        "max": 1.9371509552001953e-07
+      },
+      {
+        "grid_index": 129,
+        "mae": 1.9690560293383896e-09,
+        "max": 2.4586915969848633e-07
+      }
+    ],
+    "snap-reverse": [
+      {
+        "grid_index": 127,
+        "mae": 3.5984157875645906e-09,
+        "max": 5.587935447692871e-07
+      },
+      {
+        "grid_index": 128,
+        "mae": 1.4356373867485672e-09,
+        "max": 1.1920928955078125e-07
+      },
+      {
+        "grid_index": 129,
+        "mae": 1.895841705845669e-09,
+        "max": 2.086162567138672e-07
+      }
+    ]
+  },
+  "forecast": {
+    "steady_patch_wall_seconds": [
+      0.054820644087158144,
+      0.05436086200643331
+    ],
+    "expected_remaining_seconds": 372.39663528406527,
+    "remaining_seconds": 895.61038296693,
+    "passed": true
+  },
+  "elapsed_seconds": 365.6775491919834,
+  "final_resources": {
+    "device_free_bytes": 23871684608,
+    "device_total_bytes": 25252724736,
+    "allocated_bytes": 525744640,
+    "reserved_bytes": 897581056,
+    "peak_allocated_bytes": 754979328,
+    "peak_reserved_bytes": 897581056,
+    "physical_available_bytes": 39464906752,
+    "process_peak_rss_bytes": 1694953472
+  },
+  "completed_utc": "2026-11-14T15:54:20.778309+00:00"
+}

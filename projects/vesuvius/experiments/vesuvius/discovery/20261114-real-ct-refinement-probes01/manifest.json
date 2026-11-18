@@ -1,0 +1,379 @@
+{
+  "files": [
+    {
+      "path": "research/184-real-ct-refinement-probes.md",
+      "bytes": 6297,
+      "sha256": "025819ceb88fb3c99eb20bb50d23045af6078c510fa02919cac049e1f396b83f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/analyze-process.json",
+      "bytes": 652,
+      "sha256": "bb7dd67766d765463a41a87fa4583ddc778f4812538a9a6110839909f4657c5c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/analyze.py",
+      "bytes": 7817,
+      "sha256": "f4348205774df5fd66a6cb467df1c98068a1275df99d12226583f88c6fc7ce6f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/build-plan.json",
+      "bytes": 5946,
+      "sha256": "b15d9f2fd519119a03c748f315debd040dd065accfa0a3d205ec600fa53c17e2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/centered.json",
+      "bytes": 182,
+      "sha256": "989945c33be3c4449f10d32399d7ec694efdeef89777eb15476ecb7d62a20de2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/comparison.json",
+      "bytes": 21158,
+      "sha256": "6f1ecd9925d6ad3db793194cc3d765751e58de38a8c4908386f17b9a5a1db6c7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/corner.json",
+      "bytes": 157,
+      "sha256": "72957b01778f3312d263fdd1c8ac936b1b8ea88b2c9e37b9625164701cf5f961"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/figures/point-1-section_x-raw.png",
+      "bytes": 692,
+      "sha256": "ca88a8eb5960be9264b6c8bcd548108af29818ad3645a6b4d1d3e898822bfe3a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/figures/point-1-section_y-raw.png",
+      "bytes": 650,
+      "sha256": "557c98941edc675e59acb3de5d1fd849c24d8e3c58899071af73642cd8df0334"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/figures/point-1.png",
+      "bytes": 20734,
+      "sha256": "35100c84f6ce7fad419e93c42f3f08057bb6332d957dfda8b442f325492c9a21"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/figures/point-2-section_x-raw.png",
+      "bytes": 607,
+      "sha256": "93afc5963b070cde687efa114631042e94b88da05fbeac76977e2e88fe6e84c8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/figures/point-2-section_y-raw.png",
+      "bytes": 641,
+      "sha256": "154619bbfb66ea645a884adcffd769110f004981152b010ada79761b8f95322d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/figures/point-2.png",
+      "bytes": 19902,
+      "sha256": "e3884c0eb9fecf0ce5939a0c8ebee4b89f309980e6440ba433535f5a05174169"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/figures/point-3-section_x-raw.png",
+      "bytes": 695,
+      "sha256": "2eb8c8871324a878c75962bea9607888206e97cde4bc3ce28f92699268177b09"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/figures/point-3-section_y-raw.png",
+      "bytes": 636,
+      "sha256": "efe83c1966c60dd131ab81ea72bac23ae59cc9cfb362723b9b89f0b8562e139f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/figures/point-3.png",
+      "bytes": 20493,
+      "sha256": "c172739af0ad59fdaf4aa5be0056a8bf249951218bb77b33a0744555ca202630"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/figures/point-4-section_x-raw.png",
+      "bytes": 632,
+      "sha256": "b4ac8a3426cdfaba1933cb4a875eed9eee9161fb8832484d1a10fb61df839915"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/figures/point-4-section_y-raw.png",
+      "bytes": 675,
+      "sha256": "6b21c870304cfd324a0b5cb8ce956fcc3e68d04f62708a71f26135db0c67bcb9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/figures/point-4.png",
+      "bytes": 20804,
+      "sha256": "5953f00b3d81e06d1d391b061d43460af7ee97b342917a8cf47b128b0fa303db"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/fixed-points.obj",
+      "bytes": 365,
+      "sha256": "b498e97a8dcc0a85c53d02a6728c7ee1969d231f8010f78f8e38149f66458399"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/geometry-process.json",
+      "bytes": 568,
+      "sha256": "9f484e87a2478cee9540d7466304c135e9f7df374462d67d79c6f15325198c45"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/geometry-start.json",
+      "bytes": 1760,
+      "sha256": "916b428078379f6675e8815915b62214568f115790b9b4ba15d4b5da61a46347"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/geometry-time.txt",
+      "bytes": 16,
+      "sha256": "f96dfb965f12d785bb7e17410028b3c9d9a2ede4382ac38cf3830303d1064ff7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/geometry.json",
+      "bytes": 833874,
+      "sha256": "c3d167fc9206042f657a3326c0a1d93bacd9fd9aae31499529934ff5487a985a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/geometry.log",
+      "bytes": 833874,
+      "sha256": "c3d167fc9206042f657a3326c0a1d93bacd9fd9aae31499529934ff5487a985a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/helper-compile-process.json",
+      "bytes": 1789,
+      "sha256": "4e8a7bb81091f7955d3c022d474e01504b7d0dc4485264684ca59fd7a6955869"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/helper-compile-start.json",
+      "bytes": 2902,
+      "sha256": "e227b0272b64829f6bfeaa1aecacfd3631e6c6bd9707755da5214ae4b7bd52ce"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/helper-compile-time.txt",
+      "bytes": 17,
+      "sha256": "a67b75e999911609b1291df2a61be9e1242ba5c49f87a158c40bf80047ce3989"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/helper-compile.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/helper-identity.json",
+      "bytes": 283,
+      "sha256": "6aa8b96ba80f56b10bf61c883e05b7049300fd96961d92f9c2af9a8ab7d3b4e5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/helper-link-process.json",
+      "bytes": 2296,
+      "sha256": "1b8191ffc87e9c91a08c00418fa5c6c44d946be8f3da3e9ec12e9f090b272b8c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/helper-link-start.json",
+      "bytes": 3500,
+      "sha256": "5cb07fb4b05f10e6e47bad2ee8e328cbc07942239db080302c360b48c3a2f832"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/helper-link-time.txt",
+      "bytes": 17,
+      "sha256": "bf8b024ea427673e2f620a1bd7335f19ab6fe07bafa1e318b3e1bdb396b7ef8d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/helper-link.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/isolate.sh",
+      "bytes": 250,
+      "sha256": "00f659c3d30ed110a6698d3068a986fbff7e3e6ad6aee6b48d556b118d6b66c1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/lab-record.json",
+      "bytes": 4075,
+      "sha256": "18fea919a5d475084fb713d7bff1903e3d35d6755238ca59f28ad36e46333c8f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/launch-geometry.log",
+      "bytes": 389,
+      "sha256": "08eb83c6c95bf207d7eeeb2a16c70d9d1cabfb3bb466fa4699fb4b0dbeab6ed2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/launch-products.log",
+      "bytes": 472,
+      "sha256": "dd0a833cc63c25bf7bbeada140cac948ab6afab91506ee49262793c6130846a9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/launch-support.log",
+      "bytes": 693,
+      "sha256": "395ecf6accce2ad952a5386e36ac0ea3cec2723394ed8d94b335f837e5a91c25"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/lead-predict-process.json",
+      "bytes": 654,
+      "sha256": "5110621851dc32853a415a6cd1f816fa52ccd2ef1a221f98776fb5795190142b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/lead-predicted.json",
+      "bytes": 45025,
+      "sha256": "177d4cf8f9252de74868c46e5767c1cbc815158962e54ab3d5fef08499ade6a7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/lead-verified.json",
+      "bytes": 9833,
+      "sha256": "e8d36d2ae3e9838de9b7c1c53c233a01261b81637f08913e8cb77b25bd9e9b82"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/lead-verify-process.json",
+      "bytes": 651,
+      "sha256": "067c8e7fedcacdf53ba70b779da0dbe8fe411737618535a35d7e52042f48e780"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/lead-visual.json",
+      "bytes": 1530,
+      "sha256": "52a9a54c242aa1b49001832c15d38856c3da3470ed42a3cd8a91c7b854b16a7b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/lead_predict.py",
+      "bytes": 3967,
+      "sha256": "57300d7c9b93b4afffbb8ac520c77cb56a51e6fd3b2cd559cef80c073abf2a58"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/lead_verify.py",
+      "bytes": 5150,
+      "sha256": "2f6d66cdaa32fdc6d0ddb53cc031770140ff4a2835e326341ca01cb2676187a4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/observe-ldd.txt",
+      "bytes": 5408,
+      "sha256": "6e1bf2369d62d6451e5209b4ccb8ec3aa5411d0c2bb176e8c57a4c9397cdf44c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/observe.cpp",
+      "bytes": 6236,
+      "sha256": "e2785924aa61e227cb1830f9726aaca8188ddc6187f8cfc8832f59c66e4bc861"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/prepared.json",
+      "bytes": 250,
+      "sha256": "4edeeafac548972e1100b5f5cd771435c73ac73b2cb4b64e33c58b7c92e7adc0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/centered-process.json",
+      "bytes": 800,
+      "sha256": "672b20a80a2c0abe8af7703871f5e4e222c0cf390af7934312aec1d888b9e444"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/centered-start.json",
+      "bytes": 1995,
+      "sha256": "2cf2ae299732a11979e6fee53558c9592ac9658ca0f7a8d8df5a3d8b3b6e9fba"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/centered-time.txt",
+      "bytes": 16,
+      "sha256": "049d12664ba60c9101a4d8c89a88f9c5935f770ee954111f64ded478fa1ec75f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/centered.log",
+      "bytes": 166,
+      "sha256": "5abcd257060d9870c59fe62589612f36abf50dddbc7fb724854869392676b464"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/centered.obj",
+      "bytes": 330,
+      "sha256": "787617b2000f16fed1833c4b7d297994d97941c09a73ed997432b6fc13f931dd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/corner-process.json",
+      "bytes": 795,
+      "sha256": "109d54d5e23013c220aac5c2455a7357f9ca69d529dcf6996acc9e910f135645"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/corner-start.json",
+      "bytes": 1992,
+      "sha256": "02ba925b45b53e57906908b528c35f5d3593d35fd888982abebd6c2413033b07"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/corner-time.txt",
+      "bytes": 16,
+      "sha256": "1206b95168f75746a5860e2a8fed8e3cff14822717d341b785a68db9ca8d4665"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/corner.log",
+      "bytes": 166,
+      "sha256": "6769defbd3f91234ce6243c1b8d4000ecf24ba3078280968eca0aeffeec6a9be"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/corner.obj",
+      "bytes": 330,
+      "sha256": "c7e78ad2c4a603b8752443177a5556787364aaef33e4dc278dff8315a06f8c39"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/r0-process.json",
+      "bytes": 787,
+      "sha256": "a063251f9767e809286613129d7497cf03a4167596ce589ae3a1a846a728ae60"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/r0-start.json",
+      "bytes": 1976,
+      "sha256": "300e048b3050c23dc95323095cc1ce7e13905475dffdddaa47f2e74f1c9d5b42"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/r0-time.txt",
+      "bytes": 16,
+      "sha256": "c74f81da96e691fdb00aaf7f053e8f72341746386f4310a1b54fe23f0c64016c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/r0.log",
+      "bytes": 166,
+      "sha256": "9bb32f0e293c4b89f7fc1da50863c1bac68a72d49ef8dd7000171273eba2ae57"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product/r0.obj",
+      "bytes": 328,
+      "sha256": "4b99db079cc28ea21f7d5587d7a6af5dff903b116d8516a5cf5a82536cd7ab0b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/product-input.json",
+      "bytes": 1063,
+      "sha256": "27d72fff16889bf9dfb827335c895863542ea122c26a0b28af534968d86ee1da"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/r0.json",
+      "bytes": 157,
+      "sha256": "dade38d7bbea8552e1ef86da3125249048d82cab2ebc00175950ffad2c4895e6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/README.md",
+      "bytes": 7705,
+      "sha256": "e35734b1c9dd496a0a04e955ff19c79a95b6d37a82aced2bd864262efe9212e1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/run.py",
+      "bytes": 10140,
+      "sha256": "107c4f31bcec2bafbfcfa72f1ff9c735aa716f670c64abe85d19d9e451034e35"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/sample-process.json",
+      "bytes": 632,
+      "sha256": "8cc5e2f7ce6c46deddf926f53a56104f0c1f383cb06a260ecad909480eea613a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/sample-start.json",
+      "bytes": 1720,
+      "sha256": "c1952848508e45ade0fc2fbb472d613d175e23e77629e42e4d5bb88de3b32986"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/sample-time.txt",
+      "bytes": 16,
+      "sha256": "84cd85f03e31cfd1f8c3c39cc53943acc862351caaf2ff011987324b6a7cda6f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/sample.json",
+      "bytes": 324896,
+      "sha256": "3b6c0dddae66acc7e2c11cce7b882faccec956f19aca6215cc55ce1d43c9de69"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/sample.log",
+      "bytes": 324896,
+      "sha256": "3b6c0dddae66acc7e2c11cce7b882faccec956f19aca6215cc55ce1d43c9de69"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/sections.png",
+      "bytes": 60164,
+      "sha256": "c85a381470740a362cae438c07896063dad83accf1390b4ba314a5bd140736f8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-real-ct-refinement-probes01/support-plan.json",
+      "bytes": 14016,
+      "sha256": "cdc5326590c35aa14c88bce5b05a9fac745e09609b12c7934679269c1c6bf7f1"
+    }
+  ]
+}

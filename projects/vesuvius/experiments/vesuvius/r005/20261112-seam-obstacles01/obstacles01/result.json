@@ -1,0 +1,54 @@
+{
+  "subject": {
+    "vertices": 224,
+    "faces": 346,
+    "components": 1,
+    "edge_max_incidence": 2,
+    "boundary_vertex_degrees": [
+      2
+    ],
+    "negative": 0,
+    "zero": 0,
+    "interior_overlap_pairs": 61
+  },
+  "obstacle": {
+    "vertices": 218,
+    "faces": 356,
+    "components": 1,
+    "edge_max_incidence": 2,
+    "boundary_vertex_degrees": [
+      2,
+      4
+    ],
+    "negative": 0,
+    "zero": 0,
+    "interior_overlap_pairs": 0
+  },
+  "covered_previous_external_faces": 155,
+  "source_bbox_lower_yx": [
+    104,
+    997
+  ],
+  "source_bbox_upper_yx": [
+    122,
+    1016
+  ],
+  "subject_source_bbox_yx": [
+    [
+      112,
+      960
+    ],
+    [
+      126,
+      990
+    ]
+  ],
+  "shared_source_vertices": [],
+  "subject_fixed": 34,
+  "subject_coarse": 5,
+  "released_split_copy_vertex": 121019,
+  "strict_fixed_pin_obstacle_contacts": [],
+  "fixed_edge_obstacle_interior_contacts": [],
+  "solver_geometry_gate_passed": false,
+  "elapsed_seconds": 0.6573633000371046
+}

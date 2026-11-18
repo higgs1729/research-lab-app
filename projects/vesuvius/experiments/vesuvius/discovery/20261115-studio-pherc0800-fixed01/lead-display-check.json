@@ -1,0 +1,30 @@
+{
+  "utc": "2026-11-15T11:43:06.958318+00:00",
+  "passed": true,
+  "native_image_count": 9,
+  "native_pixels_checked": 10246401,
+  "native_max_DN_errors": {
+    "ct-z15": 0,
+    "studio-forward-raw": 0,
+    "studio-forward-median-p995": 0,
+    "reader-forward-raw": 0,
+    "hecate-forward-mapped": 0,
+    "studio-reverse-raw": 0,
+    "studio-reverse-median-p995": 0,
+    "reader-reverse-raw": 0,
+    "hecate-reverse-mapped": 0
+  },
+  "independent_Hecate_interpolation": "separate 1D np.interp along each axis",
+  "contact_panels_exact": 36,
+  "statistics": {
+    "forward": {
+      "median": 0.16719546914100647,
+      "p995": 0.7943114054203033
+    },
+    "reverse": {
+      "median": 0.16964872181415558,
+      "p995": 0.43904807567596477
+    }
+  },
+  "visual_judgement_included": false
+}

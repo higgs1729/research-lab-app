@@ -1,0 +1,73 @@
+{
+  "date_jst": "2026-11-14",
+  "reviewer": "root",
+  "fixtures": [
+    {
+      "fixture": "A",
+      "complete_chunks": 64,
+      "truth_equal_values": 262144
+    },
+    {
+      "fixture": "B",
+      "complete_chunks": 64,
+      "truth_equal_values": 262144
+    },
+    {
+      "fixture": "C",
+      "complete_chunks": 64,
+      "truth_equal_values": 262144
+    }
+  ],
+  "native_kernel_matches_precalculation": true,
+  "stored_input_center_xyz": [
+    32.0,
+    32.0,
+    32.0
+  ],
+  "results": [
+    {
+      "run": "A-r0",
+      "center_normal_offset_voxel": 5.99993896484375,
+      "precomputed_exact_arithmetic_residual_voxel": 1.0357562443275015e-06,
+      "unchanged_tangent_values": 50,
+      "moved_vertices": 16,
+      "unchanged_vertices": 9
+    },
+    {
+      "run": "B-r0",
+      "center_normal_offset_voxel": 5.99993896484375,
+      "precomputed_exact_arithmetic_residual_voxel": 1.0357562443275015e-06,
+      "unchanged_tangent_values": 50,
+      "moved_vertices": 16,
+      "unchanged_vertices": 9
+    },
+    {
+      "run": "C-r3",
+      "center_normal_offset_voxel": 5.99993896484375,
+      "precomputed_exact_arithmetic_residual_voxel": 1.0357562443275015e-06,
+      "unchanged_tangent_values": 50,
+      "moved_vertices": 16,
+      "unchanged_vertices": 9
+    },
+    {
+      "run": "A-r3",
+      "center_normal_offset_voxel": 9.03481674194336,
+      "precomputed_exact_arithmetic_residual_voxel": 1.7521541018084008e-07,
+      "unchanged_tangent_values": 50,
+      "moved_vertices": 16,
+      "unchanged_vertices": 9
+    },
+    {
+      "run": "B-r3",
+      "center_normal_offset_voxel": 3.0348777770996094,
+      "precomputed_exact_arithmetic_residual_voxel": 1.2109716536201631e-06,
+      "unchanged_tangent_values": 50,
+      "moved_vertices": 16,
+      "unchanged_vertices": 9
+    }
+  ],
+  "r3_reflected_pair_difference_voxel": 5.99993896484375,
+  "scope": "All fixture voxels and stored output coordinates checked without rerunning the product. Matches precomputed rational arithmetic within float32 output rounding. This establishes asymmetric sampling influence, not a real-sheet correction or a readability improvement.",
+  "new_network_bytes": 0,
+  "new_product_calls": 0
+}

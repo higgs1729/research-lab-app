@@ -1,0 +1,160 @@
+{
+  "method": "Exhaustive scipy cdist squared Euclidean distances; 256 valid quad centres per batch.",
+  "versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "tifffile": "2026.10.15"
+  },
+  "source": {
+    "checkout": "7ad02f4f6e306b744ef6d2742dfe31fd55713ee5",
+    "working_tree_changes": [
+      " M volume-cartographer/libs/flatboi/flatboi.cpp"
+    ],
+    "patch_matches": true,
+    "patch_sha256": "78da83a17188b13ff671afd0fe496de596f63d17798451bca0859b0ba21055a3",
+    "binaries": {
+      "flatboi-baseline": "fae4e8af0277727de2a6b874492bab96dd969a9e5ea1175a38bd93b56ce63000",
+      "flatboi": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef"
+    },
+    "assembly_systems": 36,
+    "generated_forwarders_checked": 201
+  },
+  "input": {
+    "shape_yx": [
+      162,
+      570
+    ],
+    "valid_vertices": 41349,
+    "valid_quads": 39312,
+    "verified_file_count": 4,
+    "bytes": 1110638,
+    "hashes": {
+      "meta.json": "36dc7600f31d7f16fc252d8ab5b3ce57931a399c48343d2821436a3c1b0e6317",
+      "x.tif": "da6fdece28f8fb89ff6d2506ae4347e13cf245454b95b9f1997046b6a3dbd7dc",
+      "y.tif": "51b6d36f7b7afb0a72ae9a90b6e16f94663228bf4a0172cf5eedeb93e4cfab30",
+      "z.tif": "44b3d11e1f130db7a060671ac429340b1ed6ab296697905696860338cf595eaa"
+    }
+  },
+  "runs": {
+    "baseline_keep1p5_01": {
+      "output_shape_yx": [
+        157,
+        402
+      ],
+      "output_valid_vertices": 21445,
+      "tiff_sha256": {
+        "x": "734d886ea05b9db3a15f480090b151eeab54cd59848698722ff658102032c3ed",
+        "y": "fb2c6e104735e775eee5f50a1572d9474ff226cb8b3d6720da820b8463a37d35",
+        "z": "498746a9e43dc46a66bbc9bbfcda43100ce0b7a179edf7bb3b65b3215a58585f"
+      },
+      "recorded_files_verified": 4,
+      "files_absent_from_run_state": {
+        "output_energies_flatboi.txt": "1a45bd8bce1274d6a553334969a9dd5499530627f601d1fcdb9927d7c8d608d8",
+        "output_heat_L2.png": "597517f532c625e88a88b8e6a075e28cded2f33e6d58739fc0e8ae8c91fc4281",
+        "output_heat_Linf.png": "eeb8d2f60ffbad9be69154228d6b8df79fd7c53308f137740faedc700e7ba1e3",
+        "output_heat_kappa.png": "f6ba2a6d98d93fcb3c5a1074e1d788f7a0c25ee537786be8eac0e43388daa4bf",
+        "output_heat_logarea.png": "8c1538001b21a6fd614bd484965c83d83c7aa330893b6761d0618083ca9256a5",
+        "output_heat_ranges.txt": "222588eab0bbb936259dbe3d4136cdab86d093a76e5c03ab078ccde6c65543d7",
+        "runner.py": "e8c65e0367d706d3a9d867b77fb36ce68b39028536b9b14c1d0ac438cd0272ef",
+        "stdout.log": "692f3752f55bb1b22e5e9c858bf4454bb3f6ed4fe8449ce19fafbd9499231b16"
+      },
+      "log": {
+        "initial_l2_mean": "8.25439",
+        "final_l2_mean": "1.00064",
+        "valid_grid_points": "21445",
+        "stride": 8,
+        "triangles_without_lifted_uv": 225
+      },
+      "quad_centre_distance_voxels": {
+        "above_20": 19062,
+        "above_40": 12823,
+        "quantiles_0_50_90_95_99_100": [
+          0.17607111872579725,
+          18.298666693744348,
+          92.01103012117456,
+          117.67561212945446,
+          176.83492440738513,
+          294.86032345518305
+        ],
+        "largest_distance_batch_bytes": 43919360
+      }
+    },
+    "baseline_keep100_01": {
+      "output_shape_yx": [
+        179,
+        556
+      ],
+      "output_valid_vertices": 40684,
+      "tiff_sha256": {
+        "x": "11445c762bfc56feb49aef0c2fa41497af08d9446f42c0bcb39b7c8921a23fdc",
+        "y": "3a4bd0dbcfcfa09569067b017ad509d9d226b5c2e35f7febd1b952b37457a02c",
+        "z": "f8590ff0ed1cd6192a9cd20da1cee006a7332c30ae605f8097a3d7d9f7300a16"
+      },
+      "recorded_files_verified": 12,
+      "files_absent_from_run_state": {},
+      "log": {
+        "initial_l2_mean": "1.05939",
+        "final_l2_mean": "1.0004",
+        "valid_grid_points": "40684",
+        "stride": 1,
+        "triangles_without_lifted_uv": 0
+      }
+    },
+    "stride_keep1p5_01": {
+      "output_shape_yx": [
+        157,
+        548
+      ],
+      "output_valid_vertices": 32773,
+      "tiff_sha256": {
+        "x": "7c5544a7d4d949130b96a6f60610274dfd1df0ec0e1d740efdc077f8b6a08559",
+        "y": "83983f13d786274717c17da503a3ea52f062f79a92ffc6ae6a30b203328751bf",
+        "z": "34c5ad0db5482be9007d279942dc2469f15f2169699a78e0619e1de9734f43e6"
+      },
+      "recorded_files_verified": 12,
+      "files_absent_from_run_state": {},
+      "log": {
+        "initial_l2_mean": "1.0318",
+        "final_l2_mean": "1.00064",
+        "valid_grid_points": "32773",
+        "stride": 8,
+        "triangles_without_lifted_uv": 225
+      },
+      "quad_centre_distance_voxels": {
+        "above_20": 9483,
+        "above_40": 6388,
+        "quantiles_0_50_90_95_99_100": [
+          0.12235810496470396,
+          9.55322605822761,
+          62.47983965943908,
+          90.8095428364598,
+          144.7178111277472,
+          272.25589363363105
+        ],
+        "largest_distance_batch_bytes": 67119104
+      }
+    },
+    "stride_keep100_01": {
+      "output_shape_yx": [
+        179,
+        556
+      ],
+      "output_valid_vertices": 40684,
+      "tiff_sha256": {
+        "x": "11445c762bfc56feb49aef0c2fa41497af08d9446f42c0bcb39b7c8921a23fdc",
+        "y": "3a4bd0dbcfcfa09569067b017ad509d9d226b5c2e35f7febd1b952b37457a02c",
+        "z": "f8590ff0ed1cd6192a9cd20da1cee006a7332c30ae605f8097a3d7d9f7300a16"
+      },
+      "recorded_files_verified": 12,
+      "files_absent_from_run_state": {},
+      "log": {
+        "initial_l2_mean": "1.05939",
+        "final_l2_mean": "1.0004",
+        "valid_grid_points": "40684",
+        "stride": 1,
+        "triangles_without_lifted_uv": 0
+      }
+    }
+  },
+  "keep100_xyz_tiffs_byte_identical": true
+}

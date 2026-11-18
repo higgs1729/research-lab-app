@@ -1,0 +1,607 @@
+{
+  "reviewer": "root",
+  "mesh_points": [
+    {
+      "xy": [
+        592,
+        592
+      ],
+      "mesh_uv": [
+        30.390087436078506,
+        30.390087436078506
+      ],
+      "delta_voxel": 0.00019005355476653946,
+      "observer_header": [
+        29.569751417186126,
+        29.569751417186126,
+        0.05127109622406705,
+        0.05127109622406705,
+        64.0,
+        64.0
+      ]
+    },
+    {
+      "xy": [
+        1088,
+        592
+      ],
+      "mesh_uv": [
+        55.82055116321577,
+        30.390087436078506
+      ],
+      "delta_voxel": 0.00032185167420910397,
+      "observer_header": [
+        55.82055200070964,
+        29.569751417186126,
+        0.05127109622406705,
+        0.05127109622406705,
+        64.0,
+        64.0
+      ]
+    },
+    {
+      "xy": [
+        1584,
+        592
+      ],
+      "mesh_uv": [
+        81.25101489035302,
+        30.390087436078506
+      ],
+      "delta_voxel": 0.0003646260093173103,
+      "observer_header": [
+        78.79000361546878,
+        29.569751417186126,
+        0.05127109622406705,
+        0.05127109622406705,
+        64.0,
+        64.0
+      ]
+    },
+    {
+      "xy": [
+        592,
+        1088
+      ],
+      "mesh_uv": [
+        30.390087436078506,
+        55.82055116321577
+      ],
+      "delta_voxel": 0.00014831426702060414,
+      "observer_header": [
+        29.569751417186126,
+        55.82055200070964,
+        0.05127109622406705,
+        0.05127109622406705,
+        64.0,
+        64.0
+      ]
+    },
+    {
+      "xy": [
+        1088,
+        1088
+      ],
+      "mesh_uv": [
+        55.82055116321577,
+        55.82055116321577
+      ],
+      "delta_voxel": 0.00030726199339030456,
+      "observer_header": [
+        55.82055200070964,
+        55.82055200070964,
+        0.05127109622406705,
+        0.05127109622406705,
+        64.0,
+        64.0
+      ]
+    },
+    {
+      "xy": [
+        1584,
+        1088
+      ],
+      "mesh_uv": [
+        81.25101489035302,
+        55.82055116321577
+      ],
+      "delta_voxel": 0.0002876297410524101,
+      "observer_header": [
+        78.79000361546878,
+        55.82055200070964,
+        0.05127109622406705,
+        0.05127109622406705,
+        64.0,
+        64.0
+      ]
+    },
+    {
+      "xy": [
+        592,
+        1584
+      ],
+      "mesh_uv": [
+        30.390087436078506,
+        81.25101489035302
+      ],
+      "delta_voxel": 0.00020222470281659575,
+      "observer_header": [
+        29.569751417186126,
+        78.79000361546878,
+        0.05127109622406705,
+        0.05127109622406705,
+        64.0,
+        64.0
+      ]
+    },
+    {
+      "xy": [
+        1088,
+        1584
+      ],
+      "mesh_uv": [
+        55.82055116321577,
+        81.25101489035302
+      ],
+      "delta_voxel": 0.00034831493554798263,
+      "observer_header": [
+        55.82055200070964,
+        78.79000361546878,
+        0.05127109622406705,
+        0.05127109622406705,
+        64.0,
+        64.0
+      ]
+    },
+    {
+      "xy": [
+        1584,
+        1584
+      ],
+      "mesh_uv": [
+        81.25101489035302,
+        81.25101489035302
+      ],
+      "delta_voxel": 0.00012597539571452447,
+      "observer_header": [
+        78.79000361546878,
+        78.79000361546878,
+        0.05127109622406705,
+        0.05127109622406705,
+        64.0,
+        64.0
+      ]
+    }
+  ],
+  "max_geometry_error_voxel": 0.0003646260093173103,
+  "full_canvas_xy": [
+    2184,
+    2184
+  ],
+  "scale_float32": 0.9752083420753479,
+  "step_float32": 1.0254219770431519,
+  "spacing_zyx_um": [
+    9.600000549077988,
+    9.599999913943169,
+    9.599999913943169
+  ],
+  "ct_samples": [
+    {
+      "xy": [
+        592,
+        592
+      ],
+      "layer": 0,
+      "raw_ct_interpolated": 145.11935379846545,
+      "rendered": 145
+    },
+    {
+      "xy": [
+        592,
+        592
+      ],
+      "layer": 8,
+      "raw_ct_interpolated": 109.1675071392674,
+      "rendered": 109
+    },
+    {
+      "xy": [
+        592,
+        592
+      ],
+      "layer": 16,
+      "raw_ct_interpolated": 110.16727880446706,
+      "rendered": 110
+    },
+    {
+      "xy": [
+        592,
+        592
+      ],
+      "layer": 24,
+      "raw_ct_interpolated": 22.60808422230184,
+      "rendered": 23
+    },
+    {
+      "xy": [
+        592,
+        592
+      ],
+      "layer": 32,
+      "raw_ct_interpolated": 103.09528758648958,
+      "rendered": 103
+    },
+    {
+      "xy": [
+        1088,
+        592
+      ],
+      "layer": 0,
+      "raw_ct_interpolated": 104.67787105495518,
+      "rendered": 105
+    },
+    {
+      "xy": [
+        1088,
+        592
+      ],
+      "layer": 8,
+      "raw_ct_interpolated": 124.80825138837099,
+      "rendered": 125
+    },
+    {
+      "xy": [
+        1088,
+        592
+      ],
+      "layer": 16,
+      "raw_ct_interpolated": 154.01170070841908,
+      "rendered": 154
+    },
+    {
+      "xy": [
+        1088,
+        592
+      ],
+      "layer": 24,
+      "raw_ct_interpolated": 39.20931166410446,
+      "rendered": 39
+    },
+    {
+      "xy": [
+        1088,
+        592
+      ],
+      "layer": 32,
+      "raw_ct_interpolated": 47.297667503356934,
+      "rendered": 47
+    },
+    {
+      "xy": [
+        1584,
+        592
+      ],
+      "layer": 0,
+      "raw_ct_interpolated": 55.10299007198773,
+      "rendered": 55
+    },
+    {
+      "xy": [
+        1584,
+        592
+      ],
+      "layer": 8,
+      "raw_ct_interpolated": 127.58928121085046,
+      "rendered": 128
+    },
+    {
+      "xy": [
+        1584,
+        592
+      ],
+      "layer": 16,
+      "raw_ct_interpolated": 93.66813468933105,
+      "rendered": 94
+    },
+    {
+      "xy": [
+        1584,
+        592
+      ],
+      "layer": 24,
+      "raw_ct_interpolated": 129.07004277713713,
+      "rendered": 129
+    },
+    {
+      "xy": [
+        1584,
+        592
+      ],
+      "layer": 32,
+      "raw_ct_interpolated": 56.31528138520662,
+      "rendered": 56
+    },
+    {
+      "xy": [
+        592,
+        1088
+      ],
+      "layer": 0,
+      "raw_ct_interpolated": 126.84612411251874,
+      "rendered": 127
+    },
+    {
+      "xy": [
+        592,
+        1088
+      ],
+      "layer": 8,
+      "raw_ct_interpolated": 122.99592423019931,
+      "rendered": 123
+    },
+    {
+      "xy": [
+        592,
+        1088
+      ],
+      "layer": 16,
+      "raw_ct_interpolated": 174.30321168899536,
+      "rendered": 174
+    },
+    {
+      "xy": [
+        592,
+        1088
+      ],
+      "layer": 24,
+      "raw_ct_interpolated": 103.46298468334135,
+      "rendered": 103
+    },
+    {
+      "xy": [
+        592,
+        1088
+      ],
+      "layer": 32,
+      "raw_ct_interpolated": 35.42354887485271,
+      "rendered": 35
+    },
+    {
+      "xy": [
+        1088,
+        1088
+      ],
+      "layer": 0,
+      "raw_ct_interpolated": 113.61637267260812,
+      "rendered": 114
+    },
+    {
+      "xy": [
+        1088,
+        1088
+      ],
+      "layer": 8,
+      "raw_ct_interpolated": 108.92717569810338,
+      "rendered": 109
+    },
+    {
+      "xy": [
+        1088,
+        1088
+      ],
+      "layer": 16,
+      "raw_ct_interpolated": 120.89422368718078,
+      "rendered": 121
+    },
+    {
+      "xy": [
+        1088,
+        1088
+      ],
+      "layer": 24,
+      "raw_ct_interpolated": 153.99755920897587,
+      "rendered": 154
+    },
+    {
+      "xy": [
+        1088,
+        1088
+      ],
+      "layer": 32,
+      "raw_ct_interpolated": 45.680609703063965,
+      "rendered": 46
+    },
+    {
+      "xy": [
+        1584,
+        1088
+      ],
+      "layer": 0,
+      "raw_ct_interpolated": 83.73048679437488,
+      "rendered": 84
+    },
+    {
+      "xy": [
+        1584,
+        1088
+      ],
+      "layer": 8,
+      "raw_ct_interpolated": 129.04806179337902,
+      "rendered": 129
+    },
+    {
+      "xy": [
+        1584,
+        1088
+      ],
+      "layer": 16,
+      "raw_ct_interpolated": 139.456375004258,
+      "rendered": 139
+    },
+    {
+      "xy": [
+        1584,
+        1088
+      ],
+      "layer": 24,
+      "raw_ct_interpolated": 125.00020402367227,
+      "rendered": 125
+    },
+    {
+      "xy": [
+        1584,
+        1088
+      ],
+      "layer": 32,
+      "raw_ct_interpolated": 76.30373883247375,
+      "rendered": 76
+    },
+    {
+      "xy": [
+        592,
+        1584
+      ],
+      "layer": 0,
+      "raw_ct_interpolated": 75.11600361714954,
+      "rendered": 75
+    },
+    {
+      "xy": [
+        592,
+        1584
+      ],
+      "layer": 8,
+      "raw_ct_interpolated": 67.83181045760284,
+      "rendered": 68
+    },
+    {
+      "xy": [
+        592,
+        1584
+      ],
+      "layer": 16,
+      "raw_ct_interpolated": 88.7033250303939,
+      "rendered": 89
+    },
+    {
+      "xy": [
+        592,
+        1584
+      ],
+      "layer": 24,
+      "raw_ct_interpolated": 107.39655033915187,
+      "rendered": 107
+    },
+    {
+      "xy": [
+        592,
+        1584
+      ],
+      "layer": 32,
+      "raw_ct_interpolated": 68.90827377299138,
+      "rendered": 69
+    },
+    {
+      "xy": [
+        1088,
+        1584
+      ],
+      "layer": 0,
+      "raw_ct_interpolated": 113.74909990397282,
+      "rendered": 114
+    },
+    {
+      "xy": [
+        1088,
+        1584
+      ],
+      "layer": 8,
+      "raw_ct_interpolated": 119.07526024978142,
+      "rendered": 119
+    },
+    {
+      "xy": [
+        1088,
+        1584
+      ],
+      "layer": 16,
+      "raw_ct_interpolated": 38.58460888930131,
+      "rendered": 39
+    },
+    {
+      "xy": [
+        1088,
+        1584
+      ],
+      "layer": 24,
+      "raw_ct_interpolated": 121.6732372539118,
+      "rendered": 122
+    },
+    {
+      "xy": [
+        1088,
+        1584
+      ],
+      "layer": 32,
+      "raw_ct_interpolated": 75.8059745443752,
+      "rendered": 76
+    },
+    {
+      "xy": [
+        1584,
+        1584
+      ],
+      "layer": 0,
+      "raw_ct_interpolated": 117.412602792494,
+      "rendered": 117
+    },
+    {
+      "xy": [
+        1584,
+        1584
+      ],
+      "layer": 8,
+      "raw_ct_interpolated": 34.96005296707153,
+      "rendered": 35
+    },
+    {
+      "xy": [
+        1584,
+        1584
+      ],
+      "layer": 16,
+      "raw_ct_interpolated": 147.8929633111693,
+      "rendered": 148
+    },
+    {
+      "xy": [
+        1584,
+        1584
+      ],
+      "layer": 24,
+      "raw_ct_interpolated": 109.03036005108152,
+      "rendered": 109
+    },
+    {
+      "xy": [
+        1584,
+        1584
+      ],
+      "layer": 32,
+      "raw_ct_interpolated": 42.61120481137186,
+      "rendered": 43
+    }
+  ],
+  "max_interpolation_error_dn": 0.4629846833413467,
+  "planned_patch_inputs": 1922,
+  "active_per_direction": {
+    "forward": 961,
+    "reverse": 961
+  },
+  "model_forward_calls": 0,
+  "new_download_bytes": 0,
+  "old_input_values_compared": 4866048,
+  "old_input_values_changed": 967,
+  "old_input_max_difference_dn": 1,
+  "scope": "Pixel locations, saved CT interpolation and inference inputs. Physical lamina identity and ink are not established."
+}

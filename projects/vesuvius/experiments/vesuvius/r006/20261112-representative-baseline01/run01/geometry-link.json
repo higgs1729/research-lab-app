@@ -1,0 +1,139 @@
+{
+  "status": "active geometry point and Hermite bodies are inherited O0, not a representative optimized baseline",
+  "o3_surface_callback": {
+    "map_line": 323126,
+    "symbol": "_ZNSt17_Function_handlerIFviiiiPfS0_EZN3vcr4grid12_GLOBAL__N_110sampleHostERKNS3_7SurfaceERKNS3_6RasterERKNS3_7RequestEEUliiiiS0_S0_E_E9_M_invokeERKSt9_Any_dataOiSJ_SJ_SJ_OS0_SK_",
+    "address": "0x00000000009f4d70",
+    "size_bytes": 2317,
+    "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid-grid.cpp.o"
+  },
+  "active_o0_point": {
+    "map_line": 293903,
+    "symbol": "_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_",
+    "address": "0x00000000009152ce",
+    "size_bytes": 9819,
+    "object": "/mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/projection/mask.cpp.o"
+  },
+  "active_o0_hermite": {
+    "map_line": 293896,
+    "symbol": "_ZN3vcr4grid6detail7hermiteEf",
+    "address": "0x00000000009150cb",
+    "size_bytes": 392,
+    "object": "/mnt/d/kensyoukin-work/r003-build/reader/CMakeFiles/vc_reader_native.dir/src/cpp/projection/mask.cpp.o"
+  },
+  "discarded_o3_point": {
+    "map_line": 23504,
+    "symbol": "_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_",
+    "address": "0x0000000000000000",
+    "size_bytes": 4049,
+    "object": "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid-grid.cpp.o"
+  },
+  "old_projection_compile": {
+    "directory": "/mnt/d/kensyoukin-work/r003-build",
+    "command": "/usr/bin/g++ -Dvc_reader_native_EXPORTS -I/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/core/include -I/mnt/d/kensyoukin-work/r003-villa/vc_reader/cmake/../include -I/mnt/d/kensyoukin-work/r003-villa/vc_reader/include -I/mnt/d/kensyoukin-work/r003-build/reader/include -I/mnt/d/kensyoukin-work/r003-build/_deps/vc_delta3d-src/include -I/mnt/d/kensyoukin-work/r003-villa/vc_reader/third_party/volcomp -std=gnu++20 -fPIC -fPIC -pipe -march=x86-64-v3 -g1 -fno-omit-frame-pointer -fasynchronous-unwind-tables -ffunction-sections -fdata-sections -O0 -Wno-psabi -Wno-ignored-attributes -Wno-narrowing -ffp-contract=off -o reader/CMakeFiles/vc_reader_native.dir/src/cpp/projection/mask.cpp.o -c /mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/projection/mask.cpp",
+    "file": "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/projection/mask.cpp",
+    "output": "reader/CMakeFiles/vc_reader_native.dir/src/cpp/projection/mask.cpp.o"
+  },
+  "new_reader_dynamic_exports": [
+    "00000000009152ce W _ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_",
+    "00000000009150cb W _ZN3vcr4grid6detail7hermiteEf"
+  ],
+  "callback_to_point_plt": [
+    {
+      "instruction": "9f5035:\te8 f6 fb ec ff       \tcall   8c4c30 <_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_@plt>",
+      "source": [
+        "void vcr::grid::Surface::Impl::resampleRows<false>(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:227 (discriminator 4)",
+        "vcr::grid::Surface::Impl::resampleRect(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:214 (discriminator 4)",
+        "operator()",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:687 (discriminator 4)",
+        "__invoke_impl<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:61 (discriminator 4)",
+        "__invoke_r<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:111 (discriminator 4)",
+        "_M_invoke",
+        "/usr/include/c++/13/bits/std_function.h:290 (discriminator 4)"
+      ]
+    },
+    {
+      "instruction": "9f52a7:\te8 84 f9 ec ff       \tcall   8c4c30 <_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_@plt>",
+      "source": [
+        "void vcr::grid::Surface::Impl::resampleRows<true>(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:227 (discriminator 4)",
+        "vcr::grid::Surface::Impl::resampleRect(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:212 (discriminator 4)",
+        "operator()",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:687 (discriminator 4)",
+        "__invoke_impl<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:61 (discriminator 4)",
+        "__invoke_r<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:111 (discriminator 4)",
+        "_M_invoke",
+        "/usr/include/c++/13/bits/std_function.h:290 (discriminator 4)"
+      ]
+    },
+    {
+      "instruction": "9f54ce:\te8 5d f7 ec ff       \tcall   8c4c30 <_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_@plt>",
+      "source": [
+        "void vcr::grid::Surface::Impl::resampleRows<true>(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:227 (discriminator 4)",
+        "vcr::grid::Surface::Impl::resampleRect(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:212 (discriminator 4)",
+        "operator()",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:687 (discriminator 4)",
+        "__invoke_impl<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:61 (discriminator 4)",
+        "__invoke_r<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:111 (discriminator 4)",
+        "_M_invoke",
+        "/usr/include/c++/13/bits/std_function.h:290 (discriminator 4)"
+      ]
+    },
+    {
+      "instruction": "9f5614:\te8 17 f6 ec ff       \tcall   8c4c30 <_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_@plt>",
+      "source": [
+        "void vcr::grid::Surface::Impl::resampleRows<false>(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:227 (discriminator 4)",
+        "vcr::grid::Surface::Impl::resampleRect(vcr::grid::Raster const&, int, int, int, int, float*, float*) const",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:214 (discriminator 4)",
+        "operator()",
+        "/mnt/d/kensyoukin-work/r006-representative-baseline01/run01/grid.cpp:687 (discriminator 4)",
+        "__invoke_impl<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:61 (discriminator 4)",
+        "__invoke_r<void, vcr::grid::(anonymous namespace)::sampleHost(const vcr::grid::Surface&, const vcr::grid::Raster&, const vcr::grid::Request&)::<lambda(int, int, int, int, float*, float*)>&, int, int, int, int, float*, float*>",
+        "/usr/include/c++/13/bits/invoke.h:111 (discriminator 4)",
+        "_M_invoke",
+        "/usr/include/c++/13/bits/std_function.h:290 (discriminator 4)"
+      ]
+    }
+  ],
+  "point_to_hermite_plt": [
+    {
+      "instruction": "915a63:\te8 48 28 f3 ff       \tcall   8482b0 <_ZN3vcr4grid6detail7hermiteEf@plt>",
+      "source": [
+        "vcr::grid::point(vcr::grid::PointMap const&, vcr::grid::GridView const&, float, float, float*, float*, float*, float*)",
+        "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/projection/../grid/points.hpp:95"
+      ]
+    },
+    {
+      "instruction": "915a7c:\te8 2f 28 f3 ff       \tcall   8482b0 <_ZN3vcr4grid6detail7hermiteEf@plt>",
+      "source": [
+        "vcr::grid::point(vcr::grid::PointMap const&, vcr::grid::GridView const&, float, float, float*, float*, float*, float*)",
+        "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/projection/../grid/points.hpp:95 (discriminator 1)"
+      ]
+    }
+  ],
+  "loader_bindings": {
+    "timing": [
+      "426:\tbinding file /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/libvc_reader_native.so [0] to /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/libvc_reader_native.so [0]: normal symbol `_ZN3vcr4grid6detail7hermiteEf'",
+      "426:\tbinding file /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/libvc_reader_native.so [0] to /mnt/d/kensyoukin-work/r006-representative-baseline01/run01/libvc_reader_native.so [0]: normal symbol `_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_'"
+    ],
+    "control": [
+      "436:\tbinding file /mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so [0] to /mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so [0]: normal symbol `_ZN3vcr4grid6detail7hermiteEf'",
+      "436:\tbinding file /mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so [0] to /mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so [0]: normal symbol `_ZN3vcr4grid5pointERKNS0_8PointMapERKNS0_8GridViewEffPfS7_S7_S7_'"
+    ]
+  },
+  "library_sha256": "4934d903249e070fb1e93d7d9f49a9312094dbbd61ccf8853cca0c44776dda7d",
+  "link_map_sha256": "c6d9104df40bd926a352854d459662abb1e663da8a907f767e7014b8603d7ed9"
+}

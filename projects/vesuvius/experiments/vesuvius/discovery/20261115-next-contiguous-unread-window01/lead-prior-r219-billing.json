@@ -1,0 +1,31 @@
+{
+  "utc": "2026-11-15T06:03:51.675774+00:00",
+  "study": 219,
+  "pod_id": "4grhbmsglcz5tj",
+  "billing_http_status": 200,
+  "billing_query": {
+    "podId": "4grhbmsglcz5tj",
+    "bucketSize": "hour",
+    "startTime": "2026-11-14T16:00:00+00:00",
+    "endTime": "2026-11-14T18:00:00+00:00"
+  },
+  "billing_records": [
+    {
+      "cpuAmount": 0,
+      "diskAmount": 0,
+      "endTime": "2026-11-14T17:00:00Z",
+      "gpuAmount": 0.018594099208712578,
+      "podId": "4grhbmsglcz5tj",
+      "startTime": "2026-11-14T16:00:00Z",
+      "totalAmount": 0.018594099208712578
+    }
+  ],
+  "billing_totals": {
+    "cpuAmount": 0,
+    "diskAmount": 0,
+    "gpuAmount": 0.018594099208712578,
+    "totalAmount": 0.018594099208712578
+  },
+  "writes": 0,
+  "final_invoice_confirmed": false
+}

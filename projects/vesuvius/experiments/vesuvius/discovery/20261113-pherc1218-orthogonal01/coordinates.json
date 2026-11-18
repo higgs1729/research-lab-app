@@ -1,0 +1,219 @@
+{
+  "frozen_utc": "2026-11-13T14:53:20.482016+00:00",
+  "canvas_roi_xywh": [
+    9162,
+    2012,
+    256,
+    256
+  ],
+  "anchor_canvas_xy": [
+    9290,
+    2140
+  ],
+  "anchor_local_yx": [
+    128,
+    128
+  ],
+  "P_xyz": [
+    3803.407958984375,
+    5132.73486328125,
+    11026.1083984375
+  ],
+  "N_xyz": [
+    0.3992144465446472,
+    -0.916323184967041,
+    0.03130050003528595
+  ],
+  "rounded_P_xyz": [
+    3803,
+    5133,
+    11026
+  ],
+  "rounding": "floor(global voxel coordinate + 0.5), integer voxel centers",
+  "voxel_um": 8.64,
+  "global_origin_zyx": [
+    10880,
+    4992,
+    3584
+  ],
+  "shape_zyx": [
+    384,
+    256,
+    384
+  ],
+  "raw_plane_mapping": "pixel column = horizontal global axis minus origin; row = vertical global axis minus origin",
+  "mesh_support": "Include individual P points whose fixed-axis distance to plane is <= 0.5 voxel. Do not connect points.",
+  "normal_depths": [
+    -24,
+    -16,
+    -8,
+    0,
+    8,
+    16,
+    24
+  ],
+  "planes": [
+    {
+      "id": "X3787",
+      "axis": "X",
+      "global_voxel": 3787,
+      "delta_from_rounded_anchor": -16,
+      "horizontal_axis": "Y",
+      "vertical_axis": "Z",
+      "horizontal_limits_inclusive": [
+        4992,
+        5247
+      ],
+      "vertical_limits_inclusive": [
+        10880,
+        11263
+      ],
+      "fixed_zyx_axis_index": 2,
+      "fixed_local_index": 203
+    },
+    {
+      "id": "X3803",
+      "axis": "X",
+      "global_voxel": 3803,
+      "delta_from_rounded_anchor": 0,
+      "horizontal_axis": "Y",
+      "vertical_axis": "Z",
+      "horizontal_limits_inclusive": [
+        4992,
+        5247
+      ],
+      "vertical_limits_inclusive": [
+        10880,
+        11263
+      ],
+      "fixed_zyx_axis_index": 2,
+      "fixed_local_index": 219
+    },
+    {
+      "id": "X3819",
+      "axis": "X",
+      "global_voxel": 3819,
+      "delta_from_rounded_anchor": 16,
+      "horizontal_axis": "Y",
+      "vertical_axis": "Z",
+      "horizontal_limits_inclusive": [
+        4992,
+        5247
+      ],
+      "vertical_limits_inclusive": [
+        10880,
+        11263
+      ],
+      "fixed_zyx_axis_index": 2,
+      "fixed_local_index": 235
+    },
+    {
+      "id": "Y5117",
+      "axis": "Y",
+      "global_voxel": 5117,
+      "delta_from_rounded_anchor": -16,
+      "horizontal_axis": "X",
+      "vertical_axis": "Z",
+      "horizontal_limits_inclusive": [
+        3584,
+        3967
+      ],
+      "vertical_limits_inclusive": [
+        10880,
+        11263
+      ],
+      "fixed_zyx_axis_index": 1,
+      "fixed_local_index": 125
+    },
+    {
+      "id": "Y5133",
+      "axis": "Y",
+      "global_voxel": 5133,
+      "delta_from_rounded_anchor": 0,
+      "horizontal_axis": "X",
+      "vertical_axis": "Z",
+      "horizontal_limits_inclusive": [
+        3584,
+        3967
+      ],
+      "vertical_limits_inclusive": [
+        10880,
+        11263
+      ],
+      "fixed_zyx_axis_index": 1,
+      "fixed_local_index": 141
+    },
+    {
+      "id": "Y5149",
+      "axis": "Y",
+      "global_voxel": 5149,
+      "delta_from_rounded_anchor": 16,
+      "horizontal_axis": "X",
+      "vertical_axis": "Z",
+      "horizontal_limits_inclusive": [
+        3584,
+        3967
+      ],
+      "vertical_limits_inclusive": [
+        10880,
+        11263
+      ],
+      "fixed_zyx_axis_index": 1,
+      "fixed_local_index": 157
+    },
+    {
+      "id": "Z11010",
+      "axis": "Z",
+      "global_voxel": 11010,
+      "delta_from_rounded_anchor": -16,
+      "horizontal_axis": "X",
+      "vertical_axis": "Y",
+      "horizontal_limits_inclusive": [
+        3584,
+        3967
+      ],
+      "vertical_limits_inclusive": [
+        4992,
+        5247
+      ],
+      "fixed_zyx_axis_index": 0,
+      "fixed_local_index": 130
+    },
+    {
+      "id": "Z11026",
+      "axis": "Z",
+      "global_voxel": 11026,
+      "delta_from_rounded_anchor": 0,
+      "horizontal_axis": "X",
+      "vertical_axis": "Y",
+      "horizontal_limits_inclusive": [
+        3584,
+        3967
+      ],
+      "vertical_limits_inclusive": [
+        4992,
+        5247
+      ],
+      "fixed_zyx_axis_index": 0,
+      "fixed_local_index": 146
+    },
+    {
+      "id": "Z11042",
+      "axis": "Z",
+      "global_voxel": 11042,
+      "delta_from_rounded_anchor": 16,
+      "horizontal_axis": "X",
+      "vertical_axis": "Y",
+      "horizontal_limits_inclusive": [
+        3584,
+        3967
+      ],
+      "vertical_limits_inclusive": [
+        4992,
+        5247
+      ],
+      "fixed_zyx_axis_index": 0,
+      "fixed_local_index": 162
+    }
+  ]
+}

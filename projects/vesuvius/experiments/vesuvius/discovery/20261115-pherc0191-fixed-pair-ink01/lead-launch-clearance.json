@@ -1,0 +1,12 @@
+{
+  "approved": true,
+  "approved_utc": "2026-11-14T15:33:48.076807+00:00",
+  "cloud_plan_sha256": "825106b49e0a466aabd8e2f6bd3139e3f644d7e6d766e14435e79fa7ad375095",
+  "controller_source_sha256": "f047292fed22cc915006db2e6437ef1b7f8f7eba9133822f17c21dd09c8cb4d8",
+  "basis": [
+    "lead-input-check.json",
+    "lead-cloud-check.json",
+    "cloud-local-check.json"
+  ],
+  "conditions": "One create only after fresh admission true; fixed raw/snap x forward/reverse; Secure4090 <=0.90 USD/h; 2700s absolute lifetime; operational0.75 USD; owned finally deletion plus independent residual check; no retry Pod or other settings"
+}

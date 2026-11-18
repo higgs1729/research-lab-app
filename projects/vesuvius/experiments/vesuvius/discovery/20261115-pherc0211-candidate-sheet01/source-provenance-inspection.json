@@ -1,0 +1,24 @@
+{
+  "utc": "2026-11-15T14:48:13.944827+00:00",
+  "article": {
+    "url": "https://scrollprize.substack.com/p/first-letters-emerge-from-pherc-211",
+    "saved_raw_path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\sources\\award.html",
+    "saved_raw_sha256": "45346fbb05600bda2df15ce1b9d35d00fa27ec558c5e73e54ae2eb4513a2f3ce",
+    "visible_text_path": "sources/award-visible-text.txt",
+    "extraction": "HTMLParser text excluding script/style; original HTML retained at cited path"
+  },
+  "new_CT_HEAD": [
+    {
+      "url": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr/0/65/26/29",
+      "key": "0/65/26/29",
+      "status": 200,
+      "content_length": 2097152,
+      "etag": "\"8920e9ce559f98d57c85b7e23f54aaf0\"",
+      "last_modified": "Tue, 27 Jan 2026 10:39:48 GMT"
+    }
+  ],
+  "CT_body_bytes_acquired": 0,
+  "new_draws": 0,
+  "model_forwards": 0,
+  "earlier_terminal_preview_issue": "One preliminary stdout preview of saved article failed on cp932 Greek character encoding; no source or scientific result was altered. Full UTF-8 extraction saved here instead."
+}

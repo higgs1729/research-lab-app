@@ -1,0 +1,365 @@
+{
+  "vertices": 605,
+  "faces": 934,
+  "common_affected_faces": 933,
+  "full_component_faces": 375552,
+  "coarse_points_preserved": 3954,
+  "C_fixed_points_preserved_except_released": 183891,
+  "released_vertices": [
+    125725,
+    125726
+  ],
+  "modes": {
+    "control": {
+      "changed_vertices_from_F": 482,
+      "C_fixed_vertices_changed": [],
+      "released_point_displacements": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "released_point_max_error": 0.0,
+      "energy_at_40": 91.10028040205282,
+      "energy_at_50": 91.0699429456313
+    },
+    "release": {
+      "changed_vertices_from_F": 484,
+      "C_fixed_vertices_changed": [
+        125725,
+        125726
+      ],
+      "released_point_displacements": [
+        [
+          -7.572784880074323,
+          14.220313821256696
+        ],
+        [
+          -3.997865922508936,
+          15.848492684609027
+        ]
+      ],
+      "released_point_max_error": 16.34495800877029,
+      "energy_at_40": 8.526817669404142,
+      "energy_at_50": 8.66243290445049
+    }
+  },
+  "measurements": {
+    "initial_F": {
+      "full_mesh_negative": 0,
+      "full_mesh_zero": 0,
+      "full_mesh_minimum_signed_area": 0.36532380015319177,
+      "bbox_candidate_pairs": 6613,
+      "interior_overlap_pairs": 0,
+      "pairwise_intersection_area_sum": 0.0,
+      "minimum_local_signed_area": 2.451262932135304,
+      "nearby_fixed_edge_distance_uv": 0.9980473932737728,
+      "local_quality": {
+        "faces": 934,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 22.775352611573588,
+        "area_weighted_inverse_L2_rms": 6.65020427532561,
+        "max_symmetric_singular_stretch": 113.53436653955939,
+        "uv_area_over_3d_area": 1.0167640660823793,
+        "area_ratio_percentiles_1_50_99": [
+          0.08280657827647905,
+          0.9761310618320691,
+          2.6983831956554374
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.0188444090065198,
+          5.973656798235229,
+          57.80993248265322
+        ]
+      },
+      "prior_bad11_quality": {
+        "faces": 22,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 10.29273533067926,
+        "area_weighted_inverse_L2_rms": 4.457546961248054,
+        "max_symmetric_singular_stretch": 15.107085261595552,
+        "uv_area_over_3d_area": 0.22258805723072347,
+        "area_ratio_percentiles_1_50_99": [
+          0.09645624714490351,
+          0.21406735768783255,
+          0.5193723641324026
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          5.536952089583913,
+          55.17039517462177,
+          57.84239353945277
+        ]
+      }
+    },
+    "initial_F_float32": {
+      "full_mesh_negative": 0,
+      "full_mesh_zero": 0,
+      "full_mesh_minimum_signed_area": 0.3705754280090332,
+      "bbox_candidate_pairs": 6613,
+      "interior_overlap_pairs": 0,
+      "pairwise_intersection_area_sum": 0.0,
+      "minimum_local_signed_area": 2.4523510932922363,
+      "nearby_fixed_edge_distance_uv": 0.9980473932737728,
+      "local_quality": {
+        "faces": 934,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 22.778131230108404,
+        "area_weighted_inverse_L2_rms": 6.650622106338051,
+        "max_symmetric_singular_stretch": 113.48405247782296,
+        "uv_area_over_3d_area": 1.0167643375021693,
+        "area_ratio_percentiles_1_50_99": [
+          0.08280232647094801,
+          0.9760803267380472,
+          2.698376739923311
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.0188426505741757,
+          5.973997653340083,
+          57.803417927722045
+        ]
+      },
+      "prior_bad11_quality": {
+        "faces": 22,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 10.292456347665057,
+        "area_weighted_inverse_L2_rms": 4.457485228369755,
+        "max_symmetric_singular_stretch": 15.108271973550575,
+        "uv_area_over_3d_area": 0.22258861562992713,
+        "area_ratio_percentiles_1_50_99": [
+          0.09645530527875014,
+          0.21406224067358642,
+          0.5193709609439624
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          5.536951698194011,
+          55.17890760594464,
+          57.833104905859464
+        ]
+      }
+    },
+    "control": {
+      "full_mesh_negative": 0,
+      "full_mesh_zero": 0,
+      "full_mesh_minimum_signed_area": 0.36532380015319177,
+      "bbox_candidate_pairs": 6605,
+      "interior_overlap_pairs": 0,
+      "pairwise_intersection_area_sum": 0.0,
+      "minimum_local_signed_area": 2.450363318691032,
+      "nearby_fixed_edge_distance_uv": 0.9980473932737728,
+      "local_quality": {
+        "faces": 934,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 22.76749060836304,
+        "area_weighted_inverse_L2_rms": 6.649018050907723,
+        "max_symmetric_singular_stretch": 113.51489138684026,
+        "uv_area_over_3d_area": 1.0167136123911684,
+        "area_ratio_percentiles_1_50_99": [
+          0.0796055868760708,
+          0.9762688152414184,
+          2.6890030217122405
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.0185882791624152,
+          6.008411323223755,
+          60.78962333400593
+        ]
+      },
+      "prior_bad11_quality": {
+        "faces": 22,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 10.288855089991394,
+        "area_weighted_inverse_L2_rms": 4.457226323160638,
+        "max_symmetric_singular_stretch": 15.102956151450984,
+        "uv_area_over_3d_area": 0.2217359333419468,
+        "area_ratio_percentiles_1_50_99": [
+          0.09040023739056989,
+          0.21556406579200357,
+          0.5113995496240963
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          5.576972962471586,
+          54.522030691542355,
+          57.8806288026055
+        ]
+      }
+    },
+    "control_float32": {
+      "full_mesh_negative": 0,
+      "full_mesh_zero": 0,
+      "full_mesh_minimum_signed_area": 0.3705754280090332,
+      "bbox_candidate_pairs": 6605,
+      "interior_overlap_pairs": 0,
+      "pairwise_intersection_area_sum": 0.0,
+      "minimum_local_signed_area": 2.449683427810669,
+      "nearby_fixed_edge_distance_uv": 0.9980473932737728,
+      "local_quality": {
+        "faces": 934,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 22.76084595168685,
+        "area_weighted_inverse_L2_rms": 6.648018614473461,
+        "max_symmetric_singular_stretch": 113.54664674483288,
+        "uv_area_over_3d_area": 1.0167137414139267,
+        "area_ratio_percentiles_1_50_99": [
+          0.07959555817340577,
+          0.9763000301267686,
+          2.6890459482638116
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.0185892495163043,
+          6.008338130497492,
+          60.795875511769516
+        ]
+      },
+      "prior_bad11_quality": {
+        "faces": 22,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 10.289498693347749,
+        "area_weighted_inverse_L2_rms": 4.457370481371187,
+        "max_symmetric_singular_stretch": 15.102930331141573,
+        "uv_area_over_3d_area": 0.22173456357584673,
+        "area_ratio_percentiles_1_50_99": [
+          0.09039213695556378,
+          0.21557129285611365,
+          0.5113951375518151
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          5.5769118499215695,
+          54.534953603824384,
+          57.8833346958923
+        ]
+      }
+    },
+    "release": {
+      "full_mesh_negative": 0,
+      "full_mesh_zero": 0,
+      "full_mesh_minimum_signed_area": 0.36532380015319177,
+      "bbox_candidate_pairs": 6578,
+      "interior_overlap_pairs": 0,
+      "pairwise_intersection_area_sum": 0.0,
+      "minimum_local_signed_area": 17.71705996172707,
+      "nearby_fixed_edge_distance_uv": 16.23554831595701,
+      "local_quality": {
+        "faces": 934,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 2.165613098064474,
+        "area_weighted_inverse_L2_rms": 1.7344076556560968,
+        "max_symmetric_singular_stretch": 16.897245697555388,
+        "uv_area_over_3d_area": 1.0160212072460895,
+        "area_ratio_percentiles_1_50_99": [
+          0.15480186089759576,
+          0.9761188904959883,
+          2.696541278675034
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.0194740036634378,
+          5.923374254561047,
+          16.301150782192884
+        ]
+      },
+      "prior_bad11_quality": {
+        "faces": 22,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 10.517341034312256,
+        "area_weighted_inverse_L2_rms": 4.49255635535834,
+        "max_symmetric_singular_stretch": 15.406470640257222,
+        "uv_area_over_3d_area": 0.23615773286048297,
+        "area_ratio_percentiles_1_50_99": [
+          0.1320992842544949,
+          0.22822299751348152,
+          0.4961150910060108
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          6.010730685359717,
+          50.946222417363856,
+          58.943117824454276
+        ]
+      }
+    },
+    "release_float32": {
+      "full_mesh_negative": 0,
+      "full_mesh_zero": 0,
+      "full_mesh_minimum_signed_area": 0.3705754280090332,
+      "bbox_candidate_pairs": 6584,
+      "interior_overlap_pairs": 0,
+      "pairwise_intersection_area_sum": 0.0,
+      "minimum_local_signed_area": 17.71622085571289,
+      "nearby_fixed_edge_distance_uv": 16.235445593424874,
+      "local_quality": {
+        "faces": 934,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 2.165606354077917,
+        "area_weighted_inverse_L2_rms": 1.734403654363323,
+        "max_symmetric_singular_stretch": 16.899577225860572,
+        "uv_area_over_3d_area": 1.0160216484452345,
+        "area_ratio_percentiles_1_50_99": [
+          0.15480108140628834,
+          0.9760907330608976,
+          2.6965584785924968
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.019481739617824,
+          5.923348767181787,
+          16.301751834133796
+        ]
+      },
+      "prior_bad11_quality": {
+        "faces": 22,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 10.517196971958507,
+        "area_weighted_inverse_L2_rms": 4.492523960581636,
+        "max_symmetric_singular_stretch": 15.408904393557687,
+        "uv_area_over_3d_area": 0.2361588048681382,
+        "area_ratio_percentiles_1_50_99": [
+          0.13211493151159326,
+          0.22821600565561012,
+          0.49612401776864434
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          6.010596370465818,
+          50.92674060272109,
+          58.9536056957437
+        ]
+      }
+    }
+  },
+  "elapsed_seconds": 5.79556009999942,
+  "limits": "Expanded geometry and initial F are identical; only2 non-coarse pins differ. One50-iteration solve per condition; no convergence/optimality claim. GEOS broad/precise screen followed by later independent verification. Prepack rounding only; actual packing and native coverage not yet evaluated. Unchanged face/face overlaps remain outside this scope.",
+  "sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\holdout_seed_keep1p5_01\\output.obj_uv_diagnostics.json",
+      "sha256": "b47eaf70e6d7f4423b0e5c6efb56ce36b24ebd688510d49aefad5311a899e853"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-reconcile01\\second\\arrays.npz",
+      "sha256": "9247c744e4c6197aea2fcdc8d4bfe5682c2a3892e4d683373883ec7810595de7"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-local-kernel01\\global02\\arrays.npz",
+      "sha256": "b0133f7360b5d3a68f4a5d3918ae564d26698ef1d9cf50475e970a5f2396f3c9"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\input01\\arrays.npz",
+      "sha256": "b33d3bf22725e7bb1eb7c6d59d2785446f7662bfb1abe58c4bf38c69166ae62e"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-local-kernel01\\raster-scope01\\arrays.npz",
+      "sha256": "263da5a851dd2fda0e13251661137038a857f44162d4f20a087e0c591f30db60"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\mesh_quality.py",
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\control01\\result.json",
+      "sha256": "f977ab89776fca3733095eb2c711924ccd67fee134084275cf8359951d5ebd07"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-pin-release01\\release01\\result.json",
+      "sha256": "4f58cade211f47ed933aacab4544bcc9b90aa77b1308c6b4d5c2a392b2bd054d"
+    }
+  ]
+}

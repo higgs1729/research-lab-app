@@ -1,0 +1,181 @@
+{
+  "environment": {
+    "python": "3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]",
+    "python_executable": "/usr/local/bin/python",
+    "torch": "2.13.0+cu130",
+    "cuda": "13.0",
+    "numpy": "2.5.4",
+    "driver": [
+      "NVRM version: NVIDIA UNIX Open Kernel Module for x86_64  595.91.07  Release Build  (dvs-builder@U22-I3-B08-02-2)  Wed Jul 29 03:01:16 UTC 2026"
+    ],
+    "gpu": "NVIDIA A40",
+    "capability": [
+      8,
+      6
+    ],
+    "affinity": [
+      0
+    ],
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "matmul_fp32_precision": "ieee",
+    "cudnn_conv_fp32_precision": "ieee",
+    "nvidia_tf32_override": "0",
+    "torch_allocator_cap_bytes": 4294967296,
+    "rss_observed_limit_bytes": 4294967296,
+    "admission_gpu_and_ram": {
+      "device_free_bytes": 47416410112,
+      "device_total_bytes": 47699722240,
+      "allocated_bytes": 0,
+      "reserved_bytes": 0,
+      "peak_allocated_bytes": 0,
+      "peak_reserved_bytes": 0,
+      "physical_available_bytes": 47475810304,
+      "process_peak_rss_bytes": 630616064
+    },
+    "safetensors": "0.8.0",
+    "adapter": "Linux runtime; device-specific input SHA validation, fixed patch and forward",
+    "scientific_worker_sha256": "8a12faf4fa5103269651d5b96f6088e07e00890af5a70e4ba8c20f02decbd534"
+  },
+  "planned_forwards": 228,
+  "forwards_completed": 5,
+  "rows": [
+    {
+      "case": "known",
+      "index": 0,
+      "core_global_xy": [
+        1280,
+        1024
+      ],
+      "input_global_xy": [
+        1264,
+        1008
+      ],
+      "raw_sha256": "e79919bddee50072be01cad3cb56e0c3c6413b7355337ba32716d39bc689af5e",
+      "normalized_sha256": "c0c37f5277271af87e50074745b0e9ddb3555e45a9f146c9759a101ecac58bcd",
+      "seconds": 0.38791835389565676,
+      "file": "gpu/known/patches/p000.npy",
+      "sha256": "65f5f044cc499a69a85404d9039df9bbaf07f3d1d5536777c9c1cf82e477cdce"
+    },
+    {
+      "case": "known",
+      "index": 47,
+      "core_global_xy": [
+        1984,
+        1216
+      ],
+      "input_global_xy": [
+        1968,
+        1200
+      ],
+      "raw_sha256": "4248aa64f1ae1760daef5c626349ebf85f63f535764b1bec4f9c3f0316a56f3b",
+      "normalized_sha256": "f3e22319c0d279c8371ff0c0a51a525a140326063403cdf5d337ddb0164258bd",
+      "seconds": 0.2129503709729761,
+      "file": "gpu/known/patches/p047.npy",
+      "sha256": "a2bbc0c680bd0aa3e69b251b49f7aed37c2e81253bffb67b696a392303ecba26"
+    },
+    {
+      "case": "known",
+      "index": 95,
+      "core_global_xy": [
+        1984,
+        1472
+      ],
+      "input_global_xy": [
+        1968,
+        1456
+      ],
+      "raw_sha256": "3845a1e10c928ea5b27050fadbf5f67ecc7c583da0b39079a05976c98c874bfd",
+      "normalized_sha256": "a0094e475edb0f1aa67d3deeb7669aab859721e3169d1ebfefca873d9039d29a",
+      "seconds": 0.21523514203727245,
+      "file": "gpu/known/patches/p095.npy",
+      "sha256": "f3b87b634a834741bd4162d240793c48d1be29c0f389c0f713a3a1aa8150dd2a"
+    },
+    {
+      "case": "pair_public",
+      "index": 0,
+      "core_global_xy": [
+        16,
+        16
+      ],
+      "input_global_xy": [
+        0,
+        0
+      ],
+      "raw_sha256": "78bf6fb768fad29717cc276b23bcfd0278b24754c0685945c94ebcf079ef5b98",
+      "normalized_sha256": "1507c802c62f27e7f3f8ebb75230497b06fc82913b509c69c364762c8ef82f51",
+      "seconds": 0.21675926900934428,
+      "file": "gpu/pair_public/patches/p000.npy",
+      "sha256": "d98b43df3c6b65cdb214c0996830cfc17f9e93bb1e2cbf31229122ad0f970dd1"
+    },
+    {
+      "case": "pair_render",
+      "index": 0,
+      "core_global_xy": [
+        16,
+        16
+      ],
+      "input_global_xy": [
+        0,
+        0
+      ],
+      "raw_sha256": "9e1307fc2e2d583d58415a7f1432f71187f9317e45dfe8da686812e6440542e3",
+      "normalized_sha256": "326610fa5470db710f3bcceecfc311ef861af7739531092cc76c360596424db9",
+      "seconds": 0.21557180199306458,
+      "file": "gpu/pair_render/patches/p000.npy",
+      "sha256": "ca7c6b0bf7f3e7f0b2afa973362b9f2e65604b77c23500d353fc533e25d2c71b"
+    }
+  ],
+  "CPU_GPU_comparisons": [
+    {
+      "case": "known",
+      "index": 0,
+      "max_abs": 1.9371509552001953e-07,
+      "MAE": 3.615665870408217e-08,
+      "passed": true
+    },
+    {
+      "case": "known",
+      "index": 47,
+      "max_abs": 9.238719940185547e-07,
+      "MAE": 2.332542660749621e-07,
+      "passed": true
+    },
+    {
+      "case": "known",
+      "index": 95,
+      "max_abs": 6.258487701416016e-07,
+      "MAE": 1.3581949234422711e-07,
+      "passed": true
+    }
+  ],
+  "status": "paired_phi_stop",
+  "model_loads": 1,
+  "cases": {},
+  "active_patch": [
+    "pair_render",
+    0
+  ],
+  "paired_phi_gate": {
+    "max_abs": 0.0028054118156433105,
+    "mean_abs": 0.0006942504648274431,
+    "all_finite": true,
+    "threshold_max_abs": 0.005,
+    "threshold_mean_abs": 0.0005,
+    "passed": false,
+    "source": "Fixed public-vs-approximate phi input, central96 raw probability; not an exact-render claim"
+  },
+  "failure_stage": "paired_phi_gate",
+  "failure_type": "StopRun",
+  "elapsed_seconds": 5.8646802729927,
+  "resources": {
+    "device_free_bytes": 45809991680,
+    "device_total_bytes": 47699722240,
+    "allocated_bytes": 909564928,
+    "reserved_bytes": 1556086784,
+    "peak_allocated_bytes": 1345575936,
+    "peak_reserved_bytes": 1556086784,
+    "physical_available_bytes": 47080681472,
+    "process_peak_rss_bytes": 2426052608
+  }
+}

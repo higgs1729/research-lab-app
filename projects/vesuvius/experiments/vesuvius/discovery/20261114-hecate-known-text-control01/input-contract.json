@@ -1,0 +1,79 @@
+{
+  "r189_plan": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-alternative-ink-model-selection01\\next-plan.json",
+  "r189_plan_sha256": "b543c7edb1c5268f8ba7a5ac49cc01e1ed73e6f8da74481389748242ea9db908",
+  "official_source": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-alternative-ink-model-selection01\\originals\\hecate.py",
+  "official_source_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "upstream_contract": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0343-patch-phase01\\input-contract.json",
+  "upstream_contract_sha256": "833eea784d365185cedf693996d514a51db301e1cd6b17639fd72b256de50a51",
+  "upstream_chunks_verified": 9,
+  "input_raw_sha256": "81085d69df18eea1da683e23396fe120aabf90ad7877d9bd43d17aa5e98b12d9",
+  "input_npy_sha256": "5f1caf23443ed3f4933803ab668e566de9c0deb06ab4878977a00b0ae9e49566",
+  "input_shape": [
+    33,
+    320,
+    320
+  ],
+  "input_dtype": "uint8",
+  "atlas_xywh": [
+    1376,
+    1056,
+    320,
+    320
+  ],
+  "evaluation_atlas_xywh": [
+    1408,
+    1088,
+    256,
+    256
+  ],
+  "scale_zyx_um": [
+    9.59903949737549,
+    9.600000254313159,
+    9.600000254313159
+  ],
+  "depth_order": [
+    24,
+    23,
+    22,
+    21,
+    20,
+    19,
+    18,
+    17,
+    16,
+    15,
+    14,
+    13,
+    12,
+    11,
+    10,
+    9
+  ],
+  "verified_assets": {
+    "checkpoint": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "reference": "67795f34e27c0b7b974e8d84780df8ecdf14cff5dd7893bc3891f7dc7d678427"
+  },
+  "environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "python_executable": "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+    "versions": {
+      "torch": "2.14.0",
+      "numpy": "2.5.2",
+      "zarr": "3.1.5",
+      "numcodecs": "0.16.5",
+      "psutil": "7.2.2"
+    },
+    "torch_build": "2.14.0+cpu",
+    "torch_threads": 1,
+    "torch_interop_threads": 1,
+    "zarr_async_concurrency": 1,
+    "affinity": [
+      0
+    ],
+    "physical_memory_available": 8619491328,
+    "workspace_free_bytes": 32208433152,
+    "dependencies": "C:\\dev\\kensyoukin\\.work\\r012-known-ink-inference01\\deps",
+    "network": "Python socket audit hook, loopback only, and HF offline"
+  },
+  "checked_utc": "2026-11-14T06:40:22.230284+00:00"
+}

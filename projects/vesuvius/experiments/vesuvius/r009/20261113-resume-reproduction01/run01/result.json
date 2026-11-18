@@ -1,0 +1,14 @@
+{
+  "normal_matches_R115": true,
+  "resume_exit_code": 1,
+  "existing_L0_unchanged": true,
+  "resume_matches_complete_control": false,
+  "levels_with_metadata": [
+    0
+  ],
+  "root_attributes_exist": false,
+  "resume_log": "\n\nError: no Zarr array to write at /mnt/c/dev/kensyoukin/.work/r009-resume-reproduction01/run01/resume.zarr/1\nAccumulation: 2 samples/slice at step 0.5000 (mean)\nzarr dataset size for group 0 [19390 5784 5784 ]\nSource dtype: uint8\nchunk shape [128 128 128 ]\nVoxel size (command line): 9.362 micrometer\nSurface interpolation: bicubic\nRendering: /mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-pack-native01/first-trace-on01/output -> /mnt/c/dev/kensyoukin/.work/r009-resume-reproduction01/run01/resume.zarr (zarr)\nds_level=0 ds_scale=1 sA=1 Pg=1 render_scale=1\nrendering 128x128 at scale 1 crop [128×128 from (7356,2272)]\n[resume] opening existing zarr\n[pyramid] building from L0...\n",
+  "work_bytes": 8573690,
+  "new_download_bytes": 0,
+  "additional_cloud_cost_jpy": 0
+}

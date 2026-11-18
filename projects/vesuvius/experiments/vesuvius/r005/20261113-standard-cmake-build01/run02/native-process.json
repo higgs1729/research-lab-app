@@ -1,0 +1,33 @@
+{
+  "command": [
+    "/home/tomoy/r005-standard-cmake-run02-4lvsfbul/build/bin/flatboi",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/r003/20261111-input01",
+    "--output=/home/tomoy/r005-standard-cmake-run02-4lvsfbul/native-output",
+    "--keep=100.0",
+    "5",
+    "--pack-components-preserve-grid"
+  ],
+  "timing_pid": 10274,
+  "process_group": 10274,
+  "started_utc": "2026-11-13T13:06:19.529140+00:00",
+  "completed_utc": "2026-11-13T13:06:46.321720+00:00",
+  "elapsed_seconds": 26.79258069399998,
+  "exit_code": 0,
+  "termination_reason": null,
+  "reaped": true,
+  "disk_samples": [
+    {
+      "utc": "2026-11-13T13:06:29.567149+00:00",
+      "work_bytes": 1447288832,
+      "C_free_bytes": 45294411776
+    },
+    {
+      "utc": "2026-11-13T13:06:39.586852+00:00",
+      "work_bytes": 1447596032,
+      "C_free_bytes": 45299859456
+    }
+  ],
+  "max_child_rss_bytes": 230363136,
+  "user_cpu_seconds": 26.39,
+  "sys_cpu_seconds": 0.14
+}

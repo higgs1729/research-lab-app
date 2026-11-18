@@ -1,0 +1,163 @@
+{
+  "changed_vertices": 482,
+  "affected_faces": 928,
+  "fine_component": 1,
+  "fixed_vertices_preserved": 183893,
+  "coarse_vertices_preserved": 3954,
+  "measurements": {
+    "D": {
+      "full_mesh_negative_faces": 0,
+      "full_mesh_zero_faces": 0,
+      "full_mesh_min_signed_area": 0.36532380015319177,
+      "same_component_faces": 375552,
+      "affected_faces": 928,
+      "bbox_candidate_pairs": 7375,
+      "interior_overlap_pairs": 590,
+      "pairwise_intersection_area_sum": 28560.812631182882,
+      "local_pairs": 265,
+      "pairs_with_outside_face": 325,
+      "max_fixed_error": 0.0,
+      "max_coarse_error": 0.0,
+      "local_quality": {
+        "input_faces": 929,
+        "area3_total": 203934.37255853083,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 929,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 1.2038144558337474,
+          "area_weighted_inverse_L2_rms": 1.0189337958546145,
+          "max_symmetric_singular_stretch": 4.072272390947933,
+          "uv_area_over_3d_area": 1.1367341242113669,
+          "area_ratio_percentiles_1_50_99": [
+            0.6262452623428933,
+            0.9985387534182056,
+            2.8467333864035504
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.006038711574737,
+            2.344262656021537,
+            3.0087075544823803
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    },
+    "E": {
+      "full_mesh_negative_faces": 0,
+      "full_mesh_zero_faces": 0,
+      "full_mesh_min_signed_area": 0.13151244976936027,
+      "same_component_faces": 375552,
+      "affected_faces": 928,
+      "bbox_candidate_pairs": 6561,
+      "interior_overlap_pairs": 0,
+      "pairwise_intersection_area_sum": 0.0,
+      "local_pairs": 0,
+      "pairs_with_outside_face": 0,
+      "max_fixed_error": 0.0,
+      "max_coarse_error": 0.0,
+      "local_quality": {
+        "input_faces": 929,
+        "area3_total": 203934.37255853083,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 929,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 4434.714272509291,
+          "area_weighted_inverse_L2_rms": 94.17059146986098,
+          "max_symmetric_singular_stretch": 2349.890738715995,
+          "uv_area_over_3d_area": 1.0172760335354998,
+          "area_ratio_percentiles_1_50_99": [
+            0.08133909004747528,
+            0.9760302131226223,
+            2.695393253069419
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0191454377752727,
+            5.947081028395622,
+            56.79212145934104
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    },
+    "E_float32": {
+      "full_mesh_negative_faces": 0,
+      "full_mesh_zero_faces": 0,
+      "full_mesh_min_signed_area": 0.13161158561706543,
+      "same_component_faces": 375552,
+      "affected_faces": 928,
+      "bbox_candidate_pairs": 6565,
+      "interior_overlap_pairs": 0,
+      "pairwise_intersection_area_sum": 0.0,
+      "local_pairs": 0,
+      "pairs_with_outside_face": 0,
+      "max_fixed_error": 0.0,
+      "max_coarse_error": 0.0,
+      "local_quality": {
+        "input_faces": 929,
+        "area3_total": 203934.37255853083,
+        "invalid_uv_faces": 0,
+        "zero_uv_area_faces": 0,
+        "negative_uv_area_faces": 0,
+        "undefined_or_nonpositive_uv_area_fraction": 0.0,
+        "positive_faces_only": {
+          "faces": 929,
+          "area3_fraction": 1.0,
+          "area_weighted_normalized_symmetric_dirichlet": 4449.024051952396,
+          "area_weighted_inverse_L2_rms": 94.32242498613317,
+          "max_symmetric_singular_stretch": 2386.3451012155297,
+          "uv_area_over_3d_area": 1.0172775953050126,
+          "area_ratio_percentiles_1_50_99": [
+            0.08135221754934789,
+            0.975919038752977,
+            2.6953998140429474
+          ],
+          "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+            1.0191453090625728,
+            5.947257568738214,
+            56.78497309181921
+          ]
+        },
+        "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+      }
+    }
+  },
+  "appeared_overlap_pairs": 0,
+  "disappeared_overlap_pairs": 590,
+  "appeared_examples": [],
+  "elapsed_seconds": 4.25532050000038,
+  "limits": "Prepack UV. Affected faces versus their own entire fine component only. Unchanged/unchanged intersections and cross-component pairs not rechecked. Floating GEOS screen; exact independent verification follows. float32 tests rounding at current prepack origin, not the final native packing. Local quality includes the obstacle triangle. No rendering.",
+  "sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\holdout_seed_keep1p5_01\\output.obj_uv_diagnostics.json",
+      "sha256": "b47eaf70e6d7f4423b0e5c6efb56ce36b24ebd688510d49aefad5311a899e853"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-reconcile01\\second\\arrays.npz",
+      "sha256": "9247c744e4c6197aea2fcdc8d4bfe5682c2a3892e4d683373883ec7810595de7"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-slim-raster01\\pack01\\arrays.npz",
+      "sha256": "0e665061e472d6b59d58f80f6bc3cfb646558413f50e7f3bcf8a535e7a98cd68"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-local-kernel01\\diagnosis01\\arrays.npz",
+      "sha256": "13f82704f7781f3231bec1fda6c7a7d2454ce83057f6228a1011849dedd53e9a"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-scaf01\\input02\\arrays.npz",
+      "sha256": "b08bf6ff9508ae7a1dede641008aefd6699a8f3ce3b4ebafab9b241de9aba721"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\mesh_quality.py",
+      "sha256": "0ad7a717ef1b0c1c6e72d219c28ca69c6f957eec80c50cbce9075f050d4212ac"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "primary_responses": [
+    {
+      "url": "https://api.github.com/repos/ChaseHendrick/Scrolls/git/trees/ad0be0cbb690d8ad732a11bad35e02cba2e0461b?recursive=1",
+      "utc": "2026-11-14T09:18:33.259Z",
+      "path": "originals/atlas-scripts-tree.json",
+      "connector_body_utf8_bytes": 411,
+      "saved_file_sha256": "95e9301ad4689525599cef8256f27a6f48bd1d2f9a496fe287a154cfbd083331",
+      "saved_file_bytes": 412,
+      "downloaded_body_bytes": 411
+    },
+    {
+      "url": "https://api.github.com/repos/ChaseHendrick/Scrolls/commits/abfc9f46402acc58b6803ec60d721d1e502fc404",
+      "utc": "2026-11-14T09:18:33.273Z",
+      "path": "originals/release-commit.json",
+      "connector_body_utf8_bytes": 183881,
+      "saved_file_sha256": "6676f88ef819f7670e12dd8080730996ffb7fff98d44f1aebe42d4f585eccc7d",
+      "saved_file_bytes": 183882,
+      "downloaded_body_bytes": 183881
+    },
+    {
+      "url": "https://api.github.com/repos/ChaseHendrick/Scrolls/contents/spaces/ink-lens?ref=8250b234c65593d3133d58fb14e88eadea80fad2",
+      "utc": "2026-11-14T09:18:33.275Z",
+      "path": "originals/release-lens-tree.json",
+      "connector_body_utf8_bytes": 22724,
+      "saved_file_sha256": "2707e25e2a3f80ff6dbe203accdf390f36277814506c20a99f960f602dd2d063",
+      "saved_file_bytes": 22725,
+      "downloaded_body_bytes": 22724
+    },
+    {
+      "url": "https://api.github.com/repos/ChaseHendrick/Scrolls/commits?path=scripts%2Fatlas&until=2026-10-28T00:00:00Z&per_page=10",
+      "utc": "2026-11-14T09:18:33.275Z",
+      "path": "originals/atlas-history.json",
+      "connector_body_utf8_bytes": 24780,
+      "saved_file_sha256": "732d442a30cd321cf87c1659bd816f1d822086e43a25a416a04aa2585b730512",
+      "saved_file_bytes": 24781,
+      "downloaded_body_bytes": 24780
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LimeGS/ink-sdk/1dbfac2178958ca4bca7469582477963d4d08ecf/src/ink_sdk/adapters/hecate.py",
+      "utc": "2026-11-14T09:18:33.275Z",
+      "path": "originals/sdk-adapter.py",
+      "connector_body_utf8_bytes": 7236,
+      "saved_file_sha256": "547ba59f952f4adda37509a2bc4d6ac04f5f34a2435d835b655769e7ed20f19f",
+      "saved_file_bytes": 7236,
+      "downloaded_body_bytes": 7236
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LimeGS/ink-sdk/1dbfac2178958ca4bca7469582477963d4d08ecf/src/ink_sdk/_vendor/hecate.py",
+      "utc": "2026-11-14T09:18:33.276Z",
+      "path": "originals/sdk-vendor.py",
+      "connector_body_utf8_bytes": 22462,
+      "saved_file_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+      "saved_file_bytes": 22462,
+      "downloaded_body_bytes": 22462
+    },
+    {
+      "url": "https://raw.githubusercontent.com/LimeGS/ink-sdk/1dbfac2178958ca4bca7469582477963d4d08ecf/src/ink_sdk/profiles/hecate-9.6um.toml",
+      "utc": "2026-11-14T09:18:33.276Z",
+      "path": "originals/sdk-profile.toml",
+      "connector_body_utf8_bytes": 884,
+      "saved_file_sha256": "78a58c86d200f9876240466e429a265d9fe061c0aa7918bfa2cb3c79690b4625",
+      "saved_file_bytes": 884,
+      "downloaded_body_bytes": 884
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ChaseHendrick/Scrolls/8250b234c65593d3133d58fb14e88eadea80fad2/spaces/ink-lens/runners.py",
+      "utc": "2026-11-14T09:19:02.391Z",
+      "path": "originals/near-release-runners.py",
+      "connector_body_utf8_bytes": 18221,
+      "saved_file_sha256": "f7a19167e1ddc675eaf1d74d54c0c666016500f6b79ed2c15564acdcc0856458",
+      "saved_file_bytes": 18221,
+      "downloaded_body_bytes": 18221
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ChaseHendrick/Scrolls/8250b234c65593d3133d58fb14e88eadea80fad2/spaces/ink-lens/zoo.py",
+      "utc": "2026-11-14T09:19:02.392Z",
+      "path": "originals/near-release-zoo.py",
+      "connector_body_utf8_bytes": 20624,
+      "saved_file_sha256": "8a59fa7057c8e600c67ffdddf8eec2805718cbb478f91a9656c7f1fd440b5f2d",
+      "saved_file_bytes": 20624,
+      "downloaded_body_bytes": 20624
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ChaseHendrick/Scrolls/8250b234c65593d3133d58fb14e88eadea80fad2/spaces/ink-lens/compare.py",
+      "utc": "2026-11-14T09:19:02.392Z",
+      "path": "originals/near-release-compare.py",
+      "connector_body_utf8_bytes": 28922,
+      "saved_file_sha256": "f10a6a398424c7140a6d1e817888556b5da6e49a6c5954cdd8825ca4c1790943",
+      "saved_file_bytes": 28922,
+      "downloaded_body_bytes": 28922
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ChaseHendrick/Scrolls/abfc9f46402acc58b6803ec60d721d1e502fc404/docs/tools/ink-atlas.md",
+      "utc": "2026-11-14T09:19:02.392Z",
+      "path": "originals/atlas-tool-doc.md",
+      "connector_body_utf8_bytes": 15712,
+      "saved_file_sha256": "aaf1045b6eb38256e074ea88dcc9216045f1de002425a0f3325ee644c8323395",
+      "saved_file_bytes": 15712,
+      "downloaded_body_bytes": 15712
+    },
+    {
+      "url": "https://api.github.com/repos/ChaseHendrick/Scrolls/commits?path=spaces%2Fink-lens%2Frunners.py&until=2026-10-28T00:00:00Z&per_page=8",
+      "utc": "2026-11-14T09:19:02.392Z",
+      "path": "originals/ink-lens-history.json",
+      "connector_body_utf8_bytes": 19000,
+      "saved_file_sha256": "121a1a056c54203221672d61079be03e57e01f5f5f46774e662bc1774cc34620",
+      "saved_file_bytes": 19001,
+      "downloaded_body_bytes": 19000
+    },
+    {
+      "url": "https://api.github.com/repos/LimeGS/ink-sdk/commits/1dbfac2178958ca4bca7469582477963d4d08ecf",
+      "utc": "2026-11-14T09:19:02.393Z",
+      "path": "originals/ink-sdk-pin-commit.json",
+      "connector_body_utf8_bytes": 5673,
+      "saved_file_sha256": "f28c477d33eaad378f13a01fb31bf0be133cf81f4710eff7805f68836d25d09c",
+      "saved_file_bytes": 5674,
+      "downloaded_body_bytes": 5673
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ChaseHendrick/Scrolls/8250b234c65593d3133d58fb14e88eadea80fad2/scripts/atlas/hf_atlas.py",
+      "utc": "2026-11-14T09:19:02.393Z",
+      "path": "originals/atlas-hf-script.py",
+      "connector_body_utf8_bytes": 5630,
+      "saved_file_sha256": "3d3b944ba2c5357248582a083c688957755ae9422c4b70a0c3eac14f3b268e3f",
+      "saved_file_bytes": 5630,
+      "downloaded_body_bytes": 5630
+    },
+    {
+      "url": "https://api.github.com/repos/ChaseHendrick/Scrolls/git/trees/2b382198ef549187a8c86cc5f25b8899fffa8632?recursive=1",
+      "utc": "2026-11-14T09:19:02.393Z",
+      "path": "originals/kit-tree.json",
+      "connector_body_utf8_bytes": 23750,
+      "saved_file_sha256": "f5c2900dfc4637fae6cb4b1b3ad94a91efcae6fc3e51de1abe4b4b207f4f3fb2",
+      "saved_file_bytes": 23751,
+      "downloaded_body_bytes": 23750
+    },
+    {
+      "url": "https://api.github.com/repos/ChaseHendrick/Scrolls/commits/8250b234c65593d3133d58fb14e88eadea80fad2",
+      "utc": "2026-11-14T09:19:02.393Z",
+      "path": "originals/release-meta.json",
+      "connector_body_utf8_bytes": 740166,
+      "saved_file_sha256": "eda1eafc8f67e88b8165087d26f18c959d161d060f5866304b50a6ae906d5a65",
+      "saved_file_bytes": 740167,
+      "downloaded_body_bytes": 740166
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ChaseHendrick/Scrolls/8250b234c65593d3133d58fb14e88eadea80fad2/kit/atlas.py",
+      "utc": "2026-11-14T09:19:22.418Z",
+      "path": "originals/near-release-atlas.py",
+      "connector_body_utf8_bytes": 32341,
+      "saved_file_sha256": "d3650789413790925cd65b8e526fa59a48a2450935ae3ff290791e668024f2b1",
+      "saved_file_bytes": 32341,
+      "downloaded_body_bytes": 32341
+    },
+    {
+      "url": "https://api.github.com/repos/ChaseHendrick/Scrolls/commits?path=kit%2Fatlas.py&until=2026-10-28T00:00:00Z&per_page=6",
+      "utc": "2026-11-14T09:19:22.419Z",
+      "path": "originals/atlas-kit-history.json",
+      "connector_body_utf8_bytes": 24780,
+      "saved_file_sha256": "732d442a30cd321cf87c1659bd816f1d822086e43a25a416a04aa2585b730512",
+      "saved_file_bytes": 24781,
+      "downloaded_body_bytes": 24780
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ChaseHendrick/Scrolls/4527c6a78cec0826219ef660b765ee4d47c29fb2/spaces/ink-lens/zoo.py",
+      "utc": "2026-11-14T09:19:22.419Z",
+      "path": "originals/early-release-zoo.py",
+      "connector_body_utf8_bytes": 20327,
+      "saved_file_sha256": "5773cbc54fb0c6f0be780349cc2df3b87e1aed7c1eb62a09a248b7439336a0c5",
+      "saved_file_bytes": 20327,
+      "downloaded_body_bytes": 20327
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ChaseHendrick/Scrolls/4527c6a78cec0826219ef660b765ee4d47c29fb2/spaces/ink-lens/runners.py",
+      "utc": "2026-11-14T09:19:22.420Z",
+      "path": "originals/early-release-runners.py",
+      "connector_body_utf8_bytes": 18061,
+      "saved_file_sha256": "4c62eb1805fe16eb6f4444071eedf022ffa7f5dda0c75967d02118f36dea692a",
+      "saved_file_bytes": 18061,
+      "downloaded_body_bytes": 18061
+    },
+    {
+      "url": "https://api.github.com/repos/LimeGS/ink-sdk/git/trees/1dbfac2178958ca4bca7469582477963d4d08ecf?recursive=1",
+      "utc": "2026-11-14T09:20:34.913Z",
+      "path": "originals/sdk-tree.json",
+      "connector_body_utf8_bytes": 17172,
+      "saved_file_sha256": "b6f12cc6c9ae8f44766d8a670caa69e52349ab7d60dcb82389ead0014cbf4a0a",
+      "saved_file_bytes": 17173,
+      "downloaded_body_bytes": 17172
+    },
+    {
+      "url": "https://api.github.com/repos/ChaseHendrick/Scrolls/commits?until=2026-10-28T00:00:00Z&per_page=3",
+      "utc": "2026-11-14T09:20:34.913Z",
+      "path": "originals/near-release-commits.json",
+      "connector_body_utf8_bytes": 16062,
+      "saved_file_sha256": "70d3e1c1e450542f607d5a33ce774696028a936ea2764db8c90dd8dc377e16f3",
+      "saved_file_bytes": 16063,
+      "downloaded_body_bytes": 16062
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ChaseHendrick/Scrolls/d7b41fdb8eb83b5ffb465b9aa76daf3dbb548b36/spaces/ink-lens/runners.py",
+      "path": "originals/pre-upload-runners.py",
+      "utc": "2026-11-14T09:22:33.660Z",
+      "connector_body_utf8_bytes": 18219,
+      "saved_file_sha256": "a3ca690510d22a8ec18921164ac6c2e67b6f9839d51008e6ea9248a28e5f3305",
+      "saved_file_bytes": 18219,
+      "downloaded_body_bytes": 18219
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ChaseHendrick/Scrolls/d7b41fdb8eb83b5ffb465b9aa76daf3dbb548b36/spaces/ink-lens/zoo.py",
+      "path": "originals/pre-upload-zoo.py",
+      "utc": "2026-11-14T09:22:33.660Z",
+      "connector_body_utf8_bytes": 20624,
+      "saved_file_sha256": "5cf903ba6959b3312033d1a952a57bbeda6700b44d984fcd58a8293d8e63a877",
+      "saved_file_bytes": 20624,
+      "downloaded_body_bytes": 20624
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ChaseHendrick/Scrolls/d7b41fdb8eb83b5ffb465b9aa76daf3dbb548b36/spaces/ink-lens/compare.py",
+      "path": "originals/pre-upload-compare.py",
+      "utc": "2026-11-14T09:22:33.660Z",
+      "connector_body_utf8_bytes": 28645,
+      "saved_file_sha256": "ea80ecac11d86d2dcaa9cb685c5565f832600b056dd87b34cfe65098ae2451b5",
+      "saved_file_bytes": 28645,
+      "downloaded_body_bytes": 28645
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/SharpMeow/first-letters-ink-atlas/commits/ac5ffd7098120368216948c4e06c494bf8e67178",
+      "utc": "2026-11-14T09:22:07.455158+00:00",
+      "http_status": 200,
+      "bytes": 2263,
+      "sha256": "e42b4790dc9e9d971049dce70c873bae56ce469060fa670c5f7198da21ac2424",
+      "path": "originals/hf-atlas-commits.json",
+      "saved_file_sha256": "e42b4790dc9e9d971049dce70c873bae56ce469060fa670c5f7198da21ac2424",
+      "saved_file_bytes": 2263,
+      "downloaded_body_bytes": 2263
+    },
+    {
+      "url": "https://huggingface.co/api/datasets/SharpMeow/first-letters-ink-atlas/tree/ac5ffd7098120368216948c4e06c494bf8e67178",
+      "utc": "2026-11-14T09:22:07.947417+00:00",
+      "http_status": 200,
+      "bytes": 487,
+      "sha256": "94281ef08846ba7730eba900677c0f1d49ddef5819a53821f673d7289cf8d356",
+      "path": "originals/hf-atlas-root-tree.json",
+      "saved_file_sha256": "94281ef08846ba7730eba900677c0f1d49ddef5819a53821f673d7289cf8d356",
+      "saved_file_bytes": 487,
+      "downloaded_body_bytes": 487
+    }
+  ],
+  "primary_body_bytes": 1339057,
+  "connector_discovery_upper_accounting_bytes": 77649,
+  "total_accounted_bytes": 1416706,
+  "limits": {
+    "body_bytes": 8388608,
+    "active_communication_seconds": 180
+  },
+  "timing_basis": "Connector calls were batched with local tool elapsed bounds; total active acquisition is conservatively bounded by the values below. UTC receipts can include model reasoning and local editing between batches. The two source-search web calls were navigation, no artifacts received via web beyond text.",
+  "active_communication_upper_seconds": {
+    "web_navigation": 20,
+    "all_connector_fetch_and_discovery_batches": 20,
+    "hf_metadata": 12
+  },
+  "hf_http_elapsed_seconds": 0.6962904999963939,
+  "new_ct_bytes": 0,
+  "new_image_bytes": 0,
+  "new_weight_bytes": 0,
+  "model_forward_calls": 0,
+  "gpu_operations": 0,
+  "cost_jpy": 0,
+  "total_active_communication_seconds_exact": null,
+  "total_active_communication_exact_status": "未計測。52秒はツールごとのwall表示に基づく保守上限で、通信の合計実測値ではない。"
+}

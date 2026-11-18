@@ -1,0 +1,68 @@
+{
+  "revision": "1f12c1ceb14c1f24acc48249eaad60bcdf541721",
+  "files": [
+    {
+      "upstream_path": "results/cards/p191_a.jpg",
+      "output": "originals/p191_a.jpg",
+      "bytes": 298002,
+      "git_blob_sha1": "1be7e0c766c31c9e704fda0a6dc8fdea8369e199",
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/p191_a.jpg"
+    },
+    {
+      "upstream_path": "results/cards/p191_a.json",
+      "output": "originals/p191_a-card.json",
+      "bytes": 377,
+      "git_blob_sha1": "c6c6e0fbdb2714f3633389cabc8deefce16e646b",
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/p191_a.json"
+    },
+    {
+      "upstream_path": "results/meshes/p191_a/meta.json",
+      "output": "originals/p191_a-mesh-meta.json",
+      "bytes": 1172,
+      "git_blob_sha1": "fbac3664a10bed8ce744649e954a84da94321777",
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/p191_a/meta.json"
+    },
+    {
+      "upstream_path": "results/cards/PHerc0257_3549_4692_13210.jpg",
+      "output": "originals/PHerc0257_3549_4692_13210.jpg",
+      "bytes": 331912,
+      "git_blob_sha1": "39729dacfec90cb2418112c20acc3a1310fff735",
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0257_3549_4692_13210.jpg"
+    },
+    {
+      "upstream_path": "results/cards/PHerc0257_3549_4692_13210.json",
+      "output": "originals/PHerc0257_3549_4692_13210-card.json",
+      "bytes": 380,
+      "git_blob_sha1": "e3743b448bae6395969f2105b5df71d86628dbd9",
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0257_3549_4692_13210.json"
+    },
+    {
+      "upstream_path": "results/meshes/PHerc0257_3549_4692_13210/meta.json",
+      "output": "originals/PHerc0257_3549_4692_13210-mesh-meta.json",
+      "bytes": 1196,
+      "git_blob_sha1": "7a57c1451add1745995ef4ba16e899ca4975a819",
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/PHerc0257_3549_4692_13210/meta.json"
+    },
+    {
+      "upstream_path": "results/cards/PHerc0268_9054_2867_6674.jpg",
+      "output": "originals/PHerc0268_9054_2867_6674.jpg",
+      "bytes": 315410,
+      "git_blob_sha1": "0560b4e42fbfcef165f73ca4e7925498b04a33aa",
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0268_9054_2867_6674.jpg"
+    },
+    {
+      "upstream_path": "results/cards/PHerc0268_9054_2867_6674.json",
+      "output": "originals/PHerc0268_9054_2867_6674-card.json",
+      "bytes": 378,
+      "git_blob_sha1": "27e2217659c269579911783dbfbfc576610c80eb",
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/cards/PHerc0268_9054_2867_6674.json"
+    },
+    {
+      "upstream_path": "results/meshes/PHerc0268_9054_2867_6674/meta.json",
+      "output": "originals/PHerc0268_9054_2867_6674-mesh-meta.json",
+      "bytes": 1195,
+      "git_blob_sha1": "da411e501cecce87898a3aa4491ddd096e4a60a1",
+      "url": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/PHerc0268_9054_2867_6674/meta.json"
+    }
+  ]
+}

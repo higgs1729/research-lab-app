@@ -1,0 +1,488 @@
+{
+  "N_to_O_recovered_quad_ids": [
+    94120,
+    96028,
+    97936
+  ],
+  "N_to_O_new_gt20_quad_ids": [],
+  "N_to_O_gained_owned_quad_ids": [
+    94120,
+    97936,
+    99844
+  ],
+  "N_to_O_lost_owned_quad_ids": [
+    94119,
+    97937,
+    99845
+  ],
+  "rows": [
+    {
+      "quad": 94119,
+      "cell_yx": [
+        114,
+        987
+      ],
+      "G": {
+        "distance": 20.653488730363904,
+        "owned_samples": 0,
+        "nearest_pixel": 374547,
+        "nearest_source_face": 187792,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 9.727089402086838,
+        "owned_samples": 2,
+        "nearest_pixel": 368730,
+        "nearest_source_face": 188239,
+        "nearest_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 8.917475055734085,
+        "owned_samples": 1,
+        "nearest_pixel": 368730,
+        "nearest_source_face": 188239,
+        "nearest_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "O": {
+        "distance": 16.62869505639499,
+        "owned_samples": 0,
+        "nearest_pixel": 368730,
+        "nearest_source_face": 188240,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 94120,
+      "cell_yx": [
+        114,
+        988
+      ],
+      "G": {
+        "distance": 24.851661527532904,
+        "owned_samples": 0,
+        "nearest_pixel": 374548,
+        "nearest_source_face": 187794,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 19.601388963575058,
+        "owned_samples": 0,
+        "nearest_pixel": 365687,
+        "nearest_source_face": 188238,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 21.979526039585934,
+        "owned_samples": 0,
+        "nearest_pixel": 368730,
+        "nearest_source_face": 188239,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "O": {
+        "distance": 13.681787614488869,
+        "owned_samples": 1,
+        "nearest_pixel": 368730,
+        "nearest_source_face": 188240,
+        "nearest_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 96028,
+      "cell_yx": [
+        115,
+        988
+      ],
+      "G": {
+        "distance": 24.068701831724976,
+        "owned_samples": 0,
+        "nearest_pixel": 377592,
+        "nearest_source_face": 191612,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 22.85341734775792,
+        "owned_samples": 0,
+        "nearest_pixel": 371774,
+        "nearest_source_face": 192059,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 24.068701831724976,
+        "owned_samples": 0,
+        "nearest_pixel": 377592,
+        "nearest_source_face": 191612,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "O": {
+        "distance": 17.893902226196772,
+        "owned_samples": 0,
+        "nearest_pixel": 368730,
+        "nearest_source_face": 188240,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 97936,
+      "cell_yx": [
+        116,
+        988
+      ],
+      "G": {
+        "distance": 22.257335858833333,
+        "owned_samples": 0,
+        "nearest_pixel": 380635,
+        "nearest_source_face": 195427,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 19.220222848090497,
+        "owned_samples": 0,
+        "nearest_pixel": 374817,
+        "nearest_source_face": 195874,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 20.815932833008638,
+        "owned_samples": 0,
+        "nearest_pixel": 374817,
+        "nearest_source_face": 195874,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "O": {
+        "distance": 11.14560012341299,
+        "owned_samples": 1,
+        "nearest_pixel": 374817,
+        "nearest_source_face": 195873,
+        "nearest_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 97937,
+      "cell_yx": [
+        116,
+        989
+      ],
+      "G": {
+        "distance": 21.160985256928594,
+        "owned_samples": 0,
+        "nearest_pixel": 380636,
+        "nearest_source_face": 195429,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 3.5634579463314613,
+        "owned_samples": 1,
+        "nearest_pixel": 374817,
+        "nearest_source_face": 195874,
+        "nearest_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 3.430674600408556,
+        "owned_samples": 1,
+        "nearest_pixel": 374817,
+        "nearest_source_face": 195874,
+        "nearest_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "O": {
+        "distance": 11.781232443177931,
+        "owned_samples": 0,
+        "nearest_pixel": 374817,
+        "nearest_source_face": 195873,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 99844,
+      "cell_yx": [
+        117,
+        988
+      ],
+      "G": {
+        "distance": 21.34566501481742,
+        "owned_samples": 0,
+        "nearest_pixel": 383678,
+        "nearest_source_face": 199243,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 13.871323200101697,
+        "owned_samples": 0,
+        "nearest_pixel": 377860,
+        "nearest_source_face": 199690,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 13.617067574789841,
+        "owned_samples": 0,
+        "nearest_pixel": 377860,
+        "nearest_source_face": 199690,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "O": {
+        "distance": 4.287090844568337,
+        "owned_samples": 1,
+        "nearest_pixel": 377860,
+        "nearest_source_face": 199689,
+        "nearest_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 99845,
+      "cell_yx": [
+        117,
+        989
+      ],
+      "G": {
+        "distance": 20.318310210430578,
+        "owned_samples": 0,
+        "nearest_pixel": 383679,
+        "nearest_source_face": 199245,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 8.187587701395113,
+        "owned_samples": 1,
+        "nearest_pixel": 377860,
+        "nearest_source_face": 199690,
+        "nearest_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "N": {
+        "distance": 7.045168503234955,
+        "owned_samples": 1,
+        "nearest_pixel": 377860,
+        "nearest_source_face": 199690,
+        "nearest_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "O": {
+        "distance": 15.42352672486268,
+        "owned_samples": 0,
+        "nearest_pixel": 377860,
+        "nearest_source_face": 199689,
+        "nearest_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    }
+  ],
+  "planned_samples": [
+    {
+      "quad": 94120,
+      "face": 188240,
+      "pixel_xy": [
+        527,
+        121
+      ],
+      "actual_owner": 188240,
+      "point_xyz": [
+        2867.10693359375,
+        3836.5087890625,
+        3485.8427734375
+      ],
+      "prediction_bit_equal": true,
+      "distance_to_quad_centre": 13.681787614488869
+    },
+    {
+      "quad": 97936,
+      "face": 195873,
+      "pixel_xy": [
+        528,
+        123
+      ],
+      "actual_owner": 195873,
+      "point_xyz": [
+        2886.0517578125,
+        3840.2421875,
+        3441.5751953125
+      ],
+      "prediction_bit_equal": true,
+      "distance_to_quad_centre": 11.14560012341299
+    }
+  ],
+  "changed_owner_pixels": [
+    {
+      "pixel_yx": [
+        121,
+        527
+      ],
+      "N_owner": 188239,
+      "O_owner": 188240
+    },
+    {
+      "pixel_yx": [
+        123,
+        528
+      ],
+      "N_owner": 195874,
+      "O_owner": 195873
+    },
+    {
+      "pixel_yx": [
+        124,
+        528
+      ],
+      "N_owner": 199690,
+      "O_owner": 199689
+    }
+  ],
+  "changed_point_count": 4,
+  "changed_point_pixels_yx": [
+    [
+      121,
+      527
+    ],
+    [
+      122,
+      527
+    ],
+    [
+      123,
+      528
+    ],
+    [
+      124,
+      528
+    ]
+  ],
+  "rejection_sets_equal": true,
+  "subject_involved_rejects": {
+    "N": 0,
+    "O": 0
+  },
+  "affected_face_quality": [
+    {
+      "face": 195875,
+      "area3": 228.01779801521408,
+      "N_area2": 72.8106369972229,
+      "O_area2": 8.520994663238525,
+      "N_SD": 3.6011695637756715,
+      "O_SD": 277.3062696115576,
+      "delta_weighted_subject_SD": 0.846912411808151
+    },
+    {
+      "face": 199690,
+      "area3": 234.05193758254612,
+      "N_area2": 71.47991156578064,
+      "O_area2": 40.8994003534317,
+      "N_SD": 4.2454872915277475,
+      "O_SD": 17.69156157743748,
+      "delta_weighted_subject_SD": 0.0427065616664374
+    },
+    {
+      "face": 195874,
+      "area3": 258.74045273550917,
+      "N_area2": 73.54201924800873,
+      "O_area2": 30.67550790309906,
+      "N_SD": 2.796898553659895,
+      "O_SD": 11.25169036078254,
+      "delta_weighted_subject_SD": 0.029686166031118486
+    },
+    {
+      "face": 188239,
+      "area3": 273.5654347739145,
+      "N_area2": 88.72916150093079,
+      "O_area2": 37.921496510505676,
+      "N_SD": 2.3868608752818075,
+      "O_SD": 8.903873742798456,
+      "delta_weighted_subject_SD": 0.0241933864134054
+    },
+    {
+      "face": 192054,
+      "area3": 272.0220660057054,
+      "N_area2": 94.59964871406555,
+      "O_area2": 45.74561882019043,
+      "N_SD": 2.43080577653512,
+      "O_SD": 8.601775256983789,
+      "delta_weighted_subject_SD": 0.022779510830361362
+    },
+    {
+      "face": 192055,
+      "area3": 260.41779900327504,
+      "N_area2": 86.36033737659454,
+      "O_area2": 91.17298650741577,
+      "N_SD": 2.497792655710299,
+      "O_SD": 2.8085066200581092,
+      "delta_weighted_subject_SD": 0.001098040342459363
+    },
+    {
+      "face": 188240,
+      "area3": 282.97855657223084,
+      "N_area2": 105.89970588684082,
+      "O_area2": 102.3179143667221,
+      "N_SD": 1.971437207521307,
+      "O_SD": 1.8127689602881698,
+      "delta_weighted_subject_SD": -0.000609298924700142
+    },
+    {
+      "face": 192056,
+      "area3": 274.4124085512732,
+      "N_area2": 90.81819427013397,
+      "O_area2": 140.2624214887619,
+      "N_SD": 2.5552039273197495,
+      "O_SD": 1.7666069601334744,
+      "delta_weighted_subject_SD": -0.002936606181595155
+    },
+    {
+      "face": 195873,
+      "area3": 246.42427782077516,
+      "N_area2": 73.59932041168213,
+      "O_area2": 105.49175548553467,
+      "N_SD": 2.4941858090130795,
+      "O_SD": 1.4464621088145149,
+      "delta_weighted_subject_SD": -0.0035036210018201245
+    },
+    {
+      "face": 188241,
+      "area3": 278.5271770224713,
+      "N_area2": 91.14745330810547,
+      "O_area2": 140.13406336307526,
+      "N_SD": 2.3715185002694863,
+      "O_SD": 1.4120609637616512,
+      "delta_weighted_subject_SD": -0.00362643749567819
+    },
+    {
+      "face": 199688,
+      "area3": 241.3811392636363,
+      "N_area2": 75.50355398654938,
+      "O_area2": 149.2366533279419,
+      "N_SD": 2.7000883471177657,
+      "O_SD": 1.171568162191503,
+      "delta_weighted_subject_SD": -0.005006813002183892
+    },
+    {
+      "face": 199689,
+      "area3": 219.95496822803284,
+      "N_area2": 50.81716442108154,
+      "O_area2": 82.92829489707947,
+      "N_SD": 6.720900420299003,
+      "O_SD": 3.757704756029402,
+      "delta_weighted_subject_SD": -0.008844656401633564
+    }
+  ],
+  "elapsed_seconds": 0.7197832000092603
+}

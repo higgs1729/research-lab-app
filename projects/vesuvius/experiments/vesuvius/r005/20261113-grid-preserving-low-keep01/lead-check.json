@@ -1,0 +1,30 @@
+{
+  "scope": "Independent grouping of original trace claims, union-find of original fine faces, direct XYZ files; no new rasterization/native execution.",
+  "fine_vertices": 41349,
+  "invalid_vertices": 103,
+  "fine_faces": 78624,
+  "excluded_faces": 225,
+  "rendered_faces": 78399,
+  "components": 5,
+  "source_shape_yx": [
+    155,
+    396
+  ],
+  "packed_shape_yx": [
+    155,
+    619
+  ],
+  "original_owners_preserved_xyz_bits": 21350,
+  "packed_owners": 23021,
+  "same_rejections_before": 11340,
+  "cross_rejections_before": 1848,
+  "same_rejections_after": 11517,
+  "newly_visible_same_rejections": 177,
+  "new_distinct_owner_cells": 1671,
+  "product_trace_xyz_sha256": {
+    "x.tif": "117527c85605ef497bf346f59dc9727453ae9340c7c564ad7ef3726c4b4faa79",
+    "y.tif": "db7f086e4878a99ab3cd9243871b84423b4e0003a0909f6ebcc3d41227ef417e",
+    "z.tif": "31afc99bccb21a5c50cabc45b652676771712d2a538024510668ecbe178a660a"
+  },
+  "all_assertions_passed": true
+}

@@ -1,0 +1,19 @@
+{
+  "reviewed_utc": "2026-11-15T09:36:55.255168+00:00",
+  "reviewer": "lead",
+  "source_traceback_confirmed": true,
+  "collection_order_confirmed": [
+    "download all output bytes",
+    "verify output archive hash",
+    "assert new local free space >=10GiB after write",
+    "write output file"
+  ],
+  "scientific_result": "Unavailable. No GPU output, CPU/GPU parity, or visual performance claim can be verified. CPU reference3 remains valid.",
+  "gpu_forward_count": null,
+  "independent_owned_pod_get": 404,
+  "independent_name_count": 0,
+  "independent_all_pods_count": 0,
+  "fee_time_estimate_usd": 0.031578402868354755,
+  "actual_invoice_confirmed": false,
+  "root_decision": "Resolve R229 as sources/CPU ready and GPU evidence lost at collection. Do not rerun unchanged collector. Before another paid run reserve bounded output space in advance and validate recovery under a later drop in free space. No broader research outcome or new-letter claim."
+}

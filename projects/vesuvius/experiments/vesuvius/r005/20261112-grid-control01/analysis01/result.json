@@ -1,0 +1,832 @@
+{
+  "first": {
+    "shape_yx": [
+      151,
+      559
+    ],
+    "input_quads": 39312,
+    "output_points": 39312,
+    "gt20": 49,
+    "gt40": 0,
+    "maximum_distance": 24.102109948128128,
+    "no_owned_sample_quads": 0,
+    "rejected_events": 0,
+    "cross_component_rejected_events": 0,
+    "cross_component_grid_edges": 0,
+    "quality": {
+      "input_faces": 78624,
+      "area3_total": 16450777.913587105,
+      "invalid_uv_faces": 0,
+      "zero_uv_area_faces": 0,
+      "negative_uv_area_faces": 0,
+      "undefined_or_nonpositive_uv_area_fraction": 0.0,
+      "positive_faces_only": {
+        "faces": 78624,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 1.0628374056996228,
+        "area_weighted_inverse_L2_rms": 1.0593876577517884,
+        "max_symmetric_singular_stretch": 29.460192329212646,
+        "uv_area_over_3d_area": 0.9558696909410282,
+        "area_ratio_percentiles_1_50_99": [
+          0.6472425987909244,
+          0.9802361047824155,
+          1.412023602261773
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.037185266882705,
+          1.1824382599937366,
+          1.3206309545853216
+        ]
+      },
+      "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+    },
+    "comparisons": {
+      "R003": {
+        "reference": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261111-components-analysis01\\distances.npz",
+        "sha256": "1233a0bccd66f65b2359a5fcee32d454502553397cbf9a5422262bbceb3bad33",
+        "key": "r003_same_component_distance",
+        "reference_gt20": 9483,
+        "recovered_to20": 9464,
+        "new_gt20": 30,
+        "both_gt20": 19
+      },
+      "B": {
+        "reference": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261111-extension-eval02\\arrays.npz",
+        "sha256": "91b64bb758eb2daaa5133f2769a276132451ed7c3ae3658494f4512bd355f5c4",
+        "key": "same_component_distance",
+        "reference_gt20": 3,
+        "recovered_to20": 3,
+        "new_gt20": 49,
+        "both_gt20": 0
+      }
+    },
+    "per_component": [
+      {
+        "component": 0,
+        "quads": 33840,
+        "output_points": 33840,
+        "gt20": 49,
+        "gt40": 0
+      },
+      {
+        "component": 1,
+        "quads": 252,
+        "output_points": 252,
+        "gt20": 0,
+        "gt40": 0
+      },
+      {
+        "component": 2,
+        "quads": 4608,
+        "output_points": 4608,
+        "gt20": 0,
+        "gt40": 0
+      },
+      {
+        "component": 3,
+        "quads": 540,
+        "output_points": 540,
+        "gt20": 0,
+        "gt40": 0
+      },
+      {
+        "component": 4,
+        "quads": 72,
+        "output_points": 72,
+        "gt20": 0,
+        "gt40": 0
+      }
+    ],
+    "remaining_gt20": [
+      {
+        "quad": 14,
+        "yx": [
+          6,
+          20
+        ],
+        "distance": 20.17246584743506,
+        "own_samples": 1,
+        "nearest_face": 31
+      },
+      {
+        "quad": 15,
+        "yx": [
+          6,
+          21
+        ],
+        "distance": 20.055085852251423,
+        "own_samples": 1,
+        "nearest_face": 33
+      },
+      {
+        "quad": 16,
+        "yx": [
+          6,
+          22
+        ],
+        "distance": 20.08297776141841,
+        "own_samples": 1,
+        "nearest_face": 35
+      },
+      {
+        "quad": 17,
+        "yx": [
+          6,
+          23
+        ],
+        "distance": 23.518789967593694,
+        "own_samples": 1,
+        "nearest_face": 35
+      },
+      {
+        "quad": 14069,
+        "yx": [
+          66,
+          161
+        ],
+        "distance": 20.8243274966742,
+        "own_samples": 1,
+        "nearest_face": 28139
+      },
+      {
+        "quad": 16290,
+        "yx": [
+          72,
+          246
+        ],
+        "distance": 20.25763871951066,
+        "own_samples": 1,
+        "nearest_face": 31851
+      },
+      {
+        "quad": 16291,
+        "yx": [
+          72,
+          247
+        ],
+        "distance": 20.060222510017326,
+        "own_samples": 1,
+        "nearest_face": 31853
+      },
+      {
+        "quad": 16662,
+        "yx": [
+          73,
+          246
+        ],
+        "distance": 20.25120948892644,
+        "own_samples": 1,
+        "nearest_face": 33327
+      },
+      {
+        "quad": 24665,
+        "yx": [
+          96,
+          293
+        ],
+        "distance": 21.65234624137293,
+        "own_samples": 1,
+        "nearest_face": 49331
+      },
+      {
+        "quad": 26766,
+        "yx": [
+          102,
+          216
+        ],
+        "distance": 22.70266895023203,
+        "own_samples": 1,
+        "nearest_face": 52837
+      },
+      {
+        "quad": 26767,
+        "yx": [
+          102,
+          217
+        ],
+        "distance": 23.342416513291038,
+        "own_samples": 1,
+        "nearest_face": 53535
+      },
+      {
+        "quad": 26768,
+        "yx": [
+          102,
+          218
+        ],
+        "distance": 23.993112073937713,
+        "own_samples": 1,
+        "nearest_face": 53539
+      },
+      {
+        "quad": 26769,
+        "yx": [
+          102,
+          219
+        ],
+        "distance": 24.102109948128128,
+        "own_samples": 1,
+        "nearest_face": 53541
+      },
+      {
+        "quad": 26770,
+        "yx": [
+          102,
+          220
+        ],
+        "distance": 24.06061169976117,
+        "own_samples": 1,
+        "nearest_face": 53541
+      },
+      {
+        "quad": 26771,
+        "yx": [
+          102,
+          221
+        ],
+        "distance": 23.947542412884015,
+        "own_samples": 1,
+        "nearest_face": 53543
+      },
+      {
+        "quad": 27174,
+        "yx": [
+          103,
+          216
+        ],
+        "distance": 22.34771782116942,
+        "own_samples": 1,
+        "nearest_face": 54349
+      },
+      {
+        "quad": 27175,
+        "yx": [
+          103,
+          217
+        ],
+        "distance": 22.749862461375177,
+        "own_samples": 1,
+        "nearest_face": 54351
+      },
+      {
+        "quad": 27176,
+        "yx": [
+          103,
+          218
+        ],
+        "distance": 22.952313613556946,
+        "own_samples": 1,
+        "nearest_face": 54353
+      },
+      {
+        "quad": 27177,
+        "yx": [
+          103,
+          219
+        ],
+        "distance": 23.1053334399862,
+        "own_samples": 1,
+        "nearest_face": 54355
+      },
+      {
+        "quad": 27178,
+        "yx": [
+          103,
+          220
+        ],
+        "distance": 23.198734838898762,
+        "own_samples": 1,
+        "nearest_face": 54357
+      },
+      {
+        "quad": 27179,
+        "yx": [
+          103,
+          221
+        ],
+        "distance": 23.45889775959947,
+        "own_samples": 1,
+        "nearest_face": 54359
+      },
+      {
+        "quad": 27582,
+        "yx": [
+          104,
+          216
+        ],
+        "distance": 21.844248586310687,
+        "own_samples": 1,
+        "nearest_face": 55165
+      },
+      {
+        "quad": 27583,
+        "yx": [
+          104,
+          217
+        ],
+        "distance": 22.22092053066544,
+        "own_samples": 1,
+        "nearest_face": 55167
+      },
+      {
+        "quad": 27584,
+        "yx": [
+          104,
+          218
+        ],
+        "distance": 22.51186324426831,
+        "own_samples": 1,
+        "nearest_face": 55169
+      },
+      {
+        "quad": 27585,
+        "yx": [
+          104,
+          219
+        ],
+        "distance": 22.666741558153856,
+        "own_samples": 1,
+        "nearest_face": 55171
+      },
+      {
+        "quad": 27586,
+        "yx": [
+          104,
+          220
+        ],
+        "distance": 22.727358010604814,
+        "own_samples": 1,
+        "nearest_face": 55173
+      },
+      {
+        "quad": 27587,
+        "yx": [
+          104,
+          221
+        ],
+        "distance": 22.942114409639,
+        "own_samples": 1,
+        "nearest_face": 55175
+      },
+      {
+        "quad": 27990,
+        "yx": [
+          105,
+          216
+        ],
+        "distance": 21.113619155103034,
+        "own_samples": 1,
+        "nearest_face": 55167
+      },
+      {
+        "quad": 27991,
+        "yx": [
+          105,
+          217
+        ],
+        "distance": 20.923937825923346,
+        "own_samples": 1,
+        "nearest_face": 55983
+      },
+      {
+        "quad": 27992,
+        "yx": [
+          105,
+          218
+        ],
+        "distance": 21.51500704869329,
+        "own_samples": 1,
+        "nearest_face": 55985
+      },
+      {
+        "quad": 27993,
+        "yx": [
+          105,
+          219
+        ],
+        "distance": 21.87413979286547,
+        "own_samples": 1,
+        "nearest_face": 55987
+      },
+      {
+        "quad": 27994,
+        "yx": [
+          105,
+          220
+        ],
+        "distance": 22.25962495244766,
+        "own_samples": 1,
+        "nearest_face": 55989
+      },
+      {
+        "quad": 27995,
+        "yx": [
+          105,
+          221
+        ],
+        "distance": 22.62808582547883,
+        "own_samples": 1,
+        "nearest_face": 55991
+      },
+      {
+        "quad": 27996,
+        "yx": [
+          105,
+          222
+        ],
+        "distance": 21.044402762115418,
+        "own_samples": 1,
+        "nearest_face": 55179
+      },
+      {
+        "quad": 28398,
+        "yx": [
+          106,
+          216
+        ],
+        "distance": 20.656291826457586,
+        "own_samples": 1,
+        "nearest_face": 56797
+      },
+      {
+        "quad": 28399,
+        "yx": [
+          106,
+          217
+        ],
+        "distance": 20.810331838365887,
+        "own_samples": 1,
+        "nearest_face": 56799
+      },
+      {
+        "quad": 28400,
+        "yx": [
+          106,
+          218
+        ],
+        "distance": 21.2329905163342,
+        "own_samples": 1,
+        "nearest_face": 56801
+      },
+      {
+        "quad": 28401,
+        "yx": [
+          106,
+          219
+        ],
+        "distance": 21.73015211967717,
+        "own_samples": 1,
+        "nearest_face": 56803
+      },
+      {
+        "quad": 28402,
+        "yx": [
+          106,
+          220
+        ],
+        "distance": 22.112636918130043,
+        "own_samples": 1,
+        "nearest_face": 56805
+      },
+      {
+        "quad": 28403,
+        "yx": [
+          106,
+          221
+        ],
+        "distance": 22.41336000040672,
+        "own_samples": 1,
+        "nearest_face": 56807
+      },
+      {
+        "quad": 28404,
+        "yx": [
+          106,
+          222
+        ],
+        "distance": 22.14387618650578,
+        "own_samples": 1,
+        "nearest_face": 56811
+      },
+      {
+        "quad": 28405,
+        "yx": [
+          106,
+          223
+        ],
+        "distance": 20.882851500444424,
+        "own_samples": 1,
+        "nearest_face": 55997
+      },
+      {
+        "quad": 28806,
+        "yx": [
+          107,
+          216
+        ],
+        "distance": 20.5295209846099,
+        "own_samples": 1,
+        "nearest_face": 57613
+      },
+      {
+        "quad": 28807,
+        "yx": [
+          107,
+          217
+        ],
+        "distance": 20.710808446076285,
+        "own_samples": 1,
+        "nearest_face": 57615
+      },
+      {
+        "quad": 28808,
+        "yx": [
+          107,
+          218
+        ],
+        "distance": 20.951718874892638,
+        "own_samples": 1,
+        "nearest_face": 57617
+      },
+      {
+        "quad": 28809,
+        "yx": [
+          107,
+          219
+        ],
+        "distance": 21.180052164893123,
+        "own_samples": 1,
+        "nearest_face": 57619
+      },
+      {
+        "quad": 28810,
+        "yx": [
+          107,
+          220
+        ],
+        "distance": 21.560694519157387,
+        "own_samples": 1,
+        "nearest_face": 57621
+      },
+      {
+        "quad": 28811,
+        "yx": [
+          107,
+          221
+        ],
+        "distance": 22.192633485458956,
+        "own_samples": 1,
+        "nearest_face": 57623
+      },
+      {
+        "quad": 28812,
+        "yx": [
+          107,
+          222
+        ],
+        "distance": 20.72793994116015,
+        "own_samples": 1,
+        "nearest_face": 57627
+      }
+    ]
+  },
+  "second": {
+    "shape_yx": [
+      229,
+      2647
+    ],
+    "input_quads": 239112,
+    "output_points": 239112,
+    "gt20": 11,
+    "gt40": 0,
+    "maximum_distance": 22.47154412525651,
+    "no_owned_sample_quads": 0,
+    "rejected_events": 0,
+    "cross_component_rejected_events": 0,
+    "cross_component_grid_edges": 0,
+    "quality": {
+      "input_faces": 478224,
+      "area3_total": 101749890.19763327,
+      "invalid_uv_faces": 0,
+      "zero_uv_area_faces": 0,
+      "negative_uv_area_faces": 0,
+      "undefined_or_nonpositive_uv_area_fraction": 0.0,
+      "positive_faces_only": {
+        "faces": 478224,
+        "area3_fraction": 1.0,
+        "area_weighted_normalized_symmetric_dirichlet": 1.0521256605161815,
+        "area_weighted_inverse_L2_rms": 1.061830099713392,
+        "max_symmetric_singular_stretch": 14.933334703819895,
+        "uv_area_over_3d_area": 0.9399990487874229,
+        "area_ratio_percentiles_1_50_99": [
+          0.6426855245946204,
+          0.9653947268746146,
+          1.2880789999989524
+        ],
+        "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+          1.0330683363716038,
+          1.1580917031917637,
+          1.2595064441981256
+        ]
+      },
+      "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+    },
+    "comparisons": {
+      "R003": {
+        "reference": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-holdout01\\analysis01\\arrays.npz",
+        "sha256": "a83ba86b88428c3a7dbdc91efbec2a767fdc742ab2efe1d1eb3bb95cde7f2316",
+        "key": "baseline_same_component_distance",
+        "reference_gt20": 45083,
+        "recovered_to20": 45075,
+        "new_gt20": 3,
+        "both_gt20": 8
+      },
+      "Q": {
+        "reference": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-sample-alternatives01\\raster-analysis01\\arrays.npz",
+        "sha256": "0446b018a0697b8ea6dbfa133a1250f387d24ce0a000437680c067778155fac7",
+        "key": "Q_same_component_distance",
+        "reference_gt20": 262,
+        "recovered_to20": 261,
+        "new_gt20": 10,
+        "both_gt20": 1
+      }
+    },
+    "per_component": [
+      {
+        "component": 0,
+        "quads": 28836,
+        "output_points": 28836,
+        "gt20": 0,
+        "gt40": 0
+      },
+      {
+        "component": 1,
+        "quads": 187776,
+        "output_points": 187776,
+        "gt20": 7,
+        "gt40": 0
+      },
+      {
+        "component": 2,
+        "quads": 18468,
+        "output_points": 18468,
+        "gt20": 4,
+        "gt40": 0
+      },
+      {
+        "component": 3,
+        "quads": 36,
+        "output_points": 36,
+        "gt20": 0,
+        "gt40": 0
+      },
+      {
+        "component": 4,
+        "quads": 36,
+        "output_points": 36,
+        "gt20": 0,
+        "gt40": 0
+      },
+      {
+        "component": 5,
+        "quads": 864,
+        "output_points": 864,
+        "gt20": 0,
+        "gt40": 0
+      },
+      {
+        "component": 6,
+        "quads": 1944,
+        "output_points": 1944,
+        "gt20": 0,
+        "gt40": 0
+      },
+      {
+        "component": 7,
+        "quads": 1116,
+        "output_points": 1116,
+        "gt20": 0,
+        "gt40": 0
+      },
+      {
+        "component": 8,
+        "quads": 36,
+        "output_points": 36,
+        "gt20": 0,
+        "gt40": 0
+      }
+    ],
+    "remaining_gt20": [
+      {
+        "quad": 23123,
+        "yx": [
+          60,
+          2213
+        ],
+        "distance": 22.350094598441533,
+        "own_samples": 1,
+        "nearest_face": 46247
+      },
+      {
+        "quad": 62939,
+        "yx": [
+          96,
+          203
+        ],
+        "distance": 20.880707579219678,
+        "own_samples": 1,
+        "nearest_face": 125879
+      },
+      {
+        "quad": 72641,
+        "yx": [
+          102,
+          791
+        ],
+        "distance": 20.63364440401098,
+        "own_samples": 1,
+        "nearest_face": 145283
+      },
+      {
+        "quad": 131082,
+        "yx": [
+          133,
+          144
+        ],
+        "distance": 20.292302289873668,
+        "own_samples": 1,
+        "nearest_face": 262167
+      },
+      {
+        "quad": 139504,
+        "yx": [
+          137,
+          142
+        ],
+        "distance": 20.125802879744644,
+        "own_samples": 1,
+        "nearest_face": 274797
+      },
+      {
+        "quad": 139505,
+        "yx": [
+          137,
+          143
+        ],
+        "distance": 20.321605360110468,
+        "own_samples": 1,
+        "nearest_face": 274799
+      },
+      {
+        "quad": 142205,
+        "yx": [
+          138,
+          989
+        ],
+        "distance": 20.927906969224736,
+        "own_samples": 1,
+        "nearest_face": 284411
+      },
+      {
+        "quad": 146129,
+        "yx": [
+          140,
+          989
+        ],
+        "distance": 20.268474863309184,
+        "own_samples": 1,
+        "nearest_face": 292259
+      },
+      {
+        "quad": 153833,
+        "yx": [
+          144,
+          905
+        ],
+        "distance": 20.12836602412067,
+        "own_samples": 1,
+        "nearest_face": 307667
+      },
+      {
+        "quad": 174299,
+        "yx": [
+          156,
+          911
+        ],
+        "distance": 20.17998346435866,
+        "own_samples": 1,
+        "nearest_face": 348599
+      },
+      {
+        "quad": 215903,
+        "yx": [
+          186,
+          2405
+        ],
+        "distance": 22.47154412525651,
+        "own_samples": 1,
+        "nearest_face": 431807
+      }
+    ]
+  }
+}

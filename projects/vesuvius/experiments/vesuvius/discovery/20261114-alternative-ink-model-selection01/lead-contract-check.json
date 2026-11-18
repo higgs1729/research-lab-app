@@ -1,0 +1,32 @@
+{
+  "reviewer": "root",
+  "date_jst": "2026-11-14",
+  "sources_read": ["originals/hecate.py", "originals/hecate-card.md", "originals/hecate-requirements.txt", "originals/hecate-repo.json"],
+  "source_revision": "9cb86e500e944b11a06a7020403cde5dffb5bcb2",
+  "source_sha256": "c232c18a1a86cfb91257a00db13288202bb8ae33732ba26f7291a9b8adb8da59",
+  "confirmed_contract": {
+    "architecture": "ResNet152 3D encoder/decoder with learned depth attention",
+    "checkpoint_bytes": 522576086,
+    "checkpoint_sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+    "checkpoint_loading": "weights_only=True, mmap=True, strict state loading",
+    "input": "uint8 ZYX, float32 division by 255 without clipping",
+    "patch_zyx": [16,64,64],
+    "stride_xy": 32,
+    "precision": "CPU fp32 supported; bf16 requires CUDA",
+    "reverse_on_depth33": "slice [9,25), then reverse: source planes 24 through 9",
+    "window": "nonperiodic Hann outer product normalized by its maximum, floor .001",
+    "encoding": "round(255 * clipped probability), no min-max normalization"
+  },
+  "independent_patch_set_check": {
+    "full_atlas_wh": [6048,2304],
+    "crop_xywh": [1376,1056,320,320],
+    "main_xywh": [1408,1088,256,256],
+    "patch_count": 81,
+    "full_atlas_contributors_to_main": 81,
+    "ordered_absolute_patch_sets_identical": true,
+    "calculation": "Enumerate full-frame stride32 64-square patches intersecting the half-open main ROI; compare to all patches in the 320-square crop. Equality includes order and complete patch support."
+  },
+  "decision": "Accept one bounded known-region 2D reverse comparison. The existing CT has nominal XY9.600000254 and Z9.599039497 micrometre spacing; the roughly .010 percent Z difference is disclosed and tolerated for this reused-input test, not described as exact isotropic 9.6 resampling.",
+  "limits": "No new CT, no unknown-region run, no extra direction or 3D pass. CPU1, process commit4GiB, one inference process up to900s; first three patches are timed within that process and a projected overrun causes early termination. No checkpoint or model forward has been performed in study189.",
+  "unknown": "Improved reading, full training-coordinate nonoverlap, actual runtime/memory, and equivalence with the historical public Hecate prediction remain unverified."
+}

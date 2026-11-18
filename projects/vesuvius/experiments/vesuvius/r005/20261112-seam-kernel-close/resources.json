@@ -1,0 +1,335 @@
+{
+  "new_paid_compute_cost": 0,
+  "currency": "USD",
+  "llm_and_local_electricity_cost": null,
+  "new_input_data_download_bytes": 0,
+  "new_dependency_installs": 0,
+  "new_native_builds": 0,
+  "new_native_raster_runs": 1,
+  "new_native_solver_runs": 0,
+  "new_highs_problems": 3,
+  "new_slsqp_calls": 2,
+  "numerical_jobs": [
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/boundary01-execution/state.json",
+      "started_utc": "2026-11-11T23:11:59.143963+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\check_boundary.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\boundary01"
+      ],
+      "script_sha256": "c928b34922c465fdc790bbc83842a9ce74a746c8e42bd9ca95d9cde8872e6348",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.8105893000029027,
+      "peak_rss_bytes": 245780480,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:11:59.955056+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/diagnosis01-execution/state.json",
+      "started_utc": "2026-11-11T23:09:06.402052+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\check_kernels.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\diagnosis01"
+      ],
+      "script_sha256": "1bb7a8e54e44b7dfb7aeb9f96e5ef96950ed89385e66bc2ef1e16be6e470fb10",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 3.116307299991604,
+      "peak_rss_bytes": 638070784,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:09:09.519010+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input01-execution/state.json",
+      "started_utc": "2026-11-11T23:13:36.132662+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\prepare_expanded.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\expanded-input01"
+      ],
+      "script_sha256": "b5c4c98b9b742a928cc94cfa505289bc4e2ddd92b78711bc464994571b5eaf62",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "failed",
+      "exit_code": 1,
+      "elapsed_seconds": 0.8084023999981582,
+      "peak_rss_bytes": 261533696,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:13:36.941608+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input02-execution/state.json",
+      "started_utc": "2026-11-11T23:14:40.372965+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\prepare_expanded02.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\expanded-input02"
+      ],
+      "script_sha256": "0644011188c2895b80ea997b2205aba919a23eebc71aa3d4f4d9b023bebb9379",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 1.012498099997174,
+      "peak_rss_bytes": 259145728,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:14:41.396660+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input03-execution/state.json",
+      "started_utc": "2026-11-11T23:15:35.582255+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\prepare_expanded03.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\expanded-input03"
+      ],
+      "script_sha256": "31bc8660cc3e3cbe45ee11eea439f37e636c11b17bc01a0e1f03daeac6dad213",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.9103105000103824,
+      "peak_rss_bytes": 265654272,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:15:36.499556+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded01-execution/state.json",
+      "started_utc": "2026-11-11T23:15:43.730961+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\expanded_trial.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\expanded01"
+      ],
+      "script_sha256": "f2f4024fe7768c78f242101cac65b8b03eaba6c92d1d1243533758784a87fb1e",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 5.593460600008257,
+      "peak_rss_bytes": 658649088,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:15:49.338274+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/joint01-execution/state.json",
+      "started_utc": "2026-11-11T23:10:56.782295+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\joint_trial.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\joint01"
+      ],
+      "script_sha256": "173438e7a2560cae0982d9d510f393fd57a466250e60fd3eced497a810790f68",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 2.5149810999864712,
+      "peak_rss_bytes": 450727936,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:10:59.297899+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-analysis01-execution/state.json",
+      "started_utc": "2026-11-11T23:18:26.934351+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\evaluate_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\raster-analysis01"
+      ],
+      "script_sha256": "9f092d78afd7fc226f109a17cf7363195c0dbe78a9eb0e19224bb0c4145f45fa",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 4.321054800006095,
+      "peak_rss_bytes": 578306048,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:18:31.256009+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-input01-execution/state.json",
+      "started_utc": "2026-11-11T23:17:27.022535+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\prepare_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel01\\raster-input01"
+      ],
+      "script_sha256": "dd3d26705402dd70925c41003321de5fc4aa45bd68cf0fad87a6dc76d237f1f8",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 0.6083099999814294,
+      "peak_rss_bytes": 83070976,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:17:27.631429+00:00"
+    },
+    {
+      "role": "primary",
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/state.json",
+      "mode": "candidate",
+      "started_utc": "2026-11-11T23:17:33.040892+00:00",
+      "commands": [
+        [
+          "/mnt/d/kensyoukin-work/r003-build/bin/r005-corner-obj01",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-seam-kernel01/raster-input01/mesh.bin",
+          "/mnt/c/dev/kensyoukin/experiments/vesuvius/r005/20261112-seam-kernel01/raster01"
+        ]
+      ],
+      "status": "complete",
+      "source_sha256": "19212966593c157043357c455dac74fbe20be83bd2b0f07058cacce8a25bfb37",
+      "header_sha256": {
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/writeOBJ.h": "733d29c86e0693fb80dd3e7f531417fe3898b2944578ed79d6a1c4ef831efa5b",
+        "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/writeOBJ.cpp": "51a01371679a4eb54d5ef09fdfed0d2bbf60715876a04071e3f396d2a3d29dbc"
+      },
+      "protected_hashes": {
+        "/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp": "3eeb1bc7225c5588007e2dc9b54aa04523745d0a4e8e4f1321681ee5d77cd36c",
+        "/mnt/d/kensyoukin-work/r005-build05/SurfaceMeshing-trace.o": "53844681c5ff559b3c7ed93cda6ff5fdacb4aca5f8bd4db91f9c5ba98cfc69f5",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi": "ef616b7060330dcdf4f52e8edb25fdffe62206c4c9fb166139b99a7a514ed9ef",
+        "/mnt/d/kensyoukin-work/r003-build/bin/flatboi-r005-overridetrace01": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+        "/mnt/d/kensyoukin-work/r003-build/core/libvc_inpaint.so": "89be74bca1597bc52578021732d9bbf964de5792c37fcb1868702c89610b77c4",
+        "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+      },
+      "affinity": [
+        0
+      ],
+      "time_limit_per_command_seconds": 300,
+      "address_space_limit_bytes": 4294967296,
+      "input_sha256": "e383bae5d3bfb0dbc26e0021531dc2dbcfb44b05d69cd87d5f83662435de0c7a",
+      "exit_code": 0,
+      "elapsed_seconds": 4.635209391,
+      "max_child_rss_bytes": 148934656,
+      "protected_files_unchanged": true,
+      "completed_utc": "2026-11-11T23:17:37.770290+00:00",
+      "binary": "/mnt/d/kensyoukin-work/r003-build/bin/r005-corner-obj01",
+      "binary_sha256": "be1839d686e95e4b32d4cb81035fcb82f46f845fa03c844b8cd6f6be81a7a738"
+    },
+    {
+      "role": "verification",
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/check01-execution/state.json",
+      "started_utc": "2026-11-11T23:23:03.928289+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel-verification01\\verify_geometry.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel-verification01\\check01"
+      ],
+      "script_sha256": "7f5f79d076fcc45ca851f044219b8d620222c0f66e99c9238594257516d7edd0",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 8.036947800021153,
+      "peak_rss_bytes": 274735104,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:23:11.966205+00:00"
+    },
+    {
+      "role": "verification",
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/check02-execution/state.json",
+      "started_utc": "2026-11-11T23:25:12.696391+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel-verification01\\verify_raster.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-seam-kernel-verification01\\check02"
+      ],
+      "script_sha256": "8946ec3c28ae56481b3c74625a00e567607a50ecec4fc7eff7f2b19f9fa56c28",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 8.736361200048123,
+      "peak_rss_bytes": 424165376,
+      "stopped": null,
+      "completed_utc": "2026-11-11T23:25:21.433451+00:00"
+    }
+  ],
+  "sequential_bounded_numeric_intervals_verified": true,
+  "previous_frozen_files_checked": 49,
+  "previous_manifest_sha256": "68b486d268cf2925777d2b0b21fb03de065fb98dcd0782ffa1b8976b97704e81",
+  "main_and_verification_artifact_bytes": 173557563,
+  "note": "CPU1. Native AS4GiB/300s per command; Python sampled RSS4GiB/300s. Existing corner-UV raster adapter only. Ten primary jobs include one preserved failed preparation (incorrect assumption that patch boundary excludes variable original-mesh boundary vertices); the other nine completed. SLSQP nonconvergence is separately recorded as an optimization outcome. No GPU. Shared-host O0 timings are not performance comparisons."
+}

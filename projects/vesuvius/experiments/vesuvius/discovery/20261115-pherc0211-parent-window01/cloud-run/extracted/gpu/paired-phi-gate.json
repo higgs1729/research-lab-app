@@ -1,0 +1,9 @@
+{
+  "max_abs": 0.0028054118156433105,
+  "mean_abs": 0.0006942504648274431,
+  "all_finite": true,
+  "threshold_max_abs": 0.005,
+  "threshold_mean_abs": 0.0005,
+  "passed": false,
+  "source": "Fixed public-vs-approximate phi input, central96 raw probability; not an exact-render claim"
+}

@@ -1,0 +1,35 @@
+{
+  "reviewed_utc": "2026-11-15T11:38:09.225001+00:00",
+  "reviewer": "r233_studio_pherc0800",
+  "main_xywh": [
+    142,
+    640,
+    1067,
+    1067
+  ],
+  "viewed_images": {
+    "studio-forward-raw.png": "68854a46d06908f4720b913c6592ff2d0b301fb40744a2e933deaffa72efcb89",
+    "studio-reverse-raw.png": "b33b75880d6f3c71992028f29f7a1f9279f141945606b56c1c907aff7139bca5",
+    "native-quadrant-00.png": "59de5586c954ac83d4d3be5d91f5025527c0118a7947997a6029c5f0fe6b16e7",
+    "native-quadrant-01.png": "49c8e5a841211594be415a70bbc08211a3b8df5133303d8124e8da2e23beab5e",
+    "native-quadrant-10.png": "753cc2fb3d867ea322f3336097c991e4417c3d4993bb1b34ee789d01c769b84d",
+    "native-quadrant-11.png": "588cc2db4d86c1318fc835d40295e54efd7e33726bad1bb063064553b5aed708"
+  },
+  "method": "View saved native whole raw images and all four native1:1 quadrant comparison panels; fixed nonzero-main median..p99.5 displays also included; no regenerated thresholds/depths/orientations.",
+  "observations": [
+    "Forward raw has dominant isolated rounded blobs near main-local(575,650) and(510,1015); they lack separated stroke components or aligned neighbouring glyphs.",
+    "Upper main has diffuse hooked/angled responses near local(580,210) and(900,410), but no thin continuous boundaries or repeated character-like progression is resolved.",
+    "Reverse moves emphasis to left-middle/local(240,600), lower-middle/local(590,900), and lower-right patches. Fixed display increases patchiness without establishing a coherent row.",
+    "Native CT shows strong intersecting fibrous/stripe structures and isolated dark/bright patches. Model responses cannot be assigned to ink from brightness or resemblance alone.",
+    "Reader and Hecate same-XY outputs also contain dispersed blobs or broad angled responses. Studio changes their placement and contrast but supplies no selected new stroke/row ROI."
+  ],
+  "selected_ROI": [],
+  "selected_ROI_count": 0,
+  "new_characters_verified": 0,
+  "decision": "Close this fixed PHerc0800 window model-comparison as predeclared; no further model/depth/threshold/orientation passes in this study.",
+  "limits": [
+    "ROI0 only for this fixed window and tested recipe; does not demonstrate ink absence on this window or scroll.",
+    "Correct surface normal, physical paper layer and unknown model accuracy remain unverified.",
+    "Not a fourth submission item or additional unexplored area."
+  ]
+}

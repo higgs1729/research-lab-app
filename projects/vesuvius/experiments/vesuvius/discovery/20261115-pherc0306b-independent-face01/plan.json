@@ -1,0 +1,1238 @@
+{
+  "research": 227,
+  "frozen_before_numerics": true,
+  "parent_approval": "Approved direct parent message 2026-11-15; full plan and input SHA before run",
+  "volume": "20250521133212",
+  "candidate_raw_xyxy_half_open": [
+    3424,
+    3424,
+    4160,
+    3824
+  ],
+  "git_revision": "feabff6c54f95bd8e52a90e0a7a76881ee67d4cc",
+  "hf_revision": "f435998b55269762942a979052044309b29650ac",
+  "sections": {
+    "upper-across": {
+      "region": "upper",
+      "vertices_raw_xy": [
+        [
+          3440,
+          3560
+        ],
+        [
+          3490,
+          3560
+        ],
+        [
+          3580,
+          3560
+        ],
+        [
+          3820,
+          3560
+        ],
+        [
+          4020,
+          3560
+        ],
+        [
+          4140,
+          3560
+        ]
+      ],
+      "vertex_columns": [
+        0,
+        50,
+        140,
+        380,
+        580,
+        700
+      ],
+      "vertex_mesh_xyz": [
+        [
+          2950.5,
+          4018.27587890625,
+          8394.2568359375
+        ],
+        [
+          2984.14892578125,
+          3983.2669677734375,
+          8385.3740234375
+        ],
+        [
+          3071.8564453125,
+          3954.906005859375,
+          8384.9248046875
+        ],
+        [
+          3269.0859375,
+          3827.501953125,
+          8363.75390625
+        ],
+        [
+          3389.070556640625,
+          3671.718017578125,
+          8333.634765625
+        ],
+        [
+          3454.8974609375,
+          3573.4345703125,
+          8315.455078125
+        ]
+      ],
+      "vertex_normal_xyz": [
+        [
+          0.9522595912348494,
+          0.28366494886568605,
+          -0.1128533016188069
+        ],
+        [
+          0.41779510805425546,
+          0.8173556875317558,
+          0.3967076098909923
+        ],
+        [
+          0.20147922352921172,
+          0.8771437169953062,
+          0.4359185958659301
+        ],
+        [
+          0.7219821684932491,
+          0.6757134554963804,
+          0.1488390890825615
+        ],
+        [
+          0.8558999385197429,
+          0.5166373054601634,
+          0.02282958275489039
+        ],
+        [
+          0.9070198111668653,
+          0.41532276100402904,
+          -0.06944109980994048
+        ]
+      ],
+      "max_mesh_step_voxel": 1.034499293823664,
+      "min_adjacent_normal_dot": 0.9997396401079874,
+      "shape": [
+        65,
+        701
+      ],
+      "ct_keys": [
+        "0/64/27/26",
+        "0/64/27/27",
+        "0/64/28/26",
+        "0/64/28/27",
+        "0/65/27/26",
+        "0/65/28/25",
+        "0/65/28/26",
+        "0/65/28/27",
+        "0/65/29/25",
+        "0/65/29/26",
+        "0/65/30/23",
+        "0/65/30/24",
+        "0/65/30/25",
+        "0/65/31/22",
+        "0/65/31/23",
+        "0/65/31/24"
+      ]
+    },
+    "known-across": {
+      "region": "known",
+      "vertices_raw_xy": [
+        [
+          4660,
+          2450
+        ],
+        [
+          4720,
+          2450
+        ],
+        [
+          4805,
+          2450
+        ],
+        [
+          4905,
+          2450
+        ],
+        [
+          4960,
+          2450
+        ]
+      ],
+      "vertex_columns": [
+        0,
+        60,
+        145,
+        245,
+        300
+      ],
+      "vertex_mesh_xyz": [
+        [
+          3904.9415283203125,
+          3011.8553466796875,
+          9280.92333984375
+        ],
+        [
+          3938.3280029296875,
+          2965.9755859375,
+          9264.22021484375
+        ],
+        [
+          3975.312530517578,
+          2895.403106689453,
+          9239.420532226562
+        ],
+        [
+          4018.5205993652344,
+          2813.407196044922,
+          9209.29345703125
+        ],
+        [
+          4059.497802734375,
+          2792.9840087890625,
+          9194.61962890625
+        ]
+      ],
+      "vertex_normal_xyz": [
+        [
+          0.7761042077920313,
+          0.5922191137923187,
+          0.21665359426177178
+        ],
+        [
+          0.8625155899052397,
+          0.5041411854124914,
+          0.04368663801786666
+        ],
+        [
+          0.858187688041638,
+          0.5100593910281005,
+          -0.057907769062464476
+        ],
+        [
+          0.8259747726598069,
+          0.5552330511732824,
+          -0.09737522176810345
+        ],
+        [
+          -0.1347668248698155,
+          0.6574625231741018,
+          0.7413372603181714
+        ]
+      ],
+      "max_mesh_step_voxel": 0.9879964507849813,
+      "min_adjacent_normal_dot": 0.9994048177646557,
+      "shape": [
+        65,
+        301
+      ],
+      "ct_keys": [
+        "0/71/21/31",
+        "0/71/22/31",
+        "0/72/21/31",
+        "0/72/22/30",
+        "0/72/22/31",
+        "0/72/23/30",
+        "0/72/23/31"
+      ]
+    }
+  },
+  "sites": {
+    "U1": {
+      "region": "upper",
+      "r225_selection_label": "upper lobe of left bend",
+      "raw_xy": [
+        3550,
+        3650
+      ],
+      "mesh_xyz": [
+        3058.4288940429688,
+        4004.2628784179688,
+        8304.807373046875
+      ],
+      "normal_xyz": [
+        0.3097911764058426,
+        0.8161941507172564,
+        0.48770537761646693
+      ],
+      "raw_orientations": {
+        "Z": {
+          "fixed_zyx_axis": "Z",
+          "center_zyx": [
+            8305,
+            4004,
+            3058
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/64/31/23",
+            "0/64/31/24"
+          ]
+        },
+        "Y": {
+          "fixed_zyx_axis": "Y",
+          "center_zyx": [
+            8305,
+            4004,
+            3058
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/64/31/23",
+            "0/64/31/24",
+            "0/65/31/23",
+            "0/65/31/24"
+          ]
+        },
+        "X": {
+          "fixed_zyx_axis": "X",
+          "center_zyx": [
+            8305,
+            4004,
+            3058
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/64/31/23",
+            "0/65/31/23"
+          ]
+        }
+      }
+    },
+    "U2": {
+      "region": "upper",
+      "r225_selection_label": "left upright",
+      "raw_xy": [
+        3490,
+        3550
+      ],
+      "mesh_xyz": [
+        2983.1907958984375,
+        3979.2870483398438,
+        8394.750244140625
+      ],
+      "normal_xyz": [
+        0.47064085874931144,
+        0.7938652820289368,
+        0.38506505432826177
+      ],
+      "raw_orientations": {
+        "Z": {
+          "fixed_zyx_axis": "Z",
+          "center_zyx": [
+            8395,
+            3979,
+            2983
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/30/23",
+            "0/65/31/23"
+          ]
+        },
+        "Y": {
+          "fixed_zyx_axis": "Y",
+          "center_zyx": [
+            8395,
+            3979,
+            2983
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/31/23"
+          ]
+        },
+        "X": {
+          "fixed_zyx_axis": "X",
+          "center_zyx": [
+            8395,
+            3979,
+            2983
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/30/23",
+            "0/65/31/23"
+          ]
+        }
+      }
+    },
+    "U3": {
+      "region": "upper",
+      "r225_selection_label": "dark cavity of left shape",
+      "raw_xy": [
+        3580,
+        3560
+      ],
+      "mesh_xyz": [
+        3071.8564453125,
+        3954.906005859375,
+        8384.9248046875
+      ],
+      "normal_xyz": [
+        0.20147922352921172,
+        0.8771437169953062,
+        0.4359185958659301
+      ],
+      "raw_orientations": {
+        "Z": {
+          "fixed_zyx_axis": "Z",
+          "center_zyx": [
+            8385,
+            3955,
+            3072
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/30/23",
+            "0/65/30/24",
+            "0/65/31/23",
+            "0/65/31/24"
+          ]
+        },
+        "Y": {
+          "fixed_zyx_axis": "Y",
+          "center_zyx": [
+            8385,
+            3955,
+            3072
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/30/23",
+            "0/65/30/24"
+          ]
+        },
+        "X": {
+          "fixed_zyx_axis": "X",
+          "center_zyx": [
+            8385,
+            3955,
+            3072
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/30/24",
+            "0/65/31/24"
+          ]
+        }
+      }
+    },
+    "U4": {
+      "region": "upper",
+      "r225_selection_label": "lower response in Reader",
+      "raw_xy": [
+        3660,
+        3500
+      ],
+      "mesh_xyz": [
+        3141.594970703125,
+        3907.64501953125,
+        8440.0087890625
+      ],
+      "normal_xyz": [
+        0.34145845553889154,
+        0.8667792663465901,
+        0.36345539832648216
+      ],
+      "raw_orientations": {
+        "Z": {
+          "fixed_zyx_axis": "Z",
+          "center_zyx": [
+            8440,
+            3908,
+            3142
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/30/24"
+          ]
+        },
+        "Y": {
+          "fixed_zyx_axis": "Y",
+          "center_zyx": [
+            8440,
+            3908,
+            3142
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/30/24",
+            "0/66/30/24"
+          ]
+        },
+        "X": {
+          "fixed_zyx_axis": "X",
+          "center_zyx": [
+            8440,
+            3908,
+            3142
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/30/24",
+            "0/66/30/24"
+          ]
+        }
+      }
+    },
+    "U5": {
+      "region": "upper",
+      "r225_selection_label": "dark separator between groups",
+      "raw_xy": [
+        3820,
+        3560
+      ],
+      "mesh_xyz": [
+        3269.0859375,
+        3827.501953125,
+        8363.75390625
+      ],
+      "normal_xyz": [
+        0.7219821684932491,
+        0.6757134554963804,
+        0.1488390890825615
+      ],
+      "raw_orientations": {
+        "Z": {
+          "fixed_zyx_axis": "Z",
+          "center_zyx": [
+            8364,
+            3828,
+            3269
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/29/25",
+            "0/65/30/25"
+          ]
+        },
+        "Y": {
+          "fixed_zyx_axis": "Y",
+          "center_zyx": [
+            8364,
+            3828,
+            3269
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/29/25"
+          ]
+        },
+        "X": {
+          "fixed_zyx_axis": "X",
+          "center_zyx": [
+            8364,
+            3828,
+            3269
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/29/25",
+            "0/65/30/25"
+          ]
+        }
+      }
+    },
+    "U6": {
+      "region": "upper",
+      "r225_selection_label": "right-group lower lobe",
+      "raw_xy": [
+        4020,
+        3560
+      ],
+      "mesh_xyz": [
+        3389.070556640625,
+        3671.718017578125,
+        8333.634765625
+      ],
+      "normal_xyz": [
+        0.8558999385197429,
+        0.5166373054601634,
+        0.02282958275489039
+      ],
+      "raw_orientations": {
+        "Z": {
+          "fixed_zyx_axis": "Z",
+          "center_zyx": [
+            8334,
+            3672,
+            3389
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/28/26"
+          ]
+        },
+        "Y": {
+          "fixed_zyx_axis": "Y",
+          "center_zyx": [
+            8334,
+            3672,
+            3389
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/64/28/26",
+            "0/65/28/26"
+          ]
+        },
+        "X": {
+          "fixed_zyx_axis": "X",
+          "center_zyx": [
+            8334,
+            3672,
+            3389
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/64/28/26",
+            "0/65/28/26"
+          ]
+        }
+      }
+    },
+    "U7": {
+      "region": "upper",
+      "r225_selection_label": "right-group upper lobe",
+      "raw_xy": [
+        4100,
+        3750
+      ],
+      "mesh_xyz": [
+        3420.4049072265625,
+        3629.2353515625,
+        8135.264404296875
+      ],
+      "normal_xyz": [
+        0.9129069119746492,
+        0.39506498292476483,
+        -0.10258961611959164
+      ],
+      "raw_orientations": {
+        "Z": {
+          "fixed_zyx_axis": "Z",
+          "center_zyx": [
+            8135,
+            3629,
+            3420
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/63/28/26"
+          ]
+        },
+        "Y": {
+          "fixed_zyx_axis": "Y",
+          "center_zyx": [
+            8135,
+            3629,
+            3420
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/63/28/26"
+          ]
+        },
+        "X": {
+          "fixed_zyx_axis": "X",
+          "center_zyx": [
+            8135,
+            3629,
+            3420
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/63/28/26"
+          ]
+        }
+      }
+    },
+    "U8": {
+      "region": "upper",
+      "r225_selection_label": "left lobe in adjacent pair",
+      "raw_xy": [
+        3920,
+        3520
+      ],
+      "mesh_xyz": [
+        3334.79931640625,
+        3747.003173828125,
+        8388.302734375
+      ],
+      "normal_xyz": [
+        0.7649311307334594,
+        0.643133798561108,
+        -0.03548636897727715
+      ],
+      "raw_orientations": {
+        "Z": {
+          "fixed_zyx_axis": "Z",
+          "center_zyx": [
+            8388,
+            3747,
+            3335
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/29/25",
+            "0/65/29/26"
+          ]
+        },
+        "Y": {
+          "fixed_zyx_axis": "Y",
+          "center_zyx": [
+            8388,
+            3747,
+            3335
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/29/25",
+            "0/65/29/26"
+          ]
+        },
+        "X": {
+          "fixed_zyx_axis": "X",
+          "center_zyx": [
+            8388,
+            3747,
+            3335
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/65/29/26"
+          ]
+        }
+      }
+    },
+    "K1": {
+      "region": "known",
+      "r225_selection_label": "known ring left rim",
+      "raw_xy": [
+        4720,
+        2450
+      ],
+      "mesh_xyz": [
+        3938.3280029296875,
+        2965.9755859375,
+        9264.22021484375
+      ],
+      "normal_xyz": [
+        0.8625155899052397,
+        0.5041411854124914,
+        0.04368663801786666
+      ],
+      "raw_orientations": {
+        "Z": {
+          "fixed_zyx_axis": "Z",
+          "center_zyx": [
+            9264,
+            2966,
+            3938
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/72/22/30",
+            "0/72/22/31",
+            "0/72/23/30",
+            "0/72/23/31"
+          ]
+        },
+        "Y": {
+          "fixed_zyx_axis": "Y",
+          "center_zyx": [
+            9264,
+            2966,
+            3938
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/72/23/30",
+            "0/72/23/31"
+          ]
+        },
+        "X": {
+          "fixed_zyx_axis": "X",
+          "center_zyx": [
+            9264,
+            2966,
+            3938
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/72/22/30",
+            "0/72/23/30"
+          ]
+        }
+      }
+    },
+    "K2": {
+      "region": "known",
+      "r225_selection_label": "known ring dark cavity",
+      "raw_xy": [
+        4805,
+        2450
+      ],
+      "mesh_xyz": [
+        3975.312530517578,
+        2895.403106689453,
+        9239.420532226562
+      ],
+      "normal_xyz": [
+        0.858187688041638,
+        0.5100593910281005,
+        -0.057907769062464476
+      ],
+      "raw_orientations": {
+        "Z": {
+          "fixed_zyx_axis": "Z",
+          "center_zyx": [
+            9239,
+            2895,
+            3975
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/72/22/30",
+            "0/72/22/31"
+          ]
+        },
+        "Y": {
+          "fixed_zyx_axis": "Y",
+          "center_zyx": [
+            9239,
+            2895,
+            3975
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/71/22/30",
+            "0/71/22/31",
+            "0/72/22/30",
+            "0/72/22/31"
+          ]
+        },
+        "X": {
+          "fixed_zyx_axis": "X",
+          "center_zyx": [
+            9239,
+            2895,
+            3975
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/71/22/31",
+            "0/72/22/31"
+          ]
+        }
+      }
+    },
+    "K3": {
+      "region": "known",
+      "r225_selection_label": "known ring right rim",
+      "raw_xy": [
+        4905,
+        2450
+      ],
+      "mesh_xyz": [
+        4018.5205993652344,
+        2813.407196044922,
+        9209.29345703125
+      ],
+      "normal_xyz": [
+        0.8259747726598069,
+        0.5552330511732824,
+        -0.09737522176810345
+      ],
+      "raw_orientations": {
+        "Z": {
+          "fixed_zyx_axis": "Z",
+          "center_zyx": [
+            9209,
+            2813,
+            4019
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/71/21/31",
+            "0/71/22/31"
+          ]
+        },
+        "Y": {
+          "fixed_zyx_axis": "Y",
+          "center_zyx": [
+            9209,
+            2813,
+            4019
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/71/21/31",
+            "0/72/21/31"
+          ]
+        },
+        "X": {
+          "fixed_zyx_axis": "X",
+          "center_zyx": [
+            9209,
+            2813,
+            4019
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/71/21/31",
+            "0/71/22/31",
+            "0/72/21/31",
+            "0/72/22/31"
+          ]
+        }
+      }
+    },
+    "K4": {
+      "region": "known",
+      "r225_selection_label": "known ring bottom rim",
+      "raw_xy": [
+        4805,
+        2335
+      ],
+      "mesh_xyz": [
+        3990.245574951172,
+        2862.5824584960938,
+        9344.790893554688
+      ],
+      "normal_xyz": [
+        0.8384921006926118,
+        0.5097801784751346,
+        0.19249718623904782
+      ],
+      "raw_orientations": {
+        "Z": {
+          "fixed_zyx_axis": "Z",
+          "center_zyx": [
+            9345,
+            2863,
+            3990
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/73/22/30",
+            "0/73/22/31"
+          ]
+        },
+        "Y": {
+          "fixed_zyx_axis": "Y",
+          "center_zyx": [
+            9345,
+            2863,
+            3990
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/72/22/30",
+            "0/72/22/31",
+            "0/73/22/30",
+            "0/73/22/31"
+          ]
+        },
+        "X": {
+          "fixed_zyx_axis": "X",
+          "center_zyx": [
+            9345,
+            2863,
+            3990
+          ],
+          "radius": 32,
+          "shape": [
+            65,
+            65
+          ],
+          "ct_keys": [
+            "0/72/22/31",
+            "0/73/22/31"
+          ]
+        }
+      }
+    }
+  },
+  "rays": "Exactly R226 path points at <=1 raw px spacing and 12 fixed sites. P=bilinear V5Rc(x/20,y/20), N=normalize((P(x+10)-P(x-10)) cross (P(y+10)-P(y-10))). d in [-32,32].",
+  "surfaces": [
+    "z84_w074",
+    "z84o_w074",
+    "z99_w074",
+    "R1",
+    "L1",
+    "A",
+    "big"
+  ],
+  "roles": {
+    "z84_w074": "author independent spiral-fit near-crossing proxy",
+    "z84o_w074": "author separate spiral-fit near-crossing proxy",
+    "z99_w074": "author adjacent-band spiral-fit near-crossing proxy",
+    "R1": "author second GrowPatch proxy",
+    "L1": "author separate GrowPatch proxy",
+    "A": "V5Rc ancestor control, not independent corroboration",
+    "big": "carrier ancestor/control, not independent corroboration"
+  },
+  "proxy": "Q=Pcarrier+x_lane*ncarrier at finite saved nodes only. No approximate original meshes synthesized beyond explicitly labeled sampled proxy.",
+  "quads": "A quad is eligible only if all four carrier ok, P/n/offset finite. No missing-node fill. Fixed diagonal 0 triangles [a,b,d],[a,d,c]; diagonal 1 [a,b,c],[b,d,c] is sensitivity only. Both retained.",
+  "crossings": "All ray/triangle intersections in fixed 3D AABB expanded by ray endpoints. Moller-Trumbore float64, abs determinant >=1e-10, barycentric tolerance1e-8, depth tolerance1e-8. All triangle hits preserved, shared-edge roots clustered only for reporting at |delta d|<=1e-5; multiple roots never silently chosen. Store barycentrics, XYZ residual, incidence cosine and source cell/part IDs.",
+  "missing_interpretation": "No finite proxy intersection is unavailable support, not evidence of no physical layer or no ink. Additional target selection forbidden.",
+  "uncertainty": [
+    "Producer uses up4 sampled cloud, span60, 5 iterations, miss<3 voxel; per-hit miss not saved and historical meshes unavailable for replay.",
+    "20 voxel carrier sampling plus interpolation has unbounded between-node error.",
+    "Both diagonal results measure sensitivity only; neither is promoted by CT brightness.",
+    "Same CT and m7 may underlie all lanes. No distance threshold certifies paper or ink.",
+    "ARAP reflatten index correspondence is not assumed; comparison is in raw XYZ."
+  ],
+  "display": "Reuse exactly saved R226 uint8 normal PNGs. No new CT reads/samples; 0..255 common grayscale. Display each proxy with its own legend and missing support; no intensity fitting.",
+  "limits": {
+    "cpu_cores": 1,
+    "process_commit_bytes": 4294967296,
+    "compute_seconds": 300,
+    "expected_compute_seconds": 30,
+    "new_public_total_bytes": 67108864,
+    "max_single_body_bytes": 33554432,
+    "acquisition_seconds": 300,
+    "new_saved_bytes": 1073741824,
+    "min_c_free_bytes": 10737418240,
+    "raw_ct_bytes": 0,
+    "gpu": 0,
+    "paid_usd": 0
+  },
+  "inputs": [
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/inputs/carrier.npz",
+      "bytes": 6991690,
+      "sha256": "dd22701e391e8aff6a632c6b569be8a3de1059eb84ec10c44bfb4daeb2120d1f"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/inputs/x_z99_w074.npy",
+      "bytes": 762568,
+      "sha256": "fadf182717574128359ca2f1fdf6198268d6f098b7b1576a7ce2c874d650dddc"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/plan.json",
+      "bytes": 43752,
+      "sha256": "24329bd07841e9be666bacb2701d7f4f2df6d9944f1feb78089625fa9fb1f5d9"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/plan_ct.py",
+      "bytes": 14020,
+      "sha256": "cfe7ec32b2ab5d0aacd7f3580ddd2f26459f86783cb27b448653387548cd5397"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/sections/upper-across-normal.png",
+      "bytes": 29173,
+      "sha256": "346c5db023096af6d218b65c97e936bd0123d009e49101eeafcca64c74c8369b"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-upper-original-ct01/sections/known-across-normal.png",
+      "bytes": 12644,
+      "sha256": "88d4b6160b0c5ce8df8a87f847e7fa42ee570ebefe9bdebce8d8a3e46f91e35e"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/compare_geometry.py",
+      "bytes": 7582,
+      "sha256": "5bf2726976f63b5c4a79e5ae64ed820fc3a4af6deaa558c728aedddac019c60b"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-discovery-next-intervention01/originals/submission/mesh/PHerc0306B_20250521133212_w074own_touchup_V5Rc/x.tif",
+      "bytes": 381492,
+      "sha256": "e6f14ec22d3c5cf2b37836cbb9141bae08c55b5bc1f89f4e07c202d424d64c29"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-discovery-next-intervention01/originals/submission/mesh/PHerc0306B_20250521133212_w074own_touchup_V5Rc/y.tif",
+      "bytes": 381492,
+      "sha256": "60d0807ee8574cdc39f9710b9866f1c3a3e6f611357cd611e17f8deb39fd1c42"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-discovery-next-intervention01/originals/submission/mesh/PHerc0306B_20250521133212_w074own_touchup_V5Rc/z.tif",
+      "bytes": 381492,
+      "sha256": "243d236048a9bb04293bae77473740d479824cc551ed67a355b21199f9bd0596"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-discovery-next-intervention01/originals/submission/mesh/PHerc0306B_20250521133212_w074own_touchup_V5Rc/meta.json",
+      "bytes": 1606,
+      "sha256": "6fbf2200e1ac55a6cef7232ee4d9098919dc8185b9204e9ea08017e58f0c1ac1"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/adopt_check.py",
+      "bytes": 3166,
+      "sha256": "64884bcb99514fb5362b68b0c393036c2a90257bf58672089fd41c684def794a"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/agree.py",
+      "bytes": 2195,
+      "sha256": "272e48ffc85f657ab74e2e6fbf8ff91f61462955fe53595dc23fb23666a28a6c"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/carrier.py",
+      "bytes": 7384,
+      "sha256": "300737971b7323834277ffd0ddc29abe6aad4ba608029501bbfa29434112cefb"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/p1geom.py",
+      "bytes": 11372,
+      "sha256": "28bc0c8595f3256757ad47d8355be8f63d352da22246243248ac10cdce41b4c4"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/reflatten.py",
+      "bytes": 9170,
+      "sha256": "7d6ea7bfb7eef563c8f608f42cd65e452b54fed8f556c62f258bcb2d2281010c"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/touchup.py",
+      "bytes": 5178,
+      "sha256": "33a5923e724b92b7b72f83057e61223811b16733c99803075330f27d48cd809f"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0306b-independent-face01/originals/submission/code/surface/track.py",
+      "bytes": 13249,
+      "sha256": "0e7a4e732f9ef5c218cb5a8662beac4e6e0aea7aefa30476006f1298e73f6a3d"
+    }
+  ],
+  "preflight_c_free_bytes": 13935452160
+}

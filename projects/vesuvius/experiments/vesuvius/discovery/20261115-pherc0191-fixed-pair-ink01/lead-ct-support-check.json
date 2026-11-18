@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-11-14T15:25:26.358470+00:00",
+  "ct_support_sha256": "a2d579c24f75e2f33ca44d95b10cd445b08d3da0de16e66e7325a4c476f1d5b1",
+  "method": "Parent reads all1024 producer binary tiles, independently enumerates every valid pixel at all33 offsets and all8 padded interpolation corners using packed integer-address membership; no child functions imported.",
+  "rows": [
+    {
+      "case": "raw",
+      "keys": 275,
+      "valid_rays": 1596532,
+      "depths": 33,
+      "corners_per_depth": 8
+    },
+    {
+      "case": "snap",
+      "keys": 281,
+      "valid_rays": 1596532,
+      "depths": 33,
+      "corners_per_depth": 8
+    }
+  ],
+  "union_keys": 284,
+  "new_keys": 255,
+  "new_bytes": 534773760,
+  "old_support_0_002_replaced": true,
+  "new_support_guard_voxel": 0.01,
+  "initial_guard_increase_added_keys": [],
+  "approval": "Approve only the255 listed new CT objects and two fixed renders. Paid execution is still gated on final frozen inputs and cloud review."
+}

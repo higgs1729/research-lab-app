@@ -1,0 +1,25 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261116-pherc0211-clipped-context01\\control_h100.py",
+    "run"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-15T16:40:39.103868+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "completed_utc": "2026-11-15T16:49:54.925165+00:00",
+  "elapsed_seconds": 555.8050379999913,
+  "max_rss_bytes": 84201472,
+  "user_cpu_seconds": 1.6875,
+  "sys_cpu_seconds": 1.125
+}

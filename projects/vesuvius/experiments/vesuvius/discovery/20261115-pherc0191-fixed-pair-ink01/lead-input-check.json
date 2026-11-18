@@ -1,0 +1,32 @@
+{
+  "checked_utc": "2026-11-14T15:31:29.877709+00:00",
+  "source_chunks_verified": 284,
+  "rows": [
+    {
+      "case": "raw",
+      "fixed_rays": 1981,
+      "source_CT_values_checked": 65373,
+      "max_DN_difference_from_64_tile_observer": 1,
+      "different_by_1_DN": 122,
+      "max_float_interpolation_residual_DN": 0.5636856658384204,
+      "all_patch_input_hashes_and_global_positions_verified": true,
+      "outside_geometry_nonzero_values": 0,
+      "input_sha256": "4076c91e5028c87d779cbd5cddc3852e54e9395462223a1f7093afe7ec5db405"
+    },
+    {
+      "case": "snap",
+      "fixed_rays": 1981,
+      "source_CT_values_checked": 65373,
+      "max_DN_difference_from_64_tile_observer": 1,
+      "different_by_1_DN": 104,
+      "max_float_interpolation_residual_DN": 0.5491069555282593,
+      "all_patch_input_hashes_and_global_positions_verified": true,
+      "outside_geometry_nonzero_values": 0,
+      "input_sha256": "a1f867708daf3406a4402411a36c7372752bf37a9bed764f31c80e1b568ee20f"
+    }
+  ],
+  "patch_contract_sha256": "f20c7892154c6adc0edfbb90d2717867621af7605ef0d91062aca8bf653e1a07",
+  "method": "Five fixed diagonal positions per64tile, every33depth, original8-corner CT interpolation independent of child code; complete patch hashes/positions and all TIFF pixels compared to frozen arrays.",
+  "new_model_forwards": 0,
+  "network_calls": 0
+}

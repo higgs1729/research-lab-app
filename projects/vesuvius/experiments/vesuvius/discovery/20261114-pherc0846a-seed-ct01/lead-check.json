@@ -1,0 +1,40 @@
+{
+  "review_date_jst": "2026-11-14",
+  "representative_checks": [
+    {
+      "source_sample_index": 0,
+      "depth": -16,
+      "direct_ct_interpolation": 125.26265335083008,
+      "actual_zarr": 125
+    },
+    {
+      "source_sample_index": 21,
+      "depth": -8,
+      "direct_ct_interpolation": 57.26654653484002,
+      "actual_zarr": 57
+    },
+    {
+      "source_sample_index": 42,
+      "depth": 0,
+      "direct_ct_interpolation": 116.43638309661765,
+      "actual_zarr": 116
+    },
+    {
+      "source_sample_index": 63,
+      "depth": 8,
+      "direct_ct_interpolation": 131.2558713592589,
+      "actual_zarr": 131
+    },
+    {
+      "source_sample_index": 84,
+      "depth": 16,
+      "direct_ct_interpolation": 86.07846943940967,
+      "actual_zarr": 86
+    }
+  ],
+  "visual_scope": "normal-sections.png, orthogonal-raw.png, orthogonal-mesh.png at original detail",
+  "visual_observation": "P locally follows a bright band in the X and Z views, with adjacent dark bands. Y and the four normal sections show nonuniform, branching or merging bands. I cannot uniquely trace a single physical lamina through the whole ROI or identify one continuous crack.",
+  "decision": "Sheet/crack identity and a corrective offset remain unresolved. No physical ink absence/presence claim. This independent seed ROI is not registered to the published high-response JPEG.",
+  "new_network_bytes": 0,
+  "new_product_model_runs": 0
+}

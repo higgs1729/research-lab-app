@@ -1,0 +1,445 @@
+{
+  "I_vs_M_lost_quad_ids": [
+    94120,
+    97936
+  ],
+  "G_vs_I_recovered_quad_ids": [
+    94119,
+    94120,
+    94121,
+    96027,
+    96029,
+    97935,
+    97936,
+    97937,
+    99844,
+    99845,
+    113285,
+    115241,
+    115243,
+    115244
+  ],
+  "original14_details": [
+    {
+      "quad": 94119,
+      "cell_yx": [
+        114,
+        987
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 20.653488730363904,
+        "owned_samples": 0,
+        "nearest_source_face": 187792,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 9.727089402086838,
+        "owned_samples": 2,
+        "nearest_source_face": 188239,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 9.17053089435079,
+        "owned_samples": 1,
+        "nearest_source_face": 188239,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 94120,
+      "cell_yx": [
+        114,
+        988
+      ],
+      "I_recovery_lost": true,
+      "G": {
+        "distance": 24.851661527532904,
+        "owned_samples": 0,
+        "nearest_source_face": 187794,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 19.601388963575058,
+        "owned_samples": 0,
+        "nearest_source_face": 188238,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 22.111031397114093,
+        "owned_samples": 0,
+        "nearest_source_face": 188239,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 94121,
+      "cell_yx": [
+        114,
+        989
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 25.067702917041878,
+        "owned_samples": 0,
+        "nearest_source_face": 187799,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 5.62454349003159,
+        "owned_samples": 1,
+        "nearest_source_face": 188243,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 7.810667365180492,
+        "owned_samples": 1,
+        "nearest_source_face": 188243,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 96027,
+      "cell_yx": [
+        115,
+        987
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 21.901646695764757,
+        "owned_samples": 0,
+        "nearest_source_face": 191610,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 9.82719795015939,
+        "owned_samples": 1,
+        "nearest_source_face": 192054,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 8.436004177813167,
+        "owned_samples": 1,
+        "nearest_source_face": 192055,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 96029,
+      "cell_yx": [
+        115,
+        989
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 22.76909081868631,
+        "owned_samples": 0,
+        "nearest_source_face": 191614,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 1.649483850334158,
+        "owned_samples": 1,
+        "nearest_source_face": 192059,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 7.278299194207028,
+        "owned_samples": 1,
+        "nearest_source_face": 192059,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 97935,
+      "cell_yx": [
+        116,
+        987
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 21.910247738188627,
+        "owned_samples": 0,
+        "nearest_source_face": 195425,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 16.20487911159173,
+        "owned_samples": 0,
+        "nearest_source_face": 195869,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 14.029828537361542,
+        "owned_samples": 0,
+        "nearest_source_face": 195869,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 97936,
+      "cell_yx": [
+        116,
+        988
+      ],
+      "I_recovery_lost": true,
+      "G": {
+        "distance": 22.257335858833333,
+        "owned_samples": 0,
+        "nearest_source_face": 195427,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 19.220222848090497,
+        "owned_samples": 0,
+        "nearest_source_face": 195874,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 20.32641017241167,
+        "owned_samples": 0,
+        "nearest_source_face": 195874,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 97937,
+      "cell_yx": [
+        116,
+        989
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 21.160985256928594,
+        "owned_samples": 0,
+        "nearest_source_face": 195429,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 3.5634579463314613,
+        "owned_samples": 1,
+        "nearest_source_face": 195874,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 5.163834735980922,
+        "owned_samples": 1,
+        "nearest_source_face": 195874,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 99844,
+      "cell_yx": [
+        117,
+        988
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 21.34566501481742,
+        "owned_samples": 0,
+        "nearest_source_face": 199243,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 13.871323200101697,
+        "owned_samples": 0,
+        "nearest_source_face": 199690,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 12.887439708483123,
+        "owned_samples": 0,
+        "nearest_source_face": 199690,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 99845,
+      "cell_yx": [
+        117,
+        989
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 20.318310210430578,
+        "owned_samples": 0,
+        "nearest_source_face": 199245,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 8.187587701395113,
+        "owned_samples": 1,
+        "nearest_source_face": 199690,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 10.61642650957004,
+        "owned_samples": 1,
+        "nearest_source_face": 199690,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 113285,
+      "cell_yx": [
+        124,
+        977
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 20.305352867008317,
+        "owned_samples": 0,
+        "nearest_source_face": 222659,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": true
+      },
+      "I": {
+        "distance": 9.855450564400568,
+        "owned_samples": 1,
+        "nearest_source_face": 226571,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 9.55268109115063,
+        "owned_samples": 1,
+        "nearest_source_face": 226570,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 115241,
+      "cell_yx": [
+        125,
+        977
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 24.73878691877934,
+        "owned_samples": 0,
+        "nearest_source_face": 230148,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 9.610228213175779,
+        "owned_samples": 1,
+        "nearest_source_face": 230483,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 9.247825604805804,
+        "owned_samples": 1,
+        "nearest_source_face": 230483,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 115243,
+      "cell_yx": [
+        125,
+        985
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 20.344341098365824,
+        "owned_samples": 0,
+        "nearest_source_face": 230161,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 9.751084255756561,
+        "owned_samples": 1,
+        "nearest_source_face": 230486,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 9.434082788424236,
+        "owned_samples": 1,
+        "nearest_source_face": 230486,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    },
+    {
+      "quad": 115244,
+      "cell_yx": [
+        125,
+        986
+      ],
+      "I_recovery_lost": false,
+      "G": {
+        "distance": 21.35812283199842,
+        "owned_samples": 0,
+        "nearest_source_face": 230163,
+        "nearest_is_own": false,
+        "nearest_shares_source_vertex": false
+      },
+      "I": {
+        "distance": 5.3321007154641755,
+        "owned_samples": 1,
+        "nearest_source_face": 230489,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      },
+      "M": {
+        "distance": 7.279029472297271,
+        "owned_samples": 1,
+        "nearest_source_face": 230489,
+        "nearest_is_own": true,
+        "nearest_shares_source_vertex": true
+      }
+    }
+  ],
+  "rejections": {
+    "I": {
+      "total": 497,
+      "involving_subject": 4
+    },
+    "M": {
+      "total": 493,
+      "involving_subject": 0
+    }
+  },
+  "I_rejections_disappeared": 4,
+  "M_rejections_new": 0,
+  "owner_changed_pixels": 32,
+  "elapsed_seconds": 0.438750000030268,
+  "limit": "Nearest distances do not imply readable ink. Exact positive orientation and continuous overlaps are independent of raster sampling."
+}

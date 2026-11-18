@@ -1,0 +1,26 @@
+{
+  "created": {
+    "chunk_id": "591617",
+    "wall_time_seconds": 1.1944900999999999,
+    "exit_code": 0,
+    "original_token_count": 19,
+    "output": "https://github.com/priyankaranke/vesuvius-studio-multiscroll-cpt/issues/1\n"
+  },
+  "readback": {
+    "author": {
+      "id": "U_kgDOEFebig",
+      "is_bot": false,
+      "login": "higgs1729",
+      "name": "Takeuchi Tomoya"
+    },
+    "body": "Thank you for publishing the PHerc0211 meshes, inputs, and inference code.\n\nThe line2 mesh archive contains a parent record for `PHerc0211-crop1711-manual-20261026-1237-legacyuv20-v6`. In `mesh/parent/results.json`, `models.studio` records a full-parent output of shape `[4600,6060]`, with:\n\n- probability SHA256: `0bf20b28456e449568b55ffdf4f51f87ace093cbc66f4e7a23b9a0547070f3e1`\n- checkpoint SHA256: `ffffbf4fcb2f1eb91940a6899366cd0d22b2ea03987270d07dc2a205dbd91145` (the public Studio epoch 9 weights)\n- geometry SHA256: `7ca0b190874dd574f08c9caf257e85d6b28250d4f1295bb03596975bbf5c36bd`\n\nIs this historical full-parent probability map, with its coverage mask, available publicly? I found the current soft-loss line2 TIFF and the separate v9 map, but could not locate this older full-parent output. If available, a link and clarification of whether the recorded probability hash covers the serialized file or raw array bytes would help.\n\nI am checking parent ROI `XYWH [4416,2048,384,256]` (half-open array slice `[2048:2304,4416:4800]`). Is there a published annotation or prior reading covering this region? It lies outside the distributed line2 crop, but that alone does not establish novelty. I have not confirmed new text there.\n\nAn existing reference would be very helpful; no new computation is requested.\n",
+    "createdAt": "2026-11-15T15:36:47Z",
+    "number": 1,
+    "state": "OPEN",
+    "title": "Availability of historical full-parent probability map for PHerc0211 v6",
+    "url": "https://github.com/priyankaranke/vesuvius-studio-multiscroll-cpt/issues/1"
+  },
+  "approved_text_exact": true,
+  "author_verified": true,
+  "publication_scope": "One approved text-only inquiry; no candidate image, follow-up comment, prize submission, or additional publication."
+}

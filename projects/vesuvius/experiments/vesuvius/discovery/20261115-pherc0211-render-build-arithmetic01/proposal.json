@@ -1,0 +1,214 @@
+{
+  "created_utc": "2026-11-15T13:50:31.904466+00:00",
+  "status": "proposed; no compilation or new intensity execution",
+  "rois": [
+    {
+      "id": "phi",
+      "xywh": [
+        4768,
+        3200,
+        128,
+        128
+      ],
+      "public_strip_xywh": [
+        4768,
+        220,
+        128,
+        128
+      ],
+      "all_values": 262144,
+      "mask_all_valid": true,
+      "selection_basis": "phi reuses R236; heldout immediately below phi, disjoint, next 128-row band; chosen from geometry/CT support before intensity comparison"
+    },
+    {
+      "id": "heldout",
+      "xywh": [
+        4768,
+        3328,
+        64,
+        64
+      ],
+      "public_strip_xywh": [
+        4768,
+        348,
+        64,
+        64
+      ],
+      "all_values": 65536,
+      "mask_all_valid": true,
+      "selection_basis": "phi reuses R236; heldout immediately below phi, disjoint, next 128-row band; chosen from geometry/CT support before intensity comparison"
+    },
+    {
+      "id": "new_holdout",
+      "xywh": [
+        4832,
+        3328,
+        64,
+        64
+      ],
+      "public_strip_xywh": [
+        4832,
+        348,
+        64,
+        64
+      ],
+      "all_values": 65536,
+      "selection_basis": "Immediately right of R237 heldout, nonoverlapping both old controls; geometry/support only, selected before new intensity result",
+      "mask_all_valid": true
+    }
+  ],
+  "depth_offsets": [
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0,
+    -1,
+    -2,
+    -3,
+    -4,
+    -5,
+    -6,
+    -7
+  ],
+  "full_canvas_xy": [
+    6060,
+    4600
+  ],
+  "band_height": 128,
+  "CT": [
+    {
+      "key": [
+        64,
+        26,
+        27
+      ],
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\64\\26\\27",
+      "sha256": "6bef874dd7cb8e4d41e33b87c5be8d4e0222b1b8acc0a32e63b3df2af7d83196"
+    },
+    {
+      "key": [
+        64,
+        26,
+        28
+      ],
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\64\\26\\28",
+      "sha256": "4c7017626330ee79b348b4b348889e9ff06fbbc08775df868d33a9d9eb84f5f1"
+    },
+    {
+      "key": [
+        65,
+        26,
+        27
+      ],
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\65\\26\\27",
+      "sha256": "84a50698192178d097b3d62656723c4d8a35fafa82541fa84d5f34c96469e915"
+    },
+    {
+      "key": [
+        65,
+        26,
+        28
+      ],
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\65\\26\\28",
+      "sha256": "1820a0ee0fffd9576ef031510af1071ddd994ae11adf5c83591189a6c5659eba"
+    },
+    {
+      "key": [
+        66,
+        26,
+        27
+      ],
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\66\\26\\27",
+      "sha256": "0216d020bb4d1139fd247b40cff1d9d22500f827d5444832176bf59b25941fe3"
+    },
+    {
+      "key": [
+        66,
+        26,
+        28
+      ],
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\66\\26\\28",
+      "sha256": "9f86bff1bb1cfa0a5881d3bc89332dd3790e926958ea09788bcc35c6e2bdbd0d"
+    }
+  ],
+  "new_CT_bytes": 0,
+  "public_input": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\sources\\v6-input16.npy",
+  "public_input_sha256": "b639ef3d91e21768a5c601cc8f0f36d7483cc3fd089b53f6ddf5c91511b30d9e",
+  "grid_sha256": "bf6425e361a32e12a53d57d439bee0733b3564f8f7873e6f0f5a21b69000200e",
+  "fixed_primary_sources": {
+    "sources/volume-cartographer/CMakeLists.txt": "10c870c56d2a72d5a4571277f1d09913fe35ca4127c78de425cc3c9d25c7c7d6",
+    "sources/volume-cartographer/apps/CMakeLists.txt": "f906150f50acb18333155e58284684e47f2ae9263c6108d92fd87a7da624fa0a",
+    "sources/volume-cartographer/cmake/GCCToolchain.cmake": "470a16e3973c6dc5516bc3a13ca5285d5bd5570652927edc314400dd7abf5d91",
+    "sources/volume-cartographer/cmake/LLVMToolchain.cmake": "99bb57aa76473818ad11ae7fbabb418eceab0168dff15cd908d61c83eef9bd20",
+    "sources/volume-cartographer/cmake/VCCompilerFlags.cmake": "0c8aac356ab2e27359fcb7a78f03ba552bc04824e1dfbc4eddf75498884325e0",
+    "sources/volume-cartographer/cmake/VCConstants.cmake": "44c84010bcccfbab1e3d1d1a7840a311ff0c9a89bda221dd0e682bf7884ea758",
+    "sources/volume-cartographer/cmake/VCFindDependencies.cmake": "320daea7c69783577054f602a0beadb495d9dda0add87b4b6d57af26f279046b",
+    "sources/volume-cartographer/cmake/VCToolchain.cmake": "e9733bf4a26c4e3782c78917cf5549dfe1809173195e598912ff0a53aaf58a7e",
+    "sources/volume-cartographer/core/CMakeLists.txt": "8e5fe2bdec3d8e027e5a9095437f1d4b19c7e9041a3ed5104a1c9a5a1771691b"
+  },
+  "source_based_flags": {
+    "baseline": [
+      "-std=c++17",
+      "-O2",
+      "-ffp-contract=off",
+      "-I/usr/include/opencv4"
+    ],
+    "aligned_global": [
+      "-std=c++23",
+      "-DWITH_BLOSC=1",
+      "-DWITH_ZLIB=1",
+      "-march=native",
+      "-pipe",
+      "-O3",
+      "-DNDEBUG",
+      "-flto=1",
+      "-ffunction-sections",
+      "-fdata-sections",
+      "-fopenmp",
+      "-I/usr/include/opencv4"
+    ],
+    "aligned_slicing_extra": [
+      "-O3",
+      "-ffast-math"
+    ],
+    "aligned_link_extra": [
+      "-Wl,--gc-sections",
+      "-Wl,--as-needed",
+      "-lopencv_core"
+    ]
+  },
+  "adaptations_to_original_build": [
+    "-flto=auto becomes -flto=1 to force single link worker.",
+    "Omit debug-only -g3/frame/unwind/type flags to avoid large artifacts; do not claim bit-identical image build.",
+    "Minimal harness has no whole application dependency graph; source functions retained."
+  ],
+  "unknowns": [
+    "Original build CPU and native instruction target",
+    "Original compiler/OpenCV exact versions",
+    "Original image actual compile_commands and generated binary behavior"
+  ],
+  "execution_order": [
+    "Build split baseline using R237 flags; run three fixed band controls.",
+    "Check both old controls equal R237 in input/base/normal; stop on mismatch.",
+    "Build one aligned configuration; run exactly the same three controls; compare every value.",
+    "No alternate flags/retries for numerical failure; report mismatches as such."
+  ],
+  "limits": {
+    "cpu_count": 1,
+    "RLIMIT_AS_bytes": 4294967296,
+    "build_total_per_configuration_seconds": 120,
+    "run_seconds": 120,
+    "C_new_estimate_bytes": 16777216,
+    "C_new_limit_bytes": 67108864,
+    "C_free_min_bytes": 2147483648,
+    "GPU": 0,
+    "paid_cost_USD": 0,
+    "compiler_temp": "C experiment/tmp"
+  },
+  "prediction": "Source-default release native contraction and per-Slicing fast-math can change float rounding; exact improvement is not assumed."
+}

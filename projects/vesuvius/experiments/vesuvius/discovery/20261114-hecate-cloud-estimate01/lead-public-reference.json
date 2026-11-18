@@ -1,0 +1,39 @@
+{
+  "reviewer": "root",
+  "model_forward_calls": 0,
+  "network_bytes": 0,
+  "public_reference_not_our_inference": true,
+  "sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0343-patch-phase01\\seed42-reverse\\probability.png",
+      "sha256": "03a52f63298555f2dd7ac5ac7c8582b470ee1513b70ea545741c365c96b2911e",
+      "crop_xyxy": [
+        64,
+        64,
+        320,
+        320
+      ]
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0343-patch-phase01\\dense-reverse\\probability.png",
+      "sha256": "60f09649211f209912570512371aa93deb0db342056980b2e34f7ed083c7f89b",
+      "crop_xyxy": [
+        64,
+        64,
+        320,
+        320
+      ]
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-hecate-known-text-control01\\assets\\atlas-hecate-reverse.png",
+      "sha256": "67795f34e27c0b7b974e8d84780df8ecdf14cff5dd7893bc3891f7dc7d678427",
+      "crop_xyxy": [
+        1408,
+        1088,
+        1664,
+        1344
+      ]
+    }
+  ],
+  "checked_display_pixels": 262144
+}

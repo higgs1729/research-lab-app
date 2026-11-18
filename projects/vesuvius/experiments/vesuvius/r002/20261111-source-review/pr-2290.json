@@ -1,0 +1,92 @@
+{
+  "pull_request": {
+    "url": "https://github.com/ScrollPrize/villa/pull/2290",
+    "number": 2290,
+    "state": "closed",
+    "merged": true,
+    "mergeable": false,
+    "draft": false,
+    "body": "**In one sentence:** Command-line tools that read remote volumes (the renderer `vc_render_tifxyz` and the tracer `vc_grow_seg_from_seed`) now respect the same remote-cache disk budget as the VC3D app, so batch runs cannot fill the disk.\r\n\r\n\r\n**Why / where this is useful:** anyone batch-rendering from remote volumes on fixed-size disks (cloud machines, containers, CI) can bound the cache with the VC3D settings  from the app's settings dialog.\r\n\r\nLike the example I ran in to below, I believe that others may have jobs fail as a result of the current state. This fix helps make the codebase more consistent, regardless of where users run the tools.\r\n\r\n**One real example:** Starting with 66-layer surface-volume renders of scroll windings from an open-data S3 volume (`vc_render_tifxyz --volume <https url> ...`) on 50 GB cloud machines, I let a batch run, and `~/.VC3D/remote_cache/` grew to 50 GB in about 2.5 hours on three machines; later renders, and the jobs reading their output, failed with write errors.\r\n\r\n**Before:** #1170 added `PersistentZarrCacheBudget` (eviction by a maximum size and a free-space floor; #2166 later made the eviction asynchronous), but only the VC3D app configures it (`VCAppMain.cpp`, from `perf/remote_cache_max_gib` and `perf/remote_cache_min_free_gib`). Command-line tools never configure a budget, so `RemoteFileCache` keeps every fetched chunk.\r\n\r\n**After this PR:**\r\n- The two settings' keys and defaults move to `vc/core/util/RemoteCacheSettings.hpp` (next to `remote_cache_delta3d`); `VCSettings.hpp` aliases them, as it already does for `REMOTE_CACHE_DELTA3D`. No behaviour change in the app.\r\n- New `vc::settings::configureRemoteCacheBudget()` reads the same keys from the same VC3D.ini and configures the budget for `remoteCachePath()`; it reuses a budget already configured for that root.\r\n- `vc_render_tifxyz` and `vc_grow_seg_from_seed` call it before opening a remote volume (one call each). Defaults are the app's: no size cap, keep 20 GiB free.\r\n- Same root cause in both tools: each opens remote volumes through `Volume::NewFromUrl`, which caches fetched chunks under `remoteCachePath()` and applies a `PersistentZarrCacheBudget` only if one is configured for that root (`Volume.cpp`, the `findForPath` check); neither tool configured one.\r\n\r\n**Proof:** the same three real windings (66 layers each, from an open-data S3 volume), each build with its own empty cache folder; cache size sampled every 5 s during each render and measured after it:\r\n\r\n| build, same VC3D.ini (`remote_cache_max_gib=1`) | peak during render 1 / 2 / 3 | after render 3 | render times |\r\n|---|---|---|---|\r\n| stock main (budget ignored) | 2,345 / 6,149 / 11,737 MB | 12 GB | 175 s, 267 s, 379 s |\r\n| this PR | 1,019 / 1,019 / 1,019 MB | 1,017 MB | 176 s, 281 s, 387 s |\r\n\r\nBoth builds ran back to back in one job with identical settings and inputs. The cache never went over the cap, also during a render, and all six renders succeeded with similar times.\r\n\r\nSecond scroll: the same test on PHerc. 343’s published meshes (1 GB limit) gave the same result. Without this PR the cache grew to 4.3–4.6 GB; with it, it stayed at about 1 GB.\r\n\r\n<img width=\"800\" height=\"224\" alt=\"cache_proof\" src=\"https://github.com/user-attachments/assets/c7d37e20-0bef-4c71-b5eb-7a3c8ff5ca14\" />\r\n\r\n\r\n\r\n- [X] I personally verified that the example and proof above were produced by this PR on the stated data.\r\n\r\n## Details\r\n\r\n- **Tested commit:** this branch on villa main 6aec908a8 (it merges cleanly onto main 322cb0899, 2026-10-24): builds (Release, GCC 13, Ubuntu 24.04), including both `vc_render_tifxyz` and `vc_grow_seg_from_seed`; the new `test_remote_cache_budget_settings` (VC3D.ini in a temporary `VC3D_CONFIG_DIR` → budget registered for the cache root with the configured limits; a second call reuses it) and the existing `test_remote_file_cache` (9 cases) pass.\r\n- **Evidence per tool:** the renderer is measured end to end above. The tracer uses the same open path and the same helper, so the renderer's measurement applies to it; it is verified here by build and by the helper's unit test.\r\n- **To reproduce (public data, no GPU; ~6 GB free disk; run once with stock main, once with this branch):**\r\n  ```bash\r\n  git clone --depth 1 https://github.com/Nieuwlaar/pherc343-first-letters   # published PHerc. 343 meshes\r\n  VOL=https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0343/volumes/20250521140437-8.640um-1.2m-116keV-masked.zarr\r\n  rm -rf cfg cache out && mkdir -p cfg cache out\r\n  printf '[viewer]\\nremote_cache_dir=%s\\n[perf]\\nremote_cache_max_gib=1\\nremote_cache_min_free_gib=0\\n' \"$PWD/cache\" > cfg/VC3D.ini\r\n  for m in w047_R5B2_z9500-11000 w048_R5B2_z9500-11000 concat_w047-w048_R5B2_z9500-11000; do\r\n    VC3D_CONFIG_DIR=$PWD/cfg QT_QPA_PLATFORM=offscreen vc_render_tifxyz --volume \"$VOL\" \\\r\n      --segmentation pherc343-first-letters/outputs/$m.tifxyz --group-idx 0 --scale 1 \\\r\n      --num-slices 66 --slice-step 1 --auto-crop --cache-gb 4 --zarr-output out/$m.zarr\r\n    du -sh cache    # stock main: 4.3 / 4.6 / 4.6 GB in our run; this branch: ~1 GB each time\r\n  done\r\n  ```\r\n- **Limitations:**\r\n  - The renderer and the tracer apply the budget here. `FiberTraceEvaluationCli` has its own cache-root option and is left for a follow-up; `vc_zarr_download_region` and `vc_zarr_download_bench` deliberately fill the cache and should not evict.\r\n  - The free-space floor reacts to the whole disk, so other programs filling the same disk also trigger eviction; the size cap (`remote_cache_max_gib`) is the dependable control on shared disks.\r\n  - The budget comes from VC3D.ini, as in the app; a command-line flag would make batch use easier to script.\r\n  - The VC3D app keeps its existing code path (it reads the same keys through QSettings); switching it to the new helper as well would remove the second reader, and is left out to keep this PR small and the app unchanged.\r\n- **How this was built:** found while rendering at scale with AI assistance (Claude Opus 5.5); the change, the test and the measurements were prepared with Claude, then reviewed and submitted by jake-vc.\r\n\r\n",
+    "title": "vc_render_tifxyz, vc_grow_seg_from_seed: apply the VC3D.ini remote-cache disk budget.",
+    "base": "main",
+    "base_sha": "671b7b0d052372bd1344a5f7cac82d4fc16d819a",
+    "head": "cli-remote-cache-budget",
+    "head_sha": "6e1f99eaf1bde57eac4e7a3551a08646167003cc",
+    "head_repo_id": 1429115934,
+    "head_repo_full_name": "jake-vc/villa",
+    "merge_commit_sha": "ecb10eaae1cc297d6e080dc0b77006001be6673c",
+    "user": {
+      "login": "jake-vc",
+      "name": "jake-vc",
+      "email": null,
+      "id": 345837478
+    },
+    "requested_reviewers": [
+      {
+        "login": "hendrikschilling",
+        "name": "hendrikschilling",
+        "email": null,
+        "id": 6768520
+      }
+    ],
+    "requested_team_reviewers": null,
+    "comments": [
+      {
+        "url": "https://github.com/ScrollPrize/villa/pull/2290#issuecomment-6384972915",
+        "body": "@jake-vc is attempting to deploy a commit to the **scroll** Team on [Vercel](https://vercel.com).\n\nA member of the Team first needs to [authorize it](https://vercel.com/git/authorize?team=scroll&slug=scroll&teamId=team_vaj9podZtoZhXLh5u4vJyGWa&type=github&job=%7B%22headInfo%22%3A%7B%22sha%22%3A%2277ffdadc566f4585e4c50048a39ab735b3af02d9%22%7D%2C%22id%22%3A%22QmRt4zYRtgfSLWjSkBweF5QT4kBptMcWEYUHKqkhUYSCo8%22%2C%22org%22%3A%22ScrollPrize%22%2C%22prId%22%3A2290%2C%22repo%22%3A%22villa%22%7D).\n\n",
+        "user": {
+          "login": "vercel[bot]",
+          "name": "vercel[bot]",
+          "email": null,
+          "id": 35613825
+        },
+        "id": 6384972915,
+        "pull_request_review_id": null,
+        "in_reply_to_id": null,
+        "created_at": "2026-10-24T13:46:26Z",
+        "updated_at": "2026-10-24T13:46:26Z",
+        "review": null,
+        "side": null,
+        "line": null,
+        "start_line": null,
+        "path": null
+      }
+    ],
+    "created_at": "2026-10-24T13:46:20Z",
+    "updated_at": "2026-11-01T15:36:26Z",
+    "closed_at": "2026-11-01T15:36:26Z",
+    "merged_at": "2026-11-01T15:36:26Z",
+    "commits": 4,
+    "changed_files": 7,
+    "additions": 126,
+    "deletions": 4,
+    "display_url": "https://github.com/ScrollPrize/villa/pull/2290",
+    "display_title": "vc_render_tifxyz, vc_grow_seg_from_seed: apply the VC3D.ini remote-cache disk budget."
+  },
+  "url": "https://github.com/ScrollPrize/villa/pull/2290",
+  "title": "vc_render_tifxyz, vc_grow_seg_from_seed: apply the VC3D.ini remote-cache disk budget.",
+  "comments": [
+    {
+      "url": "https://github.com/ScrollPrize/villa/pull/2290#issuecomment-6384972915",
+      "body": "@jake-vc is attempting to deploy a commit to the **scroll** Team on [Vercel](https://vercel.com).\n\nA member of the Team first needs to [authorize it](https://vercel.com/git/authorize?team=scroll&slug=scroll&teamId=team_vaj9podZtoZhXLh5u4vJyGWa&type=github&job=%7B%22headInfo%22%3A%7B%22sha%22%3A%2277ffdadc566f4585e4c50048a39ab735b3af02d9%22%7D%2C%22id%22%3A%22QmRt4zYRtgfSLWjSkBweF5QT4kBptMcWEYUHKqkhUYSCo8%22%2C%22org%22%3A%22ScrollPrize%22%2C%22prId%22%3A2290%2C%22repo%22%3A%22villa%22%7D).\n\n",
+      "user": {
+        "login": "vercel[bot]",
+        "name": "vercel[bot]",
+        "email": null,
+        "id": 35613825
+      },
+      "id": 6384972915,
+      "pull_request_review_id": null,
+      "in_reply_to_id": null,
+      "created_at": "2026-10-24T13:46:26Z",
+      "updated_at": "2026-10-24T13:46:26Z",
+      "review": null,
+      "side": null,
+      "line": null,
+      "start_line": null,
+      "path": null
+    }
+  ],
+  "display_url": "https://github.com/ScrollPrize/villa/pull/2290",
+  "display_title": "vc_render_tifxyz, vc_grow_seg_from_seed: apply the VC3D.ini remote-cache disk budget."
+}

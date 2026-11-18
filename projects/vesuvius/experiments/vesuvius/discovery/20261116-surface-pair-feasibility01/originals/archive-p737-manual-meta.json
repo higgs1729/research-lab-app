@@ -1,0 +1,28 @@
+{
+  "bbox": [
+    [
+      1396.90576171875,
+      4060.75439453125,
+      6570.5146484375
+    ],
+    [
+      3942.5166015625,
+      4749.5341796875,
+      9413.421875
+    ]
+  ],
+  "format": "tifxyz",
+  "scale": [
+    0.05,
+    0.05
+  ],
+  "type": "seg",
+  "uuid": "PHerc0211-P737m01st3-manual-20261014-1701-legacyuv20-v3",
+  "name": "PHerc0211-P737m01st3-manual-20261014-1701-legacyuv20-v3",
+  "voxelsize": 9.362,
+  "source_coordinate_frame": "volume-native-voxels",
+  "source_case_id": "PHerc0211-P737m01st3-manual-20261014-1701-legacyuv20-v3",
+  "source_volume": "https://vesuvius-challenge-open-data.s3.amazonaws.com/PHerc0211/volumes/20250821151803-9.362um-1.2m-113keV-masked.zarr",
+  "geometry_contract": "vc3d_legacy_flatboi50_uv20_alignz_v1",
+  "area_cm2": 3.785361943739934
+}

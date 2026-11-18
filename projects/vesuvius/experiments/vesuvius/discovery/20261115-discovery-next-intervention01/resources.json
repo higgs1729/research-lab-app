@@ -1,0 +1,30 @@
+{
+  "new_http_body_responses": 32,
+  "new_http_body_bytes": 22445165,
+  "largest_response_bytes": 10203710,
+  "measured_acquisition_seconds": 15.456875399977434,
+  "total_research_wall_seconds": null,
+  "wall_note": "End-to-end research/review wall time not instrumented; download timers only.",
+  "web_tool_transfer_bytes": null,
+  "web_note": "Web lookup transfer not measurable; saved primary HTTP bodies are counted separately.",
+  "new_raw_ct_voxel_bytes": 0,
+  "new_rendered_ct_image_bytes": 0,
+  "new_model_weight_bytes": 0,
+  "model_forward_calls": 0,
+  "gpu_seconds": 0,
+  "prediction_bytes_in_npy_header_responses": 2688,
+  "prediction_payload_note": "Incidental first-array payload bytes; not used for image judgement or inference.",
+  "cloud_cost_usd": 0,
+  "external_posts": 0,
+  "delegations": 0,
+  "D_write_bytes": 0,
+  "C_free_bytes_at_finalization": 14336331776,
+  "C_free_gib_at_finalization": 13.351749420166016,
+  "C_free_gib_min": 10,
+  "minor_diagnostic_failures": [
+    "Large original PNG exceeded tool image output budget; used explicit lossless crops and scale-reduced overviews.",
+    "numpy private _read_array_header unavailable; used public read_array_header_1_0.",
+    "cp932 console could not encode primary text; used python -X utf8."
+  ],
+  "next_experiment_not_executed": true
+}

@@ -1,0 +1,92 @@
+{
+  "comparison_atlas_xywh": [
+    1408,
+    1088,
+    256,
+    256
+  ],
+  "results": {
+    "seed42": {
+      "runtime": {
+        "seconds": 10.835487400006969,
+        "rss_bytes": 745017344,
+        "weight_max_abs_error": 3.032979682959791e-07,
+        "interior_weight_range": [
+          0.9757224917411804,
+          1.0030001401901245
+        ]
+      },
+      "old_vs_published": {
+        "pixels": 65536,
+        "pearson": 0.0755188367229301,
+        "mean_signed_dn": 8.2034912109375,
+        "mean_absolute_dn": 37.885345458984375,
+        "max_absolute_dn": 127,
+        "equal": 801
+      },
+      "aligned_vs_published": {
+        "pixels": 65536,
+        "pearson": 0.9481014214119386,
+        "mean_signed_dn": 3.125030517578125,
+        "mean_absolute_dn": 7.441314697265625,
+        "max_absolute_dn": 42,
+        "equal": 6341
+      },
+      "aligned_vs_old": {
+        "pixels": 65536,
+        "pearson": 0.019018050478219153,
+        "mean_signed_dn": -5.078460693359375,
+        "mean_absolute_dn": 39.92877197265625,
+        "max_absolute_dn": 126,
+        "equal": 772
+      }
+    },
+    "dense": {
+      "runtime": {
+        "seconds": 10.57038140000077,
+        "rss_bytes": 849170432,
+        "weight_max_abs_error": 3.032979682959791e-07,
+        "interior_weight_range": [
+          0.9757224917411804,
+          1.0030001401901245
+        ]
+      },
+      "old_vs_published": {
+        "pixels": 65536,
+        "pearson": 0.8750605206927093,
+        "mean_signed_dn": -1.280792236328125,
+        "mean_absolute_dn": 13.904632568359375,
+        "max_absolute_dn": 72,
+        "equal": 1707
+      },
+      "aligned_vs_published": {
+        "pixels": 65536,
+        "pearson": 0.9896969826507517,
+        "mean_signed_dn": 0.6663055419921875,
+        "mean_absolute_dn": 4.0781402587890625,
+        "max_absolute_dn": 25,
+        "equal": 5716
+      },
+      "aligned_vs_old": {
+        "pixels": 65536,
+        "pearson": 0.8926122932366569,
+        "mean_signed_dn": 1.9470977783203125,
+        "mean_absolute_dn": 12.766525268554688,
+        "max_absolute_dn": 71,
+        "equal": 2073
+      }
+    }
+  },
+  "figures": {
+    "comparison-384.png": "6508683740842e902c94354a4f4d018e85d6996d2fc9b27bff15b962ae555c19",
+    "comparison-interior-256.png": "df0786db87d82d4a04e9263b6869f914507dc8e7616df17fa0ba69c7cbb84393"
+  },
+  "display": {
+    "range": [
+      0,
+      255
+    ],
+    "resampling": null,
+    "normalization": null
+  }
+}

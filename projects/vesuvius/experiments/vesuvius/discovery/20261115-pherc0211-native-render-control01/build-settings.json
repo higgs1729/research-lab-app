@@ -1,0 +1,52 @@
+{
+  "command": [
+    "g++",
+    "-std=c++17",
+    "-O2",
+    "-ffp-contract=off",
+    "-I/usr/include/opencv4",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01/native.cpp",
+    "-o",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01/native-control",
+    "-lopencv_core"
+  ],
+  "source_sha256": "ef1f85705897f2b4318d9453bb8ac6d136d41f7baf02613b890e8828d890d3ab",
+  "includes": {
+    "functions.inc": "b41dbeb22fb77e99aecb72fe2b1b25391ce50cc7bb13c783c8bd750e71d735c9",
+    "quad.inc": "eb3adb02390681d032ddc2e73f6df7c3d6237c13f432b1e0fc80a2729cf56599",
+    "trilinear.inc": "671d9ee79df0b35e97c79b6951b26261b32f66a2a29f67b26e295b56a68f0dc0"
+  },
+  "borrowed_runner_sha256": "383ac927fd836ef7f1f9cf238635afb00e47ec0150fe8eb92ed30c60f1a4d155",
+  "limits": {
+    "cpu_affinity": [
+      0
+    ],
+    "address_space_limit_bytes": 4294967296,
+    "env": {
+      "OMP_NUM_THREADS": "1",
+      "OMP_THREAD_LIMIT": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OPENCV_FOR_THREADS_NUM": "1",
+      "TMPDIR": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01",
+      "CUDA_VISIBLE_DEVICES": ""
+    }
+  },
+  "actual_RLIMIT_AS": [
+    4294967296,
+    4294967296
+  ],
+  "actual_affinity": [
+    0
+  ],
+  "environment": {
+    "TMPDIR": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01/tmp",
+    "TMP": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01/tmp",
+    "TEMP": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0211-native-render-control01/tmp",
+    "CUDA_VISIBLE_DEVICES": ""
+  },
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "opencv": "4.6.0",
+  "author_arch_compiler": "unknown; inference GH200 does not identify CT render host"
+}

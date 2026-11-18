@@ -1,0 +1,94 @@
+{
+  "verified": {
+    "normal": {
+      "decoded_matches_control": true,
+      "file_hashes_match_control": true,
+      "existing_files_checked": []
+    },
+    "fresh-resume": {
+      "decoded_matches_control": true,
+      "file_hashes_match_control": true,
+      "existing_files_checked": []
+    },
+    "l0-only-resume": {
+      "decoded_matches_control": true,
+      "file_hashes_match_control": true,
+      "existing_files_checked": [
+        "0/.zarray",
+        "0/0/0/0"
+      ]
+    },
+    "interrupted-init-resume": {
+      "decoded_matches_control": true,
+      "file_hashes_match_control": true,
+      "existing_files_checked": [
+        "0/.zarray",
+        "1/.zarray"
+      ]
+    },
+    "mixed-codecs-resume": {
+      "decoded_matches_control": true,
+      "file_hashes_match_control": false,
+      "existing_files_checked": [
+        "0/.zarray",
+        "0/0.0.0",
+        "1/.zarray",
+        "1/.zattrs",
+        "1/0/0/0",
+        "3/.zarray",
+        "3/0/0/0"
+      ],
+      "new_levels_inherited_gzip_level_7_and_dot": [
+        2,
+        4,
+        5
+      ]
+    },
+    "complete-resume": {
+      "decoded_matches_control": true,
+      "file_hashes_match_control": true,
+      "existing_files_checked": [
+        ".zattrs",
+        ".zgroup",
+        "0/.zarray",
+        "0/0/0/0",
+        "1/.zarray",
+        "1/0/0/0",
+        "2/.zarray",
+        "2/0/0/0",
+        "3/.zarray",
+        "3/0/0/0",
+        "4/.zarray",
+        "4/0/0/0",
+        "5/.zarray",
+        "5/0/0/0"
+      ]
+    },
+    "multipart-prepared-resume": {
+      "decoded_matches_control": true,
+      "file_hashes_match_control": true,
+      "existing_files_checked": [
+        ".zattrs",
+        ".zgroup",
+        "0/.zarray",
+        "1/.zarray",
+        "2/.zarray",
+        "3/.zarray",
+        "4/.zarray",
+        "5/.zarray"
+      ]
+    }
+  },
+  "existing_input_and_control_unchanged": true,
+  "pyramid_disabled_L0_only": true,
+  "multipart_requires_pre": true,
+  "multipart_pre_metadata_only": true,
+  "processes": 10,
+  "all_reaped": true,
+  "process_wall_seconds": 35.03968395000004,
+  "test_elapsed_seconds": 81.259974339,
+  "max_child_rss_bytes": 96739328,
+  "C_work_bytes": 41842591,
+  "new_ct_bytes": 0,
+  "additional_cloud_cost_jpy": 0
+}

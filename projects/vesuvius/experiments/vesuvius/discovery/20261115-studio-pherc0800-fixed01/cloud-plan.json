@@ -1,0 +1,146 @@
+{
+  "research": 233,
+  "science_plan_sha256": "f7cff2e3ecfd9f314dd8fd7ceaae5d144f37a8a57584c5a21197debf09fe4330",
+  "archive_path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\cloud-input-r233.tar.gz",
+  "archive_sha256": "f59033bafd94373f83946ed2358c6cddd6120ef546f60f60694627faa1a0ca34",
+  "archive_bytes": 21762239,
+  "archive_member_sha256": {
+    "cloud_worker.py": "cfe9f4d2d7feda88efb9206c924abdf17b521f76db00a9766a10aeeefc0a72e7",
+    "fixed-assets.json": "1ccfa572cbf896cd1bd018fe4a619859f8df84615fd6d4ae1294b9d19545d833",
+    "input-contract.json": "b9167ad3d67b68d366e1cd69106c096feb5442f9b550a307ccf64b45191dca73",
+    "input16.npy": "4353a11324e7233f64e1ff598dd3e747774450d9e4df85c73881678ba44e5c39",
+    "normalization_probe.py": "a476d3db84bb3358a0b354ab86aab8845e19813196f8316d6c27b67d59288e34",
+    "patch-contract.json": "c7a4eccba85395fc9c9da903eb05f74188da217af6aa8ee7c69ef630ebab0362",
+    "plan.json": "f7cff2e3ecfd9f314dd8fd7ceaae5d144f37a8a57584c5a21197debf09fe4330",
+    "pod_work.py": "5557007a740165333070c68d3daf37a530fc071add5ea8e6f6ff471c9f401691",
+    "r208_runtime.py": "e45c8c14e70d12bfed19e329ed0b3ee257bd627358c59e308acc91d2c6539db3",
+    "safetensors-header.json": "7ae1687c24d8f63249b84af3381ef2a60c0b2e47f89f23468c62846bca361120",
+    "sources/studio-multiscroll-cpt-20261023/hf/inference.py": "09752cf7aa0b682c6ca9a46e41bf1f9f279e30d74d35eaab8fc0311504223ec0",
+    "sources/studio-multiscroll-cpt-20261023/hf/model.py": "efbb390b6208c480fa8e8681137690b7df897c3e406956b9e804fa66645316d7",
+    "sources/wheelhouse/safetensors-0.8.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl": "fd6f3f93c9a0a7cc2788ee63fb763353d4bd2e89b0751bc78fcf7dda00bea774",
+    "studio_worker.py": "8a12faf4fa5103269651d5b96f6088e07e00890af5a70e4ba8c20f02decbd534",
+    "gpu_loop.py": "f6e3413356420c496493bb11ed11ae32db9dfb84a99ac287e5fbd83f6a89377c",
+    "known/cpu/p000.npy": "f0658d5e981b8ea7afa27e0cfdc78b42de1e5110cc7c48ce55cbe9e46afa3387",
+    "known/cpu/p047.npy": "639f30c7723d492c91c611e99f8083f712bc0144172faa2eb80230d2e15d8e8b",
+    "known/cpu/p095.npy": "71d4371bfea7ad0b9ac74466c7a4f043a7934ab7a907252096aedd4c45ad56e0",
+    "known/input-contract.json": "c0e919e923635b0dd1a3a96d725b30b7953fc029da9aa171b5ebe69fb0bfc8cc",
+    "known/input16.npy": "5ff8a0909d37436207f95bf1fed5512babea086da7961d05fdd7e2bcf04a9a7c",
+    "known/patch-contract.json": "b2ee0bb542d9c2dea29a38589ed68d02b60e564bf74f0e91fedf1b96f5b5a002",
+    "known/plan.json": "d1a9774b2ad3816ade4234c4449577e86f2bf49cd6d809915a1a1c1ebebc0312"
+  },
+  "controller_assignments": {
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\control.py": "0d53887247bac1463b9afcd4a0549e60baffcf5d6f4289b162ed06645b325d48",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\run_once.py": "5b7026d7aced26366f78c63e049876826ff30f3aa5f412b2c3c3428e7868cfb1",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\capture.py": "1b51e0c8264f6890ac0cfee07dcaa1c88886e641d4dc0aec28386546a0ea47d7",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\deadline.py": "841fdd2ca6d9ef00b855081849be7f6f0c4927f6c9db607fb093e836f4264c2d",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\pod_work.py": "5557007a740165333070c68d3daf37a530fc071add5ea8e6f6ff471c9f401691",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\studio_worker.py": "8a12faf4fa5103269651d5b96f6088e07e00890af5a70e4ba8c20f02decbd534",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\cloud_worker.py": "cfe9f4d2d7feda88efb9206c924abdf17b521f76db00a9766a10aeeefc0a72e7",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\normalization_probe.py": "a476d3db84bb3358a0b354ab86aab8845e19813196f8316d6c27b67d59288e34",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\gpu_loop.py": "f6e3413356420c496493bb11ed11ae32db9dfb84a99ac287e5fbd83f6a89377c",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\prepare.py": "73f2732f5f2e7c259382c71bba78709172403d10b9ec0aca2ec358c2cce2c155",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\results.py": "356c5bbc8e17a2fe04eb5a6fd9c0468dddb655b4ca81c4be2ecb6353489dec0d",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\offline_check.py": "52a0ccf1d5765d1c4abca99ec17d21da64e7cbc711063b749a861c5d99099eab",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\cloud-assets-a40\\fixed-assets.json": "04628d2a7b199dc41c278fc7f4ddf2ef8dd19d5421d09993217bac443a9a69a1",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\cloud-assets-a40\\pod_boot.py": "c3ce00fa7527778caac505fb62947293af726abbd1bfe061d65dd89cf4b246f1",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-runpod-exec-diagnostic01\\diagnostic.py": "a117cf0eaf5d56c7c15ea6bfbbce05a4d6a787aa482ce5c3b4d6ee67b0474783",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-wider-hecate-run02\\run.py": "226ca1c6aa2166c1db5224517f30dc0a76a01e4f7c7e4037e6d9dcbaa1f5acd6",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-pherc0846a-hecate-cloud-run01\\inspect_runpod.py": "49cf3e74c12d2212afaeae3149fc9c843f223590e949907ed8315e31f15107ad"
+  },
+  "cases": {
+    "known_reference_forwards": 3,
+    "unknown_support_patches_each_order": 324,
+    "unknown_orders": [
+      [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      [
+        22,
+        21,
+        20,
+        19,
+        18,
+        17,
+        16,
+        15,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7
+      ]
+    ],
+    "total_gpu_forwards": 651,
+    "new_cpu_forwards": 0
+  },
+  "data_collection": {
+    "result_arrays_npy_bytes": 53683530,
+    "logs_metadata_budget_bytes": 5242880,
+    "physical_result_reservation_bytes": 67108864,
+    "new_local_write_cap_bytes": 536870912,
+    "expected_C_peak_bytes": 251658240,
+    "expected_C_peak_basis": "31.4MB new inputs + compressed input<=32MB +64MiB reservation/archive +57MB extracted +40MB figures+small receipts",
+    "C_free_at_freeze": 9863106560,
+    "admission_free_bytes_after_reservation": 2147483648,
+    "input_upload_144KiB_requests": 148,
+    "output_collection_256KiB_requests_max": 256,
+    "collection_seconds": 360,
+    "collection_estimate": "R232 5.28MB round-trip ~19s; max64MiB at same throughput ~240s plus packing margin,360s retained",
+    "input_estimate": "R2326.99MB in54.55s; this payload at same rate +weight/probe within480s"
+  },
+  "dollars": {
+    "currency": "USD",
+    "rate_ceiling": 0.6,
+    "estimate_8_to_16_min": [
+      0.079,
+      0.159
+    ],
+    "operation_ceiling": 0.35,
+    "maximum30min_compute_plus20GB_disk_estimate": 0.30139
+  },
+  "lifecycle": {
+    "gpu": "NVIDIA A40",
+    "cloud": "SECURE",
+    "resource_count": 1,
+    "data_center_ids": [
+      "CA-MTL-1"
+    ],
+    "automatic_retries": 0,
+    "total_seconds": 1800,
+    "stage_max_seconds": {
+      "provision": 600,
+      "transfer": 480,
+      "model": 900,
+      "collection": 360,
+      "deletion": 60
+    },
+    "absolute_from_precreate_seconds": {
+      "provision": 600,
+      "transfer": 1080,
+      "model": 1380,
+      "collection": 1740,
+      "deletion": 1800
+    },
+    "input_weight_fetches_on_pod": 1
+  },
+  "source_reference_cloud_plan_sha256": "0f931d1f82d99c25a566aeb4cb930997b5812b3c2d438ce1b253500a0258b43f",
+  "pods_created_at_freeze": 0
+}

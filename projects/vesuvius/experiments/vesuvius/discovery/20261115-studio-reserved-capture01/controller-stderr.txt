@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "C:\dev\kensyoukin\experiments\vesuvius\discovery\20261115-studio-reserved-capture01\control.py", line 167, in <module>
+    {"freeze": freeze, "run": run}[sys.argv[1]]()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\dev\kensyoukin\experiments\vesuvius\discovery\20261115-studio-reserved-capture01\control.py", line 163, in run
+    diag.run(api, RUN)
+    ~~~~~~~~^^^^^^^^^^
+  File "C:\dev\kensyoukin\experiments\vesuvius\discovery\20261114-runpod-exec-diagnostic01\diagnostic.py", line 280, in run
+    return base.run(api, output)
+           ~~~~~~~~^^^^^^^^^^^^^
+  File "C:\dev\kensyoukin\experiments\vesuvius\discovery\20261115-studio-reserved-capture01\run_once.py", line 329, in run
+    wait_armed(api, pod, record)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\dev\kensyoukin\experiments\vesuvius\discovery\20261114-pherc0846a-wider-hecate-run02\run.py", line 75, in wait_armed
+TimeoutError: Readiness retry would exceed the startup deadline

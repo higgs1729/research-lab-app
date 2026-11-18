@@ -1,0 +1,136 @@
+{
+  "utc": "2026-11-15 06:18:12 UTC",
+  "reviewer": "lead, before receiving child visual verdict",
+  "panels_viewed": [
+    "native/x00000-y0000.png",
+    "native/x00960-y0000.png",
+    "native/x01920-y0000.png",
+    "native/x02880-y0000.png",
+    "native/x03840-y0000.png",
+    "native/x04800-y0000.png",
+    "native/x08640-y0000.png",
+    "native/x09600-y0000.png",
+    "native/x10560-y0000.png",
+    "native/x11520-y0000.png",
+    "native/x00000-y0432.png",
+    "native/x00960-y0432.png",
+    "native/x01920-y0432.png",
+    "native/x02880-y0432.png",
+    "native/x03840-y0432.png",
+    "native/x04800-y0432.png",
+    "native/x05760-y0432.png",
+    "native/x06720-y0432.png",
+    "native/x07680-y0432.png",
+    "native/x08640-y0432.png",
+    "native/x09600-y0432.png",
+    "native/x10560-y0432.png",
+    "native/x11520-y0432.png",
+    "native/x00000-y0864.png",
+    "native/x00960-y0864.png",
+    "native/x01920-y0864.png",
+    "native/x02880-y0864.png",
+    "native/x03840-y0864.png",
+    "native/x04800-y0864.png",
+    "native/x05760-y0864.png",
+    "native/x06720-y0864.png",
+    "native/x07680-y0864.png",
+    "native/x08640-y0864.png",
+    "native/x09600-y0864.png",
+    "native/x10560-y0864.png",
+    "native/x11520-y0864.png",
+    "native/x00000-y1296.png",
+    "native/x02880-y1296.png",
+    "native/x03840-y1296.png",
+    "native/x04800-y1296.png",
+    "native/x05760-y1296.png",
+    "native/x06720-y1296.png",
+    "native/x07680-y1296.png",
+    "native/x08640-y1296.png",
+    "native/x09600-y1296.png",
+    "native/x10560-y1296.png",
+    "native/x04800-y1728.png",
+    "native/x05760-y1728.png",
+    "native/x06720-y1728.png",
+    "native/x07680-y1728.png"
+  ],
+  "native_nonblank_pairs": 50,
+  "remaining_blank_pairs_verified_numerically": 15,
+  "reviewed_all_source_core_values": 47431680,
+  "display": "Native 1:1 panels, top forward/bottom reverse, unchanged uint8; 32px halos. Overview used only for orientation.",
+  "batch_observations": [
+    {
+      "range": [
+        0,
+        5
+      ],
+      "observation": "Upper band x0..4800: broad blurry horizontal bands and isolated round bright responses; repeated bright vertical streaks coincide with stair-step support boundary. No selected text ROI."
+    },
+    {
+      "range": [
+        5,
+        10
+      ],
+      "observation": "Remainder of top band: near-empty halos x4800/8640; x9600 onward soft long bands and round swellings, boundary comb-like streaks; no selected glyph ROI."
+    },
+    {
+      "range": [
+        10,
+        15
+      ],
+      "observation": "y432 band left: diffuse blobs, branching ridges and broad curves. Nearx4100..4700,y470 a thick diagonal bar follows the upper support edge; no resolved sequence of strokes. Candidate not selected."
+    },
+    {
+      "range": [
+        15,
+        20
+      ],
+      "observation": "y432 middle/right band: thick T-like bulge nearx5300,y650 and forks nearx8800,y700 are diffuse, sit among connected blobs, and change shape with direction. Top stair-step streaks remain prominent; no bounded letter candidate selected."
+    },
+    {
+      "range": [
+        20,
+        25
+      ],
+      "observation": "y432 right edge and y864 left: scattered wedge/U-like blurry masses with dark islands, no consistent narrow stroke sequence. Lower boundary nearx1000..1900 shows repeated faint angular streaks in both maps at padding edge, not selected as text."
+    },
+    {
+      "range": [
+        25,
+        30
+      ],
+      "observation": "y864 x1920..6720: broad L/U-like bends near lower boundary and diffuse polygonal gaps; isolated triangular bright patches and a thick oblique bar nearx4200..4600. Stroke width and boundaries vary markedly; no selected follow-up region."
+    },
+    {
+      "range": [
+        30,
+        35
+      ],
+      "observation": "y864 middle/right: broad loop-like dark gaps enclosed by diffuse bright masses (e.g.x7050,y1030 andx7900,y1150), without a discrete set of stable narrow strokes. Lower-boundary rectangular effects and isolated blobs; no selected ROI."
+    },
+    {
+      "range": [
+        35,
+        40
+      ],
+      "observation": "Right end ofy864 and lower fringe: boundary rectangles/streaks, two mostly blank halo panels; x5000,y1400 has a broad A-like triangle joining a long basal band, varying markedly in reverse. Not selected as isolated supported letter."
+    },
+    {
+      "range": [
+        40,
+        45
+      ],
+      "observation": "Lower bandx5760..10560: bright fork/loop masses atx6400..7000 lower fringe, with diffuse widths and neighboring soft islands. Farther right mostly mask-edge response and empty field. No selected candidate."
+    },
+    {
+      "range": [
+        45,
+        50
+      ],
+      "observation": "Final fringe/halos mostly blank; central lower fragments are diffuse bright masses next to periodic rectangular edge responses. No further candidate selected."
+    }
+  ],
+  "followup_roi_count": 0,
+  "scope": "No text ROI selected in this published seed43 pair. Does not prove no ink in this mesh or scroll. CT central layer was not acquired and physical sheet correspondence remains unverified. Other models have not been visually inspected; no majority-vote or mandatory-row gate used.",
+  "mask_note": "Author mask positive9008610 pixels under descriptive upper-left placement; public manifest valid_px8530433 is a distinct author metric not equated here. Outside this eroded occupancy mask is not automatically outside physical papyrus.",
+  "new_model_calls": 0
+}

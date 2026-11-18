@@ -1,0 +1,38 @@
+{
+  "research": 240,
+  "utc": "2026-11-15T15:04:08.516343+00:00",
+  "candidate_parent_xywh": [
+    4416,
+    2048,
+    384,
+    256
+  ],
+  "independent_reviews_preserved_sha256": {
+    "researcher-ct-visual-review.json": "96ce7c52fc16905a474d124cca72671950d9321adcd576518833e30b70847777",
+    "lead-section-visual-review.json": "2fba4cdd81d459121d00b7fc1ba3777591f584ebbcc76974ac81de3f26d65d07",
+    "researcher-provenance-visual-review.json": "11038196bf2c6f35abcdd1e5988d330a3007ae2aa62efb346df2ed470b42d07f",
+    "lead-provenance-visual-review.json": "cd775f12f711fb3e9465757d9b98f26646a1a5c64cacfb179e4ea50ecb2b7a53"
+  },
+  "agreement": [
+    "Both reviewers find local paper-like bands near all candidate anchors; q75 has clearer local support.",
+    "Candidate q25/q50 are crowded; q50 u-n contact/merging leaves fine layer identity uncertain.",
+    "Neither twelve tangent planes nor the known reference establishes one physical lamina across the full candidate ROI.",
+    "Neither CT nor public source figures identify ink, readable letters, or novelty at the selected ROI."
+  ],
+  "disposition": "HOLD the unconfirmed R239 candidate with partial local CT support; end this fixed local CT observation.",
+  "provenance": "Historical full-parent inference is documented with an older Studio checkpoint. Current line2 soft-loss reproduction and separate v9 manual coordinates are not equivalent to that record. Exact published-letter overlap remains unresolved.",
+  "next_step_proposal_only": {
+    "one_action": "Locate the publicly available historical full-parent probability file corresponding to v6 parent/results.json and verify its source identity and coordinate mapping; if available, compare only the same fixed ROI.",
+    "reason": "The parent results already proves prior inference coverage and names a probability SHA; exact previous response at this ROI is a missing evidence type.",
+    "limit": "Prior response is not prior reading or proof of novelty. Preserve old/current model differences. If the file or registration is unavailable, retain the provenance uncertainty rather than infer absence.",
+    "not_started": true,
+    "requires_separate_ticket_and_resource_plan": true
+  },
+  "same_sheet_across_ROI_established": false,
+  "ink_established": false,
+  "reading_established": false,
+  "novelty_established": false,
+  "new_letters": 0,
+  "extra_CT_planes_depths_ROI_or_model_rescue": false,
+  "historical_R236_pairgate_passed": false
+}

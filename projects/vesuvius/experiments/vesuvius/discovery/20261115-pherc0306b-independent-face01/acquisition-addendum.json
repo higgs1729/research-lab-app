@@ -1,0 +1,56 @@
+{
+  "receipts": [
+    {
+      "path": "originals/discovery/x_vast_plan/lanes_PHerc0306B_only.json",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/discovery/x_vast_plan/lanes_PHerc0306B_only.json",
+      "bytes": 2774,
+      "sha256": "caaf93540e1963ba506b1a66363a73405e4e540ad2bf032c1d0b50a6887fc328",
+      "git_blob_sha1": "775643b42b26bba845eae20b51762888b57baa09",
+      "status": 200,
+      "elapsed_seconds": 0.2714931999798864,
+      "utc": "2026-11-15T08:22:52.294114+00:00"
+    },
+    {
+      "path": "originals/discovery/x_vast_plan/sqm_atlas_PHerc0306B_only.json",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/discovery/x_vast_plan/sqm_atlas_PHerc0306B_only.json",
+      "bytes": 2168,
+      "sha256": "5159f743cef35c965b1783e364ce7ed7bc28977f3d1c075c68b5cc6403cf5155",
+      "git_blob_sha1": "b71df4c3ded2bc32b997fcf48a4b74b58c326abf",
+      "status": 200,
+      "elapsed_seconds": 0.22338919999310747,
+      "utc": "2026-11-15T08:22:52.517604+00:00"
+    },
+    {
+      "path": "originals/docker/build.sh",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/docker/build.sh",
+      "bytes": 2597,
+      "sha256": "e846a0dd23dba48a6796eab3f68afc83fe4868037482ca90606e6241b3985604",
+      "git_blob_sha1": "5041cd786088002224d23621eef2476aa6163f42",
+      "status": 200,
+      "elapsed_seconds": 0.2273888999770861,
+      "utc": "2026-11-15T08:22:52.745089+00:00"
+    },
+    {
+      "path": "originals/submission/docker/build.sh",
+      "url": "https://raw.githubusercontent.com/SirProdigle/pherc0306b-first-letters/feabff6c54f95bd8e52a90e0a7a76881ee67d4cc/submission/docker/build.sh",
+      "bytes": 1453,
+      "sha256": "694008a72c97421f1165325e1689a5dde413b7aa441b392a59a6096605c7a679",
+      "git_blob_sha1": "2194cb79d5af75dc48a5f5ec98e8d3df438ef83b",
+      "status": 200,
+      "elapsed_seconds": 0.22627949999878183,
+      "utc": "2026-11-15T08:22:52.971453+00:00"
+    },
+    {
+      "path": "originals/official-scroll-prefix.xml",
+      "url": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/?list-type=2&prefix=PHerc0306B%2F&delimiter=%2F&max-keys=1000",
+      "bytes": 508,
+      "sha256": "52b9d02441a6720be5176dd5bc03fa18732d0d5365e99c5dda8484c938c78061",
+      "git_blob_sha1": null,
+      "status": 200,
+      "elapsed_seconds": 0.5625883000029717,
+      "utc": "2026-11-15T08:22:53.534126+00:00"
+    }
+  ],
+  "total_body_bytes": 9500,
+  "elapsed_seconds": 1.511576100019738
+}

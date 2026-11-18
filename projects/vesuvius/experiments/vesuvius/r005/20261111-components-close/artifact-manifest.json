@@ -1,0 +1,496 @@
+{
+  "created_utc": "2026-11-11T13:53:05.368149+00:00",
+  "scope": "Only this component-intervention checkpoint. Earlier evidence remains in the previous immutable manifest. External binaries are hashed in build and run records.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261111-analysis-components-both01/analyze_uv_probe.py",
+      "bytes": 6067,
+      "sha256": "79cae24195ade3714234da7f1504e54659800c9af89db1464d48dd4bcf6f51ec"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-analysis-components-both01/diagnostics.npz",
+      "bytes": 1442854,
+      "sha256": "1bbb619568252d0c972aa794af75b4a9151b2132a66afb19de01a80627307a8e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-analysis-components-both01/result.json",
+      "bytes": 2407,
+      "sha256": "8ebffabf9782a96128b0a5f7751453d728e69f371bda38b56ddc617281c7ba06"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-analysis-components-pack01/analyze_uv_probe.py",
+      "bytes": 6067,
+      "sha256": "79cae24195ade3714234da7f1504e54659800c9af89db1464d48dd4bcf6f51ec"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-analysis-components-pack01/diagnostics.npz",
+      "bytes": 1433021,
+      "sha256": "131e562579402f0a119ae62584b4abe884ade1f73637111e78ee7d57451f8a1d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-analysis-components-pack01/result.json",
+      "bytes": 2428,
+      "sha256": "305f7aabc8281eaead245b2c8a17b4dcfbcb965fb99f68497f738fd97b34f55f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-analysis-components-recover01/analyze_uv_probe.py",
+      "bytes": 6067,
+      "sha256": "79cae24195ade3714234da7f1504e54659800c9af89db1464d48dd4bcf6f51ec"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-analysis-components-recover01/diagnostics.npz",
+      "bytes": 1442755,
+      "sha256": "613ab85d0ac29058ff146216665aa7fe99c3a990152e701612bf969ab3de35f5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-analysis-components-recover01/result.json",
+      "bytes": 2413,
+      "sha256": "0e9a234eac23ec4753fa05b2af393a72bcc7e294c55a4056a18662b472a85a64"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-analysis01/analyze_components.py",
+      "bytes": 5455,
+      "sha256": "7082f6003b466c595077edc60b1cff6e9491a9b662015d3259052a33ee948324"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-analysis01/distances.npz",
+      "bytes": 3854173,
+      "sha256": "1233a0bccd66f65b2359a5fcee32d454502553397cbf9a5422262bbceb3bad33"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-analysis01/result.json",
+      "bytes": 16834,
+      "sha256": "8277388227b4329a16dd5e9c999587148134f365f11ee33d29d01960824f7bb6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-close/decision-record.json",
+      "bytes": 1212,
+      "sha256": "d4081df298df70735380e8b6ac18116f579a4e0e934e87a077dc59fac03939c3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-close/experiment-record.json",
+      "bytes": 790,
+      "sha256": "87dc0d0d4c1b84c0c215b057ca447bb3838e40642d077625b9261c47dcef913e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-close/freeze.py",
+      "bytes": 3087,
+      "sha256": "6ee6983703605d6a2082ed337982b3c7a009e59eccfad32f897a68bd1133ccc4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-close/resources.json",
+      "bytes": 1543,
+      "sha256": "8dcb54f55f0acdcc7fbed77c66dbe078e092483acb72bd6017af6a5e931dff60"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-close/runtime-status.json",
+      "bytes": 426,
+      "sha256": "ea794608f7dee99215d4033b4d2337836a83f900d7a26c7928843dab1acf5894"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-close/verification-record.json",
+      "bytes": 495,
+      "sha256": "229d8bdf2631340d81d9acb9bf71fefba0f048ffa4f1c73dcde74eacd4a84a55"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-trace01/link-state.json",
+      "bytes": 6686,
+      "sha256": "ed1ebff17dac0c87a24a18f37fb30d3752c574beea241bf276eaa35abff85c8c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-trace01/link.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-trace01/link_trace.py",
+      "bytes": 1793,
+      "sha256": "54b391599c45a8dd607deace2d67e3b36e9deb81045d3e37ebf40d7b1b778824"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-verification01/check01/distances.npz",
+      "bytes": 3854340,
+      "sha256": "bfcfa216c6a1c2e168fbfed8f33ce63a5b4024b1decae8d66dc31c72a39553a2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-verification01/check01/result.json",
+      "bytes": 38762,
+      "sha256": "d9ef4bd8559bec4b47ff5baed050dfa9681826cb7a0351125b52a6d8ea1e387c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-verification01/extract_stdout_energies.py",
+      "bytes": 2408,
+      "sha256": "838fb6fcc0db1d37bb6fc2b21c4d21d086da5c1c8382b51fa3d246ce95dfd20a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-verification01/stdout_energies.json",
+      "bytes": 8928,
+      "sha256": "642cb12fd85a294e9255d7701aa4c5474e09695d70a03979c22566afb6d05fed"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components-verification01/verify_components.py",
+      "bytes": 17127,
+      "sha256": "fe583964b50b8ecc80e139c97b6dc437cb77f688380f47fbeb115f32cb371494"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components01/build-state.json",
+      "bytes": 7898,
+      "sha256": "00e67e5d05eaa48e8782f30aa507fc37b0ffc2754df12dc7cb516ff3dd679564"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components01/build.log",
+      "bytes": 326,
+      "sha256": "d114f2d19d168ba3a99d3f1191cfdaad3acbc5a133e6f3c3f0c1a1854bdb2b22"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components01/build_components.py",
+      "bytes": 5546,
+      "sha256": "8136ef08df24f35137a64988c00f19a804e20a47eb23989bac332d33988805f7"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components01/decision-record.json",
+      "bytes": 1234,
+      "sha256": "72f7797ac28268d9cc6cab6ebf2d50a9a3be45008e6267ac60b0522fc359466f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components01/diagnostic-only.patch",
+      "bytes": 10890,
+      "sha256": "634f70c34a596fa2ef41e6ae9ea9605c06d7ddbd02a69401f965a24b6d292791"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components01/flatboi-diag.cpp",
+      "bytes": 56274,
+      "sha256": "c633debe50a715a69358db007a31b2757f8f4cc001a454e0380cd8e3161b1d16"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-components01/upstream-check.json",
+      "bytes": 1181,
+      "sha256": "8d4d435ce67e5af3cebf4f10f43630f44cbd83990faf53c2f397a5b7a54aed5b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/output/meta.json",
+      "bytes": 996,
+      "sha256": "f691dc78f25eb00c9466e755571e0bbe17b0f6904953a9e11e918bdde9615561"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/output/x.tif",
+      "bytes": 462970,
+      "sha256": "47d43e9e018188f01638006fb7a1a68552e099417c4035e2ce8346e94cf661b0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/output/y.tif",
+      "bytes": 462970,
+      "sha256": "8261739a17b6c5d95508ed3bdf0505cdaa6e5a0b10c6de9b12116c72686c149d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/output/z.tif",
+      "bytes": 462970,
+      "sha256": "6a3641ce911593ad06ea912138e7a996709893af88f72361ba311e40d3f396bd"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/output.obj_components.json",
+      "bytes": 2148,
+      "sha256": "904614427026fcdcf14feeb8dcb9ca0cea99d13a19be6e5167f559d7304f7e57"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/output.obj_uv_diagnostics.json",
+      "bytes": 3480819,
+      "sha256": "0f0fc6e5a7d445d92c55c7734e40bc09423bb991b678099902b6db9684f47746"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/output_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "8b7323e7c07152981e59239efbb7598516626a3a71ffe8a8dad8d3783a6624e6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/output_heat_kappa.png",
+      "bytes": 50664,
+      "sha256": "3c81a0c9d6bc029da2e9014691f84f6a401b49b096c991d5660eaecd510b9901"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/output_heat_L2.png",
+      "bytes": 50801,
+      "sha256": "6cd15dbce7c9cec2d5b4fccb1afe161259b2851312ca7066a4a0018b7ae36a19"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/output_heat_Linf.png",
+      "bytes": 50265,
+      "sha256": "c8b2aa94e612232e4fbaa6ebacfcbecc6f8efa8ea94637ea7984361c97338c05"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/output_heat_logarea.png",
+      "bytes": 54557,
+      "sha256": "bdc170cf5a23ad57fa32650fe0521724c3a38c6a382bda796fbac2ccaae2daa9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/output_heat_ranges.txt",
+      "bytes": 246,
+      "sha256": "97f932d0b00294c54d0908cbe232a3cf3cc52388198d241974c8b4dd799aa3ad"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/raster_trace.json",
+      "bytes": 464007,
+      "sha256": "0855f091d312ffbb279201cfaa272e8c522709533244ebd3cca0794b3b94ebac"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/runner.py",
+      "bytes": 4213,
+      "sha256": "3910bda4839a399f0c88205db8de81e806dd6c203ca252cef9da5123a75037ea"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/state.json",
+      "bytes": 3321,
+      "sha256": "90f4dc8d7a790e931e25999aa1355cd12b4e5c0c31e1a2635a21cfdebe7b2417"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/stdout.log",
+      "bytes": 8331,
+      "sha256": "506b4f2b4844fe2a29b99dd87206c36107a0070828deb0e2e43a4c58a0da979f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/output/meta.json",
+      "bytes": 998,
+      "sha256": "6d107c55d6c50a2b1539542ffa4baa0f27760ce518975aa383044c92a9519055"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/output/x.tif",
+      "bytes": 368018,
+      "sha256": "d81b5d69981114def448f9f7ea14b496cc84b6805586d2b2ddc418577977de63"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/output/y.tif",
+      "bytes": 368018,
+      "sha256": "c3d69ea12a8906e58f607d90b99187b85f4fcee8d1dc89f1a29ac68c47724c26"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/output/z.tif",
+      "bytes": 368018,
+      "sha256": "43ae45d1e1f32e3a7daa2d8b1ba9ddb475eb5e7fcfbbd867b0c85df6f96e5ddd"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/output.obj_uv_diagnostics.json",
+      "bytes": 3489796,
+      "sha256": "223ec7f15b2f02295325990aa37575875808c8f21e2c94c8ec45c78e237d5a6d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/output_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "2c8a0e0825db6e665e6a8a7db67650acbfccedde497200cbaab9b7d1b041cc5e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/output_heat_kappa.png",
+      "bytes": 50664,
+      "sha256": "3c81a0c9d6bc029da2e9014691f84f6a401b49b096c991d5660eaecd510b9901"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/output_heat_L2.png",
+      "bytes": 50801,
+      "sha256": "6cd15dbce7c9cec2d5b4fccb1afe161259b2851312ca7066a4a0018b7ae36a19"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/output_heat_Linf.png",
+      "bytes": 50265,
+      "sha256": "c8b2aa94e612232e4fbaa6ebacfcbecc6f8efa8ea94637ea7984361c97338c05"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/output_heat_logarea.png",
+      "bytes": 54557,
+      "sha256": "bdc170cf5a23ad57fa32650fe0521724c3a38c6a382bda796fbac2ccaae2daa9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/output_heat_ranges.txt",
+      "bytes": 246,
+      "sha256": "97f932d0b00294c54d0908cbe232a3cf3cc52388198d241974c8b4dd799aa3ad"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/raster_trace.json",
+      "bytes": 397812,
+      "sha256": "64570cbd474d3c40fa8e507fe84e0a013eead383cc78343bede3b220aa9e507d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/runner.py",
+      "bytes": 4213,
+      "sha256": "3910bda4839a399f0c88205db8de81e806dd6c203ca252cef9da5123a75037ea"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/state.json",
+      "bytes": 3167,
+      "sha256": "1cb67b237e8e769da5f73035808750081e19f0e3ae66c3c213f315d1354e3e37"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/stdout.log",
+      "bytes": 3776,
+      "sha256": "c3e983a0e3af383ee6567c724de4ee7dd14bbcd0a8dadcd5fa40d38fd14bd9da"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/output/meta.json",
+      "bytes": 994,
+      "sha256": "1b45e12e10d02c408416137a149242c87ea825e4d3723eb606b603b96b17facb"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/output/x.tif",
+      "bytes": 491522,
+      "sha256": "5dbb015ab83741c01b8c6a2549f3bc102d2614ba883844c8fe389584db75e311"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/output/y.tif",
+      "bytes": 491522,
+      "sha256": "10b6b7767cd7287bd8ec5539d0ff3006746d4efc0b1136afea95757dd4244fae"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/output/z.tif",
+      "bytes": 491522,
+      "sha256": "f7b435bdf309d11308284b38745775d7d3953d5f654e77d0c0ef1c1729ee0423"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/output.obj_components.json",
+      "bytes": 2151,
+      "sha256": "b15d1e0fb61b5defe9b5e6a5aed69c375fb5c572a3be7cb4ab1f79fb9588e85a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/output.obj_uv_diagnostics.json",
+      "bytes": 3477915,
+      "sha256": "d7de5bdf3af190c77ce46e6f5453dfea8bdb3ea9663df5435a99924202e48047"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/output_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "2c8a0e0825db6e665e6a8a7db67650acbfccedde497200cbaab9b7d1b041cc5e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/output_heat_kappa.png",
+      "bytes": 50664,
+      "sha256": "3c81a0c9d6bc029da2e9014691f84f6a401b49b096c991d5660eaecd510b9901"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/output_heat_L2.png",
+      "bytes": 50801,
+      "sha256": "6cd15dbce7c9cec2d5b4fccb1afe161259b2851312ca7066a4a0018b7ae36a19"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/output_heat_Linf.png",
+      "bytes": 50265,
+      "sha256": "c8b2aa94e612232e4fbaa6ebacfcbecc6f8efa8ea94637ea7984361c97338c05"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/output_heat_logarea.png",
+      "bytes": 54557,
+      "sha256": "bdc170cf5a23ad57fa32650fe0521724c3a38c6a382bda796fbac2ccaae2daa9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/output_heat_ranges.txt",
+      "bytes": 246,
+      "sha256": "97f932d0b00294c54d0908cbe232a3cf3cc52388198d241974c8b4dd799aa3ad"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/raster_trace.json",
+      "bytes": 486435,
+      "sha256": "c14c28b73ae7188083ef0a37f27f6fe7b70e89098ac4b3aeceaf00cd2bcdfb0e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/runner.py",
+      "bytes": 4213,
+      "sha256": "3910bda4839a399f0c88205db8de81e806dd6c203ca252cef9da5123a75037ea"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/state.json",
+      "bytes": 3323,
+      "sha256": "2124ab410bb828d072879673c260caad6b26598fa7ed9bd89707b6335f43c672"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/stdout.log",
+      "bytes": 3731,
+      "sha256": "33f1893a5e9abe5ee8f091b757a1e7d12838390a7516656815c1c6db189033e1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/output/meta.json",
+      "bytes": 998,
+      "sha256": "989fdd8cd15b239b19eb1768f23cf9ba9c1e6c3e3ef167f1e4c9726eb81e5a4a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/output/x.tif",
+      "bytes": 368018,
+      "sha256": "2c20c36e4635f2336304a3e4fa6a1fe7051c05691308e5733bb9c53ae139ce2a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/output/y.tif",
+      "bytes": 368018,
+      "sha256": "7d98e7f9cd03f9b6eeeaf39939132e4ac171006a2b3039e2d2c8ffa9ef777dee"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/output/z.tif",
+      "bytes": 368018,
+      "sha256": "88737f75288a4f001d3e9ee0365292656b06142899ac53fadcc6689d558468cb"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/output.obj_components.json",
+      "bytes": 2000,
+      "sha256": "706dc832d34ed72305febf49cd8c4684c8f68654ecf94f4152e25d68e33d1bde"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/output.obj_uv_diagnostics.json",
+      "bytes": 3492500,
+      "sha256": "7ea95e425910a8046332d0ed0d6cec36eae102320118fd637641218b5d44973d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/output_energies_flatboi.txt",
+      "bytes": 663,
+      "sha256": "8b7323e7c07152981e59239efbb7598516626a3a71ffe8a8dad8d3783a6624e6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/output_heat_kappa.png",
+      "bytes": 50664,
+      "sha256": "3c81a0c9d6bc029da2e9014691f84f6a401b49b096c991d5660eaecd510b9901"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/output_heat_L2.png",
+      "bytes": 50801,
+      "sha256": "6cd15dbce7c9cec2d5b4fccb1afe161259b2851312ca7066a4a0018b7ae36a19"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/output_heat_Linf.png",
+      "bytes": 50265,
+      "sha256": "c8b2aa94e612232e4fbaa6ebacfcbecc6f8efa8ea94637ea7984361c97338c05"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/output_heat_logarea.png",
+      "bytes": 54557,
+      "sha256": "bdc170cf5a23ad57fa32650fe0521724c3a38c6a382bda796fbac2ccaae2daa9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/output_heat_ranges.txt",
+      "bytes": 246,
+      "sha256": "97f932d0b00294c54d0908cbe232a3cf3cc52388198d241974c8b4dd799aa3ad"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/raster_trace.json",
+      "bytes": 394596,
+      "sha256": "f1175dbd50f18f09cad573a7747788f0471cac9dfe4c2138a2722e93f5d799ee"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/runner.py",
+      "bytes": 4213,
+      "sha256": "3910bda4839a399f0c88205db8de81e806dd6c203ca252cef9da5123a75037ea"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/state.json",
+      "bytes": 3326,
+      "sha256": "16f615ca53184ac13e095849200a436bfbcf7c5f8153906ed29b4b5aac303c2f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/stdout.log",
+      "bytes": 8375,
+      "sha256": "e73b4dfd64a8ecc7ad3e04d59f2d16f88b1bec81f2a37b8c06fbbb064e973af5"
+    },
+    {
+      "path": "research/42-r005-components-trial.md",
+      "bytes": 7697,
+      "sha256": "4daee768bb641dd6bbe740cf70e244dc044b4384a22cc5044d66c6efeec17219"
+    },
+    {
+      "path": "research/43-r005-components-verification.md",
+      "bytes": 7061,
+      "sha256": "1f7b78e874180b80a4299fa556aad9c7e0cd003ba014b8c757acb98c667903cc"
+    }
+  ]
+}

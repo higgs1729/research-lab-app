@@ -1,0 +1,11 @@
+{
+  "status": "awaiting_explicit_send_instruction",
+  "prepared_at_jst": "2026-11-16T12:39:33+09:00",
+  "draft": "deliverables/vesuvius/2026-11-bundle/PHERC1218_NATIVE_MAP_QUERY_DRAFT.md",
+  "destination": "https://github.com/Jinhojeong/vesuvius-surface-geometry-diagnostic/issues",
+  "account": "higgs1729",
+  "already_sent": false,
+  "reason": "New external message recipient; earlier PHerc0211 approval does not cover this query.",
+  "research_phase": "running",
+  "independent_work": "R248 public surface-pair feasibility is active; this pending answer does not hold all research."
+}

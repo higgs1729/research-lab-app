@@ -1,0 +1,27 @@
+{
+  "status": "pass",
+  "original_XYZ_values_equal": 78561,
+  "fixed_transform_recomputed": true,
+  "phi_inside_approximate_green_box": true,
+  "phi_support_nodes": 272,
+  "node_bbox_xyz": [
+    [
+      3352.646240234375,
+      3333.3369140625,
+      8248.05859375
+    ],
+    [
+      3676.478271484375,
+      3398.444091796875,
+      8552.9794921875
+    ]
+  ],
+  "reported_conservative_bbox_contains_all_support_nodes": true,
+  "conservative_Y_gap_voxels": {
+    "archive-grown": 899.143798828125,
+    "archive-p737-manual": 650.478271484375
+  },
+  "visual_review": "Lead viewed original winning fig01 and the comparison. Prominent vertical cracks near the middle and right align approximately with v9 CT; no pixel-exact mapping or automatic-surface provenance follows from this.",
+  "limits": "No new registration search. Axis-aligned overlap is not same-sheet correspondence. Geometry box includes conservative boundary support; node counts are not physical surface area.",
+  "script_sha256": "9941ec68922baa1d379c4ea33d7e5372625269f8f34e5cd5f7840fbcff39444d"
+}

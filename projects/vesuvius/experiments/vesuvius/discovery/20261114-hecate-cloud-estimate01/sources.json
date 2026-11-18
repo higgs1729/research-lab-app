@@ -1,0 +1,135 @@
+{
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/runpod/runpod-plugins-official/main/plugins/runpod/skills/runpodctl/SKILL.md",
+      "local": "originals/cli-current.md",
+      "utc": "2026-11-14T07:57:23.703149+00:00",
+      "utc_basis": "local saved file time",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 26505,
+      "sha256": "d24bf363d1ab22c0532820b7ea6ac30d68a8030402cced53ffd0193361558af3"
+    },
+    {
+      "url": "https://docs.runpod.io/get-started/credentials.md",
+      "local": "originals/credentials.md",
+      "utc": "2026-11-14T07:57:24.982554+00:00",
+      "utc_basis": "local saved file time",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 9763,
+      "sha256": "4024cb98a1266a401116593daa66596c2cb1e84ba02d76187499d2c782ada342"
+    },
+    {
+      "url": "https://registry-1.docker.io/v2/runpod/pytorch/blobs/sha256:ae2b9b11783f266bdf47d06d86d5d0d8402b6bc4c4ebd46d456a7d18d7139f3a",
+      "local": "originals/docker-config.json",
+      "utc": "2026-11-14T07:58:31.755946+00:00",
+      "utc_basis": "local saved file time",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 43566,
+      "sha256": "ae2b9b11783f266bdf47d06d86d5d0d8402b6bc4c4ebd46d456a7d18d7139f3a"
+    },
+    {
+      "url": "https://registry-1.docker.io/v2/runpod/pytorch/manifests/sha256:e745934b44a4071b1d20a181cdff9e92dc4af3d304cbaafbd0d23f8dacbe5300",
+      "local": "originals/docker-manifest.json",
+      "utc": "2026-11-14T07:58:30.504171+00:00",
+      "utc_basis": "local saved file time",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 8292,
+      "sha256": "e745934b44a4071b1d20a181cdff9e92dc4af3d304cbaafbd0d23f8dacbe5300"
+    },
+    {
+      "url": "https://hub.docker.com/v2/repositories/runpod/pytorch/tags/2.1.0-cu1300-torch2130-ubuntu2404",
+      "local": "originals/docker-tag.json",
+      "utc": "2026-11-14T07:56:11.228426+00:00",
+      "utc_basis": "local saved file time",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 845,
+      "sha256": "1bfd279545f573aa115e0208b498d2c2e2432a7424494af7536f32b3a8af8445"
+    },
+    {
+      "url": "https://docs.runpod.io/pods/templates/environment-variables.md",
+      "local": "originals/env.md",
+      "utc": "2026-11-14T07:57:23.257062+00:00",
+      "utc_basis": "local saved file time",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 6019,
+      "sha256": "66f09469a6c9c30c648046c7d1cc4910cbcaa88b759faea69e87765f8ee22a68"
+    },
+    {
+      "url": "https://docs.runpod.io/pods/manage-pods.md",
+      "local": "originals/manage-pods.md",
+      "utc": "2026-11-14T07:57:23.441450+00:00",
+      "utc_basis": "local saved file time",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 11864,
+      "sha256": "50ec9d7f7187d49fc834f1e9c4b8e9697c6e29468a0d9c41e7fb29e3e3027e17"
+    },
+    {
+      "url": "https://api.runpod.io/v2/openapi.json",
+      "local": "originals/openapi.json",
+      "utc": "2026-11-14T07:55:25.665910+00:00",
+      "utc_basis": "local saved file time",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 422232,
+      "sha256": "41f48a46a68fd023cedf9bb5a53c957a8359fb27d72d8e68b85729cc3ae9f26d"
+    },
+    {
+      "url": "https://docs.runpod.io/pods/pricing.md",
+      "local": "originals/pods-pricing.md",
+      "utc": "2026-11-14T07:56:11.626376+00:00",
+      "utc_basis": "local saved file time",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 5382,
+      "sha256": "66ac21b8a91596fb01d4ab9e6c55ebd86213afccb527186160e45b0a705491ac"
+    },
+    {
+      "url": "https://www.runpod.io/pricing",
+      "local": "originals/pricing.html",
+      "utc": "2026-11-14T07:57:24.830974+00:00",
+      "utc_basis": "local saved file time",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 340314,
+      "sha256": "6b1ff820f0db5d8944225056e3398b2d1eb0d773ff6f06e74f675a174157fdb2"
+    },
+    {
+      "url": "https://docs.runpod.io/accounts-billing/sales-tax.md",
+      "local": "originals/sales-tax.md",
+      "utc": "2026-11-14T07:57:24.721303+00:00",
+      "utc_basis": "local saved file time",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 4533,
+      "sha256": "bba2ba008ed5a436bf7a2519a17757effc3f5a8e7bb5afbcd1b038158a663c12"
+    },
+    {
+      "url": "https://www.runpod.io/blog/rebuilding-pytorch-templates",
+      "local": "originals/templates.html",
+      "utc": "2026-11-14T07:57:25.109406+00:00",
+      "utc_basis": "local saved file time",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 211956,
+      "sha256": "191592de12efee3a4be7552f93ecd5d854cd8b1fa1175fb6bb0d72e3e34e7f78"
+    },
+    {
+      "url": "https://api.runpod.io/v2/catalog/gpus?include=AVAILABILITY&product=POD&count=1&cloud=SECURE&minCudaVersion=13.0",
+      "local": "catalog-snapshot.json",
+      "utc": "2026-11-14T07:56:50.798055+00:00",
+      "utc_basis": "recorded before request",
+      "method": "GET",
+      "http_status": 200,
+      "bytes": 1706,
+      "sha256": "f9c06f205eb30b73bff15a1631342d4b0c6088a569f57fa88369d3dc580e24af",
+      "saved": "selected GPU catalog fields only"
+    }
+  ]
+}

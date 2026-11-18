@@ -1,0 +1,16 @@
+{
+  "patch_forward_seconds": [
+    49.23621389999607,
+    44.81741199999669,
+    46.18849090000003
+  ],
+  "patch_boundary_seconds": [
+    49.279966199996124,
+    44.83130270000402,
+    46.231587299997045
+  ],
+  "projected_remaining_seconds": 3606.0638093997695,
+  "remaining_wall_seconds": 715.9895332000015,
+  "decision": "stop",
+  "observed_before_patch": 4
+}

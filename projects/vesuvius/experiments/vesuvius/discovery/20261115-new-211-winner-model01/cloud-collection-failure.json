@@ -1,0 +1,26 @@
+{
+  "status": "collected_in_memory_but_not_saved_due_to_C_disk_floor",
+  "failed_code": "cloud-assets-a40/run_once.py:255",
+  "condition": "C_free_bytes - archive_bytes >= 10 GiB",
+  "recorded_utc_epoch": 1794735180.9160619,
+  "C_free_bytes_observed_after": 10565263360,
+  "local_results_archive_exists": false,
+  "remote_output_available": false,
+  "gpu_forward_count": null,
+  "gpu_forward_count_reason": "Scientific output/job-result were not persisted before finally deletion; maximum planned96; no GPU retry",
+  "CPU_forward_count_verified": 3,
+  "pod_id": "fz22fx79xv6493",
+  "pod_name": "r229-studio-c12b34d2daf1796c",
+  "delete_receipt": {
+    "pod_id": "fz22fx79xv6493",
+    "absent_from_list": true,
+    "utc": 1794735003.7788665
+  },
+  "lifetime_seconds": 191.77886652946472,
+  "compute_estimate_usd": 0.03143042534788449,
+  "disk_estimate_usd": 0.000147977520470266,
+  "pod_actual_cost_usd": null,
+  "additional_create_requests": 0,
+  "independent_watcher_pid": 54716,
+  "independent_watcher_alive": false
+}

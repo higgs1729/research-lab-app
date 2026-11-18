@@ -1,0 +1,63 @@
+{
+  "source_run": "run02",
+  "target": "/mnt/c/dev/kensyoukin/.work/r009-interrupted-render01/run02/after-l0-chunk.zarr",
+  "observed_process_ids_absent": {
+    "455": true,
+    "447": true
+  },
+  "time_utc": "2026-11-13T08:12:13.961992+00:00",
+  "gdb_exit": 1,
+  "gdb_reaped": true,
+  "signal_path": "os.kill before failed GDB continue",
+  "explicit_sigkill_terminal_status": false,
+  "files": {
+    ".zgroup": {
+      "bytes": 19,
+      "mtime_ns": 1794557360997332800,
+      "inode": 6192449489221776,
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+    },
+    "0/.zarray": {
+      "bytes": 230,
+      "mtime_ns": 1794557360993822900,
+      "inode": 5066549582379149,
+      "sha256": "89e5a7d9713d0706ac706a645287f415579562973323ae1df824030e43e0c7ad"
+    },
+    "0/0/0/0": {
+      "bytes": 114688,
+      "mtime_ns": 1794557361117335200,
+      "inode": 5348024559089940,
+      "sha256": "8d68bf7bbea4248bf0bf76cdd8c4707aeea70b4d95d6837e378f572698ea9630"
+    },
+    "1/.zarray": {
+      "bytes": 230,
+      "mtime_ns": 1794557361007209400,
+      "inode": 5348024559089814,
+      "sha256": "484c9e4bf53ba81d474419ff65a168fb1e38badd580adbb74358cdb2732397a0"
+    },
+    "2/.zarray": {
+      "bytes": 230,
+      "mtime_ns": 1794557361016213400,
+      "inode": 10133099163170988,
+      "sha256": "9df7506ee61d21fc1f90f5b5e1e986553a8b6cafecdf37700daf149625cb48ae"
+    },
+    "3/.zarray": {
+      "bytes": 226,
+      "mtime_ns": 1794557361027215000,
+      "inode": 16044073674094776,
+      "sha256": "9d44a961be0433211d5b772252accac0c4afb85369f85f33a9c8b42173722aaf"
+    },
+    "4/.zarray": {
+      "bytes": 226,
+      "mtime_ns": 1794557361036729300,
+      "inode": 16607023627516142,
+      "sha256": "a5ccb069a352c210b18ea9a9fad98361eb6db43f0644770839b90260fa5b1a64"
+    },
+    "5/.zarray": {
+      "bytes": 226,
+      "mtime_ns": 1794557361046551500,
+      "inode": 267964177830131968,
+      "sha256": "493f346ad31c009828ebee0ab815cb65e8999b2915b7940b5f4c13c4bdfc4b09"
+    }
+  }
+}

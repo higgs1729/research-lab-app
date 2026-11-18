@@ -1,0 +1,1191 @@
+{
+  "baseline": [
+    {
+      "quad": 94120,
+      "cell_yx": [
+        114,
+        988
+      ],
+      "face_ids": [
+        188240,
+        188241
+      ],
+      "uv_ids": [
+        98963,
+        98964,
+        98965,
+        98966
+      ],
+      "moving_ids": [
+        98964,
+        98966
+      ],
+      "uv_vertices": [
+        [
+          10541.501953125,
+          2398.559326171875
+        ],
+        [
+          10543.6435546875,
+          2419.538330078125
+        ],
+        [
+          10551.9169921875,
+          2401.686767578125
+        ],
+        [
+          10552.236328125,
+          2423.031494140625
+        ]
+      ],
+      "grid_vertices_xy": [
+        [
+          527.0855547360658,
+          120.14000339394148
+        ],
+        [
+          527.1926369386412,
+          121.19080817204177
+        ],
+        [
+          527.6063170208205,
+          120.29665193586473
+        ],
+        [
+          527.622284134474,
+          121.36577517733745
+        ]
+      ],
+      "grid_bbox": [
+        [
+          527.0855547360658,
+          120.14000339394148
+        ],
+        [
+          527.622284134474,
+          121.36577517733745
+        ]
+      ],
+      "owned_samples": 0,
+      "distance": 21.979526039585934,
+      "source_centre_xyz": [
+        2876.74853515625,
+        3830.6044921875,
+        3493.5479736328125
+      ]
+    },
+    {
+      "quad": 97936,
+      "cell_yx": [
+        116,
+        988
+      ],
+      "face_ids": [
+        195872,
+        195873
+      ],
+      "uv_ids": [
+        101113,
+        101114,
+        103053,
+        103054
+      ],
+      "moving_ids": [
+        101113,
+        101114,
+        103053,
+        103054
+      ],
+      "uv_vertices": [
+        [
+          10546.107421875,
+          2441.67822265625
+        ],
+        [
+          10554.4365234375,
+          2444.78662109375
+        ],
+        [
+          10549.4677734375,
+          2461.81982421875
+        ],
+        [
+          10557.2890625,
+          2464.6328125
+        ]
+      ],
+      "grid_vertices_xy": [
+        [
+          527.3158327421514,
+          122.29976000844377
+        ],
+        [
+          527.7322960826739,
+          122.45545471849582
+        ],
+        [
+          527.4838536537164,
+          123.3086206414389
+        ],
+        [
+          527.8749258654933,
+          123.4495187288737
+        ]
+      ],
+      "grid_bbox": [
+        [
+          527.3158327421514,
+          122.29976000844377
+        ],
+        [
+          527.8749258654933,
+          123.4495187288737
+        ]
+      ],
+      "owned_samples": 0,
+      "distance": 20.815932833008638,
+      "source_centre_xyz": [
+        2877.1276245117188,
+        3842.0258178710938,
+        3448.0097045898438
+      ]
+    }
+  ],
+  "trial_count": 14,
+  "feasible_count": 10,
+  "eligible_count": 10,
+  "selected": [
+    {
+      "key": "trial0",
+      "quad": 94120,
+      "face": 188240,
+      "moving_vertex": 98964,
+      "pixel_xy": [
+        527,
+        121
+      ],
+      "incident_faces": [
+        188239,
+        188240,
+        188241,
+        192054,
+        192055,
+        192056
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        -4.621393481707249,
+        -2.075444344831746
+      ],
+      "linf_displacement": 4.621393481707249,
+      "minimum_constraint": -2.6645352591003757e-14,
+      "post_float32_minimum_area": 37.921496510505676,
+      "native": {
+        "offered": true,
+        "area2": 33466,
+        "weights_integer": [
+          30140,
+          1610,
+          1716
+        ],
+        "barycentric": [
+          0.9006155729293823,
+          0.048108529299497604,
+          0.05127592012286186
+        ],
+        "point_xyz": [
+          2867.10693359375,
+          3836.5087890625,
+          3485.8427734375
+        ],
+        "grid_vertices_xy": [
+          [
+            526.9615776670557,
+            121.0868527266952
+          ],
+          [
+            527.0855547360658,
+            120.14000339394148
+          ],
+          [
+            527.6063170208205,
+            120.29665193586473
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            134902,
+            30998
+          ],
+          [
+            134934,
+            30756
+          ],
+          [
+            135067,
+            30796
+          ]
+        ]
+      },
+      "own_point_distance": 13.681787614488869,
+      "pixel_previous_owner": 188239,
+      "eligible": true
+    },
+    {
+      "key": "trial12",
+      "quad": 97936,
+      "face": 195873,
+      "moving_vertex": 103054,
+      "pixel_xy": [
+        528,
+        123
+      ],
+      "incident_faces": [
+        195873,
+        195874,
+        195875,
+        199688,
+        199689,
+        199690
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        5.287523468059675,
+        -5.287523468059676
+      ],
+      "linf_displacement": 5.287523468059675,
+      "minimum_constraint": -3.552713678800501e-14,
+      "post_float32_minimum_area": 8.520846843719482,
+      "native": {
+        "offered": true,
+        "area2": 34608,
+        "weights_integer": [
+          1761,
+          9048,
+          23799
+        ],
+        "barycentric": [
+          0.0508841872215271,
+          0.2614424526691437,
+          0.6876733899116516
+        ],
+        "point_xyz": [
+          2886.0517578125,
+          3840.2421875,
+          3441.5751953125
+        ],
+        "grid_vertices_xy": [
+          [
+            527.4838536537164,
+            123.30862064143889
+          ],
+          [
+            527.7322960826739,
+            122.4554547184958
+          ],
+          [
+            528.1392865790106,
+            123.18467141263844
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            135036,
+            31567
+          ],
+          [
+            135099,
+            31349
+          ],
+          [
+            135204,
+            31535
+          ]
+        ]
+      },
+      "own_point_distance": 11.14560012341299,
+      "pixel_previous_owner": 195874,
+      "eligible": true
+    }
+  ],
+  "trials": [
+    {
+      "key": "trial0",
+      "quad": 94120,
+      "face": 188240,
+      "moving_vertex": 98964,
+      "pixel_xy": [
+        527,
+        121
+      ],
+      "incident_faces": [
+        188239,
+        188240,
+        188241,
+        192054,
+        192055,
+        192056
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        -4.621393481707249,
+        -2.075444344831746
+      ],
+      "linf_displacement": 4.621393481707249,
+      "minimum_constraint": -2.6645352591003757e-14,
+      "post_float32_minimum_area": 37.921496510505676,
+      "native": {
+        "offered": true,
+        "area2": 33466,
+        "weights_integer": [
+          30140,
+          1610,
+          1716
+        ],
+        "barycentric": [
+          0.9006155729293823,
+          0.048108529299497604,
+          0.05127592012286186
+        ],
+        "point_xyz": [
+          2867.10693359375,
+          3836.5087890625,
+          3485.8427734375
+        ],
+        "grid_vertices_xy": [
+          [
+            526.9615776670557,
+            121.0868527266952
+          ],
+          [
+            527.0855547360658,
+            120.14000339394148
+          ],
+          [
+            527.6063170208205,
+            120.29665193586473
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            134902,
+            30998
+          ],
+          [
+            134934,
+            30756
+          ],
+          [
+            135067,
+            30796
+          ]
+        ]
+      },
+      "own_point_distance": 13.681787614488869,
+      "pixel_previous_owner": 188239,
+      "eligible": true
+    },
+    {
+      "key": "trial1",
+      "quad": 94120,
+      "face": 188240,
+      "moving_vertex": 98964,
+      "pixel_xy": [
+        527,
+        122
+      ],
+      "incident_faces": [
+        188239,
+        188240,
+        188241,
+        192054,
+        192055,
+        192056
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        -4.621393481707257,
+        20.10755750868058
+      ],
+      "linf_displacement": 20.10755750868058,
+      "minimum_constraint": -2.842170943040401e-14,
+      "post_float32_minimum_area": 2.7980072498321533,
+      "native": {
+        "offered": true,
+        "area2": 71371,
+        "weights_integer": [
+          64188,
+          3545,
+          3638
+        ],
+        "barycentric": [
+          0.8993569016456604,
+          0.049670033156871796,
+          0.050973083823919296
+        ],
+        "point_xyz": [
+          2867.09765625,
+          3836.492431640625,
+          3485.8681640625
+        ],
+        "grid_vertices_xy": [
+          [
+            526.9615776670557,
+            122.19796902772798
+          ],
+          [
+            527.0855547360658,
+            120.14000339394148
+          ],
+          [
+            527.6063170208205,
+            120.29665193586473
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            134902,
+            31283
+          ],
+          [
+            134934,
+            30756
+          ],
+          [
+            135067,
+            30796
+          ]
+        ]
+      },
+      "own_point_distance": 13.66699563558248,
+      "pixel_previous_owner": 192055,
+      "eligible": true
+    },
+    {
+      "key": "trial2",
+      "quad": 94120,
+      "face": 188241,
+      "moving_vertex": 98964,
+      "pixel_xy": [
+        527,
+        121
+      ],
+      "incident_faces": [
+        188239,
+        188240,
+        188241,
+        192054,
+        192055,
+        192056
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        -5.217747648373919,
+        -3.4350092319845227
+      ],
+      "linf_displacement": 5.217747648373919,
+      "minimum_constraint": -8.881784197001252e-15,
+      "post_float32_minimum_area": 27.80641794204712,
+      "native": {
+        "offered": true,
+        "area2": 47868,
+        "weights_integer": [
+          43190,
+          2393,
+          2285
+        ],
+        "barycentric": [
+          0.9022729396820068,
+          0.04999164491891861,
+          0.047735437750816345
+        ],
+        "point_xyz": [
+          2868.25390625,
+          3837.12451171875,
+          3484.83056640625
+        ],
+        "grid_vertices_xy": [
+          [
+            526.9317430907795,
+            121.0187515768146
+          ],
+          [
+            527.6063170208205,
+            120.29665193586473
+          ],
+          [
+            527.622284134474,
+            121.36577517733745
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            134895,
+            30981
+          ],
+          [
+            135067,
+            30796
+          ],
+          [
+            135071,
+            31070
+          ]
+        ]
+      },
+      "own_point_distance": 13.808061547389759,
+      "pixel_previous_owner": 188239,
+      "eligible": true
+    },
+    {
+      "key": "trial3",
+      "quad": 94120,
+      "face": 188241,
+      "moving_vertex": 98964,
+      "pixel_xy": [
+        527,
+        122
+      ],
+      "incident_faces": [
+        188239,
+        188240,
+        188241,
+        192054,
+        192055,
+        192056
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        -5.217747648373915,
+        18.747992621527775
+      ],
+      "linf_displacement": 18.747992621527775,
+      "minimum_constraint": -1.2434497875801753e-14,
+      "post_float32_minimum_area": 6.214360594749451,
+      "native": {
+        "offered": true,
+        "area2": 49004,
+        "weights_integer": [
+          44214,
+          2493,
+          2297
+        ],
+        "barycentric": [
+          0.9022528529167175,
+          0.050873398780822754,
+          0.046873725950717926
+        ],
+        "point_xyz": [
+          2868.253173828125,
+          3837.111572265625,
+          3484.84814453125
+        ],
+        "grid_vertices_xy": [
+          [
+            526.9317430907795,
+            122.12986787784737
+          ],
+          [
+            527.6063170208205,
+            120.29665193586473
+          ],
+          [
+            527.622284134474,
+            121.36577517733745
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            134895,
+            31265
+          ],
+          [
+            135067,
+            30796
+          ],
+          [
+            135071,
+            31070
+          ]
+        ]
+      },
+      "own_point_distance": 13.791311817043614,
+      "pixel_previous_owner": 192055,
+      "eligible": true
+    },
+    {
+      "key": "trial4",
+      "quad": 94120,
+      "face": 188241,
+      "moving_vertex": 98966,
+      "pixel_xy": [
+        528,
+        121
+      ],
+      "incident_faces": [
+        188241,
+        188242,
+        188243,
+        192056,
+        192057,
+        192058
+      ],
+      "success": false,
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "key": "trial5",
+      "quad": 94120,
+      "face": 188241,
+      "moving_vertex": 98966,
+      "pixel_xy": [
+        528,
+        122
+      ],
+      "incident_faces": [
+        188241,
+        188242,
+        188243,
+        192056,
+        192057,
+        192058
+      ],
+      "success": false,
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "key": "trial6",
+      "quad": 97936,
+      "face": 195872,
+      "moving_vertex": 101113,
+      "pixel_xy": [
+        527,
+        122
+      ],
+      "incident_faces": [
+        192055,
+        192056,
+        192057,
+        195870,
+        195871,
+        195872
+      ],
+      "success": false,
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "key": "trial7",
+      "quad": 97936,
+      "face": 195872,
+      "moving_vertex": 101113,
+      "pixel_xy": [
+        527,
+        123
+      ],
+      "incident_faces": [
+        192055,
+        192056,
+        192057,
+        195870,
+        195871,
+        195872
+      ],
+      "success": false,
+      "status": 2,
+      "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)"
+    },
+    {
+      "key": "trial8",
+      "quad": 97936,
+      "face": 195872,
+      "moving_vertex": 101114,
+      "pixel_xy": [
+        528,
+        122
+      ],
+      "incident_faces": [
+        192057,
+        192058,
+        192059,
+        195872,
+        195873,
+        195874
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        6.687627447506299,
+        -10.87695312499999
+      ],
+      "linf_displacement": 10.87695312499999,
+      "minimum_constraint": -1.1013412404281553e-13,
+      "post_float32_minimum_area": 0.8010271787643433,
+      "native": {
+        "offered": true,
+        "area2": 53836,
+        "weights_integer": [
+          2716,
+          2659,
+          48461
+        ],
+        "barycentric": [
+          0.05044951289892197,
+          0.04939074069261551,
+          0.9001597166061401
+        ],
+        "point_xyz": [
+          2886.078369140625,
+          3843.44580078125,
+          3458.4501953125
+        ],
+        "grid_vertices_xy": [
+          [
+            527.4838536537164,
+            123.30862064143889
+          ],
+          [
+            527.3158327421514,
+            122.29976000844377
+          ],
+          [
+            528.0666777166167,
+            121.91064551945097
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            135036,
+            31567
+          ],
+          [
+            134993,
+            31309
+          ],
+          [
+            135185,
+            31209
+          ]
+        ]
+      },
+      "own_point_distance": 13.82519538404073,
+      "pixel_previous_owner": 192059,
+      "eligible": true
+    },
+    {
+      "key": "trial9",
+      "quad": 97936,
+      "face": 195872,
+      "moving_vertex": 101114,
+      "pixel_xy": [
+        528,
+        123
+      ],
+      "incident_faces": [
+        192057,
+        192058,
+        192059,
+        195872,
+        195873,
+        195874
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        6.86433660141243,
+        11.219225818714074
+      ],
+      "linf_displacement": 11.219225818714074,
+      "minimum_constraint": 4.551914400963142e-15,
+      "post_float32_minimum_area": 0.06746625900268555,
+      "native": {
+        "offered": true,
+        "area2": 42183,
+        "weights_integer": [
+          2701,
+          2029,
+          37453
+        ],
+        "barycentric": [
+          0.06403053551912308,
+          0.04809994623064995,
+          0.8878695368766785
+        ],
+        "point_xyz": [
+          2885.81787109375,
+          3843.406982421875,
+          3458.13623046875
+        ],
+        "grid_vertices_xy": [
+          [
+            527.4838536537164,
+            123.30862064143889
+          ],
+          [
+            527.3158327421514,
+            122.29976000844377
+          ],
+          [
+            528.0755157825839,
+            123.0174084339947
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            135036,
+            31567
+          ],
+          [
+            134993,
+            31309
+          ],
+          [
+            135187,
+            31492
+          ]
+        ]
+      },
+      "own_point_distance": 13.415458529211687,
+      "pixel_previous_owner": 195874,
+      "eligible": true
+    },
+    {
+      "key": "trial10",
+      "quad": 97936,
+      "face": 195873,
+      "moving_vertex": 101114,
+      "pixel_xy": [
+        528,
+        122
+      ],
+      "incident_faces": [
+        192057,
+        192058,
+        192059,
+        195872,
+        195873,
+        195874
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        6.066425190561847,
+        -12.152208116319407
+      ],
+      "linf_displacement": 12.152208116319407,
+      "minimum_constraint": -2.255973186038318e-13,
+      "post_float32_minimum_area": 6.820988178253174,
+      "native": {
+        "offered": true,
+        "area2": 42476,
+        "weights_integer": [
+          2091,
+          38252,
+          2133
+        ],
+        "barycentric": [
+          0.04922780022025108,
+          0.9005556106567383,
+          0.050216592848300934
+        ],
+        "point_xyz": [
+          2887.08935546875,
+          3843.15478515625,
+          3457.18798828125
+        ],
+        "grid_vertices_xy": [
+          [
+            527.4838536537164,
+            123.30862064143889
+          ],
+          [
+            528.035622412997,
+            121.84677546992206
+          ],
+          [
+            527.8749258654933,
+            123.44951872887368
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            135036,
+            31567
+          ],
+          [
+            135177,
+            31193
+          ],
+          [
+            135136,
+            31603
+          ]
+        ]
+      },
+      "own_point_distance": 13.592333953782983,
+      "pixel_previous_owner": 192059,
+      "eligible": true
+    },
+    {
+      "key": "trial11",
+      "quad": 97936,
+      "face": 195873,
+      "moving_vertex": 101114,
+      "pixel_xy": [
+        528,
+        123
+      ],
+      "incident_faces": [
+        192057,
+        192058,
+        192059,
+        195872,
+        195873,
+        195874
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        7.044301586297235,
+        7.0443015862972365
+      ],
+      "linf_displacement": 7.044301586297235,
+      "minimum_constraint": 7.460698725481052e-14,
+      "post_float32_minimum_area": 10.80189049243927,
+      "native": {
+        "offered": true,
+        "area2": 18344,
+        "weights_integer": [
+          962,
+          12652,
+          4730
+        ],
+        "barycentric": [
+          0.052442215383052826,
+          0.6897078156471252,
+          0.2578499913215637
+        ],
+        "point_xyz": [
+          2886.694580078125,
+          3842.19873046875,
+          3452.041015625
+        ],
+        "grid_vertices_xy": [
+          [
+            527.4838536537164,
+            123.30862064143889
+          ],
+          [
+            528.0845003358324,
+            122.808286910542
+          ],
+          [
+            527.8749258654933,
+            123.44951872887368
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            135036,
+            31567
+          ],
+          [
+            135190,
+            31439
+          ],
+          [
+            135136,
+            31603
+          ]
+        ]
+      },
+      "own_point_distance": 10.383063432253138,
+      "pixel_previous_owner": 195874,
+      "eligible": true
+    },
+    {
+      "key": "trial12",
+      "quad": 97936,
+      "face": 195873,
+      "moving_vertex": 103054,
+      "pixel_xy": [
+        528,
+        123
+      ],
+      "incident_faces": [
+        195873,
+        195874,
+        195875,
+        199688,
+        199689,
+        199690
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        5.287523468059675,
+        -5.287523468059676
+      ],
+      "linf_displacement": 5.287523468059675,
+      "minimum_constraint": -3.552713678800501e-14,
+      "post_float32_minimum_area": 8.520846843719482,
+      "native": {
+        "offered": true,
+        "area2": 34608,
+        "weights_integer": [
+          1761,
+          9048,
+          23799
+        ],
+        "barycentric": [
+          0.0508841872215271,
+          0.2614424526691437,
+          0.6876733899116516
+        ],
+        "point_xyz": [
+          2886.0517578125,
+          3840.2421875,
+          3441.5751953125
+        ],
+        "grid_vertices_xy": [
+          [
+            527.4838536537164,
+            123.30862064143889
+          ],
+          [
+            527.7322960826739,
+            122.4554547184958
+          ],
+          [
+            528.1392865790106,
+            123.18467141263844
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            135036,
+            31567
+          ],
+          [
+            135099,
+            31349
+          ],
+          [
+            135204,
+            31535
+          ]
+        ]
+      },
+      "own_point_distance": 11.14560012341299,
+      "pixel_previous_owner": 195874,
+      "eligible": true
+    },
+    {
+      "key": "trial13",
+      "quad": 97936,
+      "face": 195873,
+      "moving_vertex": 103054,
+      "pixel_xy": [
+        528,
+        124
+      ],
+      "incident_faces": [
+        195873,
+        195874,
+        195875,
+        199688,
+        199689,
+        199690
+      ],
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        3.372360520422972,
+        13.470170373690777
+      ],
+      "linf_displacement": 13.470170373690777,
+      "minimum_constraint": -2.1316282072803006e-14,
+      "post_float32_minimum_area": 22.03290855884552,
+      "native": {
+        "offered": true,
+        "area2": 44341,
+        "weights_integer": [
+          2137,
+          2277,
+          39927
+        ],
+        "barycentric": [
+          0.04819467291235924,
+          0.05135202035307884,
+          0.9004533290863037
+        ],
+        "point_xyz": [
+          2885.7744140625,
+          3839.27880859375,
+          3436.43798828125
+        ],
+        "grid_vertices_xy": [
+          [
+            527.4838536537164,
+            123.30862064143889
+          ],
+          [
+            527.7322960826739,
+            122.4554547184958
+          ],
+          [
+            528.0435327261832,
+            124.12422026299338
+          ]
+        ],
+        "snapped_vertices_xy": [
+          [
+            135036,
+            31567
+          ],
+          [
+            135099,
+            31349
+          ],
+          [
+            135179,
+            31776
+          ]
+        ]
+      },
+      "own_point_distance": 14.70434112199139,
+      "pixel_previous_owner": 199690,
+      "eligible": true
+    }
+  ],
+  "grid_shape_yx": [
+    245,
+    3043
+  ],
+  "grid_pitch_xy": [
+    19.999603211291912,
+    19.96470166816086
+  ],
+  "elapsed_seconds": 0.662566400016658,
+  "limits": "One vertex at a time with all other coordinates fixed. Barycentric margin0.05 and incident altitude0.01 are diagnostic choices, not global impossibility or adoption rules. Fixed-point offering is a local replay; native full mesh still required. Candidate vertices selected from prior N interior124; no boundary move."
+}

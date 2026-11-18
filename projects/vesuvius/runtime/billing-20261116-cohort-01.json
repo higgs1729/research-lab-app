@@ -1,0 +1,601 @@
+{
+  "utc": "2026-11-15T17:08:02.740333+00:00",
+  "scope": "14 distinct Pod IDs in saved project launch-receipt.json files. Not an assertion that all research expenses are represented. Excludes foreign resources. No account-balance attribution.",
+  "resource_mutations": 0,
+  "billed_resources": 13,
+  "pending_ids": [
+    "3spuikvh641nms"
+  ],
+  "observed_subtotal_USD_decimal": "0.8777160356985405343",
+  "rows": [
+    {
+      "pod_id": "1fowigjpcnf6mx",
+      "name": "r201-hecate-fbf65460e5652f51",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261114-pherc0846a-wider-hecate01\\run01\\launch-receipt.json",
+      "launch_receipt_sha256": "277aa41f418987e8ce28daeba493c5a548b12fc3ca1edd9576b6abff573b8b6b",
+      "observed_total_USD": 0.007300966419279575,
+      "utc": "2026-11-15T17:07:57.733789+00:00",
+      "query": {
+        "podId": "1fowigjpcnf6mx",
+        "bucketSize": "hour",
+        "startTime": "2026-11-14T12:00:00+00:00",
+        "endTime": "2026-11-15T18:07:56.740512+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "endTime": "2026-11-14T13:00:00Z",
+          "gpuAmount": 0.007300966419279575,
+          "podId": "1fowigjpcnf6mx",
+          "startTime": "2026-11-14T12:00:00Z",
+          "totalAmount": 0.007300966419279575
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "1fowigjpcnf6mx",
+          "startTime": "2026-11-14T12:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "gpuAmount": 0.007300966419279575,
+          "totalAmount": 0.007300966419279575
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "pod_id": "1rznb9oa1abxn1",
+      "name": "r230-studio-c3591d95c9a563ed",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261115-studio-reserved-capture01\\cloud-run\\launch-receipt.json",
+      "launch_receipt_sha256": "2f3fe728dab18bf81c43e6b9472b0a9c95a15f5200f3626a1ae771b3aa8cddd2",
+      "observed_total_USD": 0.03922057896852493,
+      "utc": "2026-11-15T17:07:58.172558+00:00",
+      "query": {
+        "podId": "1rznb9oa1abxn1",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T09:00:00+00:00",
+        "endTime": "2026-11-15T18:07:57.734216+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "endTime": "2026-11-15T11:00:00Z",
+          "gpuAmount": 0.03922057896852493,
+          "podId": "1rznb9oa1abxn1",
+          "startTime": "2026-11-15T10:00:00Z",
+          "totalAmount": 0.03922057896852493
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "1rznb9oa1abxn1",
+          "startTime": "2026-11-15T09:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "gpuAmount": 0.03922057896852493,
+          "totalAmount": 0.03922057896852493
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "pod_id": "3spuikvh641nms",
+      "name": "r242-studio-3883a61468d540c4",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261116-pherc0211-clipped-context01\\cloud-run-h100\\launch-receipt.json",
+      "launch_receipt_sha256": "743c5e8235aa90c86c42fa0adbe99c9ac6bfa5b05daddc0b49a19756fe6fdd40",
+      "observed_total_USD": null,
+      "utc": "2026-11-15T17:05:43.190274+00:00",
+      "query": {
+        "podId": "3spuikvh641nms",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T16:00:00+00:00",
+        "endTime": "2026-11-15T18:05:42.132248+00:00"
+      },
+      "http_status": 200,
+      "records": [],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "3spuikvh641nms",
+          "startTime": "2026-11-15T16:00:00Z"
+        },
+        "recordCount": 0,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "gpuAmount": 0,
+          "totalAmount": 0
+        },
+        "uniquePodCount": 0
+      },
+      "receipt_reused": "runtime/billing-20261116-r242-01.json"
+    },
+    {
+      "pod_id": "454gtwei28qt70",
+      "name": "r201-hecate-ddb021832f07fc02",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261114-pherc0846a-wider-hecate-run02\\run01\\launch-receipt.json",
+      "launch_receipt_sha256": "5871fe3bcb1929f3ab1f2a9bbb98c732ff121dd26d52a58ac46975669b3fcffb",
+      "observed_total_USD": 0.14852707157842815,
+      "utc": "2026-11-15T17:07:58.579941+00:00",
+      "query": {
+        "podId": "454gtwei28qt70",
+        "bucketSize": "hour",
+        "startTime": "2026-11-14T12:00:00+00:00",
+        "endTime": "2026-11-15T18:07:58.181483+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0.00046296301297843456,
+          "endTime": "2026-11-14T13:00:00Z",
+          "gpuAmount": 0.14806410856544971,
+          "podId": "454gtwei28qt70",
+          "startTime": "2026-11-14T12:00:00Z",
+          "totalAmount": 0.14852707157842815
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "454gtwei28qt70",
+          "startTime": "2026-11-14T12:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0.00046296301297843456,
+          "gpuAmount": 0.14806410856544971,
+          "totalAmount": 0.14852707157842815
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "pod_id": "4grhbmsglcz5tj",
+      "name": "r219-hecate-1bbaf595bd401713",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261115-pherc0800-two-window-hecate01\\run02\\launch-receipt.json",
+      "launch_receipt_sha256": "92fe5c43bd967af07901e2d82eea0c3a7764dcd09a23a2ae4b89749b53439773",
+      "observed_total_USD": 0.018594099208712578,
+      "utc": "2026-11-15T17:07:58.947546+00:00",
+      "query": {
+        "podId": "4grhbmsglcz5tj",
+        "bucketSize": "hour",
+        "startTime": "2026-11-14T16:00:00+00:00",
+        "endTime": "2026-11-15T18:07:58.580406+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "endTime": "2026-11-14T17:00:00Z",
+          "gpuAmount": 0.018594099208712578,
+          "podId": "4grhbmsglcz5tj",
+          "startTime": "2026-11-14T16:00:00Z",
+          "totalAmount": 0.018594099208712578
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "4grhbmsglcz5tj",
+          "startTime": "2026-11-14T16:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "gpuAmount": 0.018594099208712578,
+          "totalAmount": 0.018594099208712578
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "pod_id": "54g607o5gbhsk1",
+      "name": "r231-studio-c91feb332541e089",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261115-studio-canada-control01\\cloud-run\\launch-receipt.json",
+      "launch_receipt_sha256": "dfb1cf7436df1b5d952e39d04f74f0ecfd88c969afd7b672766ea5af486d70f6",
+      "observed_total_USD": 0.04321855248417705,
+      "utc": "2026-11-15T17:07:59.325562+00:00",
+      "query": {
+        "podId": "54g607o5gbhsk1",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T10:00:00+00:00",
+        "endTime": "2026-11-15T18:07:58.947972+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0.00023148150648921728,
+          "endTime": "2026-11-15T11:00:00Z",
+          "gpuAmount": 0.042987070977687836,
+          "podId": "54g607o5gbhsk1",
+          "startTime": "2026-11-15T10:00:00Z",
+          "totalAmount": 0.04321855248417705
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "54g607o5gbhsk1",
+          "startTime": "2026-11-15T10:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0.00023148150648921728,
+          "gpuAmount": 0.042987070977687836,
+          "totalAmount": 0.04321855248417705
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "pod_id": "cdennye0tecc74",
+      "name": "r201-hecate-5d434966c490062d",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261114-runpod-exec-diagnostic01\\run01\\launch-receipt.json",
+      "launch_receipt_sha256": "1d4dfaaf97352dd4f172b99d349905fd503e060d4056ea4841c33ab8717acecf",
+      "observed_total_USD": 0.030461568268947303,
+      "utc": "2026-11-15T17:07:59.698161+00:00",
+      "query": {
+        "podId": "cdennye0tecc74",
+        "bucketSize": "hour",
+        "startTime": "2026-11-14T11:00:00+00:00",
+        "endTime": "2026-11-15T18:07:59.325927+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0.00023148150648921728,
+          "endTime": "2026-11-14T12:00:00Z",
+          "gpuAmount": 0.030230086762458086,
+          "podId": "cdennye0tecc74",
+          "startTime": "2026-11-14T11:00:00Z",
+          "totalAmount": 0.030461568268947303
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "cdennye0tecc74",
+          "startTime": "2026-11-14T11:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0.00023148150648921728,
+          "gpuAmount": 0.030230086762458086,
+          "totalAmount": 0.030461568268947303
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "pod_id": "dwuiaamlk3334s",
+      "name": "r232-studio-b3fa0c4d345c5c15",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261115-studio-device-normalization01\\cloud-run\\launch-receipt.json",
+      "launch_receipt_sha256": "eb2cbd1df7b7e746d96dd56a4d054f6b916d68c2a83cdcbdcb93ef6e660aa0ce",
+      "observed_total_USD": 0.048183240345679224,
+      "utc": "2026-11-15T17:08:00.116023+00:00",
+      "query": {
+        "podId": "dwuiaamlk3334s",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T10:00:00+00:00",
+        "endTime": "2026-11-15T18:07:59.698513+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0.00023148150648921728,
+          "endTime": "2026-11-15T11:00:00Z",
+          "gpuAmount": 0.014407635666429996,
+          "podId": "dwuiaamlk3334s",
+          "startTime": "2026-11-15T10:00:00Z",
+          "totalAmount": 0.014639117172919214
+        },
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "endTime": "2026-11-15T12:00:00Z",
+          "gpuAmount": 0.03354412317276001,
+          "podId": "dwuiaamlk3334s",
+          "startTime": "2026-11-15T11:00:00Z",
+          "totalAmount": 0.03354412317276001
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "dwuiaamlk3334s",
+          "startTime": "2026-11-15T10:00:00Z"
+        },
+        "recordCount": 2,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0.00023148150648921728,
+          "gpuAmount": 0.047951758839190006,
+          "totalAmount": 0.048183240345679224
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "pod_id": "fz22fx79xv6493",
+      "name": "r229-studio-c12b34d2daf1796c",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\cloud-run-a40\\launch-receipt.json",
+      "launch_receipt_sha256": "11c37c41377889294349d465d98097005fabbafc8a5be2ad7f1c1035639e097f",
+      "observed_total_USD": 0.030153753235936165,
+      "utc": "2026-11-15T17:08:00.688693+00:00",
+      "query": {
+        "podId": "fz22fx79xv6493",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T09:00:00+00:00",
+        "endTime": "2026-11-15T18:08:00.116441+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "endTime": "2026-11-15T10:00:00Z",
+          "gpuAmount": 0.030153753235936165,
+          "podId": "fz22fx79xv6493",
+          "startTime": "2026-11-15T09:00:00Z",
+          "totalAmount": 0.030153753235936165
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "fz22fx79xv6493",
+          "startTime": "2026-11-15T09:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "gpuAmount": 0.030153753235936165,
+          "totalAmount": 0.030153753235936165
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "pod_id": "pqgmm8obc1rojl",
+      "name": "r201-hecate-3c44b0a6d15cf04c",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261114-pherc0846a-hecate-cloud-run01\\run01\\launch-receipt.json",
+      "launch_receipt_sha256": "2878096ac10b7b8595733193adf291cc77978d6ceb15941f2caffff78ee75497",
+      "observed_total_USD": 0.0009945749770849943,
+      "utc": "2026-11-15T17:08:01.062078+00:00",
+      "query": {
+        "podId": "pqgmm8obc1rojl",
+        "bucketSize": "hour",
+        "startTime": "2026-11-14T11:00:00+00:00",
+        "endTime": "2026-11-15T18:08:00.689210+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "endTime": "2026-11-14T12:00:00Z",
+          "gpuAmount": 0.0009945749770849943,
+          "podId": "pqgmm8obc1rojl",
+          "startTime": "2026-11-14T11:00:00Z",
+          "totalAmount": 0.0009945749770849943
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "pqgmm8obc1rojl",
+          "startTime": "2026-11-14T11:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0,
+          "gpuAmount": 0.0009945749770849943,
+          "totalAmount": 0.0009945749770849943
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "pod_id": "tbj4mepark90np",
+      "name": "r233-studio-ba1b3b7efa556de7",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261115-studio-pherc0800-fixed01\\cloud-run\\launch-receipt.json",
+      "launch_receipt_sha256": "b430beb741ece77828fef6d225532602b67a7f2e5836da23351f5dd16ff14815",
+      "observed_total_USD": 0.09208209603093565,
+      "utc": "2026-11-15T17:08:01.453300+00:00",
+      "query": {
+        "podId": "tbj4mepark90np",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T11:00:00+00:00",
+        "endTime": "2026-11-15T18:08:01.062435+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0.00046296301297843456,
+          "endTime": "2026-11-15T12:00:00Z",
+          "gpuAmount": 0.09161913301795721,
+          "podId": "tbj4mepark90np",
+          "startTime": "2026-11-15T11:00:00Z",
+          "totalAmount": 0.09208209603093565
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "tbj4mepark90np",
+          "startTime": "2026-11-15T11:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0.00046296301297843456,
+          "gpuAmount": 0.09161913301795721,
+          "totalAmount": 0.09208209603093565
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "pod_id": "uh56ny6t7mpdqx",
+      "name": "r239-studio-31e322a51025b003",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261115-pherc0211-approximate-window-screen01\\cloud-run\\launch-receipt.json",
+      "launch_receipt_sha256": "36c86ab3ed87fbd05a9b5f2874045ca3915df64562fd601785b0b2693bbeb1b8",
+      "observed_total_USD": 0.07036445417907089,
+      "utc": "2026-11-15T17:08:01.924777+00:00",
+      "query": {
+        "podId": "uh56ny6t7mpdqx",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T14:00:00+00:00",
+        "endTime": "2026-11-15T18:08:01.453721+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0.00023148150648921728,
+          "endTime": "2026-11-15T15:00:00Z",
+          "gpuAmount": 0.07013297267258167,
+          "podId": "uh56ny6t7mpdqx",
+          "startTime": "2026-11-15T14:00:00Z",
+          "totalAmount": 0.07036445417907089
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "uh56ny6t7mpdqx",
+          "startTime": "2026-11-15T14:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0.00023148150648921728,
+          "gpuAmount": 0.07013297267258167,
+          "totalAmount": 0.07036445417907089
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "pod_id": "xfgdrhe6khrxxe",
+      "name": "r217-hecate-f383a08f63639d59",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261115-pherc0191-fixed-pair-ink01\\run01\\launch-receipt.json",
+      "launch_receipt_sha256": "e5aea67c1e0571ecc0612cfc1453d954eb21d719864da5d3e5ce4493f484f4bb",
+      "observed_total_USD": 0.3169562644325197,
+      "utc": "2026-11-15T17:08:02.305431+00:00",
+      "query": {
+        "podId": "xfgdrhe6khrxxe",
+        "bucketSize": "hour",
+        "startTime": "2026-11-14T15:00:00+00:00",
+        "endTime": "2026-11-15T18:08:01.925147+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0.0009259260259568691,
+          "endTime": "2026-11-14T16:00:00Z",
+          "gpuAmount": 0.3160303384065628,
+          "podId": "xfgdrhe6khrxxe",
+          "startTime": "2026-11-14T15:00:00Z",
+          "totalAmount": 0.3169562644325197
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "xfgdrhe6khrxxe",
+          "startTime": "2026-11-14T15:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0.0009259260259568691,
+          "gpuAmount": 0.3160303384065628,
+          "totalAmount": 0.3169562644325197
+        },
+        "uniquePodCount": 1
+      }
+    },
+    {
+      "pod_id": "xpbuoy304rmuaz",
+      "name": "r236-studio-26992626130f3add",
+      "launch_receipt": "experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\cloud-run\\launch-receipt.json",
+      "launch_receipt_sha256": "4bbad49fbc554c5c85675b39e4a8df780aa6990a04beed0a5177b8eabf53a605",
+      "observed_total_USD": 0.031658815569244325,
+      "utc": "2026-11-15T17:08:02.738044+00:00",
+      "query": {
+        "podId": "xpbuoy304rmuaz",
+        "bucketSize": "hour",
+        "startTime": "2026-11-15T13:00:00+00:00",
+        "endTime": "2026-11-15T18:08:02.305842+00:00"
+      },
+      "http_status": 200,
+      "records": [
+        {
+          "cpuAmount": 0,
+          "diskAmount": 0.00023148150648921728,
+          "endTime": "2026-11-15T14:00:00Z",
+          "gpuAmount": 0.03142733406275511,
+          "podId": "xpbuoy304rmuaz",
+          "startTime": "2026-11-15T13:00:00Z",
+          "totalAmount": 0.031658815569244325
+        }
+      ],
+      "metadata": {
+        "query": {
+          "bucketSize": "hour",
+          "endTime": "2026-11-15T19:00:00Z",
+          "podId": "xpbuoy304rmuaz",
+          "startTime": "2026-11-15T13:00:00Z"
+        },
+        "recordCount": 1,
+        "totals": {
+          "cpuAmount": 0,
+          "diskAmount": 0.00023148150648921728,
+          "gpuAmount": 0.03142733406275511,
+          "totalAmount": 0.031658815569244325
+        },
+        "uniquePodCount": 1
+      }
+    }
+  ],
+  "final_invoice_confirmed": false
+}

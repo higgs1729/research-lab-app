@@ -1,0 +1,42 @@
+{
+  "observed_utc": "2026-11-11T11:15:59.084181+00:00",
+  "state": {
+    "status": "running",
+    "pid": 275,
+    "command": [
+      "cmake",
+      "--build",
+      "/mnt/d/kensyoukin-work/r003-build",
+      "--target",
+      "flatboi",
+      "check_slim_assembly",
+      "--parallel",
+      "1"
+    ],
+    "source_unchanged": true,
+    "started_utc": "2026-11-11T11:13:30.478796+00:00",
+    "timeout_seconds": 1800,
+    "address_space_limit_bytes": 4294967296,
+    "environment_workaround": "../20261111-header-debug/forwarders-manifest.json",
+    "child_pid": 384
+  },
+  "log_first_lines": [
+    "[0/2] Re-checking globbed directories...",
+    "[1/166] Building CXX object libs/flatboi/CMakeFiles/flatboi.dir/flatboi.cpp.o",
+    "In file included from /mnt/d/kensyoukin-work/r003-villa/volume-cartographer/libs/flatboi/flatboi.cpp:2:",
+    "/mnt/d/kensyoukin-work/r003-build/_deps/libigl-src/include/igl/slim.h:21: warning: \"SLIM_CACHED\" redefined",
+    "   21 | #define SLIM_CACHED",
+    "      | ",
+    "<command-line>: note: this is the location of the previous definition",
+    "[1/166] cd /mnt/d/kensyoukin-work/r003-build/libs/flatboi/tests && /usr/bin/cmake -E env PASTIX_NUM_THREADS=2 OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 VECLIB_MAXIMUM_THREADS=2 /mnt/d/kensyoukin-work/r003-build/bin/test_slim_assembly",
+    "[pastix] IPARM_THREAD_NBR=2 (matrix n=8, lower_nnz=32)",
+    "[pastix] IPARM_THREAD_NBR=2 (matrix n=8, lower_nnz=32)"
+  ],
+  "log_last_lines": [
+    "[15/166] Building CXX object reader/CMakeFiles/vc_reader_native.dir/src/cpp/native_reader.cpp.o",
+    "[16/166] Building CXX object reader/CMakeFiles/vc_reader_native.dir/src/cpp/pathfinding/pathfinding.cpp.o",
+    "[17/166] Building CXX object reader/CMakeFiles/vc_reader_native.dir/src/cpp/composite/reduce.cpp.o",
+    "[18/166] Building CXX object reader/CMakeFiles/vc_reader_native.dir/src/cpp/computed.cpp.o",
+    "[19/166] Building CXX object reader/CMakeFiles/vc_reader_native.dir/src/cpp/grid/grid.cpp.o"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "reviewer": "research agent / Astra xhigh",
+  "stage": "before root public-known-phi visual review was communicated",
+  "image": "review/public-known-phi-raw8-native.png",
+  "image_sha256": "c0356eec4c2f5b86e0578a779619ed9779646cab6975fc5a43dcd5ee3eab80fc",
+  "inspection": "Native 320x300 raw8 grayscale image opened with view_image; no other crop, contrast, threshold, or zoom selected",
+  "prior_information": "Reviewer knew that R236 designated this fixed ROI as known phi; this is not a blinded character-recognition test",
+  "observations_ja": [
+    "96x96対で見えた太い帯だけでなく、中央上寄りの暗い内側を囲む幅の太い明部と、中央から下端へ伸びる縦方向の明部が見える。中央上方向にも明部があり、粗い環状部と縦軸の組合せとしてφ様の形を追うことはできる。",
+    "輪郭は全体に強くぼけ、右側の太い明部は隣接部と連続している。上下・左右の構造は画像端で切れ、左上には黒い欠損状の境界がある。細い字画、明確な接続点、文字境界をこの図から確定できない。",
+    "固定された既知領域の全体的な形を後の同表示図と比較する参考としては96x96対より情報がある。ただし、ラベルを知らない単独像からφを確実に同定した、文字列を読めた、との判断はしない。"
+  ],
+  "interpretation_ja": "φ様の粗い構造は視認できるが、単独の確実な文字同定ではない。公開全体像を比較用の参照とすることと、未知画像の反応を文字候補として採用できることは別に判断する。GPU実施や未知候補の採用をこの所見だけで決定しない。",
+  "no_conclusions_about": ["unknown ROI", "local FP32 full-phi reproduction", "old R236 gate passing", "discovery or novelty"],
+  "model_forwards": 0,
+  "new_CT_bytes": 0,
+  "paid_cost_USD": 0
+}

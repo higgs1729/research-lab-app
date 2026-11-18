@@ -1,0 +1,13 @@
+{
+  "reviewer": "root",
+  "utc": "2026-11-14T12:38:53.268188+00:00",
+  "launch_cleared": true,
+  "change": "Only release the short 404-specific deadline after documented 409/503 response, preserving original readiness deadline and 3 total 404 limit",
+  "readiness_diff_sha256": "0fcdb53f07df8ed6572f9e48d3ccf8c5dbd962048d2f774cad2a0ef562fe663d",
+  "launcher_sha256": "226ca1c6aa2166c1db5224517f30dc0a76a01e4f7c7e4037e6d9dcbaa1f5acd6",
+  "fixed_r207_tar_sha256": "aed0b122344c9642f6d7f432a6cbad90433eea0046fed1d258d7c0f7ae5b09da",
+  "fixed_r207_tar_bytes": 35512320,
+  "review": "Read exact patch and mock clock/API test source; reviewed successful 34s transition, 3x404 stop, 240s deadline and unchanged1500s delete. Prior R207 scientific data/input review retained. No extra model or CPU run.",
+  "cost_and_ownership": "Same current balance/rate/other-Pod checks; one new Pod max25min/.50 operating budget; preserve other jobs; own-ID billing if available, estimates labeled.",
+  "network_calls_by_parent": 0
+}

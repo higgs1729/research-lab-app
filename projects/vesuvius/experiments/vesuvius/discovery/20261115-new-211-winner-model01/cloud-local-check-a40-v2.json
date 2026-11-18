@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "payload_bytes": 6980298,
+  "all_archive_members_sha256_checked": true,
+  "weight_in_archive": false,
+  "GPU": {
+    "id": "NVIDIA A40",
+    "count": 1,
+    "minCudaVersion": "13.0",
+    "minRamPerGpu": 8,
+    "minVcpuCountPerGpu": 1
+  },
+  "deadline_checks": [
+    {
+      "boot": 0,
+      "transfer": 480,
+      "model": 1380,
+      "collection_latest": 1740,
+      "absolute_delete": 1800
+    },
+    {
+      "boot": 120,
+      "transfer": 600,
+      "model": 1500,
+      "collection_latest": 1740,
+      "absolute_delete": 1800
+    },
+    {
+      "boot": 240,
+      "transfer": 720,
+      "model": 1620,
+      "collection_latest": 1740,
+      "absolute_delete": 1800
+    }
+  ],
+  "network_calls": 0,
+  "model_forwards": 0
+}

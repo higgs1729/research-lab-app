@@ -1,0 +1,156 @@
+{
+  "created_utc": "2026-11-15T13:36:06.717324+00:00",
+  "hypothesis": "TIF-only full-width band versus R236 128x128 tiling changes float32 warp horizontal origin/order",
+  "rois": [
+    {
+      "id": "phi",
+      "xywh": [
+        4768,
+        3200,
+        128,
+        128
+      ],
+      "public_strip_xywh": [
+        4768,
+        220,
+        128,
+        128
+      ],
+      "all_values": 262144,
+      "mask_all_valid": true,
+      "selection_basis": "phi reuses R236; heldout immediately below phi, disjoint, next 128-row band; chosen from geometry/CT support before intensity comparison"
+    },
+    {
+      "id": "heldout",
+      "xywh": [
+        4768,
+        3328,
+        64,
+        64
+      ],
+      "public_strip_xywh": [
+        4768,
+        348,
+        64,
+        64
+      ],
+      "all_values": 65536,
+      "mask_all_valid": true,
+      "selection_basis": "phi reuses R236; heldout immediately below phi, disjoint, next 128-row band; chosen from geometry/CT support before intensity comparison"
+    }
+  ],
+  "depth_offsets": [
+    8,
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0,
+    -1,
+    -2,
+    -3,
+    -4,
+    -5,
+    -6,
+    -7
+  ],
+  "full_canvas_xy": [
+    6060,
+    4600
+  ],
+  "band_height": 128,
+  "surface_metadata": {
+    "bbox": [
+      [
+        2423.0791015625,
+        3178.19775390625,
+        5224.15380859375
+      ],
+      [
+        4417.49267578125,
+        4430.6455078125,
+        9718.021484375
+      ]
+    ],
+    "format": "tifxyz",
+    "scale": [
+      0.05,
+      0.05
+    ],
+    "type": "seg",
+    "uuid": "normalized-tifxyz"
+  },
+  "grid_sha256": "bf6425e361a32e12a53d57d439bee0733b3564f8f7873e6f0f5a21b69000200e",
+  "archive_sha256": "9e9105d9bb812e6d2af454b30cb724e6339f0f0403e06eb28a302b484d31db36",
+  "public_input": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\sources\\v6-input16.npy",
+  "public_input_sha256": "b639ef3d91e21768a5c601cc8f0f36d7483cc3fd089b53f6ddf5c91511b30d9e",
+  "CT": [
+    {
+      "key": [
+        64,
+        26,
+        27
+      ],
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\64\\26\\27",
+      "sha256": "6bef874dd7cb8e4d41e33b87c5be8d4e0222b1b8acc0a32e63b3df2af7d83196"
+    },
+    {
+      "key": [
+        64,
+        26,
+        28
+      ],
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\64\\26\\28",
+      "sha256": "4c7017626330ee79b348b4b348889e9ff06fbbc08775df868d33a9d9eb84f5f1"
+    },
+    {
+      "key": [
+        65,
+        26,
+        27
+      ],
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\65\\26\\27",
+      "sha256": "84a50698192178d097b3d62656723c4d8a35fafa82541fa84d5f34c96469e915"
+    },
+    {
+      "key": [
+        65,
+        26,
+        28
+      ],
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\65\\26\\28",
+      "sha256": "1820a0ee0fffd9576ef031510af1071ddd994ae11adf5c83591189a6c5659eba"
+    },
+    {
+      "key": [
+        66,
+        26,
+        27
+      ],
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\66\\26\\27",
+      "sha256": "0216d020bb4d1139fd247b40cff1d9d22500f827d5444832176bf59b25941fe3"
+    }
+  ],
+  "CT_new_bytes": 0,
+  "GPU_forwards": 0,
+  "cost_USD": 0,
+  "limits": {
+    "cpu_count": 1,
+    "linux_RLIMIT_AS": 4294967296,
+    "C_new_bytes": 10485760,
+    "C_free_min": 2147483648,
+    "build_deadline_s": 120,
+    "run_deadline_s": 120
+  },
+  "compile_flags": [
+    "-std=c++17",
+    "-O2",
+    "-ffp-contract=off",
+    "-I/usr/include/opencv4",
+    "-lopencv_core"
+  ],
+  "stopping_rule": "One compiler/flags, tile and band only; all selected uint8 values exact required. No flag sweep or model inference. No claim of actual author OCI execution."
+}

@@ -1,0 +1,42 @@
+{
+  "case_count": 18,
+  "cases": [
+    "missing-height",
+    "missing-width",
+    "negative-width",
+    "negative-height",
+    "zero-height",
+    "position-only",
+    "position-with-explicit-zero-sizes",
+    "auto-with-partial",
+    "default-crop",
+    "all-zero",
+    "default-origin",
+    "negative-origin",
+    "auto-crop",
+    "tiff-invalid",
+    "help",
+    "invalid-part",
+    "missing-segmentation",
+    "merge-empty"
+  ],
+  "invalid_manual_rejected_before_open": [
+    "missing-height",
+    "missing-width",
+    "negative-width",
+    "negative-height",
+    "zero-height",
+    "position-only",
+    "position-with-explicit-zero-sizes",
+    "auto-with-partial",
+    "tiff-invalid"
+  ],
+  "valid_crop_reached_input_open": [
+    "default-crop",
+    "all-zero",
+    "default-origin",
+    "negative-origin",
+    "auto-crop"
+  ],
+  "saved_suite_passed": true
+}

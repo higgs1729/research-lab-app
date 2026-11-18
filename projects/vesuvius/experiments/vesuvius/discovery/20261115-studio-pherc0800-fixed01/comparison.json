@@ -1,0 +1,169 @@
+{
+  "main_xywh": [
+    142,
+    640,
+    1067,
+    1067
+  ],
+  "statistics": {
+    "forward": {
+      "nonzero_median": 0.16719546914100647,
+      "nonzero_p995": 0.7943114054203033,
+      "min": 0.0,
+      "max": 0.9289543628692627,
+      "nonzero_pixels": 961223
+    },
+    "reverse": {
+      "nonzero_median": 0.16964872181415558,
+      "nonzero_p995": 0.43904807567596477,
+      "min": 0.0,
+      "max": 0.5597585439682007,
+      "nonzero_pixels": 961223
+    }
+  },
+  "files": [
+    {
+      "file": "review/ct-z15.png",
+      "sha256": "a93c2c9d58536ad3ba941aa06a7a77df88a7c59493533e7db456675b6e9a2b42",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/studio-forward-raw.png",
+      "sha256": "68854a46d06908f4720b913c6592ff2d0b301fb40744a2e933deaffa72efcb89",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/studio-forward-median-p995.png",
+      "sha256": "8536ccff65e68ab0f0e55cb0598be3362c47344a1d815edebeae6d1bd06253e4",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/reader-forward-raw.png",
+      "sha256": "125109bbad9092236466d38f3cac51b486b66e7471e5caf42b5bc4bf9087d733",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/hecate-forward-mapped.png",
+      "sha256": "ecd18173b8a2bf62eee25f3aea797a84dea09ee11a793b9dcaa4ff665440f5c3",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/studio-reverse-raw.png",
+      "sha256": "b33b75880d6f3c71992028f29f7a1f9279f141945606b56c1c907aff7139bca5",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/studio-reverse-median-p995.png",
+      "sha256": "21757a2f5f7a646628be2716e38e21591922d3a74300990a93b1a873517d9882",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/reader-reverse-raw.png",
+      "sha256": "40a129d25ee547f2935ea576d771accab9b8c2e0195eb1f1706091fa7e81f791",
+      "shape": [
+        1067,
+        1067
+      ]
+    },
+    {
+      "file": "review/hecate-reverse-mapped.png",
+      "sha256": "3d55363291bc0ff980def60df5093c09d9b8f367446833b206684bcb47bd13cb",
+      "shape": [
+        1067,
+        1067
+      ]
+    }
+  ],
+  "quadrants": [
+    {
+      "file": "review/native-quadrant-00.png",
+      "sha256": "59de5586c954ac83d4d3be5d91f5025527c0118a7947997a6029c5f0fe6b16e7",
+      "shape": [
+        1687,
+        1615,
+        3
+      ],
+      "local_xywh": [
+        0,
+        0,
+        533,
+        533
+      ]
+    },
+    {
+      "file": "review/native-quadrant-01.png",
+      "sha256": "49c8e5a841211594be415a70bbc08211a3b8df5133303d8124e8da2e23beab5e",
+      "shape": [
+        1687,
+        1618,
+        3
+      ],
+      "local_xywh": [
+        533,
+        0,
+        534,
+        533
+      ]
+    },
+    {
+      "file": "review/native-quadrant-10.png",
+      "sha256": "753cc2fb3d867ea322f3336097c991e4417c3d4993bb1b34ee789d01c769b84d",
+      "shape": [
+        1690,
+        1615,
+        3
+      ],
+      "local_xywh": [
+        0,
+        533,
+        533,
+        534
+      ]
+    },
+    {
+      "file": "review/native-quadrant-11.png",
+      "sha256": "588cc2db4d86c1318fc835d40295e54efd7e33726bad1bb063064553b5aed708",
+      "shape": [
+        1690,
+        1618,
+        3
+      ],
+      "local_xywh": [
+        533,
+        533,
+        534,
+        534
+      ]
+    }
+  ],
+  "sources": {
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-reader-v3-pherc0800-fixed01\\review\\native-forward-raw.png": "125109bbad9092236466d38f3cac51b486b66e7471e5caf42b5bc4bf9087d733",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-next-contiguous-unread-window01\\results\\mesh4-forward.png": "1ffee6dd81d8f206f601e5c08a4a7021f1798bf1d60a8692bd18ae7f28b2fb2f",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-reader-v3-pherc0800-fixed01\\review\\native-reverse-raw.png": "40a129d25ee547f2935ea576d771accab9b8c2e0195eb1f1706091fa7e81f791",
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-next-contiguous-unread-window01\\results\\mesh4-reverse.png": "075fc06010fae1666030f56efac6a13238f25d0c90c94553d7a46cd54b48dbc7"
+  },
+  "display": "per-order median..p99.5 on nonzero pixels of entire fixed main; uint8 truncation; raw unchanged",
+  "hecate_mapping": "bilinear R2208-bit output at t=(native+.5)*.9-.5; image global origin[96,544]",
+  "limits": "same XY window only; model/depth/preprocessing differ; no accuracy ranking or new observed area"
+}

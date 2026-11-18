@@ -1,0 +1,11 @@
+{
+  "name": "r229-studio-c12b34d2daf1796c",
+  "create_epoch": 1794734812,
+  "delete_epoch": 1794736612,
+  "precreate_list_had_no_match": true,
+  "list_hourly_usd": 0.59,
+  "input_archive_sha256": "499e33cc48383a9d88cdeeab70aa5618f0fc29f7563c51d90af52a929eb2115a",
+  "pod_id": "fz22fx79xv6493",
+  "effective_hourly_usd": 0.59,
+  "data_center": "CA-MTL-1"
+}

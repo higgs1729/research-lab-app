@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261113-grid-preserving-low-keep01\\lead_check.py"
+  ],
+  "started_utc": "2026-11-13T12:07:35.189607+00:00",
+  "completed_utc": "2026-11-13T12:07:35.824048+00:00",
+  "elapsed_seconds": 0.634439299989026,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 145907712,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 0.578125,
+  "sys_cpu_seconds": 0.09375,
+  "exit_code": 0
+}

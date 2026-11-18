@@ -1,0 +1,1626 @@
+{
+  "parameters": 223355921,
+  "state_tensors": 214,
+  "strict": true,
+  "official_load_model": true,
+  "checkpoint_sha256": "96b326286e38de99047f7cab36170c53749a18d5f43e5fde0c7c20f2980b0e90",
+  "schema": {
+    "depth_logits": {
+      "shape": [
+        16
+      ],
+      "dtype": "torch.float32"
+    },
+    "stem.weight": {
+      "shape": [
+        48,
+        1,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.0.0.branch.0.weight": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.0.0.branch.0.bias": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.0.0.branch.2.weight": {
+      "shape": [
+        48,
+        48,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.0.0.branch.3.weight": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.0.0.branch.3.bias": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.0.0.branch.6.weight": {
+      "shape": [
+        48,
+        48,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.0.1.branch.0.weight": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.0.1.branch.0.bias": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.0.1.branch.2.weight": {
+      "shape": [
+        48,
+        48,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.0.1.branch.3.weight": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.0.1.branch.3.bias": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.0.1.branch.6.weight": {
+      "shape": [
+        48,
+        48,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.0.branch.0.weight": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.0.branch.0.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.0.branch.2.weight": {
+      "shape": [
+        96,
+        96,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.0.branch.3.weight": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.0.branch.3.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.0.branch.6.weight": {
+      "shape": [
+        96,
+        96,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.1.branch.0.weight": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.1.branch.0.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.1.branch.2.weight": {
+      "shape": [
+        96,
+        96,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.1.branch.3.weight": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.1.branch.3.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.1.branch.6.weight": {
+      "shape": [
+        96,
+        96,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.2.branch.0.weight": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.2.branch.0.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.2.branch.2.weight": {
+      "shape": [
+        96,
+        96,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.2.branch.3.weight": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.2.branch.3.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.1.2.branch.6.weight": {
+      "shape": [
+        96,
+        96,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.0.branch.0.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.0.branch.0.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.0.branch.2.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.0.branch.3.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.0.branch.3.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.0.branch.6.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.1.branch.0.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.1.branch.0.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.1.branch.2.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.1.branch.3.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.1.branch.3.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.1.branch.6.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.2.branch.0.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.2.branch.0.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.2.branch.2.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.2.branch.3.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.2.branch.3.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.2.branch.6.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.3.branch.0.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.3.branch.0.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.3.branch.2.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.3.branch.3.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.3.branch.3.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.2.3.branch.6.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.0.branch.0.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.0.branch.0.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.0.branch.2.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.0.branch.3.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.0.branch.3.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.0.branch.6.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.1.branch.0.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.1.branch.0.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.1.branch.2.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.1.branch.3.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.1.branch.3.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.1.branch.6.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.2.branch.0.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.2.branch.0.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.2.branch.2.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.2.branch.3.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.2.branch.3.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.2.branch.6.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.3.branch.0.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.3.branch.0.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.3.branch.2.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.3.branch.3.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.3.branch.3.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.3.branch.6.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.4.branch.0.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.4.branch.0.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.4.branch.2.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.4.branch.3.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.4.branch.3.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.3.4.branch.6.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.0.branch.0.weight": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.0.branch.0.bias": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.0.branch.2.weight": {
+      "shape": [
+        640,
+        640,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.0.branch.3.weight": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.0.branch.3.bias": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.0.branch.6.weight": {
+      "shape": [
+        640,
+        640,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.1.branch.0.weight": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.1.branch.0.bias": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.1.branch.2.weight": {
+      "shape": [
+        640,
+        640,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.1.branch.3.weight": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.1.branch.3.bias": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.1.branch.6.weight": {
+      "shape": [
+        640,
+        640,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.2.branch.0.weight": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.2.branch.0.bias": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.2.branch.2.weight": {
+      "shape": [
+        640,
+        640,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.2.branch.3.weight": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.2.branch.3.bias": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.2.branch.6.weight": {
+      "shape": [
+        640,
+        640,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.3.branch.0.weight": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.3.branch.0.bias": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.3.branch.2.weight": {
+      "shape": [
+        640,
+        640,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.3.branch.3.weight": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.3.branch.3.bias": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.3.branch.6.weight": {
+      "shape": [
+        640,
+        640,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.4.branch.0.weight": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.4.branch.0.bias": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.4.branch.2.weight": {
+      "shape": [
+        640,
+        640,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.4.branch.3.weight": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.4.branch.3.bias": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.4.branch.6.weight": {
+      "shape": [
+        640,
+        640,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.5.branch.0.weight": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.5.branch.0.bias": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.5.branch.2.weight": {
+      "shape": [
+        640,
+        640,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.5.branch.3.weight": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.5.branch.3.bias": {
+      "shape": [
+        640
+      ],
+      "dtype": "torch.float32"
+    },
+    "enc.4.5.branch.6.weight": {
+      "shape": [
+        640,
+        640,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "down.0.0.weight": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "down.0.0.bias": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "down.0.2.weight": {
+      "shape": [
+        96,
+        48,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "down.1.0.weight": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "down.1.0.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "down.1.2.weight": {
+      "shape": [
+        192,
+        96,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "down.2.0.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "down.2.0.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "down.2.2.weight": {
+      "shape": [
+        384,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "down.3.0.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "down.3.0.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "down.3.2.weight": {
+      "shape": [
+        640,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "up.0.weight": {
+      "shape": [
+        384,
+        640,
+        1,
+        1,
+        1
+      ],
+      "dtype": "torch.float32"
+    },
+    "up.1.weight": {
+      "shape": [
+        192,
+        384,
+        1,
+        1,
+        1
+      ],
+      "dtype": "torch.float32"
+    },
+    "up.2.weight": {
+      "shape": [
+        96,
+        192,
+        1,
+        1,
+        1
+      ],
+      "dtype": "torch.float32"
+    },
+    "up.3.weight": {
+      "shape": [
+        48,
+        96,
+        1,
+        1,
+        1
+      ],
+      "dtype": "torch.float32"
+    },
+    "fuse.0.0.weight": {
+      "shape": [
+        768
+      ],
+      "dtype": "torch.float32"
+    },
+    "fuse.0.0.bias": {
+      "shape": [
+        768
+      ],
+      "dtype": "torch.float32"
+    },
+    "fuse.0.2.weight": {
+      "shape": [
+        384,
+        768,
+        1,
+        1,
+        1
+      ],
+      "dtype": "torch.float32"
+    },
+    "fuse.1.0.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "fuse.1.0.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "fuse.1.2.weight": {
+      "shape": [
+        192,
+        384,
+        1,
+        1,
+        1
+      ],
+      "dtype": "torch.float32"
+    },
+    "fuse.2.0.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "fuse.2.0.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "fuse.2.2.weight": {
+      "shape": [
+        96,
+        192,
+        1,
+        1,
+        1
+      ],
+      "dtype": "torch.float32"
+    },
+    "fuse.3.0.weight": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "fuse.3.0.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "fuse.3.2.weight": {
+      "shape": [
+        48,
+        96,
+        1,
+        1,
+        1
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.0.branch.0.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.0.branch.0.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.0.branch.2.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.0.branch.3.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.0.branch.3.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.0.branch.6.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.1.branch.0.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.1.branch.0.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.1.branch.2.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.1.branch.3.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.1.branch.3.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.1.branch.6.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.2.branch.0.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.2.branch.0.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.2.branch.2.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.2.branch.3.weight": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.2.branch.3.bias": {
+      "shape": [
+        384
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.0.2.branch.6.weight": {
+      "shape": [
+        384,
+        384,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.0.branch.0.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.0.branch.0.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.0.branch.2.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.0.branch.3.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.0.branch.3.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.0.branch.6.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.1.branch.0.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.1.branch.0.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.1.branch.2.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.1.branch.3.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.1.branch.3.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.1.branch.6.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.2.branch.0.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.2.branch.0.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.2.branch.2.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.2.branch.3.weight": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.2.branch.3.bias": {
+      "shape": [
+        192
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.1.2.branch.6.weight": {
+      "shape": [
+        192,
+        192,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.2.0.branch.0.weight": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.2.0.branch.0.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.2.0.branch.2.weight": {
+      "shape": [
+        96,
+        96,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.2.0.branch.3.weight": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.2.0.branch.3.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.2.0.branch.6.weight": {
+      "shape": [
+        96,
+        96,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.2.1.branch.0.weight": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.2.1.branch.0.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.2.1.branch.2.weight": {
+      "shape": [
+        96,
+        96,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.2.1.branch.3.weight": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.2.1.branch.3.bias": {
+      "shape": [
+        96
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.2.1.branch.6.weight": {
+      "shape": [
+        96,
+        96,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.3.0.branch.0.weight": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.3.0.branch.0.bias": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.3.0.branch.2.weight": {
+      "shape": [
+        48,
+        48,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.3.0.branch.3.weight": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.3.0.branch.3.bias": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.3.0.branch.6.weight": {
+      "shape": [
+        48,
+        48,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.3.1.branch.0.weight": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.3.1.branch.0.bias": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.3.1.branch.2.weight": {
+      "shape": [
+        48,
+        48,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.3.1.branch.3.weight": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.3.1.branch.3.bias": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "dec.3.1.branch.6.weight": {
+      "shape": [
+        48,
+        48,
+        3,
+        3,
+        3
+      ],
+      "dtype": "torch.float32"
+    },
+    "head.0.weight": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "head.0.bias": {
+      "shape": [
+        48
+      ],
+      "dtype": "torch.float32"
+    },
+    "head.2.weight": {
+      "shape": [
+        1,
+        48,
+        1,
+        1,
+        1
+      ],
+      "dtype": "torch.float32"
+    },
+    "head.2.bias": {
+      "shape": [
+        1
+      ],
+      "dtype": "torch.float32"
+    }
+  },
+  "architecture": {
+    "family": "Deep residual 3D U-Net",
+    "widths": [
+      48,
+      96,
+      192,
+      384,
+      640
+    ],
+    "encoder_blocks": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "decoder_blocks": [
+      3,
+      3,
+      2,
+      2
+    ],
+    "normalization": "GroupNorm before every residual convolution and resampling/fusion stage",
+    "dropout3d": [
+      0.02,
+      0.05,
+      0.1,
+      0.15,
+      0.2
+    ],
+    "depth_pool": "Learned global softmax across the unchanged sixteen input planes",
+    "initialization": "scratch",
+    "spatial_resampling": "Four down/up stages; first downsample preserves depth"
+  },
+  "torch": "2.14.0+cpu",
+  "numpy": "2.5.2",
+  "load_seconds": 1.9834939999855123
+}

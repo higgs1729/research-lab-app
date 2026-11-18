@@ -1,0 +1,44 @@
+{
+  "wall_seconds": 64.40523939999548,
+  "runner_elapsed_seconds": 61.11376929999824,
+  "cpu_seconds": 22.375,
+  "peak_rss_bytes": 1285394432,
+  "commit_limit_bytes": 4294967296,
+  "initial_1s_cpu_percent": 11.2,
+  "initial_available_ram_bytes": 13064957952,
+  "min_sampled_available_ram_bytes": 7722082304,
+  "strict_load_seconds": 1.2233173999993596,
+  "model_exit_code": 3,
+  "runner_pid_exited": true,
+  "r199_reference_and_current_hashes_rechecked": true,
+  "r199_first_three_parity": [
+    {
+      "index": 1,
+      "same_bits": true,
+      "mean_abs_diff": 0.0,
+      "max_abs_diff": 0.0,
+      "values": 4096,
+      "forward_seconds": 5.2386505999966175
+    },
+    {
+      "index": 2,
+      "same_bits": true,
+      "mean_abs_diff": 0.0,
+      "max_abs_diff": 0.0,
+      "values": 4096,
+      "forward_seconds": 14.309042799999588
+    },
+    {
+      "index": 3,
+      "same_bits": true,
+      "mean_abs_diff": 0.0,
+      "max_abs_diff": 0.0,
+      "values": 4096,
+      "forward_seconds": 38.39089029999741
+    }
+  ],
+  "completed_png_count": 0,
+  "new_ct_bytes": 0,
+  "new_network_bytes": 0,
+  "cost_jpy": 0
+}

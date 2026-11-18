@@ -1,0 +1,154 @@
+{
+  "probes": [
+    {
+      "label": "upper",
+      "central_pixels": 4096,
+      "central_exact": 4054,
+      "central_max_dn": 1,
+      "central_mae_dn": 0.01025390625,
+      "orthogonal_samples": 12675,
+      "orthogonal_planes": {
+        "X": {
+          "fixed": 3039,
+          "horizontal": "Y",
+          "vertical": "Z",
+          "first_hv": [
+            3623,
+            11328
+          ]
+        },
+        "Y": {
+          "fixed": 3655,
+          "horizontal": "X",
+          "vertical": "Z",
+          "first_hv": [
+            3007,
+            11328
+          ]
+        },
+        "Z": {
+          "fixed": 11360,
+          "horizontal": "X",
+          "vertical": "Y",
+          "first_hv": [
+            3007,
+            3623
+          ]
+        }
+      },
+      "normal_samples": 135168
+    },
+    {
+      "label": "arc",
+      "central_pixels": 4096,
+      "central_exact": 4066,
+      "central_max_dn": 1,
+      "central_mae_dn": 0.00732421875,
+      "orthogonal_samples": 12675,
+      "orthogonal_planes": {
+        "X": {
+          "fixed": 3062,
+          "horizontal": "Y",
+          "vertical": "Z",
+          "first_hv": [
+            3613,
+            11452
+          ]
+        },
+        "Y": {
+          "fixed": 3645,
+          "horizontal": "X",
+          "vertical": "Z",
+          "first_hv": [
+            3030,
+            11452
+          ]
+        },
+        "Z": {
+          "fixed": 11484,
+          "horizontal": "X",
+          "vertical": "Y",
+          "first_hv": [
+            3030,
+            3613
+          ]
+        }
+      },
+      "normal_samples": 135168
+    },
+    {
+      "label": "lower",
+      "central_pixels": 4096,
+      "central_exact": 4085,
+      "central_max_dn": 1,
+      "central_mae_dn": 0.002685546875,
+      "orthogonal_samples": 12675,
+      "orthogonal_planes": {
+        "X": {
+          "fixed": 3098,
+          "horizontal": "Y",
+          "vertical": "Z",
+          "first_hv": [
+            3591,
+            11574
+          ]
+        },
+        "Y": {
+          "fixed": 3623,
+          "horizontal": "X",
+          "vertical": "Z",
+          "first_hv": [
+            3066,
+            11574
+          ]
+        },
+        "Z": {
+          "fixed": 11606,
+          "horizontal": "X",
+          "vertical": "Y",
+          "first_hv": [
+            3066,
+            3591
+          ]
+        }
+      },
+      "normal_samples": 135168
+    }
+  ],
+  "continuous_samples": 39808,
+  "continuous_anchor_marks": [
+    {
+      "label": "upper",
+      "center_zyx": [
+        11360,
+        3655,
+        3039
+      ],
+      "section_x_at_z": 3039,
+      "signed_x_delta_vox": 0
+    },
+    {
+      "label": "arc",
+      "center_zyx": [
+        11484,
+        3645,
+        3062
+      ],
+      "section_x_at_z": 3062,
+      "signed_x_delta_vox": 0
+    },
+    {
+      "label": "lower",
+      "center_zyx": [
+        11606,
+        3623,
+        3098
+      ],
+      "section_x_at_z": 3098,
+      "signed_x_delta_vox": 0
+    }
+  ],
+  "atlas_png_sha256": "a54891dd5bb0377b8904fa99dc83a9df57092ccca89f4c86b132b5fb8af5033b",
+  "rounded_trilinear": "floor(value + 0.5), float64 weights on float32 geometry",
+  "new_model_calls": 0
+}

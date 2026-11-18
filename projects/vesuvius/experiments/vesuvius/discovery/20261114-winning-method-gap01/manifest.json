@@ -1,0 +1,160 @@
+{
+  "generated_utc": "2026-11-14T13:23:27.137095+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/acquire.py",
+      "bytes": 2277,
+      "sha256": "aee28b390f852ecc0f54dfcb13c7647abbf5109fa6cd7511a0548e25dde8db14"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/acquire_addendum.py",
+      "bytes": 2033,
+      "sha256": "01b96a8624a51211dcbc62e42de3021289bf8a7f39de3679e7e280296b4cc5c2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/acquisition-addendum-process.json",
+      "bytes": 687,
+      "sha256": "a21b7166657a13979df4670a7ede89335383021199fe1b3982983e8022f26c3c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/acquisition-addendum.json",
+      "bytes": 2594,
+      "sha256": "cc2357670fdee2690f67150fe857aa091db59270f07093aeda3316837c1af6c0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/acquisition-process.json",
+      "bytes": 677,
+      "sha256": "7a0e2672cd5644eee408328f2e585ff1ca9029fa4b140abdce9c2c07be35f312"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/acquisition.json",
+      "bytes": 7255,
+      "sha256": "e34b709cd8b2b5acbae6a2c50a4e95772220d5671b2bb0da8537e1cdd7c139f5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/lead-next-reference.json",
+      "bytes": 5690,
+      "sha256": "0c3f403a2de1445296b054d4304872ed0c12106d7e594a38ebc4b2dc69962639"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/lead-plan-review.json",
+      "bytes": 2916,
+      "sha256": "368da61c0069f8ed1ee292941e2991343fb59b7387fa859e92ff27354758a081"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/lead-source-review.json",
+      "bytes": 3523,
+      "sha256": "266d31e6a9ddb0effaf5740a3450f646db24e1a39aae5fddcd6f22581ed61e54"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/next-inputs.json",
+      "bytes": 5797,
+      "sha256": "a4bc79d100972ca070bcc5226b07e4d2ee5d7eec6d8a7e349f9c717db0e023c8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/next-plan.json",
+      "bytes": 6160,
+      "sha256": "81c19b37d51b7fa106d351130fb6d33a5cb3b412fbab292345b826f9e0b03577"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-discovery-manifest.tsv",
+      "bytes": 13757,
+      "sha256": "db7de426832a1be791bb51140baef3da1d72d2c09a368769ec420770924fd01c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-discovery.md",
+      "bytes": 5927,
+      "sha256": "ceebf7bacc269c87da45124566f150299fedd3f23391f23f7bba61609abcfa60"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-fastpipe.py",
+      "bytes": 8978,
+      "sha256": "614fad36dc7ef4d1d7b7adb5469fc7dce5f013dabe375bf683636a41eb030f83"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-glyph_win.py",
+      "bytes": 3995,
+      "sha256": "56f891f06e9e1944e0ec73f9fe8852922fbe2b3112286211ee0d4f37b234e73c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-ink-lane.py",
+      "bytes": 5691,
+      "sha256": "cc5bbbeb13b0872ec212f8b1f83d8c26efcf3b444db8ccd19388fbd11c790768"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-known-text-product-rule.json",
+      "bytes": 4565,
+      "sha256": "da5ce42977861c02d8e81e5e684f6e1d4447b13f00deea7702d220983fb0e0d8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-line_find.py",
+      "bytes": 33267,
+      "sha256": "91b0410894220ac1ddde99cb38fa93c5b1385ea01fc3d130eaa6255a051bbb7a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-method.md",
+      "bytes": 13290,
+      "sha256": "565ba85f44519939b7d3d6114360e24c9d88119cf1d3f1467af3d1031e09055a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-models.md",
+      "bytes": 4283,
+      "sha256": "0d1110ed13095509fdd0b8de06533b1ec5483d7270c79c55966f0377d61be282"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-readme.md",
+      "bytes": 9269,
+      "sha256": "390af649890247fdba69aca7ec21e5eda922e2772ba5e505dbf1ff9007b38cdd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-screen.py",
+      "bytes": 7549,
+      "sha256": "b3256bcd96af82a9a5caf471c2fd731e082fb78217b0e829966c870b6fa1b4c9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-surface-decision.json",
+      "bytes": 7173,
+      "sha256": "de2955374a53be82014422d098f63f9a5088ec01954b4e0f96d5272ee3ed3112"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-tree.json",
+      "bytes": 149223,
+      "sha256": "d0b37dbc05fbdb05d4fb86ac057ad1031dd54d73d5619b2058f71a79177ab49d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/306b-window_score.py",
+      "bytes": 6634,
+      "sha256": "4afea5659fdb4d4633b06c68ab4064513392052fae033dc11c380318d36ae1cb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/343-ensemble_maps.py",
+      "bytes": 10912,
+      "sha256": "eb5b8b48f5b51605b8896842c8b45018a29772f83ce06482b74e7586b9e24930"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/originals/343-render_66_layers.sh",
+      "bytes": 1574,
+      "sha256": "ae3a76b6ada4deced5d7149c14c15d9c0e13c746d236b856841098d5b9427294"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/README.md",
+      "bytes": 8797,
+      "sha256": "786f9febecad8b67747e115ea2f469c81558dbfa1f558d99ccf37ade2aef9ad4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/record.json",
+      "bytes": 3027,
+      "sha256": "9f0c7f9351ce195f76fb062a375acac0df5bfeaa6cc288eec46f195df73fedb1"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-winning-method-gap01/resources.json",
+      "bytes": 543,
+      "sha256": "94f285742c9354a118b237dc8f15c56ec27f0fa3b9f417be16e12ff413f0a718"
+    },
+    {
+      "path": "research/210-winning-method-gap-selection.md",
+      "bytes": 7460,
+      "sha256": "bc59b5e5691528aaeda68482c435e390ee627d5d478fdaae9a4cf51fa3ae2a59"
+    }
+  ]
+}

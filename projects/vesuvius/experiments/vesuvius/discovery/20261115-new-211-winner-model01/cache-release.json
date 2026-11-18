@@ -1,0 +1,13 @@
+{
+  "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\studio-softloss-20261023-ema.safetensors",
+  "bytes": 893443724,
+  "sha256": "96b326286e38de99047f7cab36170c53749a18d5f43e5fde0c7c20f2980b0e90",
+  "url": "https://github.com/priyankaranke/vesuvius-studio-multiscroll-cpt/releases/download/studio-softloss-20261023/studio-softloss-20261023-ema.safetensors",
+  "reason": "Parent approved cache release; CPU references complete; no more local GPU run; remote direct fetch",
+  "prior_acquisition_verified": true,
+  "cpu_references_completed": 3,
+  "deleted_utc": "2026-11-15T09:19:49.2069971Z",
+  "C_free_bytes_before": 10593333248,
+  "C_free_bytes_after": 11486777344,
+  "target_absent": true
+}

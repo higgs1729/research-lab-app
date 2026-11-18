@@ -1,0 +1,96 @@
+{
+  "generated_utc": "2026-11-14T07:48:02.476002+00:00",
+  "workspace_bytes_before_manifest": 44101,
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/compare.py",
+      "bytes": 2734,
+      "sha256": "bd70b804b8676095d20761ec85728503b4b7d5cef38ec7b73d5cb9598824c040"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/entry-status.json",
+      "bytes": 800,
+      "sha256": "5b288785d08b79569e6d563c0f1627071097cbc20b896b7789e5df36a4d23c95"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/exclusive.log",
+      "bytes": 318,
+      "sha256": "0c9e055926bf93f61ee5ea08e2416fae54f193bf45f5ed23f5f9c7434869d880"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/lead-preflight.json",
+      "bytes": 1321,
+      "sha256": "f191ff1ae01b92b29f924ddabab7aabfcfd830d0ec13edb093cea936c191ae93"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/lead-release.json",
+      "bytes": 1098,
+      "sha256": "d524c06d03274fd4c8f7d6f8fff10d9f6bf34d3d209fd6e8edeeac554c779cf9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/lead-verification-process.json",
+      "bytes": 692,
+      "sha256": "6eba059b80c483a08dad4d00f0dda97a3e9260ae563bc4265096288df7524c40"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/lead-verified.json",
+      "bytes": 1247,
+      "sha256": "e5f7417b1fe2cc9ea4b829ca966b173cde91995e3501a14a550d56cb1d7623a8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/lead_verify.py",
+      "bytes": 4880,
+      "sha256": "2718627320729b3e1c7d84bc7b99128cc4a13355c8a19697f6570a732f0000b2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/post-admission-check.json",
+      "bytes": 610,
+      "sha256": "83f64d4e40aaf88144eafbd7b66aece54b9f59eb14af66f1b2edba0c804648c4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/preflight.json",
+      "bytes": 4100,
+      "sha256": "8d2296e6a3a91cb9c7b2a01758ddd81fcdfb9249bcf0d1f3594d2a42a9541776"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/preflight.py",
+      "bytes": 4347,
+      "sha256": "4ce0af24dc88cc687279b75c84bdc5bd70214b13bf2a582815a3f57357bf3276"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/README.md",
+      "bytes": 1702,
+      "sha256": "dd0c79cea1c37e0548a2649be36db310b0c17c82592b1e8c6baebc43ba6095c0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/record.json",
+      "bytes": 1730,
+      "sha256": "8da87664767850e7c52c63fa37e0cb8d57e5417e6fbf6697151d4c73a57d3dde"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/run_gpu.py",
+      "bytes": 13180,
+      "sha256": "7af2c6ca2e00dfe29c13eeb1c4c24471c55be936a2da2bc4226010f5d642c044"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/supervise.py",
+      "bytes": 3609,
+      "sha256": "b2585e69057d2af8d66c212952a255cdeab62caf32538b1f02481c3dec7b9814"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/supervisor-result.json",
+      "bytes": 942,
+      "sha256": "3553bb36d1fa44fa5ac64cb0c142d5d0ac67843cd81199b63fc7c994835786f4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-known-reproduction01/supervisor-start.json",
+      "bytes": 791,
+      "sha256": "c987a59556acf47271b7e76fcf0fa50bcda40aaf3524ba28dda55f51d0bdcc45"
+    },
+    {
+      "path": "research/193-hecate-gpu-known-reproduction.md",
+      "bytes": 4288,
+      "sha256": "5c505e5571c4d1eaaf20dd1e57647d55978c43f094b5c827d4dbed4bfaf288b1"
+    }
+  ]
+}

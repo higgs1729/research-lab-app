@@ -1,0 +1,34 @@
+{
+  "date_jst": "2026-11-14",
+  "logical_ct_values_equal": 6623232,
+  "padding_values_outside_shape": 2027520,
+  "complete_supporting_patches": 36,
+  "interior_comparisons": {
+    "seed42-forward": {
+      "pixels": 102400,
+      "pearson": 0.4881633492614854,
+      "mae": 26.500556640625
+    },
+    "seed42-reverse": {
+      "pixels": 102400,
+      "pearson": 0.4397543691655117,
+      "mae": 31.801953125
+    },
+    "dense-forward": {
+      "pixels": 102400,
+      "pearson": 0.8452650770430971,
+      "mae": 9.2559375
+    },
+    "dense-reverse": {
+      "pixels": 102400,
+      "pearson": 0.8818065849175784,
+      "mae": 7.494521484375
+    }
+  },
+  "visual_review": "Both original-detail comparison figures were viewed before the worker assessment. Aligned maps remain broad cloudy or connected bright/dark patches; no independent stroke sequence or text line was selected.",
+  "candidate_roi": null,
+  "transcription": null,
+  "decision": "Close further phase/depth/threshold searching on this fixed input. No conclusion of ink absence or whole-scroll negativity.",
+  "new_model_calls": 0,
+  "new_network_bytes": 0
+}

@@ -1,0 +1,9 @@
+{
+  "name": "r219-hecate-1bbaf595bd401713",
+  "create_epoch": 1794674324,
+  "delete_epoch": 1794675824,
+  "precreate_list_had_no_match": true,
+  "list_hourly_usd": 0.28,
+  "input_archive_sha256": "1cc5619e449455a2f1db2faaecf2e18dccabc9a143656ecc97b0c6e9fd002e22",
+  "pod_id": "4grhbmsglcz5tj"
+}

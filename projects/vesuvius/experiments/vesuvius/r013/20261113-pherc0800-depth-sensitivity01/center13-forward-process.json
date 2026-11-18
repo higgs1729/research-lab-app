@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-ct-render01\\..\\..\\r013\\20261113-pherc0800-depth-sensitivity01\\infer.py",
+    "5",
+    "forward",
+    "center13-forward"
+  ],
+  "started_utc": "2026-11-13T09:46:06.626845+00:00",
+  "completed_utc": "2026-11-13T09:46:22.377810+00:00",
+  "elapsed_seconds": 15.750557999999728,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 744738816,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 13.0,
+  "sys_cpu_seconds": 2.0,
+  "exit_code": 0
+}

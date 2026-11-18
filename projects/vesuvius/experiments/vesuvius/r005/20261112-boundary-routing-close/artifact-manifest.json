@@ -1,0 +1,463 @@
+{
+  "created_utc": "2026-11-12T01:08:49.373786+00:00",
+  "scope": "Reports82/83; obstacle-clipped target boundary, rejected BCHM candidate L and two rejected target reallocations; preserved failures, independent exact verification, resources/runtime and decision records. No adopted candidate or native raster.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-close/decision-record.json",
+      "bytes": 933,
+      "sha256": "f6c81fdb4b3353911657fbce17dbf174672d18547bcbc3f037d8555035c5ac97"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-close/experiment-record.json",
+      "bytes": 1666,
+      "sha256": "5f36d664c1db324b00628616432e0df72dec511507bd7d810064b4e14fa60153"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-close/freeze.py",
+      "bytes": 6726,
+      "sha256": "8095d0177c93f84c99f1c4dc7bc7a46bb1b89341bed24165b65ee933291bbb77"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-close/resources.json",
+      "bytes": 26556,
+      "sha256": "1f06a3455c52ed8a20c5033503772337b5e8e592270cdce928a9495a6e841528"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-close/runtime-status.json",
+      "bytes": 1006,
+      "sha256": "23d4a79c52b1e473587c6637c12823f60c77ad4aeffa75ac620af35562deb1c5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-close/verification-record.json",
+      "bytes": 790,
+      "sha256": "3a3f83057c7038eed51ee09906718337b0c5ca851da5bbcd217573824e13bc28"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-verification01/check01-execution/state.json",
+      "bytes": 883,
+      "sha256": "49b19a1ac0a07b1cf765d3d017245f8c4fe063ca113fec3f97ff68b69ab6b731"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-verification01/check01-execution/stdout.log",
+      "bytes": 1091,
+      "sha256": "4973877f5a0cf84c3532d201216a53e0b9718cd73ee3cd80a912b9cc7330beef"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-verification01/check02/pairs.npz",
+      "bytes": 5011,
+      "sha256": "9697e41da49e10ab027f94d60358f79bf6cf709d81b8170a1a2f735c56861601"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-verification01/check02/result.json",
+      "bytes": 20143,
+      "sha256": "26be4126f35f316adacd59d1f317f2c876996c6e613e885e3b7afcb44e7d4ca4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-verification01/check02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-verification01/check02-execution/state.json",
+      "bytes": 887,
+      "sha256": "f7e10fdefbc5dda9c4a524cbca7452b41b11b0a0f78a48a3a76d88de8b0410fd"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-verification01/check02-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-verification01/verify_saved.py",
+      "bytes": 30921,
+      "sha256": "4b336809f3b0548953e595e8eb9909e3d632f46c82b98567f8592b0a57f4eb8a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing-verification01/verify_saved02.py",
+      "bytes": 30937,
+      "sha256": "9ae54f383ac4b93d707dca48f9687a1a0c1cf1ba43eb8f67893b2c637dddc511"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/analysis01/analyze_morph.py",
+      "bytes": 4236,
+      "sha256": "8a9c3a07c5c6896d7e3e886a5313bda295ca8b1ef724125dc1c4d299b50a708c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/analysis01/arrays.npz",
+      "bytes": 15823725,
+      "sha256": "baff63a17b2c33419afd317f1c6236d5c10a51bcf595ec29d355b1eaa966eb33"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/analysis01/result.json",
+      "bytes": 2821,
+      "sha256": "0f3a5f1f59c7245b315318844ccebcb355c16196666a75a9efcfb3643e15d23e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/analysis01-execution/state.json",
+      "bytes": 863,
+      "sha256": "164bbda9c6db5124bc7147e0ff16bfb38ab9deee0a4f7025ee5f2f6f70056850"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/analysis01-execution/stdout.log",
+      "bytes": 1479,
+      "sha256": "e47b0056e67d5d9fcfe74c9f3b3bd957b8e14b8cb5af8286132f267e8957d370"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/analyze_morph.py",
+      "bytes": 4236,
+      "sha256": "8a9c3a07c5c6896d7e3e886a5313bda295ca8b1ef724125dc1c4d299b50a708c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/boundary_morph.cpp",
+      "bytes": 2806,
+      "sha256": "5ca9084ad79ec7c5d787adab492d9d651c030ade11e870ebbc6d8f7aba65c94b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/build01/native_job.py",
+      "bytes": 4161,
+      "sha256": "cfe58ed79a1c1309afa29faef86e526bfd6d9f4c6dac7a04c7cdb2e5541190ef"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/build01/preflight-failure.json",
+      "bytes": 594,
+      "sha256": "dc27e5ee6530b9fc34c1083ec97d86d076b3053c00192284c60270921562efbf"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/build02/boundary_morph.cpp",
+      "bytes": 2806,
+      "sha256": "5ca9084ad79ec7c5d787adab492d9d651c030ade11e870ebbc6d8f7aba65c94b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/build02/native_job.py",
+      "bytes": 4164,
+      "sha256": "fef463b3f59ab5c8c118fb536dfc435899873f248f4bfcccb3500d99a3d23843"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/build02/state.json",
+      "bytes": 9361,
+      "sha256": "3c78cc539d1cae6a06d90b8d8e77c3cd9dbaa400b410130c7003392075f1f2c5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/build02/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/clip-record.json",
+      "bytes": 1156,
+      "sha256": "a3b846875f97e231744a646ba5eee4f99d0bb755c722a7323cc6d441c46b736b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/clip01/arrays.npz",
+      "bytes": 18652,
+      "sha256": "cf2e6089f27bbc3908e51fac7fb83f80c84c09ef5ede430e3402be83542e065c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/clip01/diagnose_clip.py",
+      "bytes": 4168,
+      "sha256": "4d848c15b173b234be6c512962d11bfd8c29aaec202290f8876189e0b31065fe"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/clip01/geometry.geojson",
+      "bytes": 13494,
+      "sha256": "13a0b0e359bd2532b727cb86e7c89993931374c37c9b92669c92cae01bf7622c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/clip01/result.json",
+      "bytes": 20258,
+      "sha256": "d76e321998f7900612dc71f96b05d3e93a59d7cc24fca0f8527e9f63563003e6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/clip01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/clip01-execution/state.json",
+      "bytes": 859,
+      "sha256": "1f278d71a188275ce80e8842f0f09292d6ef853bcbfcc971cf234387a0f45e74"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/clip01-execution/stdout.log",
+      "bytes": 1027,
+      "sha256": "a6c397dd207900e8c26d7d96a78266ec6b28b8c1f9ce8a63217407134a0ab03f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/corner-record.json",
+      "bytes": 1327,
+      "sha256": "ad1b1f99565ac5f3dd7bde8e13a70f8071e21f824f704e1f513a974331b95afb"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/decision-record.json",
+      "bytes": 933,
+      "sha256": "00f50a435455daf6d448ab9d0a19626b53204e95b6c33741c1ddc0895c9a03f3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/diagnose_clip.py",
+      "bytes": 4168,
+      "sha256": "4d848c15b173b234be6c512962d11bfd8c29aaec202290f8876189e0b31065fe"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/diagnose_targets.py",
+      "bytes": 3287,
+      "sha256": "349e9b24eb7e857f3a2d714323573c950d2f801470bb056d1242dce068fd5839"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/input01/geometry.json",
+      "bytes": 75077,
+      "sha256": "271b75c3bc12689eae9bf73863c272cf6792b9f958aaebb7e988113c9ba3fb58"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/input01/prepare_plot.py",
+      "bytes": 1566,
+      "sha256": "ce4fc3a3a82b1469f8d9fe2ffe746574cf40c183ad678310093bbf2550046271"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/input01/result.json",
+      "bytes": 103,
+      "sha256": "54cd9166f269a35b709f9a79c48be558db6bb502ca3d85a8fa1d0cd626c18358"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/input01-execution/state.json",
+      "bytes": 860,
+      "sha256": "e7885e36a7973391802744fa35d34d042988143914cb6249d7389a48ba8c4562"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/input01-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input01/arrays.npz",
+      "bytes": 12134,
+      "sha256": "0ac88d3a506df9f8b5ee47bde3c1b08bd43eb792b17a9962a05fd17432d2612a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input01/input.json",
+      "bytes": 19561,
+      "sha256": "35b0e13ffc3b9ff175b814a079f1b910c92b17f974588c8db5fa0bba900abdd3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input01/prepare_morph.py",
+      "bytes": 2915,
+      "sha256": "c070e4191d1a08ee7e41cfc40f3f2997927b81c45f73142a9e1bbb4a1ad4a50b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input01/result.json",
+      "bytes": 4765,
+      "sha256": "f53d14c82d31b8d16c8ece9ed382e9479bbde1d282af1084ad226cc655fa8404"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input01-execution/state.json",
+      "bytes": 866,
+      "sha256": "5054133d7c01715423ca643ac5df8ade1c358f9b5f788cf76fd3c3827f231853"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input01-execution/stdout.log",
+      "bytes": 336,
+      "sha256": "ddf961fa7f4b614dd5ca02a523eb96f691755e872cf6591f1fabac3168624045"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input02-execution/state.json",
+      "bytes": 866,
+      "sha256": "b1fecde97ebc9fac1fdf4ae8d7ce6b72606a55682dc058bead241c5cc36079d2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input02-execution/stdout.log",
+      "bytes": 702,
+      "sha256": "d26ba1aea985f86aa419d5a46e47cdf6925dfdd602a31005e8d1a2b4ee1e431b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input03/arrays.npz",
+      "bytes": 12133,
+      "sha256": "01e67cd545e581e018787f383f67e7dded1bfb1f4c3fd0401396fe117351c0b4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input03/prepare_morph03.py",
+      "bytes": 5598,
+      "sha256": "6b79a63c6139dea77bf400ac7ddce58d54fd2fa06a49967bc53fe2cf8bb18241"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input03/result.json",
+      "bytes": 15074,
+      "sha256": "1b1d721d52c2507d2ce4e622acaa8fcae0ebed20707fa482b8bf52bdefa1cbcc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input03-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input03-execution/state.json",
+      "bytes": 869,
+      "sha256": "7f79c046d71b1a8e853981ed76c123b5080421b7e4cc1a6523016e28bcc9708a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-input03-execution/stdout.log",
+      "bytes": 601,
+      "sha256": "5c2ef2c7a3056794624bec11d878bb1cd1607aeedc4e4409a77639b7af4419af"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph-record.json",
+      "bytes": 1446,
+      "sha256": "ebadb3828d36407357431588a4961dcb06896cf6237027c8e6d47e708dc30b48"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph01/boundary_morph.cpp",
+      "bytes": 2806,
+      "sha256": "5ca9084ad79ec7c5d787adab492d9d651c030ade11e870ebbc6d8f7aba65c94b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph01/native_job.py",
+      "bytes": 4164,
+      "sha256": "fef463b3f59ab5c8c118fb536dfc435899873f248f4bfcccb3500d99a3d23843"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph01/result.json",
+      "bytes": 14971,
+      "sha256": "a2a298827ee712c42616c8f09297cf3ff1976124d031eede656326ecd9c8dab0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph01/state.json",
+      "bytes": 2955,
+      "sha256": "a250ee2ae67f37a051cb734a9b6a70d0697d531487c9f651a815c5eb29a830c5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/morph01/stdout.log",
+      "bytes": 18,
+      "sha256": "dec6026b1cbac61c886e3c7e74aa1707105d962621f5bd9ff36366b2f7068a72"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/native_job.py",
+      "bytes": 4161,
+      "sha256": "cfe58ed79a1c1309afa29faef86e526bfd6d9f4c6dac7a04c7cdb2e5541190ef"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/native_job02.py",
+      "bytes": 4164,
+      "sha256": "fef463b3f59ab5c8c118fb536dfc435899873f248f4bfcccb3500d99a3d23843"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/plot-routing.ps1",
+      "bytes": 5351,
+      "sha256": "472ac8f0232ca7cd3095bdc27810a0ddf80d0cb58f0f2ef54a311ea9eb4c8b48"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/plot01/execution-observation.json",
+      "bytes": 380,
+      "sha256": "887000dd8c6792826ebcb5aa7c809722b1f626cc3c302480ed52d9bc06b6e7a4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/plot01/plot-routing.ps1",
+      "bytes": 5351,
+      "sha256": "472ac8f0232ca7cd3095bdc27810a0ddf80d0cb58f0f2ef54a311ea9eb4c8b48"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/plot01/routing.png",
+      "bytes": 134915,
+      "sha256": "347e7885031790716977c701f4fa9073d9899a1353faec708a8eacef95c4c122"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/plot01/state.json",
+      "bytes": 425,
+      "sha256": "a4a40ba9432bddf0db131cf6f6f731ea9b5f83885c9e3472f7d355a04cf46f49"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/prepare_morph.py",
+      "bytes": 2915,
+      "sha256": "c070e4191d1a08ee7e41cfc40f3f2997927b81c45f73142a9e1bbb4a1ad4a50b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/prepare_morph02.py",
+      "bytes": 4626,
+      "sha256": "a0520026a1c5877398d30c01ed3f523c12ed598710a82b02d83a9dd79b128eae"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/prepare_morph03.py",
+      "bytes": 5598,
+      "sha256": "6b79a63c6139dea77bf400ac7ddce58d54fd2fa06a49967bc53fe2cf8bb18241"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/prepare_plot.py",
+      "bytes": 1566,
+      "sha256": "ce4fc3a3a82b1469f8d9fe2ffe746574cf40c183ad678310093bbf2550046271"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/retain-record.json",
+      "bytes": 1068,
+      "sha256": "08ca93b6b95172dfe1df65efbda25946611c19b5f6beadcc96384e213550817f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/target-check01/diagnose_targets.py",
+      "bytes": 3287,
+      "sha256": "349e9b24eb7e857f3a2d714323573c950d2f801470bb056d1242dce068fd5839"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/target-check01/result.json",
+      "bytes": 11830,
+      "sha256": "e07cbb1e199e9ad03f1be257611c32d13e640abef2394e16f6696a74dd600d58"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/target-check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/target-check01-execution/state.json",
+      "bytes": 870,
+      "sha256": "6db9c11ee0a101fdf60e340d90a421261131ceaa4f0bb80b9b0103ac1db26bfc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-boundary-routing01/target-check01-execution/stdout.log",
+      "bytes": 1402,
+      "sha256": "4768f09a75056e7c0054fa4897c59deb16fdd4ea14445c3e5a4a9e84deae61bd"
+    },
+    {
+      "path": "research/82-r005-boundary-routing-trial.md",
+      "bytes": 10805,
+      "sha256": "ec76c113cede90c8e6e60afad2f8645d613cebdc6f26af969ad434117009f9e6"
+    },
+    {
+      "path": "research/83-r005-boundary-routing-verification.md",
+      "bytes": 11089,
+      "sha256": "a934121b6eb3a52e1c73e741ed2493a924fa323682fc2589838d73b13e0b497e"
+    }
+  ],
+  "external_files": [
+    {
+      "path": "D:/kensyoukin-work/r003-build/bin/r005-boundary-morph02",
+      "bytes": 18030472,
+      "sha256": "9dbf40f0f2fcef7a7cb901d17f033e465a5de8afe7ad0878dcdd83abdd091879"
+    },
+    {
+      "path": "D:/kensyoukin-work/r005-boundary-morph02/boundary_morph.o",
+      "bytes": 33396784,
+      "sha256": "c9ec3a7332b279212ba0309074474fd3517a7359971e86b54e54350d44c85819"
+    }
+  ]
+}

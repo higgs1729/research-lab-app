@@ -1,0 +1,21 @@
+{
+  "receipts": [
+    {
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0343/kbh-POS_PHerc0343_erwin/maps/reader-v2/c%2B0_s1_reverse.png",
+      "output": "originals/0343-reader-v2-reverse.png",
+      "bytes": 2084949,
+      "sha256": "88bfef9b090c2fc8af4f6aed6c7fa9c1346f28b7bbc333b930eef06663475c45",
+      "http_status": 200,
+      "etag": "\"2285e9023dbf4885ec63ba1462ce7b7d17aded8f1a27e58782a72c7b1e567a8d\"",
+      "repo_commit": null,
+      "utc": "2026-11-14T13:28:47.960829+00:00"
+    }
+  ],
+  "bytes": 2084949,
+  "elapsed_seconds": 2.512182300008135,
+  "cumulative_bytes": 2084949,
+  "cumulative_seconds": 2.512183600003482,
+  "new_ct_voxel_bytes": 0,
+  "new_model_calls": 0,
+  "cost_jpy": 0
+}

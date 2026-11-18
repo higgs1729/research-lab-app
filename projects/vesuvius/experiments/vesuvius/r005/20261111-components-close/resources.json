@@ -1,0 +1,40 @@
+{
+  "new_paid_compute_cost": 0,
+  "currency": "USD",
+  "new_input_download_bytes": 0,
+  "llm_and_local_electricity_cost": null,
+  "native_build_wall_seconds": 43.199458367,
+  "observer_relink_wall_seconds": 9.367138923999995,
+  "native_runs": [
+    {
+      "tag": "disabled",
+      "path": "experiments/vesuvius/r005/20261111-runs/components_disabled_keep1p5_01/state.json",
+      "elapsed_seconds": 5.995186896999996,
+      "started_utc": "2026-11-11T13:42:42.773331+00:00",
+      "completed_utc": "2026-11-11T13:42:48.774363+00:00"
+    },
+    {
+      "tag": "pack",
+      "path": "experiments/vesuvius/r005/20261111-runs/components_pack_keep1p5_01/state.json",
+      "elapsed_seconds": 6.191359374000001,
+      "started_utc": "2026-11-11T13:42:58.846859+00:00",
+      "completed_utc": "2026-11-11T13:43:05.046808+00:00"
+    },
+    {
+      "tag": "recover",
+      "path": "experiments/vesuvius/r005/20261111-runs/components_recover_keep1p5_01/state.json",
+      "elapsed_seconds": 6.803192920000001,
+      "started_utc": "2026-11-11T13:43:15.533952+00:00",
+      "completed_utc": "2026-11-11T13:43:22.346329+00:00"
+    },
+    {
+      "tag": "both",
+      "path": "experiments/vesuvius/r005/20261111-runs/components_both_keep1p5_01/state.json",
+      "elapsed_seconds": 6.84343942000001,
+      "started_utc": "2026-11-11T13:43:27.777642+00:00",
+      "completed_utc": "2026-11-11T13:43:34.627974+00:00"
+    }
+  ],
+  "native_runs_wall_seconds": 25.833178611000008,
+  "all_native_runs_sequential": true
+}

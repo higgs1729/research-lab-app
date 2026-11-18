@@ -1,0 +1,23 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-ct-render01\\..\\..\\discovery\\20261114-normalization-equivalence01\\compare.py"
+  ],
+  "started_utc": "2026-11-13T16:35:21.574733+00:00",
+  "completed_utc": "2026-11-13T16:35:29.894424+00:00",
+  "elapsed_seconds": 8.319481399958022,
+  "cpu_affinity": [
+    0
+  ],
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "max_rss_bytes": 1156661248,
+  "process_commit_limit_bytes": 4294967296,
+  "user_cpu_seconds": 6.328125,
+  "sys_cpu_seconds": 1.328125,
+  "exit_code": 0
+}

@@ -1,0 +1,146 @@
+{
+  "captured_utc": "2026-11-11T12:28:18.497159+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r004/20261111-candidate-review/sources.md",
+      "bytes": 5772,
+      "sha256": "1db7ba754ec0729d1eb4232b3bddf8f0d2714a6d7d07af88787402b05fdf7498"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-independent-inspection/e04-x-32-37.png",
+      "bytes": 59255,
+      "sha256": "61e4986d59efac002d13e33778474ee7f4a1809cbe71d31e83ee614aed87479b"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-independent-inspection/e04-x-38-43.png",
+      "bytes": 59185,
+      "sha256": "e4b65770394e2f92effde4f70dda1806f74405b03c6629face4fe22ab52e19d4"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-independent-inspection/e04-y-232-313.png",
+      "bytes": 62163,
+      "sha256": "81ee500f76bb11c46df9139478be7458f00ca707c41c7c3278ba0dfb57416ea8"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-independent-inspection/e04-y-268-273.png",
+      "bytes": 58240,
+      "sha256": "85133bc1bd4e8c306ef769e3e2749ef7b58b1dea81b35e1f9b1311a16e4c4610"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-independent-inspection/e04-y-274-279.png",
+      "bytes": 58462,
+      "sha256": "c8d8ab3e02f58656f64116c5e17896f78692a2ea79444f0a32de8493070ab8a7"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-independent-inspection/e04-z-44-49.png",
+      "bytes": 57418,
+      "sha256": "64ce2e6070b2a2dfaafdace8f4e0307299684e8a83346b746bc766f3bd800090"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-independent-inspection/e04-z-50-55.png",
+      "bytes": 55418,
+      "sha256": "e68724b308eb2b0bb1c53419baac6ec42cf767d028bbc0237c84255cf64e5dc0"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-independent-inspection/inspect_e04.py",
+      "bytes": 10199,
+      "sha256": "d8deecbabe9180ff0f05072b0c4aa274203139e73cc75d86944e064805bacd74"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-independent-inspection/inspection.json",
+      "bytes": 4639,
+      "sha256": "6f0cad0f9a693a5527217bf19402cb39acac0b35c49501dcffdbd4190b85823e"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-input01/decision-record.json",
+      "bytes": 1098,
+      "sha256": "b25adddbc6b74ee276e810805f3cc18485e8fb2ac9a9d0e9e29561dd944cf5a0"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-input01/download_and_inspect.py",
+      "bytes": 3165,
+      "sha256": "f91ffd277c9b0335ccb12d6e5a51bd1ab581000a1f6ce5754458611f2b21c651"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-input01/manifest.json",
+      "bytes": 311,
+      "sha256": "6304a14723b2aa76af946bbc91111aca8a492252f8309ec0b2f9538588bbd9c1"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-input02/e04-orthogonal.png",
+      "bytes": 134177,
+      "sha256": "1c90c9bdff1388f12b3d30b3828da50c768e990df09eb0198d6031e448866836"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-input02/manifest.json",
+      "bytes": 2406,
+      "sha256": "822635646ff1299e5a6f3da3cd38cc9091f13ef7640b324bf7eee9e4d2c277a7"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-input02/probe_input.py",
+      "bytes": 5779,
+      "sha256": "6caaa77ce1c2cde43337d8563cb106742656b1fb3814cfdea14d4ccf20c3ea94"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-localization/audit-README.md",
+      "bytes": 49057,
+      "sha256": "eaa8486fd020f853c7c46fa964b453151a021bbd7574ce228de2bfc459ae1951"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-localization/errata_cutfill.md",
+      "bytes": 3965,
+      "sha256": "7456b3a6fbd92db2de9ee8b8e225100e3b90005880112026952b4d0eb15cbb9a"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-localization/errata_hole_geometry.csv",
+      "bytes": 2463,
+      "sha256": "21bf7789710772d9d785ac6ec251e725b7e51c2310b3e9a01128105ec5b26e4e"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-localization/localize_e04.py",
+      "bytes": 3624,
+      "sha256": "39fa4543a19bfb8d24fcd420d58609611e5d428c965a3ff5f631d17af8a1bc25"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-localization/located_holes.npz",
+      "bytes": 11041,
+      "sha256": "35ae9031f080ed99301831108fbb5ed4bf098872bdcb728b6026d98b1b5146e4"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-localization/result.json",
+      "bytes": 1666,
+      "sha256": "2eb9c6546db751e7a5c02ec4a5aff3729d879c7e0b1a72912b8defcf2e0194e8"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-localization/source-manifest.json",
+      "bytes": 921,
+      "sha256": "06eb5a9e6f64400bb6f52118677f71c8cdf9e613b09a56712a6c3564c05e9cf2"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-localization/upstream-label_topology_audit.py",
+      "bytes": 31553,
+      "sha256": "cc8a15220099ac8f3ac9c15f7c7b9d04b026bc1c25553050ed00a3bfa2ceb3a3"
+    },
+    {
+      "path": "experiments/vesuvius/r004/20261111-localization/upstream-topology.py",
+      "bytes": 1448,
+      "sha256": "43cfb098579c9c0143bc17916d65a66745bd00a9af6db3a681d28355ba39ba12"
+    },
+    {
+      "path": "research/35-next-contribution-sources.md",
+      "bytes": 7760,
+      "sha256": "1982d27dbab1474a6c05e0bd677544c389f0c3c16027de07c6d8225025aa6485"
+    },
+    {
+      "path": "research/36-r004-e04-feasibility.md",
+      "bytes": 6229,
+      "sha256": "c4b6d9062ce23a57b009125d330311303786362e9496971791ea2d2469b42637"
+    },
+    {
+      "path": "research/37-r004-independent-inspection.md",
+      "bytes": 5443,
+      "sha256": "42001c8ba4e9c75c44eee19b8fb69944cc477b829007d70122b823ceb0190046"
+    }
+  ],
+  "binary_data_manifest": "experiments/vesuvius/r004/20261111-input02/manifest.json"
+}

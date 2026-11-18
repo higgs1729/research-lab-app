@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-14T16:33:40.501647+00:00",
+  "dedicated_name": "r219-hecate-7a311283ffd8bcc8",
+  "pod_id": null,
+  "same_name_count": 0,
+  "all_pods_count": 0,
+  "other_pod_id_hashes": [],
+  "write_calls": 0,
+  "conclusion": "Rejected create returned no ID. Dedicated name absent from complete list; no owned resource observed. Parent independently verified after finally returned.",
+  "cleanup_limit": "Legacy cleanup cannot mark success with missing ID; its console-check flag is superseded for current absence by this direct API observation. No secret or raw create body logged."
+}

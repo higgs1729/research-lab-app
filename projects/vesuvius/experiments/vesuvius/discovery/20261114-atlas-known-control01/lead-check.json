@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-13T15:13:52.991388+00:00",
+  "files": [
+    {
+      "path": "originals/ct.png",
+      "bytes": 4947383,
+      "sha256": "1050da1a19ab63f73a9bc662132ea5088d041c70a04b382ccd87fd9252ef6547"
+    },
+    {
+      "path": "originals/forward.png",
+      "bytes": 3181902,
+      "sha256": "99d6d7644205e69f4141fcce41127629c061ae98797f2cf2d6c57e01243cd0aa"
+    },
+    {
+      "path": "originals/reverse.png",
+      "bytes": 3182382,
+      "sha256": "abe484095057200668181dd92c3ad3fdb104e8cd7fbbab1cc01017e3baaba182"
+    }
+  ],
+  "total_image_bytes": 11311667,
+  "visual_scope": "comparison.png and native-main-left/center/lower.png with original detail, root independent review",
+  "observation": "Reverse contains distinguishable curved, looped and upright strokes in a main line and lower line. Forward is largely cloudy in those locations. Saturation joins portions of adjacent strokes, so no independent exact transcription was made.",
+  "source_scope": "Atlas metadata points to survey POS_PHerc0343_erwin. Fixed survey README explicitly names Erwin's winning segment as the positive control; winner README identifies concat_w047-w048_R5B2_z9500-11000.tifxyz. Mesh bytes and pixel registration to the winning source were not checked.",
+  "conclusion": "Known published positive display control supported, not our discovery and not validation of unseen-scroll sensitivity/specificity or training non-overlap.",
+  "new_network_bytes": 0,
+  "product_model_runs": 0
+}

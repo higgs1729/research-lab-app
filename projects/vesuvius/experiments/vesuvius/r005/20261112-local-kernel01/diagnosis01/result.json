@@ -1,0 +1,338 @@
+{
+  "selected_vertices": [
+    95387,
+    123536
+  ],
+  "selection": "Greedy maximum negative-face coverage among moving vertices, ties by global ID. Disjoint incident-face sets required.",
+  "vertices": 602,
+  "faces": 929,
+  "rows": [
+    {
+      "vertex": 95387,
+      "local_vertex": 404,
+      "cell_yx": [
+        113,
+        1368
+      ],
+      "coarse": false,
+      "incident_faces": [
+        181331,
+        181332,
+        181333,
+        185050,
+        185051,
+        185052
+      ],
+      "incident_vertices": [
+        [
+          95386,
+          93501,
+          95387
+        ],
+        [
+          95387,
+          93501,
+          93502
+        ],
+        [
+          95387,
+          93502,
+          95388
+        ],
+        [
+          97272,
+          95386,
+          95387
+        ],
+        [
+          97272,
+          95387,
+          97273
+        ],
+        [
+          97273,
+          95387,
+          95388
+        ]
+      ],
+      "incident_fixed_mask": [
+        [
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          true,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ]
+      ],
+      "raw_uv": [
+        27364.00642580019,
+        2256.5384262949065
+      ],
+      "restored_uv": [
+        27364.00642580019,
+        2256.5384262949065
+      ],
+      "normals": [
+        [
+          -0.44340137723859097,
+          0.8963231664209739
+        ],
+        [
+          0.39320327809049616,
+          0.9194515659342192
+        ],
+        [
+          -0.11960097916460488,
+          0.9928220413462162
+        ],
+        [
+          0.9353811326367084,
+          -0.353641254249654
+        ],
+        [
+          0.2174931869236123,
+          -0.9760618390459749
+        ],
+        [
+          -0.3006344728959133,
+          -0.9537394370091847
+        ]
+      ],
+      "base_heights": [
+        -0.26897908619687705,
+        -0.3698507446495621,
+        18.371974083057378,
+        21.811638517495997,
+        0.6272561397042193,
+        0.6146287551454463
+      ],
+      "required_minimum_height": 0.01,
+      "solver_success": true,
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        0.11045742812580227,
+        0.36589042238372765
+      ],
+      "linf_displacement": 0.36589042238372765,
+      "minimum_post_height": 0.009999999999999898,
+      "max_inequality_violation": 1.1102230246251565e-16,
+      "updated_uv": [
+        27364.11688322832,
+        2256.9043167172904
+      ]
+    },
+    {
+      "vertex": 123536,
+      "local_vertex": 544,
+      "cell_yx": [
+        127,
+        1367
+      ],
+      "coarse": false,
+      "incident_faces": [
+        235017,
+        235018,
+        235019,
+        239108,
+        239109,
+        239110
+      ],
+      "incident_vertices": [
+        [
+          123534,
+          123535,
+          123536
+        ],
+        [
+          123536,
+          123535,
+          123537
+        ],
+        [
+          123536,
+          123537,
+          123538
+        ],
+        [
+          125725,
+          123534,
+          123536
+        ],
+        [
+          125725,
+          123536,
+          125726
+        ],
+        [
+          125726,
+          123536,
+          123538
+        ]
+      ],
+      "incident_fixed_mask": [
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          false,
+          false,
+          false
+        ],
+        [
+          true,
+          false,
+          false
+        ],
+        [
+          true,
+          false,
+          true
+        ],
+        [
+          true,
+          false,
+          false
+        ]
+      ],
+      "raw_uv": [
+        27364.89345243671,
+        2257.896124647002
+      ],
+      "restored_uv": [
+        27364.89345243671,
+        2257.896124647002
+      ],
+      "normals": [
+        [
+          -0.01199762587145678,
+          0.9999280258965884
+        ],
+        [
+          0.2064677910725445,
+          0.9784533975870411
+        ],
+        [
+          -0.8493368733859197,
+          -0.5278511868955399
+        ],
+        [
+          0.1516678839921802,
+          -0.9884315115198091
+        ],
+        [
+          -0.054309185153463294,
+          -0.9985241671627015
+        ],
+        [
+          -0.19021442171566078,
+          -0.9817425700107828
+        ]
+      ],
+      "base_heights": [
+        0.5489787581325929,
+        0.7414852125091148,
+        32.20809273985433,
+        3.361208439333988,
+        -0.04544503705063119,
+        1.2800888302174034
+      ],
+      "required_minimum_height": 0.01,
+      "solver_success": true,
+      "solver_status": 0,
+      "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "displacement": [
+        -0.05266269056603843,
+        -0.05266269056603851
+      ],
+      "linf_displacement": 0.052662690566038506,
+      "minimum_post_height": 0.010000000000000002,
+      "max_inequality_violation": 6.938893903907228e-18,
+      "updated_uv": [
+        27364.840789746144,
+        2257.843461956436
+      ]
+    }
+  ],
+  "measurements": {
+    "base": {
+      "negative": 3,
+      "zero": 0,
+      "minimum_signed_area": -6.91548508437123,
+      "overlap_pairs": 23,
+      "pairwise_area_sum": 34.05435121202792,
+      "max_fixed_error": 0.0
+    },
+    "updated": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_signed_area": 0.13151244976936027,
+      "overlap_pairs": 0,
+      "pairwise_area_sum": 0.0,
+      "max_fixed_error": 0.0
+    },
+    "float32": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_signed_area": 0.13161158561706543,
+      "overlap_pairs": 0,
+      "pairwise_area_sum": 0.0,
+      "max_fixed_error": 0.0
+    }
+  },
+  "elapsed_seconds": 0.650638599996455,
+  "versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "shapely": "2.1.2"
+  },
+  "limits": "One pass, fixed surroundings. This checks a feasible witness, not global optimality or impossibility. Local929 faces only; no global merge or rendering. Height0.01 is a diagnostic condition, not a quality guarantee.",
+  "sources": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-scaf01\\input02\\arrays.npz",
+      "sha256": "b08bf6ff9508ae7a1dede641008aefd6699a8f3ce3b4ebafab9b241de9aba721"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-scaf01\\analysis02\\arrays.npz",
+      "sha256": "c5df144cbbb9e8b576cbc317670a5f20ac5d878681fd16ef5c9b72ac147aed6b"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-reconcile01\\second\\arrays.npz",
+      "sha256": "9247c744e4c6197aea2fcdc8d4bfe5682c2a3892e4d683373883ec7810595de7"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\holdout_seed_keep1p5_01\\output.obj_uv_diagnostics.json",
+      "sha256": "b47eaf70e6d7f4423b0e5c6efb56ce36b24ebd688510d49aefad5311a899e853"
+    }
+  ]
+}

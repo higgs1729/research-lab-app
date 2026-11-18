@@ -1,0 +1,35 @@
+{
+  "date_jst": "2026-11-14",
+  "copied_ct_values_equal": 4866048,
+  "full_grid_supporting_patches": 25,
+  "comparison": {
+    "seed42": {
+      "old_vs_published": {
+        "pearson": 0.0755188367229301,
+        "mean_absolute_dn": 37.885345458984375,
+        "pixels": 65536
+      },
+      "aligned_vs_published": {
+        "pearson": 0.9481014214119386,
+        "mean_absolute_dn": 7.441314697265625,
+        "pixels": 65536
+      }
+    },
+    "dense": {
+      "old_vs_published": {
+        "pearson": 0.8750605206927093,
+        "mean_absolute_dn": 13.904632568359375,
+        "pixels": 65536
+      },
+      "aligned_vs_published": {
+        "pearson": 0.9896969826507517,
+        "mean_absolute_dn": 4.0781402587890625,
+        "pixels": 65536
+      }
+    }
+  },
+  "visual_review": "Both original-detail comparison figures were viewed before the worker assessment. Aligned seed42 follows the public curved arrangement much more closely than the old bright blobs. Dense-native also more closely matches the public ring and surrounding bright areas. No newly separable letters or readable sequence is claimed.",
+  "scope": "One known-positive fixed region and one canonical phase. Remaining public/local geometry and runtime differences are not isolated. Correlation is not reading accuracy.",
+  "new_model_calls": 0,
+  "new_network_bytes": 0
+}

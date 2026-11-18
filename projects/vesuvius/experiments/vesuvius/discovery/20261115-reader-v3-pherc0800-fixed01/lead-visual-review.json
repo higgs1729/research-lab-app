@@ -1,0 +1,33 @@
+{
+  "reviewer": "root",
+  "checked_utc": "2026-11-15T07:18:18.577219+00:00",
+  "child_verdict_read_before_this_record": false,
+  "native_main_xywh": [
+    142,
+    640,
+    1067,
+    1067
+  ],
+  "viewed_sha256": {
+    "native-ct-centre.png": "a93c2c9d58536ad3ba941aa06a7a77df88a7c59493533e7db456675b6e9a2b42",
+    "native-forward-raw.png": "125109bbad9092236466d38f3cac51b486b66e7471e5caf42b5bc4bf9087d733",
+    "native-reverse-raw.png": "40a129d25ee547f2935ea576d771accab9b8c2e0195eb1f1706091fa7e81f791",
+    "native-forward-median-p995.png": "7651ffaa08c60077ac2527809b7041b422985339aa7ff915dc29abbf13966659",
+    "native-reverse-median-p995.png": "0e14107f506ca1477e628754031eeec7e3e56dc5b80e103c1cdb46f99d2b56ef",
+    "native-geometry-proxy.png": "582b300c8f713cd3176bcfb4ce04a5f785b7ba96f5f3b7d08848fee529a894df",
+    "r220-grid-hecate-reverse-raw.png": "8d3de6f49060efe3f9542464c90b870743e2f1cd7bc56c00445eb442bcc19701",
+    "r220-grid-reader-reverse-raw.png": "812b9cf00782a53c5bd7200a763b63dfaeb3e556ac19d5c7635982c1f969362c"
+  },
+  "observations": [
+    "Forward output contains isolated diffuse bright spots, especially around local (770,220), (890,410) and the lower edge; I do not resolve a row or distinct repeated letter strokes.",
+    "Reverse output contains a broad diagonal upper-left-of-centre response, a curved left-middle response, and a broad corner/junction in the lower-left quadrant. These are present in the raw score as well as the fixed median/p99.5 view, but do not resolve into a defensible letter/stroke sequence. Approximate local regions are x280..520,y280..420; x100..300,y480..760; x220..520,y780..990.",
+    "The CT shows a crosshatched fibrous texture with dark interruptions. This view alone does not establish that the selected surface follows one physical lamina.",
+    "At the shared R220 grid the broad lower Hecate L-like response and the strongest Reader reverse corner are displaced from one another. No reading improvement is established. Different depth, grid sampling, model and receptive context remain confounders.",
+    "Some nominally empty pixels have context-derived scores; object/geometry/nonzero input and Hann support are distinct. Neither the bright responses nor the geometry proxy prove ink."
+  ],
+  "followup_roi_selected": 0,
+  "new_letters": 0,
+  "fourth_award_candidate": false,
+  "decision": "Close this fixed Reader test. Do not infer absence of ink in the scroll or expand this window by threshold/depth sweeps.",
+  "limits": "Human-readable shapes were not established by this visual screen; weak broad responses are retained for audit and are not labelled proven artifacts."
+}

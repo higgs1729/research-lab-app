@@ -1,0 +1,20 @@
+{
+  "approved": true,
+  "reviewed_utc": "2026-11-15T10:25:55.990393+00:00",
+  "cloud_plan_sha256": "4658416dc8ee9d955238807e24118b705d4caeb6fc4fe9053b5e5b70e84e0d15",
+  "reviewer": "lead",
+  "source_review": "Read R230-to-R231 diff, offline tests/results, and added actual-budget forecast/PID-parent-command check. Model/inputs/CPU references unchanged; identical17-member input archive independently hashed. R230 physical file reservation unchanged.",
+  "archive_members_verified": 17,
+  "data_centers": [
+    "CA-MTL-1"
+  ],
+  "startup_max_seconds": 600,
+  "absolute_delete_seconds": 1800,
+  "operational_limit_usd": 0.35,
+  "estimated_compute_usd": [
+    0.079,
+    0.197
+  ],
+  "forecast_scope": "Only owned Pod scientific process; no repeated signal. Existing hard subprocess and absolute deadlines retained.",
+  "requirements": "Immediate inventory/account/rate and local reservation/watchdog-ready admission; one create, no automatic region or GPU substitution; capture all available evidence and delete; parent independent output/deletion verification."
+}

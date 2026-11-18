@@ -1,0 +1,15 @@
+{
+  "checked_utc": "2026-11-15T08:06:34.609506+00:00",
+  "plan_sha256": "24329bd07841e9be666bacb2701d7f4f2df6d9944f1feb78089625fa9fb1f5d9",
+  "sites_checked": 12,
+  "position_max_abs_error_voxel": 0.0,
+  "normal_max_abs_error": 0.0,
+  "orthogonal_planes": 36,
+  "continuous_curtains": 5,
+  "contexts": 2,
+  "planned_CT_samples": 417780,
+  "exact_required_keys": 73,
+  "additional_bytes": 153092096,
+  "within_initial_256MiB": true,
+  "decision": "Proceed with this fixed original-CT acquisition and diagnostic; no paid/GPU resources. Numerical agreement is not physical lamina identity."
+}

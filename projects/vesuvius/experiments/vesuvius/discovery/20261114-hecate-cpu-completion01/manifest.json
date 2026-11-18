@@ -1,0 +1,570 @@
+{
+  "generated_utc": "2026-11-14T08:43:59.749088+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/compare-process.json",
+      "bytes": 806,
+      "sha256": "820120806dab37f33c178fd61f0ad091b6f2b057775ce50168b41e6627e033c7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/compare.py",
+      "bytes": 2832,
+      "sha256": "75956dc587bcf8a5f6ff5f5b9555311476a24175a0d45acc602abb906e7de410"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/compare02-process.json",
+      "bytes": 692,
+      "sha256": "2a90f68476adaf20f53a2e9b949506c9a6e7c6056330290b5a41e580ad16070c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/compare_saved_env.py",
+      "bytes": 283,
+      "sha256": "cb74271c6a1bd3df10e3a93345a3af3c81247eba72fc09085e2ef887dfaee085"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/comparison-256.png",
+      "bytes": 220423,
+      "sha256": "bd4620834a52234d9801bd18dcdbfb80e1db9e20930c20f33ce45357a559bb4f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/comparison.json",
+      "bytes": 332,
+      "sha256": "640a6ebdd22d7cc4238aa39f8fbf2e053f263a6f55ccc14d5af416bf741f0eb8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/execution-result.json",
+      "bytes": 1818,
+      "sha256": "1e0f50471197de0be9361b68e9b069bf1c2b2ffa34445e8269fbf8bd217475f9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/execution-start.json",
+      "bytes": 1301,
+      "sha256": "1a85b145d57d3f3c820b9fbeae12f322db2b0314faf1512dc600e17bd55c1995"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/first-three.json",
+      "bytes": 610,
+      "sha256": "c3f96dfecb11f71da6901b7f6e07ad0f5f6c20c5e1181af4908059b5c5c0cd57"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/hecate-reverse.png",
+      "bytes": 45364,
+      "sha256": "d513eb7c4c32a4e730fd8d2460e29298f434ad5f817dd877dcaf9cfdf1bed839"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/infer-process.json",
+      "bytes": 843,
+      "sha256": "c70b8aebc39bf407ecb237bd946829b092c438b8d20b70ac50c03e8ecc25d1da"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/inference.log",
+      "bytes": 29,
+      "sha256": "9a2119484dd5f08fc814f8b307cfa7f2bd7a28edb503dc0d03c41af4a291d0f2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/lead-preflight.json",
+      "bytes": 1196,
+      "sha256": "5cbe1f10d5cd7f7383bd5d38c2d7f1adb38070653d03e671453ac4c02093c785"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/lead-verification-process.json",
+      "bytes": 685,
+      "sha256": "a8cc4a90cb7edba561ea53093f642499a238539775e261d54961b680c8f58947"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/lead-verified.json",
+      "bytes": 1740,
+      "sha256": "9388be7b992a5c77b5680b874ef070621b47ceb11a1177a7d9e682ca5d099e8d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/lead-visual-process.json",
+      "bytes": 687,
+      "sha256": "d7e273bf56791ed7610618760a696bf70d2e4f731fd82b54bbaeef2ea9e7ae41"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/lead-visual.json",
+      "bytes": 1162,
+      "sha256": "e5a53f9ee631b07d431f79f8e4619fbcb95791eb0797cb6c67d43adfcedf0fa3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/lead_verify.py",
+      "bytes": 4916,
+      "sha256": "2e68097b4bd1bd22b8d1ef43b170d7d16f2f6898fccdcacc4882b32bf7188f61"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/lead_visual_check.py",
+      "bytes": 2740,
+      "sha256": "039f3a7e36029a37a71b58ba528ea02b5ab1d217b5c6c50660dff9e24b1601f4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/load.json",
+      "bytes": 134,
+      "sha256": "6dcbed5eb6ba2823bff31b1e940d6dd63b3b56d3ef38d7fb0e96ef9baaf7a8e6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/001.npy",
+      "bytes": 16512,
+      "sha256": "b7f561f9d43b13bba2ef223082331e2dafa2920aef6c3962f8e71e9548f26db7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/002.npy",
+      "bytes": 16512,
+      "sha256": "2233ceea0e78375ca77d8ca18cd724229f023dafcdb1a09a1118ce10bea7b573"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/003.npy",
+      "bytes": 16512,
+      "sha256": "c92944a05ea24b195530ae27e955f56c75b88b5d596fe4996b5e431844d8bf37"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/004.npy",
+      "bytes": 16512,
+      "sha256": "0662c07fd485f124ad17b33213001f13dbf4ed3c268cbfae4015b4cdf6b3dc4c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/005.npy",
+      "bytes": 16512,
+      "sha256": "f4f29d3241bea290a9318aab77b3e53fce45d84e3adcb2d2fd330539642dd961"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/006.npy",
+      "bytes": 16512,
+      "sha256": "f11046ced1f32eb6a01f28eb1a7d57cf374a6c3442b6d91b5dd92fd2126e777b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/007.npy",
+      "bytes": 16512,
+      "sha256": "7f0a1c596d0d464dba500f5537eb54219259e111dc4dee009afa4efb4d19b25d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/008.npy",
+      "bytes": 16512,
+      "sha256": "662922ff36c8ba699640338293bc0302256302fd7703286c4c233329f939b1bb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/009.npy",
+      "bytes": 16512,
+      "sha256": "1553ea18e5a459c281d3d4fc9ea7e681893e5af3b4f01654902dbb58522a94e0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/010.npy",
+      "bytes": 16512,
+      "sha256": "78f04f9c870dbe0146bed8c05c0cede0f5bb8235e299559d7fb2e26a654afc5d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/011.npy",
+      "bytes": 16512,
+      "sha256": "8ceb43b832fe324eb8005912b845948b908120ac5fbaf3d69f24d5ede1a1ec0a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/012.npy",
+      "bytes": 16512,
+      "sha256": "e8652ef5bb643b69b446b5c84c95df0bc1ed9936cbbc43d6408befae9e1c6d2f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/013.npy",
+      "bytes": 16512,
+      "sha256": "207da9532f793abc0229a55b8fb447f7b6a43812346262ad6f8f1bf97f0dea0c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/014.npy",
+      "bytes": 16512,
+      "sha256": "738882ac589ebcc61d0a16ed0b3878d22c790bb8153f359ec54d1131bec47aca"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/015.npy",
+      "bytes": 16512,
+      "sha256": "de4c1370d6aa98582b98dbd63e71f850e7359f6acab482db64f8ffe38f93243e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/016.npy",
+      "bytes": 16512,
+      "sha256": "91c6f59516de562579cb2316a647dcab22ef8c0bdd1d4756d5af2606ba1a4013"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/017.npy",
+      "bytes": 16512,
+      "sha256": "09e1587fa16d4646a764cc2429460e3f40651f97180b6d2a100e9c20baf47ba2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/018.npy",
+      "bytes": 16512,
+      "sha256": "7d27ebf52855d743e8a0b4b322eed1f6738a44d1c2cc7e16743b39ddd2f34830"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/019.npy",
+      "bytes": 16512,
+      "sha256": "b5881a912936ce4cdbbdebe50dda38500d8f6c38b30cbf17deed7f2dcde55a5c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/020.npy",
+      "bytes": 16512,
+      "sha256": "9738045ce1b1e3b4f3b784e28a6454be594f9929bc5f1f9bb9dc8e676446017f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/021.npy",
+      "bytes": 16512,
+      "sha256": "62559e2266353567d2a7bae096f82d1184aff9f4cc068117bcd0db5d6d8e6010"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/022.npy",
+      "bytes": 16512,
+      "sha256": "f9ba5ca6ba0a070e4763a21da55ba24d362cf604bdba360be39a91266dee4323"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/023.npy",
+      "bytes": 16512,
+      "sha256": "72524fc272c306e84eb63096a05224fcb434a182661cf10b568387d4c2dec27a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/024.npy",
+      "bytes": 16512,
+      "sha256": "c4c742e0771bd7607f952fa8d877c1be1ca9d266ce6b65be5cc7503637a69c7f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/025.npy",
+      "bytes": 16512,
+      "sha256": "878d9cbe82ee0bb6b4dad7b1beb5b04769ea2745277e38fbb573935c7218b37b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/026.npy",
+      "bytes": 16512,
+      "sha256": "775dac5ad6ff094094fc0a428dc887e1443e49ec44887bb72fef5717fe660c14"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/027.npy",
+      "bytes": 16512,
+      "sha256": "e74d72ed56ae7aff68fcf36a22639a3fd08398883fd3fb6d96f37db6c27e7833"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/028.npy",
+      "bytes": 16512,
+      "sha256": "d209836fb23ef02ec5e7df97901a7c591b682d2db9bcb3eba17f650a80c2b990"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/029.npy",
+      "bytes": 16512,
+      "sha256": "96208c1901791f2bc0d8e3790032cc1dfd49cb0252f636ce39a1b19f05cc37b4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/030.npy",
+      "bytes": 16512,
+      "sha256": "305c3a6feec490075907ae8109162199a354c6fce6806ec8f495b4e6193d146c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/031.npy",
+      "bytes": 16512,
+      "sha256": "c05920ebbc7995edb404239209d4e786a1f04b34e8f229000f91fe3929146c9b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/032.npy",
+      "bytes": 16512,
+      "sha256": "2368e89b1501dc06312e304f76799faf59fb0ccbb6239b386f6445bf74099d95"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/033.npy",
+      "bytes": 16512,
+      "sha256": "116d224f5258afe175842df2df829a37c9b2f539f88b50468b620e72077d5de6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/034.npy",
+      "bytes": 16512,
+      "sha256": "6455d4dfd299083c14575a38185e1c7e8de824dc28584fef221dcb5607330ddc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/035.npy",
+      "bytes": 16512,
+      "sha256": "6ac7bf8e8aee177c4bb82ac13c177e225335aef8228dd77b19639ca707776e4d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/036.npy",
+      "bytes": 16512,
+      "sha256": "ddebb8deb640fc978395fb960529c84756bf2fcbcc7b0b90ce1b6ecaa13d0879"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/037.npy",
+      "bytes": 16512,
+      "sha256": "c490cdbc1a8224f6fe792b6759f3a91be5c9698d514ec2b39502af3680cfe776"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/038.npy",
+      "bytes": 16512,
+      "sha256": "9ea78b8fcfbebc966c1e244e04905833fc9f6cc1b69111dfededfaf661b20485"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/039.npy",
+      "bytes": 16512,
+      "sha256": "92497bf60dec457b920e0965dae68d03cb97400d929835917d47d4726dd5fd28"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/040.npy",
+      "bytes": 16512,
+      "sha256": "7073d81600d6220832ec76821540560c47ef9b1f6c1a1e37b166f2baf15d4108"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/041.npy",
+      "bytes": 16512,
+      "sha256": "35762d13a9caaead3ec20009ed57bb4c5ca42f6a28bc6ff8c3681e604bda6084"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/042.npy",
+      "bytes": 16512,
+      "sha256": "23962cf2c3d0188f70fd8d7838d2123efa80762627a043908453feeca9e9c71a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/043.npy",
+      "bytes": 16512,
+      "sha256": "af1fdba2edfdf4e91ee98cd6689d8cb88f099766ba0dcf8f228c26e22df596d0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/044.npy",
+      "bytes": 16512,
+      "sha256": "6e416816d30a45f9e37888059339cec52c2a37546770219f6abbdb9389dec08a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/045.npy",
+      "bytes": 16512,
+      "sha256": "7b47ce4f2b2fe436bce5ad091ea11a8aab0144712bbae959a29cfc481113b09b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/046.npy",
+      "bytes": 16512,
+      "sha256": "978c360e2974b978a9a9f808c429f8a72b60bcda60a16e72c3a38d559e5d68b2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/047.npy",
+      "bytes": 16512,
+      "sha256": "2140cc058020ded845c2a739ae6f8557db0f504a3c254a184fc8c488d636ef28"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/048.npy",
+      "bytes": 16512,
+      "sha256": "1eed79c04fd87c76c1f2c10a0bb74b6c66d83eecbf53e1c4e85db7eef2a44887"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/049.npy",
+      "bytes": 16512,
+      "sha256": "824451396f8ee36fc3cb32a81778b1b384470afcbdbef2adf3a538750d8decb4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/050.npy",
+      "bytes": 16512,
+      "sha256": "5740a2aaf49ffeebe9861d7153f906f805d85a1a46231c425365287a6bdc002c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/051.npy",
+      "bytes": 16512,
+      "sha256": "702b488c2343b7173c8436a02a1cd6af4b51d3886f744db12c408097023da162"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/052.npy",
+      "bytes": 16512,
+      "sha256": "9616a21f411d5512ab209ac674a12226044afd347f43331642a1f4c9343f99e3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/053.npy",
+      "bytes": 16512,
+      "sha256": "ba1b623940659475f80323b86feac524ef8483b6690e61e486c5fdaec36070b4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/054.npy",
+      "bytes": 16512,
+      "sha256": "b35a8e270f345515529ce90386995245cf574c2d84950769479067ee8b4a66cb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/055.npy",
+      "bytes": 16512,
+      "sha256": "26706e2a3553bb9eb8153ec6ec96b5ea0cd26d1087cc953b0f107783b2e54824"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/056.npy",
+      "bytes": 16512,
+      "sha256": "b493057b53613f3c807ebe6b1be1626197463e7e07352e0174ebdfc0a3f3eee8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/057.npy",
+      "bytes": 16512,
+      "sha256": "88a64a583093601c689e098225c37de78d46d2fa6cbf91367ae1db52bf3d944f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/058.npy",
+      "bytes": 16512,
+      "sha256": "4648e24311f7dae5f20e872cec3c13a457e4bb8efd580d445ba9e27de07c5b28"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/059.npy",
+      "bytes": 16512,
+      "sha256": "fa16af0a25c99e7d08726a96f889560a9e71b79c5b7440b71b5a672e001efe1d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/060.npy",
+      "bytes": 16512,
+      "sha256": "1d5b4ef6a719650303c471e5b236f5786ea29b14b49616b4592fb36cba485904"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/061.npy",
+      "bytes": 16512,
+      "sha256": "368607a673c621113c2d41a242dd2499c6f772848f84f81e8131b46cf86dd8a0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/062.npy",
+      "bytes": 16512,
+      "sha256": "0d42608b9fb26854e9113d005892c323c2b98c7b32af408619df70454e67c5d9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/063.npy",
+      "bytes": 16512,
+      "sha256": "b69d3faefc4c3c77edad4f4b30836baae4e932f858ea20115b93ef16e7ecd993"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/064.npy",
+      "bytes": 16512,
+      "sha256": "b832fa012128b53eaee7ba63a8c25d1b8bad21d1965c112e36e94fc8afc7554a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/065.npy",
+      "bytes": 16512,
+      "sha256": "1f0792a899aa6af5080f09fd02243aa863671109327d3ff66007eeefc9b821dc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/066.npy",
+      "bytes": 16512,
+      "sha256": "553592e11860d4e0c2d91f6419d355d3f994e6d1d8b81a68f5ae5b169c2f3864"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/067.npy",
+      "bytes": 16512,
+      "sha256": "79167a0c90a328c42a92054c847b263f8070e78aa2bd0941e377b1ce45ec7ea9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/068.npy",
+      "bytes": 16512,
+      "sha256": "3cf8ad0efeb41da33fddc4e3c9f808dbb0738ea9409e843a7461d55a90cd035e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/069.npy",
+      "bytes": 16512,
+      "sha256": "bce07addd0f90eabb4e3f2ee2579208a081630c507da23e85026b189ae7c46a2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/070.npy",
+      "bytes": 16512,
+      "sha256": "2f4a858eb9d400d80ac6e08edc50410fe62bd7f978d0a9241c06a0baaa460f74"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/071.npy",
+      "bytes": 16512,
+      "sha256": "074c73e5cbca209991f9de35bd976d3e3116a2d7735d83922fac41776c5f1c08"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/072.npy",
+      "bytes": 16512,
+      "sha256": "e901210f755f14621fcc80ed84edfc606ca19258513ea06a218249ae9120e65f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/073.npy",
+      "bytes": 16512,
+      "sha256": "50bb4c940b94e1930e3037aed78480e4b81888b55d81920afbf2bc653159e0ed"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/074.npy",
+      "bytes": 16512,
+      "sha256": "5c170b195b4899797832129ff2ad90d86fb4f5199a186926c4560c813a922147"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/075.npy",
+      "bytes": 16512,
+      "sha256": "3860435eac289708dda5c78207bd41c08d382bf3831b12116769126449257a36"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/076.npy",
+      "bytes": 16512,
+      "sha256": "ef6f63f5f23b6e0c06d9159ffd70637051db4b623acb2686fc476eba22e0cb91"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/077.npy",
+      "bytes": 16512,
+      "sha256": "9b436596255c81b5a3574dc5aa13a6dcad03db2460d8f10b62a727e6874f550c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/078.npy",
+      "bytes": 16512,
+      "sha256": "c17854eedd6932aa14996e90a0c060b7b782377614cca18393f8dd9de23811d6"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/079.npy",
+      "bytes": 16512,
+      "sha256": "4a8df069038c9a1a5a36c59158300334ecf980e9b6da66bf80ef81add322b143"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/080.npy",
+      "bytes": 16512,
+      "sha256": "c3e534002c2345df99dcb891c269adddf380b393e3a1777c0ac7d64eb183095a"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches/081.npy",
+      "bytes": 16512,
+      "sha256": "02cedc06e10552d8617ec65327c04c8df218e253a59f37a5ec5f68c169f6ac66"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/patches.jsonl",
+      "bytes": 44174,
+      "sha256": "9a2d3d4562044dce309f9e5d37305d8b7caf5d7a5816fe27adb3bb00d47e22cc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/preflight.json",
+      "bytes": 4889,
+      "sha256": "8ef76246e5b35c342dc895181ca01a613ffa13113f26120423a25c8b8286b179"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/preflight.py",
+      "bytes": 3102,
+      "sha256": "c62f64c18b45659fee5878978900bf8ecfe4a7d0705ef60ce8c2cd3fe5bc58c9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/README.md",
+      "bytes": 3174,
+      "sha256": "684c3b3b64311d78c7019baca1c41dff9d716a7e9e51491bba245bb8edb411f7"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/record.json",
+      "bytes": 1747,
+      "sha256": "73ea8fc4f4e9d491bedf5c9a408d79dcf83dc5e040f69e05f305bd0dad182df4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/resources.json",
+      "bytes": 1076,
+      "sha256": "c34979a008aab11d535694eba7c8d7479f7018c0f089285f9ffe94db52cbb0fe"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/run_cpu.py",
+      "bytes": 9183,
+      "sha256": "d4db69ace7c8e850641adba767f72e7de845d6c6d4f3d1a011c1b5ffe1285c7f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/supervise.py",
+      "bytes": 2557,
+      "sha256": "c42b0e63912b0f959a21ff307fba062a2014b29c51a3241cf40304d1f0560d74"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/supervisor-result.json",
+      "bytes": 631,
+      "sha256": "4d8364386693f024b6f149e625221e9e6ecb52faad072d6a2c7ad1a77c96435f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/supervisor-start.json",
+      "bytes": 436,
+      "sha256": "bb75f1e682c122bf0bd24c3d3055d0b4e0605efebfe4aac255083704963361f5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-cpu-completion01/visual.json",
+      "bytes": 1298,
+      "sha256": "621871b2d83f6c5bd123c850812d87d5dcdeced45966d8e9d4daf515e30b45b6"
+    },
+    {
+      "path": "research/196-hecate-free-cpu-completion.md",
+      "bytes": 7908,
+      "sha256": "3b399a13e5feba47602452d511f0b557cddbd6e89f4bc2cfb4c2f11ff1c1d69e"
+    }
+  ]
+}

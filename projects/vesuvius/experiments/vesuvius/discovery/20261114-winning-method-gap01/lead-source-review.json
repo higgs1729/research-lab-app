@@ -1,0 +1,54 @@
+{
+  "utc": "2026-11-14T13:14:25.043838+00:00",
+  "reviewer": "root",
+  "primary_documents_read": [
+    "originals/306b-method.md",
+    "originals/306b-discovery.md",
+    "originals/306b-known-text-product-rule.json",
+    "originals/306b-line_find.py",
+    "originals/306b-window_score.py",
+    "../20261114-atlas-known-control01/winner-readme.md",
+    "../20261114-known-neighbour-selection01/make_submission_image.py"
+  ],
+  "independent_findings": [
+    {
+      "fact": "306B method/discovery describe a 40-winding band, Hecate/Reader v2, then window/glyph/line prioritization before own-sheet GrowPatch and final TRACE/A-hn.",
+      "limit": "Author-reported discovery ranking, not independently rerun by this study; source code is not a causal ablation."
+    },
+    {
+      "fact": "306B METHOD section8 says CT-dark-overlap alone did not separate text/artifact bands (AUC .35 on 23 text and 22 artifact bands). line_find header still includes older crack-veto heuristic.",
+      "decision": "Do not promote crack overlap or old code gate to proof of no ink. Distinguish code versions and later reported counterevidence."
+    },
+    {
+      "fact": "343 winner uses per-model statistics pooled over 31 depths, then averages four models at a given depth; final image at d+1.",
+      "limit": "This is not an average of all 31 depth images. Display/ensemble changes are possible interventions, not proven causes of the award."
+    },
+    {
+      "fact": "306B known-text product rule reports PHerc0841 AP .7268 for TRACE x base and .7311 for TRACE x A-hn; false ink .0587 and .0608. TRACE checkpoint selection used0841.",
+      "limit": "Fine-tuning was not unambiguously superior on all metrics, and these are not untouched validation data for TRACE checkpoint selection."
+    },
+    {
+      "fact": "line_find.score_chain applies crack>=2 as score minus10, retaining the candidate; it is not literal candidate deletion. With glyph=None the glyph score term is0.",
+      "decision": "Do not carry over the authors calibrated threshold or false-line rates to a no-glyph adaptation."
+    },
+    {
+      "fact": "306B discovery README describes the line finder as later than initial window/glyph review; METHOD reports its retrospective first-of191 ranking.",
+      "limit": "Do not claim this code by itself caused the initial discovery."
+    },
+    {
+      "fact": "The stored343 rows JSON contains empty baseline dictionaries, but the18 letter boxes have raw coordinates and row labels. Study179 already checked the raw-to-atlas registration.",
+      "decision": "Use the letter boxes for a fixed known-row reference; do not invent numeric baselines."
+    }
+  ],
+  "line_search_scale_check": {
+    "source": "originals/306b-line_find.py constants",
+    "minimum_chain_length_mm": 8,
+    "minimum_slots": 4,
+    "flank_outer_offset_mm": 3.5,
+    "old206_main_width_mm": 3.0719999999999996,
+    "new208_main_width_mm": 9.216,
+    "known175_main_width_mm": 2.4576,
+    "implication": "Small control windows cannot validate this line detector. Use a saved whole known-text map with physical scale and known row coordinates."
+  },
+  "scientific_decision_pending": "A proposed one experiment uses the unmodified CPU geometric line detector on existing full-size343 known-text maps and0125/0175B stress maps, compares fixed top3 structural versus brightness ranks, no paid resource. Await final fixed normalization, support, orientation, reference and budget contracts."
+}

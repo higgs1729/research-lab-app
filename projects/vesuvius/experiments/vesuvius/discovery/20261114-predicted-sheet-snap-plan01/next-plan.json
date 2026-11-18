@@ -1,0 +1,51 @@
+{
+  "status": "Proposed single gated CPU experiment; no snaps, rendering or model forward in R215",
+  "algorithm": {
+    "source": "originals/343-snap_meshes.py, Git e8370f1f88a211166056df62ea6fcfffe4a1063e blob 7dd5ae337f0bf9bb3abd7f43b8437ac1df801f16",
+    "settings": {"level": 0, "max_off_voxel": 15, "jump_voxel": 6, "sigma_grid_cells": 1, "cpu_threads": 1},
+    "port": "Use the captured upstream source arithmetic unchanged. Only substitute a single-process serial call of work for the POSIX fork pool, and use existing Windows R133 Zarr3.1.5/NumCodecs/SciPy/TIFF dependencies (isolated deps first, runtime CRC32C path last) or stop if preflight changes them. Assert read-only complete local planned chunk stores before execution; instrument raw profile, chosen/rejected/filled/applied status and final offset for diagnostics without feeding results back into parameters.",
+    "local_scope": "Apply only to fixed core cells; original valid/invalid and domain edges stay fixed. Each source crop includes 11 mesh cells of original data on each side or the actual original boundary. Keep upstream default reflect at actual border, preserve global UV and copy core XYZ back into a working mesh when rendering known text. Verify original outside the core and original mask bit-identical. No Lasagna rerun, opacity correction, new fit or ink-based alignment. A local post-fit application on existing UV, not a full award-pipeline reproduction.",
+    "support": "Compute all source nearest L0 sample indices as np.rint(P+offset*N) with upstream float32 arithmetic, independent R215 key estimate then verify exact inputs at runtime. HEAD/GET only the pinned support keys. Require all objects HTTP200 and planned Content-Length/ETag, record object SHA, confirm shared metadata/coordinates, no out-of-volume sample, and verify chunk decoding to 7,077,888 uint8 bytes each. Any absent or corrupt support stops; observed decoded all-zero chunks are true zero. Working bytes bounded; verified local store is used offline. Serialize per-scroll download, first known then unknown only on control pass."
+  },
+  "first_stage_known_PHerc0343": {
+    "reference": "R173 original, already snapped+Lasagna+concatenated winning geometry. R185 unmodified dense reverse and actual cached input, R175 prior repeatability, R179 fixed letter boxes9/10. No positive recovery or held-out letter recognition claim.",
+    "grid_roi_xywh": [1344, 1024, 384, 384],
+    "main_roi_xywh": [1408, 1088, 256, 256],
+    "core_uv_halfopen": [72, 54, 99, 82],
+    "source_with_halo_uv_halfopen": [61, 43, 110, 93],
+    "m7_head_keys": 62,
+    "m7_encoded_bytes_head": 27235944,
+    "m7_decoded_bytes_if_cached": 438829056,
+    "ct_geometry_check": "Register nine inner crop probes at X=[1440,1536,1632], Y=[1120,1216,1312]. Compare unchanged/snap mesh displacement/normal plus same paired native planes centered on original P; inspect continuous original lamina vs corrected position. Freeze CT key union of those probes and both 33-layer renders before CT fetch. Reuse registered R173/R175/R180/R185 CT by key and SHA and get at most 16 additional raw CT keys. A new wrong-lamina placement, definite fold/surface crossing, or large relocation for which paper attribution becomes unresolved blocks transfer. Pre-existing uncertainty at the same site is reported as a limitation when it has not worsened. Record validity, tangent drift, area Jacobian and spacing; no fixed unknown AUC/CT-smoothness rule.",
+    "render_model_contract": "Product R173/R185 same full mesh dimensions and scale=.9, linear, slice-step=1.111, native 8.64 um, unflipped normals, 33 layers. Fixed dense-native reverse one checkpoint, 24 to 8 [8,25), 128 patch/stride64 and global origin XY1344/1024, 25 patches, batch1, Hann and unchanged official normalization/dtype/parameters. The normalization is patch-local robust MAD; preserve how statistics are computed and record statistics of the full window, never fit a separate contrast scale by outcome. Fixed raw 0–255 chart. Same float/PNG outputs and weight arrays.",
+    "baseline": "Read saved original R185 render and output SHA; compare fresh original render 33-layer bytes. If bit-identical, use saved dense prediction and weight array. If only a <=1 DN overall discrepancy with MAE <=0.01 DN, allow one equal-condition dense baseline rerun. Its main PNG must reproduce saved R185 with Pearson >=.999 and MAE <=1 DN; otherwise stop before snap predictor. No other baseline fallback. Up to two known dense calls total; if no geometrical change and input equal, reuse saved prediction for both sides.",
+    "no_harm_gate": "Report known paper tracking, full input deltas and main paired probability Pearson/MAE as diagnostics without numeric snap-versus-baseline adoption cutoffs. Both reviewers view fixed CT and known portions of boxes9 and 10 at 1:1 in original/snap independently before adoption. Require both prior known arcs remain traceable at the same fixed coordinates, with no new break, fusion, scattering, definite layer jump/fold or consequential newly unresolved CT placement after substantial movement. Keep pre-existing equally uncertain locations as a limit without requiring improvement. Uniform/degenerate map cannot preserve the two shapes. If failure or disagreement remains, stop."
+  },
+  "conditional_second_stage_PHerc0191": {
+    "reference": "R213 meshes w052/w053/w054 and R214 crop [0,32,2048,1024] plus original 9 pairs of registered CT planes and source29 CT keys. No new directions, test windows or model forwards on PHerc0191.",
+    "fixed_core_uv_per_site": "R214 stored mesh UV intersection cell floor(u), floor(v); include that cell and three additional cells around its four nodes, fixed in support-estimate.json. Reassemble overlapping core records in original UV only where equal. Evaluate geometry at the same ray and original physical sections, never shift to follow a bright CT or m7 point. Clip no sample bytes and flag absent, multiple, boundary or out-of-fixed-plane corrected intersections unresolved.",
+    "m7_head_keys": 121,
+    "m7_encoded_bytes_head": 71124890,
+    "m7_decoded_bytes_if_cached": 856424448,
+    "paper_gate": "Compare paired original/snap overlays on the identical R214 raw CT from all9 locations, exact DN/original geometry unchanged. Check reach, signed radial spacing/order, displacement provenance/direct vs fill, discontinuity/fold and layer switching. Original identifiable lamina is not allowed to change identity. Unknown near-duplicate or previously unsupported placements require visually traceable physical laminae, not offset size/ink score. A new candidate needs center3 and at least2 per flank, no clear crossing/interlayer/jump, as R214. If two correspond to same or indistinguishable CT lamina, retain one with more clear sites, then larger fixed geometry coverage, then lower w; never treat duplicate area as new reading area. Any corrected comparison outside R214 sections/support is unresolved. CT new keys 0; no claim about unobserved extent or read text. These are local fit checks; a passed trial would require separate whole-window geometry/CT evaluation before Hecate."
+  },
+  "resources": {
+    "planned_new_m7_encoded_total_bytes_if_both_stages": 98360834,
+    "max_new_m7_encoded_bytes": 134217728,
+    "max_new_known_CT_keys_bytes": [16, 33554432],
+    "max_new_unknown_CT_bytes": 0,
+    "max_transfer_seconds_each_scroll": 300,
+    "max_computation_seconds_total": 600,
+    "max_local_wall_seconds_total": 1500,
+    "model_allowance": "CPU dense known 0 to 2 calls, <=50 total patches; budget 120 seconds for each inference and local model stages only; unknown0",
+    "estimated_work": "62 streams and 27,235,944 B for known, 121 and 71,124,890 B conditional unknown, sequential one decoded chunk 6.75 MiB at a time, <=0.83 GiB decoded if all a scroll's distinct chunks were simultaneously held. Use current HEAD sizes; transfer/runtime estimates are planning values. R185 similar CPU dense/model helper total six forward runs ~75sec, control total<=240s budget. New codec/snap timings not yet observed on actual objects.",
+    "cpu_threads": 1,
+    "cpu_process_commit_or_as_gib": 4,
+    "c_disk_reserve_gib": 10,
+    "c_workspace_max_gib": 2,
+    "d_writes": 0,
+    "gpu": 0,
+    "paid_resources": 0,
+    "estimated_usd": 0
+  }
+}

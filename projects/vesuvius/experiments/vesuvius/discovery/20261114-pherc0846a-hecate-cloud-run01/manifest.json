@@ -1,0 +1,95 @@
+{
+  "generated_utc": "2026-11-14T11:44:51.631040+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/README.md",
+      "bytes": 3601,
+      "sha256": "e77cfa4033b694cf473496e2927c9835fb29da0dabf8c06b0e782ac5fd109080"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/admission.json",
+      "bytes": 455,
+      "sha256": "14536441593cfb7bd385f1acc98f572a5b0c6a8863447e7ba488fe27a25e4827"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/billing-crosscheck-01.json",
+      "bytes": 1477,
+      "sha256": "9982ed22105379e9a7a3547bb43d783af8741671ec4cb6951d3033b931f9e04b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/console-gpu-billing.json",
+      "bytes": 203,
+      "sha256": "3350fcba56b7477df53d9f7aa45ed5451c058f511ae8a44b740e3aa22d07e5fb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/finalize.py",
+      "bytes": 3317,
+      "sha256": "e504e29bf19d7bceac947a8c4fabcc4c817aeb576d39fe79b2abddaa67994722"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/identity-scope.json",
+      "bytes": 261,
+      "sha256": "86a120d63782d72c631073186700579d0d8ba3701bec1ed5fbc8b16e46199431"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/inspect_runpod.py",
+      "bytes": 8097,
+      "sha256": "49cf3e74c12d2212afaeae3149fc9c843f223590e949907ed8315e31f15107ad"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/launcher.log",
+      "bytes": 1796,
+      "sha256": "b1b8b2e7a66542ff05768745812fa79c5ac136d8fc52fc1486ad8143884da129"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/lead-deletion-check.json",
+      "bytes": 440,
+      "sha256": "14cf28121c2939fe2fcc1fb4a705d738867b687c960297d13958696050c29c81"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/post-delete-01.json",
+      "bytes": 535,
+      "sha256": "d977e12d84d972aca10eb1d076639c49f4b9eb1a5f0bad9464d74c05adfe1424"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/post-delete-02.json",
+      "bytes": 535,
+      "sha256": "28bf5e255726b4143f2ac13b5f30a124f70541338bc7a172799e580bf1ab7f3e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/post-delete-window-01.json",
+      "bytes": 731,
+      "sha256": "d9a71d84cecda5342caf8aeee5b799cb84eb99fcbb623fe71d330baabd3ade97"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/post-delete-window-02.json",
+      "bytes": 731,
+      "sha256": "78118eefeddaf69fea503190153a3c5d01d4fc3f734fd6dddc81417a51ee34ff"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/post-delete-window-final.json",
+      "bytes": 731,
+      "sha256": "da9f20e029a0146545a967aa5a13b2f79eb8ec2761babf78a05238c12b9c9328"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/record.json",
+      "bytes": 1828,
+      "sha256": "47accd37b18c9735a9ec66381a6db933e9d98503f866d9881711b6ca635fc151"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/run01/cleanup.json",
+      "bytes": 95,
+      "sha256": "4c4b3f75cb04b4558da24b83e0d08b8c930d1dce2e97c19771f3fd8ae48ae5b3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-run01/run01/launch-receipt.json",
+      "bytes": 304,
+      "sha256": "2878096ac10b7b8595733193adf291cc77978d6ceb15941f2caffff78ee75497"
+    },
+    {
+      "path": "research/205-pherc0846a-runpod-hecate.md",
+      "bytes": 7210,
+      "sha256": "6bf848aee999f8aca80b6f9d0146a8f7f5e61f64a94c1b1a657f74a3b3cf3336"
+    }
+  ]
+}

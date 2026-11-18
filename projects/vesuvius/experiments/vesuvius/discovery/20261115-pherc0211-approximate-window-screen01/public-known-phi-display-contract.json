@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-11-15T14:11:48.826990+00:00",
+  "source_file_sha256": "1b4b432867fb1f0f5cba844371b76813b2c5b7ad0df7b3a5bb14ee9c717abb65",
+  "source_pixels_sha256": "dfe3b4c9145ad62587d41ed62fd5a768d27ae12c7f1f72ad34d832f5da32a92d",
+  "source_shape": [
+    600,
+    6060
+  ],
+  "source_dtype": "float32",
+  "fixed_known_phi_strip_xywh": [
+    4704,
+    140,
+    320,
+    300
+  ],
+  "parent_xywh": [
+    4704,
+    3120,
+    320,
+    300
+  ],
+  "public_strip_parent_y_origin": 2980,
+  "selection": "R236 fixed known_phi main bbox; parent approved full reference; no additional location inspected or selected",
+  "display": "float32 multiplication by255 then truncation to uint8; black0/white1; native320x300; no percentile normalization/threshold/rotation/flip",
+  "purpose": "Public full known-phi reference for independent visual assessment before any R239 GPU proposal; not local inference and not a changed old acceptance gate",
+  "model_forwards": 0,
+  "new_CT_bytes": 0
+}

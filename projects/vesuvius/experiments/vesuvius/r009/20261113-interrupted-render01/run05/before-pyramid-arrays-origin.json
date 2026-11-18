@@ -1,0 +1,27 @@
+{
+  "source_run": "run03",
+  "target": "/mnt/c/dev/kensyoukin/.work/r009-interrupted-render01/run03/before-pyramid-arrays.zarr",
+  "observed_process_ids_absent": {
+    "451": true,
+    "443": true
+  },
+  "time_utc": "2026-11-13T08:12:15.600021+00:00",
+  "gdb_exit": 1,
+  "gdb_reaped": true,
+  "signal_path": "GDB signal SIGKILL command with register error",
+  "explicit_sigkill_terminal_status": false,
+  "files": {
+    ".zgroup": {
+      "bytes": 19,
+      "mtime_ns": 1794557424866150600,
+      "inode": 3659174698826121,
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+    },
+    "0/.zarray": {
+      "bytes": 230,
+      "mtime_ns": 1794557424862095100,
+      "inode": 3659174698826120,
+      "sha256": "89e5a7d9713d0706ac706a645287f415579562973323ae1df824030e43e0c7ad"
+    }
+  }
+}

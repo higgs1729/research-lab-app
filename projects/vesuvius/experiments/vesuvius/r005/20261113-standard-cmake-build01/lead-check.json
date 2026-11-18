@@ -1,0 +1,67 @@
+{
+  "scope": "Direct source, compiled artifact and first-face saved output check; no build/native replay.",
+  "sources_match_registered_R150": {
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "8e8b41004bd62159348f3a854dfcb2cdb86fdca30d19af1863719f81aacb2776",
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": "dcc75e14768d321a4eaa7110950396a8a7574bb1fc8e6ad9414ead3113793978",
+    "volume-cartographer/libs/flatboi/flatboi.cpp": "00b682f7956108c75c048e32d96a28cd0bd4f536ad66de47483cf029931bb0ae"
+  },
+  "compiled_artifacts_sha256": {
+    "/home/tomoy/r005-standard-cmake-run02-4lvsfbul/build/core/libvc_core.so": "10a9213a48775b858edbac3eaf22ff57f55d942e3973bf516bc6e504ea26da3a",
+    "/home/tomoy/r005-standard-cmake-run02-4lvsfbul/build/bin/flatboi": "b083dfa085af8dd74ceef8bc6ca29b994fca08fb547cd8f7079b10e97506f292",
+    "/home/tomoy/r005-standard-cmake-run02-4lvsfbul/build/bin/vc_obj2tifxyz": "568f5c8f97e0551b5a4510446f67a21fdbb84694d9b5262cb63d8c3888e54ad7",
+    "/home/tomoy/r005-standard-cmake-run02-4lvsfbul/build/reader/libvc_reader_native.so": "efa93960f45e33cdf722741c4487237d185584d6d67fcc666d2ca69006c60b8c"
+  },
+  "same_header_compile_sources": [
+    "/home/tomoy/r005-standard-cmake-run02-4lvsfbul/villa/volume-cartographer/libs/flatboi/flatboi.cpp",
+    "/home/tomoy/r005-standard-cmake-run02-4lvsfbul/villa/volume-cartographer/core/src/SurfaceMeshing.cpp",
+    "/home/tomoy/r005-standard-cmake-run02-4lvsfbul/villa/volume-cartographer/apps/src/vc_obj2tifxyz.cpp"
+  ],
+  "stages": {
+    "configure": {
+      "elapsed_seconds": 77.20799788899998,
+      "max_child_rss_bytes": 52690944
+    },
+    "build": {
+      "elapsed_seconds": 686.787032727,
+      "max_child_rss_bytes": 1672716288
+    },
+    "native": {
+      "elapsed_seconds": 26.79258069399998,
+      "max_child_rss_bytes": 230363136
+    }
+  },
+  "xyz": {
+    "x.tif": {
+      "sha256": "c16a2b45b1fed2b85bc2898d002247ad1e5299673616cbcf0762204db94c51d1",
+      "shape_yx": [
+        172,
+        683
+      ],
+      "equal_float32_bits": 117476
+    },
+    "y.tif": {
+      "sha256": "cb18e6559b1582ea762e74446c7ac17c896e3ca1501ecef17877f52db224dbdb",
+      "shape_yx": [
+        172,
+        683
+      ],
+      "equal_float32_bits": 117476
+    },
+    "z.tif": {
+      "sha256": "219fa428ade0d4a3d09a6be1c5471c4121fa0ca3e42c9a4b68204343ddc8aea2",
+      "shape_yx": [
+        172,
+        683
+      ],
+      "equal_float32_bits": 117476
+    }
+  },
+  "scale": [
+    0.05000000074505806,
+    0.05000000074505806
+  ],
+  "metadata_difference_keys": [
+    "uuid"
+  ],
+  "all_assertions_passed": true
+}

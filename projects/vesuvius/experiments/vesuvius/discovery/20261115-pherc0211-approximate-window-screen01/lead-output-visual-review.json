@@ -1,0 +1,33 @@
+{
+  "reviewer": "lead/root",
+  "reviewed_before_reading_researcher_output_interpretation": true,
+  "actually_viewed_native_files": [
+    "review/known_phi-probability-raw-native.png",
+    "review/candidate-probability-raw-native.png",
+    "review/candidate-probability-median-p995-native.png",
+    "review/candidate-ct-native.png",
+    "review/candidate-native-quadrant-00.png",
+    "review/candidate-native-quadrant-01.png",
+    "review/candidate-native-quadrant-10.png",
+    "review/candidate-native-quadrant-11.png"
+  ],
+  "known_control": "The broad ring-like bright part around a darker centre and central downward bright axis are preserved relative to the previously viewed published known-phi raw image. Coarse known shape is maintained. Blurring and boundary clipping remain; this is not independent transcription or validation of the entire approximate unknown input.",
+  "unknown_observations": [
+    "The lower part has a horizontally aligned sequence of bright broad components, with several descending vertical parts and intervening dark regions. These are visible in raw0..1 display, not created only by percentile scaling. They are partly cut by the bottom boundary.",
+    "The top edge also contains a bright horizontal sequence, heavily clipped by the top boundary. Much of the centre is dark, with one isolated bent bright component toward the left. I do not transcribe any character or word.",
+    "The CT projection contains continuous oblique horizontal fibre bands, many small bright spots, and local cracks/vertical structures. This projection alone does not resolve the physical sheet or establish that predicted bright strokes are ink rather than structural responses."
+  ],
+  "followup_ROIs_selected": [
+    {
+      "id": "lower_partial_row",
+      "local_main_xywh": [64,400,896,240],
+      "parent_xywh": [4416,2064,896,240],
+      "reason": "Coherent repeated components along one broad band with descending strokes, clearer for finite raw-CT/sheet attribution followup than isolated brightness. Several components are clipped; ROI is a followup selection, not a reading."
+    }
+  ],
+  "decision": "Select one provisional lower-row followup ROI, conditional on comparison with the independent researcher review and finite raw-CT/physical-sheet and provenance checks. Preserve fixed-window outputs and do not rescue by model/depth/threshold changes.",
+  "new_letters_confirmed": 0,
+  "novelty_established": false,
+  "original_CT_sheet_attribution_established": false,
+  "historical_R236_gate_passed": false
+}

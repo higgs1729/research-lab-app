@@ -1,0 +1,72 @@
+{
+  "utc": "2026-11-15T12:02:12.746632+00:00",
+  "passed": true,
+  "upstream_support_hashes_checked": 36,
+  "probability_shape": [
+    1740,
+    6020
+  ],
+  "all_probability_pixels_sha_verified": true,
+  "normalized_xyz_shape": [
+    87,
+    301,
+    3
+  ],
+  "grid_node_row_col": [
+    42,
+    298
+  ],
+  "node_xyz": [
+    4210.22509765625,
+    4210.63916015625,
+    8398.435546875
+  ],
+  "grid_node_canvas_position": [
+    5960,
+    840
+  ],
+  "node_not_integer_image_pixel_center": true,
+  "native_crops": [
+    {
+      "label": "right-adjacent",
+      "xywh": [
+        4560,
+        680,
+        1040,
+        480
+      ],
+      "pixels": 499200,
+      "ct_exact": true,
+      "probability_display_max_DN": 1,
+      "probability_display_differing_pixels": 1
+    },
+    {
+      "label": "upper-context",
+      "xywh": [
+        3800,
+        120,
+        1240,
+        520
+      ],
+      "pixels": 644800,
+      "ct_exact": true,
+      "probability_display_max_DN": 1,
+      "probability_display_differing_pixels": 2
+    },
+    {
+      "label": "row2-right-edge",
+      "xywh": [
+        5600,
+        680,
+        420,
+        480
+      ],
+      "pixels": 201600,
+      "ct_exact": true,
+      "probability_display_max_DN": 1,
+      "probability_display_differing_pixels": 3
+    }
+  ],
+  "new_model_forwards": 0,
+  "note": "This checks source consistency and six unresampled probability/CT displays, not physical sheet identity or novelty."
+}

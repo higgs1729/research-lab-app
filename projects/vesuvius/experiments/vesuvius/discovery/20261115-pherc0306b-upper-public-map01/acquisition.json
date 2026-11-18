@@ -1,0 +1,64 @@
+{
+  "started_utc": "2026-11-15T07:52:05.695249+00:00",
+  "plan_sha256": "6e9f4eccf7de9c5e3b14e071f938bd6fc6a4bddae8de0946ffaeb0f775b90c4d",
+  "deadline_seconds": 300,
+  "disk_before": {
+    "C_work_bytes": 4710,
+    "C_free_bytes": 14349504512
+  },
+  "receipts": [
+    {
+      "path": "results/member_maps/fwd_trace_v3B.npy",
+      "url": "https://huggingface.co/datasets/Prodigle/pherc0306b-first-letters/resolve/f435998b55269762942a979052044309b29650ac/results/member_maps/fwd_trace_v3B.npy",
+      "bytes": 76244128,
+      "sha256": "17eca601c21f3c5c7f263b144c77890d9e25c3cbcc6aa261505e580baf07a9e3",
+      "retrieval": "full file once, verify whole SHA256 before use",
+      "kind": "public precomputed probability map",
+      "local_path": "originals/fwd_trace_v3B.npy",
+      "verified": true,
+      "status": 200,
+      "body_bytes": 76244128,
+      "seconds": 4.912094,
+      "redirects": 1,
+      "curl_exit": 0
+    },
+    {
+      "path": "results/member_maps/fwd_reader_v3.npy",
+      "url": "https://huggingface.co/datasets/Prodigle/pherc0306b-first-letters/resolve/f435998b55269762942a979052044309b29650ac/results/member_maps/fwd_reader_v3.npy",
+      "bytes": 76244128,
+      "sha256": "0a9643a7ad2f70baf71e0f53f17a5230145f63b75e41b302c10d968a428ea1f6",
+      "retrieval": "full file once, verify whole SHA256 before use",
+      "kind": "public precomputed probability map",
+      "local_path": "originals/fwd_reader_v3.npy",
+      "verified": true,
+      "status": 200,
+      "body_bytes": 76244128,
+      "seconds": 4.466376,
+      "redirects": 1,
+      "curl_exit": 0
+    },
+    {
+      "path": "results/ct_surface_layer20.png",
+      "url": "https://huggingface.co/datasets/Prodigle/pherc0306b-first-letters/resolve/f435998b55269762942a979052044309b29650ac/results/ct_surface_layer20.png",
+      "bytes": 18935792,
+      "sha256": "e28222dd5d67b3ca10ad863f7426342e744618d9a3b5549aac7a03a47bc1ea63",
+      "retrieval": "full file once, verify whole SHA256 before use",
+      "kind": "public derived CT surface image",
+      "local_path": "originals/ct_surface_layer20.png",
+      "verified": true,
+      "status": 200,
+      "body_bytes": 18935792,
+      "seconds": 3.208587,
+      "redirects": 1,
+      "curl_exit": 0
+    }
+  ],
+  "complete": true,
+  "elapsed_seconds": 12.750759100017603,
+  "body_bytes": 171424048,
+  "disk_after": {
+    "C_work_bytes": 171428758,
+    "C_free_bytes": 14178041856
+  },
+  "completed_utc": "2026-11-15T07:52:18.446798+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "approved": true,
+  "checked_utc": "2026-11-15T06:48:49.482974+00:00",
+  "plan_sha256": "3724380db2685742b63080c044b2574dec950a2ff7489d355ce29617561329e3",
+  "prior_plan_sha256": "f25584801c55ca8b1a5953a8438c394acfa72e436331d7299dd58cb8eef9a143",
+  "prior_check_sha256": "bd896a05fb6ca82919bee082af833539cb170de72dec52f72cb328eea00b40be",
+  "verified_delta": "Exactly one replacement digest(rec[\"cuda_python\"]) -> digest(Path(rec[\"cuda_python\"])); reverse-replacement SHA matches old frozen source. All other scientific/resource/asset fields unchanged; entry snapshot refreshed.",
+  "scope": "Same one fixed 20-patch reverse known-control local GPU run. Prior failed entry had FIFO/forward=0.",
+  "additional_cloud_cost_USD": 0
+}

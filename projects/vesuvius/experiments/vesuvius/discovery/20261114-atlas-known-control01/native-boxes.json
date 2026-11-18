@@ -1,0 +1,32 @@
+{
+  "main-center": {
+    "xyxy_half_open": [
+      2880,
+      700,
+      4130,
+      1110
+    ],
+    "native_um_per_pixel": 9.6,
+    "image": "native-main-center.png"
+  },
+  "main-left": {
+    "xyxy_half_open": [
+      740,
+      980,
+      2260,
+      1440
+    ],
+    "native_um_per_pixel": 9.6,
+    "image": "native-main-left.png"
+  },
+  "lower": {
+    "xyxy_half_open": [
+      1420,
+      1430,
+      3310,
+      1830
+    ],
+    "native_um_per_pixel": 9.6,
+    "image": "native-lower.png"
+  }
+}

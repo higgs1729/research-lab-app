@@ -1,0 +1,24 @@
+{
+  "normal_matches_R157": {
+    "levels": true,
+    "root_attributes": true
+  },
+  "normal_files_match_R157": true,
+  "preserved_sha_mtime_inode": {
+    ".zgroup": true,
+    "0/.zarray": true,
+    "0/0/0/0": true,
+    "0/0/1/0": true
+  },
+  "fresh_resume": {
+    "levels": true,
+    "root_attributes": true,
+    "all_file_sha_and_sizes": true
+  },
+  "l0_only_resume": {
+    "levels": true,
+    "root_attributes": true,
+    "all_file_sha_and_sizes": true
+  },
+  "success": true
+}

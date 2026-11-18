@@ -1,0 +1,155 @@
+{
+  "generated_utc": "2026-11-14T11:15:02.039126+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/0483a-texture-detail.json",
+      "bytes": 421,
+      "sha256": "18022723fedb6cb39c82b6f1613777823b7eafb397803069c12b7971b086695b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/0483a-texture-detail.png",
+      "bytes": 197821,
+      "sha256": "02ff70c5dd26ad53fa65ccf83a401fe402f5f77a009f372708ca06c5e2bef7bd"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/README.md",
+      "bytes": 6778,
+      "sha256": "00ada5f9cacb0fb6ac9928be0940f6346cf2c911fbe3884c18d32fb1c081b603"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/acquisition.json",
+      "bytes": 3913,
+      "sha256": "54033c0f7f0d6d58d2467f0b7cdbe1f9874f924196f1a492b9be8e8e5b99161c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/fetch.py",
+      "bytes": 3481,
+      "sha256": "898087fcc5d86474bde8fa820eb5bda594ae6d064e671261a74ed7f8ce0ae4e8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/finalize.py",
+      "bytes": 2804,
+      "sha256": "83be39c537a046aa82f98ac264a9c0030255f979d3b10847a9d2354d64b39feb"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/inspect_texture.py",
+      "bytes": 2222,
+      "sha256": "8dd1be78932978923e25ee6c711b6a6abf63cfc4fbbe4eee3376c6c17bd8cc6c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/lead-formula-check.json",
+      "bytes": 3445,
+      "sha256": "91ea63ab658e1831c6af744ba0c51903475c2dd077a18fc62296d6ed8fe815cf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/lead-formula-process.json",
+      "bytes": 691,
+      "sha256": "3eab7c914b1214740402a4580f8fe3050e9106e38b3c2553060560ca748ef93e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/lead-meta-process.json",
+      "bytes": 685,
+      "sha256": "54ef79f97de2c82595ca54f74f63fa2e0452386fc65ac09e86f520beb9b9a1f5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/lead-saved-meta.json",
+      "bytes": 3828,
+      "sha256": "d484b58bf3088aa3903537afe43c3df51017149ea9e44abc274072ad83bda046"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/lead-view-check.json",
+      "bytes": 768,
+      "sha256": "b1b61d51f14ac02e36b5bd4b9eba79c2390632717a1982c8f8b69a4a35e46538"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/lead-view-process.json",
+      "bytes": 683,
+      "sha256": "48bc433a1383cd67cdb781b66b7a6619639e570aaf93914485c61d4d8b63fb4b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/lead_formula_check.py",
+      "bytes": 3357,
+      "sha256": "934987def7866e4e0d28e0a5618afd0048ad198b34bf20164cb86e8b36c7fb8b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/lead_saved_meta.py",
+      "bytes": 1481,
+      "sha256": "34a4ff912aa3c762f6d18ebeeac28ffab49f38e33393dac25be367d798007c10"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/lead_view_check.py",
+      "bytes": 1593,
+      "sha256": "8b03b6761c09ce736bf251e8805f0e8661cf941916546a8a5dd17ea2c7b39637"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/measure-process.json",
+      "bytes": 682,
+      "sha256": "540d0c474517ebe725ba87cde07444c3697a2753fad14ee6073716335ab8fe1f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/measure.py",
+      "bytes": 3812,
+      "sha256": "585e0e946a8f3eecfb791a0ac4a4630bf5212701df941d367339d64f7dbce0f3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/measurements.json",
+      "bytes": 10197,
+      "sha256": "a0dae56995c3a2ac69a4dedb50676be2caf4c6a0367bf912ca635a6f4d6b939d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/originals/PHerc0268-ct-mid.png",
+      "bytes": 2135049,
+      "sha256": "f8cc55e9c5a71b37f64c9d62c7e733f7bc1cf0ebed7557b6e4d69bd9bdc887ea"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/originals/PHerc0483A-ct-mid.png",
+      "bytes": 2502997,
+      "sha256": "a54891dd5bb0377b8904fa99dc83a9df57092ccca89f4c86b132b5fb8af5033b"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/originals/pr2318-face_check.py",
+      "bytes": 8487,
+      "sha256": "e14b73d16ad6d0f7208924d85cda146af9a1c7d115364089f4b891f5a51859ba"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/originals/pr2318.json",
+      "bytes": 24389,
+      "sha256": "d96cb13063667cb3176c5cce3ee29c1d176ba3c11327ed4aca558822404fd1e0"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/originals/survey-commit.json",
+      "bytes": 7796,
+      "sha256": "e4b07cccc0ce6f7d49260e2bb18673fe91b05cfac49fc0fd85a60b8e1f0030fe"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/originals/survey-inkcheck.py",
+      "bytes": 11173,
+      "sha256": "009f013b1e5f40f27de70c7d76096d553c9ca04a0e52557a4ba03d5cb03e91b3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/originals/survey-side.py",
+      "bytes": 3502,
+      "sha256": "d772cb09abab60269084ca82ba047021f941a56e79dccca441b7563080464434"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/originals/survey-takeaways.md",
+      "bytes": 2665,
+      "sha256": "2eac571a47645b98fbd100c529dce9873249217d562b34904e3324c1990acf5e"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/record.json",
+      "bytes": 1944,
+      "sha256": "0d500de6ef4d62403bcff34a45c7978f9f5a0a5961b3bbab70c5321b7dc3967c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-atlas-mask-semantics01/texture-process.json",
+      "bytes": 687,
+      "sha256": "df39d58b91675f40848f4698f1509a4f1b3aa770a67038958959b5012e5ab7a4"
+    },
+    {
+      "path": "research/203-atlas-sheet-mask-semantics.md",
+      "bytes": 6790,
+      "sha256": "1a253bd83ba637d0a03f660249f300cf2d31ffd549d410e180c88ce1bf23806c"
+    }
+  ]
+}

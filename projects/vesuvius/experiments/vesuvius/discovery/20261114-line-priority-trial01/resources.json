@@ -1,0 +1,25 @@
+{
+  "new_png_bytes": 2084949,
+  "network_seconds": 2.512182300008135,
+  "processing_elapsed_seconds": 22.615638100003707,
+  "supervised_wall_seconds": 22.909987000006367,
+  "cpu_affinity": [
+    0
+  ],
+  "commit_cap_bytes": 4294967296,
+  "peak_rss_bytes": 365211648,
+  "maps_processed": 5,
+  "line_detector_calls": 5,
+  "geometry_candidates": 13,
+  "native_review_tiles": 80,
+  "overview_images": 12,
+  "review_bytes": 33440619,
+  "working_cap_bytes": 536870912,
+  "additional_ct_voxel_bytes": 0,
+  "new_checkpoint_bytes": 0,
+  "builds": 0,
+  "model_forward_calls": 0,
+  "gpu_jobs": 0,
+  "publications": 0,
+  "cost_jpy": 0
+}

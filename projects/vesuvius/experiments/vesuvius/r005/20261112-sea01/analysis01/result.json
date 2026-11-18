@@ -1,0 +1,190 @@
+{
+  "candidate": "M",
+  "raw_pin_max_error": 0.0,
+  "raw_pins_exact": true,
+  "C_fixed_coarse_external_prepack_exact": true,
+  "packed_C_fixed_exact": true,
+  "packed_coarse_exact": true,
+  "packed_external_corners_exact": true,
+  "measurements": {
+    "candidate": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_area": 0.36532380015319177,
+      "full_SD_positive_only": 1.1662348242775504,
+      "subject_SD_positive_only": 2.5847867500105193,
+      "pairs": 0,
+      "internal_pairs": 0,
+      "external_pairs": 0,
+      "external_faces_beyond_obstacles": [],
+      "boundary_simple": true
+    },
+    "packed": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_area": 0.3517625331878662,
+      "full_SD_positive_only": 1.1767817507761231,
+      "subject_SD_positive_only": 2.585047134823436,
+      "pairs": 0,
+      "internal_pairs": 0,
+      "external_pairs": 0,
+      "external_faces_beyond_obstacles": [],
+      "boundary_simple": true
+    }
+  },
+  "raster_gate": {
+    "candidate": {
+      "id": "M",
+      "coordinate_stage": "packed_float32",
+      "faces": 478224,
+      "negative_faces": 0,
+      "zero_faces": 0,
+      "mean_SD": 1.1767817507761231
+    },
+    "control": {
+      "id": "I",
+      "coordinate_stage": "packed_float32",
+      "faces": 478224,
+      "negative_faces": 0,
+      "zero_faces": 0,
+      "mean_SD": 1.1763771177297075
+    },
+    "rule": "candidate has no negative/zero faces and mean_SD < control mean_SD",
+    "passed": false
+  },
+  "packing_translations": [
+    {
+      "component": 1,
+      "vertices": 195936,
+      "shift": [
+        -9075.5100040077,
+        107.94813392166351
+      ]
+    },
+    {
+      "component": 0,
+      "vertices": 30027,
+      "shift": [
+        39496.1702018038,
+        277.51085805665906
+      ]
+    },
+    {
+      "component": 2,
+      "vertices": 19470,
+      "shift": [
+        50557.30385491612,
+        -1380.2710348003886
+      ]
+    },
+    {
+      "component": 6,
+      "vertices": 2131,
+      "shift": [
+        21159.10197041004,
+        -3615.09326171875
+      ]
+    },
+    {
+      "component": 7,
+      "vertices": 1243,
+      "shift": [
+        16758.546453022624,
+        -3942.817601500688
+      ]
+    },
+    {
+      "component": 5,
+      "vertices": 991,
+      "shift": [
+        45773.385093677614,
+        -2798.063473964491
+      ]
+    },
+    {
+      "component": 3,
+      "vertices": 49,
+      "shift": [
+        55690.00867855062,
+        -2414.024658203125
+      ]
+    },
+    {
+      "component": 4,
+      "vertices": 49,
+      "shift": [
+        46879.175181860825,
+        -2718.3642578125
+      ]
+    },
+    {
+      "component": 8,
+      "vertices": 49,
+      "shift": [
+        26874.642954702278,
+        -4302.119140625
+      ]
+    }
+  ],
+  "output_blocks": {
+    "resV": [
+      442,
+      2
+    ],
+    "first_non_flip_iter": [
+      1,
+      1
+    ],
+    "first_non_flip_V": [
+      442,
+      2
+    ],
+    "first_locally_injective_iter": [
+      1,
+      1
+    ],
+    "first_locally_injective_V": [
+      442,
+      2
+    ],
+    "energy": [
+      200
+    ],
+    "minArea": [
+      200
+    ],
+    "nbWindVert": [
+      200
+    ],
+    "gradNorm": [
+      200
+    ]
+  },
+  "history": {
+    "energy": {
+      "count": 200,
+      "first": 1631.2336091627367,
+      "last": 21.096089248312637,
+      "minimum": 21.096089248312637
+    },
+    "minArea": {
+      "count": 200,
+      "first": 42.45832445738051,
+      "last": 2.8738980448215443,
+      "minimum": -25.068149548664223
+    },
+    "nbWindVert": {
+      "count": 200,
+      "first": 1.0,
+      "last": 0.0,
+      "minimum": 0.0
+    },
+    "gradNorm": {
+      "count": 200,
+      "first": 83.47384563480777,
+      "last": 1.802392969932821,
+      "minimum": 0.09048289524367804
+    }
+  },
+  "elapsed_seconds": 4.23343909997493
+}

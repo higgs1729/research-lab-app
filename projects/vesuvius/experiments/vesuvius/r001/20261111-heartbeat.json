@@ -1,0 +1,12 @@
+{
+  "heartbeat_id": "local:01a1c9bf-639d-70a2-a8bc-664019939aaa:996882",
+  "source_thread_id": "01a1c9dc-5691-7191-81c0-39d11d248202",
+  "turn_context": {
+    "timestamp": "2026-11-11T09:07:44.351Z",
+    "turn_id": "01a1c9dc-f76f-71b3-a641-6a59880fd28b",
+    "model": "gpt-6-astra",
+    "effort": "xhigh"
+  },
+  "received": true,
+  "scheduled_audit_delivery_verified": false
+}

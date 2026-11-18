@@ -1,0 +1,113 @@
+{
+  "files": {
+    "acquire.py": {
+      "bytes": 4844,
+      "sha256": "d5af752a57f3bccddddda7f26ded42ee5915b78cce783b20bab732cb96a842db"
+    },
+    "acquisition-plan.json": {
+      "bytes": 5440,
+      "sha256": "59d69e48c1f13779054cc36664947227e8ff29061acb10f823d90acb28a4dfa1"
+    },
+    "acquisition-result.json": {
+      "bytes": 281,
+      "sha256": "3643cc39e15d68860aff12dfeb36eec3fa4b58b26629d9c770aacb3d853dcbb2"
+    },
+    "analysis-process.json": {
+      "bytes": 685,
+      "sha256": "cf39fc9d998615aaaf2eb78a92145a9f0d2962a5991362bffc2394a9b3831222"
+    },
+    "assessment.json": {
+      "bytes": 1119,
+      "sha256": "e8b0c05e951bab4e6f67262b299a408d4f8acdb0c09dcea46fe7fbb783ac2875"
+    },
+    "comparison.png": {
+      "bytes": 1911812,
+      "sha256": "225149f15bdf4724e53746f162a60761fd5f5fbd175b29957627a046d3b44c31"
+    },
+    "fixed-tree.json": {
+      "bytes": 35311,
+      "sha256": "121096ae115986db112e815abf6efba8094440631f6ccde7b76a59ffbb7fa658"
+    },
+    "get.jsonl": {
+      "bytes": 3826,
+      "sha256": "7a84303a610d043e35ddbfb136014e587804417a9666516284119c51bf2cae9a"
+    },
+    "lead-check.json": {
+      "bytes": 2096,
+      "sha256": "161b434d0532d9b21a3de3af55eec9694a08e8e7e0a892bca7a946f6b1a25fb1"
+    },
+    "lead_check.py": {
+      "bytes": 2304,
+      "sha256": "5239b2948ae4393eeeb2d5354ace55f1eead82a37798223893d983cf622e6f50"
+    },
+    "native-tiles/3144-x0-y0.png": {
+      "bytes": 1764453,
+      "sha256": "3a24c0229bbea1d1837d23c6d73230bae087ac619277ec0711ab29341c6b617b"
+    },
+    "native-tiles/3144-x0-y1008.png": {
+      "bytes": 1739754,
+      "sha256": "19a13cfd530a47ece5c8e894bb8b6291daae1e77c7b4c63b15770ba6c63200b3"
+    },
+    "native-tiles/3144-x1008-y0.png": {
+      "bytes": 1702429,
+      "sha256": "74d49eb35c79f70e6dc4af0ba1865f773cb5764cfcf6556015ffc06458f37332"
+    },
+    "native-tiles/3144-x1008-y1008.png": {
+      "bytes": 1584067,
+      "sha256": "fb3d23955291ee9a27fa96be0b6b41d0bb1bf00feda4183f4e378d8aef11dc37"
+    },
+    "native-tiles/4203-x0-y0.png": {
+      "bytes": 1672877,
+      "sha256": "2c97c2ca7ee6d9e5cb63c6d585c7918afeb09cca33f8c325f117f8f0fdba4082"
+    },
+    "native-tiles/4203-x0-y1008.png": {
+      "bytes": 1665807,
+      "sha256": "9c79592b7879c376d8547a28504e9c2ff610c7525a9098a8f30addc0322418f8"
+    },
+    "native-tiles/4203-x1008-y0.png": {
+      "bytes": 1696312,
+      "sha256": "3549c0bd608d21ce791875e28a15e874d584e1426cc1011731b64e7d8d9c9627"
+    },
+    "native-tiles/4203-x1008-y1008.png": {
+      "bytes": 1696452,
+      "sha256": "01c7bd34de1b52dc8687a9e146a68b8095bd0be8f20fce83b4124a0e9517635a"
+    },
+    "originals/3144-ct.png": {
+      "bytes": 2070905,
+      "sha256": "ec7b0807512c8588d3363f492647404371971c5a6256ea8956eff1d7342bc1a2"
+    },
+    "originals/3144-forward.png": {
+      "bytes": 1355343,
+      "sha256": "548b679a0ef06aacde463cb219d10f7454fc233ee4d9f9c2729f54d0c3b29ac2"
+    },
+    "originals/3144-reverse.png": {
+      "bytes": 1362545,
+      "sha256": "8575c2ea09a8601054e6bf31cc9b1c4cfe2b5de1c1de34ade0bd798e2ee023a8"
+    },
+    "originals/4203-ct.png": {
+      "bytes": 2064831,
+      "sha256": "e3514c87d440e77474c42fd48a76fc61570af78eeb303131e35ea592262cea6c"
+    },
+    "originals/4203-forward.png": {
+      "bytes": 1364516,
+      "sha256": "435243f35392a8594d8eceb898967544d4e6f93674af55beb45e4e5397cdceba"
+    },
+    "originals/4203-reverse.png": {
+      "bytes": 1347528,
+      "sha256": "c331570356c892210218760160bee8b56a29cf9ee7112f0d79bdb206f406af41"
+    },
+    "pixels.json": {
+      "bytes": 2584,
+      "sha256": "9360d45f6c8e32b00a2e9ae707a88328d3e25e115d550bd0e0f7b01790cffbdf"
+    },
+    "prepare_view.py": {
+      "bytes": 3558,
+      "sha256": "f55415d93e023e304f9d1ad567cf12e6a041d27cdd938590e5eae069c900b027"
+    },
+    "README.md": {
+      "bytes": 4390,
+      "sha256": "2c180a90e14dcf5e4ad319e57d95c7fe757ae3d4691a0752816a3d1b0c89df87"
+    }
+  },
+  "recorded_file_bytes_before_manifest_and_record": 25066069
+}

@@ -1,0 +1,19 @@
+{
+  "paths": [
+    "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/observe-off.bin",
+    "/mnt/c/dev/kensyoukin/.work/r006-geometry-reuse01/run02/observe-on.bin"
+  ],
+  "bytes_each": 48000452,
+  "sha256_each": "5fa921b7110e81f7a36e2c29de9b6969e62979c97b179dd100af468215776339",
+  "field_sha256": {
+    "centre": "31be5ec69631547658690beb4e13becee3823388571d0abb69c30c303d82d547",
+    "offsets": "bbc36aa35f43318488ee01401a7b230a41e1a0c44834c4b6cd94a8f28a0ed032",
+    "xyz": "ba3f99e2d0f37e9f1432bbd9e5ed694ef73f1ac0f4ff4d0e65ac7085402a7cbd",
+    "normals": "1f29c902cc869ddf8b3c4dae0aaf01b2f21a25a9de91f0a128ada6d680438a70",
+    "pre_round_mean": "49e2ecae1f7fe256d0fb2a2f8f9a40aa2aeb9e1058672318f61d2fcf325e79c8",
+    "level": "32546aa175c3c23b65b64216877589682ebd42d1343ea6450a7942e38bd42179"
+  },
+  "requests": 101,
+  "finite_xyz_normal_pre_round_and_level0_each": 1654784,
+  "requests_also_matching_saved_r110_xyz_normals": 101
+}

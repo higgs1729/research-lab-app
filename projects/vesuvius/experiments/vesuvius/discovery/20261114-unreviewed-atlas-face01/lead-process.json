@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261114-unreviewed-atlas-face01\\lead_check.py"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-14T08:21:56.104172+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 1,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "exception": {
+    "type": "AssertionError",
+    "message": ""
+  },
+  "completed_utc": "2026-11-14T08:21:56.684041+00:00",
+  "elapsed_seconds": 0.5798844000019017,
+  "max_rss_bytes": 119128064,
+  "user_cpu_seconds": 0.390625,
+  "sys_cpu_seconds": 0.234375
+}

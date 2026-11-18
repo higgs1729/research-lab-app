@@ -1,0 +1,96 @@
+{
+  "status": "completed",
+  "purpose": "One fixed lower context, not model/depth/threshold sensitivity or a reading claim",
+  "new_main_xywh": [
+    4352,
+    2176,
+    1024,
+    640
+  ],
+  "union_xywh": [
+    4352,
+    1664,
+    1024,
+    1152
+  ],
+  "joint_figures_generated": true,
+  "overlap_exact": true,
+  "paired_phi_gate": {
+    "max_abs": 0.0028054118156433105,
+    "mean_abs": 0.0006942504648274431,
+    "all_finite": true,
+    "threshold_max_abs": 0.005,
+    "threshold_mean_abs": 0.0005,
+    "passed": false,
+    "source": "Fixed public-vs-approximate phi input, central96 raw probability; not an exact-render claim",
+    "role_in_R239": "historical_threshold_observation",
+    "historical_R236_passed": false
+  },
+  "known_phi_vs_R239_FP32": {
+    "values": 96000,
+    "max_abs": 0.0,
+    "mean_abs": 0.0,
+    "different_values": 0,
+    "exact_equal": true
+  },
+  "known_phi_vs_published": {
+    "values": 96000,
+    "max_abs": 0.02177909016609192,
+    "mean_abs": 0.0038173835252722104,
+    "different_values": 94729,
+    "exact_equal": false
+  },
+  "known_phi_raw8_vs_published_same_truncation": {
+    "values": 96000,
+    "max_abs": 6.0,
+    "mean_abs": 0.9741666666666666,
+    "different_values": 58213,
+    "exact_equal": false
+  },
+  "files": [
+    {
+      "file": "review/new-main-raw8-native.png",
+      "sha256": "791b3994ed18f45b256693ca2b6d315593a36f5cf93397cf68ad1590e0eacac4",
+      "shape": [
+        640,
+        1024
+      ]
+    },
+    {
+      "file": "review/known-phi-raw8-native.png",
+      "sha256": "979b8492e3925281c5971a895d683004b7a15d8a9e859805272441153ea20dfa",
+      "shape": [
+        300,
+        320
+      ]
+    },
+    {
+      "file": "review/context-union-raw8-native.png",
+      "sha256": "99507af59094e417363b34245b1ea8fbe301182d820e36aa03099a1de9d6c99d",
+      "shape": [
+        1152,
+        1024
+      ]
+    },
+    {
+      "file": "review/fixed-clipped-response-raw8-native.png",
+      "sha256": "d17c47ffb99d4c95f189aa78b8b33663f08602e0b2eaf7fd6fac75ff6f76d5de",
+      "shape": [
+        768,
+        384
+      ]
+    },
+    {
+      "file": "review/context-coordinate-guide.png",
+      "sha256": "7223992c9856b7b1e232ca779faab6798bea67bf4a1f175ec15380a16dcf3f5e",
+      "shape": [
+        1152,
+        1024,
+        3
+      ]
+    }
+  ],
+  "CT_preview": "ct-preview.json",
+  "display": "uint8(255*clip(p,0,1)) truncation; fixed samples only, no percentile window/resampling. Guide marks atnewtop2176/oldbottom2304/oldcandidateROI are coordinates, not paper or ink outlines.",
+  "interpretation": "Researcher saves independent native observations before receiving parent interpretation. No newletters encoded."
+}

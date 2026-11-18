@@ -1,0 +1,15 @@
+{
+  "reviewer": "research agent / Astra xhigh",
+  "review_order": "Saved before sharing interpretation of the newly retrieved reference image with root; old R234 root article notes were already read and are not a new independent blind article review",
+  "new_primary_image": "sources/crop1711-stock-vs-cpt.jpg",
+  "new_primary_image_sha256": "260c87f52969f954f72043a326e5f153a56b2644810475c00c9c95bf5c084601",
+  "existing_primary_images_viewed": "R234 lead-article-images 00,01,02,03 (all four complete published images)",
+  "observations_ja": [
+    "著者の旧crop1711比較JPEGにはCTとstock/CPTの二つの着色反応が並び、中央の大きな裂け目と右側の縦の欠損を含む面が見える。CTに重なる反応が複数の場所に既に存在する。これは公開された既往推論の画像である。",
+    "この旧JPEGはR239の未知1024x640原寸と同一UV/縮尺で示されておらず、手動版やモデルも同じという根拠はない。見た目だけでR239の左下反応群をこのJPEG内の特定の反応へ一意に対応づけることはできない。画像から対応しなかったことを未公開/未読の証明にしない。",
+    "公式記事の受賞図は既知phiを含む列と緑枠外にも反応がある。ほか二提出の図には複数段の文字様配列があるが、R240候補へ結ぶ登録済みXYZ/UVはこれらの画像自体から得られない。文字形の類似だけで同じ場所・同じ紙と判定しない。"
+  ],
+  "decision_scope_ja": "既往推論と公開された広い反応の存在を来歴として保持する。候補が記事の既出文字と同一かどうかは未解決。現在は新規性主張なし、ROI拡大や画像合わせの探索は行わない。",
+  "CT_observations_performed": 0,
+  "new_letters_claimed": 0
+}

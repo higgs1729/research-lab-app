@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-15T15:43:42.753452+00:00",
+  "passed": true,
+  "plan_sha256": "5235ae72d3b0325672cd5eea749dcb750b5e81a5344ce4f7077f66f301a0b662",
+  "geometry_sha256": "15f991716a24675ca67a53d071bbdd2e77068ea54bcfc62fe34f834a3a0159aa",
+  "same_frozen_geometry_reproduced": true,
+  "independent_corner_key_enumeration_count": 108,
+  "reused_keys": 46,
+  "new_keys": 62,
+  "new_bytes": 130023424,
+  "common_patches": 51,
+  "identical_contributor_coordinates_and_order_all_overlap_pixels": 131072,
+  "existing_source_hashes_checked": 14,
+  "CT_body_read": 0,
+  "new_CT_body_GET": 0,
+  "gpu_created": 0,
+  "scope": "Acquisition/geometry/patch/cost plan, not physical lamina or ink verification. Rendering overlap check and final cloud code/archive/lifecycle checks remain due."
+}

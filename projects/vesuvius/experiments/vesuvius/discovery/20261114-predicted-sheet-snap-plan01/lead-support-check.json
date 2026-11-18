@@ -1,0 +1,161 @@
+{
+  "method": "Parent independently implements sliced finite differences, cross-product normals and scalar-offset nearest-voxel key enumeration. No producer functions imported. Existing XYZ only; m7 body, CT body, model and network reads zero.",
+  "source_plan_sha256": "f56e3bce0ac5d35189c100519665af36e5252b14dc7a30e56be8b20187524dc2",
+  "all_key_sets_and_counts_exact": true,
+  "results": {
+    "PHerc0343": {
+      "regions": [
+        {
+          "name": "known",
+          "normals": 2450,
+          "keys": 62
+        }
+      ],
+      "unique_keys": 62,
+      "compressed_bytes": 27235944,
+      "decoded_bytes": 438829056
+    },
+    "PHerc0191": {
+      "regions": [
+        {
+          "name": "w052:z11760-x256",
+          "normals": 672,
+          "keys": 20
+        },
+        {
+          "name": "w052:z11760-x1024",
+          "normals": 689,
+          "keys": 31
+        },
+        {
+          "name": "w052:z11760-x1792",
+          "normals": 683,
+          "keys": 26
+        },
+        {
+          "name": "w052:z11952-x256",
+          "normals": 840,
+          "keys": 24
+        },
+        {
+          "name": "w052:z11952-x1024",
+          "normals": 900,
+          "keys": 38
+        },
+        {
+          "name": "w052:z11952-x1792",
+          "normals": 900,
+          "keys": 35
+        },
+        {
+          "name": "w052:z12240-x256",
+          "normals": 644,
+          "keys": 11
+        },
+        {
+          "name": "w052:z12240-x1024",
+          "normals": 718,
+          "keys": 24
+        },
+        {
+          "name": "w052:z12240-x1792",
+          "normals": 699,
+          "keys": 27
+        },
+        {
+          "name": "w053:z11760-x256",
+          "normals": 693,
+          "keys": 19
+        },
+        {
+          "name": "w053:z11760-x1024",
+          "normals": 690,
+          "keys": 30
+        },
+        {
+          "name": "w053:z11760-x1792",
+          "normals": 685,
+          "keys": 26
+        },
+        {
+          "name": "w053:z11952-x256",
+          "normals": 870,
+          "keys": 23
+        },
+        {
+          "name": "w053:z11952-x1024",
+          "normals": 900,
+          "keys": 38
+        },
+        {
+          "name": "w053:z11952-x1792",
+          "normals": 900,
+          "keys": 35
+        },
+        {
+          "name": "w053:z12240-x256",
+          "normals": 667,
+          "keys": 13
+        },
+        {
+          "name": "w053:z12240-x1024",
+          "normals": 718,
+          "keys": 28
+        },
+        {
+          "name": "w053:z12240-x1792",
+          "normals": 695,
+          "keys": 27
+        },
+        {
+          "name": "w054:z11760-x256",
+          "normals": 694,
+          "keys": 20
+        },
+        {
+          "name": "w054:z11760-x1024",
+          "normals": 690,
+          "keys": 27
+        },
+        {
+          "name": "w054:z11760-x1792",
+          "normals": 687,
+          "keys": 23
+        },
+        {
+          "name": "w054:z11952-x256",
+          "normals": 870,
+          "keys": 23
+        },
+        {
+          "name": "w054:z11952-x1024",
+          "normals": 900,
+          "keys": 35
+        },
+        {
+          "name": "w054:z11952-x1792",
+          "normals": 900,
+          "keys": 30
+        },
+        {
+          "name": "w054:z12240-x256",
+          "normals": 667,
+          "keys": 12
+        },
+        {
+          "name": "w054:z12240-x1024",
+          "normals": 716,
+          "keys": 30
+        },
+        {
+          "name": "w054:z12240-x1792",
+          "normals": 693,
+          "keys": 23
+        }
+      ],
+      "unique_keys": 121,
+      "compressed_bytes": 71124890,
+      "decoded_bytes": 856424448
+    }
+  }
+}

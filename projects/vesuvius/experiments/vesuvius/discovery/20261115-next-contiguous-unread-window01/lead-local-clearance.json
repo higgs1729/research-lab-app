@@ -1,0 +1,9 @@
+{
+  "utc": "2026-11-15T06:02:12.724693+00:00",
+  "approved": true,
+  "plan_sha256": "905f1293100bb05def8d3e2e3875df27a3971e039d59dd9a7f82e6091b0abc78",
+  "input_check_sha256": "41f48cd4056666755d8d00e1204fcd441df425be59100f963b09c18f4864bbdb",
+  "execution_check_sha256": "ea8fc70dba189a2b168ffbf9d9f656974ef24a6cad6e8e6d839a55dfdc20315b",
+  "scope": "One local GPU run for R220 only after fresh admission check; no cloud creation, no new download, no extra inference. Existing CPU6 parity; entry120/model600/outer780 seconds, CPU1/commit4GiB/VRAM4GiB.",
+  "cost_estimate_usd": 0
+}

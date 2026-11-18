@@ -1,0 +1,82 @@
+{
+  "responses": [
+    {
+      "file": "mesh-meta-source.json",
+      "bytes": 4639,
+      "sha256": "76dce1781a09108632d15711bc75f43ad963aeddf22b1426954b160638f87e7e",
+      "mtime_utc": "2026-11-13T16:17:16.505925+00:00"
+    },
+    {
+      "file": "mesh/x.tif",
+      "bytes": 178293,
+      "sha256": "6fce62de4c54c4e2cdd63fd03dbb4b9538b6fb24323fac32d46b9bb8ed5ad73e",
+      "mtime_utc": "2026-11-13T16:17:33.636437+00:00"
+    },
+    {
+      "file": "mesh/y.tif",
+      "bytes": 178293,
+      "sha256": "37706edeb328daefe73699de7c4cbdffc727a0e6aa8066e2b31f63641c3f0d03",
+      "mtime_utc": "2026-11-13T16:17:34.029272+00:00"
+    },
+    {
+      "file": "mesh/z.tif",
+      "bytes": 178293,
+      "sha256": "18d24951eca5ef95d3156673aafe4869540abc657449d861d75b94dbe43de616",
+      "mtime_utc": "2026-11-13T16:17:34.313489+00:00"
+    },
+    {
+      "file": "ct.zarr/.zgroup",
+      "bytes": 24,
+      "sha256": "2383746e67b4bcc2762b3f100f06c3fa2d5f149ab5a8e5da5d33521464a01959",
+      "mtime_utc": "2026-11-13T16:17:49.166862+00:00"
+    },
+    {
+      "file": "ct.zarr/.zattrs",
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9",
+      "mtime_utc": "2026-11-13T16:17:49.759181+00:00"
+    },
+    {
+      "file": "ct.zarr/0/.zarray",
+      "bytes": 239,
+      "sha256": "da501230c845ddebe3317941e12a90452f7f14c75f75b1e34ee43c1133c613e4",
+      "mtime_utc": "2026-11-13T16:17:50.462059+00:00"
+    },
+    {
+      "file": "ink-lens-tree.json",
+      "bytes": 300000,
+      "sha256": "1aebc3122acc331151d88562cbe736e1bc5c7d1bbacc2d8e7812033f0ed7f833",
+      "mtime_utc": "2026-11-13T16:17:33.974455+00:00"
+    },
+    {
+      "file": "ink-lens-root.json",
+      "bytes": 7297,
+      "sha256": "a9e0e74a3114a592bbf006b09613d8989973f5b0d6e49f8a325f4435983a3a37",
+      "mtime_utc": "2026-11-13T16:17:48.771944+00:00"
+    },
+    {
+      "file": "ink-lens-spaces.json",
+      "bytes": 60063,
+      "sha256": "7bb6b3a67ca78f84d5586fcbe242867ffba317af2658bbbb3ba9dcaddc91498b",
+      "mtime_utc": "2026-11-13T16:18:24.181215+00:00"
+    },
+    {
+      "file": "ink-lens-runners.py",
+      "bytes": 18221,
+      "sha256": "f7a19167e1ddc675eaf1d74d54c0c666016500f6b79ed2c15564acdcc0856458",
+      "mtime_utc": "2026-11-13T16:21:13.584688+00:00"
+    },
+    {
+      "file": "ink-lens-zoo.py",
+      "bytes": 22472,
+      "sha256": "ebacc94fe8fbcd125c8a0a63387607efa4b258e18e1c242caf6681dc305307a3",
+      "mtime_utc": "2026-11-13T16:21:13.853319+00:00"
+    }
+  ],
+  "metadata_body_bytes": 415973,
+  "mesh_body_bytes": 534879,
+  "early_and_public_retry_time_reserved_seconds": 165,
+  "partial_response": "ink-lens-tree.json was stopped at 300000 bytes and is deliberately not valid JSON.",
+  "mesh_meta_source": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/POS_PHerc0343_erwin/meta.json",
+  "ink_lens_pinned_root": "https://github.com/ChaseHendrick/Scrolls/tree/0139cf33bb443db42602bf1b201dd05f8a666413/spaces/ink-lens"
+}

@@ -1,0 +1,99 @@
+{
+  "reviewer": "root",
+  "checked_utc": "2026-11-15T08:13:33.190799+00:00",
+  "agent_visual_verdict_read": false,
+  "images": [
+    {
+      "file": "sections/upper-locator.png",
+      "sha256": "85028c72737db737ff4758b640ff070b44928472efc4a072417fd0dbb003a416"
+    },
+    {
+      "file": "sections/known-locator.png",
+      "sha256": "5160bcbbe88c92647507e084448fc0dd1510328988737c70a5ff01a9cba04600"
+    },
+    {
+      "file": "sections/upper-bend-normal-marked.png",
+      "sha256": "744a951f81ffae53755693e40ee38e01dfa6aceb9947c1829e108f0dbd34846e"
+    },
+    {
+      "file": "sections/upper-across-normal-marked.png",
+      "sha256": "ff00ea1a96fcfc8b22ed35a673764862e71319c6d5f3f57e01545ac39db21e59"
+    },
+    {
+      "file": "sections/upper-adjacent-normal-marked.png",
+      "sha256": "b9467e07ef492a520823503bee782ccefca7a43919b1556e733b953eca308160"
+    },
+    {
+      "file": "sections/known-across-normal-marked.png",
+      "sha256": "f2818f4334e8953142a0e359c6acfdfce96e21753956248cd534db0bd53ac1fc"
+    },
+    {
+      "file": "sections/known-down-normal-marked.png",
+      "sha256": "7f2caf2802783d4b80349ad1167460d7cb306db9aad3af90ff9f57df393a3d48"
+    },
+    {
+      "file": "sections/U1-orthogonal-marked.png",
+      "sha256": "0fda4315d92313be483e472d22ca1f4ccd2a219312caa6bae861d137964b584d"
+    },
+    {
+      "file": "sections/U2-orthogonal-marked.png",
+      "sha256": "b2b69a3ccccb376225ce6aadb5446d7875098aa9566bbfdc748ce68bc24c4969"
+    },
+    {
+      "file": "sections/U3-orthogonal-marked.png",
+      "sha256": "9308fe41f6124f7fafe9d2b7a6a610a12de2db3c502ab1bf5b742d57746992b9"
+    },
+    {
+      "file": "sections/U4-orthogonal-marked.png",
+      "sha256": "3fb4d5dc709835bb4f42570f07a2e38f7e7b9e1f0543ce7420bc931085fd459f"
+    },
+    {
+      "file": "sections/U5-orthogonal-marked.png",
+      "sha256": "a46833bbc7d4c2a4098b9b473cf937fbc3fe75cf764e9e5b81236f4ee7e8228b"
+    },
+    {
+      "file": "sections/U6-orthogonal-marked.png",
+      "sha256": "758b83af20cb622f23472f5b4471411358a61da777823b02388a9dd3b552d31f"
+    },
+    {
+      "file": "sections/U7-orthogonal-marked.png",
+      "sha256": "d44550c28f861e95236ecb2d2058201ee34c2f4f8c08fb488d0c4c4d1b830093"
+    },
+    {
+      "file": "sections/U8-orthogonal-marked.png",
+      "sha256": "2a16bf1cf87a74c9c1a0349732b119dd89bbb92e5feaa3fee31f2ddac7a3cc58"
+    },
+    {
+      "file": "sections/K1-orthogonal-marked.png",
+      "sha256": "54aeb9801f4cbe7365ccd4136642bf8da07cdc271257cf5fc293f4b9e4d5683e"
+    },
+    {
+      "file": "sections/K2-orthogonal-marked.png",
+      "sha256": "9a0dd353a402c262d4e8710eb8010f8f10d590f03107cdd0bbb70b55db2c84b2"
+    },
+    {
+      "file": "sections/K3-orthogonal-marked.png",
+      "sha256": "afcfd3941b186b5dcddb6e7e7ce15ffce1b78b8177cff33b2f033e97534b698f"
+    },
+    {
+      "file": "sections/K4-orthogonal-marked.png",
+      "sha256": "6b7a8765513c77e25e35b683f58ce5f54ffc534bd8cb856c4b18ef02451926e4"
+    }
+  ],
+  "coverage": "Both context locators, all5 continuous sections, all12 groups of unwarped original slices. Annotated diagrams use explicit nearest-neighbour magnification; native numeric pixels separately checked.",
+  "upper_observations": [
+    "U1/U2/U4 are at or near narrow bright band boundaries in the unwarped planes; U3 in the dark centre lies between or near surrounding bright structures. The bend section has an approximately d=0 ridge for parts of its path but changes, gaps and neighbouring bands prevent a unique lamina tracing over the whole bend.",
+    "U5 is near a dark narrow space within complicated fibre bands. U6/U8 are near band/gap boundaries, while U7 is more clearly within a dark corridor between bright margins. The adjacent section is particularly complicated; I cannot establish one physical lamina connecting all the neighbouring responses.",
+    "Continuous d=0 does not itself prove physical continuity. Conversely, the pictures do not establish a specific layer jump or a single justified correction direction over the candidate."
+  ],
+  "control_observations": [
+    "The known ring left/right/bottom points K1/K3/K4 are also near bright band boundaries. K2 in the ring cavity is in dark space with a nearby saturated bright inclusion.",
+    "Both known curtains show varying bright bands around d=0, substantial dark spaces and complicated texture. The known positive does not calibrate a rule that d=0 must stay on one unambiguous bright ridge. Therefore upper dark overlap and ambiguity cannot alone reject the ink candidate."
+  ],
+  "decision": "Original-CT mapping and diagnostic display validated, but the same physical lamina and the truth of model bridges remain unconfirmed. Keep the one prior public candidate as unresolved; do not count a new letter or automatically correct/reject the mesh. These sections supply no uniquely defensible correction to apply.",
+  "new_confirmed_letters": 0,
+  "new_retained_ROIs": 0,
+  "prior_candidate_disposition": "retained, unresolved",
+  "new_CT_body_bytes": 153092096,
+  "paid_cost_usd": 0
+}

@@ -1,0 +1,142 @@
+{
+  "files": [
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/candidate.json",
+      "sha256": "4e15979f4762a0b2eb3525f7f98d8740fef1f39264a4a36dfd63d5f197189e2e",
+      "bytes": 3470
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/candidate02.json",
+      "sha256": "7bc54a9e2b31a64f0a43924050ee65daac69a059937376d69ca85fe63a64d9d8",
+      "bytes": 3469
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/candidate03.json",
+      "sha256": "7bc54a9e2b31a64f0a43924050ee65daac69a059937376d69ca85fe63a64d9d8",
+      "bytes": 3469
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/check-process.json",
+      "sha256": "cb7e50897a2fba4098137d83e25f870ec6bde783c5094d34a0b21eb2c5ef5071",
+      "bytes": 705
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/check.log",
+      "sha256": "47255fca61ddf6363307ff4e6a55e0207f3e6e857f7ff95f2f54fb9cd5db850c",
+      "bytes": 1475
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/check02-process.json",
+      "sha256": "e3b4459ce86a2a037046bf7a1b89922f591391924883cc21001394704a0326fa",
+      "bytes": 710
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/check02.log",
+      "sha256": "49d53bb94a4a1354cad10bf20253b4eb59fef59dee85fd3aa5fc641801de445b",
+      "bytes": 1474
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/check03-process.json",
+      "sha256": "77a0920c08ad9e96cee6ab6132e1ca04f5ae8a1ada4d95b0e9d531819c8a82df",
+      "bytes": 704
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/check03.log",
+      "sha256": "49d53bb94a4a1354cad10bf20253b4eb59fef59dee85fd3aa5fc641801de445b",
+      "bytes": 1474
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/check_saved.py",
+      "sha256": "0893a3ab52dd23ce2ab55264f4be0490231be85bf5c0b7af93f9ea5c575121c9",
+      "bytes": 5370
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/elf-inspection.log",
+      "sha256": "96e01ba5a3c50ebdf2c10cb57f41109623e090857f17d46cbabe454ce313787d",
+      "bytes": 1999
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/old-elf-inspection.log",
+      "sha256": "39f3f471b4b5ee05057656ea24ff5a22776993d42d27cfeb86b8e3deac374a1f",
+      "bytes": 415
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/README.md",
+      "sha256": "d9625a192978b2b48696bc74248c4f58a5724dbc57e1db952cde25ccfe315969",
+      "bytes": 6738
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/record.json",
+      "sha256": "495a5587e33ab26da5094d24047fe431b4d48f23ef757f430badcae31bfaf4a2",
+      "bytes": 2019
+    },
+    {
+      "path": "experiments/vesuvius/r009/20261113-multichunk-feasibility01/resume-branch.log",
+      "sha256": "28e01519a9941e9ac63dd7463b1cfefdde7835fae8eaef84eefb9a385717fe65",
+      "bytes": 5815
+    },
+    {
+      "path": "research/156-r009-multichunk-resume-feasibility.md",
+      "sha256": "b4d5e79cb57332508dc07b60bcfd52ef2234b5cc018ae7b53f5b7e4e0537c15f",
+      "bytes": 7548
+    }
+  ],
+  "source_references": [
+    {
+      "path": "C:/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/source/volume-cartographer/apps/src/vc_render_tifxyz.cpp",
+      "sha256": "66d96d1e6cdf858e1ab857116ab3d4567d87ecf9c63e1d06c45a4be955d1f8de"
+    },
+    {
+      "path": "C:/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/source/vc_reader/src/cpp/zarr/pyramid.cpp",
+      "sha256": "1d121c03941ab1b20a10d16cce4c3630cd00ebf85ef395ae795b99c779b8c0e6"
+    },
+    {
+      "path": "C:/dev/kensyoukin/.work/r009-pyramid-metadata01/run01/source/vc_reader/include/vc_reader/zarr_write.hpp",
+      "sha256": "7e25215511819d5f4feb0dc9bfd4dc2aee4b4f68a3d7b67621a01abe4f2a4eca"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/src/cpp/zarr/writer.cpp",
+      "sha256": "9923cafd1a5880f16693c30c0cfd7994405cb4f24bc0e2f14749a7479e3cba74"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/src/cpp/zarr/store.cpp",
+      "sha256": "58d8044733cc6bb65f3951bbbfb3b52758026867bd80ea0c2d0af29768b42dd2"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/src/cpp/zarr/layers.cpp",
+      "sha256": "276079939171a1c42a0854a7462d8ec7835851184b7c2f5f3aa43470336631fd"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/src/cpp/grid/points.hpp",
+      "sha256": "6ebfa580cf3e78ab16ca051f958802de9c62ffa133cbe6d8fc9c6ec2f2b547ab"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/src/cpp/grid/derivatives.hpp",
+      "sha256": "87410ac33197b7553426bf5e4f04d6c36cb19cdff226d8159efd2a0e2fa19a59"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/src/cpp/grid/grid.cpp",
+      "sha256": "9e835c1e37acd4adde0467d731d6050f91189b35a8e28e4ab81cb3d4303cc347"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/src/cpp/grid/level_map.hpp",
+      "sha256": "14cf56f8adc5227b06c75fe1155ec630d9e2f780744a70c5501f5c233ee1e3b9"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/src/cpp/atomic_file.hpp",
+      "sha256": "c3d1eaea3ddeaa59606c5d69518cdbb8dfc2b43aa1b7db765f1799ca57f7d48a"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/vc_reader/include/vc_reader/zarr_write.hpp",
+      "sha256": "82b2df9d13eb43ab3c0c5c9b822c56f376af33852178d767ed0e925cce51a19b"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-villa/volume-cartographer/core/src/QuadSurface.cpp",
+      "sha256": "fe0be9b172db8d6557b771319421f9a801f3ebb9600ca975729ea43b756de758"
+    },
+    {
+      "path": "D:/kensyoukin-work/r003-build/reader/libvc_reader_native.so",
+      "sha256": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+    }
+  ]
+}

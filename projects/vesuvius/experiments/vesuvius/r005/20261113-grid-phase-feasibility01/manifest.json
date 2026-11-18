@@ -1,0 +1,45 @@
+{
+  "files": [
+    {
+      "path": "research/149-r005-packing-grid-phase-feasibility.md",
+      "sha256": "bf62f94fad95a6c535be8126e5e029584febc46db71f7be425ab68ba5c3f0b9b",
+      "bytes": 12399
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-phase-feasibility01/check.py",
+      "sha256": "0d6ac780077b2b4afd5ae20d07f0ed36fba8e0e6f81606cca1588474f6c040d5",
+      "bytes": 13096
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-phase-feasibility01/README.md",
+      "sha256": "33bc2fa1115a756abcda3307ba9b67201afc0319baf8392acbaaa871e5011f41",
+      "bytes": 2286
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-phase-feasibility01/record.json",
+      "sha256": "14e00029b2940ea2aa2b47cd39534a221ce38cf53708ed530bb2ee2cff77cd43",
+      "bytes": 1793
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-phase-feasibility01/run01-process.json",
+      "sha256": "04506214c378577cb634ad72e9506dbc430a1813ef36ea14d106136c6a1e5872",
+      "bytes": 682
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-phase-feasibility01/run01.json",
+      "sha256": "feb474bf1c7c3783fde6529793107241794af74eca77939cb3c6a064884d6085",
+      "bytes": 7123
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-phase-feasibility01/run02-process.json",
+      "sha256": "eafe592c036fc6fc9d2b54e9ac063f2dc101d51c7c2e39f821998cddabda9348",
+      "bytes": 681
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261113-grid-phase-feasibility01/run02.json",
+      "sha256": "e488be65a939871476da4af555883ce977ea1960a7385e5c1dae0993ab9b81d3",
+      "bytes": 29194
+    }
+  ],
+  "total_bytes": 67254
+}

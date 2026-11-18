@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "network_calls": 0,
+  "pod_creates": 0,
+  "model_forwards": 0,
+  "simulated_free_bytes": 3221225472,
+  "old_floor_bytes": 10737418240,
+  "actual_reservation": {
+    "allocated_bytes": 12582912,
+    "file_bytes": 12582912,
+    "windows_attributes": 32,
+    "links": 1,
+    "device": 10726679257801674650,
+    "file_id": 2814749769343273
+  },
+  "cases": {
+    "old_collector_rejects_same_low_free": {
+      "error": "AssertionError",
+      "message": "",
+      "chunks_read": 2
+    },
+    "over_cap": {
+      "error": "RuntimeError",
+      "message": "Output archive exceeds its byte budget",
+      "chunks_read": 0
+    },
+    "bad_digest": {
+      "error": "RuntimeError",
+      "message": "Output archive hash did not match",
+      "chunks_read": 2
+    },
+    "wrong_owner": {
+      "error": "RuntimeError",
+      "message": "Result reservation owner changed",
+      "chunks_read": 2
+    },
+    "missing_reservation": {
+      "error": "FileNotFoundError",
+      "message": "[Errno 2] No such file or directory: 'C:\\\\dev\\\\kensyoukin\\\\experiments\\\\vesuvius\\\\discovery\\\\20261115-studio-reserved-capture01\\\\offline-tw1wkiep\\\\results.reserved'",
+      "chunks_read": 2
+    },
+    "r230_low_free_preserves_worker_failure_archive": {
+      "chunks_read": 2,
+      "exit_code": 3,
+      "retained_members": [
+        "job-result.json",
+        "worker.log",
+        "model.log"
+      ],
+      "archive_sha256": "81f4e432452b13be5702cd842f7c1b3574574bab82343b2123a75fc19b78dbd8"
+    }
+  }
+}

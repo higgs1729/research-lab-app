@@ -1,0 +1,12 @@
+{
+  "atlas_reference": "kbh-POS_PHerc0343_erwin",
+  "atlas_metadata_git_blob": "db8156c79c9caf2b36b36e1a34f8489ab5280bc3",
+  "survey_mesh_url_prefix": "https://raw.githubusercontent.com/ketchupbyheinz/vesuvius-scroll-survey/1f12c1ceb14c1f24acc48249eaad60bcdf541721/results/meshes/POS_PHerc0343_erwin",
+  "official_winner": "Erwin Nieuwlaar",
+  "official_scroll": "PHerc0343",
+  "winning_mesh_named_in_winner_readme": "concat_w047-w048_R5B2_z9500-11000.tifxyz",
+  "status": "Published provenance supports this atlas control as a derivative/reference of the winning segment. No mesh-byte or pixel registration comparison.",
+  "pages": 5,
+  "primary_body_bytes": 278504,
+  "r164_card_sha256": "cffc46291a866f6e2f103e9198186d0e2d88ad06307c630fc38c915880c11637"
+}

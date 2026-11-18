@@ -1,0 +1,125 @@
+{
+  "retrieved_at_utc": "2026-11-12T07:10:29.176632+00:00",
+  "main": "f0e441016900cb946bc3861025eca3a7cc2aae19",
+  "sweep_main": "b0951fd0c63f1865fb202f3e1bd2945326fa0429",
+  "main_ref_confirmation": "git ls-remote refs/heads/main",
+  "files": [
+    {
+      "file": "vc_render_tifxyz.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/f0e441016900cb946bc3861025eca3a7cc2aae19/volume-cartographer/apps/src/vc_render_tifxyz.cpp",
+      "bytes": 82208,
+      "sha256": "2d315d553b698943c15fad0021da3b75a5c1d5ebd03c005c1b66f3c16fe52798",
+      "git_blob_sha1": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6"
+    },
+    {
+      "file": "grid.hpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/f0e441016900cb946bc3861025eca3a7cc2aae19/vc_reader/include/vc_reader/grid.hpp",
+      "bytes": 14687,
+      "sha256": "c017785e34fa53b348ff6b380c3a161fd588db716c276f5fc72230997da5c63e",
+      "git_blob_sha1": "c3e342431318b2d10a01ff0f25c60c7ccaf9a33f"
+    },
+    {
+      "file": "grid.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/f0e441016900cb946bc3861025eca3a7cc2aae19/vc_reader/src/cpp/grid/grid.cpp",
+      "bytes": 40407,
+      "sha256": "9e835c1e37acd4adde0467d731d6050f91189b35a8e28e4ab81cb3d4303cc347",
+      "git_blob_sha1": "3768a6fcb16672e1f2674e0ff6e184e2a7f2e328"
+    },
+    {
+      "file": "sample_point.hpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/f0e441016900cb946bc3861025eca3a7cc2aae19/vc_reader/src/cpp/sample_point.hpp",
+      "bytes": 4207,
+      "sha256": "e560130d6dccd21878adbeb03305daa67cf1c69623b996476cfa2074c842975b",
+      "git_blob_sha1": "52e8e8175472d423cb263b597d3b8a8e2cb85977"
+    },
+    {
+      "file": "tutorial5.md",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/f0e441016900cb946bc3861025eca3a7cc2aae19/scrollprize.org/docs/07_tutorial5.md",
+      "bytes": 42990,
+      "sha256": "7b8ca92f269a4f6f222f6dafbb3090835a3375de516f824b1583ebdc9722d168",
+      "git_blob_sha1": "c75164520354b086c8cc5956970c336ec9fa3fa2"
+    },
+    {
+      "file": "CommandLineToolRunner.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/f0e441016900cb946bc3861025eca3a7cc2aae19/volume-cartographer/apps/VC3D/CommandLineToolRunner.cpp",
+      "bytes": 19764,
+      "sha256": "1a1841f76ff1dfafa36114e8aab69e0fe74be4d823db9d6d0cf5803cefa7f723",
+      "git_blob_sha1": "319c799b423f5d748b1a1b3d5c964765420022da"
+    },
+    {
+      "file": "test_render_zarr_output.cpp",
+      "url": "https://raw.githubusercontent.com/ScrollPrize/villa/f0e441016900cb946bc3861025eca3a7cc2aae19/volume-cartographer/core/test/test_render_zarr_output.cpp",
+      "bytes": 10751,
+      "sha256": "74168044da0ac1a6e195bf81ba9822011424e4bcfd22364f336d819f5aee4128",
+      "git_blob_sha1": "af9123d8a98798e0715b6275f8c07b49fc94ed80"
+    },
+    {
+      "file": "compositor-sweep-README.md",
+      "url": "https://raw.githubusercontent.com/nerln/vesuvius-compositor-sweep/b0951fd0c63f1865fb202f3e1bd2945326fa0429/README.md",
+      "bytes": 2936,
+      "sha256": "f34b064c0bb89dbefe082820544ff2bf909b885800f5fa3d1b065b12653eb884",
+      "git_blob_sha1": "394e8865bbf6ca7e4769f4c40a55d687d8205aef"
+    },
+    {
+      "file": "compositor-sweep-COMANDI.md",
+      "url": "https://raw.githubusercontent.com/nerln/vesuvius-compositor-sweep/b0951fd0c63f1865fb202f3e1bd2945326fa0429/COMANDI.md",
+      "bytes": 1624,
+      "sha256": "13627145c55cf3f7e0cc3ebb77d2da650d1d8cc21edbc4753e36b65063be7923",
+      "git_blob_sha1": "6f25b677b0f2b7312a19eb5e93c67fe3544f8926"
+    },
+    {
+      "file": "issue-2478.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/issues/2478",
+      "bytes": 3964,
+      "sha256": "be61465f7cc4804b7910287c33e4c20981d270b82a75a53ed27c13f455c03ffb"
+    },
+    {
+      "file": "issue-2482.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/issues/2482",
+      "bytes": 4106,
+      "sha256": "8aab2dc9ae2cda99427be53f3dddf319cf996a7b4c2bc9cae9d34dab1607df47"
+    },
+    {
+      "file": "issue-2346.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/issues/2346",
+      "bytes": 3730,
+      "sha256": "fa2a6b9fb70a88fb28a0bcedf52d8780e5979f70037b59a470d609842ebd78a9"
+    },
+    {
+      "file": "pr-1528.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/1528",
+      "bytes": 21574,
+      "sha256": "f912dc71a795826aca957dc3a86eedc0a67a52b77b19b3a329f447b307c5c54c"
+    },
+    {
+      "file": "pr-1905.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/1905",
+      "bytes": 28882,
+      "sha256": "350dec7c671e59a05c931e70886696fd73f1f3353cdeb17f4243c5bd9d0f5833"
+    },
+    {
+      "file": "pr-2290.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/2290",
+      "bytes": 23653,
+      "sha256": "b196b40931151cccfb2fd9388a8229bbff721ab37a436fb51d96445a1294b163"
+    },
+    {
+      "file": "pr-2446.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/2446",
+      "bytes": 21549,
+      "sha256": "6b1d7d8a03ecd8833fe927f9a16060c9213530415fd8b20ef2873ff1b88716ae"
+    },
+    {
+      "file": "pr-2449.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/2449",
+      "bytes": 24024,
+      "sha256": "ce0ee3afb107d774545d04a2f5c06f286aeecaf6965bc17c5a0f9afdbe98dd5d"
+    },
+    {
+      "file": "pr-2474.json",
+      "url": "https://api.github.com/repos/ScrollPrize/villa/pulls/2474",
+      "bytes": 19421,
+      "sha256": "97d2011c850435932051a0940f2fb565ca090e67601e87bbe6c2b6dddc5ce9e7"
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "status": "R214 revised local CT gate; R213 stopped before CT because centering required negative crop origins",
+  "target": {
+    "scroll": "PHerc0191",
+    "scan": "20250720024445",
+    "reconstruction": "20250821151635",
+    "z_band_l0_voxel": [
+      11600,
+      12400
+    ],
+    "voxel_um": 9.362,
+    "fit_revision": "63c641ba1dc794073208c24f7f88fa59c4f77621",
+    "fit_directory": "2026-09-15_PHerc0191_slice-11600-12400_0-patch_w90/meshes/fitted",
+    "faces_in_one_fit": [
+      "w052",
+      "w053",
+      "w054"
+    ],
+    "mesh_scale_xy": [
+      0.05,
+      0.05
+    ],
+    "mesh_shape_wh": [
+      [
+        255,
+        56
+      ],
+      [
+        260,
+        56
+      ],
+      [
+        265,
+        56
+      ]
+    ],
+    "mesh_xyz_bytes_total": 525366,
+    "publisher_full_mesh_area_cm2": [
+      3.5854652759520005,
+      3.6548817348,
+      3.7186887828320003
+    ],
+    "actual_physical_area_cm2": null,
+    "sqm_anchor_xyz": [
+      4656,
+      4656,
+      11952
+    ],
+    "phase_xy_proxy": [
+      4300,
+      4320
+    ],
+    "phase_xy_proxy_limit": "Rounded midpoint of the w053 meta XY bbox, used to define a common ray; not an inferred umbilicus. SQM point supplies azimuth only, not paper support on the selected meshes."
+  },
+  "local_gate": {
+    "inputs": "Reuse complete9XYZ TIFFs from R213, recheck pinned Git blobs without downloading again. Freeze revised crop and all section coordinates before reading any CT intensity. Official L0 only.",
+    "coordinate_rule": "Use the same frozen origin [4300,4320], target ray toward [4656,4656], z11952 and initial bilinear intersections from R213. For each fixed face set crop exactly [0,32,2048,1024]. Require its initial anchor to lie inside the inner [32,64,1984,960] product-pixel window and the full crop inside the producer canvas; do not shift or resize if it fails. Preserve the reference w053. Determine common radial sections at the original3 heights and relative columns using these fixed crops; freeze all positions and CT keys before intensity access.",
+    "render_geometry": {
+      "renderer": "Borrow fixed local R199/R207 product and isolated geometry observer; R204 raw CT section and trilinear readback.",
+      "nominal_full_canvas_wh": [
+        [
+          4974,
+          1092
+        ],
+        [
+          5071,
+          1092
+        ],
+        [
+          5169,
+          1092
+        ]
+      ],
+      "target_um": 9.6,
+      "render_scale": 0.9752083333333333,
+      "step_l0_voxel": 1.0254219183935056,
+      "product_grid_formula": "C=lround(M*r/s); mesh coordinate m=(i-(C-1)/2)*s/r+M/2, M is the mesh axis sample count, s its mesh scale. Record actual product float values, dimensions and raw axial coordinates.",
+      "main_inner_xywh_relative_to_crop": [
+        32,
+        32,
+        1984,
+        960
+      ],
+      "geometry_gate": "Each eligible full crop is inside the product canvas and its main window has a 4-connected geometry-valid component covering at least 65% of its pixels, as an operational input-coverage threshold. Estimate the component cheaply from vectorized mesh-cell support; use the existing observer on bounded local probes to spot-check the position and normals, and compare the whole producer mask in the later broad render. Record per-face counts, unsupported fraction and local area distortion from the mesh Jacobian. Geometry and CT paper attribution have separate gates."
+    },
+    "sections": {
+      "z_l0_voxel": [
+        11760,
+        11952,
+        12240
+      ],
+      "reference_crop_relative_x": [
+        256,
+        1024,
+        1792
+      ],
+      "rule": "At each z and reference x intersect the fixed reference surface with that constant-z plane along the continuous product column. Through the resulting XY draw a common forward ray from the fixed proxy and intersect eligible meshes in the same z plane. Record missing/ambiguous points as unresolved for that face. From the predicted crossings use one shared radial slab (min to max radial t with 32 voxel padding each side, perpendicular context ±16) and one matched radial-Z section (±16 z). Freeze interpolation/endpoint bounds and dedup their L0 keys. Preserve raw grayscale figures with separate mesh mark overlay.",
+      "paper_gate": "Both reviewers assess the same nine locations before model output. For each face require clear attribution to a traceable local lamina at all 3 central-column positions and at least 2 positions in each flanking column (at least 7/9 total per face). Exclude the particular face for any clear inter-layer placement or crossing several laminae in a local section. Individually supported faces whose independence remains unresolved or which match the same lamina count once: choose the one with clearer support (more unambiguous sites, then higher geometry-valid coverage, then lowest winding index). Retain individually supported distinct faces, and stop if there are none. Out-of-volume CT or exceeded resource cap stop this run. Finite inspection does not guarantee the entire arc follows the same physical sheet."
+    },
+    "limits": {
+      "xyz_bytes": 1048576,
+      "ct_keys": 48,
+      "ct_bytes": 100663296,
+      "ct_download_seconds": 240,
+      "local_wall_seconds": 900,
+      "work_bytes": 536870912,
+      "cpu_threads": 1,
+      "commit_or_as_gib": 4,
+      "disk_c_reserve_gib": 10,
+      "disk_d_writes": 0,
+      "gpu_calls": 0,
+      "usd": 0
+    },
+    "fixed_crop_xywh_by_face": {
+      "w052": [
+        0,
+        32,
+        2048,
+        1024
+      ],
+      "w053": [
+        0,
+        32,
+        2048,
+        1024
+      ],
+      "w054": [
+        0,
+        32,
+        2048,
+        1024
+      ]
+    }
+  },
+  "conditional_inference": {
+    "scope": "Use the 1 to 3 fixed crops accepted by local gate and duplicate-resolution rule, ordered by increasing winding index. Stop before model use if none qualifies. Crop positions and depths stay fixed, with no replacement windings.",
+    "crop_wh": [
+      2048,
+      1024
+    ],
+    "nominal_main_pixel_area_cm2_by_face": 1.755316224,
+    "nominal_main_pixel_area_cm2_total": 5.265948672,
+    "estimated_by_retained_face_count": [
+      {
+        "faces": 1,
+        "nominal_cm2": 1.755316224,
+        "patch_upper": 3906,
+        "gpu_linear_seconds": 215.972129,
+        "raw_input_bytes": 69206016,
+        "raw_3_png_pixels_bytes": 6291456,
+        "probability_arrays_upper": 8
+      },
+      {
+        "faces": 2,
+        "nominal_cm2": 3.510632448,
+        "patch_upper": 7812,
+        "gpu_linear_seconds": 431.944258,
+        "raw_input_bytes": 138412032,
+        "raw_3_png_pixels_bytes": 12582912,
+        "probability_arrays_upper": 16
+      },
+      {
+        "faces": 3,
+        "nominal_cm2": 5.265948672,
+        "patch_upper": 11718,
+        "gpu_linear_seconds": 647.916387,
+        "raw_input_bytes": 207618048,
+        "raw_3_png_pixels_bytes": 18874368,
+        "probability_arrays_upper": 24
+      }
+    ],
+    "ct_support_and_render": "On local R199/R207 product use 33 layers, linear, native L0, unflipped mesh normals, step ~1.02542 L0 voxel, same native-to-9.6 geometry. Report discrete pixel area and sampling mask separately from physical paper. Enumerate all plus/minus 16 support endpoints, floor and floor+1 of trilinear axes with 0.001 voxel guard, and union keys across 3 surfaces. Obtain exactly missing keys with size/ETag/SHA receipts. Blank/fill handling must be explicit; unavailable support is not silently filled. Render offline against exact cache and save raw uint8 arrays and hashes locally. Independently verify at least 9 mesh points/45 interpolated CT points per face and local rendering support.",
+    "local_full_caps": {
+      "ct_unique_keys": 1536,
+      "ct_bytes": 3221225472,
+      "geometry_seconds": 2700,
+      "ct_download_seconds": 5400,
+      "render_seconds": 240,
+      "workspace_gib": 6,
+      "local_cpu_threads": 1,
+      "local_commit_or_as_gib": 4,
+      "disk_c_reserve_gib": 10,
+      "disk_d_writes": 0
+    },
+    "checkpoint": {
+      "revision": "9cb86e500e944b11a06a7020403cde5dffb5bcb2",
+      "sha256": "809f4f10f7cb7afa19b4bee0f7d2ab31edd7e11b664f9f210cc9c17f22fcfe5d",
+      "bytes": 522576086
+    },
+    "predict": {
+      "drawn_depth_layers": 33,
+      "forward_depth_indices_in_order": [
+        8,
+        23
+      ],
+      "reverse_depth_indices_in_order": [
+        23,
+        8
+      ],
+      "patch_zyx": [
+        16,
+        64,
+        64
+      ],
+      "stride": 32,
+      "batch": 1,
+      "precision": "FP32 IEEE, TF32 off",
+      "grid_per_direction_xy": [
+        63,
+        31
+      ],
+      "patches_per_face_per_direction_upper": 1953,
+      "patches_total_upper": 11718,
+      "aggregation": "R198 and R208 crop-first central 16 then reverse; official Hecate 2D output, uint8/255, Hann, preserve all-zero patch skip and per-column input support. Face by face, one strict-loaded model.",
+      "verification": "Independent first-three eligible patches on local CPU with R208 tolerances and first-three timing gate on the Pod. Freeze first-three and all input hashes, support, positions and full result masks. Preserve four eligible evenly indexed patches per direction per face for bounded probability audit. Reviewed raw CT and two raw outputs cover the entire main windows. Save legible-looking positions only with their native L0 lineage. Do not tune display/thresholds or infer all-ink-negative from a non-detection."
+    },
+    "pod": {
+      "gpu": "one Secure RTX4090, single create; R208 fixed image and same-owner diagnostic/watchdog/deletion",
+      "container_disk_gb": 20,
+      "persistent_volume_gb": 0,
+      "published_ports": 0,
+      "gpu_allocator_gib": 4,
+      "worker_max_rss_gib": 4,
+      "hourly_compute_usd_limit": 0.9,
+      "input_bundle_limit_bytes": 167772160,
+      "result_bundle_limit_bytes": 33554432,
+      "stage_caps_seconds": {
+        "provision": 240,
+        "input_upload_and_weights": 1800,
+        "model": 900,
+        "collection": 300,
+        "deletion": 60
+      },
+      "absolute_delete_from_before_post_seconds": 3300,
+      "observed_base_run": {
+        "study": 208,
+        "patches": 1922,
+        "gpu_seconds": 106.272,
+        "upload_tar_bytes": 35512320,
+        "output_tar_bytes": 37847040,
+        "lifetime_seconds": 605.966
+      },
+      "planning_only": {
+        "gpu_linear_seconds": 647.9163870967742,
+        "upload_assumed_floor_mib_per_second": 0.1,
+        "upload_at_byte_cap_seconds": 1600,
+        "tax_exclusive_usd_55_minutes_at_0_89_per_hour": 0.81837963,
+        "tax_exclusive_usd_55_minutes_at_0_90_per_hour": 0.8275463,
+        "spend_management_usd": 1.0,
+        "is_provider_hard_ceiling": false
+      },
+      "precreate_stop": "Compress the frozen array archive and measure its bytes before provisioning. Require observed dry local unpack/archive integrity and projected transfer within cap; honor any current price/credit/auto-pay/reserve limits. Recheck operating system reserve, exact predeclared CT support and completed local gate. Keep input/weight/output tasks on a fixed absolute clock, record failure without second Pod. Transport adaptation or revised budget needs a separate plan if preflight fails.",
+      "outputs": "Three center CT PNGs plus six model PNGs (18,874,368 raw bytes total); bit-packed binary geometry/model supports, positions, receipts/hashes, at most 24 probability arrays. CT centers already exist locally. Check actual tar size and retrieval throughput; collect findings before deadline, then DELETE only the exact owned ID and verify GET404 plus exact-name absence separately. Record attribution and Pod-specific billed amount when available."
+    }
+  },
+  "revision_note": {
+    "utc": "2026-11-14T14:18:50.337380+00:00",
+    "approved_by": "root",
+    "parent_plan_sha256": "1a905bd714fead3cf2d26212ed7e317808b76a1f03fd9ee5fce2f11481ddf0f3",
+    "reason": "R213 independent geometry check placed all3 selected anchors at productX617-646. A2048-wide centered crop extends outside canvas. No CT intensities, model outputs or paper observations have been obtained from these faces. Fix the crop at the left canvas edge while retaining the same anchor in the inner window. This is a new pre-CT input-window plan, not a successful rerun of the original centered-window plan.",
+    "scientific_change": "Only fixed crop origin changes to x0 for each face; y32/width2048/height1024, meshes, reference phase/ray, CT heights, three sample columns, support criteria and resource caps unchanged.",
+    "frozen_failed_evidence": "../20261114-pherc0191-three-face-gate01/coordinate-plan.json"
+  }
+}

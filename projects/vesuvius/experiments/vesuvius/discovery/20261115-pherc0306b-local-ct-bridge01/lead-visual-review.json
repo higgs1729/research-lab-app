@@ -1,0 +1,112 @@
+{
+  "reviewer": "root lead",
+  "frozen_utc": "2026-11-15T08:44:28.121698+00:00",
+  "before_agent_visual_verdict_received": true,
+  "viewed": [
+    {
+      "file": "sheets/Z-01.png",
+      "sha256": "82dead0843630c9770786e46139a756e58e976ce21c31dbd85c4cedb7d3897a0"
+    },
+    {
+      "file": "sheets/Z-02.png",
+      "sha256": "bd95083801f5ac03e3cf1c1fff50a2930bf7a283081c64a084ab543e9b383c72"
+    },
+    {
+      "file": "sheets/Z-03.png",
+      "sha256": "ec28765b4af93bf7c3e9d86070a59db04ac1b7bd4936ebc83869754b83a1a3a0"
+    },
+    {
+      "file": "sheets/Z-04.png",
+      "sha256": "e395ba1ef0e50becf35ea514a42753810494315d69663fa021af9f9aa9b68f28"
+    },
+    {
+      "file": "sheets/Z-05.png",
+      "sha256": "c679567b06e21e4fcdbfb27225af6f8c3584f766904044d3add79b1921945197"
+    },
+    {
+      "file": "sheets/Z-06.png",
+      "sha256": "d6d9f6ec8746887aa337013e5279088c536eeabf9bd0ac9fa5fe6d26358faba0"
+    },
+    {
+      "file": "sheets/Z-07.png",
+      "sha256": "d9d87c0a043b8c0220dac12f7010bdab711ef62192e58b2ddbc89d574b85de85"
+    },
+    {
+      "file": "sheets/Z-08.png",
+      "sha256": "1c28382524cbf547cdd284771d06253fbf69cc5f8ef9950ba5e6569d1f781f33"
+    },
+    {
+      "file": "sheets/Z-09.png",
+      "sha256": "329b67215e1517256b6422080e8c6138faff6dd73f0085bde3df0802287a1701"
+    },
+    {
+      "file": "sheets/Z-10.png",
+      "sha256": "dc5d4450be6aad35bd244b39cfc07e530b50f6a0aa6ad71dacc87d5d3f151a25"
+    },
+    {
+      "file": "sheets/X-U2-01.png",
+      "sha256": "da6a39a65b7781f101441bf217a4186f53511ba0944cbeabb401bf214b127c4a"
+    },
+    {
+      "file": "sheets/X-U3-01.png",
+      "sha256": "27e4b3848547fba82baa4248034865f0e6368db6a2323363285210b6543b88fe"
+    },
+    {
+      "file": "sheets/X-U5-L1-01.png",
+      "sha256": "bf1e7c107895e4f473a2554acd37dbe5da6480607aeb27ad6062c515a859c9d0"
+    },
+    {
+      "file": "sheets/X-U5-L1-02.png",
+      "sha256": "a9d0b97652b476897f8ef9a5553217440a8c1c49331d5b0ed75626b38db0b089"
+    },
+    {
+      "file": "sheets/X-U5-L1-03.png",
+      "sha256": "aa969cee0900b3259252cc8a1c8a8db1992fe22d698f9bdd2abc6e3ce9eea056"
+    },
+    {
+      "file": "enlarged/Z-8395-paired.png",
+      "sha256": "e75f13a4635c2609158d6cb7aa67c059e4f0884b5b9c30c84d7895578f9a91fa"
+    },
+    {
+      "file": "enlarged/Z-8385-paired.png",
+      "sha256": "70901e897e5fc44343ee30964134c67d2589e794785da2a44de55ac518a0f6b4"
+    },
+    {
+      "file": "enlarged/Z-8364-paired.png",
+      "sha256": "6c9b9abbeccd6355be52edf87798f57b16cdc00b91f4c3f838b4093d0a3c71ed"
+    },
+    {
+      "file": "enlarged/Z-8366-paired.png",
+      "sha256": "2be61f895888eff965a72f9f9d26baa1d352fa92e9c6a83cc3bf2d169bc0c64c"
+    },
+    {
+      "file": "enlarged/X-2983-paired.png",
+      "sha256": "4b6b1eab44830e50e9c463df5c11ebdb2cf2380d4108958ce991fbe96845e36b"
+    },
+    {
+      "file": "enlarged/X-3072-paired.png",
+      "sha256": "905e26330b87271a6c6c130319a9fd14b3e0c7071b58f95362d150f775a35081"
+    },
+    {
+      "file": "enlarged/X-3269-paired.png",
+      "sha256": "1580bc0081ef9f075bb93eff15f47e3f5ad3955bc7bb58edd8906ec11a0a87ee"
+    },
+    {
+      "file": "enlarged/X-3281-paired.png",
+      "sha256": "15214b4ac1bead36964cb9219c73ff8d06b7ee71334e3f00b916aa95c6a3906d"
+    }
+  ],
+  "coverage": "All 89 adjacent Z planes and all 39 fixed X planes in 15 sheets; all 8 enlarged paired images.",
+  "observations": [
+    "Multiple curved closely spaced lamina-like bands persist across Z8336..8424; local folds and fused-looking intervals prevent unique identity assignment.",
+    "U2 near (2983,3979,8395) lies near the edge of a folded bright band in both XY and YZ. This establishes local tissue proximity, not whole-path identity.",
+    "U3 near (3072,3955,8385) lies along a narrow dark groove adjacent to bright material. The fixed reference follows a locally coherent-looking band edge, but a unique continuation to U5 is not established.",
+    "At U5 near (3269,3828,8364), nearby YZ morphology is segmented and cross-connected; I cannot connect one unique lamina back to U3.",
+    "The L1 seed near (3281,3839,8366) is near another band edge, but neither its fit nor its continuity to U3 can be selected as physically correct from these views.",
+    "Bands continue to the frozen cube boundaries. No edge of the observation box is interpreted as a material termination."
+  ],
+  "decision": "Inconclusive between H0 and H1. Close repeated local geometry diagnostics for this candidate; preserve unresolved candidate and all native data.",
+  "new_letters": 0,
+  "adopted_surface_correction": false,
+  "limits": "Visual interpretation only; no segmentation truth, ink classification or quantitative continuity accuracy. No no-ink conclusion."
+}

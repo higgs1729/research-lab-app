@@ -1,0 +1,92 @@
+{
+  "new_raw_ct_bytes": 6291456,
+  "additional_keys": 3,
+  "reused_keys_from_r226": 6,
+  "required_keys": 9,
+  "reused_source_collection_keys": 73,
+  "measured_acquisition_seconds": 11.496008000016445,
+  "render_elapsed_seconds": 3.017246699979296,
+  "processes": {
+    "acquisition": {
+      "argv": [
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0306b-local-ct-bridge01\\acquire_missing.py"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "started_utc": "2026-11-15T08:39:44.139038+00:00",
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OMP_THREAD_LIMIT": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1"
+      },
+      "exit_code": 0,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296,
+      "completed_utc": "2026-11-15T08:39:55.702220+00:00",
+      "elapsed_seconds": 11.562926099984907,
+      "max_rss_bytes": 35438592,
+      "user_cpu_seconds": 0.078125,
+      "sys_cpu_seconds": 0.046875
+    },
+    "render": {
+      "argv": [
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0306b-local-ct-bridge01\\render_stack.py"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "started_utc": "2026-11-15T08:41:30.133909+00:00",
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OMP_THREAD_LIMIT": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1"
+      },
+      "exit_code": 0,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296,
+      "completed_utc": "2026-11-15T08:41:33.259078+00:00",
+      "elapsed_seconds": 3.125109800021164,
+      "max_rss_bytes": 78123008,
+      "user_cpu_seconds": 2.265625,
+      "sys_cpu_seconds": 0.15625
+    },
+    "parent_verification": {
+      "argv": [
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0306b-local-ct-bridge01\\lead_verify.py"
+      ],
+      "cwd": "C:\\dev\\kensyoukin",
+      "started_utc": "2026-11-15T08:44:28.029615+00:00",
+      "env": {
+        "OMP_NUM_THREADS": "1",
+        "OMP_THREAD_LIMIT": "1",
+        "OPENBLAS_NUM_THREADS": "1",
+        "MKL_NUM_THREADS": "1",
+        "NUMEXPR_NUM_THREADS": "1"
+      },
+      "exit_code": 0,
+      "cpu_affinity": [
+        0
+      ],
+      "process_commit_limit_bytes": 4294967296,
+      "completed_utc": "2026-11-15T08:44:28.619166+00:00",
+      "elapsed_seconds": 0.5895531999995001,
+      "max_rss_bytes": 77717504,
+      "user_cpu_seconds": 0.5625,
+      "sys_cpu_seconds": 0.09375
+    }
+  },
+  "preparation": "prepare_plan.py was a small CPU-only metadata/geometry preparation outside the bounded runner; no CT image or value examination.",
+  "new_model_calls": 0,
+  "gpu": 0,
+  "cloud": 0,
+  "cost_usd": 0,
+  "d_writes": 0,
+  "external_messages": 0,
+  "c_free_bytes": 13855039488,
+  "local_output_bytes_before_finalize": 28719144
+}

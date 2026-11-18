@@ -1,0 +1,11 @@
+{
+  "name": "r217-hecate-f383a08f63639d59",
+  "create_epoch": 1794670449,
+  "delete_epoch": 1794673149,
+  "precreate_list_had_no_match": true,
+  "list_hourly_usd": 0.89,
+  "input_archive_sha256": "9675e0c3bc38ec07d96b4e5cdefa49e3f9b4b21c615adf1a14f040d1f8ce3682",
+  "pod_id": "xfgdrhe6khrxxe",
+  "effective_hourly_usd": 0.89,
+  "data_center": "US-IL-1"
+}

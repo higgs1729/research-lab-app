@@ -1,0 +1,38 @@
+{
+  "source_blob_sha256": {
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "a32b0045134b4a56737991ec6b7a682efed66fc89b1ae74164e0ed80bef1453c",
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": "761265e6ef324127193e09577acbbdb90c0055df9a974d7c3631f6c5246f2462",
+    "volume-cartographer/libs/flatboi/flatboi.cpp": "7dffb8e27f4a3debbb7f530baaa673d0356af03e2e39a6f22355314ee1624ff6"
+  },
+  "applications": [
+    {
+      "patch": "patches/01-pack-components.patch",
+      "exit_code": 0,
+      "stderr": ""
+    },
+    {
+      "patch": "patches/02-preserve-grid.patch",
+      "exit_code": 0,
+      "stderr": "C:/dev/kensyoukin/deliverables/vesuvius/grid-preserving-supplement-20261113/patches/02-preserve-grid.patch:149: trailing whitespace.\n    std::cout << \"Valid grid points: \" << valid_count << \" / \" << (width * grid_size[1]) \nwarning: 1 line adds whitespace errors.\n"
+    },
+    {
+      "patch": "diagnostics/flatboi-observation.patch",
+      "exit_code": 0,
+      "stderr": ""
+    }
+  ],
+  "product_matches_registered_r150": {
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "8e8b41004bd62159348f3a854dfcb2cdb86fdca30d19af1863719f81aacb2776",
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": "dcc75e14768d321a4eaa7110950396a8a7574bb1fc8e6ad9414ead3113793978",
+    "volume-cartographer/libs/flatboi/flatboi.cpp": "00b682f7956108c75c048e32d96a28cd0bd4f536ad66de47483cf029931bb0ae"
+  },
+  "observation_matches_registered_r150": {
+    "volume-cartographer/core/include/vc/core/util/SurfaceMeshing.hpp": "8e8b41004bd62159348f3a854dfcb2cdb86fdca30d19af1863719f81aacb2776",
+    "volume-cartographer/core/src/SurfaceMeshing.cpp": "f4402031f861a814e6eb393e81552debefdb94d2cc90853fbc73dae74c006e2a",
+    "volume-cartographer/libs/flatboi/flatboi.cpp": "48d8f3bbbd4aa45b3300b9ea61904f5d8546bb56aad462cbfd91670f352cbdb7"
+  },
+  "new_builds": 0,
+  "new_native_runs": 0,
+  "network_bytes": 0,
+  "all_assertions_passed": true
+}

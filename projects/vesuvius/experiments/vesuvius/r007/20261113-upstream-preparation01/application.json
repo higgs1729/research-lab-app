@@ -1,0 +1,22 @@
+{
+  "utc": "2026-11-13T10:30:15.3259714Z",
+  "upstream_main": "14d4e725df8b569e6fc8ceb3c04d130f705c1565",
+  "path": "volume-cartographer/apps/src/vc_render_tifxyz.cpp",
+  "upstream_blob": "3c0d4250ea484c616f4f8e2c260f7ce2a07f99d6",
+  "partial_worktree": ".work/r007-upstream-20261113",
+  "frozen_and_historical_patch_sha256": "91d92e7cd12b975c4cc8be16d7580ef55d3548a659be772c2cd92bd786a61ee7",
+  "generated_patch_sha256": "4d49ec9578c212285610b0e77a152deaf5c47211e67cc4fe2ba23a34a14c52f6",
+  "patched_source_sha256": "d78dd95e9262a1a3cb9b49c7a01b10ca136b81223cf56136a38a7f5b3819cbcb",
+  "historical_compiled_source_sha256": "d78dd95e9262a1a3cb9b49c7a01b10ca136b81223cf56136a38a7f5b3819cbcb",
+  "historical_compile_source": "/mnt/c/dev/kensyoukin/.work/r007-crop-input-guard01/sources/guard/volume-cartographer/apps/src/vc_render_tifxyz.cpp",
+  "initial_git_autocrlf": "Working copy applied in CRLF; normalized to original LF before final diff and byte comparison",
+  "git_checks": [
+    "frozen apply --index --check --whitespace=error",
+    "frozen apply --whitespace=error",
+    "export apply --cached --check --whitespace=error",
+    "export apply --reverse --check --whitespace=error",
+    "diff --check"
+  ],
+  "git_numstat": "11\t4\tvolume-cartographer/apps/src/vc_render_tifxyz.cpp",
+  "nested_guidelines": []
+}

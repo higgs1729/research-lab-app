@@ -1,0 +1,42 @@
+{
+  "geometry_tiles": 36,
+  "geometry_wall_seconds": 288.274953895,
+  "render_count": 1,
+  "render_wall_seconds": 9.419000866000005,
+  "render_stage_wall_seconds": 32.162458654999995,
+  "render_peak_rss_bytes": 148205568,
+  "work_bytes_before_final_resources_record_and_manifest": 87473463,
+  "work_limit_bytes": 536870912,
+  "preflight_c_free_bytes": 30934097920,
+  "inference_admission_c_free_bytes": 30295171072,
+  "inference_wall_seconds": 102.49979809999786,
+  "inference_wall_limit_seconds": 4500,
+  "strict_load_seconds": 12.081145600001037,
+  "inference_peak_rss_bytes": 1284853760,
+  "process_commit_limit_bytes": 4294967296,
+  "cpu_affinity": [
+    0
+  ],
+  "cpu_seconds": 32.28125,
+  "admission_system_cpu_percent_1s": 100.0,
+  "admission_available_ram_bytes": 11276640256,
+  "min_observed_available_ram_bytes": 8410464256,
+  "captured_forward_patches": 3,
+  "captured_reverse_patches": 0,
+  "inference_runs": 1,
+  "forward_seconds": {
+    "min": 11.701005700000678,
+    "median": 19.35094399999798,
+    "max": 36.06463740000618,
+    "sum": 67.11658710000484
+  },
+  "forecast_remaining_seconds": 4627.642064900676,
+  "remaining_wall_seconds": 4398.304662800001,
+  "runner_pid_exited": true,
+  "new_network_bytes": 0,
+  "new_ct_bytes": 0,
+  "new_model_bytes": 0,
+  "new_dependencies": 0,
+  "gpu_calls": 0,
+  "cost_jpy": 0
+}

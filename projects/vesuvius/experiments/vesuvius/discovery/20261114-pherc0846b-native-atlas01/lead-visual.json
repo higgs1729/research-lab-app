@@ -1,0 +1,25 @@
+{
+  "reviewer": "root",
+  "viewed": [
+    "originals/hecate-9.6-forward.png",
+    "originals/hecate-9.6-reverse.png",
+    "review01/overview.png",
+    "review01/native-tiles/x0000-y0546.png",
+    "review01/native-tiles/x1092-y1092.png",
+    "review01/native-tiles/x0000-y1638.png",
+    "review01/native-tiles/x0546-y0000.png"
+  ],
+  "visual_scope": "Full Hecate maps and seven-map overview, then four native tiles (28 native panels); not a claim that root visually examined all16 native tiles. Numerical pixel verification covers all112 panels.",
+  "observations": [
+    "Reader V3 diagonal thickening in tile x0/y546 follows the curved dark CT separation and has no sequence of independent strokes.",
+    "Reader V3 long band in tile x1092/y1092 coincides with the lower CT layer/void boundary. No repeated glyph spacing selected.",
+    "Strong forward Hecate patches in lower-left tile are irregular merged bright masses, with different sparse reverse response and no legible stroke group.",
+    "seed42 has bright edges matching the CT support border and broad internal patches; neither direction provides a readable line in reviewed locations.",
+    "Upper tile x546/y0 has isolated Hecate spots around complex CT texture, not a coherent character sequence."
+  ],
+  "selected_followup_roi": null,
+  "decision": "Close this fixed public surface without new CT; ink absence and whole-scroll readability remain untested.",
+  "new_letters_claimed": false,
+  "transcription": null,
+  "display": "fixed0-255; no inversion/contrast search/generated enhancement"
+}

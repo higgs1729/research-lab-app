@@ -1,0 +1,17 @@
+{
+  "checked_utc": "2026-11-14T15:02:33.289057+00:00",
+  "reviewer": "root",
+  "views": "All9 original/snap AB figures, each showing the identical XY/radial-Z CT pair, before worker detailed interpretation. Labels visible; not blinded.",
+  "central_sites": {
+    "z11760": "w052 remains in a granular broad region; w053 moves closer to a nearby oblique boundary; w054 moves beside the compact bright feature. Individual continuous lamina identity for all three still not resolved.",
+    "z11952": "w052 moves from the dark band toward its right boundary; w053 moves toward nearly the same boundary. This looks locally closer to an edge but does not provide three independent supported sheets; w054 also moves inward.",
+    "z12240": "w052 remains near a thin bright oblique feature while w053 still lies in the broad dark interval and w054 near its far boundary. No consistent individual lamina for w053."
+  },
+  "flanks": "All6 inspected. At left z11760, w053/w054 approach a similar CT structure. Right z11760 has large shifts across complex curved structures. Remaining flank regions are granular, broad, or oblique without enough unambiguous continuous lamina assignments to satisfy the planned criterion.",
+  "decision": "No face satisfies the prespecified mandatory center3 plus flank conditions. Retain0 for a subsequent whole-window run under this experiment.",
+  "limits": [
+    "This means the strong planned paper-attribution gate failed; no unknown ink inference was performed and absence of ink is not established.",
+    "Known0343 CT also had pre-existing ambiguous individual-layer attribution while known shapes remained reproducible. A stricter CT-clarity prerequisite is not a calibrated ink-sensitivity test; future strategy may assess that limitation separately, without changing this study result.",
+    "Local improvements of some positions and unchanged known shapes are evidence about transfer behavior, not proof of a complete corrected readable surface."
+  ]
+}

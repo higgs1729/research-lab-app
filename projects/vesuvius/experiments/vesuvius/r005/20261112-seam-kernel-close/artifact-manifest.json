@@ -1,0 +1,512 @@
+{
+  "created_utc": "2026-11-11T23:27:56.576904+00:00",
+  "scope": "Reports75/76, one-point LPs, joint and expanded SLSQP trials, exact frozen-boundary crossing witnesses, preserved preparation failure, source corner correspondence, existing-adapter native raster, full same-component coverage and distortion comparisons, independent verification and resource/runtime records. Existing native code/libraries referenced by prior frozen evidence and per-run hashes.",
+  "files": [
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-close/decision-record.json",
+      "bytes": 916,
+      "sha256": "c3baf42575e3230fa985707abbb00c1d69b5a35b019d7838cb0f866b557cd15f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-close/experiment-record.json",
+      "bytes": 1789,
+      "sha256": "7d2682f3a74a9f3c80268c838f3c77c49cf0dde3614f76320b61fbb1ecd130a6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-close/freeze.py",
+      "bytes": 5876,
+      "sha256": "75242125c952e813c3c9fe3e96a6a11c3cfa886bc4e6d5f7a91f7c560349a656"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-close/resources.json",
+      "bytes": 15588,
+      "sha256": "566d95c5f6b1513972866f10917cc50b0c79a17a72f0129c5e471c60e794666d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-close/runtime-status.json",
+      "bytes": 1064,
+      "sha256": "f81bff223b327e87fd1719fef9f7ff4dc994b92271fa5f34b186031aa9915de6"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-close/verification-record.json",
+      "bytes": 692,
+      "sha256": "00556952a0b426fbec107535c5414f345911173364c32f5839a22fa6764fdc42"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/check01/pairs.npz",
+      "bytes": 2042,
+      "sha256": "de2e01c26670d0712db6b24122201a757691cb6c7d063357437eeb7a531d88e3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/check01/result.json",
+      "bytes": 9570,
+      "sha256": "cc1d615997e8225b8c15173ea1469bf921205fe8c2a8d05f58302d8fae4605b1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/check01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/check01-execution/state.json",
+      "bytes": 878,
+      "sha256": "7adb73f32c68111e9bf619ec36efffa49eae4121c3a5939c6692466d063786ef"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/check01-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/check02/arrays.npz",
+      "bytes": 3738877,
+      "sha256": "8dadea0b65853ec1eee208a6345b12d999c5eb166bb67684d311988684bd9d2a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/check02/result.json",
+      "bytes": 17654,
+      "sha256": "492882098cb01194f41399cf929e6f5c963fab2e1d9b57145f52aff275143bfc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/check02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/check02-execution/state.json",
+      "bytes": 876,
+      "sha256": "f4673130f839568bcd070c131a9f6d8e5395a976a0453da8288b04577f240d2c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/check02-execution/stdout.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/verify_geometry.py",
+      "bytes": 17863,
+      "sha256": "7f5f79d076fcc45ca851f044219b8d620222c0f66e99c9238594257516d7edd0"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel-verification01/verify_raster.py",
+      "bytes": 9818,
+      "sha256": "8946ec3c28ae56481b3c74625a00e567607a50ecec4fc7eff7f2b19f9fa56c28"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/boundary-variables-record.json",
+      "bytes": 1276,
+      "sha256": "958d16504bceeb8a30e542eec0c85d5e3d50d678bebc2a922c478ee4bb48437f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/boundary01/check_boundary.py",
+      "bytes": 3280,
+      "sha256": "c928b34922c465fdc790bbc83842a9ce74a746c8e42bd9ca95d9cde8872e6348"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/boundary01/result.json",
+      "bytes": 5324,
+      "sha256": "e53277a65ca43519177ca754f2927ede39f2e39d8a9db5be5b34a7a7e7be50b9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/boundary01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/boundary01-execution/state.json",
+      "bytes": 855,
+      "sha256": "9ee55b4fd9ecf7d608edd71333c88b03c84d513c27c6b22ab3ae3a68d038e545"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/boundary01-execution/stdout.log",
+      "bytes": 5324,
+      "sha256": "e53277a65ca43519177ca754f2927ede39f2e39d8a9db5be5b34a7a7e7be50b9"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/check_boundary.py",
+      "bytes": 3280,
+      "sha256": "c928b34922c465fdc790bbc83842a9ce74a746c8e42bd9ca95d9cde8872e6348"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/check_kernels.py",
+      "bytes": 5812,
+      "sha256": "1bb7a8e54e44b7dfb7aeb9f96e5ef96950ed89385e66bc2ef1e16be6e470fb10"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/decision-record.json",
+      "bytes": 1564,
+      "sha256": "a3e14821747e12f05c966f7836a4a4e43e28e4311dbaf9bfd6d1e08362115df2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/diagnosis01/arrays.npz",
+      "bytes": 8346535,
+      "sha256": "d8ca4f49372a747e46176307123363a97d836720fdfb951668e16dc2391e641e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/diagnosis01/check_kernels.py",
+      "bytes": 5812,
+      "sha256": "1bb7a8e54e44b7dfb7aeb9f96e5ef96950ed89385e66bc2ef1e16be6e470fb10"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/diagnosis01/result.json",
+      "bytes": 8540,
+      "sha256": "7968c006a63ec9b4b75c84dcf9adda74137184989051b30a40b558014a126b8f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/diagnosis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/diagnosis01-execution/state.json",
+      "bytes": 854,
+      "sha256": "f791250e6fa9c789fba30710828466ead3f72272656efe79666666dcb6f3d5d2"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/diagnosis01-execution/stdout.log",
+      "bytes": 8540,
+      "sha256": "7968c006a63ec9b4b75c84dcf9adda74137184989051b30a40b558014a126b8f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/evaluate_raster.py",
+      "bytes": 5654,
+      "sha256": "9f092d78afd7fc226f109a17cf7363195c0dbe78a9eb0e19224bb0c4145f45fa"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input01-execution/state.json",
+      "bytes": 861,
+      "sha256": "5412e5a0f3b5eb41f3e46194968add37261fd3bd213a809ac949a6269bd89a0b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input01-execution/stdout.log",
+      "bytes": 489,
+      "sha256": "2aa16726f76efdee1bbb5fb2601aad36e83603fa2e0b588f3499c31debf2d69a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input02/arrays.npz",
+      "bytes": 1699,
+      "sha256": "e6e8665f1d77e0a24115529bb1e5227beb48fb868ff9b09ffe02e85f3943b4d5"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input02/prepare_expanded02.py",
+      "bytes": 4928,
+      "sha256": "0644011188c2895b80ea997b2205aba919a23eebc71aa3d4f4d9b023bebb9379"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input02/result.json",
+      "bytes": 3188,
+      "sha256": "8a0a7993e6e194c1d0698f2fa4911fc0221deee65bf5b94c03aa06d303373370"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input02-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input02-execution/state.json",
+      "bytes": 864,
+      "sha256": "1d2a2651017da826707d9603aec6f6b745da95932b8ae1b7f66d9ffcc9989df8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input02-execution/stdout.log",
+      "bytes": 3188,
+      "sha256": "8a0a7993e6e194c1d0698f2fa4911fc0221deee65bf5b94c03aa06d303373370"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input03/adapter.patch",
+      "bytes": 4143,
+      "sha256": "f9cb742b4998471eb8b193ae6a324f998ed6b635ffb50ecc6c9e37bb9c6ca68f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input03/arrays.npz",
+      "bytes": 1713,
+      "sha256": "316c6c46f97c965d34f115dee3578a8eeb4d79c07ede994c0e9568e9525352c4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input03/prepare_expanded03.py",
+      "bytes": 4674,
+      "sha256": "31bc8660cc3e3cbe45ee11eea439f37e636c11b17bc01a0e1f03daeac6dad213"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input03/result.json",
+      "bytes": 3181,
+      "sha256": "feed6590d65d7285b47880d91c2f3e306f2245c20f008e7f0bf1c3eedbd41916"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input03-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input03-execution/state.json",
+      "bytes": 865,
+      "sha256": "7404644030e80d08cb85955e618cd66f21d1876fe6f03a065df3bb87472ca1f8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-input03-execution/stdout.log",
+      "bytes": 3181,
+      "sha256": "feed6590d65d7285b47880d91c2f3e306f2245c20f008e7f0bf1c3eedbd41916"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded-record.json",
+      "bytes": 1427,
+      "sha256": "687b463c2d5696790caa8a396eae6f175ed11c2ec896ae402a4f5efb1381f658"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded01/arrays.npz",
+      "bytes": 15495920,
+      "sha256": "1d10e0ae46ba980cc28435a28778296125e570e88c3934585b522199f365d511"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded01/expanded_trial.py",
+      "bytes": 5266,
+      "sha256": "f2f4024fe7768c78f242101cac65b8b03eaba6c92d1d1243533758784a87fb1e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded01/result.json",
+      "bytes": 7543,
+      "sha256": "b312ec5f55927cd009b8cfcced9e511b37892df5f16b5d034526ab2e24fbf26a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded01-execution/state.json",
+      "bytes": 854,
+      "sha256": "316dc9700daca0b29a6b635711466719ac9fe688285cd7e66726d8ef3ef405b8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded01-execution/stdout.log",
+      "bytes": 4109,
+      "sha256": "12ed7e1c5d8399751ee29e22f012005a685a12033ac9eec98ab01c2272a59374"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/expanded_trial.py",
+      "bytes": 5266,
+      "sha256": "f2f4024fe7768c78f242101cac65b8b03eaba6c92d1d1243533758784a87fb1e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/joint-record.json",
+      "bytes": 1271,
+      "sha256": "d544be297e1ff0bad2ce4b0f99c2c1597ea6093040156127c9bc25c3a2a99496"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/joint01/arrays.npz",
+      "bytes": 12387274,
+      "sha256": "0bfb35fb81b65dd200c8788e3678b96120c6677e255fa01ea44246c5b24fcafd"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/joint01/joint_trial.py",
+      "bytes": 5180,
+      "sha256": "173438e7a2560cae0982d9d510f393fd57a466250e60fd3eced497a810790f68"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/joint01/result.json",
+      "bytes": 2584,
+      "sha256": "34555ef826716ac13e0a8c847efe26703bcc3f65ad1de91635e7c3734b4a8abc"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/joint01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/joint01-execution/state.json",
+      "bytes": 849,
+      "sha256": "00f2e70ea15532bd06f8dc4335a7647c4224e1881213380ca3349300268f703b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/joint01-execution/stdout.log",
+      "bytes": 1685,
+      "sha256": "8ceb6534bd06fa2d40057abc4c31eeb2b74792a1dd57490d5fd50877ed58223e"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/joint_trial.py",
+      "bytes": 5180,
+      "sha256": "173438e7a2560cae0982d9d510f393fd57a466250e60fd3eced497a810790f68"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/native_raster.py",
+      "bytes": 3703,
+      "sha256": "c0264c7af3613172873bf4eb274c49021227c80083cad9450e0c2b0094c9685d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/prepare_expanded.py",
+      "bytes": 4445,
+      "sha256": "b5c4c98b9b742a928cc94cfa505289bc4e2ddd92b78711bc464994571b5eaf62"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/prepare_expanded02.py",
+      "bytes": 4928,
+      "sha256": "0644011188c2895b80ea997b2205aba919a23eebc71aa3d4f4d9b023bebb9379"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/prepare_expanded03.py",
+      "bytes": 4674,
+      "sha256": "31bc8660cc3e3cbe45ee11eea439f37e636c11b17bc01a0e1f03daeac6dad213"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/prepare_raster.py",
+      "bytes": 2403,
+      "sha256": "dd3d26705402dd70925c41003321de5fc4aa45bd68cf0fad87a6dc76d237f1f8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-analysis01/arrays.npz",
+      "bytes": 35981252,
+      "sha256": "eb8a319e703a96c4b092c67cbc2ea2ed2f9d4f504d3fbcff3e52be45464e5f7c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-analysis01/evaluate_raster.py",
+      "bytes": 5654,
+      "sha256": "9f092d78afd7fc226f109a17cf7363195c0dbe78a9eb0e19224bb0c4145f45fa"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-analysis01/result.json",
+      "bytes": 8306,
+      "sha256": "11247e31279f1fe7dc5108f2bea2234fd8d15b79c0c8c06f7639f7579e70aa22"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-analysis01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-analysis01-execution/state.json",
+      "bytes": 862,
+      "sha256": "5e61bf02422a972ef66a8d487db3ed13bee4fc0ad73fa21bf290072e8709fe47"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-analysis01-execution/stdout.log",
+      "bytes": 761,
+      "sha256": "257d547451b81d11b7cd8ed7f13771a298d5e2f9417d89e6ebe33a17727e04b1"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-input01/correspondence.npz",
+      "bytes": 1500596,
+      "sha256": "11f461ce289080f771f926dd9d7b39974c3a06d11cedc6b3c10d17059ee09a90"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-input01/mesh.bin",
+      "bytes": 16476288,
+      "sha256": "e383bae5d3bfb0dbc26e0021531dc2dbcfb44b05d69cd87d5f83662435de0c7a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-input01/prepare_raster.py",
+      "bytes": 2403,
+      "sha256": "dd3d26705402dd70925c41003321de5fc4aa45bd68cf0fad87a6dc76d237f1f8"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-input01/result.json",
+      "bytes": 394,
+      "sha256": "5115b4df9df0e729a56318551b6c4e00395cd7052b99b17f04402ae7a665f537"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-input01/runner.patch",
+      "bytes": 3760,
+      "sha256": "a75139670722f6dd15cfba9567c58cac172c43818762446d7c0a7c9554866998"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-input01-execution/runner.py",
+      "bytes": 2399,
+      "sha256": "533a5f5930ebf769db555238762c55589da1f287177e52ebfe9f17e6a7a287d4"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-input01-execution/state.json",
+      "bytes": 858,
+      "sha256": "aa19523a57479d939e2a918488e7587b9b16691d5b97ca153b5fb9af63a98c0a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-input01-execution/stdout.log",
+      "bytes": 394,
+      "sha256": "5115b4df9df0e729a56318551b6c4e00395cd7052b99b17f04402ae7a665f537"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster-record.json",
+      "bytes": 1219,
+      "sha256": "549061ca47d1069791bd32afd28bf42f0ff47cebb1f047a73da713ea9babd1fe"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/corner_obj.cpp",
+      "bytes": 3126,
+      "sha256": "19212966593c157043357c455dac74fbe20be83bd2b0f07058cacce8a25bfb37"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/mesh.obj",
+      "bytes": 41808311,
+      "sha256": "d232b4f508d61b89f4a6f73a7e654129ae0db60f9b8ffd327511ddc94dc4a99d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/native_obj.py",
+      "bytes": 3703,
+      "sha256": "c0264c7af3613172873bf4eb274c49021227c80083cad9450e0c2b0094c9685d"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/output/meta.json",
+      "bytes": 382,
+      "sha256": "2573afca1fa9fbf9fdf4ba163a6688b399c60913d33485a8444f834e7754076a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/output/x.tif",
+      "bytes": 2982382,
+      "sha256": "1a8142696b68eeb9834c6525a10e5143ded8c97a85016d19d469bbda9f7495ec"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/output/y.tif",
+      "bytes": 2982382,
+      "sha256": "b98f657246b68329bbbd65ee7e22d190fa567b500441e5a7969cecb2ee2a026b"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/output/z.tif",
+      "bytes": 2982382,
+      "sha256": "aa4e0c9f7b4792d1b43de798ca296f69f8a118c9bbf0a1e347e04f04f8c7e1b3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/parsed.bin",
+      "bytes": 16476288,
+      "sha256": "e383bae5d3bfb0dbc26e0021531dc2dbcfb44b05d69cd87d5f83662435de0c7a"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/points.bin",
+      "bytes": 8946436,
+      "sha256": "882dcbcc8b83dc673c9e426b897bbad560f7066cf029e36ac3c3bf9918a19ff3"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/raster_trace.json",
+      "bytes": 3182401,
+      "sha256": "062baf4000f46b75a37c65ad48ac2d2fcdb5db47558e13dc57cb2f98947c522c"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/result.json",
+      "bytes": 282,
+      "sha256": "0738934cefdf8230f1d9f6f3004a69af17129c98491d619ae2eff40a6f11958f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/state.json",
+      "bytes": 2317,
+      "sha256": "90cdc6f30b54eadfb99176d0bce3c38ba9a0dcc951993f12344aab627f726a0f"
+    },
+    {
+      "path": "experiments/vesuvius/r005/20261112-seam-kernel01/raster01/stdout.log",
+      "bytes": 272,
+      "sha256": "d213af727b50857a0ca3f44ed941bca55805ee676b660fe8b82335788baf62cf"
+    },
+    {
+      "path": "research/75-r005-seam-kernel-trial.md",
+      "bytes": 9073,
+      "sha256": "062a980e8ada5f92dc3720321a66c337897d95fe47d3cf91d36a82615da6fa3d"
+    },
+    {
+      "path": "research/76-r005-seam-kernel-verification.md",
+      "bytes": 8534,
+      "sha256": "a41aa63935f6696c36dd1072a50ab1ab7190f115dfd46ca9ffe34597b097cf16"
+    }
+  ],
+  "external_files": []
+}

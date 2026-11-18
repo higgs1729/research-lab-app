@@ -1,0 +1,15 @@
+{
+  "checked_utc": "2026-11-11T14:41:27.500573+00:00",
+  "lab": {
+    "phase": "running",
+    "thread_id": "01a1c9bf-639d-70a2-a8bc-664019939aaa",
+    "host_id": "local",
+    "pending_proposals": 0,
+    "record_count": 26
+  },
+  "inbox": [],
+  "heartbeat": "local:01a1c9bf-639d-70a2-a8bc-664019939aaa:996892",
+  "native_runs_completed": true,
+  "paid_compute_running": false,
+  "user_decision_pending": false
+}

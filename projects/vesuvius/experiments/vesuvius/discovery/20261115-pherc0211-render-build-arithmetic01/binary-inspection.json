@@ -1,0 +1,195 @@
+{
+  "utc": "2026-11-15T13:56:12.777071+00:00",
+  "results": [
+    {
+      "variant": "baseline",
+      "binary_sha256": "fc0b4876560b3072a9de81cd74334ac249d7696a30dd9efb3a69ce079705d239",
+      "disassembly_bytes": 465563,
+      "fused_instruction_sites": 0,
+      "sites": []
+    },
+    {
+      "variant": "aligned",
+      "binary_sha256": "5d7c05a5df70b850e09451cf2e204a5de7c6f6290d8fb7353d0088def98da5f9",
+      "disassembly_bytes": 532158,
+      "fused_instruction_sites": 43,
+      "sites": [
+        {
+          "function": "main",
+          "instruction": "4e5f:\tc4 e2 71 99 95 ac fd \tvfmadd132ss -0x254(%rbp),%xmm1,%xmm2"
+        },
+        {
+          "function": "main",
+          "instruction": "4e6e:\tc4 e2 71 99 85 a8 fd \tvfmadd132ss -0x258(%rbp),%xmm1,%xmm0"
+        },
+        {
+          "function": "main",
+          "instruction": "4f4e:\tc4 e2 f9 9d d9       \tvfnmadd132sd %xmm1,%xmm0,%xmm3"
+        },
+        {
+          "function": "main",
+          "instruction": "4f57:\tc4 e2 f9 9d d1       \tvfnmadd132sd %xmm1,%xmm0,%xmm2"
+        },
+        {
+          "function": "main",
+          "instruction": "5894:\tc4 e2 71 a9 00       \tvfmadd213ss (%rax),%xmm1,%xmm0"
+        },
+        {
+          "function": "main",
+          "instruction": "58a2:\tc4 e2 71 a9 40 04    \tvfmadd213ss 0x4(%rax),%xmm1,%xmm0"
+        },
+        {
+          "function": "main",
+          "instruction": "58b2:\tc4 e2 71 a9 40 08    \tvfmadd213ss 0x8(%rax),%xmm1,%xmm0"
+        },
+        {
+          "function": "main",
+          "instruction": "5b51:\tc4 e2 71 b9 c1       \tvfmadd231ss %xmm1,%xmm1,%xmm0"
+        },
+        {
+          "function": "main",
+          "instruction": "5b56:\tc4 e2 69 b9 c2       \tvfmadd231ss %xmm2,%xmm2,%xmm0"
+        },
+        {
+          "function": "warpBilinearReplicateVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double) [clone ._omp_fn.0]",
+          "instruction": "7454:\tc4 e2 59 99 f5       \tvfmadd132ss %xmm5,%xmm4,%xmm6"
+        },
+        {
+          "function": "warpBilinearReplicateVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double) [clone ._omp_fn.0]",
+          "instruction": "7576:\tc4 62 61 98 d7       \tvfmadd132ps %xmm7,%xmm3,%xmm10"
+        },
+        {
+          "function": "warpBilinearReplicateVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double) [clone ._omp_fn.0]",
+          "instruction": "758f:\tc4 e2 79 b9 58 08    \tvfmadd231ss 0x8(%rax),%xmm0,%xmm3"
+        },
+        {
+          "function": "warpBilinearReplicateVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double) [clone ._omp_fn.0]",
+          "instruction": "7595:\tc4 c2 69 99 40 08    \tvfmadd132ss 0x8(%r8),%xmm2,%xmm0"
+        },
+        {
+          "function": "warpBilinearReplicateVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double) [clone ._omp_fn.0]",
+          "instruction": "759b:\tc4 e2 21 98 f9       \tvfmadd132ps %xmm1,%xmm11,%xmm7"
+        },
+        {
+          "function": "warpBilinearReplicateVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double) [clone ._omp_fn.0]",
+          "instruction": "75b3:\tc4 e2 69 99 de       \tvfmadd132ss %xmm6,%xmm2,%xmm3"
+        },
+        {
+          "function": "warpBilinearReplicateVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double) [clone ._omp_fn.0]",
+          "instruction": "75b8:\tc4 e2 29 b8 f9       \tvfmadd231ps %xmm1,%xmm10,%xmm7"
+        },
+        {
+          "function": "warpBilinearReplicateVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double) [clone ._omp_fn.0]",
+          "instruction": "75d0:\tc4 c2 09 99 c5       \tvfmadd132ss %xmm13,%xmm14,%xmm0"
+        },
+        {
+          "function": "warpBilinearConstVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double, cv::Vec<float, 3> const&) [clone ._omp_fn.0]",
+          "instruction": "7864:\tc4 e2 39 a9 54 24 38 \tvfmadd213ss 0x38(%rsp),%xmm8,%xmm2"
+        },
+        {
+          "function": "warpBilinearConstVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double, cv::Vec<float, 3> const&) [clone ._omp_fn.0]",
+          "instruction": "7911:\tc4 c2 21 99 c2       \tvfmadd132ss %xmm10,%xmm11,%xmm0"
+        },
+        {
+          "function": "warpBilinearConstVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double, cv::Vec<float, 3> const&) [clone ._omp_fn.0]",
+          "instruction": "7980:\tc4 c2 61 98 ff       \tvfmadd132ps %xmm15,%xmm3,%xmm7"
+        },
+        {
+          "function": "warpBilinearConstVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double, cv::Vec<float, 3> const&) [clone ._omp_fn.0]",
+          "instruction": "798f:\tc4 e2 79 b9 5e 08    \tvfmadd231ss 0x8(%rsi),%xmm0,%xmm3"
+        },
+        {
+          "function": "warpBilinearConstVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double, cv::Vec<float, 3> const&) [clone ._omp_fn.0]",
+          "instruction": "7995:\tc4 c2 71 99 42 08    \tvfmadd132ss 0x8(%r10),%xmm1,%xmm0"
+        },
+        {
+          "function": "warpBilinearConstVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double, cv::Vec<float, 3> const&) [clone ._omp_fn.0]",
+          "instruction": "79b8:\tc4 62 41 98 fc       \tvfmadd132ps %xmm4,%xmm7,%xmm15"
+        },
+        {
+          "function": "warpBilinearConstVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double, cv::Vec<float, 3> const&) [clone ._omp_fn.0]",
+          "instruction": "79d5:\tc4 e2 49 99 da       \tvfmadd132ss %xmm2,%xmm6,%xmm3"
+        },
+        {
+          "function": "warpBilinearConstVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double, cv::Vec<float, 3> const&) [clone ._omp_fn.0]",
+          "instruction": "79da:\tc4 62 41 b8 fc       \tvfmadd231ps %xmm4,%xmm7,%xmm15"
+        },
+        {
+          "function": "warpNearestConstU8(cv::Mat_<unsigned char> const&, cv::Mat_<unsigned char>&, double, double, double, double, unsigned char) [clone ._omp_fn.0]",
+          "instruction": "86bf:\tc4 e2 49 99 44 24 20 \tvfmadd132ss 0x20(%rsp),%xmm6,%xmm0"
+        },
+        {
+          "function": "warpNearestConstU8(cv::Mat_<unsigned char> const&, cv::Mat_<unsigned char>&, double, double, double, double, unsigned char) [clone ._omp_fn.0]",
+          "instruction": "8727:\tc4 e2 61 99 44 24 08 \tvfmadd132ss 0x8(%rsp),%xmm3,%xmm0"
+        },
+        {
+          "function": "warpNearestConstVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double, cv::Vec<float, 3> const&) [clone ._omp_fn.0]",
+          "instruction": "88cf:\tc4 e2 49 99 44 24 2c \tvfmadd132ss 0x2c(%rsp),%xmm6,%xmm0"
+        },
+        {
+          "function": "warpNearestConstVec3f(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> >&, double, double, double, double, cv::Vec<float, 3> const&) [clone ._omp_fn.0]",
+          "instruction": "8978:\tc4 e2 61 99 44 24 08 \tvfmadd132ss 0x8(%rsp),%xmm3,%xmm0"
+        },
+        {
+          "function": "QuadSurface::gen(cv::Mat_<cv::Vec<float, 3> >*, cv::Mat_<cv::Vec<float, 3> >*, cv::Size_<int>, cv::Vec<float, 3> const&, float, cv::Vec<float, 3> const&) const [clone ._omp_fn.0]",
+          "instruction": "8c73:\tc4 62 79 9c c1       \tvfnmadd132ps %xmm1,%xmm0,%xmm8"
+        },
+        {
+          "function": "QuadSurface::gen(cv::Mat_<cv::Vec<float, 3> >*, cv::Mat_<cv::Vec<float, 3> >*, cv::Size_<int>, cv::Vec<float, 3> const&, float, cv::Vec<float, 3> const&) const [clone ._omp_fn.0]",
+          "instruction": "8c78:\tc4 c2 31 9b ca       \tvfmsub132ss %xmm10,%xmm9,%xmm1"
+        },
+        {
+          "function": "QuadSurface::gen(cv::Mat_<cv::Vec<float, 3> >*, cv::Mat_<cv::Vec<float, 3> >*, cv::Size_<int>, cv::Vec<float, 3> const&, float, cv::Vec<float, 3> const&) const [clone ._omp_fn.0]",
+          "instruction": "8c8b:\tc4 c2 19 99 c0       \tvfmadd132ss %xmm8,%xmm12,%xmm0"
+        },
+        {
+          "function": "QuadSurface::gen(cv::Mat_<cv::Vec<float, 3> >*, cv::Mat_<cv::Vec<float, 3> >*, cv::Size_<int>, cv::Vec<float, 3> const&, float, cv::Vec<float, 3> const&) const [clone ._omp_fn.0]",
+          "instruction": "8c90:\tc4 e2 71 b9 c1       \tvfmadd231ss %xmm1,%xmm1,%xmm0"
+        },
+        {
+          "function": "renderSamples(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> > const&, std::filesystem::__cxx11::path const&, Sampler&)",
+          "instruction": "9eff:\tc4 e2 59 a9 00       \tvfmadd213ss (%rax),%xmm4,%xmm0"
+        },
+        {
+          "function": "renderSamples(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> > const&, std::filesystem::__cxx11::path const&, Sampler&)",
+          "instruction": "9f09:\tc4 e2 59 a9 50 04    \tvfmadd213ss 0x4(%rax),%xmm4,%xmm2"
+        },
+        {
+          "function": "renderSamples(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> > const&, std::filesystem::__cxx11::path const&, Sampler&)",
+          "instruction": "9f14:\tc4 e2 59 a9 58 08    \tvfmadd213ss 0x8(%rax),%xmm4,%xmm3"
+        },
+        {
+          "function": "renderSamples(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> > const&, std::filesystem::__cxx11::path const&, Sampler&)",
+          "instruction": "a314:\tc4 e2 31 99 f8       \tvfmadd132ss %xmm0,%xmm9,%xmm7"
+        },
+        {
+          "function": "renderSamples(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> > const&, std::filesystem::__cxx11::path const&, Sampler&)",
+          "instruction": "a319:\tc4 e2 21 99 f0       \tvfmadd132ss %xmm0,%xmm11,%xmm6"
+        },
+        {
+          "function": "renderSamples(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> > const&, std::filesystem::__cxx11::path const&, Sampler&)",
+          "instruction": "a31e:\tc4 e2 19 99 c8       \tvfmadd132ss %xmm0,%xmm12,%xmm1"
+        },
+        {
+          "function": "renderSamples(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> > const&, std::filesystem::__cxx11::path const&, Sampler&)",
+          "instruction": "a334:\tc4 c2 29 99 c0       \tvfmadd132ss %xmm8,%xmm10,%xmm0"
+        },
+        {
+          "function": "renderSamples(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> > const&, std::filesystem::__cxx11::path const&, Sampler&)",
+          "instruction": "a349:\tc4 e2 41 99 ca       \tvfmadd132ss %xmm2,%xmm7,%xmm1"
+        },
+        {
+          "function": "renderSamples(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> > const&, std::filesystem::__cxx11::path const&, Sampler&)",
+          "instruction": "a352:\tc4 e2 49 99 d0       \tvfmadd132ss %xmm0,%xmm6,%xmm2"
+        },
+        {
+          "function": "renderSamples(cv::Mat_<cv::Vec<float, 3> > const&, cv::Mat_<cv::Vec<float, 3> > const&, std::filesystem::__cxx11::path const&, Sampler&)",
+          "instruction": "a35b:\tc4 e2 71 99 da       \tvfmadd132ss %xmm2,%xmm1,%xmm3"
+        }
+      ]
+    }
+  ],
+  "limitation": "Counts static instruction sites in generated harness only. Baseline explicit std::fma can call libm; zero in-binary sites does not imply non-fused trilinear sampling. Does not identify author CPU or assign error to one flag.",
+  "new_numerical_runs": 0,
+  "new_compilations": 0
+}

@@ -1,0 +1,17 @@
+{
+  "approved": true,
+  "utc": "2026-11-14T16:30:00.715607+00:00",
+  "cloud_plan_sha256": "cb4868edfb86070898ddf3d21519ddf663159db556da074598e3e2cf7297b609",
+  "authority": "2026-11-14 user delegated necessary Runpod spending and Pod management; no new user approval needed.",
+  "scope": "One owned R219 Secure4090, 1704 active fixed Hecate patches, 1500 seconds absolute deadline, USD0.45 operational limit; current admission required.",
+  "checks": [
+    "all90 public objects and old central ranges",
+    "all19333120 resampled input values",
+    "all2164 grid contracts/1704 active",
+    "CPU12 references strict1load and limits",
+    "all gzip members and pinned source/weight",
+    "manual full217->219 worker/controller/lifecycle diff, no unrelated mutation",
+    "oneCreate/finally cleanup/self-delete/watchdog/404-to-409 readiness retained"
+  ],
+  "status": "Clear for one launch once current account/rate/autopay/admission passes."
+}

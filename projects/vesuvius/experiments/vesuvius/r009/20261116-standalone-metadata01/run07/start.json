@@ -1,0 +1,49 @@
+{
+  "work": "/home/tomoy/r246-standalone-run07",
+  "cpu_affinity": [
+    0
+  ],
+  "AS_bytes": 4294967296,
+  "core_bytes": 0,
+  "network_namespace": "net:[4026532229]",
+  "network_devices": [
+    "lo"
+  ],
+  "read_only_mounts": {
+    "/mnt/d": [
+      "rw,noatime",
+      "ro,noatime"
+    ],
+    "/home/tomoy/bundle-fixed-main-run01-pywin6ml": [
+      "ro,relatime"
+    ],
+    "/home/tomoy/r246-standalone-run02": [
+      "ro,relatime"
+    ]
+  },
+  "work_max_bytes": 3221225472,
+  "C_min_free_bytes": 2147483648,
+  "C_start_free_bytes": 58465325056,
+  "env_overrides": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "OPENCV_FOR_THREADS_NUM": "1",
+    "PASTIX_NUM_THREADS": "1",
+    "CMAKE_BUILD_PARALLEL_LEVEL": "1",
+    "AGENTS_AGENT_MODE": "1",
+    "TMPDIR": "/home/tomoy/r246-standalone-run07/tmp",
+    "VC3D_CONFIG_DIR": "/home/tomoy/r246-standalone-run07/config",
+    "CUDA_VISIBLE_DEVICES": "",
+    "GIT_ALLOW_PROTOCOL": "file",
+    "GIT_NO_LAZY_FETCH": "1",
+    "GIT_OPTIONAL_LOCKS": "0",
+    "GIT_CONFIG_COUNT": "1",
+    "GIT_CONFIG_KEY_0": "url.file:///home/tomoy/r246-standalone-run07/libbacktrace-file-mirror.insteadOf",
+    "GIT_CONFIG_VALUE_0": "https://github.com/ianlancetaylor/libbacktrace.git"
+  },
+  "fixed_commit": "2d3fb38d33a18b257230c0bd23986436c3d4722e",
+  "build_run": "run03"
+}

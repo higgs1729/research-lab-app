@@ -1,0 +1,39 @@
+{
+  "checked_utc": "2026-11-15T07:20:05.585268+00:00",
+  "native_main_xywh": [
+    142,
+    640,
+    1067,
+    1067
+  ],
+  "native_pngs_exact": 10,
+  "png_sha256": {
+    "native-ct-centre": "a93c2c9d58536ad3ba941aa06a7a77df88a7c59493533e7db456675b6e9a2b42",
+    "native-geometry-proxy": "582b300c8f713cd3176bcfb4ce04a5f785b7ba96f5f3b7d08848fee529a894df",
+    "native-object-present": "c339ceadffe818e8a5ed970c9df094873859bcfdbd7d11b79236f3d0f3d23b1c",
+    "native-nonzero17": "74ed65f9eaf22427ccb1c3de4aa6f5ec190154351f959a2159bd43a42b42ce42",
+    "native-forward-raw": "125109bbad9092236466d38f3cac51b486b66e7471e5caf42b5bc4bf9087d733",
+    "native-forward-median-p995": "7651ffaa08c60077ac2527809b7041b422985339aa7ff915dc29abbf13966659",
+    "native-forward-hann-support": "f989399c17bee1c84f12c3fd52ab857647b68ffe4bc78b33d2cbdb2aee2b3368",
+    "native-reverse-raw": "40a129d25ee547f2935ea576d771accab9b8c2e0195eb1f1706091fa7e81f791",
+    "native-reverse-median-p995": "0e14107f506ca1477e628754031eeec7e3e56dc5b80e103c1cdb46f99d2b56ef",
+    "native-reverse-hann-support": "f989399c17bee1c84f12c3fd52ab857647b68ffe4bc78b33d2cbdb2aee2b3368"
+  },
+  "fixed_main_display_percentiles": {
+    "forward": {
+      "median": 0.25162041187286377,
+      "p995": 0.42246729373931896,
+      "float64_vs_executed_float32_different_pixels": 0,
+      "float64_vs_executed_float32_max_DN": 0
+    },
+    "reverse": {
+      "median": 0.2539399564266205,
+      "p995": 0.5257421827316309,
+      "float64_vs_executed_float32_different_pixels": 1,
+      "float64_vs_executed_float32_max_DN": 1
+    }
+  },
+  "no_model_calls": true,
+  "no_drawn_strokes_in_these_files": true,
+  "previous_check": "lead-panel-process.json retained: parent used NumPy float64 percentile scalars, while saved PNG used Python floats and float32 array arithmetic; reverse differed at one pixel by 1 DN."
+}

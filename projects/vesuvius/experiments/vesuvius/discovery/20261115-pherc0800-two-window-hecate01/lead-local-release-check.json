@@ -1,0 +1,16 @@
+{
+  "utc": "2026-11-14T16:51:23.233154+00:00",
+  "original_launcher_and_child_pids_absent": [
+    14384,
+    4180
+  ],
+  "own_holder_and_ticket_absent": true,
+  "current_jobs": [],
+  "current_tickets": [],
+  "gpu": {
+    "util": 4.0,
+    "used_gb": 1.16,
+    "total_gb": 8.0
+  },
+  "new_forwards_or_queue_changes": 0
+}

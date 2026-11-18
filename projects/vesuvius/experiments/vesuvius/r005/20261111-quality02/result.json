@@ -1,0 +1,110 @@
+{
+  "original_grid_uv": {
+    "input_faces": 78624,
+    "area3_total": 16450777.913587105,
+    "invalid_uv_faces": 0,
+    "zero_uv_area_faces": 0,
+    "negative_uv_area_faces": 0,
+    "undefined_or_nonpositive_uv_area_fraction": 0.0,
+    "positive_faces_only": {
+      "faces": 78624,
+      "area3_fraction": 1.0,
+      "area_weighted_normalized_symmetric_dirichlet": 1.0628374056996237,
+      "area_weighted_inverse_L2_rms": 1.0593876577517887,
+      "max_symmetric_singular_stretch": 29.460192329212646,
+      "uv_area_over_3d_area": 0.9558696909410282,
+      "area_ratio_percentiles_1_50_99": [
+        0.6472425987909244,
+        0.9802361047824155,
+        1.412023602261773
+      ],
+      "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+        1.037185266882705,
+        1.1824382599937366,
+        1.3206309545853216
+      ]
+    },
+    "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+  },
+  "r003": {
+    "input_faces": 78624,
+    "area3_total": 16450777.913587105,
+    "invalid_uv_faces": 225,
+    "zero_uv_area_faces": 21645,
+    "negative_uv_area_faces": 439,
+    "undefined_or_nonpositive_uv_area_fraction": 0.28731464275195895,
+    "positive_faces_only": {
+      "faces": 56315,
+      "area3_fraction": 0.712685357248041,
+      "area_weighted_normalized_symmetric_dirichlet": 250583758841.54446,
+      "area_weighted_inverse_L2_rms": 707931.8594904519,
+      "max_symmetric_singular_stretch": 169430681.15436572,
+      "uv_area_over_3d_area": 1.1155425414346944,
+      "area_ratio_percentiles_1_50_99": [
+        0.6191210562597355,
+        0.9785224243244289,
+        1.2989438991069298
+      ],
+      "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+        1.006783572998569,
+        1.1177646276032076,
+        18.572525248032242
+      ]
+    },
+    "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+  },
+  "weighted": {
+    "input_faces": 78624,
+    "area3_total": 16450777.913587105,
+    "invalid_uv_faces": 225,
+    "zero_uv_area_faces": 449,
+    "negative_uv_area_faces": 3,
+    "undefined_or_nonpositive_uv_area_fraction": 0.007788677383683179,
+    "positive_faces_only": {
+      "faces": 77947,
+      "area3_fraction": 0.9922113226163168,
+      "area_weighted_normalized_symmetric_dirichlet": 1.4013442877103919,
+      "area_weighted_inverse_L2_rms": 1.3038826076817551,
+      "max_symmetric_singular_stretch": 315.5595287311947,
+      "uv_area_over_3d_area": 1.0049152841343643,
+      "area_ratio_percentiles_1_50_99": [
+        0.6297622049664411,
+        0.9795810656085171,
+        1.8151718614076633
+      ],
+      "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+        1.0106119092938792,
+        1.161482421326918,
+        1.8480043027016602
+      ]
+    },
+    "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+  },
+  "components_both": {
+    "input_faces": 78624,
+    "area3_total": 16450777.913587105,
+    "invalid_uv_faces": 29,
+    "zero_uv_area_faces": 0,
+    "negative_uv_area_faces": 3,
+    "undefined_or_nonpositive_uv_area_fraction": 0.0003885330880545643,
+    "positive_faces_only": {
+      "faces": 78592,
+      "area3_fraction": 0.9996114669119455,
+      "area_weighted_normalized_symmetric_dirichlet": 1.3867776264073348,
+      "area_weighted_inverse_L2_rms": 1.3019062466798121,
+      "max_symmetric_singular_stretch": 315.5595287311947,
+      "uv_area_over_3d_area": 0.9893672946455705,
+      "area_ratio_percentiles_1_50_99": [
+        0.6304758880687038,
+        0.9802489130529612,
+        1.8053006421392488
+      ],
+      "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+        1.0104335195718033,
+        1.160091647852954,
+        1.8311212307416438
+      ]
+    },
+    "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion."
+  }
+}

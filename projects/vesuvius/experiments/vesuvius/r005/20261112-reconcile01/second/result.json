@@ -1,0 +1,168 @@
+{
+  "input_faces": 478224,
+  "area3_total": 101749890.19763327,
+  "invalid_uv_faces": 0,
+  "zero_uv_area_faces": 0,
+  "negative_uv_area_faces": 93,
+  "undefined_or_nonpositive_uv_area_fraction": 0.0002018442756413865,
+  "positive_faces_only": {
+    "faces": 478131,
+    "area3_fraction": 0.9997981557243586,
+    "area_weighted_normalized_symmetric_dirichlet": 1.4615240803370535,
+    "area_weighted_inverse_L2_rms": 1.3900517597309283,
+    "max_symmetric_singular_stretch": 652.2171426487844,
+    "uv_area_over_3d_area": 0.9709319103715114,
+    "area_ratio_percentiles_1_50_99": [
+      0.6781745255352057,
+      0.979186704449657,
+      1.3832145400839058
+    ],
+    "normalized_symmetric_dirichlet_percentiles_50_95_99": [
+      1.0067775360279883,
+      1.0959810978271212,
+      1.3591905194403577
+    ]
+  },
+  "notes": "J maps the intrinsic 3D triangle to UV. Normalized symmetric Dirichlet is sum(sigma^2+sigma^-2)/4 with isometry=1. Invalid, collapsed, and inverted faces are reported separately, not assigned zero distortion.",
+  "components": [
+    {
+      "component": 3,
+      "vertices": 49,
+      "faces": 72,
+      "anchors": 1,
+      "coarse_indices": [
+        1837
+      ],
+      "shift": [
+        153.83740234375,
+        155.459228515625
+      ],
+      "seed_edge_max_abs_error_before_pack": 0.0,
+      "changed_from_B_before_pack": 48
+    },
+    {
+      "component": 4,
+      "vertices": 49,
+      "faces": 72,
+      "anchors": 0,
+      "coarse_indices": [],
+      "shift": [
+        0.0,
+        0.0
+      ],
+      "seed_edge_max_abs_error_before_pack": 0.0,
+      "changed_from_B_before_pack": 0
+    },
+    {
+      "component": 8,
+      "vertices": 49,
+      "faces": 72,
+      "anchors": 0,
+      "coarse_indices": [],
+      "shift": [
+        0.0,
+        0.0
+      ],
+      "seed_edge_max_abs_error_before_pack": 0.0,
+      "changed_from_B_before_pack": 0
+    }
+  ],
+  "coarse_sample_count": 3954,
+  "coarse_anchor_max_abs_error_before_pack": 0.0,
+  "unknown_vertices": 66051,
+  "trusted_vertices": 183893,
+  "unknown_uv_changed_before_pack": 0,
+  "changed_vertices_before_pack": 48,
+  "changed_vertices_after_pack": 99,
+  "translations": [
+    {
+      "component": 1,
+      "vertices": 195935,
+      "shift": [
+        -9075.5100040077,
+        107.94813392166351
+      ]
+    },
+    {
+      "component": 0,
+      "vertices": 30027,
+      "shift": [
+        39496.1702018038,
+        277.51085805665906
+      ]
+    },
+    {
+      "component": 2,
+      "vertices": 19470,
+      "shift": [
+        50557.30385491612,
+        -1380.2710348003886
+      ]
+    },
+    {
+      "component": 6,
+      "vertices": 2131,
+      "shift": [
+        21159.10197041004,
+        -3615.09326171875
+      ]
+    },
+    {
+      "component": 7,
+      "vertices": 1243,
+      "shift": [
+        16761.54298778248,
+        -3942.817601500688
+      ]
+    },
+    {
+      "component": 5,
+      "vertices": 991,
+      "shift": [
+        45776.38162843748,
+        -2798.063473964491
+      ]
+    },
+    {
+      "component": 3,
+      "vertices": 49,
+      "shift": [
+        55693.00521331048,
+        -2414.024658203125
+      ]
+    },
+    {
+      "component": 4,
+      "vertices": 49,
+      "shift": [
+        46882.17171662068,
+        -2718.3642578125
+      ]
+    },
+    {
+      "component": 8,
+      "vertices": 49,
+      "shift": [
+        26877.639489462133,
+        -4302.119140625
+      ]
+    }
+  ],
+  "elapsed_seconds": 2.380507000023499,
+  "method": "Translate each recovered zero/one-anchor component as a rigid UV component. Reuse the disconnected unknown solve unchanged, then repack all components with the existing rule.",
+  "previous_artifacts": [
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-holdout01\\solve-heldout\\arrays.npz",
+      "sha256": "b6f39c28899112157341e4b85a6c01f9cfa2918e29ff7895cad8ff85e4a87c47"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-holdout01\\solve-heldout\\override.json",
+      "sha256": "96a276a193e2646dccd61f90274ede2ada6fee58ef410b214cc65ad9da56aef5"
+    },
+    {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-holdout01\\solve-heldout\\result.json",
+      "sha256": "b56c4cbd991b74e99ddb1b8e66399004bfc632891cb46e7d4b40e1bd8b2ffb41"
+    }
+  ],
+  "input_manifest_sha256": "904f3f0e1ca862280e02ac1dfd148ed7d144fc031305f551dbe99b92b4815147"
+}

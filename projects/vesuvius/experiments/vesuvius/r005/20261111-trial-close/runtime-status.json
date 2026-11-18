@@ -1,0 +1,36 @@
+{
+  "checked_utc": "2026-11-11T13:17:26.839542+00:00",
+  "lab": {
+    "phase": "running",
+    "thread_id": "01a1c9bf-639d-70a2-a8bc-664019939aaa",
+    "host_id": "local",
+    "pending_proposals": 0,
+    "record_count": 17
+  },
+  "inbox": [],
+  "automations": {
+    "vesuvius": {
+      "id": "vesuvius",
+      "name": "Vesuvius 日次研究監査",
+      "status": "ACTIVE",
+      "rrule": "FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "notification_policy": "failed_runs_only",
+      "updated_at": 1794386288350
+    },
+    "vesuvius-heartbeat": {
+      "id": "vesuvius-heartbeat",
+      "name": "Vesuvius 主担当heartbeat",
+      "status": "ACTIVE",
+      "rrule": "FREQ=MINUTELY;INTERVAL=30",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "notification_policy": "failed_runs_only",
+      "updated_at": 1794386288736
+    }
+  },
+  "automation_view_calls": "Both existing automation ids opened successfully through automation_update view before this capture. Settings above read from saved app TOML.",
+  "heartbeat_delivery": "Previously observed; latest trigger slot996889 prompted this checkpoint.",
+  "daily_first_delivery": "Not yet due; first scheduled run is 2026-11-12 09:00 JST."
+}

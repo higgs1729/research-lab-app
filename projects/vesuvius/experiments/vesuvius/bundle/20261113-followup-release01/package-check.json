@@ -1,0 +1,14 @@
+{
+  "files_including_manifest": 32,
+  "relative_links_checked": 32,
+  "zip_bytes": 82500,
+  "zip_sha256": "dda8b9f2c5ebc6e2d086db70b4cfe013a3e74545bcff1f3960dca4d3266e91b8",
+  "manifest_sha256": "93e23c4334ee9cb735998122f71db4eab661a2eeb6b7e471cf4a33bb81d0c1e4",
+  "zip_crc_and_all_bytes_match": true,
+  "four_product_patches_match_R160": true,
+  "ct_figure_matches_R152": true,
+  "new_runtime_runs": 0,
+  "new_builds": 0,
+  "new_download_bytes": 0,
+  "cloud_cost_jpy": 0
+}

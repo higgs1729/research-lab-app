@@ -1,0 +1,28 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\render_sections.py"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-15T12:22:57.756942+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 1,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "exception": {
+    "type": "TypeError",
+    "message": "Object of type int64 is not JSON serializable"
+  },
+  "completed_utc": "2026-11-15T12:23:26.330761+00:00",
+  "elapsed_seconds": 28.573459599982016,
+  "max_rss_bytes": 52195328,
+  "user_cpu_seconds": 1.5,
+  "sys_cpu_seconds": 0.578125
+}

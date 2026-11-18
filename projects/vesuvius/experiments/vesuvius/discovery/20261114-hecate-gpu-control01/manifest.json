@@ -1,0 +1,96 @@
+{
+  "generated_utc": "2026-11-14T07:01:16.823795+00:00",
+  "workspace_bytes_before_manifest": 43435,
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/compare.py",
+      "bytes": 2734,
+      "sha256": "bd70b804b8676095d20761ec85728503b4b7d5cef38ec7b73d5cb9598824c040"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/entry-status.json",
+      "bytes": 690,
+      "sha256": "db1efa8b20ecfebab3b4f499507bc01a1240f16e62c618394dc883cd30292dab"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/exclusive.log",
+      "bytes": 321,
+      "sha256": "c95a6544e6d6e9f544c5e0da1b5ba595ab9b50950713f2a07e11bc5735e5fd0f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/lead-preflight.json",
+      "bytes": 1304,
+      "sha256": "b998fd97ba17a83c682877ab4e62b26f59200ae7c98d2ec1ee4ce873ce07beb5"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/lead-release.json",
+      "bytes": 657,
+      "sha256": "c826ef61509f7791f8a3bae87cdae7a8acdc9fadc69a7bf86eb5dd53b87385c2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/lead-verification-process.json",
+      "bytes": 680,
+      "sha256": "2cc8e03049908e6b6c0af8a55e0d4eeff956a9a47726e3289a71ecdee7917e91"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/lead-verified.json",
+      "bytes": 1228,
+      "sha256": "cf6b8d97631a38b5d25232b3a17a0ab6b308e9a54cf1bc9046bf4f96006d0c02"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/lead_verify.py",
+      "bytes": 4880,
+      "sha256": "2718627320729b3e1c7d84bc7b99128cc4a13355c8a19697f6570a732f0000b2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/post-admission-check.json",
+      "bytes": 488,
+      "sha256": "bd183c366af57b663d708af68d97cba8793b4c4dbf68a59ec2a454e9a6b68bd8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/preflight.json",
+      "bytes": 3982,
+      "sha256": "5908f8e91eecd25cd5ead8913a3908c09075c51cce7a7b31d54681f44ddba2d9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/preflight.py",
+      "bytes": 4342,
+      "sha256": "501df121ce94ec2ee4e6dc32335bb18d25a56d54d79a4b0e8ed62b46a2be81c4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/README.md",
+      "bytes": 2254,
+      "sha256": "e7b7f676f91a5a3b9594f30d6052bb7d5b22cb019131ae1e8745942ba5f1e4c8"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/record.json",
+      "bytes": 1392,
+      "sha256": "3ceddd89314505595993e3a5d19a241f8ec4812c19e2f9d04b5fc1cb076deba2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/run_gpu.py",
+      "bytes": 13180,
+      "sha256": "7af2c6ca2e00dfe29c13eeb1c4c24471c55be936a2da2bc4226010f5d642c044"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/supervise.py",
+      "bytes": 3607,
+      "sha256": "5471c6402192dd4e7ed35887ea867a42bc7453ea822702e5e2aee5fbf928c02d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/supervisor-result.json",
+      "bytes": 923,
+      "sha256": "271c3887ad72744b73384cf7b1dbdd8e64987aece5f5310ece69224848493b16"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-hecate-gpu-control01/supervisor-start.json",
+      "bytes": 773,
+      "sha256": "6e45b052f914f8317967f4b33b511e1b64eb0fc071e5d79ea07fd686804d6fb9"
+    },
+    {
+      "path": "research/191-hecate-local-gpu-control.md",
+      "bytes": 6048,
+      "sha256": "67001f9ba81c81c50aad58edbf4a8949e7b357c243e8e1c550a3ec0df390af20"
+    }
+  ]
+}

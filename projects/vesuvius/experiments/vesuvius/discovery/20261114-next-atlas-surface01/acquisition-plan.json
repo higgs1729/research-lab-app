@@ -1,0 +1,131 @@
+{
+  "atlas_revision": "ac5ffd7098120368216948c4e06c494bf8e67178",
+  "surface": "surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121",
+  "meta_path": "candidates/PHerc0175B-meta.json",
+  "files": [
+    {
+      "path": "ct_mid.png",
+      "key": "ct-mid",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/ct_mid.png",
+      "output": "originals/ct-mid.png",
+      "bytes": 2322633,
+      "lfs_sha256": "bff953349da221cfdbc9777ed8293fb447897b9580ce0d4558e1ab759aa4a2ce"
+    },
+    {
+      "path": "maps/hecate-9.6/c+0_s1_forward.png",
+      "key": "hecate-9.6-forward",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/hecate-9.6/c%2B0_s1_forward.png",
+      "output": "originals/hecate-9.6-forward.png",
+      "bytes": 465735,
+      "lfs_sha256": "10c153b09c790817ed4b2a72482af857662117c4e7f600d6dbc097b71cdf6083"
+    },
+    {
+      "path": "maps/hecate-9.6/c+0_s1_reverse.png",
+      "key": "hecate-9.6-reverse",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/hecate-9.6/c%2B0_s1_reverse.png",
+      "output": "originals/hecate-9.6-reverse.png",
+      "bytes": 466896,
+      "lfs_sha256": "8e6f4c383297bd4ba771c2a9fc22b1b144e895bc698230e7f1a6521219eed09b"
+    },
+    {
+      "path": "maps/reader-v3/c+0_s1_forward.png",
+      "key": "reader-v3-forward",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/reader-v3/c%2B0_s1_forward.png",
+      "output": "originals/reader-v3-forward.png",
+      "bytes": 691884,
+      "lfs_sha256": "a4e53c2afc0236c827a25ce062f3b7797742497c90619bc71d4d8c8aea3332b2"
+    },
+    {
+      "path": "maps/reader-v3/c+0_s1_reverse.png",
+      "key": "reader-v3-reverse",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/reader-v3/c%2B0_s1_reverse.png",
+      "output": "originals/reader-v3-reverse.png",
+      "bytes": 715028,
+      "lfs_sha256": "5101478b4279c590531f152a483cf5372ea821d6899edd459611755926245d08"
+    },
+    {
+      "path": "maps/ink_9um-s42/c+0_s1_forward.png",
+      "key": "ink_9um-s42-forward",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/ink_9um-s42/c%2B0_s1_forward.png",
+      "output": "originals/ink_9um-s42-forward.png",
+      "bytes": 1430786,
+      "lfs_sha256": "395588c30a1252e8c4daa93c4dc1eae87ce99fc782aa5644e86d27d77eed27d1"
+    },
+    {
+      "path": "maps/ink_9um-s42/c+0_s1_reverse.png",
+      "key": "ink_9um-s42-reverse",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/ink_9um-s42/c%2B0_s1_reverse.png",
+      "output": "originals/ink_9um-s42-reverse.png",
+      "bytes": 1434419,
+      "lfs_sha256": "e381f438984de4abb0c2c2cd34971337d8d9e5cc97fec9e773d620cc3a28c98f"
+    },
+    {
+      "path": "maps/dense-native/c+0_s1_forward.png",
+      "key": "dense-native-forward",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/dense-native/c%2B0_s1_forward.png",
+      "output": "originals/dense-native-forward.png",
+      "bytes": 1253556,
+      "lfs_sha256": "967616a8cd241b9389692546c47fe57cd44b580f87846d1990f17983ed7d9206"
+    },
+    {
+      "path": "maps/dense-native/c+0_s1_reverse.png",
+      "key": "dense-native-reverse",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/dense-native/c%2B0_s1_reverse.png",
+      "output": "originals/dense-native-reverse.png",
+      "bytes": 1254792,
+      "lfs_sha256": "dfcafdaa5d041477c06ffe39a42a53120cc7435dd4d0367b6bdcb5f85644903f"
+    },
+    {
+      "path": "maps/reader-v2/c+0_s1_forward.png",
+      "key": "reader-v2-forward",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/reader-v2/c%2B0_s1_forward.png",
+      "output": "originals/reader-v2-forward.png",
+      "bytes": 704169,
+      "lfs_sha256": "fd2157d1a191bd3b611676c71d4ccdf774bf6825ce3152a9ba18f9b8a3bf0db3"
+    },
+    {
+      "path": "maps/reader-v2/c+0_s1_reverse.png",
+      "key": "reader-v2-reverse",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/reader-v2/c%2B0_s1_reverse.png",
+      "output": "originals/reader-v2-reverse.png",
+      "bytes": 715592,
+      "lfs_sha256": "7e49603a2e57bea1a7fe1761416f316cf568ae422284d537d6f94a8d460abbd3"
+    },
+    {
+      "path": "maps/d9v2/c+0_s1_forward.png",
+      "key": "d9v2-forward",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/d9v2/c%2B0_s1_forward.png",
+      "output": "originals/d9v2-forward.png",
+      "bytes": 1221763,
+      "lfs_sha256": "6896a2193d1d830ba82b288a02a04014262e5b03cff3bc14a659b344b6003cc7"
+    },
+    {
+      "path": "maps/d9v2/c+0_s1_reverse.png",
+      "key": "d9v2-reverse",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/d9v2/c%2B0_s1_reverse.png",
+      "output": "originals/d9v2-reverse.png",
+      "bytes": 1224752,
+      "lfs_sha256": "4fc8364ca4ce1e3c75f7c47db35782b54929b1cdae7aac7f5cc5685a7906fc38"
+    },
+    {
+      "path": "maps/ink_9um-s43/c+0_s1_forward.png",
+      "key": "ink_9um-s43-forward",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/ink_9um-s43/c%2B0_s1_forward.png",
+      "output": "originals/ink_9um-s43-forward.png",
+      "bytes": 1326642,
+      "lfs_sha256": "4c0171745997323e3a30c26f06c1ad8618ecff50ed199fcddc286c1a489604d5"
+    },
+    {
+      "path": "maps/ink_9um-s43/c+0_s1_reverse.png",
+      "key": "ink_9um-s43-reverse",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc0175B/kbh-PHerc0175B_3024_3577_11121/maps/ink_9um-s43/c%2B0_s1_reverse.png",
+      "output": "originals/ink_9um-s43-reverse.png",
+      "bytes": 1329458,
+      "lfs_sha256": "5bcb0db3f58a7e9fa3ffd4c53c82f0356785adf4a308bec79c7d3765bad2dac2"
+    }
+  ],
+  "metadata_bytes": 424677,
+  "image_bytes": 16558105,
+  "total_cap_bytes": 67108864,
+  "network_cap_seconds": 300
+}

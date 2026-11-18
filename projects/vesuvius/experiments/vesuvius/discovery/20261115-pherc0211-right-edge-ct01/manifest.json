@@ -1,0 +1,479 @@
+{
+  "created_utc": "2026-11-15T12:30:17.383431+00:00",
+  "plan_sha256": "621c238f4e49a5916ea064f89fc958b1aaaf0671c127e712069a787dbee5e7db",
+  "ticket": {
+    "file": "research/235-pherc0211-right-edge-original-ct.md",
+    "bytes": 9451,
+    "sha256": "05b8446f7f4db753a8c66647ca93244f635f09e5d1dd09d9cb3dfdaf41975bbb"
+  },
+  "files": [
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/acquire_ct.py",
+      "bytes": 3602,
+      "sha256": "fc2055aca892d23ca8caa8a141d012a525d8a4114887ca3ea2601786e75157e5"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct-acquisition.json",
+      "bytes": 24350,
+      "sha256": "c92013ff13d61e211dbc0022ce2fcffc0367655f5f1566b0dc7a888f2eeb2182"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct-http.jsonl",
+      "bytes": 20682,
+      "sha256": "1fff6d8ef6559ba3db09586e464ce7ef2eef899ec7e437c997bfdb69a259bf41"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct-process.json",
+      "bytes": 682,
+      "sha256": "2cd61877c46a38ac5abc028fbaae24699670a32d02f25c31ec1448c192ef16ab"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/64/25/26",
+      "bytes": 2097152,
+      "sha256": "3be1f6f1807abb6322b6adc3eca4eb4a6a435da07d9c2e9abf1707bcce4192b1"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/64/25/27",
+      "bytes": 2097152,
+      "sha256": "77a006d9ca40ed703f0f041ef960711e6ae6c54e8ece1f7345bf46a7f4c9971d"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/64/25/28",
+      "bytes": 2097152,
+      "sha256": "d73a4f731d948ede320c1e23f18c5f05afd79eb6ae3255829a081e762b8bd2ad"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/64/26/26",
+      "bytes": 2097152,
+      "sha256": "1989b48097984cfa4b6777cf7d14450dd962fc62e65d141414775bd446de317f"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/64/26/27",
+      "bytes": 2097152,
+      "sha256": "6bef874dd7cb8e4d41e33b87c5be8d4e0222b1b8acc0a32e63b3df2af7d83196"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/64/26/28",
+      "bytes": 2097152,
+      "sha256": "4c7017626330ee79b348b4b348889e9ff06fbbc08775df868d33a9d9eb84f5f1"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/65/25/26",
+      "bytes": 2097152,
+      "sha256": "7fc2e34c60cd4af08891510e4d8a3db8684b0ff7199ceaf3e2ad866f4f32eeb3"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/65/25/27",
+      "bytes": 2097152,
+      "sha256": "827fb0fd7b8d0092948d5f113b3c8f2a9feae7c3d109ec1ca3db0b24cf0e5183"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/65/25/28",
+      "bytes": 2097152,
+      "sha256": "f0c9631a74617fee6fe165389d6be5ad890de0b8cf5d10562cc62a09b9ded46a"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/65/26/26",
+      "bytes": 2097152,
+      "sha256": "341dba93765483684c55f0e096b07cbe8b8ed97de63049cfc519542573d47381"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/65/26/27",
+      "bytes": 2097152,
+      "sha256": "84a50698192178d097b3d62656723c4d8a35fafa82541fa84d5f34c96469e915"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/65/26/28",
+      "bytes": 2097152,
+      "sha256": "1820a0ee0fffd9576ef031510af1071ddd994ae11adf5c83591189a6c5659eba"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/65/32/32",
+      "bytes": 2097152,
+      "sha256": "d3825c719ad8a7a694d8c2c55a90626fe0c0dc6535090a2c90e7acba1c5f64aa"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/65/32/33",
+      "bytes": 2097152,
+      "sha256": "e9b17af3eafb1480665bca20cf334a44150d2180b99789693089bd2e87ca5a88"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/65/33/32",
+      "bytes": 2097152,
+      "sha256": "fb2785d00fe81e5f3b7fb5a33184e82b4086a73815bceb7b32d4bc27f45f2696"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/65/33/33",
+      "bytes": 2097152,
+      "sha256": "ee49b3de61999053816d4a8f217b384fb4835766414ca430a43120559983f2d5"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/66/25/26",
+      "bytes": 2097152,
+      "sha256": "2a5f378e5fba988e53f69d1f84ae2e900d45377a08f0eb2ac9b056cfb059b4ca"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/66/25/27",
+      "bytes": 2097152,
+      "sha256": "17ce54ecd34971824006c4fe7821c2579ec79a76167a9e5fe429a7fc2c81c1cf"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/66/25/28",
+      "bytes": 2097152,
+      "sha256": "2e9f881f1b0ad920470ec5ab274db2ff03b4f544a381229145db93a7f587b822"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/66/26/26",
+      "bytes": 2097152,
+      "sha256": "aa69880a107bae72914ebeb2dc0ba56a413eb58246774a63a852879277d31275"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/66/26/27",
+      "bytes": 2097152,
+      "sha256": "0216d020bb4d1139fd247b40cff1d9d22500f827d5444832176bf59b25941fe3"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/66/26/28",
+      "bytes": 2097152,
+      "sha256": "9f86bff1bb1cfa0a5881d3bc89332dd3790e926958ea09788bcc35c6e2bdbd0d"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/66/32/32",
+      "bytes": 2097152,
+      "sha256": "4c89eb58dac8315985e7a77c118e5c200d993366ae5a1b922f7f85ecb9105bde"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/66/32/33",
+      "bytes": 2097152,
+      "sha256": "91c6e9d09a01877f15d94f99c29677ee497c577e3cb4d59f820ed5454a0f87c0"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/66/33/32",
+      "bytes": 2097152,
+      "sha256": "8ba00de649aaced7528d250e5390a6f71edaeee458d70ff5490097d7e3b1a005"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/ct.zarr/0/66/33/33",
+      "bytes": 2097152,
+      "sha256": "486d18c1620388a562055a5f0de85e88385a02270b6c6fd4baf956e907bdd6d0"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/finalize.py",
+      "bytes": 7563,
+      "sha256": "037aae6eed6354e7e810a7d8eb62d575491889978a963cb7249e321ecfdb7ef8"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/fixed_ct.py",
+      "bytes": 3902,
+      "sha256": "07f4d3cf39279cbfc28c27f946fe10bbd581a33cfe6cd8005b6d7d64023a2e1f"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/input-references.json",
+      "bytes": 2094,
+      "sha256": "3f5b46393fcc554156d3600d326d0354d1bccf065facc5e53412482ba4c6a98c"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/lead-candidate-sd-contact.png",
+      "bytes": 188119,
+      "sha256": "9f962e32dc56c42aa73a2d0419e89d48afd6f264fbbcf89483bb317d7ad78443"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/lead-contact-process.json",
+      "bytes": 692,
+      "sha256": "50cf4fe6e96f89b41df19b2dd43b22ba10b331f25accbdbcb307848ad54f31a5"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/lead-contact-views.json",
+      "bytes": 2955,
+      "sha256": "2efe8326bce65fd5996e78b2a15dd7a409d45f94dd9cffb50a30b630db2d8088"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/lead-known_phi-sd-contact.png",
+      "bytes": 91757,
+      "sha256": "83f0fe85a6bfca9fc36455b06d24ec52359626c35a027255e4d2ba53c38b8881"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/lead-numeric-check.json",
+      "bytes": 4491,
+      "sha256": "35b9bb88cb74d4223c82c69950fdf5feaa9243a3ef9d81c83b7223b9f28a3ad2"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/lead-numeric-process.json",
+      "bytes": 682,
+      "sha256": "c071aab661f52a6e1bb4577221b111f68e7d4c05754c022cdbba0f6dd0eabf8c"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/lead-visual-review.json",
+      "bytes": 2390,
+      "sha256": "7714ed62c677c7cde7dae865f10b68d9b425e1be2b55f985859096212d80fd94"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/lead_contact_views.py",
+      "bytes": 1433,
+      "sha256": "7676369187a4363a75b042120efd8bc2aa54cba09726b77df075abbcac6c4d46"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/lead_verify.py",
+      "bytes": 4947,
+      "sha256": "6f23e1be50ed8bd251d15a30867816d7b5492326d2baf3157ec3afcb958ead9c"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/README.md",
+      "bytes": 3447,
+      "sha256": "878d70d2c4bf7facaea026e01d733117bda185086b9d24fb326c571e9e5c41fd"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/record.json",
+      "bytes": 2376,
+      "sha256": "9b21ecb5dd60228ddf34486174c4bd981e6133de82cb9d2634860fe84b9e9fa5"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/render-process-first.json",
+      "bytes": 800,
+      "sha256": "032ec53f3088a76c6850bc45a4a695daf9841477ff9da1e7c800cc780ca273fc"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/render-process.json",
+      "bytes": 716,
+      "sha256": "82a7743500912ce765b8826efaa972f54fb2b6ba731363bcd9a3746fe929a943"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/render_sections.py",
+      "bytes": 9538,
+      "sha256": "cad8d9bb66aefbef9abb5ce11d3b3b9f78971f7eb7ad1f0fac92647f8904cabf"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/resources.json",
+      "bytes": 1726,
+      "sha256": "6b6943a367888a430aa0162ad2d798643907db211761a56d0016ac6027b8ca8d"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r40-sd-raw.png",
+      "bytes": 8440,
+      "sha256": "fd1172c3054080f9568133ee5e128cbab4d537d5801d982faaa62fce7b2b2d14"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r40-sd-window.png",
+      "bytes": 17577,
+      "sha256": "53e98afd69d0fa0f187f4053df05fe8dce3d3409422e2c38f5721dc69c4da781"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r40-sd.npy",
+      "bytes": 104648,
+      "sha256": "75872a6df4464b5ab3c1534893002603407f5a72c60b9a6860577152340ab92b"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r40-xy-raw.png",
+      "bytes": 46080,
+      "sha256": "2cba09765d9ff84a21aee21d0e9574e3778402509152446dff46d99ead6929b6"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r40-xy-window.png",
+      "bytes": 87113,
+      "sha256": "25f371f28ceed752047159ebe832b65255c1a116c69b8d467c8017d76af131ff"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r40-xy.npy",
+      "bytes": 65664,
+      "sha256": "c926307bb6a5835c579f70dd893b728176b278a56e1ef665dc704f9b39040721"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r42-sd-raw.png",
+      "bytes": 8627,
+      "sha256": "04abdc74455296a326dfdf2461e1ba5feda5015abbf1f82af3551cdc8e01555d"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r42-sd-window.png",
+      "bytes": 18061,
+      "sha256": "2884cbf8c03c022db1e996cc04648b2c41b4e667d6b63cda7505dbfbb11953a7"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r42-sd.npy",
+      "bytes": 104648,
+      "sha256": "2c25b84952e959de6e1897db197c9b3d849b7b07059a20c257fea9d89084c20e"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r42-xy-raw.png",
+      "bytes": 45762,
+      "sha256": "945bc0298669ad05f408ae499a113104c6662a3b6bc067366e18a19eb380b496"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r42-xy-window.png",
+      "bytes": 86083,
+      "sha256": "4c29f73671799a4003b98e419e8c7b312f49f46b19bcbff1b7aed90176919751"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r42-xy.npy",
+      "bytes": 65664,
+      "sha256": "e607752f75702b849dbbb956f839f765e8365092c271df4935ce4a8a7aeb05a5"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r44-sd-raw.png",
+      "bytes": 8579,
+      "sha256": "4c849ac25a36f4f593c96727e537b6c4b9ff37108e6dd2968dbd2e506453322b"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r44-sd-window.png",
+      "bytes": 17740,
+      "sha256": "9b4e86bcaa42cbad919c478d355ab4b9d84a5ea7caa7856419a6b00486cb1e78"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r44-sd.npy",
+      "bytes": 104648,
+      "sha256": "a0fbf4352bab80db7f78a03febaaf0b6f77e471dfc8136320e00ba38dfdd6680"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r44-xy-raw.png",
+      "bytes": 46041,
+      "sha256": "ff8356628e7ab355ab95b27b54fdbcf26a8c92b3cc9cdeccfef2377fa47f9770"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r44-xy-window.png",
+      "bytes": 86774,
+      "sha256": "27353864c38dfb4ee1b95ee4110a7ab665aa277c0344d8ebec5e1982af183de4"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r44-xy.npy",
+      "bytes": 65664,
+      "sha256": "3b73fdd3ca4d587c6f7240a84b7e5040ee527857bcb7b2ea3003221905b0945c"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r46-sd-raw.png",
+      "bytes": 8418,
+      "sha256": "a3528a04a127d2a1ffdb76f4803642995db434ecfd375f313cf318578a7f81f1"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r46-sd-window.png",
+      "bytes": 17509,
+      "sha256": "6a4cd850998a1d2e1c0ece326d695beaf5f41cb7b49905aa15b05a11859ee731"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r46-sd.npy",
+      "bytes": 104648,
+      "sha256": "3e681cdbe60ee0e20b760bf2e068fa6112235c3ec633eaefa0f20a16aa6eb0a5"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r46-xy-raw.png",
+      "bytes": 46141,
+      "sha256": "d518dcded831e7206ab228caa5e2518a7645425d4a0c4c5db8a492e8bfb18e20"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r46-xy-window.png",
+      "bytes": 87148,
+      "sha256": "ecffc7c1d63daef3ffb909072859e94b4a897899095ed85c0edaa9674fb36928"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/candidate-r46-xy.npy",
+      "bytes": 65664,
+      "sha256": "a9a4294f79a62b2116a24034bee86529350a363a06cbe9b1cb3a631305435562"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r40-xy-raw.png",
+      "bytes": 67978,
+      "sha256": "5ae117c86c2b7d2307dca970b02d87e2b69a88f29f895d77288594e154d285c5"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r40-xy-window.png",
+      "bytes": 114449,
+      "sha256": "c24b65c269b4241caae655e1eabc380c5cc5e2727b046cfa8379949c90e64357"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r40-xy.npy",
+      "bytes": 98432,
+      "sha256": "ac554f4acaaf663101115d9dec4180a32a75acbdc84bed5bf937b45d95f45eda"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r42-sd-raw.png",
+      "bytes": 8396,
+      "sha256": "cb3e1a08a370d488bc405c9cecc829b34c6ebccc7c42274c9c932f68f8e301f9"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r42-sd-window.png",
+      "bytes": 16949,
+      "sha256": "4703522cc6c9a47cd3be16293f468b4d0ec20bdfa9c084d6cb2c9898f3ff1e7a"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r42-sd.npy",
+      "bytes": 104648,
+      "sha256": "44c2261a09a4a6981c09b0f605344498ac23ed4d43911aa10989791f7e2e6805"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r42-xy-raw.png",
+      "bytes": 68095,
+      "sha256": "3d6fe84f5455af2e18fffa813cf0d488bdc89c744572d8a6a6351254ffe55bb9"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r42-xy-window.png",
+      "bytes": 117625,
+      "sha256": "a408d8d4df59ceba2fcb7ea2a8271481a6fc8ad47a81d6319cf43b297bedd8e7"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r42-xy.npy",
+      "bytes": 98432,
+      "sha256": "954e400b7c9800d890cf333299ee0445e44f756d43e79fcf5d5ddfc5c7c16300"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r44-xy-raw.png",
+      "bytes": 68946,
+      "sha256": "74f40f3d2634e27c75142caef0b9da57899a17b61b602df753e05ebcad8c71af"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r44-xy-window.png",
+      "bytes": 118682,
+      "sha256": "cef85318676779afe4350309127519ccfd09434bead4ff294d389f21a1ee4102"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r44-xy.npy",
+      "bytes": 98432,
+      "sha256": "f14ee943b1a2d098eb938e46a4d9bea2a8a9d9d4382539c2db6e224ee5cfd392"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r46-sd-raw.png",
+      "bytes": 8733,
+      "sha256": "da312466d8a1a6187fc2d6c6d59b809ee3506132c9288a973820a5a291f1c131"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r46-sd-window.png",
+      "bytes": 17690,
+      "sha256": "aa0c068c23f534fe10f1c3090a9a4001f0f8454b8422102ef8f4e8f1f05b34b8"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r46-sd.npy",
+      "bytes": 104648,
+      "sha256": "5ed9e5c0b68f0d56f195c001ecd1af821592d6a43d2ab8848b227e010478ee4a"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r46-xy-raw.png",
+      "bytes": 68037,
+      "sha256": "54f8abe743726a8c9d59a6b22f598af4f98ce8a3b67c09361ed13b63552ac00c"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r46-xy-window.png",
+      "bytes": 115393,
+      "sha256": "577d4ae4d46ad87e3a598aaf1eef2c431acc2462c6a5417d6433a4562f8a2fde"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections/known_phi-r46-xy.npy",
+      "bytes": 98432,
+      "sha256": "f5f8c9dc24bca292efcaa848827c178257c8bad2d97828c507e58a17b07aaa60"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections-result-first.partial.json",
+      "bytes": 3777,
+      "sha256": "05589974116efcf6d0ed437b760ddaf3d97db5e931837806fa0a3b027011b969"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/sections-result.json",
+      "bytes": 36130,
+      "sha256": "2b8e604b9de0c0c10e1fc2597d7e7bc43c5eb520cc9d53466e4babb358aaa073"
+    },
+    {
+      "file": "experiments/vesuvius/discovery/20261115-pherc0211-right-edge-ct01/visual-review.json",
+      "bytes": 3463,
+      "sha256": "bebe1eae2b6046abbffef4a33aebff92aaee9c74def7c812daab82243b154d16"
+    }
+  ],
+  "file_count": 93,
+  "total_bytes_without_manifest": 57659604,
+  "self_excluded": true
+}

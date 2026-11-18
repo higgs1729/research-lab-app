@@ -1,0 +1,155 @@
+{
+  "generated_utc": "2026-11-14T10:48:12.531740+00:00",
+  "files": [
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/README.md",
+      "bytes": 6446,
+      "sha256": "fa00de4662c389a240e718615670ac5b668d1d9b5b4cb953af459e174acb9af4"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/approval-draft.md",
+      "bytes": 1033,
+      "sha256": "8b5aa287d965c2e142641a327c91b432c2c438f094acb99e9b0196dd087e7d20"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/catalog-snapshot.json",
+      "bytes": 1271,
+      "sha256": "b36cd4642b25052b7a6cd5ae43cc5fb2d4677590e6f2b03997831f0358ce4a9f"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/collect_sources.py",
+      "bytes": 2452,
+      "sha256": "81012fc6dd2401583025a6293a1a6c71ed9f0d3f80937eec215271291e5cbc59"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/create-request.example.json",
+      "bytes": 2694,
+      "sha256": "b32b7c89bce4c8bc89121d46348c215e6267fe5326bd29189c40ef3a55067964"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/finalize.py",
+      "bytes": 2753,
+      "sha256": "0d14b587c59b60622c6d7b370c04565171213eb4dde35ed00610d5fc44a39aad"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/fixed-assets.json",
+      "bytes": 3333,
+      "sha256": "940d42f041df7bde0ade0f41ee055e78d3b3e5b29713c48b02c53ba64e6cc7a9"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/freeze_assets.py",
+      "bytes": 3248,
+      "sha256": "24c04d04330d16e9102d60de5ae6d8ef79f205b24a8a237d4774ea8e57f1222c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/lead-account-check.json",
+      "bytes": 175,
+      "sha256": "d8147603c66816fe943b0b6a1ac3d30c6869f44d0c7fd387bbe384b185c9b938"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/lead-review-process.json",
+      "bytes": 691,
+      "sha256": "3496fbebbb105d8de65f88475db934a44077e223803f6da0f61d1fc193ff8dcf"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/lead-review.json",
+      "bytes": 2629,
+      "sha256": "98f63f6bb98a80e250d107579d9a950810d7f001602d9d5a0422ba318b608d94"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/lead_review.py",
+      "bytes": 6769,
+      "sha256": "fd5dce0c0209d5fa7f2d7ddca1bb8598b6b784ed67d4e1ab9a0b3694feca9763"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/local-verified.json",
+      "bytes": 1503,
+      "sha256": "4029726e76b9d2ec48ed3560d6a4220ed410f5a485e3dc7d3dac60d15c89bebe"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/local_check.py",
+      "bytes": 10055,
+      "sha256": "364b0942c0a7a400212c44c015c3652b8e6013754b71e256966f6df8ba3e449c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/originals/billing.md",
+      "bytes": 9398,
+      "sha256": "993b887e3915bd2eebe66f186da88b3b06ba8f46cec6c701d7c65166a99df68c"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/originals/docker-tag.json",
+      "bytes": 845,
+      "sha256": "8ab22b7b711ccea2e37ee98b14ad5bee939551a433eca4717bb927aff4116802"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/originals/env.md",
+      "bytes": 6019,
+      "sha256": "66f09469a6c9c30c648046c7d1cc4910cbcaa88b759faea69e87765f8ee22a68"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/originals/manage-pods.md",
+      "bytes": 11864,
+      "sha256": "50ec9d7f7187d49fc834f1e9c4b8e9697c6e29468a0d9c41e7fb29e3e3027e17"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/originals/openapi.json",
+      "bytes": 422232,
+      "sha256": "41f48a46a68fd023cedf9bb5a53c957a8359fb27d72d8e68b85729cc3ae9f26d"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/originals/pods-pricing.md",
+      "bytes": 5382,
+      "sha256": "66ac21b8a91596fb01d4ab9e6c55ebd86213afccb527186160e45b0a705491ac"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/originals/pricing.html",
+      "bytes": 340314,
+      "sha256": "6b1ff820f0db5d8944225056e3398b2d1eb0d773ff6f06e74f675a174157fdb2"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/pod_boot.py",
+      "bytes": 1871,
+      "sha256": "2b9784300519172f8bcdd60bfb5963424bb38f1a7ca5461e4aca9f38fdc8e9c3"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/pod_work.py",
+      "bytes": 2994,
+      "sha256": "fe94049d5815360b5d218a4cdcf420fa3181bd0e0c616a98c50279b737751dcc"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/r194-code.diff",
+      "bytes": 27426,
+      "sha256": "454d468342a8ef762428fc93b764b91a0fabb13e22e25d789157eb860bd6f780"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/record.json",
+      "bytes": 2054,
+      "sha256": "44e91517cedcec287a46eab810479f6ac802f01d9493e79ffa6b111f425ed241"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/run_once.py",
+      "bytes": 18065,
+      "sha256": "1c865be3cbbce6854ec65b136fba6de9898404bfea855ffd53fdb4562f33aa50"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/run_pilot.py",
+      "bytes": 16536,
+      "sha256": "df5e90daeb5591cd8f438315ea07fd93391030c59487960020510238448d4b39"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/sources.json",
+      "bytes": 2883,
+      "sha256": "7d8fe32e1cba89493fad31d5aa9980939a1c3345e240872f6fecad7b007a2258"
+    },
+    {
+      "path": "experiments/vesuvius/discovery/20261114-pherc0846a-hecate-cloud-plan01/verify_result.py",
+      "bytes": 5660,
+      "sha256": "0caebe1f38e2ca6956637dffc78b0d8ba57b2da42a3d5d7ad0da92f7032456be"
+    },
+    {
+      "path": "research/201-pherc0846a-hecate-cloud-estimate.md",
+      "bytes": 7760,
+      "sha256": "715467c00f6027f6361523b70e1a684ed58d6d3fab7354c2da14d5ca2e3bc73d"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "method": "Visual inspection of the four fixed original grayscale CT sections with earlier model maps hidden. Dark and bright bands are described by appearance without assigning sheet identity.",
+  "image": "sections.png",
+  "target": "PHerc1218 20250521120456, w083_main, fixed canvas crop",
+  "control": "PHerc0139 w035 stored native CT, row 32. A bright band can be followed from left to right near the origin, with modest depth variation.",
+  "sections": [
+    {"fixed_coordinate": ["Y", 2076], "finding": "On the right, several dark bands bend below the negative depth boundary toward the centre. The distinct band around d=-9 to -15 at local x=160,192,224 does not establish a connected central sheet across the left and right halves.", "single_sheet_depth_voxel": null},
+    {"fixed_coordinate": ["Y", 2204], "finding": "A strong dark band lies near d=0 to +1 around local x=96 and 128, and around d=+4 at x=160. It coexists with another dark band on the negative side around d=-16 to -23. The central band cannot be assigned to sheet, gap, or boundary from this section.", "single_sheet_depth_voxel": null},
+    {"fixed_coordinate": ["X", 9226], "finding": "A short dark band around d=+3 to +7 at local y=64,96,128 changes strength and fades or splits. Several contrast bands remain in other depth ranges. A sheet through the centre cannot be linked across both ends.", "single_sheet_depth_voxel": null},
+    {"fixed_coordinate": ["X", 9354], "finding": "Several adjacent wavy bands are visible at negative and positive depth and bend or fade at different places. The centre does not supply a continuous uniquely identifiable band.", "single_sheet_depth_voxel": null}
+  ],
+  "adoption_threshold_sections": 3,
+  "conclusion": "Current geometry adoption threshold not met. Physical sheet correspondence and a constant offset are indeterminate. Multiple contrast bands are visible, and no sheet switch or multiple physical sheets has been established.",
+  "independent_review": "Lead independently reviewed sections.png without prior model images. Lead could trace the bright w035 band and could not uniquely trace the same PHerc1218 sheet near d=0 in three or more sections. The central Y2204 dark band remained unclassified.",
+  "next_discriminator": "A physical trace through the orthogonal original CT that links both sides of the same papyrus lamina across the fixed crop, independently identifies gap and sheet, and can be intersected with P+dN. A fixed offset test needs consistent signed depths along that trace."
+}

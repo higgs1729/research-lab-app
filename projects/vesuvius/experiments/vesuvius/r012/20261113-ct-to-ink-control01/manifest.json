@@ -1,0 +1,435 @@
+{
+  "files": [
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/acquisition.json",
+      "bytes": 3410,
+      "sha256": "0ba47e36654d01e16d7b689ef3d52e6053f02a7d2227ba06e91b8015dc4a6a11"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/acquisition.jsonl",
+      "bytes": 2740,
+      "sha256": "83ca747c54ddbd1e2893faafaf8c617c665ca372837fca34cf97a71eaeef7149"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/comparison.json",
+      "bytes": 13129,
+      "sha256": "12ad98b48cd9325adf251abcdd13738c5befda59abe29b7611ef6031929eb669"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/control.py",
+      "bytes": 15541,
+      "sha256": "27f09475f89a0987b97bef918a490bd6d5cc071fe805e72bece4d39432b8b812"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/ct-audit.json",
+      "bytes": 999,
+      "sha256": "9935c931b023cd649f3b058241513198969bbaf0dd2074f847cf8d44c5d1820d"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/ct.zarr/.zattrs",
+      "bytes": 3018,
+      "sha256": "97e968dbbf11cc856dc57648aaaa9e6cade5e6575472dcfdeac7cfa50f546dd9"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/ct.zarr/.zgroup",
+      "bytes": 23,
+      "sha256": "e1e1914ae531ecb50e1ead685ef01895a5452faf5f25f35cd78f1f5de1367470"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/ct.zarr/0/.zarray",
+      "bytes": 239,
+      "sha256": "562679cffc09a94b7342a38c37e49f433a4dfa6e3c93b7599dbeaec791186a35"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/ct.zarr/0/31/26/32",
+      "bytes": 2097152,
+      "sha256": "fae44439c239f7ad0f70ccf803619f8ae343684e682ee23759d85627e8493203"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/ct.zarr/0/31/27/32",
+      "bytes": 2097152,
+      "sha256": "59e8b39f2f5fc032fb774f3612fcf7408cf0c106b0e4aabb016dcee1fb5acb35"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/ct.zarr/0/32/26/32",
+      "bytes": 2097152,
+      "sha256": "ab30cffcb0753c3be21f0a60de4585d7cd4ad286333f8a81029314c5b0e2f77e"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/ct.zarr/0/32/27/32",
+      "bytes": 2097152,
+      "sha256": "e992e45976de03ea12fd6c77b870441f2655210e0a407cc09ada3b3d5b422b7e"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/ct.zarr/metadata.json",
+      "bytes": 8125,
+      "sha256": "95917633ca11a1ddff2e6b7d66360c508f8158bbe05be277c8d51477befb5bae"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/0-0/geometry-process.json",
+      "bytes": 1453,
+      "sha256": "e1405dfdb4500f1787e91bbd7536566126861f56aee765d09c1fbf86b954d115"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/0-0/geometry-time.txt",
+      "bytes": 16,
+      "sha256": "a28243e69486e60d267ccfa1ec504597a0e6a94f87982556c8b2626b51d58aa4"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/0-0/geometry.bin",
+      "bytes": 98352,
+      "sha256": "3fb561005e1a331835c649c8fac1d623f86f12a0900609d1603460104ac59773"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/0-0/geometry.log",
+      "bytes": 606,
+      "sha256": "0577062e832ae13abba027420891b7691244d87dbb972f3dbf859503dbee3d6f"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/0-0/settings.json",
+      "bytes": 1995,
+      "sha256": "e17a9f8d2c7598b9173d54c65df095cc3185835a673785f0210021f2ac1cf902"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/0-64/geometry-process.json",
+      "bytes": 1455,
+      "sha256": "3e3965197ba0cf28ae588688fb133c4e72a7e30366c5621db35bd994f83078b5"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/0-64/geometry-time.txt",
+      "bytes": 16,
+      "sha256": "b407994929bed88600145015cbd2b9601e1dcc07cf61b2b04e9603afb186552e"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/0-64/geometry.bin",
+      "bytes": 98352,
+      "sha256": "4aefc7c94585aae849377517df34174ffd49aa0b1b1afe56cf44533f2ab2ac13"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/0-64/geometry.log",
+      "bytes": 608,
+      "sha256": "5e47c80a925a8fbdb3a88e910c6fc3b2135f86ed2f90bda2ad923c0babddb9a4"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/0-64/settings.json",
+      "bytes": 1998,
+      "sha256": "075e28d6b48cb7334239e698c172dd74a444ff79ad2e024952a35203c1282576"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/64-0/geometry-process.json",
+      "bytes": 1455,
+      "sha256": "545527787e978c7a225f29750e40224a305f4e16b6549f706f0bdadedfcbde91"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/64-0/geometry-time.txt",
+      "bytes": 16,
+      "sha256": "69a1ceb1ae3dfb075a8018b6ff1822290187cc4cb0906991754b8befdddc6768"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/64-0/geometry.bin",
+      "bytes": 98352,
+      "sha256": "2e027f2186bbd2c148f60151042d9ba140dbd6269c5b0e97b749044e962ef1c2"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/64-0/geometry.log",
+      "bytes": 608,
+      "sha256": "3089ce9d0edab024e229ee24623d3d6d93a028f40dd6a3b0cd5b4668ff79b850"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/64-0/settings.json",
+      "bytes": 1998,
+      "sha256": "e0a1070824f660453750780184c0b4cfac46837c8a842cc0f8b676de5a39b308"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/64-64/geometry-process.json",
+      "bytes": 1457,
+      "sha256": "6f318a56da5a7b2a3e8708afe091444180157f0c8998a6b5e50181605ad00dee"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/64-64/geometry-time.txt",
+      "bytes": 16,
+      "sha256": "a74c2aa77649bb714658676a01a8c40cc63fb093a4019d462f1d93fa27ea669a"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/64-64/geometry.bin",
+      "bytes": 98352,
+      "sha256": "8bc805488e68c81e96230ad46425ef678b3e7949bb6bdacb3ee91dd68ee77c32"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/64-64/geometry.log",
+      "bytes": 610,
+      "sha256": "1953cbdc05b56822703de834097cd4dfe140f92a8f6802b1e250604639de29d8"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/64-64/settings.json",
+      "bytes": 2001,
+      "sha256": "391db3e27a15e3934ba24166cda31ef3eadc24420dd2190ea341beff590e8694"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/geometry/ldd.log",
+      "bytes": 5499,
+      "sha256": "e102c2a98b4140df41df2f8b346ae1301b0993c87e70d2458bfa2fdbaf381bae"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/infer.py",
+      "bytes": 2469,
+      "sha256": "30048de7229cc60d0aa01338d5a74406dbb295b0782ecddbe8db8350e66f8a19"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/infer01/execution.json",
+      "bytes": 2002,
+      "sha256": "56d7e41c72b27f71c99b30815937330fd689548d4368bfdc32a15237691a8577"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/infer01/probability.tif",
+      "bytes": 9648,
+      "sha256": "a0c0e532a954ee7714f33aa819d458db7201f70beb60f11a90f9ea0fc5ee704a"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/infer01-process.json",
+      "bytes": 673,
+      "sha256": "59544f841b9d50acbc6de6cd4ab15e684a7978c8f3e9f18b2096a429a632153a"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/infer01.stderr.log",
+      "bytes": 2159,
+      "sha256": "a6d5fb0f5c60c6d4171ff57875634a3d464fbde62987e5afddc82db789009a62"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/infer01.stdout.log",
+      "bytes": 1712,
+      "sha256": "359fff9e8b4ef2d1178c6494295bcd41c321d069ec4170fc8abb3da0c4bffa4d"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/model-input.zarr/.zattrs",
+      "bytes": 1128,
+      "sha256": "bca11bcea28de789bca8716325df899bd4a9b3bc20154cc3b03f1b310e73cb62"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/model-input.zarr/.zgroup",
+      "bytes": 26,
+      "sha256": "f5fc66b6ac3bbb797e622786117c06800a729eacf0faf68d6dd507f5eb5afabd"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/model-input.zarr/0/.zarray",
+      "bytes": 253,
+      "sha256": "272589f8e8cc29e936548430d65ce992b47d0949a61186379e735ef36999943a"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/model-input.zarr/0/0/0/0",
+      "bytes": 458752,
+      "sha256": "8289167d1be30b93106fa6d03bf84974f429e525dea354c39922f412032a8539"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/plan.json",
+      "bytes": 2709,
+      "sha256": "27e46d9c42a6bfd46f189a5e1be6098b138e53f3611beda2c6bc1c660496f32d"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/README.md",
+      "bytes": 2580,
+      "sha256": "9e79421e19b4c4ae1fa05c7c5a36f3408f15635434418d56d425e74b1bb6e22c"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/record.json",
+      "bytes": 1585,
+      "sha256": "804e9db3d8a2b4966c9a794e570be6c7edab5184e10b325cfad5a8c98ed495b9"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/ldd.log",
+      "bytes": 5499,
+      "sha256": "ef41f683b0ca2d7b0ff4ff329e7180c21f1e1370c5259bcead3ad45ddd306f2a"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/render-process.json",
+      "bytes": 1443,
+      "sha256": "e40a04441eefe79cbfef71302ebce64766247a52b7fbedb18b63caa8f49e18b0"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/render-time.txt",
+      "bytes": 16,
+      "sha256": "a0aa9aee9ba4e8f040356d7451534fdac4134f1c3e41ff8592f6e0027dd4e932"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/render.log",
+      "bytes": 648,
+      "sha256": "c1a353b730e2bb5fe3f6fe632cb211a74ec8aa58e2934673511905bd28200da4"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/settings.json",
+      "bytes": 1819,
+      "sha256": "da7533d8d8dfc0be7c974bba26372b45b4112abafc97567f5c7347c7ac6bc992"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/surface.zarr/.zattrs",
+      "bytes": 1253,
+      "sha256": "2c0f5c9c1efdb4a02243e3b155a661ee1fae6d4376a52193d9f917a38a3b6a3c"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/surface.zarr/.zgroup",
+      "bytes": 19,
+      "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/surface.zarr/0/.zarray",
+      "bytes": 234,
+      "sha256": "8feebe695caa9882cdc9243a9384ed97be44dc63309c87579de9b03d07f20557"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/surface.zarr/0/0/0/0",
+      "bytes": 458752,
+      "sha256": "8289167d1be30b93106fa6d03bf84974f429e525dea354c39922f412032a8539"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/00.tif",
+      "bytes": 11882,
+      "sha256": "d8e3243d0a09972cb96ea38f9eb01d4a7da608c475a6d32a18fd51e88c2d1cb1"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/01.tif",
+      "bytes": 11406,
+      "sha256": "9f4cbe77088fc9b717feb04aba726ddaa2b56354263c46f64fea9a2cb965482f"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/02.tif",
+      "bytes": 10902,
+      "sha256": "0d78bbe71a056dcf88585d29c870c004941039055d67dfa61e2a1903406df9d3"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/03.tif",
+      "bytes": 10756,
+      "sha256": "6acb3cba047e4218e5439324764727eb9f5fb7ba185a4477c2f58d664b32f567"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/04.tif",
+      "bytes": 10924,
+      "sha256": "a71a0952ecc62ecd352c569f455050b4947cc725f033b7b94e030b84d04e8def"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/05.tif",
+      "bytes": 11882,
+      "sha256": "c481859108dec5fc197d609b4a98465df469cdc08c144acd7e37f0336de0de56"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/06.tif",
+      "bytes": 12698,
+      "sha256": "728b4db3f6e31d874e7622c9915136e782dd153c750b0646d23af3b26dbdbb91"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/07.tif",
+      "bytes": 13364,
+      "sha256": "c327fc38d144637c94a24f7b6c019ada3b706f253c3abab5713c8c4e5d1941dc"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/08.tif",
+      "bytes": 13950,
+      "sha256": "032ea33c45641fb41a71dcb16ac4c7293a9e6df5f5d1014917e3dc98d80f3643"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/09.tif",
+      "bytes": 14450,
+      "sha256": "23242406922493e35c9843666eb9f7b4eb6174852ba6d6c7a32927fdf9bc23a5"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/10.tif",
+      "bytes": 14624,
+      "sha256": "c3fed0b9324b97dc2465d27cb3a40c313cf139d211ca8df5235527f21e66e71c"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/11.tif",
+      "bytes": 15216,
+      "sha256": "12e82f862b6eae5d9ba4f82c8e6d791fa4eea792d2ec5527b820fe06ea44e650"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/12.tif",
+      "bytes": 15538,
+      "sha256": "83553799c409be42a69637cd7be24a8fc90326999e3bdf32c8ca4d846bcde638"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/13.tif",
+      "bytes": 15598,
+      "sha256": "4c46e865f274350bca422e5ff34da9316d278d32e724483279a1ca5553f550ad"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/14.tif",
+      "bytes": 15274,
+      "sha256": "b7926975e91cf5e3182de8b14e140b02ce16076befb7debe930689e52f029bcf"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/15.tif",
+      "bytes": 15104,
+      "sha256": "2da1d7979ea873b561f26ef821fee5fadb625500cf26bedf4ea67d162fd459ef"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/16.tif",
+      "bytes": 14920,
+      "sha256": "c8d320718e517e7f5437cf1a4445658122d99c89b5115864707eba252e24a0af"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/17.tif",
+      "bytes": 14508,
+      "sha256": "826fa25767696d12d0613e806cf7aeaa0fcd22cfbd1f1f6c42832fb34469b05f"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/18.tif",
+      "bytes": 13836,
+      "sha256": "2b4c0b061d0ae0710cdcee98b0370cdd47a7144845a26f51bd6e6fae3c57ff0a"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/19.tif",
+      "bytes": 13030,
+      "sha256": "25b90527a53c2e85b795febf2b43f25f2ff7d581b5d119ed03f172941afb97b8"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/20.tif",
+      "bytes": 12462,
+      "sha256": "ac884955bac0f70f3a5cb6e4dfc4f535d6c2778c04cfe2b7d05dbbcf3c611ce7"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/21.tif",
+      "bytes": 12490,
+      "sha256": "b16e4d0600321e4e558f7378bd6d79cf0b4c3aadeff86a6b171431392cd2ea81"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/22.tif",
+      "bytes": 12756,
+      "sha256": "767411ab7bd6219715ce747bc7af531ff284f9c6800dc6e55d9c48f6791b79cb"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/23.tif",
+      "bytes": 12998,
+      "sha256": "c16739519dab7f97ce943f3467f1db1fec6b99c3d50c53dbcac1c4259411d12d"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/24.tif",
+      "bytes": 13132,
+      "sha256": "209b84020da2af5ed1ea7904fe44304d7d4393ded0a6a08e364fcd6a304a0511"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/25.tif",
+      "bytes": 13196,
+      "sha256": "5258663db3ab543d57c0d1812dc4bbd6a2e7a2ca63d9e0c713eff5801c0b2055"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/26.tif",
+      "bytes": 13468,
+      "sha256": "2d5451daf7dd0d059fb111d29729f6a703ee8a3475b3538e1ed44c1bdaa28dfe"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render/tiff/27.tif",
+      "bytes": 13754,
+      "sha256": "acbbfa612f467b5f06bc277a28a44479afb8f18822b886646fc07dc6daa9c762"
+    },
+    {
+      "file": "experiments/vesuvius/r012/20261113-ct-to-ink-control01/render.py",
+      "bytes": 4791,
+      "sha256": "d5a03d3bd42e2d232bee765229aafd59eb195c4b8ea01d770e9352f3c6541970"
+    },
+    {
+      "file": "research/135-r012-ct-to-ink-control.md",
+      "bytes": 10907,
+      "sha256": "ab2945b63b950f4346acef0d2933c3748a66aababf1dd94549387a3a9ed8aac0"
+    }
+  ],
+  "bytes": 10196242
+}

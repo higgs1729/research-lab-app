@@ -1,0 +1,587 @@
+{
+  "question": "Single known-letter execution control of the PHerc0211 winner soft-loss model; no generalization or novel-text claim",
+  "source_commit": "235e3be8a06749344862c89a1e52c81d90b15e0e",
+  "source_files": {
+    "model.py": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\sources\\studio-multiscroll-cpt-20261023\\hf\\model.py",
+      "sha256": "efbb390b6208c480fa8e8681137690b7df897c3e406956b9e804fa66645316d7"
+    },
+    "inference.py": {
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-new-211-winner-model01\\sources\\studio-multiscroll-cpt-20261023\\hf\\inference.py",
+      "sha256": "09752cf7aa0b682c6ca9a46e41bf1f9f279e30d74d35eaab8fc0311504223ec0"
+    }
+  },
+  "checkpoint": {
+    "file": "studio-softloss-20261023-ema.safetensors",
+    "url": "https://github.com/priyankaranke/vesuvius-studio-multiscroll-cpt/releases/download/studio-softloss-20261023/studio-softloss-20261023-ema.safetensors",
+    "bytes": 893443724,
+    "sha256": "96b326286e38de99047f7cab36170c53749a18d5f43e5fde0c7c20f2980b0e90",
+    "download_limit_bytes": 943718400,
+    "parent_expansion_approval": "2026-11-15 parent message; original512MiB extended to900MiB"
+  },
+  "control": "PHerc0343 concat_w047-w048_R5B2_z9500-11000, known boxes9/10 from R222",
+  "previous_input": {
+    "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-reader-v3-known-control01\\input.npy",
+    "sha256": "fb84f9cd40d201374817c4f793691a6ce1dd78f72f33b7726f9c3715d347bed9",
+    "shape": [
+      17,
+      960,
+      1152
+    ],
+    "support_xywh": [
+      1152,
+      768,
+      1152,
+      960
+    ],
+    "offsets_voxel": [
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "input": {
+    "file": "input16.npy",
+    "sha256": "5ff8a0909d37436207f95bf1fed5512babea086da7961d05fdd7e2bcf04a9a7c",
+    "shape": [
+      16,
+      576,
+      832
+    ],
+    "dtype": "uint8",
+    "bbox_xywh": [
+      1264,
+      1008,
+      832,
+      576
+    ],
+    "source_depth_indices": [
+      16,
+      15,
+      14,
+      13,
+      12,
+      11,
+      10,
+      9,
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1
+    ],
+    "offsets_voxel": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0,
+      -1,
+      -2,
+      -3,
+      -4,
+      -5,
+      -6,
+      -7
+    ],
+    "pitch_um": 8.64,
+    "interpolation": "unchanged R222 native scale1/step1 linear CT render",
+    "depth_basis": "supplied31planes23..8 relative center15 means+8..-7; transfer same signed normal used for R222 reverse, no shift/orientation sweep",
+    "new_ct_bytes": 0,
+    "new_surface_generation": false
+  },
+  "full_canvas_hw": [
+    2560,
+    6720
+  ],
+  "main_xywh": [
+    1344,
+    1088,
+    672,
+    448
+  ],
+  "patches": {
+    "input_zyx": [
+      16,
+      128,
+      128
+    ],
+    "core_hw": [
+      96,
+      96
+    ],
+    "halo_each": 16,
+    "stride": 64,
+    "core_global_xy": [
+      [
+        1280,
+        1024
+      ],
+      [
+        1344,
+        1024
+      ],
+      [
+        1408,
+        1024
+      ],
+      [
+        1472,
+        1024
+      ],
+      [
+        1536,
+        1024
+      ],
+      [
+        1600,
+        1024
+      ],
+      [
+        1664,
+        1024
+      ],
+      [
+        1728,
+        1024
+      ],
+      [
+        1792,
+        1024
+      ],
+      [
+        1856,
+        1024
+      ],
+      [
+        1920,
+        1024
+      ],
+      [
+        1984,
+        1024
+      ],
+      [
+        1280,
+        1088
+      ],
+      [
+        1344,
+        1088
+      ],
+      [
+        1408,
+        1088
+      ],
+      [
+        1472,
+        1088
+      ],
+      [
+        1536,
+        1088
+      ],
+      [
+        1600,
+        1088
+      ],
+      [
+        1664,
+        1088
+      ],
+      [
+        1728,
+        1088
+      ],
+      [
+        1792,
+        1088
+      ],
+      [
+        1856,
+        1088
+      ],
+      [
+        1920,
+        1088
+      ],
+      [
+        1984,
+        1088
+      ],
+      [
+        1280,
+        1152
+      ],
+      [
+        1344,
+        1152
+      ],
+      [
+        1408,
+        1152
+      ],
+      [
+        1472,
+        1152
+      ],
+      [
+        1536,
+        1152
+      ],
+      [
+        1600,
+        1152
+      ],
+      [
+        1664,
+        1152
+      ],
+      [
+        1728,
+        1152
+      ],
+      [
+        1792,
+        1152
+      ],
+      [
+        1856,
+        1152
+      ],
+      [
+        1920,
+        1152
+      ],
+      [
+        1984,
+        1152
+      ],
+      [
+        1280,
+        1216
+      ],
+      [
+        1344,
+        1216
+      ],
+      [
+        1408,
+        1216
+      ],
+      [
+        1472,
+        1216
+      ],
+      [
+        1536,
+        1216
+      ],
+      [
+        1600,
+        1216
+      ],
+      [
+        1664,
+        1216
+      ],
+      [
+        1728,
+        1216
+      ],
+      [
+        1792,
+        1216
+      ],
+      [
+        1856,
+        1216
+      ],
+      [
+        1920,
+        1216
+      ],
+      [
+        1984,
+        1216
+      ],
+      [
+        1280,
+        1280
+      ],
+      [
+        1344,
+        1280
+      ],
+      [
+        1408,
+        1280
+      ],
+      [
+        1472,
+        1280
+      ],
+      [
+        1536,
+        1280
+      ],
+      [
+        1600,
+        1280
+      ],
+      [
+        1664,
+        1280
+      ],
+      [
+        1728,
+        1280
+      ],
+      [
+        1792,
+        1280
+      ],
+      [
+        1856,
+        1280
+      ],
+      [
+        1920,
+        1280
+      ],
+      [
+        1984,
+        1280
+      ],
+      [
+        1280,
+        1344
+      ],
+      [
+        1344,
+        1344
+      ],
+      [
+        1408,
+        1344
+      ],
+      [
+        1472,
+        1344
+      ],
+      [
+        1536,
+        1344
+      ],
+      [
+        1600,
+        1344
+      ],
+      [
+        1664,
+        1344
+      ],
+      [
+        1728,
+        1344
+      ],
+      [
+        1792,
+        1344
+      ],
+      [
+        1856,
+        1344
+      ],
+      [
+        1920,
+        1344
+      ],
+      [
+        1984,
+        1344
+      ],
+      [
+        1280,
+        1408
+      ],
+      [
+        1344,
+        1408
+      ],
+      [
+        1408,
+        1408
+      ],
+      [
+        1472,
+        1408
+      ],
+      [
+        1536,
+        1408
+      ],
+      [
+        1600,
+        1408
+      ],
+      [
+        1664,
+        1408
+      ],
+      [
+        1728,
+        1408
+      ],
+      [
+        1792,
+        1408
+      ],
+      [
+        1856,
+        1408
+      ],
+      [
+        1920,
+        1408
+      ],
+      [
+        1984,
+        1408
+      ],
+      [
+        1280,
+        1472
+      ],
+      [
+        1344,
+        1472
+      ],
+      [
+        1408,
+        1472
+      ],
+      [
+        1472,
+        1472
+      ],
+      [
+        1536,
+        1472
+      ],
+      [
+        1600,
+        1472
+      ],
+      [
+        1664,
+        1472
+      ],
+      [
+        1728,
+        1472
+      ],
+      [
+        1792,
+        1472
+      ],
+      [
+        1856,
+        1472
+      ],
+      [
+        1920,
+        1472
+      ],
+      [
+        1984,
+        1472
+      ]
+    ],
+    "count": 96,
+    "full_canvas_phase": true,
+    "outside_reflection_required": false,
+    "CPU_reference_indices": [
+      0,
+      47,
+      95
+    ]
+  },
+  "contract": {
+    "normalization": "clip(raw,0,200)/255 float32, no per-patch normalization",
+    "network": "official DeepResidualUNet(deeper=False)",
+    "parameters_expected": 223355921,
+    "strict_load": true,
+    "output": "depth-weighted pooled logits[1,1,128,128]; central[16:112,16:112] float32.sigmoid",
+    "blend": "official hann96 pixel-centred, no floor; weight average of probabilities",
+    "mask": "set final pixels with all16 CT planes zero to0; no patch skip",
+    "dtype": "FP32",
+    "batch": 1,
+    "TTA": false,
+    "compile": false,
+    "TF32": false,
+    "cpu_gpu_max_abs": 0.0001
+  },
+  "execution": {
+    "cpu_reference_forwards": 3,
+    "gpu_forwards": 96,
+    "cpu_threads": 1,
+    "cpu_commit_gib": 4,
+    "gpu_allocator_gib": 4,
+    "ram_floor_gib": 4,
+    "vram_floor_gib": 1,
+    "disk_floor_gib": 10,
+    "work_cap_bytes": 1610612736,
+    "cpu_deadline_s": 360,
+    "gpu_entry_s": 120,
+    "gpu_model_s": 900,
+    "gpu_outer_s": 1080,
+    "estimate": "unmeasured architecture: CPU3 refs up to360s; GPU96 up to900s, hard deadlines not performance estimate",
+    "route": "R222/223 no-interrupt FIFO shim + R191 runtime + R220 supervisor; existing CPU/CUDA environments",
+    "cloud_incremental_usd": 0,
+    "stop": "Any incomplete input/strict mismatch/nonfinite/reference error>1e-4/resource floor/deadline stops this job only; no changed conditions to rescue"
+  },
+  "visual_judgement": {
+    "main_native_xywh": [
+      1344,
+      1088,
+      672,
+      448
+    ],
+    "panels": "native raw0..255 and fixed-main median..p99.5 alongside saved R222 CT/Reader/public reference; common atlas256 alongside saved Hecate,dense-native,seed42",
+    "features": "pre-existing known dark enclosure and curved boundary; separated lower bright component; two thin left terminals",
+    "success": "valid model+CPU/GPU agreement+whether same-position known coarse structure appears; fine separation recorded independently, no AP/accuracy ranking",
+    "single_condition": true,
+    "unknown_next": "root selects only after review"
+  },
+  "provenance_limits": [
+    "No PHerc0211 training pixels per author, but model/loss selected with0211 validation and labels possibly drawn with Studio-family maps.",
+    "Five PHerc0343P Reader rows, scan20250521134555. Competition0343 scan/part relation requires source alias check; this remains execution control regardless.",
+    "Scratch -> Studio epoch9 -> continued30000 -> softloss3000 EMA per published records; not independent reconstruction of training."
+  ],
+  "disk_preflight": {
+    "C_free_bytes": 13229760512,
+    "planned_weight_bytes": 893443724
+  }
+}

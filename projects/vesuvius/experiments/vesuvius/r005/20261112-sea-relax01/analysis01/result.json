@@ -1,0 +1,150 @@
+{
+  "candidate": "N",
+  "raw_pin_max_error": 0.000142501553662093,
+  "all100_boundary_restored_exact": true,
+  "only124_interior_may_change": true,
+  "C_fixed_coarse_external_prepack_and_packed_exact": true,
+  "measurements": {
+    "candidate": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_area": 0.36532380015319177,
+      "full_SD_positive_only": 1.1658562996388209,
+      "subject_SD_positive_only": 2.0621319258694926,
+      "pairs": 0,
+      "internal_pairs": 0,
+      "external_pairs": 0,
+      "boundary_simple": true
+    },
+    "packed": {
+      "negative": 0,
+      "zero": 0,
+      "minimum_area": 0.3517625331878662,
+      "full_SD_positive_only": 1.1764030449873752,
+      "subject_SD_positive_only": 2.062142184478683,
+      "pairs": 0,
+      "internal_pairs": 0,
+      "external_pairs": 0,
+      "boundary_simple": true
+    }
+  },
+  "raster_gates": {
+    "I": {
+      "candidate": {
+        "id": "N",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1764030449873752
+      },
+      "control": {
+        "id": "I",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1763771177297075
+      },
+      "rule": "candidate has no negative/zero faces and mean_SD < control mean_SD",
+      "passed": false
+    },
+    "M": {
+      "candidate": {
+        "id": "N",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1764030449873752
+      },
+      "control": {
+        "id": "M",
+        "coordinate_stage": "packed_float32",
+        "faces": 478224,
+        "negative_faces": 0,
+        "zero_faces": 0,
+        "mean_SD": 1.1767817507761231
+      },
+      "rule": "candidate has no negative/zero faces and mean_SD < control mean_SD",
+      "passed": true
+    }
+  },
+  "packing_translations": [
+    {
+      "component": 1,
+      "vertices": 195936,
+      "shift": [
+        -9075.5100040077,
+        107.94813392166351
+      ]
+    },
+    {
+      "component": 0,
+      "vertices": 30027,
+      "shift": [
+        39496.1702018038,
+        277.51085805665906
+      ]
+    },
+    {
+      "component": 2,
+      "vertices": 19470,
+      "shift": [
+        50557.30385491612,
+        -1380.2710348003886
+      ]
+    },
+    {
+      "component": 6,
+      "vertices": 2131,
+      "shift": [
+        21159.10197041004,
+        -3615.09326171875
+      ]
+    },
+    {
+      "component": 7,
+      "vertices": 1243,
+      "shift": [
+        16758.546453022624,
+        -3942.817601500688
+      ]
+    },
+    {
+      "component": 5,
+      "vertices": 991,
+      "shift": [
+        45773.385093677614,
+        -2798.063473964491
+      ]
+    },
+    {
+      "component": 3,
+      "vertices": 49,
+      "shift": [
+        55690.00867855062,
+        -2414.024658203125
+      ]
+    },
+    {
+      "component": 4,
+      "vertices": 49,
+      "shift": [
+        46879.175181860825,
+        -2718.3642578125
+      ]
+    },
+    {
+      "component": 8,
+      "vertices": 49,
+      "shift": [
+        26874.642954702278,
+        -4302.119140625
+      ]
+    }
+  ],
+  "stages": 1,
+  "iterations": 50,
+  "elapsed_seconds": 5.820189699996263
+}

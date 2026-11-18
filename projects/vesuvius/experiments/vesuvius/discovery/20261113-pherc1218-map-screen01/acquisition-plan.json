@@ -1,0 +1,102 @@
+{
+  "fixed_revision": "ac5ffd7098120368216948c4e06c494bf8e67178",
+  "fixed_tree_sha256": "121096ae115986db112e815abf6efba8094440631f6ccde7b76a59ffbb7fa658",
+  "fixed_tree_url": "https://huggingface.co/api/datasets/SharpMeow/first-letters-ink-atlas/tree/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc1218?recursive=true",
+  "files": [
+    {
+      "path": "surfaces/PHerc1218/kbh-PHerc1218_3144_3279_16272/ct_mid.png",
+      "output": "originals/3144-ct.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc1218/kbh-PHerc1218_3144_3279_16272/ct_mid.png",
+      "bytes": 2070905,
+      "sha256_lfs": "ec7b0807512c8588d3363f492647404371971c5a6256ea8956eff1d7342bc1a2",
+      "git_blob_oid": "ada2b8960cc1d30d5155aebe9a119f9e91a2a8a1",
+      "head_final_host": "us.aws.cdn.hf.co",
+      "head": {
+        "Content-Length": "2070905",
+        "ETag": "\"ada1ab08566e1d2b003a9f1a60233462f33d74674971d7c7d56ad5130fb62ab5\"",
+        "Content-Type": "image/png"
+      },
+      "head_utc": "2026-11-13T15:03:43.149027+00:00"
+    },
+    {
+      "path": "surfaces/PHerc1218/kbh-PHerc1218_3144_3279_16272/ensemble/forward.png",
+      "output": "originals/3144-forward.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc1218/kbh-PHerc1218_3144_3279_16272/ensemble/forward.png",
+      "bytes": 1355343,
+      "sha256_lfs": "548b679a0ef06aacde463cb219d10f7454fc233ee4d9f9c2729f54d0c3b29ac2",
+      "git_blob_oid": "e9f19badbbdcaac614bfd8e04a04ac1795c0a509",
+      "head_final_host": "us.aws.cdn.hf.co",
+      "head": {
+        "Content-Length": "1355343",
+        "ETag": "\"b2c5db9f8c2017bd9b96b9d58e3db3c470fff4843d20446ddba2c04fe9a87125\"",
+        "Content-Type": "image/png"
+      },
+      "head_utc": "2026-11-13T15:03:43.807836+00:00"
+    },
+    {
+      "path": "surfaces/PHerc1218/kbh-PHerc1218_3144_3279_16272/ensemble/reverse.png",
+      "output": "originals/3144-reverse.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc1218/kbh-PHerc1218_3144_3279_16272/ensemble/reverse.png",
+      "bytes": 1362545,
+      "sha256_lfs": "8575c2ea09a8601054e6bf31cc9b1c4cfe2b5de1c1de34ade0bd798e2ee023a8",
+      "git_blob_oid": "721409daf9399fd69fd279b5c61e0eac3a7c396e",
+      "head_final_host": "us.aws.cdn.hf.co",
+      "head": {
+        "Content-Length": "1362545",
+        "ETag": "\"77a5c74aff3cbb5d7144c39ba4c8038006a5b2ba39e7a050c3b417ad435a5342\"",
+        "Content-Type": "image/png"
+      },
+      "head_utc": "2026-11-13T15:03:44.452815+00:00"
+    },
+    {
+      "path": "surfaces/PHerc1218/kbh-PHerc1218_4203_4343_16272/ct_mid.png",
+      "output": "originals/4203-ct.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc1218/kbh-PHerc1218_4203_4343_16272/ct_mid.png",
+      "bytes": 2064831,
+      "sha256_lfs": "e3514c87d440e77474c42fd48a76fc61570af78eeb303131e35ea592262cea6c",
+      "git_blob_oid": "89008e4611c21bc312c0130d7c457397f2597692",
+      "head_final_host": "us.aws.cdn.hf.co",
+      "head": {
+        "Content-Length": "2064831",
+        "ETag": "\"5e4b8bdd1d8f515a30501e933360b892bc4ed026aa0ef9d896000636d31bb9c1\"",
+        "Content-Type": "image/png"
+      },
+      "head_utc": "2026-11-13T15:03:45.111445+00:00"
+    },
+    {
+      "path": "surfaces/PHerc1218/kbh-PHerc1218_4203_4343_16272/ensemble/forward.png",
+      "output": "originals/4203-forward.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc1218/kbh-PHerc1218_4203_4343_16272/ensemble/forward.png",
+      "bytes": 1364516,
+      "sha256_lfs": "435243f35392a8594d8eceb898967544d4e6f93674af55beb45e4e5397cdceba",
+      "git_blob_oid": "dd230fc7ae702ddb89832d43bc9c208659a79213",
+      "head_final_host": "us.aws.cdn.hf.co",
+      "head": {
+        "Content-Length": "1364516",
+        "ETag": "\"ab933c8f795df20e78319fd13dbcf25c9cf8167ebf0bd628984d9f7ea1994c75\"",
+        "Content-Type": "image/png"
+      },
+      "head_utc": "2026-11-13T15:03:45.779558+00:00"
+    },
+    {
+      "path": "surfaces/PHerc1218/kbh-PHerc1218_4203_4343_16272/ensemble/reverse.png",
+      "output": "originals/4203-reverse.png",
+      "url": "https://huggingface.co/datasets/SharpMeow/first-letters-ink-atlas/resolve/ac5ffd7098120368216948c4e06c494bf8e67178/surfaces/PHerc1218/kbh-PHerc1218_4203_4343_16272/ensemble/reverse.png",
+      "bytes": 1347528,
+      "sha256_lfs": "c331570356c892210218760160bee8b56a29cf9ee7112f0d79bdb206f406af41",
+      "git_blob_oid": "74efd8aed28dae02ef1ce3509fd7fc2cd3cf3a95",
+      "head_final_host": "us.aws.cdn.hf.co",
+      "head": {
+        "Content-Length": "1347528",
+        "ETag": "\"2c9067f8fddd171eba365c78fb7a083242d786e33ab2c505dbdb0b76022e3881\"",
+        "Content-Type": "image/png"
+      },
+      "head_utc": "2026-11-13T15:03:46.443873+00:00"
+    }
+  ],
+  "image_total_bytes": 9565668,
+  "stage_elapsed_seconds": 4.094518699974287,
+  "image_limit_bytes": 25165824,
+  "stage_limit_seconds": 120,
+  "utc": "2026-11-13T15:03:46.443977+00:00"
+}

@@ -1,0 +1,37 @@
+{
+  "results": {
+    "vc_objrefine": {
+      "sha256": "e1efd17f0ae02b2b00e63817be8379f173e4013df9e75add81d90b29a9aaf35d",
+      "shared": {
+        "libvc_core.so": {
+          "resolved": "/home/tomoy/bundle-fixed-main-run01-pywin6ml/build/core/libvc_core.so",
+          "sha256": "4b414187f3bab2d2eebe988e8cc757d40492a20aa8211c7379a54438cb417b14"
+        },
+        "libvc_reader_native.so": {
+          "resolved": "/home/tomoy/bundle-fixed-main-run01-pywin6ml/build/reader/libvc_reader_native.so",
+          "sha256": "e7125f4e0cb01f3ecd8564ef0217d47d2bf2f3fed7c342b5cbdb73276fa86da2"
+        }
+      }
+    },
+    "fixture-check": {
+      "sha256": "34573af79a0f4af79f6b6fc50093f20bf4631c9032a91c859e935ed1e8717a2f",
+      "shared": {
+        "libvc_core.so": {
+          "resolved": "/home/tomoy/bundle-fixed-main-run01-pywin6ml/build/core/libvc_core.so",
+          "sha256": "4b414187f3bab2d2eebe988e8cc757d40492a20aa8211c7379a54438cb417b14"
+        },
+        "libvc_reader_native.so": {
+          "resolved": "/home/tomoy/bundle-fixed-main-run01-pywin6ml/build/reader/libvc_reader_native.so",
+          "sha256": "e7125f4e0cb01f3ecd8564ef0217d47d2bf2f3fed7c342b5cbdb73276fa86da2"
+        }
+      }
+    }
+  },
+  "frozen_input_identity_preserved": true,
+  "output_dir": "/home/tomoy/refinement-window-control01-build03",
+  "elapsed_seconds": 17.034108501000006,
+  "disk_end": {
+    "work_bytes": 9957376,
+    "host_c_free_bytes": 33359101952
+  }
+}

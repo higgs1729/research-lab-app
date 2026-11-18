@@ -1,0 +1,34 @@
+{
+  "compile_sources": {
+    "src/cpp/catalog_bindings.cpp": {
+      "directory": "/home/tomoy/r009-normal-python-run02-678qsuuz/build",
+      "command": "/usr/bin/g++ -D_catalog_EXPORTS -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include/python3.12 -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/site/nanobind/include -I/home/tomoy/r009-normal-python-run02-678qsuuz/source/include -I/home/tomoy/r009-normal-python-run02-678qsuuz/build/include -isystem /mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include -O0 -std=gnu++20 -fPIC -fvisibility=hidden -o CMakeFiles/_catalog.dir/src/cpp/catalog_bindings.cpp.o -c /home/tomoy/r009-normal-python-run02-678qsuuz/source/src/cpp/catalog_bindings.cpp",
+      "file": "/home/tomoy/r009-normal-python-run02-678qsuuz/source/src/cpp/catalog_bindings.cpp",
+      "output": "CMakeFiles/_catalog.dir/src/cpp/catalog_bindings.cpp.o"
+    },
+    "src/cpp/bindings.cpp": {
+      "directory": "/home/tomoy/r009-normal-python-run02-678qsuuz/build",
+      "command": "/usr/bin/g++ -D_reader_EXPORTS -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include/python3.12 -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/site/nanobind/include -I/home/tomoy/r009-normal-python-run02-678qsuuz/source/cmake/../include -I/home/tomoy/r009-normal-python-run02-678qsuuz/source/include -I/home/tomoy/r009-normal-python-run02-678qsuuz/build/include -I/home/tomoy/r009-normal-python-run02-678qsuuz/vc_delta3d/include -I/home/tomoy/r009-normal-python-run02-678qsuuz/source/third_party/volcomp -isystem /mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include -O0 -std=gnu++20 -fPIC -fvisibility=hidden -o CMakeFiles/_reader.dir/src/cpp/bindings.cpp.o -c /home/tomoy/r009-normal-python-run02-678qsuuz/source/src/cpp/bindings.cpp",
+      "file": "/home/tomoy/r009-normal-python-run02-678qsuuz/source/src/cpp/bindings.cpp",
+      "output": "CMakeFiles/_reader.dir/src/cpp/bindings.cpp.o"
+    },
+    "src/cpp/zarr/pyramid.cpp": {
+      "directory": "/home/tomoy/r009-normal-python-run02-678qsuuz/build",
+      "command": "/usr/bin/g++ -Dvc_reader_native_EXPORTS -I/home/tomoy/r009-normal-python-run02-678qsuuz/source/cmake/../include -I/home/tomoy/r009-normal-python-run02-678qsuuz/source/include -I/home/tomoy/r009-normal-python-run02-678qsuuz/build/include -I/home/tomoy/r009-normal-python-run02-678qsuuz/vc_delta3d/include -I/home/tomoy/r009-normal-python-run02-678qsuuz/source/third_party/volcomp -isystem /mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include -O0 -std=gnu++20 -fPIC -o CMakeFiles/vc_reader_native.dir/src/cpp/zarr/pyramid.cpp.o -c /home/tomoy/r009-normal-python-run02-678qsuuz/source/src/cpp/zarr/pyramid.cpp",
+      "file": "/home/tomoy/r009-normal-python-run02-678qsuuz/source/src/cpp/zarr/pyramid.cpp",
+      "output": "CMakeFiles/vc_reader_native.dir/src/cpp/zarr/pyramid.cpp.o"
+    }
+  },
+  "nanobind_sample": {
+    "directory": "/home/tomoy/r009-normal-python-run02-678qsuuz/build",
+    "command": "/usr/bin/g++ -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include/python3.12 -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/site/nanobind/include -isystem /mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/site/nanobind/ext/robin_map/include -isystem /mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include -O0 -std=gnu++20 -fPIC -fvisibility=hidden -fno-strict-aliasing -o CMakeFiles/nanobind-static.dir/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/site/nanobind/src/nb_internals.cpp.o -c /mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/site/nanobind/src/nb_internals.cpp",
+    "file": "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/site/nanobind/src/nb_internals.cpp",
+    "output": "CMakeFiles/nanobind-static.dir/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/site/nanobind/src/nb_internals.cpp.o"
+  },
+  "targets": {
+    "_catalog": "_catalog:\n  input: phony\n    stage/vc_reader/_catalog.cpython-312-x86_64-linux-gnu.so\n  outputs:\n",
+    "_reader": "_reader:\n  input: phony\n    stage/vc_reader/_reader.cpython-312-x86_64-linux-gnu.so\n  outputs:\n"
+  },
+  "source_headers": "/home/tomoy/r009-normal-python-run02-678qsuuz/source/src/cpp",
+  "library_output": "/home/tomoy/r009-normal-python-run02-678qsuuz/build/stage/vc_reader"
+}

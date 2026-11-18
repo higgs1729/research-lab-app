@@ -1,0 +1,110 @@
+{
+  "new_paid_compute_cost": 0,
+  "currency": "USD",
+  "new_real_input_download_bytes": 7887850,
+  "listing_download_bytes": 1955,
+  "llm_and_local_electricity_cost": null,
+  "native_builds": 0,
+  "native_runs": [
+    {
+      "tag": "holdout_baseline_keep1p5_01",
+      "elapsed_seconds": 24.562807832,
+      "started_utc": "2026-11-11T15:10:24.534836+00:00",
+      "completed_utc": "2026-11-11T15:10:49.120337+00:00",
+      "binary_sha256": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b"
+    },
+    {
+      "tag": "holdout_seed_keep1p5_01",
+      "elapsed_seconds": 28.601221079,
+      "started_utc": "2026-11-11T15:12:54.182404+00:00",
+      "completed_utc": "2026-11-11T15:13:22.799659+00:00",
+      "binary_sha256": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b"
+    },
+    {
+      "tag": "holdout_candidate_b_keep1p5_01",
+      "elapsed_seconds": 31.351100448000004,
+      "started_utc": "2026-11-11T15:18:53.473967+00:00",
+      "completed_utc": "2026-11-11T15:19:24.840256+00:00",
+      "binary_sha256": "2fc2ef8ff2d4f3fdb2b2ca2ccb0daaf3bd86e161e434fab399a79aa06e80f19b"
+    }
+  ],
+  "numerical_jobs": [
+    {
+      "name": "parity-original",
+      "started_utc": "2026-11-11T15:11:24.145344+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-holdout01\\solve_extension_dataset.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-holdout01\\parity-original"
+      ],
+      "script_sha256": "a6c220a4cec9f22aaa0ef85e50cfe43ddc952d1bde3bba0a0189bd10a78def2e",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 21.217332099971827,
+      "peak_rss_bytes": 157483008,
+      "stopped": null,
+      "completed_utc": "2026-11-11T15:11:45.364175+00:00"
+    },
+    {
+      "name": "solve-heldout",
+      "started_utc": "2026-11-11T15:14:13.060847+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-holdout01\\solve_extension_dataset.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-holdout01\\solve-heldout",
+        "--probe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-runs\\holdout_seed_keep1p5_01\\output.obj_uv_diagnostics.json",
+        "--source",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-input02"
+      ],
+      "script_sha256": "a6c220a4cec9f22aaa0ef85e50cfe43ddc952d1bde3bba0a0189bd10a78def2e",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 209.53821069997502,
+      "peak_rss_bytes": 629080064,
+      "stopped": null,
+      "completed_utc": "2026-11-11T15:17:42.605139+00:00"
+    },
+    {
+      "name": "analysis01",
+      "started_utc": "2026-11-11T15:20:45.129372+00:00",
+      "command": [
+        "C:\\Users\\tomoy\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-holdout01\\evaluate_holdout.py",
+        "--out",
+        "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r005\\20261112-holdout01\\analysis01"
+      ],
+      "script_sha256": "7f3ada06527c1178a63412f154a7e58fa05c610b1a7c1abba1f188e5dd47edf0",
+      "rss_limit_bytes": 4294967296,
+      "time_limit_seconds": 300,
+      "threads_env": 1,
+      "memory_limit_type": "RSS sampled every 0.1 seconds, not a hard address-space limit",
+      "affinity": [
+        0
+      ],
+      "status": "complete",
+      "exit_code": 0,
+      "elapsed_seconds": 41.15975280001294,
+      "peak_rss_bytes": 788504576,
+      "stopped": null,
+      "completed_utc": "2026-11-11T15:21:26.291473+00:00"
+    }
+  ],
+  "note": "All primary numerical/native jobs completed sequentially. Native processes use a 4 GiB address-space limit; Windows Python uses sampled RSS monitoring. Independent-review resource records are stored in its own folder."
+}

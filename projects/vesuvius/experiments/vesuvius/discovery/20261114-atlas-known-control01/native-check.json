@@ -1,0 +1,44 @@
+{
+  "ct": {
+    "main-center": {
+      "pixels": 512500,
+      "pixels_equal_255": 5
+    },
+    "main-left": {
+      "pixels": 699200,
+      "pixels_equal_255": 39
+    },
+    "lower": {
+      "pixels": 756000,
+      "pixels_equal_255": 454
+    }
+  },
+  "forward": {
+    "main-center": {
+      "pixels": 512500,
+      "pixels_equal_255": 0
+    },
+    "main-left": {
+      "pixels": 699200,
+      "pixels_equal_255": 1825
+    },
+    "lower": {
+      "pixels": 756000,
+      "pixels_equal_255": 7224
+    }
+  },
+  "reverse": {
+    "main-center": {
+      "pixels": 512500,
+      "pixels_equal_255": 115525
+    },
+    "main-left": {
+      "pixels": 699200,
+      "pixels_equal_255": 123018
+    },
+    "lower": {
+      "pixels": 756000,
+      "pixels_equal_255": 120394
+    }
+  }
+}

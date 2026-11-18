@@ -1,0 +1,22 @@
+{
+  "input_sha256": "dd2a67a641784a256f6eca5b79f473d74fdbde4acf42a0bc7effeb40d7dde73c",
+  "main_xywh": [
+    4352,
+    2176,
+    1024,
+    640
+  ],
+  "indices": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "display": "R239 u8 0..255 max, no resampling, rotation, flip or annotations",
+  "file": "review/new-main-CT-preview-native.png",
+  "sha256": "75499480eecb62f390c196ae4d1d4a49b25b549c8e48c1920bc6656a4a0708c7",
+  "shape": [
+    640,
+    1024
+  ]
+}

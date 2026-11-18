@@ -1,0 +1,26 @@
+{
+  "argv": [
+    "C:\\dev\\kensyoukin\\experiments\\vesuvius\\r009\\20261116-standalone-metadata01\\check.py",
+    "prepare",
+    "run07"
+  ],
+  "cwd": "C:\\dev\\kensyoukin",
+  "started_utc": "2026-11-16T07:25:59.689447+00:00",
+  "env": {
+    "OMP_NUM_THREADS": "1",
+    "OMP_THREAD_LIMIT": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "exit_code": 0,
+  "cpu_affinity": [
+    0
+  ],
+  "process_commit_limit_bytes": 4294967296,
+  "completed_utc": "2026-11-16T07:25:59.906016+00:00",
+  "elapsed_seconds": 0.21658639999805018,
+  "max_rss_bytes": 32161792,
+  "user_cpu_seconds": 0.1875,
+  "sys_cpu_seconds": 0.109375
+}

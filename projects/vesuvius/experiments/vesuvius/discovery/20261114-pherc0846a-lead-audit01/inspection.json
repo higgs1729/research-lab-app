@@ -1,0 +1,89 @@
+{
+  "git_blob_checks": {
+    "2765_2952_4205.json": "4c727e35f15e613243627f81b44a01f05a1854326c1d6ae8106d28e753745d9c",
+    "2765_2952_4205.jpg": "67c707896896119f5b9be3493d4c371ca7821b4f0eac6e8de48e378a584595cb",
+    "2601_2784_3851.json": "64ae8469880249c0bf5514f6189ec54e5b68ebb4a5dc789fdc3d36ecf3f41d94",
+    "2601_2784_3851.jpg": "96563e1191aac01878eb2a22db465126af58576b66aa1be5c820f8f1029f3302",
+    "depth-sweep.json": "867a2b94e8e55ed7ec68b58790642a26c5536e0a9f48d7731b378966f08b5ca5",
+    "model-pairs-2765_2952_4205.json": "6cb0712bfd3df2846e498a37cbf6604ea359df1efc83ce5574d04e60f2f83a80",
+    "model-pairs-2601_2784_3851.json": "95950eb1de3af21ab31511d95df344d32b518e4bb7f073e55ba424c0334d038f",
+    "report_card.py": "9e1c3cb62fab76116caa2279038cc2a86c3452b0b538fb1a7c3cd6876c47d3d1"
+  },
+  "cards": {
+    "2765_2952_4205": {
+      "dimensions_wh": [
+        1773,
+        786
+      ],
+      "mode": "RGB",
+      "jpeg_sha256": "67c707896896119f5b9be3493d4c371ca7821b4f0eac6e8de48e378a584595cb",
+      "card_crop_xyxy": [
+        750,
+        43,
+        1509,
+        779
+      ],
+      "crop_png": "2765_2952_4205-card-native.png",
+      "pixel_copy_exact": true,
+      "ratio_from_published_rounded_iou": 3.620278330019881,
+      "consistency_from_published_counts": 0.5,
+      "published_pair_ratio_range": [
+        1.303,
+        5.798
+      ]
+    },
+    "2601_2784_3851": {
+      "dimensions_wh": [
+        1773,
+        786
+      ],
+      "mode": "RGB",
+      "jpeg_sha256": "96563e1191aac01878eb2a22db465126af58576b66aa1be5c820f8f1029f3302",
+      "card_crop_xyxy": [
+        750,
+        43,
+        1509,
+        779
+      ],
+      "crop_png": "2601_2784_3851-card-native.png",
+      "pixel_copy_exact": true,
+      "ratio_from_published_rounded_iou": 5.5475578406169666,
+      "consistency_from_published_counts": 0.6428571428571429,
+      "published_pair_ratio_range": [
+        2.615,
+        8.875
+      ]
+    }
+  },
+  "published_depth_summary_maxima": {
+    "reading_frac_z_gt_2": {
+      "depth": 0,
+      "fraction": 0.0306
+    },
+    "blind_frac_z_gt_2": {
+      "depth": 1,
+      "fraction": 0.0135
+    }
+  },
+  "published_depth_count": 17,
+  "atlas_screen_rule": {
+    "asym_primary": 2.0,
+    "cons_primary": 0.25,
+    "asym_any": 2.5,
+    "cons_any": 0.25,
+    "neighbour_mm": 2.0
+  },
+  "atlas_counts": {
+    "PHerc0846A": {
+      "role": "eligible",
+      "published": 0,
+      "held": 29
+    },
+    "PHerc1545": {
+      "role": "eligible",
+      "published": 0,
+      "held": 13
+    }
+  },
+  "scope": "Decoded JPEG bytes are copied at 1:1 in the PNG crops. Computed ratios and maxima use published aggregate JSON only."
+}

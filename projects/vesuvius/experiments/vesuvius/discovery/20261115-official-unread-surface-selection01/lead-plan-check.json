@@ -1,0 +1,46 @@
+{
+  "utc": "2026-11-14T16:20:02.918925+00:00",
+  "plan_sha256": "950fc1d327740e8ed538e3b41d244d8bcb2808830750093680006739f553d715",
+  "rows": [
+    {
+      "id": 4,
+      "all_mask_values_equal": true,
+      "support": 462964,
+      "main_support": 412428,
+      "full_grid_patches_per_order": 589
+    },
+    {
+      "id": 5,
+      "all_mask_values_equal": true,
+      "support": 371148,
+      "main_support": 326968,
+      "full_grid_patches_per_order": 493
+    }
+  ],
+  "full_keys_bytes": 45711360,
+  "uint8_input_bytes": 19333120,
+  "maximum_patches": 2164,
+  "depths_rational": [
+    "55/9",
+    "65/9",
+    "25/3",
+    "85/9",
+    "95/9",
+    "35/3",
+    "115/9",
+    "125/9",
+    "15",
+    "145/9",
+    "155/9",
+    "55/3",
+    "175/9",
+    "185/9",
+    "65/3",
+    "205/9"
+  ],
+  "depth_contract": "Offsets -8..+7 at9.6um; same16 before reverse; asymmetric by one sample as prior known-control198/217.",
+  "estimated_25min_at_admission_rate_plus_20GB_storage": 0.37615740740740744,
+  "decision": "Accept selected windows and next bounded execution plan. Actual input/worker/lifecycle checks precede Pod creation.",
+  "limitations": "Planning public-raster to TIFXYZ transform is not observed original producer or certified lamina; no inference or letter claim.",
+  "new_network_CT_model_Pod": 0
+}

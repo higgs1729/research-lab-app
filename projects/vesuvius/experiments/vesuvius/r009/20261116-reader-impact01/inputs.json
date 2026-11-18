@@ -1,0 +1,149 @@
+{
+  "saved-old": {
+    "path": ".work/r009-resume-pyramid-fix01/run01/pyramid-disabled.zarr",
+    "files": {
+      ".zattrs": {
+        "bytes": 3549,
+        "sha256": "11493ea9ea42976137da9442b3a351e251b57de8aa04d6699e6545017b98b00c"
+      },
+      "0/.zarray": {
+        "bytes": 330,
+        "sha256": "3aa6350bec7cf3a0dfb80c66d42e3f408dd2e2a800c2c588d0c853329cb9e863"
+      },
+      "0/0/0/0": {
+        "bytes": 1654580,
+        "sha256": "43d386e277729257daea4500d27d3f4d1ed9592c106ef6b9c2f02c660e464d65"
+      }
+    },
+    "ome_paths": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "saved-fixed": {
+    "path": ".work/r009-pyramid-metadata01/run01/disabled-normal.zarr",
+    "files": {
+      ".zattrs": {
+        "bytes": 1305,
+        "sha256": "bfe9201d173114f51d93466794f2e81c68541a7b48dbb230f5be32fe2ac2c70a"
+      },
+      ".zgroup": {
+        "bytes": 19,
+        "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+      },
+      "0/.zarray": {
+        "bytes": 330,
+        "sha256": "3aa6350bec7cf3a0dfb80c66d42e3f408dd2e2a800c2c588d0c853329cb9e863"
+      },
+      "0/0/0/0": {
+        "bytes": 1654580,
+        "sha256": "43d386e277729257daea4500d27d3f4d1ed9592c106ef6b9c2f02c660e464d65"
+      }
+    },
+    "ome_paths": [
+      "0"
+    ]
+  },
+  "legacy-attrs-only": {
+    "path": ".work/r245-reader-impact01/legacy-attrs-only.zarr",
+    "files": {
+      ".zattrs": {
+        "bytes": 3549,
+        "sha256": "11493ea9ea42976137da9442b3a351e251b57de8aa04d6699e6545017b98b00c"
+      },
+      ".zgroup": {
+        "bytes": 19,
+        "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+      },
+      "0/.zarray": {
+        "bytes": 330,
+        "sha256": "3aa6350bec7cf3a0dfb80c66d42e3f408dd2e2a800c2c588d0c853329cb9e863"
+      },
+      "0/0/0/0": {
+        "bytes": 1654580,
+        "sha256": "43d386e277729257daea4500d27d3f4d1ed9592c106ef6b9c2f02c660e464d65"
+      }
+    },
+    "ome_paths": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  },
+  "pyramid-on-control": {
+    "path": ".work/r009-pyramid-metadata01/run01/normal.zarr",
+    "files": {
+      ".zattrs": {
+        "bytes": 3549,
+        "sha256": "11493ea9ea42976137da9442b3a351e251b57de8aa04d6699e6545017b98b00c"
+      },
+      ".zgroup": {
+        "bytes": 19,
+        "sha256": "2b31f1f542fb152b20ff3afe0da0ed76e15b34cd4320854e2d1e6d8671b29d85"
+      },
+      "0/.zarray": {
+        "bytes": 330,
+        "sha256": "3aa6350bec7cf3a0dfb80c66d42e3f408dd2e2a800c2c588d0c853329cb9e863"
+      },
+      "0/0/0/0": {
+        "bytes": 1654580,
+        "sha256": "43d386e277729257daea4500d27d3f4d1ed9592c106ef6b9c2f02c660e464d65"
+      },
+      "1/.zarray": {
+        "bytes": 326,
+        "sha256": "55647932652899cddc97980606ff5de5d4fd674d52e707da1e6bf5cc84e2960a"
+      },
+      "1/0/0/0": {
+        "bytes": 413712,
+        "sha256": "e7d8cd70ccfa7db05ef61d9c9968e85cd0a4d31d00f9d00b0ee07e53f50cdf5b"
+      },
+      "2/.zarray": {
+        "bytes": 326,
+        "sha256": "f0db4d81d4acc2f0c597463e584d29cb61926048f93c60cb11e0859a62a42409"
+      },
+      "2/0/0/0": {
+        "bytes": 103440,
+        "sha256": "6911034c0217cd8dd1f238972964e2f09b5819d8a49e0a729fdf7a7df425958c"
+      },
+      "3/.zarray": {
+        "bytes": 326,
+        "sha256": "48cdf1bf711ddc564a69364d568010c8a1fc150f4b1899ca9feebf4972c16b3d"
+      },
+      "3/0/0/0": {
+        "bytes": 25872,
+        "sha256": "555e5ae85cc9d7d2e2b4551866794c11abe1e6c3ed947be9a11ad9ae88ff4025"
+      },
+      "4/.zarray": {
+        "bytes": 322,
+        "sha256": "3eac8189026eb8796185d81514c0c8ed47a69634e7f513044cf144217af69058"
+      },
+      "4/0/0/0": {
+        "bytes": 6480,
+        "sha256": "01a7275a184f8554cf841439b38e33d3ba1c04546c173f6fa0728b576b14756a"
+      },
+      "5/.zarray": {
+        "bytes": 322,
+        "sha256": "241775fded026270218fb3004b395be7d839a8cfedf3c072af31ebf9bde1acd2"
+      },
+      "5/0/0/0": {
+        "bytes": 1632,
+        "sha256": "2092263fc6ed89b72a5c208056bd4aff9b5c1d55d779821e4d2d406f9861c2ca"
+      }
+    },
+    "ome_paths": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ]
+  }
+}

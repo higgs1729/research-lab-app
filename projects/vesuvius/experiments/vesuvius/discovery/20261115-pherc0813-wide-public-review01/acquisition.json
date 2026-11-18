@@ -1,0 +1,47 @@
+{
+  "images": [
+    {
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-atlas-renders/resolve/33b4fc81f13a32332b179bf8c34f42ec3cfe7589/PHerc0813/z14304_w100/ink-detection/PHerc0813-z14304_w100-20250821151723-ink9um-s43_060k.tif",
+      "path": "originals\\PHerc0813-z14304_w100-20250821151723-ink9um-s43_060k.tif",
+      "bytes": 7559153,
+      "role": "forward",
+      "lfs_sha256": "9e210432e62c8dddc78fd15af4d12fd17986419f143acb737b66ac697b69c4f8",
+      "sha256": "9e210432e62c8dddc78fd15af4d12fd17986419f143acb737b66ac697b69c4f8",
+      "response_headers": {
+        "Content-Length": "7559153",
+        "ETag": "\"d91fa6da64789a30500b6b59196b8b4df615b7deb7cbb8f2a6bd8fc09c48f001\"",
+        "Last-Modified": null
+      },
+      "seconds": 2.7437714999978198
+    },
+    {
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-atlas-renders/resolve/33b4fc81f13a32332b179bf8c34f42ec3cfe7589/PHerc0813/z14304_w100/ink-detection/PHerc0813-z14304_w100-20250821151723-ink9um-s43_060k_reverse.tif",
+      "path": "originals\\PHerc0813-z14304_w100-20250821151723-ink9um-s43_060k_reverse.tif",
+      "bytes": 7510193,
+      "role": "reverse",
+      "lfs_sha256": "8731033368bc11a17f57c5fac0a1f7a16f8f0f77df612216c1f8b5ab14f6556a",
+      "sha256": "8731033368bc11a17f57c5fac0a1f7a16f8f0f77df612216c1f8b5ab14f6556a",
+      "response_headers": {
+        "Content-Length": "7510193",
+        "ETag": "\"94d4c8326094a03df4ee091546619dfc39a4191105f923daf32412c6fd6d5d32\"",
+        "Last-Modified": null
+      },
+      "seconds": 2.588517199998023
+    },
+    {
+      "url": "https://huggingface.co/datasets/rodriguescarson/eligible-scroll-atlas-renders/resolve/33b4fc81f13a32332b179bf8c34f42ec3cfe7589/PHerc0813/z14304_w100/ink-detection/valid_mask.tif",
+      "path": "originals\\valid_mask.tif",
+      "bytes": 36601,
+      "role": "author_mask",
+      "git_blob_sha1": "b9faf19d9c9854c581f7ff8f04d620be99d7a5e5",
+      "sha256": "460db069824b5178caec1df4b2a429f563868e2b8d20286dcf1760646711bd01",
+      "response_headers": {
+        "Content-Length": "36601",
+        "ETag": "\"b9faf19d9c9854c581f7ff8f04d620be99d7a5e5\"",
+        "Last-Modified": null
+      },
+      "seconds": 0.4286290000018198
+    }
+  ],
+  "image_phase_seconds": 5.761383100005332
+}

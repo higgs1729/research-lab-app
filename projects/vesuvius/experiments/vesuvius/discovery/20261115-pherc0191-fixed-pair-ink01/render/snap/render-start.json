@@ -1,0 +1,77 @@
+{
+  "mode": "render",
+  "case": "snap",
+  "crop_xywh": [
+    0,
+    32,
+    2048,
+    1024
+  ],
+  "mount_d": [
+    "/mnt/d rw,noatime",
+    "/mnt/d ro,noatime"
+  ],
+  "network_namespace": "net:[4026532226]",
+  "cpu_affinity": [
+    0
+  ],
+  "as_bytes": 4294967296,
+  "binary_sha256": "7b4232a2356deca215ceaa8d072a7673023db8a5c2bfd90959dcb6c233ee9927",
+  "linked_library_hashes": {
+    "/mnt/d/kensyoukin-work/r003-build/core/libvc_core.so": "8ed5521e73ae4871cf3abd4e4a0ad9f33ee7742aba42d9996eb6aa90304d8e53",
+    "/mnt/d/kensyoukin-work/r003-build/reader/libvc_reader_native.so": "deb1902c94bcbc4d66e6720aad37b6261536656072c3d983b2b779af8a1267cf"
+  },
+  "mesh_sha256": {
+    "meta.json": "2bd8a889650b7838319098d4229b29a289f5115488054ae76e625a3d818502cb",
+    "x.tif": "f775a0d98825764557daab5b06c839c28f1563f406e5b7fa95e956bede1d802e",
+    "y.tif": "44175ae4080b634905aa63e4108323b5dcc83ff130343e644ce1998bf4d12207",
+    "z.tif": "592076a544299b3ebda9a75f078f8f8a9e76b15b655fa3ca43efb79a3312ac8f"
+  },
+  "phase": "render",
+  "command": [
+    "/mnt/d/kensyoukin-work/r005-ct-render01/build02/vc_render_tifxyz",
+    "--volume",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0191-fixed-pair-ink01/ct.zarr",
+    "--segmentation",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0191-fixed-pair-ink01/mesh-snap",
+    "--tif-output",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0191-fixed-pair-ink01/render/snap/tiff",
+    "--zarr-output",
+    "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0191-fixed-pair-ink01/render/snap/surface.zarr",
+    "--zarr-compressor",
+    "none",
+    "--pyramid",
+    "false",
+    "--scale",
+    "0.9752083333333333",
+    "--group-idx",
+    "0",
+    "--num-slices",
+    "33",
+    "--slice-step",
+    "1.0254219183935056",
+    "--surface-interpolation",
+    "linear",
+    "--voxel-size",
+    "9.362",
+    "--voxel-unit",
+    "micrometer",
+    "--cache-gb",
+    "1",
+    "--crop-x",
+    "0",
+    "--crop-y",
+    "32",
+    "--crop-width",
+    "2048",
+    "--crop-height",
+    "1024"
+  ],
+  "cwd": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0191-fixed-pair-ink01/render/snap",
+  "timing_pid": 430,
+  "process_group": 430,
+  "log": "/mnt/c/dev/kensyoukin/experiments/vesuvius/discovery/20261115-pherc0191-fixed-pair-ink01/render/snap/render.log",
+  "timeout_seconds": 119.997546357,
+  "started_utc": "2026-11-14T15:30:27.709030+00:00",
+  "child_proc_stat": "430 (time) R 417 430 430 0 -1 4194304 58 0 0 0 0 0 0 0 20 0 1 0 5818 2764800 320 18446744073709551615 101891670274048 101891670280313 140724151232560 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 101891670293488 101891670294848 101892363206656 140724151238142 140724151239098 140724151239098 140724151242730 0\n"
+}

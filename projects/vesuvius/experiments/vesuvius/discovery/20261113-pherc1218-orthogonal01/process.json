@@ -1,0 +1,9 @@
+{
+  "pid": 2812,
+  "exit_code": 0,
+  "reaped": true,
+  "elapsed_seconds": 2.1330185249998976,
+  "completed_utc": "2026-11-13T14:53:21.834827+00:00",
+  "max_child_rss_bytes": 127397888,
+  "total_file_bytes_before_process_record": 4570074
+}

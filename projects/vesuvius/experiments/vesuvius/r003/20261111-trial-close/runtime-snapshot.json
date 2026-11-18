@@ -1,0 +1,32 @@
+{
+  "captured_utc": "2026-11-11T11:58:40.977277+00:00",
+  "lab": {
+    "phase": "running",
+    "thread_id": "01a1c9bf-639d-70a2-a8bc-664019939aaa",
+    "host_id": "local",
+    "pending_proposals": 0,
+    "record_count": 9
+  },
+  "automations": {
+    "vesuvius": {
+      "status": "ACTIVE",
+      "rrule": "FREQ=DAILY;BYHOUR=9;BYMINUTE=0;BYSECOND=0",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "high",
+      "notification_policy": "failed_runs_only"
+    },
+    "vesuvius-heartbeat": {
+      "status": "ACTIVE",
+      "rrule": "FREQ=MINUTELY;INTERVAL=30",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "notification_policy": "failed_runs_only"
+    }
+  },
+  "active_native_research_processes": [],
+  "free_bytes": {
+    "C:/": 2423422976,
+    "D:/": 123890565120
+  },
+  "external_publication": false
+}

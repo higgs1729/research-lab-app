@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-11-15T07:30:39.667469+00:00",
+  "originals_hashes_checked": 16,
+  "fixed_git_blobs_checked": 13,
+  "native_crops_exact": 12,
+  "native_crop_pixels_checked": 13107200,
+  "claim_matches_author_sidecar_sha": true,
+  "limits": "Pixel provenance only; coloured author displays contain source annotation and are not raw ink probabilities or new discoveries."
+}

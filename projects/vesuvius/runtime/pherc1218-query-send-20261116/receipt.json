@@ -1,0 +1,18 @@
+{
+  "url": "https://github.com/Jinhojeong/vesuvius-surface-geometry-diagnostic/issues/2",
+  "issue_number": 2,
+  "author": "higgs1729",
+  "created_at_utc": "2026-11-16T05:23:34Z",
+  "state": "open",
+  "comments": 0,
+  "title": "Availability of native PHerc1218 hazard-demo render and prediction maps",
+  "body": "Hi, thank you for publishing the PHerc1218 hazard-weighted GrowPatch comparison and its limitations.\n\nI am reviewing the example documented in [the evidence gallery](https://github.com/Jinhojeong/vesuvius-surface-geometry-diagnostic/blob/34011216020f5bdb3070f5693f0e2721616e1c28/docs/evidence_gallery/INDEX.md) and [ink1218_demo.json](https://github.com/Jinhojeong/vesuvius-surface-geometry-diagnostic/blob/34011216020f5bdb3070f5693f0e2721616e1c28/results/ink9um_1218/ink1218_demo.json): `demo_out/powered/s1_z224_tile_y1792_x1344/B_r1`, with the documented 28 × 1041 × 1041 render at 8.64 µm.\n\nAre the existing native prediction maps for the four checkpoints (seed 42/43, step 20k/75k, both directions) and the corresponding unresized CT middle slice available publicly? A link to the existing files, their image orientation/padding, and the corresponding surface identity would help us inspect them without repeating inference. I found the composite figure and summary records, but could not locate those original maps in the repository or release listings.\n\nIf they are not available, a brief confirmation is also useful; there is no need to generate anything new. This is a request to inspect existing outputs, not a claim of new letters. Thank you.\n",
+  "draft_sha256": "03b1ec7686b7e80304aacab3db1d0ac13aa14f926b624fce43b4bb00c8dca6e4",
+  "verification": {
+    "title_match": true,
+    "body_match": true,
+    "author_match": true
+  },
+  "write_route": "GitHub CLI; connector issue creation returned HTTP403",
+  "readback_route": "GitHub connector public REST fetch"
+}

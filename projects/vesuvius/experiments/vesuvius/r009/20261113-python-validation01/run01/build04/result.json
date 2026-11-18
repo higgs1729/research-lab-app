@@ -1,0 +1,33 @@
+{
+  "extension": "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/build04/_reader.cpython-312-x86_64-linux-gnu.so",
+  "extension_sha256": "0f9f580c7ab68918b2ad1d8ef54535938d71736e701ee674fb1c157eb0e91cef",
+  "catalog_extension": "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/build04/_catalog.cpython-312-x86_64-linux-gnu.so",
+  "catalog_extension_sha256": "5cc8615c17d0414afb94ed1c79d8e1202bd2fd17c60409d6394d8bca9d0b9ab5",
+  "catalog_binding_compile": {
+    "directory": "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/build",
+    "command": "/usr/bin/g++ -D_catalog_EXPORTS -I/mnt/d/kensyoukin-work/r003-villa/vc_reader/include -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include/python3.12 -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/site/nanobind/include -std=gnu++20 -fPIC -fvisibility=hidden -o CMakeFiles/_catalog.dir/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/catalog_bindings.cpp.o -c /mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/catalog_bindings.cpp",
+    "file": "/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/catalog_bindings.cpp",
+    "output": "CMakeFiles/_catalog.dir/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp/catalog_bindings.cpp.o"
+  },
+  "catalog_binding_sha256": "47eac1fd362ac6fea79c14671c75fa2d3e65b099ca443c9e262d809491fe58f9",
+  "reused_reader_from": "build03",
+  "binding_compile": {
+    "directory": "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/build",
+    "command": "/usr/bin/g++ -D_reader_EXPORTS -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/source/vc_reader/include -I/mnt/d/kensyoukin-work/r003-villa/vc_reader/src/cpp -I/mnt/d/kensyoukin-work/r003-villa/volume-cartographer/core/include -I/mnt/d/kensyoukin-work/r003-villa/vc_reader/include -I/mnt/d/kensyoukin-work/r003-build/reader/include -I/mnt/d/kensyoukin-work/r003-build/_deps/vc_delta3d-src/include -I/mnt/d/kensyoukin-work/r003-villa/vc_reader/third_party/volcomp -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/python-dev/usr/include/python3.12 -I/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/site/nanobind/include -std=gnu++20 -fPIC -fvisibility=hidden -o CMakeFiles/_reader.dir/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/source/vc_reader/src/cpp/bindings.cpp.o -c /mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/source/vc_reader/src/cpp/bindings.cpp",
+    "file": "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/source/vc_reader/src/cpp/bindings.cpp",
+    "output": "CMakeFiles/_reader.dir/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/source/vc_reader/src/cpp/bindings.cpp.o"
+  },
+  "patched_header": "/mnt/c/dev/kensyoukin/.work/r009-python-validation01/run01/source/vc_reader/include/vc_reader/zarr_write.hpp",
+  "patched_header_sha256": "7e25215511819d5f4feb0dc9bfd4dc2aee4b4f68a3d7b67621a01abe4f2a4eca",
+  "nanobind_compiled_sources": 11,
+  "pyramid_symbols": [
+    "0000000000d6db9a T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::CreateOptions const&, vcr::zarr::PyramidOptions const&)",
+    "0000000000d6df16 T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::CreateOptions const&, vcr::zarr::PyramidOptions const&, bool)",
+    "0000000000d6eae1 T vcr::zarr::createPyramidLevels(std::filesystem::__cxx11::path const&, vcr::zarr::PyramidOptions const&, bool)"
+  ],
+  "dynamic_elf": "\nDynamic section at offset 0xfec6e8 contains 30 entries:\n  Tag        Type                         Name/Value\n 0x0000000000000001 (NEEDED)             Shared library: [libvc_reader_native.so]\n 0x0000000000000001 (NEEDED)             Shared library: [libstdc++.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libm.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [libgcc_s.so.1]\n 0x0000000000000001 (NEEDED)             Shared library: [libc.so.6]\n 0x0000000000000001 (NEEDED)             Shared library: [ld-linux-x86-64.so.2]\n 0x000000000000001d (RUNPATH)            Library runpath: [/mnt/d/kensyoukin-work/r003-build/reader]\n 0x000000000000000c (INIT)               0x6ea000\n 0x000000000000000d (FINI)               0xd89eb8\n 0x0000000000000019 (INIT_ARRAY)         0xfea1f0\n 0x000000000000001b (INIT_ARRAYSZ)       16 (bytes)\n 0x000000000000001a (FINI_ARRAY)         0xfea200\n 0x000000000000001c (FINI_ARRAYSZ)       8 (bytes)\n 0x000000006ffffef5 (GNU_HASH)           0x328\n 0x0000000000000005 (STRTAB)             0xb5a30\n 0x0000000000000006 (SYMTAB)             0x2ab00\n 0x000000000000000a (STRSZ)              6057656 (bytes)\n 0x000000000000000b (SYMENT)             24 (bytes)\n 0x0000000000000003 (PLTGOT)             0xfedfe8\n 0x0000000000000002 (PLTRELSZ)           349752 (bytes)\n 0x0000000000000014 (PLTREL)             RELA\n 0x0000000000000017 (JMPREL)             0x693bf0\n 0x0000000000000007 (RELA)               0x6884c0\n 0x0000000000000008 (RELASZ)             46896 (bytes)\n 0x0000000000000009 (RELAENT)            24 (bytes)\n 0x000000006ffffffe (VERNEED)            0x688230\n 0x000000006fffffff (VERNEEDNUM)         5\n 0x000000006ffffff0 (VERSYM)             0x67c8e8\n 0x000000006ffffff9 (RELACOUNT)          899\n 0x0000000000000000 (NULL)               0x0\n",
+  "elapsed_seconds": 51.364824044,
+  "cumulative_build_seconds": 344.443941754,
+  "max_child_rss_bytes": 1033629696,
+  "C_work_bytes": 356419886
+}

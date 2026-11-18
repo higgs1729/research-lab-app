@@ -1,0 +1,156 @@
+{
+  "date_jst": "2026-11-14",
+  "tile_inversion_candidates": [
+    {
+      "xywh": [
+        768,
+        768,
+        768,
+        768
+      ],
+      "max_abs_residual": 4
+    },
+    {
+      "xywh": [
+        768,
+        384,
+        768,
+        768
+      ],
+      "max_abs_residual": 356
+    },
+    {
+      "xywh": [
+        384,
+        768,
+        768,
+        768
+      ],
+      "max_abs_residual": 367
+    },
+    {
+      "xywh": [
+        1152,
+        768,
+        768,
+        768
+      ],
+      "max_abs_residual": 378
+    },
+    {
+      "xywh": [
+        384,
+        1152,
+        768,
+        768
+      ],
+      "max_abs_residual": 393
+    },
+    {
+      "xywh": [
+        768,
+        1152,
+        768,
+        768
+      ],
+      "max_abs_residual": 394
+    },
+    {
+      "xywh": [
+        1152,
+        1152,
+        768,
+        768
+      ],
+      "max_abs_residual": 398
+    },
+    {
+      "xywh": [
+        384,
+        384,
+        768,
+        768
+      ],
+      "max_abs_residual": 431
+    },
+    {
+      "xywh": [
+        1152,
+        384,
+        768,
+        768
+      ],
+      "max_abs_residual": 434
+    },
+    {
+      "xywh": [
+        1152,
+        0,
+        768,
+        768
+      ],
+      "max_abs_residual": 660
+    },
+    {
+      "xywh": [
+        0,
+        384,
+        768,
+        768
+      ],
+      "max_abs_residual": 674
+    },
+    {
+      "xywh": [
+        0,
+        768,
+        768,
+        768
+      ],
+      "max_abs_residual": 700
+    },
+    {
+      "xywh": [
+        0,
+        1152,
+        768,
+        768
+      ],
+      "max_abs_residual": 714
+    },
+    {
+      "xywh": [
+        768,
+        0,
+        768,
+        768
+      ],
+      "max_abs_residual": 724
+    },
+    {
+      "xywh": [
+        384,
+        0,
+        768,
+        768
+      ],
+      "max_abs_residual": 803
+    },
+    {
+      "xywh": [
+        0,
+        0,
+        768,
+        768
+      ],
+      "max_abs_residual": 849
+    }
+  ],
+  "unique_match_within_axis_snap5": true,
+  "conservative_cells": 2704,
+  "conservative_ct_keys": 132,
+  "conservative_ct_bytes": 276824064,
+  "scope": "The selected tile is inferred from the published seed-generation recipe and six coordinates. Raw ink-map tile scores and the surface-prediction snap itself were not recomputed. The key bound is a pre-observer estimate for linear geometry and unit normals, not a CT acquisition receipt.",
+  "new_network_bytes": 0,
+  "new_render_or_model_calls": 0
+}

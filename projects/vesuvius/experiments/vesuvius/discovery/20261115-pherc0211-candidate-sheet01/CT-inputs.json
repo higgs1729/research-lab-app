@@ -1,0 +1,183 @@
+{
+  "plan_sha256": "7cb7186301853468d18cacfc375ad78c0aa20b9b05cbc7b273b5ea70e4fcf352",
+  "records": [
+    {
+      "key": "0/56/26/26",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\ct.zarr\\0\\56\\26\\26",
+      "bytes": 2097152,
+      "sha256": "494d0cfb00a6e1ed8aef02f67990a69fc73a6e386902676e31038b1ef8cb4adb"
+    },
+    {
+      "key": "0/56/27/24",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\ct.zarr\\0\\56\\27\\24",
+      "bytes": 2097152,
+      "sha256": "bef4c1aa714ae4b3277ef6eb4423cef5eaf361bca739fe4da9cd44036fe4c2a4"
+    },
+    {
+      "key": "0/56/27/25",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\ct.zarr\\0\\56\\27\\25",
+      "bytes": 2097152,
+      "sha256": "e883070ff2c301dc9963fc997ef2b3fbe49256c1b9c326a5cd2afc6746f54e40"
+    },
+    {
+      "key": "0/56/27/26",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\ct.zarr\\0\\56\\27\\26",
+      "bytes": 2097152,
+      "sha256": "0a0ad66204d4b4d8b7ed3612e8a9d2ed57f2c635b5a51847f5a65d41c5992972"
+    },
+    {
+      "key": "0/57/26/25",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\ct.zarr\\0\\57\\26\\25",
+      "bytes": 2097152,
+      "sha256": "0b1107d87ebada5b93585d8653932d5b0994251100926befabd517a9eb545f5d"
+    },
+    {
+      "key": "0/57/26/26",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\ct.zarr\\0\\57\\26\\26",
+      "bytes": 2097152,
+      "sha256": "a8978a5587ca9395ae228dcfb91daed3cdaecdb787075be3c3d5b99e6bf28c6b"
+    },
+    {
+      "key": "0/57/26/27",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\ct.zarr\\0\\57\\26\\27",
+      "bytes": 2097152,
+      "sha256": "03b0a7f1faeee86d19b9ebe2d19a1e650be3a9f33242cec2d505e8748b2b6084"
+    },
+    {
+      "key": "0/57/27/24",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\ct.zarr\\0\\57\\27\\24",
+      "bytes": 2097152,
+      "sha256": "0a0a02a530699108c41819c5a9cbba7e2b86db7cfb2dee43aa126e51a1bee45a"
+    },
+    {
+      "key": "0/57/27/25",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\ct.zarr\\0\\57\\27\\25",
+      "bytes": 2097152,
+      "sha256": "4701193bfd7cc5b4e7c12592ccd903be2b03a4dfe193b5725428cffa2c447269"
+    },
+    {
+      "key": "0/57/27/26",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\ct.zarr\\0\\57\\27\\26",
+      "bytes": 2097152,
+      "sha256": "1a0a7e33672cc0e1143de4bfb91d2ea7a7cd05ffd381f2bba3d1a480d8db7dcd"
+    },
+    {
+      "key": "0/57/27/27",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\ct.zarr\\0\\57\\27\\27",
+      "bytes": 2097152,
+      "sha256": "ea9a13addcef6f3015f7ed31b16ce29036a8fbe8f82a85990594b9b4b8736602"
+    },
+    {
+      "key": "0/57/28/24",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-parent-window01\\ct.zarr\\0\\57\\28\\24",
+      "bytes": 2097152,
+      "sha256": "28b89d8ee93207ba11c6a2fdd0feb6e4f255bf22e505635256b08fd1b17c5cd3"
+    },
+    {
+      "key": "0/64/26/27",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\64\\26\\27",
+      "bytes": 2097152,
+      "sha256": "6bef874dd7cb8e4d41e33b87c5be8d4e0222b1b8acc0a32e63b3df2af7d83196"
+    },
+    {
+      "key": "0/64/26/28",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\64\\26\\28",
+      "bytes": 2097152,
+      "sha256": "4c7017626330ee79b348b4b348889e9ff06fbbc08775df868d33a9d9eb84f5f1"
+    },
+    {
+      "key": "0/65/25/26",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\65\\25\\26",
+      "bytes": 2097152,
+      "sha256": "7fc2e34c60cd4af08891510e4d8a3db8684b0ff7199ceaf3e2ad866f4f32eeb3"
+    },
+    {
+      "key": "0/65/25/27",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\65\\25\\27",
+      "bytes": 2097152,
+      "sha256": "827fb0fd7b8d0092948d5f113b3c8f2a9feae7c3d109ec1ca3db0b24cf0e5183"
+    },
+    {
+      "key": "0/65/25/28",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\65\\25\\28",
+      "bytes": 2097152,
+      "sha256": "f0c9631a74617fee6fe165389d6be5ad890de0b8cf5d10562cc62a09b9ded46a"
+    },
+    {
+      "key": "0/65/26/26",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\65\\26\\26",
+      "bytes": 2097152,
+      "sha256": "341dba93765483684c55f0e096b07cbe8b8ed97de63049cfc519542573d47381"
+    },
+    {
+      "key": "0/65/26/27",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\65\\26\\27",
+      "bytes": 2097152,
+      "sha256": "84a50698192178d097b3d62656723c4d8a35fafa82541fa84d5f34c96469e915"
+    },
+    {
+      "key": "0/65/26/28",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\65\\26\\28",
+      "bytes": 2097152,
+      "sha256": "1820a0ee0fffd9576ef031510af1071ddd994ae11adf5c83591189a6c5659eba"
+    },
+    {
+      "key": "0/66/25/27",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\66\\25\\27",
+      "bytes": 2097152,
+      "sha256": "17ce54ecd34971824006c4fe7821c2579ec79a76167a9e5fe429a7fc2c81c1cf"
+    },
+    {
+      "key": "0/66/25/28",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\66\\25\\28",
+      "bytes": 2097152,
+      "sha256": "2e9f881f1b0ad920470ec5ab274db2ff03b4f544a381229145db93a7f587b822"
+    },
+    {
+      "key": "0/66/26/27",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\66\\26\\27",
+      "bytes": 2097152,
+      "sha256": "0216d020bb4d1139fd247b40cff1d9d22500f827d5444832176bf59b25941fe3"
+    },
+    {
+      "key": "0/66/26/28",
+      "reused": true,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-right-edge-ct01\\ct.zarr\\0\\66\\26\\28",
+      "bytes": 2097152,
+      "sha256": "9f86bff1bb1cfa0a5881d3bc89332dd3790e926958ea09788bcc35c6e2bdbd0d"
+    },
+    {
+      "key": "0/65/26/29",
+      "reused": false,
+      "path": "C:\\dev\\kensyoukin\\experiments\\vesuvius\\discovery\\20261115-pherc0211-candidate-sheet01\\ct.zarr\\0\\65\\26\\29",
+      "bytes": 2097152,
+      "sha256": "5c1869eed5e035a3dc52e65c4094fbb523545a4bd8c593040b6f0df4454f7b41"
+    }
+  ],
+  "new_bytes": 2097152,
+  "reused_bytes": 50331648,
+  "existing_CT_copied": false
+}

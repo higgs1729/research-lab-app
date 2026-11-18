@@ -1,0 +1,33 @@
+{
+  "new_raw_ct_chunks": 73,
+  "new_raw_ct_body_bytes": 153092096,
+  "metadata_body_bytes": 3281,
+  "ct_head_and_get_elapsed_seconds": 204.34125920000952,
+  "ct_network_deadline_seconds": 300,
+  "ct_get_retries": 0,
+  "sample_count": 417780,
+  "compute_elapsed_seconds": 2.3506287000200246,
+  "compute_deadline_seconds": 300,
+  "compute_peak_working_set_bytes": 114294784,
+  "fetch_peak_working_set_bytes": 49606656,
+  "single_cpu_affinity": {
+    "ct": [
+      0
+    ],
+    "render": [
+      0
+    ]
+  },
+  "process_commit_limit_bytes": 4294967296,
+  "C_disk_check": {
+    "c_free_bytes": 13947441152,
+    "work_bytes": 154780403
+  },
+  "D_write_bytes": 0,
+  "model_forward_calls": 0,
+  "GPU_seconds": 0,
+  "cloud_cost_usd": 0,
+  "paid_compute_instances_started": 0,
+  "posts_or_submissions": 0,
+  "redelegations": 0
+}

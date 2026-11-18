@@ -1,0 +1,8 @@
+{
+  "utc": "2026-11-14T16:53:27.623678+00:00",
+  "native_panels": 12,
+  "source_pixels_exact": 3035136,
+  "all_main_areas_exactly_once_per_CT_or_prediction": true,
+  "all_recovered_PNGs_identical_to_local_outputs": true,
+  "new_model_or_image_manipulation": 0
+}

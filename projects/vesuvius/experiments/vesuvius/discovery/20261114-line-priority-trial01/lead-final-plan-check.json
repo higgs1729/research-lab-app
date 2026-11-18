@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-14T13:29:56.544124+00:00",
+  "reviewer": "root",
+  "frozen_plan_sha256": "81c19b37d51b7fa106d351130fb6d33a5cb3b412fbab292345b826f9e0b03577",
+  "earlier_review_plan_sha256": "ce299b782055daa030d404948c732b7bfcfc0b383b7c646af177085a3780ae07",
+  "frozen_manifest_matches": true,
+  "reread_full_final_plan": true,
+  "reason": "Final text adds comparison with the saved independent row reference and clarifies exposed positive control / common detector candidate set / no held-out or human-ranking claims. Full final plan re-read before detector execution. Input cases, normalization, angles, score components, top3, row-match rule, budgets and stop conditions remain approved.",
+  "decision": "Proceed with the frozen final plan; keep earlier review as historical evidence."
+}

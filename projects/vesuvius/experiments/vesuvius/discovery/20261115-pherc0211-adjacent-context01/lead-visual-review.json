@@ -1,0 +1,33 @@
+{
+  "reviewer": "root lead, independent of acquiring agent",
+  "date_utc": "2026-11-15",
+  "reviewed_images": [
+    "review/v9-overview-quarter.png",
+    "review/right-adjacent-turbo-native.png",
+    "review/right-adjacent-probability01-native.png",
+    "review/upper-context-turbo-native.png",
+    "review/upper-context-probability01-native.png",
+    "review/row2-right-edge-turbo-native.png",
+    "review/row2-right-edge-probability01-native.png",
+    "review/row2-right-edge-ct-native.png"
+  ],
+  "selected_followup_count": 1,
+  "selected_followup": {
+    "surface": "PHerc0211-crop1711-lines123-manual-20261028-1316-legacyuv20-v9",
+    "image_roi_xywh": [5600,680,420,480],
+    "observation": "A vertically curved response at the right end of row two has its upper-right branch cut by the valid-data boundary. It is visible both in the fixed raw 0-to-1 grayscale and the colour overlay; the edge is also visible in the underlying rendered CT.",
+    "question": "Can the same physical paper surface be followed a short distance beyond this released mesh boundary, allowing a subsequent observation of whether the stroke continues or changes with restored context?",
+    "next_step": "One bounded original-CT inspection with fixed grid-node anchors and a known-row reference. No new inference or surface extension was performed in R234.",
+    "existing_v6_parent": "Independent exhaustive nearest-node verification agrees that the available parent does not simply provide adjacent UV coverage past this edge. Nearby nodes on distant UV positions cannot be used as a continuation just because they are close in 3D."
+  },
+  "not_selected": "Upper-row and immediately adjacent right-hand responses are already public and do not alone define a new observation. They remain context rather than separate follow-up studies.",
+  "new_letters_confirmed": 0,
+  "novelty": "All responses reviewed here were publicly supplied by the winner. This is selection of a potential new observation, not discovery of a new letter or proof that the region was previously unread.",
+  "verification": ["lead-source-check.json", "lead-geometry-check.json", "lead-article-review.json"],
+  "limitations": [
+    "The valid-data boundary is not yet identified as a physical tear versus an artificial limit of the saved mesh.",
+    "Published predictions and known-text comparisons do not independently prove local paper identity.",
+    "No transcription is assigned to the selected response.",
+    "The next experiment should answer a finite continuation question; uncertainty alone does not justify indefinite local CT inspection."
+  ]
+}

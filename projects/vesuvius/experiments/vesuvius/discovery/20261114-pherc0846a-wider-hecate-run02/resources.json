@@ -1,0 +1,31 @@
+{
+  "dedicated_pod_id": "454gtwei28qt70",
+  "dedicated_pod_lifetime_observation_seconds": 605.9657538,
+  "dedicated_pod_lifetime_basis": "Create request epoch to verified deletion/list absence; not provider-metered duration.",
+  "dedicated_estimated_cost_usd": "0.1502757664130555555555555556",
+  "estimate_inputs": {
+    "compute_usd_hour": "0.89",
+    "container_gb": 20,
+    "container_usd_gb_month": "0.10",
+    "month_days": 30,
+    "tax_included": false
+  },
+  "dedicated_actual_cost_usd": null,
+  "dedicated_billing_checked_utc": "2026-11-14T12:54:40.170155+00:00",
+  "dedicated_billing_rows": 0,
+  "account_wide_observed_balance_change_usd": "0.3739071990",
+  "account_balance_scope": "Includes an independently running Pod preserved across this study.",
+  "pod_create_posts": 1,
+  "pod_retries": 0,
+  "dedicated_delete_confirmed": true,
+  "other_pods_preserved": true,
+  "new_ct_bytes": 0,
+  "new_local_cpu_reference_forward_calls": 0,
+  "remote_gpu_forward_calls": 1922,
+  "worker_elapsed_seconds": 106.27195891644806,
+  "remote_checkpoint_bytes": 522576086,
+  "input_tar_bytes": 35512320,
+  "result_tar_bytes": 37847040,
+  "worker_peak_rss_bytes": 1721864192,
+  "worker_peak_gpu_reserved_bytes": 897581056
+}

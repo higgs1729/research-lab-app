@@ -1,0 +1,45 @@
+{
+  "utc": "2026-11-14T13:04:45.911811+00:00",
+  "reviewer": "root",
+  "fixed_tree_sha": "1f12c1ceb14c1f24acc48249eaad60bcdf541721",
+  "checked_original_blob_files": [
+    "originals/p191_a.jpg",
+    "originals/p191_a-card.json",
+    "originals/p191_a-mesh-meta.json",
+    "originals/PHerc0257_3549_4692_13210.jpg",
+    "originals/PHerc0257_3549_4692_13210-card.json",
+    "originals/PHerc0257_3549_4692_13210-mesh-meta.json",
+    "originals/PHerc0268_9054_2867_6674.jpg",
+    "originals/PHerc0268_9054_2867_6674-card.json",
+    "originals/PHerc0268_9054_2867_6674-mesh-meta.json"
+  ],
+  "read_author_definition": "20261114-atlas-known-control01/survey-readme.md: Sheet check uses fraction of 512px tiles with median crossness >=.31, pass fraction >=.40. This is an empirical heuristic, not proof of a physical sheet.",
+  "excluded_source_tags": [
+    "PHerc0191_2707_2976_13281",
+    "PHerc0257_3904_6108_9436",
+    "PHerc0268_2704_5907_7421"
+  ],
+  "alternative_tags": [
+    "p191_a",
+    "PHerc0257_3549_4692_13210",
+    "PHerc0268_9054_2867_6674"
+  ],
+  "viewed_images": [
+    "experiments\\vesuvius\\discovery\\20261114-unread-surface-evidence01\\originals\\p191_a.jpg",
+    "experiments\\vesuvius\\discovery\\20261114-unread-surface-evidence01\\originals\\PHerc0257_3549_4692_13210.jpg",
+    "experiments\\vesuvius\\discovery\\20261114-unread-surface-evidence01\\originals\\PHerc0268_9054_2867_6674.jpg"
+  ],
+  "observations": {
+    "p191_a": "Upper-left broad merged response adjacent to CT gap, isolated points on right. No independent stroke sequence selected.",
+    "PHerc0257_3549_4692_13210": "Connected blobs along upper boundary, coarse patches near central dark oblique boundary; lower-right patches have varying width/direction.",
+    "PHerc0268_9054_2867_6674": "Isolated responses and broad short vertical patches near cracks; no continuous line selected."
+  },
+  "selected_roi": null,
+  "decision": "No justification from these three processed cards for committing CT/model resources to a specific readable region.",
+  "limits": [
+    "Cards are processed JPEGs containing agreed top responses restricted to a heuristic sheet mask.",
+    "Not a native continuous-probability negative result.",
+    "No claim of ink absence or failure of the entire scroll.",
+    "Card-pixel to native coordinate mapping and physical sheet identity are unverified."
+  ]
+}
